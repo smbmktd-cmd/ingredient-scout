@@ -17,7 +17,6 @@
       <div>
         <p class="eyebrow" id="team-label">膳食補充品原料日選</p>
         <h1>原料日選</h1>
-        <p class="lede">知道連結就能表態。此頁不登入，也不索取姓名。</p>
       </div>
     </div>
     <div class="datebox">
@@ -59,34 +58,6 @@
       <input id="share-url" type="text" readonly>
     </label>
   </section>
-  <details class="staff" id="staff">
-    <summary>工作人員：合併多人投票</summary>
-    <div class="staff-body">
-      <p>請同事各下載一份 JSON，或貼上他們的分享連結。完全相同的檔案只算一次。這裡一樣不記錄是誰投的。若已接上試算表，頁面上方的團隊累計才是即時數字；這裡用來覆核下載檔。</p>
-      <label class="file">
-        匯入投票檔
-        <input id="files" type="file" accept="application/json,.json,.txt" multiple>
-      </label>
-      <label for="paste">或貼上 JSON、分享連結</label>
-      <textarea id="paste" rows="4" placeholder="貼上投票 JSON，或含有 #ballot= 的連結"></textarea>
-      <div class="row-actions">
-        <button type="button" id="import-paste">併入彙總</button>
-        <button type="button" id="download-summary" class="primary">下載彙總 JSON</button>
-        <button type="button" id="clear-tray" class="quiet">清空彙總區</button>
-      </div>
-      <p id="tray-note"></p>
-      <ul id="tray" class="tray"></ul>
-      <div class="table-wrap">
-        <table id="summary">
-          <caption>選定日期的贊成與反對</caption>
-          <thead>
-            <tr><th>原料</th><th>贊成</th><th>反對</th><th>備註</th></tr>
-          </thead>
-          <tbody></tbody>
-        </table>
-      </div>
-    </div>
-  </details>
   <details class="help">
     <summary>怎麼投、資料存在哪</summary>
     <div class="help-body">
@@ -94,7 +65,7 @@
         <li>選日期。每天的原料來自儲存庫的 <code>data/days</code>。</li>
         <li>每筆原料選「贊成」或「反對」，備註可留白。不要寫姓名、部門、電話或信箱。</li>
         <li>同一台瀏覽器再按一次會改掉原來的選擇，不會變成兩票。</li>
-        <li>下載 JSON 或複製分享連結，交給負責彙總的同事。沒有設定收集端時，這是把票交出去的做法。</li>
+        <li>這台裝置的表態可下載 JSON 留底。大家的數字看頁面上方的團隊累計。</li>
         <li>若已接上試算表，打開頁面就會看到「團隊累計」，表態後會自動同步。那個數字和「本機」分開。</li>
         <li>Formspree 只做收件備份。兩個網址都寫在公開的設定檔，知道網址的人都能送資料。</li>
       </ol>

@@ -77,7 +77,7 @@ function checkIngredient(entry) {
     ["taiwan_agent", "taiwan_distributor"].includes(data.supply?.relationship) &&
     !String(data.supply?.taiwanPartyName || "").trim()
   ) {
-    fail(where + " 標成代理或經銷時，要填台灣窗口名稱");
+    fail(where + " 標成代理或經銷時，要填台灣關聯廠商名稱");
   }
   if (!schema.enums["tfda.usable"].includes(data.tfda?.usable)) fail(where + " 的 TFDA 狀態不在清單內");
   if (!isDate(data.tfda?.lookupDate)) fail(where + " 的 lookupDate 不是有效日期");
@@ -251,6 +251,18 @@ function checkDocs() {
   if (!/submitEndpoint:\s*""/.test(config)) fail("submitEndpoint 應保持空白");
   for (const needle of ["team-panel", "team-summary", "dock-team", "sync-note"]) {
     if (!html.includes(needle)) fail("投票頁缺少：" + needle);
+  }
+  if (html.includes("知道連結就能表態") || html.includes("不索取姓名")) {
+    fail("投票頁不應再顯示頁首那句表態說明");
+  }
+  if (app.includes("day-note") || /banner\.append\([\s\S]{0,80}day\.notes/.test(app)) {
+    fail("投票頁不應再顯示日報 notes");
+  }
+  if (html.includes("工作人員：合併多人投票") || html.includes('id="staff"') || html.includes("下載彙總 JSON")) {
+    fail("投票頁不應再顯示合併多人投票");
+  }
+  if (app.includes("renderTray") || app.includes('id="staff"') || app.includes("$(\"staff\")")) {
+    fail("投票頁腳本不應再合併多人投票");
   }
   for (const needle of ["tallyEndpoint", "formspreeEndpoint", "text/plain;charset=utf-8", "團隊累計", "ballotId"]) {
     if (!app.includes(needle)) fail("投票頁腳本缺少：" + needle);

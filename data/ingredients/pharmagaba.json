@@ -12,11 +12,11 @@
     "supplierCountry": "日本",
     "relationship": "taiwan_agent",
     "taiwanPartyName": "統園企業股份有限公司",
-    "relationshipNote": "僅有單方說法。統園產品頁寫「PharmaGABA 由統園企業獨家代理」。PharmaGABA 官網與 2026-08-04 的 Vitafoods Asia 稿寫的合作對象是 Mitsubishi Corporation Life Sciences，沒有寫統園。官網沒有互相指名，所以代理關係還沒有第二份來源。"
+    "relationshipNote": "統園產品頁寫「PharmaGABA 由統園企業獨家代理」。PharmaGABA 官網與 2026-08-04 的 Vitafoods Asia 稿寫的合作對象是 Mitsubishi Corporation Life Sciences，沒有寫統園。獨家代理是統園單方說法。"
   },
   "tfda": {
     "usable": "listed_food_ingredient",
-    "evidenceNotes": "查詢助手食品原料「γ-胺基丁酸」與 GABA 各 1 筆，是同一筆，次分類微生物及其來源製取之原料，不是未確認安全性。規定以 Lactobacillus hilgardii 或 Lactobacillus brevis 發酵、再純化；含量不得低於 20%；每日食用量以 γ-胺基丁酸計 100 毫克。警語自 115 年 1 月 1 日生效：避免同時飲酒或服用降血壓、鎮靜及癲癇等藥物；孕婦、授乳者、嬰幼兒須諮詢醫師。商品名 PharmaGABA 為 0 筆。食品添加物 GABA 與 γ-胺基丁酸為 0 筆。官網只寫泡菜分離的乳酸菌，沒有寫到 hilgardii 或 brevis，也沒寫含量百分比，所以不能把商品直接當成已符合菌種與 20% 規格。效益頁出現的 200 毫克高於每日 100 毫克上限。",
+    "evidenceNotes": "食品原料查到 γ-胺基丁酸 1 筆，添加物與商品名 PharmaGABA 都是 0 筆，不是未確認安全性。須以 Lactobacillus hilgardii 或 Lactobacillus brevis 發酵後純化，含量不得低於 20%，每日以 γ-胺基丁酸計 100 毫克。自 115 年 1 月 1 日起須標示避免同時飲酒或服用降血壓、鎮靜及癲癇藥物，孕婦、授乳者與嬰幼兒須諮詢醫師。官網沒寫這兩個菌名或含量百分比，不能把商品直接當成已符合規格。",
     "lookupDate": "2026-11-05",
     "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
     "queries": [
@@ -95,7 +95,7 @@
       "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
       "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
       "done": true,
-      "notes": "2026-11-05 嘗試開啟消費者專區原料頁與添加物頁：HTTPS 握手被對端關閉（OpenSSL unexpected eof），HTTP 得到 502 Bad Gateway。data.fda.gov.tw 開放資料匯出同樣無法完成 TLS，所以沒有點開線上詳細頁。下列分類、名稱與備註抄自同日可開啟的查詢助手詳細欄位（助手標示 detailsScraped 2026-11-05 06:21）。這不是健康食品許可證。本筆依助手詳細欄位做成原料有列，並抄下菌種、20%、每日 100 毫克與警語。線上官方 HTML 未打開。"
+      "notes": "2026-11-05 官方原料頁與添加物頁打不開，這次列名依同日查詢助手，不是另一次線上核對。"
     }
   },
   "efficacy": {
@@ -104,7 +104,7 @@
       "效益頁彙整：含 50 mg GABA 的飲料與壓力指標有關；100 mg 使用一週與縮短入睡時間、增加非快速動眼睡眠有關；認知比較表同時列了 100 mg 與 200 mg。這些是供應商對研究的整理，本次沒有打開所引論文。"
     ],
     "suggestedDosage": "效益頁寫到 50 mg 與 100 mg，認知表還列了 200 mg。頁上沒有另寫「建議每日只吃多少」。",
-    "dosageNote": "50 mg、100 mg、200 mg 都是供應商效益頁的研究整理。台灣每日食用限量以 γ-胺基丁酸計為 100 毫克，200 mg 高於這個上限。含量還須不低於 20%，官網這次沒寫百分比。"
+    "dosageNote": "效益頁的 200 毫克高於每日 100 毫克上限；50 mg 與 100 mg 是同一頁整理的研究劑量。"
   },
   "patent": {
     "status": "unknown",
@@ -162,6 +162,6 @@
   "discovery": {
     "channel": "exhibition",
     "scoutDate": "2026-11-05",
-    "notes": "從 PharmaGABA 的 Vitafoods Asia 2026 攤位稿開始，對官網的發酵製程與效益頁的毫克數，再看統園是否自稱為台灣窗口。TFDA 的菌種與每日 100 毫克是用助手同一筆原料抄的，沒有把 200 毫克寫成可用劑量。"
+    "notes": "從 PharmaGABA 的 Vitafoods Asia 2026 攤位稿開始，對官網的發酵製程與效益頁的毫克數，再看統園產品頁。該頁自稱為獨家代理，供應商頁沒有互指。TFDA 的菌種與每日 100 毫克是用助手同一筆原料抄的，沒有把 200 毫克寫成可用劑量。"
   }
 }

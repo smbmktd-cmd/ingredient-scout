@@ -42,7 +42,7 @@
 | --- | --- |
 | 台灣能不能當食品原料／添加物、證據註記、查詢日 | `tfda.usable`、`tfda.evidenceNotes`、`tfda.lookupDate` |
 | 供應商、國家 | `supply.supplierName`、`supply.supplierCountry` |
-| 供應商與台灣代理／經銷的關係 | `supply.relationship`、`supply.taiwanPartyName`、`supply.relationshipNote` |
+| 供應商與台灣關聯廠商 | `supply.relationship`、`supply.taiwanPartyName`、`supply.relationshipNote` |
 | 學名、俗名、商品名 | `names.scientific`、`names.commonZh`、`names.commonEn`、`names.trade` |
 | 宣稱效益、建議劑量 | `efficacy.claimedBenefits`、`efficacy.suggestedDosage` |
 | 專利、文獻 | `patent.status`、`literature.status`（`yes`／`no`／`unknown`） |
@@ -148,11 +148,9 @@ https://smbmktd-cmd.github.io/ingredient-scout/?date=2026-11-05
 
 1. **本機計數**：只統計這台瀏覽器。沒接試算表時，標題會寫明還不是團隊總數。
 2. **下載投票 JSON**：檔名像 `votes-2026-11-05.json`。一份檔案是一張匿名票，同一原料只有一列。下載檔不含票號。
-3. **複製分享連結**：連結的 `#ballot=` 後面是同一份投票。同事把連結或 JSON 交給負責彙總的人。
+3. **複製分享連結**：連結的 `#ballot=` 後面是同一份投票。開啟後只會對到該日期，不會改這台裝置已記下的表態。
 
-負責彙總的人打開投票頁下方「工作人員：合併多人投票」，匯入每個人的 JSON 或貼上分享連結。完全相同的檔案只算一次。其他日期的檔案不會算進目前選的那一天。確認張數後下載 `vote-summary-YYYY-MM-DD.json`，需要留底再放到 `data/votes/`。
-
-請每人交最新的一份。同一人先後交了兩版不同內容時，離線彙總會看成兩張票；彙總的人可按「移除」去掉舊的那份。試算表那一條則會覆寫同一張票，不會把改票算成兩個人。
+大家的數字看頁面上方的「團隊累計」。試算表會覆寫同一張匿名票，不會把改票算成兩個人。投票頁不再匯入或合併多份 JSON。
 
 ### Formspree 與試算表各做什麼
 

@@ -11,12 +11,12 @@
     "supplierName": "Richen Nutritionals",
     "supplierCountry": "中國",
     "relationship": "unknown",
-    "taiwanPartyName": "查無",
-    "relationshipNote": "展後稿與 MK-7 產品頁都在 richenglobal.com，商品名是 RiviK2。另開到的 richen-nutritional.com 聯絡頁公司名是 Richen Nutritional Technology Co., Ltd.，地址在上海。兩個網域沒有在同一頁互相連結，只是商品名與公司英文名對得上。沒有看到台灣代理或經銷的名稱。"
+    "taiwanPartyName": "韋鎮實業有限公司",
+    "relationshipNote": "Richen 產品頁與上海聯絡頁沒有寫台灣公司。韋鎮實業有限公司商品頁列出 RiviK2，原廠寫中國，頁上沒有寫代理或經銷。名稱先填韋鎮，關係維持未確認。"
   },
   "tfda": {
     "usable": "listed_food_additive",
-    "evidenceNotes": "查詢助手食品原料「維生素K2」與 Menaquinone 是 0 筆。食品添加物「維生素K2」1 筆：外文 Menaquinone（Vitamin K2），類別營養添加劑。使用範圍是各類食品視實際需要適量使用；使用限制是限於補充食品中不足之營養素時使用。規格欄是空的。商品名 RiviK2、MK-7 在原料與添加物都是 0 筆。另外維生素 K1 是 Phylloquinone、維生素 K3 是 Menadione，不是這一筆。不是未確認安全性分類，也不是健康食品許可。適量使用不等於任何微克數都可以。",
+    "evidenceNotes": "食品原料查無維生素 K2。食品添加物有 1 筆，是營養添加劑 Menaquinone（Vitamin K2），各類食品視實際需要適量使用，且限於補充食品中不足的營養素；規格欄是空的，不是未確認安全性。商品名 RiviK2 與 MK-7 都沒有另列。維生素 K1、K3 是不同品項。",
     "lookupDate": "2026-11-05",
     "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
     "queries": [
@@ -105,7 +105,7 @@
       "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
       "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
       "done": true,
-      "notes": "2026-11-05 嘗試開啟消費者專區原料頁與添加物頁：HTTPS 握手被對端關閉（OpenSSL unexpected eof），HTTP 得到 502 Bad Gateway。data.fda.gov.tw 開放資料匯出同樣無法完成 TLS，所以沒有點開線上詳細頁。下列分類、名稱與備註抄自同日可開啟的查詢助手詳細欄位（助手標示 detailsScraped 2026-11-05 06:21）。這不是健康食品許可證。本筆依助手添加物欄位做成營養添加劑有列。原料分頁沒有同名品項。線上官方 HTML 未打開。"
+      "notes": "2026-11-05 官方原料頁與添加物頁打不開，這次列名依同日查詢助手，不是另一次線上核對。"
     }
   },
   "efficacy": {
@@ -114,7 +114,7 @@
       "產品頁寫 all-trans MK-7 在營養劑量附近較其他維生素 K 同系物更能促進骨鈣素與基質 Gla 蛋白的羧化，並寫半衰期與生物利用率較高。這是供應商句子，不是台灣核准功效。"
     ],
     "suggestedDosage": "查無單一每日建議量。產品頁的錠劑例子是維生素 D3 5 mcg、K2（MK-7）50 mcg、鈣 200 mg，那是配方舉例，不是建議攝取量。",
-    "dosageNote": "50 mcg 只出現在產品頁的配方例子。助手的添加物限制是「視實際需要適量使用」，而且只能在補充食品中不足的營養素時使用。沒有寫每日微克上限。列名不等於 50 mcg 已核准。"
+    "dosageNote": "50 mcg 只出現在產品頁的配方例子，添加物沒有寫每日微克上限。"
   },
   "patent": {
     "status": "unknown",
@@ -158,7 +158,23 @@
       "publisher": "Richen Nutritional Technology",
       "channel": "supplier_site",
       "accessed": "2026-11-05",
-      "whatItContributes": "公司英文名稱與上海地址，用來核對供應商國家。沒有寫台灣窗口。"
+      "whatItContributes": "公司英文名稱與上海地址，用來核對供應商國家。這頁沒有寫台灣公司。"
+    },
+    {
+      "title": "韋鎮實業有限公司",
+      "url": "https://www.phfcorp.com.tw/",
+      "publisher": "韋鎮實業有限公司",
+      "channel": "other",
+      "accessed": "2026-11-05",
+      "whatItContributes": "網站名稱是韋鎮實業有限公司，自述為保健食品原料進出口，商品列有 RiviK2。"
+    },
+    {
+      "title": "韋鎮實業 RiviK2 商品頁",
+      "url": "https://www.phfcorp.com.tw/page/product/show.aspx?num=263",
+      "publisher": "韋鎮實業有限公司",
+      "channel": "other",
+      "accessed": "2026-11-05",
+      "whatItContributes": "商品頁列出 RiviK2，原廠寫中國。頁上沒有寫代理或經銷。"
     }
   ],
   "discovery": {

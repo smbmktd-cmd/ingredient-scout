@@ -12,11 +12,11 @@
     "supplierCountry": "荷蘭",
     "relationship": "unknown",
     "taiwanPartyName": "查無",
-    "relationshipNote": "NutraIngredients 2026-08-25 展前記寫 Solabia Nutrition 是 Solabia Group 事業單位、總部 Maastricht, the Netherlands；Solabia 自己的 Vitafoods Asia 2026 攤位頁與專利新聞（Maastricht）一致。大昌華嘉 2025-12-18 新聞是與 Solabia 集團在台灣個人護理市場合作，內文引進的是護膚與美妝原料，沒有點名 BrainBerry 或膳食補充品，所以不把大昌華嘉填成這個原料的台灣窗口。"
+    "relationshipNote": "NutraIngredients 2026-08-25 寫 Solabia Nutrition 總部在荷蘭 Maastricht。大昌華嘉 2025-12-18 新聞是與 Solabia 集團在台灣個人護理市場的獨家合作，引進的是護膚與美妝原料，沒有點名 BrainBerry。這筆原料的台灣關聯廠商查無。"
   },
   "tfda": {
     "usable": "listed_food_ingredient",
-    "evidenceNotes": "查詢助手食品原料「野櫻莓」1 筆：中文名稱「野櫻莓；黑山楸莓」，外文 black chokeberry, Aronia berry，學名 Aronia melanocarpa，次分類「草、木本植物類(2)可供直接食用」，部位果實，備註空白。用 Aronia 會再命中「紅山楸梅」（學名含 Aronia arbutifolia），同樣是果實、可供直接食用，那是另一個種。商品名 BrainBerry 為 0 筆。食品添加物 Aronia、野櫻莓都是 0 筆。果實有列名，沒有每日上限或警語文字；這不是 BrainBerry 65 mg 花青素萃取的劑量核准，也不是健康食品許可。官方網頁當天打不開，欄位抄自助手同日詳細紀錄。",
+    "evidenceNotes": "食品原料查到野櫻莓（黑山楸莓）果實 1 筆，可供直接食用，備註空白，沒有每日上限或警語，也不是未確認安全性。添加物與商品名 BrainBerry 都是 0 筆。另有紅山楸梅（Aronia arbutifolia），是另一個種。",
     "lookupDate": "2026-11-05",
     "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
     "queries": [
@@ -95,7 +95,7 @@
       "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
       "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
       "done": true,
-      "notes": "2026-11-05 嘗試開啟消費者專區原料頁與添加物頁：HTTPS 握手被對端關閉（OpenSSL unexpected eof，讀到 0 bytes），HTTP 得到 502 Bad Gateway（Server: Pingora）。data.fda.gov.tw 開放資料匯出同樣無法完成 TLS，所以沒有點開線上詳細頁。下列分類、名稱、部位與備註抄自同日可開啟的查詢助手詳細欄位（助手標示 detailsScraped 2026-11-05 06:21；頁首寫來源為消費者專區詳細頁與開放資料 InfoId 4、61）。這不是健康食品許可證。列名或查無都不等於建議劑量可以使用。本筆依助手詳細欄位做成原料平臺有列果實。線上官方 HTML 未打開。沒有把萃取物商品名或 65 mg 寫成法規限量。"
+      "notes": "2026-11-05 官方原料頁與添加物頁打不開，這次列名依同日查詢助手，不是另一次線上核對。"
     }
   },
   "efficacy": {
@@ -104,7 +104,7 @@
       "Ahles 等，Nutrients 2020（PMC7468716，本次讀到全文）：101 名健康中年過重成人，24 週，每日 90 mg 或 150 mg BrainBerry 或安慰劑。90 mg 組慣用手 grooved pegboard 的精神運動速度相對安慰劑有顯著治療效應；150 mg 組沒有同樣差異。注意力、認知彈性、情緒與血清 BDNF 沒有顯示補充效應。"
     ],
     "suggestedDosage": "Solabia 產品頁寫每日劑量 65 mg。Ahles 等 2020 論文使用的是 90 mg（約 16 mg 花青素）與 150 mg（約 27 mg 花青素），不是 65 mg。",
-    "dosageNote": "65 mg 是供應商現在的產品頁劑量；90 mg 與 150 mg 是 2020 年這篇人體試驗的劑量。原料平臺對果實沒有寫每日上限。兩邊都不是 TFDA 對 BrainBerry 萃取規格的核准劑量。"
+    "dosageNote": "65 mg 是產品頁劑量，90 mg 與 150 mg 是 2020 年試驗劑量，都不是果實列名的上限。"
   },
   "patent": {
     "status": "yes",

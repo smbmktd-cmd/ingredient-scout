@@ -43,7 +43,7 @@ body {
   background: linear-gradient(90deg, var(--teal) 0 72%, var(--clay) 72% 100%);
 }
 
-.mast, #banner, #live, main, .panel, .staff, .help, footer {
+.mast, #banner, #live, main, .panel, .help, footer {
   width: min(880px, calc(100% - 28px));
   margin-left: auto;
   margin-right: auto;
@@ -79,7 +79,6 @@ h1, h2, .card h2 {
   font-weight: 600;
 }
 h1 { margin: 0; font-size: 40px; line-height: 1.1; letter-spacing: 0.02em; }
-.lede { margin: 6px 0 0; color: var(--muted); }
 
 .datebox { min-width: min(100%, 220px); }
 label { display: block; font-size: 13px; color: var(--muted); }
@@ -103,14 +102,13 @@ select { min-height: 48px; }
   font-weight: 600;
 }
 
-.banner, .day-note {
+.banner {
   margin: 8px 0;
   padding: 12px 14px;
   border-radius: 14px;
   background: #fff6ea;
   border: 1px solid #efd3b0;
 }
-.day-note { background: transparent; border-style: dashed; color: var(--muted); }
 
 .card {
   margin: 16px 0;
@@ -207,11 +205,11 @@ details.fold summary { cursor: pointer; color: var(--teal-deep); }
 .sync-note { min-height: 1.4em; margin: 8px 0 0; color: var(--amber); font-size: 14px; }
 button:disabled { opacity: 0.65; }
 
-.panel, .staff, .help, .vote, button, textarea, select {
+.panel, .help, .vote, button, textarea, select {
   scroll-margin-bottom: 168px;
 }
 .team-panel { margin-top: 8px; }
-.panel, .staff, .help {
+.panel, .help {
   margin-top: 18px;
   padding: 16px 18px 18px;
   background: rgba(255, 253, 248, 0.72);
@@ -224,14 +222,12 @@ button:disabled { opacity: 0.65; }
 .quiet { background: transparent !important; }
 .share-fallback { margin-top: 10px; }
 
-.staff summary, .help summary, .fold summary { font-weight: 700; cursor: pointer; }
-.staff-body, .help-body { padding-top: 10px; }
+.help summary, .fold summary { font-weight: 700; cursor: pointer; }
+.help-body { padding-top: 10px; }
 .table-wrap { overflow-x: auto; }
 table { width: 100%; border-collapse: collapse; margin-top: 10px; font-size: 15px; }
 th, td { text-align: left; vertical-align: top; padding: 8px 6px; border-bottom: 1px solid var(--line); }
 caption { text-align: left; color: var(--muted); font-size: 13px; }
-.tray { padding-left: 1.2em; }
-.tray button { margin-left: 8px; }
 
 footer { color: var(--muted); font-size: 14px; padding-bottom: 12px; }
 code { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 0.92em; }

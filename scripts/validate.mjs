@@ -241,11 +241,14 @@ function checkDocs() {
   if (!fs.existsSync(path.join(root, "LICENSE"))) fail("缺少 LICENSE");
   if (!fs.existsSync(path.join(root, "CONTRIBUTING.md"))) fail("缺少 CONTRIBUTING.md");
   const config = fs.readFileSync(path.join(root, "docs", "config.js"), "utf8");
-  if (!/formspreeEndpoint:\s*""/.test(config)) fail("formspreeEndpoint 應保持空白");
-  if (!/tallyEndpoint:\s*""/.test(config)) fail("tallyEndpoint 應保持空白");
+  if (!/formspreeEndpoint:\s*"https:\/\/formspree\.io\/f\/(?!xxxxxxxx")[a-z0-9]+"/.test(config)) {
+    fail("formspreeEndpoint 應為已建立的 Formspree https 端點");
+  }
+  if (!/tallyEndpoint:\s*"https:\/\/script\.google\.com\/macros\/s\/(?!xxxxxxxx\/)[A-Za-z0-9_-]+\/exec"/.test(config)) {
+    fail("tallyEndpoint 應為已部署的 Apps Script https 端點");
+  }
   if (!/sheetEndpoint:\s*""/.test(config)) fail("sheetEndpoint 應保持空白");
-  if (/formspree\.io\/f\/(?!xxxxxxxx)/.test(config)) fail("不要寫入真實 Formspree 網址");
-  if (/script\.google\.com\/macros\/s\/(?!xxxxxxxx)/.test(config)) fail("不要寫入真實 Apps Script 網址");
+  if (!/submitEndpoint:\s*""/.test(config)) fail("submitEndpoint 應保持空白");
   for (const needle of ["team-panel", "team-summary", "dock-team", "sync-note"]) {
     if (!html.includes(needle)) fail("投票頁缺少：" + needle);
   }

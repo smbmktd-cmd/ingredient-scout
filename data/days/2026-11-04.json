@@ -1,9 +1,0 @@
-{
-  "date": "2026-11-04",
-  "example": true,
-  "title": "練習日期切換",
-  "targetCount": 5,
-  "channelsCovered": ["industry_report"],
-  "notes": "這是另一個虛構練習日，只放 1 筆，用來確認投票頁的日期選單會換成另一份清單。正式日報仍是約 5 筆。",
-  "picks": ["example-lumen-peptide"]
-}

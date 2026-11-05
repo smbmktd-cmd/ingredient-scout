@@ -24,6 +24,22 @@
       <select id="date"></select>
     </div>
   </header>
+  <div class="searchbox">
+    <div class="search-heading">
+      <label for="ingredient-search">搜尋原料</label>
+      <span class="search-scope">全部日期，不限目前這一天</span>
+    </div>
+    <div class="search-field" id="search-field">
+      <svg class="search-glyph" viewBox="0 0 24 24" aria-hidden="true">
+        <circle cx="11" cy="11" r="6.5" fill="none" stroke="currentColor" stroke-width="2"></circle>
+        <path d="M16.2 16.2L21 21" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+      </svg>
+      <input id="ingredient-search" type="search" name="ingredient-keyword" placeholder="搜尋原料關鍵字…" autocomplete="off" autocapitalize="off" spellcheck="false" enterkeyhint="search" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="search-list" aria-haspopup="listbox">
+      <div id="search-panel" class="search-panel" hidden>
+        <ul id="search-list" role="listbox" aria-label="符合的原料"></ul>
+      </div>
+    </div>
+  </div>
   <p id="live" class="live" aria-live="polite"></p>
   <div id="banner"></div>
   <section class="panel team-panel" id="team-panel" hidden aria-labelledby="team-title">
@@ -63,6 +79,7 @@
     <div class="help-body">
       <ol>
         <li>選日期。每天的原料來自儲存庫的 <code>data/days</code>。</li>
+        <li>上方搜尋列會找每一天偵察過的原料，不限目前選到的日期。點建議或按 Enter 會打開那一筆的卡片。</li>
         <li>每筆原料選「贊成」或「反對」，備註可留白。不要寫姓名、部門、電話或信箱。</li>
         <li>同一台瀏覽器再按一次會改掉原來的選擇，不會變成兩票。</li>
         <li>這台裝置的表態可下載 JSON 留底。大家的數字看頁面上方的團隊累計。</li>
@@ -90,6 +107,7 @@
   <script src="config.js"></script>
   <script src="catalog.js"></script>
   <script src="vote-model.js"></script>
+  <script src="search-model.js"></script>
   <script src="app.js"></script>
 </body>
 </html>

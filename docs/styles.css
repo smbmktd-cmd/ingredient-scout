@@ -43,7 +43,7 @@ body {
   background: linear-gradient(90deg, var(--teal) 0 72%, var(--clay) 72% 100%);
 }
 
-.mast, #banner, #live, main, .panel, .help, footer {
+.mast, .searchbox, #banner, #live, main, .panel, .help, footer {
   width: min(880px, calc(100% - 28px));
   margin-left: auto;
   margin-right: auto;
@@ -82,7 +82,7 @@ h1 { margin: 0; font-size: 40px; line-height: 1.1; letter-spacing: 0.02em; }
 
 .datebox { min-width: min(100%, 220px); }
 label { display: block; font-size: 13px; color: var(--muted); }
-select, textarea, input[type="text"], input[type="file"] {
+select, textarea, input[type="text"], input[type="search"], input[type="file"] {
   width: 100%;
   margin-top: 4px;
   padding: 12px;
@@ -95,6 +95,95 @@ select, textarea, input[type="text"], input[type="file"] {
   line-height: 1.5;
 }
 select { min-height: 48px; }
+
+.searchbox {
+  position: relative;
+  z-index: 4;
+  margin-top: 12px;
+}
+.search-heading {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 4px 12px;
+  align-items: baseline;
+}
+.search-scope { font-size: 13px; color: var(--muted); }
+.search-field { position: relative; }
+.search-field > .search-glyph {
+  position: absolute;
+  left: 14px;
+  top: 19px;
+  width: 18px;
+  height: 18px;
+  color: var(--muted);
+  pointer-events: none;
+}
+.search-field input[type="search"] {
+  margin-top: 4px;
+  min-height: 48px;
+  padding-left: 42px;
+  -webkit-appearance: none;
+  appearance: none;
+}
+.search-panel {
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  right: 0;
+  top: calc(100% + 4px);
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  border: 1px solid #dadce0;
+  border-radius: 12px;
+  box-shadow: 0 12px 28px rgba(28, 36, 33, 0.16);
+  max-height: min(360px, 50vh);
+  overflow: auto;
+}
+.search-panel ul { list-style: none; margin: 0; padding: 0; }
+.search-option {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  width: 100%;
+  min-height: 48px;
+  padding: 10px 14px;
+  cursor: pointer;
+  color: var(--ink);
+}
+.search-option .search-glyph {
+  position: static;
+  flex: 0 0 auto;
+  width: 18px;
+  height: 18px;
+  margin-top: 3px;
+  color: #70757a;
+}
+.search-option.is-active,
+.search-option:hover { background: #f1f3f4; }
+.search-copy { min-width: 0; flex: 1; }
+.search-label,
+.search-meta {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.search-label { font-size: 16px; line-height: 1.4; }
+.search-meta { color: var(--muted); font-size: 13px; line-height: 1.4; }
+.search-label mark,
+.search-meta mark {
+  background: transparent;
+  color: inherit;
+  font-weight: 700;
+}
+.search-empty,
+.search-more {
+  padding: 12px 14px;
+  color: var(--muted);
+  font-size: 15px;
+}
 
 .live {
   min-height: 1.6em;
@@ -118,6 +207,11 @@ select { min-height: 48px; }
   border-radius: 18px;
   box-shadow: var(--shadow);
   border-top: 6px solid var(--teal);
+  scroll-margin-top: 12px;
+}
+.card:focus { outline: none; }
+.card.is-located {
+  box-shadow: 0 0 0 3px var(--teal), var(--shadow);
 }
 .card[data-channel="exhibition"] { border-top-color: #a15c00; }
 .card[data-channel="industry_report"] { border-top-color: #3a4580; }
@@ -255,7 +349,7 @@ code { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; fo
 #dock-team { color: #f0d7b0; }
 .dock button { background: #f6f1e7; color: var(--teal-deep); border: 0; white-space: nowrap; }
 
-button:focus-visible, select:focus-visible, textarea:focus-visible, input:focus-visible, a:focus-visible, summary:focus-visible {
+button:focus-visible, select:focus-visible, textarea:focus-visible, input:focus-visible, a:focus-visible, summary:focus-visible, .search-option:focus-visible {
   outline: 3px solid var(--clay);
   outline-offset: 2px;
 }

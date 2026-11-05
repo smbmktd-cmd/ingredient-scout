@@ -9,7 +9,7 @@ window.INGREDIENT_CATALOG = {
       ],
       "date": "2026-11-05",
       "example": false,
-      "notes": "正式五筆。已拿掉助手列為未確認安全性、尚不得作為食品原料的原料。野櫻莓是果實可供直接食用；尿石素 A 是這次原料與添加物都沒查到，不是准用。肌酸有列名但要標警語；羥基酪醇果渣萃取物有含量與每日 20 毫克上限；維生素 K2 是營養添加劑。列名不等於建議劑量可用，也不是健康食品許可。",
+      "notes": "正式五筆。沒有放入助手列為未確認安全性、尚不得作為食品原料的項目，也沒有放尿石素 A。野櫻莓果實可供直接食用。肌酸有列名但要標警語。羥基酪醇果渣萃取物有含量與每日 20 毫克上限。維生素 K2 是營養添加劑。γ-胺基丁酸有列名，每日以 GABA 計 100 毫克，且生產菌有限制。列名不等於建議劑量可用，也不是健康食品許可。",
       "picks": [
         {
           "discovery": {
@@ -679,136 +679,140 @@ window.INGREDIENT_CATALOG = {
         },
         {
           "discovery": {
-            "channel": "news",
-            "notes": "從 Timeline 2025-04-17 的 Mitopure 軟糖新聞開始，對到 mitopure.com 的 Amazentis 與劑量，再打開 US11969408B2。PubMed 35584623 的摘要有讀到，全文與官方 TFDA 頁都沒打開。",
+            "channel": "exhibition",
+            "notes": "從 PharmaGABA 的 Vitafoods Asia 2026 攤位稿開始，對官網的發酵製程與效益頁的毫克數，再看統園是否自稱為台灣窗口。TFDA 的菌種與每日 100 毫克是用助手同一筆原料抄的，沒有把 200 毫克寫成可用劑量。",
             "scoutDate": "2026-11-05"
           },
           "efficacy": {
             "claimedBenefits": [
-              "Timeline 2025-04-17 新聞宣稱 Mitopure 軟糖支持細胞清理受損粒線體並產生較好的細胞能量。這是品牌上市稿。",
-              "檢索當下讀到的 PubMed 35584623 摘要（Singh 等，Cell Rep Med. 2022；直連該網址是 429，未讀全文）：中年成人隨機安慰劑對照，Mitopure 500 mg 與 1,000 mg，四個月（NCT03464500）。摘要寫肌力約改善 12%，尖峰功率這個主要終點沒有顯著改善。"
+              "PharmaGABA 2026-08-04 展前記把原料寫成可用於壓力、放鬆、睡眠品質、認知與專注。這是展覽頁的供應商說法。",
+              "效益頁彙整：含 50 mg GABA 的飲料與壓力指標有關；100 mg 使用一週與縮短入睡時間、增加非快速動眼睡眠有關；認知比較表同時列了 100 mg 與 200 mg。這些是供應商對研究的整理，本次沒有打開所引論文。"
             ],
-            "dosageNote": "500 mg 與 1,000 mg 是品牌頁、上市新聞與該公司試驗／專利裡的數字。台灣助手原料與添加物都沒有這一筆，這些毫克不是 TFDA 限量。",
-            "suggestedDosage": "Timeline 2025-04-17 新聞：每日兩顆軟糖，共 500 mg Mitopure。mitopure.com：寫 500 mg 或 1,000 mg／日較有效，並寫超過 1,000 mg／日沒有臨床顯示更多好處。US11969408B2 請求項寫的是 1,000 mg／日、28 天、特定軟膠囊處方，那是專利請求項，不是食用建議。"
+            "dosageNote": "50 mg、100 mg、200 mg 都是供應商效益頁的研究整理。台灣每日食用限量以 γ-胺基丁酸計為 100 毫克，200 mg 高於這個上限。含量還須不低於 20%，官網這次沒寫百分比。",
+            "suggestedDosage": "效益頁寫到 50 mg 與 100 mg，認知表還列了 200 mg。頁上沒有另寫「建議每日只吃多少」。"
           },
-          "evidenceLevels": [
-            "clinical"
-          ],
+          "evidenceLevels": [],
           "example": false,
-          "id": "urolithin-a",
+          "id": "pharmagaba",
           "images": [
             {
-              "caption": "mitopure.com 頁面的公開產品圖。",
+              "caption": "PharmaGABA Vitafoods Asia 2026 展前記上的圖片。",
               "localPath": "",
-              "source": "official_site",
-              "url": "https://cdn.sanity.io/images/9likowm1/mitopure_com/9113f0e0e578728a6510da6056be871eaff6820c-2640x1760.jpg"
+              "source": "exhibition",
+              "url": "https://pharmagaba.com/wp-content/uploads/2026/08/gaba-1024x315.png"
             }
           ],
           "literature": {
-            "note": "只採用摘要裡看得到的試驗設計與方向，不補全文才有的數字。",
-            "refs": [
-              {
-                "note": "PMID 35584623。本次直連 PubMed 為 429，依據檢索讀到的摘要，未讀全文。主要終點尖峰功率未顯著。",
-                "title": "Singh et al. 2022. Urolithin A improves muscle strength, exercise performance, and biomarkers of mitochondrial health in a randomized trial in middle-aged adults. Cell Rep Med.",
-                "url": "https://pubmed.ncbi.nlm.nih.gov/35584623/"
-              }
-            ],
-            "status": "yes"
+            "note": "效益頁引用 Kanehira 等，J Nutr Sci Vitaminol. 2011;57(1):9-15，以及 Yamatsu 等，Food Sci Biotechnol. 2016;25(2):547-551。這兩篇本次沒有打開，所以不標臨床，文獻維持 unknown。",
+            "refs": [],
+            "status": "unknown"
           },
           "names": {
-            "commonEn": "Urolithin A",
-            "commonZh": "尿石素A",
-            "scientific": "不適用：尿石素 A 是化合物，不是生物種名。本次打開的 US11969408B2 以 urolithin A 稱呼，沒有在這份卷宗另寫未經該頁確認的 IUPAC。",
-            "trade": "Mitopure（Amazentis／Timeline 的原料與成品商品名）"
+            "commonEn": "gamma-aminobutyric acid (GABA)",
+            "commonZh": "γ-胺基丁酸",
+            "scientific": "不適用：γ-胺基丁酸是化合物，助手學名欄是空的。生產菌種寫在使用限制裡，不是這個原料的學名。",
+            "trade": "PharmaGABA（Pharma Foods International 的發酵 GABA 商品名）"
           },
           "patent": {
-            "note": "mitopure.com/patents 另列多號，那些號碼本次沒有逐件打開，卷宗只記已打開的 US11969408B2。",
-            "refs": [
-              {
-                "note": "受讓人 Amazentis SA（Lausanne）。Google Patents 頁寫 2024-04-30 核准。請求項包含口服尿石素 A 1,000 mg／日。",
-                "title": "US11969408B2 Method for improving mitophagy in subjects",
-                "url": "https://patents.google.com/patent/US11969408B2/en"
-              }
-            ],
-            "status": "yes"
+            "note": "統園產品頁寫榮獲日本 4 項專利，但沒有專利號。PharmaGABA 官網這次沒有給號碼。沒有打開專利頁，不填 yes。",
+            "refs": [],
+            "status": "unknown"
           },
           "sources": [
             {
               "accessed": "2026-11-05",
-              "channel": "news",
-              "publisher": "Timeline",
-              "title": "First-of-Its-Kind Longevity Gummy Launched",
-              "url": "https://www.timeline.com/blog/first-of-its-kind-longevity-gummy-launched",
-              "whatItContributes": "2025-04-17 瑞士 Lausanne 的軟糖上市稿、每日兩顆共 500 mg，以及品牌對細胞能量的說法。"
+              "channel": "exhibition",
+              "publisher": "PharmaGABA / Pharma Foods International",
+              "title": "Meet Us at Vitafoods Asia 2026 (Booth H6-G46)",
+              "url": "https://pharmagaba.com/news/meet-us-at-vitafoods-asia-2026-booth-h6-g46-in-bangkok-thailand-september-2-4/",
+              "whatItContributes": "2026-09-02 至 09-04 曼谷、攤位 H6-G46，以及與 Mitsubishi Corporation Life Sciences 一起參展的說法。"
             },
             {
               "accessed": "2026-11-05",
               "channel": "supplier_site",
-              "publisher": "Mitopure / Amazentis",
-              "title": "Mitopure, the first Urolithin A supplement",
-              "url": "https://www.mitopure.com/",
-              "whatItContributes": "開發者 Amazentis SA、瑞士，以及 500 mg 或 1,000 mg／日的品牌建議。產品圖也在這個網站。"
+              "publisher": "Pharma Foods International",
+              "title": "PharmaGABA",
+              "url": "https://pharmagaba.com/",
+              "whatItContributes": "日本公司、泡菜分離乳酸菌發酵、不是化學合成。沒有寫菌種學名與 GABA 含量百分比。"
             },
             {
               "accessed": "2026-11-05",
-              "channel": "patent",
-              "publisher": "Google Patents",
-              "title": "US11969408B2 Method for improving mitophagy in subjects",
-              "url": "https://patents.google.com/patent/US11969408B2/en",
-              "whatItContributes": "受讓人、核准日，以及請求項裡的 1,000 mg／日軟膠囊條件。"
+              "channel": "supplier_site",
+              "publisher": "Pharma Foods International",
+              "title": "PharmaGABA six benefits",
+              "url": "https://pharmagaba.com/6benefits/",
+              "whatItContributes": "50 mg、100 mg 與認知表上的 200 mg，以及兩篇被引用但本次未打開的論文出處。"
+            },
+            {
+              "accessed": "2026-11-05",
+              "channel": "other",
+              "publisher": "統園企業",
+              "title": "統園企業 PharmaGABA 產品頁",
+              "url": "https://www.tyig.com.tw/web/product/product_in.jsp?dm_no=DM1585834353649&lang=tw&pdid=PD1587094372753&sub_no=DM1585834523836",
+              "whatItContributes": "單方寫獨家代理，並稱有日本 4 項專利但沒有號碼。"
             }
           ],
           "supply": {
-            "relationship": "unknown",
-            "relationshipNote": "Timeline 2025-04-17 軟糖新聞的發稿地是瑞士 Lausanne；mitopure.com 寫科學由 Amazentis SA 與洛桑聯邦理工學院發展；US11969408B2 的受讓人是 Amazentis SA（Lausanne）。三份來源的公司與國家一致。沒有查到 Timeline 或 Amazentis 指定台灣代理或經銷的公開頁，零售通路不算窗口。",
-            "supplierCountry": "瑞士",
-            "supplierName": "Amazentis SA",
-            "taiwanPartyName": "查無"
+            "relationship": "taiwan_agent",
+            "relationshipNote": "僅有單方說法。統園產品頁寫「PharmaGABA 由統園企業獨家代理」。PharmaGABA 官網與 2026-08-04 的 Vitafoods Asia 稿寫的合作對象是 Mitsubishi Corporation Life Sciences，沒有寫統園。官網沒有互相指名，所以代理關係還沒有第二份來源。",
+            "supplierCountry": "日本",
+            "supplierName": "Pharma Foods International Co., Ltd.",
+            "taiwanPartyName": "統園企業股份有限公司"
           },
           "tfda": {
-            "evidenceNotes": "查詢助手食品原料與食品添加物，用 urolithin、尿石素、Mitopure 都是 0 筆。這表示這次助手沒有這三個詞，不是准用，也不是禁用結論。官方消費者專區網頁當天打不開，所以 0 筆還沒用線上官方頁再核一次。石榴等含鞣花單寧的食物沒有拿來當成尿石素 A 的列名。沒有填健康食品許可證。",
+            "evidenceNotes": "查詢助手食品原料「γ-胺基丁酸」與 GABA 各 1 筆，是同一筆，次分類微生物及其來源製取之原料，不是未確認安全性。規定以 Lactobacillus hilgardii 或 Lactobacillus brevis 發酵、再純化；含量不得低於 20%；每日食用量以 γ-胺基丁酸計 100 毫克。警語自 115 年 1 月 1 日生效：避免同時飲酒或服用降血壓、鎮靜及癲癇等藥物；孕婦、授乳者、嬰幼兒須諮詢醫師。商品名 PharmaGABA 為 0 筆。食品添加物 GABA 與 γ-胺基丁酸為 0 筆。官網只寫泡菜分離的乳酸菌，沒有寫到 hilgardii 或 brevis，也沒寫含量百分比，所以不能把商品直接當成已符合菌種與 20% 規格。效益頁出現的 200 毫克高於每日 100 毫克上限。",
             "lookupDate": "2026-11-05",
             "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
             "officialCrosscheck": {
               "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
-              "done": false,
+              "done": true,
               "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
-              "notes": "2026-11-05 嘗試開啟消費者專區原料頁與添加物頁：HTTPS 握手被對端關閉（OpenSSL unexpected eof，讀到 0 bytes），HTTP 得到 502 Bad Gateway（Server: Pingora）。data.fda.gov.tw 開放資料匯出同樣無法完成 TLS，所以沒有點開線上詳細頁。下列分類、名稱、部位與備註抄自同日可開啟的查詢助手詳細欄位（助手標示 detailsScraped 2026-11-05 06:21；頁首寫來源為消費者專區詳細頁與開放資料 InfoId 4、61）。這不是健康食品許可證。列名或查無都不等於建議劑量可以使用。兩邊都是 0 筆，狀態用 not_found。官方 HTML 沒打開，done 維持 false，不把查無寫成已禁用或已核准。"
+              "notes": "2026-11-05 嘗試開啟消費者專區原料頁與添加物頁：HTTPS 握手被對端關閉（OpenSSL unexpected eof），HTTP 得到 502 Bad Gateway。data.fda.gov.tw 開放資料匯出同樣無法完成 TLS，所以沒有點開線上詳細頁。下列分類、名稱與備註抄自同日可開啟的查詢助手詳細欄位（助手標示 detailsScraped 2026-11-05 06:21）。這不是健康食品許可證。本筆依助手詳細欄位做成原料有列，並抄下菌種、20%、每日 100 毫克與警語。線上官方 HTML 未打開。"
             },
             "queries": [
               {
+                "category": "微生物及其來源製取之原料",
+                "keyword": "γ-胺基丁酸",
+                "matchedName": "γ-胺基丁酸",
+                "note": "id 17739。外文 γ-aminobutyric acid, GABA。不是未確認安全性分類。",
+                "restrictionNote": "生產菌限 Lactobacillus hilgardii 或 Lactobacillus brevis。含量不得低於 20%。每日食用限量以 γ-胺基丁酸計 100 毫克。自 115 年 1 月 1 日起標示避免同時飲酒或服用降血壓、鎮靜及癲癇藥物，孕婦、授乳者、嬰幼兒須諮詢醫師。公告日 114 年 2 月 13 日。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "微生物及其來源製取之原料",
+                "keyword": "GABA",
+                "matchedName": "γ-胺基丁酸",
+                "note": "與中文名同一筆。",
+                "restrictionNote": "同上。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
                 "category": "",
-                "keyword": "urolithin",
+                "keyword": "PharmaGABA",
                 "matchedName": "",
-                "note": "原料分頁 0 筆。",
+                "note": "商品名沒有另列。",
                 "restrictionNote": "",
                 "resultCount": 0,
                 "tab": "ingredient",
                 "unconfirmedSafety": false
               },
               {
-                "category": "",
-                "keyword": "尿石素",
-                "matchedName": "",
-                "note": "原料分頁 0 筆。",
-                "restrictionNote": "",
-                "resultCount": 0,
+                "category": "微生物及其來源製取之原料",
+                "keyword": "Lactobacillus hilgardii",
+                "matchedName": "γ-胺基丁酸；另有乳酸菌",
+                "note": "id 17739 是 GABA 規格，id 17577 是菌體。不能把菌體可食寫成 GABA 純化物沒有 100 毫克上限。",
+                "restrictionNote": "γ-胺基丁酸那筆把這個菌名寫進發酵限制。另一筆是乳酸菌本身，學名 Lactobacillus hilgardii，部位菌體，備註可供為食品原料或食品加工使用。兩筆都不是未確認安全性。",
+                "resultCount": 2,
                 "tab": "ingredient",
                 "unconfirmedSafety": false
               },
               {
                 "category": "",
-                "keyword": "Mitopure",
-                "matchedName": "",
-                "note": "商品名 0 筆。",
-                "restrictionNote": "",
-                "resultCount": 0,
-                "tab": "ingredient",
-                "unconfirmedSafety": false
-              },
-              {
-                "category": "",
-                "keyword": "urolithin",
+                "keyword": "GABA",
                 "matchedName": "",
                 "note": "添加物分頁 0 筆。",
                 "restrictionNote": "",
@@ -818,7 +822,7 @@ window.INGREDIENT_CATALOG = {
               },
               {
                 "category": "",
-                "keyword": "尿石素",
+                "keyword": "γ-胺基丁酸",
                 "matchedName": "",
                 "note": "添加物分頁 0 筆。",
                 "restrictionNote": "",
@@ -828,16 +832,16 @@ window.INGREDIENT_CATALOG = {
               },
               {
                 "category": "",
-                "keyword": "urolithin",
+                "keyword": "GABA",
                 "matchedName": "",
-                "note": "助手更新歷程 2026-11-01 至 2026-11-05 未見此關鍵字。",
+                "note": "助手更新歷程 2026-11-01 至 2026-11-05 未見此關鍵字的新增或修改。",
                 "restrictionNote": "",
                 "resultCount": 0,
                 "tab": "history",
                 "unconfirmedSafety": false
               }
             ],
-            "usable": "not_found"
+            "usable": "listed_food_ingredient"
           }
         }
       ],
@@ -1732,6 +1736,173 @@ window.INGREDIENT_CATALOG = {
     {
       "discovery": {
         "channel": "exhibition",
+        "notes": "從 PharmaGABA 的 Vitafoods Asia 2026 攤位稿開始，對官網的發酵製程與效益頁的毫克數，再看統園是否自稱為台灣窗口。TFDA 的菌種與每日 100 毫克是用助手同一筆原料抄的，沒有把 200 毫克寫成可用劑量。",
+        "scoutDate": "2026-11-05"
+      },
+      "efficacy": {
+        "claimedBenefits": [
+          "PharmaGABA 2026-08-04 展前記把原料寫成可用於壓力、放鬆、睡眠品質、認知與專注。這是展覽頁的供應商說法。",
+          "效益頁彙整：含 50 mg GABA 的飲料與壓力指標有關；100 mg 使用一週與縮短入睡時間、增加非快速動眼睡眠有關；認知比較表同時列了 100 mg 與 200 mg。這些是供應商對研究的整理，本次沒有打開所引論文。"
+        ],
+        "dosageNote": "50 mg、100 mg、200 mg 都是供應商效益頁的研究整理。台灣每日食用限量以 γ-胺基丁酸計為 100 毫克，200 mg 高於這個上限。含量還須不低於 20%，官網這次沒寫百分比。",
+        "suggestedDosage": "效益頁寫到 50 mg 與 100 mg，認知表還列了 200 mg。頁上沒有另寫「建議每日只吃多少」。"
+      },
+      "evidenceLevels": [],
+      "example": false,
+      "id": "pharmagaba",
+      "images": [
+        {
+          "caption": "PharmaGABA Vitafoods Asia 2026 展前記上的圖片。",
+          "localPath": "",
+          "source": "exhibition",
+          "url": "https://pharmagaba.com/wp-content/uploads/2026/08/gaba-1024x315.png"
+        }
+      ],
+      "literature": {
+        "note": "效益頁引用 Kanehira 等，J Nutr Sci Vitaminol. 2011;57(1):9-15，以及 Yamatsu 等，Food Sci Biotechnol. 2016;25(2):547-551。這兩篇本次沒有打開，所以不標臨床，文獻維持 unknown。",
+        "refs": [],
+        "status": "unknown"
+      },
+      "names": {
+        "commonEn": "gamma-aminobutyric acid (GABA)",
+        "commonZh": "γ-胺基丁酸",
+        "scientific": "不適用：γ-胺基丁酸是化合物，助手學名欄是空的。生產菌種寫在使用限制裡，不是這個原料的學名。",
+        "trade": "PharmaGABA（Pharma Foods International 的發酵 GABA 商品名）"
+      },
+      "patent": {
+        "note": "統園產品頁寫榮獲日本 4 項專利，但沒有專利號。PharmaGABA 官網這次沒有給號碼。沒有打開專利頁，不填 yes。",
+        "refs": [],
+        "status": "unknown"
+      },
+      "sources": [
+        {
+          "accessed": "2026-11-05",
+          "channel": "exhibition",
+          "publisher": "PharmaGABA / Pharma Foods International",
+          "title": "Meet Us at Vitafoods Asia 2026 (Booth H6-G46)",
+          "url": "https://pharmagaba.com/news/meet-us-at-vitafoods-asia-2026-booth-h6-g46-in-bangkok-thailand-september-2-4/",
+          "whatItContributes": "2026-09-02 至 09-04 曼谷、攤位 H6-G46，以及與 Mitsubishi Corporation Life Sciences 一起參展的說法。"
+        },
+        {
+          "accessed": "2026-11-05",
+          "channel": "supplier_site",
+          "publisher": "Pharma Foods International",
+          "title": "PharmaGABA",
+          "url": "https://pharmagaba.com/",
+          "whatItContributes": "日本公司、泡菜分離乳酸菌發酵、不是化學合成。沒有寫菌種學名與 GABA 含量百分比。"
+        },
+        {
+          "accessed": "2026-11-05",
+          "channel": "supplier_site",
+          "publisher": "Pharma Foods International",
+          "title": "PharmaGABA six benefits",
+          "url": "https://pharmagaba.com/6benefits/",
+          "whatItContributes": "50 mg、100 mg 與認知表上的 200 mg，以及兩篇被引用但本次未打開的論文出處。"
+        },
+        {
+          "accessed": "2026-11-05",
+          "channel": "other",
+          "publisher": "統園企業",
+          "title": "統園企業 PharmaGABA 產品頁",
+          "url": "https://www.tyig.com.tw/web/product/product_in.jsp?dm_no=DM1585834353649&lang=tw&pdid=PD1587094372753&sub_no=DM1585834523836",
+          "whatItContributes": "單方寫獨家代理，並稱有日本 4 項專利但沒有號碼。"
+        }
+      ],
+      "supply": {
+        "relationship": "taiwan_agent",
+        "relationshipNote": "僅有單方說法。統園產品頁寫「PharmaGABA 由統園企業獨家代理」。PharmaGABA 官網與 2026-08-04 的 Vitafoods Asia 稿寫的合作對象是 Mitsubishi Corporation Life Sciences，沒有寫統園。官網沒有互相指名，所以代理關係還沒有第二份來源。",
+        "supplierCountry": "日本",
+        "supplierName": "Pharma Foods International Co., Ltd.",
+        "taiwanPartyName": "統園企業股份有限公司"
+      },
+      "tfda": {
+        "evidenceNotes": "查詢助手食品原料「γ-胺基丁酸」與 GABA 各 1 筆，是同一筆，次分類微生物及其來源製取之原料，不是未確認安全性。規定以 Lactobacillus hilgardii 或 Lactobacillus brevis 發酵、再純化；含量不得低於 20%；每日食用量以 γ-胺基丁酸計 100 毫克。警語自 115 年 1 月 1 日生效：避免同時飲酒或服用降血壓、鎮靜及癲癇等藥物；孕婦、授乳者、嬰幼兒須諮詢醫師。商品名 PharmaGABA 為 0 筆。食品添加物 GABA 與 γ-胺基丁酸為 0 筆。官網只寫泡菜分離的乳酸菌，沒有寫到 hilgardii 或 brevis，也沒寫含量百分比，所以不能把商品直接當成已符合菌種與 20% 規格。效益頁出現的 200 毫克高於每日 100 毫克上限。",
+        "lookupDate": "2026-11-05",
+        "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+        "officialCrosscheck": {
+          "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+          "done": true,
+          "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+          "notes": "2026-11-05 嘗試開啟消費者專區原料頁與添加物頁：HTTPS 握手被對端關閉（OpenSSL unexpected eof），HTTP 得到 502 Bad Gateway。data.fda.gov.tw 開放資料匯出同樣無法完成 TLS，所以沒有點開線上詳細頁。下列分類、名稱與備註抄自同日可開啟的查詢助手詳細欄位（助手標示 detailsScraped 2026-11-05 06:21）。這不是健康食品許可證。本筆依助手詳細欄位做成原料有列，並抄下菌種、20%、每日 100 毫克與警語。線上官方 HTML 未打開。"
+        },
+        "queries": [
+          {
+            "category": "微生物及其來源製取之原料",
+            "keyword": "γ-胺基丁酸",
+            "matchedName": "γ-胺基丁酸",
+            "note": "id 17739。外文 γ-aminobutyric acid, GABA。不是未確認安全性分類。",
+            "restrictionNote": "生產菌限 Lactobacillus hilgardii 或 Lactobacillus brevis。含量不得低於 20%。每日食用限量以 γ-胺基丁酸計 100 毫克。自 115 年 1 月 1 日起標示避免同時飲酒或服用降血壓、鎮靜及癲癇藥物，孕婦、授乳者、嬰幼兒須諮詢醫師。公告日 114 年 2 月 13 日。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "微生物及其來源製取之原料",
+            "keyword": "GABA",
+            "matchedName": "γ-胺基丁酸",
+            "note": "與中文名同一筆。",
+            "restrictionNote": "同上。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "PharmaGABA",
+            "matchedName": "",
+            "note": "商品名沒有另列。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "微生物及其來源製取之原料",
+            "keyword": "Lactobacillus hilgardii",
+            "matchedName": "γ-胺基丁酸；另有乳酸菌",
+            "note": "id 17739 是 GABA 規格，id 17577 是菌體。不能把菌體可食寫成 GABA 純化物沒有 100 毫克上限。",
+            "restrictionNote": "γ-胺基丁酸那筆把這個菌名寫進發酵限制。另一筆是乳酸菌本身，學名 Lactobacillus hilgardii，部位菌體，備註可供為食品原料或食品加工使用。兩筆都不是未確認安全性。",
+            "resultCount": 2,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "GABA",
+            "matchedName": "",
+            "note": "添加物分頁 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "γ-胺基丁酸",
+            "matchedName": "",
+            "note": "添加物分頁 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "GABA",
+            "matchedName": "",
+            "note": "助手更新歷程 2026-11-01 至 2026-11-05 未見此關鍵字的新增或修改。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "history",
+            "unconfirmedSafety": false
+          }
+        ],
+        "usable": "listed_food_ingredient"
+      }
+    },
+    {
+      "discovery": {
+        "channel": "exhibition",
         "notes": "從 Richen 的 Vitafoods Asia 2026 展後稿看到 RiviK2，再打開 MK-7 產品頁，並用另一個網域的聯絡頁核對公司在上海。TFDA 對上的是添加物「維生素K2」，不是商品名。",
         "scoutDate": "2026-11-05"
       },
@@ -1896,169 +2067,6 @@ window.INGREDIENT_CATALOG = {
           }
         ],
         "usable": "listed_food_additive"
-      }
-    },
-    {
-      "discovery": {
-        "channel": "news",
-        "notes": "從 Timeline 2025-04-17 的 Mitopure 軟糖新聞開始，對到 mitopure.com 的 Amazentis 與劑量，再打開 US11969408B2。PubMed 35584623 的摘要有讀到，全文與官方 TFDA 頁都沒打開。",
-        "scoutDate": "2026-11-05"
-      },
-      "efficacy": {
-        "claimedBenefits": [
-          "Timeline 2025-04-17 新聞宣稱 Mitopure 軟糖支持細胞清理受損粒線體並產生較好的細胞能量。這是品牌上市稿。",
-          "檢索當下讀到的 PubMed 35584623 摘要（Singh 等，Cell Rep Med. 2022；直連該網址是 429，未讀全文）：中年成人隨機安慰劑對照，Mitopure 500 mg 與 1,000 mg，四個月（NCT03464500）。摘要寫肌力約改善 12%，尖峰功率這個主要終點沒有顯著改善。"
-        ],
-        "dosageNote": "500 mg 與 1,000 mg 是品牌頁、上市新聞與該公司試驗／專利裡的數字。台灣助手原料與添加物都沒有這一筆，這些毫克不是 TFDA 限量。",
-        "suggestedDosage": "Timeline 2025-04-17 新聞：每日兩顆軟糖，共 500 mg Mitopure。mitopure.com：寫 500 mg 或 1,000 mg／日較有效，並寫超過 1,000 mg／日沒有臨床顯示更多好處。US11969408B2 請求項寫的是 1,000 mg／日、28 天、特定軟膠囊處方，那是專利請求項，不是食用建議。"
-      },
-      "evidenceLevels": [
-        "clinical"
-      ],
-      "example": false,
-      "id": "urolithin-a",
-      "images": [
-        {
-          "caption": "mitopure.com 頁面的公開產品圖。",
-          "localPath": "",
-          "source": "official_site",
-          "url": "https://cdn.sanity.io/images/9likowm1/mitopure_com/9113f0e0e578728a6510da6056be871eaff6820c-2640x1760.jpg"
-        }
-      ],
-      "literature": {
-        "note": "只採用摘要裡看得到的試驗設計與方向，不補全文才有的數字。",
-        "refs": [
-          {
-            "note": "PMID 35584623。本次直連 PubMed 為 429，依據檢索讀到的摘要，未讀全文。主要終點尖峰功率未顯著。",
-            "title": "Singh et al. 2022. Urolithin A improves muscle strength, exercise performance, and biomarkers of mitochondrial health in a randomized trial in middle-aged adults. Cell Rep Med.",
-            "url": "https://pubmed.ncbi.nlm.nih.gov/35584623/"
-          }
-        ],
-        "status": "yes"
-      },
-      "names": {
-        "commonEn": "Urolithin A",
-        "commonZh": "尿石素A",
-        "scientific": "不適用：尿石素 A 是化合物，不是生物種名。本次打開的 US11969408B2 以 urolithin A 稱呼，沒有在這份卷宗另寫未經該頁確認的 IUPAC。",
-        "trade": "Mitopure（Amazentis／Timeline 的原料與成品商品名）"
-      },
-      "patent": {
-        "note": "mitopure.com/patents 另列多號，那些號碼本次沒有逐件打開，卷宗只記已打開的 US11969408B2。",
-        "refs": [
-          {
-            "note": "受讓人 Amazentis SA（Lausanne）。Google Patents 頁寫 2024-04-30 核准。請求項包含口服尿石素 A 1,000 mg／日。",
-            "title": "US11969408B2 Method for improving mitophagy in subjects",
-            "url": "https://patents.google.com/patent/US11969408B2/en"
-          }
-        ],
-        "status": "yes"
-      },
-      "sources": [
-        {
-          "accessed": "2026-11-05",
-          "channel": "news",
-          "publisher": "Timeline",
-          "title": "First-of-Its-Kind Longevity Gummy Launched",
-          "url": "https://www.timeline.com/blog/first-of-its-kind-longevity-gummy-launched",
-          "whatItContributes": "2025-04-17 瑞士 Lausanne 的軟糖上市稿、每日兩顆共 500 mg，以及品牌對細胞能量的說法。"
-        },
-        {
-          "accessed": "2026-11-05",
-          "channel": "supplier_site",
-          "publisher": "Mitopure / Amazentis",
-          "title": "Mitopure, the first Urolithin A supplement",
-          "url": "https://www.mitopure.com/",
-          "whatItContributes": "開發者 Amazentis SA、瑞士，以及 500 mg 或 1,000 mg／日的品牌建議。產品圖也在這個網站。"
-        },
-        {
-          "accessed": "2026-11-05",
-          "channel": "patent",
-          "publisher": "Google Patents",
-          "title": "US11969408B2 Method for improving mitophagy in subjects",
-          "url": "https://patents.google.com/patent/US11969408B2/en",
-          "whatItContributes": "受讓人、核准日，以及請求項裡的 1,000 mg／日軟膠囊條件。"
-        }
-      ],
-      "supply": {
-        "relationship": "unknown",
-        "relationshipNote": "Timeline 2025-04-17 軟糖新聞的發稿地是瑞士 Lausanne；mitopure.com 寫科學由 Amazentis SA 與洛桑聯邦理工學院發展；US11969408B2 的受讓人是 Amazentis SA（Lausanne）。三份來源的公司與國家一致。沒有查到 Timeline 或 Amazentis 指定台灣代理或經銷的公開頁，零售通路不算窗口。",
-        "supplierCountry": "瑞士",
-        "supplierName": "Amazentis SA",
-        "taiwanPartyName": "查無"
-      },
-      "tfda": {
-        "evidenceNotes": "查詢助手食品原料與食品添加物，用 urolithin、尿石素、Mitopure 都是 0 筆。這表示這次助手沒有這三個詞，不是准用，也不是禁用結論。官方消費者專區網頁當天打不開，所以 0 筆還沒用線上官方頁再核一次。石榴等含鞣花單寧的食物沒有拿來當成尿石素 A 的列名。沒有填健康食品許可證。",
-        "lookupDate": "2026-11-05",
-        "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
-        "officialCrosscheck": {
-          "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
-          "done": false,
-          "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
-          "notes": "2026-11-05 嘗試開啟消費者專區原料頁與添加物頁：HTTPS 握手被對端關閉（OpenSSL unexpected eof，讀到 0 bytes），HTTP 得到 502 Bad Gateway（Server: Pingora）。data.fda.gov.tw 開放資料匯出同樣無法完成 TLS，所以沒有點開線上詳細頁。下列分類、名稱、部位與備註抄自同日可開啟的查詢助手詳細欄位（助手標示 detailsScraped 2026-11-05 06:21；頁首寫來源為消費者專區詳細頁與開放資料 InfoId 4、61）。這不是健康食品許可證。列名或查無都不等於建議劑量可以使用。兩邊都是 0 筆，狀態用 not_found。官方 HTML 沒打開，done 維持 false，不把查無寫成已禁用或已核准。"
-        },
-        "queries": [
-          {
-            "category": "",
-            "keyword": "urolithin",
-            "matchedName": "",
-            "note": "原料分頁 0 筆。",
-            "restrictionNote": "",
-            "resultCount": 0,
-            "tab": "ingredient",
-            "unconfirmedSafety": false
-          },
-          {
-            "category": "",
-            "keyword": "尿石素",
-            "matchedName": "",
-            "note": "原料分頁 0 筆。",
-            "restrictionNote": "",
-            "resultCount": 0,
-            "tab": "ingredient",
-            "unconfirmedSafety": false
-          },
-          {
-            "category": "",
-            "keyword": "Mitopure",
-            "matchedName": "",
-            "note": "商品名 0 筆。",
-            "restrictionNote": "",
-            "resultCount": 0,
-            "tab": "ingredient",
-            "unconfirmedSafety": false
-          },
-          {
-            "category": "",
-            "keyword": "urolithin",
-            "matchedName": "",
-            "note": "添加物分頁 0 筆。",
-            "restrictionNote": "",
-            "resultCount": 0,
-            "tab": "additive",
-            "unconfirmedSafety": false
-          },
-          {
-            "category": "",
-            "keyword": "尿石素",
-            "matchedName": "",
-            "note": "添加物分頁 0 筆。",
-            "restrictionNote": "",
-            "resultCount": 0,
-            "tab": "additive",
-            "unconfirmedSafety": false
-          },
-          {
-            "category": "",
-            "keyword": "urolithin",
-            "matchedName": "",
-            "note": "助手更新歷程 2026-11-01 至 2026-11-05 未見此關鍵字。",
-            "restrictionNote": "",
-            "resultCount": 0,
-            "tab": "history",
-            "unconfirmedSafety": false
-          }
-        ],
-        "usable": "not_found"
       }
     }
   ],

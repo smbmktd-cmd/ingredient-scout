@@ -1,0 +1,167 @@
+{
+  "id": "pharmagaba",
+  "example": false,
+  "names": {
+    "commonZh": "γ-胺基丁酸",
+    "commonEn": "gamma-aminobutyric acid (GABA)",
+    "trade": "PharmaGABA（Pharma Foods International 的發酵 GABA 商品名）",
+    "scientific": "不適用：γ-胺基丁酸是化合物，助手學名欄是空的。生產菌種寫在使用限制裡，不是這個原料的學名。"
+  },
+  "supply": {
+    "supplierName": "Pharma Foods International Co., Ltd.",
+    "supplierCountry": "日本",
+    "relationship": "taiwan_agent",
+    "taiwanPartyName": "統園企業股份有限公司",
+    "relationshipNote": "僅有單方說法。統園產品頁寫「PharmaGABA 由統園企業獨家代理」。PharmaGABA 官網與 2026-08-04 的 Vitafoods Asia 稿寫的合作對象是 Mitsubishi Corporation Life Sciences，沒有寫統園。官網沒有互相指名，所以代理關係還沒有第二份來源。"
+  },
+  "tfda": {
+    "usable": "listed_food_ingredient",
+    "evidenceNotes": "查詢助手食品原料「γ-胺基丁酸」與 GABA 各 1 筆，是同一筆，次分類微生物及其來源製取之原料，不是未確認安全性。規定以 Lactobacillus hilgardii 或 Lactobacillus brevis 發酵、再純化；含量不得低於 20%；每日食用量以 γ-胺基丁酸計 100 毫克。警語自 115 年 1 月 1 日生效：避免同時飲酒或服用降血壓、鎮靜及癲癇等藥物；孕婦、授乳者、嬰幼兒須諮詢醫師。商品名 PharmaGABA 為 0 筆。食品添加物 GABA 與 γ-胺基丁酸為 0 筆。官網只寫泡菜分離的乳酸菌，沒有寫到 hilgardii 或 brevis，也沒寫含量百分比，所以不能把商品直接當成已符合菌種與 20% 規格。效益頁出現的 200 毫克高於每日 100 毫克上限。",
+    "lookupDate": "2026-11-05",
+    "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+    "queries": [
+      {
+        "tab": "ingredient",
+        "keyword": "γ-胺基丁酸",
+        "category": "微生物及其來源製取之原料",
+        "resultCount": 1,
+        "matchedName": "γ-胺基丁酸",
+        "restrictionNote": "生產菌限 Lactobacillus hilgardii 或 Lactobacillus brevis。含量不得低於 20%。每日食用限量以 γ-胺基丁酸計 100 毫克。自 115 年 1 月 1 日起標示避免同時飲酒或服用降血壓、鎮靜及癲癇藥物，孕婦、授乳者、嬰幼兒須諮詢醫師。公告日 114 年 2 月 13 日。",
+        "unconfirmedSafety": false,
+        "note": "id 17739。外文 γ-aminobutyric acid, GABA。不是未確認安全性分類。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "GABA",
+        "category": "微生物及其來源製取之原料",
+        "resultCount": 1,
+        "matchedName": "γ-胺基丁酸",
+        "restrictionNote": "同上。",
+        "unconfirmedSafety": false,
+        "note": "與中文名同一筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "PharmaGABA",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名沒有另列。"
+      },
+      {
+        "tab": "ingredient",
+      "keyword": "Lactobacillus hilgardii",
+      "category": "微生物及其來源製取之原料",
+      "resultCount": 2,
+      "matchedName": "γ-胺基丁酸；另有乳酸菌",
+      "restrictionNote": "γ-胺基丁酸那筆把這個菌名寫進發酵限制。另一筆是乳酸菌本身，學名 Lactobacillus hilgardii，部位菌體，備註可供為食品原料或食品加工使用。兩筆都不是未確認安全性。",
+      "unconfirmedSafety": false,
+      "note": "id 17739 是 GABA 規格，id 17577 是菌體。不能把菌體可食寫成 GABA 純化物沒有 100 毫克上限。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "GABA",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "添加物分頁 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "γ-胺基丁酸",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "添加物分頁 0 筆。"
+      },
+      {
+        "tab": "history",
+        "keyword": "GABA",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "助手更新歷程 2026-11-01 至 2026-11-05 未見此關鍵字的新增或修改。"
+      }
+    ],
+    "officialCrosscheck": {
+      "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+      "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+      "done": true,
+      "notes": "2026-11-05 嘗試開啟消費者專區原料頁與添加物頁：HTTPS 握手被對端關閉（OpenSSL unexpected eof），HTTP 得到 502 Bad Gateway。data.fda.gov.tw 開放資料匯出同樣無法完成 TLS，所以沒有點開線上詳細頁。下列分類、名稱與備註抄自同日可開啟的查詢助手詳細欄位（助手標示 detailsScraped 2026-11-05 06:21）。這不是健康食品許可證。本筆依助手詳細欄位做成原料有列，並抄下菌種、20%、每日 100 毫克與警語。線上官方 HTML 未打開。"
+    }
+  },
+  "efficacy": {
+    "claimedBenefits": [
+      "PharmaGABA 2026-08-04 展前記把原料寫成可用於壓力、放鬆、睡眠品質、認知與專注。這是展覽頁的供應商說法。",
+      "效益頁彙整：含 50 mg GABA 的飲料與壓力指標有關；100 mg 使用一週與縮短入睡時間、增加非快速動眼睡眠有關；認知比較表同時列了 100 mg 與 200 mg。這些是供應商對研究的整理，本次沒有打開所引論文。"
+    ],
+    "suggestedDosage": "效益頁寫到 50 mg 與 100 mg，認知表還列了 200 mg。頁上沒有另寫「建議每日只吃多少」。",
+    "dosageNote": "50 mg、100 mg、200 mg 都是供應商效益頁的研究整理。台灣每日食用限量以 γ-胺基丁酸計為 100 毫克，200 mg 高於這個上限。含量還須不低於 20%，官網這次沒寫百分比。"
+  },
+  "patent": {
+    "status": "unknown",
+    "refs": [],
+    "note": "統園產品頁寫榮獲日本 4 項專利，但沒有專利號。PharmaGABA 官網這次沒有給號碼。沒有打開專利頁，不填 yes。"
+  },
+  "literature": {
+    "status": "unknown",
+    "refs": [],
+    "note": "效益頁引用 Kanehira 等，J Nutr Sci Vitaminol. 2011;57(1):9-15，以及 Yamatsu 等，Food Sci Biotechnol. 2016;25(2):547-551。這兩篇本次沒有打開，所以不標臨床，文獻維持 unknown。"
+  },
+  "evidenceLevels": [],
+  "images": [
+    {
+      "url": "https://pharmagaba.com/wp-content/uploads/2026/08/gaba-1024x315.png",
+      "localPath": "",
+      "caption": "PharmaGABA Vitafoods Asia 2026 展前記上的圖片。",
+      "source": "exhibition"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Meet Us at Vitafoods Asia 2026 (Booth H6-G46)",
+      "url": "https://pharmagaba.com/news/meet-us-at-vitafoods-asia-2026-booth-h6-g46-in-bangkok-thailand-september-2-4/",
+      "publisher": "PharmaGABA / Pharma Foods International",
+      "channel": "exhibition",
+      "accessed": "2026-11-05",
+      "whatItContributes": "2026-09-02 至 09-04 曼谷、攤位 H6-G46，以及與 Mitsubishi Corporation Life Sciences 一起參展的說法。"
+    },
+    {
+      "title": "PharmaGABA",
+      "url": "https://pharmagaba.com/",
+      "publisher": "Pharma Foods International",
+      "channel": "supplier_site",
+      "accessed": "2026-11-05",
+      "whatItContributes": "日本公司、泡菜分離乳酸菌發酵、不是化學合成。沒有寫菌種學名與 GABA 含量百分比。"
+    },
+    {
+      "title": "PharmaGABA six benefits",
+      "url": "https://pharmagaba.com/6benefits/",
+      "publisher": "Pharma Foods International",
+      "channel": "supplier_site",
+      "accessed": "2026-11-05",
+      "whatItContributes": "50 mg、100 mg 與認知表上的 200 mg，以及兩篇被引用但本次未打開的論文出處。"
+    },
+    {
+      "title": "統園企業 PharmaGABA 產品頁",
+      "url": "https://www.tyig.com.tw/web/product/product_in.jsp?dm_no=DM1585834353649&lang=tw&pdid=PD1587094372753&sub_no=DM1585834523836",
+      "publisher": "統園企業",
+      "channel": "other",
+      "accessed": "2026-11-05",
+      "whatItContributes": "單方寫獨家代理，並稱有日本 4 項專利但沒有號碼。"
+    }
+  ],
+  "discovery": {
+    "channel": "exhibition",
+    "scoutDate": "2026-11-05",
+    "notes": "從 PharmaGABA 的 Vitafoods Asia 2026 攤位稿開始，對官網的發酵製程與效益頁的毫克數，再看統園是否自稱為台灣窗口。TFDA 的菌種與每日 100 毫克是用助手同一筆原料抄的，沒有把 200 毫克寫成可用劑量。"
+  }
+}

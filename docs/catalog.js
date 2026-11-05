@@ -22,7 +22,7 @@ window.INGREDIENT_CATALOG = {
               "Alzchem 的 Creapure 品牌頁寫，每日 3 克肌酸可增加需要瞬間能量的體能表現，並寫歐盟允許這句健康聲明。這是供應商轉述歐盟說法，不是台灣核准。",
               "Creapure 劑量頁建議每日 3 到 5 克純肌酸一水合物，並寫高劑量的負荷期沒有同等的安全性評估、不建議長期吃不必要的高劑量。"
             ],
-            "dosageNote": "3 至 5 克是供應商建議，3 克那句對應他們寫的歐盟聲明。台灣助手備註是警語，沒有寫每日毫克或克數上限。列名不等於這些克數已在台灣核准。",
+            "dosageNote": "每日 3 至 5 克是 Creapure 的供應商建議，不是上述警語裡的上限。",
             "suggestedDosage": "Creapure 劑量頁：每日 3 至 5 克純肌酸一水合物。品牌頁另寫每日 3 克與歐盟體能聲明有關。"
           },
           "evidenceLevels": [],
@@ -86,14 +86,14 @@ window.INGREDIENT_CATALOG = {
             "taiwanPartyName": "查無"
           },
           "tfda": {
-            "evidenceNotes": "查詢助手食品原料「肌酸」與 creatine 各 1 筆，是同一筆：中文名肌酸，外文 Creatine, Creatine monohydrate，次分類「以化學反應或酵素製程等加工處理之食品原料」，大分類可供食品使用之原料。備註要求標示警語：肌酸不適合一般人食用；如擬食用，須在醫師、營養師或專業人士指導下使用，並列出肌肉裂傷、體水滯留、腎臟負擔、抽筋嘔吐、腸胃不適等可能副作用。沒有寫每日毫克上限。商品名 Creapure 為 0 筆。食品添加物 creatine、肌酸為 0 筆。不是未確認安全性分類，也不是健康食品許可。3–5 克是供應商建議，不是這則備註裡的上限。",
+            "evidenceNotes": "食品原料查到肌酸（Creatine、Creatine monohydrate）1 筆，添加物與商品名 Creapure 都是 0 筆，不是未確認安全性。須標示「肌酸不適合一般人食用；如擬食用，須在醫師、營養師或專業人士之指導下使用」，並載明肌肉裂傷、體水滯留、腎臟負擔、抽筋嘔吐、腸胃不適等可能副作用。沒有寫每日上限。",
             "lookupDate": "2026-11-05",
             "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
             "officialCrosscheck": {
               "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
               "done": true,
               "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
-              "notes": "2026-11-05 嘗試開啟消費者專區原料頁與添加物頁：HTTPS 握手被對端關閉（OpenSSL unexpected eof），HTTP 得到 502 Bad Gateway。data.fda.gov.tw 開放資料匯出同樣無法完成 TLS，所以沒有點開線上詳細頁。下列分類、名稱與備註抄自同日可開啟的查詢助手詳細欄位（助手標示 detailsScraped 2026-11-05 06:21）。這不是健康食品許可證。本筆依助手詳細欄位做成原料平臺有列，且須標警語。線上官方 HTML 未打開。"
+              "notes": "2026-11-05 官方原料頁與添加物頁打不開，這次列名依同日查詢助手，不是另一次線上核對。"
             },
             "queries": [
               {
@@ -171,7 +171,7 @@ window.INGREDIENT_CATALOG = {
               "NutraIngredients 2025-10-22 報導 Clinical Nutrition 的隨機雙盲試驗：過重且糖尿病前期、40–70 歲，每日 15 mg 羥基酪醇（稿中寫 Hytolive、Alvinesa）或安慰劑 16 週；完成 49 人。稿中寫氧化 LDL、蛋白質羰基、8-OHdG 與發炎指標有改善。這是產業稿轉述，不是台灣功效核准。",
               "Alvinesa 產品頁寫 Hytolive 來自橄欖果、不是橄欖葉、製程不用溶劑，可做成補充品與飲料。頁上沒有寫每日毫克。"
             ],
-            "dosageNote": "15 mg 是這次讀到的試驗劑量，低於助手寫的每日 20 mg 羥基酪醇上限，但只有原料符合果渣製程與 15–40% 含量時，那個上限才用得上。Hytolive 產品頁沒有寫百分比與果渣。另須標孕婦及嬰幼兒不宜食用。列名不等於試驗功效可以當台灣宣稱。",
+            "dosageNote": "每日 15 mg 是試驗報導的劑量，不是法規上限。",
             "suggestedDosage": "試驗劑量是每日 15 mg 羥基酪醇，出處是 NutraIngredients 2025-10-22 對該試驗的報導，以及 Alvinesa 臨床新聞的同一數字。產品頁沒有另寫建議攝取量。"
           },
           "evidenceLevels": [
@@ -243,14 +243,14 @@ window.INGREDIENT_CATALOG = {
             "taiwanPartyName": "查無"
           },
           "tfda": {
-            "evidenceNotes": "查詢助手食品原料「羥基酪醇」與 hydroxytyrosol 各 1 筆，是同一筆：油橄欖果實渣萃取物(含羥基酪醇)，學名 Olea europaea，次分類草、木本植物類來源製取之原料。規格是油橄欖果實榨油後的果渣，經熱水萃取、離心、濃縮、殺菌、脫水乾燥；羥基酪醇含量須 15–40%；每日使用量以羥基酪醇計 20 毫克以下；包裝須標「孕婦及嬰幼兒不宜食用」。商品名 Hytolive 為 0 筆。以 Olea europaea 會再看到橄欖（根、莖、葉；果實可作一般食品）與橄欖油，那兩筆不是這個果渣規格。食品添加物 hydroxytyrosol、羥基酪醇為 0 筆。不是未確認安全性分類。Hytolive 產品頁這次沒有寫含量百分比，也沒有寫 pomace／果渣，所以不能把商品名直接當成已符合 15–40% 規格。",
+            "evidenceNotes": "食品原料查到油橄欖果實渣萃取物（含羥基酪醇）1 筆，添加物與商品名 Hytolive 都是 0 筆，不是未確認安全性。羥基酪醇須占 15–40%，每日以羥基酪醇計 20 毫克以下，並標「孕婦及嬰幼兒不宜食用」。同名學名下的橄欖與橄欖油不是這個果渣規格。產品頁沒寫含量百分比或果渣，不能當成已符合 15–40%。",
             "lookupDate": "2026-11-05",
             "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
             "officialCrosscheck": {
               "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
               "done": true,
               "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
-              "notes": "2026-11-05 嘗試開啟消費者專區原料頁與添加物頁：HTTPS 握手被對端關閉（OpenSSL unexpected eof），HTTP 得到 502 Bad Gateway。data.fda.gov.tw 開放資料匯出同樣無法完成 TLS，所以沒有點開線上詳細頁。下列分類、名稱與備註抄自同日可開啟的查詢助手詳細欄位（助手標示 detailsScraped 2026-11-05 06:21）。這不是健康食品許可證。本筆依助手詳細欄位做成原料平臺有列，且有含量、每日 20 毫克與警語。線上官方 HTML 未打開。"
+              "notes": "2026-11-05 官方原料頁與添加物頁打不開，這次列名依同日查詢助手，不是另一次線上核對。"
             },
             "queries": [
               {
@@ -338,7 +338,7 @@ window.INGREDIENT_CATALOG = {
               "Richen 展後稿把 RiviK2 無蔗糖微囊包覆維生素 K2 放在清潔標示與鈣鎂配方安定性，沒有寫新的功效數據。",
               "產品頁寫 all-trans MK-7 在營養劑量附近較其他維生素 K 同系物更能促進骨鈣素與基質 Gla 蛋白的羧化，並寫半衰期與生物利用率較高。這是供應商句子，不是台灣核准功效。"
             ],
-            "dosageNote": "50 mcg 只出現在產品頁的配方例子。助手的添加物限制是「視實際需要適量使用」，而且只能在補充食品中不足的營養素時使用。沒有寫每日微克上限。列名不等於 50 mcg 已核准。",
+            "dosageNote": "50 mcg 只出現在產品頁的配方例子，添加物沒有寫每日微克上限。",
             "suggestedDosage": "查無單一每日建議量。產品頁的錠劑例子是維生素 D3 5 mcg、K2（MK-7）50 mcg、鈣 200 mg，那是配方舉例，不是建議攝取量。"
           },
           "evidenceLevels": [],
@@ -402,14 +402,14 @@ window.INGREDIENT_CATALOG = {
             "taiwanPartyName": "查無"
           },
           "tfda": {
-            "evidenceNotes": "查詢助手食品原料「維生素K2」與 Menaquinone 是 0 筆。食品添加物「維生素K2」1 筆：外文 Menaquinone（Vitamin K2），類別營養添加劑。使用範圍是各類食品視實際需要適量使用；使用限制是限於補充食品中不足之營養素時使用。規格欄是空的。商品名 RiviK2、MK-7 在原料與添加物都是 0 筆。另外維生素 K1 是 Phylloquinone、維生素 K3 是 Menadione，不是這一筆。不是未確認安全性分類，也不是健康食品許可。適量使用不等於任何微克數都可以。",
+            "evidenceNotes": "食品原料查無維生素 K2。食品添加物有 1 筆，是營養添加劑 Menaquinone（Vitamin K2），各類食品視實際需要適量使用，且限於補充食品中不足的營養素；規格欄是空的，不是未確認安全性。商品名 RiviK2 與 MK-7 都沒有另列。維生素 K1、K3 是不同品項。",
             "lookupDate": "2026-11-05",
             "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
             "officialCrosscheck": {
               "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
               "done": true,
               "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
-              "notes": "2026-11-05 嘗試開啟消費者專區原料頁與添加物頁：HTTPS 握手被對端關閉（OpenSSL unexpected eof），HTTP 得到 502 Bad Gateway。data.fda.gov.tw 開放資料匯出同樣無法完成 TLS，所以沒有點開線上詳細頁。下列分類、名稱與備註抄自同日可開啟的查詢助手詳細欄位（助手標示 detailsScraped 2026-11-05 06:21）。這不是健康食品許可證。本筆依助手添加物欄位做成營養添加劑有列。原料分頁沒有同名品項。線上官方 HTML 未打開。"
+              "notes": "2026-11-05 官方原料頁與添加物頁打不開，這次列名依同日查詢助手，不是另一次線上核對。"
             },
             "queries": [
               {
@@ -507,7 +507,7 @@ window.INGREDIENT_CATALOG = {
               "Solabia 產品頁宣稱 BrainBerry 每日 65 mg、無刺激，並寫臨床上看過精神運動速度與專注。這是供應商句子。",
               "Ahles 等，Nutrients 2020（PMC7468716，本次讀到全文）：101 名健康中年過重成人，24 週，每日 90 mg 或 150 mg BrainBerry 或安慰劑。90 mg 組慣用手 grooved pegboard 的精神運動速度相對安慰劑有顯著治療效應；150 mg 組沒有同樣差異。注意力、認知彈性、情緒與血清 BDNF 沒有顯示補充效應。"
             ],
-            "dosageNote": "65 mg 是供應商現在的產品頁劑量；90 mg 與 150 mg 是 2020 年這篇人體試驗的劑量。原料平臺對果實沒有寫每日上限。兩邊都不是 TFDA 對 BrainBerry 萃取規格的核准劑量。",
+            "dosageNote": "65 mg 是產品頁劑量，90 mg 與 150 mg 是 2020 年試驗劑量，都不是果實列名的上限。",
             "suggestedDosage": "Solabia 產品頁寫每日劑量 65 mg。Ahles 等 2020 論文使用的是 90 mg（約 16 mg 花青素）與 150 mg（約 27 mg 花青素），不是 65 mg。"
           },
           "evidenceLevels": [
@@ -593,14 +593,14 @@ window.INGREDIENT_CATALOG = {
             "taiwanPartyName": "查無"
           },
           "tfda": {
-            "evidenceNotes": "查詢助手食品原料「野櫻莓」1 筆：中文名稱「野櫻莓；黑山楸莓」，外文 black chokeberry, Aronia berry，學名 Aronia melanocarpa，次分類「草、木本植物類(2)可供直接食用」，部位果實，備註空白。用 Aronia 會再命中「紅山楸梅」（學名含 Aronia arbutifolia），同樣是果實、可供直接食用，那是另一個種。商品名 BrainBerry 為 0 筆。食品添加物 Aronia、野櫻莓都是 0 筆。果實有列名，沒有每日上限或警語文字；這不是 BrainBerry 65 mg 花青素萃取的劑量核准，也不是健康食品許可。官方網頁當天打不開，欄位抄自助手同日詳細紀錄。",
+            "evidenceNotes": "食品原料查到野櫻莓（黑山楸莓）果實 1 筆，可供直接食用，備註空白，沒有每日上限或警語，也不是未確認安全性。添加物與商品名 BrainBerry 都是 0 筆。另有紅山楸梅（Aronia arbutifolia），是另一個種。",
             "lookupDate": "2026-11-05",
             "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
             "officialCrosscheck": {
               "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
               "done": true,
               "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
-              "notes": "2026-11-05 嘗試開啟消費者專區原料頁與添加物頁：HTTPS 握手被對端關閉（OpenSSL unexpected eof，讀到 0 bytes），HTTP 得到 502 Bad Gateway（Server: Pingora）。data.fda.gov.tw 開放資料匯出同樣無法完成 TLS，所以沒有點開線上詳細頁。下列分類、名稱、部位與備註抄自同日可開啟的查詢助手詳細欄位（助手標示 detailsScraped 2026-11-05 06:21；頁首寫來源為消費者專區詳細頁與開放資料 InfoId 4、61）。這不是健康食品許可證。列名或查無都不等於建議劑量可以使用。本筆依助手詳細欄位做成原料平臺有列果實。線上官方 HTML 未打開。沒有把萃取物商品名或 65 mg 寫成法規限量。"
+              "notes": "2026-11-05 官方原料頁與添加物頁打不開，這次列名依同日查詢助手，不是另一次線上核對。"
             },
             "queries": [
               {
@@ -688,7 +688,7 @@ window.INGREDIENT_CATALOG = {
               "PharmaGABA 2026-08-04 展前記把原料寫成可用於壓力、放鬆、睡眠品質、認知與專注。這是展覽頁的供應商說法。",
               "效益頁彙整：含 50 mg GABA 的飲料與壓力指標有關；100 mg 使用一週與縮短入睡時間、增加非快速動眼睡眠有關；認知比較表同時列了 100 mg 與 200 mg。這些是供應商對研究的整理，本次沒有打開所引論文。"
             ],
-            "dosageNote": "50 mg、100 mg、200 mg 都是供應商效益頁的研究整理。台灣每日食用限量以 γ-胺基丁酸計為 100 毫克，200 mg 高於這個上限。含量還須不低於 20%，官網這次沒寫百分比。",
+            "dosageNote": "效益頁的 200 毫克高於每日 100 毫克上限；50 mg 與 100 mg 是同一頁整理的研究劑量。",
             "suggestedDosage": "效益頁寫到 50 mg 與 100 mg，認知表還列了 200 mg。頁上沒有另寫「建議每日只吃多少」。"
           },
           "evidenceLevels": [],
@@ -760,14 +760,14 @@ window.INGREDIENT_CATALOG = {
             "taiwanPartyName": "統園企業股份有限公司"
           },
           "tfda": {
-            "evidenceNotes": "查詢助手食品原料「γ-胺基丁酸」與 GABA 各 1 筆，是同一筆，次分類微生物及其來源製取之原料，不是未確認安全性。規定以 Lactobacillus hilgardii 或 Lactobacillus brevis 發酵、再純化；含量不得低於 20%；每日食用量以 γ-胺基丁酸計 100 毫克。警語自 115 年 1 月 1 日生效：避免同時飲酒或服用降血壓、鎮靜及癲癇等藥物；孕婦、授乳者、嬰幼兒須諮詢醫師。商品名 PharmaGABA 為 0 筆。食品添加物 GABA 與 γ-胺基丁酸為 0 筆。官網只寫泡菜分離的乳酸菌，沒有寫到 hilgardii 或 brevis，也沒寫含量百分比，所以不能把商品直接當成已符合菌種與 20% 規格。效益頁出現的 200 毫克高於每日 100 毫克上限。",
+            "evidenceNotes": "食品原料查到 γ-胺基丁酸 1 筆，添加物與商品名 PharmaGABA 都是 0 筆，不是未確認安全性。須以 Lactobacillus hilgardii 或 Lactobacillus brevis 發酵後純化，含量不得低於 20%，每日以 γ-胺基丁酸計 100 毫克。自 115 年 1 月 1 日起須標示避免同時飲酒或服用降血壓、鎮靜及癲癇藥物，孕婦、授乳者與嬰幼兒須諮詢醫師。官網沒寫這兩個菌名或含量百分比，不能把商品直接當成已符合規格。",
             "lookupDate": "2026-11-05",
             "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
             "officialCrosscheck": {
               "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
               "done": true,
               "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
-              "notes": "2026-11-05 嘗試開啟消費者專區原料頁與添加物頁：HTTPS 握手被對端關閉（OpenSSL unexpected eof），HTTP 得到 502 Bad Gateway。data.fda.gov.tw 開放資料匯出同樣無法完成 TLS，所以沒有點開線上詳細頁。下列分類、名稱與備註抄自同日可開啟的查詢助手詳細欄位（助手標示 detailsScraped 2026-11-05 06:21）。這不是健康食品許可證。本筆依助手詳細欄位做成原料有列，並抄下菌種、20%、每日 100 毫克與警語。線上官方 HTML 未打開。"
+              "notes": "2026-11-05 官方原料頁與添加物頁打不開，這次列名依同日查詢助手，不是另一次線上核對。"
             },
             "queries": [
               {
@@ -1001,7 +1001,7 @@ window.INGREDIENT_CATALOG = {
           "Solabia 產品頁宣稱 BrainBerry 每日 65 mg、無刺激，並寫臨床上看過精神運動速度與專注。這是供應商句子。",
           "Ahles 等，Nutrients 2020（PMC7468716，本次讀到全文）：101 名健康中年過重成人，24 週，每日 90 mg 或 150 mg BrainBerry 或安慰劑。90 mg 組慣用手 grooved pegboard 的精神運動速度相對安慰劑有顯著治療效應；150 mg 組沒有同樣差異。注意力、認知彈性、情緒與血清 BDNF 沒有顯示補充效應。"
         ],
-        "dosageNote": "65 mg 是供應商現在的產品頁劑量；90 mg 與 150 mg 是 2020 年這篇人體試驗的劑量。原料平臺對果實沒有寫每日上限。兩邊都不是 TFDA 對 BrainBerry 萃取規格的核准劑量。",
+        "dosageNote": "65 mg 是產品頁劑量，90 mg 與 150 mg 是 2020 年試驗劑量，都不是果實列名的上限。",
         "suggestedDosage": "Solabia 產品頁寫每日劑量 65 mg。Ahles 等 2020 論文使用的是 90 mg（約 16 mg 花青素）與 150 mg（約 27 mg 花青素），不是 65 mg。"
       },
       "evidenceLevels": [
@@ -1087,14 +1087,14 @@ window.INGREDIENT_CATALOG = {
         "taiwanPartyName": "查無"
       },
       "tfda": {
-        "evidenceNotes": "查詢助手食品原料「野櫻莓」1 筆：中文名稱「野櫻莓；黑山楸莓」，外文 black chokeberry, Aronia berry，學名 Aronia melanocarpa，次分類「草、木本植物類(2)可供直接食用」，部位果實，備註空白。用 Aronia 會再命中「紅山楸梅」（學名含 Aronia arbutifolia），同樣是果實、可供直接食用，那是另一個種。商品名 BrainBerry 為 0 筆。食品添加物 Aronia、野櫻莓都是 0 筆。果實有列名，沒有每日上限或警語文字；這不是 BrainBerry 65 mg 花青素萃取的劑量核准，也不是健康食品許可。官方網頁當天打不開，欄位抄自助手同日詳細紀錄。",
+        "evidenceNotes": "食品原料查到野櫻莓（黑山楸莓）果實 1 筆，可供直接食用，備註空白，沒有每日上限或警語，也不是未確認安全性。添加物與商品名 BrainBerry 都是 0 筆。另有紅山楸梅（Aronia arbutifolia），是另一個種。",
         "lookupDate": "2026-11-05",
         "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
         "officialCrosscheck": {
           "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
           "done": true,
           "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
-          "notes": "2026-11-05 嘗試開啟消費者專區原料頁與添加物頁：HTTPS 握手被對端關閉（OpenSSL unexpected eof，讀到 0 bytes），HTTP 得到 502 Bad Gateway（Server: Pingora）。data.fda.gov.tw 開放資料匯出同樣無法完成 TLS，所以沒有點開線上詳細頁。下列分類、名稱、部位與備註抄自同日可開啟的查詢助手詳細欄位（助手標示 detailsScraped 2026-11-05 06:21；頁首寫來源為消費者專區詳細頁與開放資料 InfoId 4、61）。這不是健康食品許可證。列名或查無都不等於建議劑量可以使用。本筆依助手詳細欄位做成原料平臺有列果實。線上官方 HTML 未打開。沒有把萃取物商品名或 65 mg 寫成法規限量。"
+          "notes": "2026-11-05 官方原料頁與添加物頁打不開，這次列名依同日查詢助手，不是另一次線上核對。"
         },
         "queries": [
           {
@@ -1182,7 +1182,7 @@ window.INGREDIENT_CATALOG = {
           "Alzchem 的 Creapure 品牌頁寫，每日 3 克肌酸可增加需要瞬間能量的體能表現，並寫歐盟允許這句健康聲明。這是供應商轉述歐盟說法，不是台灣核准。",
           "Creapure 劑量頁建議每日 3 到 5 克純肌酸一水合物，並寫高劑量的負荷期沒有同等的安全性評估、不建議長期吃不必要的高劑量。"
         ],
-        "dosageNote": "3 至 5 克是供應商建議，3 克那句對應他們寫的歐盟聲明。台灣助手備註是警語，沒有寫每日毫克或克數上限。列名不等於這些克數已在台灣核准。",
+        "dosageNote": "每日 3 至 5 克是 Creapure 的供應商建議，不是上述警語裡的上限。",
         "suggestedDosage": "Creapure 劑量頁：每日 3 至 5 克純肌酸一水合物。品牌頁另寫每日 3 克與歐盟體能聲明有關。"
       },
       "evidenceLevels": [],
@@ -1246,14 +1246,14 @@ window.INGREDIENT_CATALOG = {
         "taiwanPartyName": "查無"
       },
       "tfda": {
-        "evidenceNotes": "查詢助手食品原料「肌酸」與 creatine 各 1 筆，是同一筆：中文名肌酸，外文 Creatine, Creatine monohydrate，次分類「以化學反應或酵素製程等加工處理之食品原料」，大分類可供食品使用之原料。備註要求標示警語：肌酸不適合一般人食用；如擬食用，須在醫師、營養師或專業人士指導下使用，並列出肌肉裂傷、體水滯留、腎臟負擔、抽筋嘔吐、腸胃不適等可能副作用。沒有寫每日毫克上限。商品名 Creapure 為 0 筆。食品添加物 creatine、肌酸為 0 筆。不是未確認安全性分類，也不是健康食品許可。3–5 克是供應商建議，不是這則備註裡的上限。",
+        "evidenceNotes": "食品原料查到肌酸（Creatine、Creatine monohydrate）1 筆，添加物與商品名 Creapure 都是 0 筆，不是未確認安全性。須標示「肌酸不適合一般人食用；如擬食用，須在醫師、營養師或專業人士之指導下使用」，並載明肌肉裂傷、體水滯留、腎臟負擔、抽筋嘔吐、腸胃不適等可能副作用。沒有寫每日上限。",
         "lookupDate": "2026-11-05",
         "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
         "officialCrosscheck": {
           "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
           "done": true,
           "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
-          "notes": "2026-11-05 嘗試開啟消費者專區原料頁與添加物頁：HTTPS 握手被對端關閉（OpenSSL unexpected eof），HTTP 得到 502 Bad Gateway。data.fda.gov.tw 開放資料匯出同樣無法完成 TLS，所以沒有點開線上詳細頁。下列分類、名稱與備註抄自同日可開啟的查詢助手詳細欄位（助手標示 detailsScraped 2026-11-05 06:21）。這不是健康食品許可證。本筆依助手詳細欄位做成原料平臺有列，且須標警語。線上官方 HTML 未打開。"
+          "notes": "2026-11-05 官方原料頁與添加物頁打不開，這次列名依同日查詢助手，不是另一次線上核對。"
         },
         "queries": [
           {
@@ -1577,7 +1577,7 @@ window.INGREDIENT_CATALOG = {
           "NutraIngredients 2025-10-22 報導 Clinical Nutrition 的隨機雙盲試驗：過重且糖尿病前期、40–70 歲，每日 15 mg 羥基酪醇（稿中寫 Hytolive、Alvinesa）或安慰劑 16 週；完成 49 人。稿中寫氧化 LDL、蛋白質羰基、8-OHdG 與發炎指標有改善。這是產業稿轉述，不是台灣功效核准。",
           "Alvinesa 產品頁寫 Hytolive 來自橄欖果、不是橄欖葉、製程不用溶劑，可做成補充品與飲料。頁上沒有寫每日毫克。"
         ],
-        "dosageNote": "15 mg 是這次讀到的試驗劑量，低於助手寫的每日 20 mg 羥基酪醇上限，但只有原料符合果渣製程與 15–40% 含量時，那個上限才用得上。Hytolive 產品頁沒有寫百分比與果渣。另須標孕婦及嬰幼兒不宜食用。列名不等於試驗功效可以當台灣宣稱。",
+        "dosageNote": "每日 15 mg 是試驗報導的劑量，不是法規上限。",
         "suggestedDosage": "試驗劑量是每日 15 mg 羥基酪醇，出處是 NutraIngredients 2025-10-22 對該試驗的報導，以及 Alvinesa 臨床新聞的同一數字。產品頁沒有另寫建議攝取量。"
       },
       "evidenceLevels": [
@@ -1649,14 +1649,14 @@ window.INGREDIENT_CATALOG = {
         "taiwanPartyName": "查無"
       },
       "tfda": {
-        "evidenceNotes": "查詢助手食品原料「羥基酪醇」與 hydroxytyrosol 各 1 筆，是同一筆：油橄欖果實渣萃取物(含羥基酪醇)，學名 Olea europaea，次分類草、木本植物類來源製取之原料。規格是油橄欖果實榨油後的果渣，經熱水萃取、離心、濃縮、殺菌、脫水乾燥；羥基酪醇含量須 15–40%；每日使用量以羥基酪醇計 20 毫克以下；包裝須標「孕婦及嬰幼兒不宜食用」。商品名 Hytolive 為 0 筆。以 Olea europaea 會再看到橄欖（根、莖、葉；果實可作一般食品）與橄欖油，那兩筆不是這個果渣規格。食品添加物 hydroxytyrosol、羥基酪醇為 0 筆。不是未確認安全性分類。Hytolive 產品頁這次沒有寫含量百分比，也沒有寫 pomace／果渣，所以不能把商品名直接當成已符合 15–40% 規格。",
+        "evidenceNotes": "食品原料查到油橄欖果實渣萃取物（含羥基酪醇）1 筆，添加物與商品名 Hytolive 都是 0 筆，不是未確認安全性。羥基酪醇須占 15–40%，每日以羥基酪醇計 20 毫克以下，並標「孕婦及嬰幼兒不宜食用」。同名學名下的橄欖與橄欖油不是這個果渣規格。產品頁沒寫含量百分比或果渣，不能當成已符合 15–40%。",
         "lookupDate": "2026-11-05",
         "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
         "officialCrosscheck": {
           "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
           "done": true,
           "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
-          "notes": "2026-11-05 嘗試開啟消費者專區原料頁與添加物頁：HTTPS 握手被對端關閉（OpenSSL unexpected eof），HTTP 得到 502 Bad Gateway。data.fda.gov.tw 開放資料匯出同樣無法完成 TLS，所以沒有點開線上詳細頁。下列分類、名稱與備註抄自同日可開啟的查詢助手詳細欄位（助手標示 detailsScraped 2026-11-05 06:21）。這不是健康食品許可證。本筆依助手詳細欄位做成原料平臺有列，且有含量、每日 20 毫克與警語。線上官方 HTML 未打開。"
+          "notes": "2026-11-05 官方原料頁與添加物頁打不開，這次列名依同日查詢助手，不是另一次線上核對。"
         },
         "queries": [
           {
@@ -1744,7 +1744,7 @@ window.INGREDIENT_CATALOG = {
           "PharmaGABA 2026-08-04 展前記把原料寫成可用於壓力、放鬆、睡眠品質、認知與專注。這是展覽頁的供應商說法。",
           "效益頁彙整：含 50 mg GABA 的飲料與壓力指標有關；100 mg 使用一週與縮短入睡時間、增加非快速動眼睡眠有關；認知比較表同時列了 100 mg 與 200 mg。這些是供應商對研究的整理，本次沒有打開所引論文。"
         ],
-        "dosageNote": "50 mg、100 mg、200 mg 都是供應商效益頁的研究整理。台灣每日食用限量以 γ-胺基丁酸計為 100 毫克，200 mg 高於這個上限。含量還須不低於 20%，官網這次沒寫百分比。",
+        "dosageNote": "效益頁的 200 毫克高於每日 100 毫克上限；50 mg 與 100 mg 是同一頁整理的研究劑量。",
         "suggestedDosage": "效益頁寫到 50 mg 與 100 mg，認知表還列了 200 mg。頁上沒有另寫「建議每日只吃多少」。"
       },
       "evidenceLevels": [],
@@ -1816,14 +1816,14 @@ window.INGREDIENT_CATALOG = {
         "taiwanPartyName": "統園企業股份有限公司"
       },
       "tfda": {
-        "evidenceNotes": "查詢助手食品原料「γ-胺基丁酸」與 GABA 各 1 筆，是同一筆，次分類微生物及其來源製取之原料，不是未確認安全性。規定以 Lactobacillus hilgardii 或 Lactobacillus brevis 發酵、再純化；含量不得低於 20%；每日食用量以 γ-胺基丁酸計 100 毫克。警語自 115 年 1 月 1 日生效：避免同時飲酒或服用降血壓、鎮靜及癲癇等藥物；孕婦、授乳者、嬰幼兒須諮詢醫師。商品名 PharmaGABA 為 0 筆。食品添加物 GABA 與 γ-胺基丁酸為 0 筆。官網只寫泡菜分離的乳酸菌，沒有寫到 hilgardii 或 brevis，也沒寫含量百分比，所以不能把商品直接當成已符合菌種與 20% 規格。效益頁出現的 200 毫克高於每日 100 毫克上限。",
+        "evidenceNotes": "食品原料查到 γ-胺基丁酸 1 筆，添加物與商品名 PharmaGABA 都是 0 筆，不是未確認安全性。須以 Lactobacillus hilgardii 或 Lactobacillus brevis 發酵後純化，含量不得低於 20%，每日以 γ-胺基丁酸計 100 毫克。自 115 年 1 月 1 日起須標示避免同時飲酒或服用降血壓、鎮靜及癲癇藥物，孕婦、授乳者與嬰幼兒須諮詢醫師。官網沒寫這兩個菌名或含量百分比，不能把商品直接當成已符合規格。",
         "lookupDate": "2026-11-05",
         "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
         "officialCrosscheck": {
           "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
           "done": true,
           "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
-          "notes": "2026-11-05 嘗試開啟消費者專區原料頁與添加物頁：HTTPS 握手被對端關閉（OpenSSL unexpected eof），HTTP 得到 502 Bad Gateway。data.fda.gov.tw 開放資料匯出同樣無法完成 TLS，所以沒有點開線上詳細頁。下列分類、名稱與備註抄自同日可開啟的查詢助手詳細欄位（助手標示 detailsScraped 2026-11-05 06:21）。這不是健康食品許可證。本筆依助手詳細欄位做成原料有列，並抄下菌種、20%、每日 100 毫克與警語。線上官方 HTML 未打開。"
+          "notes": "2026-11-05 官方原料頁與添加物頁打不開，這次列名依同日查詢助手，不是另一次線上核對。"
         },
         "queries": [
           {
@@ -1911,7 +1911,7 @@ window.INGREDIENT_CATALOG = {
           "Richen 展後稿把 RiviK2 無蔗糖微囊包覆維生素 K2 放在清潔標示與鈣鎂配方安定性，沒有寫新的功效數據。",
           "產品頁寫 all-trans MK-7 在營養劑量附近較其他維生素 K 同系物更能促進骨鈣素與基質 Gla 蛋白的羧化，並寫半衰期與生物利用率較高。這是供應商句子，不是台灣核准功效。"
         ],
-        "dosageNote": "50 mcg 只出現在產品頁的配方例子。助手的添加物限制是「視實際需要適量使用」，而且只能在補充食品中不足的營養素時使用。沒有寫每日微克上限。列名不等於 50 mcg 已核准。",
+        "dosageNote": "50 mcg 只出現在產品頁的配方例子，添加物沒有寫每日微克上限。",
         "suggestedDosage": "查無單一每日建議量。產品頁的錠劑例子是維生素 D3 5 mcg、K2（MK-7）50 mcg、鈣 200 mg，那是配方舉例，不是建議攝取量。"
       },
       "evidenceLevels": [],
@@ -1975,14 +1975,14 @@ window.INGREDIENT_CATALOG = {
         "taiwanPartyName": "查無"
       },
       "tfda": {
-        "evidenceNotes": "查詢助手食品原料「維生素K2」與 Menaquinone 是 0 筆。食品添加物「維生素K2」1 筆：外文 Menaquinone（Vitamin K2），類別營養添加劑。使用範圍是各類食品視實際需要適量使用；使用限制是限於補充食品中不足之營養素時使用。規格欄是空的。商品名 RiviK2、MK-7 在原料與添加物都是 0 筆。另外維生素 K1 是 Phylloquinone、維生素 K3 是 Menadione，不是這一筆。不是未確認安全性分類，也不是健康食品許可。適量使用不等於任何微克數都可以。",
+        "evidenceNotes": "食品原料查無維生素 K2。食品添加物有 1 筆，是營養添加劑 Menaquinone（Vitamin K2），各類食品視實際需要適量使用，且限於補充食品中不足的營養素；規格欄是空的，不是未確認安全性。商品名 RiviK2 與 MK-7 都沒有另列。維生素 K1、K3 是不同品項。",
         "lookupDate": "2026-11-05",
         "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
         "officialCrosscheck": {
           "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
           "done": true,
           "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
-          "notes": "2026-11-05 嘗試開啟消費者專區原料頁與添加物頁：HTTPS 握手被對端關閉（OpenSSL unexpected eof），HTTP 得到 502 Bad Gateway。data.fda.gov.tw 開放資料匯出同樣無法完成 TLS，所以沒有點開線上詳細頁。下列分類、名稱與備註抄自同日可開啟的查詢助手詳細欄位（助手標示 detailsScraped 2026-11-05 06:21）。這不是健康食品許可證。本筆依助手添加物欄位做成營養添加劑有列。原料分頁沒有同名品項。線上官方 HTML 未打開。"
+          "notes": "2026-11-05 官方原料頁與添加物頁打不開，這次列名依同日查詢助手，不是另一次線上核對。"
         },
         "queries": [
           {

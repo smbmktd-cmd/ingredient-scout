@@ -16,7 +16,7 @@
   },
   "tfda": {
     "usable": "listed_food_ingredient",
-    "evidenceNotes": "查詢助手食品原料「羥基酪醇」與 hydroxytyrosol 各 1 筆，是同一筆：油橄欖果實渣萃取物(含羥基酪醇)，學名 Olea europaea，次分類草、木本植物類來源製取之原料。規格是油橄欖果實榨油後的果渣，經熱水萃取、離心、濃縮、殺菌、脫水乾燥；羥基酪醇含量須 15–40%；每日使用量以羥基酪醇計 20 毫克以下；包裝須標「孕婦及嬰幼兒不宜食用」。商品名 Hytolive 為 0 筆。以 Olea europaea 會再看到橄欖（根、莖、葉；果實可作一般食品）與橄欖油，那兩筆不是這個果渣規格。食品添加物 hydroxytyrosol、羥基酪醇為 0 筆。不是未確認安全性分類。Hytolive 產品頁這次沒有寫含量百分比，也沒有寫 pomace／果渣，所以不能把商品名直接當成已符合 15–40% 規格。",
+    "evidenceNotes": "食品原料查到油橄欖果實渣萃取物（含羥基酪醇）1 筆，添加物與商品名 Hytolive 都是 0 筆，不是未確認安全性。羥基酪醇須占 15–40%，每日以羥基酪醇計 20 毫克以下，並標「孕婦及嬰幼兒不宜食用」。同名學名下的橄欖與橄欖油不是這個果渣規格。產品頁沒寫含量百分比或果渣，不能當成已符合 15–40%。",
     "lookupDate": "2026-11-05",
     "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
     "queries": [
@@ -95,7 +95,7 @@
       "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
       "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
       "done": true,
-      "notes": "2026-11-05 嘗試開啟消費者專區原料頁與添加物頁：HTTPS 握手被對端關閉（OpenSSL unexpected eof），HTTP 得到 502 Bad Gateway。data.fda.gov.tw 開放資料匯出同樣無法完成 TLS，所以沒有點開線上詳細頁。下列分類、名稱與備註抄自同日可開啟的查詢助手詳細欄位（助手標示 detailsScraped 2026-11-05 06:21）。這不是健康食品許可證。本筆依助手詳細欄位做成原料平臺有列，且有含量、每日 20 毫克與警語。線上官方 HTML 未打開。"
+      "notes": "2026-11-05 官方原料頁與添加物頁打不開，這次列名依同日查詢助手，不是另一次線上核對。"
     }
   },
   "efficacy": {
@@ -104,7 +104,7 @@
       "Alvinesa 產品頁寫 Hytolive 來自橄欖果、不是橄欖葉、製程不用溶劑，可做成補充品與飲料。頁上沒有寫每日毫克。"
     ],
     "suggestedDosage": "試驗劑量是每日 15 mg 羥基酪醇，出處是 NutraIngredients 2025-10-22 對該試驗的報導，以及 Alvinesa 臨床新聞的同一數字。產品頁沒有另寫建議攝取量。",
-    "dosageNote": "15 mg 是這次讀到的試驗劑量，低於助手寫的每日 20 mg 羥基酪醇上限，但只有原料符合果渣製程與 15–40% 含量時，那個上限才用得上。Hytolive 產品頁沒有寫百分比與果渣。另須標孕婦及嬰幼兒不宜食用。列名不等於試驗功效可以當台灣宣稱。"
+    "dosageNote": "每日 15 mg 是試驗報導的劑量，不是法規上限。"
   },
   "patent": {
     "status": "unknown",

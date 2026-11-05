@@ -3,7 +3,6 @@
   const cfg = window.VOTE_CONFIG || {};
   const VOTES_KEY = "ingredient-scout.votes.v1";
   const SENT_KEY = "ingredient-scout.sent.v1";
-  const TRAY_KEY = "ingredient-scout.tray.v1";
   const BALLOT_KEY = "ingredient-scout.ballot.v1";
   const SYNC_KEY = "ingredient-scout.synced.v1";
   const BALLOT_RE = /^[0-9a-f]{8}-[0-9a-f]{4}-[1-8][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
@@ -43,10 +42,8 @@
     catalog: window.INGREDIENT_CATALOG,
     date: "",
     votes: loadJson(localStorage, VOTES_KEY, {}),
-    tray: loadJson(sessionStorage, TRAY_KEY, []),
     sending: false,
     ready: false,
-    skipped: 0,
     team: null,
     teamError: false,
     teamDate: "",
@@ -80,10 +77,6 @@
     } catch (error) {
       announce("這台瀏覽器沒有留下本機記錄，請記得下載。");
     }
-  }
-
-  function saveTray() {
-    sessionStorage.setItem(TRAY_KEY, JSON.stringify(state.tray));
   }
 
   function httpsUrl(value) {
@@ -456,7 +449,6 @@
     } else {
       day.picks.forEach((ingredient) => list.append(renderCard(ingredient)));
     }
-    renderTray();
     refreshChrome();
     if (dateChanged) refreshTeam();
   }
@@ -482,7 +474,7 @@
     const send = $("send");
     if (!sheet && !form) {
       send.hidden = true;
-      $("backend-note").textContent = "尚未設定試算表或 Formspree。請下載 JSON，交給負責彙總的同事。";
+      $("backend-note").textContent = "尚未設定試算表或 Formspree。表態只留在這台裝置，可下載 JSON 留底。";
     } else if (sheet) {
       send.hidden = false;
       send.disabled = state.syncing;
@@ -1036,95 +1028,23 @@
     scheduleSync("user");
   }
 
-  function addTray(dump, label) {
-    const key = dump.date + "\n" + JSON.stringify(dump.votes);
-    if (state.tray.some((item) => item.key === key)) {
-      state.skipped += 1;
-      renderTray();
-      announce("這份投票已經在彙總區。");
-      return false;
-    }
-    state.tray.push({ key: key, label: label, dump: dump });
-    saveTray();
-    renderTray();
-    announce("已併入 " + dump.date + " 的一份投票。");
-    return true;
-  }
-
-  function importText(text, label) {
-    const raw = text.trim();
-    if (!raw) return;
-    const hash = raw.match(/#ballot=([A-Za-z0-9_-]+)/);
-    if (hash) {
-      addTray(VoteModel.decodeShare(hash[1]), label || "分享連結");
-      return;
-    }
-    addTray(VoteModel.parseDump(raw), label || "貼上的 JSON");
-  }
-
-  function renderTray() {
-    const note = $("tray-note");
-    const list = $("tray");
-    const body = $("summary").querySelector("tbody");
-    list.replaceChildren();
-    state.tray.forEach(function (item, index) {
-      const remove = el("button", { type: "button" }, "移除");
-      remove.addEventListener("click", function () {
-        state.tray.splice(index, 1);
-        saveTray();
-        renderTray();
-      });
-      list.append(el("li", {}, item.label + " · " + item.dump.date + " · " + item.dump.votes.length + " 票", remove));
-    });
-    const dumps = state.tray.map((item) => item.dump);
-    const merged = VoteModel.mergeDumps(dumps, idsOf(currentDay()), state.date);
-    const bits = ["這一天併入 " + merged.ballots + " 份"];
-    const skipped = merged.duplicates + state.skipped;
-    if (skipped) bits.push("略過重複 " + skipped + " 份");
-    if (merged.otherDates) bits.push("其他日期 " + merged.otherDates + " 份未計入");
-    note.textContent = state.tray.length ? bits.join("，") + "。" : "尚未匯入。";
-    body.replaceChildren();
-    merged.results.forEach(function (row) {
-      const ingredient = currentDay().picks.find((item) => item.id === row.ingredientId);
-      body.append(el("tr", {},
-        el("td", {}, ingredient ? ingredient.names.commonZh : row.ingredientId),
-        el("td", {}, String(row.approve)),
-        el("td", {}, String(row.oppose)),
-        el("td", {}, row.notes.join(" / ") || "—")
-      ));
-    });
-  }
-
-  function downloadSummary() {
-    const merged = VoteModel.mergeDumps(state.tray.map((item) => item.dump), idsOf(currentDay()), state.date);
-    if (!merged.ballots) {
-      announce("彙總區還沒有這一天的投票。");
-      return;
-    }
-    download("vote-summary-" + state.date + ".json", VoteModel.summaryDocument(merged, state.date));
-    announce("已下載彙總。可存到 data/votes/。");
-  }
-
   function consumeHash() {
     const match = window.location.hash.match(/^#ballot=([A-Za-z0-9_-]+)$/);
     if (!match) return;
+    const url = new URL(window.location.href);
+    const previous = state.date;
+    url.hash = "";
     try {
       const dump = VoteModel.decodeShare(match[1]);
-      const url = new URL(window.location.href);
-      const previous = state.date;
-      url.hash = "";
       if (!url.searchParams.get("date") && state.catalog.days.some((day) => day.date === dump.date)) {
         state.date = dump.date;
         url.searchParams.set("date", dump.date);
       }
-      history.replaceState(null, "", url);
-      const added = addTray(dump, "分享連結");
-      $("staff").open = true;
-      if (state.ready && state.date !== previous) render();
-      if (added) announce("已把連結裡的投票放進工作人員區，沒有改你自己的表態。");
     } catch (error) {
       announce("這條分享連結讀不起來。");
     }
+    history.replaceState(null, "", url);
+    if (state.ready && state.date !== previous) render();
   }
 
   function bind() {
@@ -1143,37 +1063,6 @@
       sendDump();
     });
     $("clear").addEventListener("click", clearDay);
-    $("import-paste").addEventListener("click", function () {
-      try {
-        importText($("paste").value, "貼上的內容");
-        $("paste").value = "";
-      } catch (error) {
-        announce(error.message || "這段內容不是投票檔。");
-      }
-    });
-    $("files").addEventListener("change", function () {
-      const files = Array.from($("files").files || []);
-      files.forEach(function (file) {
-        const reader = new FileReader();
-        reader.onload = function () {
-          try {
-            importText(String(reader.result || ""), file.name);
-          } catch (error) {
-            announce(file.name + " 讀不起來。" + (error.message || ""));
-          }
-        };
-        reader.readAsText(file);
-      });
-      $("files").value = "";
-    });
-    $("download-summary").addEventListener("click", downloadSummary);
-    $("clear-tray").addEventListener("click", function () {
-      state.tray = [];
-      state.skipped = 0;
-      saveTray();
-      renderTray();
-      announce("已清空彙總區。");
-    });
   }
 
   function boot() {

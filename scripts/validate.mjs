@@ -258,6 +258,12 @@ function checkDocs() {
   if (app.includes("day-note") || /banner\.append\([\s\S]{0,80}day\.notes/.test(app)) {
     fail("投票頁不應再顯示日報 notes");
   }
+  if (html.includes("工作人員：合併多人投票") || html.includes('id="staff"') || html.includes("下載彙總 JSON")) {
+    fail("投票頁不應再顯示合併多人投票");
+  }
+  if (app.includes("renderTray") || app.includes('id="staff"') || app.includes("$(\"staff\")")) {
+    fail("投票頁腳本不應再合併多人投票");
+  }
   for (const needle of ["tallyEndpoint", "formspreeEndpoint", "text/plain;charset=utf-8", "團隊累計", "ballotId"]) {
     if (!app.includes(needle)) fail("投票頁腳本缺少：" + needle);
   }

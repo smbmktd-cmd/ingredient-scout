@@ -59,7 +59,13 @@
     syncBackoff: 0,
     memoryBallotId: "",
     pendingSyncDate: "",
-    queuedDate: ""
+    queuedDate: "",
+    searchIndex: [],
+    searchResults: [],
+    searchActive: -1,
+    searchOpen: false,
+    searchExtra: 0,
+    composing: false
   };
 
   function loadJson(storage, key, fallback) {
@@ -1047,6 +1053,273 @@
     if (state.ready && state.date !== previous) render();
   }
 
+  const SEARCH_LIMIT = 8;
+
+  function searchGlyph() {
+    const svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+    svg.setAttribute("class", "search-glyph");
+    svg.setAttribute("viewBox", "0 0 24 24");
+    svg.setAttribute("aria-hidden", "true");
+    const circle = document.createElementNS("http://www.w3.org/2000/svg", "circle");
+    circle.setAttribute("cx", "11");
+    circle.setAttribute("cy", "11");
+    circle.setAttribute("r", "6.5");
+    circle.setAttribute("fill", "none");
+    circle.setAttribute("stroke", "currentColor");
+    circle.setAttribute("stroke-width", "2");
+    const path = document.createElementNS("http://www.w3.org/2000/svg", "path");
+    path.setAttribute("d", "M16.2 16.2L21 21");
+    path.setAttribute("fill", "none");
+    path.setAttribute("stroke", "currentColor");
+    path.setAttribute("stroke-width", "2");
+    path.setAttribute("stroke-linecap", "round");
+    svg.append(circle, path);
+    return svg;
+  }
+
+  function foldForHighlight(text) {
+    return String(text || "").replace(/[\uFF01-\uFF5E]/g, function (ch) {
+      return String.fromCharCode(ch.charCodeAt(0) - 0xfee0);
+    }).toLowerCase();
+  }
+
+  function highlighted(text, tokens) {
+    const source = String(text || "");
+    const frag = document.createDocumentFragment();
+    if (!source) return frag;
+    const folded = foldForHighlight(source);
+    const ranges = [];
+    (tokens || []).forEach(function (token) {
+      if (!token) return;
+      let from = 0;
+      while (from < folded.length) {
+        const at = folded.indexOf(token, from);
+        if (at < 0) break;
+        ranges.push([at, at + token.length]);
+        from = at + token.length;
+      }
+    });
+    ranges.sort(function (a, b) { return a[0] - b[0] || a[1] - b[1]; });
+    const merged = [];
+    ranges.forEach(function (range) {
+      const last = merged[merged.length - 1];
+      if (!last || range[0] > last[1]) merged.push([range[0], range[1]]);
+      else last[1] = Math.max(last[1], range[1]);
+    });
+    let cursor = 0;
+    merged.forEach(function (range) {
+      if (range[0] > cursor) frag.append(document.createTextNode(source.slice(cursor, range[0])));
+      frag.append(el("mark", {}, source.slice(range[0], range[1])));
+      cursor = range[1];
+    });
+    if (cursor < source.length) frag.append(document.createTextNode(source.slice(cursor)));
+    return frag;
+  }
+
+  function searchMeta(hit) {
+    const parts = [];
+    if (hit.snippet) parts.push(hit.snippet);
+    else if (hit.hint) parts.push(hit.hint);
+    if (hit.dates && hit.dates.length) parts.push(hit.dates.join("、"));
+    return parts.join(" · ");
+  }
+
+  function closeSearch() {
+    state.searchOpen = false;
+    state.searchResults = [];
+    state.searchActive = -1;
+    state.searchExtra = 0;
+    const panel = $("search-panel");
+    const input = $("ingredient-search");
+    const list = $("search-list");
+    if (list) list.replaceChildren();
+    if (panel) panel.hidden = true;
+    if (input) {
+      input.setAttribute("aria-expanded", "false");
+      input.removeAttribute("aria-activedescendant");
+    }
+  }
+
+  function paintSearchActive() {
+    const list = $("search-list");
+    const input = $("ingredient-search");
+    if (!list || !input) return;
+    const options = list.querySelectorAll("[role='option']");
+    options.forEach(function (node, index) {
+      const on = index === state.searchActive;
+      node.classList.toggle("is-active", on);
+      node.setAttribute("aria-selected", on ? "true" : "false");
+    });
+    const active = state.searchActive >= 0 ? $("search-opt-" + state.searchActive) : null;
+    if (active) {
+      input.setAttribute("aria-activedescendant", active.id);
+      const panel = $("search-panel");
+      const top = active.offsetTop;
+      const bottom = top + active.offsetHeight;
+      if (top < panel.scrollTop) panel.scrollTop = top;
+      else if (bottom > panel.scrollTop + panel.clientHeight) panel.scrollTop = bottom - panel.clientHeight;
+    } else {
+      input.removeAttribute("aria-activedescendant");
+    }
+  }
+
+  function renderSearchOption(hit, index, tokens) {
+    const option = el("li", {
+      id: "search-opt-" + index,
+      role: "option",
+      class: "search-option" + (index === state.searchActive ? " is-active" : ""),
+      "aria-selected": index === state.searchActive ? "true" : "false"
+    });
+    option.append(
+      searchGlyph(),
+      el("span", { class: "search-copy" },
+        el("span", { class: "search-label" }, highlighted(hit.label, tokens)),
+        el("span", { class: "search-meta" }, highlighted(searchMeta(hit), tokens))
+      )
+    );
+    option.addEventListener("mousedown", function (event) { event.preventDefault(); });
+    option.addEventListener("click", function () { chooseSearch(index); });
+    option.addEventListener("mousemove", function () {
+      if (state.searchActive === index) return;
+      state.searchActive = index;
+      paintSearchActive();
+    });
+    return option;
+  }
+
+  function paintSearchList(tokens) {
+    const list = $("search-list");
+    const panel = $("search-panel");
+    const input = $("ingredient-search");
+    list.replaceChildren();
+    state.searchOpen = true;
+    panel.hidden = false;
+    input.setAttribute("aria-expanded", "true");
+    if (!state.searchResults.length) {
+      list.append(el("li", { class: "search-empty", role: "presentation" }, "找不到"));
+      input.removeAttribute("aria-activedescendant");
+      return;
+    }
+    state.searchResults.forEach(function (hit, index) {
+      list.append(renderSearchOption(hit, index, tokens));
+    });
+    if (state.searchExtra > 0) {
+      list.append(el("li", { class: "search-more", role: "presentation" }, "還有 " + state.searchExtra + " 筆，請再縮小關鍵字"));
+    }
+    paintSearchActive();
+  }
+
+  function updateSearch(open) {
+    const input = $("ingredient-search");
+    if (!input || !window.SearchModel) return;
+    const query = input.value;
+    const tokens = SearchModel.tokensOf(query);
+    if (!tokens.length) {
+      state.searchResults = [];
+      state.searchExtra = 0;
+      state.searchActive = -1;
+      closeSearch();
+      return;
+    }
+    const matches = SearchModel.search(state.searchIndex, query);
+    state.searchExtra = Math.max(0, matches.length - SEARCH_LIMIT);
+    state.searchResults = matches.slice(0, SEARCH_LIMIT);
+    state.searchActive = state.searchResults.length ? 0 : -1;
+    if (!open && !state.searchOpen) return;
+    paintSearchList(tokens);
+  }
+
+  function openIngredient(id, date, label) {
+    const days = state.catalog.days || [];
+    const onDate = days.find(function (day) {
+      return day.date === date && (day.picks || []).some(function (item) { return item.id === id; });
+    });
+    const host = onDate || days.find(function (day) {
+      return (day.picks || []).some(function (item) { return item.id === id; });
+    });
+    if (!host) {
+      announce("目錄裡找不到這筆原料。");
+      return;
+    }
+    state.date = host.date;
+    const url = new URL(window.location.href);
+    url.searchParams.set("date", host.date);
+    url.hash = "ingredient-" + id;
+    history.replaceState(null, "", url);
+    render();
+    const card = document.getElementById("ingredient-" + id);
+    if (!card) return;
+    card.classList.add("is-located");
+    card.tabIndex = -1;
+    const reduce = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    card.scrollIntoView({ block: "start", behavior: reduce ? "auto" : "smooth" });
+    card.focus({ preventScroll: true });
+    announce("已打開「" + (label || id) + "」，日期 " + host.date + "。");
+    window.setTimeout(function () {
+      card.classList.remove("is-located");
+    }, 4000);
+  }
+
+  function chooseSearch(index) {
+    const hit = state.searchResults[index];
+    if (!hit) return;
+    const input = $("ingredient-search");
+    input.value = hit.label;
+    closeSearch();
+    openIngredient(hit.id, hit.date, hit.label);
+  }
+
+  function bindSearch() {
+    const input = $("ingredient-search");
+    const field = $("search-field");
+    if (!input || !field || !window.SearchModel) return;
+    input.addEventListener("compositionstart", function () { state.composing = true; });
+    input.addEventListener("compositionend", function () {
+      state.composing = false;
+      updateSearch(true);
+    });
+    input.addEventListener("input", function () {
+      if (state.composing) return;
+      updateSearch(true);
+    });
+    input.addEventListener("focus", function () {
+      updateSearch(true);
+    });
+    input.addEventListener("keydown", function (event) {
+      if (event.isComposing || state.composing) return;
+      if (event.key === "ArrowDown" || event.key === "ArrowUp") {
+        event.preventDefault();
+        const wasOpen = state.searchOpen;
+        if (!wasOpen) updateSearch(true);
+        if (!state.searchResults.length || !wasOpen) return;
+        if (event.key === "ArrowDown") {
+          state.searchActive = Math.min(state.searchResults.length - 1, Math.max(0, state.searchActive) + 1);
+        } else {
+          state.searchActive = Math.max(0, state.searchActive < 0 ? 0 : state.searchActive - 1);
+        }
+        paintSearchActive();
+      } else if (event.key === "Enter") {
+        if (!SearchModel.tokensOf(input.value).length) return;
+        if (!state.searchOpen) updateSearch(true);
+        if (state.searchActive < 0 || !state.searchResults[state.searchActive]) return;
+        event.preventDefault();
+        chooseSearch(state.searchActive);
+      } else if (event.key === "Escape") {
+        if (!state.searchOpen) return;
+        event.preventDefault();
+        closeSearch();
+      }
+    });
+    input.addEventListener("blur", function () {
+      window.setTimeout(function () {
+        if (!field.contains(document.activeElement)) closeSearch();
+      }, 0);
+    });
+    document.addEventListener("pointerdown", function (event) {
+      if (!field.contains(event.target)) closeSearch();
+    });
+  }
+
   function bind() {
     $("date").addEventListener("change", function () {
       state.date = $("date").value;
@@ -1078,8 +1351,11 @@
     if (!state.catalog || !Array.isArray(state.catalog.days) || !state.catalog.days.length) {
       $("list").textContent = "讀不到原料目錄。請在專案根目錄執行 node scripts/build-catalog.mjs，再用網頁伺服器開啟這個資料夾。";
       $("dock-tally").textContent = "目錄讀取失敗";
+      const searchInput = $("ingredient-search");
+      if (searchInput) searchInput.disabled = true;
       return;
     }
+    if (window.SearchModel) state.searchIndex = SearchModel.buildIndex(state.catalog.days);
     const select = $("date");
     state.catalog.days.forEach(function (day) {
       select.append(el("option", { value: day.date }, day.date + " " + (day.title || "") + (day.example ? "（練習）" : "")));
@@ -1087,6 +1363,7 @@
     const requested = new URLSearchParams(window.location.search).get("date");
     state.date = state.catalog.days.some((day) => day.date === requested) ? requested : state.catalog.days[0].date;
     bind();
+    bindSearch();
     consumeHash();
     window.addEventListener("hashchange", consumeHash);
     window.addEventListener("pagehide", pageHideSync);

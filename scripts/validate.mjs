@@ -6,6 +6,7 @@ import { buildCatalog, loadRaw, readJson, serializeCatalog } from "./lib/catalog
 
 const require = createRequire(import.meta.url);
 const VoteModel = require("../docs/vote-model.js");
+const SearchModel = require("../docs/search-model.js");
 const SheetTally = require("./lib/sheet-tally.js");
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const schema = readJson(path.join(root, "data", "schema.json"));
@@ -227,10 +228,16 @@ function checkDocs() {
     if (!dossier.includes(needle)) fail("卷宗範本缺少：" + needle);
   }
   const html = fs.readFileSync(path.join(root, "docs", "index.html"), "utf8");
-  for (const needle of ["catalog.js", "vote-model.js", "app.js", "styles.css", "config.js", "zh-Hant"]) {
+  for (const needle of ["catalog.js", "vote-model.js", "search-model.js", "app.js", "styles.css", "config.js", "zh-Hant"]) {
     if (!html.includes(needle)) fail("投票頁缺少：" + needle);
   }
+  if (!html.includes('id="ingredient-search"') || !html.includes("搜尋原料關鍵字")) {
+    fail("投票頁缺少跨日期原料關鍵字搜尋");
+  }
   const app = fs.readFileSync(path.join(root, "docs", "app.js"), "utf8");
+  if (!app.includes("SearchModel.search") || !app.includes("SearchModel.buildIndex")) {
+    fail("投票頁搜尋應查全部日報，而不是只查目前選到的日期");
+  }
   for (const key of [
     ...schema.enums["tfda.usable"],
     ...schema.enums["discovery.channel"],
@@ -285,6 +292,117 @@ function checkCatalog() {
 
 function assert(condition, message) {
   if (!condition) fail("投票邏輯：" + message);
+}
+
+function assertSearch(condition, message) {
+  if (!condition) fail("原料搜尋：" + message);
+}
+
+function ingredientFixture(id, extra) {
+  return Object.assign({
+    id: id,
+    names: {
+      commonZh: extra.commonZh || id,
+      commonEn: extra.commonEn || "",
+      trade: extra.trade || "",
+      scientific: extra.scientific || "",
+      aliases: extra.aliases || []
+    },
+    supply: {
+      supplierName: extra.supplierName || "",
+      taiwanPartyName: extra.taiwanPartyName || ""
+    },
+    efficacy: { claimedBenefits: extra.benefits || [] },
+    sources: extra.sources || []
+  }, extra.rest || {});
+}
+
+function checkSearchModel() {
+  const olderOnly = ingredientFixture("older-root", {
+    commonZh: "只有舊日的根皮",
+    commonEn: "old root bark",
+    trade: "OLDROOT",
+    scientific: "Radix antiqua",
+    benefits: ["睡眠品質（舊日才寫的句子）"],
+    taiwanPartyName: "舊港行",
+    sources: [{ title: "供應商", url: "https://supplier.example/secret-token-zzz", whatItContributes: "官網" }]
+  });
+  const creatine = ingredientFixture("creapure", {
+    commonZh: "肌酸（肌酸一水合物）",
+    commonEn: "creatine monohydrate",
+    trade: "Creapure",
+    scientific: "不適用",
+    benefits: ["肌肉"],
+    taiwanPartyName: "呈定企業有限公司"
+  });
+  const gaba = ingredientFixture("pharmagaba", {
+    commonZh: "γ-胺基丁酸",
+    commonEn: "gamma-aminobutyric acid (GABA)",
+    trade: "PharmaGABA",
+    aliases: ["伽馬胺基丁酸"],
+    benefits: ["放鬆與睡眠"],
+    taiwanPartyName: "統園企業股份有限公司"
+  });
+  const renamed = ingredientFixture("shared-berry", {
+    commonZh: "共用莓",
+    commonEn: "shared berry",
+    benefits: ["新日沒有的關鍵字紫蘇醛"]
+  });
+  const renamedLater = ingredientFixture("shared-berry", {
+    commonZh: "共用莓",
+    commonEn: "shared berry",
+    benefits: ["新日效益"]
+  });
+  const index = SearchModel.buildIndex([
+    { date: "2026-11-05", picks: [creatine, gaba, renamedLater] },
+    { date: "2026-10-02", picks: [olderOnly, renamed] }
+  ]);
+  assertSearch(index.length === 5, "索引應含每一天的每一筆，不因目前選到哪一天而少算");
+  assertSearch(SearchModel.search(index, "").length === 0, "空白關鍵字不應有建議");
+  assertSearch(SearchModel.search(index, "   ").length === 0, "只有空白不應有建議");
+  assertSearch(SearchModel.search(index, "不存在的詞").length === 0, "沒有命中時應是空陣列");
+  const older = SearchModel.search(index, "只有舊日");
+  assertSearch(older.length === 1 && older[0].id === "older-root" && older[0].date === "2026-10-02", "應找得到目前日期以外的原料");
+  const brand = SearchModel.search(index, "creapure");
+  assertSearch(brand.length === 1 && brand[0].id === "creapure", "商品名不分大小寫");
+  const zh = SearchModel.search(index, "肌酸");
+  assertSearch(zh.some(function (hit) { return hit.id === "creapure"; }), "中文名要能對上");
+  const scientific = SearchModel.search(index, "Radix antiqua");
+  assertSearch(scientific.length === 1 && scientific[0].id === "older-root", "學名要能對上");
+  const party = SearchModel.search(index, "呈定");
+  assertSearch(party.length === 1 && party[0].id === "creapure" && party[0].snippet.indexOf("呈定") !== -1, "台灣關聯廠商要能對上，並在建議裡露出命中的句子");
+  const benefit = SearchModel.search(index, "放鬆");
+  assertSearch(benefit.length === 1 && benefit[0].id === "pharmagaba", "功效關鍵字要能對上");
+  const alias = SearchModel.search(index, "伽馬胺基丁酸");
+  assertSearch(alias.length === 1 && alias[0].id === "pharmagaba", "別名要能對上");
+  assertSearch(SearchModel.search(index, "肌酸 GABA").length === 0, "多個詞應同時符合才列出");
+  assertSearch(SearchModel.search(index, "secret-token-zzz").length === 0, "只出現在網址裡的字不應被當成原料內文");
+  const bothDays = SearchModel.search(index, "共用莓");
+  assertSearch(bothDays.length === 1 && bothDays[0].date === "2026-11-05" && bothDays[0].dates.join(",") === "2026-11-05,2026-10-02", "同一原料跨日只列一筆，並開啟較新的那天");
+  const olderText = SearchModel.search(index, "紫蘇醛");
+  assertSearch(olderText.length === 1 && olderText[0].id === "shared-berry" && olderText[0].date === "2026-10-02", "只有舊日內文命中時，應打開舊的那天");
+  const fullwidth = SearchModel.search(index, "ＧＡＢＡ");
+  assertSearch(fullwidth.some(function (hit) { return hit.id === "pharmagaba"; }), "全形英數應與半形對上");
+
+  const catalog = buildCatalog(loadRaw(root));
+  const ids = new Set();
+  catalog.days.forEach(function (day) {
+    assertSearch(day.date !== "2026-11-04", "練習日 2026-11-04 不應留在目錄");
+    day.picks.forEach(function (pick) { ids.add(pick.id); });
+  });
+  catalog.ingredients.forEach(function (ingredient) { ids.add(ingredient.id); });
+  ["example-lumen-peptide", "example-aurora-berry"].forEach(function (id) {
+    assertSearch(!ids.has(id), "練習原料不應再出現：" + id);
+  });
+  ["creapure", "hytolive", "rivik2", "aronia-melanocarpa", "pharmagaba"].forEach(function (id) {
+    assertSearch(ids.has(id), "正式原料應仍在目錄：" + id);
+  });
+  const live = SearchModel.buildIndex(catalog.days);
+  assertSearch(SearchModel.search(live, "肌酸").some(function (hit) { return hit.id === "creapure"; }), "現目錄搜尋肌酸應找到 Creapure");
+  assertSearch(SearchModel.search(live, "Creapure").some(function (hit) { return hit.id === "creapure"; }), "現目錄搜尋 Creapure 應找到肌酸");
+  assertSearch(SearchModel.search(live, "GABA").some(function (hit) { return hit.id === "pharmagaba"; }), "現目錄搜尋 GABA 應找到 PharmaGABA");
+  assertSearch(SearchModel.search(live, "露明肽").length === 0, "已刪除的練習原料不應被搜到");
+  assertSearch(live.length === catalog.days.reduce(function (sum, day) { return sum + day.picks.length; }, 0), "搜尋索引應涵蓋每一天的名單，而不是只留一天");
 }
 
 function checkVoteModel() {
@@ -609,6 +727,7 @@ for (const entry of raw.ingredients) {
 if (raw.ingredients.length < 1) fail("至少要有一筆原料");
 for (const entry of raw.days) checkDay(entry, ingredientsById);
 checkDocs();
+checkSearchModel();
 checkVoteModel();
 checkSheetTally();
 checkCatalog();

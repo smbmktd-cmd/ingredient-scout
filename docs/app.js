@@ -1058,6 +1058,8 @@
   function searchGlyph() {
     const svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
     svg.setAttribute("class", "search-glyph");
+    svg.setAttribute("width", "15");
+    svg.setAttribute("height", "15");
     svg.setAttribute("viewBox", "0 0 24 24");
     svg.setAttribute("aria-hidden", "true");
     const circle = document.createElementNS("http://www.w3.org/2000/svg", "circle");

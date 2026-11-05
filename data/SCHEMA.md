@@ -66,7 +66,7 @@
 | `title` | 顯示在日期選單。 |
 | `targetCount` | 正式作業目標是 5。 |
 | `channelsCovered` | 這一天的主管道有哪些。 |
-| `notes` | 顯示在投票頁上方。 |
+| `notes` | 寫在日報資料裡，投票頁不顯示。 |
 | `picks` | 原料 id 陣列。正式日報要剛好 5 筆，且不能混入 `example: true` 的原料。 |
 
 ## 投票檔

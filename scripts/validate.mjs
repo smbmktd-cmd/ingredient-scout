@@ -252,6 +252,12 @@ function checkDocs() {
   for (const needle of ["team-panel", "team-summary", "dock-team", "sync-note"]) {
     if (!html.includes(needle)) fail("投票頁缺少：" + needle);
   }
+  if (html.includes("知道連結就能表態") || html.includes("不索取姓名")) {
+    fail("投票頁不應再顯示頁首那句表態說明");
+  }
+  if (app.includes("day-note") || /banner\.append\([\s\S]{0,80}day\.notes/.test(app)) {
+    fail("投票頁不應再顯示日報 notes");
+  }
   for (const needle of ["tallyEndpoint", "formspreeEndpoint", "text/plain;charset=utf-8", "團隊累計", "ballotId"]) {
     if (!app.includes(needle)) fail("投票頁腳本缺少：" + needle);
   }

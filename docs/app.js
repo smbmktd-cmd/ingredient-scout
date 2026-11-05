@@ -448,7 +448,7 @@
     if (day.example) {
       banner.append(el("p", { class: "banner" }, "這一日是虛構練習。表態只用來熟悉流程，不能當成真實原料決策。"));
     }
-    if (day.notes) banner.append(el("p", { class: "day-note" }, day.notes));
+    // 日報 notes 留在資料檔，投票頁不顯示。
     const list = $("list");
     list.replaceChildren();
     if (!day.picks.length) {

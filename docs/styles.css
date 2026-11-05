@@ -79,7 +79,6 @@ h1, h2, .card h2 {
   font-weight: 600;
 }
 h1 { margin: 0; font-size: 40px; line-height: 1.1; letter-spacing: 0.02em; }
-.lede { margin: 6px 0 0; color: var(--muted); }
 
 .datebox { min-width: min(100%, 220px); }
 label { display: block; font-size: 13px; color: var(--muted); }
@@ -103,14 +102,13 @@ select { min-height: 48px; }
   font-weight: 600;
 }
 
-.banner, .day-note {
+.banner {
   margin: 8px 0;
   padding: 12px 14px;
   border-radius: 14px;
   background: #fff6ea;
   border: 1px solid #efd3b0;
 }
-.day-note { background: transparent; border-style: dashed; color: var(--muted); }
 
 .card {
   margin: 16px 0;

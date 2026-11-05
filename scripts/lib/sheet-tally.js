@@ -17,12 +17,85 @@
     return map;
   }
 
+  function isDateObject(value) {
+    return Object.prototype.toString.call(value) === "[object Date]" && !isNaN(value.getTime());
+  }
+
   function cellToString(value) {
     if (value == null) return "";
-    if (Object.prototype.toString.call(value) === "[object Date]" && !isNaN(value.getTime())) {
-      return value.toISOString();
-    }
+    if (isDateObject(value)) return value.toISOString();
     return String(value);
+  }
+
+  function sheetTimeZone() {
+    var zone = "Asia/Taipei";
+    var ss;
+    var tz;
+    try {
+      if (typeof SpreadsheetApp !== "undefined" && SpreadsheetApp.getActiveSpreadsheet) {
+        ss = SpreadsheetApp.getActiveSpreadsheet();
+        tz = ss && ss.getSpreadsheetTimeZone && ss.getSpreadsheetTimeZone();
+        if (tz) return String(tz);
+      }
+    } catch (ignore) {}
+    return zone;
+  }
+
+  function pad2(value) {
+    var text = String(value);
+    return text.length < 2 ? "0" + text : text;
+  }
+
+  function formatCalendarDayFixedOffset(value, hours) {
+    var shifted = new Date(value.getTime() + hours * 60 * 60 * 1000);
+    return shifted.getUTCFullYear() + "-" + pad2(shifted.getUTCMonth() + 1) + "-" + pad2(shifted.getUTCDate());
+  }
+
+  // node 沒有 Utilities。這裡用指定時區的日曆日當替身，不看行程時區，也不用 toISOString。
+  function formatCalendarDayInZone(value, timeZone) {
+    var parts;
+    var map;
+    var i;
+    var year;
+    var month;
+    var day;
+    try {
+      parts = new Intl.DateTimeFormat("en-US", {
+        timeZone: timeZone,
+        year: "numeric",
+        month: "2-digit",
+        day: "2-digit"
+      }).formatToParts(value);
+      map = Object.create(null);
+      for (i = 0; i < parts.length; i++) {
+        if (parts[i].type === "year" || parts[i].type === "month" || parts[i].type === "day") {
+          map[parts[i].type] = parts[i].value;
+        }
+      }
+      year = map.year;
+      month = map.month;
+      day = map.day;
+      if (year && month && day) return year + "-" + pad2(month) + "-" + pad2(day);
+    } catch (ignore) {}
+    if (timeZone === "Asia/Taipei") return formatCalendarDayFixedOffset(value, 8);
+    return "";
+  }
+
+  // 試算表常把 "YYYY-MM-DD" 存成日期。getValues() 的 Date 是該時區的午夜，
+  // toISOString() 在台北會落到前一天。日曆日要用試算表時區，不用 UTC。
+  function calendarDateString(value, timeZone) {
+    var zone;
+    var formatted;
+    if (value == null || value === "") return "";
+    if (!isDateObject(value)) return String(value).trim();
+    zone = timeZone || sheetTimeZone();
+    if (typeof Utilities !== "undefined" && Utilities.formatDate) {
+      try {
+        formatted = Utilities.formatDate(value, zone, "yyyy-MM-dd");
+        if (formatted) return String(formatted);
+      } catch (ignore) {}
+    }
+    return formatCalendarDayInZone(value, zone);
   }
 
   function normalizeSheetNote(note) {
@@ -94,14 +167,16 @@
     var next;
     var i;
     var line;
+    var zone;
     if (plan.action !== "insertBallotId") return { action: plan.action, values: values || [] };
+    zone = sheetTimeZone();
     next = [SHEET_HEADERS.slice()];
     for (i = 1; i < values.length; i++) {
       line = values[i] || [];
       next.push([
         cellToString(line[0]),
         "",
-        cellToString(line[1]),
+        calendarDateString(line[1], zone),
         cellToString(line[2]),
         cellToString(line[3]),
         cellToString(line[4])
@@ -118,7 +193,9 @@
     var line;
     var blank;
     var obj;
+    var zone;
     if (!values || !values.length) return { headers: [], rows: [] };
+    zone = sheetTimeZone();
     for (i = 0; i < values[0].length; i++) headers.push(cellToString(values[0][i]).trim());
     for (i = 1; i < values.length; i++) {
       line = values[i] || [];
@@ -130,7 +207,8 @@
       obj = Object.create(null);
       for (col = 0; col < headers.length; col++) {
         if (headers[col] === "__proto__" || headers[col] === "prototype" || headers[col] === "constructor") continue;
-        obj[headers[col]] = cellToString(line[col]);
+        if (headers[col] === "date") obj[headers[col]] = calendarDateString(line[col], zone);
+        else obj[headers[col]] = cellToString(line[col]);
       }
       rows.push({
         receivedAt: obj.receivedAt || "",

@@ -185,9 +185,9 @@ https://smbmktd-cmd.github.io/ingredient-scout/?date=2026-11-05
 3. 複製以 `/exec` 結尾的網址，貼到 `tallyEndpoint`。`sheetEndpoint` 可留空。
 4. 用瀏覽器打開 `網址?date=2026-11-05`。應看到 JSON，例如 `{"ok":true,"date":"2026-11-05","ballots":0,"results":[]}`，而不是 Google 登入頁。
 5. 同事打開 `https://smbmktd-cmd.github.io/ingredient-scout/?date=當天`。頁面上方出現「團隊累計」，每張卡片上也有該原料的贊成與反對。表態後約一秒會寫進試算表，並重新讀取累計。每隔約 25 秒會再讀一次。
-6. 之後若改了 `Code.gs`：**部署 → 管理部署 → 鉛筆 → 版本選新版本 → 部署**，網址可以不變。若按的是「新增部署」，網址會換，`tallyEndpoint` 要一起換。
+6. 之後若改了 `Code.gs`：**部署 → 管理部署 → 鉛筆 → 版本選新版本 → 部署**，網址可以不變。若按的是「新增部署」，網址會換，`tallyEndpoint` 要一起換。只合併程式、不發新版本時，線上的 `/exec` 仍是舊碼。
 
-試算表第一列會自動寫成 `receivedAt`、`ballotId`、`date`、`ingredientId`、`choice`、`note`。POST 的本文是 `{kind,date,ballotId,votes:[{ingredientId,choice,note}]}`，而且是這張票當天的完整內容。同一票號再投會覆寫，不會永遠追加一列；這次沒帶的原料會從這張票拿掉。GET `?date=YYYY-MM-DD` 回傳 `{ok,date,ballots,results:[{ingredientId,approve,oppose,notes}]}`。同一張票對同一原料只算最新一列。這個 JSON 不含票號。
+試算表第一列會自動寫成 `receivedAt`、`ballotId`、`date`、`ingredientId`、`choice`、`note`。`date` 在寫入前會把整欄設成純文字，避免 Google 試算表把 `YYYY-MM-DD` 自動轉成日期。若格子裡已經是日期，讀回時用試算表時區（沒有則 Asia/Taipei）轉回日曆日，不用 UTC 的 `toISOString`，否則台北的午夜會被算成前一天，團隊累計會一直是 0。`receivedAt` 仍是 ISO 時間。POST 的本文是 `{kind,date,ballotId,votes:[{ingredientId,choice,note}]}`，而且是這張票當天的完整內容。同一票號再投會覆寫，不會永遠追加一列；這次沒帶的原料會從這張票拿掉。GET `?date=YYYY-MM-DD` 回傳 `{ok,date,ballots,results:[{ingredientId,approve,oppose,notes}]}`。同一張票對同一原料只算最新一列。這個 JSON 不含票號。
 
 舊的五欄表（還沒有 `ballotId`）會在第一次新票寫入時自動補上票號欄。那些舊列沒有票號，每一列會先各算一張，避免整批被丟掉。
 

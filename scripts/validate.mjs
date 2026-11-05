@@ -375,6 +375,8 @@ function checkSheetTally() {
   for (const needle of ["function doGet", "function doPost", "text/plain", "任何人", "JSONP", "ballotId"]) {
     assertSheet(code.includes(needle), "Code.gs 缺少：" + needle);
   }
+  assertSheet(code.includes('setNumberFormat("@")'), "寫入前應把 date 欄設成純文字，避免 YYYY-MM-DD 被轉成 Date");
+  assertSheet(code.includes("Utilities.formatDate"), "讀回 date 欄應使用 Utilities.formatDate，而不是 toISOString 當日曆日");
   const app = fs.readFileSync(path.join(root, "docs", "app.js"), "utf8");
   const ballotLiteral = app.match(/const BALLOT_RE = (\/\^\[0-9a-f\].*\/i);/);
   assertSheet(ballotLiteral, "投票頁應有與試算表相同的票號格式");
@@ -474,6 +476,78 @@ function checkSheetTally() {
   assertSheet(legacyRows[0].ballotId === "" && legacyRows[1].receivedAt === "2026-11-05T00:30:00.000Z", "舊列遷移後要保留內容，並把日期儲存格轉成文字");
   const legacyTally = SheetTally.tallySheetRows(legacyRows, "2026-11-05");
   assertSheet(legacyTally.ballots === 2 && legacyTally.results[0].approve === 1, "沒有票號的舊列仍要各自計入");
+  const taipeiMidnight = new Date("2026-11-04T16:00:00.000Z");
+  const marchFirst = new Date("2026-02-28T16:00:00.000Z");
+  assertSheet(taipeiMidnight.toISOString().slice(0, 10) === "2026-11-04", "這個 Date 的 toISOString 日曆日落在前一天，用來抓住時區錯位");
+  const dateObjectValues = [
+    ["receivedAt", "ballotId", "date", "ingredientId", "choice", "note"],
+    [new Date("2026-11-05T01:23:45.000Z"), first, taipeiMidnight, berry, "approve", "日曆日"],
+    ["2026-11-05T02:00:00.000Z", second, "2026-11-05", peptide, "oppose", "仍是文字"]
+  ];
+  const dateObjectRows = SheetTally.rowsFromSheetValues(dateObjectValues).rows;
+  assertSheet(dateObjectRows[0].date === "2026-11-05", "試算表把 date 存成 Date 時，讀回應是 Asia/Taipei 的 YYYY-MM-DD");
+  assertSheet(dateObjectRows[0].receivedAt === "2026-11-05T01:23:45.000Z", "receivedAt 的 Date 仍轉成 ISO，不改成日曆日");
+  assertSheet(dateObjectRows[1].date === "2026-11-05", "本來就是文字的 date 維持 YYYY-MM-DD");
+  const dateObjectTally = SheetTally.tallySheetRows(dateObjectRows, "2026-11-05");
+  assertSheet(dateObjectTally.ballots === 2, "Date 讀回仍能計到票");
+  const dateObjectBerry = dateObjectTally.results.find((row) => row.ingredientId === berry);
+  const dateObjectPeptide = dateObjectTally.results.find((row) => row.ingredientId === peptide);
+  assertSheet(dateObjectBerry && dateObjectBerry.approve === 1 && dateObjectBerry.oppose === 0, "Date 那一列的贊成要算進去");
+  assertSheet(dateObjectPeptide && dateObjectPeptide.oppose === 1, "同一批讀回的文字日期也要計入");
+  assertSheet(SheetTally.tallySheetRows(dateObjectRows, "2026-11-04").ballots === 0, "不應把台北午夜算成前一個 UTC 日");
+  const marchValues = [
+    ["receivedAt", "ballotId", "date", "ingredientId", "choice", "note"],
+    ["2026-03-01T00:00:00.000Z", first, marchFirst, berry, "oppose", "跨月"]
+  ];
+  const marchRows = SheetTally.rowsFromSheetValues(marchValues).rows;
+  assertSheet(marchRows[0].date === "2026-03-01", "月初的台北午夜不應被讀成前一個月");
+  assertSheet(SheetTally.tallySheetRows(marchRows, "2026-03-01").ballots === 1, "跨月的 Date 讀回仍要計到票");
+  const legacyDateObject = [
+    ["receivedAt", "date", "ingredientId", "choice", "note"],
+    [new Date("2026-11-05T00:30:00.000Z"), taipeiMidnight, berry, "approve", "舊日期物件"]
+  ];
+  const legacyDateRows = SheetTally.rowsFromSheetValues(SheetTally.migrateLegacyValues(legacyDateObject).values).rows;
+  assertSheet(legacyDateRows[0].date === "2026-11-05", "舊版日期欄若被試算表存成 Date，遷移後仍應是 YYYY-MM-DD");
+  assertSheet(SheetTally.tallySheetRows(legacyDateRows, "2026-11-05").ballots === 1, "舊版 Date 日期遷移後仍要計到票");
+  const formatParts = (value, timeZone) => {
+    const parts = new Intl.DateTimeFormat("en-US", {
+      timeZone,
+      year: "numeric",
+      month: "2-digit",
+      day: "2-digit"
+    }).formatToParts(value);
+    const map = {};
+    parts.forEach((part) => {
+      if (part.type === "year" || part.type === "month" || part.type === "day") map[part.type] = part.value;
+    });
+    return map.year + "-" + map.month + "-" + map.day;
+  };
+  let seenZone = "";
+  global.Utilities = {
+    formatDate(value, timeZone, format) {
+      seenZone = timeZone;
+      if (format !== "yyyy-MM-dd") throw new Error("format");
+      return formatParts(value, timeZone);
+    }
+  };
+  try {
+    let viaUtilities = SheetTally.rowsFromSheetValues(dateObjectValues).rows;
+    assertSheet(seenZone === "Asia/Taipei" && viaUtilities[0].date === "2026-11-05", "沒有試算表時區時，用 Asia/Taipei 的 Utilities.formatDate");
+    assertSheet(viaUtilities[0].receivedAt === "2026-11-05T01:23:45.000Z", "Utilities.formatDate 不應用在 receivedAt");
+    assertSheet(SheetTally.tallySheetRows(viaUtilities, "2026-11-05").ballots === 2, "Utilities.formatDate 讀回仍能計到票");
+    global.SpreadsheetApp = {
+      getActiveSpreadsheet() {
+        return { getSpreadsheetTimeZone: () => "Asia/Tokyo" };
+      }
+    };
+    seenZone = "";
+    viaUtilities = SheetTally.rowsFromSheetValues(dateObjectValues).rows;
+    assertSheet(seenZone === "Asia/Tokyo" && viaUtilities[0].date === "2026-11-05", "有試算表時區時，formatDate 應使用該時區");
+    assertSheet(SheetTally.tallySheetRows(viaUtilities, "2026-11-05").ballots === 2, "試算表時區讀回的 Date 仍要計到票");
+  } finally {
+    delete global.Utilities;
+    delete global.SpreadsheetApp;
+  }
   assertSheet(SheetTally.headerMigration(["receivedAt", "ballotId", "date", "ingredientId", "choice", "note", ""]).action === "ready", "結尾空白欄不應被當成未知表頭");
   assertSheet(SheetTally.headerMigration(["receivedAt", "email"]).action === "unknown", "不認得的表頭不應覆寫");
   assertSheet(sheetError(() => SheetTally.parseBallotPost(SheetTally.buildCloudBallot("2026-11-05", first, [

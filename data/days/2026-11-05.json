@@ -1,9 +1,19 @@
 {
   "date": "2026-11-05",
-  "example": true,
-  "title": "範例日報",
+  "example": false,
+  "title": "2026-11-05 正式日報",
   "targetCount": 5,
-  "channelsCovered": ["news", "industry_report"],
-  "notes": "這一份是流程示範，只有 2 筆虛構原料，不是正式的五筆日報。極光莓的主管道是新聞，並用虛構展覽名錄當第二來源；露明肽的主管道是產業報導。正式日報請約 5 筆，且不要五筆都來自同一則新聞。",
-  "picks": ["example-aurora-berry", "example-lumen-peptide"]
+  "channelsCovered": [
+    "news",
+    "exhibition",
+    "industry_report"
+  ],
+  "notes": "正式五筆。沒有放入助手列為未確認安全性、尚不得作為食品原料的項目，也沒有放尿石素 A。野櫻莓果實可供直接食用。肌酸有列名但要標警語。羥基酪醇果渣萃取物有含量與每日 20 毫克上限。維生素 K2 是營養添加劑。γ-胺基丁酸有列名，每日以 GABA 計 100 毫克，且生產菌有限制。列名不等於建議劑量可用，也不是健康食品許可。",
+  "picks": [
+    "creapure",
+    "hytolive",
+    "rivik2",
+    "aronia-melanocarpa",
+    "pharmagaba"
+  ]
 }

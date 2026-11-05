@@ -1,0 +1,169 @@
+{
+  "id": "rivik2",
+  "example": false,
+  "names": {
+    "commonZh": "維生素K2（MK-7）",
+    "commonEn": "menaquinone (vitamin K2), MK-7",
+    "trade": "RiviK2（Richen 的維生素 K2 MK-7 商品名）",
+    "scientific": "不適用：維生素 K2 是甲萘醌類化合物。richenglobal.com 產品頁寫天然發酵的 all-trans MK-7，這次打開的那一頁沒有寫生產菌的學名，所以不另補菌名。"
+  },
+  "supply": {
+    "supplierName": "Richen Nutritionals",
+    "supplierCountry": "中國",
+    "relationship": "unknown",
+    "taiwanPartyName": "查無",
+    "relationshipNote": "展後稿與 MK-7 產品頁都在 richenglobal.com，商品名是 RiviK2。另開到的 richen-nutritional.com 聯絡頁公司名是 Richen Nutritional Technology Co., Ltd.，地址在上海。兩個網域沒有在同一頁互相連結，只是商品名與公司英文名對得上。沒有看到台灣代理或經銷的名稱。"
+  },
+  "tfda": {
+    "usable": "listed_food_additive",
+    "evidenceNotes": "查詢助手食品原料「維生素K2」與 Menaquinone 是 0 筆。食品添加物「維生素K2」1 筆：外文 Menaquinone（Vitamin K2），類別營養添加劑。使用範圍是各類食品視實際需要適量使用；使用限制是限於補充食品中不足之營養素時使用。規格欄是空的。商品名 RiviK2、MK-7 在原料與添加物都是 0 筆。另外維生素 K1 是 Phylloquinone、維生素 K3 是 Menadione，不是這一筆。不是未確認安全性分類，也不是健康食品許可。適量使用不等於任何微克數都可以。",
+    "lookupDate": "2026-11-05",
+    "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+    "queries": [
+      {
+        "tab": "ingredient",
+        "keyword": "維生素K2",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "原料分頁 0 筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Menaquinone",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "原料分頁 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "維生素K2",
+        "category": "(八) 營養添加劑",
+        "resultCount": 1,
+        "matchedName": "維生素K2",
+        "restrictionNote": "各類食品視實際需要適量使用。限於補充食品中不足之營養素時使用。",
+        "unconfirmedSafety": false,
+        "note": "id 239。外文 Menaquinone （Vitamin K2）。不是未確認安全性。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "Menaquinone",
+        "category": "(八) 營養添加劑",
+        "resultCount": 1,
+        "matchedName": "維生素K2",
+        "restrictionNote": "同上。",
+        "unconfirmedSafety": false,
+        "note": "與中文名同一筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "RiviK2",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名 0 筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "MK-7",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "原料分頁沒有 MK-7 這個詞。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "MK-7",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "添加物分頁沒有 MK-7 這個詞。列名是維生素K2／Menaquinone，沒有寫亞型。"
+      },
+      {
+        "tab": "history",
+        "keyword": "維生素K2",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "助手更新歷程 2026-11-01 至 2026-11-05 未見此關鍵字的新增或修改。"
+      }
+    ],
+    "officialCrosscheck": {
+      "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+      "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+      "done": true,
+      "notes": "2026-11-05 嘗試開啟消費者專區原料頁與添加物頁：HTTPS 握手被對端關閉（OpenSSL unexpected eof），HTTP 得到 502 Bad Gateway。data.fda.gov.tw 開放資料匯出同樣無法完成 TLS，所以沒有點開線上詳細頁。下列分類、名稱與備註抄自同日可開啟的查詢助手詳細欄位（助手標示 detailsScraped 2026-11-05 06:21）。這不是健康食品許可證。本筆依助手添加物欄位做成營養添加劑有列。原料分頁沒有同名品項。線上官方 HTML 未打開。"
+    }
+  },
+  "efficacy": {
+    "claimedBenefits": [
+      "Richen 展後稿把 RiviK2 無蔗糖微囊包覆維生素 K2 放在清潔標示與鈣鎂配方安定性，沒有寫新的功效數據。",
+      "產品頁寫 all-trans MK-7 在營養劑量附近較其他維生素 K 同系物更能促進骨鈣素與基質 Gla 蛋白的羧化，並寫半衰期與生物利用率較高。這是供應商句子，不是台灣核准功效。"
+    ],
+    "suggestedDosage": "查無單一每日建議量。產品頁的錠劑例子是維生素 D3 5 mcg、K2（MK-7）50 mcg、鈣 200 mg，那是配方舉例，不是建議攝取量。",
+    "dosageNote": "50 mcg 只出現在產品頁的配方例子。助手的添加物限制是「視實際需要適量使用」，而且只能在補充食品中不足的營養素時使用。沒有寫每日微克上限。列名不等於 50 mcg 已核准。"
+  },
+  "patent": {
+    "status": "unknown",
+    "refs": [],
+    "note": "本次沒有打開 RiviK2 或 Richen 的專利頁。"
+  },
+  "literature": {
+    "status": "unknown",
+    "refs": [],
+    "note": "產品頁提到 MK-7 的生物利用率與羧化，但沒有打開那篇論文，所以不標臨床。"
+  },
+  "evidenceLevels": [],
+  "images": [
+    {
+      "url": "https://www.richenglobal.com/uploads/images/vitamin-k2-china-bulk.webp",
+      "localPath": "",
+      "caption": "richenglobal.com 產品區的維生素 K2 圖片。",
+      "source": "official_site"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Vitafoods Asia 2026 wrap-up: Richen Nutritionals",
+      "url": "https://www.richenglobal.com/vitafoods-asia-2026-wraps-up-successfully-richen-nutritionals-responds-to-evolving-market-needs-with-diversified-innovation.html",
+      "publisher": "Richen Nutritionals",
+      "channel": "exhibition",
+      "accessed": "2026-11-05",
+      "whatItContributes": "2026-09-02 至 09-04 曼谷、攤位 H2-G37，以及無蔗糖微囊 RiviK2 的展出說明。"
+    },
+    {
+      "title": "RiviK2 MK-7 Vitamin K2",
+      "url": "https://www.richenglobal.com/products/rivik2-vitamin-k2-mk-7/",
+      "publisher": "Richen Nutritionals",
+      "channel": "supplier_site",
+      "accessed": "2026-11-05",
+      "whatItContributes": "發酵 all-trans MK-7、油劑與粉末規格，以及 50 mcg 的配方舉例和圖片。"
+    },
+    {
+      "title": "Richen Nutritional Technology contact page",
+      "url": "https://www.richen-nutritional.com/contact-us/",
+      "publisher": "Richen Nutritional Technology",
+      "channel": "supplier_site",
+      "accessed": "2026-11-05",
+      "whatItContributes": "公司英文名稱與上海地址，用來核對供應商國家。沒有寫台灣窗口。"
+    }
+  ],
+  "discovery": {
+    "channel": "exhibition",
+    "scoutDate": "2026-11-05",
+    "notes": "從 Richen 的 Vitafoods Asia 2026 展後稿看到 RiviK2，再打開 MK-7 產品頁，並用另一個網域的聯絡頁核對公司在上海。TFDA 對上的是添加物「維生素K2」，不是商品名。"
+  }
+}

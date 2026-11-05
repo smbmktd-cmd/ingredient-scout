@@ -1,0 +1,167 @@
+{
+  "id": "hytolive",
+  "example": false,
+  "names": {
+    "commonZh": "油橄欖果實渣萃取物（含羥基酪醇）",
+    "commonEn": "olive pomace extract containing hydroxytyrosol",
+    "trade": "Hytolive（Alvinesa 的橄欖萃取商品名）",
+    "scientific": "Olea europaea"
+  },
+  "supply": {
+    "supplierName": "Alvinesa Natural Ingredients",
+    "supplierCountry": "西班牙",
+    "relationship": "unknown",
+    "taiwanPartyName": "查無",
+    "relationshipNote": "產品頁與 2025 年臨床新聞都在 alvinesa.com，地址寫西班牙 Ciudad Real 的 Daimiel。NutraIngredients 2025-10-22 把試驗用的羥基酪醇寫成 Hytolive、Alvinesa Natural Ingredients。沒有查到台灣代理或經銷的公開指名，關係維持 unknown。"
+  },
+  "tfda": {
+    "usable": "listed_food_ingredient",
+    "evidenceNotes": "查詢助手食品原料「羥基酪醇」與 hydroxytyrosol 各 1 筆，是同一筆：油橄欖果實渣萃取物(含羥基酪醇)，學名 Olea europaea，次分類草、木本植物類來源製取之原料。規格是油橄欖果實榨油後的果渣，經熱水萃取、離心、濃縮、殺菌、脫水乾燥；羥基酪醇含量須 15–40%；每日使用量以羥基酪醇計 20 毫克以下；包裝須標「孕婦及嬰幼兒不宜食用」。商品名 Hytolive 為 0 筆。以 Olea europaea 會再看到橄欖（根、莖、葉；果實可作一般食品）與橄欖油，那兩筆不是這個果渣規格。食品添加物 hydroxytyrosol、羥基酪醇為 0 筆。不是未確認安全性分類。Hytolive 產品頁這次沒有寫含量百分比，也沒有寫 pomace／果渣，所以不能把商品名直接當成已符合 15–40% 規格。",
+    "lookupDate": "2026-11-05",
+    "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+    "queries": [
+      {
+        "tab": "ingredient",
+        "keyword": "羥基酪醇",
+        "category": "草、木本植物類來源製取之原料",
+        "resultCount": 1,
+        "matchedName": "油橄欖果實渣萃取物(含羥基酪醇)",
+        "restrictionNote": "羥基酪醇含量 15–40%。每日使用量以羥基酪醇計 20 毫克以下。標示「孕婦及嬰幼兒不宜食用」。製程為果渣熱水萃取後離心、濃縮、殺菌、脫水乾燥。",
+        "unconfirmedSafety": false,
+        "note": "id 17387。學名 Olea europaea。不是未確認安全性分類。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "hydroxytyrosol",
+        "category": "草、木本植物類來源製取之原料",
+        "resultCount": 1,
+        "matchedName": "油橄欖果實渣萃取物(含羥基酪醇)",
+        "restrictionNote": "同上。",
+        "unconfirmedSafety": false,
+        "note": "與中文名同一筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Hytolive",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名沒有另列。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Olea europaea",
+        "category": "草、木本植物類來源製取之原料",
+        "resultCount": 3,
+        "matchedName": "油橄欖果實渣萃取物(含羥基酪醇)；另有橄欖、橄欖油",
+        "restrictionNote": "果渣萃取物才有 15–40% 與每日 20 毫克、孕婦及嬰幼兒警語。橄欖那筆部位是根、莖、葉，備註寫果實可作一般食品。橄欖油是果實製取。",
+        "unconfirmedSafety": false,
+        "note": "三筆都不是未確認安全性。討論 Hytolive 時以果渣萃取物這筆的限制為準。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "hydroxytyrosol",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "添加物分頁 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "羥基酪醇",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "添加物分頁 0 筆。"
+      },
+      {
+        "tab": "history",
+        "keyword": "羥基酪醇",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "助手更新歷程 2026-11-01 至 2026-11-05 未見此關鍵字的新增或修改。"
+      }
+    ],
+    "officialCrosscheck": {
+      "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+      "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+      "done": true,
+      "notes": "2026-11-05 嘗試開啟消費者專區原料頁與添加物頁：HTTPS 握手被對端關閉（OpenSSL unexpected eof），HTTP 得到 502 Bad Gateway。data.fda.gov.tw 開放資料匯出同樣無法完成 TLS，所以沒有點開線上詳細頁。下列分類、名稱與備註抄自同日可開啟的查詢助手詳細欄位（助手標示 detailsScraped 2026-11-05 06:21）。這不是健康食品許可證。本筆依助手詳細欄位做成原料平臺有列，且有含量、每日 20 毫克與警語。線上官方 HTML 未打開。"
+    }
+  },
+  "efficacy": {
+    "claimedBenefits": [
+      "NutraIngredients 2025-10-22 報導 Clinical Nutrition 的隨機雙盲試驗：過重且糖尿病前期、40–70 歲，每日 15 mg 羥基酪醇（稿中寫 Hytolive、Alvinesa）或安慰劑 16 週；完成 49 人。稿中寫氧化 LDL、蛋白質羰基、8-OHdG 與發炎指標有改善。這是產業稿轉述，不是台灣功效核准。",
+      "Alvinesa 產品頁寫 Hytolive 來自橄欖果、不是橄欖葉、製程不用溶劑，可做成補充品與飲料。頁上沒有寫每日毫克。"
+    ],
+    "suggestedDosage": "試驗劑量是每日 15 mg 羥基酪醇，出處是 NutraIngredients 2025-10-22 對該試驗的報導，以及 Alvinesa 臨床新聞的同一數字。產品頁沒有另寫建議攝取量。",
+    "dosageNote": "15 mg 是這次讀到的試驗劑量，低於助手寫的每日 20 mg 羥基酪醇上限，但只有原料符合果渣製程與 15–40% 含量時，那個上限才用得上。Hytolive 產品頁沒有寫百分比與果渣。另須標孕婦及嬰幼兒不宜食用。列名不等於試驗功效可以當台灣宣稱。"
+  },
+  "patent": {
+    "status": "unknown",
+    "refs": [],
+    "note": "Genosa 舊站寫過 patented product，本次沒有打開專利號頁面，不填 yes。"
+  },
+  "literature": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "Moratilla-Rivera et al. 2025. Hydroxytyrosol supplementation improves antioxidant and anti-inflammatory status in individuals with overweight and prediabetes. Clinical Nutrition.",
+        "url": "https://doi.org/10.1016/j.clnu.2025.07.006",
+        "note": "期刊摘要頁直連得到 403。試驗設計與 15 mg、16 週、49 人完成，是從已打開的 NutraIngredients 2025-10-22 讀到的；該稿寫使用的是 Hytolive。未讀全文。"
+      }
+    ],
+    "note": "證據等級只標這篇人體試驗的報導層級。全文沒打開，不補摘要以外的數字。"
+  },
+  "evidenceLevels": [
+    "clinical"
+  ],
+  "images": [
+    {
+      "url": "https://www.alvinesa.com/wp-content/uploads/2024/05/logoHYTOLIVE-900x600-trp.png",
+      "localPath": "",
+      "caption": "Alvinesa 產品頁的 Hytolive 標誌。",
+      "source": "official_site"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Olive polyphenol supplement shows healthy aging potential",
+      "url": "https://www.nutraingredients.com/Article/2025/10/22/olive-polyphenol-supplement-shows-healthy-aging-potential/",
+      "publisher": "NutraIngredients",
+      "channel": "news",
+      "accessed": "2026-11-05",
+      "whatItContributes": "點名 Hytolive 與 Alvinesa，以及 15 mg、16 週、49 人完成的試驗結果方向。"
+    },
+    {
+      "title": "Hytolive olive extract",
+      "url": "https://www.alvinesa.com/en/hytolive-olive-extract/",
+      "publisher": "Alvinesa Natural Ingredients",
+      "channel": "supplier_site",
+      "accessed": "2026-11-05",
+      "whatItContributes": "西班牙供應商、來自橄欖果而非葉、不用溶劑，以及標誌圖。沒有寫含量百分比。"
+    },
+    {
+      "title": "New clinical study on Hytolive",
+      "url": "https://www.alvinesa.com/en/new-clinical-study-confirms-the-antioxidant-and-metabolic-benefits-of-hytolive/",
+      "publisher": "Alvinesa Natural Ingredients",
+      "channel": "news",
+      "accessed": "2026-11-05",
+      "whatItContributes": "供應商自己的試驗新聞：49 名過重且糖尿病前期成人、每日 15 mg 羥基酪醇、16 週，並給論文作者與期刊名。"
+    }
+  ],
+  "discovery": {
+    "channel": "news",
+    "scoutDate": "2026-11-05",
+    "notes": "從 NutraIngredients 2025-10-22 的羥基酪醇試驗新聞看到 Hytolive，再對 Alvinesa 產品頁與他們自己的臨床新聞。TFDA 對上的是果渣萃取物規格，不是商品名。"
+  }
+}

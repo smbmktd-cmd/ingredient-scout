@@ -1,0 +1,149 @@
+{
+  "id": "creapure",
+  "example": false,
+  "names": {
+    "commonZh": "肌酸（肌酸一水合物）",
+    "commonEn": "creatine monohydrate",
+    "trade": "Creapure（Alzchem 的肌酸一水合物商品名）",
+    "scientific": "不適用：肌酸一水合物是化合物。助手外文名為 Creatine, Creatine monohydrate，學名欄是空的。"
+  },
+  "supply": {
+    "supplierName": "Alzchem Group AG",
+    "supplierCountry": "德國",
+    "relationship": "unknown",
+    "taiwanPartyName": "查無",
+    "relationshipNote": "Alzchem 品牌頁寫生產在德國 Trostberg。Creapure 劑量頁是同一品牌。NutraIngredients 2026-05-28 也把 Creapure 寫成 Alzchem 的德國肌酸。呈定企業目錄有列出 Creapure、品牌欄寫 AlzChem，但沒有寫「代理」或「經銷」，Alzchem 頁也沒有指名呈定，所以不填台灣窗口。"
+  },
+  "tfda": {
+    "usable": "listed_food_ingredient",
+    "evidenceNotes": "查詢助手食品原料「肌酸」與 creatine 各 1 筆，是同一筆：中文名肌酸，外文 Creatine, Creatine monohydrate，次分類「以化學反應或酵素製程等加工處理之食品原料」，大分類可供食品使用之原料。備註要求標示警語：肌酸不適合一般人食用；如擬食用，須在醫師、營養師或專業人士指導下使用，並列出肌肉裂傷、體水滯留、腎臟負擔、抽筋嘔吐、腸胃不適等可能副作用。沒有寫每日毫克上限。商品名 Creapure 為 0 筆。食品添加物 creatine、肌酸為 0 筆。不是未確認安全性分類，也不是健康食品許可。3–5 克是供應商建議，不是這則備註裡的上限。",
+    "lookupDate": "2026-11-05",
+    "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+    "queries": [
+      {
+        "tab": "ingredient",
+        "keyword": "肌酸",
+        "category": "以化學反應或酵素製程等加工處理之食品原料",
+        "resultCount": 1,
+        "matchedName": "肌酸",
+        "restrictionNote": "應標示「肌酸不適合一般人食用。如擬食用，須在醫師、營養師或專業人士之指導下使用。」並載明可能副作用。公告為衛授食字第1081302650號。",
+        "unconfirmedSafety": false,
+        "note": "id 16018。外文 Creatine, Creatine monohydrate。不是未確認安全性分類。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "creatine",
+        "category": "以化學反應或酵素製程等加工處理之食品原料",
+        "resultCount": 1,
+        "matchedName": "肌酸",
+        "restrictionNote": "同上，警語規定，沒有寫每日毫克上限。",
+        "unconfirmedSafety": false,
+        "note": "與中文名同一筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Creapure",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名沒有另列。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "creatine",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "添加物分頁 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "肌酸",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "添加物分頁 0 筆。"
+      },
+      {
+        "tab": "history",
+        "keyword": "肌酸",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "助手更新歷程 2026-11-01 至 2026-11-05 未見此關鍵字的新增或修改。"
+      }
+    ],
+    "officialCrosscheck": {
+      "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+      "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+      "done": true,
+      "notes": "2026-11-05 嘗試開啟消費者專區原料頁與添加物頁：HTTPS 握手被對端關閉（OpenSSL unexpected eof），HTTP 得到 502 Bad Gateway。data.fda.gov.tw 開放資料匯出同樣無法完成 TLS，所以沒有點開線上詳細頁。下列分類、名稱與備註抄自同日可開啟的查詢助手詳細欄位（助手標示 detailsScraped 2026-11-05 06:21）。這不是健康食品許可證。本筆依助手詳細欄位做成原料平臺有列，且須標警語。線上官方 HTML 未打開。"
+    }
+  },
+  "efficacy": {
+    "claimedBenefits": [
+      "Alzchem 的 Creapure 品牌頁寫，每日 3 克肌酸可增加需要瞬間能量的體能表現，並寫歐盟允許這句健康聲明。這是供應商轉述歐盟說法，不是台灣核准。",
+      "Creapure 劑量頁建議每日 3 到 5 克純肌酸一水合物，並寫高劑量的負荷期沒有同等的安全性評估、不建議長期吃不必要的高劑量。"
+    ],
+    "suggestedDosage": "Creapure 劑量頁：每日 3 至 5 克純肌酸一水合物。品牌頁另寫每日 3 克與歐盟體能聲明有關。",
+    "dosageNote": "3 至 5 克是供應商建議，3 克那句對應他們寫的歐盟聲明。台灣助手備註是警語，沒有寫每日毫克或克數上限。列名不等於這些克數已在台灣核准。"
+  },
+  "patent": {
+    "status": "unknown",
+    "refs": [],
+    "note": "本次沒有打開 Creapure 或 Alzchem 的專利頁。unknown 不改成 no。"
+  },
+  "literature": {
+    "status": "unknown",
+    "refs": [],
+    "note": "品牌頁提到有研究支持 3 克的體能說法，但本次沒有打開那篇論文，所以不標臨床，文獻維持 unknown。"
+  },
+  "evidenceLevels": [],
+  "images": [
+    {
+      "url": "https://www.alzchem.com/fileadmin/_processed_/f/a/csm_ACCRD3X1095603_5e51cb4430.jpg",
+      "localPath": "",
+      "caption": "Alzchem Creapure 品牌頁上的圖片。",
+      "source": "official_site"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Alzchem confronts capacity pressures as demand for creatine booms",
+      "url": "https://www.nutraingredients.com/Article/2026/05/28/alzchem-confronts-capacity-pressures-as-demand-for-creatine-booms/",
+      "publisher": "NutraIngredients",
+      "channel": "industry_report",
+      "accessed": "2026-11-05",
+      "whatItContributes": "2026 年產業稿：Creapure 是德國 Alzchem 的主力肌酸，純度至少 99.9%，需求超過供給，並寫新廠投資。"
+    },
+    {
+      "title": "How much creatine should one take?",
+      "url": "https://www.creapure.com/en/creatine-knowledge/how-much-creatine-should-one-take/",
+      "publisher": "Creapure / Alzchem",
+      "channel": "supplier_site",
+      "accessed": "2026-11-05",
+      "whatItContributes": "供應商每日 3 至 5 克的建議，以及不建議長期高劑量負荷期。"
+    },
+    {
+      "title": "Creapure brand page",
+      "url": "https://www.alzchem.com/en/brands/creapure/",
+      "publisher": "Alzchem Group",
+      "channel": "supplier_site",
+      "accessed": "2026-11-05",
+      "whatItContributes": "德國 Trostberg 的公司與產地、每日 3 克與歐盟體能聲明的供應商說法，以及圖片。"
+    }
+  ],
+  "discovery": {
+    "channel": "industry_report",
+    "scoutDate": "2026-11-05",
+    "notes": "從 NutraIngredients 2026-05-28 的肌酸供給報導看到 Creapure，再對 Alzchem 品牌頁與 Creapure 劑量頁。呈定企業目錄有這個品牌，但不足以寫成台灣代理。"
+  }
+}

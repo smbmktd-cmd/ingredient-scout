@@ -1,0 +1,88 @@
+{
+  "id": "",
+  "example": false,
+  "names": {
+    "commonZh": "",
+    "commonEn": "",
+    "trade": "",
+    "scientific": ""
+  },
+  "supply": {
+    "supplierName": "",
+    "supplierCountry": "",
+    "relationship": "unknown",
+    "taiwanPartyName": "",
+    "relationshipNote": ""
+  },
+  "tfda": {
+    "usable": "lookup_blocked",
+    "evidenceNotes": "",
+    "lookupDate": "",
+    "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+    "queries": [
+      {
+        "tab": "ingredient",
+        "keyword": "",
+        "category": "",
+        "resultCount": null,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": ""
+      }
+    ],
+    "officialCrosscheck": {
+      "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+      "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+      "done": false,
+      "notes": ""
+    }
+  },
+  "efficacy": {
+    "claimedBenefits": [""],
+    "suggestedDosage": "",
+    "dosageNote": ""
+  },
+  "patent": {
+    "status": "unknown",
+    "refs": [],
+    "note": ""
+  },
+  "literature": {
+    "status": "unknown",
+    "refs": [],
+    "note": ""
+  },
+  "evidenceLevels": [],
+  "images": [
+    {
+      "url": "",
+      "localPath": "",
+      "caption": "",
+      "source": "other"
+    }
+  ],
+  "sources": [
+    {
+      "title": "",
+      "url": "",
+      "publisher": "",
+      "channel": "news",
+      "accessed": "",
+      "whatItContributes": ""
+    },
+    {
+      "title": "",
+      "url": "",
+      "publisher": "",
+      "channel": "exhibition",
+      "accessed": "",
+      "whatItContributes": ""
+    }
+  ],
+  "discovery": {
+    "channel": "news",
+    "scoutDate": "",
+    "notes": ""
+  }
+}

@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#083f3c">
+  <title>原料日選</title>
+  <link rel="icon" href="assets/placeholder.svg">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#list">跳到原料清單</a>
+  <div class="rule" aria-hidden="true"></div>
+  <header class="mast">
+    <div class="brand">
+      <span class="seal" aria-hidden="true">選</span>
+      <div>
+        <p class="eyebrow" id="team-label">膳食補充品原料日選</p>
+        <h1>原料日選</h1>
+        <p class="lede">知道連結就能表態。此頁不登入，也不索取姓名。</p>
+      </div>
+    </div>
+    <div class="datebox">
+      <label for="date">表決日期</label>
+      <select id="date"></select>
+    </div>
+  </header>
+  <p id="live" class="live" aria-live="polite"></p>
+  <div id="banner"></div>
+  <main id="list">
+    <p class="loading">正在讀取本日原料…</p>
+  </main>
+  <section class="panel" aria-labelledby="local-title">
+    <h2 id="local-title">這台裝置上的表態</h2>
+    <p id="session-copy">這個數字只存在這台瀏覽器，還不是團隊總數。</p>
+    <div class="row-actions">
+      <button type="button" id="download" class="primary">下載投票 JSON</button>
+      <button type="button" id="copy">複製分享連結</button>
+      <button type="button" id="send" hidden>送到共享收集端</button>
+      <button type="button" id="clear" class="quiet">清除這日的本機表態</button>
+    </div>
+    <p id="backend-note"></p>
+    <label class="share-fallback" id="share-fallback" hidden>
+      自動複製失敗，請手動複製這條連結
+      <input id="share-url" type="text" readonly>
+    </label>
+  </section>
+  <details class="staff" id="staff">
+    <summary>工作人員：合併多人投票</summary>
+    <div class="staff-body">
+      <p>請同事各下載一份 JSON，或貼上他們的分享連結。完全相同的檔案只算一次。這裡一樣不記錄是誰投的。</p>
+      <label class="file">
+        匯入投票檔
+        <input id="files" type="file" accept="application/json,.json,.txt" multiple>
+      </label>
+      <label for="paste">或貼上 JSON、分享連結</label>
+      <textarea id="paste" rows="4" placeholder="貼上投票 JSON，或含有 #ballot= 的連結"></textarea>
+      <div class="row-actions">
+        <button type="button" id="import-paste">併入彙總</button>
+        <button type="button" id="download-summary" class="primary">下載彙總 JSON</button>
+        <button type="button" id="clear-tray" class="quiet">清空彙總區</button>
+      </div>
+      <p id="tray-note"></p>
+      <ul id="tray" class="tray"></ul>
+      <div class="table-wrap">
+        <table id="summary">
+          <caption>選定日期的贊成與反對</caption>
+          <thead>
+            <tr><th>原料</th><th>贊成</th><th>反對</th><th>備註</th></tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+  </details>
+  <details class="help">
+    <summary>怎麼投、資料存在哪</summary>
+    <div class="help-body">
+      <ol>
+        <li>選日期。每天的原料來自儲存庫的 <code>data/days</code>。</li>
+        <li>每筆原料選「贊成」或「反對」，備註可留白。不要寫姓名、部門、電話或信箱。</li>
+        <li>同一台瀏覽器再按一次會改掉原來的選擇，不會變成兩票。</li>
+        <li>下載 JSON 或複製分享連結，交給負責彙總的同事。這是預設、也是不需設定就能用的做法。</li>
+        <li>若頁面上出現「送到共享收集端」，那是另外接上的表單或試算表，沒送成功也不影響下載。</li>
+      </ol>
+      <p><a id="readme-link" href="">欄位定義與每日作業</a></p>
+    </div>
+  </details>
+  <footer>
+    <p>表態存在這台裝置的 localStorage。清除瀏覽器網站資料後，未下載的表態會消失。</p>
+  </footer>
+  <div class="dock">
+    <div class="dock-inner">
+      <p id="dock-tally">尚未載入</p>
+      <button type="button" id="download-dock">下載投票 JSON</button>
+    </div>
+  </div>
+  <noscript>
+    <p class="banner">請開啟 JavaScript。投票頁沒有登入，但需要它才能讀取原料與記住你在這台裝置上的選擇。</p>
+  </noscript>
+  <script src="config.js"></script>
+  <script src="catalog.js"></script>
+  <script src="vote-model.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

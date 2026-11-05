@@ -1,0 +1,118 @@
+{
+  "id": "example-aurora-berry",
+  "example": true,
+  "names": {
+    "commonZh": "極光莓萃取（虛構）",
+    "commonEn": "Aurora Berry Extract (fictional)",
+    "trade": "AURORA-B7（虛構商品名）",
+    "scientific": "Ficticia aurorae（虛構學名）"
+  },
+  "supply": {
+    "supplierName": "北風植物實驗室 Northwind Botanica（虛構）",
+    "supplierCountry": "芬蘭 Finland",
+    "relationship": "taiwan_distributor",
+    "taiwanPartyName": "示例生技股份有限公司（虛構）",
+    "relationshipNote": "虛構新聞稿把示例生技寫成台灣窗口，虛構展覽名錄把北風植物寫成製造商。兩份來源的角色一致，仍只是流程示範，沒有代理證明。"
+  },
+  "tfda": {
+    "usable": "example_only",
+    "evidenceNotes": "虛構原料，沒有查核結論。正式檔案請把 TFDA 查詢助手與官方頁的畫面抄進 queries：關鍵字、筆數、中文名稱、外文名稱、學名、部位、備註，以及是否出現「未確認安全性，尚不得使用」。查無資料時填 not_found，不要填成已准用。",
+    "lookupDate": "2026-11-05",
+    "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+    "queries": [
+      {
+        "tab": "ingredient",
+        "keyword": "極光莓",
+        "category": "",
+        "resultCount": null,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "範例未查核。正式檔請填實際筆數。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Ficticia aurorae",
+        "category": "",
+        "resultCount": null,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "學名應單獨再查一次。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "Aurora Berry",
+        "category": "",
+        "resultCount": null,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "原料分頁查完後，添加物分頁要用外文名再查。"
+      }
+    ],
+    "officialCrosscheck": {
+      "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+      "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+      "done": false,
+      "notes": "範例未做官方頁交叉核對。真實案件在助手有命中、或助手打不開時，改到這兩個網址手抄。"
+    }
+  },
+  "efficacy": {
+    "claimedBenefits": [
+      "虛構新聞稿寫「有助於日常視覺保養」。這是行銷句子，不是功效結論，也不能當成 TFDA 核准。"
+    ],
+    "suggestedDosage": "虛構新聞稿自述 80–120 mg／日。數字是編的，不能當食用依據。",
+    "dosageNote": "出處只有同一份虛構新聞稿，沒有文獻或法規限量。"
+  },
+  "patent": {
+    "status": "unknown",
+    "refs": [],
+    "note": "尚未檢索。未知不要填成沒有專利。"
+  },
+  "literature": {
+    "status": "unknown",
+    "refs": [],
+    "note": "尚未檢索。不要把別的漿果論文挪來充數。"
+  },
+  "evidenceLevels": [],
+  "images": [
+    {
+      "url": "https://example.com/fictional/aurora-pack.jpg",
+      "localPath": "assets/placeholder.svg",
+      "caption": "示意框。虛構網址，不是官網照片。",
+      "source": "other"
+    }
+  ],
+  "sources": [
+    {
+      "title": "虛構電子報：極光莓萃取上市短訊",
+      "url": "https://example.com/news/aurora-berry-launch",
+      "publisher": "虛構產業電子報",
+      "channel": "news",
+      "accessed": "2026-11-05",
+      "whatItContributes": "商品名、製造商國別、行銷用的效益句子與自述劑量。"
+    },
+    {
+      "title": "虛構原料展參展商名錄：北風植物實驗室",
+      "url": "https://example.com/expo/northwind-botanica",
+      "publisher": "虛構展覽名錄",
+      "channel": "exhibition",
+      "accessed": "2026-11-05",
+      "whatItContributes": "核對供應商名稱、國家，以及名錄上的產品類別。"
+    },
+    {
+      "title": "虛構產品頁：AURORA-B7",
+      "url": "https://example.com/northwind/aurora-b7",
+      "publisher": "北風植物實驗室（虛構）",
+      "channel": "supplier_site",
+      "accessed": "2026-11-05",
+      "whatItContributes": "官網用的外文名與圖片網址欄位示範。此連結是 example.com，沒有真實圖片。"
+    }
+  ],
+  "discovery": {
+    "channel": "news",
+    "scoutDate": "2026-11-05",
+    "notes": "先從虛構電子報看到品名，再用虛構展覽名錄核對製造商，最後對上虛構產品頁。同一張卡片有三種出處。正式作業請換成真實連結，並約滿 5 筆。"
+  }
+}

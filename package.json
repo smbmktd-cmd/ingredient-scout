@@ -1,0 +1,14 @@
+{
+  "name": "ingredient-scout",
+  "private": true,
+  "description": "台灣膳食補充品原料偵察與匿名投票範本",
+  "scripts": {
+    "build": "node scripts/build-catalog.mjs",
+    "validate": "node scripts/validate.mjs",
+    "test": "node scripts/validate.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT"
+}

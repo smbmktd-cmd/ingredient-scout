@@ -1,0 +1,9 @@
+{
+  "date": "2026-11-05",
+  "example": true,
+  "title": "範例日報",
+  "targetCount": 5,
+  "channelsCovered": ["news", "industry_report"],
+  "notes": "這一份是流程示範，只有 2 筆虛構原料，不是正式的五筆日報。極光莓的主管道是新聞，並用虛構展覽名錄當第二來源；露明肽的主管道是產業報導。正式日報請約 5 筆，且不要五筆都來自同一則新聞。",
+  "picks": ["example-aurora-berry", "example-lumen-peptide"]
+}

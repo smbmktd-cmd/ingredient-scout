@@ -1,0 +1,92 @@
+{
+  "ingredientRequired": [
+    "id",
+    "example",
+    "names.commonZh",
+    "names.commonEn",
+    "names.trade",
+    "names.scientific",
+    "supply.supplierName",
+    "supply.supplierCountry",
+    "supply.relationship",
+    "supply.taiwanPartyName",
+    "supply.relationshipNote",
+    "tfda.usable",
+    "tfda.evidenceNotes",
+    "tfda.lookupDate",
+    "tfda.lookupToolUrl",
+    "tfda.queries",
+    "tfda.officialCrosscheck.ingredientPlatformUrl",
+    "tfda.officialCrosscheck.additiveListUrl",
+    "tfda.officialCrosscheck.done",
+    "tfda.officialCrosscheck.notes",
+    "efficacy.claimedBenefits",
+    "efficacy.suggestedDosage",
+    "efficacy.dosageNote",
+    "patent.status",
+    "patent.refs",
+    "patent.note",
+    "literature.status",
+    "literature.refs",
+    "literature.note",
+    "evidenceLevels",
+    "images",
+    "sources",
+    "discovery.channel",
+    "discovery.scoutDate",
+    "discovery.notes"
+  ],
+  "enums": {
+    "discovery.channel": ["news", "exhibition", "industry_report"],
+    "source.channel": ["news", "exhibition", "industry_report", "supplier_site", "paper", "patent", "other"],
+    "patent.status": ["yes", "no", "unknown"],
+    "literature.status": ["yes", "no", "unknown"],
+    "evidenceLevels": ["in_vitro", "cell", "animal", "clinical"],
+    "supply.relationship": ["direct", "taiwan_agent", "taiwan_distributor", "supplier_is_taiwan", "unknown"],
+    "tfda.usable": [
+      "listed_food_ingredient",
+      "unconfirmed_not_for_food_use",
+      "listed_food_additive",
+      "not_found",
+      "lookup_blocked",
+      "needs_review",
+      "example_only"
+    ],
+    "tfda.queryTab": ["ingredient", "additive", "history"],
+    "image.source": ["official_site", "exhibition", "other"]
+  },
+  "labels": {
+    "discovery.channel": {
+      "news": "新聞",
+      "exhibition": "展覽名錄",
+      "industry_report": "產業報導"
+    },
+    "supply.relationship": {
+      "direct": "供應商直接對台",
+      "taiwan_agent": "台灣代理商",
+      "taiwan_distributor": "台灣經銷商",
+      "supplier_is_taiwan": "供應商在台灣",
+      "unknown": "關係未確認"
+    },
+    "tfda.usable": {
+      "listed_food_ingredient": "原料平臺有列（仍須看部位、限量與警語）",
+      "unconfirmed_not_for_food_use": "未確認安全性，尚不得作為食品原料",
+      "listed_food_additive": "食品添加物規格有列（須符合使用範圍與限量）",
+      "not_found": "原料與添加物查詢都未見該筆",
+      "lookup_blocked": "查詢工具或官方頁無法開啟，尚未查完",
+      "needs_review": "多筆近似或原料／添加物都命中，待覆核",
+      "example_only": "範例檔，沒有查核結論"
+    },
+    "tri": {
+      "yes": "有",
+      "no": "無",
+      "unknown": "未知"
+    },
+    "evidenceLevels": {
+      "in_vitro": "體外",
+      "cell": "細胞",
+      "animal": "動物",
+      "clinical": "臨床"
+    }
+  }
+}

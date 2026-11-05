@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-06",
+  "example": false,
+  "title": "2026-11-06 正式日報",
+  "targetCount": 5,
+  "channelsCovered": [
+    "news",
+    "exhibition",
+    "industry_report"
+  ],
+  "notes": "正式五筆。未放入 TFDA 明確未確認安全性項目（已排除 PQQ、含總序天冬／shatavari 的 Fenavari）。Magtein 助手未列該鎂鹽型態（not_found）。Naticol UltraPeptide 與 Nextida GC 依膠原蛋白列名。AstaReal 依紅藻學名含 Haematococcus pluvialis；發酵蝦紅素 2 mg 規格是另一製程。KSM-66 依南非醉茄萃取物列名，每日 250 mg 上限。",
+  "picks": [
+    "magtein",
+    "naticol-ultrapeptide",
+    "astareal",
+    "nextida-gc",
+    "ksm-66"
+  ]
+}

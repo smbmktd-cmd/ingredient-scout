@@ -1,0 +1,137 @@
+{
+  "id": "nextida-gc",
+  "example": false,
+  "names": {
+    "commonZh": "特定組成膠原蛋白胜肽（餐後血糖取向）",
+    "commonEn": "specific collagen peptide composition for post-meal glucose",
+    "trade": "Nextida GC（Rousselot／Darling Ingredients 的膠原蛋白胜肽商品名）",
+    "scientific": "不適用：膠原蛋白胜肽是水解蛋白組成，不是單一物種學名。官網寫為 collagen peptides。"
+  },
+  "supply": {
+    "supplierName": "Rousselot (Darling Ingredients)",
+    "supplierCountry": "荷蘭／美國（Darling Ingredients 集團）",
+    "relationship": "unknown",
+    "taiwanPartyName": "查無",
+    "relationshipNote": "Darling／Rousselot／Nextida 官網與兩頁產品資料沒有指名台灣公司。搜尋呈定、統園、和司特、創百、惠民目錄未見 Nextida GC 代理或經銷公開頁，故填查無。"
+  },
+  "tfda": {
+    "usable": "listed_food_ingredient",
+    "evidenceNotes": "食品原料查到膠原蛋白（Collagen）海產與禽畜兩筆，皆可供食品使用，不是未確認安全性。商品名 Nextida／Nextida GC 0 筆。添加物分頁 0 筆。列名不等於 5–10 克研究劑量可用。",
+    "lookupDate": "2026-11-06",
+    "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+    "queries": [
+      {
+        "tab": "ingredient",
+        "keyword": "膠原蛋白",
+        "category": "海水產類、爬蟲類或其他動物及其來源製取之原料",
+        "resultCount": 1,
+        "matchedName": "膠原蛋白",
+        "restrictionNote": "由海、水產動物之傳統供食用部位製取。",
+        "unconfirmedSafety": false,
+        "note": "另有禽畜來源一筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Nextida",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "collagen",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "添加物分頁 0 筆。"
+      },
+      {
+        "tab": "history",
+        "keyword": "Nextida",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "更新歷程未見此商品名。"
+      }
+    ],
+    "officialCrosscheck": {
+      "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+      "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+      "done": true,
+      "notes": "2026-11-06 依查詢助手公開 data.json 確認膠原蛋白列名；官方頁未另開。"
+    }
+  },
+  "efficacy": {
+    "claimedBenefits": [
+      "Darling Ingredients 產業稿：Nextida GC 在 16 名健康受試者的概念性臨床中，餐前口服 5 g 或 10 g，餐後血糖峰值平均約降 42%（稿內另拆 5 g 約 43%、10 g 約 40%）。這是公司新聞稿數字。",
+      "Rousselot Nextida GC 產品頁與兩頁簡報：10 g 餐前 30 分鐘在健康族群可見 GLP-1 上升；前糖尿病亞組在 5 g 與 10 g 皆有統計顯著結果說法。本次沒有打開 Food Sci Nutr 2024 全文，只讀公司頁與 PDF 摘要。"
+    ],
+    "suggestedDosage": "公司稿與產品頁：餐前約 30 分鐘口服 5 g 或 10 g。",
+    "dosageNote": "研究／供應商建議劑量，不是台灣法規上限。"
+  },
+  "patent": {
+    "status": "unknown",
+    "refs": [],
+    "note": "Darling 稿寫 patents pending，沒有專利號，維持 unknown。"
+  },
+  "literature": {
+    "status": "unknown",
+    "refs": [],
+    "note": "產品頁引用 Grasset 等 Food Sci Nutr. 2024;12(11):9607-9620 與 Clinical Nutrition ESPEN 摘要。本次沒有打開論文頁，不標 clinical。"
+  },
+  "evidenceLevels": [],
+  "images": [
+    {
+      "url": "https://darl-p-001.sitecorecontenthub.cloud/api/public/content/21c6cb4d188340cdae079da9280b23bd?v=a42a3168",
+      "localPath": "",
+      "caption": "Nextida GC／Rousselot 產品頁使用的官方圖片。",
+      "source": "official_site"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Darling Ingredients Introduces Nextida™ GC",
+      "url": "https://www.darlingii.com/media/news/20241007-darling-ingredients-introduces-nextida-gc",
+      "publisher": "Darling Ingredients",
+      "channel": "industry_report",
+      "accessed": "2026-11-06",
+      "whatItContributes": "公司產業稿：5 g／10 g 劑量與約 42% 餐後血糖峰值降幅說法。"
+    },
+    {
+      "title": "Nextida GC product page",
+      "url": "https://nextida.rousselot.com/nextida-gc",
+      "publisher": "Rousselot",
+      "channel": "supplier_site",
+      "accessed": "2026-11-06",
+      "whatItContributes": "產品定位、GLP-1 說法與文獻出處。"
+    },
+    {
+      "title": "Nextida GC 2-pager",
+      "url": "https://nextida.rousselot.com/hubfs/HN/25-ROU-0051_Nextida-GC_2-pager-FW_Bleed-noCrops.pdf?hsLang=en",
+      "publisher": "Rousselot",
+      "channel": "supplier_site",
+      "accessed": "2026-11-06",
+      "whatItContributes": "兩頁簡報重述 5–10 g 與健康／前糖尿病亞組說法。"
+    },
+    {
+      "title": "Vitafoods Europe 2026 Recap mentioning Nextida GC",
+      "url": "https://www.all4nutra.com/news/vitafoods-2026-recap-5473/",
+      "publisher": "All4Nutra",
+      "channel": "news",
+      "accessed": "2026-11-06",
+      "whatItContributes": "展會整理再次提到 Rousselot Nextida GC 與血糖／GLP-1 定位。"
+    }
+  ],
+  "discovery": {
+    "channel": "industry_report",
+    "scoutDate": "2026-11-06",
+    "notes": "從 Darling Ingredients 公司產業稿進入 Nextida GC，再對 Rousselot 產品頁與兩頁簡報；Vitafoods 2026 展後稿作交叉。台灣代理公開頁查無。"
+  }
+}

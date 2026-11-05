@@ -1,0 +1,147 @@
+{
+  "id": "ksm-66",
+  "example": false,
+  "names": {
+    "commonZh": "南非醉茄根萃取物",
+    "commonEn": "ashwagandha root extract",
+    "trade": "KSM-66（Ixoreal Biomed；台灣創百亦稱烯力蔘）",
+    "scientific": "Withania somnifera"
+  },
+  "supply": {
+    "supplierName": "Ixoreal Biomed Private Limited",
+    "supplierCountry": "印度",
+    "relationship": "taiwan_distributor",
+    "taiwanPartyName": "創百股份有限公司",
+    "relationshipNote": "創百產品頁完整介紹 KSM-66／烯力蔘，並寫用量 250 mg／day、醉茄內酯 >5%。頁上沒有出現「獨家代理」字樣，故以目錄經銷關係填 taiwan_distributor。Ixoreal 英文站本次未互指創百。"
+  },
+  "tfda": {
+    "usable": "listed_food_ingredient",
+    "evidenceNotes": "食品原料查到南非醉茄萃取物（Ashwagandha extract，Withania somnifera，部位葉、根）1 筆，不是未確認安全性。水粗萃取物乾品每日攝食限量 250 mg 以下，且須標示嬰幼兒、孕婦、老年人及腸胃功能不佳者不宜食用。商品名 KSM-66 0 筆。添加物分頁 0 筆。創百寫的 250 mg／day 與上限同值，不代表更高臨床常用劑量可用。",
+    "lookupDate": "2026-11-06",
+    "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+    "queries": [
+      {
+        "tab": "ingredient",
+        "keyword": "南非醉茄",
+        "category": "草、木本植物類來源製取之原料",
+        "resultCount": 1,
+        "matchedName": "南非醉茄萃取物",
+        "restrictionNote": "水粗萃取物之乾品每日攝食限量為 250 mg 以下，且必須加標「嬰幼兒、孕婦、老年人及腸胃功能不佳者不宜食用」之警語。",
+        "unconfirmedSafety": false,
+        "note": "外文 Ashwagandha extract；學名 Withania somnifera；部位葉、根。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Withania somnifera",
+        "category": "草、木本植物類來源製取之原料",
+        "resultCount": 1,
+        "matchedName": "南非醉茄萃取物",
+        "restrictionNote": "同上。",
+        "unconfirmedSafety": false,
+        "note": "與中文名同一筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "KSM-66",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名沒有另列。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "ashwagandha",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "添加物分頁 0 筆。"
+      },
+      {
+        "tab": "history",
+        "keyword": "南非醉茄",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "未改列未確認安全性。"
+      }
+    ],
+    "officialCrosscheck": {
+      "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+      "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+      "done": true,
+      "notes": "2026-11-06 依查詢助手公開 data.json 確認列名與 250 mg 上限；官方頁未另開。"
+    }
+  },
+  "efficacy": {
+    "claimedBenefits": [
+      "創百產品頁：KSM-66 精選根部、牛奶廣譜萃取，醉茄內酯 >5%，並列出思緒、睡眠、體力、放鬆等應用方向。這是台灣經銷頁的供應商轉述。",
+      "SupplySide Global 公開贊助資料將 KSM-66 Ashwagandha 列為旗艦級贊助品牌之一，作為展會曝光來源；功效細節仍以原料商／經銷頁為準。"
+    ],
+    "suggestedDosage": "創百產品頁：250 mg／day。",
+    "dosageNote": "創百寫 250 mg／day，與台灣助手水粗萃取物乾品每日 250 mg 上限同值。國外部分 RCT 常用 300 mg 每日兩次（共 600 mg），不可直接寫成台灣可用。"
+  },
+  "patent": {
+    "status": "unknown",
+    "refs": [],
+    "note": "生資等台灣頁常寫專利，但本次沒有打開專利號頁，維持 unknown。"
+  },
+  "literature": {
+    "status": "unknown",
+    "refs": [],
+    "note": "創百寫累積人體臨床，本次沒有打開單篇論文，不標 clinical。"
+  },
+  "evidenceLevels": [],
+  "images": [
+    {
+      "url": "https://ksm66ashwagandhaa.com/assets/images/whatis-ksm.jpg",
+      "localPath": "",
+      "caption": "KSM-66 原廠 What Is KSM-66 頁圖片。",
+      "source": "official_site"
+    }
+  ],
+  "sources": [
+    {
+      "title": "SupplySide Global flagship sponsor listing",
+      "url": "https://www.supplysideglobal.com/sponsor/sponsors/flagship-sponsor/",
+      "publisher": "SupplySide Global",
+      "channel": "exhibition",
+      "accessed": "2026-11-06",
+      "whatItContributes": "展會旗艦贊助名單可見 KSM-66 Ashwagandha 品牌曝光。"
+    },
+    {
+      "title": "創百：KSM-66® 烯力蔘® 南非醉茄萃取物",
+      "url": "https://www.chambio.com/products/ashwagandha-ksm-66/",
+      "publisher": "創百股份有限公司",
+      "channel": "other",
+      "accessed": "2026-11-06",
+      "whatItContributes": "台灣目錄、根部萃取、醉茄內酯 >5%、用量 250 mg／day。"
+    },
+    {
+      "title": "What Is KSM-66?",
+      "url": "https://ksm66ashwagandhaa.com/what-is-ksm66.php",
+      "publisher": "Ixoreal Biomed",
+      "channel": "supplier_site",
+      "accessed": "2026-11-06",
+      "whatItContributes": "原廠說明：根部全光譜高濃度萃取、不以葉子入料，並列壓力、認知、耐力等研究取向說法。"
+    },
+    {
+      "title": "Ashwagandha and adaptogens at SupplySide Global 2026",
+      "url": "https://www.all4nutra.com/news/ashwagandha-ssd-2026-7190/",
+      "publisher": "All4Nutra",
+      "channel": "industry_report",
+      "accessed": "2026-11-06",
+      "whatItContributes": "展會產業整理；提到 KSM-66 與常見臨床劑量脈絡。"
+    }
+  ],
+  "discovery": {
+    "channel": "exhibition",
+    "scoutDate": "2026-11-06",
+    "notes": "從 SupplySide Global 旗艦贊助名單看到 KSM-66，再對創百台灣產品頁與 Ixoreal 品牌站。劑量以創百 250 mg／day 與 TFDA 上限對齊說明。"
+  }
+}

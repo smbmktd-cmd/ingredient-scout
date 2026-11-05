@@ -1,0 +1,179 @@
+{
+  "id": "astareal",
+  "example": false,
+  "names": {
+    "commonZh": "蝦紅素（雨生紅球藻來源）",
+    "commonEn": "astaxanthin (from Haematococcus pluvialis)",
+    "trade": "AstaReal（Fuji Chemical 集團的天然蝦紅素商品名）",
+    "scientific": "Haematococcus pluvialis"
+  },
+  "supply": {
+    "supplierName": "AstaReal / Fuji Chemical Industries",
+    "supplierCountry": "日本／瑞典（AstaReal 集團）",
+    "relationship": "taiwan_agent",
+    "taiwanPartyName": "惠民製藥股份有限公司",
+    "relationshipNote": "AstaReal 活動頁寫 Wei Ming Pharmaceutical（惠民製藥）為台灣 raw material exclusive distributor。惠民產品頁列出多種 AstaReal 規格並附台北聯絡資料。雙方說法一致，故填 taiwan_agent。"
+  },
+  "tfda": {
+    "usable": "listed_food_ingredient",
+    "evidenceNotes": "食品原料「紅藻」學名欄含 Haematococcus pluvialis，部位藻體，可供食品使用，不是未確認安全性。另有一筆「蝦紅素」限基因改造大腸桿菌 Ast12 發酵製程，每日以蝦紅素計 2 mg，並有警語；那是另一條製程，不能直接套成 AstaReal 雨生紅球藻產品已符合該規格。商品名 AstaReal 0 筆。",
+    "lookupDate": "2026-11-06",
+    "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+    "queries": [
+      {
+        "tab": "ingredient",
+        "keyword": "Haematococcus",
+        "category": "藻類及其來源製取之原料",
+        "resultCount": 1,
+        "matchedName": "紅藻",
+        "restrictionNote": "學名欄含 Haematococcus pluvialis；部位藻體；備註空白。",
+        "unconfirmedSafety": false,
+        "note": "id 對應助手詳細頁紅藻。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Astaxanthin",
+        "category": "微生物及其來源製取之原料",
+        "resultCount": 1,
+        "matchedName": "蝦紅素",
+        "restrictionNote": "限基因改造大腸桿菌 Ast12 發酵製程與規格；每日以蝦紅素計 2 mg；須標示基因改造微生物生產相關字樣與特定族群警語。",
+        "unconfirmedSafety": false,
+        "note": "製程與 AstaReal 雨生紅球藻來源不同，不可直接等同。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "AstaReal",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名沒有另列。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "蝦青素",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "中文「蝦青素」0 筆；列名用「蝦紅素」。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "astaxanthin",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "添加物分頁 0 筆。"
+      },
+      {
+        "tab": "history",
+        "keyword": "Haematococcus",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "未見改列為未確認安全性。"
+      }
+    ],
+    "officialCrosscheck": {
+      "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+      "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+      "done": true,
+      "notes": "2026-11-06 依查詢助手公開 data.json 確認紅藻與發酵蝦紅素兩筆；官方頁未另開。"
+    }
+  },
+  "efficacy": {
+    "claimedBenefits": [
+      "NutritionInsight 2026-10-19 SupplySide Global 2026 專訪：AstaReal 強調運動營養、健康老化、認知、眼睛與美容等應用，並提到粒線體能量相關路徑的研究說法。這是展會新聞轉述。",
+      "AstaReal 官網 About 頁寫：安全性研究涵蓋 2–45 mg／日；眼睛、肌耐力、心血管、皮膚與認知等臨床常用有效劑量約 4–12 mg／日，並提醒查當地法規。這是供應商整理，本次沒有打開其所引論文。"
+    ],
+    "suggestedDosage": "AstaReal 官網：臨床常用有效劑量約每日 4–12 mg 蝦紅素；並寫安全性研究曾做到 2–45 mg／日。",
+    "dosageNote": "供應商官網整理的研究劑量區間。台灣助手對雨生紅球藻藻體沒有另寫毫克上限；基因改造發酵蝦紅素那筆的 2 mg 上限不能直接套用到本品。"
+  },
+  "patent": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "AstaReal USA Patents page",
+        "url": "https://astarealusa.com/patents/",
+        "note": "列有 US 6348347、US 10828269、US 10894022、US 11116732 等。"
+      }
+    ],
+    "note": "依 AstaReal USA 專利表；未逐件打開 USPTO 全文。"
+  },
+  "literature": {
+    "status": "unknown",
+    "refs": [],
+    "note": "官網自稱 70+／85+ 人體研究，本次沒有打開單篇論文，不標 clinical。"
+  },
+  "evidenceLevels": [],
+  "images": [
+    {
+      "url": "https://astareal.com/wp-content/uploads/en_products_bulk_01Oil.jpg",
+      "localPath": "",
+      "caption": "AstaReal 官網 bulk oil 產品圖。",
+      "source": "official_site"
+    }
+  ],
+  "sources": [
+    {
+      "title": "SupplySide Global 2026: AstaReal targets longevity and active nutrition with astaxanthin",
+      "url": "https://www.nutritioninsight.com/news/astareal-astaxanthin-longevity-active-nutrition-supplyside.html",
+      "publisher": "NutritionInsight",
+      "channel": "news",
+      "accessed": "2026-11-06",
+      "whatItContributes": "2026-10 SupplySide Global 展前記／專訪：應用方向與劑型策略。"
+    },
+    {
+      "title": "What is Astaxanthin | AstaReal",
+      "url": "https://astareal.com/about/astaxanthin/",
+      "publisher": "AstaReal",
+      "channel": "supplier_site",
+      "accessed": "2026-11-06",
+      "whatItContributes": "來源 Haematococcus pluvialis、4–12 mg／日研究劑量說法。"
+    },
+    {
+      "title": "惠民製藥 AstaReal 藻紅素、蝦紅素",
+      "url": "https://www.weimingpharma.com.tw/%E5%8E%9F%E6%96%99%E5%93%81%E7%89%8C/fuji-chemical-%E5%AF%8C%E5%A3%AB%E5%8C%96%E5%AD%B8%E9%A3%9F%E5%93%81%E5%8E%9F%E6%96%99/astareal-%C2%AE-%E8%97%BB%E7%B4%85%E7%B4%A0%E3%80%81%E8%9D%A6%E7%B4%85%E7%B4%A0.html",
+      "publisher": "惠民製藥",
+      "channel": "other",
+      "accessed": "2026-11-06",
+      "whatItContributes": "台灣目錄列出多種 AstaReal 規格與富士化學品牌。"
+    },
+    {
+      "title": "Wei Ming Pharmaceutical Taiwan, AstaReal raw material exclusive distributor",
+      "url": "https://astareal.com/event/wei-ming-pharmaceutical-astareal-raw-material-exclusive-distributor-at-bioasia-taiwan-2022/",
+      "publisher": "AstaReal",
+      "channel": "other",
+      "accessed": "2026-11-06",
+      "whatItContributes": "AstaReal 寫惠民為台灣原料 exclusive distributor。"
+    },
+    {
+      "title": "Patents – AstaReal USA",
+      "url": "https://astarealusa.com/patents/",
+      "publisher": "AstaReal USA",
+      "channel": "supplier_site",
+      "accessed": "2026-11-06",
+      "whatItContributes": "公開專利號列表。"
+    },
+    {
+      "title": "Ready to Put Some Science into Motion? (SupplySide)",
+      "url": "https://astarealusa.com/ready-to-put-some-science-in-motion/",
+      "publisher": "AstaReal USA",
+      "channel": "exhibition",
+      "accessed": "2026-11-06",
+      "whatItContributes": "SupplySide Global 攤位與劑型展示。"
+    }
+  ],
+  "discovery": {
+    "channel": "news",
+    "scoutDate": "2026-11-06",
+    "notes": "從 NutritionInsight SupplySide Global 2026 專訪進入，對 AstaReal 官網劑量頁，再對惠民產品頁與 AstaReal 獨家代理活動頁。"
+  }
+}

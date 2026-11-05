@@ -1,0 +1,173 @@
+{
+  "id": "magtein",
+  "example": false,
+  "names": {
+    "commonZh": "鎂 L-蘇糖酸鹽",
+    "commonEn": "magnesium L-threonate",
+    "trade": "Magtein（ThreoTech 的鎂 L-蘇糖酸鹽商品名）",
+    "scientific": "不適用：鎂 L-蘇糖酸鹽是化合物。助手沒有另列 Magtein 或 magnesium L-threonate 學名。"
+  },
+  "supply": {
+    "supplierName": "ThreoTech LLC",
+    "supplierCountry": "美國",
+    "relationship": "unknown",
+    "taiwanPartyName": "查無",
+    "relationshipNote": "Magtein 與 ThreoTech 官網寫原料由 ThreoTech 供應，並寫 EU／UK Novel Food 排他期給 ThreoTech 及其授權方。搜尋呈定、統園、創百、和司特、惠民等台灣原料目錄，沒有找到把 Magtein 寫成代理或經銷的公開頁，故台灣關聯廠商填查無。"
+  },
+  "tfda": {
+    "usable": "not_found",
+    "evidenceNotes": "食品原料以 Magtein、鎂 L-蘇糖酸鹽、magnesium L-threonate、蘇糖酸鎂查皆 0 筆。添加物有多種鎂鹽與 2,3,4-三羥基丁酸鈣（Calcium L-Threonate），但沒有鎂 L-蘇糖酸鹽。不是「未確認安全性」分類。not_found 只表示這次沒查到此型態，不是准用也不是禁用。",
+    "lookupDate": "2026-11-06",
+    "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+    "queries": [
+      {
+        "tab": "ingredient",
+        "keyword": "Magtein",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名 0 筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "magnesium L-threonate",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "外文型態名 0 筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "蘇糖酸鎂",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "中文近似名 0 筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "鎂",
+        "category": "微生物及其來源製取之原料",
+        "resultCount": 1,
+        "matchedName": "鎂酵母",
+        "restrictionNote": "鎂之每日最高攝食量不得超過 600 mg。",
+        "unconfirmedSafety": false,
+        "note": "是鎂酵母，不是 Magtein。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "Magnesium",
+        "category": "(八) 營養添加劑",
+        "resultCount": 10,
+        "matchedName": "氧化鎂等多種鎂鹽；另有 2,3,4-三羥基丁酸鈣（Calcium L-Threonate）",
+        "restrictionNote": "多數鎂營養添加劑每日鎂總量一般食品不得高於 600 mg。沒有 Magnesium L-Threonate 品名。",
+        "unconfirmedSafety": false,
+        "note": "有鎂鹽與鈣的 L-蘇糖酸鹽，沒有鎂 L-蘇糖酸鹽。"
+      },
+      {
+        "tab": "history",
+        "keyword": "threonate",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "助手更新歷程關鍵字未另見 Magtein／鎂 L-蘇糖酸鹽新增。"
+      }
+    ],
+    "officialCrosscheck": {
+      "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+      "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+      "done": false,
+      "notes": "2026-11-06 依查詢助手公開 data.json（fetched 2026-11-05）核對；官方原料／添加物頁未另開。"
+    }
+  },
+  "efficacy": {
+    "claimedBenefits": [
+      "Frontiers 2026 年初刊出的 RCT（Lopresti & Smith）：健康成人每日 2 g Magtein、六週，相對安慰劑改善 NIH Total Cognition Composite 等認知指標。這是已打開的論文結果摘要，不是台灣核准功效。",
+      "Magtein 官網另寫睡眠品質與腦健康等結構／功能說法；All4Nutra／Prezly 展會稿轉述 Vitafoods Europe 2026 發表同一臨床。"
+    ],
+    "suggestedDosage": "Magtein 官網 FAQ：每日 1–2 g；上述 RCT 使用每日 2 g（約含元素鎂 144–145 mg）。",
+    "dosageNote": "研究／官網劑量，不是台灣法規上限。助手未列此鎂鹽型態。"
+  },
+  "patent": {
+    "status": "unknown",
+    "refs": [],
+    "note": "官網自稱 patented form，但本次沒有打開專利號頁，維持 unknown。"
+  },
+  "literature": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "Effects of magnesium L-threonate (Magtein®) on cognitive performance and sleep quality",
+        "url": "https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1729164/full",
+        "note": "Lopresti AL, Smith SJ. Front Nutr. 2025;12:1729164. 6 週 RCT n=100，每日 2 g。"
+      }
+    ],
+    "note": "已打開 Frontiers 全文；官網其他引用未逐篇打開。"
+  },
+  "evidenceLevels": [
+    "clinical"
+  ],
+  "images": [
+    {
+      "url": "https://magtein.com/wp-content/uploads/2026/09/magtein-social-share-1200x630-1.png",
+      "localPath": "",
+      "caption": "Magtein 官網分享圖。",
+      "source": "official_site"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Threotech to present latest clinical data on Magtein® at Vitafoods Europe",
+      "url": "https://magtein.prezly.com/threotech-to-present-latest-clinical-data-on-magteinr-at-vitafoods-europe",
+      "publisher": "Magtein / Prezly",
+      "channel": "news",
+      "accessed": "2026-11-06",
+      "whatItContributes": "Vitafoods Europe 2026 臨床發表預告；ThreoTech 獨家供應說法。"
+    },
+    {
+      "title": "Vitafoods Europe 2026 Recap: Magtein clinical data at the show",
+      "url": "https://www.all4nutra.com/news/vitafoods-2026-recap-5473/",
+      "publisher": "All4Nutra",
+      "channel": "news",
+      "accessed": "2026-11-06",
+      "whatItContributes": "2026-05 Vitafoods Europe 展後稿：ThreoTech 發表 Magtein 新臨床摘要與 EU novel food 排他期說法。"
+    },
+    {
+      "title": "Magtein® Magnesium L-Threonate",
+      "url": "https://magtein.com/",
+      "publisher": "Magtein / ThreoTech",
+      "channel": "supplier_site",
+      "accessed": "2026-11-06",
+      "whatItContributes": "商品名、1–2 克／日研究劑量、元素鎂毫克數、GRAS／EU／UK 說法與圖片。"
+    },
+    {
+      "title": "MAGTEIN - Threotech",
+      "url": "https://threotech.com/magtein/",
+      "publisher": "ThreoTech",
+      "channel": "supplier_site",
+      "accessed": "2026-11-06",
+      "whatItContributes": "供應商頁確認 Magtein 為 magnesium L-threonate 品牌原料。"
+    },
+    {
+      "title": "Effects of magnesium L-threonate (Magtein®) on cognitive performance and sleep quality",
+      "url": "https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1729164/full",
+      "publisher": "Frontiers in Nutrition",
+      "channel": "paper",
+      "accessed": "2026-11-06",
+      "whatItContributes": "已打開的 RCT 全文：劑量與認知主要指標。"
+    }
+  ],
+  "discovery": {
+    "channel": "news",
+    "scoutDate": "2026-11-06",
+    "notes": "從 Vitafoods／All4Nutra 與 Prezly 新聞進入，打開 Frontiers RCT，再對 Magtein／ThreoTech 官網。台灣代理公開頁查無。"
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "id": "naticol-ultrapeptide",
+  "example": false,
+  "names": {
+    "commonZh": "超低分子量海洋膠原蛋白胜肽",
+    "commonEn": "ultra-low molecular weight marine collagen peptides",
+    "trade": "Naticol UltraPeptide（Weishardt 的海洋膠原蛋白胜肽商品名）",
+    "scientific": "不適用：水解膠原蛋白胜肽是加工蛋白，不是單一物種學名。來源寫魚皮／海洋動物傳統供食用部位。"
+  },
+  "supply": {
+    "supplierName": "Weishardt International",
+    "supplierCountry": "法國",
+    "relationship": "taiwan_distributor",
+    "taiwanPartyName": "和司特股份有限公司",
+    "relationshipNote": "Weishardt LinkedIn 寫 Healthtake（和司特）是台灣 marine collagen distributor。和司特與 poog.com.tw／Naticol 台灣站都列出 Naticol 膠原蛋白胜肽並放台中聯絡資料。沒有在供應商英文官網找到「exclusive agent」互指句，故以經銷／目錄關係填 taiwan_distributor。"
+  },
+  "tfda": {
+    "usable": "listed_food_ingredient",
+    "evidenceNotes": "食品原料查到膠原蛋白（Collagen）兩筆：海、水產動物傳統供食用部位，以及禽畜傳統供食用部位；皆非未確認安全性。商品名 Naticol／UltraPeptide 0 筆。添加物分頁膠原相關 0 筆。列名不等於供應商 0.5–1 克／日建議可用。",
+    "lookupDate": "2026-11-06",
+    "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+    "queries": [
+      {
+        "tab": "ingredient",
+        "keyword": "膠原蛋白",
+        "category": "海水產類、爬蟲類或其他動物及其來源製取之原料",
+        "resultCount": 1,
+        "matchedName": "膠原蛋白",
+        "restrictionNote": "部位：由海、水產動物之傳統供食用部位製取。備註空白。",
+        "unconfirmedSafety": false,
+        "note": "外文 Collagen。另有禽畜來源一筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "collagen",
+        "category": "",
+        "resultCount": 2,
+        "matchedName": "膠原蛋白（海產）；膠原蛋白（禽畜）",
+        "restrictionNote": "兩筆都是可供食品使用之原料，不是未確認安全性。",
+        "unconfirmedSafety": false,
+        "note": "與中文查詢一致。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Naticol",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名沒有另列。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "collagen",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "添加物分頁 0 筆。"
+      },
+      {
+        "tab": "history",
+        "keyword": "膠原",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "未另見此關鍵字的新增列為未確認安全性。"
+      }
+    ],
+    "officialCrosscheck": {
+      "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+      "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+      "done": true,
+      "notes": "2026-11-06 依查詢助手公開 data.json 確認膠原蛋白列名；官方頁未另開線上核對。"
+    }
+  },
+  "efficacy": {
+    "claimedBenefits": [
+      "NutraIngredients 2026-05-22 稿：Weishardt 在 Vitafoods 2026 推出 Naticol UltraPeptide，平均分子量約 500 Da，二／三胜肽約 45%，並寫低劑量吸收與皮膚外觀相關的消費者研究摘要。這是產業新聞轉述供應商說法。",
+      "同一稿引述 Weishardt：最適活性約 1 g／日，結果可自 0.5 g／日起；另有 100 名女性每日 0.5 g、八週的消費者研究說法。本次沒有打開該研究全文。"
+    ],
+    "suggestedDosage": "NutraIngredients 引述 Weishardt：1 g／日為最適活性，結果可自 0.5 g／日起。",
+    "dosageNote": "供應商透過產業稿公布的建議，不是台灣法規上限。"
+  },
+  "patent": {
+    "status": "unknown",
+    "refs": [],
+    "note": "台灣 Naticol 站提到多國效力專利，但本次沒有打開專利號頁，維持 unknown。"
+  },
+  "literature": {
+    "status": "unknown",
+    "refs": [],
+    "note": "產業稿提到低分子量膠原綜述與消費者研究，本次沒有打開論文，不標 clinical。"
+  },
+  "evidenceLevels": [],
+  "images": [
+    {
+      "url": "https://healthtake.com.tw/wp-content/uploads/2025/07/naticol-x3-peptide.webp",
+      "localPath": "",
+      "caption": "和司特 Naticol 膠原蛋白三胜肽產品頁圖片。",
+      "source": "other"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Weishardt launches ultra-low molecular weight collagen for enhanced absorption",
+      "url": "https://www.nutraingredients.com/Article/2026/05/22/weishardt-launches-ultra-low-molecular-weight-collagen-for-enhanced-absorption/",
+      "publisher": "NutraIngredients",
+      "channel": "exhibition",
+      "accessed": "2026-11-06",
+      "whatItContributes": "Vitafoods 2026 發表 Naticol UltraPeptide、約 500 Da、0.5–1 g／日說法。"
+    },
+    {
+      "title": "Naticol official site",
+      "url": "https://www.naticol.com/",
+      "publisher": "Weishardt / Naticol",
+      "channel": "supplier_site",
+      "accessed": "2026-11-06",
+      "whatItContributes": "確認 Naticol 為法國 Weishardt 海洋膠原蛋白胜肽品牌。"
+    },
+    {
+      "title": "和司特：膠原蛋白三胜肽 Naticol",
+      "url": "https://healthtake.com.tw/catalog/skin-beauty/collagen-tripeptide/",
+      "publisher": "和司特股份有限公司",
+      "channel": "other",
+      "accessed": "2026-11-06",
+      "whatItContributes": "台灣目錄列出法國 Weishardt／Naticol，並附台中聯絡資料與圖片。"
+    },
+    {
+      "title": "Naticol® – Naticol 台灣站",
+      "url": "https://poog.com.tw/naticol/",
+      "publisher": "和司特／Naticol 台灣站",
+      "channel": "other",
+      "accessed": "2026-11-06",
+      "whatItContributes": "台灣站再次指向和司特為聯絡窗口。"
+    }
+  ],
+  "discovery": {
+    "channel": "exhibition",
+    "scoutDate": "2026-11-06",
+    "notes": "從 NutraIngredients 對 Vitafoods 2026 發表稿開始，對 Naticol 官網，再對和司特與台灣 Naticol 站確認通路。"
+  }
+}

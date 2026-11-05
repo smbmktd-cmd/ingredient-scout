@@ -7,6 +7,803 @@ window.INGREDIENT_CATALOG = {
         "exhibition",
         "industry_report"
       ],
+      "date": "2026-11-06",
+      "example": false,
+      "notes": "正式五筆。未放入 TFDA 明確未確認安全性項目（已排除 PQQ、含總序天冬／shatavari 的 Fenavari）。Magtein 助手未列該鎂鹽型態（not_found）。Naticol UltraPeptide 與 Nextida GC 依膠原蛋白列名。AstaReal 依紅藻學名含 Haematococcus pluvialis；發酵蝦紅素 2 mg 規格是另一製程。KSM-66 依南非醉茄萃取物列名，每日 250 mg 上限。",
+      "picks": [
+        {
+          "discovery": {
+            "channel": "news",
+            "notes": "從 Vitafoods／All4Nutra 與 Prezly 新聞進入，打開 Frontiers RCT，再對 Magtein／ThreoTech 官網。台灣代理公開頁查無。",
+            "scoutDate": "2026-11-06"
+          },
+          "efficacy": {
+            "claimedBenefits": [
+              "Frontiers 2026 年初刊出的 RCT（Lopresti & Smith）：健康成人每日 2 g Magtein、六週，相對安慰劑改善 NIH Total Cognition Composite 等認知指標。這是已打開的論文結果摘要，不是台灣核准功效。",
+              "Magtein 官網另寫睡眠品質與腦健康等結構／功能說法；All4Nutra／Prezly 展會稿轉述 Vitafoods Europe 2026 發表同一臨床。"
+            ],
+            "dosageNote": "研究／官網劑量，不是台灣法規上限。助手未列此鎂鹽型態。",
+            "suggestedDosage": "Magtein 官網 FAQ：每日 1–2 g；上述 RCT 使用每日 2 g（約含元素鎂 144–145 mg）。"
+          },
+          "evidenceLevels": [
+            "clinical"
+          ],
+          "example": false,
+          "id": "magtein",
+          "images": [
+            {
+              "caption": "Magtein 官網分享圖。",
+              "localPath": "",
+              "source": "official_site",
+              "url": "https://magtein.com/wp-content/uploads/2026/09/magtein-social-share-1200x630-1.png"
+            }
+          ],
+          "literature": {
+            "note": "已打開 Frontiers 全文；官網其他引用未逐篇打開。",
+            "refs": [
+              {
+                "note": "Lopresti AL, Smith SJ. Front Nutr. 2025;12:1729164. 6 週 RCT n=100，每日 2 g。",
+                "title": "Effects of magnesium L-threonate (Magtein®) on cognitive performance and sleep quality",
+                "url": "https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1729164/full"
+              }
+            ],
+            "status": "yes"
+          },
+          "names": {
+            "commonEn": "magnesium L-threonate",
+            "commonZh": "鎂 L-蘇糖酸鹽",
+            "scientific": "不適用：鎂 L-蘇糖酸鹽是化合物。助手沒有另列 Magtein 或 magnesium L-threonate 學名。",
+            "trade": "Magtein（ThreoTech 的鎂 L-蘇糖酸鹽商品名）"
+          },
+          "patent": {
+            "note": "官網自稱 patented form，但本次沒有打開專利號頁，維持 unknown。",
+            "refs": [],
+            "status": "unknown"
+          },
+          "sources": [
+            {
+              "accessed": "2026-11-06",
+              "channel": "news",
+              "publisher": "Magtein / Prezly",
+              "title": "Threotech to present latest clinical data on Magtein® at Vitafoods Europe",
+              "url": "https://magtein.prezly.com/threotech-to-present-latest-clinical-data-on-magteinr-at-vitafoods-europe",
+              "whatItContributes": "Vitafoods Europe 2026 臨床發表預告；ThreoTech 獨家供應說法。"
+            },
+            {
+              "accessed": "2026-11-06",
+              "channel": "news",
+              "publisher": "All4Nutra",
+              "title": "Vitafoods Europe 2026 Recap: Magtein clinical data at the show",
+              "url": "https://www.all4nutra.com/news/vitafoods-2026-recap-5473/",
+              "whatItContributes": "2026-05 Vitafoods Europe 展後稿：ThreoTech 發表 Magtein 新臨床摘要與 EU novel food 排他期說法。"
+            },
+            {
+              "accessed": "2026-11-06",
+              "channel": "supplier_site",
+              "publisher": "Magtein / ThreoTech",
+              "title": "Magtein® Magnesium L-Threonate",
+              "url": "https://magtein.com/",
+              "whatItContributes": "商品名、1–2 克／日研究劑量、元素鎂毫克數、GRAS／EU／UK 說法與圖片。"
+            },
+            {
+              "accessed": "2026-11-06",
+              "channel": "supplier_site",
+              "publisher": "ThreoTech",
+              "title": "MAGTEIN - Threotech",
+              "url": "https://threotech.com/magtein/",
+              "whatItContributes": "供應商頁確認 Magtein 為 magnesium L-threonate 品牌原料。"
+            },
+            {
+              "accessed": "2026-11-06",
+              "channel": "paper",
+              "publisher": "Frontiers in Nutrition",
+              "title": "Effects of magnesium L-threonate (Magtein®) on cognitive performance and sleep quality",
+              "url": "https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1729164/full",
+              "whatItContributes": "已打開的 RCT 全文：劑量與認知主要指標。"
+            }
+          ],
+          "supply": {
+            "relationship": "unknown",
+            "relationshipNote": "Magtein 與 ThreoTech 官網寫原料由 ThreoTech 供應，並寫 EU／UK Novel Food 排他期給 ThreoTech 及其授權方。搜尋呈定、統園、創百、和司特、惠民等台灣原料目錄，沒有找到把 Magtein 寫成代理或經銷的公開頁，故台灣關聯廠商填查無。",
+            "supplierCountry": "美國",
+            "supplierName": "ThreoTech LLC",
+            "taiwanPartyName": "查無"
+          },
+          "tfda": {
+            "evidenceNotes": "食品原料以 Magtein、鎂 L-蘇糖酸鹽、magnesium L-threonate、蘇糖酸鎂查皆 0 筆。添加物有多種鎂鹽與 2,3,4-三羥基丁酸鈣（Calcium L-Threonate），但沒有鎂 L-蘇糖酸鹽。不是「未確認安全性」分類。not_found 只表示這次沒查到此型態，不是准用也不是禁用。",
+            "lookupDate": "2026-11-06",
+            "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+            "officialCrosscheck": {
+              "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+              "done": false,
+              "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+              "notes": "2026-11-06 依查詢助手公開 data.json（fetched 2026-11-05）核對；官方原料／添加物頁未另開。"
+            },
+            "queries": [
+              {
+                "category": "",
+                "keyword": "Magtein",
+                "matchedName": "",
+                "note": "商品名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "magnesium L-threonate",
+                "matchedName": "",
+                "note": "外文型態名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "蘇糖酸鎂",
+                "matchedName": "",
+                "note": "中文近似名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "微生物及其來源製取之原料",
+                "keyword": "鎂",
+                "matchedName": "鎂酵母",
+                "note": "是鎂酵母，不是 Magtein。",
+                "restrictionNote": "鎂之每日最高攝食量不得超過 600 mg。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "(八) 營養添加劑",
+                "keyword": "Magnesium",
+                "matchedName": "氧化鎂等多種鎂鹽；另有 2,3,4-三羥基丁酸鈣（Calcium L-Threonate）",
+                "note": "有鎂鹽與鈣的 L-蘇糖酸鹽，沒有鎂 L-蘇糖酸鹽。",
+                "restrictionNote": "多數鎂營養添加劑每日鎂總量一般食品不得高於 600 mg。沒有 Magnesium L-Threonate 品名。",
+                "resultCount": 10,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "threonate",
+                "matchedName": "",
+                "note": "助手更新歷程關鍵字未另見 Magtein／鎂 L-蘇糖酸鹽新增。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "history",
+                "unconfirmedSafety": false
+              }
+            ],
+            "usable": "not_found"
+          }
+        },
+        {
+          "discovery": {
+            "channel": "exhibition",
+            "notes": "從 NutraIngredients 對 Vitafoods 2026 發表稿開始，對 Naticol 官網，再對和司特與台灣 Naticol 站確認通路。",
+            "scoutDate": "2026-11-06"
+          },
+          "efficacy": {
+            "claimedBenefits": [
+              "NutraIngredients 2026-05-22 稿：Weishardt 在 Vitafoods 2026 推出 Naticol UltraPeptide，平均分子量約 500 Da，二／三胜肽約 45%，並寫低劑量吸收與皮膚外觀相關的消費者研究摘要。這是產業新聞轉述供應商說法。",
+              "同一稿引述 Weishardt：最適活性約 1 g／日，結果可自 0.5 g／日起；另有 100 名女性每日 0.5 g、八週的消費者研究說法。本次沒有打開該研究全文。"
+            ],
+            "dosageNote": "供應商透過產業稿公布的建議，不是台灣法規上限。",
+            "suggestedDosage": "NutraIngredients 引述 Weishardt：1 g／日為最適活性，結果可自 0.5 g／日起。"
+          },
+          "evidenceLevels": [],
+          "example": false,
+          "id": "naticol-ultrapeptide",
+          "images": [
+            {
+              "caption": "和司特 Naticol 膠原蛋白三胜肽產品頁圖片。",
+              "localPath": "",
+              "source": "other",
+              "url": "https://healthtake.com.tw/wp-content/uploads/2025/07/naticol-x3-peptide.webp"
+            }
+          ],
+          "literature": {
+            "note": "產業稿提到低分子量膠原綜述與消費者研究，本次沒有打開論文，不標 clinical。",
+            "refs": [],
+            "status": "unknown"
+          },
+          "names": {
+            "commonEn": "ultra-low molecular weight marine collagen peptides",
+            "commonZh": "超低分子量海洋膠原蛋白胜肽",
+            "scientific": "不適用：水解膠原蛋白胜肽是加工蛋白，不是單一物種學名。來源寫魚皮／海洋動物傳統供食用部位。",
+            "trade": "Naticol UltraPeptide（Weishardt 的海洋膠原蛋白胜肽商品名）"
+          },
+          "patent": {
+            "note": "台灣 Naticol 站提到多國效力專利，但本次沒有打開專利號頁，維持 unknown。",
+            "refs": [],
+            "status": "unknown"
+          },
+          "sources": [
+            {
+              "accessed": "2026-11-06",
+              "channel": "exhibition",
+              "publisher": "NutraIngredients",
+              "title": "Weishardt launches ultra-low molecular weight collagen for enhanced absorption",
+              "url": "https://www.nutraingredients.com/Article/2026/05/22/weishardt-launches-ultra-low-molecular-weight-collagen-for-enhanced-absorption/",
+              "whatItContributes": "Vitafoods 2026 發表 Naticol UltraPeptide、約 500 Da、0.5–1 g／日說法。"
+            },
+            {
+              "accessed": "2026-11-06",
+              "channel": "supplier_site",
+              "publisher": "Weishardt / Naticol",
+              "title": "Naticol official site",
+              "url": "https://www.naticol.com/",
+              "whatItContributes": "確認 Naticol 為法國 Weishardt 海洋膠原蛋白胜肽品牌。"
+            },
+            {
+              "accessed": "2026-11-06",
+              "channel": "other",
+              "publisher": "和司特股份有限公司",
+              "title": "和司特：膠原蛋白三胜肽 Naticol",
+              "url": "https://healthtake.com.tw/catalog/skin-beauty/collagen-tripeptide/",
+              "whatItContributes": "台灣目錄列出法國 Weishardt／Naticol，並附台中聯絡資料與圖片。"
+            },
+            {
+              "accessed": "2026-11-06",
+              "channel": "other",
+              "publisher": "和司特／Naticol 台灣站",
+              "title": "Naticol® – Naticol 台灣站",
+              "url": "https://poog.com.tw/naticol/",
+              "whatItContributes": "台灣站再次指向和司特為聯絡窗口。"
+            }
+          ],
+          "supply": {
+            "relationship": "taiwan_distributor",
+            "relationshipNote": "Weishardt LinkedIn 寫 Healthtake（和司特）是台灣 marine collagen distributor。和司特與 poog.com.tw／Naticol 台灣站都列出 Naticol 膠原蛋白胜肽並放台中聯絡資料。沒有在供應商英文官網找到「exclusive agent」互指句，故以經銷／目錄關係填 taiwan_distributor。",
+            "supplierCountry": "法國",
+            "supplierName": "Weishardt International",
+            "taiwanPartyName": "和司特股份有限公司"
+          },
+          "tfda": {
+            "evidenceNotes": "食品原料查到膠原蛋白（Collagen）兩筆：海、水產動物傳統供食用部位，以及禽畜傳統供食用部位；皆非未確認安全性。商品名 Naticol／UltraPeptide 0 筆。添加物分頁膠原相關 0 筆。列名不等於供應商 0.5–1 克／日建議可用。",
+            "lookupDate": "2026-11-06",
+            "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+            "officialCrosscheck": {
+              "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+              "done": true,
+              "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+              "notes": "2026-11-06 依查詢助手公開 data.json 確認膠原蛋白列名；官方頁未另開線上核對。"
+            },
+            "queries": [
+              {
+                "category": "海水產類、爬蟲類或其他動物及其來源製取之原料",
+                "keyword": "膠原蛋白",
+                "matchedName": "膠原蛋白",
+                "note": "外文 Collagen。另有禽畜來源一筆。",
+                "restrictionNote": "部位：由海、水產動物之傳統供食用部位製取。備註空白。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "collagen",
+                "matchedName": "膠原蛋白（海產）；膠原蛋白（禽畜）",
+                "note": "與中文查詢一致。",
+                "restrictionNote": "兩筆都是可供食品使用之原料，不是未確認安全性。",
+                "resultCount": 2,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Naticol",
+                "matchedName": "",
+                "note": "商品名沒有另列。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "collagen",
+                "matchedName": "",
+                "note": "添加物分頁 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "膠原",
+                "matchedName": "",
+                "note": "未另見此關鍵字的新增列為未確認安全性。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "history",
+                "unconfirmedSafety": false
+              }
+            ],
+            "usable": "listed_food_ingredient"
+          }
+        },
+        {
+          "discovery": {
+            "channel": "news",
+            "notes": "從 NutritionInsight SupplySide Global 2026 專訪進入，對 AstaReal 官網劑量頁，再對惠民產品頁與 AstaReal 獨家代理活動頁。",
+            "scoutDate": "2026-11-06"
+          },
+          "efficacy": {
+            "claimedBenefits": [
+              "NutritionInsight 2026-10-19 SupplySide Global 2026 專訪：AstaReal 強調運動營養、健康老化、認知、眼睛與美容等應用，並提到粒線體能量相關路徑的研究說法。這是展會新聞轉述。",
+              "AstaReal 官網 About 頁寫：安全性研究涵蓋 2–45 mg／日；眼睛、肌耐力、心血管、皮膚與認知等臨床常用有效劑量約 4–12 mg／日，並提醒查當地法規。這是供應商整理，本次沒有打開其所引論文。"
+            ],
+            "dosageNote": "供應商官網整理的研究劑量區間。台灣助手對雨生紅球藻藻體沒有另寫毫克上限；基因改造發酵蝦紅素那筆的 2 mg 上限不能直接套用到本品。",
+            "suggestedDosage": "AstaReal 官網：臨床常用有效劑量約每日 4–12 mg 蝦紅素；並寫安全性研究曾做到 2–45 mg／日。"
+          },
+          "evidenceLevels": [],
+          "example": false,
+          "id": "astareal",
+          "images": [
+            {
+              "caption": "AstaReal 官網 bulk oil 產品圖。",
+              "localPath": "",
+              "source": "official_site",
+              "url": "https://astareal.com/wp-content/uploads/en_products_bulk_01Oil.jpg"
+            }
+          ],
+          "literature": {
+            "note": "官網自稱 70+／85+ 人體研究，本次沒有打開單篇論文，不標 clinical。",
+            "refs": [],
+            "status": "unknown"
+          },
+          "names": {
+            "commonEn": "astaxanthin (from Haematococcus pluvialis)",
+            "commonZh": "蝦紅素（雨生紅球藻來源）",
+            "scientific": "Haematococcus pluvialis",
+            "trade": "AstaReal（Fuji Chemical 集團的天然蝦紅素商品名）"
+          },
+          "patent": {
+            "note": "依 AstaReal USA 專利表；未逐件打開 USPTO 全文。",
+            "refs": [
+              {
+                "note": "列有 US 6348347、US 10828269、US 10894022、US 11116732 等。",
+                "title": "AstaReal USA Patents page",
+                "url": "https://astarealusa.com/patents/"
+              }
+            ],
+            "status": "yes"
+          },
+          "sources": [
+            {
+              "accessed": "2026-11-06",
+              "channel": "news",
+              "publisher": "NutritionInsight",
+              "title": "SupplySide Global 2026: AstaReal targets longevity and active nutrition with astaxanthin",
+              "url": "https://www.nutritioninsight.com/news/astareal-astaxanthin-longevity-active-nutrition-supplyside.html",
+              "whatItContributes": "2026-10 SupplySide Global 展前記／專訪：應用方向與劑型策略。"
+            },
+            {
+              "accessed": "2026-11-06",
+              "channel": "supplier_site",
+              "publisher": "AstaReal",
+              "title": "What is Astaxanthin | AstaReal",
+              "url": "https://astareal.com/about/astaxanthin/",
+              "whatItContributes": "來源 Haematococcus pluvialis、4–12 mg／日研究劑量說法。"
+            },
+            {
+              "accessed": "2026-11-06",
+              "channel": "other",
+              "publisher": "惠民製藥",
+              "title": "惠民製藥 AstaReal 藻紅素、蝦紅素",
+              "url": "https://www.weimingpharma.com.tw/%E5%8E%9F%E6%96%99%E5%93%81%E7%89%8C/fuji-chemical-%E5%AF%8C%E5%A3%AB%E5%8C%96%E5%AD%B8%E9%A3%9F%E5%93%81%E5%8E%9F%E6%96%99/astareal-%C2%AE-%E8%97%BB%E7%B4%85%E7%B4%A0%E3%80%81%E8%9D%A6%E7%B4%85%E7%B4%A0.html",
+              "whatItContributes": "台灣目錄列出多種 AstaReal 規格與富士化學品牌。"
+            },
+            {
+              "accessed": "2026-11-06",
+              "channel": "other",
+              "publisher": "AstaReal",
+              "title": "Wei Ming Pharmaceutical Taiwan, AstaReal raw material exclusive distributor",
+              "url": "https://astareal.com/event/wei-ming-pharmaceutical-astareal-raw-material-exclusive-distributor-at-bioasia-taiwan-2022/",
+              "whatItContributes": "AstaReal 寫惠民為台灣原料 exclusive distributor。"
+            },
+            {
+              "accessed": "2026-11-06",
+              "channel": "supplier_site",
+              "publisher": "AstaReal USA",
+              "title": "Patents – AstaReal USA",
+              "url": "https://astarealusa.com/patents/",
+              "whatItContributes": "公開專利號列表。"
+            },
+            {
+              "accessed": "2026-11-06",
+              "channel": "exhibition",
+              "publisher": "AstaReal USA",
+              "title": "Ready to Put Some Science into Motion? (SupplySide)",
+              "url": "https://astarealusa.com/ready-to-put-some-science-in-motion/",
+              "whatItContributes": "SupplySide Global 攤位與劑型展示。"
+            }
+          ],
+          "supply": {
+            "relationship": "taiwan_agent",
+            "relationshipNote": "AstaReal 活動頁寫 Wei Ming Pharmaceutical（惠民製藥）為台灣 raw material exclusive distributor。惠民產品頁列出多種 AstaReal 規格並附台北聯絡資料。雙方說法一致，故填 taiwan_agent。",
+            "supplierCountry": "日本／瑞典（AstaReal 集團）",
+            "supplierName": "AstaReal / Fuji Chemical Industries",
+            "taiwanPartyName": "惠民製藥股份有限公司"
+          },
+          "tfda": {
+            "evidenceNotes": "食品原料「紅藻」學名欄含 Haematococcus pluvialis，部位藻體，可供食品使用，不是未確認安全性。另有一筆「蝦紅素」限基因改造大腸桿菌 Ast12 發酵製程，每日以蝦紅素計 2 mg，並有警語；那是另一條製程，不能直接套成 AstaReal 雨生紅球藻產品已符合該規格。商品名 AstaReal 0 筆。",
+            "lookupDate": "2026-11-06",
+            "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+            "officialCrosscheck": {
+              "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+              "done": true,
+              "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+              "notes": "2026-11-06 依查詢助手公開 data.json 確認紅藻與發酵蝦紅素兩筆；官方頁未另開。"
+            },
+            "queries": [
+              {
+                "category": "藻類及其來源製取之原料",
+                "keyword": "Haematococcus",
+                "matchedName": "紅藻",
+                "note": "id 對應助手詳細頁紅藻。",
+                "restrictionNote": "學名欄含 Haematococcus pluvialis；部位藻體；備註空白。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "微生物及其來源製取之原料",
+                "keyword": "Astaxanthin",
+                "matchedName": "蝦紅素",
+                "note": "製程與 AstaReal 雨生紅球藻來源不同，不可直接等同。",
+                "restrictionNote": "限基因改造大腸桿菌 Ast12 發酵製程與規格；每日以蝦紅素計 2 mg；須標示基因改造微生物生產相關字樣與特定族群警語。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "AstaReal",
+                "matchedName": "",
+                "note": "商品名沒有另列。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "蝦青素",
+                "matchedName": "",
+                "note": "中文「蝦青素」0 筆；列名用「蝦紅素」。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "astaxanthin",
+                "matchedName": "",
+                "note": "添加物分頁 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Haematococcus",
+                "matchedName": "",
+                "note": "未見改列為未確認安全性。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "history",
+                "unconfirmedSafety": false
+              }
+            ],
+            "usable": "listed_food_ingredient"
+          }
+        },
+        {
+          "discovery": {
+            "channel": "industry_report",
+            "notes": "從 Darling Ingredients 公司產業稿進入 Nextida GC，再對 Rousselot 產品頁與兩頁簡報；Vitafoods 2026 展後稿作交叉。台灣代理公開頁查無。",
+            "scoutDate": "2026-11-06"
+          },
+          "efficacy": {
+            "claimedBenefits": [
+              "Darling Ingredients 產業稿：Nextida GC 在 16 名健康受試者的概念性臨床中，餐前口服 5 g 或 10 g，餐後血糖峰值平均約降 42%（稿內另拆 5 g 約 43%、10 g 約 40%）。這是公司新聞稿數字。",
+              "Rousselot Nextida GC 產品頁與兩頁簡報：10 g 餐前 30 分鐘在健康族群可見 GLP-1 上升；前糖尿病亞組在 5 g 與 10 g 皆有統計顯著結果說法。本次沒有打開 Food Sci Nutr 2024 全文，只讀公司頁與 PDF 摘要。"
+            ],
+            "dosageNote": "研究／供應商建議劑量，不是台灣法規上限。",
+            "suggestedDosage": "公司稿與產品頁：餐前約 30 分鐘口服 5 g 或 10 g。"
+          },
+          "evidenceLevels": [],
+          "example": false,
+          "id": "nextida-gc",
+          "images": [
+            {
+              "caption": "Nextida GC／Rousselot 產品頁使用的官方圖片。",
+              "localPath": "",
+              "source": "official_site",
+              "url": "https://darl-p-001.sitecorecontenthub.cloud/api/public/content/21c6cb4d188340cdae079da9280b23bd?v=a42a3168"
+            }
+          ],
+          "literature": {
+            "note": "產品頁引用 Grasset 等 Food Sci Nutr. 2024;12(11):9607-9620 與 Clinical Nutrition ESPEN 摘要。本次沒有打開論文頁，不標 clinical。",
+            "refs": [],
+            "status": "unknown"
+          },
+          "names": {
+            "commonEn": "specific collagen peptide composition for post-meal glucose",
+            "commonZh": "特定組成膠原蛋白胜肽（餐後血糖取向）",
+            "scientific": "不適用：膠原蛋白胜肽是水解蛋白組成，不是單一物種學名。官網寫為 collagen peptides。",
+            "trade": "Nextida GC（Rousselot／Darling Ingredients 的膠原蛋白胜肽商品名）"
+          },
+          "patent": {
+            "note": "Darling 稿寫 patents pending，沒有專利號，維持 unknown。",
+            "refs": [],
+            "status": "unknown"
+          },
+          "sources": [
+            {
+              "accessed": "2026-11-06",
+              "channel": "industry_report",
+              "publisher": "Darling Ingredients",
+              "title": "Darling Ingredients Introduces Nextida™ GC",
+              "url": "https://www.darlingii.com/media/news/20241007-darling-ingredients-introduces-nextida-gc",
+              "whatItContributes": "公司產業稿：5 g／10 g 劑量與約 42% 餐後血糖峰值降幅說法。"
+            },
+            {
+              "accessed": "2026-11-06",
+              "channel": "supplier_site",
+              "publisher": "Rousselot",
+              "title": "Nextida GC product page",
+              "url": "https://nextida.rousselot.com/nextida-gc",
+              "whatItContributes": "產品定位、GLP-1 說法與文獻出處。"
+            },
+            {
+              "accessed": "2026-11-06",
+              "channel": "supplier_site",
+              "publisher": "Rousselot",
+              "title": "Nextida GC 2-pager",
+              "url": "https://nextida.rousselot.com/hubfs/HN/25-ROU-0051_Nextida-GC_2-pager-FW_Bleed-noCrops.pdf?hsLang=en",
+              "whatItContributes": "兩頁簡報重述 5–10 g 與健康／前糖尿病亞組說法。"
+            },
+            {
+              "accessed": "2026-11-06",
+              "channel": "news",
+              "publisher": "All4Nutra",
+              "title": "Vitafoods Europe 2026 Recap mentioning Nextida GC",
+              "url": "https://www.all4nutra.com/news/vitafoods-2026-recap-5473/",
+              "whatItContributes": "展會整理再次提到 Rousselot Nextida GC 與血糖／GLP-1 定位。"
+            }
+          ],
+          "supply": {
+            "relationship": "unknown",
+            "relationshipNote": "Darling／Rousselot／Nextida 官網與兩頁產品資料沒有指名台灣公司。搜尋呈定、統園、和司特、創百、惠民目錄未見 Nextida GC 代理或經銷公開頁，故填查無。",
+            "supplierCountry": "荷蘭／美國（Darling Ingredients 集團）",
+            "supplierName": "Rousselot (Darling Ingredients)",
+            "taiwanPartyName": "查無"
+          },
+          "tfda": {
+            "evidenceNotes": "食品原料查到膠原蛋白（Collagen）海產與禽畜兩筆，皆可供食品使用，不是未確認安全性。商品名 Nextida／Nextida GC 0 筆。添加物分頁 0 筆。列名不等於 5–10 克研究劑量可用。",
+            "lookupDate": "2026-11-06",
+            "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+            "officialCrosscheck": {
+              "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+              "done": true,
+              "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+              "notes": "2026-11-06 依查詢助手公開 data.json 確認膠原蛋白列名；官方頁未另開。"
+            },
+            "queries": [
+              {
+                "category": "海水產類、爬蟲類或其他動物及其來源製取之原料",
+                "keyword": "膠原蛋白",
+                "matchedName": "膠原蛋白",
+                "note": "另有禽畜來源一筆。",
+                "restrictionNote": "由海、水產動物之傳統供食用部位製取。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Nextida",
+                "matchedName": "",
+                "note": "商品名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "collagen",
+                "matchedName": "",
+                "note": "添加物分頁 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Nextida",
+                "matchedName": "",
+                "note": "更新歷程未見此商品名。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "history",
+                "unconfirmedSafety": false
+              }
+            ],
+            "usable": "listed_food_ingredient"
+          }
+        },
+        {
+          "discovery": {
+            "channel": "exhibition",
+            "notes": "從 SupplySide Global 旗艦贊助名單看到 KSM-66，再對創百台灣產品頁與 Ixoreal 品牌站。劑量以創百 250 mg／day 與 TFDA 上限對齊說明。",
+            "scoutDate": "2026-11-06"
+          },
+          "efficacy": {
+            "claimedBenefits": [
+              "創百產品頁：KSM-66 精選根部、牛奶廣譜萃取，醉茄內酯 >5%，並列出思緒、睡眠、體力、放鬆等應用方向。這是台灣經銷頁的供應商轉述。",
+              "SupplySide Global 公開贊助資料將 KSM-66 Ashwagandha 列為旗艦級贊助品牌之一，作為展會曝光來源；功效細節仍以原料商／經銷頁為準。"
+            ],
+            "dosageNote": "創百寫 250 mg／day，與台灣助手水粗萃取物乾品每日 250 mg 上限同值。國外部分 RCT 常用 300 mg 每日兩次（共 600 mg），不可直接寫成台灣可用。",
+            "suggestedDosage": "創百產品頁：250 mg／day。"
+          },
+          "evidenceLevels": [],
+          "example": false,
+          "id": "ksm-66",
+          "images": [
+            {
+              "caption": "KSM-66 原廠 What Is KSM-66 頁圖片。",
+              "localPath": "",
+              "source": "official_site",
+              "url": "https://ksm66ashwagandhaa.com/assets/images/whatis-ksm.jpg"
+            }
+          ],
+          "literature": {
+            "note": "創百寫累積人體臨床，本次沒有打開單篇論文，不標 clinical。",
+            "refs": [],
+            "status": "unknown"
+          },
+          "names": {
+            "commonEn": "ashwagandha root extract",
+            "commonZh": "南非醉茄根萃取物",
+            "scientific": "Withania somnifera",
+            "trade": "KSM-66（Ixoreal Biomed；台灣創百亦稱烯力蔘）"
+          },
+          "patent": {
+            "note": "生資等台灣頁常寫專利，但本次沒有打開專利號頁，維持 unknown。",
+            "refs": [],
+            "status": "unknown"
+          },
+          "sources": [
+            {
+              "accessed": "2026-11-06",
+              "channel": "exhibition",
+              "publisher": "SupplySide Global",
+              "title": "SupplySide Global flagship sponsor listing",
+              "url": "https://www.supplysideglobal.com/sponsor/sponsors/flagship-sponsor/",
+              "whatItContributes": "展會旗艦贊助名單可見 KSM-66 Ashwagandha 品牌曝光。"
+            },
+            {
+              "accessed": "2026-11-06",
+              "channel": "other",
+              "publisher": "創百股份有限公司",
+              "title": "創百：KSM-66® 烯力蔘® 南非醉茄萃取物",
+              "url": "https://www.chambio.com/products/ashwagandha-ksm-66/",
+              "whatItContributes": "台灣目錄、根部萃取、醉茄內酯 >5%、用量 250 mg／day。"
+            },
+            {
+              "accessed": "2026-11-06",
+              "channel": "supplier_site",
+              "publisher": "Ixoreal Biomed",
+              "title": "What Is KSM-66?",
+              "url": "https://ksm66ashwagandhaa.com/what-is-ksm66.php",
+              "whatItContributes": "原廠說明：根部全光譜高濃度萃取、不以葉子入料，並列壓力、認知、耐力等研究取向說法。"
+            },
+            {
+              "accessed": "2026-11-06",
+              "channel": "industry_report",
+              "publisher": "All4Nutra",
+              "title": "Ashwagandha and adaptogens at SupplySide Global 2026",
+              "url": "https://www.all4nutra.com/news/ashwagandha-ssd-2026-7190/",
+              "whatItContributes": "展會產業整理；提到 KSM-66 與常見臨床劑量脈絡。"
+            }
+          ],
+          "supply": {
+            "relationship": "taiwan_distributor",
+            "relationshipNote": "創百產品頁完整介紹 KSM-66／烯力蔘，並寫用量 250 mg／day、醉茄內酯 >5%。頁上沒有出現「獨家代理」字樣，故以目錄經銷關係填 taiwan_distributor。Ixoreal 英文站本次未互指創百。",
+            "supplierCountry": "印度",
+            "supplierName": "Ixoreal Biomed Private Limited",
+            "taiwanPartyName": "創百股份有限公司"
+          },
+          "tfda": {
+            "evidenceNotes": "食品原料查到南非醉茄萃取物（Ashwagandha extract，Withania somnifera，部位葉、根）1 筆，不是未確認安全性。水粗萃取物乾品每日攝食限量 250 mg 以下，且須標示嬰幼兒、孕婦、老年人及腸胃功能不佳者不宜食用。商品名 KSM-66 0 筆。添加物分頁 0 筆。創百寫的 250 mg／day 與上限同值，不代表更高臨床常用劑量可用。",
+            "lookupDate": "2026-11-06",
+            "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+            "officialCrosscheck": {
+              "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+              "done": true,
+              "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+              "notes": "2026-11-06 依查詢助手公開 data.json 確認列名與 250 mg 上限；官方頁未另開。"
+            },
+            "queries": [
+              {
+                "category": "草、木本植物類來源製取之原料",
+                "keyword": "南非醉茄",
+                "matchedName": "南非醉茄萃取物",
+                "note": "外文 Ashwagandha extract；學名 Withania somnifera；部位葉、根。",
+                "restrictionNote": "水粗萃取物之乾品每日攝食限量為 250 mg 以下，且必須加標「嬰幼兒、孕婦、老年人及腸胃功能不佳者不宜食用」之警語。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "草、木本植物類來源製取之原料",
+                "keyword": "Withania somnifera",
+                "matchedName": "南非醉茄萃取物",
+                "note": "與中文名同一筆。",
+                "restrictionNote": "同上。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "KSM-66",
+                "matchedName": "",
+                "note": "商品名沒有另列。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "ashwagandha",
+                "matchedName": "",
+                "note": "添加物分頁 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "南非醉茄",
+                "matchedName": "",
+                "note": "未改列未確認安全性。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "history",
+                "unconfirmedSafety": false
+              }
+            ],
+            "usable": "listed_food_ingredient"
+          }
+        }
+      ],
+      "targetCount": 5,
+      "title": "2026-11-06 正式日報"
+    },
+    {
+      "channelsCovered": [
+        "news",
+        "exhibition",
+        "industry_report"
+      ],
       "date": "2026-11-05",
       "example": false,
       "notes": "正式五筆。沒有放入助手列為未確認安全性、尚不得作為食品原料的項目，也沒有放尿石素 A。野櫻莓果實可供直接食用。肌酸有列名但要標警語。羥基酪醇果渣萃取物有含量與每日 20 毫克上限。維生素 K2 是營養添加劑。γ-胺基丁酸有列名，每日以 GABA 計 100 毫克，且生產菌有限制。列名不等於建議劑量可用，也不是健康食品許可。",
@@ -1073,6 +1870,185 @@ window.INGREDIENT_CATALOG = {
     },
     {
       "discovery": {
+        "channel": "news",
+        "notes": "從 NutritionInsight SupplySide Global 2026 專訪進入，對 AstaReal 官網劑量頁，再對惠民產品頁與 AstaReal 獨家代理活動頁。",
+        "scoutDate": "2026-11-06"
+      },
+      "efficacy": {
+        "claimedBenefits": [
+          "NutritionInsight 2026-10-19 SupplySide Global 2026 專訪：AstaReal 強調運動營養、健康老化、認知、眼睛與美容等應用，並提到粒線體能量相關路徑的研究說法。這是展會新聞轉述。",
+          "AstaReal 官網 About 頁寫：安全性研究涵蓋 2–45 mg／日；眼睛、肌耐力、心血管、皮膚與認知等臨床常用有效劑量約 4–12 mg／日，並提醒查當地法規。這是供應商整理，本次沒有打開其所引論文。"
+        ],
+        "dosageNote": "供應商官網整理的研究劑量區間。台灣助手對雨生紅球藻藻體沒有另寫毫克上限；基因改造發酵蝦紅素那筆的 2 mg 上限不能直接套用到本品。",
+        "suggestedDosage": "AstaReal 官網：臨床常用有效劑量約每日 4–12 mg 蝦紅素；並寫安全性研究曾做到 2–45 mg／日。"
+      },
+      "evidenceLevels": [],
+      "example": false,
+      "id": "astareal",
+      "images": [
+        {
+          "caption": "AstaReal 官網 bulk oil 產品圖。",
+          "localPath": "",
+          "source": "official_site",
+          "url": "https://astareal.com/wp-content/uploads/en_products_bulk_01Oil.jpg"
+        }
+      ],
+      "literature": {
+        "note": "官網自稱 70+／85+ 人體研究，本次沒有打開單篇論文，不標 clinical。",
+        "refs": [],
+        "status": "unknown"
+      },
+      "names": {
+        "commonEn": "astaxanthin (from Haematococcus pluvialis)",
+        "commonZh": "蝦紅素（雨生紅球藻來源）",
+        "scientific": "Haematococcus pluvialis",
+        "trade": "AstaReal（Fuji Chemical 集團的天然蝦紅素商品名）"
+      },
+      "patent": {
+        "note": "依 AstaReal USA 專利表；未逐件打開 USPTO 全文。",
+        "refs": [
+          {
+            "note": "列有 US 6348347、US 10828269、US 10894022、US 11116732 等。",
+            "title": "AstaReal USA Patents page",
+            "url": "https://astarealusa.com/patents/"
+          }
+        ],
+        "status": "yes"
+      },
+      "sources": [
+        {
+          "accessed": "2026-11-06",
+          "channel": "news",
+          "publisher": "NutritionInsight",
+          "title": "SupplySide Global 2026: AstaReal targets longevity and active nutrition with astaxanthin",
+          "url": "https://www.nutritioninsight.com/news/astareal-astaxanthin-longevity-active-nutrition-supplyside.html",
+          "whatItContributes": "2026-10 SupplySide Global 展前記／專訪：應用方向與劑型策略。"
+        },
+        {
+          "accessed": "2026-11-06",
+          "channel": "supplier_site",
+          "publisher": "AstaReal",
+          "title": "What is Astaxanthin | AstaReal",
+          "url": "https://astareal.com/about/astaxanthin/",
+          "whatItContributes": "來源 Haematococcus pluvialis、4–12 mg／日研究劑量說法。"
+        },
+        {
+          "accessed": "2026-11-06",
+          "channel": "other",
+          "publisher": "惠民製藥",
+          "title": "惠民製藥 AstaReal 藻紅素、蝦紅素",
+          "url": "https://www.weimingpharma.com.tw/%E5%8E%9F%E6%96%99%E5%93%81%E7%89%8C/fuji-chemical-%E5%AF%8C%E5%A3%AB%E5%8C%96%E5%AD%B8%E9%A3%9F%E5%93%81%E5%8E%9F%E6%96%99/astareal-%C2%AE-%E8%97%BB%E7%B4%85%E7%B4%A0%E3%80%81%E8%9D%A6%E7%B4%85%E7%B4%A0.html",
+          "whatItContributes": "台灣目錄列出多種 AstaReal 規格與富士化學品牌。"
+        },
+        {
+          "accessed": "2026-11-06",
+          "channel": "other",
+          "publisher": "AstaReal",
+          "title": "Wei Ming Pharmaceutical Taiwan, AstaReal raw material exclusive distributor",
+          "url": "https://astareal.com/event/wei-ming-pharmaceutical-astareal-raw-material-exclusive-distributor-at-bioasia-taiwan-2022/",
+          "whatItContributes": "AstaReal 寫惠民為台灣原料 exclusive distributor。"
+        },
+        {
+          "accessed": "2026-11-06",
+          "channel": "supplier_site",
+          "publisher": "AstaReal USA",
+          "title": "Patents – AstaReal USA",
+          "url": "https://astarealusa.com/patents/",
+          "whatItContributes": "公開專利號列表。"
+        },
+        {
+          "accessed": "2026-11-06",
+          "channel": "exhibition",
+          "publisher": "AstaReal USA",
+          "title": "Ready to Put Some Science into Motion? (SupplySide)",
+          "url": "https://astarealusa.com/ready-to-put-some-science-in-motion/",
+          "whatItContributes": "SupplySide Global 攤位與劑型展示。"
+        }
+      ],
+      "supply": {
+        "relationship": "taiwan_agent",
+        "relationshipNote": "AstaReal 活動頁寫 Wei Ming Pharmaceutical（惠民製藥）為台灣 raw material exclusive distributor。惠民產品頁列出多種 AstaReal 規格並附台北聯絡資料。雙方說法一致，故填 taiwan_agent。",
+        "supplierCountry": "日本／瑞典（AstaReal 集團）",
+        "supplierName": "AstaReal / Fuji Chemical Industries",
+        "taiwanPartyName": "惠民製藥股份有限公司"
+      },
+      "tfda": {
+        "evidenceNotes": "食品原料「紅藻」學名欄含 Haematococcus pluvialis，部位藻體，可供食品使用，不是未確認安全性。另有一筆「蝦紅素」限基因改造大腸桿菌 Ast12 發酵製程，每日以蝦紅素計 2 mg，並有警語；那是另一條製程，不能直接套成 AstaReal 雨生紅球藻產品已符合該規格。商品名 AstaReal 0 筆。",
+        "lookupDate": "2026-11-06",
+        "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+        "officialCrosscheck": {
+          "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+          "done": true,
+          "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+          "notes": "2026-11-06 依查詢助手公開 data.json 確認紅藻與發酵蝦紅素兩筆；官方頁未另開。"
+        },
+        "queries": [
+          {
+            "category": "藻類及其來源製取之原料",
+            "keyword": "Haematococcus",
+            "matchedName": "紅藻",
+            "note": "id 對應助手詳細頁紅藻。",
+            "restrictionNote": "學名欄含 Haematococcus pluvialis；部位藻體；備註空白。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "微生物及其來源製取之原料",
+            "keyword": "Astaxanthin",
+            "matchedName": "蝦紅素",
+            "note": "製程與 AstaReal 雨生紅球藻來源不同，不可直接等同。",
+            "restrictionNote": "限基因改造大腸桿菌 Ast12 發酵製程與規格；每日以蝦紅素計 2 mg；須標示基因改造微生物生產相關字樣與特定族群警語。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "AstaReal",
+            "matchedName": "",
+            "note": "商品名沒有另列。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "蝦青素",
+            "matchedName": "",
+            "note": "中文「蝦青素」0 筆；列名用「蝦紅素」。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "astaxanthin",
+            "matchedName": "",
+            "note": "添加物分頁 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Haematococcus",
+            "matchedName": "",
+            "note": "未見改列為未確認安全性。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "history",
+            "unconfirmedSafety": false
+          }
+        ],
+        "usable": "listed_food_ingredient"
+      }
+    },
+    {
+      "discovery": {
         "channel": "industry_report",
         "notes": "從 NutraIngredients 2026-05-28 的肌酸供給報導看到 Creapure，再對 Alzchem 品牌頁、Creapure 劑量頁，以及呈定企業目錄。目錄有列出 Creapure，但沒有寫代理或經銷。",
         "scoutDate": "2026-11-05"
@@ -1402,6 +2378,610 @@ window.INGREDIENT_CATALOG = {
             "keyword": "羥基酪醇",
             "matchedName": "",
             "note": "助手更新歷程 2026-11-01 至 2026-11-05 未見此關鍵字的新增或修改。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "history",
+            "unconfirmedSafety": false
+          }
+        ],
+        "usable": "listed_food_ingredient"
+      }
+    },
+    {
+      "discovery": {
+        "channel": "exhibition",
+        "notes": "從 SupplySide Global 旗艦贊助名單看到 KSM-66，再對創百台灣產品頁與 Ixoreal 品牌站。劑量以創百 250 mg／day 與 TFDA 上限對齊說明。",
+        "scoutDate": "2026-11-06"
+      },
+      "efficacy": {
+        "claimedBenefits": [
+          "創百產品頁：KSM-66 精選根部、牛奶廣譜萃取，醉茄內酯 >5%，並列出思緒、睡眠、體力、放鬆等應用方向。這是台灣經銷頁的供應商轉述。",
+          "SupplySide Global 公開贊助資料將 KSM-66 Ashwagandha 列為旗艦級贊助品牌之一，作為展會曝光來源；功效細節仍以原料商／經銷頁為準。"
+        ],
+        "dosageNote": "創百寫 250 mg／day，與台灣助手水粗萃取物乾品每日 250 mg 上限同值。國外部分 RCT 常用 300 mg 每日兩次（共 600 mg），不可直接寫成台灣可用。",
+        "suggestedDosage": "創百產品頁：250 mg／day。"
+      },
+      "evidenceLevels": [],
+      "example": false,
+      "id": "ksm-66",
+      "images": [
+        {
+          "caption": "KSM-66 原廠 What Is KSM-66 頁圖片。",
+          "localPath": "",
+          "source": "official_site",
+          "url": "https://ksm66ashwagandhaa.com/assets/images/whatis-ksm.jpg"
+        }
+      ],
+      "literature": {
+        "note": "創百寫累積人體臨床，本次沒有打開單篇論文，不標 clinical。",
+        "refs": [],
+        "status": "unknown"
+      },
+      "names": {
+        "commonEn": "ashwagandha root extract",
+        "commonZh": "南非醉茄根萃取物",
+        "scientific": "Withania somnifera",
+        "trade": "KSM-66（Ixoreal Biomed；台灣創百亦稱烯力蔘）"
+      },
+      "patent": {
+        "note": "生資等台灣頁常寫專利，但本次沒有打開專利號頁，維持 unknown。",
+        "refs": [],
+        "status": "unknown"
+      },
+      "sources": [
+        {
+          "accessed": "2026-11-06",
+          "channel": "exhibition",
+          "publisher": "SupplySide Global",
+          "title": "SupplySide Global flagship sponsor listing",
+          "url": "https://www.supplysideglobal.com/sponsor/sponsors/flagship-sponsor/",
+          "whatItContributes": "展會旗艦贊助名單可見 KSM-66 Ashwagandha 品牌曝光。"
+        },
+        {
+          "accessed": "2026-11-06",
+          "channel": "other",
+          "publisher": "創百股份有限公司",
+          "title": "創百：KSM-66® 烯力蔘® 南非醉茄萃取物",
+          "url": "https://www.chambio.com/products/ashwagandha-ksm-66/",
+          "whatItContributes": "台灣目錄、根部萃取、醉茄內酯 >5%、用量 250 mg／day。"
+        },
+        {
+          "accessed": "2026-11-06",
+          "channel": "supplier_site",
+          "publisher": "Ixoreal Biomed",
+          "title": "What Is KSM-66?",
+          "url": "https://ksm66ashwagandhaa.com/what-is-ksm66.php",
+          "whatItContributes": "原廠說明：根部全光譜高濃度萃取、不以葉子入料，並列壓力、認知、耐力等研究取向說法。"
+        },
+        {
+          "accessed": "2026-11-06",
+          "channel": "industry_report",
+          "publisher": "All4Nutra",
+          "title": "Ashwagandha and adaptogens at SupplySide Global 2026",
+          "url": "https://www.all4nutra.com/news/ashwagandha-ssd-2026-7190/",
+          "whatItContributes": "展會產業整理；提到 KSM-66 與常見臨床劑量脈絡。"
+        }
+      ],
+      "supply": {
+        "relationship": "taiwan_distributor",
+        "relationshipNote": "創百產品頁完整介紹 KSM-66／烯力蔘，並寫用量 250 mg／day、醉茄內酯 >5%。頁上沒有出現「獨家代理」字樣，故以目錄經銷關係填 taiwan_distributor。Ixoreal 英文站本次未互指創百。",
+        "supplierCountry": "印度",
+        "supplierName": "Ixoreal Biomed Private Limited",
+        "taiwanPartyName": "創百股份有限公司"
+      },
+      "tfda": {
+        "evidenceNotes": "食品原料查到南非醉茄萃取物（Ashwagandha extract，Withania somnifera，部位葉、根）1 筆，不是未確認安全性。水粗萃取物乾品每日攝食限量 250 mg 以下，且須標示嬰幼兒、孕婦、老年人及腸胃功能不佳者不宜食用。商品名 KSM-66 0 筆。添加物分頁 0 筆。創百寫的 250 mg／day 與上限同值，不代表更高臨床常用劑量可用。",
+        "lookupDate": "2026-11-06",
+        "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+        "officialCrosscheck": {
+          "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+          "done": true,
+          "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+          "notes": "2026-11-06 依查詢助手公開 data.json 確認列名與 250 mg 上限；官方頁未另開。"
+        },
+        "queries": [
+          {
+            "category": "草、木本植物類來源製取之原料",
+            "keyword": "南非醉茄",
+            "matchedName": "南非醉茄萃取物",
+            "note": "外文 Ashwagandha extract；學名 Withania somnifera；部位葉、根。",
+            "restrictionNote": "水粗萃取物之乾品每日攝食限量為 250 mg 以下，且必須加標「嬰幼兒、孕婦、老年人及腸胃功能不佳者不宜食用」之警語。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "草、木本植物類來源製取之原料",
+            "keyword": "Withania somnifera",
+            "matchedName": "南非醉茄萃取物",
+            "note": "與中文名同一筆。",
+            "restrictionNote": "同上。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "KSM-66",
+            "matchedName": "",
+            "note": "商品名沒有另列。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "ashwagandha",
+            "matchedName": "",
+            "note": "添加物分頁 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "南非醉茄",
+            "matchedName": "",
+            "note": "未改列未確認安全性。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "history",
+            "unconfirmedSafety": false
+          }
+        ],
+        "usable": "listed_food_ingredient"
+      }
+    },
+    {
+      "discovery": {
+        "channel": "news",
+        "notes": "從 Vitafoods／All4Nutra 與 Prezly 新聞進入，打開 Frontiers RCT，再對 Magtein／ThreoTech 官網。台灣代理公開頁查無。",
+        "scoutDate": "2026-11-06"
+      },
+      "efficacy": {
+        "claimedBenefits": [
+          "Frontiers 2026 年初刊出的 RCT（Lopresti & Smith）：健康成人每日 2 g Magtein、六週，相對安慰劑改善 NIH Total Cognition Composite 等認知指標。這是已打開的論文結果摘要，不是台灣核准功效。",
+          "Magtein 官網另寫睡眠品質與腦健康等結構／功能說法；All4Nutra／Prezly 展會稿轉述 Vitafoods Europe 2026 發表同一臨床。"
+        ],
+        "dosageNote": "研究／官網劑量，不是台灣法規上限。助手未列此鎂鹽型態。",
+        "suggestedDosage": "Magtein 官網 FAQ：每日 1–2 g；上述 RCT 使用每日 2 g（約含元素鎂 144–145 mg）。"
+      },
+      "evidenceLevels": [
+        "clinical"
+      ],
+      "example": false,
+      "id": "magtein",
+      "images": [
+        {
+          "caption": "Magtein 官網分享圖。",
+          "localPath": "",
+          "source": "official_site",
+          "url": "https://magtein.com/wp-content/uploads/2026/09/magtein-social-share-1200x630-1.png"
+        }
+      ],
+      "literature": {
+        "note": "已打開 Frontiers 全文；官網其他引用未逐篇打開。",
+        "refs": [
+          {
+            "note": "Lopresti AL, Smith SJ. Front Nutr. 2025;12:1729164. 6 週 RCT n=100，每日 2 g。",
+            "title": "Effects of magnesium L-threonate (Magtein®) on cognitive performance and sleep quality",
+            "url": "https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1729164/full"
+          }
+        ],
+        "status": "yes"
+      },
+      "names": {
+        "commonEn": "magnesium L-threonate",
+        "commonZh": "鎂 L-蘇糖酸鹽",
+        "scientific": "不適用：鎂 L-蘇糖酸鹽是化合物。助手沒有另列 Magtein 或 magnesium L-threonate 學名。",
+        "trade": "Magtein（ThreoTech 的鎂 L-蘇糖酸鹽商品名）"
+      },
+      "patent": {
+        "note": "官網自稱 patented form，但本次沒有打開專利號頁，維持 unknown。",
+        "refs": [],
+        "status": "unknown"
+      },
+      "sources": [
+        {
+          "accessed": "2026-11-06",
+          "channel": "news",
+          "publisher": "Magtein / Prezly",
+          "title": "Threotech to present latest clinical data on Magtein® at Vitafoods Europe",
+          "url": "https://magtein.prezly.com/threotech-to-present-latest-clinical-data-on-magteinr-at-vitafoods-europe",
+          "whatItContributes": "Vitafoods Europe 2026 臨床發表預告；ThreoTech 獨家供應說法。"
+        },
+        {
+          "accessed": "2026-11-06",
+          "channel": "news",
+          "publisher": "All4Nutra",
+          "title": "Vitafoods Europe 2026 Recap: Magtein clinical data at the show",
+          "url": "https://www.all4nutra.com/news/vitafoods-2026-recap-5473/",
+          "whatItContributes": "2026-05 Vitafoods Europe 展後稿：ThreoTech 發表 Magtein 新臨床摘要與 EU novel food 排他期說法。"
+        },
+        {
+          "accessed": "2026-11-06",
+          "channel": "supplier_site",
+          "publisher": "Magtein / ThreoTech",
+          "title": "Magtein® Magnesium L-Threonate",
+          "url": "https://magtein.com/",
+          "whatItContributes": "商品名、1–2 克／日研究劑量、元素鎂毫克數、GRAS／EU／UK 說法與圖片。"
+        },
+        {
+          "accessed": "2026-11-06",
+          "channel": "supplier_site",
+          "publisher": "ThreoTech",
+          "title": "MAGTEIN - Threotech",
+          "url": "https://threotech.com/magtein/",
+          "whatItContributes": "供應商頁確認 Magtein 為 magnesium L-threonate 品牌原料。"
+        },
+        {
+          "accessed": "2026-11-06",
+          "channel": "paper",
+          "publisher": "Frontiers in Nutrition",
+          "title": "Effects of magnesium L-threonate (Magtein®) on cognitive performance and sleep quality",
+          "url": "https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1729164/full",
+          "whatItContributes": "已打開的 RCT 全文：劑量與認知主要指標。"
+        }
+      ],
+      "supply": {
+        "relationship": "unknown",
+        "relationshipNote": "Magtein 與 ThreoTech 官網寫原料由 ThreoTech 供應，並寫 EU／UK Novel Food 排他期給 ThreoTech 及其授權方。搜尋呈定、統園、創百、和司特、惠民等台灣原料目錄，沒有找到把 Magtein 寫成代理或經銷的公開頁，故台灣關聯廠商填查無。",
+        "supplierCountry": "美國",
+        "supplierName": "ThreoTech LLC",
+        "taiwanPartyName": "查無"
+      },
+      "tfda": {
+        "evidenceNotes": "食品原料以 Magtein、鎂 L-蘇糖酸鹽、magnesium L-threonate、蘇糖酸鎂查皆 0 筆。添加物有多種鎂鹽與 2,3,4-三羥基丁酸鈣（Calcium L-Threonate），但沒有鎂 L-蘇糖酸鹽。不是「未確認安全性」分類。not_found 只表示這次沒查到此型態，不是准用也不是禁用。",
+        "lookupDate": "2026-11-06",
+        "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+        "officialCrosscheck": {
+          "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+          "done": false,
+          "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+          "notes": "2026-11-06 依查詢助手公開 data.json（fetched 2026-11-05）核對；官方原料／添加物頁未另開。"
+        },
+        "queries": [
+          {
+            "category": "",
+            "keyword": "Magtein",
+            "matchedName": "",
+            "note": "商品名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "magnesium L-threonate",
+            "matchedName": "",
+            "note": "外文型態名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "蘇糖酸鎂",
+            "matchedName": "",
+            "note": "中文近似名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "微生物及其來源製取之原料",
+            "keyword": "鎂",
+            "matchedName": "鎂酵母",
+            "note": "是鎂酵母，不是 Magtein。",
+            "restrictionNote": "鎂之每日最高攝食量不得超過 600 mg。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "(八) 營養添加劑",
+            "keyword": "Magnesium",
+            "matchedName": "氧化鎂等多種鎂鹽；另有 2,3,4-三羥基丁酸鈣（Calcium L-Threonate）",
+            "note": "有鎂鹽與鈣的 L-蘇糖酸鹽，沒有鎂 L-蘇糖酸鹽。",
+            "restrictionNote": "多數鎂營養添加劑每日鎂總量一般食品不得高於 600 mg。沒有 Magnesium L-Threonate 品名。",
+            "resultCount": 10,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "threonate",
+            "matchedName": "",
+            "note": "助手更新歷程關鍵字未另見 Magtein／鎂 L-蘇糖酸鹽新增。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "history",
+            "unconfirmedSafety": false
+          }
+        ],
+        "usable": "not_found"
+      }
+    },
+    {
+      "discovery": {
+        "channel": "exhibition",
+        "notes": "從 NutraIngredients 對 Vitafoods 2026 發表稿開始，對 Naticol 官網，再對和司特與台灣 Naticol 站確認通路。",
+        "scoutDate": "2026-11-06"
+      },
+      "efficacy": {
+        "claimedBenefits": [
+          "NutraIngredients 2026-05-22 稿：Weishardt 在 Vitafoods 2026 推出 Naticol UltraPeptide，平均分子量約 500 Da，二／三胜肽約 45%，並寫低劑量吸收與皮膚外觀相關的消費者研究摘要。這是產業新聞轉述供應商說法。",
+          "同一稿引述 Weishardt：最適活性約 1 g／日，結果可自 0.5 g／日起；另有 100 名女性每日 0.5 g、八週的消費者研究說法。本次沒有打開該研究全文。"
+        ],
+        "dosageNote": "供應商透過產業稿公布的建議，不是台灣法規上限。",
+        "suggestedDosage": "NutraIngredients 引述 Weishardt：1 g／日為最適活性，結果可自 0.5 g／日起。"
+      },
+      "evidenceLevels": [],
+      "example": false,
+      "id": "naticol-ultrapeptide",
+      "images": [
+        {
+          "caption": "和司特 Naticol 膠原蛋白三胜肽產品頁圖片。",
+          "localPath": "",
+          "source": "other",
+          "url": "https://healthtake.com.tw/wp-content/uploads/2025/07/naticol-x3-peptide.webp"
+        }
+      ],
+      "literature": {
+        "note": "產業稿提到低分子量膠原綜述與消費者研究，本次沒有打開論文，不標 clinical。",
+        "refs": [],
+        "status": "unknown"
+      },
+      "names": {
+        "commonEn": "ultra-low molecular weight marine collagen peptides",
+        "commonZh": "超低分子量海洋膠原蛋白胜肽",
+        "scientific": "不適用：水解膠原蛋白胜肽是加工蛋白，不是單一物種學名。來源寫魚皮／海洋動物傳統供食用部位。",
+        "trade": "Naticol UltraPeptide（Weishardt 的海洋膠原蛋白胜肽商品名）"
+      },
+      "patent": {
+        "note": "台灣 Naticol 站提到多國效力專利，但本次沒有打開專利號頁，維持 unknown。",
+        "refs": [],
+        "status": "unknown"
+      },
+      "sources": [
+        {
+          "accessed": "2026-11-06",
+          "channel": "exhibition",
+          "publisher": "NutraIngredients",
+          "title": "Weishardt launches ultra-low molecular weight collagen for enhanced absorption",
+          "url": "https://www.nutraingredients.com/Article/2026/05/22/weishardt-launches-ultra-low-molecular-weight-collagen-for-enhanced-absorption/",
+          "whatItContributes": "Vitafoods 2026 發表 Naticol UltraPeptide、約 500 Da、0.5–1 g／日說法。"
+        },
+        {
+          "accessed": "2026-11-06",
+          "channel": "supplier_site",
+          "publisher": "Weishardt / Naticol",
+          "title": "Naticol official site",
+          "url": "https://www.naticol.com/",
+          "whatItContributes": "確認 Naticol 為法國 Weishardt 海洋膠原蛋白胜肽品牌。"
+        },
+        {
+          "accessed": "2026-11-06",
+          "channel": "other",
+          "publisher": "和司特股份有限公司",
+          "title": "和司特：膠原蛋白三胜肽 Naticol",
+          "url": "https://healthtake.com.tw/catalog/skin-beauty/collagen-tripeptide/",
+          "whatItContributes": "台灣目錄列出法國 Weishardt／Naticol，並附台中聯絡資料與圖片。"
+        },
+        {
+          "accessed": "2026-11-06",
+          "channel": "other",
+          "publisher": "和司特／Naticol 台灣站",
+          "title": "Naticol® – Naticol 台灣站",
+          "url": "https://poog.com.tw/naticol/",
+          "whatItContributes": "台灣站再次指向和司特為聯絡窗口。"
+        }
+      ],
+      "supply": {
+        "relationship": "taiwan_distributor",
+        "relationshipNote": "Weishardt LinkedIn 寫 Healthtake（和司特）是台灣 marine collagen distributor。和司特與 poog.com.tw／Naticol 台灣站都列出 Naticol 膠原蛋白胜肽並放台中聯絡資料。沒有在供應商英文官網找到「exclusive agent」互指句，故以經銷／目錄關係填 taiwan_distributor。",
+        "supplierCountry": "法國",
+        "supplierName": "Weishardt International",
+        "taiwanPartyName": "和司特股份有限公司"
+      },
+      "tfda": {
+        "evidenceNotes": "食品原料查到膠原蛋白（Collagen）兩筆：海、水產動物傳統供食用部位，以及禽畜傳統供食用部位；皆非未確認安全性。商品名 Naticol／UltraPeptide 0 筆。添加物分頁膠原相關 0 筆。列名不等於供應商 0.5–1 克／日建議可用。",
+        "lookupDate": "2026-11-06",
+        "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+        "officialCrosscheck": {
+          "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+          "done": true,
+          "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+          "notes": "2026-11-06 依查詢助手公開 data.json 確認膠原蛋白列名；官方頁未另開線上核對。"
+        },
+        "queries": [
+          {
+            "category": "海水產類、爬蟲類或其他動物及其來源製取之原料",
+            "keyword": "膠原蛋白",
+            "matchedName": "膠原蛋白",
+            "note": "外文 Collagen。另有禽畜來源一筆。",
+            "restrictionNote": "部位：由海、水產動物之傳統供食用部位製取。備註空白。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "collagen",
+            "matchedName": "膠原蛋白（海產）；膠原蛋白（禽畜）",
+            "note": "與中文查詢一致。",
+            "restrictionNote": "兩筆都是可供食品使用之原料，不是未確認安全性。",
+            "resultCount": 2,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Naticol",
+            "matchedName": "",
+            "note": "商品名沒有另列。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "collagen",
+            "matchedName": "",
+            "note": "添加物分頁 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "膠原",
+            "matchedName": "",
+            "note": "未另見此關鍵字的新增列為未確認安全性。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "history",
+            "unconfirmedSafety": false
+          }
+        ],
+        "usable": "listed_food_ingredient"
+      }
+    },
+    {
+      "discovery": {
+        "channel": "industry_report",
+        "notes": "從 Darling Ingredients 公司產業稿進入 Nextida GC，再對 Rousselot 產品頁與兩頁簡報；Vitafoods 2026 展後稿作交叉。台灣代理公開頁查無。",
+        "scoutDate": "2026-11-06"
+      },
+      "efficacy": {
+        "claimedBenefits": [
+          "Darling Ingredients 產業稿：Nextida GC 在 16 名健康受試者的概念性臨床中，餐前口服 5 g 或 10 g，餐後血糖峰值平均約降 42%（稿內另拆 5 g 約 43%、10 g 約 40%）。這是公司新聞稿數字。",
+          "Rousselot Nextida GC 產品頁與兩頁簡報：10 g 餐前 30 分鐘在健康族群可見 GLP-1 上升；前糖尿病亞組在 5 g 與 10 g 皆有統計顯著結果說法。本次沒有打開 Food Sci Nutr 2024 全文，只讀公司頁與 PDF 摘要。"
+        ],
+        "dosageNote": "研究／供應商建議劑量，不是台灣法規上限。",
+        "suggestedDosage": "公司稿與產品頁：餐前約 30 分鐘口服 5 g 或 10 g。"
+      },
+      "evidenceLevels": [],
+      "example": false,
+      "id": "nextida-gc",
+      "images": [
+        {
+          "caption": "Nextida GC／Rousselot 產品頁使用的官方圖片。",
+          "localPath": "",
+          "source": "official_site",
+          "url": "https://darl-p-001.sitecorecontenthub.cloud/api/public/content/21c6cb4d188340cdae079da9280b23bd?v=a42a3168"
+        }
+      ],
+      "literature": {
+        "note": "產品頁引用 Grasset 等 Food Sci Nutr. 2024;12(11):9607-9620 與 Clinical Nutrition ESPEN 摘要。本次沒有打開論文頁，不標 clinical。",
+        "refs": [],
+        "status": "unknown"
+      },
+      "names": {
+        "commonEn": "specific collagen peptide composition for post-meal glucose",
+        "commonZh": "特定組成膠原蛋白胜肽（餐後血糖取向）",
+        "scientific": "不適用：膠原蛋白胜肽是水解蛋白組成，不是單一物種學名。官網寫為 collagen peptides。",
+        "trade": "Nextida GC（Rousselot／Darling Ingredients 的膠原蛋白胜肽商品名）"
+      },
+      "patent": {
+        "note": "Darling 稿寫 patents pending，沒有專利號，維持 unknown。",
+        "refs": [],
+        "status": "unknown"
+      },
+      "sources": [
+        {
+          "accessed": "2026-11-06",
+          "channel": "industry_report",
+          "publisher": "Darling Ingredients",
+          "title": "Darling Ingredients Introduces Nextida™ GC",
+          "url": "https://www.darlingii.com/media/news/20241007-darling-ingredients-introduces-nextida-gc",
+          "whatItContributes": "公司產業稿：5 g／10 g 劑量與約 42% 餐後血糖峰值降幅說法。"
+        },
+        {
+          "accessed": "2026-11-06",
+          "channel": "supplier_site",
+          "publisher": "Rousselot",
+          "title": "Nextida GC product page",
+          "url": "https://nextida.rousselot.com/nextida-gc",
+          "whatItContributes": "產品定位、GLP-1 說法與文獻出處。"
+        },
+        {
+          "accessed": "2026-11-06",
+          "channel": "supplier_site",
+          "publisher": "Rousselot",
+          "title": "Nextida GC 2-pager",
+          "url": "https://nextida.rousselot.com/hubfs/HN/25-ROU-0051_Nextida-GC_2-pager-FW_Bleed-noCrops.pdf?hsLang=en",
+          "whatItContributes": "兩頁簡報重述 5–10 g 與健康／前糖尿病亞組說法。"
+        },
+        {
+          "accessed": "2026-11-06",
+          "channel": "news",
+          "publisher": "All4Nutra",
+          "title": "Vitafoods Europe 2026 Recap mentioning Nextida GC",
+          "url": "https://www.all4nutra.com/news/vitafoods-2026-recap-5473/",
+          "whatItContributes": "展會整理再次提到 Rousselot Nextida GC 與血糖／GLP-1 定位。"
+        }
+      ],
+      "supply": {
+        "relationship": "unknown",
+        "relationshipNote": "Darling／Rousselot／Nextida 官網與兩頁產品資料沒有指名台灣公司。搜尋呈定、統園、和司特、創百、惠民目錄未見 Nextida GC 代理或經銷公開頁，故填查無。",
+        "supplierCountry": "荷蘭／美國（Darling Ingredients 集團）",
+        "supplierName": "Rousselot (Darling Ingredients)",
+        "taiwanPartyName": "查無"
+      },
+      "tfda": {
+        "evidenceNotes": "食品原料查到膠原蛋白（Collagen）海產與禽畜兩筆，皆可供食品使用，不是未確認安全性。商品名 Nextida／Nextida GC 0 筆。添加物分頁 0 筆。列名不等於 5–10 克研究劑量可用。",
+        "lookupDate": "2026-11-06",
+        "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+        "officialCrosscheck": {
+          "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+          "done": true,
+          "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+          "notes": "2026-11-06 依查詢助手公開 data.json 確認膠原蛋白列名；官方頁未另開。"
+        },
+        "queries": [
+          {
+            "category": "海水產類、爬蟲類或其他動物及其來源製取之原料",
+            "keyword": "膠原蛋白",
+            "matchedName": "膠原蛋白",
+            "note": "另有禽畜來源一筆。",
+            "restrictionNote": "由海、水產動物之傳統供食用部位製取。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Nextida",
+            "matchedName": "",
+            "note": "商品名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "collagen",
+            "matchedName": "",
+            "note": "添加物分頁 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Nextida",
+            "matchedName": "",
+            "note": "更新歷程未見此商品名。",
             "restrictionNote": "",
             "resultCount": 0,
             "tab": "history",

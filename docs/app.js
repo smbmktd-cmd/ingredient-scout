@@ -4,6 +4,11 @@
   const VOTES_KEY = "ingredient-scout.votes.v1";
   const SENT_KEY = "ingredient-scout.sent.v1";
   const TRAY_KEY = "ingredient-scout.tray.v1";
+  const BALLOT_KEY = "ingredient-scout.ballot.v1";
+  const SYNC_KEY = "ingredient-scout.synced.v1";
+  const BALLOT_RE = /^[0-9a-f]{8}-[0-9a-f]{4}-[1-8][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
+  const POLL_MS = 25000;
+  const SYNC_DELAY_MS = 900;
 
   const CHANNEL = {
     news: "新聞",
@@ -41,7 +46,23 @@
     tray: loadJson(sessionStorage, TRAY_KEY, []),
     sending: false,
     ready: false,
-    skipped: 0
+    skipped: 0,
+    team: null,
+    teamError: false,
+    teamDate: "",
+    teamGen: 0,
+    syncing: false,
+    syncQueued: false,
+    queuedForce: false,
+    queuedReason: "",
+    syncReason: "auto",
+    syncTimer: 0,
+    lastSyncFailed: false,
+    nextSyncAt: 0,
+    syncBackoff: 0,
+    memoryBallotId: "",
+    pendingSyncDate: "",
+    queuedDate: ""
   };
 
   function loadJson(storage, key, fallback) {
@@ -63,6 +84,113 @@
 
   function saveTray() {
     sessionStorage.setItem(TRAY_KEY, JSON.stringify(state.tray));
+  }
+
+  function httpsUrl(value) {
+    try {
+      const url = new URL(String(value || "").trim());
+      const loopback = url.hostname === "localhost" || url.hostname === "127.0.0.1";
+      // 公開收集端只接受 https。本機替身才允許 http，方便在自己的電腦對接試算表邏輯。
+      if (url.protocol !== "https:" && !(loopback && url.protocol === "http:")) return "";
+      url.hash = "";
+      return url.href;
+    } catch (error) {
+      return "";
+    }
+  }
+
+  function formspreeEndpoint() {
+    const direct = httpsUrl(cfg.formspreeEndpoint);
+    if (direct) return direct;
+    if (cfg.submitMode === "formspree") return httpsUrl(cfg.submitEndpoint);
+    return "";
+  }
+
+  function tallyEndpoint() {
+    const direct = httpsUrl(cfg.tallyEndpoint) || httpsUrl(cfg.sheetEndpoint);
+    if (direct) return direct;
+    if (cfg.submitMode === "webhook") return httpsUrl(cfg.submitEndpoint);
+    return "";
+  }
+
+  function createBallotId() {
+    if (globalThis.crypto && typeof crypto.randomUUID === "function") return crypto.randomUUID();
+    const bytes = new Uint8Array(16);
+    if (globalThis.crypto && typeof crypto.getRandomValues === "function") crypto.getRandomValues(bytes);
+    else {
+      for (let i = 0; i < 16; i += 1) bytes[i] = Math.floor(Math.random() * 256);
+    }
+    bytes[6] = (bytes[6] & 0x0f) | 0x40;
+    bytes[8] = (bytes[8] & 0x3f) | 0x80;
+    const hex = Array.from(bytes, function (byte) {
+      return byte.toString(16).padStart(2, "0");
+    }).join("");
+    return hex.slice(0, 8) + "-" + hex.slice(8, 12) + "-" + hex.slice(12, 16) + "-" + hex.slice(16, 20) + "-" + hex.slice(20);
+  }
+
+  function ballotId() {
+    try {
+      const existing = localStorage.getItem(BALLOT_KEY);
+      if (existing && BALLOT_RE.test(existing)) return existing.toLowerCase();
+      const created = createBallotId().toLowerCase();
+      localStorage.setItem(BALLOT_KEY, created);
+      return created;
+    } catch (error) {
+      if (!state.memoryBallotId) state.memoryBallotId = createBallotId().toLowerCase();
+      return state.memoryBallotId;
+    }
+  }
+
+  function syncRecord() {
+    const raw = loadJson(localStorage, SYNC_KEY, {});
+    return raw && typeof raw === "object" && !Array.isArray(raw) ? raw : {};
+  }
+
+  function channelSynced(date, channel, sig) {
+    const row = syncRecord()[date];
+    return !!row && typeof row === "object" && row[channel] === sig;
+  }
+
+  function markSynced(date, channel, sig) {
+    try {
+      const all = syncRecord();
+      const row = all[date] && typeof all[date] === "object" ? all[date] : {};
+      row[channel] = sig;
+      all[date] = row;
+      localStorage.setItem(SYNC_KEY, JSON.stringify(all));
+    } catch (error) {
+      announce("這台瀏覽器沒有留下同步記錄，稍後可能會再送一次。");
+    }
+  }
+
+  function signature(dump) {
+    return JSON.stringify(dump.votes.map(function (vote) {
+      return { ingredientId: vote.ingredientId, choice: vote.choice, note: vote.note || "" };
+    }));
+  }
+
+  function cloudPayload(dump) {
+    return {
+      kind: "ingredient-scout-votes",
+      date: dump.date,
+      ballotId: ballotId(),
+      votes: dump.votes.map(function (vote) {
+        return {
+          ingredientId: vote.ingredientId,
+          choice: vote.choice,
+          note: vote.note || ""
+        };
+      })
+    };
+  }
+
+  function needsCloudSync(dump) {
+    if (!tallyEndpoint()) return false;
+    const sig = signature(dump);
+    if (sig === "[]" && !syncRecord()[dump.date]) return false;
+    if (!channelSynced(dump.date, "sheet", sig)) return true;
+    if (formspreeEndpoint() && !channelSynced(dump.date, "formspree", sig)) return true;
+    return false;
   }
 
   function el(tag, attrs) {
@@ -94,8 +222,14 @@
     return day.picks.map((item) => item.id);
   }
 
+  function dumpFor(date) {
+    const day = state.catalog.days.find(function (item) { return item.date === date; });
+    if (!day) return null;
+    return VoteModel.toDump(state.votes, date, idsOf(day));
+  }
+
   function dumpNow() {
-    return VoteModel.toDump(state.votes, state.date, idsOf(currentDay()));
+    return dumpFor(state.date);
   }
 
   function safeHttp(url) {
@@ -235,6 +369,9 @@
   function renderVote(ingredient, row) {
     const choice = row.choice || "";
     const box = el("div", { class: "vote" });
+    const teamLine = tallyEndpoint()
+      ? el("p", { class: "team-line is-quiet", "data-team-for": ingredient.id }, "團隊累計讀取中…")
+      : null;
     const actions = el("div", { class: "vote-actions" },
       voteButton("approve", "贊成", choice),
       voteButton("oppose", "反對", choice)
@@ -262,6 +399,7 @@
       saved.textContent = "已記在這台裝置。";
       refreshChrome();
       announce("已記下對「" + ingredient.names.commonZh + "」的表態。");
+      scheduleSync("choice");
     });
     textarea.addEventListener("input", function () {
       state.votes = VoteModel.setNote(state.votes, {
@@ -271,7 +409,9 @@
       });
       saveVotes();
       refreshChrome();
+      scheduleSync("note");
     });
+    if (teamLine) box.append(teamLine);
     box.append(actions, saved, el("label", { class: "note" }, "備註（不要寫姓名）", textarea));
     return box;
   }
@@ -295,7 +435,13 @@
 
   function render() {
     const day = currentDay();
+    const dateChanged = state.teamDate !== day.date;
     state.date = day.date;
+    if (dateChanged) {
+      state.team = null;
+      state.teamError = false;
+      state.teamDate = day.date;
+    }
     $("date").value = day.date;
     const banner = $("banner");
     banner.replaceChildren();
@@ -312,36 +458,500 @@
     }
     renderTray();
     refreshChrome();
+    if (dateChanged) refreshTeam();
+  }
+
+  function localSummary() {
+    const tally = VoteModel.tally(state.votes, state.date, idsOf(currentDay()));
+    return {
+      tally: tally,
+      text: "本機已表態 " + tally.voted + "/" + tally.total + " · 贊成 " + tally.approve + " · 反對 " + tally.oppose
+    };
   }
 
   function refreshChrome() {
-    const day = currentDay();
-    const tally = VoteModel.tally(state.votes, state.date, idsOf(day));
-    const text = "本機已表態 " + tally.voted + "/" + tally.total + " · 贊成 " + tally.approve + " · 反對 " + tally.oppose;
-    $("dock-tally").textContent = text + "（僅此瀏覽器）";
-    $("session-copy").textContent = text + "。這個數字只存在這台瀏覽器，還不是團隊總數。同一顆按鈕再按一次只會留下最新的選擇。";
-    const endpoint = httpsEndpoint();
+    const summary = localSummary();
+    const sheet = tallyEndpoint();
+    const form = formspreeEndpoint();
+    $("dock-tally").textContent = summary.text + (sheet ? "" : "（僅此瀏覽器）");
+    if (sheet) {
+      $("session-copy").textContent = summary.text + "。這是這台瀏覽器的數字，和上方的團隊累計分開計算。同一顆按鈕再按一次只會留下最新的選擇。";
+    } else {
+      $("session-copy").textContent = summary.text + "。這個數字只存在這台瀏覽器，還不是團隊總數。同一顆按鈕再按一次只會留下最新的選擇。";
+    }
     const send = $("send");
-    if (!endpoint || !cfg.submitMode) {
+    if (!sheet && !form) {
       send.hidden = true;
-      $("backend-note").textContent = "共享收集端未設定。請下載 JSON，交給負責彙總的同事。";
+      $("backend-note").textContent = "尚未設定試算表或 Formspree。請下載 JSON，交給負責彙總的同事。";
+    } else if (sheet) {
+      send.hidden = false;
+      send.disabled = state.syncing;
+      send.textContent = state.syncing ? "同步中…" : "立即同步";
+      const backup = form ? "Formspree 會再收一份信件備份。" : "Formspree 目前沒填，不會另外寄信。";
+      $("backend-note").textContent = "表態會自動寫進試算表，上方的團隊累計隨之更新。" + backup + "下載檔仍然留著。收集端網址寫在公開的設定檔，知道網址的人都能送資料。";
     } else {
       send.hidden = false;
       send.disabled = state.sending;
+      const dump = dumpNow();
+      const key = JSON.stringify(dump.votes);
       const sent = loadJson(localStorage, SENT_KEY, {});
-      const key = JSON.stringify(dumpNow().votes);
-      send.textContent = sent[state.date] === key && key !== "[]" ? "這份內容已送出" : "送到共享收集端";
-      $("backend-note").textContent = "共享收集端是可選的。沒送成功時，下載檔仍然有效。正式計票以工作人員彙總為準。";
+      send.textContent = sent[state.date] === key && key !== "[]" ? "這份內容已送出" : "送到 Formspree";
+      $("backend-note").textContent = "Formspree 只留信件備份，頁面不會出現團隊累計。沒送成功時，下載檔仍然有效。表單網址是公開的。";
     }
+    const syncNote = $("sync-note");
+    if (syncNote) {
+      if (state.syncing) syncNote.textContent = "正在把這份表態送到收集端…";
+      else if (state.lastSyncFailed) syncNote.textContent = "上次同步沒有成功。本機表態還在，可再按一次同步或下載 JSON。";
+      else syncNote.textContent = "";
+    }
+    paintTeam();
   }
 
-  function httpsEndpoint() {
+  function teamResultMap() {
+    const map = Object.create(null);
+    const results = state.team && Array.isArray(state.team.results) ? state.team.results : [];
+    results.forEach(function (row) {
+      if (!row || typeof row.ingredientId !== "string") return;
+      map[row.ingredientId] = {
+        approve: Math.max(0, Math.floor(Number(row.approve) || 0)),
+        oppose: Math.max(0, Math.floor(Number(row.oppose) || 0)),
+        notes: Array.isArray(row.notes) ? row.notes.map(function (note) { return String(note); }).filter(Boolean) : []
+      };
+    });
+    return map;
+  }
+
+  function formatTeamCounts(row) {
+    const approve = row ? row.approve : 0;
+    const oppose = row ? row.oppose : 0;
+    const notes = row && row.notes ? row.notes.length : 0;
+    let text = "團隊累計 贊成 " + approve + " · 反對 " + oppose;
+    if (notes) text += " · 備註 " + notes;
+    return text;
+  }
+
+  function teamHeadline() {
+    if (!state.team) return "";
+    if (state.team.ballots == null) return "團隊累計已從試算表讀取。";
+    if (state.team.ballots === 0) return "團隊累計尚無匿名票。";
+    return "團隊累計 " + state.team.ballots + " 張匿名票。";
+  }
+
+  function paintTeam() {
+    const panel = $("team-panel");
+    const dock = $("dock-team");
+    const copy = $("team-copy");
+    if (!panel || !dock || !copy) return;
+    if (!tallyEndpoint()) {
+      panel.hidden = true;
+      dock.hidden = true;
+      return;
+    }
+    panel.hidden = false;
+    dock.hidden = false;
+    const stale = state.team && state.teamError ? "剛剛更新失敗，畫面上可能是稍早的數字。" : "";
+    if (!state.team && state.teamError) {
+      copy.textContent = "團隊累計暫時讀不到。請檢查網路或稍後重新整理。本機表態不受影響。";
+      dock.textContent = "團隊累計暫時讀不到";
+    } else if (!state.team) {
+      copy.textContent = "正在讀取試算表上的團隊累計…";
+      dock.textContent = "團隊累計讀取中…";
+    } else {
+      copy.textContent = teamHeadline() + "同一張匿名票對同一原料只算最新的選擇。這個表和本機數字分開。" + stale;
+      dock.textContent = state.team.ballots == null
+        ? "團隊累計已連線"
+        : "團隊 " + state.team.ballots + " 張匿名票" + (state.teamError ? "（更新失敗）" : "");
+    }
+    document.querySelectorAll("[data-team-for]").forEach(function (node) {
+      const id = node.getAttribute("data-team-for");
+      node.classList.remove("is-quiet", "is-warn");
+      if (!state.team && state.teamError) {
+        node.textContent = "團隊累計暫時讀不到";
+        node.classList.add("is-warn");
+        return;
+      }
+      if (!state.team) {
+        node.textContent = "團隊累計讀取中…";
+        node.classList.add("is-quiet");
+        return;
+      }
+      const map = teamResultMap();
+      node.textContent = formatTeamCounts(map[id]) + (state.teamError ? "（更新失敗）" : "");
+      if (state.teamError) node.classList.add("is-warn");
+    });
+    fillTeamTable();
+  }
+
+  function fillTeamTable() {
+    const table = $("team-summary");
+    if (!table) return;
+    const body = table.querySelector("tbody");
+    body.replaceChildren();
+    if (!state.catalog) return;
+    const day = currentDay();
+    if (!state.team && !state.teamError) {
+      body.append(el("tr", {}, el("td", { colspan: "4" }, "讀取中…")));
+      return;
+    }
+    if (!state.team && state.teamError) {
+      body.append(el("tr", {}, el("td", { colspan: "4" }, "暫時讀不到試算表。")));
+      return;
+    }
+    const map = teamResultMap();
+    day.picks.forEach(function (ingredient) {
+      const row = map[ingredient.id] || { approve: 0, oppose: 0, notes: [] };
+      body.append(el("tr", {},
+        el("td", {}, ingredient.names.commonZh),
+        el("td", {}, String(row.approve)),
+        el("td", {}, String(row.oppose)),
+        el("td", {}, row.notes.join(" / ") || "—")
+      ));
+    });
+  }
+
+  function normalizeTeam(data) {
+    const ballots = Number(data.ballots);
+    return {
+      ok: true,
+      date: data.date,
+      ballots: Number.isFinite(ballots) ? ballots : null,
+      results: Array.isArray(data.results) ? data.results : []
+    };
+  }
+
+  function gasRedirectAction(status, location) {
+    var code = Number(status);
+    if (code >= 300 && code < 400 && location) {
+      return { action: "get-echo", url: String(location) };
+    }
+    return { action: "read" };
+  }
+
+  function safeEchoUrl(location, base) {
     try {
-      const url = new URL(cfg.submitEndpoint || "");
-      return url.protocol === "https:" ? url.href : "";
+      const url = new URL(location, base || window.location.href);
+      const loopback = url.hostname === "localhost" || url.hostname === "127.0.0.1";
+      if (url.protocol === "https:" || (loopback && url.protocol === "http:")) return url.href;
+      return "";
     } catch (error) {
       return "";
     }
+  }
+
+  async function followGasEcho(response) {
+    if (!response || !response.headers || typeof response.headers.get !== "function") return response;
+    const action = gasRedirectAction(response.status, response.headers.get("Location"));
+    if (action.action !== "get-echo") return response;
+    const echo = safeEchoUrl(action.url, response.url || tallyEndpoint());
+    if (!echo) return response;
+    // 302 的 Location 是一次性的 echo。改用 GET 讀 JSON，不要再 POST。
+    return fetchTimeout(echo, {
+      method: "GET",
+      redirect: "follow",
+      credentials: "omit",
+      referrerPolicy: "no-referrer",
+      cache: "no-store"
+    }, 12000);
+  }
+
+  async function readGasJson(response) {
+    const followed = await followGasEcho(response);
+    const text = await followed.text();
+    try {
+      return { response: followed, data: JSON.parse(text) };
+    } catch (error) {
+      return { response: followed, data: null };
+    }
+  }
+
+  function fetchTimeout(url, options, ms) {
+    const ctrl = typeof AbortController === "function" ? new AbortController() : null;
+    const timer = setTimeout(function () {
+      if (ctrl) ctrl.abort();
+    }, ms);
+    const opts = Object.assign({}, options);
+    if (ctrl) opts.signal = ctrl.signal;
+    return fetch(url, opts).finally(function () {
+      clearTimeout(timer);
+    });
+  }
+
+  async function fetchTalliesCors(date) {
+    const url = new URL(tallyEndpoint());
+    url.search = "";
+    url.hash = "";
+    url.searchParams.set("date", date);
+    url.searchParams.set("_", String(Date.now()));
+    const response = await fetchTimeout(url.href, {
+      method: "GET",
+      redirect: "follow",
+      headers: { Accept: "application/json" },
+      credentials: "omit",
+      referrerPolicy: "no-referrer",
+      cache: "no-store"
+    }, 8000);
+    const read = await readGasJson(response);
+    if (!read.response.ok) throw new Error("status");
+    const data = read.data;
+    if (!data || data.ok === false) {
+      const error = new Error("rejected");
+      error.permanent = true;
+      throw error;
+    }
+    if (!Array.isArray(data.results)) throw new Error("shape");
+    return data;
+  }
+
+  function fetchTalliesJsonp(date) {
+    return new Promise(function (resolve, reject) {
+      const cb = "ingredientScoutTally" + String(Date.now()) + String(Math.floor(Math.random() * 1000));
+      const url = new URL(tallyEndpoint());
+      url.search = "";
+      url.hash = "";
+      url.searchParams.set("date", date);
+      url.searchParams.set("callback", cb);
+      url.searchParams.set("_", String(Date.now()));
+      const script = document.createElement("script");
+      let done = false;
+      const timer = setTimeout(function () {
+        finish(new Error("timeout"));
+      }, 8000);
+      function finish(error, data) {
+        if (done) return;
+        done = true;
+        clearTimeout(timer);
+        try { delete window[cb]; } catch (ignore) { window[cb] = undefined; }
+        script.remove();
+        if (error) reject(error);
+        else resolve(data);
+      }
+      window[cb] = function (data) {
+        if (!data || data.ok !== true || !Array.isArray(data.results)) {
+          finish(new Error("shape"));
+          return;
+        }
+        finish(null, data);
+      };
+      script.onerror = function () { finish(new Error("jsonp")); };
+      script.src = url.href;
+      document.head.append(script);
+    });
+  }
+
+  async function fetchTallies(date) {
+    try {
+      return await fetchTalliesCors(date);
+    } catch (error) {
+      if (error && error.permanent) throw error;
+      return fetchTalliesJsonp(date);
+    }
+  }
+
+  async function refreshTeam() {
+    if (!tallyEndpoint()) return;
+    const gen = ++state.teamGen;
+    const date = state.date;
+    try {
+      const data = await fetchTallies(date);
+      if (gen !== state.teamGen || date !== state.date) return;
+      state.team = normalizeTeam(data);
+      state.teamError = false;
+    } catch (error) {
+      if (gen !== state.teamGen || date !== state.date) return;
+      state.teamError = true;
+    }
+    paintTeam();
+  }
+
+  function scheduleSync(reason) {
+    if (!tallyEndpoint()) return;
+    if (reason) state.syncReason = reason;
+    if (reason === "user" || reason === "choice" || reason === "note") state.nextSyncAt = 0;
+    const date = state.date;
+    state.pendingSyncDate = date;
+    clearTimeout(state.syncTimer);
+    state.syncTimer = setTimeout(function () {
+      if (state.pendingSyncDate === date) state.pendingSyncDate = "";
+      runSync({ force: false, date: date });
+    }, SYNC_DELAY_MS);
+  }
+
+  async function runSync(options) {
+    const force = Boolean(options && options.force);
+    if (!tallyEndpoint()) return;
+    const date = (options && options.date) || state.date;
+    const dump = dumpFor(date);
+    if (!dump) return;
+    const sig = signature(dump);
+    if (sig === "[]" && !syncRecord()[dump.date]) {
+      if (force) announce("還沒有表態可送出。");
+      return;
+    }
+    if (!force && !needsCloudSync(dump)) return;
+    const acted = state.syncReason === "user" || state.syncReason === "choice" || state.syncReason === "note";
+    if (!force && !acted && state.nextSyncAt && Date.now() < state.nextSyncAt) return;
+    if (state.syncing) {
+      state.syncQueued = true;
+      state.queuedForce = state.queuedForce || force;
+      state.queuedDate = date;
+      if (state.syncReason === "user" || state.syncReason === "choice" || state.syncReason === "note") {
+        state.queuedReason = state.syncReason;
+      }
+      return;
+    }
+    state.syncing = true;
+    state.lastSyncFailed = false;
+    if (state.pendingSyncDate === date) state.pendingSyncDate = "";
+    const reason = state.syncReason;
+    const visible = date === state.date;
+    refreshChrome();
+    try {
+      const outcome = await postCloud(dump, force);
+      state.syncBackoff = 0;
+      state.nextSyncAt = 0;
+      state.lastSyncFailed = false;
+      if (visible && (reason === "user" || reason === "choice")) {
+        const unconfirmed = outcome.sheetConfirmed === false;
+        if (sig === "[]") {
+          announce(unconfirmed ? "已送出清除，但讀不到試算表的回應。" : "已從試算表拿掉這張票。");
+        } else if (unconfirmed) {
+          announce("已送出同步，但瀏覽器讀不到試算表的回應。請稍後看團隊累計是否更新。");
+        } else {
+          announce("已同步到試算表。");
+        }
+      }
+      if (visible) await refreshTeam();
+    } catch (error) {
+      state.lastSyncFailed = true;
+      state.syncBackoff = Math.min(120000, state.syncBackoff ? state.syncBackoff * 2 : 5000);
+      state.nextSyncAt = Date.now() + state.syncBackoff;
+      if (visible && (reason === "user" || reason === "choice" || reason === "boot")) {
+        announce((error && error.message) || "試算表沒有同步成功。這台裝置上的表態還在。");
+      }
+    } finally {
+      state.syncing = false;
+      if (state.syncReason === reason) state.syncReason = "auto";
+      const again = state.syncQueued;
+      const againForce = state.queuedForce;
+      const againReason = state.queuedReason;
+      const againDate = state.queuedDate;
+      state.syncQueued = false;
+      state.queuedForce = false;
+      state.queuedReason = "";
+      state.queuedDate = "";
+      refreshChrome();
+      if (again) {
+        if (againReason) state.syncReason = againReason;
+        runSync({ force: againForce, date: againDate || state.date });
+      }
+    }
+  }
+
+  async function postCloud(dump, force) {
+    const sig = signature(dump);
+    const jobs = [];
+    let sheetConfirmed = true;
+    const sendSheet = force || !channelSynced(dump.date, "sheet", sig);
+    const sendForm = Boolean(formspreeEndpoint()) && (force || !channelSynced(dump.date, "formspree", sig));
+    if (sendSheet) {
+      jobs.push(postSheet(dump).then(function (result) {
+        sheetConfirmed = Boolean(result && result.confirmed);
+        markSynced(dump.date, "sheet", sig);
+      }));
+    }
+    if (sendForm) {
+      jobs.push(postFormspree(dump).then(function () {
+        markSynced(dump.date, "formspree", sig);
+      }));
+    }
+    if (!jobs.length) return { sheetConfirmed: true };
+    const settled = await Promise.allSettled(jobs);
+    const rejected = settled.find(function (item) { return item.status === "rejected"; });
+    if (rejected) throw rejected.reason;
+    return { sheetConfirmed: sheetConfirmed };
+  }
+
+  async function postSheet(dump) {
+    const endpoint = tallyEndpoint();
+    // Apps Script 不處理 OPTIONS 預檢，所以用 text/plain，不要改成 application/json。
+    const init = {
+      method: "POST",
+      headers: { "Content-Type": "text/plain;charset=utf-8" },
+      body: JSON.stringify(cloudPayload(dump)),
+      redirect: "follow",
+      credentials: "omit",
+      referrerPolicy: "no-referrer",
+      cache: "no-store"
+    };
+    try {
+      // redirect:follow 會先 POST，再 GET echo。若仍看得到 302 與 Location，改發 GET。
+      const response = await fetchTimeout(endpoint, init, 15000);
+      const read = await readGasJson(response);
+      const data = read.data;
+      if (read.response.type === "opaqueredirect" || read.response.status === 0) return { confirmed: false };
+      if (!read.response.ok) throw new Error("試算表回應 " + read.response.status + "。本機表態還在。");
+      if (data && data.ok === false) throw new Error("試算表沒有收下這份票。本機表態還在。");
+      if (data && data.ok === true) return { confirmed: true };
+      return { confirmed: false };
+    } catch (error) {
+      if (error && error.message && error.message.indexOf("試算表") === 0) throw error;
+      try {
+        await fetch(endpoint, Object.assign({}, init, { mode: "no-cors" }));
+        return { confirmed: false };
+      } catch (again) {
+        throw new Error("試算表連不上。本機表態還在，請稍後按「立即同步」或改下載 JSON。");
+      }
+    }
+  }
+
+  async function postFormspree(dump) {
+    const endpoint = formspreeEndpoint();
+    if (!endpoint) return;
+    const body = new FormData();
+    body.set("date", dump.date);
+    body.set("ballotId", ballotId());
+    body.set("votes", JSON.stringify(dump.votes));
+    body.set("anonymous", "yes");
+    body.set("_subject", "ingredient-scout " + dump.date);
+    const response = await fetch(endpoint, {
+      method: "POST",
+      headers: { Accept: "application/json" },
+      body: body,
+      credentials: "omit",
+      referrerPolicy: "no-referrer"
+    });
+    if (!response.ok) throw new Error("Formspree 回應 " + response.status + "。本機表態還在。");
+  }
+
+  function flushSheet(date) {
+    const dump = dumpFor(date);
+    if (!dump) return;
+    const sig = signature(dump);
+    if (sig === "[]" && !syncRecord()[dump.date]) return;
+    if (channelSynced(dump.date, "sheet", sig)) return;
+    try {
+      fetch(tallyEndpoint(), {
+        method: "POST",
+        mode: "no-cors",
+        redirect: "follow",
+        headers: { "Content-Type": "text/plain;charset=utf-8" },
+        body: JSON.stringify(cloudPayload(dump)),
+        keepalive: true,
+        credentials: "omit",
+        referrerPolicy: "no-referrer"
+      });
+    } catch (error) {}
+  }
+
+  function pageHideSync() {
+    if (!tallyEndpoint()) return;
+    const pending = state.pendingSyncDate;
+    clearTimeout(state.syncTimer);
+    state.pendingSyncDate = "";
+    const dates = [];
+    if (pending) dates.push(pending);
+    if (dates.indexOf(state.date) === -1) dates.push(state.date);
+    dates.forEach(flushSheet);
   }
 
   function download(filename, data) {
@@ -384,6 +994,13 @@
   }
 
   async function sendDump() {
+    if (tallyEndpoint()) {
+      state.syncReason = "user";
+      state.nextSyncAt = 0;
+      clearTimeout(state.syncTimer);
+      await runSync({ force: true });
+      return;
+    }
     const dump = dumpNow();
     if (!dump.votes.length) {
       announce("還沒有表態可送出。");
@@ -398,45 +1015,16 @@
     state.sending = true;
     refreshChrome();
     try {
-      await postDump(dump);
+      await postFormspree(dump);
       sent[state.date] = key;
       localStorage.setItem(SENT_KEY, JSON.stringify(sent));
-      announce("已送到共享收集端。請仍保留下載檔，方便彙總。");
+      announce("已送到 Formspree。請仍保留下載檔。");
     } catch (error) {
-      announce(error.message || "共享收集端沒有收下。這台裝置上的表態還在。");
+      announce(error.message || "Formspree 沒有收下。這台裝置上的表態還在。");
     } finally {
       state.sending = false;
       refreshChrome();
     }
-  }
-
-  async function postDump(dump) {
-    const endpoint = httpsEndpoint();
-    if (!endpoint) throw new Error("收集端網址需為 https。");
-    if (cfg.submitMode === "formspree") {
-      const body = new FormData();
-      body.set("date", dump.date);
-      body.set("votes", JSON.stringify(dump.votes));
-      body.set("anonymous", "yes");
-      body.set("_subject", "ingredient-scout " + dump.date);
-      const response = await fetch(endpoint, {
-        method: "POST",
-        headers: { Accept: "application/json" },
-        body: body
-      });
-      if (!response.ok) throw new Error("收集端回應 " + response.status + "。請改下載 JSON。");
-      return;
-    }
-    if (cfg.submitMode === "webhook") {
-      const response = await fetch(endpoint, {
-        method: "POST",
-        headers: { "Content-Type": "text/plain;charset=utf-8" },
-        body: JSON.stringify(dump)
-      });
-      if (!response.ok) throw new Error("收集端回應 " + response.status + "。請改下載 JSON。");
-      return;
-    }
-    throw new Error("submitMode 需為 formspree 或 webhook。");
   }
 
   function clearDay() {
@@ -445,6 +1033,7 @@
     saveVotes();
     render();
     announce("已清除這日的本機表態。");
+    scheduleSync("user");
   }
 
   function addTray(dump, label) {
@@ -550,7 +1139,9 @@
     $("download").addEventListener("click", downloadDump);
     $("download-dock").addEventListener("click", downloadDump);
     $("copy").addEventListener("click", copyShare);
-    $("send").addEventListener("click", sendDump);
+    $("send").addEventListener("click", function () {
+      sendDump();
+    });
     $("clear").addEventListener("click", clearDay);
     $("import-paste").addEventListener("click", function () {
       try {
@@ -609,8 +1200,19 @@
     bind();
     consumeHash();
     window.addEventListener("hashchange", consumeHash);
+    window.addEventListener("pagehide", pageHideSync);
     render();
     state.ready = true;
+    if (tallyEndpoint()) {
+      if (needsCloudSync(dumpNow())) scheduleSync("boot");
+      state.pollTimer = setInterval(function () {
+        refreshTeam();
+        if (needsCloudSync(dumpNow())) {
+          state.syncReason = "auto";
+          runSync({ force: false });
+        }
+      }, POLL_MS);
+    }
   }
 
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", boot);

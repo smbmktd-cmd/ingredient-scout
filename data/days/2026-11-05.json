@@ -1,9 +1,19 @@
 {
   "date": "2026-11-05",
-  "example": true,
-  "title": "範例日報",
+  "example": false,
+  "title": "2026-11-05 正式日報",
   "targetCount": 5,
-  "channelsCovered": ["news", "industry_report"],
-  "notes": "這一份是流程示範，只有 2 筆虛構原料，不是正式的五筆日報。極光莓的主管道是新聞，並用虛構展覽名錄當第二來源；露明肽的主管道是產業報導。正式日報請約 5 筆，且不要五筆都來自同一則新聞。",
-  "picks": ["example-aurora-berry", "example-lumen-peptide"]
+  "channelsCovered": [
+    "news",
+    "exhibition",
+    "industry_report"
+  ],
+  "notes": "正式五筆。練習用的極光莓與露明肽仍留在原料檔，但不在這一天。主管道含新聞、展覽名錄與產業報導。TFDA 以 2026-11-05 的查詢助手為準；消費者專區網頁當天打不開，各卡寫了連線結果。列名、查無或未確認都不是健康食品許可，也不等於建議劑量可用。",
+  "picks": [
+    "l-ergothioneine",
+    "aronia-melanocarpa",
+    "akkermansia-muciniphila",
+    "urolithin-a",
+    "stgaia"
+  ]
 }

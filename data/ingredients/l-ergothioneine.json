@@ -1,0 +1,175 @@
+{
+  "id": "l-ergothioneine",
+  "example": false,
+  "names": {
+    "commonZh": "麥角硫因",
+    "commonEn": "L-ergothioneine",
+    "trade": "ErgoActive（Blue California 的原料商品名）",
+    "scientific": "不適用：這是 L-麥角硫因純化物，不是一種生物的學名。Google Patents 上的 WO2023004608A1 將化學名寫成 (2S)-3-(2-thioxo-2,3-dihydro-1H-imidazol-4-yl)-2-(trimethylammonio)propanoate。"
+  },
+  "supply": {
+    "supplierName": "Blue California",
+    "supplierCountry": "美國",
+    "relationship": "unknown",
+    "taiwanPartyName": "查無",
+    "relationshipNote": "供應商以 2025-06-30 新聞的發稿地 Rancho Santa Margarita, CA 與品牌頁對上，兩份都是 Blue California 自己的網站。台灣窗口查過富鉑實業 2024-05-17 新聞，寫的是取得「上海麥角硫因生物科技集團」代理且版面標為化妝品，不是 Blue California／ErgoActive。另查誠鴻生技產品頁，自述供應酵母發酵麥角硫因，沒有寫成 ErgoActive 的代理或經銷。因此不填台灣窗口，關係維持 unknown。"
+  },
+  "tfda": {
+    "usable": "unconfirmed_not_for_food_use",
+    "evidenceNotes": "查詢助手食品原料以 Ergothioneine 與平臺中文名命中 1 筆，中文名在畫面上是異體字「麥角硫因」（與常用字「硫」不同；用常用字搜尋是 0 筆），分類為「未確認安全性尚不得使用之原料」，部位為純化物，備註為「未經確認其食用安全性前，不得供為食品原料使用。」商品名 ErgoActive 為 0 筆。食品添加物以 Ergothioneine、麥角硫因搜尋為 0 筆。另以「麥角」會命中添加物「乙酸麥角鈣化醇酯」，那是維生素 D2 酯，不是麥角硫因。官方消費者專區網頁當天打不開，句子抄自助手同日詳細欄位。這不是健康食品許可，也不能把供應商的 5–30 mg 美國說法當成台灣可用劑量。",
+    "lookupDate": "2026-11-05",
+    "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+    "queries": [
+      {
+        "tab": "ingredient",
+        "keyword": "Ergothioneine",
+        "category": "未確認安全性尚不得使用之原料",
+        "resultCount": 1,
+        "matchedName": "麥角硫因",
+        "restrictionNote": "未經確認其食用安全性前，不得供為食品原料使用。部位：純化物。",
+        "unconfirmedSafety": true,
+        "note": "外文名命中 id 17744。大分類與次分類都是未確認安全性尚不得使用之原料。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "麥角硫因",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "常用字「硫」（U+786B）。平臺中文名用的是相容字「硫」（U+F9CE），所以這一個關鍵字是 0 筆，不能解讀成原料不存在。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "麥角硫因",
+        "category": "未確認安全性尚不得使用之原料",
+        "resultCount": 1,
+        "matchedName": "麥角硫因",
+        "restrictionNote": "未經確認其食用安全性前，不得供為食品原料使用。",
+        "unconfirmedSafety": true,
+        "note": "與 Ergothioneine 同一筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "ErgoActive",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名沒有另列。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "Ergothioneine",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "添加物分頁外文名 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "麥角硫因",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "添加物分頁常用中文名 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "麥角",
+        "category": "(八) 營養添加劑",
+        "resultCount": 1,
+        "matchedName": "乙酸麥角鈣化醇酯",
+        "restrictionNote": "此筆是維生素 D2 相關品項，不是麥角硫因。",
+        "unconfirmedSafety": false,
+        "note": "只為避免和麥角硫因混淆而記錄。不把它算成麥角硫因的添加物列名。"
+      },
+      {
+        "tab": "history",
+        "keyword": "Ergothioneine",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "助手更新歷程 2026-11-01 至 2026-11-05 未見此關鍵字的新增或修改。"
+      }
+    ],
+    "officialCrosscheck": {
+      "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+      "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+      "done": true,
+      "notes": "2026-11-05 嘗試開啟消費者專區原料頁與添加物頁：HTTPS 握手被對端關閉（OpenSSL unexpected eof，讀到 0 bytes），HTTP 得到 502 Bad Gateway（Server: Pingora）。data.fda.gov.tw 開放資料匯出同樣無法完成 TLS，所以沒有點開線上詳細頁。下列分類、名稱、部位與備註抄自同日可開啟的查詢助手詳細欄位（助手標示 detailsScraped 2026-11-05 06:21；頁首寫來源為消費者專區詳細頁與開放資料 InfoId 4、61）。這不是健康食品許可證。列名或查無都不等於建議劑量可以使用。本筆依助手詳細欄位做成「未確認安全性，尚不得作為食品原料」。線上官方 HTML 未打開。"
+    }
+  },
+  "efficacy": {
+    "claimedBenefits": [
+      "Blue California 2025-06-30 新聞稱，ErgoActive 的隨機雙盲安慰劑對照試驗在看認知功能、睡眠品質與生理指標；同一則把麥角硫因稱作市場上的 longevity vitamin。這是供應商新聞，不是台灣功效核准。",
+      "同則新聞寫 147 名 55–79 歲、有主觀記憶抱怨但無失智的成人，每日 10 mg 或 25 mg 或安慰劑，共 16 週；並寫 25 mg 在主觀前瞻記憶與入睡有顯著結果（p < 0.05）。期刊頁本次打開是 403，所以上面只轉述供應商新聞，不另標成已讀臨床論文。"
+    ],
+    "suggestedDosage": "Blue California 品牌頁「Dosage & Usage Guidance」：食品與飲料寫 5 mg／日（該頁稱為 GRAS-approved）；人體臨床寫 10–25 mg／日；膳食補充品寫最高 30 mg／日。2025-06-30 新聞另寫美國 FDA GRAS 通知 GRN #734。",
+    "dosageNote": "以上是供應商網頁的美國 GRAS 與臨床試驗劑量，不是台灣法規上限。助手把純化物放在未確認安全性，尚不得作為食品原料，所以這些毫克數不能當成在台可用劑量。"
+  },
+  "patent": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "WO2023004608A1 L-ergothioneine and therapeutic uses thereof",
+        "url": "https://patents.google.com/patent/WO2023004608A1/en",
+        "note": "申請人 Nanjing Nutrabuilding Bio Tech（NNB），不是 Blue California。該頁提到市售來源包含 Blue California 的菇類萃取，以及 Tetrahedron 的化學合成（頁內引用 US 8,399,500 B2，該號本次沒有另開）。"
+      }
+    ],
+    "note": "2026-11-05 以 L-ergothioneine 在 Google Patents 打開 WO2023004608A1。沒有另開到 Blue California 自己名下的專利，所以不能寫成 ErgoActive 的專利。"
+  },
+  "literature": {
+    "status": "unknown",
+    "refs": [],
+    "note": "供應商新聞給出 Nutraceuticals 2025;5(3):15（Zajac 等）與 https://www.mdpi.com/1661-3821/5/3/15 。該網址本次回應 403 Access Denied，PubMed 直連也沒有打開，所以不把文獻標成 yes，證據等級留空。"
+  },
+  "evidenceLevels": [],
+  "images": [
+    {
+      "url": "https://bluecal-ingredients.com/wp-content/uploads/2026/10/graphic-clinically-studied2.webp",
+      "localPath": "",
+      "caption": "Blue California 品牌頁上的 ErgoActive 圖檔。",
+      "source": "official_site"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Blue California Publishes Peer-Reviewed Human Clinical Trial",
+      "url": "https://bluecal-ingredients.com/newsroom/blue-california-publishes-peer-reviewed-human-clinical-trial/",
+      "publisher": "Blue California",
+      "channel": "news",
+      "accessed": "2026-11-05",
+      "whatItContributes": "2025-06-30 發稿地、商品名 ErgoActive、GRN #734、16 週 10 mg／25 mg 試驗設計，以及供應商對認知與睡眠的說法。"
+    },
+    {
+      "title": "ErgoActive for Brands & Formulators",
+      "url": "https://bluecal-ingredients.com/ergothioneine/brandsandformulators/",
+      "publisher": "Blue California",
+      "channel": "supplier_site",
+      "accessed": "2026-11-05",
+      "whatItContributes": "供應商自己的劑量欄：食品飲料 5 mg／日、臨床 10–25 mg／日、補充品最高 30 mg／日，以及圖片網址。"
+    },
+    {
+      "title": "WO2023004608A1 L-ergothioneine and therapeutic uses thereof",
+      "url": "https://patents.google.com/patent/WO2023004608A1/en",
+      "publisher": "Google Patents",
+      "channel": "patent",
+      "accessed": "2026-11-05",
+      "whatItContributes": "確認公開專利頁存在，申請人不是 Blue California；並核對化學名與頁內對 Blue California 菇類萃取的描述。"
+    }
+  ],
+  "discovery": {
+    "channel": "news",
+    "scoutDate": "2026-11-05",
+    "notes": "從 Blue California 2025-06-30 的試驗新聞進入，再對品牌頁的劑量與圖片，接著用 Google Patents 的 WO2023004608A1 看專利申請人是不是同一家。台灣代理另查富鉑與誠鴻，都對不上 ErgoActive，所以沒有寫成代理。"
+  }
+}

@@ -12,7 +12,7 @@
     "supplierCountry": "日本",
     "relationship": "taiwan_agent",
     "taiwanPartyName": "統園企業股份有限公司",
-    "relationshipNote": "僅有單方說法。統園產品頁寫「PharmaGABA 由統園企業獨家代理」。PharmaGABA 官網與 2026-08-04 的 Vitafoods Asia 稿寫的合作對象是 Mitsubishi Corporation Life Sciences，沒有寫統園。官網沒有互相指名，所以代理關係還沒有第二份來源。"
+    "relationshipNote": "統園產品頁寫「PharmaGABA 由統園企業獨家代理」。PharmaGABA 官網與 2026-08-04 的 Vitafoods Asia 稿寫的合作對象是 Mitsubishi Corporation Life Sciences，沒有寫統園。獨家代理是統園單方說法。"
   },
   "tfda": {
     "usable": "listed_food_ingredient",
@@ -162,6 +162,6 @@
   "discovery": {
     "channel": "exhibition",
     "scoutDate": "2026-11-05",
-    "notes": "從 PharmaGABA 的 Vitafoods Asia 2026 攤位稿開始，對官網的發酵製程與效益頁的毫克數，再看統園是否自稱為台灣窗口。TFDA 的菌種與每日 100 毫克是用助手同一筆原料抄的，沒有把 200 毫克寫成可用劑量。"
+    "notes": "從 PharmaGABA 的 Vitafoods Asia 2026 攤位稿開始，對官網的發酵製程與效益頁的毫克數，再看統園產品頁。該頁自稱為獨家代理，供應商頁沒有互指。TFDA 的菌種與每日 100 毫克是用助手同一筆原料抄的，沒有把 200 毫克寫成可用劑量。"
   }
 }

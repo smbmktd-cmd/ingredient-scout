@@ -77,7 +77,7 @@ function checkIngredient(entry) {
     ["taiwan_agent", "taiwan_distributor"].includes(data.supply?.relationship) &&
     !String(data.supply?.taiwanPartyName || "").trim()
   ) {
-    fail(where + " 標成代理或經銷時，要填台灣窗口名稱");
+    fail(where + " 標成代理或經銷時，要填台灣關聯廠商名稱");
   }
   if (!schema.enums["tfda.usable"].includes(data.tfda?.usable)) fail(where + " 的 TFDA 狀態不在清單內");
   if (!isDate(data.tfda?.lookupDate)) fail(where + " 的 lookupDate 不是有效日期");

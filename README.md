@@ -42,7 +42,7 @@
 | --- | --- |
 | 台灣能不能當食品原料／添加物、證據註記、查詢日 | `tfda.usable`、`tfda.evidenceNotes`、`tfda.lookupDate` |
 | 供應商、國家 | `supply.supplierName`、`supply.supplierCountry` |
-| 供應商與台灣代理／經銷的關係 | `supply.relationship`、`supply.taiwanPartyName`、`supply.relationshipNote` |
+| 供應商與台灣關聯廠商 | `supply.relationship`、`supply.taiwanPartyName`、`supply.relationshipNote` |
 | 學名、俗名、商品名 | `names.scientific`、`names.commonZh`、`names.commonEn`、`names.trade` |
 | 宣稱效益、建議劑量 | `efficacy.claimedBenefits`、`efficacy.suggestedDosage` |
 | 專利、文獻 | `patent.status`、`literature.status`（`yes`／`no`／`unknown`） |

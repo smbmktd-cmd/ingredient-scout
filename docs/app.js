@@ -280,7 +280,7 @@
       fact("供應商", ingredient.supply.supplierName),
       fact("供應國", ingredient.supply.supplierCountry),
       fact("對台關係", RELATION[ingredient.supply.relationship] || ingredient.supply.relationship),
-      fact("台灣窗口", ingredient.supply.taiwanPartyName || "—"),
+      fact("台灣關聯廠商", ingredient.supply.taiwanPartyName || "—"),
       fact("TFDA", el("span", {
         class: "stamp " + ingredient.tfda.usable
       }, TFDA[ingredient.tfda.usable] || ingredient.tfda.usable), true),

@@ -11,8 +11,8 @@
     "supplierName": "Richen Nutritionals",
     "supplierCountry": "中國",
     "relationship": "unknown",
-    "taiwanPartyName": "查無",
-    "relationshipNote": "展後稿與 MK-7 產品頁都在 richenglobal.com，商品名是 RiviK2。另開到的 richen-nutritional.com 聯絡頁公司名是 Richen Nutritional Technology Co., Ltd.，地址在上海。兩個網域沒有在同一頁互相連結，只是商品名與公司英文名對得上。沒有看到台灣代理或經銷的名稱。"
+    "taiwanPartyName": "韋鎮實業有限公司",
+    "relationshipNote": "Richen 產品頁與上海聯絡頁沒有寫台灣公司。韋鎮實業有限公司商品頁列出 RiviK2，原廠寫中國，頁上沒有寫代理或經銷。名稱先填韋鎮，關係維持未確認。"
   },
   "tfda": {
     "usable": "listed_food_additive",
@@ -158,7 +158,23 @@
       "publisher": "Richen Nutritional Technology",
       "channel": "supplier_site",
       "accessed": "2026-11-05",
-      "whatItContributes": "公司英文名稱與上海地址，用來核對供應商國家。沒有寫台灣窗口。"
+      "whatItContributes": "公司英文名稱與上海地址，用來核對供應商國家。這頁沒有寫台灣公司。"
+    },
+    {
+      "title": "韋鎮實業有限公司",
+      "url": "https://www.phfcorp.com.tw/",
+      "publisher": "韋鎮實業有限公司",
+      "channel": "other",
+      "accessed": "2026-11-05",
+      "whatItContributes": "網站名稱是韋鎮實業有限公司，自述為保健食品原料進出口，商品列有 RiviK2。"
+    },
+    {
+      "title": "韋鎮實業 RiviK2 商品頁",
+      "url": "https://www.phfcorp.com.tw/page/product/show.aspx?num=263",
+      "publisher": "韋鎮實業有限公司",
+      "channel": "other",
+      "accessed": "2026-11-05",
+      "whatItContributes": "商品頁列出 RiviK2，原廠寫中國。頁上沒有寫代理或經銷。"
     }
   ],
   "discovery": {

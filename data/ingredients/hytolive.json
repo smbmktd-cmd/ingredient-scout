@@ -11,8 +11,8 @@
     "supplierName": "Alvinesa Natural Ingredients",
     "supplierCountry": "西班牙",
     "relationship": "unknown",
-    "taiwanPartyName": "查無",
-    "relationshipNote": "產品頁與 2025 年臨床新聞都在 alvinesa.com，地址寫西班牙 Ciudad Real 的 Daimiel。NutraIngredients 2025-10-22 把試驗用的羥基酪醇寫成 Hytolive、Alvinesa Natural Ingredients。沒有查到台灣代理或經銷的公開指名，關係維持 unknown。"
+    "taiwanPartyName": "統園企業股份有限公司",
+    "relationshipNote": "Alvinesa 產品頁地址在西班牙 Daimiel，沒有寫台灣公司。統園企業機能性素材頁列出「橄欖抽出物 Hytolive™」，同站文章寫請認明 Hytolive 商標。這次沒看到針對 Hytolive 的「代理」或「經銷」字樣，所以名稱先填統園，關係維持未確認。"
   },
   "tfda": {
     "usable": "listed_food_ingredient",
@@ -157,6 +157,22 @@
       "channel": "news",
       "accessed": "2026-11-05",
       "whatItContributes": "供應商自己的試驗新聞：49 名過重且糖尿病前期成人、每日 15 mg 羥基酪醇、16 週，並給論文作者與期刊名。"
+    },
+    {
+      "title": "統園企業機能性素材",
+      "url": "https://www.tyig.com.tw/web/product/product.jsp?lang=tw",
+      "publisher": "統園企業",
+      "channel": "other",
+      "accessed": "2026-11-05",
+      "whatItContributes": "素材清單有「橄欖抽出物 Hytolive™」。這頁沒有寫 Hytolive 的代理或經銷。"
+    },
+    {
+      "title": "統園企業文章：請認明 Hytolive",
+      "url": "https://www.tyig.com.tw/web/share/share_in.jsp?lang=tw&np_no=NP1622964581453",
+      "publisher": "統園企業",
+      "channel": "other",
+      "accessed": "2026-11-05",
+      "whatItContributes": "同站文章寫請認明西班牙產 Hytolive 商標。沒有寫獨家代理。"
     }
   ],
   "discovery": {

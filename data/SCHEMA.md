@@ -17,7 +17,7 @@
 | `supply.supplierName` | 是 | 供應商名稱。 |
 | `supply.supplierCountry` | 是 | 供應商國家。 |
 | `supply.relationship` | 是 | `direct` 直接對台、`taiwan_agent` 台灣代理、`taiwan_distributor` 台灣經銷、`supplier_is_taiwan` 供應商在台灣、`unknown` 尚未確認。 |
-| `supply.taiwanPartyName` | 是 | 台灣代理或經銷的名稱。關係是代理或經銷時不可空白。沒有窗口就改用其他關係代碼。 |
+| `supply.taiwanPartyName` | 是 | 台灣關聯廠商名稱。代理、經銷或目錄上看得到的合作都寫名稱。關係代碼是代理或經銷時不可空白。真的查無才寫「查無」。 |
 | `supply.relationshipNote` | 是 | 來源之間是否一致、還缺什麼證明。 |
 | `tfda.usable` | 是 | 見下方狀態。 |
 | `tfda.evidenceNotes` | 是 | 給投票的人看的短註記：查了什麼、結果是什麼、還有什麼限制。 |

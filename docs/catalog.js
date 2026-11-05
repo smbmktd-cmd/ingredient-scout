@@ -14,7 +14,7 @@ window.INGREDIENT_CATALOG = {
         {
           "discovery": {
             "channel": "industry_report",
-            "notes": "從 NutraIngredients 2026-05-28 的肌酸供給報導看到 Creapure，再對 Alzchem 品牌頁與 Creapure 劑量頁。呈定企業目錄有這個品牌，但不足以寫成台灣代理。",
+            "notes": "從 NutraIngredients 2026-05-28 的肌酸供給報導看到 Creapure，再對 Alzchem 品牌頁、Creapure 劑量頁，以及呈定企業目錄。目錄有列出 Creapure，但沒有寫代理或經銷。",
             "scoutDate": "2026-11-05"
           },
           "efficacy": {
@@ -76,14 +76,22 @@ window.INGREDIENT_CATALOG = {
               "title": "Creapure brand page",
               "url": "https://www.alzchem.com/en/brands/creapure/",
               "whatItContributes": "德國 Trostberg 的公司與產地、每日 3 克與歐盟體能聲明的供應商說法，以及圖片。"
+            },
+            {
+              "accessed": "2026-11-05",
+              "channel": "other",
+              "publisher": "呈定企業有限公司",
+              "title": "呈定企業健康素材：肌酸 Creapure",
+              "url": "https://www.chending.com.tw/catalog-detail/healthy-material__4/",
+              "whatItContributes": "台灣目錄列出肌酸 Creapure®，品牌欄寫 AlzChem。頁上沒有寫代理或經銷。"
             }
           ],
           "supply": {
             "relationship": "unknown",
-            "relationshipNote": "Alzchem 品牌頁寫生產在德國 Trostberg。Creapure 劑量頁是同一品牌。NutraIngredients 2026-05-28 也把 Creapure 寫成 Alzchem 的德國肌酸。呈定企業目錄有列出 Creapure、品牌欄寫 AlzChem，但沒有寫「代理」或「經銷」，Alzchem 頁也沒有指名呈定，所以不填台灣窗口。",
+            "relationshipNote": "Alzchem 與 Creapure 頁寫生產在德國 Trostberg，沒有指名台灣公司。呈定企業有限公司目錄列出「肌酸 Creapure®」，品牌欄是 AlzChem；同站品牌頁只寫德國 Alzchem、肌酸。兩頁都沒有寫代理或經銷，所以名稱先填呈定，關係維持未確認。",
             "supplierCountry": "德國",
             "supplierName": "Alzchem Group AG",
-            "taiwanPartyName": "查無"
+            "taiwanPartyName": "呈定企業有限公司"
           },
           "tfda": {
             "evidenceNotes": "食品原料查到肌酸（Creatine、Creatine monohydrate）1 筆，添加物與商品名 Creapure 都是 0 筆，不是未確認安全性。須標示「肌酸不適合一般人食用；如擬食用，須在醫師、營養師或專業人士之指導下使用」，並載明肌肉裂傷、體水滯留、腎臟負擔、抽筋嘔吐、腸胃不適等可能副作用。沒有寫每日上限。",
@@ -233,14 +241,30 @@ window.INGREDIENT_CATALOG = {
               "title": "New clinical study on Hytolive",
               "url": "https://www.alvinesa.com/en/new-clinical-study-confirms-the-antioxidant-and-metabolic-benefits-of-hytolive/",
               "whatItContributes": "供應商自己的試驗新聞：49 名過重且糖尿病前期成人、每日 15 mg 羥基酪醇、16 週，並給論文作者與期刊名。"
+            },
+            {
+              "accessed": "2026-11-05",
+              "channel": "other",
+              "publisher": "統園企業",
+              "title": "統園企業機能性素材",
+              "url": "https://www.tyig.com.tw/web/product/product.jsp?lang=tw",
+              "whatItContributes": "素材清單有「橄欖抽出物 Hytolive™」。這頁沒有寫 Hytolive 的代理或經銷。"
+            },
+            {
+              "accessed": "2026-11-05",
+              "channel": "other",
+              "publisher": "統園企業",
+              "title": "統園企業文章：請認明 Hytolive",
+              "url": "https://www.tyig.com.tw/web/share/share_in.jsp?lang=tw&np_no=NP1622964581453",
+              "whatItContributes": "同站文章寫請認明西班牙產 Hytolive 商標。沒有寫獨家代理。"
             }
           ],
           "supply": {
             "relationship": "unknown",
-            "relationshipNote": "產品頁與 2025 年臨床新聞都在 alvinesa.com，地址寫西班牙 Ciudad Real 的 Daimiel。NutraIngredients 2025-10-22 把試驗用的羥基酪醇寫成 Hytolive、Alvinesa Natural Ingredients。沒有查到台灣代理或經銷的公開指名，關係維持 unknown。",
+            "relationshipNote": "Alvinesa 產品頁地址在西班牙 Daimiel，沒有寫台灣公司。統園企業機能性素材頁列出「橄欖抽出物 Hytolive™」，同站文章寫請認明 Hytolive 商標。這次沒看到針對 Hytolive 的「代理」或「經銷」字樣，所以名稱先填統園，關係維持未確認。",
             "supplierCountry": "西班牙",
             "supplierName": "Alvinesa Natural Ingredients",
-            "taiwanPartyName": "查無"
+            "taiwanPartyName": "統園企業股份有限公司"
           },
           "tfda": {
             "evidenceNotes": "食品原料查到油橄欖果實渣萃取物（含羥基酪醇）1 筆，添加物與商品名 Hytolive 都是 0 筆，不是未確認安全性。羥基酪醇須占 15–40%，每日以羥基酪醇計 20 毫克以下，並標「孕婦及嬰幼兒不宜食用」。同名學名下的橄欖與橄欖油不是這個果渣規格。產品頁沒寫含量百分比或果渣，不能當成已符合 15–40%。",
@@ -391,15 +415,31 @@ window.INGREDIENT_CATALOG = {
               "publisher": "Richen Nutritional Technology",
               "title": "Richen Nutritional Technology contact page",
               "url": "https://www.richen-nutritional.com/contact-us/",
-              "whatItContributes": "公司英文名稱與上海地址，用來核對供應商國家。沒有寫台灣窗口。"
+              "whatItContributes": "公司英文名稱與上海地址，用來核對供應商國家。這頁沒有寫台灣公司。"
+            },
+            {
+              "accessed": "2026-11-05",
+              "channel": "other",
+              "publisher": "韋鎮實業有限公司",
+              "title": "韋鎮實業有限公司",
+              "url": "https://www.phfcorp.com.tw/",
+              "whatItContributes": "網站名稱是韋鎮實業有限公司，自述為保健食品原料進出口，商品列有 RiviK2。"
+            },
+            {
+              "accessed": "2026-11-05",
+              "channel": "other",
+              "publisher": "韋鎮實業有限公司",
+              "title": "韋鎮實業 RiviK2 商品頁",
+              "url": "https://www.phfcorp.com.tw/page/product/show.aspx?num=263",
+              "whatItContributes": "商品頁列出 RiviK2，原廠寫中國。頁上沒有寫代理或經銷。"
             }
           ],
           "supply": {
             "relationship": "unknown",
-            "relationshipNote": "展後稿與 MK-7 產品頁都在 richenglobal.com，商品名是 RiviK2。另開到的 richen-nutritional.com 聯絡頁公司名是 Richen Nutritional Technology Co., Ltd.，地址在上海。兩個網域沒有在同一頁互相連結，只是商品名與公司英文名對得上。沒有看到台灣代理或經銷的名稱。",
+            "relationshipNote": "Richen 產品頁與上海聯絡頁沒有寫台灣公司。韋鎮實業有限公司商品頁列出 RiviK2，原廠寫中國，頁上沒有寫代理或經銷。名稱先填韋鎮，關係維持未確認。",
             "supplierCountry": "中國",
             "supplierName": "Richen Nutritionals",
-            "taiwanPartyName": "查無"
+            "taiwanPartyName": "韋鎮實業有限公司"
           },
           "tfda": {
             "evidenceNotes": "食品原料查無維生素 K2。食品添加物有 1 筆，是營養添加劑 Menaquinone（Vitamin K2），各類食品視實際需要適量使用，且限於補充食品中不足的營養素；規格欄是空的，不是未確認安全性。商品名 RiviK2 與 MK-7 都沒有另列。維生素 K1、K3 是不同品項。",
@@ -587,7 +627,7 @@ window.INGREDIENT_CATALOG = {
           ],
           "supply": {
             "relationship": "unknown",
-            "relationshipNote": "NutraIngredients 2026-08-25 展前記寫 Solabia Nutrition 是 Solabia Group 事業單位、總部 Maastricht, the Netherlands；Solabia 自己的 Vitafoods Asia 2026 攤位頁與專利新聞（Maastricht）一致。大昌華嘉 2025-12-18 新聞是與 Solabia 集團在台灣個人護理市場合作，內文引進的是護膚與美妝原料，沒有點名 BrainBerry 或膳食補充品，所以不把大昌華嘉填成這個原料的台灣窗口。",
+            "relationshipNote": "NutraIngredients 2026-08-25 寫 Solabia Nutrition 總部在荷蘭 Maastricht。大昌華嘉 2025-12-18 新聞是與 Solabia 集團在台灣個人護理市場的獨家合作，引進的是護膚與美妝原料，沒有點名 BrainBerry。這筆原料的台灣關聯廠商查無。",
             "supplierCountry": "荷蘭",
             "supplierName": "Solabia Nutrition",
             "taiwanPartyName": "查無"
@@ -680,7 +720,7 @@ window.INGREDIENT_CATALOG = {
         {
           "discovery": {
             "channel": "exhibition",
-            "notes": "從 PharmaGABA 的 Vitafoods Asia 2026 攤位稿開始，對官網的發酵製程與效益頁的毫克數，再看統園是否自稱為台灣窗口。TFDA 的菌種與每日 100 毫克是用助手同一筆原料抄的，沒有把 200 毫克寫成可用劑量。",
+            "notes": "從 PharmaGABA 的 Vitafoods Asia 2026 攤位稿開始，對官網的發酵製程與效益頁的毫克數，再看統園產品頁。該頁自稱為獨家代理，供應商頁沒有互指。TFDA 的菌種與每日 100 毫克是用助手同一筆原料抄的，沒有把 200 毫克寫成可用劑量。",
             "scoutDate": "2026-11-05"
           },
           "efficacy": {
@@ -754,7 +794,7 @@ window.INGREDIENT_CATALOG = {
           ],
           "supply": {
             "relationship": "taiwan_agent",
-            "relationshipNote": "僅有單方說法。統園產品頁寫「PharmaGABA 由統園企業獨家代理」。PharmaGABA 官網與 2026-08-04 的 Vitafoods Asia 稿寫的合作對象是 Mitsubishi Corporation Life Sciences，沒有寫統園。官網沒有互相指名，所以代理關係還沒有第二份來源。",
+            "relationshipNote": "統園產品頁寫「PharmaGABA 由統園企業獨家代理」。PharmaGABA 官網與 2026-08-04 的 Vitafoods Asia 稿寫的合作對象是 Mitsubishi Corporation Life Sciences，沒有寫統園。獨家代理是統園單方說法。",
             "supplierCountry": "日本",
             "supplierName": "Pharma Foods International Co., Ltd.",
             "taiwanPartyName": "統園企業股份有限公司"
@@ -1081,7 +1121,7 @@ window.INGREDIENT_CATALOG = {
       ],
       "supply": {
         "relationship": "unknown",
-        "relationshipNote": "NutraIngredients 2026-08-25 展前記寫 Solabia Nutrition 是 Solabia Group 事業單位、總部 Maastricht, the Netherlands；Solabia 自己的 Vitafoods Asia 2026 攤位頁與專利新聞（Maastricht）一致。大昌華嘉 2025-12-18 新聞是與 Solabia 集團在台灣個人護理市場合作，內文引進的是護膚與美妝原料，沒有點名 BrainBerry 或膳食補充品，所以不把大昌華嘉填成這個原料的台灣窗口。",
+        "relationshipNote": "NutraIngredients 2026-08-25 寫 Solabia Nutrition 總部在荷蘭 Maastricht。大昌華嘉 2025-12-18 新聞是與 Solabia 集團在台灣個人護理市場的獨家合作，引進的是護膚與美妝原料，沒有點名 BrainBerry。這筆原料的台灣關聯廠商查無。",
         "supplierCountry": "荷蘭",
         "supplierName": "Solabia Nutrition",
         "taiwanPartyName": "查無"
@@ -1174,7 +1214,7 @@ window.INGREDIENT_CATALOG = {
     {
       "discovery": {
         "channel": "industry_report",
-        "notes": "從 NutraIngredients 2026-05-28 的肌酸供給報導看到 Creapure，再對 Alzchem 品牌頁與 Creapure 劑量頁。呈定企業目錄有這個品牌，但不足以寫成台灣代理。",
+        "notes": "從 NutraIngredients 2026-05-28 的肌酸供給報導看到 Creapure，再對 Alzchem 品牌頁、Creapure 劑量頁，以及呈定企業目錄。目錄有列出 Creapure，但沒有寫代理或經銷。",
         "scoutDate": "2026-11-05"
       },
       "efficacy": {
@@ -1236,14 +1276,22 @@ window.INGREDIENT_CATALOG = {
           "title": "Creapure brand page",
           "url": "https://www.alzchem.com/en/brands/creapure/",
           "whatItContributes": "德國 Trostberg 的公司與產地、每日 3 克與歐盟體能聲明的供應商說法，以及圖片。"
+        },
+        {
+          "accessed": "2026-11-05",
+          "channel": "other",
+          "publisher": "呈定企業有限公司",
+          "title": "呈定企業健康素材：肌酸 Creapure",
+          "url": "https://www.chending.com.tw/catalog-detail/healthy-material__4/",
+          "whatItContributes": "台灣目錄列出肌酸 Creapure®，品牌欄寫 AlzChem。頁上沒有寫代理或經銷。"
         }
       ],
       "supply": {
         "relationship": "unknown",
-        "relationshipNote": "Alzchem 品牌頁寫生產在德國 Trostberg。Creapure 劑量頁是同一品牌。NutraIngredients 2026-05-28 也把 Creapure 寫成 Alzchem 的德國肌酸。呈定企業目錄有列出 Creapure、品牌欄寫 AlzChem，但沒有寫「代理」或「經銷」，Alzchem 頁也沒有指名呈定，所以不填台灣窗口。",
+        "relationshipNote": "Alzchem 與 Creapure 頁寫生產在德國 Trostberg，沒有指名台灣公司。呈定企業有限公司目錄列出「肌酸 Creapure®」，品牌欄是 AlzChem；同站品牌頁只寫德國 Alzchem、肌酸。兩頁都沒有寫代理或經銷，所以名稱先填呈定，關係維持未確認。",
         "supplierCountry": "德國",
         "supplierName": "Alzchem Group AG",
-        "taiwanPartyName": "查無"
+        "taiwanPartyName": "呈定企業有限公司"
       },
       "tfda": {
         "evidenceNotes": "食品原料查到肌酸（Creatine、Creatine monohydrate）1 筆，添加物與商品名 Creapure 都是 0 筆，不是未確認安全性。須標示「肌酸不適合一般人食用；如擬食用，須在醫師、營養師或專業人士之指導下使用」，並載明肌肉裂傷、體水滯留、腎臟負擔、抽筋嘔吐、腸胃不適等可能副作用。沒有寫每日上限。",
@@ -1388,7 +1436,7 @@ window.INGREDIENT_CATALOG = {
       ],
       "supply": {
         "relationship": "taiwan_distributor",
-        "relationshipNote": "虛構新聞稿把示例生技寫成台灣窗口，虛構展覽名錄把北風植物寫成製造商。兩份來源的角色一致，仍只是流程示範，沒有代理證明。",
+        "relationshipNote": "虛構新聞稿把示例生技寫成台灣關聯廠商，虛構展覽名錄把北風植物寫成製造商。兩份來源的角色一致，仍只是流程示範，沒有代理證明。",
         "supplierCountry": "芬蘭 Finland",
         "supplierName": "北風植物實驗室 Northwind Botanica（虛構）",
         "taiwanPartyName": "示例生技股份有限公司（虛構）"
@@ -1639,14 +1687,30 @@ window.INGREDIENT_CATALOG = {
           "title": "New clinical study on Hytolive",
           "url": "https://www.alvinesa.com/en/new-clinical-study-confirms-the-antioxidant-and-metabolic-benefits-of-hytolive/",
           "whatItContributes": "供應商自己的試驗新聞：49 名過重且糖尿病前期成人、每日 15 mg 羥基酪醇、16 週，並給論文作者與期刊名。"
+        },
+        {
+          "accessed": "2026-11-05",
+          "channel": "other",
+          "publisher": "統園企業",
+          "title": "統園企業機能性素材",
+          "url": "https://www.tyig.com.tw/web/product/product.jsp?lang=tw",
+          "whatItContributes": "素材清單有「橄欖抽出物 Hytolive™」。這頁沒有寫 Hytolive 的代理或經銷。"
+        },
+        {
+          "accessed": "2026-11-05",
+          "channel": "other",
+          "publisher": "統園企業",
+          "title": "統園企業文章：請認明 Hytolive",
+          "url": "https://www.tyig.com.tw/web/share/share_in.jsp?lang=tw&np_no=NP1622964581453",
+          "whatItContributes": "同站文章寫請認明西班牙產 Hytolive 商標。沒有寫獨家代理。"
         }
       ],
       "supply": {
         "relationship": "unknown",
-        "relationshipNote": "產品頁與 2025 年臨床新聞都在 alvinesa.com，地址寫西班牙 Ciudad Real 的 Daimiel。NutraIngredients 2025-10-22 把試驗用的羥基酪醇寫成 Hytolive、Alvinesa Natural Ingredients。沒有查到台灣代理或經銷的公開指名，關係維持 unknown。",
+        "relationshipNote": "Alvinesa 產品頁地址在西班牙 Daimiel，沒有寫台灣公司。統園企業機能性素材頁列出「橄欖抽出物 Hytolive™」，同站文章寫請認明 Hytolive 商標。這次沒看到針對 Hytolive 的「代理」或「經銷」字樣，所以名稱先填統園，關係維持未確認。",
         "supplierCountry": "西班牙",
         "supplierName": "Alvinesa Natural Ingredients",
-        "taiwanPartyName": "查無"
+        "taiwanPartyName": "統園企業股份有限公司"
       },
       "tfda": {
         "evidenceNotes": "食品原料查到油橄欖果實渣萃取物（含羥基酪醇）1 筆，添加物與商品名 Hytolive 都是 0 筆，不是未確認安全性。羥基酪醇須占 15–40%，每日以羥基酪醇計 20 毫克以下，並標「孕婦及嬰幼兒不宜食用」。同名學名下的橄欖與橄欖油不是這個果渣規格。產品頁沒寫含量百分比或果渣，不能當成已符合 15–40%。",
@@ -1736,7 +1800,7 @@ window.INGREDIENT_CATALOG = {
     {
       "discovery": {
         "channel": "exhibition",
-        "notes": "從 PharmaGABA 的 Vitafoods Asia 2026 攤位稿開始，對官網的發酵製程與效益頁的毫克數，再看統園是否自稱為台灣窗口。TFDA 的菌種與每日 100 毫克是用助手同一筆原料抄的，沒有把 200 毫克寫成可用劑量。",
+        "notes": "從 PharmaGABA 的 Vitafoods Asia 2026 攤位稿開始，對官網的發酵製程與效益頁的毫克數，再看統園產品頁。該頁自稱為獨家代理，供應商頁沒有互指。TFDA 的菌種與每日 100 毫克是用助手同一筆原料抄的，沒有把 200 毫克寫成可用劑量。",
         "scoutDate": "2026-11-05"
       },
       "efficacy": {
@@ -1810,7 +1874,7 @@ window.INGREDIENT_CATALOG = {
       ],
       "supply": {
         "relationship": "taiwan_agent",
-        "relationshipNote": "僅有單方說法。統園產品頁寫「PharmaGABA 由統園企業獨家代理」。PharmaGABA 官網與 2026-08-04 的 Vitafoods Asia 稿寫的合作對象是 Mitsubishi Corporation Life Sciences，沒有寫統園。官網沒有互相指名，所以代理關係還沒有第二份來源。",
+        "relationshipNote": "統園產品頁寫「PharmaGABA 由統園企業獨家代理」。PharmaGABA 官網與 2026-08-04 的 Vitafoods Asia 稿寫的合作對象是 Mitsubishi Corporation Life Sciences，沒有寫統園。獨家代理是統園單方說法。",
         "supplierCountry": "日本",
         "supplierName": "Pharma Foods International Co., Ltd.",
         "taiwanPartyName": "統園企業股份有限公司"
@@ -1964,15 +2028,31 @@ window.INGREDIENT_CATALOG = {
           "publisher": "Richen Nutritional Technology",
           "title": "Richen Nutritional Technology contact page",
           "url": "https://www.richen-nutritional.com/contact-us/",
-          "whatItContributes": "公司英文名稱與上海地址，用來核對供應商國家。沒有寫台灣窗口。"
+          "whatItContributes": "公司英文名稱與上海地址，用來核對供應商國家。這頁沒有寫台灣公司。"
+        },
+        {
+          "accessed": "2026-11-05",
+          "channel": "other",
+          "publisher": "韋鎮實業有限公司",
+          "title": "韋鎮實業有限公司",
+          "url": "https://www.phfcorp.com.tw/",
+          "whatItContributes": "網站名稱是韋鎮實業有限公司，自述為保健食品原料進出口，商品列有 RiviK2。"
+        },
+        {
+          "accessed": "2026-11-05",
+          "channel": "other",
+          "publisher": "韋鎮實業有限公司",
+          "title": "韋鎮實業 RiviK2 商品頁",
+          "url": "https://www.phfcorp.com.tw/page/product/show.aspx?num=263",
+          "whatItContributes": "商品頁列出 RiviK2，原廠寫中國。頁上沒有寫代理或經銷。"
         }
       ],
       "supply": {
         "relationship": "unknown",
-        "relationshipNote": "展後稿與 MK-7 產品頁都在 richenglobal.com，商品名是 RiviK2。另開到的 richen-nutritional.com 聯絡頁公司名是 Richen Nutritional Technology Co., Ltd.，地址在上海。兩個網域沒有在同一頁互相連結，只是商品名與公司英文名對得上。沒有看到台灣代理或經銷的名稱。",
+        "relationshipNote": "Richen 產品頁與上海聯絡頁沒有寫台灣公司。韋鎮實業有限公司商品頁列出 RiviK2，原廠寫中國，頁上沒有寫代理或經銷。名稱先填韋鎮，關係維持未確認。",
         "supplierCountry": "中國",
         "supplierName": "Richen Nutritionals",
-        "taiwanPartyName": "查無"
+        "taiwanPartyName": "韋鎮實業有限公司"
       },
       "tfda": {
         "evidenceNotes": "食品原料查無維生素 K2。食品添加物有 1 筆，是營養添加劑 Menaquinone（Vitamin K2），各類食品視實際需要適量使用，且限於補充食品中不足的營養素；規格欄是空的，不是未確認安全性。商品名 RiviK2 與 MK-7 都沒有另列。維生素 K1、K3 是不同品項。",

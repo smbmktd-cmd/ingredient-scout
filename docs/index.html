@@ -27,6 +27,19 @@
   </header>
   <p id="live" class="live" aria-live="polite"></p>
   <div id="banner"></div>
+  <section class="panel team-panel" id="team-panel" hidden aria-labelledby="team-title">
+    <h2 id="team-title">團隊累計</h2>
+    <p id="team-copy">正在讀取試算表上的團隊累計。</p>
+    <div class="table-wrap">
+      <table id="team-summary">
+        <caption>試算表上的贊成與反對。同一張匿名票對同一原料只算最新的選擇。</caption>
+        <thead>
+          <tr><th>原料</th><th>贊成</th><th>反對</th><th>備註</th></tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </section>
   <main id="list">
     <p class="loading">正在讀取本日原料…</p>
   </main>
@@ -36,10 +49,11 @@
     <div class="row-actions">
       <button type="button" id="download" class="primary">下載投票 JSON</button>
       <button type="button" id="copy">複製分享連結</button>
-      <button type="button" id="send" hidden>送到共享收集端</button>
+      <button type="button" id="send" hidden>立即同步</button>
       <button type="button" id="clear" class="quiet">清除這日的本機表態</button>
     </div>
     <p id="backend-note"></p>
+    <p id="sync-note" class="sync-note"></p>
     <label class="share-fallback" id="share-fallback" hidden>
       自動複製失敗，請手動複製這條連結
       <input id="share-url" type="text" readonly>
@@ -48,7 +62,7 @@
   <details class="staff" id="staff">
     <summary>工作人員：合併多人投票</summary>
     <div class="staff-body">
-      <p>請同事各下載一份 JSON，或貼上他們的分享連結。完全相同的檔案只算一次。這裡一樣不記錄是誰投的。</p>
+      <p>請同事各下載一份 JSON，或貼上他們的分享連結。完全相同的檔案只算一次。這裡一樣不記錄是誰投的。若已接上試算表，頁面上方的團隊累計才是即時數字；這裡用來覆核下載檔。</p>
       <label class="file">
         匯入投票檔
         <input id="files" type="file" accept="application/json,.json,.txt" multiple>
@@ -80,18 +94,22 @@
         <li>選日期。每天的原料來自儲存庫的 <code>data/days</code>。</li>
         <li>每筆原料選「贊成」或「反對」，備註可留白。不要寫姓名、部門、電話或信箱。</li>
         <li>同一台瀏覽器再按一次會改掉原來的選擇，不會變成兩票。</li>
-        <li>下載 JSON 或複製分享連結，交給負責彙總的同事。這是預設、也是不需設定就能用的做法。</li>
-        <li>若頁面上出現「送到共享收集端」，那是另外接上的表單或試算表，沒送成功也不影響下載。</li>
+        <li>下載 JSON 或複製分享連結，交給負責彙總的同事。沒有設定收集端時，這是把票交出去的做法。</li>
+        <li>若已接上試算表，打開頁面就會看到「團隊累計」，表態後會自動同步。那個數字和「本機」分開。</li>
+        <li>Formspree 只做收件備份。兩個網址都寫在公開的設定檔，知道網址的人都能送資料。</li>
       </ol>
       <p><a id="readme-link" href="">欄位定義與每日作業</a></p>
     </div>
   </details>
   <footer>
-    <p>表態存在這台裝置的 localStorage。清除瀏覽器網站資料後，未下載的表態會消失。</p>
+    <p>表態存在這台裝置的 localStorage，並附一組隨機產生的匿名票號（不是姓名）。清除瀏覽器網站資料後，未同步、未下載的表態會消失。收集端網址若有填，是公開的。</p>
   </footer>
   <div class="dock">
     <div class="dock-inner">
-      <p id="dock-tally">尚未載入</p>
+      <div class="dock-copy">
+        <p id="dock-tally">尚未載入</p>
+        <p id="dock-team" hidden>團隊累計</p>
+      </div>
       <button type="button" id="download-dock">下載投票 JSON</button>
     </div>
   </div>

@@ -28,8 +28,9 @@
 | `templates/ingredient.blank.json` | 原料空白檔 |
 | `templates/day.blank.json` | 日報空白檔 |
 | `docs/` | 投票頁。GitHub Pages 請發佈這個資料夾 |
-| `docs/config.js` | 團隊名稱、儲存庫網址、可選的收集端 |
-| `optional/google-apps-script/Code.gs` | 可選的試算表收集端 |
+| `docs/config.js` | 團隊名稱、儲存庫網址、Formspree 與試算表網址 |
+| `optional/google-apps-script/Code.gs` | 試算表收集與頁面上的團隊累計 |
+| `scripts/lib/sheet-tally.js` | 試算表改票與計票的純函式，供檢查腳本與 Code.gs 共用 |
 | `scripts/build-catalog.mjs` | 把 `data/` 編成投票頁讀的目錄 |
 | `scripts/validate.mjs` | 檢查欄位、範例標記與投票邏輯 |
 
@@ -120,7 +121,7 @@ python3 -m http.server 8765
 
 5. 若 Pages 的資料夾誤設成根目錄，根目錄的 `index.html` 會轉到 `docs/index.html`。正式設定仍請用 `/docs`。
 
-頁面是公開的。知道網址的人都能投票。連結請只傳給要表態的同事，並接受匿名頁面無法從技術上阻止有人重投。計票方式見下一節。
+頁面是公開的。知道網址的人都能投票，沒有登入。連結請只傳給要表態的同事，並接受匿名頁面無法從技術上阻止有人重投。若設定了試算表，打開連結就會看到當時的團隊累計。計票方式見下一節。
 
 把這個專案 **Use this template** 之後，網址裡的帳號與儲存庫名稱會改變，請一併改 `docs/config.js` 的 `repoUrl`，以及 `.github/ISSUE_TEMPLATE/config.yml` 裡的投票頁網址。
 
@@ -137,41 +138,75 @@ https://smbmktd-cmd.github.io/ingredient-scout/?date=2026-11-05
 表態方式：
 
 - 每筆原料按 **贊成** 或 **反對**。
-- 備註可以不寫。寫了會進入下載檔，所以不要留姓名、綽號、部門或信箱。
-- 同一台瀏覽器對同一筆再按一次，只會改成新的選擇，不會變成兩票。這份記憶放在這台瀏覽器的 localStorage，沒有帳號。
-- 清除網站資料、或換一台裝置，之前沒下載的選擇會消失。離開前按 **下載投票 JSON**。
+- 備註可以不寫。寫了會出現在下載檔，也會出現在團隊累計的備註欄，所以不要留姓名、綽號、部門或信箱。
+- 同一台瀏覽器對同一筆再按一次，只會改成新的選擇，不會變成兩票。這份記憶放在這台瀏覽器的 localStorage，並附一組隨機票號，沒有帳號。
+- 清除網站資料、或換一台裝置，會變成另一張票。離開前按 **下載投票 JSON**。已同步進試算表的那一票仍留在表上，直到同一台瀏覽器再送出清除。
 
 ## 票存在哪裡
 
-預設不把內容送到任何伺服器。投票頁一定做得到這三件事：
+兩個網址都留空時，內容不會送到別的伺服器。投票頁一定做得到這三件事：
 
-1. **畫面上的本機計數**：只統計這台瀏覽器，標題寫明還不是團隊總數。
-2. **下載投票 JSON**：檔名像 `votes-2026-11-05.json`。一份檔案是一張匿名票，同一原料只有一列。
+1. **本機計數**：只統計這台瀏覽器。沒接試算表時，標題會寫明還不是團隊總數。
+2. **下載投票 JSON**：檔名像 `votes-2026-11-05.json`。一份檔案是一張匿名票，同一原料只有一列。下載檔不含票號。
 3. **複製分享連結**：連結的 `#ballot=` 後面是同一份投票。同事把連結或 JSON 交給負責彙總的人。
 
 負責彙總的人打開投票頁下方「工作人員：合併多人投票」，匯入每個人的 JSON 或貼上分享連結。完全相同的檔案只算一次。其他日期的檔案不會算進目前選的那一天。確認張數後下載 `vote-summary-YYYY-MM-DD.json`，需要留底再放到 `data/votes/`。
 
-請每人交最新的一份。同一人先後交了兩版不同內容時，畫面上會看成兩張票；彙總的人可按「移除」去掉舊的那份。
+請每人交最新的一份。同一人先後交了兩版不同內容時，離線彙總會看成兩張票；彙總的人可按「移除」去掉舊的那份。試算表那一條則會覆寫同一張票，不會把改票算成兩個人。
 
-### 可選的共享收集端
+### Formspree 與試算表各做什麼
 
-`docs/config.js` 的 `submitEndpoint` 保持空白時，頁面上不會出現外送按鈕。要改成多人寫進同一個表單時，二選一：
+兩條可以同時開，也可以只開一條。網址都填在 `docs/config.js`，留空的那條不會被呼叫。
+
+| | Formspree | Google 試算表 |
+| --- | --- | --- |
+| 角色 | 收件匣／備份 | 頁面上團隊累計的來源 |
+| 同事打開連結時 | 頁面數字不變 | 立即看到當時的贊成、反對與備註 |
+| 有沒有登入 | 沒有 | 沒有 |
+| 設定欄位 | `formspreeEndpoint` | `tallyEndpoint`（`sheetEndpoint` 是別名） |
+
+頁面會在這台瀏覽器的 localStorage 放一組隨機票號（UUID）。它不是姓名、部門或信箱，只用來讓同一台瀏覽器改票時覆寫舊列。換瀏覽器或清掉網站資料會變成另一張票。
 
 **Formspree**
 
 1. 在 Formspree 建一張表單，確認它不要求填信箱。
-2. `submitEndpoint` 填 `https://formspree.io/f/xxxxxxxx`。
-3. `submitMode` 填 `formspree`。
+2. `formspreeEndpoint` 填表單端點，形如 `https://formspree.io/f/xxxxxxxx`。
+3. 只填 Formspree、不填試算表時，頁面維持本機計數，並出現「送到 Formspree」。送出的欄位是日期、票號、投票 JSON，沒有姓名。
+4. 試算表也有填時，每次表態會一併把同一份內容送到 Formspree，不必再按一次。
 
-**Google 試算表**
+舊設定仍可用：`submitMode` 填 `formspree`、網址填在 `submitEndpoint`。新的表單請改填 `formspreeEndpoint`。
 
-`optional/google-apps-script/Code.gs` 裡有部署步驟。部署成「任何人」可開啟的網頁應用程式後，把網址填進 `submitEndpoint`，`submitMode` 填 `webhook`。
+**Google 試算表（團隊累計）**
 
-送出的是整份當日投票，不含姓名。同一份內容連按兩次不會重送；改了選擇或備註可以再送。瀏覽器若擋下跨站請求，頁面會保留本機記錄並請同事改下載。試算表可能在同一人改票後多出一列，所以正式張數仍以彙總 JSON 為準。
+手動部署步驟也寫在 `optional/google-apps-script/Code.gs` 檔首。摘要如下：
 
-收集端網址會寫在公開的 JavaScript 裡，知道網址的人都能送資料。它是方便用的副本，不是門禁。
+1. 建立空白 Google 試算表。用該試算表的 **擴充功能 → Apps Script** 貼上 `Code.gs`。不要另開獨立指令碼，否則腳本找不到這張表。
+2. **部署 → 新增部署 → 網頁應用程式**。執行身分選 **我**，存取權選 **任何人**。不要選「任何人（Google 帳戶）」，否則同事會被導去登入，頁面讀不到數字。
+3. 複製以 `/exec` 結尾的網址，貼到 `tallyEndpoint`。`sheetEndpoint` 可留空。
+4. 用瀏覽器打開 `網址?date=2026-11-05`。應看到 JSON，例如 `{"ok":true,"date":"2026-11-05","ballots":0,"results":[]}`，而不是 Google 登入頁。
+5. 同事打開 `https://smbmktd-cmd.github.io/ingredient-scout/?date=當天`。頁面上方出現「團隊累計」，每張卡片上也有該原料的贊成與反對。表態後約一秒會寫進試算表，並重新讀取累計。每隔約 25 秒會再讀一次。
+6. 之後若改了 `Code.gs`：**部署 → 管理部署 → 鉛筆 → 版本選新版本 → 部署**，網址可以不變。若按的是「新增部署」，網址會換，`tallyEndpoint` 要一起換。
+
+試算表第一列會自動寫成 `receivedAt`、`ballotId`、`date`、`ingredientId`、`choice`、`note`。POST 的本文是 `{kind,date,ballotId,votes:[{ingredientId,choice,note}]}`，而且是這張票當天的完整內容。同一票號再投會覆寫，不會永遠追加一列；這次沒帶的原料會從這張票拿掉。GET `?date=YYYY-MM-DD` 回傳 `{ok,date,ballots,results:[{ingredientId,approve,oppose,notes}]}`。同一張票對同一原料只算最新一列。這個 JSON 不含票號。
+
+舊的五欄表（還沒有 `ballotId`）會在第一次新票寫入時自動補上票號欄。那些舊列沒有票號，每一列會先各算一張，避免整批被丟掉。
+
+**跨網域：** Apps Script 的 `ContentService` 不能自訂 CORS 標頭。實際請求是兩段：瀏覽器先 `POST`（`Content-Type` 必須是 `text/plain`，避免 OPTIONS 預檢），Apps Script 回 **302**，`Location` 指向 `script.googleusercontent.com/macros/echo`。瀏覽器再 **GET** 那個 echo 網址，才讀得到 JSON。302 與 echo 都會帶 `Access-Control-Allow-Origin: *`。投票頁用 `redirect: "follow"` 走完這兩段；若程式自己還看得到 302 與 `Location`，會改對 echo 發 GET，不會再 POST。不要用 curl 之類會把 `Content-Type` 留在第二段 GET 的客戶端硬跟轉址，那樣會拿到 HTML 錯誤頁。讀取若仍失敗，才改帶 `callback` 用 JSONP。存取權不是「任何人」時，這兩種都讀不到。公開網址必須是 https。只有 `localhost` 與 `127.0.0.1` 可以用 http，方便在自己的電腦接一個試算表替身。
+
+`submitMode` 填 `webhook`、網址填在 `submitEndpoint` 的舊設定，仍會被當成試算表網址。新的部署請填 `tallyEndpoint`。
+
+收集端網址會寫在公開的 JavaScript 裡。知道網址的人都能送資料、也能讀走當天的累計與備註。它是方便用的共同計票，不是門禁。不要在備註留下可以認出個人的內容。
 
 不要改用 GitHub Issue 收集投票。Issue 會帶出送出者的 GitHub 帳號，就不是匿名表態。
+
+### 部署後怎麼自己看一次
+
+自動檢查涵蓋改票覆寫與計票，但不會真的連上你的 Google 或 Formspree。網址填好並發布 Pages 之後：
+
+1. 用一般瀏覽器視窗打開當日連結，對一筆原料按贊成。卡片上的「團隊累計」與上方的表應在同步後增加。
+2. 用無痕視窗打開同一個連結。應看到剛才那一票，而本機數字仍是 0。再投一票反對，兩邊重新整理後，贊成與反對各自加總。
+3. 回到第一個視窗改按反對。試算表應只留該票號的新選擇，團隊累計的贊成減一、反對加一，而不是變成兩張票。
+4. 若有填 Formspree，收件匣應有同一天的備份，內容含票號與投票 JSON，沒有姓名欄。
 
 ## 當成 GitHub 範本
 
@@ -188,4 +223,4 @@ node scripts/validate.mjs
 
 `package.json` 裡的 `npm test` 也是這道指令。沒有需要安裝的套件。拉取請求會跑 `.github/workflows/validate.yml`。
 
-檢查包含：必填欄位、TFDA 狀態、練習檔是否仍標成虛構、正式日報是否為 5 筆、`docs/catalog.js` 是否與 `data/` 一致，以及投票的改票、分享碼與彙總是否會把同一份檔案算成兩票。
+檢查包含：必填欄位、TFDA 狀態、練習檔是否仍標成虛構、正式日報是否為 5 筆、`docs/catalog.js` 是否與 `data/` 一致、投票的改票、分享碼與彙總是否會把同一份檔案算成兩票，以及試算表計票是否會把同一張匿名票的改票算成兩票。`Code.gs` 裡的計票區塊必須與 `scripts/lib/sheet-tally.js` 相同。這道檢查不會連上 Google 或 Formspree；那兩段的手動步驟見上方「部署後怎麼自己看一次」。

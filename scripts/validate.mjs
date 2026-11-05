@@ -6,6 +6,7 @@ import { buildCatalog, loadRaw, readJson, serializeCatalog } from "./lib/catalog
 
 const require = createRequire(import.meta.url);
 const VoteModel = require("../docs/vote-model.js");
+const SheetTally = require("./lib/sheet-tally.js");
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const schema = readJson(path.join(root, "data", "schema.json"));
 const errors = [];
@@ -239,6 +240,18 @@ function checkDocs() {
   }
   if (!fs.existsSync(path.join(root, "LICENSE"))) fail("缺少 LICENSE");
   if (!fs.existsSync(path.join(root, "CONTRIBUTING.md"))) fail("缺少 CONTRIBUTING.md");
+  const config = fs.readFileSync(path.join(root, "docs", "config.js"), "utf8");
+  if (!/formspreeEndpoint:\s*""/.test(config)) fail("formspreeEndpoint 應保持空白");
+  if (!/tallyEndpoint:\s*""/.test(config)) fail("tallyEndpoint 應保持空白");
+  if (!/sheetEndpoint:\s*""/.test(config)) fail("sheetEndpoint 應保持空白");
+  if (/formspree\.io\/f\/(?!xxxxxxxx)/.test(config)) fail("不要寫入真實 Formspree 網址");
+  if (/script\.google\.com\/macros\/s\/(?!xxxxxxxx)/.test(config)) fail("不要寫入真實 Apps Script 網址");
+  for (const needle of ["team-panel", "team-summary", "dock-team", "sync-note"]) {
+    if (!html.includes(needle)) fail("投票頁缺少：" + needle);
+  }
+  for (const needle of ["tallyEndpoint", "formspreeEndpoint", "text/plain;charset=utf-8", "團隊累計", "ballotId"]) {
+    if (!app.includes(needle)) fail("投票頁腳本缺少：" + needle);
+  }
 }
 
 function checkCatalog() {
@@ -315,6 +328,186 @@ function checkVoteModel() {
   assert(badChoice, "贊成與反對以外的值應被拒絕");
 }
 
+function assertSheet(condition, message) {
+  if (!condition) fail("試算表計票：" + message);
+}
+
+function sheetError(fn) {
+  try {
+    fn();
+  } catch (error) {
+    return error.message;
+  }
+  return "";
+}
+
+function markedBlock(source) {
+  const startToken = "// tally-logic:start";
+  const endToken = "// tally-logic:end";
+  const start = source.indexOf(startToken);
+  const end = source.indexOf(endToken);
+  if (start < 0 || end < start) return "";
+  return source.slice(start + startToken.length, end).replace(/\r\n/g, "\n").trim();
+}
+
+function applySheetPost(values, body, receivedAt) {
+  const migrated = SheetTally.migrateLegacyValues(values);
+  let nextValues = values;
+  if (migrated.action === "write") nextValues = [SheetTally.SHEET_HEADERS.slice()];
+  else if (migrated.action === "insertBallotId") nextValues = migrated.values;
+  else if (migrated.action === "unknown") throw new Error("headers");
+  const rows = SheetTally.upsertBallotRows(
+    SheetTally.rowsFromSheetValues(nextValues).rows,
+    SheetTally.parseBallotPost(body),
+    receivedAt
+  );
+  return SheetTally.sheetValuesFromRows(rows);
+}
+
+function checkSheetTally() {
+  const lib = markedBlock(fs.readFileSync(path.join(root, "scripts", "lib", "sheet-tally.js"), "utf8"));
+  const gas = markedBlock(fs.readFileSync(path.join(root, "optional", "google-apps-script", "Code.gs"), "utf8"));
+  assertSheet(lib.length > 0 && lib === gas, "Code.gs 的計票區塊必須與 scripts/lib/sheet-tally.js 相同");
+  const code = fs.readFileSync(path.join(root, "optional", "google-apps-script", "Code.gs"), "utf8");
+  for (const needle of ["function doGet", "function doPost", "text/plain", "任何人", "JSONP", "ballotId"]) {
+    assertSheet(code.includes(needle), "Code.gs 缺少：" + needle);
+  }
+  const app = fs.readFileSync(path.join(root, "docs", "app.js"), "utf8");
+  const ballotLiteral = app.match(/const BALLOT_RE = (\/\^\[0-9a-f\].*\/i);/);
+  assertSheet(ballotLiteral, "投票頁應有與試算表相同的票號格式");
+  const ballotRe = eval(ballotLiteral[1]);
+  const first = "11111111-1111-4111-8111-111111111111";
+  const second = "22222222-2222-4222-8222-222222222222";
+  assertSheet(ballotRe.test(first) && SheetTally.isBallotId(first), "票號格式應接受 UUID");
+  assertSheet(!SheetTally.isBallotId("person@example.com"), "票號不應接受信箱");
+  assertSheet(sheetError(() => SheetTally.parseBallotPost({
+    kind: "ingredient-scout-votes",
+    date: "2026-11-05",
+    ballotId: first,
+    email: "person@example.com",
+    votes: []
+  })) === "identity", "含有電子郵件欄位的選票應被拒絕");
+  assertSheet(sheetError(() => SheetTally.parseBallotPost({
+    kind: "ingredient-scout-votes",
+    date: "2026-02-31",
+    ballotId: first,
+    votes: []
+  })) === "date", "不存在的日期應被拒絕");
+  assertSheet(sheetError(() => SheetTally.parseBallotPost({
+    kind: "other",
+    date: "2026-11-05",
+    ballotId: first,
+    votes: []
+  })) === "kind", "其他 kind 應被拒絕");
+
+  const berry = "example-aurora-berry";
+  const peptide = "example-lumen-peptide";
+  const longNote = "註".repeat(1200);
+  let values = applySheetPost([], {
+    kind: "ingredient-scout-votes",
+    date: "2026-11-05",
+    ballotId: first.toUpperCase(),
+    version: 1,
+    votes: [
+      { ingredientId: berry, choice: "approve", note: "  先觀察  ", updatedAt: "2026-11-05T00:00:00.000Z" },
+      { ingredientId: peptide, choice: "oppose", note: longNote }
+    ]
+  }, "2026-11-05T00:00:00.000Z");
+  let rows = SheetTally.rowsFromSheetValues(values).rows;
+  assertSheet(rows.length === 2, "第一張票應寫入兩列");
+  assertSheet(rows[0].ballotId === first && rows[0].note === "先觀察", "票號要轉成小寫，備註要去掉前後空白");
+  assertSheet(rows[1].note.length === 1000, "備註應截斷在 1000 字");
+  values = applySheetPost(values, {
+    kind: "ingredient-scout-votes",
+    date: "2026-11-05",
+    ballotId: first,
+    votes: [{ ingredientId: berry, choice: "oppose", note: "改票" }]
+  }, "2026-11-05T01:00:00.000Z");
+  rows = SheetTally.rowsFromSheetValues(values).rows;
+  assertSheet(rows.length === 1 && rows[0].choice === "oppose" && rows[0].ingredientId === berry, "改票應覆寫，並拿掉這次沒再投的原料");
+  values = applySheetPost(values, SheetTally.buildCloudBallot("2026-11-04", first, [
+    { ingredientId: berry, choice: "approve", note: "" }
+  ]), "2026-11-05T02:00:00.000Z");
+  values = applySheetPost(values, SheetTally.buildCloudBallot("2026-11-05", second, [
+    { ingredientId: berry, choice: "approve", note: "第二張" },
+    { ingredientId: peptide, choice: "approve", note: "第二張" }
+  ]), "2026-11-05T03:00:00.000Z");
+  rows = SheetTally.rowsFromSheetValues(values).rows;
+  assertSheet(rows.length === 4, "另一天與另一張票都要留下");
+  const tally = SheetTally.tallySheetRows(rows, "2026-11-05");
+  assertSheet(tally.ok === true && tally.ballots === 2, "同一天應有兩張匿名票");
+  const berryRow = tally.results.find((row) => row.ingredientId === berry);
+  const peptideRow = tally.results.find((row) => row.ingredientId === peptide);
+  assertSheet(berryRow.approve === 1 && berryRow.oppose === 1, "同一原料的兩張票要各算一次");
+  assertSheet(peptideRow.approve === 1 && peptideRow.oppose === 0, "沒再投的原料不應留下舊的反對");
+  assertSheet(berryRow.notes.join(" / ") === "改票 / 第二張", "備註要來自每張票的最新選擇");
+  assertSheet(!JSON.stringify(tally).includes(first) && !JSON.stringify(tally).includes(second), "公開計票不應含票號");
+  const duplicated = rows.concat([{
+    receivedAt: "2026-11-05T04:00:00.000Z",
+    ballotId: second,
+    date: "2026-11-05",
+    ingredientId: berry,
+    choice: "oppose",
+    note: "較新的一列"
+  }]);
+  const latest = SheetTally.tallySheetRows(duplicated, "2026-11-05");
+  const latestBerry = latest.results.find((row) => row.ingredientId === berry);
+  assertSheet(latestBerry.approve === 0 && latestBerry.oppose === 2, "同一張票的重複列只算最新的選擇");
+  assertSheet(latestBerry.notes.includes("較新的一列") && !latestBerry.notes.includes("第二張"), "舊備註不應和較新的一列一起計算");
+  assertSheet(latest.ballots === 2, "重複列不應把同一張票算成兩張");
+  const cleared = SheetTally.upsertBallotRows(rows, SheetTally.parseBallotPost(
+    SheetTally.buildCloudBallot("2026-11-05", second, [])
+  ), "2026-11-05T05:00:00.000Z");
+  const afterClear = SheetTally.tallySheetRows(cleared, "2026-11-05");
+  assertSheet(afterClear.ballots === 1 && afterClear.results.length === 1, "送出空票應從這一天拿掉該票號");
+  const legacyValues = [
+    ["receivedAt", "date", "ingredientId", "choice", "note", ""],
+    ["2026-11-05T00:00:00.000Z", "2026-11-05", berry, "approve", "舊資料"],
+    [new Date("2026-11-05T00:30:00.000Z"), "2026-11-05", peptide, "oppose", "日期物件"]
+  ];
+  assertSheet(SheetTally.headerMigration(legacyValues[0]).action === "insertBallotId", "舊版五欄應補上票號欄");
+  const migrated = SheetTally.migrateLegacyValues(legacyValues);
+  const legacyRows = SheetTally.rowsFromSheetValues(migrated.values).rows;
+  assertSheet(legacyRows[0].ballotId === "" && legacyRows[1].receivedAt === "2026-11-05T00:30:00.000Z", "舊列遷移後要保留內容，並把日期儲存格轉成文字");
+  const legacyTally = SheetTally.tallySheetRows(legacyRows, "2026-11-05");
+  assertSheet(legacyTally.ballots === 2 && legacyTally.results[0].approve === 1, "沒有票號的舊列仍要各自計入");
+  assertSheet(SheetTally.headerMigration(["receivedAt", "ballotId", "date", "ingredientId", "choice", "note", ""]).action === "ready", "結尾空白欄不應被當成未知表頭");
+  assertSheet(SheetTally.headerMigration(["receivedAt", "email"]).action === "unknown", "不認得的表頭不應覆寫");
+  assertSheet(sheetError(() => SheetTally.parseBallotPost(SheetTally.buildCloudBallot("2026-11-05", first, [
+    { ingredientId: berry, choice: "approve", note: "" },
+    { ingredientId: berry, choice: "oppose", note: "" }
+  ]))) === "ingredient", "同一份選票不應對同一原料投兩次");
+  const round = SheetTally.sheetValuesFromRows(SheetTally.rowsFromSheetValues(values).rows);
+  assertSheet(JSON.stringify(round) === JSON.stringify(values), "寫回試算表再讀出應得到同一批列");
+  const echo = "https://script.googleusercontent.com/macros/echo?user_content_key=abc";
+  const redirect = SheetTally.gasRedirectAction(302, echo);
+  assertSheet(redirect.action === "get-echo" && redirect.url === echo, "302 應改以 GET 讀 echo 網址");
+  assertSheet(SheetTally.gasRedirectAction(200, echo).action === "read", "200 應直接讀本文");
+  assertSheet(SheetTally.gasRedirectAction(302, "").action === "read", "沒有 Location 時不應另發請求");
+  assertSheet(SheetTally.gasRedirectAction(0, echo).action === "read", "不透明轉址沒有可讀的 Location");
+  const appSource = fs.readFileSync(path.join(root, "docs", "app.js"), "utf8");
+  const libSource = fs.readFileSync(path.join(root, "scripts", "lib", "sheet-tally.js"), "utf8");
+  assertSheet(appSource.includes('action: "get-echo"') && libSource.includes('action: "get-echo"'), "投票頁要實作 echo GET");
+  assertSheet(appSource.includes('redirect: "follow"'), "投票頁的 Apps Script 請求要跟隨 302");
+  assertSheet(functionBody(appSource, "gasRedirectAction") === functionBody(libSource, "gasRedirectAction"), "投票頁與測試用的轉址判斷必須相同");
+}
+
+function functionBody(source, name) {
+  const token = "function " + name;
+  const start = source.indexOf(token);
+  if (start < 0) return "";
+  const open = source.indexOf("{", start);
+  let depth = 0;
+  for (let i = open; i < source.length; i += 1) {
+    if (source[i] === "{") depth += 1;
+    else if (source[i] === "}") {
+      depth -= 1;
+      if (depth === 0) return source.slice(start, i + 1).replace(/\r\n/g, "\n").trim();
+    }
+  }
+  return "";
+}
+
 const raw = loadRaw(root);
 const ingredientsById = new Map();
 for (const entry of raw.ingredients) {
@@ -328,6 +521,7 @@ if (raw.ingredients.length < 1) fail("至少要有一筆原料");
 for (const entry of raw.days) checkDay(entry, ingredientsById);
 checkDocs();
 checkVoteModel();
+checkSheetTally();
 checkCatalog();
 
 if (errors.length) {

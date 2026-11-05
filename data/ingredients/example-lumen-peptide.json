@@ -1,0 +1,128 @@
+{
+  "id": "example-lumen-peptide",
+  "example": true,
+  "names": {
+    "commonZh": "露明肽（虛構）",
+    "commonEn": "Lumen Peptide (fictional)",
+    "trade": "LUMEN-OP9（虛構商品名）",
+    "scientific": "Ficticia lumenensis（虛構來源菌學名）"
+  },
+  "supply": {
+    "supplierName": "海市發酵股份有限公司（虛構）",
+    "supplierCountry": "日本 Japan",
+    "relationship": "taiwan_agent",
+    "taiwanPartyName": "港口原料代理行（虛構）",
+    "relationshipNote": "虛構產業簡報把海市發酵寫成製造商，把港口原料代理行寫成台灣代理。這是代理關係的欄位示範，不是真實合約。"
+  },
+  "tfda": {
+    "usable": "example_only",
+    "evidenceNotes": "虛構肽類原料，沒有查核結論。肽類往往沒有傳統學名，正式查詢時中文商品名、英文肽名、來源菌學名要分開查。原料與添加物兩個分頁都要留下筆數。",
+    "lookupDate": "2026-11-05",
+    "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+    "queries": [
+      {
+        "tab": "ingredient",
+        "keyword": "露明肽",
+        "category": "",
+        "resultCount": null,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "範例未查核。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Ficticia lumenensis",
+        "category": "",
+        "resultCount": null,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "來源菌學名單獨查，避免只查商品名。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "Lumen Peptide",
+        "category": "",
+        "resultCount": null,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "添加物分頁的規格、使用範圍與限量要另外抄。"
+      },
+      {
+        "tab": "history",
+        "keyword": "露明肽",
+        "category": "",
+        "resultCount": null,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "更新歷程分頁用來看近期改版，不是准駁依據。"
+      }
+    ],
+    "officialCrosscheck": {
+      "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+      "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+      "done": false,
+      "notes": "範例未做官方頁交叉核對。"
+    }
+  },
+  "efficacy": {
+    "claimedBenefits": [
+      "虛構產業簡報寫「供夜間作息相關配方參考」。這是選題用的市場句子，不是睡眠功效證據，也沒有臨床試驗。"
+    ],
+    "suggestedDosage": "虛構簡報自述 500 mg／日。數字是編的，不能當食用依據。",
+    "dosageNote": "沒有文獻劑量，也沒有法規限量可抄。正式案件要寫出劑量是供應商建議、文獻劑量，還是法規上限。"
+  },
+  "patent": {
+    "status": "unknown",
+    "refs": [],
+    "note": "尚未用商品名與虛構菌名檢索專利。未知保持 unknown。"
+  },
+  "literature": {
+    "status": "unknown",
+    "refs": [],
+    "note": "尚未檢索。證據等級保持空白，避免把虛構原料標成細胞或臨床。"
+  },
+  "evidenceLevels": [],
+  "images": [
+    {
+      "url": "https://example.com/fictional/lumen-op9.jpg",
+      "localPath": "assets/placeholder.svg",
+      "caption": "示意框。虛構網址，不是發酵槽或包裝照片。",
+      "source": "other"
+    }
+  ],
+  "sources": [
+    {
+      "title": "虛構產業簡報：胜肽原料觀察",
+      "url": "https://example.com/reports/peptide-watch",
+      "publisher": "虛構產業週報",
+      "channel": "industry_report",
+      "accessed": "2026-11-05",
+      "whatItContributes": "商品名、代理窗口、市場定位用的效益句子。"
+    },
+    {
+      "title": "虛構供應商規格頁：LUMEN-OP9",
+      "url": "https://example.com/kaishi/lumen-op9",
+      "publisher": "海市發酵（虛構）",
+      "channel": "supplier_site",
+      "accessed": "2026-11-05",
+      "whatItContributes": "製造商國別、自述劑量與建議圖片欄位。"
+    },
+    {
+      "title": "虛構產業新聞：港口代理行接洽海市發酵",
+      "url": "https://example.com/news/lumen-agent-tw",
+      "publisher": "虛構產業電子報",
+      "channel": "news",
+      "accessed": "2026-11-05",
+      "whatItContributes": "交叉確認台灣代理這個角色，不是只靠簡報一句話。"
+    }
+  ],
+  "discovery": {
+    "channel": "industry_report",
+    "scoutDate": "2026-11-05",
+    "notes": "主來源是虛構產業簡報，再用虛構規格頁與一則虛構新聞核對代理關係。正式日報請把這個位子換成真實產業報導，並與新聞、展覽名錄錯開。"
+  }
+}

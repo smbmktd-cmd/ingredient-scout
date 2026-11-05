@@ -1,0 +1,29 @@
+name: 當日原料名單
+description: 提議某一天要放上投票頁的原料。不要寫同事姓名或聯絡方式。
+title: "日報："
+body:
+  - type: input
+    id: date
+    attributes:
+      label: 日期
+      placeholder: "2026-11-06"
+    validations:
+      required: true
+  - type: textarea
+    id: picks
+    attributes:
+      label: 大約五筆原料
+      description: 每行一筆，註明主管道是新聞、展覽名錄或產業報導。正式資料仍以 data/ 裡的 JSON 為準。
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: 送出前
+      options:
+        - label: 每筆都有兩個以上來源
+          required: true
+        - label: 已留下 TFDA 查詢日與結果，沒有把查不到寫成核准
+          required: true
+        - label: 內文沒有姓名、電話或信箱
+          required: true

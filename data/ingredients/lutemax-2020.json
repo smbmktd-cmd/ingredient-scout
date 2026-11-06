@@ -1,0 +1,158 @@
+{
+  "id": "lutemax-2020",
+  "example": false,
+  "names": {
+    "commonZh": "葉黃素與玉米黃素（金盞花／萬壽菊萃取）",
+    "commonEn": "lutein and zeaxanthin isomers (marigold extract)",
+    "trade": "Lutemax 2020（OmniActive 的金盞花來源黃斑色素商品名）",
+    "scientific": "Tagetes erecta L.（金盞花／萬壽菊來源；含 lutein、RR-zeaxanthin、meso-zeaxanthin）"
+  },
+  "supply": {
+    "supplierName": "OmniActive Health Technologies",
+    "supplierCountry": "印度",
+    "relationship": "taiwan_distributor",
+    "taiwanPartyName": "生資有限公司",
+    "relationshipNote": "生資產品頁完整介紹 Lutemax 2020（葉黃素 20%、玉米黃素 4%、用量 100 mg／日原料），頁上未見「獨家代理」字樣，故以目錄經銷關係填 taiwan_distributor。OmniActive 英文站本次未互指生資。"
+  },
+  "tfda": {
+    "usable": "listed_food_ingredient",
+    "evidenceNotes": "食品原料查到金盞草；萬壽菊（Tagetes erecta 等）1 筆，可供茶包／膳食調理或萃取後使用，不是未確認安全性；每日以產品中葉黃素總含量計 30 mg。商品名 Lutemax 0 筆。添加物另有葉黃素（營養添加劑／著色劑）與合成玉米黃素，膠囊／錠狀葉黃素不高於 30 mg、合成玉米黃素不高於 10 mg。本次以植物來源原料列名為主；成品仍須同時符合葉黃素相關限量。",
+    "lookupDate": "2026-11-07",
+    "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+    "queries": [
+      {
+        "tab": "ingredient",
+        "keyword": "金盞草",
+        "category": "草、木本植物類(1)供茶包、膳食調理包或萃取後作為原料",
+        "resultCount": 1,
+        "matchedName": "金盞草；萬壽菊",
+        "restrictionNote": "限列名品種；濾袋沖泡或萃取後食用；每日以產品中葉黃素總含量計 30 mg。",
+        "unconfirmedSafety": false,
+        "note": "學名含 Tagetes erecta L. 等。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "葉黃素",
+        "category": "草、木本植物類(1)供茶包、膳食調理包或萃取後作為原料",
+        "resultCount": 1,
+        "matchedName": "金盞草；萬壽菊",
+        "restrictionNote": "同上（備註指向葉黃素總含量 30 mg）。",
+        "unconfirmedSafety": false,
+        "note": "關鍵字命中同一筆植物原料。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Lutemax",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名沒有另列。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "葉黃素",
+        "category": "(八) 營養添加劑／(九) 著色劑",
+        "resultCount": 2,
+        "matchedName": "葉黃素",
+        "restrictionNote": "營養添加劑：膠囊／錠狀每日 lutein 總含量不高於 30 mg。著色劑另有食品類別用量限制。",
+        "unconfirmedSafety": false,
+        "note": "添加物葉黃素與原料植物列名並存；本次結論以原料列名為主。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "玉米黃素",
+        "category": "(八) 營養添加劑",
+        "resultCount": 1,
+        "matchedName": "合成玉米黃素",
+        "restrictionNote": "膠囊／錠狀每日 zeaxanthin 總含量不高於 10 mg。",
+        "unconfirmedSafety": false,
+        "note": "添加物為合成玉米黃素規格；Lutemax 宣稱含天然異構物，成品標示仍須對齊限量。"
+      },
+      {
+        "tab": "history",
+        "keyword": "萬壽菊",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "未改列未確認安全性。"
+      }
+    ],
+    "officialCrosscheck": {
+      "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+      "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+      "done": true,
+      "notes": "2026-11-07 依查詢助手公開 data.json 確認金盞草／萬壽菊原料列名與葉黃素 30 mg 上限，並交叉添加物葉黃素／合成玉米黃素；官方頁未另開。"
+    }
+  },
+  "efficacy": {
+    "claimedBenefits": [
+      "OmniActive 產品／新聞稿：Lutemax 2020 來自金盞花，提供 lutein、RR-zeaxanthin 與 meso-zeaxanthin，比例約 5:1，定位視覺表現、藍光防護與認知相關應用；並寫有多篇臨床研究發表。這是原廠宣稱。",
+      "生資產品頁：規格葉黃素 20%、玉米黃素 4%，原料用量 100 mg／日，並列出明亮視野、思緒靈光等應用方向；同時轉載 TFDA 葉黃素 30 mg 上限。這是台灣經銷頁轉述。",
+      "OmniActive 2025-05-14 新聞稿：Lutemax 2020 取得歐盟非新型食品（non-novel）地位，並預告於 Vitafoods Europe 2025 展出。"
+    ],
+    "suggestedDosage": "生資：原料 100 mg／日（對應葉黃素 20% → 約 20 mg 葉黃素、玉米黃素 4% → 約 4 mg）。OmniActive 皮膚相關摘要曾用 Lutemax 來源 10 mg 葉黃素 + 2 mg 玉米黃素異構物。",
+    "dosageNote": "經銷／原廠研究劑量。台灣原料與添加物框架均指向葉黃素總含量每日不高於 30 mg；生資 100 mg 原料（約 20 mg 葉黃素）低於上限。合成玉米黃素添加物另有 10 mg 上限，成品標示須一併核對。"
+  },
+  "patent": {
+    "status": "unknown",
+    "refs": [],
+    "note": "OmniActive／生資寫專利原料，本次沒有打開專利號頁，維持 unknown。"
+  },
+  "literature": {
+    "status": "unknown",
+    "refs": [],
+    "note": "OmniActive 寫 10 篇同儕審查臨床發表，本次沒有打開單篇論文，不標 clinical。"
+  },
+  "evidenceLevels": [],
+  "images": [
+    {
+      "url": "https://omniactives.com/wp-content/uploads/2021/04/Lutemax2020-1.png",
+      "localPath": "",
+      "caption": "OmniActive Lutemax 2020 官方產品頁標誌圖。",
+      "source": "official_site"
+    }
+  ],
+  "sources": [
+    {
+      "title": "OmniActive Secures EU Non-Novel Status for Lutemax 2020",
+      "url": "https://omniactives.com/press-releases/omniactive-secures-eu-non-novel-status-for-lutemax-2020/",
+      "publisher": "OmniActive Health Technologies",
+      "channel": "industry_report",
+      "accessed": "2026-11-07",
+      "whatItContributes": "2025-05 產業新聞稿：歐盟 non-novel 地位、5:1 黃斑色素組成與 Vitafoods Europe 2025 展出。"
+    },
+    {
+      "title": "Lutemax 2020 product page",
+      "url": "https://omniactives.com/product/lutemax-2020/",
+      "publisher": "OmniActive",
+      "channel": "supplier_site",
+      "accessed": "2026-11-07",
+      "whatItContributes": "原廠產品定位與視覺／認知應用說明。"
+    },
+    {
+      "title": "Lutemax2020®葉黃素｜油溶性金盞花專利萃取",
+      "url": "https://www.nutrisense.com.tw/ingredients/lutein-lutemax-2020/",
+      "publisher": "生資有限公司",
+      "channel": "other",
+      "accessed": "2026-11-07",
+      "whatItContributes": "台灣經銷規格（20%/4%）、用量 100 mg／日與 TFDA 葉黃素 30 mg 上限轉載。"
+    },
+    {
+      "title": "OmniActive CEO charts eye-brain nexus and women’s health growth",
+      "url": "https://www.nutritioninsight.com/news/omniactive-lutein-eye-brain-healthy-aging.html",
+      "publisher": "Nutrition Insight",
+      "channel": "news",
+      "accessed": "2026-11-07",
+      "whatItContributes": "2026-09 產業訪談；Lutemax 2020 被放在眼腦健康與健康老化產品線。"
+    }
+  ],
+  "discovery": {
+    "channel": "industry_report",
+    "scoutDate": "2026-11-07",
+    "notes": "從 OmniActive EU non-novel／Vitafoods 產業稿進入 Lutemax 2020，再對原廠產品頁、Nutrition Insight 訪談與生資台灣目錄。劑量以生資 100 mg 原料對齊葉黃素 30 mg 上限。"
+  }
+}

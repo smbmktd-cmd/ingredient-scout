@@ -1,0 +1,139 @@
+{
+  "id": "suntheanine",
+  "example": false,
+  "names": {
+    "commonZh": "茶胺酸",
+    "commonEn": "L-theanine",
+    "trade": "Suntheanine（Taiyo 的純 L-茶胺酸商品名）",
+    "scientific": "不適用（胺基酸衍生物 L-glutamic acid-γ-monoethylamide；可由酶促／發酵製程生產，非植物分類學名）"
+  },
+  "supply": {
+    "supplierName": "Taiyo International／Taiyo Kagaku",
+    "supplierCountry": "日本",
+    "relationship": "unknown",
+    "taiwanPartyName": "查無",
+    "relationshipNote": "Taiyo／Suntheanine 官方與北美 NutriScience 頁未指名台灣公司。搜尋創百、生資、統園、呈定公開目錄未見 Suntheanine 獨家代理頁，故填查無。"
+  },
+  "tfda": {
+    "usable": "listed_food_additive",
+    "evidenceNotes": "食品原料分頁查無茶胺酸／L-theanine／Suntheanine。食品添加物有 1 筆「茶胺酸／L-Theanine」，屬調味劑，各類食品用量 1 g／kg 以下，且限作調味劑使用；不是未確認安全性。將其當保健原料高劑量補充時，仍須自行評估是否超出調味劑用途與限量框架。",
+    "lookupDate": "2026-11-07",
+    "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+    "queries": [
+      {
+        "tab": "ingredient",
+        "keyword": "茶胺酸",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "原料分頁 0 筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "theanine",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "原料分頁 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "茶胺酸",
+        "category": "(十一) 調味劑",
+        "resultCount": 1,
+        "matchedName": "茶胺酸",
+        "restrictionNote": "本品可於各類食品中；用量為 1 g/kg 以下。限作調味劑使用。",
+        "unconfirmedSafety": false,
+        "note": "外文 L-Theanine。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "L-Theanine",
+        "category": "(十一) 調味劑",
+        "resultCount": 1,
+        "matchedName": "茶胺酸",
+        "restrictionNote": "同上。",
+        "unconfirmedSafety": false,
+        "note": "與中文名同一筆。"
+      },
+      {
+        "tab": "history",
+        "keyword": "茶胺酸",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "未改列未確認安全性。"
+      }
+    ],
+    "officialCrosscheck": {
+      "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+      "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+      "done": true,
+      "notes": "2026-11-07 依查詢助手公開 data.json 確認添加物列名與 1 g/kg 調味劑限量；官方頁未另開。"
+    }
+  },
+  "efficacy": {
+    "claimedBenefits": [
+      "Taiyo GmbH／Suntheanine 產品頁：口服 200 mg／serving 可在 30–40 分鐘誘導 alpha 波，描述為放鬆但保持清醒；焦慮者甚至 50 mg 可見放鬆效果；並宣稱有助減壓、入睡與睡眠品質、減緩咖啡因副作用等。這是原廠宣稱。",
+      "Suntheanine 2025-03-28 新聞：介紹其出現在高端 wellness mocktail／無酒精調飲場景，強調發酵製程純 L-異構物與研究累積。這是品牌新聞應用故事，不是劑量法規依據。"
+    ],
+    "suggestedDosage": "Taiyo 產品頁常用描述：200 mg／serving（alpha 波研究）；焦慮放鬆可見 50 mg／serving。",
+    "dosageNote": "原廠／研究取向劑量。台灣目前是以食品添加物調味劑列管（≤1 g/kg），不是另立保健原料每日上限；配方若走補充品高劑量，須另做法規評估，不能只抄 200 mg。"
+  },
+  "patent": {
+    "status": "unknown",
+    "refs": [],
+    "note": "Taiyo 自稱專利酶促／發酵製程，本次沒有打開專利號頁，維持 unknown。"
+  },
+  "literature": {
+    "status": "unknown",
+    "refs": [],
+    "note": "品牌宣稱超過百篇研究，本次沒有打開單篇論文，不標 clinical。"
+  },
+  "evidenceLevels": [],
+  "images": [
+    {
+      "url": "https://taiyogmbh.com/wp-content/uploads/2020/02/suntheanine_site.png",
+      "localPath": "",
+      "caption": "Taiyo GmbH Suntheanine 品牌頁圖片。",
+      "source": "official_site"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Mindful Drinking: Why Mixologists Are Turning to Suntheanine®",
+      "url": "https://www.suntheanine.com/in-the-news/mindful-drinking-why-suntheanine-is-appearing-on-exclusive-cocktail-menus/",
+      "publisher": "Suntheanine",
+      "channel": "news",
+      "accessed": "2026-11-07",
+      "whatItContributes": "2025-03 品牌新聞：功能調飲／mocktail 應用與發酵純 L-theanine 定位。"
+    },
+    {
+      "title": "Suntheanine - Pure L-Theanine powder",
+      "url": "https://taiyogmbh.com/en/start-en/brands/suntheanine-en/",
+      "publisher": "Taiyo GmbH",
+      "channel": "supplier_site",
+      "accessed": "2026-11-07",
+      "whatItContributes": "原廠效益、200 mg／50 mg 描述、水溶與純度說明。"
+    },
+    {
+      "title": "Contact NutriScience for Suntheanine®",
+      "url": "https://l-theanine.com/contact/",
+      "publisher": "NutriScience Innovations",
+      "channel": "other",
+      "accessed": "2026-11-07",
+      "whatItContributes": "北美獨家供應關係說明；未見台灣代理指名。"
+    }
+  ],
+  "discovery": {
+    "channel": "news",
+    "scoutDate": "2026-11-07",
+    "notes": "從 Suntheanine 2025 mindful drinking 新聞進入，再對 Taiyo 產品頁與北美通路頁。台灣代理公開頁查無；TFDA 以調味劑添加物列名。"
+  }
+}

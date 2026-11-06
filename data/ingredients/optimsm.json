@@ -1,0 +1,148 @@
+{
+  "id": "optimsm",
+  "example": false,
+  "names": {
+    "commonZh": "甲基硫醯基甲烷",
+    "commonEn": "methylsulfonylmethane (MSM)",
+    "trade": "OptiMSM（Balchem／Bergstrom Nutrition 的 MSM 商品名）",
+    "scientific": "不適用（化學合成／純化物 MSM，非植物學名）"
+  },
+  "supply": {
+    "supplierName": "Balchem Human Nutrition & Health（Bergstrom Nutrition／OptiMSM）",
+    "supplierCountry": "美國",
+    "relationship": "taiwan_agent",
+    "taiwanPartyName": "統園企業股份有限公司",
+    "relationshipNote": "統園 2026-06-18 新聞頁自稱「獨家代理」OptiMSM，並引述 Balchem 蒸餾純度與日本機能性表示食品案例。台灣卡爾迪克產品頁亦列出 BALCHEM-BERGSTROM OptiMSM；登盛企業目錄也有 OptiMSM 品項。以統園自稱獨家代理為主，其他通路頁作交叉，尚未看到原廠英文站互指統園。"
+  },
+  "tfda": {
+    "usable": "listed_food_ingredient",
+    "evidenceNotes": "食品原料查到甲基硫醯基甲烷（MSM）1 筆，不是未確認安全性。每日食用限量 6 公克，單一次劑量不得超過 2 公克；若以 DMSO 與過氧化氫合成，DMSO 殘留須低於 0.05%，並須標示避免睡前食用及孕婦、哺乳期婦女使用前諮詢醫師。商品名 OptiMSM 0 筆。添加物分頁 0 筆。Balchem／統園常見建議 1–3 g／日低於上限，仍須符合單次 ≤2 g。",
+    "lookupDate": "2026-11-07",
+    "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+    "queries": [
+      {
+        "tab": "ingredient",
+        "keyword": "甲基硫醯基甲烷",
+        "category": "以化學反應或酵素製程等加工處理之食品原料",
+        "resultCount": 1,
+        "matchedName": "甲基硫醯基甲烷",
+        "restrictionNote": "每日食用限量為六公克，且單一次劑量不得超過二公克；DMSO 合成路徑殘留限制；須標示「避免睡前食用，孕婦及哺乳期婦女使用前應先諮詢醫師」。",
+        "unconfirmedSafety": false,
+        "note": "外文 Methylsulfonyl Methane, MSM。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "MSM",
+        "category": "以化學反應或酵素製程等加工處理之食品原料",
+        "resultCount": 1,
+        "matchedName": "甲基硫醯基甲烷",
+        "restrictionNote": "同上。",
+        "unconfirmedSafety": false,
+        "note": "與中文名同一筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "OptiMSM",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名沒有另列。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "MSM",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "添加物分頁 0 筆。"
+      },
+      {
+        "tab": "history",
+        "keyword": "甲基硫醯基甲烷",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "未改列未確認安全性。"
+      }
+    ],
+    "officialCrosscheck": {
+      "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+      "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+      "done": true,
+      "notes": "2026-11-07 依查詢助手公開 data.json 確認列名與 6 g／日、單次 ≤2 g；官方頁未另開。"
+    }
+  },
+  "efficacy": {
+    "claimedBenefits": [
+      "Balchem OptiMSM 產品頁：宣稱提供有機硫來源，支持關節健康、運動後恢復與皮膚健康（beauty from within）；頁面引用臨床研究摘要（膝關節舒適度、運動後酸痛等）。這是原廠行銷宣稱。",
+      "Nutrition Insight／Vitafoods Asia 2026 展會報導：Balchem 將 OptiMSM 定位於亞太 beauty-from-within，並提到泰國 FDA 核准脈絡；功效細節仍以原廠與台灣代理頁為準。",
+      "統園新聞頁：引述日本 LocomoSutein 以每日 2,000 mg OptiMSM、12 週行動力研究取得機能性表示食品核可的說法（日本案例，不能直接當台灣宣稱）。"
+    ],
+    "suggestedDosage": "Balchem 官網：配方建議 1–3 g／day。統園轉述日本案例：2,000 mg／day、12 週。",
+    "dosageNote": "供應商建議劑量。台灣 TFDA 原料上限為每日 6 g、單次不得超過 2 g；1–3 g／day 落在上限內，但單次仍須 ≤2 g，且須加警語。"
+  },
+  "patent": {
+    "status": "unknown",
+    "refs": [],
+    "note": "統園／卡爾迪克寫蒸餾技術與多國專利，本次沒有打開具體專利號頁，維持 unknown。"
+  },
+  "literature": {
+    "status": "unknown",
+    "refs": [],
+    "note": "Balchem 頁引用多項臨床摘要與文獻編號，本次沒有打開單篇論文全文，不標 clinical。"
+  },
+  "evidenceLevels": [],
+  "images": [
+    {
+      "url": "https://balchem.com/wp-content/uploads/2024/09/Web_OptiMSM-Logo_Cover-Image_1920x1080_Sm-1024x576.png",
+      "localPath": "",
+      "caption": "Balchem OptiMSM 官方產品頁封面圖。",
+      "source": "official_site"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Vitafoods Asia 2026: Balchem sees women’s health and beauty-from-within rise in APAC",
+      "url": "https://www.nutritioninsight.com/news/balchem-vitafoods-asia-womens-health-choline.html",
+      "publisher": "Nutrition Insight",
+      "channel": "exhibition",
+      "accessed": "2026-11-07",
+      "whatItContributes": "Vitafoods Asia 2026 展會訪談；OptiMSM 被點名作為 beauty-from-within／皮膚健康原料。"
+    },
+    {
+      "title": "OptiMSM® - Trusted MSM Backed by Science",
+      "url": "https://balchem.com/hnh/mn/optimsm/",
+      "publisher": "Balchem",
+      "channel": "supplier_site",
+      "accessed": "2026-11-07",
+      "whatItContributes": "原廠效益宣稱、1–3 g／day 建議劑量、四段蒸餾與 GRAS／品質說明。"
+    },
+    {
+      "title": "OptiMSM™：首款通過日本機能性表示食品核可的MSM",
+      "url": "https://www.tyig.com.tw/web/news/news_in.jsp?lang=tw&np_no=NP1781599332254",
+      "publisher": "統園企業股份有限公司",
+      "channel": "other",
+      "accessed": "2026-11-07",
+      "whatItContributes": "台灣代理自稱獨家代理；轉述日本 2,000 mg／12 週案例與 Balchem 背景。"
+    },
+    {
+      "title": "BALCHEM-BERGSTROM NUTRITION 甲基硫醯基甲烷",
+      "url": "https://www.caldic.com.tw/raw/balchem-bergstrom-nutrition-%E7%94%B2%E5%9F%BA%E7%A1%AB%E9%86%AF%E5%9F%BA%E7%94%B2%E7%83%B7/",
+      "publisher": "台灣卡爾迪克",
+      "channel": "other",
+      "accessed": "2026-11-07",
+      "whatItContributes": "另一台灣通路也列出 OptiMSM 規格，作代理關係交叉。"
+    }
+  ],
+  "discovery": {
+    "channel": "exhibition",
+    "scoutDate": "2026-11-07",
+    "notes": "從 Vitafoods Asia 2026／Nutrition Insight 看到 Balchem 主推 OptiMSM，再對 Balchem 官網、統園代理新聞與卡爾迪克目錄。劑量以原廠 1–3 g／day 對齊 TFDA 6 g／日與單次 ≤2 g。"
+  }
+}

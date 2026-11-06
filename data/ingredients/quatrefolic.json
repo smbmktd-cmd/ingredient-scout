@@ -1,0 +1,137 @@
+{
+  "id": "quatrefolic",
+  "example": false,
+  "names": {
+    "commonZh": "(6S)-5-甲基四氫葉酸葡萄糖胺鹽",
+    "commonEn": "(6S)-5-methyltetrahydrofolate glucosamine salt (5-MTHF-GlcN)",
+    "trade": "Quatrefolic（Gnosis by Lesaffre 的活性葉酸商品名）",
+    "scientific": "不適用（葉酸活性態葡萄糖胺鹽，非植物學名）"
+  },
+  "supply": {
+    "supplierName": "Gnosis by Lesaffre",
+    "supplierCountry": "義大利",
+    "relationship": "taiwan_agent",
+    "taiwanPartyName": "漢馨科技有限公司",
+    "relationshipNote": "漢馨產品頁寫「全台唯一供應」Quatrefolic；展昭生技保健展產品頁與 Gnosis 官網 BIO Asia Taiwan 報導均指向漢馨（Han-Sient）為台灣通路夥伴。原廠頁未另見第二家台灣代理公開指名。"
+  },
+  "tfda": {
+    "usable": "listed_food_ingredient",
+    "evidenceNotes": "食品原料查到「(6S)-5-甲基四氫葉酸葡萄糖胺鹽」1 筆，規格須符合附表，每日使用量以產品葉酸總含量計，並符合添加物標準中葉酸之範圍與限量；不是未確認安全性。商品名 Quatrefolic 0 筆。添加物另有葉酸與 L-5-甲基四氫葉酸鈣（營養添加劑），膠囊／錠狀每日葉酸總含量不高於 800 μg。本品化學型態對得上原料列名那一筆。",
+    "lookupDate": "2026-11-07",
+    "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+    "queries": [
+      {
+        "tab": "ingredient",
+        "keyword": "5-甲基四氫葉酸",
+        "category": "以化學反應或酵素製程等加工處理之食品原料",
+        "resultCount": 1,
+        "matchedName": "(6S)-5-甲基四氫葉酸葡萄糖胺鹽",
+        "restrictionNote": "須符合附表規格；每日使用量以產品葉酸總含量計，範圍與限量依食品添加物葉酸規定。",
+        "unconfirmedSafety": false,
+        "note": "外文 (6S)-5-Methyl-tetrahydrofolic acid, Glucosamine Salt (5MTHF-GlcN)。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Quatrefolic",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名沒有另列。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "葉酸",
+        "category": "(八) 營養添加劑",
+        "resultCount": 2,
+        "matchedName": "葉酸；L-5-甲基四氫葉酸鈣",
+        "restrictionNote": "膠囊／錠狀且標示每日食用量者，葉酸總含量不得高於 800 μg；其他一般食品另有較低上限。限於補充食品中不足之營養素時使用。",
+        "unconfirmedSafety": false,
+        "note": "添加物是葉酸與鈣鹽型態；Quatrefolic 本體對應原料列名的葡萄糖胺鹽。"
+      },
+      {
+        "tab": "history",
+        "keyword": "甲基四氫葉酸",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "未改列未確認安全性。"
+      }
+    ],
+    "officialCrosscheck": {
+      "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+      "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+      "done": true,
+      "notes": "2026-11-07 依查詢助手公開 data.json 確認 5MTHF-GlcN 原料列名，並交叉添加物葉酸／5-MTHF 鈣鹽限量；官方頁未另開。"
+    }
+  },
+  "efficacy": {
+    "claimedBenefits": [
+      "Gnosis 產品頁：Quatrefolic 為 (6S)-5-MTHF 葡萄糖胺鹽，強調相對於合成葉酸可少走體內轉換步驟，並提到妊娠葉酸需求（至少 400 μg／日葉酸當量）、甲基化／同半胱胺酸管理、降低 UMFA 累積疑慮等定位。這是原廠宣稱。",
+      "漢馨產品頁：寫活性態、高溶解度與穩定性、Vitafoods Europe 獎項／Nutraward 入圍，以及無 MTHFR 基因變異轉換顧慮的行銷說法。這是台灣代理轉述。"
+    ],
+    "suggestedDosage": "Gnosis：妊娠相關葉酸攝取至少 400 μg／日（葉酸當量脈絡）。台灣添加物框架：膠囊／錠狀每日葉酸總含量不高於 800 μg。",
+    "dosageNote": "原廠談的是葉酸營養需求與活性態優勢；實際成品劑量須同時符合台灣葉酸營養添加劑上限（膠囊／錠狀 ≤800 μg／日）與原料規格。"
+  },
+  "patent": {
+    "status": "unknown",
+    "refs": [],
+    "note": "漢馨寫四項專利認證，本次沒有打開專利號頁，維持 unknown。"
+  },
+  "literature": {
+    "status": "unknown",
+    "refs": [],
+    "note": "漢馨寫多項人體實驗，本次沒有打開單篇論文，不標 clinical。"
+  },
+  "evidenceLevels": [],
+  "images": [
+    {
+      "url": "https://www.hansient.com.tw/wp-content/uploads/Quatrefolic%C2%AE-%E8%B6%85%E7%B4%9A%E8%91%89%E9%85%B8.jpg",
+      "localPath": "",
+      "caption": "漢馨 Quatrefolic 產品頁圖片。",
+      "source": "other"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Quatrefolic Showcase at BIO Asia Taiwan Exhibition booth I116",
+      "url": "https://gnosisbylesaffre.com/blog/quatrefolic-showcase-at-bio-asia-taiwan-exhibition-booth-i116/",
+      "publisher": "Gnosis by Lesaffre",
+      "channel": "exhibition",
+      "accessed": "2026-11-07",
+      "whatItContributes": "BIO Asia Taiwan 展會報導；指名與漢馨共同展出 Quatrefolic。"
+    },
+    {
+      "title": "Quatrefolic® 超級葉酸",
+      "url": "https://www.hansient.com.tw/product/quatrefolic-%e8%b6%85%e7%b4%9a%e8%91%89%e9%85%b8/",
+      "publisher": "漢馨科技有限公司",
+      "channel": "other",
+      "accessed": "2026-11-07",
+      "whatItContributes": "台灣唯一供應宣稱、義大利 Gnosis 來源與產品賣點。"
+    },
+    {
+      "title": "Quatrefolic: Advanced Folate Supplementation for Health",
+      "url": "https://gnosisbylesaffre.com/ingredient/quatrefolic/",
+      "publisher": "Gnosis by Lesaffre",
+      "channel": "supplier_site",
+      "accessed": "2026-11-07",
+      "whatItContributes": "原廠化學型態、活性葉酸定位與妊娠 400 μg 脈絡。"
+    },
+    {
+      "title": "超級葉酸 Quatrefolic®－亞洲美容保養．生技保健大展產品頁",
+      "url": "https://www.chanchao.com.tw/healthcos/visitorProductDetail.asp?no=213039",
+      "publisher": "展昭／亞洲生技大展系列",
+      "channel": "exhibition",
+      "accessed": "2026-11-07",
+      "whatItContributes": "展會產品名錄確認漢馨展出 Quatrefolic 與 TFDA 食品原料說法。"
+    }
+  ],
+  "discovery": {
+    "channel": "exhibition",
+    "scoutDate": "2026-11-07",
+    "notes": "從 Gnosis BIO Asia Taiwan／展昭產品名錄看到 Quatrefolic 與漢馨合作，再對漢馨與 Gnosis 產品頁。化學名與 TFDA 5MTHF-GlcN 原料列名一致。"
+  }
+}

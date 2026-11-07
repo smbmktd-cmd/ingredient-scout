@@ -1,0 +1,168 @@
+{
+  "id": "teavigo",
+  "example": false,
+  "names": {
+    "commonZh": "表沒食子兒茶素沒食子酸酯（綠茶高純度萃取）",
+    "commonEn": "epigallocatechin gallate (EGCG)",
+    "trade": "Teavigo（Taiyo 的高純度綠茶 EGCG 商品名）",
+    "scientific": "平台學名欄空白。化合物是表沒食子兒茶素沒食子酸酯。Taiyo 產品頁寫由綠茶茶葉水萃，該頁沒有寫出拉丁學名。"
+  },
+  "supply": {
+    "supplierName": "Taiyo Kagaku／Taiyo GmbH",
+    "supplierCountry": "日本",
+    "relationship": "unknown",
+    "taiwanPartyName": "仕琦股份有限公司",
+    "relationshipNote": "Taiyo GmbH 產品頁寫 Teavigo 由日本端依日本品質規範生產，歐洲聯絡點在德國。仕琦股份有限公司產品頁列出綠茶抽出物 EGCG（TEAVIGO），規格 EGCG ≧ 94%、咖啡因 ≦ 0.1%。全站標語是代理銷售，這一頁沒有寫 Teavigo 獨家代理，Taiyo 這次打開的頁也沒有點名仕琦，關係維持未確認。"
+  },
+  "tfda": {
+    "usable": "listed_food_ingredient",
+    "evidenceNotes": "食品原料有表沒食子兒茶素沒食子酸酯（EGCG）1 筆：綠茶茶葉經萃取、分離、濃縮，乾基含量不得低於 90%，每日以 EGCG 計 300 mg。商品名 Teavigo 與添加物分頁都是 0 筆，不是未確認安全性。Taiyo 現寫 EGCg >94%、咖啡因 <0.1%，含量落在公告門檻內；頁上寫濃縮溶劑為食品級乙酸乙酯，公告正文沒有點名溶劑。這不是 11 月 7 日那筆茶胺酸。",
+    "lookupDate": "2026-11-08",
+    "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+    "queries": [
+      {
+        "tab": "ingredient",
+        "keyword": "表沒食子兒茶素",
+        "category": "草、木本植物類來源製取之原料",
+        "resultCount": 1,
+        "matchedName": "表沒食子兒茶素沒食子酸酯",
+        "restrictionNote": "乾基 EGCG 不得低於 90%。每日食用限量以 EGCG 計 300 mg。製程為綠茶茶葉經萃取、分離及濃縮等純化。",
+        "unconfirmedSafety": false,
+        "note": "外文 Epigallocatechin gallate (EGCG)。公告字號衛授食字第 1131301534 號（113-07-11）。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Teavigo",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名 0 筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "EGCG",
+        "category": "草、木本植物類來源製取之原料",
+        "resultCount": 1,
+        "matchedName": "表沒食子兒茶素沒食子酸酯",
+        "restrictionNote": "同上。",
+        "unconfirmedSafety": false,
+        "note": "與中文名同一筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "EGCG",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "添加物分頁 0 筆。"
+      },
+      {
+        "tab": "history",
+        "keyword": "沒食子",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "助手更新歷程未另見改列未確認。"
+      }
+    ],
+    "officialCrosscheck": {
+      "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+      "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+      "done": true,
+      "notes": "2026-11-08 依查詢助手公開 data.json（fetched 2026-11-07）核對 EGCG 列名、90% 與 300 mg。官方原料頁未另開。"
+    }
+  },
+  "efficacy": {
+    "claimedBenefits": [
+      "Taiyo 產品頁寫 EGCg 與抗氧化、體重與口腔等方向有關，並說部分結果顯示每日 150–300 mg EGCg 可降低體重與 BMI。這是供應商轉述。",
+      "已打開的 PubMed 摘要（TEAVIGO，當時標 DSM，>97% EGCG）：肥胖女性每日 300 mg、12 週，配合熱量限制，相對安慰劑沒有顯著額外減重或體脂差。同成分不能只抄官網的減重句。"
+    ],
+    "suggestedDosage": "Taiyo 頁引用的研究區間是每日 150–300 mg EGCg。台灣公告每日以 EGCG 計 300 mg。仕琦頁沒有另寫毫克數。",
+    "dosageNote": "300 mg 是台灣原料每日上限，也是上述 RCT 的研究劑量。官網的體重說法與該篇已打開的陰性結果並陳，不是台灣核准功效。"
+  },
+  "patent": {
+    "status": "unknown",
+    "refs": [],
+    "note": "仕琦頁寫專利製程，Taiyo 產品頁這次沒有專利號。沒有打開專利頁，維持 unknown。"
+  },
+  "literature": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "Effects of dietary supplementation with epigallocatechin-3-gallate on weight loss in obese women",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/24299662/",
+        "note": "已打開摘要。使用 TEAVIGO（DSM，>97% EGCG）每日 300 mg、12 週。相對安慰劑無顯著額外減重。品牌於 2014 年起轉由 Taiyo 生產，規格頁現寫 >94%。"
+      },
+      {
+        "title": "Bioavailability of Epigallocatechin Gallate Administered with Different Nutritional Strategies in Healthy Volunteers",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7278615/",
+        "note": "已打開 PMC。10 位健康成人交叉試驗，使用 Teavigo。這是血中濃度，不是功效試驗。"
+      }
+    ],
+    "note": "減重 RCT 只讀到摘要；生體可用率論文有讀 PMC。證據等級取前者的臨床試驗，結論是沒有顯著額外減重。"
+  },
+  "evidenceLevels": [
+    "clinical"
+  ],
+  "images": [
+    {
+      "url": "https://taiyogmbh.com/wp-content/uploads/2020/02/teavigo-raw-material.png",
+      "localPath": "",
+      "caption": "Taiyo GmbH 的 Teavigo 原料圖。",
+      "source": "official_site"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Exhibition preview Vitafoods 2024",
+      "url": "https://taiyogmbh.com/en/exhibition-preview-vitafoods-2024/",
+      "publisher": "Taiyo GmbH",
+      "channel": "exhibition",
+      "accessed": "2026-11-08",
+      "whatItContributes": "Vitafoods 2024 日內瓦展前稿點名 Teavigo，攤位 hall 1 F110。同頁也列 Suntheanine，兩者不是同一原料。"
+    },
+    {
+      "title": "SupplySide Global 2025 event map",
+      "url": "https://exhibitor.supplysideglobal.com/supplyside-global25/Public/EventMap.aspx",
+      "publisher": "SupplySide Global",
+      "channel": "exhibition",
+      "accessed": "2026-11-08",
+      "whatItContributes": "2025 展商名錄有 Taiyo International, Inc，攤位 4243。名錄沒有寫出 Teavigo。"
+    },
+    {
+      "title": "Teavigo",
+      "url": "https://taiyogmbh.com/en/start-en/brands/teavigo-en/",
+      "publisher": "Taiyo GmbH",
+      "channel": "supplier_site",
+      "accessed": "2026-11-08",
+      "whatItContributes": "EGCg >94%、咖啡因 <0.1%、水萃後以食品級乙酸乙酯濃縮、150–300 mg 的供應商轉述，以及圖片。"
+    },
+    {
+      "title": "Effects of dietary supplementation with epigallocatechin-3-gallate on weight loss",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24299662/",
+      "publisher": "PubMed",
+      "channel": "paper",
+      "accessed": "2026-11-08",
+      "whatItContributes": "TEAVIGO 每日 300 mg、12 週 RCT 摘要：相對安慰劑沒有顯著額外減重。"
+    },
+    {
+      "title": "綠茶抽出物 EGCG (TEAVIGO)",
+      "url": "https://www.skyrich.com.tw/product.php?act=view&no=37",
+      "publisher": "仕琦股份有限公司",
+      "channel": "other",
+      "accessed": "2026-11-08",
+      "whatItContributes": "台灣目錄：EGCG ≧ 94%、咖啡因 ≦ 0.1%，公司名稱仕琦股份有限公司。"
+    }
+  ],
+  "discovery": {
+    "channel": "exhibition",
+    "scoutDate": "2026-11-08",
+    "notes": "從 Taiyo 的 Vitafoods 2024 展前稿看到 Teavigo 品名，再對產品頁、EGCG 臨床摘要與仕琦目錄。SupplySide 2025 只核到 Taiyo 攤位，沒有在名錄上看到 Teavigo 三個字。與 11 月 7 日 Suntheanine 同供應商、不同化合物。"
+  }
+}

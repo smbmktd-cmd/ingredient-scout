@@ -1,0 +1,179 @@
+{
+  "id": "orafti-inulin",
+  "example": false,
+  "names": {
+    "commonZh": "菊糖（菊苣根來源）",
+    "commonEn": "chicory root inulin",
+    "trade": "Orafti Inulin（BENEO 的菊苣根菊糖商品名；系列含 GR、HSI、HP 等）",
+    "scientific": "菊糖條目學名欄空白。BENEO 寫來源為菊苣根。平台另列菊苣，學名含 Cichorium intybus L.、Cichorium endivia L.、Cichorium glandulosum Boiss. et Hout，部位根、莖、葉。"
+  },
+  "supply": {
+    "supplierName": "BENEO GmbH",
+    "supplierCountry": "德國",
+    "relationship": "taiwan_agent",
+    "taiwanPartyName": "台灣大昌華嘉（DKSH Taiwan）",
+    "relationshipNote": "2022-11-09 大昌華嘉中文新聞寫，特用原料在亞太獨家代理 Beneo 產品 20 年，範圍含 Orafti、菊苣纖維 Inulin。2026 年台灣大昌華嘉食品與飲品原料頁仍列出 BENEO 的 Inulin 菊苣纖維。論文作者單位寫 BENEO GmbH（德國 Obrigheim）。漢馨科技網站另有 Orafti Synergy1 產品頁，所以「獨家」以大昌華嘉新聞自述為準，目錄上還看得到另一家。"
+  },
+  "tfda": {
+    "usable": "listed_food_ingredient",
+    "evidenceNotes": "食品原料菊糖有兩筆，都不是未確認安全性：草木本來源那筆備註空白；另一筆是蔗糖經芽孢桿菌果糖基轉移酶製成，須標示酵素反應來源。Orafti 寫菊苣根熱水萃取，對上前一筆，不是蔗糖酵素規格。菊苣（Cichorium intybus 等）另列根、莖、葉可直接食用。用 Inulin 當關鍵字會多命中菌名 Sporolactobacillus inulinus。",
+    "lookupDate": "2026-11-08",
+    "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+    "queries": [
+      {
+        "tab": "ingredient",
+        "keyword": "菊糖",
+        "category": "草、木本植物類來源製取之原料",
+        "resultCount": 2,
+        "matchedName": "菊糖",
+        "restrictionNote": "草木本來源這一筆備註空白。另一筆在加工原料分類，限芽孢桿菌 217C-11 果糖基轉移酶自蔗糖製得，並須標示「本產品內之菊糖是以蔗糖經酵素反應製得」。",
+        "unconfirmedSafety": false,
+        "note": "關鍵字 菊糖 共 2 筆，外文都是 Inulin。Orafti 對熱水萃菊苣根，不是酵素蔗糖那一筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "菊苣",
+        "category": "草、木本植物類(2)可供直接食用",
+        "resultCount": 1,
+        "matchedName": "菊苣",
+        "restrictionNote": "部位根、莖、葉。備註空白。",
+        "unconfirmedSafety": false,
+        "note": "外文 Chicory。學名含 Cichorium intybus L. 等。這是植物本體，不是菊糖規格書。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Inulin",
+        "category": "",
+        "resultCount": 3,
+        "matchedName": "菊糖；另命中乳酸菌",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "兩筆是菊糖。第三筆是乳酸菌，學名 Sporolactobacillus inulinus，只是菌名含 inulin 字樣。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "菊糖",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "添加物分頁 0 筆。"
+      },
+      {
+        "tab": "history",
+        "keyword": "菊糖",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "助手更新歷程未另見這兩個關鍵字的改列未確認。"
+      }
+    ],
+    "officialCrosscheck": {
+      "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+      "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+      "done": true,
+      "notes": "2026-11-08 依查詢助手公開 data.json（fetched 2026-11-07）分開核對兩筆菊糖與菊苣。官方原料頁未另開。酵素菊糖公告字號在該筆備註：衛授食字第 1151301588 號（115-08-12）。"
+    }
+  },
+  "efficacy": {
+    "claimedBenefits": [
+      "BENEO 益生元頁寫：菊苣根 Orafti Inulin 與果寡糖自每日 3 g 起可選擇性增加雙歧桿菌；歐盟聲稱「chicory inulin contributes to normal bowel function by increasing stool frequency」的使用條件是每日 12 g 天然菊苣菊糖。這是供應商轉述歐盟評估，不是台灣核准功效。",
+      "NutraIngredients 對 Reading 大學試驗的報導：96 位成人每日 10 g Orafti Inulin、10 天，純粉或放入餅乾、牛奶巧克力、米漿，雙歧桿菌都增加，基質之間沒有顯著差。全文未打開。"
+    ],
+    "suggestedDosage": "BENEO：益生元相關敘述自每日 3 g；歐盟腸道功能聲稱的條件是每日 12 g 天然菊苣菊糖，可分次。上述試驗用每日 10 g。",
+    "dosageNote": "3 g 與 12 g 是供應商／歐盟聲稱條件，10 g 是試驗劑量。台灣草木本來源菊糖這筆沒有寫每日毫克上限，不代表歐盟克數可以直接當成台灣功效依據。"
+  },
+  "patent": {
+    "status": "unknown",
+    "refs": [],
+    "note": "這次打開的 BENEO 產品頁與泰國准用新聞沒有專利號，維持 unknown。"
+  },
+  "literature": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "Effects of food matrix on the prebiotic efficacy of inulin-type fructans: a randomised trial",
+        "url": "https://doi.org/10.1163/18762891-20220120",
+        "note": "Jackson 等。Beneficial Microbes. 2023。DOI 頁與 ClinicalTrials NCT05581615 已打開；Brill 全文未讀。設計與 10 g／日結果依 NutraIngredients 2023-09-21 對該文的報導。"
+      }
+    ],
+    "note": "臨床等級只對到這篇人體試驗的公開登錄與新聞轉述，不補全文裡沒看到的數字。"
+  },
+  "evidenceLevels": [
+    "clinical"
+  ],
+  "images": [
+    {
+      "url": "https://www.beneo.com/wp-content/uploads/2000/09/exclusive-prebiotic-claim-in-thailand.png",
+      "localPath": "",
+      "caption": "BENEO 官網：Orafti Inulin 泰國益生元聲稱新聞圖。",
+      "source": "official_site"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Inulin and Fructooligosaccharide Market Size, Share & Trends",
+      "url": "https://www.emergenresearch.com/industry-report/inulin-and-fructooligosaccharide-market",
+      "publisher": "Emergen Research",
+      "channel": "industry_report",
+      "accessed": "2026-11-08",
+      "whatItContributes": "產業報告點名 BENEO 的菊苣根纖維，並寫 2025 年 Fi Europe 展出 Orafti inulin 與其他配料的組合。"
+    },
+    {
+      "title": "Chicory Root Inulin (Orafti HSI) Market",
+      "url": "https://www.futuremarketinsights.com/reports/chicory-root-inulin-orafti-hsi-market",
+      "publisher": "Future Market Insights",
+      "channel": "industry_report",
+      "accessed": "2026-11-08",
+      "whatItContributes": "以 Orafti HSI 為題的市場報告，並引 BENEO 2025 年 9 月泰國 FDA 益生元聲稱。"
+    },
+    {
+      "title": "BENEO secures first-ever Thai FDA approval for exclusive prebiotic claim",
+      "url": "https://www.beneo.com/news/exclusive-prebiotic-claim-in-thailand",
+      "publisher": "BENEO",
+      "channel": "supplier_site",
+      "accessed": "2026-11-08",
+      "whatItContributes": "2025-09-18：Orafti Inulin 為菊苣根熱水萃取，並取得泰國益生元聲稱。"
+    },
+    {
+      "title": "Inulin from Orafti",
+      "url": "https://www.beneo.com/human-nutrition/human-nutrition-products/functional-fibres/inulin",
+      "publisher": "BENEO",
+      "channel": "supplier_site",
+      "accessed": "2026-11-08",
+      "whatItContributes": "菊苣根熱水萃取、Orafti GR 等規格與菊糖含量約 92%。"
+    },
+    {
+      "title": "Chicory root fibre increases good gut bacteria regardless of food application",
+      "url": "https://www.nutraingredients.com/Article/2023/09/21/Chicory-root-fibre-increases-good-gut-bacteria-regardless-of-food-application-research-asserts/",
+      "publisher": "NutraIngredients",
+      "channel": "news",
+      "accessed": "2026-11-08",
+      "whatItContributes": "轉述 10 g／日、96 人、10 天的 Orafti Inulin 試驗與 DOI。"
+    },
+    {
+      "title": "台灣大昌華嘉特用原料榮獲原料大廠Beneo表揚",
+      "url": "https://www.dksh.com/tw-zh-Hant/home/media/news/%E5%8F%B0%E7%81%A3%E5%A4%A7%E6%98%8C%E8%8F%AF%E5%98%89%E7%89%B9%E7%94%A8%E5%8E%9F%E6%96%99%E6%A6%AE%E7%8D%B2%E5%8E%9F%E6%96%99%E5%A4%A7%E5%BB%A0beneo%E8%A1%A8%E6%8F%9A",
+      "publisher": "台灣大昌華嘉",
+      "channel": "other",
+      "accessed": "2026-11-08",
+      "whatItContributes": "寫亞太獨家代理 Beneo，含菊苣纖維 Inulin。"
+    },
+    {
+      "title": "食品與飲品原料",
+      "url": "https://www.dksh.com/tw-zh-Hant/home/performance-materials/food-beverage-ingredients",
+      "publisher": "台灣大昌華嘉",
+      "channel": "other",
+      "accessed": "2026-11-08",
+      "whatItContributes": "現行產品組合仍列出 BENEO 的 Inulin 菊苣纖維。"
+    }
+  ],
+  "discovery": {
+    "channel": "industry_report",
+    "scoutDate": "2026-11-08",
+    "notes": "從菊糖／Orafti 產業報告進入，對 BENEO 泰國聲稱新聞與菊糖產品頁，再讀 NutraIngredients 對 Reading 試驗的報導，最後對大昌華嘉 2022 新聞與現行食品原料頁。SupplySide 2025 名錄有 Beneo Inc. 攤位 4625，該頁沒有寫 Orafti。"
+  }
+}

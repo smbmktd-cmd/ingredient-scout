@@ -6,6 +6,741 @@
         "exhibition",
         "industry_report"
       ],
+      "date": "2026-11-07",
+      "example": false,
+      "notes": "正式五筆。未放入 TFDA 未確認安全性項目（已排除 Bacopa、PQQ、NMN、瓜胺酸、納豆激酶、化學合成薑黃素、Relora／厚朴黃柏、Fenavari／shatavari）。Citicoline／PEA／褐藻醣膠／亞精胺助手未列名，本次不收入。OptiMSM／OPITAC／Quatrefolic／Lutemax 依原料列名；Suntheanine 依添加物茶胺酸（調味劑 1 g/kg）。膠原胜肽與 ashwagandha 家族已在前兩日報，不再重複。",
+      "picks": [
+        {
+          "discovery": {
+            "channel": "exhibition",
+            "notes": "從 Vitafoods Asia 2026／Nutrition Insight 看到 Balchem 主推 OptiMSM，再對 Balchem 官網、統園代理新聞與卡爾迪克目錄。劑量以原廠 1–3 g／day 對齊 TFDA 6 g／日與單次 ≤2 g。",
+            "scoutDate": "2026-11-07"
+          },
+          "efficacy": {
+            "claimedBenefits": [
+              "Balchem OptiMSM 產品頁：宣稱提供有機硫來源，支持關節健康、運動後恢復與皮膚健康（beauty from within）；頁面引用臨床研究摘要（膝關節舒適度、運動後酸痛等）。這是原廠行銷宣稱。",
+              "Nutrition Insight／Vitafoods Asia 2026 展會報導：Balchem 將 OptiMSM 定位於亞太 beauty-from-within，並提到泰國 FDA 核准脈絡；功效細節仍以原廠與台灣代理頁為準。",
+              "統園新聞頁：引述日本 LocomoSutein 以每日 2,000 mg OptiMSM、12 週行動力研究取得機能性表示食品核可的說法（日本案例，不能直接當台灣宣稱）。"
+            ],
+            "dosageNote": "供應商建議劑量。台灣 TFDA 原料上限為每日 6 g、單次不得超過 2 g；1–3 g／day 落在上限內，但單次仍須 ≤2 g，且須加警語。",
+            "suggestedDosage": "Balchem 官網：配方建議 1–3 g／day。統園轉述日本案例：2,000 mg／day、12 週。"
+          },
+          "evidenceLevels": [],
+          "example": false,
+          "id": "optimsm",
+          "images": [
+            {
+              "caption": "Balchem OptiMSM 官方產品頁封面圖。",
+              "localPath": "",
+              "source": "official_site",
+              "url": "https://balchem.com/wp-content/uploads/2024/09/Web_OptiMSM-Logo_Cover-Image_1920x1080_Sm-1024x576.png"
+            }
+          ],
+          "literature": {
+            "note": "Balchem 頁引用多項臨床摘要與文獻編號，本次沒有打開單篇論文全文，不標 clinical。",
+            "refs": [],
+            "status": "unknown"
+          },
+          "names": {
+            "commonEn": "methylsulfonylmethane (MSM)",
+            "commonZh": "甲基硫醯基甲烷",
+            "scientific": "不適用（化學合成／純化物 MSM，非植物學名）",
+            "trade": "OptiMSM（Balchem／Bergstrom Nutrition 的 MSM 商品名）"
+          },
+          "patent": {
+            "note": "統園／卡爾迪克寫蒸餾技術與多國專利，本次沒有打開具體專利號頁，維持 unknown。",
+            "refs": [],
+            "status": "unknown"
+          },
+          "sources": [
+            {
+              "accessed": "2026-11-07",
+              "channel": "exhibition",
+              "publisher": "Nutrition Insight",
+              "title": "Vitafoods Asia 2026: Balchem sees women’s health and beauty-from-within rise in APAC",
+              "url": "https://www.nutritioninsight.com/news/balchem-vitafoods-asia-womens-health-choline.html",
+              "whatItContributes": "Vitafoods Asia 2026 展會訪談；OptiMSM 被點名作為 beauty-from-within／皮膚健康原料。"
+            },
+            {
+              "accessed": "2026-11-07",
+              "channel": "supplier_site",
+              "publisher": "Balchem",
+              "title": "OptiMSM® - Trusted MSM Backed by Science",
+              "url": "https://balchem.com/hnh/mn/optimsm/",
+              "whatItContributes": "原廠效益宣稱、1–3 g／day 建議劑量、四段蒸餾與 GRAS／品質說明。"
+            },
+            {
+              "accessed": "2026-11-07",
+              "channel": "other",
+              "publisher": "統園企業股份有限公司",
+              "title": "OptiMSM™：首款通過日本機能性表示食品核可的MSM",
+              "url": "https://www.tyig.com.tw/web/news/news_in.jsp?lang=tw&np_no=NP1781599332254",
+              "whatItContributes": "台灣代理自稱獨家代理；轉述日本 2,000 mg／12 週案例與 Balchem 背景。"
+            },
+            {
+              "accessed": "2026-11-07",
+              "channel": "other",
+              "publisher": "台灣卡爾迪克",
+              "title": "BALCHEM-BERGSTROM NUTRITION 甲基硫醯基甲烷",
+              "url": "https://www.caldic.com.tw/raw/balchem-bergstrom-nutrition-%E7%94%B2%E5%9F%BA%E7%A1%AB%E9%86%AF%E5%9F%BA%E7%94%B2%E7%83%B7/",
+              "whatItContributes": "另一台灣通路也列出 OptiMSM 規格，作代理關係交叉。"
+            }
+          ],
+          "supply": {
+            "relationship": "taiwan_agent",
+            "relationshipNote": "統園 2026-06-18 新聞頁自稱「獨家代理」OptiMSM，並引述 Balchem 蒸餾純度與日本機能性表示食品案例。台灣卡爾迪克產品頁亦列出 BALCHEM-BERGSTROM OptiMSM；登盛企業目錄也有 OptiMSM 品項。以統園自稱獨家代理為主，其他通路頁作交叉，尚未看到原廠英文站互指統園。",
+            "supplierCountry": "美國",
+            "supplierName": "Balchem Human Nutrition & Health（Bergstrom Nutrition／OptiMSM）",
+            "taiwanPartyName": "統園企業股份有限公司"
+          },
+          "tfda": {
+            "evidenceNotes": "食品原料查到甲基硫醯基甲烷（MSM）1 筆，不是未確認安全性。每日食用限量 6 公克，單一次劑量不得超過 2 公克；若以 DMSO 與過氧化氫合成，DMSO 殘留須低於 0.05%，並須標示避免睡前食用及孕婦、哺乳期婦女使用前諮詢醫師。商品名 OptiMSM 0 筆。添加物分頁 0 筆。Balchem／統園常見建議 1–3 g／日低於上限，仍須符合單次 ≤2 g。",
+            "lookupDate": "2026-11-07",
+            "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+            "officialCrosscheck": {
+              "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+              "done": true,
+              "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+              "notes": "2026-11-07 依查詢助手公開 data.json 確認列名與 6 g／日、單次 ≤2 g；官方頁未另開。"
+            },
+            "queries": [
+              {
+                "category": "以化學反應或酵素製程等加工處理之食品原料",
+                "keyword": "甲基硫醯基甲烷",
+                "matchedName": "甲基硫醯基甲烷",
+                "note": "外文 Methylsulfonyl Methane, MSM。",
+                "restrictionNote": "每日食用限量為六公克，且單一次劑量不得超過二公克；DMSO 合成路徑殘留限制；須標示「避免睡前食用，孕婦及哺乳期婦女使用前應先諮詢醫師」。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "以化學反應或酵素製程等加工處理之食品原料",
+                "keyword": "MSM",
+                "matchedName": "甲基硫醯基甲烷",
+                "note": "與中文名同一筆。",
+                "restrictionNote": "同上。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "OptiMSM",
+                "matchedName": "",
+                "note": "商品名沒有另列。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "MSM",
+                "matchedName": "",
+                "note": "添加物分頁 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "甲基硫醯基甲烷",
+                "matchedName": "",
+                "note": "未改列未確認安全性。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "history",
+                "unconfirmedSafety": false
+              }
+            ],
+            "usable": "listed_food_ingredient"
+          }
+        },
+        {
+          "discovery": {
+            "channel": "industry_report",
+            "notes": "從台灣穀胱甘肽原料產業資料進入 OPITAC／創百，再對品牌站與展會名錄。刻意選圓酵母來源以符合 TFDA 列名條件；未採用 Setria（台灣代理公開頁較不明確）。",
+            "scoutDate": "2026-11-07"
+          },
+          "efficacy": {
+            "claimedBenefits": [
+              "創百產品頁：OPITAC 為 Non-GMO 圓酵母來源、純度約 98% 還原型 GSH，並列出提升保護力、舒緩壓力、幫助入睡、養顏美容等應用方向；另寫曾獲國家健康食品護肝功能核准（指特定終端產品脈絡，不能直接套成所有複方）。這是台灣代理轉述。",
+              "創百／品牌站：寫唯一取得 FDA GRAS（GRN 293）與台灣圓酵母來源許可的穀胱甘肽原料定位。這是供應商／代理安全與法規宣稱。"
+            ],
+            "dosageNote": "台灣代理建議劑量，上限與 TFDA 圓酵母穀胱甘肽每日 250 mg 相同。國外其他品牌臨床劑量不可直接寫成台灣可用。",
+            "suggestedDosage": "創百產品頁：50–250 mg／天。規格列還原型 GSH 98%、氧化型 GSSG 18%（飲料用）。"
+          },
+          "evidenceLevels": [],
+          "example": false,
+          "id": "opitac",
+          "images": [
+            {
+              "caption": "OPITAC 台灣品牌站首頁主視覺。",
+              "localPath": "",
+              "source": "other",
+              "url": "https://www.glutathione.com.tw/admin/wp-content/uploads/2026/08/OPITAC-index-1.jpg"
+            }
+          ],
+          "literature": {
+            "note": "創百寫 50 篇文獻／10+ 論文，本次沒有打開單篇論文，不標 clinical。",
+            "refs": [],
+            "status": "unknown"
+          },
+          "names": {
+            "commonEn": "glutathione (GSH)",
+            "commonZh": "穀胱甘肽",
+            "scientific": "不適用（由圓酵母 Torula yeast／Candida utilis 發酵製取之三胜肽，非單一植物學名）",
+            "trade": "OPITAC（Mitsubishi／Kohjin 興人的圓酵母穀胱甘肽商品名）"
+          },
+          "patent": {
+            "note": "創百寫超過 35 項專利，本次沒有打開專利號頁，維持 unknown。",
+            "refs": [],
+            "status": "unknown"
+          },
+          "sources": [
+            {
+              "accessed": "2026-11-07",
+              "channel": "industry_report",
+              "publisher": "創百股份有限公司",
+              "title": "OPITAC® 日本專利圓酵母穀胱甘肽",
+              "url": "https://www.chambio.com/products/glutathione-opitac/",
+              "whatItContributes": "台灣獨家經銷說明、用量 50–250 mg／天、圓酵母來源、GRAS／TFDA 對照與規格。"
+            },
+            {
+              "accessed": "2026-11-07",
+              "channel": "other",
+              "publisher": "創百／OPITAC 台灣站",
+              "title": "OPITAC® 穀胱甘肽品牌站",
+              "url": "https://www.glutathione.com.tw/",
+              "whatItContributes": "品牌辨識、圓酵母量產與授權雷標說明。"
+            },
+            {
+              "accessed": "2026-11-07",
+              "channel": "exhibition",
+              "publisher": "展昭／亞洲生技大展系列",
+              "title": "創百股份有限公司－亞洲美容保養．生技保健大展參展資料",
+              "url": "https://www.chanchao.com.tw/healthcos/visitorExhibitorDetail.asp?comNo=218786&sno=201627",
+              "whatItContributes": "展會名錄可見創百展出 OPITAC 等品牌原料。"
+            }
+          ],
+          "supply": {
+            "relationship": "taiwan_agent",
+            "relationshipNote": "創百產品頁與 glutathione.com.tw 品牌站均寫台灣獨家原料經銷／OPITAC 授權辨識。創百並寫曾協助圓酵母來源穀胱甘肽取得台灣食品原料許可脈絡。原廠英文站本次未互指創百。",
+            "supplierCountry": "日本",
+            "supplierName": "Mitsubishi Corporation Life Sciences（原 Kohjin／興人）",
+            "taiwanPartyName": "創百股份有限公司"
+          },
+          "tfda": {
+            "evidenceNotes": "食品原料查到穀胱甘肽 1 筆，限由圓酵母（Torula yeast）發酵製成，不是未確認安全性。每日食用限量 250 mg，並須標示對穀胱甘肽過敏者、孕婦、哺乳婦女及嬰幼兒應避免食用。商品名 OPITAC／Setria 0 筆。添加物分頁 0 筆。創百建議 50–250 mg／天與上限同值，超過 250 mg 不可寫成台灣可用。",
+            "lookupDate": "2026-11-07",
+            "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+            "officialCrosscheck": {
+              "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+              "done": true,
+              "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+              "notes": "2026-11-07 依查詢助手公開 data.json 確認圓酵母來源穀胱甘肽列名與 250 mg 上限；官方頁未另開。"
+            },
+            "queries": [
+              {
+                "category": "微生物及其來源製取之原料",
+                "keyword": "穀胱甘肽",
+                "matchedName": "穀胱甘肽",
+                "note": "外文 Glutathione。",
+                "restrictionNote": "限圓酵母發酵製成；每日食用限量 250 mg；須標示過敏者、孕婦、哺乳婦女及嬰幼兒應避免食用。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "微生物及其來源製取之原料",
+                "keyword": "Glutathione",
+                "matchedName": "穀胱甘肽",
+                "note": "與中文名同一筆。",
+                "restrictionNote": "同上。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "OPITAC",
+                "matchedName": "",
+                "note": "商品名沒有另列。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "glutathione",
+                "matchedName": "",
+                "note": "添加物分頁 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "穀胱甘肽",
+                "matchedName": "",
+                "note": "未改列未確認安全性。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "history",
+                "unconfirmedSafety": false
+              }
+            ],
+            "usable": "listed_food_ingredient"
+          }
+        },
+        {
+          "discovery": {
+            "channel": "news",
+            "notes": "從 Suntheanine 2025 mindful drinking 新聞進入，再對 Taiyo 產品頁與北美通路頁。台灣代理公開頁查無；TFDA 以調味劑添加物列名。",
+            "scoutDate": "2026-11-07"
+          },
+          "efficacy": {
+            "claimedBenefits": [
+              "Taiyo GmbH／Suntheanine 產品頁：口服 200 mg／serving 可在 30–40 分鐘誘導 alpha 波，描述為放鬆但保持清醒；焦慮者甚至 50 mg 可見放鬆效果；並宣稱有助減壓、入睡與睡眠品質、減緩咖啡因副作用等。這是原廠宣稱。",
+              "Suntheanine 2025-03-28 新聞：介紹其出現在高端 wellness mocktail／無酒精調飲場景，強調發酵製程純 L-異構物與研究累積。這是品牌新聞應用故事，不是劑量法規依據。"
+            ],
+            "dosageNote": "原廠／研究取向劑量。台灣目前是以食品添加物調味劑列管（≤1 g/kg），不是另立保健原料每日上限；配方若走補充品高劑量，須另做法規評估，不能只抄 200 mg。",
+            "suggestedDosage": "Taiyo 產品頁常用描述：200 mg／serving（alpha 波研究）；焦慮放鬆可見 50 mg／serving。"
+          },
+          "evidenceLevels": [],
+          "example": false,
+          "id": "suntheanine",
+          "images": [
+            {
+              "caption": "Taiyo GmbH Suntheanine 品牌頁圖片。",
+              "localPath": "",
+              "source": "official_site",
+              "url": "https://taiyogmbh.com/wp-content/uploads/2020/02/suntheanine_site.png"
+            }
+          ],
+          "literature": {
+            "note": "品牌宣稱超過百篇研究，本次沒有打開單篇論文，不標 clinical。",
+            "refs": [],
+            "status": "unknown"
+          },
+          "names": {
+            "commonEn": "L-theanine",
+            "commonZh": "茶胺酸",
+            "scientific": "不適用（胺基酸衍生物 L-glutamic acid-γ-monoethylamide；可由酶促／發酵製程生產，非植物分類學名）",
+            "trade": "Suntheanine（Taiyo 的純 L-茶胺酸商品名）"
+          },
+          "patent": {
+            "note": "Taiyo 自稱專利酶促／發酵製程，本次沒有打開專利號頁，維持 unknown。",
+            "refs": [],
+            "status": "unknown"
+          },
+          "sources": [
+            {
+              "accessed": "2026-11-07",
+              "channel": "news",
+              "publisher": "Suntheanine",
+              "title": "Mindful Drinking: Why Mixologists Are Turning to Suntheanine®",
+              "url": "https://www.suntheanine.com/in-the-news/mindful-drinking-why-suntheanine-is-appearing-on-exclusive-cocktail-menus/",
+              "whatItContributes": "2025-03 品牌新聞：功能調飲／mocktail 應用與發酵純 L-theanine 定位。"
+            },
+            {
+              "accessed": "2026-11-07",
+              "channel": "supplier_site",
+              "publisher": "Taiyo GmbH",
+              "title": "Suntheanine - Pure L-Theanine powder",
+              "url": "https://taiyogmbh.com/en/start-en/brands/suntheanine-en/",
+              "whatItContributes": "原廠效益、200 mg／50 mg 描述、水溶與純度說明。"
+            },
+            {
+              "accessed": "2026-11-07",
+              "channel": "other",
+              "publisher": "NutriScience Innovations",
+              "title": "Contact NutriScience for Suntheanine®",
+              "url": "https://l-theanine.com/contact/",
+              "whatItContributes": "北美獨家供應關係說明；未見台灣代理指名。"
+            }
+          ],
+          "supply": {
+            "relationship": "unknown",
+            "relationshipNote": "Taiyo／Suntheanine 官方與北美 NutriScience 頁未指名台灣公司。搜尋創百、生資、統園、呈定公開目錄未見 Suntheanine 獨家代理頁，故填查無。",
+            "supplierCountry": "日本",
+            "supplierName": "Taiyo International／Taiyo Kagaku",
+            "taiwanPartyName": "查無"
+          },
+          "tfda": {
+            "evidenceNotes": "食品原料分頁查無茶胺酸／L-theanine／Suntheanine。食品添加物有 1 筆「茶胺酸／L-Theanine」，屬調味劑，各類食品用量 1 g／kg 以下，且限作調味劑使用；不是未確認安全性。將其當保健原料高劑量補充時，仍須自行評估是否超出調味劑用途與限量框架。",
+            "lookupDate": "2026-11-07",
+            "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+            "officialCrosscheck": {
+              "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+              "done": true,
+              "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+              "notes": "2026-11-07 依查詢助手公開 data.json 確認添加物列名與 1 g/kg 調味劑限量；官方頁未另開。"
+            },
+            "queries": [
+              {
+                "category": "",
+                "keyword": "茶胺酸",
+                "matchedName": "",
+                "note": "原料分頁 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "theanine",
+                "matchedName": "",
+                "note": "原料分頁 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "(十一) 調味劑",
+                "keyword": "茶胺酸",
+                "matchedName": "茶胺酸",
+                "note": "外文 L-Theanine。",
+                "restrictionNote": "本品可於各類食品中；用量為 1 g/kg 以下。限作調味劑使用。",
+                "resultCount": 1,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "(十一) 調味劑",
+                "keyword": "L-Theanine",
+                "matchedName": "茶胺酸",
+                "note": "與中文名同一筆。",
+                "restrictionNote": "同上。",
+                "resultCount": 1,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "茶胺酸",
+                "matchedName": "",
+                "note": "未改列未確認安全性。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "history",
+                "unconfirmedSafety": false
+              }
+            ],
+            "usable": "listed_food_additive"
+          }
+        },
+        {
+          "discovery": {
+            "channel": "exhibition",
+            "notes": "從 Gnosis BIO Asia Taiwan／展昭產品名錄看到 Quatrefolic 與漢馨合作，再對漢馨與 Gnosis 產品頁。化學名與 TFDA 5MTHF-GlcN 原料列名一致。",
+            "scoutDate": "2026-11-07"
+          },
+          "efficacy": {
+            "claimedBenefits": [
+              "Gnosis 產品頁：Quatrefolic 為 (6S)-5-MTHF 葡萄糖胺鹽，強調相對於合成葉酸可少走體內轉換步驟，並提到妊娠葉酸需求（至少 400 μg／日葉酸當量）、甲基化／同半胱胺酸管理、降低 UMFA 累積疑慮等定位。這是原廠宣稱。",
+              "漢馨產品頁：寫活性態、高溶解度與穩定性、Vitafoods Europe 獎項／Nutraward 入圍，以及無 MTHFR 基因變異轉換顧慮的行銷說法。這是台灣代理轉述。"
+            ],
+            "dosageNote": "原廠談的是葉酸營養需求與活性態優勢；實際成品劑量須同時符合台灣葉酸營養添加劑上限（膠囊／錠狀 ≤800 μg／日）與原料規格。",
+            "suggestedDosage": "Gnosis：妊娠相關葉酸攝取至少 400 μg／日（葉酸當量脈絡）。台灣添加物框架：膠囊／錠狀每日葉酸總含量不高於 800 μg。"
+          },
+          "evidenceLevels": [],
+          "example": false,
+          "id": "quatrefolic",
+          "images": [
+            {
+              "caption": "漢馨 Quatrefolic 產品頁圖片。",
+              "localPath": "",
+              "source": "other",
+              "url": "https://www.hansient.com.tw/wp-content/uploads/Quatrefolic%C2%AE-%E8%B6%85%E7%B4%9A%E8%91%89%E9%85%B8.jpg"
+            }
+          ],
+          "literature": {
+            "note": "漢馨寫多項人體實驗，本次沒有打開單篇論文，不標 clinical。",
+            "refs": [],
+            "status": "unknown"
+          },
+          "names": {
+            "commonEn": "(6S)-5-methyltetrahydrofolate glucosamine salt (5-MTHF-GlcN)",
+            "commonZh": "(6S)-5-甲基四氫葉酸葡萄糖胺鹽",
+            "scientific": "不適用（葉酸活性態葡萄糖胺鹽，非植物學名）",
+            "trade": "Quatrefolic（Gnosis by Lesaffre 的活性葉酸商品名）"
+          },
+          "patent": {
+            "note": "漢馨寫四項專利認證，本次沒有打開專利號頁，維持 unknown。",
+            "refs": [],
+            "status": "unknown"
+          },
+          "sources": [
+            {
+              "accessed": "2026-11-07",
+              "channel": "exhibition",
+              "publisher": "Gnosis by Lesaffre",
+              "title": "Quatrefolic Showcase at BIO Asia Taiwan Exhibition booth I116",
+              "url": "https://gnosisbylesaffre.com/blog/quatrefolic-showcase-at-bio-asia-taiwan-exhibition-booth-i116/",
+              "whatItContributes": "BIO Asia Taiwan 展會報導；指名與漢馨共同展出 Quatrefolic。"
+            },
+            {
+              "accessed": "2026-11-07",
+              "channel": "other",
+              "publisher": "漢馨科技有限公司",
+              "title": "Quatrefolic® 超級葉酸",
+              "url": "https://www.hansient.com.tw/product/quatrefolic-%e8%b6%85%e7%b4%9a%e8%91%89%e9%85%b8/",
+              "whatItContributes": "台灣唯一供應宣稱、義大利 Gnosis 來源與產品賣點。"
+            },
+            {
+              "accessed": "2026-11-07",
+              "channel": "supplier_site",
+              "publisher": "Gnosis by Lesaffre",
+              "title": "Quatrefolic: Advanced Folate Supplementation for Health",
+              "url": "https://gnosisbylesaffre.com/ingredient/quatrefolic/",
+              "whatItContributes": "原廠化學型態、活性葉酸定位與妊娠 400 μg 脈絡。"
+            },
+            {
+              "accessed": "2026-11-07",
+              "channel": "exhibition",
+              "publisher": "展昭／亞洲生技大展系列",
+              "title": "超級葉酸 Quatrefolic®－亞洲美容保養．生技保健大展產品頁",
+              "url": "https://www.chanchao.com.tw/healthcos/visitorProductDetail.asp?no=213039",
+              "whatItContributes": "展會產品名錄確認漢馨展出 Quatrefolic 與 TFDA 食品原料說法。"
+            }
+          ],
+          "supply": {
+            "relationship": "taiwan_agent",
+            "relationshipNote": "漢馨產品頁寫「全台唯一供應」Quatrefolic；展昭生技保健展產品頁與 Gnosis 官網 BIO Asia Taiwan 報導均指向漢馨（Han-Sient）為台灣通路夥伴。原廠頁未另見第二家台灣代理公開指名。",
+            "supplierCountry": "義大利",
+            "supplierName": "Gnosis by Lesaffre",
+            "taiwanPartyName": "漢馨科技有限公司"
+          },
+          "tfda": {
+            "evidenceNotes": "食品原料查到「(6S)-5-甲基四氫葉酸葡萄糖胺鹽」1 筆，規格須符合附表，每日使用量以產品葉酸總含量計，並符合添加物標準中葉酸之範圍與限量；不是未確認安全性。商品名 Quatrefolic 0 筆。添加物另有葉酸與 L-5-甲基四氫葉酸鈣（營養添加劑），膠囊／錠狀每日葉酸總含量不高於 800 μg。本品化學型態對得上原料列名那一筆。",
+            "lookupDate": "2026-11-07",
+            "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+            "officialCrosscheck": {
+              "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+              "done": true,
+              "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+              "notes": "2026-11-07 依查詢助手公開 data.json 確認 5MTHF-GlcN 原料列名，並交叉添加物葉酸／5-MTHF 鈣鹽限量；官方頁未另開。"
+            },
+            "queries": [
+              {
+                "category": "以化學反應或酵素製程等加工處理之食品原料",
+                "keyword": "5-甲基四氫葉酸",
+                "matchedName": "(6S)-5-甲基四氫葉酸葡萄糖胺鹽",
+                "note": "外文 (6S)-5-Methyl-tetrahydrofolic acid, Glucosamine Salt (5MTHF-GlcN)。",
+                "restrictionNote": "須符合附表規格；每日使用量以產品葉酸總含量計，範圍與限量依食品添加物葉酸規定。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Quatrefolic",
+                "matchedName": "",
+                "note": "商品名沒有另列。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "(八) 營養添加劑",
+                "keyword": "葉酸",
+                "matchedName": "葉酸；L-5-甲基四氫葉酸鈣",
+                "note": "添加物是葉酸與鈣鹽型態；Quatrefolic 本體對應原料列名的葡萄糖胺鹽。",
+                "restrictionNote": "膠囊／錠狀且標示每日食用量者，葉酸總含量不得高於 800 μg；其他一般食品另有較低上限。限於補充食品中不足之營養素時使用。",
+                "resultCount": 2,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "甲基四氫葉酸",
+                "matchedName": "",
+                "note": "未改列未確認安全性。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "history",
+                "unconfirmedSafety": false
+              }
+            ],
+            "usable": "listed_food_ingredient"
+          }
+        },
+        {
+          "discovery": {
+            "channel": "industry_report",
+            "notes": "從 OmniActive EU non-novel／Vitafoods 產業稿進入 Lutemax 2020，再對原廠產品頁、Nutrition Insight 訪談與生資台灣目錄。劑量以生資 100 mg 原料對齊葉黃素 30 mg 上限。",
+            "scoutDate": "2026-11-07"
+          },
+          "efficacy": {
+            "claimedBenefits": [
+              "OmniActive 產品／新聞稿：Lutemax 2020 來自金盞花，提供 lutein、RR-zeaxanthin 與 meso-zeaxanthin，比例約 5:1，定位視覺表現、藍光防護與認知相關應用；並寫有多篇臨床研究發表。這是原廠宣稱。",
+              "生資產品頁：規格葉黃素 20%、玉米黃素 4%，原料用量 100 mg／日，並列出明亮視野、思緒靈光等應用方向；同時轉載 TFDA 葉黃素 30 mg 上限。這是台灣經銷頁轉述。",
+              "OmniActive 2025-05-14 新聞稿：Lutemax 2020 取得歐盟非新型食品（non-novel）地位，並預告於 Vitafoods Europe 2025 展出。"
+            ],
+            "dosageNote": "經銷／原廠研究劑量。台灣原料與添加物框架均指向葉黃素總含量每日不高於 30 mg；生資 100 mg 原料（約 20 mg 葉黃素）低於上限。合成玉米黃素添加物另有 10 mg 上限，成品標示須一併核對。",
+            "suggestedDosage": "生資：原料 100 mg／日（對應葉黃素 20% → 約 20 mg 葉黃素、玉米黃素 4% → 約 4 mg）。OmniActive 皮膚相關摘要曾用 Lutemax 來源 10 mg 葉黃素 + 2 mg 玉米黃素異構物。"
+          },
+          "evidenceLevels": [],
+          "example": false,
+          "id": "lutemax-2020",
+          "images": [
+            {
+              "caption": "OmniActive Lutemax 2020 官方產品頁標誌圖。",
+              "localPath": "",
+              "source": "official_site",
+              "url": "https://omniactives.com/wp-content/uploads/2021/04/Lutemax2020-1.png"
+            }
+          ],
+          "literature": {
+            "note": "OmniActive 寫 10 篇同儕審查臨床發表，本次沒有打開單篇論文，不標 clinical。",
+            "refs": [],
+            "status": "unknown"
+          },
+          "names": {
+            "commonEn": "lutein and zeaxanthin isomers (marigold extract)",
+            "commonZh": "葉黃素與玉米黃素（金盞花／萬壽菊萃取）",
+            "scientific": "Tagetes erecta L.（金盞花／萬壽菊來源；含 lutein、RR-zeaxanthin、meso-zeaxanthin）",
+            "trade": "Lutemax 2020（OmniActive 的金盞花來源黃斑色素商品名）"
+          },
+          "patent": {
+            "note": "OmniActive／生資寫專利原料，本次沒有打開專利號頁，維持 unknown。",
+            "refs": [],
+            "status": "unknown"
+          },
+          "sources": [
+            {
+              "accessed": "2026-11-07",
+              "channel": "industry_report",
+              "publisher": "OmniActive Health Technologies",
+              "title": "OmniActive Secures EU Non-Novel Status for Lutemax 2020",
+              "url": "https://omniactives.com/press-releases/omniactive-secures-eu-non-novel-status-for-lutemax-2020/",
+              "whatItContributes": "2025-05 產業新聞稿：歐盟 non-novel 地位、5:1 黃斑色素組成與 Vitafoods Europe 2025 展出。"
+            },
+            {
+              "accessed": "2026-11-07",
+              "channel": "supplier_site",
+              "publisher": "OmniActive",
+              "title": "Lutemax 2020 product page",
+              "url": "https://omniactives.com/product/lutemax-2020/",
+              "whatItContributes": "原廠產品定位與視覺／認知應用說明。"
+            },
+            {
+              "accessed": "2026-11-07",
+              "channel": "other",
+              "publisher": "生資有限公司",
+              "title": "Lutemax2020®葉黃素｜油溶性金盞花專利萃取",
+              "url": "https://www.nutrisense.com.tw/ingredients/lutein-lutemax-2020/",
+              "whatItContributes": "台灣經銷規格（20%/4%）、用量 100 mg／日與 TFDA 葉黃素 30 mg 上限轉載。"
+            },
+            {
+              "accessed": "2026-11-07",
+              "channel": "news",
+              "publisher": "Nutrition Insight",
+              "title": "OmniActive CEO charts eye-brain nexus and women’s health growth",
+              "url": "https://www.nutritioninsight.com/news/omniactive-lutein-eye-brain-healthy-aging.html",
+              "whatItContributes": "2026-09 產業訪談；Lutemax 2020 被放在眼腦健康與健康老化產品線。"
+            }
+          ],
+          "supply": {
+            "relationship": "taiwan_distributor",
+            "relationshipNote": "生資產品頁完整介紹 Lutemax 2020（葉黃素 20%、玉米黃素 4%、用量 100 mg／日原料），頁上未見「獨家代理」字樣，故以目錄經銷關係填 taiwan_distributor。OmniActive 英文站本次未互指生資。",
+            "supplierCountry": "印度",
+            "supplierName": "OmniActive Health Technologies",
+            "taiwanPartyName": "生資有限公司"
+          },
+          "tfda": {
+            "evidenceNotes": "食品原料查到金盞草；萬壽菊（Tagetes erecta 等）1 筆，可供茶包／膳食調理或萃取後使用，不是未確認安全性；每日以產品中葉黃素總含量計 30 mg。商品名 Lutemax 0 筆。添加物另有葉黃素（營養添加劑／著色劑）與合成玉米黃素，膠囊／錠狀葉黃素不高於 30 mg、合成玉米黃素不高於 10 mg。本次以植物來源原料列名為主；成品仍須同時符合葉黃素相關限量。",
+            "lookupDate": "2026-11-07",
+            "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+            "officialCrosscheck": {
+              "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+              "done": true,
+              "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+              "notes": "2026-11-07 依查詢助手公開 data.json 確認金盞草／萬壽菊原料列名與葉黃素 30 mg 上限，並交叉添加物葉黃素／合成玉米黃素；官方頁未另開。"
+            },
+            "queries": [
+              {
+                "category": "草、木本植物類(1)供茶包、膳食調理包或萃取後作為原料",
+                "keyword": "金盞草",
+                "matchedName": "金盞草；萬壽菊",
+                "note": "學名含 Tagetes erecta L. 等。",
+                "restrictionNote": "限列名品種；濾袋沖泡或萃取後食用；每日以產品中葉黃素總含量計 30 mg。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "草、木本植物類(1)供茶包、膳食調理包或萃取後作為原料",
+                "keyword": "葉黃素",
+                "matchedName": "金盞草；萬壽菊",
+                "note": "關鍵字命中同一筆植物原料。",
+                "restrictionNote": "同上（備註指向葉黃素總含量 30 mg）。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Lutemax",
+                "matchedName": "",
+                "note": "商品名沒有另列。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "(八) 營養添加劑／(九) 著色劑",
+                "keyword": "葉黃素",
+                "matchedName": "葉黃素",
+                "note": "添加物葉黃素與原料植物列名並存；本次結論以原料列名為主。",
+                "restrictionNote": "營養添加劑：膠囊／錠狀每日 lutein 總含量不高於 30 mg。著色劑另有食品類別用量限制。",
+                "resultCount": 2,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "(八) 營養添加劑",
+                "keyword": "玉米黃素",
+                "matchedName": "合成玉米黃素",
+                "note": "添加物為合成玉米黃素規格；Lutemax 宣稱含天然異構物，成品標示仍須對齊限量。",
+                "restrictionNote": "膠囊／錠狀每日 zeaxanthin 總含量不高於 10 mg。",
+                "resultCount": 1,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "萬壽菊",
+                "matchedName": "",
+                "note": "未改列未確認安全性。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "history",
+                "unconfirmedSafety": false
+              }
+            ],
+            "usable": "listed_food_ingredient"
+          }
+        }
+      ],
+      "targetCount": 5,
+      "title": "2026-11-07 正式日報"
+    },
+    {
+      "channelsCovered": [
+        "news",
+        "exhibition",
+        "industry_report"
+      ],
       "date": "2026-11-06",
       "example": false,
       "notes": "正式五筆。未放入 TFDA 明確未確認安全性項目（已排除 PQQ、含總序天冬／shatavari 的 Fenavari）。Magtein 助手未列該鎂鹽型態（not_found）。Naticol UltraPeptide 與 Nextida GC 依膠原蛋白列名。AstaReal 依紅藻學名含 Haematococcus pluvialis；發酵蝦紅素 2 mg 規格是另一製程。KSM-66 依南非醉茄萃取物列名，每日 250 mg 上限。",
@@ -2535,6 +3270,164 @@
     },
     {
       "discovery": {
+        "channel": "industry_report",
+        "notes": "從 OmniActive EU non-novel／Vitafoods 產業稿進入 Lutemax 2020，再對原廠產品頁、Nutrition Insight 訪談與生資台灣目錄。劑量以生資 100 mg 原料對齊葉黃素 30 mg 上限。",
+        "scoutDate": "2026-11-07"
+      },
+      "efficacy": {
+        "claimedBenefits": [
+          "OmniActive 產品／新聞稿：Lutemax 2020 來自金盞花，提供 lutein、RR-zeaxanthin 與 meso-zeaxanthin，比例約 5:1，定位視覺表現、藍光防護與認知相關應用；並寫有多篇臨床研究發表。這是原廠宣稱。",
+          "生資產品頁：規格葉黃素 20%、玉米黃素 4%，原料用量 100 mg／日，並列出明亮視野、思緒靈光等應用方向；同時轉載 TFDA 葉黃素 30 mg 上限。這是台灣經銷頁轉述。",
+          "OmniActive 2025-05-14 新聞稿：Lutemax 2020 取得歐盟非新型食品（non-novel）地位，並預告於 Vitafoods Europe 2025 展出。"
+        ],
+        "dosageNote": "經銷／原廠研究劑量。台灣原料與添加物框架均指向葉黃素總含量每日不高於 30 mg；生資 100 mg 原料（約 20 mg 葉黃素）低於上限。合成玉米黃素添加物另有 10 mg 上限，成品標示須一併核對。",
+        "suggestedDosage": "生資：原料 100 mg／日（對應葉黃素 20% → 約 20 mg 葉黃素、玉米黃素 4% → 約 4 mg）。OmniActive 皮膚相關摘要曾用 Lutemax 來源 10 mg 葉黃素 + 2 mg 玉米黃素異構物。"
+      },
+      "evidenceLevels": [],
+      "example": false,
+      "id": "lutemax-2020",
+      "images": [
+        {
+          "caption": "OmniActive Lutemax 2020 官方產品頁標誌圖。",
+          "localPath": "",
+          "source": "official_site",
+          "url": "https://omniactives.com/wp-content/uploads/2021/04/Lutemax2020-1.png"
+        }
+      ],
+      "literature": {
+        "note": "OmniActive 寫 10 篇同儕審查臨床發表，本次沒有打開單篇論文，不標 clinical。",
+        "refs": [],
+        "status": "unknown"
+      },
+      "names": {
+        "commonEn": "lutein and zeaxanthin isomers (marigold extract)",
+        "commonZh": "葉黃素與玉米黃素（金盞花／萬壽菊萃取）",
+        "scientific": "Tagetes erecta L.（金盞花／萬壽菊來源；含 lutein、RR-zeaxanthin、meso-zeaxanthin）",
+        "trade": "Lutemax 2020（OmniActive 的金盞花來源黃斑色素商品名）"
+      },
+      "patent": {
+        "note": "OmniActive／生資寫專利原料，本次沒有打開專利號頁，維持 unknown。",
+        "refs": [],
+        "status": "unknown"
+      },
+      "sources": [
+        {
+          "accessed": "2026-11-07",
+          "channel": "industry_report",
+          "publisher": "OmniActive Health Technologies",
+          "title": "OmniActive Secures EU Non-Novel Status for Lutemax 2020",
+          "url": "https://omniactives.com/press-releases/omniactive-secures-eu-non-novel-status-for-lutemax-2020/",
+          "whatItContributes": "2025-05 產業新聞稿：歐盟 non-novel 地位、5:1 黃斑色素組成與 Vitafoods Europe 2025 展出。"
+        },
+        {
+          "accessed": "2026-11-07",
+          "channel": "supplier_site",
+          "publisher": "OmniActive",
+          "title": "Lutemax 2020 product page",
+          "url": "https://omniactives.com/product/lutemax-2020/",
+          "whatItContributes": "原廠產品定位與視覺／認知應用說明。"
+        },
+        {
+          "accessed": "2026-11-07",
+          "channel": "other",
+          "publisher": "生資有限公司",
+          "title": "Lutemax2020®葉黃素｜油溶性金盞花專利萃取",
+          "url": "https://www.nutrisense.com.tw/ingredients/lutein-lutemax-2020/",
+          "whatItContributes": "台灣經銷規格（20%/4%）、用量 100 mg／日與 TFDA 葉黃素 30 mg 上限轉載。"
+        },
+        {
+          "accessed": "2026-11-07",
+          "channel": "news",
+          "publisher": "Nutrition Insight",
+          "title": "OmniActive CEO charts eye-brain nexus and women’s health growth",
+          "url": "https://www.nutritioninsight.com/news/omniactive-lutein-eye-brain-healthy-aging.html",
+          "whatItContributes": "2026-09 產業訪談；Lutemax 2020 被放在眼腦健康與健康老化產品線。"
+        }
+      ],
+      "supply": {
+        "relationship": "taiwan_distributor",
+        "relationshipNote": "生資產品頁完整介紹 Lutemax 2020（葉黃素 20%、玉米黃素 4%、用量 100 mg／日原料），頁上未見「獨家代理」字樣，故以目錄經銷關係填 taiwan_distributor。OmniActive 英文站本次未互指生資。",
+        "supplierCountry": "印度",
+        "supplierName": "OmniActive Health Technologies",
+        "taiwanPartyName": "生資有限公司"
+      },
+      "tfda": {
+        "evidenceNotes": "食品原料查到金盞草；萬壽菊（Tagetes erecta 等）1 筆，可供茶包／膳食調理或萃取後使用，不是未確認安全性；每日以產品中葉黃素總含量計 30 mg。商品名 Lutemax 0 筆。添加物另有葉黃素（營養添加劑／著色劑）與合成玉米黃素，膠囊／錠狀葉黃素不高於 30 mg、合成玉米黃素不高於 10 mg。本次以植物來源原料列名為主；成品仍須同時符合葉黃素相關限量。",
+        "lookupDate": "2026-11-07",
+        "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+        "officialCrosscheck": {
+          "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+          "done": true,
+          "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+          "notes": "2026-11-07 依查詢助手公開 data.json 確認金盞草／萬壽菊原料列名與葉黃素 30 mg 上限，並交叉添加物葉黃素／合成玉米黃素；官方頁未另開。"
+        },
+        "queries": [
+          {
+            "category": "草、木本植物類(1)供茶包、膳食調理包或萃取後作為原料",
+            "keyword": "金盞草",
+            "matchedName": "金盞草；萬壽菊",
+            "note": "學名含 Tagetes erecta L. 等。",
+            "restrictionNote": "限列名品種；濾袋沖泡或萃取後食用；每日以產品中葉黃素總含量計 30 mg。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "草、木本植物類(1)供茶包、膳食調理包或萃取後作為原料",
+            "keyword": "葉黃素",
+            "matchedName": "金盞草；萬壽菊",
+            "note": "關鍵字命中同一筆植物原料。",
+            "restrictionNote": "同上（備註指向葉黃素總含量 30 mg）。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Lutemax",
+            "matchedName": "",
+            "note": "商品名沒有另列。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "(八) 營養添加劑／(九) 著色劑",
+            "keyword": "葉黃素",
+            "matchedName": "葉黃素",
+            "note": "添加物葉黃素與原料植物列名並存；本次結論以原料列名為主。",
+            "restrictionNote": "營養添加劑：膠囊／錠狀每日 lutein 總含量不高於 30 mg。著色劑另有食品類別用量限制。",
+            "resultCount": 2,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "(八) 營養添加劑",
+            "keyword": "玉米黃素",
+            "matchedName": "合成玉米黃素",
+            "note": "添加物為合成玉米黃素規格；Lutemax 宣稱含天然異構物，成品標示仍須對齊限量。",
+            "restrictionNote": "膠囊／錠狀每日 zeaxanthin 總含量不高於 10 mg。",
+            "resultCount": 1,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "萬壽菊",
+            "matchedName": "",
+            "note": "未改列未確認安全性。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "history",
+            "unconfirmedSafety": false
+          }
+        ],
+        "usable": "listed_food_ingredient"
+      }
+    },
+    {
+      "discovery": {
         "channel": "news",
         "notes": "從 Vitafoods／All4Nutra 與 Prezly 新聞進入，打開 Frontiers RCT，再對 Magtein／ThreoTech 官網。台灣代理公開頁查無。",
         "scoutDate": "2026-11-06"
@@ -2992,6 +3885,293 @@
     },
     {
       "discovery": {
+        "channel": "industry_report",
+        "notes": "從台灣穀胱甘肽原料產業資料進入 OPITAC／創百，再對品牌站與展會名錄。刻意選圓酵母來源以符合 TFDA 列名條件；未採用 Setria（台灣代理公開頁較不明確）。",
+        "scoutDate": "2026-11-07"
+      },
+      "efficacy": {
+        "claimedBenefits": [
+          "創百產品頁：OPITAC 為 Non-GMO 圓酵母來源、純度約 98% 還原型 GSH，並列出提升保護力、舒緩壓力、幫助入睡、養顏美容等應用方向；另寫曾獲國家健康食品護肝功能核准（指特定終端產品脈絡，不能直接套成所有複方）。這是台灣代理轉述。",
+          "創百／品牌站：寫唯一取得 FDA GRAS（GRN 293）與台灣圓酵母來源許可的穀胱甘肽原料定位。這是供應商／代理安全與法規宣稱。"
+        ],
+        "dosageNote": "台灣代理建議劑量，上限與 TFDA 圓酵母穀胱甘肽每日 250 mg 相同。國外其他品牌臨床劑量不可直接寫成台灣可用。",
+        "suggestedDosage": "創百產品頁：50–250 mg／天。規格列還原型 GSH 98%、氧化型 GSSG 18%（飲料用）。"
+      },
+      "evidenceLevels": [],
+      "example": false,
+      "id": "opitac",
+      "images": [
+        {
+          "caption": "OPITAC 台灣品牌站首頁主視覺。",
+          "localPath": "",
+          "source": "other",
+          "url": "https://www.glutathione.com.tw/admin/wp-content/uploads/2026/08/OPITAC-index-1.jpg"
+        }
+      ],
+      "literature": {
+        "note": "創百寫 50 篇文獻／10+ 論文，本次沒有打開單篇論文，不標 clinical。",
+        "refs": [],
+        "status": "unknown"
+      },
+      "names": {
+        "commonEn": "glutathione (GSH)",
+        "commonZh": "穀胱甘肽",
+        "scientific": "不適用（由圓酵母 Torula yeast／Candida utilis 發酵製取之三胜肽，非單一植物學名）",
+        "trade": "OPITAC（Mitsubishi／Kohjin 興人的圓酵母穀胱甘肽商品名）"
+      },
+      "patent": {
+        "note": "創百寫超過 35 項專利，本次沒有打開專利號頁，維持 unknown。",
+        "refs": [],
+        "status": "unknown"
+      },
+      "sources": [
+        {
+          "accessed": "2026-11-07",
+          "channel": "industry_report",
+          "publisher": "創百股份有限公司",
+          "title": "OPITAC® 日本專利圓酵母穀胱甘肽",
+          "url": "https://www.chambio.com/products/glutathione-opitac/",
+          "whatItContributes": "台灣獨家經銷說明、用量 50–250 mg／天、圓酵母來源、GRAS／TFDA 對照與規格。"
+        },
+        {
+          "accessed": "2026-11-07",
+          "channel": "other",
+          "publisher": "創百／OPITAC 台灣站",
+          "title": "OPITAC® 穀胱甘肽品牌站",
+          "url": "https://www.glutathione.com.tw/",
+          "whatItContributes": "品牌辨識、圓酵母量產與授權雷標說明。"
+        },
+        {
+          "accessed": "2026-11-07",
+          "channel": "exhibition",
+          "publisher": "展昭／亞洲生技大展系列",
+          "title": "創百股份有限公司－亞洲美容保養．生技保健大展參展資料",
+          "url": "https://www.chanchao.com.tw/healthcos/visitorExhibitorDetail.asp?comNo=218786&sno=201627",
+          "whatItContributes": "展會名錄可見創百展出 OPITAC 等品牌原料。"
+        }
+      ],
+      "supply": {
+        "relationship": "taiwan_agent",
+        "relationshipNote": "創百產品頁與 glutathione.com.tw 品牌站均寫台灣獨家原料經銷／OPITAC 授權辨識。創百並寫曾協助圓酵母來源穀胱甘肽取得台灣食品原料許可脈絡。原廠英文站本次未互指創百。",
+        "supplierCountry": "日本",
+        "supplierName": "Mitsubishi Corporation Life Sciences（原 Kohjin／興人）",
+        "taiwanPartyName": "創百股份有限公司"
+      },
+      "tfda": {
+        "evidenceNotes": "食品原料查到穀胱甘肽 1 筆，限由圓酵母（Torula yeast）發酵製成，不是未確認安全性。每日食用限量 250 mg，並須標示對穀胱甘肽過敏者、孕婦、哺乳婦女及嬰幼兒應避免食用。商品名 OPITAC／Setria 0 筆。添加物分頁 0 筆。創百建議 50–250 mg／天與上限同值，超過 250 mg 不可寫成台灣可用。",
+        "lookupDate": "2026-11-07",
+        "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+        "officialCrosscheck": {
+          "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+          "done": true,
+          "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+          "notes": "2026-11-07 依查詢助手公開 data.json 確認圓酵母來源穀胱甘肽列名與 250 mg 上限；官方頁未另開。"
+        },
+        "queries": [
+          {
+            "category": "微生物及其來源製取之原料",
+            "keyword": "穀胱甘肽",
+            "matchedName": "穀胱甘肽",
+            "note": "外文 Glutathione。",
+            "restrictionNote": "限圓酵母發酵製成；每日食用限量 250 mg；須標示過敏者、孕婦、哺乳婦女及嬰幼兒應避免食用。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "微生物及其來源製取之原料",
+            "keyword": "Glutathione",
+            "matchedName": "穀胱甘肽",
+            "note": "與中文名同一筆。",
+            "restrictionNote": "同上。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "OPITAC",
+            "matchedName": "",
+            "note": "商品名沒有另列。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "glutathione",
+            "matchedName": "",
+            "note": "添加物分頁 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "穀胱甘肽",
+            "matchedName": "",
+            "note": "未改列未確認安全性。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "history",
+            "unconfirmedSafety": false
+          }
+        ],
+        "usable": "listed_food_ingredient"
+      }
+    },
+    {
+      "discovery": {
+        "channel": "exhibition",
+        "notes": "從 Vitafoods Asia 2026／Nutrition Insight 看到 Balchem 主推 OptiMSM，再對 Balchem 官網、統園代理新聞與卡爾迪克目錄。劑量以原廠 1–3 g／day 對齊 TFDA 6 g／日與單次 ≤2 g。",
+        "scoutDate": "2026-11-07"
+      },
+      "efficacy": {
+        "claimedBenefits": [
+          "Balchem OptiMSM 產品頁：宣稱提供有機硫來源，支持關節健康、運動後恢復與皮膚健康（beauty from within）；頁面引用臨床研究摘要（膝關節舒適度、運動後酸痛等）。這是原廠行銷宣稱。",
+          "Nutrition Insight／Vitafoods Asia 2026 展會報導：Balchem 將 OptiMSM 定位於亞太 beauty-from-within，並提到泰國 FDA 核准脈絡；功效細節仍以原廠與台灣代理頁為準。",
+          "統園新聞頁：引述日本 LocomoSutein 以每日 2,000 mg OptiMSM、12 週行動力研究取得機能性表示食品核可的說法（日本案例，不能直接當台灣宣稱）。"
+        ],
+        "dosageNote": "供應商建議劑量。台灣 TFDA 原料上限為每日 6 g、單次不得超過 2 g；1–3 g／day 落在上限內，但單次仍須 ≤2 g，且須加警語。",
+        "suggestedDosage": "Balchem 官網：配方建議 1–3 g／day。統園轉述日本案例：2,000 mg／day、12 週。"
+      },
+      "evidenceLevels": [],
+      "example": false,
+      "id": "optimsm",
+      "images": [
+        {
+          "caption": "Balchem OptiMSM 官方產品頁封面圖。",
+          "localPath": "",
+          "source": "official_site",
+          "url": "https://balchem.com/wp-content/uploads/2024/09/Web_OptiMSM-Logo_Cover-Image_1920x1080_Sm-1024x576.png"
+        }
+      ],
+      "literature": {
+        "note": "Balchem 頁引用多項臨床摘要與文獻編號，本次沒有打開單篇論文全文，不標 clinical。",
+        "refs": [],
+        "status": "unknown"
+      },
+      "names": {
+        "commonEn": "methylsulfonylmethane (MSM)",
+        "commonZh": "甲基硫醯基甲烷",
+        "scientific": "不適用（化學合成／純化物 MSM，非植物學名）",
+        "trade": "OptiMSM（Balchem／Bergstrom Nutrition 的 MSM 商品名）"
+      },
+      "patent": {
+        "note": "統園／卡爾迪克寫蒸餾技術與多國專利，本次沒有打開具體專利號頁，維持 unknown。",
+        "refs": [],
+        "status": "unknown"
+      },
+      "sources": [
+        {
+          "accessed": "2026-11-07",
+          "channel": "exhibition",
+          "publisher": "Nutrition Insight",
+          "title": "Vitafoods Asia 2026: Balchem sees women’s health and beauty-from-within rise in APAC",
+          "url": "https://www.nutritioninsight.com/news/balchem-vitafoods-asia-womens-health-choline.html",
+          "whatItContributes": "Vitafoods Asia 2026 展會訪談；OptiMSM 被點名作為 beauty-from-within／皮膚健康原料。"
+        },
+        {
+          "accessed": "2026-11-07",
+          "channel": "supplier_site",
+          "publisher": "Balchem",
+          "title": "OptiMSM® - Trusted MSM Backed by Science",
+          "url": "https://balchem.com/hnh/mn/optimsm/",
+          "whatItContributes": "原廠效益宣稱、1–3 g／day 建議劑量、四段蒸餾與 GRAS／品質說明。"
+        },
+        {
+          "accessed": "2026-11-07",
+          "channel": "other",
+          "publisher": "統園企業股份有限公司",
+          "title": "OptiMSM™：首款通過日本機能性表示食品核可的MSM",
+          "url": "https://www.tyig.com.tw/web/news/news_in.jsp?lang=tw&np_no=NP1781599332254",
+          "whatItContributes": "台灣代理自稱獨家代理；轉述日本 2,000 mg／12 週案例與 Balchem 背景。"
+        },
+        {
+          "accessed": "2026-11-07",
+          "channel": "other",
+          "publisher": "台灣卡爾迪克",
+          "title": "BALCHEM-BERGSTROM NUTRITION 甲基硫醯基甲烷",
+          "url": "https://www.caldic.com.tw/raw/balchem-bergstrom-nutrition-%E7%94%B2%E5%9F%BA%E7%A1%AB%E9%86%AF%E5%9F%BA%E7%94%B2%E7%83%B7/",
+          "whatItContributes": "另一台灣通路也列出 OptiMSM 規格，作代理關係交叉。"
+        }
+      ],
+      "supply": {
+        "relationship": "taiwan_agent",
+        "relationshipNote": "統園 2026-06-18 新聞頁自稱「獨家代理」OptiMSM，並引述 Balchem 蒸餾純度與日本機能性表示食品案例。台灣卡爾迪克產品頁亦列出 BALCHEM-BERGSTROM OptiMSM；登盛企業目錄也有 OptiMSM 品項。以統園自稱獨家代理為主，其他通路頁作交叉，尚未看到原廠英文站互指統園。",
+        "supplierCountry": "美國",
+        "supplierName": "Balchem Human Nutrition & Health（Bergstrom Nutrition／OptiMSM）",
+        "taiwanPartyName": "統園企業股份有限公司"
+      },
+      "tfda": {
+        "evidenceNotes": "食品原料查到甲基硫醯基甲烷（MSM）1 筆，不是未確認安全性。每日食用限量 6 公克，單一次劑量不得超過 2 公克；若以 DMSO 與過氧化氫合成，DMSO 殘留須低於 0.05%，並須標示避免睡前食用及孕婦、哺乳期婦女使用前諮詢醫師。商品名 OptiMSM 0 筆。添加物分頁 0 筆。Balchem／統園常見建議 1–3 g／日低於上限，仍須符合單次 ≤2 g。",
+        "lookupDate": "2026-11-07",
+        "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+        "officialCrosscheck": {
+          "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+          "done": true,
+          "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+          "notes": "2026-11-07 依查詢助手公開 data.json 確認列名與 6 g／日、單次 ≤2 g；官方頁未另開。"
+        },
+        "queries": [
+          {
+            "category": "以化學反應或酵素製程等加工處理之食品原料",
+            "keyword": "甲基硫醯基甲烷",
+            "matchedName": "甲基硫醯基甲烷",
+            "note": "外文 Methylsulfonyl Methane, MSM。",
+            "restrictionNote": "每日食用限量為六公克，且單一次劑量不得超過二公克；DMSO 合成路徑殘留限制；須標示「避免睡前食用，孕婦及哺乳期婦女使用前應先諮詢醫師」。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "以化學反應或酵素製程等加工處理之食品原料",
+            "keyword": "MSM",
+            "matchedName": "甲基硫醯基甲烷",
+            "note": "與中文名同一筆。",
+            "restrictionNote": "同上。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "OptiMSM",
+            "matchedName": "",
+            "note": "商品名沒有另列。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "MSM",
+            "matchedName": "",
+            "note": "添加物分頁 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "甲基硫醯基甲烷",
+            "matchedName": "",
+            "note": "未改列未確認安全性。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "history",
+            "unconfirmedSafety": false
+          }
+        ],
+        "usable": "listed_food_ingredient"
+      }
+    },
+    {
+      "discovery": {
         "channel": "exhibition",
         "notes": "從 PharmaGABA 的 Vitafoods Asia 2026 攤位稿開始，對官網的發酵製程與效益頁的毫克數，再看統園產品頁。該頁自稱為獨家代理，供應商頁沒有互指。TFDA 的菌種與每日 100 毫克是用助手同一筆原料抄的，沒有把 200 毫克寫成可用劑量。",
         "scoutDate": "2026-11-05"
@@ -3148,6 +4328,143 @@
             "keyword": "GABA",
             "matchedName": "",
             "note": "助手更新歷程 2026-11-01 至 2026-11-05 未見此關鍵字的新增或修改。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "history",
+            "unconfirmedSafety": false
+          }
+        ],
+        "usable": "listed_food_ingredient"
+      }
+    },
+    {
+      "discovery": {
+        "channel": "exhibition",
+        "notes": "從 Gnosis BIO Asia Taiwan／展昭產品名錄看到 Quatrefolic 與漢馨合作，再對漢馨與 Gnosis 產品頁。化學名與 TFDA 5MTHF-GlcN 原料列名一致。",
+        "scoutDate": "2026-11-07"
+      },
+      "efficacy": {
+        "claimedBenefits": [
+          "Gnosis 產品頁：Quatrefolic 為 (6S)-5-MTHF 葡萄糖胺鹽，強調相對於合成葉酸可少走體內轉換步驟，並提到妊娠葉酸需求（至少 400 μg／日葉酸當量）、甲基化／同半胱胺酸管理、降低 UMFA 累積疑慮等定位。這是原廠宣稱。",
+          "漢馨產品頁：寫活性態、高溶解度與穩定性、Vitafoods Europe 獎項／Nutraward 入圍，以及無 MTHFR 基因變異轉換顧慮的行銷說法。這是台灣代理轉述。"
+        ],
+        "dosageNote": "原廠談的是葉酸營養需求與活性態優勢；實際成品劑量須同時符合台灣葉酸營養添加劑上限（膠囊／錠狀 ≤800 μg／日）與原料規格。",
+        "suggestedDosage": "Gnosis：妊娠相關葉酸攝取至少 400 μg／日（葉酸當量脈絡）。台灣添加物框架：膠囊／錠狀每日葉酸總含量不高於 800 μg。"
+      },
+      "evidenceLevels": [],
+      "example": false,
+      "id": "quatrefolic",
+      "images": [
+        {
+          "caption": "漢馨 Quatrefolic 產品頁圖片。",
+          "localPath": "",
+          "source": "other",
+          "url": "https://www.hansient.com.tw/wp-content/uploads/Quatrefolic%C2%AE-%E8%B6%85%E7%B4%9A%E8%91%89%E9%85%B8.jpg"
+        }
+      ],
+      "literature": {
+        "note": "漢馨寫多項人體實驗，本次沒有打開單篇論文，不標 clinical。",
+        "refs": [],
+        "status": "unknown"
+      },
+      "names": {
+        "commonEn": "(6S)-5-methyltetrahydrofolate glucosamine salt (5-MTHF-GlcN)",
+        "commonZh": "(6S)-5-甲基四氫葉酸葡萄糖胺鹽",
+        "scientific": "不適用（葉酸活性態葡萄糖胺鹽，非植物學名）",
+        "trade": "Quatrefolic（Gnosis by Lesaffre 的活性葉酸商品名）"
+      },
+      "patent": {
+        "note": "漢馨寫四項專利認證，本次沒有打開專利號頁，維持 unknown。",
+        "refs": [],
+        "status": "unknown"
+      },
+      "sources": [
+        {
+          "accessed": "2026-11-07",
+          "channel": "exhibition",
+          "publisher": "Gnosis by Lesaffre",
+          "title": "Quatrefolic Showcase at BIO Asia Taiwan Exhibition booth I116",
+          "url": "https://gnosisbylesaffre.com/blog/quatrefolic-showcase-at-bio-asia-taiwan-exhibition-booth-i116/",
+          "whatItContributes": "BIO Asia Taiwan 展會報導；指名與漢馨共同展出 Quatrefolic。"
+        },
+        {
+          "accessed": "2026-11-07",
+          "channel": "other",
+          "publisher": "漢馨科技有限公司",
+          "title": "Quatrefolic® 超級葉酸",
+          "url": "https://www.hansient.com.tw/product/quatrefolic-%e8%b6%85%e7%b4%9a%e8%91%89%e9%85%b8/",
+          "whatItContributes": "台灣唯一供應宣稱、義大利 Gnosis 來源與產品賣點。"
+        },
+        {
+          "accessed": "2026-11-07",
+          "channel": "supplier_site",
+          "publisher": "Gnosis by Lesaffre",
+          "title": "Quatrefolic: Advanced Folate Supplementation for Health",
+          "url": "https://gnosisbylesaffre.com/ingredient/quatrefolic/",
+          "whatItContributes": "原廠化學型態、活性葉酸定位與妊娠 400 μg 脈絡。"
+        },
+        {
+          "accessed": "2026-11-07",
+          "channel": "exhibition",
+          "publisher": "展昭／亞洲生技大展系列",
+          "title": "超級葉酸 Quatrefolic®－亞洲美容保養．生技保健大展產品頁",
+          "url": "https://www.chanchao.com.tw/healthcos/visitorProductDetail.asp?no=213039",
+          "whatItContributes": "展會產品名錄確認漢馨展出 Quatrefolic 與 TFDA 食品原料說法。"
+        }
+      ],
+      "supply": {
+        "relationship": "taiwan_agent",
+        "relationshipNote": "漢馨產品頁寫「全台唯一供應」Quatrefolic；展昭生技保健展產品頁與 Gnosis 官網 BIO Asia Taiwan 報導均指向漢馨（Han-Sient）為台灣通路夥伴。原廠頁未另見第二家台灣代理公開指名。",
+        "supplierCountry": "義大利",
+        "supplierName": "Gnosis by Lesaffre",
+        "taiwanPartyName": "漢馨科技有限公司"
+      },
+      "tfda": {
+        "evidenceNotes": "食品原料查到「(6S)-5-甲基四氫葉酸葡萄糖胺鹽」1 筆，規格須符合附表，每日使用量以產品葉酸總含量計，並符合添加物標準中葉酸之範圍與限量；不是未確認安全性。商品名 Quatrefolic 0 筆。添加物另有葉酸與 L-5-甲基四氫葉酸鈣（營養添加劑），膠囊／錠狀每日葉酸總含量不高於 800 μg。本品化學型態對得上原料列名那一筆。",
+        "lookupDate": "2026-11-07",
+        "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+        "officialCrosscheck": {
+          "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+          "done": true,
+          "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+          "notes": "2026-11-07 依查詢助手公開 data.json 確認 5MTHF-GlcN 原料列名，並交叉添加物葉酸／5-MTHF 鈣鹽限量；官方頁未另開。"
+        },
+        "queries": [
+          {
+            "category": "以化學反應或酵素製程等加工處理之食品原料",
+            "keyword": "5-甲基四氫葉酸",
+            "matchedName": "(6S)-5-甲基四氫葉酸葡萄糖胺鹽",
+            "note": "外文 (6S)-5-Methyl-tetrahydrofolic acid, Glucosamine Salt (5MTHF-GlcN)。",
+            "restrictionNote": "須符合附表規格；每日使用量以產品葉酸總含量計，範圍與限量依食品添加物葉酸規定。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Quatrefolic",
+            "matchedName": "",
+            "note": "商品名沒有另列。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "(八) 營養添加劑",
+            "keyword": "葉酸",
+            "matchedName": "葉酸；L-5-甲基四氫葉酸鈣",
+            "note": "添加物是葉酸與鈣鹽型態；Quatrefolic 本體對應原料列名的葡萄糖胺鹽。",
+            "restrictionNote": "膠囊／錠狀且標示每日食用量者，葉酸總含量不得高於 800 μg；其他一般食品另有較低上限。限於補充食品中不足之營養素時使用。",
+            "resultCount": 2,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "甲基四氫葉酸",
+            "matchedName": "",
+            "note": "未改列未確認安全性。",
             "restrictionNote": "",
             "resultCount": 0,
             "tab": "history",
@@ -3333,6 +4650,145 @@
             "keyword": "維生素K2",
             "matchedName": "",
             "note": "助手更新歷程 2026-11-01 至 2026-11-05 未見此關鍵字的新增或修改。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "history",
+            "unconfirmedSafety": false
+          }
+        ],
+        "usable": "listed_food_additive"
+      }
+    },
+    {
+      "discovery": {
+        "channel": "news",
+        "notes": "從 Suntheanine 2025 mindful drinking 新聞進入，再對 Taiyo 產品頁與北美通路頁。台灣代理公開頁查無；TFDA 以調味劑添加物列名。",
+        "scoutDate": "2026-11-07"
+      },
+      "efficacy": {
+        "claimedBenefits": [
+          "Taiyo GmbH／Suntheanine 產品頁：口服 200 mg／serving 可在 30–40 分鐘誘導 alpha 波，描述為放鬆但保持清醒；焦慮者甚至 50 mg 可見放鬆效果；並宣稱有助減壓、入睡與睡眠品質、減緩咖啡因副作用等。這是原廠宣稱。",
+          "Suntheanine 2025-03-28 新聞：介紹其出現在高端 wellness mocktail／無酒精調飲場景，強調發酵製程純 L-異構物與研究累積。這是品牌新聞應用故事，不是劑量法規依據。"
+        ],
+        "dosageNote": "原廠／研究取向劑量。台灣目前是以食品添加物調味劑列管（≤1 g/kg），不是另立保健原料每日上限；配方若走補充品高劑量，須另做法規評估，不能只抄 200 mg。",
+        "suggestedDosage": "Taiyo 產品頁常用描述：200 mg／serving（alpha 波研究）；焦慮放鬆可見 50 mg／serving。"
+      },
+      "evidenceLevels": [],
+      "example": false,
+      "id": "suntheanine",
+      "images": [
+        {
+          "caption": "Taiyo GmbH Suntheanine 品牌頁圖片。",
+          "localPath": "",
+          "source": "official_site",
+          "url": "https://taiyogmbh.com/wp-content/uploads/2020/02/suntheanine_site.png"
+        }
+      ],
+      "literature": {
+        "note": "品牌宣稱超過百篇研究，本次沒有打開單篇論文，不標 clinical。",
+        "refs": [],
+        "status": "unknown"
+      },
+      "names": {
+        "commonEn": "L-theanine",
+        "commonZh": "茶胺酸",
+        "scientific": "不適用（胺基酸衍生物 L-glutamic acid-γ-monoethylamide；可由酶促／發酵製程生產，非植物分類學名）",
+        "trade": "Suntheanine（Taiyo 的純 L-茶胺酸商品名）"
+      },
+      "patent": {
+        "note": "Taiyo 自稱專利酶促／發酵製程，本次沒有打開專利號頁，維持 unknown。",
+        "refs": [],
+        "status": "unknown"
+      },
+      "sources": [
+        {
+          "accessed": "2026-11-07",
+          "channel": "news",
+          "publisher": "Suntheanine",
+          "title": "Mindful Drinking: Why Mixologists Are Turning to Suntheanine®",
+          "url": "https://www.suntheanine.com/in-the-news/mindful-drinking-why-suntheanine-is-appearing-on-exclusive-cocktail-menus/",
+          "whatItContributes": "2025-03 品牌新聞：功能調飲／mocktail 應用與發酵純 L-theanine 定位。"
+        },
+        {
+          "accessed": "2026-11-07",
+          "channel": "supplier_site",
+          "publisher": "Taiyo GmbH",
+          "title": "Suntheanine - Pure L-Theanine powder",
+          "url": "https://taiyogmbh.com/en/start-en/brands/suntheanine-en/",
+          "whatItContributes": "原廠效益、200 mg／50 mg 描述、水溶與純度說明。"
+        },
+        {
+          "accessed": "2026-11-07",
+          "channel": "other",
+          "publisher": "NutriScience Innovations",
+          "title": "Contact NutriScience for Suntheanine®",
+          "url": "https://l-theanine.com/contact/",
+          "whatItContributes": "北美獨家供應關係說明；未見台灣代理指名。"
+        }
+      ],
+      "supply": {
+        "relationship": "unknown",
+        "relationshipNote": "Taiyo／Suntheanine 官方與北美 NutriScience 頁未指名台灣公司。搜尋創百、生資、統園、呈定公開目錄未見 Suntheanine 獨家代理頁，故填查無。",
+        "supplierCountry": "日本",
+        "supplierName": "Taiyo International／Taiyo Kagaku",
+        "taiwanPartyName": "查無"
+      },
+      "tfda": {
+        "evidenceNotes": "食品原料分頁查無茶胺酸／L-theanine／Suntheanine。食品添加物有 1 筆「茶胺酸／L-Theanine」，屬調味劑，各類食品用量 1 g／kg 以下，且限作調味劑使用；不是未確認安全性。將其當保健原料高劑量補充時，仍須自行評估是否超出調味劑用途與限量框架。",
+        "lookupDate": "2026-11-07",
+        "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+        "officialCrosscheck": {
+          "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+          "done": true,
+          "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+          "notes": "2026-11-07 依查詢助手公開 data.json 確認添加物列名與 1 g/kg 調味劑限量；官方頁未另開。"
+        },
+        "queries": [
+          {
+            "category": "",
+            "keyword": "茶胺酸",
+            "matchedName": "",
+            "note": "原料分頁 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "theanine",
+            "matchedName": "",
+            "note": "原料分頁 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "(十一) 調味劑",
+            "keyword": "茶胺酸",
+            "matchedName": "茶胺酸",
+            "note": "外文 L-Theanine。",
+            "restrictionNote": "本品可於各類食品中；用量為 1 g/kg 以下。限作調味劑使用。",
+            "resultCount": 1,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "(十一) 調味劑",
+            "keyword": "L-Theanine",
+            "matchedName": "茶胺酸",
+            "note": "與中文名同一筆。",
+            "restrictionNote": "同上。",
+            "resultCount": 1,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "茶胺酸",
+            "matchedName": "",
+            "note": "未改列未確認安全性。",
             "restrictionNote": "",
             "resultCount": 0,
             "tab": "history",

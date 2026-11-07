@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-07",
+  "example": false,
+  "title": "2026-11-07 正式日報",
+  "targetCount": 5,
+  "channelsCovered": [
+    "news",
+    "exhibition",
+    "industry_report"
+  ],
+  "notes": "正式五筆。未放入 TFDA 未確認安全性項目（已排除 Bacopa、PQQ、NMN、瓜胺酸、納豆激酶、化學合成薑黃素、Relora／厚朴黃柏、Fenavari／shatavari）。Citicoline／PEA／褐藻醣膠／亞精胺助手未列名，本次不收入。OptiMSM／OPITAC／Quatrefolic／Lutemax 依原料列名；Suntheanine 依添加物茶胺酸（調味劑 1 g/kg）。膠原胜肽與 ashwagandha 家族已在前兩日報，不再重複。",
+  "picks": [
+    "optimsm",
+    "opitac",
+    "suntheanine",
+    "quatrefolic",
+    "lutemax-2020"
+  ]
+}

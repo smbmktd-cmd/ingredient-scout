@@ -1,0 +1,169 @@
+{
+  "id": "bioperine",
+  "example": false,
+  "names": {
+    "commonZh": "胡椒鹼（黑胡椒果實萃取）",
+    "commonEn": "piperine from black pepper fruit",
+    "trade": "BioPerine（Sabinsa 的黑胡椒萃取商品名）",
+    "scientific": "胡椒鹼條目學名欄空白。Sabinsa 寫原料為黑胡椒果實 Piper nigrum。平台另有胡椒，學名 Piper nigrum，部位果實。"
+  },
+  "supply": {
+    "supplierName": "Sabinsa Corporation",
+    "supplierCountry": "美國",
+    "relationship": "unknown",
+    "taiwanPartyName": "和聚國際（HG BIO）",
+    "relationshipNote": "Sabinsa 產品頁聯絡地址在美國紐澤西，並寫萃取自黑胡椒果實。和聚國際產品頁列出 Sabinsa BioPerine，規格胡椒鹼 95%、產地印度；公司自述從事原料代理，這一頁沒有寫獨家。生資、百康貿易也有 BioPerine 目錄。Sabinsa 頁沒有點名台灣公司，關係維持未確認。"
+  },
+  "tfda": {
+    "usable": "listed_food_ingredient",
+    "evidenceNotes": "食品原料胡椒鹼 1 筆：胡椒經酒精萃取的粉末，含量不得低於 95%，每日以胡椒鹼計 12 mg。商品名 BioPerine 與添加物都是 0 筆。Piper nigrum 另有果實可直接食用、胡椒油，以及未確認的莖（枝）；BioPerine 頁寫果實萃取、胡椒鹼 95–99%，對上的是胡椒鹼規格，不是莖。Sabinsa 這頁沒有寫萃取溶劑，不能當成已核對酒精製程。",
+    "lookupDate": "2026-11-08",
+    "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+    "queries": [
+      {
+        "tab": "ingredient",
+        "keyword": "胡椒鹼",
+        "category": "草、木本植物類來源製取之原料",
+        "resultCount": 1,
+        "matchedName": "胡椒鹼",
+        "restrictionNote": "由胡椒經酒精萃取等純化步驟製得之粉末。含量不得低於 95%。每日食用限量以胡椒鹼計 12 mg。",
+        "unconfirmedSafety": false,
+        "note": "外文 Piperine。公告字號衛授食字第 1131301534 號（113-07-11）。學名欄空白。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "BioPerine",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名 0 筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Piper nigrum",
+        "category": "",
+        "resultCount": 3,
+        "matchedName": "胡椒（果實）；胡椒油；胡椒（莖，未確認）",
+        "restrictionNote": "未確認那一筆部位是莖（枝），寫未經確認其食用安全性前不得供為食品原料使用。",
+        "unconfirmedSafety": true,
+        "note": "果實與胡椒油在可供使用分類。未確認的是莖，不是果實萃取的胡椒鹼規格。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "Piperine",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "添加物分頁沒有胡椒鹼。胡椒基丁醚是另一個防蟲劑，不是這個原料。"
+      },
+      {
+        "tab": "history",
+        "keyword": "胡椒鹼",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "助手更新歷程未另見胡椒鹼改列未確認。"
+      }
+    ],
+    "officialCrosscheck": {
+      "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+      "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+      "done": true,
+      "notes": "2026-11-08 依查詢助手公開 data.json（fetched 2026-11-07）核對胡椒鹼 95%／12 mg，並把未確認的胡椒莖分開。官方原料頁未另開。"
+    }
+  },
+  "efficacy": {
+    "claimedBenefits": [
+      "Sabinsa 產品頁寫：BioPerine 是黑胡椒果實標準化萃取，胡椒鹼至少 95%，與營養素一起使用以提高生物利用率，並寫有 72 篇以上臨床。這是供應商說法。",
+      "和聚頁轉述可提升 Q10、維生素 C、硒、胡蘿蔔素等吸收，幅度寫 30–2000%。沒有打開對應論文，不把百分比當成已核對結果。"
+    ],
+    "suggestedDosage": "Sabinsa 產品頁：建議每份 5 mg。台灣公告每日以胡椒鹼計 12 mg。",
+    "dosageNote": "5 mg 是供應商建議的每份用量。12 mg 是台灣胡椒鹼每日上限。舊專利摘要寫到更高純度與用途，不能當成可以超過 12 mg。"
+  },
+  "patent": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "BioPerine patent list",
+        "url": "https://bioperine.com/patent",
+        "note": "頁上列出 US 5,536,506（1996-07-16，以胡椒鹼提高營養素吸收）與 US 5,744,161（1998-04-28）。受讓人寫 Sabinsa Corporation。未另查是否仍在有效期間。"
+      }
+    ],
+    "note": "依 BioPerine 官網專利表。US 5,536,506 摘要寫組成物至少 98% 胡椒鹼，與現售頁 95–99% 的規格範圍不完全同一句，兩筆都照頁面留下。"
+  },
+  "literature": {
+    "status": "unknown",
+    "refs": [],
+    "note": "官網寫 98 篇發表、72 篇以上臨床。這次沒有打開單篇論文全文，不標 clinical。"
+  },
+  "evidenceLevels": [],
+  "images": [
+    {
+      "url": "https://sabinsa.com/wp-content/uploads/2025/09/bioperine-intro-banner.webp",
+      "localPath": "",
+      "caption": "Sabinsa 官網 BioPerine 產品橫幅。",
+      "source": "official_site"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Sabinsa showcases innovation and tradition at SupplySide Global",
+      "url": "https://nutraceuticalbusinessreview.com/sabinsa-showcases-innovation-and-tradition-at-supplyside-global",
+      "publisher": "Nutraceutical Business Review",
+      "channel": "exhibition",
+      "accessed": "2026-11-08",
+      "whatItContributes": "SupplySide Global 2025（10 月 29–30 日，拉斯維加斯）展前稿：Sabinsa 攤位 5765，點名 BioPerine 為生物利用率原料。"
+    },
+    {
+      "title": "Wrapped Up: SupplySide Connect 2025",
+      "url": "https://www.wholefoodsmagazine.com/articles/17525-wrapped-up-supplyside-connect-2025",
+      "publisher": "WholeFoods Magazine",
+      "channel": "exhibition",
+      "accessed": "2026-11-08",
+      "whatItContributes": "展後報導再次列出 Sabinsa 攤位上的 BioPerine。"
+    },
+    {
+      "title": "SupplySide Global 2025 event map",
+      "url": "https://exhibitor.supplysideglobal.com/supplyside-global25/Public/EventMap.aspx",
+      "publisher": "SupplySide Global",
+      "channel": "exhibition",
+      "accessed": "2026-11-08",
+      "whatItContributes": "展商名錄：Sabinsa Corporation，攤位 5765。"
+    },
+    {
+      "title": "BioPerine",
+      "url": "https://sabinsa.com/brand/bioperine",
+      "publisher": "Sabinsa Corporation",
+      "channel": "supplier_site",
+      "accessed": "2026-11-08",
+      "whatItContributes": "果實來源、胡椒鹼至少 95%、建議每份 5 mg、臨床篇數的供應商說法，以及圖片。"
+    },
+    {
+      "title": "BioPerine patents",
+      "url": "https://bioperine.com/patent",
+      "publisher": "Sabinsa",
+      "channel": "patent",
+      "accessed": "2026-11-08",
+      "whatItContributes": "US 5,536,506 與 US 5,744,161 的專利號、日期與受讓人。"
+    },
+    {
+      "title": "Sabinsa BioPerine 胡椒鹼",
+      "url": "https://www.hg-bio.com.tw/products/bioperine/",
+      "publisher": "和聚國際（HG BIO）",
+      "channel": "other",
+      "accessed": "2026-11-08",
+      "whatItContributes": "台灣目錄：Sabinsa、胡椒鹼 95%、黑胡椒果實、產地印度。"
+    }
+  ],
+  "discovery": {
+    "channel": "exhibition",
+    "scoutDate": "2026-11-08",
+    "notes": "從 SupplySide Global 2025 的 Sabinsa 展前與展後稿看到 BioPerine，用展商名錄核對攤位 5765，再對 Sabinsa 產品頁、專利頁與和聚目錄。胡椒莖的未確認列名已分開，不把莖當成這個原料。"
+  }
+}

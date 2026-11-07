@@ -1,0 +1,177 @@
+{
+  "id": "pycnogenol",
+  "example": false,
+  "names": {
+    "commonZh": "法國濱海松樹皮萃取物",
+    "commonEn": "French maritime pine bark extract",
+    "trade": "Pycnogenol（Horphag Research 的法國濱海松樹皮萃取商品名；台灣稱碧容健）",
+    "scientific": "Pinus pinaster Aiton（Maritime Pine）。平台松樹皮萃取物這一筆部位是樹皮，學名並含 Pinus morrisonicola Hayata、Pinus strobus L。"
+  },
+  "supply": {
+    "supplierName": "Horphag Research",
+    "supplierCountry": "瑞士",
+    "relationship": "taiwan_agent",
+    "taiwanPartyName": "英凡特生物科技有限公司",
+    "relationshipNote": "英凡特頁貼出授權文字：瑞士商賀發研究機構正式授權英凡特生物科技有限公司為台灣地區 Pycnogenol／碧容健法國濱海松樹皮萃取物原料代理經銷商，頁面標題寫指定代理商。Horphag 英文法律頁這次沒有回指英凡特。關係依台灣授權頁填代理。"
+  },
+  "tfda": {
+    "usable": "listed_food_ingredient",
+    "evidenceNotes": "食品原料有松樹皮萃取物兩筆：Pinus pinaster 這筆部位樹皮、備註沒有每日毫克上限；另一筆是 Pinus radiata，每日 150 mg 以下，不是碧容健。同搜尋還會看到未確認的海岸松，部位是樹幹，寫未經確認不得供食品原料，那一筆不是樹皮萃取物。商品名 Pycnogenol 與添加物都是 0 筆。平台沒寫上限，不等於臨床 150–200 mg 已在台灣被定量放行。",
+    "lookupDate": "2026-11-08",
+    "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+    "queries": [
+      {
+        "tab": "ingredient",
+        "keyword": "松樹皮",
+        "category": "草、木本植物類來源製取之原料",
+        "resultCount": 2,
+        "matchedName": "松樹皮萃取物",
+        "restrictionNote": "Pinus pinaster 這筆部位樹皮，備註空白。Pinus radiata 這筆部位樹皮，每日 150 mg 以下。",
+        "unconfirmedSafety": false,
+        "note": "兩筆都在可供食品使用分類。碧容健對 pinaster，不套用 radiata 的 150 mg。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Pinus pinaster",
+        "category": "",
+        "resultCount": 3,
+        "matchedName": "松樹皮萃取物；松樹（葉）；海岸松（未確認）",
+        "restrictionNote": "海岸松部位樹幹，備註寫未經確認其食用安全性前不得供為食品原料使用。",
+        "unconfirmedSafety": true,
+        "note": "3 筆裡 1 筆未確認，部位是樹幹。樹皮萃取物與松葉是另外兩筆，不在未確認分類。本次原料只對樹皮萃取物。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Pycnogenol",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名 0 筆。碧容健也是 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "松樹皮",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "添加物分頁 0 筆。"
+      },
+      {
+        "tab": "history",
+        "keyword": "松樹皮",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "助手更新歷程未另見松樹皮萃取物改列未確認。"
+      }
+    ],
+    "officialCrosscheck": {
+      "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+      "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+      "done": true,
+      "notes": "2026-11-08 依查詢助手公開 data.json（fetched 2026-11-07）把樹皮萃取物與未確認的樹幹分開。官方原料頁未另開。"
+    }
+  },
+  "efficacy": {
+    "claimedBenefits": [
+      "NutraIngredients 2025-12-11：脂肪水腫女性 100 人、60 天，Pycnogenol 每日 50 mg 三次（共 150 mg）相對安慰劑症狀分數下降，該稿寫症狀約減 29%。單中心，新聞已註明限制。",
+      "Horphag 法律頁：口服成品若要把商標放在正面品名，每日至少 20 mg。這是商標使用條件，不是功效結論。"
+    ],
+    "suggestedDosage": "商標頁：正面標示至少每日 20 mg。2025 年脂肪水腫新聞裡的試驗是每日 150 mg（50 mg 三次）。2026-10-26 骨密度相關新聞寫每日 200 mg、三個月。",
+    "dosageNote": "以上是商標條件與試驗劑量。台灣 pinaster 樹皮萃取物這筆沒有寫毫克上限；radiata 的 150 mg 不適用於這一筆。沒有上限文字不等於高劑量已放行。"
+  },
+  "patent": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "Pycnogenol legal and labeling guidelines",
+        "url": "https://www.pycnogenol.com/partners/legal/",
+        "note": "Horphag 法律頁列出美國專利 5,720,956、6,372,266、6,565,851 及其他國際專利。未逐件打開 USPTO 全文。"
+      }
+    ],
+    "note": "依原廠法律頁的專利號清單。英凡特寫賀發擁有商標與專利，沒有另給號碼。"
+  },
+  "literature": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "Pycnogenol French maritime pine bark extract in randomized, double-blind, placebo-controlled human clinical studies",
+        "url": "https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2024.1389374/full",
+        "note": "Weichmann & Rohdewald。Front Nutr. 2024。綜述寫 39 項隨機雙盲安慰劑對照、共 2,009 人。這是回顧，不是新的單一試驗。"
+      }
+    ],
+    "note": "已打開 2024 綜述。2025 脂肪水腫與 2026 生活品質量表是從 NutraIngredients 讀到的，原論文全文這次沒打開。"
+  },
+  "evidenceLevels": [
+    "clinical"
+  ],
+  "images": [
+    {
+      "url": "https://www.pycnogenol.com/fileadmin/_processed_/1/4/csm_pycnogenol-image-header-partners_41853d9409.jpg",
+      "localPath": "",
+      "caption": "Pycnogenol 官網合作頁首圖。",
+      "source": "official_site"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Lipedema study expands Pycnogenol’s women’s health potential",
+      "url": "https://www.nutraingredients.com/Article/2025/12/11/lipedema-study-expands-pycnogenols-womens-health-potential/",
+      "publisher": "NutraIngredients",
+      "channel": "news",
+      "accessed": "2026-11-08",
+      "whatItContributes": "2025 年臨床新聞：法國濱海松樹皮萃取、每日 150 mg、60 天、100 名女性，以及單中心限制。"
+    },
+    {
+      "title": "Pycnogenol linked to improved quality-of-life scores for women with low bone density",
+      "url": "https://www.nutraingredients.com/Article/2026/10/26/pycnogenol-linked-to-improved-quality-of-life-scores-for-women-with-low-bone-density-study/",
+      "publisher": "NutraIngredients",
+      "channel": "news",
+      "accessed": "2026-11-08",
+      "whatItContributes": "2026 年新聞：每日 200 mg、三個月；生活品質分數相對安慰劑改善，骨吸收指標與安慰劑的差未達顯著。"
+    },
+    {
+      "title": "Pycnogenol French maritime pine bark extract in randomized trials",
+      "url": "https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2024.1389374/full",
+      "publisher": "Frontiers in Nutrition",
+      "channel": "paper",
+      "accessed": "2026-11-08",
+      "whatItContributes": "已打開的隨機對照試驗綜述，學名 Pinus pinaster。"
+    },
+    {
+      "title": "Pycnogenol legal",
+      "url": "https://www.pycnogenol.com/partners/legal/",
+      "publisher": "Horphag Research",
+      "channel": "supplier_site",
+      "accessed": "2026-11-08",
+      "whatItContributes": "商標最低 20 mg／日、美國專利號，以及標示規範。"
+    },
+    {
+      "title": "SupplySide Global 2025 event map",
+      "url": "https://exhibitor.supplysideglobal.com/supplyside-global25/Public/EventMap.aspx",
+      "publisher": "SupplySide Global",
+      "channel": "exhibition",
+      "accessed": "2026-11-08",
+      "whatItContributes": "展商名錄有 Horphag Research USA，攤位 4724。"
+    },
+    {
+      "title": "PYCNOGENOL 碧容健指定代理商",
+      "url": "https://www.bioinventor.com.tw/8",
+      "publisher": "英凡特生物科技有限公司",
+      "channel": "other",
+      "accessed": "2026-11-08",
+      "whatItContributes": "台灣授權頁：英凡特為碧容健原料代理經銷商，供應商寫瑞士商賀發研究機構。"
+    }
+  ],
+  "discovery": {
+    "channel": "news",
+    "scoutDate": "2026-11-08",
+    "notes": "從 2025 與 2026 的 NutraIngredients 臨床新聞進入，打開 Frontiers 2024 綜述與 Horphag 法律頁，再對英凡特授權頁。SupplySide 名錄用來核 Horphag 攤位。海岸松樹幹的未確認列名已分開，不把那一筆當成這個原料。"
+  }
+}

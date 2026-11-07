@@ -1,0 +1,177 @@
+{
+  "id": "kaneka-ubiquinol",
+  "example": false,
+  "names": {
+    "commonZh": "還原型輔酵素 Q10（泛醇）",
+    "commonEn": "ubiquinol (reduced coenzyme Q10)",
+    "trade": "Kaneka Ubiquinol（Kaneka 的還原型輔酵素 Q10 商品名；亦見 Kaneka QH）",
+    "scientific": "不適用：泛醇是輔酵素 Q10 的還原型化合物。平台品名為 Coenzyme Q10，學名欄空白。Kaneka 歐洲站寫酵母發酵、與體內相同的分子。"
+  },
+  "supply": {
+    "supplierName": "Kaneka Corporation",
+    "supplierCountry": "日本",
+    "relationship": "taiwan_agent",
+    "taiwanPartyName": "東翔生技股份有限公司",
+    "relationshipNote": "東翔生技原料頁寫已與 Kaneka 簽約、為台灣市場獨家代理，並列出 Ubiquinol 96% 與安定化粉末。登盛企業另有 Kaneka Ubiquinol 產品頁，並把輔酵素 Q10 的 30 mg 與 warfarin 警語抄在該頁。公開頁不只一家，獨家說法以東翔自述為準，未能與登盛頁互相排除。"
+  },
+  "tfda": {
+    "usable": "listed_food_ingredient",
+    "evidenceNotes": "食品原料查到輔酵素Ｑ10（Coenzyme Q10）1 筆，屬微生物來源，每日 30 mg，並須標示十五歲以下、孕哺婦女及服用 warfarin 者不宜。沒有另列 ubiquinol、泛醇或還原型，添加物也是 0 筆，不是未確認安全性分類。登盛把同一則 30 mg 與 warfarin 警語用在 Kaneka Ubiquinol 頁上，本次因此對到這筆輔酵素 Q10。平台文字沒有單獨寫還原型。",
+    "lookupDate": "2026-11-08",
+    "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+    "queries": [
+      {
+        "tab": "ingredient",
+        "keyword": "輔酵素",
+        "category": "微生物及其來源製取之原料",
+        "resultCount": 1,
+        "matchedName": "輔酵素Ｑ10",
+        "restrictionNote": "每日食用限量 30 mg。應標示「十五歲以下小孩、懷孕或哺乳期間婦女及服用抗凝血藥品(warfarin)之病患，不宜食用」。",
+        "unconfirmedSafety": false,
+        "note": "外文 Coenzyme Q10。學名欄空白。公告字號見備註：衛授食字第 1081302650 號。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "ubiquinol",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "還原型英文名 0 筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "泛醇",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "中文別名 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "Coenzyme",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "添加物分頁 0 筆。"
+      },
+      {
+        "tab": "history",
+        "keyword": "輔酵素",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "助手更新歷程未另見這筆品名的新增或改列未確認。"
+      }
+    ],
+    "officialCrosscheck": {
+      "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+      "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+      "done": true,
+      "notes": "2026-11-08 依查詢助手公開 data.json（fetched 2026-11-07）核對列名、30 mg 上限與警語。官方原料頁未另開。"
+    }
+  },
+  "efficacy": {
+    "claimedBenefits": [
+      "Kaneka Ubiquinol 歐洲官網寫：還原型輔酵素 Q10 供運動營養、一般健康與健康老化配方，並稱有臨床證據。這是供應商說法，不是台灣核准功效。",
+      "已打開的 Nutrients 2020 RCT（Kaneka QH）：輕至中度血脂異常、內皮功能受損者，每日 100 mg 或 200 mg、八週，相對安慰劑肱動脈血流介導擴張增加。劑量高於台灣 30 mg 上限。"
+    ],
+    "suggestedDosage": "台灣公告每日 30 mg。已打開的 Kaneka QH 試驗使用每日 100 mg 或 200 mg（另有運動試驗用 200 mg）。歐洲官網這次沒有寫台灣可用毫克數。",
+    "dosageNote": "30 mg 是台灣食品原料每日上限與警語條件，不是供應商建議。100–200 mg 是文獻劑量，不可直接當成台灣可用量。"
+  },
+  "patent": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "Designs For Health Inc. Held Liable For Infringement of Kaneka's Ubiquinol Patent",
+        "url": "https://www.prnewswire.com/news-releases/designs-for-health-inc-held-liable-for-infringement-of-kanekas-ubiquinol-patent-302338964.html",
+        "note": "2024-12-24 Kaneka 新聞稿：美國專利 US 7,829,080 為穩定 ubiquinol 的方法；德拉瓦州法院 2024-12-20 認定侵權且專利有效。未另開 USPTO 全文。"
+      }
+    ],
+    "note": "只核到這件穩定化專利的勝訴稿，沒有把 Kaneka 其他 Q10 專利逐件打開。"
+  },
+  "literature": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "Ubiquinol Ameliorates Endothelial Dysfunction in Subjects with Mild-to-Moderate Dyslipidemia: A Randomized Clinical Trial",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7231284/",
+        "note": "Sabbatinelli 等。Nutrients. 2020。Kaneka QH，100 或 200 mg／日、8 週。完成 48 人。"
+      }
+    ],
+    "note": "已打開 PMC 全文。同日另看到運動相關 ubiquinol RCT，未逐篇寫入。"
+  },
+  "evidenceLevels": [
+    "clinical"
+  ],
+  "images": [
+    {
+      "url": "https://www.kaneka-ubiquinol.com/hs-fs/hubfs/KNK_Winner_EU%20Website%20Banner_1920%20x%20670%20px_250526.jpg",
+      "localPath": "",
+      "caption": "Kaneka Ubiquinol 歐洲官網橫幅。",
+      "source": "official_site"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Vitafoods Asia 2026 show floor preview: Exhibitors H-P",
+      "url": "https://www.nutraingredients.com/Article/2026/08/25/vitafoods-asia-2026-show-floor-preview-exhibitors-h-p/",
+      "publisher": "NutraIngredients",
+      "channel": "exhibition",
+      "accessed": "2026-11-08",
+      "whatItContributes": "2026-09-02 至 04 曼谷展前名錄：Kaneka 攤位 H6-F25，寫明全球供應 Kaneka Ubiquinol，並有兩場粒線體健康簡報。"
+    },
+    {
+      "title": "SupplySide Global 2025 event map",
+      "url": "https://exhibitor.supplysideglobal.com/supplyside-global25/Public/EventMap.aspx",
+      "publisher": "SupplySide Global",
+      "channel": "exhibition",
+      "accessed": "2026-11-08",
+      "whatItContributes": "2025-10 拉斯維加斯展商名錄有 Kaneka North America, LLC，攤位 5965。名錄沒有寫出 Ubiquinol 三個字。"
+    },
+    {
+      "title": "What is Ubiquinol by Kaneka?",
+      "url": "https://www.kaneka-ubiquinol.com/",
+      "publisher": "Kaneka Nutrients Europe",
+      "channel": "supplier_site",
+      "accessed": "2026-11-08",
+      "whatItContributes": "商品名、酵母發酵、運動與健康老化取向說法，以及官網圖片。"
+    },
+    {
+      "title": "Ubiquinol Ameliorates Endothelial Dysfunction in Subjects with Mild-to-Moderate Dyslipidemia",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7231284/",
+      "publisher": "Nutrients / PMC",
+      "channel": "paper",
+      "accessed": "2026-11-08",
+      "whatItContributes": "已打開的 RCT：Kaneka QH 每日 100 或 200 mg 與內皮功能指標。"
+    },
+    {
+      "title": "Kaneka 株式会社",
+      "url": "https://www.toshio-biomed.com.tw/exclusive/kaneka/",
+      "publisher": "東翔生技股份有限公司",
+      "channel": "other",
+      "accessed": "2026-11-08",
+      "whatItContributes": "台灣頁寫獨家代理、還原型輔酵素 Q10、酵母發酵與 96% 規格。"
+    },
+    {
+      "title": "登盛企業 Kaneka Ubiquinol (QH)",
+      "url": "https://www.masterasia.com.tw/content.php?id=6645",
+      "publisher": "登盛企業股份有限公司",
+      "channel": "other",
+      "accessed": "2026-11-08",
+      "whatItContributes": "另一家台灣目錄把衛福部輔酵素 Q10 的 30 mg 與 warfarin 警語寫在 Kaneka Ubiquinol 頁。"
+    }
+  ],
+  "discovery": {
+    "channel": "exhibition",
+    "scoutDate": "2026-11-08",
+    "notes": "從 Vitafoods Asia 2026 展前名錄的 Kaneka H6-F25 進入，對歐洲官網與 PMC 的 Kaneka QH 試驗，再對東翔與登盛的台灣頁。SupplySide 2025 名錄只核到 Kaneka North America 攤位。"
+  }
+}

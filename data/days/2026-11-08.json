@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-08",
+  "example": false,
+  "title": "2026-11-08 正式日報",
+  "targetCount": 5,
+  "channelsCovered": [
+    "news",
+    "exhibition",
+    "industry_report"
+  ],
+  "notes": "正式五筆。主管道：Kaneka Ubiquinol、Teavigo、BioPerine 為展覽；Pycnogenol 為新聞；Orafti Inulin 為產業報導。未放入未確認安全性項目。查到並排除的部位或品項：磷脂醯膽鹼、海岸松樹幹、胡椒莖（枝）、化學合成薑黃素，以及既有雷區 Bacopa、PQQ、NMN、瓜胺酸、納豆激酶、Relora／厚朴黃柏、Fenavari／shatavari。海岸松樹幹與胡椒莖不是本日兩筆的對應規格：碧容健對已列名的 Pinus pinaster 樹皮萃取物，BioPerine 對已列名的胡椒鹼（果實萃取規格）。Teavigo 是 EGCG，不是 11 月 7 日的茶胺酸。菊糖對菊苣根熱水萃取那一筆，不是蔗糖酵素菊糖。還原型輔酶對平台上的輔酵素 Q10，每日 30 mg，平台沒有單獨的 ubiquinol 列名。",
+  "picks": [
+    "kaneka-ubiquinol",
+    "teavigo",
+    "orafti-inulin",
+    "pycnogenol",
+    "bioperine"
+  ]
+}

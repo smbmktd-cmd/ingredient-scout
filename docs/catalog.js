@@ -7,6 +7,890 @@ window.INGREDIENT_CATALOG = {
         "exhibition",
         "industry_report"
       ],
+      "date": "2026-11-08",
+      "example": false,
+      "notes": "正式五筆。主管道：Kaneka Ubiquinol、Teavigo、BioPerine 為展覽；Pycnogenol 為新聞；Orafti Inulin 為產業報導。未放入未確認安全性項目。查到並排除的部位或品項：磷脂醯膽鹼、海岸松樹幹、胡椒莖（枝）、化學合成薑黃素，以及既有雷區 Bacopa、PQQ、NMN、瓜胺酸、納豆激酶、Relora／厚朴黃柏、Fenavari／shatavari。海岸松樹幹與胡椒莖不是本日兩筆的對應規格：碧容健對已列名的 Pinus pinaster 樹皮萃取物，BioPerine 對已列名的胡椒鹼（果實萃取規格）。Teavigo 是 EGCG，不是 11 月 7 日的茶胺酸。菊糖對菊苣根熱水萃取那一筆，不是蔗糖酵素菊糖。還原型輔酶對平台上的輔酵素 Q10，每日 30 mg，平台沒有單獨的 ubiquinol 列名。",
+      "picks": [
+        {
+          "discovery": {
+            "channel": "exhibition",
+            "notes": "從 Vitafoods Asia 2026 展前名錄的 Kaneka H6-F25 進入，對歐洲官網與 PMC 的 Kaneka QH 試驗，再對東翔與登盛的台灣頁。SupplySide 2025 名錄只核到 Kaneka North America 攤位。",
+            "scoutDate": "2026-11-08"
+          },
+          "efficacy": {
+            "claimedBenefits": [
+              "Kaneka Ubiquinol 歐洲官網寫：還原型輔酵素 Q10 供運動營養、一般健康與健康老化配方，並稱有臨床證據。這是供應商說法，不是台灣核准功效。",
+              "已打開的 Nutrients 2020 RCT（Kaneka QH）：輕至中度血脂異常、內皮功能受損者，每日 100 mg 或 200 mg、八週，相對安慰劑肱動脈血流介導擴張增加。劑量高於台灣 30 mg 上限。"
+            ],
+            "dosageNote": "30 mg 是台灣食品原料每日上限與警語條件，不是供應商建議。100–200 mg 是文獻劑量，不可直接當成台灣可用量。",
+            "suggestedDosage": "台灣公告每日 30 mg。已打開的 Kaneka QH 試驗使用每日 100 mg 或 200 mg（另有運動試驗用 200 mg）。歐洲官網這次沒有寫台灣可用毫克數。"
+          },
+          "evidenceLevels": [
+            "clinical"
+          ],
+          "example": false,
+          "id": "kaneka-ubiquinol",
+          "images": [
+            {
+              "caption": "Kaneka Ubiquinol 歐洲官網橫幅。",
+              "localPath": "",
+              "source": "official_site",
+              "url": "https://www.kaneka-ubiquinol.com/hs-fs/hubfs/KNK_Winner_EU%20Website%20Banner_1920%20x%20670%20px_250526.jpg"
+            }
+          ],
+          "literature": {
+            "note": "已打開 PMC 全文。同日另看到運動相關 ubiquinol RCT，未逐篇寫入。",
+            "refs": [
+              {
+                "note": "Sabbatinelli 等。Nutrients. 2020。Kaneka QH，100 或 200 mg／日、8 週。完成 48 人。",
+                "title": "Ubiquinol Ameliorates Endothelial Dysfunction in Subjects with Mild-to-Moderate Dyslipidemia: A Randomized Clinical Trial",
+                "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7231284/"
+              }
+            ],
+            "status": "yes"
+          },
+          "names": {
+            "commonEn": "ubiquinol (reduced coenzyme Q10)",
+            "commonZh": "還原型輔酵素 Q10（泛醇）",
+            "scientific": "不適用：泛醇是輔酵素 Q10 的還原型化合物。平台品名為 Coenzyme Q10，學名欄空白。Kaneka 歐洲站寫酵母發酵、與體內相同的分子。",
+            "trade": "Kaneka Ubiquinol（Kaneka 的還原型輔酵素 Q10 商品名；亦見 Kaneka QH）"
+          },
+          "patent": {
+            "note": "只核到這件穩定化專利的勝訴稿，沒有把 Kaneka 其他 Q10 專利逐件打開。",
+            "refs": [
+              {
+                "note": "2024-12-24 Kaneka 新聞稿：美國專利 US 7,829,080 為穩定 ubiquinol 的方法；德拉瓦州法院 2024-12-20 認定侵權且專利有效。未另開 USPTO 全文。",
+                "title": "Designs For Health Inc. Held Liable For Infringement of Kaneka's Ubiquinol Patent",
+                "url": "https://www.prnewswire.com/news-releases/designs-for-health-inc-held-liable-for-infringement-of-kanekas-ubiquinol-patent-302338964.html"
+              }
+            ],
+            "status": "yes"
+          },
+          "sources": [
+            {
+              "accessed": "2026-11-08",
+              "channel": "exhibition",
+              "publisher": "NutraIngredients",
+              "title": "Vitafoods Asia 2026 show floor preview: Exhibitors H-P",
+              "url": "https://www.nutraingredients.com/Article/2026/08/25/vitafoods-asia-2026-show-floor-preview-exhibitors-h-p/",
+              "whatItContributes": "2026-09-02 至 04 曼谷展前名錄：Kaneka 攤位 H6-F25，寫明全球供應 Kaneka Ubiquinol，並有兩場粒線體健康簡報。"
+            },
+            {
+              "accessed": "2026-11-08",
+              "channel": "exhibition",
+              "publisher": "SupplySide Global",
+              "title": "SupplySide Global 2025 event map",
+              "url": "https://exhibitor.supplysideglobal.com/supplyside-global25/Public/EventMap.aspx",
+              "whatItContributes": "2025-10 拉斯維加斯展商名錄有 Kaneka North America, LLC，攤位 5965。名錄沒有寫出 Ubiquinol 三個字。"
+            },
+            {
+              "accessed": "2026-11-08",
+              "channel": "supplier_site",
+              "publisher": "Kaneka Nutrients Europe",
+              "title": "What is Ubiquinol by Kaneka?",
+              "url": "https://www.kaneka-ubiquinol.com/",
+              "whatItContributes": "商品名、酵母發酵、運動與健康老化取向說法，以及官網圖片。"
+            },
+            {
+              "accessed": "2026-11-08",
+              "channel": "paper",
+              "publisher": "Nutrients / PMC",
+              "title": "Ubiquinol Ameliorates Endothelial Dysfunction in Subjects with Mild-to-Moderate Dyslipidemia",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7231284/",
+              "whatItContributes": "已打開的 RCT：Kaneka QH 每日 100 或 200 mg 與內皮功能指標。"
+            },
+            {
+              "accessed": "2026-11-08",
+              "channel": "other",
+              "publisher": "東翔生技股份有限公司",
+              "title": "Kaneka 株式会社",
+              "url": "https://www.toshio-biomed.com.tw/exclusive/kaneka/",
+              "whatItContributes": "台灣頁寫獨家代理、還原型輔酵素 Q10、酵母發酵與 96% 規格。"
+            },
+            {
+              "accessed": "2026-11-08",
+              "channel": "other",
+              "publisher": "登盛企業股份有限公司",
+              "title": "登盛企業 Kaneka Ubiquinol (QH)",
+              "url": "https://www.masterasia.com.tw/content.php?id=6645",
+              "whatItContributes": "另一家台灣目錄把衛福部輔酵素 Q10 的 30 mg 與 warfarin 警語寫在 Kaneka Ubiquinol 頁。"
+            }
+          ],
+          "supply": {
+            "relationship": "taiwan_agent",
+            "relationshipNote": "東翔生技原料頁寫已與 Kaneka 簽約、為台灣市場獨家代理，並列出 Ubiquinol 96% 與安定化粉末。登盛企業另有 Kaneka Ubiquinol 產品頁，並把輔酵素 Q10 的 30 mg 與 warfarin 警語抄在該頁。公開頁不只一家，獨家說法以東翔自述為準，未能與登盛頁互相排除。",
+            "supplierCountry": "日本",
+            "supplierName": "Kaneka Corporation",
+            "taiwanPartyName": "東翔生技股份有限公司"
+          },
+          "tfda": {
+            "evidenceNotes": "食品原料查到輔酵素Ｑ10（Coenzyme Q10）1 筆，屬微生物來源，每日 30 mg，並須標示十五歲以下、孕哺婦女及服用 warfarin 者不宜。沒有另列 ubiquinol、泛醇或還原型，添加物也是 0 筆，不是未確認安全性分類。登盛把同一則 30 mg 與 warfarin 警語用在 Kaneka Ubiquinol 頁上，本次因此對到這筆輔酵素 Q10。平台文字沒有單獨寫還原型。",
+            "lookupDate": "2026-11-08",
+            "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+            "officialCrosscheck": {
+              "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+              "done": true,
+              "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+              "notes": "2026-11-08 依查詢助手公開 data.json（fetched 2026-11-07）核對列名、30 mg 上限與警語。官方原料頁未另開。"
+            },
+            "queries": [
+              {
+                "category": "微生物及其來源製取之原料",
+                "keyword": "輔酵素",
+                "matchedName": "輔酵素Ｑ10",
+                "note": "外文 Coenzyme Q10。學名欄空白。公告字號見備註：衛授食字第 1081302650 號。",
+                "restrictionNote": "每日食用限量 30 mg。應標示「十五歲以下小孩、懷孕或哺乳期間婦女及服用抗凝血藥品(warfarin)之病患，不宜食用」。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "ubiquinol",
+                "matchedName": "",
+                "note": "還原型英文名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "泛醇",
+                "matchedName": "",
+                "note": "中文別名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Coenzyme",
+                "matchedName": "",
+                "note": "添加物分頁 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "輔酵素",
+                "matchedName": "",
+                "note": "助手更新歷程未另見這筆品名的新增或改列未確認。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "history",
+                "unconfirmedSafety": false
+              }
+            ],
+            "usable": "listed_food_ingredient"
+          }
+        },
+        {
+          "discovery": {
+            "channel": "exhibition",
+            "notes": "從 Taiyo 的 Vitafoods 2024 展前稿看到 Teavigo 品名，再對產品頁、EGCG 臨床摘要與仕琦目錄。SupplySide 2025 只核到 Taiyo 攤位，沒有在名錄上看到 Teavigo 三個字。與 11 月 7 日 Suntheanine 同供應商、不同化合物。",
+            "scoutDate": "2026-11-08"
+          },
+          "efficacy": {
+            "claimedBenefits": [
+              "Taiyo 產品頁寫 EGCg 與抗氧化、體重與口腔等方向有關，並說部分結果顯示每日 150–300 mg EGCg 可降低體重與 BMI。這是供應商轉述。",
+              "已打開的 PubMed 摘要（TEAVIGO，當時標 DSM，>97% EGCG）：肥胖女性每日 300 mg、12 週，配合熱量限制，相對安慰劑沒有顯著額外減重或體脂差。同成分不能只抄官網的減重句。"
+            ],
+            "dosageNote": "300 mg 是台灣原料每日上限，也是上述 RCT 的研究劑量。官網的體重說法與該篇已打開的陰性結果並陳，不是台灣核准功效。",
+            "suggestedDosage": "Taiyo 頁引用的研究區間是每日 150–300 mg EGCg。台灣公告每日以 EGCG 計 300 mg。仕琦頁沒有另寫毫克數。"
+          },
+          "evidenceLevels": [
+            "clinical"
+          ],
+          "example": false,
+          "id": "teavigo",
+          "images": [
+            {
+              "caption": "Taiyo GmbH 的 Teavigo 原料圖。",
+              "localPath": "",
+              "source": "official_site",
+              "url": "https://taiyogmbh.com/wp-content/uploads/2020/02/teavigo-raw-material.png"
+            }
+          ],
+          "literature": {
+            "note": "減重 RCT 只讀到摘要；生體可用率論文有讀 PMC。證據等級取前者的臨床試驗，結論是沒有顯著額外減重。",
+            "refs": [
+              {
+                "note": "已打開摘要。使用 TEAVIGO（DSM，>97% EGCG）每日 300 mg、12 週。相對安慰劑無顯著額外減重。品牌於 2014 年起轉由 Taiyo 生產，規格頁現寫 >94%。",
+                "title": "Effects of dietary supplementation with epigallocatechin-3-gallate on weight loss in obese women",
+                "url": "https://pubmed.ncbi.nlm.nih.gov/24299662/"
+              },
+              {
+                "note": "已打開 PMC。10 位健康成人交叉試驗，使用 Teavigo。這是血中濃度，不是功效試驗。",
+                "title": "Bioavailability of Epigallocatechin Gallate Administered with Different Nutritional Strategies in Healthy Volunteers",
+                "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7278615/"
+              }
+            ],
+            "status": "yes"
+          },
+          "names": {
+            "commonEn": "epigallocatechin gallate (EGCG)",
+            "commonZh": "表沒食子兒茶素沒食子酸酯（綠茶高純度萃取）",
+            "scientific": "平台學名欄空白。化合物是表沒食子兒茶素沒食子酸酯。Taiyo 產品頁寫由綠茶茶葉水萃，該頁沒有寫出拉丁學名。",
+            "trade": "Teavigo（Taiyo 的高純度綠茶 EGCG 商品名）"
+          },
+          "patent": {
+            "note": "仕琦頁寫專利製程，Taiyo 產品頁這次沒有專利號。沒有打開專利頁，維持 unknown。",
+            "refs": [],
+            "status": "unknown"
+          },
+          "sources": [
+            {
+              "accessed": "2026-11-08",
+              "channel": "exhibition",
+              "publisher": "Taiyo GmbH",
+              "title": "Exhibition preview Vitafoods 2024",
+              "url": "https://taiyogmbh.com/en/exhibition-preview-vitafoods-2024/",
+              "whatItContributes": "Vitafoods 2024 日內瓦展前稿點名 Teavigo，攤位 hall 1 F110。同頁也列 Suntheanine，兩者不是同一原料。"
+            },
+            {
+              "accessed": "2026-11-08",
+              "channel": "exhibition",
+              "publisher": "SupplySide Global",
+              "title": "SupplySide Global 2025 event map",
+              "url": "https://exhibitor.supplysideglobal.com/supplyside-global25/Public/EventMap.aspx",
+              "whatItContributes": "2025 展商名錄有 Taiyo International, Inc，攤位 4243。名錄沒有寫出 Teavigo。"
+            },
+            {
+              "accessed": "2026-11-08",
+              "channel": "supplier_site",
+              "publisher": "Taiyo GmbH",
+              "title": "Teavigo",
+              "url": "https://taiyogmbh.com/en/start-en/brands/teavigo-en/",
+              "whatItContributes": "EGCg >94%、咖啡因 \u003c0.1%、水萃後以食品級乙酸乙酯濃縮、150–300 mg 的供應商轉述，以及圖片。"
+            },
+            {
+              "accessed": "2026-11-08",
+              "channel": "paper",
+              "publisher": "PubMed",
+              "title": "Effects of dietary supplementation with epigallocatechin-3-gallate on weight loss",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/24299662/",
+              "whatItContributes": "TEAVIGO 每日 300 mg、12 週 RCT 摘要：相對安慰劑沒有顯著額外減重。"
+            },
+            {
+              "accessed": "2026-11-08",
+              "channel": "other",
+              "publisher": "仕琦股份有限公司",
+              "title": "綠茶抽出物 EGCG (TEAVIGO)",
+              "url": "https://www.skyrich.com.tw/product.php?act=view&no=37",
+              "whatItContributes": "台灣目錄：EGCG ≧ 94%、咖啡因 ≦ 0.1%，公司名稱仕琦股份有限公司。"
+            }
+          ],
+          "supply": {
+            "relationship": "unknown",
+            "relationshipNote": "Taiyo GmbH 產品頁寫 Teavigo 由日本端依日本品質規範生產，歐洲聯絡點在德國。仕琦股份有限公司產品頁列出綠茶抽出物 EGCG（TEAVIGO），規格 EGCG ≧ 94%、咖啡因 ≦ 0.1%。全站標語是代理銷售，這一頁沒有寫 Teavigo 獨家代理，Taiyo 這次打開的頁也沒有點名仕琦，關係維持未確認。",
+            "supplierCountry": "日本",
+            "supplierName": "Taiyo Kagaku／Taiyo GmbH",
+            "taiwanPartyName": "仕琦股份有限公司"
+          },
+          "tfda": {
+            "evidenceNotes": "食品原料有表沒食子兒茶素沒食子酸酯（EGCG）1 筆：綠茶茶葉經萃取、分離、濃縮，乾基含量不得低於 90%，每日以 EGCG 計 300 mg。商品名 Teavigo 與添加物分頁都是 0 筆，不是未確認安全性。Taiyo 現寫 EGCg >94%、咖啡因 \u003c0.1%，含量落在公告門檻內；頁上寫濃縮溶劑為食品級乙酸乙酯，公告正文沒有點名溶劑。這不是 11 月 7 日那筆茶胺酸。",
+            "lookupDate": "2026-11-08",
+            "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+            "officialCrosscheck": {
+              "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+              "done": true,
+              "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+              "notes": "2026-11-08 依查詢助手公開 data.json（fetched 2026-11-07）核對 EGCG 列名、90% 與 300 mg。官方原料頁未另開。"
+            },
+            "queries": [
+              {
+                "category": "草、木本植物類來源製取之原料",
+                "keyword": "表沒食子兒茶素",
+                "matchedName": "表沒食子兒茶素沒食子酸酯",
+                "note": "外文 Epigallocatechin gallate (EGCG)。公告字號衛授食字第 1131301534 號（113-07-11）。",
+                "restrictionNote": "乾基 EGCG 不得低於 90%。每日食用限量以 EGCG 計 300 mg。製程為綠茶茶葉經萃取、分離及濃縮等純化。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Teavigo",
+                "matchedName": "",
+                "note": "商品名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "草、木本植物類來源製取之原料",
+                "keyword": "EGCG",
+                "matchedName": "表沒食子兒茶素沒食子酸酯",
+                "note": "與中文名同一筆。",
+                "restrictionNote": "同上。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "EGCG",
+                "matchedName": "",
+                "note": "添加物分頁 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "沒食子",
+                "matchedName": "",
+                "note": "助手更新歷程未另見改列未確認。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "history",
+                "unconfirmedSafety": false
+              }
+            ],
+            "usable": "listed_food_ingredient"
+          }
+        },
+        {
+          "discovery": {
+            "channel": "industry_report",
+            "notes": "從菊糖／Orafti 產業報告進入，對 BENEO 泰國聲稱新聞與菊糖產品頁，再讀 NutraIngredients 對 Reading 試驗的報導，最後對大昌華嘉 2022 新聞與現行食品原料頁。SupplySide 2025 名錄有 Beneo Inc. 攤位 4625，該頁沒有寫 Orafti。",
+            "scoutDate": "2026-11-08"
+          },
+          "efficacy": {
+            "claimedBenefits": [
+              "BENEO 益生元頁寫：菊苣根 Orafti Inulin 與果寡糖自每日 3 g 起可選擇性增加雙歧桿菌；歐盟聲稱「chicory inulin contributes to normal bowel function by increasing stool frequency」的使用條件是每日 12 g 天然菊苣菊糖。這是供應商轉述歐盟評估，不是台灣核准功效。",
+              "NutraIngredients 對 Reading 大學試驗的報導：96 位成人每日 10 g Orafti Inulin、10 天，純粉或放入餅乾、牛奶巧克力、米漿，雙歧桿菌都增加，基質之間沒有顯著差。全文未打開。"
+            ],
+            "dosageNote": "3 g 與 12 g 是供應商／歐盟聲稱條件，10 g 是試驗劑量。台灣草木本來源菊糖這筆沒有寫每日毫克上限，不代表歐盟克數可以直接當成台灣功效依據。",
+            "suggestedDosage": "BENEO：益生元相關敘述自每日 3 g；歐盟腸道功能聲稱的條件是每日 12 g 天然菊苣菊糖，可分次。上述試驗用每日 10 g。"
+          },
+          "evidenceLevels": [
+            "clinical"
+          ],
+          "example": false,
+          "id": "orafti-inulin",
+          "images": [
+            {
+              "caption": "BENEO 官網：Orafti Inulin 泰國益生元聲稱新聞圖。",
+              "localPath": "",
+              "source": "official_site",
+              "url": "https://www.beneo.com/wp-content/uploads/2000/09/exclusive-prebiotic-claim-in-thailand.png"
+            }
+          ],
+          "literature": {
+            "note": "臨床等級只對到這篇人體試驗的公開登錄與新聞轉述，不補全文裡沒看到的數字。",
+            "refs": [
+              {
+                "note": "Jackson 等。Beneficial Microbes. 2023。DOI 頁與 ClinicalTrials NCT05581615 已打開；Brill 全文未讀。設計與 10 g／日結果依 NutraIngredients 2023-09-21 對該文的報導。",
+                "title": "Effects of food matrix on the prebiotic efficacy of inulin-type fructans: a randomised trial",
+                "url": "https://doi.org/10.1163/18762891-20220120"
+              }
+            ],
+            "status": "yes"
+          },
+          "names": {
+            "commonEn": "chicory root inulin",
+            "commonZh": "菊糖（菊苣根來源）",
+            "scientific": "菊糖條目學名欄空白。BENEO 寫來源為菊苣根。平台另列菊苣，學名含 Cichorium intybus L.、Cichorium endivia L.、Cichorium glandulosum Boiss. et Hout，部位根、莖、葉。",
+            "trade": "Orafti Inulin（BENEO 的菊苣根菊糖商品名；系列含 GR、HSI、HP 等）"
+          },
+          "patent": {
+            "note": "這次打開的 BENEO 產品頁與泰國准用新聞沒有專利號，維持 unknown。",
+            "refs": [],
+            "status": "unknown"
+          },
+          "sources": [
+            {
+              "accessed": "2026-11-08",
+              "channel": "industry_report",
+              "publisher": "Emergen Research",
+              "title": "Inulin and Fructooligosaccharide Market Size, Share & Trends",
+              "url": "https://www.emergenresearch.com/industry-report/inulin-and-fructooligosaccharide-market",
+              "whatItContributes": "產業報告點名 BENEO 的菊苣根纖維，並寫 2025 年 Fi Europe 展出 Orafti inulin 與其他配料的組合。"
+            },
+            {
+              "accessed": "2026-11-08",
+              "channel": "industry_report",
+              "publisher": "Future Market Insights",
+              "title": "Chicory Root Inulin (Orafti HSI) Market",
+              "url": "https://www.futuremarketinsights.com/reports/chicory-root-inulin-orafti-hsi-market",
+              "whatItContributes": "以 Orafti HSI 為題的市場報告，並引 BENEO 2025 年 9 月泰國 FDA 益生元聲稱。"
+            },
+            {
+              "accessed": "2026-11-08",
+              "channel": "supplier_site",
+              "publisher": "BENEO",
+              "title": "BENEO secures first-ever Thai FDA approval for exclusive prebiotic claim",
+              "url": "https://www.beneo.com/news/exclusive-prebiotic-claim-in-thailand",
+              "whatItContributes": "2025-09-18：Orafti Inulin 為菊苣根熱水萃取，並取得泰國益生元聲稱。"
+            },
+            {
+              "accessed": "2026-11-08",
+              "channel": "supplier_site",
+              "publisher": "BENEO",
+              "title": "Inulin from Orafti",
+              "url": "https://www.beneo.com/human-nutrition/human-nutrition-products/functional-fibres/inulin",
+              "whatItContributes": "菊苣根熱水萃取、Orafti GR 等規格與菊糖含量約 92%。"
+            },
+            {
+              "accessed": "2026-11-08",
+              "channel": "news",
+              "publisher": "NutraIngredients",
+              "title": "Chicory root fibre increases good gut bacteria regardless of food application",
+              "url": "https://www.nutraingredients.com/Article/2023/09/21/Chicory-root-fibre-increases-good-gut-bacteria-regardless-of-food-application-research-asserts/",
+              "whatItContributes": "轉述 10 g／日、96 人、10 天的 Orafti Inulin 試驗與 DOI。"
+            },
+            {
+              "accessed": "2026-11-08",
+              "channel": "other",
+              "publisher": "台灣大昌華嘉",
+              "title": "台灣大昌華嘉特用原料榮獲原料大廠Beneo表揚",
+              "url": "https://www.dksh.com/tw-zh-Hant/home/media/news/%E5%8F%B0%E7%81%A3%E5%A4%A7%E6%98%8C%E8%8F%AF%E5%98%89%E7%89%B9%E7%94%A8%E5%8E%9F%E6%96%99%E6%A6%AE%E7%8D%B2%E5%8E%9F%E6%96%99%E5%A4%A7%E5%BB%A0beneo%E8%A1%A8%E6%8F%9A",
+              "whatItContributes": "寫亞太獨家代理 Beneo，含菊苣纖維 Inulin。"
+            },
+            {
+              "accessed": "2026-11-08",
+              "channel": "other",
+              "publisher": "台灣大昌華嘉",
+              "title": "食品與飲品原料",
+              "url": "https://www.dksh.com/tw-zh-Hant/home/performance-materials/food-beverage-ingredients",
+              "whatItContributes": "現行產品組合仍列出 BENEO 的 Inulin 菊苣纖維。"
+            }
+          ],
+          "supply": {
+            "relationship": "taiwan_agent",
+            "relationshipNote": "2022-11-09 大昌華嘉中文新聞寫，特用原料在亞太獨家代理 Beneo 產品 20 年，範圍含 Orafti、菊苣纖維 Inulin。2026 年台灣大昌華嘉食品與飲品原料頁仍列出 BENEO 的 Inulin 菊苣纖維。論文作者單位寫 BENEO GmbH（德國 Obrigheim）。漢馨科技網站另有 Orafti Synergy1 產品頁，所以「獨家」以大昌華嘉新聞自述為準，目錄上還看得到另一家。",
+            "supplierCountry": "德國",
+            "supplierName": "BENEO GmbH",
+            "taiwanPartyName": "台灣大昌華嘉（DKSH Taiwan）"
+          },
+          "tfda": {
+            "evidenceNotes": "食品原料菊糖有兩筆，都不是未確認安全性：草木本來源那筆備註空白；另一筆是蔗糖經芽孢桿菌果糖基轉移酶製成，須標示酵素反應來源。Orafti 寫菊苣根熱水萃取，對上前一筆，不是蔗糖酵素規格。菊苣（Cichorium intybus 等）另列根、莖、葉可直接食用。用 Inulin 當關鍵字會多命中菌名 Sporolactobacillus inulinus。",
+            "lookupDate": "2026-11-08",
+            "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+            "officialCrosscheck": {
+              "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+              "done": true,
+              "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+              "notes": "2026-11-08 依查詢助手公開 data.json（fetched 2026-11-07）分開核對兩筆菊糖與菊苣。官方原料頁未另開。酵素菊糖公告字號在該筆備註：衛授食字第 1151301588 號（115-08-12）。"
+            },
+            "queries": [
+              {
+                "category": "草、木本植物類來源製取之原料",
+                "keyword": "菊糖",
+                "matchedName": "菊糖",
+                "note": "關鍵字 菊糖 共 2 筆，外文都是 Inulin。Orafti 對熱水萃菊苣根，不是酵素蔗糖那一筆。",
+                "restrictionNote": "草木本來源這一筆備註空白。另一筆在加工原料分類，限芽孢桿菌 217C-11 果糖基轉移酶自蔗糖製得，並須標示「本產品內之菊糖是以蔗糖經酵素反應製得」。",
+                "resultCount": 2,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "草、木本植物類(2)可供直接食用",
+                "keyword": "菊苣",
+                "matchedName": "菊苣",
+                "note": "外文 Chicory。學名含 Cichorium intybus L. 等。這是植物本體，不是菊糖規格書。",
+                "restrictionNote": "部位根、莖、葉。備註空白。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Inulin",
+                "matchedName": "菊糖；另命中乳酸菌",
+                "note": "兩筆是菊糖。第三筆是乳酸菌，學名 Sporolactobacillus inulinus，只是菌名含 inulin 字樣。",
+                "restrictionNote": "",
+                "resultCount": 3,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "菊糖",
+                "matchedName": "",
+                "note": "添加物分頁 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "菊糖",
+                "matchedName": "",
+                "note": "助手更新歷程未另見這兩個關鍵字的改列未確認。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "history",
+                "unconfirmedSafety": false
+              }
+            ],
+            "usable": "listed_food_ingredient"
+          }
+        },
+        {
+          "discovery": {
+            "channel": "news",
+            "notes": "從 2025 與 2026 的 NutraIngredients 臨床新聞進入，打開 Frontiers 2024 綜述與 Horphag 法律頁，再對英凡特授權頁。SupplySide 名錄用來核 Horphag 攤位。海岸松樹幹的未確認列名已分開，不把那一筆當成這個原料。",
+            "scoutDate": "2026-11-08"
+          },
+          "efficacy": {
+            "claimedBenefits": [
+              "NutraIngredients 2025-12-11：脂肪水腫女性 100 人、60 天，Pycnogenol 每日 50 mg 三次（共 150 mg）相對安慰劑症狀分數下降，該稿寫症狀約減 29%。單中心，新聞已註明限制。",
+              "Horphag 法律頁：口服成品若要把商標放在正面品名，每日至少 20 mg。這是商標使用條件，不是功效結論。"
+            ],
+            "dosageNote": "以上是商標條件與試驗劑量。台灣 pinaster 樹皮萃取物這筆沒有寫毫克上限；radiata 的 150 mg 不適用於這一筆。沒有上限文字不等於高劑量已放行。",
+            "suggestedDosage": "商標頁：正面標示至少每日 20 mg。2025 年脂肪水腫新聞裡的試驗是每日 150 mg（50 mg 三次）。2026-10-26 骨密度相關新聞寫每日 200 mg、三個月。"
+          },
+          "evidenceLevels": [
+            "clinical"
+          ],
+          "example": false,
+          "id": "pycnogenol",
+          "images": [
+            {
+              "caption": "Pycnogenol 官網合作頁首圖。",
+              "localPath": "",
+              "source": "official_site",
+              "url": "https://www.pycnogenol.com/fileadmin/_processed_/1/4/csm_pycnogenol-image-header-partners_41853d9409.jpg"
+            }
+          ],
+          "literature": {
+            "note": "已打開 2024 綜述。2025 脂肪水腫與 2026 生活品質量表是從 NutraIngredients 讀到的，原論文全文這次沒打開。",
+            "refs": [
+              {
+                "note": "Weichmann & Rohdewald。Front Nutr. 2024。綜述寫 39 項隨機雙盲安慰劑對照、共 2,009 人。這是回顧，不是新的單一試驗。",
+                "title": "Pycnogenol French maritime pine bark extract in randomized, double-blind, placebo-controlled human clinical studies",
+                "url": "https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2024.1389374/full"
+              }
+            ],
+            "status": "yes"
+          },
+          "names": {
+            "commonEn": "French maritime pine bark extract",
+            "commonZh": "法國濱海松樹皮萃取物",
+            "scientific": "Pinus pinaster Aiton（Maritime Pine）。平台松樹皮萃取物這一筆部位是樹皮，學名並含 Pinus morrisonicola Hayata、Pinus strobus L。",
+            "trade": "Pycnogenol（Horphag Research 的法國濱海松樹皮萃取商品名；台灣稱碧容健）"
+          },
+          "patent": {
+            "note": "依原廠法律頁的專利號清單。英凡特寫賀發擁有商標與專利，沒有另給號碼。",
+            "refs": [
+              {
+                "note": "Horphag 法律頁列出美國專利 5,720,956、6,372,266、6,565,851 及其他國際專利。未逐件打開 USPTO 全文。",
+                "title": "Pycnogenol legal and labeling guidelines",
+                "url": "https://www.pycnogenol.com/partners/legal/"
+              }
+            ],
+            "status": "yes"
+          },
+          "sources": [
+            {
+              "accessed": "2026-11-08",
+              "channel": "news",
+              "publisher": "NutraIngredients",
+              "title": "Lipedema study expands Pycnogenol’s women’s health potential",
+              "url": "https://www.nutraingredients.com/Article/2025/12/11/lipedema-study-expands-pycnogenols-womens-health-potential/",
+              "whatItContributes": "2025 年臨床新聞：法國濱海松樹皮萃取、每日 150 mg、60 天、100 名女性，以及單中心限制。"
+            },
+            {
+              "accessed": "2026-11-08",
+              "channel": "news",
+              "publisher": "NutraIngredients",
+              "title": "Pycnogenol linked to improved quality-of-life scores for women with low bone density",
+              "url": "https://www.nutraingredients.com/Article/2026/10/26/pycnogenol-linked-to-improved-quality-of-life-scores-for-women-with-low-bone-density-study/",
+              "whatItContributes": "2026 年新聞：每日 200 mg、三個月；生活品質分數相對安慰劑改善，骨吸收指標與安慰劑的差未達顯著。"
+            },
+            {
+              "accessed": "2026-11-08",
+              "channel": "paper",
+              "publisher": "Frontiers in Nutrition",
+              "title": "Pycnogenol French maritime pine bark extract in randomized trials",
+              "url": "https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2024.1389374/full",
+              "whatItContributes": "已打開的隨機對照試驗綜述，學名 Pinus pinaster。"
+            },
+            {
+              "accessed": "2026-11-08",
+              "channel": "supplier_site",
+              "publisher": "Horphag Research",
+              "title": "Pycnogenol legal",
+              "url": "https://www.pycnogenol.com/partners/legal/",
+              "whatItContributes": "商標最低 20 mg／日、美國專利號，以及標示規範。"
+            },
+            {
+              "accessed": "2026-11-08",
+              "channel": "exhibition",
+              "publisher": "SupplySide Global",
+              "title": "SupplySide Global 2025 event map",
+              "url": "https://exhibitor.supplysideglobal.com/supplyside-global25/Public/EventMap.aspx",
+              "whatItContributes": "展商名錄有 Horphag Research USA，攤位 4724。"
+            },
+            {
+              "accessed": "2026-11-08",
+              "channel": "other",
+              "publisher": "英凡特生物科技有限公司",
+              "title": "PYCNOGENOL 碧容健指定代理商",
+              "url": "https://www.bioinventor.com.tw/8",
+              "whatItContributes": "台灣授權頁：英凡特為碧容健原料代理經銷商，供應商寫瑞士商賀發研究機構。"
+            }
+          ],
+          "supply": {
+            "relationship": "taiwan_agent",
+            "relationshipNote": "英凡特頁貼出授權文字：瑞士商賀發研究機構正式授權英凡特生物科技有限公司為台灣地區 Pycnogenol／碧容健法國濱海松樹皮萃取物原料代理經銷商，頁面標題寫指定代理商。Horphag 英文法律頁這次沒有回指英凡特。關係依台灣授權頁填代理。",
+            "supplierCountry": "瑞士",
+            "supplierName": "Horphag Research",
+            "taiwanPartyName": "英凡特生物科技有限公司"
+          },
+          "tfda": {
+            "evidenceNotes": "食品原料有松樹皮萃取物兩筆：Pinus pinaster 這筆部位樹皮、備註沒有每日毫克上限；另一筆是 Pinus radiata，每日 150 mg 以下，不是碧容健。同搜尋還會看到未確認的海岸松，部位是樹幹，寫未經確認不得供食品原料，那一筆不是樹皮萃取物。商品名 Pycnogenol 與添加物都是 0 筆。平台沒寫上限，不等於臨床 150–200 mg 已在台灣被定量放行。",
+            "lookupDate": "2026-11-08",
+            "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+            "officialCrosscheck": {
+              "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+              "done": true,
+              "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+              "notes": "2026-11-08 依查詢助手公開 data.json（fetched 2026-11-07）把樹皮萃取物與未確認的樹幹分開。官方原料頁未另開。"
+            },
+            "queries": [
+              {
+                "category": "草、木本植物類來源製取之原料",
+                "keyword": "松樹皮",
+                "matchedName": "松樹皮萃取物",
+                "note": "兩筆都在可供食品使用分類。碧容健對 pinaster，不套用 radiata 的 150 mg。",
+                "restrictionNote": "Pinus pinaster 這筆部位樹皮，備註空白。Pinus radiata 這筆部位樹皮，每日 150 mg 以下。",
+                "resultCount": 2,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Pinus pinaster",
+                "matchedName": "松樹皮萃取物；松樹（葉）；海岸松（未確認）",
+                "note": "3 筆裡 1 筆未確認，部位是樹幹。樹皮萃取物與松葉是另外兩筆，不在未確認分類。本次原料只對樹皮萃取物。",
+                "restrictionNote": "海岸松部位樹幹，備註寫未經確認其食用安全性前不得供為食品原料使用。",
+                "resultCount": 3,
+                "tab": "ingredient",
+                "unconfirmedSafety": true
+              },
+              {
+                "category": "",
+                "keyword": "Pycnogenol",
+                "matchedName": "",
+                "note": "商品名 0 筆。碧容健也是 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "松樹皮",
+                "matchedName": "",
+                "note": "添加物分頁 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "松樹皮",
+                "matchedName": "",
+                "note": "助手更新歷程未另見松樹皮萃取物改列未確認。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "history",
+                "unconfirmedSafety": false
+              }
+            ],
+            "usable": "listed_food_ingredient"
+          }
+        },
+        {
+          "discovery": {
+            "channel": "exhibition",
+            "notes": "從 SupplySide Global 2025 的 Sabinsa 展前與展後稿看到 BioPerine，用展商名錄核對攤位 5765，再對 Sabinsa 產品頁、專利頁與和聚目錄。胡椒莖的未確認列名已分開，不把莖當成這個原料。",
+            "scoutDate": "2026-11-08"
+          },
+          "efficacy": {
+            "claimedBenefits": [
+              "Sabinsa 產品頁寫：BioPerine 是黑胡椒果實標準化萃取，胡椒鹼至少 95%，與營養素一起使用以提高生物利用率，並寫有 72 篇以上臨床。這是供應商說法。",
+              "和聚頁轉述可提升 Q10、維生素 C、硒、胡蘿蔔素等吸收，幅度寫 30–2000%。沒有打開對應論文，不把百分比當成已核對結果。"
+            ],
+            "dosageNote": "5 mg 是供應商建議的每份用量。12 mg 是台灣胡椒鹼每日上限。舊專利摘要寫到更高純度與用途，不能當成可以超過 12 mg。",
+            "suggestedDosage": "Sabinsa 產品頁：建議每份 5 mg。台灣公告每日以胡椒鹼計 12 mg。"
+          },
+          "evidenceLevels": [],
+          "example": false,
+          "id": "bioperine",
+          "images": [
+            {
+              "caption": "Sabinsa 官網 BioPerine 產品橫幅。",
+              "localPath": "",
+              "source": "official_site",
+              "url": "https://sabinsa.com/wp-content/uploads/2025/09/bioperine-intro-banner.webp"
+            }
+          ],
+          "literature": {
+            "note": "官網寫 98 篇發表、72 篇以上臨床。這次沒有打開單篇論文全文，不標 clinical。",
+            "refs": [],
+            "status": "unknown"
+          },
+          "names": {
+            "commonEn": "piperine from black pepper fruit",
+            "commonZh": "胡椒鹼（黑胡椒果實萃取）",
+            "scientific": "胡椒鹼條目學名欄空白。Sabinsa 寫原料為黑胡椒果實 Piper nigrum。平台另有胡椒，學名 Piper nigrum，部位果實。",
+            "trade": "BioPerine（Sabinsa 的黑胡椒萃取商品名）"
+          },
+          "patent": {
+            "note": "依 BioPerine 官網專利表。US 5,536,506 摘要寫組成物至少 98% 胡椒鹼，與現售頁 95–99% 的規格範圍不完全同一句，兩筆都照頁面留下。",
+            "refs": [
+              {
+                "note": "頁上列出 US 5,536,506（1996-07-16，以胡椒鹼提高營養素吸收）與 US 5,744,161（1998-04-28）。受讓人寫 Sabinsa Corporation。未另查是否仍在有效期間。",
+                "title": "BioPerine patent list",
+                "url": "https://bioperine.com/patent"
+              }
+            ],
+            "status": "yes"
+          },
+          "sources": [
+            {
+              "accessed": "2026-11-08",
+              "channel": "exhibition",
+              "publisher": "Nutraceutical Business Review",
+              "title": "Sabinsa showcases innovation and tradition at SupplySide Global",
+              "url": "https://nutraceuticalbusinessreview.com/sabinsa-showcases-innovation-and-tradition-at-supplyside-global",
+              "whatItContributes": "SupplySide Global 2025（10 月 29–30 日，拉斯維加斯）展前稿：Sabinsa 攤位 5765，點名 BioPerine 為生物利用率原料。"
+            },
+            {
+              "accessed": "2026-11-08",
+              "channel": "exhibition",
+              "publisher": "WholeFoods Magazine",
+              "title": "Wrapped Up: SupplySide Connect 2025",
+              "url": "https://www.wholefoodsmagazine.com/articles/17525-wrapped-up-supplyside-connect-2025",
+              "whatItContributes": "展後報導再次列出 Sabinsa 攤位上的 BioPerine。"
+            },
+            {
+              "accessed": "2026-11-08",
+              "channel": "exhibition",
+              "publisher": "SupplySide Global",
+              "title": "SupplySide Global 2025 event map",
+              "url": "https://exhibitor.supplysideglobal.com/supplyside-global25/Public/EventMap.aspx",
+              "whatItContributes": "展商名錄：Sabinsa Corporation，攤位 5765。"
+            },
+            {
+              "accessed": "2026-11-08",
+              "channel": "supplier_site",
+              "publisher": "Sabinsa Corporation",
+              "title": "BioPerine",
+              "url": "https://sabinsa.com/brand/bioperine",
+              "whatItContributes": "果實來源、胡椒鹼至少 95%、建議每份 5 mg、臨床篇數的供應商說法，以及圖片。"
+            },
+            {
+              "accessed": "2026-11-08",
+              "channel": "patent",
+              "publisher": "Sabinsa",
+              "title": "BioPerine patents",
+              "url": "https://bioperine.com/patent",
+              "whatItContributes": "US 5,536,506 與 US 5,744,161 的專利號、日期與受讓人。"
+            },
+            {
+              "accessed": "2026-11-08",
+              "channel": "other",
+              "publisher": "和聚國際（HG BIO）",
+              "title": "Sabinsa BioPerine 胡椒鹼",
+              "url": "https://www.hg-bio.com.tw/products/bioperine/",
+              "whatItContributes": "台灣目錄：Sabinsa、胡椒鹼 95%、黑胡椒果實、產地印度。"
+            }
+          ],
+          "supply": {
+            "relationship": "unknown",
+            "relationshipNote": "Sabinsa 產品頁聯絡地址在美國紐澤西，並寫萃取自黑胡椒果實。和聚國際產品頁列出 Sabinsa BioPerine，規格胡椒鹼 95%、產地印度；公司自述從事原料代理，這一頁沒有寫獨家。生資、百康貿易也有 BioPerine 目錄。Sabinsa 頁沒有點名台灣公司，關係維持未確認。",
+            "supplierCountry": "美國",
+            "supplierName": "Sabinsa Corporation",
+            "taiwanPartyName": "和聚國際（HG BIO）"
+          },
+          "tfda": {
+            "evidenceNotes": "食品原料胡椒鹼 1 筆：胡椒經酒精萃取的粉末，含量不得低於 95%，每日以胡椒鹼計 12 mg。商品名 BioPerine 與添加物都是 0 筆。Piper nigrum 另有果實可直接食用、胡椒油，以及未確認的莖（枝）；BioPerine 頁寫果實萃取、胡椒鹼 95–99%，對上的是胡椒鹼規格，不是莖。Sabinsa 這頁沒有寫萃取溶劑，不能當成已核對酒精製程。",
+            "lookupDate": "2026-11-08",
+            "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+            "officialCrosscheck": {
+              "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+              "done": true,
+              "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+              "notes": "2026-11-08 依查詢助手公開 data.json（fetched 2026-11-07）核對胡椒鹼 95%／12 mg，並把未確認的胡椒莖分開。官方原料頁未另開。"
+            },
+            "queries": [
+              {
+                "category": "草、木本植物類來源製取之原料",
+                "keyword": "胡椒鹼",
+                "matchedName": "胡椒鹼",
+                "note": "外文 Piperine。公告字號衛授食字第 1131301534 號（113-07-11）。學名欄空白。",
+                "restrictionNote": "由胡椒經酒精萃取等純化步驟製得之粉末。含量不得低於 95%。每日食用限量以胡椒鹼計 12 mg。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "BioPerine",
+                "matchedName": "",
+                "note": "商品名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Piper nigrum",
+                "matchedName": "胡椒（果實）；胡椒油；胡椒（莖，未確認）",
+                "note": "果實與胡椒油在可供使用分類。未確認的是莖，不是果實萃取的胡椒鹼規格。",
+                "restrictionNote": "未確認那一筆部位是莖（枝），寫未經確認其食用安全性前不得供為食品原料使用。",
+                "resultCount": 3,
+                "tab": "ingredient",
+                "unconfirmedSafety": true
+              },
+              {
+                "category": "",
+                "keyword": "Piperine",
+                "matchedName": "",
+                "note": "添加物分頁沒有胡椒鹼。胡椒基丁醚是另一個防蟲劑，不是這個原料。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "胡椒鹼",
+                "matchedName": "",
+                "note": "助手更新歷程未另見胡椒鹼改列未確認。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "history",
+                "unconfirmedSafety": false
+              }
+            ],
+            "usable": "listed_food_ingredient"
+          }
+        }
+      ],
+      "targetCount": 5,
+      "title": "2026-11-08 正式日報"
+    },
+    {
+      "channelsCovered": [
+        "news",
+        "exhibition",
+        "industry_report"
+      ],
       "date": "2026-11-07",
       "example": false,
       "notes": "正式五筆。未放入 TFDA 未確認安全性項目（已排除 Bacopa、PQQ、NMN、瓜胺酸、納豆激酶、化學合成薑黃素、Relora／厚朴黃柏、Fenavari／shatavari）。Citicoline／PEA／褐藻醣膠／亞精胺助手未列名，本次不收入。OptiMSM／OPITAC／Quatrefolic／Lutemax 依原料列名；Suntheanine 依添加物茶胺酸（調味劑 1 g/kg）。膠原胜肽與 ashwagandha 家族已在前兩日報，不再重複。",
@@ -2784,6 +3668,175 @@ window.INGREDIENT_CATALOG = {
     },
     {
       "discovery": {
+        "channel": "exhibition",
+        "notes": "從 SupplySide Global 2025 的 Sabinsa 展前與展後稿看到 BioPerine，用展商名錄核對攤位 5765，再對 Sabinsa 產品頁、專利頁與和聚目錄。胡椒莖的未確認列名已分開，不把莖當成這個原料。",
+        "scoutDate": "2026-11-08"
+      },
+      "efficacy": {
+        "claimedBenefits": [
+          "Sabinsa 產品頁寫：BioPerine 是黑胡椒果實標準化萃取，胡椒鹼至少 95%，與營養素一起使用以提高生物利用率，並寫有 72 篇以上臨床。這是供應商說法。",
+          "和聚頁轉述可提升 Q10、維生素 C、硒、胡蘿蔔素等吸收，幅度寫 30–2000%。沒有打開對應論文，不把百分比當成已核對結果。"
+        ],
+        "dosageNote": "5 mg 是供應商建議的每份用量。12 mg 是台灣胡椒鹼每日上限。舊專利摘要寫到更高純度與用途，不能當成可以超過 12 mg。",
+        "suggestedDosage": "Sabinsa 產品頁：建議每份 5 mg。台灣公告每日以胡椒鹼計 12 mg。"
+      },
+      "evidenceLevels": [],
+      "example": false,
+      "id": "bioperine",
+      "images": [
+        {
+          "caption": "Sabinsa 官網 BioPerine 產品橫幅。",
+          "localPath": "",
+          "source": "official_site",
+          "url": "https://sabinsa.com/wp-content/uploads/2025/09/bioperine-intro-banner.webp"
+        }
+      ],
+      "literature": {
+        "note": "官網寫 98 篇發表、72 篇以上臨床。這次沒有打開單篇論文全文，不標 clinical。",
+        "refs": [],
+        "status": "unknown"
+      },
+      "names": {
+        "commonEn": "piperine from black pepper fruit",
+        "commonZh": "胡椒鹼（黑胡椒果實萃取）",
+        "scientific": "胡椒鹼條目學名欄空白。Sabinsa 寫原料為黑胡椒果實 Piper nigrum。平台另有胡椒，學名 Piper nigrum，部位果實。",
+        "trade": "BioPerine（Sabinsa 的黑胡椒萃取商品名）"
+      },
+      "patent": {
+        "note": "依 BioPerine 官網專利表。US 5,536,506 摘要寫組成物至少 98% 胡椒鹼，與現售頁 95–99% 的規格範圍不完全同一句，兩筆都照頁面留下。",
+        "refs": [
+          {
+            "note": "頁上列出 US 5,536,506（1996-07-16，以胡椒鹼提高營養素吸收）與 US 5,744,161（1998-04-28）。受讓人寫 Sabinsa Corporation。未另查是否仍在有效期間。",
+            "title": "BioPerine patent list",
+            "url": "https://bioperine.com/patent"
+          }
+        ],
+        "status": "yes"
+      },
+      "sources": [
+        {
+          "accessed": "2026-11-08",
+          "channel": "exhibition",
+          "publisher": "Nutraceutical Business Review",
+          "title": "Sabinsa showcases innovation and tradition at SupplySide Global",
+          "url": "https://nutraceuticalbusinessreview.com/sabinsa-showcases-innovation-and-tradition-at-supplyside-global",
+          "whatItContributes": "SupplySide Global 2025（10 月 29–30 日，拉斯維加斯）展前稿：Sabinsa 攤位 5765，點名 BioPerine 為生物利用率原料。"
+        },
+        {
+          "accessed": "2026-11-08",
+          "channel": "exhibition",
+          "publisher": "WholeFoods Magazine",
+          "title": "Wrapped Up: SupplySide Connect 2025",
+          "url": "https://www.wholefoodsmagazine.com/articles/17525-wrapped-up-supplyside-connect-2025",
+          "whatItContributes": "展後報導再次列出 Sabinsa 攤位上的 BioPerine。"
+        },
+        {
+          "accessed": "2026-11-08",
+          "channel": "exhibition",
+          "publisher": "SupplySide Global",
+          "title": "SupplySide Global 2025 event map",
+          "url": "https://exhibitor.supplysideglobal.com/supplyside-global25/Public/EventMap.aspx",
+          "whatItContributes": "展商名錄：Sabinsa Corporation，攤位 5765。"
+        },
+        {
+          "accessed": "2026-11-08",
+          "channel": "supplier_site",
+          "publisher": "Sabinsa Corporation",
+          "title": "BioPerine",
+          "url": "https://sabinsa.com/brand/bioperine",
+          "whatItContributes": "果實來源、胡椒鹼至少 95%、建議每份 5 mg、臨床篇數的供應商說法，以及圖片。"
+        },
+        {
+          "accessed": "2026-11-08",
+          "channel": "patent",
+          "publisher": "Sabinsa",
+          "title": "BioPerine patents",
+          "url": "https://bioperine.com/patent",
+          "whatItContributes": "US 5,536,506 與 US 5,744,161 的專利號、日期與受讓人。"
+        },
+        {
+          "accessed": "2026-11-08",
+          "channel": "other",
+          "publisher": "和聚國際（HG BIO）",
+          "title": "Sabinsa BioPerine 胡椒鹼",
+          "url": "https://www.hg-bio.com.tw/products/bioperine/",
+          "whatItContributes": "台灣目錄：Sabinsa、胡椒鹼 95%、黑胡椒果實、產地印度。"
+        }
+      ],
+      "supply": {
+        "relationship": "unknown",
+        "relationshipNote": "Sabinsa 產品頁聯絡地址在美國紐澤西，並寫萃取自黑胡椒果實。和聚國際產品頁列出 Sabinsa BioPerine，規格胡椒鹼 95%、產地印度；公司自述從事原料代理，這一頁沒有寫獨家。生資、百康貿易也有 BioPerine 目錄。Sabinsa 頁沒有點名台灣公司，關係維持未確認。",
+        "supplierCountry": "美國",
+        "supplierName": "Sabinsa Corporation",
+        "taiwanPartyName": "和聚國際（HG BIO）"
+      },
+      "tfda": {
+        "evidenceNotes": "食品原料胡椒鹼 1 筆：胡椒經酒精萃取的粉末，含量不得低於 95%，每日以胡椒鹼計 12 mg。商品名 BioPerine 與添加物都是 0 筆。Piper nigrum 另有果實可直接食用、胡椒油，以及未確認的莖（枝）；BioPerine 頁寫果實萃取、胡椒鹼 95–99%，對上的是胡椒鹼規格，不是莖。Sabinsa 這頁沒有寫萃取溶劑，不能當成已核對酒精製程。",
+        "lookupDate": "2026-11-08",
+        "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+        "officialCrosscheck": {
+          "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+          "done": true,
+          "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+          "notes": "2026-11-08 依查詢助手公開 data.json（fetched 2026-11-07）核對胡椒鹼 95%／12 mg，並把未確認的胡椒莖分開。官方原料頁未另開。"
+        },
+        "queries": [
+          {
+            "category": "草、木本植物類來源製取之原料",
+            "keyword": "胡椒鹼",
+            "matchedName": "胡椒鹼",
+            "note": "外文 Piperine。公告字號衛授食字第 1131301534 號（113-07-11）。學名欄空白。",
+            "restrictionNote": "由胡椒經酒精萃取等純化步驟製得之粉末。含量不得低於 95%。每日食用限量以胡椒鹼計 12 mg。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "BioPerine",
+            "matchedName": "",
+            "note": "商品名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Piper nigrum",
+            "matchedName": "胡椒（果實）；胡椒油；胡椒（莖，未確認）",
+            "note": "果實與胡椒油在可供使用分類。未確認的是莖，不是果實萃取的胡椒鹼規格。",
+            "restrictionNote": "未確認那一筆部位是莖（枝），寫未經確認其食用安全性前不得供為食品原料使用。",
+            "resultCount": 3,
+            "tab": "ingredient",
+            "unconfirmedSafety": true
+          },
+          {
+            "category": "",
+            "keyword": "Piperine",
+            "matchedName": "",
+            "note": "添加物分頁沒有胡椒鹼。胡椒基丁醚是另一個防蟲劑，不是這個原料。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "胡椒鹼",
+            "matchedName": "",
+            "note": "助手更新歷程未另見胡椒鹼改列未確認。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "history",
+            "unconfirmedSafety": false
+          }
+        ],
+        "usable": "listed_food_ingredient"
+      }
+    },
+    {
+      "discovery": {
         "channel": "industry_report",
         "notes": "從 NutraIngredients 2026-05-28 的肌酸供給報導看到 Creapure，再對 Alzchem 品牌頁、Creapure 劑量頁，以及呈定企業目錄。目錄有列出 Creapure，但沒有寫代理或經銷。",
         "scoutDate": "2026-11-05"
@@ -3113,6 +4166,183 @@ window.INGREDIENT_CATALOG = {
             "keyword": "羥基酪醇",
             "matchedName": "",
             "note": "助手更新歷程 2026-11-01 至 2026-11-05 未見此關鍵字的新增或修改。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "history",
+            "unconfirmedSafety": false
+          }
+        ],
+        "usable": "listed_food_ingredient"
+      }
+    },
+    {
+      "discovery": {
+        "channel": "exhibition",
+        "notes": "從 Vitafoods Asia 2026 展前名錄的 Kaneka H6-F25 進入，對歐洲官網與 PMC 的 Kaneka QH 試驗，再對東翔與登盛的台灣頁。SupplySide 2025 名錄只核到 Kaneka North America 攤位。",
+        "scoutDate": "2026-11-08"
+      },
+      "efficacy": {
+        "claimedBenefits": [
+          "Kaneka Ubiquinol 歐洲官網寫：還原型輔酵素 Q10 供運動營養、一般健康與健康老化配方，並稱有臨床證據。這是供應商說法，不是台灣核准功效。",
+          "已打開的 Nutrients 2020 RCT（Kaneka QH）：輕至中度血脂異常、內皮功能受損者，每日 100 mg 或 200 mg、八週，相對安慰劑肱動脈血流介導擴張增加。劑量高於台灣 30 mg 上限。"
+        ],
+        "dosageNote": "30 mg 是台灣食品原料每日上限與警語條件，不是供應商建議。100–200 mg 是文獻劑量，不可直接當成台灣可用量。",
+        "suggestedDosage": "台灣公告每日 30 mg。已打開的 Kaneka QH 試驗使用每日 100 mg 或 200 mg（另有運動試驗用 200 mg）。歐洲官網這次沒有寫台灣可用毫克數。"
+      },
+      "evidenceLevels": [
+        "clinical"
+      ],
+      "example": false,
+      "id": "kaneka-ubiquinol",
+      "images": [
+        {
+          "caption": "Kaneka Ubiquinol 歐洲官網橫幅。",
+          "localPath": "",
+          "source": "official_site",
+          "url": "https://www.kaneka-ubiquinol.com/hs-fs/hubfs/KNK_Winner_EU%20Website%20Banner_1920%20x%20670%20px_250526.jpg"
+        }
+      ],
+      "literature": {
+        "note": "已打開 PMC 全文。同日另看到運動相關 ubiquinol RCT，未逐篇寫入。",
+        "refs": [
+          {
+            "note": "Sabbatinelli 等。Nutrients. 2020。Kaneka QH，100 或 200 mg／日、8 週。完成 48 人。",
+            "title": "Ubiquinol Ameliorates Endothelial Dysfunction in Subjects with Mild-to-Moderate Dyslipidemia: A Randomized Clinical Trial",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7231284/"
+          }
+        ],
+        "status": "yes"
+      },
+      "names": {
+        "commonEn": "ubiquinol (reduced coenzyme Q10)",
+        "commonZh": "還原型輔酵素 Q10（泛醇）",
+        "scientific": "不適用：泛醇是輔酵素 Q10 的還原型化合物。平台品名為 Coenzyme Q10，學名欄空白。Kaneka 歐洲站寫酵母發酵、與體內相同的分子。",
+        "trade": "Kaneka Ubiquinol（Kaneka 的還原型輔酵素 Q10 商品名；亦見 Kaneka QH）"
+      },
+      "patent": {
+        "note": "只核到這件穩定化專利的勝訴稿，沒有把 Kaneka 其他 Q10 專利逐件打開。",
+        "refs": [
+          {
+            "note": "2024-12-24 Kaneka 新聞稿：美國專利 US 7,829,080 為穩定 ubiquinol 的方法；德拉瓦州法院 2024-12-20 認定侵權且專利有效。未另開 USPTO 全文。",
+            "title": "Designs For Health Inc. Held Liable For Infringement of Kaneka's Ubiquinol Patent",
+            "url": "https://www.prnewswire.com/news-releases/designs-for-health-inc-held-liable-for-infringement-of-kanekas-ubiquinol-patent-302338964.html"
+          }
+        ],
+        "status": "yes"
+      },
+      "sources": [
+        {
+          "accessed": "2026-11-08",
+          "channel": "exhibition",
+          "publisher": "NutraIngredients",
+          "title": "Vitafoods Asia 2026 show floor preview: Exhibitors H-P",
+          "url": "https://www.nutraingredients.com/Article/2026/08/25/vitafoods-asia-2026-show-floor-preview-exhibitors-h-p/",
+          "whatItContributes": "2026-09-02 至 04 曼谷展前名錄：Kaneka 攤位 H6-F25，寫明全球供應 Kaneka Ubiquinol，並有兩場粒線體健康簡報。"
+        },
+        {
+          "accessed": "2026-11-08",
+          "channel": "exhibition",
+          "publisher": "SupplySide Global",
+          "title": "SupplySide Global 2025 event map",
+          "url": "https://exhibitor.supplysideglobal.com/supplyside-global25/Public/EventMap.aspx",
+          "whatItContributes": "2025-10 拉斯維加斯展商名錄有 Kaneka North America, LLC，攤位 5965。名錄沒有寫出 Ubiquinol 三個字。"
+        },
+        {
+          "accessed": "2026-11-08",
+          "channel": "supplier_site",
+          "publisher": "Kaneka Nutrients Europe",
+          "title": "What is Ubiquinol by Kaneka?",
+          "url": "https://www.kaneka-ubiquinol.com/",
+          "whatItContributes": "商品名、酵母發酵、運動與健康老化取向說法，以及官網圖片。"
+        },
+        {
+          "accessed": "2026-11-08",
+          "channel": "paper",
+          "publisher": "Nutrients / PMC",
+          "title": "Ubiquinol Ameliorates Endothelial Dysfunction in Subjects with Mild-to-Moderate Dyslipidemia",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7231284/",
+          "whatItContributes": "已打開的 RCT：Kaneka QH 每日 100 或 200 mg 與內皮功能指標。"
+        },
+        {
+          "accessed": "2026-11-08",
+          "channel": "other",
+          "publisher": "東翔生技股份有限公司",
+          "title": "Kaneka 株式会社",
+          "url": "https://www.toshio-biomed.com.tw/exclusive/kaneka/",
+          "whatItContributes": "台灣頁寫獨家代理、還原型輔酵素 Q10、酵母發酵與 96% 規格。"
+        },
+        {
+          "accessed": "2026-11-08",
+          "channel": "other",
+          "publisher": "登盛企業股份有限公司",
+          "title": "登盛企業 Kaneka Ubiquinol (QH)",
+          "url": "https://www.masterasia.com.tw/content.php?id=6645",
+          "whatItContributes": "另一家台灣目錄把衛福部輔酵素 Q10 的 30 mg 與 warfarin 警語寫在 Kaneka Ubiquinol 頁。"
+        }
+      ],
+      "supply": {
+        "relationship": "taiwan_agent",
+        "relationshipNote": "東翔生技原料頁寫已與 Kaneka 簽約、為台灣市場獨家代理，並列出 Ubiquinol 96% 與安定化粉末。登盛企業另有 Kaneka Ubiquinol 產品頁，並把輔酵素 Q10 的 30 mg 與 warfarin 警語抄在該頁。公開頁不只一家，獨家說法以東翔自述為準，未能與登盛頁互相排除。",
+        "supplierCountry": "日本",
+        "supplierName": "Kaneka Corporation",
+        "taiwanPartyName": "東翔生技股份有限公司"
+      },
+      "tfda": {
+        "evidenceNotes": "食品原料查到輔酵素Ｑ10（Coenzyme Q10）1 筆，屬微生物來源，每日 30 mg，並須標示十五歲以下、孕哺婦女及服用 warfarin 者不宜。沒有另列 ubiquinol、泛醇或還原型，添加物也是 0 筆，不是未確認安全性分類。登盛把同一則 30 mg 與 warfarin 警語用在 Kaneka Ubiquinol 頁上，本次因此對到這筆輔酵素 Q10。平台文字沒有單獨寫還原型。",
+        "lookupDate": "2026-11-08",
+        "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+        "officialCrosscheck": {
+          "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+          "done": true,
+          "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+          "notes": "2026-11-08 依查詢助手公開 data.json（fetched 2026-11-07）核對列名、30 mg 上限與警語。官方原料頁未另開。"
+        },
+        "queries": [
+          {
+            "category": "微生物及其來源製取之原料",
+            "keyword": "輔酵素",
+            "matchedName": "輔酵素Ｑ10",
+            "note": "外文 Coenzyme Q10。學名欄空白。公告字號見備註：衛授食字第 1081302650 號。",
+            "restrictionNote": "每日食用限量 30 mg。應標示「十五歲以下小孩、懷孕或哺乳期間婦女及服用抗凝血藥品(warfarin)之病患，不宜食用」。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "ubiquinol",
+            "matchedName": "",
+            "note": "還原型英文名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "泛醇",
+            "matchedName": "",
+            "note": "中文別名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Coenzyme",
+            "matchedName": "",
+            "note": "添加物分頁 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "輔酵素",
+            "matchedName": "",
+            "note": "助手更新歷程未另見這筆品名的新增或改列未確認。",
             "restrictionNote": "",
             "resultCount": 0,
             "tab": "history",
@@ -4173,6 +5403,185 @@ window.INGREDIENT_CATALOG = {
     },
     {
       "discovery": {
+        "channel": "industry_report",
+        "notes": "從菊糖／Orafti 產業報告進入，對 BENEO 泰國聲稱新聞與菊糖產品頁，再讀 NutraIngredients 對 Reading 試驗的報導，最後對大昌華嘉 2022 新聞與現行食品原料頁。SupplySide 2025 名錄有 Beneo Inc. 攤位 4625，該頁沒有寫 Orafti。",
+        "scoutDate": "2026-11-08"
+      },
+      "efficacy": {
+        "claimedBenefits": [
+          "BENEO 益生元頁寫：菊苣根 Orafti Inulin 與果寡糖自每日 3 g 起可選擇性增加雙歧桿菌；歐盟聲稱「chicory inulin contributes to normal bowel function by increasing stool frequency」的使用條件是每日 12 g 天然菊苣菊糖。這是供應商轉述歐盟評估，不是台灣核准功效。",
+          "NutraIngredients 對 Reading 大學試驗的報導：96 位成人每日 10 g Orafti Inulin、10 天，純粉或放入餅乾、牛奶巧克力、米漿，雙歧桿菌都增加，基質之間沒有顯著差。全文未打開。"
+        ],
+        "dosageNote": "3 g 與 12 g 是供應商／歐盟聲稱條件，10 g 是試驗劑量。台灣草木本來源菊糖這筆沒有寫每日毫克上限，不代表歐盟克數可以直接當成台灣功效依據。",
+        "suggestedDosage": "BENEO：益生元相關敘述自每日 3 g；歐盟腸道功能聲稱的條件是每日 12 g 天然菊苣菊糖，可分次。上述試驗用每日 10 g。"
+      },
+      "evidenceLevels": [
+        "clinical"
+      ],
+      "example": false,
+      "id": "orafti-inulin",
+      "images": [
+        {
+          "caption": "BENEO 官網：Orafti Inulin 泰國益生元聲稱新聞圖。",
+          "localPath": "",
+          "source": "official_site",
+          "url": "https://www.beneo.com/wp-content/uploads/2000/09/exclusive-prebiotic-claim-in-thailand.png"
+        }
+      ],
+      "literature": {
+        "note": "臨床等級只對到這篇人體試驗的公開登錄與新聞轉述，不補全文裡沒看到的數字。",
+        "refs": [
+          {
+            "note": "Jackson 等。Beneficial Microbes. 2023。DOI 頁與 ClinicalTrials NCT05581615 已打開；Brill 全文未讀。設計與 10 g／日結果依 NutraIngredients 2023-09-21 對該文的報導。",
+            "title": "Effects of food matrix on the prebiotic efficacy of inulin-type fructans: a randomised trial",
+            "url": "https://doi.org/10.1163/18762891-20220120"
+          }
+        ],
+        "status": "yes"
+      },
+      "names": {
+        "commonEn": "chicory root inulin",
+        "commonZh": "菊糖（菊苣根來源）",
+        "scientific": "菊糖條目學名欄空白。BENEO 寫來源為菊苣根。平台另列菊苣，學名含 Cichorium intybus L.、Cichorium endivia L.、Cichorium glandulosum Boiss. et Hout，部位根、莖、葉。",
+        "trade": "Orafti Inulin（BENEO 的菊苣根菊糖商品名；系列含 GR、HSI、HP 等）"
+      },
+      "patent": {
+        "note": "這次打開的 BENEO 產品頁與泰國准用新聞沒有專利號，維持 unknown。",
+        "refs": [],
+        "status": "unknown"
+      },
+      "sources": [
+        {
+          "accessed": "2026-11-08",
+          "channel": "industry_report",
+          "publisher": "Emergen Research",
+          "title": "Inulin and Fructooligosaccharide Market Size, Share & Trends",
+          "url": "https://www.emergenresearch.com/industry-report/inulin-and-fructooligosaccharide-market",
+          "whatItContributes": "產業報告點名 BENEO 的菊苣根纖維，並寫 2025 年 Fi Europe 展出 Orafti inulin 與其他配料的組合。"
+        },
+        {
+          "accessed": "2026-11-08",
+          "channel": "industry_report",
+          "publisher": "Future Market Insights",
+          "title": "Chicory Root Inulin (Orafti HSI) Market",
+          "url": "https://www.futuremarketinsights.com/reports/chicory-root-inulin-orafti-hsi-market",
+          "whatItContributes": "以 Orafti HSI 為題的市場報告，並引 BENEO 2025 年 9 月泰國 FDA 益生元聲稱。"
+        },
+        {
+          "accessed": "2026-11-08",
+          "channel": "supplier_site",
+          "publisher": "BENEO",
+          "title": "BENEO secures first-ever Thai FDA approval for exclusive prebiotic claim",
+          "url": "https://www.beneo.com/news/exclusive-prebiotic-claim-in-thailand",
+          "whatItContributes": "2025-09-18：Orafti Inulin 為菊苣根熱水萃取，並取得泰國益生元聲稱。"
+        },
+        {
+          "accessed": "2026-11-08",
+          "channel": "supplier_site",
+          "publisher": "BENEO",
+          "title": "Inulin from Orafti",
+          "url": "https://www.beneo.com/human-nutrition/human-nutrition-products/functional-fibres/inulin",
+          "whatItContributes": "菊苣根熱水萃取、Orafti GR 等規格與菊糖含量約 92%。"
+        },
+        {
+          "accessed": "2026-11-08",
+          "channel": "news",
+          "publisher": "NutraIngredients",
+          "title": "Chicory root fibre increases good gut bacteria regardless of food application",
+          "url": "https://www.nutraingredients.com/Article/2023/09/21/Chicory-root-fibre-increases-good-gut-bacteria-regardless-of-food-application-research-asserts/",
+          "whatItContributes": "轉述 10 g／日、96 人、10 天的 Orafti Inulin 試驗與 DOI。"
+        },
+        {
+          "accessed": "2026-11-08",
+          "channel": "other",
+          "publisher": "台灣大昌華嘉",
+          "title": "台灣大昌華嘉特用原料榮獲原料大廠Beneo表揚",
+          "url": "https://www.dksh.com/tw-zh-Hant/home/media/news/%E5%8F%B0%E7%81%A3%E5%A4%A7%E6%98%8C%E8%8F%AF%E5%98%89%E7%89%B9%E7%94%A8%E5%8E%9F%E6%96%99%E6%A6%AE%E7%8D%B2%E5%8E%9F%E6%96%99%E5%A4%A7%E5%BB%A0beneo%E8%A1%A8%E6%8F%9A",
+          "whatItContributes": "寫亞太獨家代理 Beneo，含菊苣纖維 Inulin。"
+        },
+        {
+          "accessed": "2026-11-08",
+          "channel": "other",
+          "publisher": "台灣大昌華嘉",
+          "title": "食品與飲品原料",
+          "url": "https://www.dksh.com/tw-zh-Hant/home/performance-materials/food-beverage-ingredients",
+          "whatItContributes": "現行產品組合仍列出 BENEO 的 Inulin 菊苣纖維。"
+        }
+      ],
+      "supply": {
+        "relationship": "taiwan_agent",
+        "relationshipNote": "2022-11-09 大昌華嘉中文新聞寫，特用原料在亞太獨家代理 Beneo 產品 20 年，範圍含 Orafti、菊苣纖維 Inulin。2026 年台灣大昌華嘉食品與飲品原料頁仍列出 BENEO 的 Inulin 菊苣纖維。論文作者單位寫 BENEO GmbH（德國 Obrigheim）。漢馨科技網站另有 Orafti Synergy1 產品頁，所以「獨家」以大昌華嘉新聞自述為準，目錄上還看得到另一家。",
+        "supplierCountry": "德國",
+        "supplierName": "BENEO GmbH",
+        "taiwanPartyName": "台灣大昌華嘉（DKSH Taiwan）"
+      },
+      "tfda": {
+        "evidenceNotes": "食品原料菊糖有兩筆，都不是未確認安全性：草木本來源那筆備註空白；另一筆是蔗糖經芽孢桿菌果糖基轉移酶製成，須標示酵素反應來源。Orafti 寫菊苣根熱水萃取，對上前一筆，不是蔗糖酵素規格。菊苣（Cichorium intybus 等）另列根、莖、葉可直接食用。用 Inulin 當關鍵字會多命中菌名 Sporolactobacillus inulinus。",
+        "lookupDate": "2026-11-08",
+        "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+        "officialCrosscheck": {
+          "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+          "done": true,
+          "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+          "notes": "2026-11-08 依查詢助手公開 data.json（fetched 2026-11-07）分開核對兩筆菊糖與菊苣。官方原料頁未另開。酵素菊糖公告字號在該筆備註：衛授食字第 1151301588 號（115-08-12）。"
+        },
+        "queries": [
+          {
+            "category": "草、木本植物類來源製取之原料",
+            "keyword": "菊糖",
+            "matchedName": "菊糖",
+            "note": "關鍵字 菊糖 共 2 筆，外文都是 Inulin。Orafti 對熱水萃菊苣根，不是酵素蔗糖那一筆。",
+            "restrictionNote": "草木本來源這一筆備註空白。另一筆在加工原料分類，限芽孢桿菌 217C-11 果糖基轉移酶自蔗糖製得，並須標示「本產品內之菊糖是以蔗糖經酵素反應製得」。",
+            "resultCount": 2,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "草、木本植物類(2)可供直接食用",
+            "keyword": "菊苣",
+            "matchedName": "菊苣",
+            "note": "外文 Chicory。學名含 Cichorium intybus L. 等。這是植物本體，不是菊糖規格書。",
+            "restrictionNote": "部位根、莖、葉。備註空白。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Inulin",
+            "matchedName": "菊糖；另命中乳酸菌",
+            "note": "兩筆是菊糖。第三筆是乳酸菌，學名 Sporolactobacillus inulinus，只是菌名含 inulin 字樣。",
+            "restrictionNote": "",
+            "resultCount": 3,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "菊糖",
+            "matchedName": "",
+            "note": "添加物分頁 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "菊糖",
+            "matchedName": "",
+            "note": "助手更新歷程未另見這兩個關鍵字的改列未確認。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "history",
+            "unconfirmedSafety": false
+          }
+        ],
+        "usable": "listed_food_ingredient"
+      }
+    },
+    {
+      "discovery": {
         "channel": "exhibition",
         "notes": "從 PharmaGABA 的 Vitafoods Asia 2026 攤位稿開始，對官網的發酵製程與效益頁的毫克數，再看統園產品頁。該頁自稱為獨家代理，供應商頁沒有互指。TFDA 的菌種與每日 100 毫克是用助手同一筆原料抄的，沒有把 200 毫克寫成可用劑量。",
         "scoutDate": "2026-11-05"
@@ -4329,6 +5738,183 @@ window.INGREDIENT_CATALOG = {
             "keyword": "GABA",
             "matchedName": "",
             "note": "助手更新歷程 2026-11-01 至 2026-11-05 未見此關鍵字的新增或修改。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "history",
+            "unconfirmedSafety": false
+          }
+        ],
+        "usable": "listed_food_ingredient"
+      }
+    },
+    {
+      "discovery": {
+        "channel": "news",
+        "notes": "從 2025 與 2026 的 NutraIngredients 臨床新聞進入，打開 Frontiers 2024 綜述與 Horphag 法律頁，再對英凡特授權頁。SupplySide 名錄用來核 Horphag 攤位。海岸松樹幹的未確認列名已分開，不把那一筆當成這個原料。",
+        "scoutDate": "2026-11-08"
+      },
+      "efficacy": {
+        "claimedBenefits": [
+          "NutraIngredients 2025-12-11：脂肪水腫女性 100 人、60 天，Pycnogenol 每日 50 mg 三次（共 150 mg）相對安慰劑症狀分數下降，該稿寫症狀約減 29%。單中心，新聞已註明限制。",
+          "Horphag 法律頁：口服成品若要把商標放在正面品名，每日至少 20 mg。這是商標使用條件，不是功效結論。"
+        ],
+        "dosageNote": "以上是商標條件與試驗劑量。台灣 pinaster 樹皮萃取物這筆沒有寫毫克上限；radiata 的 150 mg 不適用於這一筆。沒有上限文字不等於高劑量已放行。",
+        "suggestedDosage": "商標頁：正面標示至少每日 20 mg。2025 年脂肪水腫新聞裡的試驗是每日 150 mg（50 mg 三次）。2026-10-26 骨密度相關新聞寫每日 200 mg、三個月。"
+      },
+      "evidenceLevels": [
+        "clinical"
+      ],
+      "example": false,
+      "id": "pycnogenol",
+      "images": [
+        {
+          "caption": "Pycnogenol 官網合作頁首圖。",
+          "localPath": "",
+          "source": "official_site",
+          "url": "https://www.pycnogenol.com/fileadmin/_processed_/1/4/csm_pycnogenol-image-header-partners_41853d9409.jpg"
+        }
+      ],
+      "literature": {
+        "note": "已打開 2024 綜述。2025 脂肪水腫與 2026 生活品質量表是從 NutraIngredients 讀到的，原論文全文這次沒打開。",
+        "refs": [
+          {
+            "note": "Weichmann & Rohdewald。Front Nutr. 2024。綜述寫 39 項隨機雙盲安慰劑對照、共 2,009 人。這是回顧，不是新的單一試驗。",
+            "title": "Pycnogenol French maritime pine bark extract in randomized, double-blind, placebo-controlled human clinical studies",
+            "url": "https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2024.1389374/full"
+          }
+        ],
+        "status": "yes"
+      },
+      "names": {
+        "commonEn": "French maritime pine bark extract",
+        "commonZh": "法國濱海松樹皮萃取物",
+        "scientific": "Pinus pinaster Aiton（Maritime Pine）。平台松樹皮萃取物這一筆部位是樹皮，學名並含 Pinus morrisonicola Hayata、Pinus strobus L。",
+        "trade": "Pycnogenol（Horphag Research 的法國濱海松樹皮萃取商品名；台灣稱碧容健）"
+      },
+      "patent": {
+        "note": "依原廠法律頁的專利號清單。英凡特寫賀發擁有商標與專利，沒有另給號碼。",
+        "refs": [
+          {
+            "note": "Horphag 法律頁列出美國專利 5,720,956、6,372,266、6,565,851 及其他國際專利。未逐件打開 USPTO 全文。",
+            "title": "Pycnogenol legal and labeling guidelines",
+            "url": "https://www.pycnogenol.com/partners/legal/"
+          }
+        ],
+        "status": "yes"
+      },
+      "sources": [
+        {
+          "accessed": "2026-11-08",
+          "channel": "news",
+          "publisher": "NutraIngredients",
+          "title": "Lipedema study expands Pycnogenol’s women’s health potential",
+          "url": "https://www.nutraingredients.com/Article/2025/12/11/lipedema-study-expands-pycnogenols-womens-health-potential/",
+          "whatItContributes": "2025 年臨床新聞：法國濱海松樹皮萃取、每日 150 mg、60 天、100 名女性，以及單中心限制。"
+        },
+        {
+          "accessed": "2026-11-08",
+          "channel": "news",
+          "publisher": "NutraIngredients",
+          "title": "Pycnogenol linked to improved quality-of-life scores for women with low bone density",
+          "url": "https://www.nutraingredients.com/Article/2026/10/26/pycnogenol-linked-to-improved-quality-of-life-scores-for-women-with-low-bone-density-study/",
+          "whatItContributes": "2026 年新聞：每日 200 mg、三個月；生活品質分數相對安慰劑改善，骨吸收指標與安慰劑的差未達顯著。"
+        },
+        {
+          "accessed": "2026-11-08",
+          "channel": "paper",
+          "publisher": "Frontiers in Nutrition",
+          "title": "Pycnogenol French maritime pine bark extract in randomized trials",
+          "url": "https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2024.1389374/full",
+          "whatItContributes": "已打開的隨機對照試驗綜述，學名 Pinus pinaster。"
+        },
+        {
+          "accessed": "2026-11-08",
+          "channel": "supplier_site",
+          "publisher": "Horphag Research",
+          "title": "Pycnogenol legal",
+          "url": "https://www.pycnogenol.com/partners/legal/",
+          "whatItContributes": "商標最低 20 mg／日、美國專利號，以及標示規範。"
+        },
+        {
+          "accessed": "2026-11-08",
+          "channel": "exhibition",
+          "publisher": "SupplySide Global",
+          "title": "SupplySide Global 2025 event map",
+          "url": "https://exhibitor.supplysideglobal.com/supplyside-global25/Public/EventMap.aspx",
+          "whatItContributes": "展商名錄有 Horphag Research USA，攤位 4724。"
+        },
+        {
+          "accessed": "2026-11-08",
+          "channel": "other",
+          "publisher": "英凡特生物科技有限公司",
+          "title": "PYCNOGENOL 碧容健指定代理商",
+          "url": "https://www.bioinventor.com.tw/8",
+          "whatItContributes": "台灣授權頁：英凡特為碧容健原料代理經銷商，供應商寫瑞士商賀發研究機構。"
+        }
+      ],
+      "supply": {
+        "relationship": "taiwan_agent",
+        "relationshipNote": "英凡特頁貼出授權文字：瑞士商賀發研究機構正式授權英凡特生物科技有限公司為台灣地區 Pycnogenol／碧容健法國濱海松樹皮萃取物原料代理經銷商，頁面標題寫指定代理商。Horphag 英文法律頁這次沒有回指英凡特。關係依台灣授權頁填代理。",
+        "supplierCountry": "瑞士",
+        "supplierName": "Horphag Research",
+        "taiwanPartyName": "英凡特生物科技有限公司"
+      },
+      "tfda": {
+        "evidenceNotes": "食品原料有松樹皮萃取物兩筆：Pinus pinaster 這筆部位樹皮、備註沒有每日毫克上限；另一筆是 Pinus radiata，每日 150 mg 以下，不是碧容健。同搜尋還會看到未確認的海岸松，部位是樹幹，寫未經確認不得供食品原料，那一筆不是樹皮萃取物。商品名 Pycnogenol 與添加物都是 0 筆。平台沒寫上限，不等於臨床 150–200 mg 已在台灣被定量放行。",
+        "lookupDate": "2026-11-08",
+        "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+        "officialCrosscheck": {
+          "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+          "done": true,
+          "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+          "notes": "2026-11-08 依查詢助手公開 data.json（fetched 2026-11-07）把樹皮萃取物與未確認的樹幹分開。官方原料頁未另開。"
+        },
+        "queries": [
+          {
+            "category": "草、木本植物類來源製取之原料",
+            "keyword": "松樹皮",
+            "matchedName": "松樹皮萃取物",
+            "note": "兩筆都在可供食品使用分類。碧容健對 pinaster，不套用 radiata 的 150 mg。",
+            "restrictionNote": "Pinus pinaster 這筆部位樹皮，備註空白。Pinus radiata 這筆部位樹皮，每日 150 mg 以下。",
+            "resultCount": 2,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Pinus pinaster",
+            "matchedName": "松樹皮萃取物；松樹（葉）；海岸松（未確認）",
+            "note": "3 筆裡 1 筆未確認，部位是樹幹。樹皮萃取物與松葉是另外兩筆，不在未確認分類。本次原料只對樹皮萃取物。",
+            "restrictionNote": "海岸松部位樹幹，備註寫未經確認其食用安全性前不得供為食品原料使用。",
+            "resultCount": 3,
+            "tab": "ingredient",
+            "unconfirmedSafety": true
+          },
+          {
+            "category": "",
+            "keyword": "Pycnogenol",
+            "matchedName": "",
+            "note": "商品名 0 筆。碧容健也是 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "松樹皮",
+            "matchedName": "",
+            "note": "添加物分頁 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "松樹皮",
+            "matchedName": "",
+            "note": "助手更新歷程未另見松樹皮萃取物改列未確認。",
             "restrictionNote": "",
             "resultCount": 0,
             "tab": "history",
@@ -4797,6 +6383,174 @@ window.INGREDIENT_CATALOG = {
           }
         ],
         "usable": "listed_food_additive"
+      }
+    },
+    {
+      "discovery": {
+        "channel": "exhibition",
+        "notes": "從 Taiyo 的 Vitafoods 2024 展前稿看到 Teavigo 品名，再對產品頁、EGCG 臨床摘要與仕琦目錄。SupplySide 2025 只核到 Taiyo 攤位，沒有在名錄上看到 Teavigo 三個字。與 11 月 7 日 Suntheanine 同供應商、不同化合物。",
+        "scoutDate": "2026-11-08"
+      },
+      "efficacy": {
+        "claimedBenefits": [
+          "Taiyo 產品頁寫 EGCg 與抗氧化、體重與口腔等方向有關，並說部分結果顯示每日 150–300 mg EGCg 可降低體重與 BMI。這是供應商轉述。",
+          "已打開的 PubMed 摘要（TEAVIGO，當時標 DSM，>97% EGCG）：肥胖女性每日 300 mg、12 週，配合熱量限制，相對安慰劑沒有顯著額外減重或體脂差。同成分不能只抄官網的減重句。"
+        ],
+        "dosageNote": "300 mg 是台灣原料每日上限，也是上述 RCT 的研究劑量。官網的體重說法與該篇已打開的陰性結果並陳，不是台灣核准功效。",
+        "suggestedDosage": "Taiyo 頁引用的研究區間是每日 150–300 mg EGCg。台灣公告每日以 EGCG 計 300 mg。仕琦頁沒有另寫毫克數。"
+      },
+      "evidenceLevels": [
+        "clinical"
+      ],
+      "example": false,
+      "id": "teavigo",
+      "images": [
+        {
+          "caption": "Taiyo GmbH 的 Teavigo 原料圖。",
+          "localPath": "",
+          "source": "official_site",
+          "url": "https://taiyogmbh.com/wp-content/uploads/2020/02/teavigo-raw-material.png"
+        }
+      ],
+      "literature": {
+        "note": "減重 RCT 只讀到摘要；生體可用率論文有讀 PMC。證據等級取前者的臨床試驗，結論是沒有顯著額外減重。",
+        "refs": [
+          {
+            "note": "已打開摘要。使用 TEAVIGO（DSM，>97% EGCG）每日 300 mg、12 週。相對安慰劑無顯著額外減重。品牌於 2014 年起轉由 Taiyo 生產，規格頁現寫 >94%。",
+            "title": "Effects of dietary supplementation with epigallocatechin-3-gallate on weight loss in obese women",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24299662/"
+          },
+          {
+            "note": "已打開 PMC。10 位健康成人交叉試驗，使用 Teavigo。這是血中濃度，不是功效試驗。",
+            "title": "Bioavailability of Epigallocatechin Gallate Administered with Different Nutritional Strategies in Healthy Volunteers",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7278615/"
+          }
+        ],
+        "status": "yes"
+      },
+      "names": {
+        "commonEn": "epigallocatechin gallate (EGCG)",
+        "commonZh": "表沒食子兒茶素沒食子酸酯（綠茶高純度萃取）",
+        "scientific": "平台學名欄空白。化合物是表沒食子兒茶素沒食子酸酯。Taiyo 產品頁寫由綠茶茶葉水萃，該頁沒有寫出拉丁學名。",
+        "trade": "Teavigo（Taiyo 的高純度綠茶 EGCG 商品名）"
+      },
+      "patent": {
+        "note": "仕琦頁寫專利製程，Taiyo 產品頁這次沒有專利號。沒有打開專利頁，維持 unknown。",
+        "refs": [],
+        "status": "unknown"
+      },
+      "sources": [
+        {
+          "accessed": "2026-11-08",
+          "channel": "exhibition",
+          "publisher": "Taiyo GmbH",
+          "title": "Exhibition preview Vitafoods 2024",
+          "url": "https://taiyogmbh.com/en/exhibition-preview-vitafoods-2024/",
+          "whatItContributes": "Vitafoods 2024 日內瓦展前稿點名 Teavigo，攤位 hall 1 F110。同頁也列 Suntheanine，兩者不是同一原料。"
+        },
+        {
+          "accessed": "2026-11-08",
+          "channel": "exhibition",
+          "publisher": "SupplySide Global",
+          "title": "SupplySide Global 2025 event map",
+          "url": "https://exhibitor.supplysideglobal.com/supplyside-global25/Public/EventMap.aspx",
+          "whatItContributes": "2025 展商名錄有 Taiyo International, Inc，攤位 4243。名錄沒有寫出 Teavigo。"
+        },
+        {
+          "accessed": "2026-11-08",
+          "channel": "supplier_site",
+          "publisher": "Taiyo GmbH",
+          "title": "Teavigo",
+          "url": "https://taiyogmbh.com/en/start-en/brands/teavigo-en/",
+          "whatItContributes": "EGCg >94%、咖啡因 \u003c0.1%、水萃後以食品級乙酸乙酯濃縮、150–300 mg 的供應商轉述，以及圖片。"
+        },
+        {
+          "accessed": "2026-11-08",
+          "channel": "paper",
+          "publisher": "PubMed",
+          "title": "Effects of dietary supplementation with epigallocatechin-3-gallate on weight loss",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/24299662/",
+          "whatItContributes": "TEAVIGO 每日 300 mg、12 週 RCT 摘要：相對安慰劑沒有顯著額外減重。"
+        },
+        {
+          "accessed": "2026-11-08",
+          "channel": "other",
+          "publisher": "仕琦股份有限公司",
+          "title": "綠茶抽出物 EGCG (TEAVIGO)",
+          "url": "https://www.skyrich.com.tw/product.php?act=view&no=37",
+          "whatItContributes": "台灣目錄：EGCG ≧ 94%、咖啡因 ≦ 0.1%，公司名稱仕琦股份有限公司。"
+        }
+      ],
+      "supply": {
+        "relationship": "unknown",
+        "relationshipNote": "Taiyo GmbH 產品頁寫 Teavigo 由日本端依日本品質規範生產，歐洲聯絡點在德國。仕琦股份有限公司產品頁列出綠茶抽出物 EGCG（TEAVIGO），規格 EGCG ≧ 94%、咖啡因 ≦ 0.1%。全站標語是代理銷售，這一頁沒有寫 Teavigo 獨家代理，Taiyo 這次打開的頁也沒有點名仕琦，關係維持未確認。",
+        "supplierCountry": "日本",
+        "supplierName": "Taiyo Kagaku／Taiyo GmbH",
+        "taiwanPartyName": "仕琦股份有限公司"
+      },
+      "tfda": {
+        "evidenceNotes": "食品原料有表沒食子兒茶素沒食子酸酯（EGCG）1 筆：綠茶茶葉經萃取、分離、濃縮，乾基含量不得低於 90%，每日以 EGCG 計 300 mg。商品名 Teavigo 與添加物分頁都是 0 筆，不是未確認安全性。Taiyo 現寫 EGCg >94%、咖啡因 \u003c0.1%，含量落在公告門檻內；頁上寫濃縮溶劑為食品級乙酸乙酯，公告正文沒有點名溶劑。這不是 11 月 7 日那筆茶胺酸。",
+        "lookupDate": "2026-11-08",
+        "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+        "officialCrosscheck": {
+          "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+          "done": true,
+          "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+          "notes": "2026-11-08 依查詢助手公開 data.json（fetched 2026-11-07）核對 EGCG 列名、90% 與 300 mg。官方原料頁未另開。"
+        },
+        "queries": [
+          {
+            "category": "草、木本植物類來源製取之原料",
+            "keyword": "表沒食子兒茶素",
+            "matchedName": "表沒食子兒茶素沒食子酸酯",
+            "note": "外文 Epigallocatechin gallate (EGCG)。公告字號衛授食字第 1131301534 號（113-07-11）。",
+            "restrictionNote": "乾基 EGCG 不得低於 90%。每日食用限量以 EGCG 計 300 mg。製程為綠茶茶葉經萃取、分離及濃縮等純化。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Teavigo",
+            "matchedName": "",
+            "note": "商品名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "草、木本植物類來源製取之原料",
+            "keyword": "EGCG",
+            "matchedName": "表沒食子兒茶素沒食子酸酯",
+            "note": "與中文名同一筆。",
+            "restrictionNote": "同上。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "EGCG",
+            "matchedName": "",
+            "note": "添加物分頁 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "沒食子",
+            "matchedName": "",
+            "note": "助手更新歷程未另見改列未確認。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "history",
+            "unconfirmedSafety": false
+          }
+        ],
+        "usable": "listed_food_ingredient"
       }
     }
   ],

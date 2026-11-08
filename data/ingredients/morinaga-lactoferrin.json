@@ -1,0 +1,189 @@
+{
+  "id": "morinaga-lactoferrin",
+  "example": false,
+  "names": {
+    "commonZh": "乳鐵蛋白（牛乳來源）",
+    "commonEn": "bovine lactoferrin",
+    "trade": "Morinaga Lactoferrin（森永乳業，台灣頁寫 MLF-1）",
+    "scientific": "不適用：牛乳（Bos taurus）來源的醣蛋白，非植物學名。"
+  },
+  "supply": {
+    "supplierName": "森永乳業（Morinaga Milk Industry）／德國子公司 MILEI GmbH",
+    "supplierCountry": "日本（德國 MILEI 生產）",
+    "relationship": "taiwan_agent",
+    "taiwanPartyName": "登盛企業股份有限公司",
+    "relationshipNote": "登盛品牌原料頁列「日本森永乳鐵蛋白」MLF-1，規格 200 g、1 kg，公司簡介寫代理森永 BB536、乳鐵蛋白等。頁面沒有寫獨家；森永英文研發頁這次沒有點名台灣夥伴。"
+  },
+  "tfda": {
+    "usable": "listed_food_additive",
+    "evidenceNotes": "食品添加物有乳鐵蛋白（Lactoferrin）1 筆，屬營養添加劑：標示每日食用限量之食品，每日乳鐵蛋白總量不得高於 300 mg，限補充不足營養素時使用；特殊營養食品可視需要使用。食品原料分頁 0 筆，未確認分類也沒有。臨床常用的 200 mg 落在上限內，600 mg 組超過台灣限量。",
+    "lookupDate": "2026-11-09",
+    "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+    "queries": [
+      {
+        "tab": "additive",
+        "keyword": "乳鐵蛋白",
+        "category": "(八) 營養添加劑",
+        "resultCount": 1,
+        "matchedName": "乳鐵蛋白",
+        "restrictionNote": "每日食用量中乳鐵蛋白總量不得高於 300 mg；限於補充食品中不足之營養素時使用。",
+        "unconfirmedSafety": false,
+        "note": "附規格檔 08112 乳鐵蛋白 Lactoferrin（112.1.1）。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "Lactoferrin",
+        "category": "(八) 營養添加劑",
+        "resultCount": 1,
+        "matchedName": "乳鐵蛋白",
+        "restrictionNote": "同上。",
+        "unconfirmedSafety": false,
+        "note": "英文對同一筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "乳鐵",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "原料分頁 0 筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Lactoferrin",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "原料分頁 0 筆。"
+      },
+      {
+        "tab": "history",
+        "keyword": "乳鐵蛋白",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "助手更新歷程（11/01–11/08）沒有異動。"
+      }
+    ],
+    "officialCrosscheck": {
+      "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+      "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+      "done": true,
+      "notes": "2026-11-09 依查詢助手公開 data.json（fetched 2026-11-08 06:10，添加物來源為 TFDA 開放資料 61）核對 300 mg 限量。官方添加物頁未另開。"
+    }
+  },
+  "efficacy": {
+    "claimedBenefits": [
+      "森永英文研發頁寫自 1960 年代研究乳鐵蛋白、民間單位論文數最多。這是廠商說法。",
+      "Oda 等 2020（J Infect Chemother，森永作者）：健康成人 12 週，200 或 600 mg/日，感染總天數較安慰劑短，罹病率沒有差。",
+      "Nutrients 2023（森永作者）：健康成人 200 mg/日、12 週，呼吸道與全身症狀總分較低。",
+      "登盛頁寫「可調整體質及幫助維持消化道機能」，是代理商行銷用語。"
+    ],
+    "suggestedDosage": "兩篇森永 RCT 用每日 200 mg（另一組 600 mg）。台灣添加物上限每日 300 mg。",
+    "dosageNote": "200 mg 是文獻劑量；300 mg 是台灣法規上限，600 mg 不適用於台灣產品。登盛頁沒有寫建議毫克數。"
+  },
+  "patent": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "US4791193A - Process for producing bovine lactoferrin in high purity",
+        "url": "https://patents.google.com/patent/US4791193A/en",
+        "note": "權利人 Morinaga Milk Industry，1988 年公告，已過期。"
+      },
+      {
+        "title": "US5340924A - Method for heat treatment of lactoferrin without losing physiological activities thereof",
+        "url": "https://patents.google.com/patent/US5340924A/en",
+        "note": "權利人 Morinaga Milk Industry，1994 年公告，已過期。"
+      }
+    ],
+    "note": "登盛頁稱森永有 50 多項專利，這次只核到兩件舊美國製程專利，都已過期；近年專利與台灣專利未查。"
+  },
+  "literature": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "Effects of lactoferrin on infectious diseases in Japanese summer: A randomized, double-blinded, placebo-controlled trial",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/32151562/",
+        "note": "PubMed 摘要已讀，n=310。"
+      },
+      {
+        "title": "Effects of Bovine Lactoferrin on the Maintenance of Respiratory and Systemic Physical Conditions in Healthy Adults",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10537451/",
+        "note": "PMC 已讀，n=157，200 mg/日。"
+      }
+    ],
+    "note": "兩篇皆由森永研究人員參與。"
+  },
+  "evidenceLevels": [
+    "clinical"
+  ],
+  "images": [
+    {
+      "url": "https://www.morinagamilk.co.jp/english/research/story/lactoferrin/img/img01.jpg",
+      "localPath": "",
+      "caption": "森永乳業英文研發頁的乳鐵蛋白粉末圖。",
+      "source": "official_site"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Lactoferrin Market Size & Share Analysis (2026–2031)",
+      "url": "https://www.mordorintelligence.com/industry-reports/lactoferrin-market",
+      "publisher": "Mordor Intelligence",
+      "channel": "industry_report",
+      "accessed": "2026-11-09",
+      "whatItContributes": "2026 年市場 2.5413 億美元、CAGR 6.88%，嬰兒營養占最大。"
+    },
+    {
+      "title": "Lactoferrin｜Innovation Story｜R&D",
+      "url": "https://www.morinagamilk.co.jp/english/research/story/lactoferrin/",
+      "publisher": "Morinaga Milk",
+      "channel": "supplier_site",
+      "accessed": "2026-11-09",
+      "whatItContributes": "MILEI 子公司生產、研究歷史與圖片。"
+    },
+    {
+      "title": "PubMed 32151562",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32151562/",
+      "publisher": "J Infect Chemother（PubMed）",
+      "channel": "paper",
+      "accessed": "2026-11-09",
+      "whatItContributes": "200／600 mg RCT 結果。"
+    },
+    {
+      "title": "Nutrients 2023 lactoferrin RCT",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10537451/",
+      "publisher": "Nutrients（PMC）",
+      "channel": "paper",
+      "accessed": "2026-11-09",
+      "whatItContributes": "200 mg/日 RCT。"
+    },
+    {
+      "title": "US4791193A",
+      "url": "https://patents.google.com/patent/US4791193A/en",
+      "publisher": "Google Patents",
+      "channel": "patent",
+      "accessed": "2026-11-09",
+      "whatItContributes": "森永製程專利。"
+    },
+    {
+      "title": "登盛企業-日本森永乳鐵蛋白",
+      "url": "https://www.masterasia.com.tw/content.php?id=5965",
+      "publisher": "登盛企業股份有限公司",
+      "channel": "other",
+      "accessed": "2026-11-09",
+      "whatItContributes": "台灣代理頁：MLF-1、GRAS GRN 000465、規格包裝。"
+    }
+  ],
+  "discovery": {
+    "channel": "industry_report",
+    "scoutDate": "2026-11-09",
+    "notes": "從 Mordor Intelligence 2026 乳鐵蛋白市場報告進入，再對森永研發頁、兩篇森永 RCT、Google Patents 與登盛台灣頁。"
+  }
+}

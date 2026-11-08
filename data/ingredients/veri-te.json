@@ -1,0 +1,198 @@
+{
+  "id": "veri-te",
+  "example": false,
+  "names": {
+    "commonZh": "反式白藜蘆醇（酵母發酵）",
+    "commonEn": "trans-resveratrol (yeast fermentation)",
+    "trade": "Veri-te（Evolva 生產、Lallemand Bio-Ingredients 銷售）",
+    "scientific": "化合物，非植物萃取。以基因改造啤酒酵母 Saccharomyces cerevisiae 發酵生產；台灣代理頁寫 EFSC4687 菌株。"
+  },
+  "supply": {
+    "supplierName": "Evolva AG／Lallemand Bio-Ingredients",
+    "supplierCountry": "瑞士（Lallemand 為加拿大集團）",
+    "relationship": "taiwan_agent",
+    "taiwanPartyName": "宸品股份有限公司",
+    "relationshipNote": "宸品頁標「Veri-te™白藜蘆醇原料獨家代理」，並寫 EFSC4687 菌株發酵與 >98% 純度。良勵生物科技與大醫生技也有 Veri-te 頁，獨家說法未能互相排除，以宸品自述為準。Lallemand 這次打開的頁沒有點名台灣夥伴。"
+  },
+  "tfda": {
+    "usable": "listed_food_ingredient",
+    "evidenceNotes": "食品原料有「反式白藜蘆醇」1 筆，只限基因改造啤酒酵母 EFSC4687 菌株發酵純化、最終不含基改微生物的產品。限成人膳食補充品，每日 150 mg，要標基改生產來源與「限成人、孕哺避免、服藥諮詢醫師」警語。虎杖是未確認安全性，虎杖萃取或化學合成的白藜蘆醇不能套用這筆。",
+    "lookupDate": "2026-11-09",
+    "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+    "queries": [
+      {
+        "tab": "ingredient",
+        "keyword": "白藜蘆醇",
+        "category": "微生物及其來源製取之原料",
+        "resultCount": 1,
+        "matchedName": "反式白藜蘆醇",
+        "restrictionNote": "衛授食字第1121301256號（112-06-29）：限基改啤酒酵母 EFSC4687 發酵純化；限成人膳食補充品，每日 150 mg；須標基改生產來源與警語。",
+        "unconfirmedSafety": false,
+        "note": "外文 trans-resveratrol。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "resveratrol",
+        "category": "微生物及其來源製取之原料",
+        "resultCount": 1,
+        "matchedName": "反式白藜蘆醇",
+        "restrictionNote": "同上。",
+        "unconfirmedSafety": false,
+        "note": "英文對同一筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "虎杖",
+        "category": "未確認安全性尚不得使用之原料",
+        "resultCount": 1,
+        "matchedName": "虎杖",
+        "restrictionNote": "未經確認其食用安全性前，不得供為食品原料使用。",
+        "unconfirmedSafety": true,
+        "note": "Reynoutria japonica／Polygonum cuspidatum，是常見植物來源白藜蘆醇；本品不是此來源。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Veri-te",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "白藜蘆醇",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "添加物分頁 0 筆。"
+      },
+      {
+        "tab": "history",
+        "keyword": "白藜蘆醇",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "助手更新歷程（11/01–11/08）沒有異動。"
+      }
+    ],
+    "officialCrosscheck": {
+      "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+      "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+      "done": true,
+      "notes": "2026-11-09 依查詢助手公開 data.json（fetched 2026-11-08 06:10）核對公告全文、150 mg 與警語，以及虎杖未確認列名。官方原料頁未另開。"
+    }
+  },
+  "efficacy": {
+    "claimedBenefits": [
+      "Lallemand 官網寫 Veri-te >98% 反式白藜蘆醇，宣稱皮膚、認知、情緒、更年期不適與骨骼等效益，引用 RESHAW（125 位停經婦女，75 mg 一天兩次，24 個月交叉）。這是供應商說法。",
+      "Front Aging 2025（Rao 等，NutraIngredients 2026-01 報導）：40 歲以上女性 8 週，口服 150 mg/日加外用乳霜組皺紋分數優於雙安慰劑；只口服組沒有顯著差。",
+      "JBMR 2020（RESHAW 骨骼結果）：停經婦女 75 mg 一天兩次 12 個月，腰椎與股骨頸骨密度改善。"
+    ],
+    "suggestedDosage": "研究劑量 75 mg 一天兩次（150 mg/日）。台灣每日上限 150 mg，限成人膳食補充品。",
+    "dosageNote": "150 mg 同時是文獻劑量與台灣上限，不可再加量。官網這次沒有寫一般建議量。"
+  },
+  "patent": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "US9040269B2 - Metabolically engineered cells for the production of resveratrol…",
+        "url": "https://patents.google.com/patent/US9040269B2/en",
+        "note": "權利人 Evolva SA（頁面拼作 Evola SA），2015 年公告。"
+      },
+      {
+        "title": "US11136283B2 - Recovering and purifying resveratrol produced by microbial fermentation",
+        "url": "https://patents.google.com/patent/US11136283B2/en",
+        "note": "權利人 Evolva AG，2021 年公告。"
+      }
+    ],
+    "note": "宸品寫國際專利製程，這兩件是 Evolva 名下的發酵生產／純化專利；是否與 EFSC4687 量產製程逐條對應未核。"
+  },
+  "literature": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "Trans-resveratrol reduces visible signs of skin ageing in healthy adult females over 40: an 8-week randomized placebo-controlled trial",
+        "url": "https://doi.org/10.3389/fragi.2025.1727244",
+        "note": "Front Aging 2025（PMID 41488277）。依 NutraIngredients 報導與 PubMed 書目，未讀全文。"
+      },
+      {
+        "title": "Regular Supplementation With Resveratrol Improves Bone Mineral Density in Postmenopausal Women: A Randomized, Placebo-Controlled Trial",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/32564438/",
+        "note": "J Bone Miner Res 2020，RESHAW 骨骼結果，只核書目。"
+      }
+    ],
+    "note": "兩篇都有 Evolva／Lallemand 參與或供料。"
+  },
+  "evidenceLevels": [
+    "clinical"
+  ],
+  "images": [
+    {
+      "url": "https://admin.bio-lallemand.com/wp-content/uploads/2025/01/AdobeStock_228690296-685x335-1.jpg",
+      "localPath": "",
+      "caption": "Lallemand 官網 Veri-te 品牌頁橫幅（情境圖，不是原料實物）。",
+      "source": "official_site"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Resveratrol supplements may improve signs of skin aging: Lallemand RCT",
+      "url": "https://www.nutraingredients.com/Article/2026/01/14/resveratrol-supplements-may-improve-signs-of-skin-aging/",
+      "publisher": "NutraIngredients",
+      "channel": "news",
+      "accessed": "2026-11-09",
+      "whatItContributes": "2026-01-14 新聞：Veri-te 150 mg/日 8 週 RCT，Lallemand 稱 2026 為白藜蘆醇突破年。"
+    },
+    {
+      "title": "Bio-Lallemand - Veri-te™",
+      "url": "https://www.bio-lallemand.com/en/brands/veri-te/",
+      "publisher": "Lallemand Bio-Ingredients",
+      "channel": "supplier_site",
+      "accessed": "2026-11-09",
+      "whatItContributes": "品牌頁：>98% 純度、RESHAW 設計、入圍 2026 NutraIngredients Europe 年度原料（美容由內而外）。"
+    },
+    {
+      "title": "反式白藜蘆醇 Veri-te™",
+      "url": "https://www.champion-bio.com/tw/product-detail/Resveratrol_Bulk_Supply/",
+      "publisher": "宸品股份有限公司",
+      "channel": "other",
+      "accessed": "2026-11-09",
+      "whatItContributes": "台灣獨家代理自述、EFSC4687 菌株與非虎杖來源說明。"
+    },
+    {
+      "title": "Veri-Ti™ 啤酒酵母含白藜蘆醇",
+      "url": "https://www.pharmachief.com.tw/news_detail/59.htm",
+      "publisher": "良勵生物科技",
+      "channel": "other",
+      "accessed": "2026-11-09",
+      "whatItContributes": "另一家台灣代理頁。"
+    },
+    {
+      "title": "US9040269B2",
+      "url": "https://patents.google.com/patent/US9040269B2/en",
+      "publisher": "Google Patents",
+      "channel": "patent",
+      "accessed": "2026-11-09",
+      "whatItContributes": "Evolva 酵母生產專利。"
+    },
+    {
+      "title": "PubMed 32564438",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32564438/",
+      "publisher": "J Bone Miner Res（PubMed）",
+      "channel": "paper",
+      "accessed": "2026-11-09",
+      "whatItContributes": "RESHAW 骨密度 RCT 書目。"
+    }
+  ],
+  "discovery": {
+    "channel": "news",
+    "scoutDate": "2026-11-09",
+    "notes": "從 NutraIngredients 2026-01 的 Veri-te 皮膚 RCT 新聞進入，再對 Lallemand 品牌頁、PubMed、Google Patents 與宸品／良勵台灣頁。TFDA 列名綁定 EFSC4687 菌株，與宸品頁寫的菌株一致。"
+  }
+}

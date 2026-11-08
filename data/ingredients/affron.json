@@ -1,0 +1,178 @@
+{
+  "id": "affron",
+  "example": false,
+  "names": {
+    "commonZh": "番紅花萃取物（柱頭）",
+    "commonEn": "saffron extract",
+    "trade": "Affron（Pharmactive 的番紅花萃取物商品名）",
+    "scientific": "Crocus sativus L.（花柱頭）"
+  },
+  "supply": {
+    "supplierName": "Pharmactive Biotech Products, S.L.U.",
+    "supplierCountry": "西班牙",
+    "relationship": "taiwan_agent",
+    "taiwanPartyName": "綠茵生技股份有限公司",
+    "relationshipNote": "綠茵生技的「代理原料」目錄有番紅花萃取粉（西班牙），寫 >3.5% Lepticrosalides®（Affron 的標準化指標），英文頁寫 Pharmactive 負責供應鏈。頁面沒有寫獨家，也沒有逐字寫出 Affron 商標；Pharmactive 這次打開的頁也沒有點名台灣代理。台中百康貿易另賣法國 safr'inside，是別的番紅花品牌，不算本筆。"
+  },
+  "tfda": {
+    "usable": "listed_food_ingredient",
+    "evidenceNotes": "食品原料有番紅花（Crocus sativus L.，花柱頭）2 筆：一筆在草木本(1)供茶包或萃取後作為原料，備註空白；另一筆在香辛調味類，限調味目的適量使用。萃取規格對前一筆。商品名 Affron 與添加物都是 0 筆，未確認安全性分類沒有番紅花。平台沒有寫每日上限，不等於 28 mg 已被台灣核定。",
+    "lookupDate": "2026-11-09",
+    "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+    "queries": [
+      {
+        "tab": "ingredient",
+        "keyword": "番紅花",
+        "category": "草、木本植物類(1)供茶包、膳食調理包或萃取後作為原料；草、木本植物類(3)供香辛調味使用",
+        "resultCount": 2,
+        "matchedName": "番紅花；藏紅花；西紅花",
+        "restrictionNote": "(1) 類備註空白；(3) 類限香辛調味目的適量使用。",
+        "unconfirmedSafety": false,
+        "note": "部位都是花柱頭，外文 Saffron。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Crocus sativus",
+        "category": "",
+        "resultCount": 2,
+        "matchedName": "番紅花；藏紅花；西紅花",
+        "restrictionNote": "同上。",
+        "unconfirmedSafety": false,
+        "note": "學名查回同兩筆，沒有未確認分類。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Affron",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "番紅花",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "添加物分頁 0 筆。"
+      },
+      {
+        "tab": "history",
+        "keyword": "番紅花",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "助手更新歷程（11/01–11/08）沒有異動。"
+      }
+    ],
+    "officialCrosscheck": {
+      "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+      "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+      "done": true,
+      "notes": "2026-11-09 依查詢助手公開 data.json（fetched 2026-11-08 06:10，來源為 TFDA 開放資料 4 與 61）核對兩筆列名與部位。官方原料頁未另開。"
+    }
+  },
+  "efficacy": {
+    "claimedBenefits": [
+      "Pharmactive 官網寫 Affron 用於情緒、放鬆與睡眠，最低劑量每日 28 mg。這是供應商說法。",
+      "2026 年 Frontiers in Nutrition RCT（86 位 50–70 歲情緒低落且睡不好的女性，每日 28 mg、12 週）：DASS-21 憂鬱分數下降較安慰劑多，達臨床有意義改善 48.8% 對 25.6%。睡眠障礙量表、外觀與 AI 估膚齡沒有組間差；自尊與睡眠相關損害屬探索性結果。研究由 Pharmactive 出資。",
+      "綠茵生技頁寫「可調整體質及幫助入睡」，這是台灣代理的行銷用語，不是健康食品許可。"
+    ],
+    "suggestedDosage": "官網：每日 28 mg；睡眠用途另寫睡前 1 小時 14 mg。上述 RCT 用每日 28 mg。",
+    "dosageNote": "28 mg 與 14 mg 都是供應商建議與廠商資助試驗的劑量。台灣列名沒有每日上限。"
+  },
+  "patent": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "US10933110B2 - Saffron extract and its use for the prevention of mood disorders related to depression",
+        "url": "https://patents.google.com/patent/US10933110B2/en",
+        "note": "已打開 Google Patents：權利人 Pharmactive Biotech Products SL，2017-04-17 申請，2021-03-02 公告。"
+      }
+    ],
+    "note": "官網寫 AFF®ON Cool-Tech 為專利低溫萃取製程，這次只核到上列美國專利；台灣專利未查。"
+  },
+  "literature": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "The effects of a saffron extract (Affron®) on mood, sleep, self-esteem, and exploratory measures of physical appearance in women aged 50 to 70 years experiencing low mood and poor sleep",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13318664/",
+        "note": "PMC 全文摘要已讀。Frontiers in Nutrition 2026，n=86，28 mg/日，12 週，雙盲安慰劑對照。"
+      }
+    ],
+    "note": "官網稱已發表 11 篇以上臨床研究，這次只打開 2026 年這篇。"
+  },
+  "evidenceLevels": [
+    "clinical"
+  ],
+  "images": [
+    {
+      "url": "https://pharmactive.eu/wp-content/uploads/2020/02/affron-branded-ingredients2-copia.png",
+      "localPath": "",
+      "caption": "Pharmactive 官網 Affron 品牌圖。",
+      "source": "official_site"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Exploring saffron’s potential for mood and sleep disorders: Study",
+      "url": "https://www.nutraingredients.com/Article/2026/06/23/exploring-saffrons-potential-for-mood-and-sleep-disorders-study/",
+      "publisher": "NutraIngredients",
+      "channel": "news",
+      "accessed": "2026-11-09",
+      "whatItContributes": "2026-06-23 新聞：Affron 28 mg/日 RCT，憂鬱分數改善，睡眠障礙與外觀無差異，研究由 Pharmactive 出資。"
+    },
+    {
+      "title": "Affron® Saffron to Help Improve Mood, Self-Esteem in Adult Women",
+      "url": "https://www.prnewswire.com/news-releases/affron-saffron-to-help-improve-mood-self-esteem-in-adult-women-302814302.html",
+      "publisher": "PR Newswire／Pharmactive",
+      "channel": "news",
+      "accessed": "2026-11-09",
+      "whatItContributes": "2026-06-30 廠商新聞稿：50.7% 對 31.9% 的分數下降與 12 篇人體研究說法。"
+    },
+    {
+      "title": "Affron: Improve mood, support relaxation and enhance sleep",
+      "url": "https://pharmactive.eu/ingredient/affron_r-improves-your-mood/",
+      "publisher": "Pharmactive Biotech Products",
+      "channel": "supplier_site",
+      "accessed": "2026-11-09",
+      "whatItContributes": "Crocus sativus L.、自有萃取廠、28 mg/日、睡前 14 mg 研究與品牌圖。"
+    },
+    {
+      "title": "The effects of a saffron extract (Affron®) on mood, sleep, self-esteem…",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13318664/",
+      "publisher": "Frontiers in Nutrition（PMC）",
+      "channel": "paper",
+      "accessed": "2026-11-09",
+      "whatItContributes": "RCT 設計、主要與次要結果。"
+    },
+    {
+      "title": "US10933110B2",
+      "url": "https://patents.google.com/patent/US10933110B2/en",
+      "publisher": "Google Patents",
+      "channel": "patent",
+      "accessed": "2026-11-09",
+      "whatItContributes": "專利權人與公告日。"
+    },
+    {
+      "title": "番紅花萃取粉(西班牙.實驗)",
+      "url": "https://www.greenynbio.com/product/agent/plant/affron/",
+      "publisher": "綠茵生技股份有限公司",
+      "channel": "other",
+      "accessed": "2026-11-09",
+      "whatItContributes": "台灣代理目錄：>3.5% Lepticrosalides®、西班牙製造，網址路徑即 affron。"
+    }
+  ],
+  "discovery": {
+    "channel": "news",
+    "scoutDate": "2026-11-09",
+    "notes": "從 NutraIngredients 2026-06 的 Affron 新聞進入，打開 PMC 全文與 PR Newswire 新聞稿，再對 Pharmactive 官網、Google Patents 與綠茵生技代理頁。"
+  }
+}

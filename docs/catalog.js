@@ -7,6 +7,967 @@ window.INGREDIENT_CATALOG = {
         "exhibition",
         "industry_report"
       ],
+      "date": "2026-11-09",
+      "example": false,
+      "notes": "正式五筆。主管道：Affron、Veri-te 為新聞；Superba Boost、Mirtoselect 為展覽；森永乳鐵蛋白為產業報導。未放入未確認安全性項目；查到並排除的有虎杖（白藜蘆醇常見植物來源）、藍莓葉、鋸棕櫚，以及既有雷區。Veri-te 對應基改酵母 EFSC4687 那一筆，限成人、每日 150 mg。乳鐵蛋白是營養添加劑，每日 300 mg 上限。磷蝦油與 11 月 6 日 AstaReal 不同原料。",
+      "picks": [
+        {
+          "discovery": {
+            "channel": "news",
+            "notes": "從 NutraIngredients 2026-06 的 Affron 新聞進入，打開 PMC 全文與 PR Newswire 新聞稿，再對 Pharmactive 官網、Google Patents 與綠茵生技代理頁。",
+            "scoutDate": "2026-11-09"
+          },
+          "efficacy": {
+            "claimedBenefits": [
+              "Pharmactive 官網寫 Affron 用於情緒、放鬆與睡眠，最低劑量每日 28 mg。這是供應商說法。",
+              "2026 年 Frontiers in Nutrition RCT（86 位 50–70 歲情緒低落且睡不好的女性，每日 28 mg、12 週）：DASS-21 憂鬱分數下降較安慰劑多，達臨床有意義改善 48.8% 對 25.6%。睡眠障礙量表、外觀與 AI 估膚齡沒有組間差；自尊與睡眠相關損害屬探索性結果。研究由 Pharmactive 出資。",
+              "綠茵生技頁寫「可調整體質及幫助入睡」，這是台灣代理的行銷用語，不是健康食品許可。"
+            ],
+            "dosageNote": "28 mg 與 14 mg 都是供應商建議與廠商資助試驗的劑量。台灣列名沒有每日上限。",
+            "suggestedDosage": "官網：每日 28 mg；睡眠用途另寫睡前 1 小時 14 mg。上述 RCT 用每日 28 mg。"
+          },
+          "evidenceLevels": [
+            "clinical"
+          ],
+          "example": false,
+          "id": "affron",
+          "images": [
+            {
+              "caption": "Pharmactive 官網 Affron 品牌圖。",
+              "localPath": "",
+              "source": "official_site",
+              "url": "https://pharmactive.eu/wp-content/uploads/2020/02/affron-branded-ingredients2-copia.png"
+            }
+          ],
+          "literature": {
+            "note": "官網稱已發表 11 篇以上臨床研究，這次只打開 2026 年這篇。",
+            "refs": [
+              {
+                "note": "PMC 全文摘要已讀。Frontiers in Nutrition 2026，n=86，28 mg/日，12 週，雙盲安慰劑對照。",
+                "title": "The effects of a saffron extract (Affron®) on mood, sleep, self-esteem, and exploratory measures of physical appearance in women aged 50 to 70 years experiencing low mood and poor sleep",
+                "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13318664/"
+              }
+            ],
+            "status": "yes"
+          },
+          "names": {
+            "commonEn": "saffron extract",
+            "commonZh": "番紅花萃取物（柱頭）",
+            "scientific": "Crocus sativus L.（花柱頭）",
+            "trade": "Affron（Pharmactive 的番紅花萃取物商品名）"
+          },
+          "patent": {
+            "note": "官網寫 AFF®ON Cool-Tech 為專利低溫萃取製程，這次只核到上列美國專利；台灣專利未查。",
+            "refs": [
+              {
+                "note": "已打開 Google Patents：權利人 Pharmactive Biotech Products SL，2017-04-17 申請，2021-03-02 公告。",
+                "title": "US10933110B2 - Saffron extract and its use for the prevention of mood disorders related to depression",
+                "url": "https://patents.google.com/patent/US10933110B2/en"
+              }
+            ],
+            "status": "yes"
+          },
+          "sources": [
+            {
+              "accessed": "2026-11-09",
+              "channel": "news",
+              "publisher": "NutraIngredients",
+              "title": "Exploring saffron’s potential for mood and sleep disorders: Study",
+              "url": "https://www.nutraingredients.com/Article/2026/06/23/exploring-saffrons-potential-for-mood-and-sleep-disorders-study/",
+              "whatItContributes": "2026-06-23 新聞：Affron 28 mg/日 RCT，憂鬱分數改善，睡眠障礙與外觀無差異，研究由 Pharmactive 出資。"
+            },
+            {
+              "accessed": "2026-11-09",
+              "channel": "news",
+              "publisher": "PR Newswire／Pharmactive",
+              "title": "Affron® Saffron to Help Improve Mood, Self-Esteem in Adult Women",
+              "url": "https://www.prnewswire.com/news-releases/affron-saffron-to-help-improve-mood-self-esteem-in-adult-women-302814302.html",
+              "whatItContributes": "2026-06-30 廠商新聞稿：50.7% 對 31.9% 的分數下降與 12 篇人體研究說法。"
+            },
+            {
+              "accessed": "2026-11-09",
+              "channel": "supplier_site",
+              "publisher": "Pharmactive Biotech Products",
+              "title": "Affron: Improve mood, support relaxation and enhance sleep",
+              "url": "https://pharmactive.eu/ingredient/affron_r-improves-your-mood/",
+              "whatItContributes": "Crocus sativus L.、自有萃取廠、28 mg/日、睡前 14 mg 研究與品牌圖。"
+            },
+            {
+              "accessed": "2026-11-09",
+              "channel": "paper",
+              "publisher": "Frontiers in Nutrition（PMC）",
+              "title": "The effects of a saffron extract (Affron®) on mood, sleep, self-esteem…",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13318664/",
+              "whatItContributes": "RCT 設計、主要與次要結果。"
+            },
+            {
+              "accessed": "2026-11-09",
+              "channel": "patent",
+              "publisher": "Google Patents",
+              "title": "US10933110B2",
+              "url": "https://patents.google.com/patent/US10933110B2/en",
+              "whatItContributes": "專利權人與公告日。"
+            },
+            {
+              "accessed": "2026-11-09",
+              "channel": "other",
+              "publisher": "綠茵生技股份有限公司",
+              "title": "番紅花萃取粉(西班牙.實驗)",
+              "url": "https://www.greenynbio.com/product/agent/plant/affron/",
+              "whatItContributes": "台灣代理目錄：>3.5% Lepticrosalides®、西班牙製造，網址路徑即 affron。"
+            }
+          ],
+          "supply": {
+            "relationship": "taiwan_agent",
+            "relationshipNote": "綠茵生技的「代理原料」目錄有番紅花萃取粉（西班牙），寫 >3.5% Lepticrosalides®（Affron 的標準化指標），英文頁寫 Pharmactive 負責供應鏈。頁面沒有寫獨家，也沒有逐字寫出 Affron 商標；Pharmactive 這次打開的頁也沒有點名台灣代理。台中百康貿易另賣法國 safr'inside，是別的番紅花品牌，不算本筆。",
+            "supplierCountry": "西班牙",
+            "supplierName": "Pharmactive Biotech Products, S.L.U.",
+            "taiwanPartyName": "綠茵生技股份有限公司"
+          },
+          "tfda": {
+            "evidenceNotes": "食品原料有番紅花（Crocus sativus L.，花柱頭）2 筆：一筆在草木本(1)供茶包或萃取後作為原料，備註空白；另一筆在香辛調味類，限調味目的適量使用。萃取規格對前一筆。商品名 Affron 與添加物都是 0 筆，未確認安全性分類沒有番紅花。平台沒有寫每日上限，不等於 28 mg 已被台灣核定。",
+            "lookupDate": "2026-11-09",
+            "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+            "officialCrosscheck": {
+              "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+              "done": true,
+              "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+              "notes": "2026-11-09 依查詢助手公開 data.json（fetched 2026-11-08 06:10，來源為 TFDA 開放資料 4 與 61）核對兩筆列名與部位。官方原料頁未另開。"
+            },
+            "queries": [
+              {
+                "category": "草、木本植物類(1)供茶包、膳食調理包或萃取後作為原料；草、木本植物類(3)供香辛調味使用",
+                "keyword": "番紅花",
+                "matchedName": "番紅花；藏紅花；西紅花",
+                "note": "部位都是花柱頭，外文 Saffron。",
+                "restrictionNote": "(1) 類備註空白；(3) 類限香辛調味目的適量使用。",
+                "resultCount": 2,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Crocus sativus",
+                "matchedName": "番紅花；藏紅花；西紅花",
+                "note": "學名查回同兩筆，沒有未確認分類。",
+                "restrictionNote": "同上。",
+                "resultCount": 2,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Affron",
+                "matchedName": "",
+                "note": "商品名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "番紅花",
+                "matchedName": "",
+                "note": "添加物分頁 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "番紅花",
+                "matchedName": "",
+                "note": "助手更新歷程（11/01–11/08）沒有異動。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "history",
+                "unconfirmedSafety": false
+              }
+            ],
+            "usable": "listed_food_ingredient"
+          }
+        },
+        {
+          "discovery": {
+            "channel": "exhibition",
+            "notes": "從 Aker 的 Vitafoods Europe 2026 展位頁進入，再對 2026 次分析新聞、PMC、官網專利頁與宸品／卡爾迪克台灣頁。",
+            "scoutDate": "2026-11-09"
+          },
+          "efficacy": {
+            "claimedBenefits": [
+              "Aker 官網寫磷蝦油的磷脂型 omega-3 與膽鹼支持心、腦、肝、眼，近年研究延伸到皮膚與運動。這是供應商說法。",
+              "Clinical Nutrition 2022 RCT（NCT04048096，65 歲以上，Superba Boost 每日 4 g、6 個月）：肌力與肌肉大小較對照組增加。2026 年 J Nutr Health Aging 次分析（n=94）說效果不因性別、年齡或 BMI 而不同。兩篇皆屬廠商產品研究。",
+              "宸品研討會頁寫 Superba Boost 磷脂約 56%。"
+            ],
+            "dosageNote": "4 g 是文獻劑量，不是供應商通用建議，也不是台灣限量；台灣列名沒有每日上限。",
+            "suggestedDosage": "RCT 用每日 4 g 磷蝦油（每 1 g 含 EPA 193 mg、DHA 96 mg、膽鹼 79 mg）。官網這次打開的頁沒有寫一般建議量。"
+          },
+          "evidenceLevels": [
+            "clinical"
+          ],
+          "example": false,
+          "id": "superba-boost",
+          "images": [
+            {
+              "caption": "Superba Krill 官網主視覺。",
+              "localPath": "",
+              "source": "official_site",
+              "url": "https://www.superbakrill.com/hubfs/SUPERBA%20Krill%E3%82%A4%E3%83%A1%E3%83%BC%E3%82%B8-jpg.jpeg"
+            }
+          ],
+          "literature": {
+            "note": "證據等級取上述 RCT 與次分析。",
+            "refs": [
+              {
+                "note": "原始 RCT 出處，本次讀新聞與次分析得知設計，未讀全文。",
+                "title": "The effect of krill oil supplementation on skeletal muscle function and size in older adults: A randomised controlled trial",
+                "url": "https://www.clinicalnutritionjournal.com/article/S0261-5614(22)00119-4/fulltext"
+              },
+              {
+                "note": "PMC 已讀：4 g/日 SuperbaBoost 對照混合植物油，6 個月，n=94。",
+                "title": "Do the effects of krill oil supplementation on skeletal muscle function and size in older adults differ by sex, age or BMI",
+                "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12720336/"
+              }
+            ],
+            "status": "yes"
+          },
+          "names": {
+            "commonEn": "Antarctic krill oil",
+            "commonZh": "南極磷蝦油（高磷脂）",
+            "scientific": "Euphausia superba",
+            "trade": "Superba Boost（Aker BioMarine；品牌現以 Superba Krill 系列行銷）"
+          },
+          "patent": {
+            "note": "只核官網與新聞，未逐號打開 USPTO；台灣專利未查。",
+            "refs": [
+              {
+                "note": "官網專利清單列 10,010,567、10,105,376 等多筆美國專利號。",
+                "title": "Aker BioMarine Patents（US 10,010,567 等）",
+                "url": "https://www.akerbiomarine.com/patents"
+              },
+              {
+                "note": "2022-08-31：PTAB 維持 US10,010,567B2（磷脂 ≥35%、低游離脂肪酸膠囊）。2019 年新聞另稱取得涵蓋 >50% 磷脂濃縮磷蝦油的美國組成物專利，保護 Superba Boost，該新聞未寫號碼。",
+                "title": "Aker BioMarine’s Patent Portfolio is Strengthened in the United States",
+                "url": "https://www.akerbiomarine.com/news/aker-biomarines-patent-portfolio-is-strengthened-in-the-united-states"
+              }
+            ],
+            "status": "yes"
+          },
+          "sources": [
+            {
+              "accessed": "2026-11-09",
+              "channel": "exhibition",
+              "publisher": "Aker BioMarine",
+              "title": "Elevating Active Body & Mind! Join Us at Vitafoods Europe 2026",
+              "url": "https://www.akerbiomarine.com/join-us-at-vitafoods-europe-2026",
+              "whatItContributes": "Vitafoods Europe 2026（巴塞隆納）Hall 3, Stand 3K148，主推 Superba Krill 用於運動營養與恢復。"
+            },
+            {
+              "accessed": "2026-11-09",
+              "channel": "exhibition",
+              "publisher": "Aker BioMarine",
+              "title": "Join Us at Vitafoods Asia 2026",
+              "url": "https://www.akerbiomarine.com/vitafoods-asia-2026",
+              "whatItContributes": "Vitafoods Asia 2026 展後頁，確認 Aker 參展亞洲場。"
+            },
+            {
+              "accessed": "2026-11-09",
+              "channel": "news",
+              "publisher": "NutraIngredients",
+              "title": "Krill oil may improve muscle strength for all older adults: RCT",
+              "url": "https://www.nutraingredients.com/Article/2026/02/02/krill-oil-supplements-may-improve-muscle-strength-for-all-older-adults/",
+              "whatItContributes": "2026-02 次分析新聞：SuperbaBoost 4 g/日、6 個月。"
+            },
+            {
+              "accessed": "2026-11-09",
+              "channel": "paper",
+              "publisher": "J Nutr Health Aging（PMC）",
+              "title": "PMC12720336 次分析",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12720336/",
+              "whatItContributes": "劑量、每粒 EPA/DHA/膽鹼含量與結果。"
+            },
+            {
+              "accessed": "2026-11-09",
+              "channel": "patent",
+              "publisher": "Aker BioMarine",
+              "title": "Aker BioMarine Patents",
+              "url": "https://www.akerbiomarine.com/patents",
+              "whatItContributes": "美國專利號清單。"
+            },
+            {
+              "accessed": "2026-11-09",
+              "channel": "other",
+              "publisher": "宸品股份有限公司",
+              "title": "Aker 南極磷蝦油",
+              "url": "https://www.champion-bio.com/tw/product-detail/aker_krill_oil/",
+              "whatItContributes": "台灣代理頁：Superba 2、Superba Boost、Kreal 品項與聯絡資料。"
+            },
+            {
+              "accessed": "2026-11-09",
+              "channel": "news",
+              "publisher": "今周刊（整合傳播企劃）",
+              "title": "國際頂級大廠挪威Aker攜手台灣在地品牌肉球世界",
+              "url": "https://www.businesstoday.com.tw/article/category/183030/post/202509180016/",
+              "whatItContributes": "業配稿稱宸品為 Aker 台灣唯一總代理。"
+            }
+          ],
+          "supply": {
+            "relationship": "taiwan_agent",
+            "relationshipNote": "宸品原料頁列 Aker 南極磷蝦油與 Superba 2／Superba Boost，2022 年曾與 Aker 合辦 SuperbaBoost 研討會。今周刊 2025-09 業配稿稱宸品為台灣唯一總代理。台灣卡爾迪克也有 Aker BioMarine 磷蝦油頁（含 Superba Boost），兩家說法未能互相排除，代理以宸品自述為準。",
+            "supplierCountry": "挪威",
+            "supplierName": "Aker BioMarine Antarctic AS",
+            "taiwanPartyName": "宸品股份有限公司"
+          },
+          "tfda": {
+            "evidenceNotes": "食品原料有「磷蝦油；南極蝦油」1 筆，學名 Euphausia superba，備註為由磷蝦（南極蝦）製取，沒有每日上限。商品名 Superba 與添加物都是 0 筆，未確認安全性分類沒有磷蝦。磷蝦油含蝦紅素，但這筆是油脂原料，不是 11 月 6 日的 AstaReal 藻來源蝦紅素。",
+            "lookupDate": "2026-11-09",
+            "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+            "officialCrosscheck": {
+              "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+              "done": true,
+              "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+              "notes": "2026-11-09 依查詢助手公開 data.json（fetched 2026-11-08 06:10）核對列名、學名與備註。官方原料頁未另開。"
+            },
+            "queries": [
+              {
+                "category": "海水產類、爬蟲類或其他動物及其來源製取之原料",
+                "keyword": "磷蝦",
+                "matchedName": "磷蝦油；南極蝦油",
+                "note": "外文 Krill oil。",
+                "restrictionNote": "本品為由磷蝦（南極蝦，Krill）所製取。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "海水產類、爬蟲類或其他動物及其來源製取之原料",
+                "keyword": "Euphausia superba",
+                "matchedName": "磷蝦油；南極蝦油",
+                "note": "學名對同一筆。",
+                "restrictionNote": "同上。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Superba",
+                "matchedName": "",
+                "note": "商品名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "磷蝦",
+                "matchedName": "",
+                "note": "添加物分頁 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "磷蝦",
+                "matchedName": "",
+                "note": "助手更新歷程（11/01–11/08）沒有異動。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "history",
+                "unconfirmedSafety": false
+              }
+            ],
+            "usable": "listed_food_ingredient"
+          }
+        },
+        {
+          "discovery": {
+            "channel": "exhibition",
+            "notes": "從 SupplySide Global 2026 的 Indena USA 名錄品牌清單看到 Mirtoselect，再對 Indena 產品頁、規格表、乾眼 RCT 與台灣多家供應頁。與 11 月 7 日葉黃素（萬壽菊）不同原料。",
+            "scoutDate": "2026-11-09"
+          },
+          "efficacy": {
+            "claimedBenefits": [
+              "Indena 產品頁寫 Mirtoselect 花青素 >36%，有 50–60 篇以上研究，宣稱支持血管、腦與眼睛健康，近年另研究情緒。這是供應商說法。",
+              "Riva 等 2017（Eur Rev Med Pharmacol Sci）：乾眼症狀成人 4 週雙盲安慰劑對照，Mirtoselect 組 Schirmer 淚液分泌改善，完成者僅 21 人。",
+              "漢馨頁寫取得美國減壓功效專利，本次未找到專利號。"
+            ],
+            "dosageNote": "160–320 mg 是供應商建議。台灣果實列名沒有每日上限。",
+            "suggestedDosage": "Indena 規格表（2025-10）：每日 160–320 mg。"
+          },
+          "evidenceLevels": [
+            "in_vitro",
+            "clinical"
+          ],
+          "example": false,
+          "id": "mirtoselect",
+          "images": [
+            {
+              "caption": "Indena 官網 Mirtoselect 產品卡圖。",
+              "localPath": "",
+              "source": "official_site",
+              "url": "https://www.indena.com/indena_files/2019/12/mirtoselect-card-product-nutra-listing.jpg"
+            }
+          ],
+          "literature": {
+            "note": "臨床證據樣本數小。",
+            "refs": [
+              {
+                "note": "摘要已讀。4 週，完成 21 人，淚液分泌與血漿抗氧化力改善。",
+                "title": "The effect of a natural, standardized bilberry extract (Mirtoselect®) in dry eye: a randomized, double blinded, placebo-controlled trial",
+                "url": "https://www.europeanreview.org/article/12829"
+              },
+              {
+                "note": "2025 Frontiers in Nutrition，搜尋摘要提到體外機轉與 33 人小型人體研究，本次未讀全文。",
+                "title": "In vitro mechanistic studies and potential health benefits of a standardized bilberry extract in low mood and cognitive enhancement",
+                "url": "https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1630147/full"
+              }
+            ],
+            "status": "yes"
+          },
+          "names": {
+            "commonEn": "bilberry extract",
+            "commonZh": "山桑子萃取物",
+            "scientific": "Vaccinium myrtillus L.（果實）",
+            "trade": "Mirtoselect（Indena 的山桑子萃取物商品名）"
+          },
+          "patent": {
+            "note": "漢馨、HG Bio 頁寫「專利：有」，Indena 規格表與產品頁沒有列專利號；Google Patents 以山桑子與情緒搜尋未找到 Indena 權利人專利。維持 unknown。",
+            "refs": [],
+            "status": "unknown"
+          },
+          "sources": [
+            {
+              "accessed": "2026-11-09",
+              "channel": "exhibition",
+              "publisher": "SupplySide Global",
+              "title": "SupplySide Global 2026 – Indena USA eBooth",
+              "url": "https://exhibitor.supplysideglobal.com/supplysideglobal26/Public/eBooth.aspx?BoothID=152810&FromPage=Exhibitors.aspx&IndexInList=704&ListByBooth=true&Nav=False&ParentBoothID=",
+              "whatItContributes": "2026 展商名錄：Indena USA 攤位 4665，品牌清單含 Mirtoselect，類別含 Bilberry。"
+            },
+            {
+              "accessed": "2026-11-09",
+              "channel": "exhibition",
+              "publisher": "Indena",
+              "title": "Indena at SupplySide Global 2026",
+              "url": "https://www.indena.com/us/2026/09/21/indena-at-supplyside-global-2026/",
+              "whatItContributes": "Indena 參展公告；主推品牌不是 Mirtoselect，品項以名錄為準。"
+            },
+            {
+              "accessed": "2026-11-09",
+              "channel": "supplier_site",
+              "publisher": "Indena",
+              "title": "Mirtoselect®",
+              "url": "https://www.indena.com/product/mirtoselect/",
+              "whatItContributes": "學名、>36% 花青素、研究數量說法與產品圖。"
+            },
+            {
+              "accessed": "2026-11-09",
+              "channel": "supplier_site",
+              "publisher": "Indena",
+              "title": "Mirtoselect - bilberry extract（spec sheet）",
+              "url": "https://www.indena.com/indena_files/2025/10/mirtoselect_ss_int.pdf",
+              "whatItContributes": "建議劑量 160–320 mg/日。"
+            },
+            {
+              "accessed": "2026-11-09",
+              "channel": "paper",
+              "publisher": "Eur Rev Med Pharmacol Sci",
+              "title": "Riva et al. 2017 dry eye RCT",
+              "url": "https://www.europeanreview.org/article/12829",
+              "whatItContributes": "乾眼 RCT 摘要。"
+            },
+            {
+              "accessed": "2026-11-09",
+              "channel": "other",
+              "publisher": "漢馨科技有限公司",
+              "title": "Mirtoselect® 山桑子萃取物",
+              "url": "https://www.hansient.com.tw/product/mirtoselect-%e5%b1%b1%e6%a1%91%e5%ad%90%e8%90%83%e5%8f%96%e7%89%a9/",
+              "whatItContributes": "台灣頁：原廠 Indena、義大利、專利有、原廠研究有。"
+            },
+            {
+              "accessed": "2026-11-09",
+              "channel": "other",
+              "publisher": "HG Bio",
+              "title": "Indena｜MirtoSelect® 山桑子萃取",
+              "url": "https://www.hg-bio.com.tw/products/mirtoselect/",
+              "whatItContributes": "另一家台灣供應頁，花色苷 36%。"
+            }
+          ],
+          "supply": {
+            "relationship": "taiwan_distributor",
+            "relationshipNote": "漢馨的供應商頁列 Indena，產品頁寫原廠 Indena、產地義大利。台灣另有 HG Bio、大醫生技、大自然生技素材頁也賣 Mirtoselect，大醫寫「原廠授權原料」。沒有任何一家寫獨家代理，Indena 官網這次也沒有點名台灣夥伴，先填經銷。",
+            "supplierCountry": "義大利",
+            "supplierName": "Indena S.p.A.",
+            "taiwanPartyName": "漢馨科技有限公司"
+          },
+          "tfda": {
+            "evidenceNotes": "食品原料有「山桑；鳥嘴梅」1 筆，學名含 Vaccinium myrtillus L.，部位果實，屬可供直接食用類，沒有限量。商品名與添加物都是 0 筆。未確認分類只見藍莓葉（V. corymbosum 等），不是山桑子果實。",
+            "lookupDate": "2026-11-09",
+            "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+            "officialCrosscheck": {
+              "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+              "done": true,
+              "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+              "notes": "2026-11-09 依查詢助手公開 data.json（fetched 2026-11-08 06:10）核對山桑果實列名與藍莓葉未確認列名。官方原料頁未另開。"
+            },
+            "queries": [
+              {
+                "category": "草、木本植物類(2)可供直接食用",
+                "keyword": "山桑",
+                "matchedName": "山桑；鳥嘴梅",
+                "note": "外文 Bilberry，學名 Vaccinium myrtillus L., Vaccinium uliginosum L.。",
+                "restrictionNote": "部位果實，備註空白。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Vaccinium",
+                "matchedName": "多筆（蔓越莓、山桑、藍莓葉等）",
+                "note": "藍莓葉為 V. corymbosum／V. pallidum／V. virgatum 的葉，與本品物種、部位都不同。",
+                "restrictionNote": "未確認分類只有藍莓葉。",
+                "resultCount": null,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Mirtoselect",
+                "matchedName": "",
+                "note": "商品名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "山桑",
+                "matchedName": "",
+                "note": "添加物分頁 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "山桑",
+                "matchedName": "",
+                "note": "助手更新歷程（11/01–11/08）沒有異動。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "history",
+                "unconfirmedSafety": false
+              }
+            ],
+            "usable": "listed_food_ingredient"
+          }
+        },
+        {
+          "discovery": {
+            "channel": "industry_report",
+            "notes": "從 Mordor Intelligence 2026 乳鐵蛋白市場報告進入，再對森永研發頁、兩篇森永 RCT、Google Patents 與登盛台灣頁。",
+            "scoutDate": "2026-11-09"
+          },
+          "efficacy": {
+            "claimedBenefits": [
+              "森永英文研發頁寫自 1960 年代研究乳鐵蛋白、民間單位論文數最多。這是廠商說法。",
+              "Oda 等 2020（J Infect Chemother，森永作者）：健康成人 12 週，200 或 600 mg/日，感染總天數較安慰劑短，罹病率沒有差。",
+              "Nutrients 2023（森永作者）：健康成人 200 mg/日、12 週，呼吸道與全身症狀總分較低。",
+              "登盛頁寫「可調整體質及幫助維持消化道機能」，是代理商行銷用語。"
+            ],
+            "dosageNote": "200 mg 是文獻劑量；300 mg 是台灣法規上限，600 mg 不適用於台灣產品。登盛頁沒有寫建議毫克數。",
+            "suggestedDosage": "兩篇森永 RCT 用每日 200 mg（另一組 600 mg）。台灣添加物上限每日 300 mg。"
+          },
+          "evidenceLevels": [
+            "clinical"
+          ],
+          "example": false,
+          "id": "morinaga-lactoferrin",
+          "images": [
+            {
+              "caption": "森永乳業英文研發頁的乳鐵蛋白粉末圖。",
+              "localPath": "",
+              "source": "official_site",
+              "url": "https://www.morinagamilk.co.jp/english/research/story/lactoferrin/img/img01.jpg"
+            }
+          ],
+          "literature": {
+            "note": "兩篇皆由森永研究人員參與。",
+            "refs": [
+              {
+                "note": "PubMed 摘要已讀，n=310。",
+                "title": "Effects of lactoferrin on infectious diseases in Japanese summer: A randomized, double-blinded, placebo-controlled trial",
+                "url": "https://pubmed.ncbi.nlm.nih.gov/32151562/"
+              },
+              {
+                "note": "PMC 已讀，n=157，200 mg/日。",
+                "title": "Effects of Bovine Lactoferrin on the Maintenance of Respiratory and Systemic Physical Conditions in Healthy Adults",
+                "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10537451/"
+              }
+            ],
+            "status": "yes"
+          },
+          "names": {
+            "commonEn": "bovine lactoferrin",
+            "commonZh": "乳鐵蛋白（牛乳來源）",
+            "scientific": "不適用：牛乳（Bos taurus）來源的醣蛋白，非植物學名。",
+            "trade": "Morinaga Lactoferrin（森永乳業，台灣頁寫 MLF-1）"
+          },
+          "patent": {
+            "note": "登盛頁稱森永有 50 多項專利，這次只核到兩件舊美國製程專利，都已過期；近年專利與台灣專利未查。",
+            "refs": [
+              {
+                "note": "權利人 Morinaga Milk Industry，1988 年公告，已過期。",
+                "title": "US4791193A - Process for producing bovine lactoferrin in high purity",
+                "url": "https://patents.google.com/patent/US4791193A/en"
+              },
+              {
+                "note": "權利人 Morinaga Milk Industry，1994 年公告，已過期。",
+                "title": "US5340924A - Method for heat treatment of lactoferrin without losing physiological activities thereof",
+                "url": "https://patents.google.com/patent/US5340924A/en"
+              }
+            ],
+            "status": "yes"
+          },
+          "sources": [
+            {
+              "accessed": "2026-11-09",
+              "channel": "industry_report",
+              "publisher": "Mordor Intelligence",
+              "title": "Lactoferrin Market Size & Share Analysis (2026–2031)",
+              "url": "https://www.mordorintelligence.com/industry-reports/lactoferrin-market",
+              "whatItContributes": "2026 年市場 2.5413 億美元、CAGR 6.88%，嬰兒營養占最大。"
+            },
+            {
+              "accessed": "2026-11-09",
+              "channel": "supplier_site",
+              "publisher": "Morinaga Milk",
+              "title": "Lactoferrin｜Innovation Story｜R&D",
+              "url": "https://www.morinagamilk.co.jp/english/research/story/lactoferrin/",
+              "whatItContributes": "MILEI 子公司生產、研究歷史與圖片。"
+            },
+            {
+              "accessed": "2026-11-09",
+              "channel": "paper",
+              "publisher": "J Infect Chemother（PubMed）",
+              "title": "PubMed 32151562",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/32151562/",
+              "whatItContributes": "200／600 mg RCT 結果。"
+            },
+            {
+              "accessed": "2026-11-09",
+              "channel": "paper",
+              "publisher": "Nutrients（PMC）",
+              "title": "Nutrients 2023 lactoferrin RCT",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10537451/",
+              "whatItContributes": "200 mg/日 RCT。"
+            },
+            {
+              "accessed": "2026-11-09",
+              "channel": "patent",
+              "publisher": "Google Patents",
+              "title": "US4791193A",
+              "url": "https://patents.google.com/patent/US4791193A/en",
+              "whatItContributes": "森永製程專利。"
+            },
+            {
+              "accessed": "2026-11-09",
+              "channel": "other",
+              "publisher": "登盛企業股份有限公司",
+              "title": "登盛企業-日本森永乳鐵蛋白",
+              "url": "https://www.masterasia.com.tw/content.php?id=5965",
+              "whatItContributes": "台灣代理頁：MLF-1、GRAS GRN 000465、規格包裝。"
+            }
+          ],
+          "supply": {
+            "relationship": "taiwan_agent",
+            "relationshipNote": "登盛品牌原料頁列「日本森永乳鐵蛋白」MLF-1，規格 200 g、1 kg，公司簡介寫代理森永 BB536、乳鐵蛋白等。頁面沒有寫獨家；森永英文研發頁這次沒有點名台灣夥伴。",
+            "supplierCountry": "日本（德國 MILEI 生產）",
+            "supplierName": "森永乳業（Morinaga Milk Industry）／德國子公司 MILEI GmbH",
+            "taiwanPartyName": "登盛企業股份有限公司"
+          },
+          "tfda": {
+            "evidenceNotes": "食品添加物有乳鐵蛋白（Lactoferrin）1 筆，屬營養添加劑：標示每日食用限量之食品，每日乳鐵蛋白總量不得高於 300 mg，限補充不足營養素時使用；特殊營養食品可視需要使用。食品原料分頁 0 筆，未確認分類也沒有。臨床常用的 200 mg 落在上限內，600 mg 組超過台灣限量。",
+            "lookupDate": "2026-11-09",
+            "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+            "officialCrosscheck": {
+              "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+              "done": true,
+              "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+              "notes": "2026-11-09 依查詢助手公開 data.json（fetched 2026-11-08 06:10，添加物來源為 TFDA 開放資料 61）核對 300 mg 限量。官方添加物頁未另開。"
+            },
+            "queries": [
+              {
+                "category": "(八) 營養添加劑",
+                "keyword": "乳鐵蛋白",
+                "matchedName": "乳鐵蛋白",
+                "note": "附規格檔 08112 乳鐵蛋白 Lactoferrin（112.1.1）。",
+                "restrictionNote": "每日食用量中乳鐵蛋白總量不得高於 300 mg；限於補充食品中不足之營養素時使用。",
+                "resultCount": 1,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "(八) 營養添加劑",
+                "keyword": "Lactoferrin",
+                "matchedName": "乳鐵蛋白",
+                "note": "英文對同一筆。",
+                "restrictionNote": "同上。",
+                "resultCount": 1,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "乳鐵",
+                "matchedName": "",
+                "note": "原料分頁 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Lactoferrin",
+                "matchedName": "",
+                "note": "原料分頁 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "乳鐵蛋白",
+                "matchedName": "",
+                "note": "助手更新歷程（11/01–11/08）沒有異動。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "history",
+                "unconfirmedSafety": false
+              }
+            ],
+            "usable": "listed_food_additive"
+          }
+        },
+        {
+          "discovery": {
+            "channel": "news",
+            "notes": "從 NutraIngredients 2026-01 的 Veri-te 皮膚 RCT 新聞進入，再對 Lallemand 品牌頁、PubMed、Google Patents 與宸品／良勵台灣頁。TFDA 列名綁定 EFSC4687 菌株，與宸品頁寫的菌株一致。",
+            "scoutDate": "2026-11-09"
+          },
+          "efficacy": {
+            "claimedBenefits": [
+              "Lallemand 官網寫 Veri-te >98% 反式白藜蘆醇，宣稱皮膚、認知、情緒、更年期不適與骨骼等效益，引用 RESHAW（125 位停經婦女，75 mg 一天兩次，24 個月交叉）。這是供應商說法。",
+              "Front Aging 2025（Rao 等，NutraIngredients 2026-01 報導）：40 歲以上女性 8 週，口服 150 mg/日加外用乳霜組皺紋分數優於雙安慰劑；只口服組沒有顯著差。",
+              "JBMR 2020（RESHAW 骨骼結果）：停經婦女 75 mg 一天兩次 12 個月，腰椎與股骨頸骨密度改善。"
+            ],
+            "dosageNote": "150 mg 同時是文獻劑量與台灣上限，不可再加量。官網這次沒有寫一般建議量。",
+            "suggestedDosage": "研究劑量 75 mg 一天兩次（150 mg/日）。台灣每日上限 150 mg，限成人膳食補充品。"
+          },
+          "evidenceLevels": [
+            "clinical"
+          ],
+          "example": false,
+          "id": "veri-te",
+          "images": [
+            {
+              "caption": "Lallemand 官網 Veri-te 品牌頁橫幅（情境圖，不是原料實物）。",
+              "localPath": "",
+              "source": "official_site",
+              "url": "https://admin.bio-lallemand.com/wp-content/uploads/2025/01/AdobeStock_228690296-685x335-1.jpg"
+            }
+          ],
+          "literature": {
+            "note": "兩篇都有 Evolva／Lallemand 參與或供料。",
+            "refs": [
+              {
+                "note": "Front Aging 2025（PMID 41488277）。依 NutraIngredients 報導與 PubMed 書目，未讀全文。",
+                "title": "Trans-resveratrol reduces visible signs of skin ageing in healthy adult females over 40: an 8-week randomized placebo-controlled trial",
+                "url": "https://doi.org/10.3389/fragi.2025.1727244"
+              },
+              {
+                "note": "J Bone Miner Res 2020，RESHAW 骨骼結果，只核書目。",
+                "title": "Regular Supplementation With Resveratrol Improves Bone Mineral Density in Postmenopausal Women: A Randomized, Placebo-Controlled Trial",
+                "url": "https://pubmed.ncbi.nlm.nih.gov/32564438/"
+              }
+            ],
+            "status": "yes"
+          },
+          "names": {
+            "commonEn": "trans-resveratrol (yeast fermentation)",
+            "commonZh": "反式白藜蘆醇（酵母發酵）",
+            "scientific": "化合物，非植物萃取。以基因改造啤酒酵母 Saccharomyces cerevisiae 發酵生產；台灣代理頁寫 EFSC4687 菌株。",
+            "trade": "Veri-te（Evolva 生產、Lallemand Bio-Ingredients 銷售）"
+          },
+          "patent": {
+            "note": "宸品寫國際專利製程，這兩件是 Evolva 名下的發酵生產／純化專利；是否與 EFSC4687 量產製程逐條對應未核。",
+            "refs": [
+              {
+                "note": "權利人 Evolva SA（頁面拼作 Evola SA），2015 年公告。",
+                "title": "US9040269B2 - Metabolically engineered cells for the production of resveratrol…",
+                "url": "https://patents.google.com/patent/US9040269B2/en"
+              },
+              {
+                "note": "權利人 Evolva AG，2021 年公告。",
+                "title": "US11136283B2 - Recovering and purifying resveratrol produced by microbial fermentation",
+                "url": "https://patents.google.com/patent/US11136283B2/en"
+              }
+            ],
+            "status": "yes"
+          },
+          "sources": [
+            {
+              "accessed": "2026-11-09",
+              "channel": "news",
+              "publisher": "NutraIngredients",
+              "title": "Resveratrol supplements may improve signs of skin aging: Lallemand RCT",
+              "url": "https://www.nutraingredients.com/Article/2026/01/14/resveratrol-supplements-may-improve-signs-of-skin-aging/",
+              "whatItContributes": "2026-01-14 新聞：Veri-te 150 mg/日 8 週 RCT，Lallemand 稱 2026 為白藜蘆醇突破年。"
+            },
+            {
+              "accessed": "2026-11-09",
+              "channel": "supplier_site",
+              "publisher": "Lallemand Bio-Ingredients",
+              "title": "Bio-Lallemand - Veri-te™",
+              "url": "https://www.bio-lallemand.com/en/brands/veri-te/",
+              "whatItContributes": "品牌頁：>98% 純度、RESHAW 設計、入圍 2026 NutraIngredients Europe 年度原料（美容由內而外）。"
+            },
+            {
+              "accessed": "2026-11-09",
+              "channel": "other",
+              "publisher": "宸品股份有限公司",
+              "title": "反式白藜蘆醇 Veri-te™",
+              "url": "https://www.champion-bio.com/tw/product-detail/Resveratrol_Bulk_Supply/",
+              "whatItContributes": "台灣獨家代理自述、EFSC4687 菌株與非虎杖來源說明。"
+            },
+            {
+              "accessed": "2026-11-09",
+              "channel": "other",
+              "publisher": "良勵生物科技",
+              "title": "Veri-Ti™ 啤酒酵母含白藜蘆醇",
+              "url": "https://www.pharmachief.com.tw/news_detail/59.htm",
+              "whatItContributes": "另一家台灣代理頁。"
+            },
+            {
+              "accessed": "2026-11-09",
+              "channel": "patent",
+              "publisher": "Google Patents",
+              "title": "US9040269B2",
+              "url": "https://patents.google.com/patent/US9040269B2/en",
+              "whatItContributes": "Evolva 酵母生產專利。"
+            },
+            {
+              "accessed": "2026-11-09",
+              "channel": "paper",
+              "publisher": "J Bone Miner Res（PubMed）",
+              "title": "PubMed 32564438",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/32564438/",
+              "whatItContributes": "RESHAW 骨密度 RCT 書目。"
+            }
+          ],
+          "supply": {
+            "relationship": "taiwan_agent",
+            "relationshipNote": "宸品頁標「Veri-te™白藜蘆醇原料獨家代理」，並寫 EFSC4687 菌株發酵與 >98% 純度。良勵生物科技與大醫生技也有 Veri-te 頁，獨家說法未能互相排除，以宸品自述為準。Lallemand 這次打開的頁沒有點名台灣夥伴。",
+            "supplierCountry": "瑞士（Lallemand 為加拿大集團）",
+            "supplierName": "Evolva AG／Lallemand Bio-Ingredients",
+            "taiwanPartyName": "宸品股份有限公司"
+          },
+          "tfda": {
+            "evidenceNotes": "食品原料有「反式白藜蘆醇」1 筆，只限基因改造啤酒酵母 EFSC4687 菌株發酵純化、最終不含基改微生物的產品。限成人膳食補充品，每日 150 mg，要標基改生產來源與「限成人、孕哺避免、服藥諮詢醫師」警語。虎杖是未確認安全性，虎杖萃取或化學合成的白藜蘆醇不能套用這筆。",
+            "lookupDate": "2026-11-09",
+            "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+            "officialCrosscheck": {
+              "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+              "done": true,
+              "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+              "notes": "2026-11-09 依查詢助手公開 data.json（fetched 2026-11-08 06:10）核對公告全文、150 mg 與警語，以及虎杖未確認列名。官方原料頁未另開。"
+            },
+            "queries": [
+              {
+                "category": "微生物及其來源製取之原料",
+                "keyword": "白藜蘆醇",
+                "matchedName": "反式白藜蘆醇",
+                "note": "外文 trans-resveratrol。",
+                "restrictionNote": "衛授食字第1121301256號（112-06-29）：限基改啤酒酵母 EFSC4687 發酵純化；限成人膳食補充品，每日 150 mg；須標基改生產來源與警語。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "微生物及其來源製取之原料",
+                "keyword": "resveratrol",
+                "matchedName": "反式白藜蘆醇",
+                "note": "英文對同一筆。",
+                "restrictionNote": "同上。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "未確認安全性尚不得使用之原料",
+                "keyword": "虎杖",
+                "matchedName": "虎杖",
+                "note": "Reynoutria japonica／Polygonum cuspidatum，是常見植物來源白藜蘆醇；本品不是此來源。",
+                "restrictionNote": "未經確認其食用安全性前，不得供為食品原料使用。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": true
+              },
+              {
+                "category": "",
+                "keyword": "Veri-te",
+                "matchedName": "",
+                "note": "商品名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "白藜蘆醇",
+                "matchedName": "",
+                "note": "添加物分頁 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "白藜蘆醇",
+                "matchedName": "",
+                "note": "助手更新歷程（11/01–11/08）沒有異動。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "history",
+                "unconfirmedSafety": false
+              }
+            ],
+            "usable": "listed_food_ingredient"
+          }
+        }
+      ],
+      "targetCount": 5,
+      "title": "2026-11-09 正式日報"
+    },
+    {
+      "channelsCovered": [
+        "news",
+        "exhibition",
+        "industry_report"
+      ],
       "date": "2026-11-08",
       "example": false,
       "notes": "正式五筆。主管道：Kaneka Ubiquinol、Teavigo、BioPerine 為展覽；Pycnogenol 為新聞；Orafti Inulin 為產業報導。未放入未確認安全性項目。查到並排除的部位或品項：磷脂醯膽鹼、海岸松樹幹、胡椒莖（枝）、化學合成薑黃素，以及既有雷區 Bacopa、PQQ、NMN、瓜胺酸、納豆激酶、Relora／厚朴黃柏、Fenavari／shatavari。海岸松樹幹與胡椒莖不是本日兩筆的對應規格：碧容健對已列名的 Pinus pinaster 樹皮萃取物，BioPerine 對已列名的胡椒鹼（果實萃取規格）。Teavigo 是 EGCG，不是 11 月 7 日的茶胺酸。菊糖對菊苣根熱水萃取那一筆，不是蔗糖酵素菊糖。還原型輔酶對平台上的輔酵素 Q10，每日 30 mg，平台沒有單獨的 ubiquinol 列名。",
@@ -3308,6 +4269,184 @@ window.INGREDIENT_CATALOG = {
   "ingredients": [
     {
       "discovery": {
+        "channel": "news",
+        "notes": "從 NutraIngredients 2026-06 的 Affron 新聞進入，打開 PMC 全文與 PR Newswire 新聞稿，再對 Pharmactive 官網、Google Patents 與綠茵生技代理頁。",
+        "scoutDate": "2026-11-09"
+      },
+      "efficacy": {
+        "claimedBenefits": [
+          "Pharmactive 官網寫 Affron 用於情緒、放鬆與睡眠，最低劑量每日 28 mg。這是供應商說法。",
+          "2026 年 Frontiers in Nutrition RCT（86 位 50–70 歲情緒低落且睡不好的女性，每日 28 mg、12 週）：DASS-21 憂鬱分數下降較安慰劑多，達臨床有意義改善 48.8% 對 25.6%。睡眠障礙量表、外觀與 AI 估膚齡沒有組間差；自尊與睡眠相關損害屬探索性結果。研究由 Pharmactive 出資。",
+          "綠茵生技頁寫「可調整體質及幫助入睡」，這是台灣代理的行銷用語，不是健康食品許可。"
+        ],
+        "dosageNote": "28 mg 與 14 mg 都是供應商建議與廠商資助試驗的劑量。台灣列名沒有每日上限。",
+        "suggestedDosage": "官網：每日 28 mg；睡眠用途另寫睡前 1 小時 14 mg。上述 RCT 用每日 28 mg。"
+      },
+      "evidenceLevels": [
+        "clinical"
+      ],
+      "example": false,
+      "id": "affron",
+      "images": [
+        {
+          "caption": "Pharmactive 官網 Affron 品牌圖。",
+          "localPath": "",
+          "source": "official_site",
+          "url": "https://pharmactive.eu/wp-content/uploads/2020/02/affron-branded-ingredients2-copia.png"
+        }
+      ],
+      "literature": {
+        "note": "官網稱已發表 11 篇以上臨床研究，這次只打開 2026 年這篇。",
+        "refs": [
+          {
+            "note": "PMC 全文摘要已讀。Frontiers in Nutrition 2026，n=86，28 mg/日，12 週，雙盲安慰劑對照。",
+            "title": "The effects of a saffron extract (Affron®) on mood, sleep, self-esteem, and exploratory measures of physical appearance in women aged 50 to 70 years experiencing low mood and poor sleep",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13318664/"
+          }
+        ],
+        "status": "yes"
+      },
+      "names": {
+        "commonEn": "saffron extract",
+        "commonZh": "番紅花萃取物（柱頭）",
+        "scientific": "Crocus sativus L.（花柱頭）",
+        "trade": "Affron（Pharmactive 的番紅花萃取物商品名）"
+      },
+      "patent": {
+        "note": "官網寫 AFF®ON Cool-Tech 為專利低溫萃取製程，這次只核到上列美國專利；台灣專利未查。",
+        "refs": [
+          {
+            "note": "已打開 Google Patents：權利人 Pharmactive Biotech Products SL，2017-04-17 申請，2021-03-02 公告。",
+            "title": "US10933110B2 - Saffron extract and its use for the prevention of mood disorders related to depression",
+            "url": "https://patents.google.com/patent/US10933110B2/en"
+          }
+        ],
+        "status": "yes"
+      },
+      "sources": [
+        {
+          "accessed": "2026-11-09",
+          "channel": "news",
+          "publisher": "NutraIngredients",
+          "title": "Exploring saffron’s potential for mood and sleep disorders: Study",
+          "url": "https://www.nutraingredients.com/Article/2026/06/23/exploring-saffrons-potential-for-mood-and-sleep-disorders-study/",
+          "whatItContributes": "2026-06-23 新聞：Affron 28 mg/日 RCT，憂鬱分數改善，睡眠障礙與外觀無差異，研究由 Pharmactive 出資。"
+        },
+        {
+          "accessed": "2026-11-09",
+          "channel": "news",
+          "publisher": "PR Newswire／Pharmactive",
+          "title": "Affron® Saffron to Help Improve Mood, Self-Esteem in Adult Women",
+          "url": "https://www.prnewswire.com/news-releases/affron-saffron-to-help-improve-mood-self-esteem-in-adult-women-302814302.html",
+          "whatItContributes": "2026-06-30 廠商新聞稿：50.7% 對 31.9% 的分數下降與 12 篇人體研究說法。"
+        },
+        {
+          "accessed": "2026-11-09",
+          "channel": "supplier_site",
+          "publisher": "Pharmactive Biotech Products",
+          "title": "Affron: Improve mood, support relaxation and enhance sleep",
+          "url": "https://pharmactive.eu/ingredient/affron_r-improves-your-mood/",
+          "whatItContributes": "Crocus sativus L.、自有萃取廠、28 mg/日、睡前 14 mg 研究與品牌圖。"
+        },
+        {
+          "accessed": "2026-11-09",
+          "channel": "paper",
+          "publisher": "Frontiers in Nutrition（PMC）",
+          "title": "The effects of a saffron extract (Affron®) on mood, sleep, self-esteem…",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13318664/",
+          "whatItContributes": "RCT 設計、主要與次要結果。"
+        },
+        {
+          "accessed": "2026-11-09",
+          "channel": "patent",
+          "publisher": "Google Patents",
+          "title": "US10933110B2",
+          "url": "https://patents.google.com/patent/US10933110B2/en",
+          "whatItContributes": "專利權人與公告日。"
+        },
+        {
+          "accessed": "2026-11-09",
+          "channel": "other",
+          "publisher": "綠茵生技股份有限公司",
+          "title": "番紅花萃取粉(西班牙.實驗)",
+          "url": "https://www.greenynbio.com/product/agent/plant/affron/",
+          "whatItContributes": "台灣代理目錄：>3.5% Lepticrosalides®、西班牙製造，網址路徑即 affron。"
+        }
+      ],
+      "supply": {
+        "relationship": "taiwan_agent",
+        "relationshipNote": "綠茵生技的「代理原料」目錄有番紅花萃取粉（西班牙），寫 >3.5% Lepticrosalides®（Affron 的標準化指標），英文頁寫 Pharmactive 負責供應鏈。頁面沒有寫獨家，也沒有逐字寫出 Affron 商標；Pharmactive 這次打開的頁也沒有點名台灣代理。台中百康貿易另賣法國 safr'inside，是別的番紅花品牌，不算本筆。",
+        "supplierCountry": "西班牙",
+        "supplierName": "Pharmactive Biotech Products, S.L.U.",
+        "taiwanPartyName": "綠茵生技股份有限公司"
+      },
+      "tfda": {
+        "evidenceNotes": "食品原料有番紅花（Crocus sativus L.，花柱頭）2 筆：一筆在草木本(1)供茶包或萃取後作為原料，備註空白；另一筆在香辛調味類，限調味目的適量使用。萃取規格對前一筆。商品名 Affron 與添加物都是 0 筆，未確認安全性分類沒有番紅花。平台沒有寫每日上限，不等於 28 mg 已被台灣核定。",
+        "lookupDate": "2026-11-09",
+        "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+        "officialCrosscheck": {
+          "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+          "done": true,
+          "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+          "notes": "2026-11-09 依查詢助手公開 data.json（fetched 2026-11-08 06:10，來源為 TFDA 開放資料 4 與 61）核對兩筆列名與部位。官方原料頁未另開。"
+        },
+        "queries": [
+          {
+            "category": "草、木本植物類(1)供茶包、膳食調理包或萃取後作為原料；草、木本植物類(3)供香辛調味使用",
+            "keyword": "番紅花",
+            "matchedName": "番紅花；藏紅花；西紅花",
+            "note": "部位都是花柱頭，外文 Saffron。",
+            "restrictionNote": "(1) 類備註空白；(3) 類限香辛調味目的適量使用。",
+            "resultCount": 2,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Crocus sativus",
+            "matchedName": "番紅花；藏紅花；西紅花",
+            "note": "學名查回同兩筆，沒有未確認分類。",
+            "restrictionNote": "同上。",
+            "resultCount": 2,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Affron",
+            "matchedName": "",
+            "note": "商品名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "番紅花",
+            "matchedName": "",
+            "note": "添加物分頁 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "番紅花",
+            "matchedName": "",
+            "note": "助手更新歷程（11/01–11/08）沒有異動。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "history",
+            "unconfirmedSafety": false
+          }
+        ],
+        "usable": "listed_food_ingredient"
+      }
+    },
+    {
+      "discovery": {
         "channel": "exhibition",
         "notes": "從 Solabia 的 Vitafoods Asia 2026 攤位頁與 NutraIngredients 展前記看到 BrainBerry，再打開產品頁與 2020 年 PMC 全文，並用 Google Patents 核對 BioActor 的美國專利。TFDA 對的是果實列名，不是商品名。",
         "scoutDate": "2026-11-05"
@@ -4828,6 +5967,381 @@ window.INGREDIENT_CATALOG = {
           }
         ],
         "usable": "not_found"
+      }
+    },
+    {
+      "discovery": {
+        "channel": "exhibition",
+        "notes": "從 SupplySide Global 2026 的 Indena USA 名錄品牌清單看到 Mirtoselect，再對 Indena 產品頁、規格表、乾眼 RCT 與台灣多家供應頁。與 11 月 7 日葉黃素（萬壽菊）不同原料。",
+        "scoutDate": "2026-11-09"
+      },
+      "efficacy": {
+        "claimedBenefits": [
+          "Indena 產品頁寫 Mirtoselect 花青素 >36%，有 50–60 篇以上研究，宣稱支持血管、腦與眼睛健康，近年另研究情緒。這是供應商說法。",
+          "Riva 等 2017（Eur Rev Med Pharmacol Sci）：乾眼症狀成人 4 週雙盲安慰劑對照，Mirtoselect 組 Schirmer 淚液分泌改善，完成者僅 21 人。",
+          "漢馨頁寫取得美國減壓功效專利，本次未找到專利號。"
+        ],
+        "dosageNote": "160–320 mg 是供應商建議。台灣果實列名沒有每日上限。",
+        "suggestedDosage": "Indena 規格表（2025-10）：每日 160–320 mg。"
+      },
+      "evidenceLevels": [
+        "in_vitro",
+        "clinical"
+      ],
+      "example": false,
+      "id": "mirtoselect",
+      "images": [
+        {
+          "caption": "Indena 官網 Mirtoselect 產品卡圖。",
+          "localPath": "",
+          "source": "official_site",
+          "url": "https://www.indena.com/indena_files/2019/12/mirtoselect-card-product-nutra-listing.jpg"
+        }
+      ],
+      "literature": {
+        "note": "臨床證據樣本數小。",
+        "refs": [
+          {
+            "note": "摘要已讀。4 週，完成 21 人，淚液分泌與血漿抗氧化力改善。",
+            "title": "The effect of a natural, standardized bilberry extract (Mirtoselect®) in dry eye: a randomized, double blinded, placebo-controlled trial",
+            "url": "https://www.europeanreview.org/article/12829"
+          },
+          {
+            "note": "2025 Frontiers in Nutrition，搜尋摘要提到體外機轉與 33 人小型人體研究，本次未讀全文。",
+            "title": "In vitro mechanistic studies and potential health benefits of a standardized bilberry extract in low mood and cognitive enhancement",
+            "url": "https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1630147/full"
+          }
+        ],
+        "status": "yes"
+      },
+      "names": {
+        "commonEn": "bilberry extract",
+        "commonZh": "山桑子萃取物",
+        "scientific": "Vaccinium myrtillus L.（果實）",
+        "trade": "Mirtoselect（Indena 的山桑子萃取物商品名）"
+      },
+      "patent": {
+        "note": "漢馨、HG Bio 頁寫「專利：有」，Indena 規格表與產品頁沒有列專利號；Google Patents 以山桑子與情緒搜尋未找到 Indena 權利人專利。維持 unknown。",
+        "refs": [],
+        "status": "unknown"
+      },
+      "sources": [
+        {
+          "accessed": "2026-11-09",
+          "channel": "exhibition",
+          "publisher": "SupplySide Global",
+          "title": "SupplySide Global 2026 – Indena USA eBooth",
+          "url": "https://exhibitor.supplysideglobal.com/supplysideglobal26/Public/eBooth.aspx?BoothID=152810&FromPage=Exhibitors.aspx&IndexInList=704&ListByBooth=true&Nav=False&ParentBoothID=",
+          "whatItContributes": "2026 展商名錄：Indena USA 攤位 4665，品牌清單含 Mirtoselect，類別含 Bilberry。"
+        },
+        {
+          "accessed": "2026-11-09",
+          "channel": "exhibition",
+          "publisher": "Indena",
+          "title": "Indena at SupplySide Global 2026",
+          "url": "https://www.indena.com/us/2026/09/21/indena-at-supplyside-global-2026/",
+          "whatItContributes": "Indena 參展公告；主推品牌不是 Mirtoselect，品項以名錄為準。"
+        },
+        {
+          "accessed": "2026-11-09",
+          "channel": "supplier_site",
+          "publisher": "Indena",
+          "title": "Mirtoselect®",
+          "url": "https://www.indena.com/product/mirtoselect/",
+          "whatItContributes": "學名、>36% 花青素、研究數量說法與產品圖。"
+        },
+        {
+          "accessed": "2026-11-09",
+          "channel": "supplier_site",
+          "publisher": "Indena",
+          "title": "Mirtoselect - bilberry extract（spec sheet）",
+          "url": "https://www.indena.com/indena_files/2025/10/mirtoselect_ss_int.pdf",
+          "whatItContributes": "建議劑量 160–320 mg/日。"
+        },
+        {
+          "accessed": "2026-11-09",
+          "channel": "paper",
+          "publisher": "Eur Rev Med Pharmacol Sci",
+          "title": "Riva et al. 2017 dry eye RCT",
+          "url": "https://www.europeanreview.org/article/12829",
+          "whatItContributes": "乾眼 RCT 摘要。"
+        },
+        {
+          "accessed": "2026-11-09",
+          "channel": "other",
+          "publisher": "漢馨科技有限公司",
+          "title": "Mirtoselect® 山桑子萃取物",
+          "url": "https://www.hansient.com.tw/product/mirtoselect-%e5%b1%b1%e6%a1%91%e5%ad%90%e8%90%83%e5%8f%96%e7%89%a9/",
+          "whatItContributes": "台灣頁：原廠 Indena、義大利、專利有、原廠研究有。"
+        },
+        {
+          "accessed": "2026-11-09",
+          "channel": "other",
+          "publisher": "HG Bio",
+          "title": "Indena｜MirtoSelect® 山桑子萃取",
+          "url": "https://www.hg-bio.com.tw/products/mirtoselect/",
+          "whatItContributes": "另一家台灣供應頁，花色苷 36%。"
+        }
+      ],
+      "supply": {
+        "relationship": "taiwan_distributor",
+        "relationshipNote": "漢馨的供應商頁列 Indena，產品頁寫原廠 Indena、產地義大利。台灣另有 HG Bio、大醫生技、大自然生技素材頁也賣 Mirtoselect，大醫寫「原廠授權原料」。沒有任何一家寫獨家代理，Indena 官網這次也沒有點名台灣夥伴，先填經銷。",
+        "supplierCountry": "義大利",
+        "supplierName": "Indena S.p.A.",
+        "taiwanPartyName": "漢馨科技有限公司"
+      },
+      "tfda": {
+        "evidenceNotes": "食品原料有「山桑；鳥嘴梅」1 筆，學名含 Vaccinium myrtillus L.，部位果實，屬可供直接食用類，沒有限量。商品名與添加物都是 0 筆。未確認分類只見藍莓葉（V. corymbosum 等），不是山桑子果實。",
+        "lookupDate": "2026-11-09",
+        "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+        "officialCrosscheck": {
+          "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+          "done": true,
+          "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+          "notes": "2026-11-09 依查詢助手公開 data.json（fetched 2026-11-08 06:10）核對山桑果實列名與藍莓葉未確認列名。官方原料頁未另開。"
+        },
+        "queries": [
+          {
+            "category": "草、木本植物類(2)可供直接食用",
+            "keyword": "山桑",
+            "matchedName": "山桑；鳥嘴梅",
+            "note": "外文 Bilberry，學名 Vaccinium myrtillus L., Vaccinium uliginosum L.。",
+            "restrictionNote": "部位果實，備註空白。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Vaccinium",
+            "matchedName": "多筆（蔓越莓、山桑、藍莓葉等）",
+            "note": "藍莓葉為 V. corymbosum／V. pallidum／V. virgatum 的葉，與本品物種、部位都不同。",
+            "restrictionNote": "未確認分類只有藍莓葉。",
+            "resultCount": null,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Mirtoselect",
+            "matchedName": "",
+            "note": "商品名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "山桑",
+            "matchedName": "",
+            "note": "添加物分頁 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "山桑",
+            "matchedName": "",
+            "note": "助手更新歷程（11/01–11/08）沒有異動。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "history",
+            "unconfirmedSafety": false
+          }
+        ],
+        "usable": "listed_food_ingredient"
+      }
+    },
+    {
+      "discovery": {
+        "channel": "industry_report",
+        "notes": "從 Mordor Intelligence 2026 乳鐵蛋白市場報告進入，再對森永研發頁、兩篇森永 RCT、Google Patents 與登盛台灣頁。",
+        "scoutDate": "2026-11-09"
+      },
+      "efficacy": {
+        "claimedBenefits": [
+          "森永英文研發頁寫自 1960 年代研究乳鐵蛋白、民間單位論文數最多。這是廠商說法。",
+          "Oda 等 2020（J Infect Chemother，森永作者）：健康成人 12 週，200 或 600 mg/日，感染總天數較安慰劑短，罹病率沒有差。",
+          "Nutrients 2023（森永作者）：健康成人 200 mg/日、12 週，呼吸道與全身症狀總分較低。",
+          "登盛頁寫「可調整體質及幫助維持消化道機能」，是代理商行銷用語。"
+        ],
+        "dosageNote": "200 mg 是文獻劑量；300 mg 是台灣法規上限，600 mg 不適用於台灣產品。登盛頁沒有寫建議毫克數。",
+        "suggestedDosage": "兩篇森永 RCT 用每日 200 mg（另一組 600 mg）。台灣添加物上限每日 300 mg。"
+      },
+      "evidenceLevels": [
+        "clinical"
+      ],
+      "example": false,
+      "id": "morinaga-lactoferrin",
+      "images": [
+        {
+          "caption": "森永乳業英文研發頁的乳鐵蛋白粉末圖。",
+          "localPath": "",
+          "source": "official_site",
+          "url": "https://www.morinagamilk.co.jp/english/research/story/lactoferrin/img/img01.jpg"
+        }
+      ],
+      "literature": {
+        "note": "兩篇皆由森永研究人員參與。",
+        "refs": [
+          {
+            "note": "PubMed 摘要已讀，n=310。",
+            "title": "Effects of lactoferrin on infectious diseases in Japanese summer: A randomized, double-blinded, placebo-controlled trial",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32151562/"
+          },
+          {
+            "note": "PMC 已讀，n=157，200 mg/日。",
+            "title": "Effects of Bovine Lactoferrin on the Maintenance of Respiratory and Systemic Physical Conditions in Healthy Adults",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10537451/"
+          }
+        ],
+        "status": "yes"
+      },
+      "names": {
+        "commonEn": "bovine lactoferrin",
+        "commonZh": "乳鐵蛋白（牛乳來源）",
+        "scientific": "不適用：牛乳（Bos taurus）來源的醣蛋白，非植物學名。",
+        "trade": "Morinaga Lactoferrin（森永乳業，台灣頁寫 MLF-1）"
+      },
+      "patent": {
+        "note": "登盛頁稱森永有 50 多項專利，這次只核到兩件舊美國製程專利，都已過期；近年專利與台灣專利未查。",
+        "refs": [
+          {
+            "note": "權利人 Morinaga Milk Industry，1988 年公告，已過期。",
+            "title": "US4791193A - Process for producing bovine lactoferrin in high purity",
+            "url": "https://patents.google.com/patent/US4791193A/en"
+          },
+          {
+            "note": "權利人 Morinaga Milk Industry，1994 年公告，已過期。",
+            "title": "US5340924A - Method for heat treatment of lactoferrin without losing physiological activities thereof",
+            "url": "https://patents.google.com/patent/US5340924A/en"
+          }
+        ],
+        "status": "yes"
+      },
+      "sources": [
+        {
+          "accessed": "2026-11-09",
+          "channel": "industry_report",
+          "publisher": "Mordor Intelligence",
+          "title": "Lactoferrin Market Size & Share Analysis (2026–2031)",
+          "url": "https://www.mordorintelligence.com/industry-reports/lactoferrin-market",
+          "whatItContributes": "2026 年市場 2.5413 億美元、CAGR 6.88%，嬰兒營養占最大。"
+        },
+        {
+          "accessed": "2026-11-09",
+          "channel": "supplier_site",
+          "publisher": "Morinaga Milk",
+          "title": "Lactoferrin｜Innovation Story｜R&D",
+          "url": "https://www.morinagamilk.co.jp/english/research/story/lactoferrin/",
+          "whatItContributes": "MILEI 子公司生產、研究歷史與圖片。"
+        },
+        {
+          "accessed": "2026-11-09",
+          "channel": "paper",
+          "publisher": "J Infect Chemother（PubMed）",
+          "title": "PubMed 32151562",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/32151562/",
+          "whatItContributes": "200／600 mg RCT 結果。"
+        },
+        {
+          "accessed": "2026-11-09",
+          "channel": "paper",
+          "publisher": "Nutrients（PMC）",
+          "title": "Nutrients 2023 lactoferrin RCT",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10537451/",
+          "whatItContributes": "200 mg/日 RCT。"
+        },
+        {
+          "accessed": "2026-11-09",
+          "channel": "patent",
+          "publisher": "Google Patents",
+          "title": "US4791193A",
+          "url": "https://patents.google.com/patent/US4791193A/en",
+          "whatItContributes": "森永製程專利。"
+        },
+        {
+          "accessed": "2026-11-09",
+          "channel": "other",
+          "publisher": "登盛企業股份有限公司",
+          "title": "登盛企業-日本森永乳鐵蛋白",
+          "url": "https://www.masterasia.com.tw/content.php?id=5965",
+          "whatItContributes": "台灣代理頁：MLF-1、GRAS GRN 000465、規格包裝。"
+        }
+      ],
+      "supply": {
+        "relationship": "taiwan_agent",
+        "relationshipNote": "登盛品牌原料頁列「日本森永乳鐵蛋白」MLF-1，規格 200 g、1 kg，公司簡介寫代理森永 BB536、乳鐵蛋白等。頁面沒有寫獨家；森永英文研發頁這次沒有點名台灣夥伴。",
+        "supplierCountry": "日本（德國 MILEI 生產）",
+        "supplierName": "森永乳業（Morinaga Milk Industry）／德國子公司 MILEI GmbH",
+        "taiwanPartyName": "登盛企業股份有限公司"
+      },
+      "tfda": {
+        "evidenceNotes": "食品添加物有乳鐵蛋白（Lactoferrin）1 筆，屬營養添加劑：標示每日食用限量之食品，每日乳鐵蛋白總量不得高於 300 mg，限補充不足營養素時使用；特殊營養食品可視需要使用。食品原料分頁 0 筆，未確認分類也沒有。臨床常用的 200 mg 落在上限內，600 mg 組超過台灣限量。",
+        "lookupDate": "2026-11-09",
+        "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+        "officialCrosscheck": {
+          "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+          "done": true,
+          "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+          "notes": "2026-11-09 依查詢助手公開 data.json（fetched 2026-11-08 06:10，添加物來源為 TFDA 開放資料 61）核對 300 mg 限量。官方添加物頁未另開。"
+        },
+        "queries": [
+          {
+            "category": "(八) 營養添加劑",
+            "keyword": "乳鐵蛋白",
+            "matchedName": "乳鐵蛋白",
+            "note": "附規格檔 08112 乳鐵蛋白 Lactoferrin（112.1.1）。",
+            "restrictionNote": "每日食用量中乳鐵蛋白總量不得高於 300 mg；限於補充食品中不足之營養素時使用。",
+            "resultCount": 1,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "(八) 營養添加劑",
+            "keyword": "Lactoferrin",
+            "matchedName": "乳鐵蛋白",
+            "note": "英文對同一筆。",
+            "restrictionNote": "同上。",
+            "resultCount": 1,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "乳鐵",
+            "matchedName": "",
+            "note": "原料分頁 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Lactoferrin",
+            "matchedName": "",
+            "note": "原料分頁 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "乳鐵蛋白",
+            "matchedName": "",
+            "note": "助手更新歷程（11/01–11/08）沒有異動。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "history",
+            "unconfirmedSafety": false
+          }
+        ],
+        "usable": "listed_food_additive"
       }
     },
     {
@@ -6388,6 +7902,202 @@ window.INGREDIENT_CATALOG = {
     {
       "discovery": {
         "channel": "exhibition",
+        "notes": "從 Aker 的 Vitafoods Europe 2026 展位頁進入，再對 2026 次分析新聞、PMC、官網專利頁與宸品／卡爾迪克台灣頁。",
+        "scoutDate": "2026-11-09"
+      },
+      "efficacy": {
+        "claimedBenefits": [
+          "Aker 官網寫磷蝦油的磷脂型 omega-3 與膽鹼支持心、腦、肝、眼，近年研究延伸到皮膚與運動。這是供應商說法。",
+          "Clinical Nutrition 2022 RCT（NCT04048096，65 歲以上，Superba Boost 每日 4 g、6 個月）：肌力與肌肉大小較對照組增加。2026 年 J Nutr Health Aging 次分析（n=94）說效果不因性別、年齡或 BMI 而不同。兩篇皆屬廠商產品研究。",
+          "宸品研討會頁寫 Superba Boost 磷脂約 56%。"
+        ],
+        "dosageNote": "4 g 是文獻劑量，不是供應商通用建議，也不是台灣限量；台灣列名沒有每日上限。",
+        "suggestedDosage": "RCT 用每日 4 g 磷蝦油（每 1 g 含 EPA 193 mg、DHA 96 mg、膽鹼 79 mg）。官網這次打開的頁沒有寫一般建議量。"
+      },
+      "evidenceLevels": [
+        "clinical"
+      ],
+      "example": false,
+      "id": "superba-boost",
+      "images": [
+        {
+          "caption": "Superba Krill 官網主視覺。",
+          "localPath": "",
+          "source": "official_site",
+          "url": "https://www.superbakrill.com/hubfs/SUPERBA%20Krill%E3%82%A4%E3%83%A1%E3%83%BC%E3%82%B8-jpg.jpeg"
+        }
+      ],
+      "literature": {
+        "note": "證據等級取上述 RCT 與次分析。",
+        "refs": [
+          {
+            "note": "原始 RCT 出處，本次讀新聞與次分析得知設計，未讀全文。",
+            "title": "The effect of krill oil supplementation on skeletal muscle function and size in older adults: A randomised controlled trial",
+            "url": "https://www.clinicalnutritionjournal.com/article/S0261-5614(22)00119-4/fulltext"
+          },
+          {
+            "note": "PMC 已讀：4 g/日 SuperbaBoost 對照混合植物油，6 個月，n=94。",
+            "title": "Do the effects of krill oil supplementation on skeletal muscle function and size in older adults differ by sex, age or BMI",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12720336/"
+          }
+        ],
+        "status": "yes"
+      },
+      "names": {
+        "commonEn": "Antarctic krill oil",
+        "commonZh": "南極磷蝦油（高磷脂）",
+        "scientific": "Euphausia superba",
+        "trade": "Superba Boost（Aker BioMarine；品牌現以 Superba Krill 系列行銷）"
+      },
+      "patent": {
+        "note": "只核官網與新聞，未逐號打開 USPTO；台灣專利未查。",
+        "refs": [
+          {
+            "note": "官網專利清單列 10,010,567、10,105,376 等多筆美國專利號。",
+            "title": "Aker BioMarine Patents（US 10,010,567 等）",
+            "url": "https://www.akerbiomarine.com/patents"
+          },
+          {
+            "note": "2022-08-31：PTAB 維持 US10,010,567B2（磷脂 ≥35%、低游離脂肪酸膠囊）。2019 年新聞另稱取得涵蓋 >50% 磷脂濃縮磷蝦油的美國組成物專利，保護 Superba Boost，該新聞未寫號碼。",
+            "title": "Aker BioMarine’s Patent Portfolio is Strengthened in the United States",
+            "url": "https://www.akerbiomarine.com/news/aker-biomarines-patent-portfolio-is-strengthened-in-the-united-states"
+          }
+        ],
+        "status": "yes"
+      },
+      "sources": [
+        {
+          "accessed": "2026-11-09",
+          "channel": "exhibition",
+          "publisher": "Aker BioMarine",
+          "title": "Elevating Active Body & Mind! Join Us at Vitafoods Europe 2026",
+          "url": "https://www.akerbiomarine.com/join-us-at-vitafoods-europe-2026",
+          "whatItContributes": "Vitafoods Europe 2026（巴塞隆納）Hall 3, Stand 3K148，主推 Superba Krill 用於運動營養與恢復。"
+        },
+        {
+          "accessed": "2026-11-09",
+          "channel": "exhibition",
+          "publisher": "Aker BioMarine",
+          "title": "Join Us at Vitafoods Asia 2026",
+          "url": "https://www.akerbiomarine.com/vitafoods-asia-2026",
+          "whatItContributes": "Vitafoods Asia 2026 展後頁，確認 Aker 參展亞洲場。"
+        },
+        {
+          "accessed": "2026-11-09",
+          "channel": "news",
+          "publisher": "NutraIngredients",
+          "title": "Krill oil may improve muscle strength for all older adults: RCT",
+          "url": "https://www.nutraingredients.com/Article/2026/02/02/krill-oil-supplements-may-improve-muscle-strength-for-all-older-adults/",
+          "whatItContributes": "2026-02 次分析新聞：SuperbaBoost 4 g/日、6 個月。"
+        },
+        {
+          "accessed": "2026-11-09",
+          "channel": "paper",
+          "publisher": "J Nutr Health Aging（PMC）",
+          "title": "PMC12720336 次分析",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12720336/",
+          "whatItContributes": "劑量、每粒 EPA/DHA/膽鹼含量與結果。"
+        },
+        {
+          "accessed": "2026-11-09",
+          "channel": "patent",
+          "publisher": "Aker BioMarine",
+          "title": "Aker BioMarine Patents",
+          "url": "https://www.akerbiomarine.com/patents",
+          "whatItContributes": "美國專利號清單。"
+        },
+        {
+          "accessed": "2026-11-09",
+          "channel": "other",
+          "publisher": "宸品股份有限公司",
+          "title": "Aker 南極磷蝦油",
+          "url": "https://www.champion-bio.com/tw/product-detail/aker_krill_oil/",
+          "whatItContributes": "台灣代理頁：Superba 2、Superba Boost、Kreal 品項與聯絡資料。"
+        },
+        {
+          "accessed": "2026-11-09",
+          "channel": "news",
+          "publisher": "今周刊（整合傳播企劃）",
+          "title": "國際頂級大廠挪威Aker攜手台灣在地品牌肉球世界",
+          "url": "https://www.businesstoday.com.tw/article/category/183030/post/202509180016/",
+          "whatItContributes": "業配稿稱宸品為 Aker 台灣唯一總代理。"
+        }
+      ],
+      "supply": {
+        "relationship": "taiwan_agent",
+        "relationshipNote": "宸品原料頁列 Aker 南極磷蝦油與 Superba 2／Superba Boost，2022 年曾與 Aker 合辦 SuperbaBoost 研討會。今周刊 2025-09 業配稿稱宸品為台灣唯一總代理。台灣卡爾迪克也有 Aker BioMarine 磷蝦油頁（含 Superba Boost），兩家說法未能互相排除，代理以宸品自述為準。",
+        "supplierCountry": "挪威",
+        "supplierName": "Aker BioMarine Antarctic AS",
+        "taiwanPartyName": "宸品股份有限公司"
+      },
+      "tfda": {
+        "evidenceNotes": "食品原料有「磷蝦油；南極蝦油」1 筆，學名 Euphausia superba，備註為由磷蝦（南極蝦）製取，沒有每日上限。商品名 Superba 與添加物都是 0 筆，未確認安全性分類沒有磷蝦。磷蝦油含蝦紅素，但這筆是油脂原料，不是 11 月 6 日的 AstaReal 藻來源蝦紅素。",
+        "lookupDate": "2026-11-09",
+        "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+        "officialCrosscheck": {
+          "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+          "done": true,
+          "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+          "notes": "2026-11-09 依查詢助手公開 data.json（fetched 2026-11-08 06:10）核對列名、學名與備註。官方原料頁未另開。"
+        },
+        "queries": [
+          {
+            "category": "海水產類、爬蟲類或其他動物及其來源製取之原料",
+            "keyword": "磷蝦",
+            "matchedName": "磷蝦油；南極蝦油",
+            "note": "外文 Krill oil。",
+            "restrictionNote": "本品為由磷蝦（南極蝦，Krill）所製取。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "海水產類、爬蟲類或其他動物及其來源製取之原料",
+            "keyword": "Euphausia superba",
+            "matchedName": "磷蝦油；南極蝦油",
+            "note": "學名對同一筆。",
+            "restrictionNote": "同上。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Superba",
+            "matchedName": "",
+            "note": "商品名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "磷蝦",
+            "matchedName": "",
+            "note": "添加物分頁 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "磷蝦",
+            "matchedName": "",
+            "note": "助手更新歷程（11/01–11/08）沒有異動。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "history",
+            "unconfirmedSafety": false
+          }
+        ],
+        "usable": "listed_food_ingredient"
+      }
+    },
+    {
+      "discovery": {
+        "channel": "exhibition",
         "notes": "從 Taiyo 的 Vitafoods 2024 展前稿看到 Teavigo 品名，再對產品頁、EGCG 臨床摘要與仕琦目錄。SupplySide 2025 只核到 Taiyo 攤位，沒有在名錄上看到 Teavigo 三個字。與 11 月 7 日 Suntheanine 同供應商、不同化合物。",
         "scoutDate": "2026-11-08"
       },
@@ -6544,6 +8254,204 @@ window.INGREDIENT_CATALOG = {
             "keyword": "沒食子",
             "matchedName": "",
             "note": "助手更新歷程未另見改列未確認。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "history",
+            "unconfirmedSafety": false
+          }
+        ],
+        "usable": "listed_food_ingredient"
+      }
+    },
+    {
+      "discovery": {
+        "channel": "news",
+        "notes": "從 NutraIngredients 2026-01 的 Veri-te 皮膚 RCT 新聞進入，再對 Lallemand 品牌頁、PubMed、Google Patents 與宸品／良勵台灣頁。TFDA 列名綁定 EFSC4687 菌株，與宸品頁寫的菌株一致。",
+        "scoutDate": "2026-11-09"
+      },
+      "efficacy": {
+        "claimedBenefits": [
+          "Lallemand 官網寫 Veri-te >98% 反式白藜蘆醇，宣稱皮膚、認知、情緒、更年期不適與骨骼等效益，引用 RESHAW（125 位停經婦女，75 mg 一天兩次，24 個月交叉）。這是供應商說法。",
+          "Front Aging 2025（Rao 等，NutraIngredients 2026-01 報導）：40 歲以上女性 8 週，口服 150 mg/日加外用乳霜組皺紋分數優於雙安慰劑；只口服組沒有顯著差。",
+          "JBMR 2020（RESHAW 骨骼結果）：停經婦女 75 mg 一天兩次 12 個月，腰椎與股骨頸骨密度改善。"
+        ],
+        "dosageNote": "150 mg 同時是文獻劑量與台灣上限，不可再加量。官網這次沒有寫一般建議量。",
+        "suggestedDosage": "研究劑量 75 mg 一天兩次（150 mg/日）。台灣每日上限 150 mg，限成人膳食補充品。"
+      },
+      "evidenceLevels": [
+        "clinical"
+      ],
+      "example": false,
+      "id": "veri-te",
+      "images": [
+        {
+          "caption": "Lallemand 官網 Veri-te 品牌頁橫幅（情境圖，不是原料實物）。",
+          "localPath": "",
+          "source": "official_site",
+          "url": "https://admin.bio-lallemand.com/wp-content/uploads/2025/01/AdobeStock_228690296-685x335-1.jpg"
+        }
+      ],
+      "literature": {
+        "note": "兩篇都有 Evolva／Lallemand 參與或供料。",
+        "refs": [
+          {
+            "note": "Front Aging 2025（PMID 41488277）。依 NutraIngredients 報導與 PubMed 書目，未讀全文。",
+            "title": "Trans-resveratrol reduces visible signs of skin ageing in healthy adult females over 40: an 8-week randomized placebo-controlled trial",
+            "url": "https://doi.org/10.3389/fragi.2025.1727244"
+          },
+          {
+            "note": "J Bone Miner Res 2020，RESHAW 骨骼結果，只核書目。",
+            "title": "Regular Supplementation With Resveratrol Improves Bone Mineral Density in Postmenopausal Women: A Randomized, Placebo-Controlled Trial",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32564438/"
+          }
+        ],
+        "status": "yes"
+      },
+      "names": {
+        "commonEn": "trans-resveratrol (yeast fermentation)",
+        "commonZh": "反式白藜蘆醇（酵母發酵）",
+        "scientific": "化合物，非植物萃取。以基因改造啤酒酵母 Saccharomyces cerevisiae 發酵生產；台灣代理頁寫 EFSC4687 菌株。",
+        "trade": "Veri-te（Evolva 生產、Lallemand Bio-Ingredients 銷售）"
+      },
+      "patent": {
+        "note": "宸品寫國際專利製程，這兩件是 Evolva 名下的發酵生產／純化專利；是否與 EFSC4687 量產製程逐條對應未核。",
+        "refs": [
+          {
+            "note": "權利人 Evolva SA（頁面拼作 Evola SA），2015 年公告。",
+            "title": "US9040269B2 - Metabolically engineered cells for the production of resveratrol…",
+            "url": "https://patents.google.com/patent/US9040269B2/en"
+          },
+          {
+            "note": "權利人 Evolva AG，2021 年公告。",
+            "title": "US11136283B2 - Recovering and purifying resveratrol produced by microbial fermentation",
+            "url": "https://patents.google.com/patent/US11136283B2/en"
+          }
+        ],
+        "status": "yes"
+      },
+      "sources": [
+        {
+          "accessed": "2026-11-09",
+          "channel": "news",
+          "publisher": "NutraIngredients",
+          "title": "Resveratrol supplements may improve signs of skin aging: Lallemand RCT",
+          "url": "https://www.nutraingredients.com/Article/2026/01/14/resveratrol-supplements-may-improve-signs-of-skin-aging/",
+          "whatItContributes": "2026-01-14 新聞：Veri-te 150 mg/日 8 週 RCT，Lallemand 稱 2026 為白藜蘆醇突破年。"
+        },
+        {
+          "accessed": "2026-11-09",
+          "channel": "supplier_site",
+          "publisher": "Lallemand Bio-Ingredients",
+          "title": "Bio-Lallemand - Veri-te™",
+          "url": "https://www.bio-lallemand.com/en/brands/veri-te/",
+          "whatItContributes": "品牌頁：>98% 純度、RESHAW 設計、入圍 2026 NutraIngredients Europe 年度原料（美容由內而外）。"
+        },
+        {
+          "accessed": "2026-11-09",
+          "channel": "other",
+          "publisher": "宸品股份有限公司",
+          "title": "反式白藜蘆醇 Veri-te™",
+          "url": "https://www.champion-bio.com/tw/product-detail/Resveratrol_Bulk_Supply/",
+          "whatItContributes": "台灣獨家代理自述、EFSC4687 菌株與非虎杖來源說明。"
+        },
+        {
+          "accessed": "2026-11-09",
+          "channel": "other",
+          "publisher": "良勵生物科技",
+          "title": "Veri-Ti™ 啤酒酵母含白藜蘆醇",
+          "url": "https://www.pharmachief.com.tw/news_detail/59.htm",
+          "whatItContributes": "另一家台灣代理頁。"
+        },
+        {
+          "accessed": "2026-11-09",
+          "channel": "patent",
+          "publisher": "Google Patents",
+          "title": "US9040269B2",
+          "url": "https://patents.google.com/patent/US9040269B2/en",
+          "whatItContributes": "Evolva 酵母生產專利。"
+        },
+        {
+          "accessed": "2026-11-09",
+          "channel": "paper",
+          "publisher": "J Bone Miner Res（PubMed）",
+          "title": "PubMed 32564438",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/32564438/",
+          "whatItContributes": "RESHAW 骨密度 RCT 書目。"
+        }
+      ],
+      "supply": {
+        "relationship": "taiwan_agent",
+        "relationshipNote": "宸品頁標「Veri-te™白藜蘆醇原料獨家代理」，並寫 EFSC4687 菌株發酵與 >98% 純度。良勵生物科技與大醫生技也有 Veri-te 頁，獨家說法未能互相排除，以宸品自述為準。Lallemand 這次打開的頁沒有點名台灣夥伴。",
+        "supplierCountry": "瑞士（Lallemand 為加拿大集團）",
+        "supplierName": "Evolva AG／Lallemand Bio-Ingredients",
+        "taiwanPartyName": "宸品股份有限公司"
+      },
+      "tfda": {
+        "evidenceNotes": "食品原料有「反式白藜蘆醇」1 筆，只限基因改造啤酒酵母 EFSC4687 菌株發酵純化、最終不含基改微生物的產品。限成人膳食補充品，每日 150 mg，要標基改生產來源與「限成人、孕哺避免、服藥諮詢醫師」警語。虎杖是未確認安全性，虎杖萃取或化學合成的白藜蘆醇不能套用這筆。",
+        "lookupDate": "2026-11-09",
+        "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+        "officialCrosscheck": {
+          "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+          "done": true,
+          "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+          "notes": "2026-11-09 依查詢助手公開 data.json（fetched 2026-11-08 06:10）核對公告全文、150 mg 與警語，以及虎杖未確認列名。官方原料頁未另開。"
+        },
+        "queries": [
+          {
+            "category": "微生物及其來源製取之原料",
+            "keyword": "白藜蘆醇",
+            "matchedName": "反式白藜蘆醇",
+            "note": "外文 trans-resveratrol。",
+            "restrictionNote": "衛授食字第1121301256號（112-06-29）：限基改啤酒酵母 EFSC4687 發酵純化；限成人膳食補充品，每日 150 mg；須標基改生產來源與警語。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "微生物及其來源製取之原料",
+            "keyword": "resveratrol",
+            "matchedName": "反式白藜蘆醇",
+            "note": "英文對同一筆。",
+            "restrictionNote": "同上。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "未確認安全性尚不得使用之原料",
+            "keyword": "虎杖",
+            "matchedName": "虎杖",
+            "note": "Reynoutria japonica／Polygonum cuspidatum，是常見植物來源白藜蘆醇；本品不是此來源。",
+            "restrictionNote": "未經確認其食用安全性前，不得供為食品原料使用。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": true
+          },
+          {
+            "category": "",
+            "keyword": "Veri-te",
+            "matchedName": "",
+            "note": "商品名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "白藜蘆醇",
+            "matchedName": "",
+            "note": "添加物分頁 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "白藜蘆醇",
+            "matchedName": "",
+            "note": "助手更新歷程（11/01–11/08）沒有異動。",
             "restrictionNote": "",
             "resultCount": 0,
             "tab": "history",

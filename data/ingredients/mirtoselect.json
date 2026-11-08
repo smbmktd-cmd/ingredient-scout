@@ -1,0 +1,186 @@
+{
+  "id": "mirtoselect",
+  "example": false,
+  "names": {
+    "commonZh": "山桑子萃取物",
+    "commonEn": "bilberry extract",
+    "trade": "Mirtoselect（Indena 的山桑子萃取物商品名）",
+    "scientific": "Vaccinium myrtillus L.（果實）"
+  },
+  "supply": {
+    "supplierName": "Indena S.p.A.",
+    "supplierCountry": "義大利",
+    "relationship": "taiwan_distributor",
+    "taiwanPartyName": "漢馨科技有限公司",
+    "relationshipNote": "漢馨的供應商頁列 Indena，產品頁寫原廠 Indena、產地義大利。台灣另有 HG Bio、大醫生技、大自然生技素材頁也賣 Mirtoselect，大醫寫「原廠授權原料」。沒有任何一家寫獨家代理，Indena 官網這次也沒有點名台灣夥伴，先填經銷。"
+  },
+  "tfda": {
+    "usable": "listed_food_ingredient",
+    "evidenceNotes": "食品原料有「山桑；鳥嘴梅」1 筆，學名含 Vaccinium myrtillus L.，部位果實，屬可供直接食用類，沒有限量。商品名與添加物都是 0 筆。未確認分類只見藍莓葉（V. corymbosum 等），不是山桑子果實。",
+    "lookupDate": "2026-11-09",
+    "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+    "queries": [
+      {
+        "tab": "ingredient",
+        "keyword": "山桑",
+        "category": "草、木本植物類(2)可供直接食用",
+        "resultCount": 1,
+        "matchedName": "山桑；鳥嘴梅",
+        "restrictionNote": "部位果實，備註空白。",
+        "unconfirmedSafety": false,
+        "note": "外文 Bilberry，學名 Vaccinium myrtillus L., Vaccinium uliginosum L.。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Vaccinium",
+        "category": "",
+        "resultCount": null,
+        "matchedName": "多筆（蔓越莓、山桑、藍莓葉等）",
+        "restrictionNote": "未確認分類只有藍莓葉。",
+        "unconfirmedSafety": false,
+        "note": "藍莓葉為 V. corymbosum／V. pallidum／V. virgatum 的葉，與本品物種、部位都不同。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Mirtoselect",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "山桑",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "添加物分頁 0 筆。"
+      },
+      {
+        "tab": "history",
+        "keyword": "山桑",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "助手更新歷程（11/01–11/08）沒有異動。"
+      }
+    ],
+    "officialCrosscheck": {
+      "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+      "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+      "done": true,
+      "notes": "2026-11-09 依查詢助手公開 data.json（fetched 2026-11-08 06:10）核對山桑果實列名與藍莓葉未確認列名。官方原料頁未另開。"
+    }
+  },
+  "efficacy": {
+    "claimedBenefits": [
+      "Indena 產品頁寫 Mirtoselect 花青素 >36%，有 50–60 篇以上研究，宣稱支持血管、腦與眼睛健康，近年另研究情緒。這是供應商說法。",
+      "Riva 等 2017（Eur Rev Med Pharmacol Sci）：乾眼症狀成人 4 週雙盲安慰劑對照，Mirtoselect 組 Schirmer 淚液分泌改善，完成者僅 21 人。",
+      "漢馨頁寫取得美國減壓功效專利，本次未找到專利號。"
+    ],
+    "suggestedDosage": "Indena 規格表（2025-10）：每日 160–320 mg。",
+    "dosageNote": "160–320 mg 是供應商建議。台灣果實列名沒有每日上限。"
+  },
+  "patent": {
+    "status": "unknown",
+    "refs": [],
+    "note": "漢馨、HG Bio 頁寫「專利：有」，Indena 規格表與產品頁沒有列專利號；Google Patents 以山桑子與情緒搜尋未找到 Indena 權利人專利。維持 unknown。"
+  },
+  "literature": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "The effect of a natural, standardized bilberry extract (Mirtoselect®) in dry eye: a randomized, double blinded, placebo-controlled trial",
+        "url": "https://www.europeanreview.org/article/12829",
+        "note": "摘要已讀。4 週，完成 21 人，淚液分泌與血漿抗氧化力改善。"
+      },
+      {
+        "title": "In vitro mechanistic studies and potential health benefits of a standardized bilberry extract in low mood and cognitive enhancement",
+        "url": "https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1630147/full",
+        "note": "2025 Frontiers in Nutrition，搜尋摘要提到體外機轉與 33 人小型人體研究，本次未讀全文。"
+      }
+    ],
+    "note": "臨床證據樣本數小。"
+  },
+  "evidenceLevels": [
+    "in_vitro",
+    "clinical"
+  ],
+  "images": [
+    {
+      "url": "https://www.indena.com/indena_files/2019/12/mirtoselect-card-product-nutra-listing.jpg",
+      "localPath": "",
+      "caption": "Indena 官網 Mirtoselect 產品卡圖。",
+      "source": "official_site"
+    }
+  ],
+  "sources": [
+    {
+      "title": "SupplySide Global 2026 – Indena USA eBooth",
+      "url": "https://exhibitor.supplysideglobal.com/supplysideglobal26/Public/eBooth.aspx?BoothID=152810&FromPage=Exhibitors.aspx&IndexInList=704&ListByBooth=true&Nav=False&ParentBoothID=",
+      "publisher": "SupplySide Global",
+      "channel": "exhibition",
+      "accessed": "2026-11-09",
+      "whatItContributes": "2026 展商名錄：Indena USA 攤位 4665，品牌清單含 Mirtoselect，類別含 Bilberry。"
+    },
+    {
+      "title": "Indena at SupplySide Global 2026",
+      "url": "https://www.indena.com/us/2026/09/21/indena-at-supplyside-global-2026/",
+      "publisher": "Indena",
+      "channel": "exhibition",
+      "accessed": "2026-11-09",
+      "whatItContributes": "Indena 參展公告；主推品牌不是 Mirtoselect，品項以名錄為準。"
+    },
+    {
+      "title": "Mirtoselect®",
+      "url": "https://www.indena.com/product/mirtoselect/",
+      "publisher": "Indena",
+      "channel": "supplier_site",
+      "accessed": "2026-11-09",
+      "whatItContributes": "學名、>36% 花青素、研究數量說法與產品圖。"
+    },
+    {
+      "title": "Mirtoselect - bilberry extract（spec sheet）",
+      "url": "https://www.indena.com/indena_files/2025/10/mirtoselect_ss_int.pdf",
+      "publisher": "Indena",
+      "channel": "supplier_site",
+      "accessed": "2026-11-09",
+      "whatItContributes": "建議劑量 160–320 mg/日。"
+    },
+    {
+      "title": "Riva et al. 2017 dry eye RCT",
+      "url": "https://www.europeanreview.org/article/12829",
+      "publisher": "Eur Rev Med Pharmacol Sci",
+      "channel": "paper",
+      "accessed": "2026-11-09",
+      "whatItContributes": "乾眼 RCT 摘要。"
+    },
+    {
+      "title": "Mirtoselect® 山桑子萃取物",
+      "url": "https://www.hansient.com.tw/product/mirtoselect-%e5%b1%b1%e6%a1%91%e5%ad%90%e8%90%83%e5%8f%96%e7%89%a9/",
+      "publisher": "漢馨科技有限公司",
+      "channel": "other",
+      "accessed": "2026-11-09",
+      "whatItContributes": "台灣頁：原廠 Indena、義大利、專利有、原廠研究有。"
+    },
+    {
+      "title": "Indena｜MirtoSelect® 山桑子萃取",
+      "url": "https://www.hg-bio.com.tw/products/mirtoselect/",
+      "publisher": "HG Bio",
+      "channel": "other",
+      "accessed": "2026-11-09",
+      "whatItContributes": "另一家台灣供應頁，花色苷 36%。"
+    }
+  ],
+  "discovery": {
+    "channel": "exhibition",
+    "scoutDate": "2026-11-09",
+    "notes": "從 SupplySide Global 2026 的 Indena USA 名錄品牌清單看到 Mirtoselect，再對 Indena 產品頁、規格表、乾眼 RCT 與台灣多家供應頁。與 11 月 7 日葉黃素（萬壽菊）不同原料。"
+  }
+}

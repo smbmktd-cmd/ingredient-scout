@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-09",
+  "example": false,
+  "title": "2026-11-09 正式日報",
+  "targetCount": 5,
+  "channelsCovered": [
+    "news",
+    "exhibition",
+    "industry_report"
+  ],
+  "notes": "正式五筆。主管道：Affron、Veri-te 為新聞；Superba Boost、Mirtoselect 為展覽；森永乳鐵蛋白為產業報導。未放入未確認安全性項目；查到並排除的有虎杖（白藜蘆醇常見植物來源）、藍莓葉、鋸棕櫚，以及既有雷區。Veri-te 對應基改酵母 EFSC4687 那一筆，限成人、每日 150 mg。乳鐵蛋白是營養添加劑，每日 300 mg 上限。磷蝦油與 11 月 6 日 AstaReal 不同原料。",
+  "picks": [
+    "affron",
+    "superba-boost",
+    "mirtoselect",
+    "morinaga-lactoferrin",
+    "veri-te"
+  ]
+}

@@ -1,0 +1,196 @@
+{
+  "id": "superba-boost",
+  "example": false,
+  "names": {
+    "commonZh": "南極磷蝦油（高磷脂）",
+    "commonEn": "Antarctic krill oil",
+    "trade": "Superba Boost（Aker BioMarine；品牌現以 Superba Krill 系列行銷）",
+    "scientific": "Euphausia superba"
+  },
+  "supply": {
+    "supplierName": "Aker BioMarine Antarctic AS",
+    "supplierCountry": "挪威",
+    "relationship": "taiwan_agent",
+    "taiwanPartyName": "宸品股份有限公司",
+    "relationshipNote": "宸品原料頁列 Aker 南極磷蝦油與 Superba 2／Superba Boost，2022 年曾與 Aker 合辦 SuperbaBoost 研討會。今周刊 2025-09 業配稿稱宸品為台灣唯一總代理。台灣卡爾迪克也有 Aker BioMarine 磷蝦油頁（含 Superba Boost），兩家說法未能互相排除，代理以宸品自述為準。"
+  },
+  "tfda": {
+    "usable": "listed_food_ingredient",
+    "evidenceNotes": "食品原料有「磷蝦油；南極蝦油」1 筆，學名 Euphausia superba，備註為由磷蝦（南極蝦）製取，沒有每日上限。商品名 Superba 與添加物都是 0 筆，未確認安全性分類沒有磷蝦。磷蝦油含蝦紅素，但這筆是油脂原料，不是 11 月 6 日的 AstaReal 藻來源蝦紅素。",
+    "lookupDate": "2026-11-09",
+    "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+    "queries": [
+      {
+        "tab": "ingredient",
+        "keyword": "磷蝦",
+        "category": "海水產類、爬蟲類或其他動物及其來源製取之原料",
+        "resultCount": 1,
+        "matchedName": "磷蝦油；南極蝦油",
+        "restrictionNote": "本品為由磷蝦（南極蝦，Krill）所製取。",
+        "unconfirmedSafety": false,
+        "note": "外文 Krill oil。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Euphausia superba",
+        "category": "海水產類、爬蟲類或其他動物及其來源製取之原料",
+        "resultCount": 1,
+        "matchedName": "磷蝦油；南極蝦油",
+        "restrictionNote": "同上。",
+        "unconfirmedSafety": false,
+        "note": "學名對同一筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Superba",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "磷蝦",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "添加物分頁 0 筆。"
+      },
+      {
+        "tab": "history",
+        "keyword": "磷蝦",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "助手更新歷程（11/01–11/08）沒有異動。"
+      }
+    ],
+    "officialCrosscheck": {
+      "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+      "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+      "done": true,
+      "notes": "2026-11-09 依查詢助手公開 data.json（fetched 2026-11-08 06:10）核對列名、學名與備註。官方原料頁未另開。"
+    }
+  },
+  "efficacy": {
+    "claimedBenefits": [
+      "Aker 官網寫磷蝦油的磷脂型 omega-3 與膽鹼支持心、腦、肝、眼，近年研究延伸到皮膚與運動。這是供應商說法。",
+      "Clinical Nutrition 2022 RCT（NCT04048096，65 歲以上，Superba Boost 每日 4 g、6 個月）：肌力與肌肉大小較對照組增加。2026 年 J Nutr Health Aging 次分析（n=94）說效果不因性別、年齡或 BMI 而不同。兩篇皆屬廠商產品研究。",
+      "宸品研討會頁寫 Superba Boost 磷脂約 56%。"
+    ],
+    "suggestedDosage": "RCT 用每日 4 g 磷蝦油（每 1 g 含 EPA 193 mg、DHA 96 mg、膽鹼 79 mg）。官網這次打開的頁沒有寫一般建議量。",
+    "dosageNote": "4 g 是文獻劑量，不是供應商通用建議，也不是台灣限量；台灣列名沒有每日上限。"
+  },
+  "patent": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "Aker BioMarine Patents（US 10,010,567 等）",
+        "url": "https://www.akerbiomarine.com/patents",
+        "note": "官網專利清單列 10,010,567、10,105,376 等多筆美國專利號。"
+      },
+      {
+        "title": "Aker BioMarine’s Patent Portfolio is Strengthened in the United States",
+        "url": "https://www.akerbiomarine.com/news/aker-biomarines-patent-portfolio-is-strengthened-in-the-united-states",
+        "note": "2022-08-31：PTAB 維持 US10,010,567B2（磷脂 ≥35%、低游離脂肪酸膠囊）。2019 年新聞另稱取得涵蓋 >50% 磷脂濃縮磷蝦油的美國組成物專利，保護 Superba Boost，該新聞未寫號碼。"
+      }
+    ],
+    "note": "只核官網與新聞，未逐號打開 USPTO；台灣專利未查。"
+  },
+  "literature": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "The effect of krill oil supplementation on skeletal muscle function and size in older adults: A randomised controlled trial",
+        "url": "https://www.clinicalnutritionjournal.com/article/S0261-5614(22)00119-4/fulltext",
+        "note": "原始 RCT 出處，本次讀新聞與次分析得知設計，未讀全文。"
+      },
+      {
+        "title": "Do the effects of krill oil supplementation on skeletal muscle function and size in older adults differ by sex, age or BMI",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12720336/",
+        "note": "PMC 已讀：4 g/日 SuperbaBoost 對照混合植物油，6 個月，n=94。"
+      }
+    ],
+    "note": "證據等級取上述 RCT 與次分析。"
+  },
+  "evidenceLevels": [
+    "clinical"
+  ],
+  "images": [
+    {
+      "url": "https://www.superbakrill.com/hubfs/SUPERBA%20Krill%E3%82%A4%E3%83%A1%E3%83%BC%E3%82%B8-jpg.jpeg",
+      "localPath": "",
+      "caption": "Superba Krill 官網主視覺。",
+      "source": "official_site"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Elevating Active Body & Mind! Join Us at Vitafoods Europe 2026",
+      "url": "https://www.akerbiomarine.com/join-us-at-vitafoods-europe-2026",
+      "publisher": "Aker BioMarine",
+      "channel": "exhibition",
+      "accessed": "2026-11-09",
+      "whatItContributes": "Vitafoods Europe 2026（巴塞隆納）Hall 3, Stand 3K148，主推 Superba Krill 用於運動營養與恢復。"
+    },
+    {
+      "title": "Join Us at Vitafoods Asia 2026",
+      "url": "https://www.akerbiomarine.com/vitafoods-asia-2026",
+      "publisher": "Aker BioMarine",
+      "channel": "exhibition",
+      "accessed": "2026-11-09",
+      "whatItContributes": "Vitafoods Asia 2026 展後頁，確認 Aker 參展亞洲場。"
+    },
+    {
+      "title": "Krill oil may improve muscle strength for all older adults: RCT",
+      "url": "https://www.nutraingredients.com/Article/2026/02/02/krill-oil-supplements-may-improve-muscle-strength-for-all-older-adults/",
+      "publisher": "NutraIngredients",
+      "channel": "news",
+      "accessed": "2026-11-09",
+      "whatItContributes": "2026-02 次分析新聞：SuperbaBoost 4 g/日、6 個月。"
+    },
+    {
+      "title": "PMC12720336 次分析",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12720336/",
+      "publisher": "J Nutr Health Aging（PMC）",
+      "channel": "paper",
+      "accessed": "2026-11-09",
+      "whatItContributes": "劑量、每粒 EPA/DHA/膽鹼含量與結果。"
+    },
+    {
+      "title": "Aker BioMarine Patents",
+      "url": "https://www.akerbiomarine.com/patents",
+      "publisher": "Aker BioMarine",
+      "channel": "patent",
+      "accessed": "2026-11-09",
+      "whatItContributes": "美國專利號清單。"
+    },
+    {
+      "title": "Aker 南極磷蝦油",
+      "url": "https://www.champion-bio.com/tw/product-detail/aker_krill_oil/",
+      "publisher": "宸品股份有限公司",
+      "channel": "other",
+      "accessed": "2026-11-09",
+      "whatItContributes": "台灣代理頁：Superba 2、Superba Boost、Kreal 品項與聯絡資料。"
+    },
+    {
+      "title": "國際頂級大廠挪威Aker攜手台灣在地品牌肉球世界",
+      "url": "https://www.businesstoday.com.tw/article/category/183030/post/202509180016/",
+      "publisher": "今周刊（整合傳播企劃）",
+      "channel": "news",
+      "accessed": "2026-11-09",
+      "whatItContributes": "業配稿稱宸品為 Aker 台灣唯一總代理。"
+    }
+  ],
+  "discovery": {
+    "channel": "exhibition",
+    "scoutDate": "2026-11-09",
+    "notes": "從 Aker 的 Vitafoods Europe 2026 展位頁進入，再對 2026 次分析新聞、PMC、官網專利頁與宸品／卡爾迪克台灣頁。"
+  }
+}

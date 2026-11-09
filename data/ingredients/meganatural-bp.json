@@ -1,0 +1,183 @@
+{
+  "id": "meganatural-bp",
+  "example": false,
+  "names": {
+    "commonZh": "葡萄籽萃取物",
+    "commonEn": "grape seed extract",
+    "trade": "MegaNatural-BP（California Natural Color 的葡萄籽萃取商品名）",
+    "scientific": "Vitis vinifera L.（種子）"
+  },
+  "supply": {
+    "supplierName": "California Natural Color（E. & J. Gallo）",
+    "supplierCountry": "美國",
+    "relationship": "unknown",
+    "taiwanPartyName": "查無",
+    "relationshipNote": "原廠頁寫由該公司製造 MegaNatural-BP，原料是未發酵葡萄籽、熱水萃取。Nutraceuticals World 寫 PLT Health Solutions 負責北美銷售。Swanson Vitamins 台灣站有含此商品名的成品膠囊，不是原料代理，所以台灣關聯廠商填查無。"
+  },
+  "tfda": {
+    "usable": "listed_food_ingredient",
+    "evidenceNotes": "葡萄種子或果皮萃取物列在可供食用的「葡萄」項下，學名 Vitis vinifera，由種子或果皮萃取，每日以前花青素計 150 mg。同一學名另有未確認的根、莖、藤、嫩芽，那一筆不能用；果實是另一筆直接食用。商品名 MegaNatural 與添加物用「葡萄種子」是 0 筆。",
+    "lookupDate": "2026-11-10",
+    "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+    "queries": [
+      {
+        "tab": "ingredient",
+        "keyword": "葡萄種子",
+        "category": "草、木本植物類(2)可供直接食用",
+        "resultCount": 1,
+        "matchedName": "葡萄",
+        "restrictionNote": "衛授食字第1131301534號：由 Vitis vinifera 種子或果皮萃取；每日食用限量以前花青素計 150 mg。",
+        "unconfirmedSafety": false,
+        "note": "部位種子、果皮。這是本品對到的規格。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Vitis vinifera",
+        "category": "",
+        "resultCount": 4,
+        "matchedName": "葡萄；紅葡萄葉萃取物",
+        "restrictionNote": "未確認那筆部位是根、莖、藤、嫩芽，備註寫未經確認不得供為食品原料。種子果皮萃取另有前花青素 150 mg 上限。紅葡萄葉萃取物每日 720 mg。",
+        "unconfirmedSafety": true,
+        "note": "4 筆裡 1 筆未確認。本品只對種子萃取，不套用根莖藤嫩芽，也不套用葉的 720 mg。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "MegaNatural",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "葡萄種子",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "添加物分頁 0 筆。"
+      },
+      {
+        "tab": "history",
+        "keyword": "葡萄種子",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "助手更新歷程（11/01–11/09）沒有異動。"
+      }
+    ],
+    "officialCrosscheck": {
+      "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+      "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+      "done": true,
+      "notes": "2026-11-10 依查詢助手 data.json（詳細頁 id 17029，擷取 2026-11-09 06:15）核對前花青素 150 mg 與未確認的根莖藤嫩芽。官方 MaterialDetail 這次沒有回 HTTP 標頭。"
+    }
+  },
+  "efficacy": {
+    "claimedBenefits": [
+      "California Natural Color 產品頁寫：MegaNatural-BP 用專利熱水製程把多酚分子量做小，人體研究顯示有助於把血壓維持在正常範圍。這是供應商說法。",
+      "Metabolism 2009（PMID 19608210）：代謝症候群成人分三組，安慰劑、葡萄籽萃取 150 mg 或 300 mg，4 週。摘要寫的是 grape seed extract。Polyphenolics 手冊把其中的原料寫成 MegaNatural-BP，並寫酚含量 94%。",
+      "EFSA Journal 2021（PMID 34400974）是針對 MegaNatural-BP 與維持正常血壓的健康宣稱意見書。這次只核到審查對象，沒有改寫委員會結論。"
+    ],
+    "suggestedDosage": "Metabolism 2009 用每日 150 mg 或 300 mg 萃取物，共 4 週。原廠頁這次沒有另寫一個日常建議量。",
+    "dosageNote": "150 與 300 mg 是該篇試驗劑量。台灣上限是前花青素每日 150 mg，不是萃取物 150 mg。這次讀到的規格是多酚約 94%，沒有寫前花青素百分比，不能把 300 mg 萃取物直接換成已符合上限。"
+  },
+  "patent": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "US7767235B2",
+        "url": "https://patents.google.com/patent/US7767235B2/en",
+        "note": "Polyphenolics 手冊列為組成專利。SupplySide 法律新聞寫美國專利 7,767,235 核給 Constellation Brands／Polyphenolics 的 MegaNatural-BP。這次打開 Google Patents 頁，沒有核權利是否仍有效。"
+      }
+    ],
+    "note": "同一本手冊還列 US6544581、US7651707、US8075929。這次只打開 US7767235。"
+  },
+  "literature": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "Effect of grape seed extract on blood pressure in subjects with the metabolic syndrome",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/19608210/",
+        "note": "Metabolism 2009（PMID 19608210）。摘要寫 150 與 300 mg 葡萄籽萃取，沒有寫商品名。品牌對應見 Polyphenolics 手冊。"
+      },
+      {
+        "title": "MegaNatural-BP grape seed extract and maintenance of normal blood pressure",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/34400974/",
+        "note": "EFSA Journal 2021（PMID 34400974）。健康宣稱審查，不是新的療效試驗。"
+      }
+    ],
+    "note": "人體血壓資料以 2009 年那篇為主。EFSA 意見只用來確認商品名進過歐洲宣稱審查。"
+  },
+  "evidenceLevels": [
+    "clinical"
+  ],
+  "images": [
+    {
+      "url": "https://www.californianaturalcolor.com/grape-seed-extract/content/grapes-and-seeds.png",
+      "localPath": "",
+      "caption": "California Natural Color 葡萄籽頁的葡萄與種子圖。",
+      "source": "official_site"
+    }
+  ],
+  "sources": [
+    {
+      "title": "SupplySide Global 2026: What’s happening on the show floor",
+      "url": "https://www.nutraingredients.com/Article/2026/10/14/supplyside-global-2026-whats-happening-on-the-show-floor/",
+      "publisher": "NutraIngredients",
+      "channel": "exhibition",
+      "accessed": "2026-11-10",
+      "whatItContributes": "展前記者：California Natural Color 在 SupplySide Global 2026 展出 MegaNatural-BP，飲品概念每份 150 mg。"
+    },
+    {
+      "title": "Grape Seed Extract",
+      "url": "https://www.californianaturalcolor.com/grape-seed-extract/",
+      "publisher": "California Natural Color",
+      "channel": "supplier_site",
+      "accessed": "2026-11-10",
+      "whatItContributes": "原廠頁：與 ActiVin 同為葡萄籽，MegaNatural-BP 另有降低多酚分子量的專利製程。"
+    },
+    {
+      "title": "MegaNatural-BP brochure",
+      "url": "https://www.polyphenolics.com/wp-content/uploads/2017/08/3-MegaNatural-BP-Brochure.pdf",
+      "publisher": "Polyphenolics",
+      "channel": "supplier_site",
+      "accessed": "2026-11-10",
+      "whatItContributes": "手冊把 150／300 mg 的代謝症候群試驗寫成 MegaNatural-BP，並列出四個美國專利號。"
+    },
+    {
+      "title": "PLT to Market California Natural Colors’ MegaNatural Portfolio",
+      "url": "https://www.nutraceuticalsworld.com/breaking-news/plt-to-market-california-natural-colors-meganatural-portfolio/",
+      "publisher": "Nutraceuticals World",
+      "channel": "industry_report",
+      "accessed": "2026-11-10",
+      "whatItContributes": "PLT 負責北美；文中寫標準化至 94% 多酚，種子為未發酵釀酒葡萄籽、熱水萃取。"
+    },
+    {
+      "title": "PubMed 19608210",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19608210/",
+      "publisher": "Metabolism（PubMed）",
+      "channel": "paper",
+      "accessed": "2026-11-10",
+      "whatItContributes": "4 週、150 或 300 mg 葡萄籽萃取的血壓試驗書目。"
+    },
+    {
+      "title": "US7767235B2",
+      "url": "https://patents.google.com/patent/US7767235B2/en",
+      "publisher": "Google Patents",
+      "channel": "patent",
+      "accessed": "2026-11-10",
+      "whatItContributes": "手冊與法律新聞指向的組成專利頁。"
+    }
+  ],
+  "discovery": {
+    "channel": "exhibition",
+    "scoutDate": "2026-11-10",
+    "notes": "從 SupplySide Global 2026 展前記者的 California Natural Color／MegaNatural-BP 進入，再對原廠頁、Polyphenolics 手冊、PubMed 與 PLT 的北美銷售稿。TFDA 只採用種子與果皮萃取，並受前花青素 150 mg 限制。"
+  }
+}

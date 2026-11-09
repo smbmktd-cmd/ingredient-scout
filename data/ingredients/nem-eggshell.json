@@ -1,0 +1,175 @@
+{
+  "id": "nem-eggshell",
+  "example": false,
+  "names": {
+    "commonZh": "蛋殼膜",
+    "commonEn": "eggshell membrane",
+    "trade": "NEM（Stratum Nutrition 的蛋殼膜商品名）",
+    "scientific": "不適用植物學名。原料是雞蛋殼膜。臨床論文的單位寫 ESM Technologies, LLC（密蘇里 Carthage）。"
+  },
+  "supply": {
+    "supplierName": "Stratum Nutrition",
+    "supplierCountry": "美國",
+    "relationship": "taiwan_agent",
+    "taiwanPartyName": "統園企業股份有限公司",
+    "relationshipNote": "Stratum 2026-11-06 新聞與統園頁都寫統園代理 NEM。統園頁首日期是 2026/06/26，Stratum 英文稿日期是 2026-11-06，並寫合約在 Vitafoods Asia 2026 簽署，兩個日期對不上。遠景與大自然生技素材也有 NEM 產品頁，獨家範圍沒有互斥核完。以雙方都承認的代理關係填列。"
+  },
+  "tfda": {
+    "usable": "listed_food_ingredient",
+    "evidenceNotes": "食品原料「蛋殼膜」1 筆，每日上限 500 mg，並要標示懷孕、哺乳婦女及對蛋過敏者應避免食用。蛋殼與鴯鶓鳥蛋殼是別的列名，不把蛋殼的限制抄成這一筆。商品名的英文字母搜尋會誤中其他品項；添加物用「蛋殼膜」是 0 筆。",
+    "lookupDate": "2026-11-10",
+    "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+    "queries": [
+      {
+        "tab": "ingredient",
+        "keyword": "蛋殼膜",
+        "category": "禽、畜類及其來源製取之原料",
+        "resultCount": 1,
+        "matchedName": "蛋殼膜",
+        "restrictionNote": "衛授食字第1081302650號：每日食用限量 500 mg；應標示「懷孕、哺乳期間婦女及對蛋過敏者應避免食用」。",
+        "unconfirmedSafety": false,
+        "note": "外文 Eggshell membrane。不是未確認分類。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "蛋殼",
+        "category": "",
+        "resultCount": 3,
+        "matchedName": "蛋殼；鴯鶓鳥蛋殼；蛋殼膜",
+        "restrictionNote": "蛋殼另有 1131301534 號使用限制。鴯鶓鳥蛋殼是另一筆。",
+        "unconfirmedSafety": false,
+        "note": "3 筆都在可供食品使用。本品只對蛋殼膜。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "NEM",
+        "category": "",
+        "resultCount": 4,
+        "matchedName": "海蘊；武靴藤；黃精；買麻藤",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名沒有列上。4 筆是中英文字串裡含 nem 的其他原料，不是 NEM 蛋殼膜。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "蛋殼膜",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "添加物分頁 0 筆。用 NEM 三個字母會誤中 L-半胱胺酸鹽酸鹽的英文拼字，不採計。"
+      },
+      {
+        "tab": "history",
+        "keyword": "蛋殼膜",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "助手更新歷程（11/01–11/09）沒有異動。"
+      }
+    ],
+    "officialCrosscheck": {
+      "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+      "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+      "done": true,
+      "notes": "2026-11-10 依查詢助手 data.json（詳細頁 id 17652，擷取 2026-11-09 06:15）核對 500 mg 與警語。官方 MaterialDetail 這次沒有回 HTTP 標頭。"
+    }
+  },
+  "efficacy": {
+    "claimedBenefits": [
+      "Stratum 2026-11-06 新聞寫：NEM 是部分水解蛋殼膜，有 10 項人體研究，每日 500 mg 一次，關節舒適度最早約 4 天。這是供應商說法。",
+      "Clin Interv Aging 2018（PMID 29497287）：60 名停經後婦女，口服 NEM 500 mg 或安慰劑，每天一次、兩週，同時做會誘發關節不適的運動。論文單位含 ESM Technologies。"
+    ],
+    "suggestedDosage": "供應商與上述人體試驗都是每日 500 mg 一次。",
+    "dosageNote": "500 mg 同時是供應商建議、這篇試驗劑量與台灣每日上限，不可再加。還要標懷孕、哺乳與蛋過敏警語。"
+  },
+  "patent": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "US8580315B2 - Anti-inflammatory activity of eggshell membrane and processed eggshell membrane preparations",
+        "url": "https://patents.google.com/patent/US8580315B2/en",
+        "note": "權利人 ESM Technologies, LLC。摘要是口服蛋殼膜製備物與抗發炎指標。這次沒有核是否已轉給 Stratum，也沒有核是否仍有效。"
+      }
+    ],
+    "note": "臨床論文與專利都寫 ESM Technologies。Stratum 新聞把 NEM 當自家商品。兩者的權利關係這次沒有對到轉讓頁。"
+  },
+  "literature": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "Beneficial effects of natural eggshell membrane versus placebo in exercise-induced joint pain, stiffness, and cartilage turnover in healthy, postmenopausal women",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/29497287/",
+        "note": "Clin Interv Aging 2018（PMID 29497287）。人體、NEM 500 mg。只核摘要。"
+      },
+      {
+        "title": "Beneficial effects of natural eggshell membrane (NEM) on multiple indices of arthritis in collagen-induced arthritic rats",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/27846748/",
+        "note": "Mod Rheumatol 2017（PMID 27846748）。動物，口服 NEM。只核摘要。"
+      }
+    ],
+    "note": "人體一篇、動物一篇，都寫 NEM 或 natural eggshell membrane，作者單位含 ESM Technologies。"
+  },
+  "evidenceLevels": [
+    "animal",
+    "clinical"
+  ],
+  "images": [
+    {
+      "url": "https://pub-62493d3b6c1f43b3b3da35416578b569.r2.dev/file/Stratum_Toong_Yeuan_partnership_dbbd97e6c8.webp",
+      "localPath": "",
+      "caption": "Stratum 公告統園合作的新聞主圖，不是蛋殼膜粉末包裝。",
+      "source": "official_site"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Stratum Nutrition Announces Distribution Partnership with Toong Yeuan Enterprise Co. Ltd. in Taiwan",
+      "url": "https://www.stratumnutrition.com/human/posts/detail/stratum-nutrition-announces-distribution-partnership-with-toong-yeuan-enterprise-co-ltd-in-taiwan",
+      "publisher": "Stratum Nutrition",
+      "channel": "news",
+      "accessed": "2026-11-10",
+      "whatItContributes": "2026-11-06 公司新聞：與統園簽約，NEM 每日 500 mg，並寫合約在 Vitafoods Asia 2026 簽署。"
+    },
+    {
+      "title": "統園企業獨家代理美國NEM、OVOLUX蛋殼膜等明星原料",
+      "url": "https://www.tyig.com.tw/web/news/news_in.jsp?lang=tw&np_no=NP1782292043014",
+      "publisher": "統園企業",
+      "channel": "news",
+      "accessed": "2026-11-10",
+      "whatItContributes": "台灣頁寫 2026 年獨家代理 NEM、OVOLUX 與 SageXtra。頁首日期為 2026/06/26。"
+    },
+    {
+      "title": "PubMed 29497287",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29497287/",
+      "publisher": "Clin Interv Aging（PubMed）",
+      "channel": "paper",
+      "accessed": "2026-11-10",
+      "whatItContributes": "停經後婦女、NEM 500 mg、兩週的人體試驗書目。"
+    },
+    {
+      "title": "US8580315B2",
+      "url": "https://patents.google.com/patent/US8580315B2/en",
+      "publisher": "Google Patents",
+      "channel": "patent",
+      "accessed": "2026-11-10",
+      "whatItContributes": "ESM Technologies 的蛋殼膜製備物專利。"
+    },
+    {
+      "title": "NEM蛋殼膜粉",
+      "url": "https://www.food7-11.com/products/content/259",
+      "publisher": "遠景",
+      "channel": "other",
+      "accessed": "2026-11-10",
+      "whatItContributes": "另一家台灣頁也列 NEM，建議量 500 mg／日。用來對照獨家說法尚未互斥。"
+    }
+  ],
+  "discovery": {
+    "channel": "news",
+    "scoutDate": "2026-11-10",
+    "notes": "從 Stratum 2026-11-06 的統園合作新聞進入，再對統園中文頁、PubMed 兩篇與 US8580315B2。TFDA 蛋殼膜每日 500 mg，與試驗劑量相同。OVOLUX 是同公司另一個蛋殼膜商品，這筆只收 NEM。"
+  }
+}

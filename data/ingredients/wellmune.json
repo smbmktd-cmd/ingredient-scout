@@ -1,0 +1,153 @@
+{
+  "id": "wellmune",
+  "example": false,
+  "names": {
+    "commonZh": "啤酒酵母β-葡聚醣",
+    "commonEn": "baker's yeast beta-glucan",
+    "trade": "Wellmune（Kerry 的啤酒酵母 β-1,3/1,6-葡聚醣商品名）",
+    "scientific": "不適用單一植物學名。成分是啤酒酵母 Saccharomyces cerevisiae 細胞壁的 β-1,3/1,6-葡聚醣。與 11 月 9 日 Veri-te 不同：那筆是酵母發酵的反式白藜蘆醇，這筆是細胞壁多醣。"
+  },
+  "supply": {
+    "supplierName": "Kerry Group",
+    "supplierCountry": "愛爾蘭",
+    "relationship": "unknown",
+    "taiwanPartyName": "查無",
+    "relationshipNote": "加拿大商標 WELLMUNE（申請號 1358147）現有權人是 Kerry Group Services International Limited（Tralee）。悠活原力成品成分表把酵母 β-葡聚醣寫成 Kerry Wellmune，那是配方揭露，不是原料代理頁，所以台灣關聯廠商填查無。"
+  },
+  "tfda": {
+    "usable": "listed_food_ingredient",
+    "evidenceNotes": "食品原料「β-聚葡萄糖」有 2 筆，都不是未確認安全性。Wellmune 對微生物那一筆，備註寫由 Aureobasidium pullulans 或 Saccharomyces cerevisiae 製成，沒有每日毫克上限；另一筆是大麥、燕麥、黑麥、小麥。商品名、添加物與 11 月 1–9 日更新歷程都是 0 筆。",
+    "lookupDate": "2026-11-10",
+    "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+    "queries": [
+      {
+        "tab": "ingredient",
+        "keyword": "β-聚葡萄糖",
+        "category": "",
+        "resultCount": 2,
+        "matchedName": "β-聚葡萄糖",
+        "restrictionNote": "微生物那筆備註：由 Aureobasidium pullulans、Saccharomyces cerevisiae 為來源製成。穀物那筆備註：由大麥、燕麥、黑麥、小麥所製取。",
+        "unconfirmedSafety": false,
+        "note": "兩筆都在可供食品使用。本品只對微生物來源。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Wellmune",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "β-聚葡萄糖",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "添加物分頁 0 筆。"
+      },
+      {
+        "tab": "history",
+        "keyword": "β-聚葡萄糖",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "助手更新歷程（11/01–11/09）沒有這筆異動。"
+      }
+    ],
+    "officialCrosscheck": {
+      "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+      "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+      "done": true,
+      "notes": "2026-11-10 依查詢助手 data.json（詳細頁擷取 2026-11-09 06:15，Asia/Taipei）核對兩筆 β-聚葡萄糖。官方 MaterialDetail 這次沒有回 HTTP 標頭。"
+    }
+  },
+  "efficacy": {
+    "claimedBenefits": [
+      "Kerry 在 NutraIngredients 2026-04-14 付費稿寫：Wellmune 是啤酒酵母 β-1,3/1,6-葡聚醣後生元，宣稱可訓練先天免疫；並寫 156 名兒童、35 mg 組的上呼吸道感染次數少於安慰劑。這是供應商說法。",
+      "BioTech 2025（PMID 39846553）：19 名成人隨機分到 Wellmune 或安慰劑，6 週劑量由每日 50 mg 增至 250 mg，酵母 β-葡聚醣組有 40 個與先天免疫相關的 mRNA 變化。作者寫這是免疫訓練的假設，不是感冒預防結論。"
+    ],
+    "suggestedDosage": "付費稿的兒童試驗寫 35 mg。Kerry 臨床研究頁寫一項馬拉松飲料試驗用 250 mg。BioTech 2025 是 50、125、250 mg 遞增。沒有單一建議量。",
+    "dosageNote": "以上是供應商頁或該篇人體試驗的劑量，不是台灣上限。酵母來源 β-聚葡萄糖這筆沒有寫每日毫克上限。"
+  },
+  "patent": {
+    "status": "unknown",
+    "refs": [],
+    "note": "這次沒有對到 Kerry 名下、權利範圍就是 Wellmune 食品原料的公告專利。AU2023293981A1 內文把 Wellmune 寫成 whole glucan particle 的例子，申請人是都柏林大學，不把它列成本品專利。"
+  },
+  "literature": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "Discovery of Innate Immune Response mRNAs That Are Impacted by Structure-Specific Oral Baker's Yeast Beta Glucan Consumption",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/39846553/",
+        "note": "BioTech (Basel) 2025（PMID 39846553，DOI 10.3390/biotech14010004）。摘要寫受試物是 Wellmune。只核摘要。"
+      }
+    ],
+    "note": "付費稿裡的兒童與馬拉松敘述沒有在這次對到同一篇 PMID，不另補論文。"
+  },
+  "evidenceLevels": [
+    "clinical"
+  ],
+  "images": [
+    {
+      "url": "https://supplements.kerry.com/wp-content/uploads/2024/10/Immune-2.png",
+      "localPath": "",
+      "caption": "Kerry 保健原料站免疫健康頁的圖。這次開啟 Wellmune 路徑時被導到分類頁，不是單獨的原料包裝照。",
+      "source": "official_site"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Support for immune health across the lifespan",
+      "url": "https://www.nutraingredients.com/News/Promotional-features/support-for-immune-health-across-the-lifespan/",
+      "publisher": "NutraIngredients（Kerry 付費合作稿）",
+      "channel": "news",
+      "accessed": "2026-11-10",
+      "whatItContributes": "2026-04-14 新聞欄付費稿：Wellmune 是啤酒酵母 β-葡聚醣，並寫兒童 35 mg 的試驗敘述。"
+    },
+    {
+      "title": "Wellmune Research Studies",
+      "url": "https://supplements.kerry.com/proactive-health/immune-health/wellmune/wellmune-clinical-studies/",
+      "publisher": "Kerry",
+      "channel": "supplier_site",
+      "accessed": "2026-11-10",
+      "whatItContributes": "供應商研究頁：馬拉松飲料試驗寫 250 mg Wellmune，並概述多項人體研究。"
+    },
+    {
+      "title": "PubMed 39846553",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39846553/",
+      "publisher": "BioTech（PubMed）",
+      "channel": "paper",
+      "accessed": "2026-11-10",
+      "whatItContributes": "2025 年人體 mRNA 研究，材料寫明 Wellmune，劑量 50 至 250 mg。"
+    },
+    {
+      "title": "WELLMUNE 加拿大商標 1358147",
+      "url": "https://ised-isde.canada.ca/cipo/trademark-search/1358147",
+      "publisher": "加拿大智慧財產局",
+      "channel": "other",
+      "accessed": "2026-11-10",
+      "whatItContributes": "現有權人 Kerry Group Services International Limited；商品範圍含酵母來源葡聚醣原料。"
+    },
+    {
+      "title": "成分頁",
+      "url": "https://www.yohopower.tw/pages/ingredient",
+      "publisher": "悠活原力",
+      "channel": "other",
+      "accessed": "2026-11-10",
+      "whatItContributes": "台灣成品成分表出現 Kerry Wellmune。未見代理契約，不當成原料經銷。"
+    }
+  ],
+  "discovery": {
+    "channel": "news",
+    "scoutDate": "2026-11-10",
+    "notes": "從 NutraIngredients 2026-04-14 的 Kerry 付費稿進入 Wellmune，再對 Kerry 研究頁、PubMed 39846553 與加拿大商標。TFDA 只對到微生物來源的 β-聚葡萄糖，沒有商品名列名。"
+  }
+}

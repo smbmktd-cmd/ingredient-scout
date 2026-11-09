@@ -6,6 +6,866 @@
         "exhibition",
         "industry_report"
       ],
+      "date": "2026-11-10",
+      "example": false,
+      "notes": "正式五筆。主管道：Wellmune、NEM 為新聞；ElderCraft、MegaNatural-BP 為展覽；life'sDHA 為產業報導。未放入未確認安全性項目。接骨木只對果實與花，葉與接骨草排除。葡萄只對種子與果皮萃取，根莖藤嫩芽排除。藻油 DHA 不是 11 月 9 日磷蝦油。酵母 β-葡聚醣不是 11 月 9 日的反式白藜蘆醇。蛋殼膜不是前幾日的膠原胜肽。",
+      "picks": [
+        {
+          "discovery": {
+            "channel": "news",
+            "notes": "從 NutraIngredients 2026-04-14 的 Kerry 付費稿進入 Wellmune，再對 Kerry 研究頁、PubMed 39846553 與加拿大商標。TFDA 只對到微生物來源的 β-聚葡萄糖，沒有商品名列名。",
+            "scoutDate": "2026-11-10"
+          },
+          "efficacy": {
+            "claimedBenefits": [
+              "Kerry 在 NutraIngredients 2026-04-14 付費稿寫：Wellmune 是啤酒酵母 β-1,3/1,6-葡聚醣後生元，宣稱可訓練先天免疫；並寫 156 名兒童、35 mg 組的上呼吸道感染次數少於安慰劑。這是供應商說法。",
+              "BioTech 2025（PMID 39846553）：19 名成人隨機分到 Wellmune 或安慰劑，6 週劑量由每日 50 mg 增至 250 mg，酵母 β-葡聚醣組有 40 個與先天免疫相關的 mRNA 變化。作者寫這是免疫訓練的假設，不是感冒預防結論。"
+            ],
+            "dosageNote": "以上是供應商頁或該篇人體試驗的劑量，不是台灣上限。酵母來源 β-聚葡萄糖這筆沒有寫每日毫克上限。",
+            "suggestedDosage": "付費稿的兒童試驗寫 35 mg。Kerry 臨床研究頁寫一項馬拉松飲料試驗用 250 mg。BioTech 2025 是 50、125、250 mg 遞增。沒有單一建議量。"
+          },
+          "evidenceLevels": [
+            "clinical"
+          ],
+          "example": false,
+          "id": "wellmune",
+          "images": [
+            {
+              "caption": "Kerry 保健原料站免疫健康頁的圖。這次開啟 Wellmune 路徑時被導到分類頁，不是單獨的原料包裝照。",
+              "localPath": "",
+              "source": "official_site",
+              "url": "https://supplements.kerry.com/wp-content/uploads/2024/10/Immune-2.png"
+            }
+          ],
+          "literature": {
+            "note": "付費稿裡的兒童與馬拉松敘述沒有在這次對到同一篇 PMID，不另補論文。",
+            "refs": [
+              {
+                "note": "BioTech (Basel) 2025（PMID 39846553，DOI 10.3390/biotech14010004）。摘要寫受試物是 Wellmune。只核摘要。",
+                "title": "Discovery of Innate Immune Response mRNAs That Are Impacted by Structure-Specific Oral Baker's Yeast Beta Glucan Consumption",
+                "url": "https://pubmed.ncbi.nlm.nih.gov/39846553/"
+              }
+            ],
+            "status": "yes"
+          },
+          "names": {
+            "commonEn": "baker's yeast beta-glucan",
+            "commonZh": "啤酒酵母β-葡聚醣",
+            "scientific": "不適用單一植物學名。成分是啤酒酵母 Saccharomyces cerevisiae 細胞壁的 β-1,3/1,6-葡聚醣。與 11 月 9 日 Veri-te 不同：那筆是酵母發酵的反式白藜蘆醇，這筆是細胞壁多醣。",
+            "trade": "Wellmune（Kerry 的啤酒酵母 β-1,3/1,6-葡聚醣商品名）"
+          },
+          "patent": {
+            "note": "這次沒有對到 Kerry 名下、權利範圍就是 Wellmune 食品原料的公告專利。AU2023293981A1 內文把 Wellmune 寫成 whole glucan particle 的例子，申請人是都柏林大學，不把它列成本品專利。",
+            "refs": [],
+            "status": "unknown"
+          },
+          "sources": [
+            {
+              "accessed": "2026-11-10",
+              "channel": "news",
+              "publisher": "NutraIngredients（Kerry 付費合作稿）",
+              "title": "Support for immune health across the lifespan",
+              "url": "https://www.nutraingredients.com/News/Promotional-features/support-for-immune-health-across-the-lifespan/",
+              "whatItContributes": "2026-04-14 新聞欄付費稿：Wellmune 是啤酒酵母 β-葡聚醣，並寫兒童 35 mg 的試驗敘述。"
+            },
+            {
+              "accessed": "2026-11-10",
+              "channel": "supplier_site",
+              "publisher": "Kerry",
+              "title": "Wellmune Research Studies",
+              "url": "https://supplements.kerry.com/proactive-health/immune-health/wellmune/wellmune-clinical-studies/",
+              "whatItContributes": "供應商研究頁：馬拉松飲料試驗寫 250 mg Wellmune，並概述多項人體研究。"
+            },
+            {
+              "accessed": "2026-11-10",
+              "channel": "paper",
+              "publisher": "BioTech（PubMed）",
+              "title": "PubMed 39846553",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39846553/",
+              "whatItContributes": "2025 年人體 mRNA 研究，材料寫明 Wellmune，劑量 50 至 250 mg。"
+            },
+            {
+              "accessed": "2026-11-10",
+              "channel": "other",
+              "publisher": "加拿大智慧財產局",
+              "title": "WELLMUNE 加拿大商標 1358147",
+              "url": "https://ised-isde.canada.ca/cipo/trademark-search/1358147",
+              "whatItContributes": "現有權人 Kerry Group Services International Limited；商品範圍含酵母來源葡聚醣原料。"
+            },
+            {
+              "accessed": "2026-11-10",
+              "channel": "other",
+              "publisher": "悠活原力",
+              "title": "成分頁",
+              "url": "https://www.yohopower.tw/pages/ingredient",
+              "whatItContributes": "台灣成品成分表出現 Kerry Wellmune。未見代理契約，不當成原料經銷。"
+            }
+          ],
+          "supply": {
+            "relationship": "unknown",
+            "relationshipNote": "加拿大商標 WELLMUNE（申請號 1358147）現有權人是 Kerry Group Services International Limited（Tralee）。悠活原力成品成分表把酵母 β-葡聚醣寫成 Kerry Wellmune，那是配方揭露，不是原料代理頁，所以台灣關聯廠商填查無。",
+            "supplierCountry": "愛爾蘭",
+            "supplierName": "Kerry Group",
+            "taiwanPartyName": "查無"
+          },
+          "tfda": {
+            "evidenceNotes": "食品原料「β-聚葡萄糖」有 2 筆，都不是未確認安全性。Wellmune 對微生物那一筆，備註寫由 Aureobasidium pullulans 或 Saccharomyces cerevisiae 製成，沒有每日毫克上限；另一筆是大麥、燕麥、黑麥、小麥。商品名、添加物與 11 月 1–9 日更新歷程都是 0 筆。",
+            "lookupDate": "2026-11-10",
+            "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+            "officialCrosscheck": {
+              "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+              "done": true,
+              "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+              "notes": "2026-11-10 依查詢助手 data.json（詳細頁擷取 2026-11-09 06:15，Asia/Taipei）核對兩筆 β-聚葡萄糖。官方 MaterialDetail 這次沒有回 HTTP 標頭。"
+            },
+            "queries": [
+              {
+                "category": "",
+                "keyword": "β-聚葡萄糖",
+                "matchedName": "β-聚葡萄糖",
+                "note": "兩筆都在可供食品使用。本品只對微生物來源。",
+                "restrictionNote": "微生物那筆備註：由 Aureobasidium pullulans、Saccharomyces cerevisiae 為來源製成。穀物那筆備註：由大麥、燕麥、黑麥、小麥所製取。",
+                "resultCount": 2,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Wellmune",
+                "matchedName": "",
+                "note": "商品名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "β-聚葡萄糖",
+                "matchedName": "",
+                "note": "添加物分頁 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "β-聚葡萄糖",
+                "matchedName": "",
+                "note": "助手更新歷程（11/01–11/09）沒有這筆異動。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "history",
+                "unconfirmedSafety": false
+              }
+            ],
+            "usable": "listed_food_ingredient"
+          }
+        },
+        {
+          "discovery": {
+            "channel": "exhibition",
+            "notes": "從 SupplySide Global 2026 展前記者裡的 Artemis／ElderCraft 進入，再對 Artemis 夥伴頁、Iprona 產品頁與崴達原料頁。TFDA 只採用果實與花的接骨木列名，葉和接骨草排除。",
+            "scoutDate": "2026-11-10"
+          },
+          "efficacy": {
+            "claimedBenefits": [
+              "Iprona／Craft 腸道試驗頁寫：30 人交叉試驗，ElderCraft 300 mg 一天兩次、介入 3 週，微生物多樣性上升，並寫 Akkermansia 升高。這是供應商對 ELDERGUT 的說法。",
+              "J Pers Med 2022（PMID 36143265）題名是歐洲黑接骨木多酚的益生元介入，作者含 Moschen，並出現 VASCage。Iprona 把 ELDERGUT 寫成與 Moschen 合作。摘要前段沒有印出 ElderCraft。",
+              "Iprona 免疫頁寫 312 名長途飛行旅客、每日 600–900 mg，感冒次數與天數較少。設計與 Nutrients 2016（PMID 27023596，Tiralongo）相近，但這次讀到的摘要前段沒有品牌名，不把那篇直接算成 ElderCraft 試驗。"
+            ],
+            "dosageNote": "兩組數字都是供應商試驗頁的劑量。台灣果實與花這筆沒有每日毫克上限。葉與接骨草的未確認列名不能拿來放寬或替代。",
+            "suggestedDosage": "腸道試驗頁寫 300 mg 一天兩次（每日 600 mg）。免疫頁的旅客試驗寫每日 600–900 mg。"
+          },
+          "evidenceLevels": [
+            "clinical"
+          ],
+          "example": false,
+          "id": "eldercraft",
+          "images": [
+            {
+              "caption": "Craft Ingredients 產品頁上的 ElderCraft 圖示。",
+              "localPath": "",
+              "source": "official_site",
+              "url": "https://www.craft-ingredients.info/fileadmin/_processed_/d/9/csm_elder-craft_612e472557.png"
+            }
+          ],
+          "literature": {
+            "note": "旅客試驗 PMID 27023596 只核到題名與部分摘要，沒有品牌字樣，不列入出處。",
+            "refs": [
+              {
+                "note": "J Pers Med 2022（PMID 36143265）。作者與 Iprona 點名的 ELDERGUT 團隊重疊。摘要前段未印品牌。只核摘要。",
+                "title": "Short- and Long-Term Effects of a Prebiotic Intervention with Polyphenols Extracted from European Black Elderberry",
+                "url": "https://pubmed.ncbi.nlm.nih.gov/36143265/"
+              }
+            ],
+            "status": "yes"
+          },
+          "names": {
+            "commonEn": "European black elderberry extract",
+            "commonZh": "歐洲黑接骨木莓萃取物",
+            "scientific": "Sambucus nigra L.（果實；品種頁寫 Haschberg）",
+            "trade": "ElderCraft（Iprona 的黑接骨木莓萃取商品名）"
+          },
+          "patent": {
+            "note": "只有供應商新聞，沒有打開專利全文，也不知道是否已核准。",
+            "refs": [
+              {
+                "note": "Iprona 寫 2023-06-15 國際申請公開，名稱是接骨木萃取用於預防或治療 SARS-CoV-2。這次沒有對到 WO 號。",
+                "title": "The international patent application for ElderCraft has been published",
+                "url": "https://packaging.iprona.com/en/iprona/news/new-patent-br-for-eldercraft-2"
+              }
+            ],
+            "status": "yes"
+          },
+          "sources": [
+            {
+              "accessed": "2026-11-10",
+              "channel": "exhibition",
+              "publisher": "NutraIngredients",
+              "title": "SupplySide Global 2026: What’s happening on the show floor",
+              "url": "https://www.nutraingredients.com/Article/2026/10/14/supplyside-global-2026-whats-happening-on-the-show-floor/",
+              "whatItContributes": "2026-10-14 展前記者：Artemis（攤位 3145）預告接骨木人體研究，並點名 ElderCraft Dual Defense。"
+            },
+            {
+              "accessed": "2026-11-10",
+              "channel": "supplier_site",
+              "publisher": "Artemis International",
+              "title": "Our Partners",
+              "url": "https://artemis-nutraceuticals.com/our-partners/",
+              "whatItContributes": "美國合作頁：Iprona 的 ElderCraft 是有臨床的歐洲黑接骨木萃取，雙方合作超過 20 年。"
+            },
+            {
+              "accessed": "2026-11-10",
+              "channel": "supplier_site",
+              "publisher": "Iprona／Craft Ingredients",
+              "title": "ElderCraft Black Elderberry Extract",
+              "url": "https://www.craft-ingredients.info/our-ingredients/eldercraft",
+              "whatItContributes": "產品頁：Sambucus nigra、奧地利 Haschberg、不使用人工溶劑。"
+            },
+            {
+              "accessed": "2026-11-10",
+              "channel": "supplier_site",
+              "publisher": "Iprona／Craft Ingredients",
+              "title": "Gut health study",
+              "url": "https://www.craft-ingredients.info/gut-health-study",
+              "whatItContributes": "供應商對 ELDERGUT 的設計：30 人、300 mg 一天兩次。"
+            },
+            {
+              "accessed": "2026-11-10",
+              "channel": "other",
+              "publisher": "崴達國際",
+              "title": "ElderCraft 專利接骨木莓萃取物",
+              "url": "https://www.wedar.com/product/eldercraft",
+              "whatItContributes": "台灣上架頁：Iprona、10% C3G，成分寫有機接骨木莓萃取與有機麥芽糊精。"
+            },
+            {
+              "accessed": "2026-11-10",
+              "channel": "paper",
+              "publisher": "J Pers Med（PubMed）",
+              "title": "PubMed 36143265",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/36143265/",
+              "whatItContributes": "歐洲黑接骨木多酚的人體益生元研究書目。"
+            }
+          ],
+          "supply": {
+            "relationship": "taiwan_agent",
+            "relationshipNote": "崴達原料頁上架 ElderCraft，公司自述代理國際專利原料；英文頁寫產地義大利、Iprona 製造。Artemis 夥伴頁寫與 Iprona 合作超過 20 年並點名 ElderCraft，沒有回指崴達。代理關係只有崴達單方說法。",
+            "supplierCountry": "義大利",
+            "supplierName": "Iprona SpA",
+            "taiwanPartyName": "崴達國際股份有限公司"
+          },
+          "tfda": {
+            "evidenceNotes": "食品原料「接骨木」有 2 筆。可供食用的是 Sambucus nigra 等，部位果實與花，備註空白。另一筆是 William's elder（Sambucus williamsii）的葉，寫未經確認不得供作食品原料。接骨草（Sambucus formosana）是另一筆未確認，不能套到果實萃取。商品名與添加物是 0 筆。",
+            "lookupDate": "2026-11-10",
+            "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+            "officialCrosscheck": {
+              "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+              "done": true,
+              "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+              "notes": "2026-11-10 依查詢助手 data.json（詳細頁擷取 2026-11-09 06:15）核對果實／花列名，以及葉、接骨草兩筆未確認。官方 MaterialDetail 這次沒有回 HTTP 標頭。"
+            },
+            "queries": [
+              {
+                "category": "",
+                "keyword": "接骨木",
+                "matchedName": "接骨木",
+                "note": "2 筆裡 1 筆未確認，部位是葉。本品只對果實萃取，不套用葉。",
+                "restrictionNote": "果實、花那筆學名含 Sambucus nigra L.，備註空白。葉那筆學名 Sambucus williamsii，備註寫未經確認其食用安全性前不得供作食品原料使用。",
+                "resultCount": 2,
+                "tab": "ingredient",
+                "unconfirmedSafety": true
+              },
+              {
+                "category": "未確認安全性尚不得使用之原料",
+                "keyword": "接骨草",
+                "matchedName": "冇骨消；蒴藋；接骨草",
+                "note": "學名 Sambucus formosana Nakai。不是本品的果實規格。",
+                "restrictionNote": "未經確認其食用安全性前，不得供為食品原料使用。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": true
+              },
+              {
+                "category": "",
+                "keyword": "Sambucus nigra",
+                "matchedName": "接骨木",
+                "note": "對到可供直接食用那一筆。",
+                "restrictionNote": "部位果實、花。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "ElderCraft",
+                "matchedName": "",
+                "note": "商品名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "接骨木",
+                "matchedName": "",
+                "note": "添加物分頁 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "接骨木",
+                "matchedName": "",
+                "note": "助手更新歷程（11/01–11/09）沒有異動。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "history",
+                "unconfirmedSafety": false
+              }
+            ],
+            "usable": "listed_food_ingredient"
+          }
+        },
+        {
+          "discovery": {
+            "channel": "industry_report",
+            "notes": "從藻類 omega-3 市場稿點名的 life'sDHA B54-0100 進入，再對 dsm-firmenich 新聞稿與產品頁、仁友興業目錄。PubMed 沒有掛這個商品名的論文，專利號也沒有對到。與 11 月 9 日磷蝦油不是同一筆原料。",
+            "scoutDate": "2026-11-10"
+          },
+          "efficacy": {
+            "claimedBenefits": [
+              "dsm-firmenich 2024-10-23 新聞稿寫：life'sDHA B54-0100 每克含 545 mg DHA 與 80 mg EPA，並說它帶有 DHA 既有的科學效益、沒有魚油氣味。新聞稿沒有附特定人體試驗。",
+              "Yahoo Finance 轉載的藻類 omega-3 市場稿複述同一規格，並寫 2024 年 10 月上市。這是市場稿，不是新的療效數據。"
+            ],
+            "dosageNote": "含量是供應商規格，不是建議食用量，也不是台灣每日上限。台灣這筆沒有每日毫克上限，但有 DHA 比例與油脂品質規格。545 mg/g 等於 54.5% DHA，高於列名的 32%；酸價等其餘規格新聞稿沒寫，不能視為已符合。",
+            "suggestedDosage": "這次打開的新聞稿與產品頁沒有寫一般建議毫克。B54-0100 的含量是每克 545 mg DHA、80 mg EPA。"
+          },
+          "evidenceLevels": [],
+          "example": false,
+          "id": "lifes-dha",
+          "images": [
+            {
+              "caption": "dsm-firmenich 新聞稿頁首橫幅，不是油品實物。",
+              "localPath": "",
+              "source": "official_site",
+              "url": "https://www.dsm-firmenich.com/en/businesses/health-nutrition-care/news/press-releases/2024-10-23-dsm-firmenich-expands-its-advanced-lifes-portfolio-with-lifes-dha-b54-0100-a-naturally-potent-dha-algal-oil-with-exceptional-sensory-appeal/_jcr_content/root/responsivegrid/pshero/image.coreimg.jpeg/1721201565746/green-tn-banner.jpeg"
+            }
+          ],
+          "literature": {
+            "note": "PubMed 用 life'sDHA 全欄位檢索是 0 筆。一般藻油 DHA 試驗很多，但這次沒有讀到點名這個商品名的論文，所以不標臨床。",
+            "refs": [],
+            "status": "unknown"
+          },
+          "names": {
+            "commonEn": "algal DHA oil",
+            "commonZh": "藻油DHA",
+            "scientific": "新聞稿只寫藻類，沒有寫學名或菌株。台灣 DHA 藻油允許的來源是 Aurantiochytrium sp.（Schizochytrium sp.）、Ulkenia sp. 或 Crypthecodinium cohnii。B54-0100 這次沒有對到是哪一種。",
+            "trade": "life'sDHA（dsm-firmenich 的藻油 DHA 商品名；本次對到的規格是 B54-0100）"
+          },
+          "patent": {
+            "note": "這次沒有對到掛名 life'sDHA 或 B54-0100 的專利號。不把其他公司的藻油專利算進來。",
+            "refs": [],
+            "status": "unknown"
+          },
+          "sources": [
+            {
+              "accessed": "2026-11-10",
+              "channel": "industry_report",
+              "publisher": "Yahoo Finance（市場報告稿）",
+              "title": "ADM, DSM, and Corbion Lead the Fragmented $1.81 Billion Algae Omega-3 Ingredients Market, 2025-2030",
+              "url": "https://finance.yahoo.com/news/adm-dsm-corbion-lead-fragmented-143700615.html",
+              "whatItContributes": "市場稿寫藻類 omega-3 原料 2024 年 11.9 億美元、2030 年 18.1 億美元，並點名 2024 年 10 月 life'sDHA B54-0100。"
+            },
+            {
+              "accessed": "2026-11-10",
+              "channel": "supplier_site",
+              "publisher": "dsm-firmenich",
+              "title": "dsm-firmenich expands its advanced life’s portfolio with life’sDHA B54-0100",
+              "url": "https://www.dsm-firmenich.com/en/businesses/health-nutrition-care/news/press-releases/2024-10-23-dsm-firmenich-expands-its-advanced-lifes-portfolio-with-lifes-dha-b54-0100-a-naturally-potent-dha-algal-oil-with-exceptional-sensory-appeal.html",
+              "whatItContributes": "2024-10-23 新聞稿：每克 545 mg DHA、80 mg EPA，來源寫藻類，沒有寫學名。"
+            },
+            {
+              "accessed": "2026-11-10",
+              "channel": "supplier_site",
+              "publisher": "dsm-firmenich",
+              "title": "life's Limitless algal omega-3",
+              "url": "https://www.dsm-firmenich.com/en/businesses/health-nutrition-care/products/nutritional-lipids/lifes-limitless-algal-sourced-omega-3.html",
+              "whatItContributes": "產品頁再次列出 B54-0100，沒有寫一般建議劑量。"
+            },
+            {
+              "accessed": "2026-11-10",
+              "channel": "other",
+              "publisher": "仁友興業",
+              "title": "營養保健原料",
+              "url": "https://www.jimroyal-trade.com/nutritional-items-zh/",
+              "whatItContributes": "台灣原料頁出現 Life's DHA 藻油植物性膠囊。沒有寫獨家代理。"
+            }
+          ],
+          "supply": {
+            "relationship": "unknown",
+            "relationshipNote": "仁友興業營養保健原料頁有「全素藻油植物性膠囊」，內文寫 Life's DHA 與水萃藻油，沒有寫散裝油總代理。關係未確認。dsm-firmenich 這次打開的新聞稿沒有點名台灣夥伴。",
+            "supplierCountry": "瑞士",
+            "supplierName": "dsm-firmenich",
+            "taiwanPartyName": "仁友興業股份有限公司"
+          },
+          "tfda": {
+            "evidenceNotes": "食品原料「DHA藻油」1 筆。來源可為 Aurantiochytrium sp.（Schizochytrium sp.）、Ulkenia sp. 或 Crypthecodinium cohnii，規格含 DHA 32% 以上、酸價 0.5 mg KOH/g 以下、過氧化價 5.0 meq/kg 以下等，備註沒有每日毫克上限。DHA藻粉是另一筆。商品名與添加物是 0 筆。",
+            "lookupDate": "2026-11-10",
+            "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+            "officialCrosscheck": {
+              "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+              "done": true,
+              "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+              "notes": "2026-11-10 依查詢助手 data.json（詳細頁 id 17679，擷取 2026-11-09 06:15）核對 DHA 32% 與油脂規格。官方 MaterialDetail 這次沒有回 HTTP 標頭。"
+            },
+            "queries": [
+              {
+                "category": "藻類及其來源製取之原料",
+                "keyword": "DHA藻油",
+                "matchedName": "DHA藻油",
+                "note": "沒有每日毫克上限。不是魚油那一筆。",
+                "restrictionNote": "衛授食字第1131301534號：由所列微藻萃取的油脂；DHA 32% 以上，並有酸價、過氧化價、水分、不皂化物與反式脂肪酸規格。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "藻類及其來源製取之原料",
+                "keyword": "DHA藻粉",
+                "matchedName": "DHA藻粉",
+                "note": "粉末是另一筆，不是本次的油。",
+                "restrictionNote": "另有 DHA藻粉使用限制，學名只列 Aurantiochytrium sp.（Schizochytrium sp.）。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Schizochytrium",
+                "matchedName": "DHA藻油；DHA藻粉",
+                "note": "沒有第三筆未確認項目。",
+                "restrictionNote": "兩筆都是藻類來源 DHA，油與粉規格不同。",
+                "resultCount": 2,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "DHA藻油",
+                "matchedName": "",
+                "note": "添加物分頁 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "DHA藻油",
+                "matchedName": "",
+                "note": "助手更新歷程（11/01–11/09）沒有異動。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "history",
+                "unconfirmedSafety": false
+              }
+            ],
+            "usable": "listed_food_ingredient"
+          }
+        },
+        {
+          "discovery": {
+            "channel": "exhibition",
+            "notes": "從 SupplySide Global 2026 展前記者的 California Natural Color／MegaNatural-BP 進入，再對原廠頁、Polyphenolics 手冊、PubMed 與 PLT 的北美銷售稿。TFDA 只採用種子與果皮萃取，並受前花青素 150 mg 限制。",
+            "scoutDate": "2026-11-10"
+          },
+          "efficacy": {
+            "claimedBenefits": [
+              "California Natural Color 產品頁寫：MegaNatural-BP 用專利熱水製程把多酚分子量做小，人體研究顯示有助於把血壓維持在正常範圍。這是供應商說法。",
+              "Metabolism 2009（PMID 19608210）：代謝症候群成人分三組，安慰劑、葡萄籽萃取 150 mg 或 300 mg，4 週。摘要寫的是 grape seed extract。Polyphenolics 手冊把其中的原料寫成 MegaNatural-BP，並寫酚含量 94%。",
+              "EFSA Journal 2021（PMID 34400974）是針對 MegaNatural-BP 與維持正常血壓的健康宣稱意見書。這次只核到審查對象，沒有改寫委員會結論。"
+            ],
+            "dosageNote": "150 與 300 mg 是該篇試驗劑量。台灣上限是前花青素每日 150 mg，不是萃取物 150 mg。這次讀到的規格是多酚約 94%，沒有寫前花青素百分比，不能把 300 mg 萃取物直接換成已符合上限。",
+            "suggestedDosage": "Metabolism 2009 用每日 150 mg 或 300 mg 萃取物，共 4 週。原廠頁這次沒有另寫一個日常建議量。"
+          },
+          "evidenceLevels": [
+            "clinical"
+          ],
+          "example": false,
+          "id": "meganatural-bp",
+          "images": [
+            {
+              "caption": "California Natural Color 葡萄籽頁的葡萄與種子圖。",
+              "localPath": "",
+              "source": "official_site",
+              "url": "https://www.californianaturalcolor.com/grape-seed-extract/content/grapes-and-seeds.png"
+            }
+          ],
+          "literature": {
+            "note": "人體血壓資料以 2009 年那篇為主。EFSA 意見只用來確認商品名進過歐洲宣稱審查。",
+            "refs": [
+              {
+                "note": "Metabolism 2009（PMID 19608210）。摘要寫 150 與 300 mg 葡萄籽萃取，沒有寫商品名。品牌對應見 Polyphenolics 手冊。",
+                "title": "Effect of grape seed extract on blood pressure in subjects with the metabolic syndrome",
+                "url": "https://pubmed.ncbi.nlm.nih.gov/19608210/"
+              },
+              {
+                "note": "EFSA Journal 2021（PMID 34400974）。健康宣稱審查，不是新的療效試驗。",
+                "title": "MegaNatural-BP grape seed extract and maintenance of normal blood pressure",
+                "url": "https://pubmed.ncbi.nlm.nih.gov/34400974/"
+              }
+            ],
+            "status": "yes"
+          },
+          "names": {
+            "commonEn": "grape seed extract",
+            "commonZh": "葡萄籽萃取物",
+            "scientific": "Vitis vinifera L.（種子）",
+            "trade": "MegaNatural-BP（California Natural Color 的葡萄籽萃取商品名）"
+          },
+          "patent": {
+            "note": "同一本手冊還列 US6544581、US7651707、US8075929。這次只打開 US7767235。",
+            "refs": [
+              {
+                "note": "Polyphenolics 手冊列為組成專利。SupplySide 法律新聞寫美國專利 7,767,235 核給 Constellation Brands／Polyphenolics 的 MegaNatural-BP。這次打開 Google Patents 頁，沒有核權利是否仍有效。",
+                "title": "US7767235B2",
+                "url": "https://patents.google.com/patent/US7767235B2/en"
+              }
+            ],
+            "status": "yes"
+          },
+          "sources": [
+            {
+              "accessed": "2026-11-10",
+              "channel": "exhibition",
+              "publisher": "NutraIngredients",
+              "title": "SupplySide Global 2026: What’s happening on the show floor",
+              "url": "https://www.nutraingredients.com/Article/2026/10/14/supplyside-global-2026-whats-happening-on-the-show-floor/",
+              "whatItContributes": "展前記者：California Natural Color 在 SupplySide Global 2026 展出 MegaNatural-BP，飲品概念每份 150 mg。"
+            },
+            {
+              "accessed": "2026-11-10",
+              "channel": "supplier_site",
+              "publisher": "California Natural Color",
+              "title": "Grape Seed Extract",
+              "url": "https://www.californianaturalcolor.com/grape-seed-extract/",
+              "whatItContributes": "原廠頁：與 ActiVin 同為葡萄籽，MegaNatural-BP 另有降低多酚分子量的專利製程。"
+            },
+            {
+              "accessed": "2026-11-10",
+              "channel": "supplier_site",
+              "publisher": "Polyphenolics",
+              "title": "MegaNatural-BP brochure",
+              "url": "https://www.polyphenolics.com/wp-content/uploads/2017/08/3-MegaNatural-BP-Brochure.pdf",
+              "whatItContributes": "手冊把 150／300 mg 的代謝症候群試驗寫成 MegaNatural-BP，並列出四個美國專利號。"
+            },
+            {
+              "accessed": "2026-11-10",
+              "channel": "industry_report",
+              "publisher": "Nutraceuticals World",
+              "title": "PLT to Market California Natural Colors’ MegaNatural Portfolio",
+              "url": "https://www.nutraceuticalsworld.com/breaking-news/plt-to-market-california-natural-colors-meganatural-portfolio/",
+              "whatItContributes": "PLT 負責北美；文中寫標準化至 94% 多酚，種子為未發酵釀酒葡萄籽、熱水萃取。"
+            },
+            {
+              "accessed": "2026-11-10",
+              "channel": "paper",
+              "publisher": "Metabolism（PubMed）",
+              "title": "PubMed 19608210",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/19608210/",
+              "whatItContributes": "4 週、150 或 300 mg 葡萄籽萃取的血壓試驗書目。"
+            },
+            {
+              "accessed": "2026-11-10",
+              "channel": "patent",
+              "publisher": "Google Patents",
+              "title": "US7767235B2",
+              "url": "https://patents.google.com/patent/US7767235B2/en",
+              "whatItContributes": "手冊與法律新聞指向的組成專利頁。"
+            }
+          ],
+          "supply": {
+            "relationship": "unknown",
+            "relationshipNote": "原廠頁寫由該公司製造 MegaNatural-BP，原料是未發酵葡萄籽、熱水萃取。Nutraceuticals World 寫 PLT Health Solutions 負責北美銷售。Swanson Vitamins 台灣站有含此商品名的成品膠囊，不是原料代理，所以台灣關聯廠商填查無。",
+            "supplierCountry": "美國",
+            "supplierName": "California Natural Color（E. & J. Gallo）",
+            "taiwanPartyName": "查無"
+          },
+          "tfda": {
+            "evidenceNotes": "葡萄種子或果皮萃取物列在可供食用的「葡萄」項下，學名 Vitis vinifera，由種子或果皮萃取，每日以前花青素計 150 mg。同一學名另有未確認的根、莖、藤、嫩芽，那一筆不能用；果實是另一筆直接食用。商品名 MegaNatural 與添加物用「葡萄種子」是 0 筆。",
+            "lookupDate": "2026-11-10",
+            "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+            "officialCrosscheck": {
+              "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+              "done": true,
+              "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+              "notes": "2026-11-10 依查詢助手 data.json（詳細頁 id 17029，擷取 2026-11-09 06:15）核對前花青素 150 mg 與未確認的根莖藤嫩芽。官方 MaterialDetail 這次沒有回 HTTP 標頭。"
+            },
+            "queries": [
+              {
+                "category": "草、木本植物類(2)可供直接食用",
+                "keyword": "葡萄種子",
+                "matchedName": "葡萄",
+                "note": "部位種子、果皮。這是本品對到的規格。",
+                "restrictionNote": "衛授食字第1131301534號：由 Vitis vinifera 種子或果皮萃取；每日食用限量以前花青素計 150 mg。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Vitis vinifera",
+                "matchedName": "葡萄；紅葡萄葉萃取物",
+                "note": "4 筆裡 1 筆未確認。本品只對種子萃取，不套用根莖藤嫩芽，也不套用葉的 720 mg。",
+                "restrictionNote": "未確認那筆部位是根、莖、藤、嫩芽，備註寫未經確認不得供為食品原料。種子果皮萃取另有前花青素 150 mg 上限。紅葡萄葉萃取物每日 720 mg。",
+                "resultCount": 4,
+                "tab": "ingredient",
+                "unconfirmedSafety": true
+              },
+              {
+                "category": "",
+                "keyword": "MegaNatural",
+                "matchedName": "",
+                "note": "商品名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "葡萄種子",
+                "matchedName": "",
+                "note": "添加物分頁 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "葡萄種子",
+                "matchedName": "",
+                "note": "助手更新歷程（11/01–11/09）沒有異動。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "history",
+                "unconfirmedSafety": false
+              }
+            ],
+            "usable": "listed_food_ingredient"
+          }
+        },
+        {
+          "discovery": {
+            "channel": "news",
+            "notes": "從 Stratum 2026-11-06 的統園合作新聞進入，再對統園中文頁、PubMed 兩篇與 US8580315B2。TFDA 蛋殼膜每日 500 mg，與試驗劑量相同。OVOLUX 是同公司另一個蛋殼膜商品，這筆只收 NEM。",
+            "scoutDate": "2026-11-10"
+          },
+          "efficacy": {
+            "claimedBenefits": [
+              "Stratum 2026-11-06 新聞寫：NEM 是部分水解蛋殼膜，有 10 項人體研究，每日 500 mg 一次，關節舒適度最早約 4 天。這是供應商說法。",
+              "Clin Interv Aging 2018（PMID 29497287）：60 名停經後婦女，口服 NEM 500 mg 或安慰劑，每天一次、兩週，同時做會誘發關節不適的運動。論文單位含 ESM Technologies。"
+            ],
+            "dosageNote": "500 mg 同時是供應商建議、這篇試驗劑量與台灣每日上限，不可再加。還要標懷孕、哺乳與蛋過敏警語。",
+            "suggestedDosage": "供應商與上述人體試驗都是每日 500 mg 一次。"
+          },
+          "evidenceLevels": [
+            "animal",
+            "clinical"
+          ],
+          "example": false,
+          "id": "nem-eggshell",
+          "images": [
+            {
+              "caption": "Stratum 公告統園合作的新聞主圖，不是蛋殼膜粉末包裝。",
+              "localPath": "",
+              "source": "official_site",
+              "url": "https://pub-62493d3b6c1f43b3b3da35416578b569.r2.dev/file/Stratum_Toong_Yeuan_partnership_dbbd97e6c8.webp"
+            }
+          ],
+          "literature": {
+            "note": "人體一篇、動物一篇，都寫 NEM 或 natural eggshell membrane，作者單位含 ESM Technologies。",
+            "refs": [
+              {
+                "note": "Clin Interv Aging 2018（PMID 29497287）。人體、NEM 500 mg。只核摘要。",
+                "title": "Beneficial effects of natural eggshell membrane versus placebo in exercise-induced joint pain, stiffness, and cartilage turnover in healthy, postmenopausal women",
+                "url": "https://pubmed.ncbi.nlm.nih.gov/29497287/"
+              },
+              {
+                "note": "Mod Rheumatol 2017（PMID 27846748）。動物，口服 NEM。只核摘要。",
+                "title": "Beneficial effects of natural eggshell membrane (NEM) on multiple indices of arthritis in collagen-induced arthritic rats",
+                "url": "https://pubmed.ncbi.nlm.nih.gov/27846748/"
+              }
+            ],
+            "status": "yes"
+          },
+          "names": {
+            "commonEn": "eggshell membrane",
+            "commonZh": "蛋殼膜",
+            "scientific": "不適用植物學名。原料是雞蛋殼膜。臨床論文的單位寫 ESM Technologies, LLC（密蘇里 Carthage）。",
+            "trade": "NEM（Stratum Nutrition 的蛋殼膜商品名）"
+          },
+          "patent": {
+            "note": "臨床論文與專利都寫 ESM Technologies。Stratum 新聞把 NEM 當自家商品。兩者的權利關係這次沒有對到轉讓頁。",
+            "refs": [
+              {
+                "note": "權利人 ESM Technologies, LLC。摘要是口服蛋殼膜製備物與抗發炎指標。這次沒有核是否已轉給 Stratum，也沒有核是否仍有效。",
+                "title": "US8580315B2 - Anti-inflammatory activity of eggshell membrane and processed eggshell membrane preparations",
+                "url": "https://patents.google.com/patent/US8580315B2/en"
+              }
+            ],
+            "status": "yes"
+          },
+          "sources": [
+            {
+              "accessed": "2026-11-10",
+              "channel": "news",
+              "publisher": "Stratum Nutrition",
+              "title": "Stratum Nutrition Announces Distribution Partnership with Toong Yeuan Enterprise Co. Ltd. in Taiwan",
+              "url": "https://www.stratumnutrition.com/human/posts/detail/stratum-nutrition-announces-distribution-partnership-with-toong-yeuan-enterprise-co-ltd-in-taiwan",
+              "whatItContributes": "2026-11-06 公司新聞：與統園簽約，NEM 每日 500 mg，並寫合約在 Vitafoods Asia 2026 簽署。"
+            },
+            {
+              "accessed": "2026-11-10",
+              "channel": "news",
+              "publisher": "統園企業",
+              "title": "統園企業獨家代理美國NEM、OVOLUX蛋殼膜等明星原料",
+              "url": "https://www.tyig.com.tw/web/news/news_in.jsp?lang=tw&np_no=NP1782292043014",
+              "whatItContributes": "台灣頁寫 2026 年獨家代理 NEM、OVOLUX 與 SageXtra。頁首日期為 2026/06/26。"
+            },
+            {
+              "accessed": "2026-11-10",
+              "channel": "paper",
+              "publisher": "Clin Interv Aging（PubMed）",
+              "title": "PubMed 29497287",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/29497287/",
+              "whatItContributes": "停經後婦女、NEM 500 mg、兩週的人體試驗書目。"
+            },
+            {
+              "accessed": "2026-11-10",
+              "channel": "patent",
+              "publisher": "Google Patents",
+              "title": "US8580315B2",
+              "url": "https://patents.google.com/patent/US8580315B2/en",
+              "whatItContributes": "ESM Technologies 的蛋殼膜製備物專利。"
+            },
+            {
+              "accessed": "2026-11-10",
+              "channel": "other",
+              "publisher": "遠景",
+              "title": "NEM蛋殼膜粉",
+              "url": "https://www.food7-11.com/products/content/259",
+              "whatItContributes": "另一家台灣頁也列 NEM，建議量 500 mg／日。用來對照獨家說法尚未互斥。"
+            }
+          ],
+          "supply": {
+            "relationship": "taiwan_agent",
+            "relationshipNote": "Stratum 2026-11-06 新聞與統園頁都寫統園代理 NEM。統園頁首日期是 2026/06/26，Stratum 英文稿日期是 2026-11-06，並寫合約在 Vitafoods Asia 2026 簽署，兩個日期對不上。遠景與大自然生技素材也有 NEM 產品頁，獨家範圍沒有互斥核完。以雙方都承認的代理關係填列。",
+            "supplierCountry": "美國",
+            "supplierName": "Stratum Nutrition",
+            "taiwanPartyName": "統園企業股份有限公司"
+          },
+          "tfda": {
+            "evidenceNotes": "食品原料「蛋殼膜」1 筆，每日上限 500 mg，並要標示懷孕、哺乳婦女及對蛋過敏者應避免食用。蛋殼與鴯鶓鳥蛋殼是別的列名，不把蛋殼的限制抄成這一筆。商品名的英文字母搜尋會誤中其他品項；添加物用「蛋殼膜」是 0 筆。",
+            "lookupDate": "2026-11-10",
+            "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+            "officialCrosscheck": {
+              "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+              "done": true,
+              "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+              "notes": "2026-11-10 依查詢助手 data.json（詳細頁 id 17652，擷取 2026-11-09 06:15）核對 500 mg 與警語。官方 MaterialDetail 這次沒有回 HTTP 標頭。"
+            },
+            "queries": [
+              {
+                "category": "禽、畜類及其來源製取之原料",
+                "keyword": "蛋殼膜",
+                "matchedName": "蛋殼膜",
+                "note": "外文 Eggshell membrane。不是未確認分類。",
+                "restrictionNote": "衛授食字第1081302650號：每日食用限量 500 mg；應標示「懷孕、哺乳期間婦女及對蛋過敏者應避免食用」。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "蛋殼",
+                "matchedName": "蛋殼；鴯鶓鳥蛋殼；蛋殼膜",
+                "note": "3 筆都在可供食品使用。本品只對蛋殼膜。",
+                "restrictionNote": "蛋殼另有 1131301534 號使用限制。鴯鶓鳥蛋殼是另一筆。",
+                "resultCount": 3,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "NEM",
+                "matchedName": "海蘊；武靴藤；黃精；買麻藤",
+                "note": "商品名沒有列上。4 筆是中英文字串裡含 nem 的其他原料，不是 NEM 蛋殼膜。",
+                "restrictionNote": "",
+                "resultCount": 4,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "蛋殼膜",
+                "matchedName": "",
+                "note": "添加物分頁 0 筆。用 NEM 三個字母會誤中 L-半胱胺酸鹽酸鹽的英文拼字，不採計。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "蛋殼膜",
+                "matchedName": "",
+                "note": "助手更新歷程（11/01–11/09）沒有異動。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "history",
+                "unconfirmedSafety": false
+              }
+            ],
+            "usable": "listed_food_ingredient"
+          }
+        }
+      ],
+      "targetCount": 5,
+      "title": "2026-11-10 正式日報"
+    },
+    {
+      "channelsCovered": [
+        "news",
+        "exhibition",
+        "industry_report"
+      ],
       "date": "2026-11-09",
       "example": false,
       "notes": "正式五筆。主管道：Affron、Veri-te 為新聞；Superba Boost、Mirtoselect 為展覽；森永乳鐵蛋白為產業報導。未放入未確認安全性項目；查到並排除的有虎杖（白藜蘆醇常見植物來源）、藍莓葉、鋸棕櫚，以及既有雷區。Veri-te 對應基改酵母 EFSC4687 那一筆，限成人、每日 150 mg。乳鐵蛋白是營養添加劑，每日 300 mg 上限。磷蝦油與 11 月 6 日 AstaReal 不同原料。",
@@ -5132,6 +5992,194 @@
     },
     {
       "discovery": {
+        "channel": "exhibition",
+        "notes": "從 SupplySide Global 2026 展前記者裡的 Artemis／ElderCraft 進入，再對 Artemis 夥伴頁、Iprona 產品頁與崴達原料頁。TFDA 只採用果實與花的接骨木列名，葉和接骨草排除。",
+        "scoutDate": "2026-11-10"
+      },
+      "efficacy": {
+        "claimedBenefits": [
+          "Iprona／Craft 腸道試驗頁寫：30 人交叉試驗，ElderCraft 300 mg 一天兩次、介入 3 週，微生物多樣性上升，並寫 Akkermansia 升高。這是供應商對 ELDERGUT 的說法。",
+          "J Pers Med 2022（PMID 36143265）題名是歐洲黑接骨木多酚的益生元介入，作者含 Moschen，並出現 VASCage。Iprona 把 ELDERGUT 寫成與 Moschen 合作。摘要前段沒有印出 ElderCraft。",
+          "Iprona 免疫頁寫 312 名長途飛行旅客、每日 600–900 mg，感冒次數與天數較少。設計與 Nutrients 2016（PMID 27023596，Tiralongo）相近，但這次讀到的摘要前段沒有品牌名，不把那篇直接算成 ElderCraft 試驗。"
+        ],
+        "dosageNote": "兩組數字都是供應商試驗頁的劑量。台灣果實與花這筆沒有每日毫克上限。葉與接骨草的未確認列名不能拿來放寬或替代。",
+        "suggestedDosage": "腸道試驗頁寫 300 mg 一天兩次（每日 600 mg）。免疫頁的旅客試驗寫每日 600–900 mg。"
+      },
+      "evidenceLevels": [
+        "clinical"
+      ],
+      "example": false,
+      "id": "eldercraft",
+      "images": [
+        {
+          "caption": "Craft Ingredients 產品頁上的 ElderCraft 圖示。",
+          "localPath": "",
+          "source": "official_site",
+          "url": "https://www.craft-ingredients.info/fileadmin/_processed_/d/9/csm_elder-craft_612e472557.png"
+        }
+      ],
+      "literature": {
+        "note": "旅客試驗 PMID 27023596 只核到題名與部分摘要，沒有品牌字樣，不列入出處。",
+        "refs": [
+          {
+            "note": "J Pers Med 2022（PMID 36143265）。作者與 Iprona 點名的 ELDERGUT 團隊重疊。摘要前段未印品牌。只核摘要。",
+            "title": "Short- and Long-Term Effects of a Prebiotic Intervention with Polyphenols Extracted from European Black Elderberry",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36143265/"
+          }
+        ],
+        "status": "yes"
+      },
+      "names": {
+        "commonEn": "European black elderberry extract",
+        "commonZh": "歐洲黑接骨木莓萃取物",
+        "scientific": "Sambucus nigra L.（果實；品種頁寫 Haschberg）",
+        "trade": "ElderCraft（Iprona 的黑接骨木莓萃取商品名）"
+      },
+      "patent": {
+        "note": "只有供應商新聞，沒有打開專利全文，也不知道是否已核准。",
+        "refs": [
+          {
+            "note": "Iprona 寫 2023-06-15 國際申請公開，名稱是接骨木萃取用於預防或治療 SARS-CoV-2。這次沒有對到 WO 號。",
+            "title": "The international patent application for ElderCraft has been published",
+            "url": "https://packaging.iprona.com/en/iprona/news/new-patent-br-for-eldercraft-2"
+          }
+        ],
+        "status": "yes"
+      },
+      "sources": [
+        {
+          "accessed": "2026-11-10",
+          "channel": "exhibition",
+          "publisher": "NutraIngredients",
+          "title": "SupplySide Global 2026: What’s happening on the show floor",
+          "url": "https://www.nutraingredients.com/Article/2026/10/14/supplyside-global-2026-whats-happening-on-the-show-floor/",
+          "whatItContributes": "2026-10-14 展前記者：Artemis（攤位 3145）預告接骨木人體研究，並點名 ElderCraft Dual Defense。"
+        },
+        {
+          "accessed": "2026-11-10",
+          "channel": "supplier_site",
+          "publisher": "Artemis International",
+          "title": "Our Partners",
+          "url": "https://artemis-nutraceuticals.com/our-partners/",
+          "whatItContributes": "美國合作頁：Iprona 的 ElderCraft 是有臨床的歐洲黑接骨木萃取，雙方合作超過 20 年。"
+        },
+        {
+          "accessed": "2026-11-10",
+          "channel": "supplier_site",
+          "publisher": "Iprona／Craft Ingredients",
+          "title": "ElderCraft Black Elderberry Extract",
+          "url": "https://www.craft-ingredients.info/our-ingredients/eldercraft",
+          "whatItContributes": "產品頁：Sambucus nigra、奧地利 Haschberg、不使用人工溶劑。"
+        },
+        {
+          "accessed": "2026-11-10",
+          "channel": "supplier_site",
+          "publisher": "Iprona／Craft Ingredients",
+          "title": "Gut health study",
+          "url": "https://www.craft-ingredients.info/gut-health-study",
+          "whatItContributes": "供應商對 ELDERGUT 的設計：30 人、300 mg 一天兩次。"
+        },
+        {
+          "accessed": "2026-11-10",
+          "channel": "other",
+          "publisher": "崴達國際",
+          "title": "ElderCraft 專利接骨木莓萃取物",
+          "url": "https://www.wedar.com/product/eldercraft",
+          "whatItContributes": "台灣上架頁：Iprona、10% C3G，成分寫有機接骨木莓萃取與有機麥芽糊精。"
+        },
+        {
+          "accessed": "2026-11-10",
+          "channel": "paper",
+          "publisher": "J Pers Med（PubMed）",
+          "title": "PubMed 36143265",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36143265/",
+          "whatItContributes": "歐洲黑接骨木多酚的人體益生元研究書目。"
+        }
+      ],
+      "supply": {
+        "relationship": "taiwan_agent",
+        "relationshipNote": "崴達原料頁上架 ElderCraft，公司自述代理國際專利原料；英文頁寫產地義大利、Iprona 製造。Artemis 夥伴頁寫與 Iprona 合作超過 20 年並點名 ElderCraft，沒有回指崴達。代理關係只有崴達單方說法。",
+        "supplierCountry": "義大利",
+        "supplierName": "Iprona SpA",
+        "taiwanPartyName": "崴達國際股份有限公司"
+      },
+      "tfda": {
+        "evidenceNotes": "食品原料「接骨木」有 2 筆。可供食用的是 Sambucus nigra 等，部位果實與花，備註空白。另一筆是 William's elder（Sambucus williamsii）的葉，寫未經確認不得供作食品原料。接骨草（Sambucus formosana）是另一筆未確認，不能套到果實萃取。商品名與添加物是 0 筆。",
+        "lookupDate": "2026-11-10",
+        "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+        "officialCrosscheck": {
+          "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+          "done": true,
+          "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+          "notes": "2026-11-10 依查詢助手 data.json（詳細頁擷取 2026-11-09 06:15）核對果實／花列名，以及葉、接骨草兩筆未確認。官方 MaterialDetail 這次沒有回 HTTP 標頭。"
+        },
+        "queries": [
+          {
+            "category": "",
+            "keyword": "接骨木",
+            "matchedName": "接骨木",
+            "note": "2 筆裡 1 筆未確認，部位是葉。本品只對果實萃取，不套用葉。",
+            "restrictionNote": "果實、花那筆學名含 Sambucus nigra L.，備註空白。葉那筆學名 Sambucus williamsii，備註寫未經確認其食用安全性前不得供作食品原料使用。",
+            "resultCount": 2,
+            "tab": "ingredient",
+            "unconfirmedSafety": true
+          },
+          {
+            "category": "未確認安全性尚不得使用之原料",
+            "keyword": "接骨草",
+            "matchedName": "冇骨消；蒴藋；接骨草",
+            "note": "學名 Sambucus formosana Nakai。不是本品的果實規格。",
+            "restrictionNote": "未經確認其食用安全性前，不得供為食品原料使用。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": true
+          },
+          {
+            "category": "",
+            "keyword": "Sambucus nigra",
+            "matchedName": "接骨木",
+            "note": "對到可供直接食用那一筆。",
+            "restrictionNote": "部位果實、花。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "ElderCraft",
+            "matchedName": "",
+            "note": "商品名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "接骨木",
+            "matchedName": "",
+            "note": "添加物分頁 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "接骨木",
+            "matchedName": "",
+            "note": "助手更新歷程（11/01–11/09）沒有異動。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "history",
+            "unconfirmedSafety": false
+          }
+        ],
+        "usable": "listed_food_ingredient"
+      }
+    },
+    {
+      "discovery": {
         "channel": "news",
         "notes": "從 NutraIngredients 2025-10-22 的羥基酪醇試驗新聞看到 Hytolive，再對 Alvinesa 產品頁與他們自己的臨床新聞。TFDA 對上的是果渣萃取物規格，不是商品名。",
         "scoutDate": "2026-11-05"
@@ -5640,6 +6688,153 @@
     {
       "discovery": {
         "channel": "industry_report",
+        "notes": "從藻類 omega-3 市場稿點名的 life'sDHA B54-0100 進入，再對 dsm-firmenich 新聞稿與產品頁、仁友興業目錄。PubMed 沒有掛這個商品名的論文，專利號也沒有對到。與 11 月 9 日磷蝦油不是同一筆原料。",
+        "scoutDate": "2026-11-10"
+      },
+      "efficacy": {
+        "claimedBenefits": [
+          "dsm-firmenich 2024-10-23 新聞稿寫：life'sDHA B54-0100 每克含 545 mg DHA 與 80 mg EPA，並說它帶有 DHA 既有的科學效益、沒有魚油氣味。新聞稿沒有附特定人體試驗。",
+          "Yahoo Finance 轉載的藻類 omega-3 市場稿複述同一規格，並寫 2024 年 10 月上市。這是市場稿，不是新的療效數據。"
+        ],
+        "dosageNote": "含量是供應商規格，不是建議食用量，也不是台灣每日上限。台灣這筆沒有每日毫克上限，但有 DHA 比例與油脂品質規格。545 mg/g 等於 54.5% DHA，高於列名的 32%；酸價等其餘規格新聞稿沒寫，不能視為已符合。",
+        "suggestedDosage": "這次打開的新聞稿與產品頁沒有寫一般建議毫克。B54-0100 的含量是每克 545 mg DHA、80 mg EPA。"
+      },
+      "evidenceLevels": [],
+      "example": false,
+      "id": "lifes-dha",
+      "images": [
+        {
+          "caption": "dsm-firmenich 新聞稿頁首橫幅，不是油品實物。",
+          "localPath": "",
+          "source": "official_site",
+          "url": "https://www.dsm-firmenich.com/en/businesses/health-nutrition-care/news/press-releases/2024-10-23-dsm-firmenich-expands-its-advanced-lifes-portfolio-with-lifes-dha-b54-0100-a-naturally-potent-dha-algal-oil-with-exceptional-sensory-appeal/_jcr_content/root/responsivegrid/pshero/image.coreimg.jpeg/1721201565746/green-tn-banner.jpeg"
+        }
+      ],
+      "literature": {
+        "note": "PubMed 用 life'sDHA 全欄位檢索是 0 筆。一般藻油 DHA 試驗很多，但這次沒有讀到點名這個商品名的論文，所以不標臨床。",
+        "refs": [],
+        "status": "unknown"
+      },
+      "names": {
+        "commonEn": "algal DHA oil",
+        "commonZh": "藻油DHA",
+        "scientific": "新聞稿只寫藻類，沒有寫學名或菌株。台灣 DHA 藻油允許的來源是 Aurantiochytrium sp.（Schizochytrium sp.）、Ulkenia sp. 或 Crypthecodinium cohnii。B54-0100 這次沒有對到是哪一種。",
+        "trade": "life'sDHA（dsm-firmenich 的藻油 DHA 商品名；本次對到的規格是 B54-0100）"
+      },
+      "patent": {
+        "note": "這次沒有對到掛名 life'sDHA 或 B54-0100 的專利號。不把其他公司的藻油專利算進來。",
+        "refs": [],
+        "status": "unknown"
+      },
+      "sources": [
+        {
+          "accessed": "2026-11-10",
+          "channel": "industry_report",
+          "publisher": "Yahoo Finance（市場報告稿）",
+          "title": "ADM, DSM, and Corbion Lead the Fragmented $1.81 Billion Algae Omega-3 Ingredients Market, 2025-2030",
+          "url": "https://finance.yahoo.com/news/adm-dsm-corbion-lead-fragmented-143700615.html",
+          "whatItContributes": "市場稿寫藻類 omega-3 原料 2024 年 11.9 億美元、2030 年 18.1 億美元，並點名 2024 年 10 月 life'sDHA B54-0100。"
+        },
+        {
+          "accessed": "2026-11-10",
+          "channel": "supplier_site",
+          "publisher": "dsm-firmenich",
+          "title": "dsm-firmenich expands its advanced life’s portfolio with life’sDHA B54-0100",
+          "url": "https://www.dsm-firmenich.com/en/businesses/health-nutrition-care/news/press-releases/2024-10-23-dsm-firmenich-expands-its-advanced-lifes-portfolio-with-lifes-dha-b54-0100-a-naturally-potent-dha-algal-oil-with-exceptional-sensory-appeal.html",
+          "whatItContributes": "2024-10-23 新聞稿：每克 545 mg DHA、80 mg EPA，來源寫藻類，沒有寫學名。"
+        },
+        {
+          "accessed": "2026-11-10",
+          "channel": "supplier_site",
+          "publisher": "dsm-firmenich",
+          "title": "life's Limitless algal omega-3",
+          "url": "https://www.dsm-firmenich.com/en/businesses/health-nutrition-care/products/nutritional-lipids/lifes-limitless-algal-sourced-omega-3.html",
+          "whatItContributes": "產品頁再次列出 B54-0100，沒有寫一般建議劑量。"
+        },
+        {
+          "accessed": "2026-11-10",
+          "channel": "other",
+          "publisher": "仁友興業",
+          "title": "營養保健原料",
+          "url": "https://www.jimroyal-trade.com/nutritional-items-zh/",
+          "whatItContributes": "台灣原料頁出現 Life's DHA 藻油植物性膠囊。沒有寫獨家代理。"
+        }
+      ],
+      "supply": {
+        "relationship": "unknown",
+        "relationshipNote": "仁友興業營養保健原料頁有「全素藻油植物性膠囊」，內文寫 Life's DHA 與水萃藻油，沒有寫散裝油總代理。關係未確認。dsm-firmenich 這次打開的新聞稿沒有點名台灣夥伴。",
+        "supplierCountry": "瑞士",
+        "supplierName": "dsm-firmenich",
+        "taiwanPartyName": "仁友興業股份有限公司"
+      },
+      "tfda": {
+        "evidenceNotes": "食品原料「DHA藻油」1 筆。來源可為 Aurantiochytrium sp.（Schizochytrium sp.）、Ulkenia sp. 或 Crypthecodinium cohnii，規格含 DHA 32% 以上、酸價 0.5 mg KOH/g 以下、過氧化價 5.0 meq/kg 以下等，備註沒有每日毫克上限。DHA藻粉是另一筆。商品名與添加物是 0 筆。",
+        "lookupDate": "2026-11-10",
+        "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+        "officialCrosscheck": {
+          "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+          "done": true,
+          "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+          "notes": "2026-11-10 依查詢助手 data.json（詳細頁 id 17679，擷取 2026-11-09 06:15）核對 DHA 32% 與油脂規格。官方 MaterialDetail 這次沒有回 HTTP 標頭。"
+        },
+        "queries": [
+          {
+            "category": "藻類及其來源製取之原料",
+            "keyword": "DHA藻油",
+            "matchedName": "DHA藻油",
+            "note": "沒有每日毫克上限。不是魚油那一筆。",
+            "restrictionNote": "衛授食字第1131301534號：由所列微藻萃取的油脂；DHA 32% 以上，並有酸價、過氧化價、水分、不皂化物與反式脂肪酸規格。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "藻類及其來源製取之原料",
+            "keyword": "DHA藻粉",
+            "matchedName": "DHA藻粉",
+            "note": "粉末是另一筆，不是本次的油。",
+            "restrictionNote": "另有 DHA藻粉使用限制，學名只列 Aurantiochytrium sp.（Schizochytrium sp.）。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Schizochytrium",
+            "matchedName": "DHA藻油；DHA藻粉",
+            "note": "沒有第三筆未確認項目。",
+            "restrictionNote": "兩筆都是藻類來源 DHA，油與粉規格不同。",
+            "resultCount": 2,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "DHA藻油",
+            "matchedName": "",
+            "note": "添加物分頁 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "DHA藻油",
+            "matchedName": "",
+            "note": "助手更新歷程（11/01–11/09）沒有異動。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "history",
+            "unconfirmedSafety": false
+          }
+        ],
+        "usable": "listed_food_ingredient"
+      }
+    },
+    {
+      "discovery": {
+        "channel": "industry_report",
         "notes": "從 OmniActive EU non-novel／Vitafoods 產業稿進入 Lutemax 2020，再對原廠產品頁、Nutrition Insight 訪談與生資台灣目錄。劑量以生資 100 mg 原料對齊葉黃素 30 mg 上限。",
         "scoutDate": "2026-11-07"
       },
@@ -5966,6 +7161,189 @@
           }
         ],
         "usable": "not_found"
+      }
+    },
+    {
+      "discovery": {
+        "channel": "exhibition",
+        "notes": "從 SupplySide Global 2026 展前記者的 California Natural Color／MegaNatural-BP 進入，再對原廠頁、Polyphenolics 手冊、PubMed 與 PLT 的北美銷售稿。TFDA 只採用種子與果皮萃取，並受前花青素 150 mg 限制。",
+        "scoutDate": "2026-11-10"
+      },
+      "efficacy": {
+        "claimedBenefits": [
+          "California Natural Color 產品頁寫：MegaNatural-BP 用專利熱水製程把多酚分子量做小，人體研究顯示有助於把血壓維持在正常範圍。這是供應商說法。",
+          "Metabolism 2009（PMID 19608210）：代謝症候群成人分三組，安慰劑、葡萄籽萃取 150 mg 或 300 mg，4 週。摘要寫的是 grape seed extract。Polyphenolics 手冊把其中的原料寫成 MegaNatural-BP，並寫酚含量 94%。",
+          "EFSA Journal 2021（PMID 34400974）是針對 MegaNatural-BP 與維持正常血壓的健康宣稱意見書。這次只核到審查對象，沒有改寫委員會結論。"
+        ],
+        "dosageNote": "150 與 300 mg 是該篇試驗劑量。台灣上限是前花青素每日 150 mg，不是萃取物 150 mg。這次讀到的規格是多酚約 94%，沒有寫前花青素百分比，不能把 300 mg 萃取物直接換成已符合上限。",
+        "suggestedDosage": "Metabolism 2009 用每日 150 mg 或 300 mg 萃取物，共 4 週。原廠頁這次沒有另寫一個日常建議量。"
+      },
+      "evidenceLevels": [
+        "clinical"
+      ],
+      "example": false,
+      "id": "meganatural-bp",
+      "images": [
+        {
+          "caption": "California Natural Color 葡萄籽頁的葡萄與種子圖。",
+          "localPath": "",
+          "source": "official_site",
+          "url": "https://www.californianaturalcolor.com/grape-seed-extract/content/grapes-and-seeds.png"
+        }
+      ],
+      "literature": {
+        "note": "人體血壓資料以 2009 年那篇為主。EFSA 意見只用來確認商品名進過歐洲宣稱審查。",
+        "refs": [
+          {
+            "note": "Metabolism 2009（PMID 19608210）。摘要寫 150 與 300 mg 葡萄籽萃取，沒有寫商品名。品牌對應見 Polyphenolics 手冊。",
+            "title": "Effect of grape seed extract on blood pressure in subjects with the metabolic syndrome",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19608210/"
+          },
+          {
+            "note": "EFSA Journal 2021（PMID 34400974）。健康宣稱審查，不是新的療效試驗。",
+            "title": "MegaNatural-BP grape seed extract and maintenance of normal blood pressure",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34400974/"
+          }
+        ],
+        "status": "yes"
+      },
+      "names": {
+        "commonEn": "grape seed extract",
+        "commonZh": "葡萄籽萃取物",
+        "scientific": "Vitis vinifera L.（種子）",
+        "trade": "MegaNatural-BP（California Natural Color 的葡萄籽萃取商品名）"
+      },
+      "patent": {
+        "note": "同一本手冊還列 US6544581、US7651707、US8075929。這次只打開 US7767235。",
+        "refs": [
+          {
+            "note": "Polyphenolics 手冊列為組成專利。SupplySide 法律新聞寫美國專利 7,767,235 核給 Constellation Brands／Polyphenolics 的 MegaNatural-BP。這次打開 Google Patents 頁，沒有核權利是否仍有效。",
+            "title": "US7767235B2",
+            "url": "https://patents.google.com/patent/US7767235B2/en"
+          }
+        ],
+        "status": "yes"
+      },
+      "sources": [
+        {
+          "accessed": "2026-11-10",
+          "channel": "exhibition",
+          "publisher": "NutraIngredients",
+          "title": "SupplySide Global 2026: What’s happening on the show floor",
+          "url": "https://www.nutraingredients.com/Article/2026/10/14/supplyside-global-2026-whats-happening-on-the-show-floor/",
+          "whatItContributes": "展前記者：California Natural Color 在 SupplySide Global 2026 展出 MegaNatural-BP，飲品概念每份 150 mg。"
+        },
+        {
+          "accessed": "2026-11-10",
+          "channel": "supplier_site",
+          "publisher": "California Natural Color",
+          "title": "Grape Seed Extract",
+          "url": "https://www.californianaturalcolor.com/grape-seed-extract/",
+          "whatItContributes": "原廠頁：與 ActiVin 同為葡萄籽，MegaNatural-BP 另有降低多酚分子量的專利製程。"
+        },
+        {
+          "accessed": "2026-11-10",
+          "channel": "supplier_site",
+          "publisher": "Polyphenolics",
+          "title": "MegaNatural-BP brochure",
+          "url": "https://www.polyphenolics.com/wp-content/uploads/2017/08/3-MegaNatural-BP-Brochure.pdf",
+          "whatItContributes": "手冊把 150／300 mg 的代謝症候群試驗寫成 MegaNatural-BP，並列出四個美國專利號。"
+        },
+        {
+          "accessed": "2026-11-10",
+          "channel": "industry_report",
+          "publisher": "Nutraceuticals World",
+          "title": "PLT to Market California Natural Colors’ MegaNatural Portfolio",
+          "url": "https://www.nutraceuticalsworld.com/breaking-news/plt-to-market-california-natural-colors-meganatural-portfolio/",
+          "whatItContributes": "PLT 負責北美；文中寫標準化至 94% 多酚，種子為未發酵釀酒葡萄籽、熱水萃取。"
+        },
+        {
+          "accessed": "2026-11-10",
+          "channel": "paper",
+          "publisher": "Metabolism（PubMed）",
+          "title": "PubMed 19608210",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/19608210/",
+          "whatItContributes": "4 週、150 或 300 mg 葡萄籽萃取的血壓試驗書目。"
+        },
+        {
+          "accessed": "2026-11-10",
+          "channel": "patent",
+          "publisher": "Google Patents",
+          "title": "US7767235B2",
+          "url": "https://patents.google.com/patent/US7767235B2/en",
+          "whatItContributes": "手冊與法律新聞指向的組成專利頁。"
+        }
+      ],
+      "supply": {
+        "relationship": "unknown",
+        "relationshipNote": "原廠頁寫由該公司製造 MegaNatural-BP，原料是未發酵葡萄籽、熱水萃取。Nutraceuticals World 寫 PLT Health Solutions 負責北美銷售。Swanson Vitamins 台灣站有含此商品名的成品膠囊，不是原料代理，所以台灣關聯廠商填查無。",
+        "supplierCountry": "美國",
+        "supplierName": "California Natural Color（E. & J. Gallo）",
+        "taiwanPartyName": "查無"
+      },
+      "tfda": {
+        "evidenceNotes": "葡萄種子或果皮萃取物列在可供食用的「葡萄」項下，學名 Vitis vinifera，由種子或果皮萃取，每日以前花青素計 150 mg。同一學名另有未確認的根、莖、藤、嫩芽，那一筆不能用；果實是另一筆直接食用。商品名 MegaNatural 與添加物用「葡萄種子」是 0 筆。",
+        "lookupDate": "2026-11-10",
+        "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+        "officialCrosscheck": {
+          "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+          "done": true,
+          "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+          "notes": "2026-11-10 依查詢助手 data.json（詳細頁 id 17029，擷取 2026-11-09 06:15）核對前花青素 150 mg 與未確認的根莖藤嫩芽。官方 MaterialDetail 這次沒有回 HTTP 標頭。"
+        },
+        "queries": [
+          {
+            "category": "草、木本植物類(2)可供直接食用",
+            "keyword": "葡萄種子",
+            "matchedName": "葡萄",
+            "note": "部位種子、果皮。這是本品對到的規格。",
+            "restrictionNote": "衛授食字第1131301534號：由 Vitis vinifera 種子或果皮萃取；每日食用限量以前花青素計 150 mg。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Vitis vinifera",
+            "matchedName": "葡萄；紅葡萄葉萃取物",
+            "note": "4 筆裡 1 筆未確認。本品只對種子萃取，不套用根莖藤嫩芽，也不套用葉的 720 mg。",
+            "restrictionNote": "未確認那筆部位是根、莖、藤、嫩芽，備註寫未經確認不得供為食品原料。種子果皮萃取另有前花青素 150 mg 上限。紅葡萄葉萃取物每日 720 mg。",
+            "resultCount": 4,
+            "tab": "ingredient",
+            "unconfirmedSafety": true
+          },
+          {
+            "category": "",
+            "keyword": "MegaNatural",
+            "matchedName": "",
+            "note": "商品名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "葡萄種子",
+            "matchedName": "",
+            "note": "添加物分頁 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "葡萄種子",
+            "matchedName": "",
+            "note": "助手更新歷程（11/01–11/09）沒有異動。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "history",
+            "unconfirmedSafety": false
+          }
+        ],
+        "usable": "listed_food_ingredient"
       }
     },
     {
@@ -6481,6 +7859,181 @@
             "keyword": "膠原",
             "matchedName": "",
             "note": "未另見此關鍵字的新增列為未確認安全性。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "history",
+            "unconfirmedSafety": false
+          }
+        ],
+        "usable": "listed_food_ingredient"
+      }
+    },
+    {
+      "discovery": {
+        "channel": "news",
+        "notes": "從 Stratum 2026-11-06 的統園合作新聞進入，再對統園中文頁、PubMed 兩篇與 US8580315B2。TFDA 蛋殼膜每日 500 mg，與試驗劑量相同。OVOLUX 是同公司另一個蛋殼膜商品，這筆只收 NEM。",
+        "scoutDate": "2026-11-10"
+      },
+      "efficacy": {
+        "claimedBenefits": [
+          "Stratum 2026-11-06 新聞寫：NEM 是部分水解蛋殼膜，有 10 項人體研究，每日 500 mg 一次，關節舒適度最早約 4 天。這是供應商說法。",
+          "Clin Interv Aging 2018（PMID 29497287）：60 名停經後婦女，口服 NEM 500 mg 或安慰劑，每天一次、兩週，同時做會誘發關節不適的運動。論文單位含 ESM Technologies。"
+        ],
+        "dosageNote": "500 mg 同時是供應商建議、這篇試驗劑量與台灣每日上限，不可再加。還要標懷孕、哺乳與蛋過敏警語。",
+        "suggestedDosage": "供應商與上述人體試驗都是每日 500 mg 一次。"
+      },
+      "evidenceLevels": [
+        "animal",
+        "clinical"
+      ],
+      "example": false,
+      "id": "nem-eggshell",
+      "images": [
+        {
+          "caption": "Stratum 公告統園合作的新聞主圖，不是蛋殼膜粉末包裝。",
+          "localPath": "",
+          "source": "official_site",
+          "url": "https://pub-62493d3b6c1f43b3b3da35416578b569.r2.dev/file/Stratum_Toong_Yeuan_partnership_dbbd97e6c8.webp"
+        }
+      ],
+      "literature": {
+        "note": "人體一篇、動物一篇，都寫 NEM 或 natural eggshell membrane，作者單位含 ESM Technologies。",
+        "refs": [
+          {
+            "note": "Clin Interv Aging 2018（PMID 29497287）。人體、NEM 500 mg。只核摘要。",
+            "title": "Beneficial effects of natural eggshell membrane versus placebo in exercise-induced joint pain, stiffness, and cartilage turnover in healthy, postmenopausal women",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29497287/"
+          },
+          {
+            "note": "Mod Rheumatol 2017（PMID 27846748）。動物，口服 NEM。只核摘要。",
+            "title": "Beneficial effects of natural eggshell membrane (NEM) on multiple indices of arthritis in collagen-induced arthritic rats",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27846748/"
+          }
+        ],
+        "status": "yes"
+      },
+      "names": {
+        "commonEn": "eggshell membrane",
+        "commonZh": "蛋殼膜",
+        "scientific": "不適用植物學名。原料是雞蛋殼膜。臨床論文的單位寫 ESM Technologies, LLC（密蘇里 Carthage）。",
+        "trade": "NEM（Stratum Nutrition 的蛋殼膜商品名）"
+      },
+      "patent": {
+        "note": "臨床論文與專利都寫 ESM Technologies。Stratum 新聞把 NEM 當自家商品。兩者的權利關係這次沒有對到轉讓頁。",
+        "refs": [
+          {
+            "note": "權利人 ESM Technologies, LLC。摘要是口服蛋殼膜製備物與抗發炎指標。這次沒有核是否已轉給 Stratum，也沒有核是否仍有效。",
+            "title": "US8580315B2 - Anti-inflammatory activity of eggshell membrane and processed eggshell membrane preparations",
+            "url": "https://patents.google.com/patent/US8580315B2/en"
+          }
+        ],
+        "status": "yes"
+      },
+      "sources": [
+        {
+          "accessed": "2026-11-10",
+          "channel": "news",
+          "publisher": "Stratum Nutrition",
+          "title": "Stratum Nutrition Announces Distribution Partnership with Toong Yeuan Enterprise Co. Ltd. in Taiwan",
+          "url": "https://www.stratumnutrition.com/human/posts/detail/stratum-nutrition-announces-distribution-partnership-with-toong-yeuan-enterprise-co-ltd-in-taiwan",
+          "whatItContributes": "2026-11-06 公司新聞：與統園簽約，NEM 每日 500 mg，並寫合約在 Vitafoods Asia 2026 簽署。"
+        },
+        {
+          "accessed": "2026-11-10",
+          "channel": "news",
+          "publisher": "統園企業",
+          "title": "統園企業獨家代理美國NEM、OVOLUX蛋殼膜等明星原料",
+          "url": "https://www.tyig.com.tw/web/news/news_in.jsp?lang=tw&np_no=NP1782292043014",
+          "whatItContributes": "台灣頁寫 2026 年獨家代理 NEM、OVOLUX 與 SageXtra。頁首日期為 2026/06/26。"
+        },
+        {
+          "accessed": "2026-11-10",
+          "channel": "paper",
+          "publisher": "Clin Interv Aging（PubMed）",
+          "title": "PubMed 29497287",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29497287/",
+          "whatItContributes": "停經後婦女、NEM 500 mg、兩週的人體試驗書目。"
+        },
+        {
+          "accessed": "2026-11-10",
+          "channel": "patent",
+          "publisher": "Google Patents",
+          "title": "US8580315B2",
+          "url": "https://patents.google.com/patent/US8580315B2/en",
+          "whatItContributes": "ESM Technologies 的蛋殼膜製備物專利。"
+        },
+        {
+          "accessed": "2026-11-10",
+          "channel": "other",
+          "publisher": "遠景",
+          "title": "NEM蛋殼膜粉",
+          "url": "https://www.food7-11.com/products/content/259",
+          "whatItContributes": "另一家台灣頁也列 NEM，建議量 500 mg／日。用來對照獨家說法尚未互斥。"
+        }
+      ],
+      "supply": {
+        "relationship": "taiwan_agent",
+        "relationshipNote": "Stratum 2026-11-06 新聞與統園頁都寫統園代理 NEM。統園頁首日期是 2026/06/26，Stratum 英文稿日期是 2026-11-06，並寫合約在 Vitafoods Asia 2026 簽署，兩個日期對不上。遠景與大自然生技素材也有 NEM 產品頁，獨家範圍沒有互斥核完。以雙方都承認的代理關係填列。",
+        "supplierCountry": "美國",
+        "supplierName": "Stratum Nutrition",
+        "taiwanPartyName": "統園企業股份有限公司"
+      },
+      "tfda": {
+        "evidenceNotes": "食品原料「蛋殼膜」1 筆，每日上限 500 mg，並要標示懷孕、哺乳婦女及對蛋過敏者應避免食用。蛋殼與鴯鶓鳥蛋殼是別的列名，不把蛋殼的限制抄成這一筆。商品名的英文字母搜尋會誤中其他品項；添加物用「蛋殼膜」是 0 筆。",
+        "lookupDate": "2026-11-10",
+        "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+        "officialCrosscheck": {
+          "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+          "done": true,
+          "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+          "notes": "2026-11-10 依查詢助手 data.json（詳細頁 id 17652，擷取 2026-11-09 06:15）核對 500 mg 與警語。官方 MaterialDetail 這次沒有回 HTTP 標頭。"
+        },
+        "queries": [
+          {
+            "category": "禽、畜類及其來源製取之原料",
+            "keyword": "蛋殼膜",
+            "matchedName": "蛋殼膜",
+            "note": "外文 Eggshell membrane。不是未確認分類。",
+            "restrictionNote": "衛授食字第1081302650號：每日食用限量 500 mg；應標示「懷孕、哺乳期間婦女及對蛋過敏者應避免食用」。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "蛋殼",
+            "matchedName": "蛋殼；鴯鶓鳥蛋殼；蛋殼膜",
+            "note": "3 筆都在可供食品使用。本品只對蛋殼膜。",
+            "restrictionNote": "蛋殼另有 1131301534 號使用限制。鴯鶓鳥蛋殼是另一筆。",
+            "resultCount": 3,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "NEM",
+            "matchedName": "海蘊；武靴藤；黃精；買麻藤",
+            "note": "商品名沒有列上。4 筆是中英文字串裡含 nem 的其他原料，不是 NEM 蛋殼膜。",
+            "restrictionNote": "",
+            "resultCount": 4,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "蛋殼膜",
+            "matchedName": "",
+            "note": "添加物分頁 0 筆。用 NEM 三個字母會誤中 L-半胱胺酸鹽酸鹽的英文拼字，不採計。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "蛋殼膜",
+            "matchedName": "",
+            "note": "助手更新歷程（11/01–11/09）沒有異動。",
             "restrictionNote": "",
             "resultCount": 0,
             "tab": "history",
@@ -8451,6 +10004,159 @@
             "keyword": "白藜蘆醇",
             "matchedName": "",
             "note": "助手更新歷程（11/01–11/08）沒有異動。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "history",
+            "unconfirmedSafety": false
+          }
+        ],
+        "usable": "listed_food_ingredient"
+      }
+    },
+    {
+      "discovery": {
+        "channel": "news",
+        "notes": "從 NutraIngredients 2026-04-14 的 Kerry 付費稿進入 Wellmune，再對 Kerry 研究頁、PubMed 39846553 與加拿大商標。TFDA 只對到微生物來源的 β-聚葡萄糖，沒有商品名列名。",
+        "scoutDate": "2026-11-10"
+      },
+      "efficacy": {
+        "claimedBenefits": [
+          "Kerry 在 NutraIngredients 2026-04-14 付費稿寫：Wellmune 是啤酒酵母 β-1,3/1,6-葡聚醣後生元，宣稱可訓練先天免疫；並寫 156 名兒童、35 mg 組的上呼吸道感染次數少於安慰劑。這是供應商說法。",
+          "BioTech 2025（PMID 39846553）：19 名成人隨機分到 Wellmune 或安慰劑，6 週劑量由每日 50 mg 增至 250 mg，酵母 β-葡聚醣組有 40 個與先天免疫相關的 mRNA 變化。作者寫這是免疫訓練的假設，不是感冒預防結論。"
+        ],
+        "dosageNote": "以上是供應商頁或該篇人體試驗的劑量，不是台灣上限。酵母來源 β-聚葡萄糖這筆沒有寫每日毫克上限。",
+        "suggestedDosage": "付費稿的兒童試驗寫 35 mg。Kerry 臨床研究頁寫一項馬拉松飲料試驗用 250 mg。BioTech 2025 是 50、125、250 mg 遞增。沒有單一建議量。"
+      },
+      "evidenceLevels": [
+        "clinical"
+      ],
+      "example": false,
+      "id": "wellmune",
+      "images": [
+        {
+          "caption": "Kerry 保健原料站免疫健康頁的圖。這次開啟 Wellmune 路徑時被導到分類頁，不是單獨的原料包裝照。",
+          "localPath": "",
+          "source": "official_site",
+          "url": "https://supplements.kerry.com/wp-content/uploads/2024/10/Immune-2.png"
+        }
+      ],
+      "literature": {
+        "note": "付費稿裡的兒童與馬拉松敘述沒有在這次對到同一篇 PMID，不另補論文。",
+        "refs": [
+          {
+            "note": "BioTech (Basel) 2025（PMID 39846553，DOI 10.3390/biotech14010004）。摘要寫受試物是 Wellmune。只核摘要。",
+            "title": "Discovery of Innate Immune Response mRNAs That Are Impacted by Structure-Specific Oral Baker's Yeast Beta Glucan Consumption",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39846553/"
+          }
+        ],
+        "status": "yes"
+      },
+      "names": {
+        "commonEn": "baker's yeast beta-glucan",
+        "commonZh": "啤酒酵母β-葡聚醣",
+        "scientific": "不適用單一植物學名。成分是啤酒酵母 Saccharomyces cerevisiae 細胞壁的 β-1,3/1,6-葡聚醣。與 11 月 9 日 Veri-te 不同：那筆是酵母發酵的反式白藜蘆醇，這筆是細胞壁多醣。",
+        "trade": "Wellmune（Kerry 的啤酒酵母 β-1,3/1,6-葡聚醣商品名）"
+      },
+      "patent": {
+        "note": "這次沒有對到 Kerry 名下、權利範圍就是 Wellmune 食品原料的公告專利。AU2023293981A1 內文把 Wellmune 寫成 whole glucan particle 的例子，申請人是都柏林大學，不把它列成本品專利。",
+        "refs": [],
+        "status": "unknown"
+      },
+      "sources": [
+        {
+          "accessed": "2026-11-10",
+          "channel": "news",
+          "publisher": "NutraIngredients（Kerry 付費合作稿）",
+          "title": "Support for immune health across the lifespan",
+          "url": "https://www.nutraingredients.com/News/Promotional-features/support-for-immune-health-across-the-lifespan/",
+          "whatItContributes": "2026-04-14 新聞欄付費稿：Wellmune 是啤酒酵母 β-葡聚醣，並寫兒童 35 mg 的試驗敘述。"
+        },
+        {
+          "accessed": "2026-11-10",
+          "channel": "supplier_site",
+          "publisher": "Kerry",
+          "title": "Wellmune Research Studies",
+          "url": "https://supplements.kerry.com/proactive-health/immune-health/wellmune/wellmune-clinical-studies/",
+          "whatItContributes": "供應商研究頁：馬拉松飲料試驗寫 250 mg Wellmune，並概述多項人體研究。"
+        },
+        {
+          "accessed": "2026-11-10",
+          "channel": "paper",
+          "publisher": "BioTech（PubMed）",
+          "title": "PubMed 39846553",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39846553/",
+          "whatItContributes": "2025 年人體 mRNA 研究，材料寫明 Wellmune，劑量 50 至 250 mg。"
+        },
+        {
+          "accessed": "2026-11-10",
+          "channel": "other",
+          "publisher": "加拿大智慧財產局",
+          "title": "WELLMUNE 加拿大商標 1358147",
+          "url": "https://ised-isde.canada.ca/cipo/trademark-search/1358147",
+          "whatItContributes": "現有權人 Kerry Group Services International Limited；商品範圍含酵母來源葡聚醣原料。"
+        },
+        {
+          "accessed": "2026-11-10",
+          "channel": "other",
+          "publisher": "悠活原力",
+          "title": "成分頁",
+          "url": "https://www.yohopower.tw/pages/ingredient",
+          "whatItContributes": "台灣成品成分表出現 Kerry Wellmune。未見代理契約，不當成原料經銷。"
+        }
+      ],
+      "supply": {
+        "relationship": "unknown",
+        "relationshipNote": "加拿大商標 WELLMUNE（申請號 1358147）現有權人是 Kerry Group Services International Limited（Tralee）。悠活原力成品成分表把酵母 β-葡聚醣寫成 Kerry Wellmune，那是配方揭露，不是原料代理頁，所以台灣關聯廠商填查無。",
+        "supplierCountry": "愛爾蘭",
+        "supplierName": "Kerry Group",
+        "taiwanPartyName": "查無"
+      },
+      "tfda": {
+        "evidenceNotes": "食品原料「β-聚葡萄糖」有 2 筆，都不是未確認安全性。Wellmune 對微生物那一筆，備註寫由 Aureobasidium pullulans 或 Saccharomyces cerevisiae 製成，沒有每日毫克上限；另一筆是大麥、燕麥、黑麥、小麥。商品名、添加物與 11 月 1–9 日更新歷程都是 0 筆。",
+        "lookupDate": "2026-11-10",
+        "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+        "officialCrosscheck": {
+          "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+          "done": true,
+          "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+          "notes": "2026-11-10 依查詢助手 data.json（詳細頁擷取 2026-11-09 06:15，Asia/Taipei）核對兩筆 β-聚葡萄糖。官方 MaterialDetail 這次沒有回 HTTP 標頭。"
+        },
+        "queries": [
+          {
+            "category": "",
+            "keyword": "β-聚葡萄糖",
+            "matchedName": "β-聚葡萄糖",
+            "note": "兩筆都在可供食品使用。本品只對微生物來源。",
+            "restrictionNote": "微生物那筆備註：由 Aureobasidium pullulans、Saccharomyces cerevisiae 為來源製成。穀物那筆備註：由大麥、燕麥、黑麥、小麥所製取。",
+            "resultCount": 2,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Wellmune",
+            "matchedName": "",
+            "note": "商品名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "β-聚葡萄糖",
+            "matchedName": "",
+            "note": "添加物分頁 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "β-聚葡萄糖",
+            "matchedName": "",
+            "note": "助手更新歷程（11/01–11/09）沒有這筆異動。",
             "restrictionNote": "",
             "resultCount": 0,
             "tab": "history",

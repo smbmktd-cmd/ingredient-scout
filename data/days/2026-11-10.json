@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-10",
+  "example": false,
+  "title": "2026-11-10 正式日報",
+  "targetCount": 5,
+  "channelsCovered": [
+    "news",
+    "exhibition",
+    "industry_report"
+  ],
+  "notes": "正式五筆。主管道：Wellmune、NEM 為新聞；ElderCraft、MegaNatural-BP 為展覽；life'sDHA 為產業報導。未放入未確認安全性項目。接骨木只對果實與花，葉與接骨草排除。葡萄只對種子與果皮萃取，根莖藤嫩芽排除。藻油 DHA 不是 11 月 9 日磷蝦油。酵母 β-葡聚醣不是 11 月 9 日的反式白藜蘆醇。蛋殼膜不是前幾日的膠原胜肽。",
+  "picks": [
+    "wellmune",
+    "eldercraft",
+    "lifes-dha",
+    "meganatural-bp",
+    "nem-eggshell"
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "id": "eldercraft",
+  "example": false,
+  "names": {
+    "commonZh": "歐洲黑接骨木莓萃取物",
+    "commonEn": "European black elderberry extract",
+    "trade": "ElderCraft（Iprona 的黑接骨木莓萃取商品名）",
+    "scientific": "Sambucus nigra L.（果實；品種頁寫 Haschberg）"
+  },
+  "supply": {
+    "supplierName": "Iprona SpA",
+    "supplierCountry": "義大利",
+    "relationship": "taiwan_agent",
+    "taiwanPartyName": "崴達國際股份有限公司",
+    "relationshipNote": "崴達原料頁上架 ElderCraft，公司自述代理國際專利原料；英文頁寫產地義大利、Iprona 製造。Artemis 夥伴頁寫與 Iprona 合作超過 20 年並點名 ElderCraft，沒有回指崴達。代理關係只有崴達單方說法。"
+  },
+  "tfda": {
+    "usable": "listed_food_ingredient",
+    "evidenceNotes": "食品原料「接骨木」有 2 筆。可供食用的是 Sambucus nigra 等，部位果實與花，備註空白。另一筆是 William's elder（Sambucus williamsii）的葉，寫未經確認不得供作食品原料。接骨草（Sambucus formosana）是另一筆未確認，不能套到果實萃取。商品名與添加物是 0 筆。",
+    "lookupDate": "2026-11-10",
+    "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+    "queries": [
+      {
+        "tab": "ingredient",
+        "keyword": "接骨木",
+        "category": "",
+        "resultCount": 2,
+        "matchedName": "接骨木",
+        "restrictionNote": "果實、花那筆學名含 Sambucus nigra L.，備註空白。葉那筆學名 Sambucus williamsii，備註寫未經確認其食用安全性前不得供作食品原料使用。",
+        "unconfirmedSafety": true,
+        "note": "2 筆裡 1 筆未確認，部位是葉。本品只對果實萃取，不套用葉。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "接骨草",
+        "category": "未確認安全性尚不得使用之原料",
+        "resultCount": 1,
+        "matchedName": "冇骨消；蒴藋；接骨草",
+        "restrictionNote": "未經確認其食用安全性前，不得供為食品原料使用。",
+        "unconfirmedSafety": true,
+        "note": "學名 Sambucus formosana Nakai。不是本品的果實規格。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Sambucus nigra",
+        "category": "",
+        "resultCount": 1,
+        "matchedName": "接骨木",
+        "restrictionNote": "部位果實、花。",
+        "unconfirmedSafety": false,
+        "note": "對到可供直接食用那一筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "ElderCraft",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "接骨木",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "添加物分頁 0 筆。"
+      },
+      {
+        "tab": "history",
+        "keyword": "接骨木",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "助手更新歷程（11/01–11/09）沒有異動。"
+      }
+    ],
+    "officialCrosscheck": {
+      "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+      "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+      "done": true,
+      "notes": "2026-11-10 依查詢助手 data.json（詳細頁擷取 2026-11-09 06:15）核對果實／花列名，以及葉、接骨草兩筆未確認。官方 MaterialDetail 這次沒有回 HTTP 標頭。"
+    }
+  },
+  "efficacy": {
+    "claimedBenefits": [
+      "Iprona／Craft 腸道試驗頁寫：30 人交叉試驗，ElderCraft 300 mg 一天兩次、介入 3 週，微生物多樣性上升，並寫 Akkermansia 升高。這是供應商對 ELDERGUT 的說法。",
+      "J Pers Med 2022（PMID 36143265）題名是歐洲黑接骨木多酚的益生元介入，作者含 Moschen，並出現 VASCage。Iprona 把 ELDERGUT 寫成與 Moschen 合作。摘要前段沒有印出 ElderCraft。",
+      "Iprona 免疫頁寫 312 名長途飛行旅客、每日 600–900 mg，感冒次數與天數較少。設計與 Nutrients 2016（PMID 27023596，Tiralongo）相近，但這次讀到的摘要前段沒有品牌名，不把那篇直接算成 ElderCraft 試驗。"
+    ],
+    "suggestedDosage": "腸道試驗頁寫 300 mg 一天兩次（每日 600 mg）。免疫頁的旅客試驗寫每日 600–900 mg。",
+    "dosageNote": "兩組數字都是供應商試驗頁的劑量。台灣果實與花這筆沒有每日毫克上限。葉與接骨草的未確認列名不能拿來放寬或替代。"
+  },
+  "patent": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "The international patent application for ElderCraft has been published",
+        "url": "https://packaging.iprona.com/en/iprona/news/new-patent-br-for-eldercraft-2",
+        "note": "Iprona 寫 2023-06-15 國際申請公開，名稱是接骨木萃取用於預防或治療 SARS-CoV-2。這次沒有對到 WO 號。"
+      }
+    ],
+    "note": "只有供應商新聞，沒有打開專利全文，也不知道是否已核准。"
+  },
+  "literature": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "Short- and Long-Term Effects of a Prebiotic Intervention with Polyphenols Extracted from European Black Elderberry",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/36143265/",
+        "note": "J Pers Med 2022（PMID 36143265）。作者與 Iprona 點名的 ELDERGUT 團隊重疊。摘要前段未印品牌。只核摘要。"
+      }
+    ],
+    "note": "旅客試驗 PMID 27023596 只核到題名與部分摘要，沒有品牌字樣，不列入出處。"
+  },
+  "evidenceLevels": [
+    "clinical"
+  ],
+  "images": [
+    {
+      "url": "https://www.craft-ingredients.info/fileadmin/_processed_/d/9/csm_elder-craft_612e472557.png",
+      "localPath": "",
+      "caption": "Craft Ingredients 產品頁上的 ElderCraft 圖示。",
+      "source": "official_site"
+    }
+  ],
+  "sources": [
+    {
+      "title": "SupplySide Global 2026: What’s happening on the show floor",
+      "url": "https://www.nutraingredients.com/Article/2026/10/14/supplyside-global-2026-whats-happening-on-the-show-floor/",
+      "publisher": "NutraIngredients",
+      "channel": "exhibition",
+      "accessed": "2026-11-10",
+      "whatItContributes": "2026-10-14 展前記者：Artemis（攤位 3145）預告接骨木人體研究，並點名 ElderCraft Dual Defense。"
+    },
+    {
+      "title": "Our Partners",
+      "url": "https://artemis-nutraceuticals.com/our-partners/",
+      "publisher": "Artemis International",
+      "channel": "supplier_site",
+      "accessed": "2026-11-10",
+      "whatItContributes": "美國合作頁：Iprona 的 ElderCraft 是有臨床的歐洲黑接骨木萃取，雙方合作超過 20 年。"
+    },
+    {
+      "title": "ElderCraft Black Elderberry Extract",
+      "url": "https://www.craft-ingredients.info/our-ingredients/eldercraft",
+      "publisher": "Iprona／Craft Ingredients",
+      "channel": "supplier_site",
+      "accessed": "2026-11-10",
+      "whatItContributes": "產品頁：Sambucus nigra、奧地利 Haschberg、不使用人工溶劑。"
+    },
+    {
+      "title": "Gut health study",
+      "url": "https://www.craft-ingredients.info/gut-health-study",
+      "publisher": "Iprona／Craft Ingredients",
+      "channel": "supplier_site",
+      "accessed": "2026-11-10",
+      "whatItContributes": "供應商對 ELDERGUT 的設計：30 人、300 mg 一天兩次。"
+    },
+    {
+      "title": "ElderCraft 專利接骨木莓萃取物",
+      "url": "https://www.wedar.com/product/eldercraft",
+      "publisher": "崴達國際",
+      "channel": "other",
+      "accessed": "2026-11-10",
+      "whatItContributes": "台灣上架頁：Iprona、10% C3G，成分寫有機接骨木莓萃取與有機麥芽糊精。"
+    },
+    {
+      "title": "PubMed 36143265",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36143265/",
+      "publisher": "J Pers Med（PubMed）",
+      "channel": "paper",
+      "accessed": "2026-11-10",
+      "whatItContributes": "歐洲黑接骨木多酚的人體益生元研究書目。"
+    }
+  ],
+  "discovery": {
+    "channel": "exhibition",
+    "scoutDate": "2026-11-10",
+    "notes": "從 SupplySide Global 2026 展前記者裡的 Artemis／ElderCraft 進入，再對 Artemis 夥伴頁、Iprona 產品頁與崴達原料頁。TFDA 只採用果實與花的接骨木列名，葉和接骨草排除。"
+  }
+}

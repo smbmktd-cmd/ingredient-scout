@@ -1,0 +1,147 @@
+{
+  "id": "lifes-dha",
+  "example": false,
+  "names": {
+    "commonZh": "藻油DHA",
+    "commonEn": "algal DHA oil",
+    "trade": "life'sDHA（dsm-firmenich 的藻油 DHA 商品名；本次對到的規格是 B54-0100）",
+    "scientific": "新聞稿只寫藻類，沒有寫學名或菌株。台灣 DHA 藻油允許的來源是 Aurantiochytrium sp.（Schizochytrium sp.）、Ulkenia sp. 或 Crypthecodinium cohnii。B54-0100 這次沒有對到是哪一種。"
+  },
+  "supply": {
+    "supplierName": "dsm-firmenich",
+    "supplierCountry": "瑞士",
+    "relationship": "unknown",
+    "taiwanPartyName": "仁友興業股份有限公司",
+    "relationshipNote": "仁友興業營養保健原料頁有「全素藻油植物性膠囊」，內文寫 Life's DHA 與水萃藻油，沒有寫散裝油總代理。關係未確認。dsm-firmenich 這次打開的新聞稿沒有點名台灣夥伴。"
+  },
+  "tfda": {
+    "usable": "listed_food_ingredient",
+    "evidenceNotes": "食品原料「DHA藻油」1 筆。來源可為 Aurantiochytrium sp.（Schizochytrium sp.）、Ulkenia sp. 或 Crypthecodinium cohnii，規格含 DHA 32% 以上、酸價 0.5 mg KOH/g 以下、過氧化價 5.0 meq/kg 以下等，備註沒有每日毫克上限。DHA藻粉是另一筆。商品名與添加物是 0 筆。",
+    "lookupDate": "2026-11-10",
+    "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+    "queries": [
+      {
+        "tab": "ingredient",
+        "keyword": "DHA藻油",
+        "category": "藻類及其來源製取之原料",
+        "resultCount": 1,
+        "matchedName": "DHA藻油",
+        "restrictionNote": "衛授食字第1131301534號：由所列微藻萃取的油脂；DHA 32% 以上，並有酸價、過氧化價、水分、不皂化物與反式脂肪酸規格。",
+        "unconfirmedSafety": false,
+        "note": "沒有每日毫克上限。不是魚油那一筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "DHA藻粉",
+        "category": "藻類及其來源製取之原料",
+        "resultCount": 1,
+        "matchedName": "DHA藻粉",
+        "restrictionNote": "另有 DHA藻粉使用限制，學名只列 Aurantiochytrium sp.（Schizochytrium sp.）。",
+        "unconfirmedSafety": false,
+        "note": "粉末是另一筆，不是本次的油。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Schizochytrium",
+        "category": "",
+        "resultCount": 2,
+        "matchedName": "DHA藻油；DHA藻粉",
+        "restrictionNote": "兩筆都是藻類來源 DHA，油與粉規格不同。",
+        "unconfirmedSafety": false,
+        "note": "沒有第三筆未確認項目。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "DHA藻油",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "添加物分頁 0 筆。"
+      },
+      {
+        "tab": "history",
+        "keyword": "DHA藻油",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "助手更新歷程（11/01–11/09）沒有異動。"
+      }
+    ],
+    "officialCrosscheck": {
+      "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+      "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+      "done": true,
+      "notes": "2026-11-10 依查詢助手 data.json（詳細頁 id 17679，擷取 2026-11-09 06:15）核對 DHA 32% 與油脂規格。官方 MaterialDetail 這次沒有回 HTTP 標頭。"
+    }
+  },
+  "efficacy": {
+    "claimedBenefits": [
+      "dsm-firmenich 2024-10-23 新聞稿寫：life'sDHA B54-0100 每克含 545 mg DHA 與 80 mg EPA，並說它帶有 DHA 既有的科學效益、沒有魚油氣味。新聞稿沒有附特定人體試驗。",
+      "Yahoo Finance 轉載的藻類 omega-3 市場稿複述同一規格，並寫 2024 年 10 月上市。這是市場稿，不是新的療效數據。"
+    ],
+    "suggestedDosage": "這次打開的新聞稿與產品頁沒有寫一般建議毫克。B54-0100 的含量是每克 545 mg DHA、80 mg EPA。",
+    "dosageNote": "含量是供應商規格，不是建議食用量，也不是台灣每日上限。台灣這筆沒有每日毫克上限，但有 DHA 比例與油脂品質規格。545 mg/g 等於 54.5% DHA，高於列名的 32%；酸價等其餘規格新聞稿沒寫，不能視為已符合。"
+  },
+  "patent": {
+    "status": "unknown",
+    "refs": [],
+    "note": "這次沒有對到掛名 life'sDHA 或 B54-0100 的專利號。不把其他公司的藻油專利算進來。"
+  },
+  "literature": {
+    "status": "unknown",
+    "refs": [],
+    "note": "PubMed 用 life'sDHA 全欄位檢索是 0 筆。一般藻油 DHA 試驗很多，但這次沒有讀到點名這個商品名的論文，所以不標臨床。"
+  },
+  "evidenceLevels": [],
+  "images": [
+    {
+      "url": "https://www.dsm-firmenich.com/en/businesses/health-nutrition-care/news/press-releases/2024-10-23-dsm-firmenich-expands-its-advanced-lifes-portfolio-with-lifes-dha-b54-0100-a-naturally-potent-dha-algal-oil-with-exceptional-sensory-appeal/_jcr_content/root/responsivegrid/pshero/image.coreimg.jpeg/1721201565746/green-tn-banner.jpeg",
+      "localPath": "",
+      "caption": "dsm-firmenich 新聞稿頁首橫幅，不是油品實物。",
+      "source": "official_site"
+    }
+  ],
+  "sources": [
+    {
+      "title": "ADM, DSM, and Corbion Lead the Fragmented $1.81 Billion Algae Omega-3 Ingredients Market, 2025-2030",
+      "url": "https://finance.yahoo.com/news/adm-dsm-corbion-lead-fragmented-143700615.html",
+      "publisher": "Yahoo Finance（市場報告稿）",
+      "channel": "industry_report",
+      "accessed": "2026-11-10",
+      "whatItContributes": "市場稿寫藻類 omega-3 原料 2024 年 11.9 億美元、2030 年 18.1 億美元，並點名 2024 年 10 月 life'sDHA B54-0100。"
+    },
+    {
+      "title": "dsm-firmenich expands its advanced life’s portfolio with life’sDHA B54-0100",
+      "url": "https://www.dsm-firmenich.com/en/businesses/health-nutrition-care/news/press-releases/2024-10-23-dsm-firmenich-expands-its-advanced-lifes-portfolio-with-lifes-dha-b54-0100-a-naturally-potent-dha-algal-oil-with-exceptional-sensory-appeal.html",
+      "publisher": "dsm-firmenich",
+      "channel": "supplier_site",
+      "accessed": "2026-11-10",
+      "whatItContributes": "2024-10-23 新聞稿：每克 545 mg DHA、80 mg EPA，來源寫藻類，沒有寫學名。"
+    },
+    {
+      "title": "life's Limitless algal omega-3",
+      "url": "https://www.dsm-firmenich.com/en/businesses/health-nutrition-care/products/nutritional-lipids/lifes-limitless-algal-sourced-omega-3.html",
+      "publisher": "dsm-firmenich",
+      "channel": "supplier_site",
+      "accessed": "2026-11-10",
+      "whatItContributes": "產品頁再次列出 B54-0100，沒有寫一般建議劑量。"
+    },
+    {
+      "title": "營養保健原料",
+      "url": "https://www.jimroyal-trade.com/nutritional-items-zh/",
+      "publisher": "仁友興業",
+      "channel": "other",
+      "accessed": "2026-11-10",
+      "whatItContributes": "台灣原料頁出現 Life's DHA 藻油植物性膠囊。沒有寫獨家代理。"
+    }
+  ],
+  "discovery": {
+    "channel": "industry_report",
+    "scoutDate": "2026-11-10",
+    "notes": "從藻類 omega-3 市場稿點名的 life'sDHA B54-0100 進入，再對 dsm-firmenich 新聞稿與產品頁、仁友興業目錄。PubMed 沒有掛這個商品名的論文，專利號也沒有對到。與 11 月 9 日磷蝦油不是同一筆原料。"
+  }
+}

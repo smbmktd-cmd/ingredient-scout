@@ -1,0 +1,186 @@
+{
+  "id": "sharp-ps",
+  "example": false,
+  "names": {
+    "commonZh": "磷脂醯絲胺酸",
+    "commonEn": "phosphatidylserine",
+    "trade": "Sharp-PS（IFF Health 的磷脂醯絲胺酸商品名；葵花來源款為 Sharp-PS Green）",
+    "scientific": "不適用單一植物學名。成分為磷脂醯絲胺酸，IFF 寫有大豆與葵花來源；TFDA 只對黃豆卵磷脂經酵素反應製得者。"
+  },
+  "supply": {
+    "supplierName": "IFF Health（原 Frutarom Health）",
+    "supplierCountry": "以色列（IFF 總部美國）",
+    "relationship": "taiwan_agent",
+    "taiwanPartyName": "大自然生技素材有限公司；呈定企業有限公司",
+    "relationshipNote": "大自然生技素材（Healthmate）官網首頁自述為 IFF Health（原 Frutarom Health）保健原料之台灣代理商，並有 SHARP-PS 產品頁；2026 展昭展商頁列 Healthmate 攤位 i1310 展出 SHARP-PS。代理屬該公司自述，IFF 官網本次未點名台灣代理。呈定企業產品頁列 Sharp-PS，品牌 IFF，標在「經銷品牌」，記為經銷。產地兩家寫法不同：大自然寫西班牙、呈定寫以色列。查核日 2026-11-11。"
+  },
+  "tfda": {
+    "usable": "listed_food_ingredient",
+    "evidenceNotes": "食品原料「磷脂醯絲胺酸」有列名，不是未確認安全性；限黃豆卵磷脂加絲胺酸經酵素反應製得，每日食用限量 500 mg（114 年 7 月 1 日起適用）。商品名與添加物分頁都是 0 筆。葵花來源的 Sharp-PS Green 不符合這個來源定義，只能考慮大豆款。",
+    "lookupDate": "2026-11-11",
+    "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+    "queries": [
+      {
+        "tab": "ingredient",
+        "keyword": "磷脂醯絲胺酸",
+        "category": "",
+        "resultCount": 1,
+        "matchedName": "磷脂醯絲胺酸",
+        "restrictionNote": "由黃豆製得之卵磷脂添加絲胺酸後經酵素反應製得；每日食用限量以磷脂醯絲胺酸計 500 毫克（113.07.11 衛授食字第1131301534號，114.07.01 起）。",
+        "unconfirmedSafety": false,
+        "note": "唯一一筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Phosphatidylserine",
+        "category": "",
+        "resultCount": 1,
+        "matchedName": "磷脂醯絲胺酸",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "同一筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Sharp",
+        "category": "",
+        "resultCount": 2,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "命中的是白鱎魚與益智（未確認安全性），都與本品無關，不採用。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "磷脂醯絲胺酸",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "添加物分頁 0 筆。"
+      },
+      {
+        "tab": "history",
+        "keyword": "磷脂醯絲胺酸",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "助手更新歷程（11/01–11/10）沒有這筆異動。"
+      }
+    ],
+    "officialCrosscheck": {
+      "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+      "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+      "done": true,
+      "notes": "2026-11-11 開啟官方 MaterialDetail id=17374（HTTP 200），來源定義與每日 500 mg 限量與助手一致。"
+    }
+  },
+  "efficacy": {
+    "claimedBenefits": [
+      "IFF 官網宣稱大豆與葵花來源 PS 經臨床測試可改善認知表現、注意力與行為，並有助於緩和壓力感受。這是供應商說法。",
+      "Nutr J 2025（PMID 41318468）：8–12 歲健康兒童每日 100 mg Sharp-PS Green 軟糖 12 週，主要與次要指標整體無差異；基線表現低於中位數的子群在視覺空間記憶有改善。作者多為 IFF 員工。",
+      "Nutraceuticals World 2026-10-22 產業報導：SPINS 數據顯示 PS 作為認知類旗艦成分過去一年銷售下滑 9%。"
+    ],
+    "suggestedDosage": "IFF 官網：每日 100–300 mg；呈定頁：每日 100 mg PS；大自然頁 FAQ 寫年長者研究每次 100 mg、每日 3 次、12 週。",
+    "dosageNote": "以上為供應商建議或試驗用量；台灣上限為每日 500 mg，且原料須為黃豆卵磷脂來源。"
+  },
+  "patent": {
+    "status": "unknown",
+    "refs": [],
+    "note": "IFF 官網寫 exclusive and patented grades，呈定頁寫多項專利，本次沒有打開具體專利號，維持 unknown。"
+  },
+  "literature": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "The cognitive effects of supplementation with sunflower phosphatidyl serine in healthy children aged 8 to 12 years: a randomized controlled trial",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41318468/",
+        "note": "Nutr J 2025（PMID 41318468，DOI 10.1186/s12937-025-01264-9）。全文關鍵字與內文寫明 Sharp-PS Green（葵花來源）。"
+      }
+    ],
+    "note": "IFF 頁另引 Hirayama 2014、Benton 2001 等，本次未逐篇核對是否為 Sharp-PS 受試物。"
+  },
+  "evidenceLevels": [
+    "clinical"
+  ],
+  "images": [
+    {
+      "url": "https://www.iff.com/wp-content/uploads/2025/09/IFF_HS_Our-Products_Sharp-PS-Brain_1.jpeg",
+      "localPath": "",
+      "caption": "IFF Sharp-PS for Brain Health 產品頁主圖。",
+      "source": "official_site"
+    },
+    {
+      "url": "https://www.chanchao.com.tw/exhibitorservicefiles/products/DMCB2026_219373_215286_M.webp",
+      "localPath": "",
+      "caption": "展昭展商產品頁上 Healthmate 的 SHARP-PS 圖。",
+      "source": "exhibition"
+    }
+  ],
+  "sources": [
+    {
+      "title": "SHARP-PS® Phosphatidylserine (PS) - HEALTHMATE CO., LTD.",
+      "url": "https://www.chanchao.com.tw/healthcos/en/visitorProductDetail.asp?no=215286",
+      "publisher": "展昭國際（亞洲生技大展系列）",
+      "channel": "exhibition",
+      "accessed": "2026-11-11",
+      "whatItContributes": "展商產品頁：Healthmate 攤位 i1310 展出 SHARP-PS；頁面標題寫 Expo 2027，圖片檔名為 2026。"
+    },
+    {
+      "title": "Sharp-PS® for Brain Health",
+      "url": "https://www.iff.com/health-sciences/our-products/sharp-ps-for-brain-health/",
+      "publisher": "IFF Health Sciences",
+      "channel": "supplier_site",
+      "accessed": "2026-11-11",
+      "whatItContributes": "規格 18–70% PS、粉末與分散液、建議每日 100–300 mg、大豆與葵花來源。"
+    },
+    {
+      "title": "Market Dynamics and Product Trends in Cognitive Support Nutraceuticals",
+      "url": "https://www.nutraceuticalsworld.com/market-dynamics-and-product-trends-in-cognitive-support-nutraceuticals/",
+      "publisher": "Nutraceuticals World",
+      "channel": "industry_report",
+      "accessed": "2026-11-11",
+      "whatItContributes": "2026-10-22 產業報導：認知類補充品 12.3 億美元，PS 下滑 9%。未點名 Sharp-PS。"
+    },
+    {
+      "title": "SHARP-PS® 磷脂醯絲胺酸",
+      "url": "https://www.healthmate.com.tw/zh_TW/shop/sharp-ps-11",
+      "publisher": "大自然生技素材有限公司",
+      "channel": "other",
+      "accessed": "2026-11-11",
+      "whatItContributes": "台灣產品頁：非基改大豆來源、產地西班牙、劑型與試驗用量。"
+    },
+    {
+      "title": "首頁",
+      "url": "https://www.healthmate.com.tw/zh_TW",
+      "publisher": "大自然生技素材有限公司",
+      "channel": "other",
+      "accessed": "2026-11-11",
+      "whatItContributes": "自述為 IFF Health（原 Frutarom Health）等保健原料之台灣代理商。"
+    },
+    {
+      "title": "Sharp-PS® 磷脂醯絲胺酸",
+      "url": "https://www.chending.com.tw/catalog-detail/Sharp-PS/",
+      "publisher": "呈定企業有限公司",
+      "channel": "other",
+      "accessed": "2026-11-11",
+      "whatItContributes": "經銷品牌頁：品牌 IFF、產地以色列、建議 100 mg/day。"
+    },
+    {
+      "title": "PubMed 41318468",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41318468/",
+      "publisher": "Nutrition Journal（PubMed）",
+      "channel": "paper",
+      "accessed": "2026-11-11",
+      "whatItContributes": "Sharp-PS Green 兒童 RCT。"
+    }
+  ],
+  "discovery": {
+    "channel": "exhibition",
+    "scoutDate": "2026-11-11",
+    "notes": "從展昭亞洲生技大展系列展商頁看到 Healthmate 展出 SHARP-PS，再對 IFF 原料頁、Nutraceuticals World 10/22 產業報導與 PubMed。台灣關聯以「Sharp-PS／Sharp PS／磷脂醯絲胺酸／磷脂絲胺酸／IFF／Frutarom」搭配台灣、代理、經銷交叉搜尋，打開大自然與呈定頁面。TFDA 限黃豆來源與每日 500 mg。"
+  }
+}

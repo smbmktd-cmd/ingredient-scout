@@ -7,6 +7,923 @@ window.INGREDIENT_CATALOG = {
         "exhibition",
         "industry_report"
       ],
+      "date": "2026-11-11",
+      "example": false,
+      "notes": "正式五筆。主管道：LC-Plasma、Hyabest 為新聞；Rhodiolife、Sharp-PS 為展覽；GK Heripene 為產業報導。未放入未確認安全性項目。Hyabest 台灣上限每日 80 mg；Sharp-PS 限黃豆來源、每日 500 mg。",
+      "picks": [
+        {
+          "discovery": {
+            "channel": "news",
+            "notes": "從 NutraIngredients 2026-07-29 Kirin 新聞進入，再對 LC-Plasma 繁中製造商頁、Kirin 2025 台灣上市新聞稿與日本專利、PubMed 統合分析。台灣關聯以「LC-Plasma／IMMUSE／乳酸乳球菌 Plasma／協和發酵」搭配台灣、代理、經銷交叉搜尋，打開正豐產品頁；台灣麒麟與澳佳寶只記成品。TFDA 對 Lactococcus lactis subsp. lactis。",
+            "scoutDate": "2026-11-11"
+          },
+          "efficacy": {
+            "claimedBenefits": [
+              "Kirin／協和官網宣稱 LC-Plasma 可直接活化漿細胞樣樹突狀細胞（pDC），進而帶動 NK、殺手 T、B 與輔助 T 細胞，提供全面免疫支持。這是供應商說法。",
+              "Front Immunol 2025 個別受試者資料統合分析（PMID 41280892，8 篇 RCT、619 人）：攝取期間 pDC 活化指標維持較佳，咳嗽與發熱感的累積天數少於安慰劑。作者多為 Kirin 員工。",
+              "NutraIngredients 2026-07-29：Kirin 把 LC-Plasma 延伸到運動與活躍生活取向飲品，並引用長跑選手兩週 RCT 的運動後疲勞感較低。"
+            ],
+            "dosageNote": "以上是供應商建議量與成品含量，不是台灣法規上限；TFDA 乳酸菌這筆沒有每日用量限制。",
+            "suggestedDosage": "協和繁中製造商頁：建議每日 50 mg，約 1000 億個菌體；安全性試驗做到每日 250 mg。台灣麒麟檸檬水每瓶 500 ml 含 1000 億個。"
+          },
+          "evidenceLevels": [
+            "clinical"
+          ],
+          "example": false,
+          "id": "lc-plasma",
+          "images": [
+            {
+              "caption": "LC-Plasma 官網分享圖（IMMUSE 品牌），不是原料包裝照。",
+              "localPath": "",
+              "source": "official_site",
+              "url": "https://lc-plasma.com/storage/app/media/uploaded-files/immuse-linkedin-social-share-image.jpg"
+            }
+          ],
+          "literature": {
+            "note": "人體證據以 Kirin 參與的統合分析為主。",
+            "refs": [
+              {
+                "note": "Front Immunol 2025（PMID 41280892，DOI 10.3389/fimmu.2025.1696989）。只核摘要。",
+                "title": "Lactococcus lactis strain Plasma activates plasmacytoid dendritic cells and mitigates common cold-like symptoms in healthy adults: a meta-analysis of individual participant data",
+                "url": "https://pubmed.ncbi.nlm.nih.gov/41280892/"
+              },
+              {
+                "note": "Fish Shellfish Immunol 2018（PMID 29550602）。只用來對 JCM5805 的亞種寫法，不作人體功效證據。",
+                "title": "Effects of dietary Lactobacillus rhamnosus JCM1136 and Lactococcus lactis subsp. lactis JCM5805 on ... juvenile Nile tilapia",
+                "url": "https://pubmed.ncbi.nlm.nih.gov/29550602/"
+              }
+            ],
+            "status": "yes"
+          },
+          "names": {
+            "commonEn": "heat-killed Lactococcus lactis strain Plasma",
+            "commonZh": "熱處理乳酸乳球菌 Plasma 株（後生元）",
+            "scientific": "Lactococcus lactis subsp. lactis JCM 5805（Plasma 株），熱處理菌體。",
+            "trade": "LC-Plasma（Kirin／協和發酵生化的乳酸菌商品名，美國保健原料品牌名 IMMUSE）"
+          },
+          "patent": {
+            "note": "只核到日本專利一件，其他國家未查。",
+            "refs": [
+              {
+                "note": "Kirin 2025-03-05 新聞稿註明 LC-Plasma 用途在日本取得專利 JP 6598824；Google Patents 頁顯示權利人 Kirin Holdings Co Ltd。未核權利範圍細節。",
+                "title": "JP6598824B2 - Interferon production inducer containing lactic acid bacteria",
+                "url": "https://patents.google.com/patent/JP6598824B2/en"
+              }
+            ],
+            "status": "yes"
+          },
+          "sources": [
+            {
+              "accessed": "2026-11-11",
+              "channel": "news",
+              "publisher": "NutraIngredients",
+              "title": "Kirin expands immune support postbiotics’ use into active lifestyle nutrition",
+              "url": "https://www.nutraingredients.com/Article/2026/07/29/kirin-expands-immune-support-postbiotics-use-into-active-lifestyle-nutrition/",
+              "whatItContributes": "2026-07-29 新聞：LC-Plasma 延伸到活躍生活營養，並寫產品已進入越南、台灣、新加坡。"
+            },
+            {
+              "accessed": "2026-11-11",
+              "channel": "supplier_site",
+              "publisher": "LC-Plasma 官網（協和發酵生化）",
+              "title": "對於製造商",
+              "url": "https://lc-plasma.com/zh-tw/for-manufacturers",
+              "whatItContributes": "繁中製造商頁：熱處理後生元、每日 50 mg 或 1000 億個、250 mg 安全性試驗、美國 GRAS 自我認證。"
+            },
+            {
+              "accessed": "2026-11-11",
+              "channel": "news",
+              "publisher": "Kirin Holdings",
+              "title": "Kirin and Blackmores Team Up To Release LC-Plasma in Taiwan",
+              "url": "https://www.kirinholdings.com/en/newsroom/release/2025/0305_01.html",
+              "whatItContributes": "2025-03-05：LC-Plasma 首次在台灣販售（澳佳寶粉末），並註明日本專利 JP 6598824。"
+            },
+            {
+              "accessed": "2026-11-11",
+              "channel": "other",
+              "publisher": "台灣麒麟",
+              "title": "KIRIN iMUSE-乳酸菌檸檬水 500ml",
+              "url": "https://www.kirin.com.tw/products-detail.php?id=388",
+              "whatItContributes": "台灣成品：每瓶含 1000 億個 Plasma 乳酸菌，備註為經熱處理之乳酸菌粉末。成品販售，不是原料代理。"
+            },
+            {
+              "accessed": "2026-11-11",
+              "channel": "other",
+              "publisher": "正豐貿易股份有限公司",
+              "title": "KYOWA IMMUSE®專利乳酸菌創新全面免疫提升機制",
+              "url": "https://www.hermosa-lynnbros.com.tw/kyowa_immuse/",
+              "whatItContributes": "2024-07-01 正豐自述引進 IMMUSE®（LC-Plasma）供生技業者，頁尾列食品原料部門。"
+            },
+            {
+              "accessed": "2026-11-11",
+              "channel": "paper",
+              "publisher": "Frontiers in Immunology（PubMed）",
+              "title": "PubMed 41280892",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/41280892/",
+              "whatItContributes": "8 篇 RCT 的統合分析摘要。"
+            }
+          ],
+          "supply": {
+            "relationship": "taiwan_distributor",
+            "relationshipNote": "正豐官網 2024-07-01 文章自述「正豐引進 IMMUSE®」供生技業者，並列食品原料部門電話；頁面未寫代理或獨家，故記經銷／引進，屬該公司自述。成品端另有台灣麒麟 iMUSE 乳酸菌檸檬水與澳佳寶台灣 LC-Plasma 粉末，這是成品販售，不是原料代理。Kirin 與協和官網本次未點名台灣原料代理。查核日 2026-11-11。",
+            "supplierCountry": "日本",
+            "supplierName": "Kirin Holdings（原料由集團內 Kyowa Hakko Bio 協和發酵生化對外供應）",
+            "taiwanPartyName": "正豐貿易股份有限公司"
+          },
+          "tfda": {
+            "evidenceNotes": "食品原料「乳酸菌」有 Lactococcus lactis subsp. lactis（菌體）一筆，備註可供為食品原料或食品加工使用，不是未確認安全性。商品名 LC-Plasma、IMMUSE 與添加物分頁都是 0 筆。台灣成品標示為經熱處理乳酸菌粉末；菌株亞種依論文寫 subsp. lactis。",
+            "lookupDate": "2026-11-11",
+            "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+            "officialCrosscheck": {
+              "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+              "done": true,
+              "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+              "notes": "2026-11-11 開啟官方 MaterialDetail id=17540（HTTP 200），學名、部位、備註與查詢助手一致。"
+            },
+            "queries": [
+              {
+                "category": "",
+                "keyword": "Lactococcus lactis subsp. lactis",
+                "matchedName": "乳酸菌",
+                "note": "3 筆含 biovar diacetylactis 等近似學名；本品對 subsp. lactis 那一筆。",
+                "restrictionNote": "學名 Lactococcus lactis subsp. lactis，部位菌體，備註：可供為食品原料或食品加工使用。",
+                "resultCount": 3,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "LC-Plasma",
+                "matchedName": "",
+                "note": "商品名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "乳酸乳球菌",
+                "matchedName": "",
+                "note": "中文別名 0 筆，官方中文名是「乳酸菌」。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "乳酸菌",
+                "matchedName": "",
+                "note": "添加物分頁 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "乳酸菌",
+                "matchedName": "",
+                "note": "助手更新歷程（11/01–11/10）沒有這筆異動。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "history",
+                "unconfirmedSafety": false
+              }
+            ],
+            "usable": "listed_food_ingredient"
+          }
+        },
+        {
+          "discovery": {
+            "channel": "news",
+            "notes": "從 Kewpie 2026-03-12 獲獎新聞稿進入，再對 Hyabest (S)LF-P 原料頁與 Nutrients 2021 台灣試驗。台灣關聯以「Hyabest／丘比／Kewpie／玻尿酸／透明質酸鈉／流行鏈球菌發酵物」搭配台灣、代理、總代理、經銷交叉搜尋，打開東翔、會昌、六和化工、艾比克頁面後區分食品級與化妝品級。TFDA 對流行鏈球菌發酵物，注意每日 80 mg。",
+            "scoutDate": "2026-11-11"
+          },
+          "efficacy": {
+            "claimedBenefits": [
+              "Kewpie 官網宣稱口服 Hyabest (S)LF-P 可改善肌膚乾燥與含水量，並說明腸道菌把玻尿酸分解成寡糖後吸收。這是供應商說法。",
+              "Nutrients 2021（PMID 34203487）：台灣 40 名 35–64 歲成人，每日 120 mg 玻尿酸 12 週，皺紋評分、角質層含水量、經皮水分散失與彈性優於安慰劑；3 名作者為 Kewpie 員工。",
+              "Kewpie 2026-03-12 新聞稿：食品用玻尿酸研究與事業化獲日本農藝化學會 2026 年度技術賞。"
+            ],
+            "dosageNote": "120 mg 是日本與台灣試驗劑量；在台灣作食品須依 TFDA 每日 80 mg 以下。",
+            "suggestedDosage": "論文與 Kewpie 新聞稿的人體試驗用量為每日 120 mg；台灣 TFDA 上限為每日 80 mg 以下。"
+          },
+          "evidenceLevels": [
+            "animal",
+            "clinical"
+          ],
+          "example": false,
+          "id": "hyabest",
+          "images": [
+            {
+              "caption": "Kewpie Hyabest (S)LF-P 產品頁分享圖。",
+              "localPath": "",
+              "source": "official_site",
+              "url": "https://www.kewpie.com/en/assets/img/project/finechemical/hyaluronic/hyabest-lf-p/ogimage.jpg"
+            }
+          ],
+          "literature": {
+            "note": "Kewpie 新聞稿另列 2015 J Clin Biochem Nutr 等研究，本次未逐篇開。",
+            "refs": [
+              {
+                "note": "Nutrients 2021（PMID 34203487，DOI 10.3390/nu13072220）。Kewpie Hyabest (S)LF-P 頁引用此篇。只核摘要。",
+                "title": "Oral Hyaluronan Relieves Wrinkles and Improves Dry Skin: A 12-Week Double-Blinded, Placebo-Controlled Study",
+                "url": "https://pubmed.ncbi.nlm.nih.gov/34203487/"
+              }
+            ],
+            "status": "yes"
+          },
+          "names": {
+            "commonEn": "sodium hyaluronate (fermentation-derived, food grade)",
+            "commonZh": "食品用玻尿酸（透明質酸鈉，發酵法）",
+            "scientific": "不適用植物學名。成分為透明質酸鈉 (C14H20NNaO11)n；Kewpie 頁寫 bio-fermentation，台灣經銷頁以 TFDA 名稱「流行鏈球菌發酵物(含透明質酸鈉)」標示。",
+            "trade": "Hyabest（Kewpie 丘比的食品用玻尿酸商品名；口服款 Hyabest (S)LF-P）"
+          },
+          "patent": {
+            "note": "2022 鳴新聞稿寫專利申請超過四十項，本次沒有打開具體專利號，維持 unknown。台灣 Hyabest 商標註冊 01650880（權利人 Kewpie）專用期限寫至 2024-06-30，是商標不是專利。",
+            "refs": [],
+            "status": "unknown"
+          },
+          "sources": [
+            {
+              "accessed": "2026-11-11",
+              "channel": "news",
+              "publisher": "Kewpie",
+              "title": "「食品用ヒアルロン酸」に関する研究と事業化が2026年度農芸化学技術賞を受賞",
+              "url": "https://www.kewpie.com/newsrelease/2026/4018/",
+              "whatItContributes": "2026-03-12 新聞稿：獲獎、120 mg/日試驗、腸道菌分解吸收機制，2004 年起以發酵法供應食品用玻尿酸；並引大鼠分布研究。"
+            },
+            {
+              "accessed": "2026-11-11",
+              "channel": "supplier_site",
+              "publisher": "Kewpie",
+              "title": "Hyabest(S)LF-P oral hyaluronic acid dietary supplements",
+              "url": "https://www.kewpie.com/en/finechemical/hyaluronic/hyabest-lf-p.html",
+              "whatItContributes": "原料頁：bio-fermentation、平均分子量 200k–500k、台灣受試者肌膚含水量試驗。"
+            },
+            {
+              "accessed": "2026-11-11",
+              "channel": "paper",
+              "publisher": "Nutrients（PubMed）",
+              "title": "PubMed 34203487",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/34203487/",
+              "whatItContributes": "台灣 40 人、120 mg、12 週隨機雙盲試驗。"
+            },
+            {
+              "accessed": "2026-11-11",
+              "channel": "other",
+              "publisher": "東翔生技股份有限公司",
+              "title": "丘比株式會社",
+              "url": "https://www.toshio-biomed.com.tw/exclusive/%e4%b8%98%e6%af%94%e6%a0%aa%e5%bc%8f%e6%9c%83%e7%a4%be/",
+              "whatItContributes": "東翔「獨家授權」區的丘比頁：流行鏈球菌發酵物(含透明質酸鈉)，寫第一家 TFDA 通過、95% 高純度、每批無溶血檢驗。"
+            },
+            {
+              "accessed": "2026-11-11",
+              "channel": "news",
+              "publisher": "鳴新聞",
+              "title": "7/28-7/31 亞洲生技大展-食品級玻尿酸鈉與蛋殼膜領導品牌參展",
+              "url": "https://www.minews.com.tw/2022/07/340/",
+              "whatItContributes": "2022-07-27 稿：Kewpie 透過總代理管理制度與東翔生技合作經營台灣市場，點名 Hyabest。屬參展宣傳稿。"
+            },
+            {
+              "accessed": "2026-11-11",
+              "channel": "other",
+              "publisher": "會昌實業股份有限公司",
+              "title": "Hyabest® 流行鏈球菌發酵物",
+              "url": "https://www.atp-bio.com/exclusive/atp-exclusive/hyabest-206.html",
+              "whatItContributes": "會昌品牌原料頁販售 Hyabest 流行鏈球菌發酵物，未寫代理。"
+            }
+          ],
+          "supply": {
+            "relationship": "taiwan_agent",
+            "relationshipNote": "東翔官網「獨家授權」區列丘比，丘比頁介紹流行鏈球菌發酵物(含透明質酸鈉)，首頁自述與日本原料廠長期合作及代理（該公司自述）。2022-07-27 鳴新聞稿寫 Kewpie 透過總代理制度與東翔合作，並點名 Hyabest。會昌實業品牌原料頁也販售 Hyabest 流行鏈球菌發酵物，未寫代理，記為販售。六和化工與台灣艾比克列的是 Kewpie 化妝品級玻尿酸，不是本品。Kewpie 官網本次未點名台灣代理。查核日 2026-11-11。",
+            "supplierCountry": "日本",
+            "supplierName": "Kewpie Corporation（キユーピー株式会社）",
+            "taiwanPartyName": "東翔生技股份有限公司"
+          },
+          "tfda": {
+            "evidenceNotes": "食品原料「流行鏈球菌發酵物(含透明質酸鈉)」有列名，不是未確認安全性；限不產溶血毒素菌株、透明質酸鈉 87% 以上、每日 80 mg 以下。商品名、玻尿酸與添加物分頁都是 0 筆。Kewpie 頁本次未寫菌種，需向供應商索規格確認；台灣人體試驗用 120 mg，高於台灣上限。",
+            "lookupDate": "2026-11-11",
+            "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+            "officialCrosscheck": {
+              "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+              "done": true,
+              "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+              "notes": "2026-11-11 開啟官方 MaterialDetail id=17556（HTTP 200），菌種、含量、分子量與每日 80 mg 限量與助手一致。"
+            },
+            "queries": [
+              {
+                "category": "",
+                "keyword": "透明質酸鈉",
+                "matchedName": "流行鏈球菌發酵物(含透明質酸鈉)",
+                "note": "另一筆是雞冠萃取物(含透明質酸鈉)，每日 80 mg 以下；本品為發酵法，對流行鏈球菌那筆。",
+                "restrictionNote": "不產生溶血毒素之 Streptococcus equi subsp. zooepidemicus 培養後去除菌體；透明質酸鈉 87% 以上；分子量 8.02×10^4 至 4.01×10^6；每日使用量 80 毫克以下（106.7.13 衛授食字第1061300712號）。",
+                "resultCount": 2,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Hyabest",
+                "matchedName": "",
+                "note": "商品名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "玻尿酸",
+                "matchedName": "",
+                "note": "俗名 0 筆，官方用透明質酸鈉。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "透明質酸鈉",
+                "matchedName": "",
+                "note": "添加物分頁 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "透明質酸鈉",
+                "matchedName": "",
+                "note": "助手更新歷程（11/01–11/10）沒有這筆異動。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "history",
+                "unconfirmedSafety": false
+              }
+            ],
+            "usable": "listed_food_ingredient"
+          }
+        },
+        {
+          "discovery": {
+            "channel": "exhibition",
+            "notes": "從 Vitafoods Europe 2026 Nektium 展前新聞稿進入，以 Nutraceuticals World 展會報導交叉，再對 Nektium 規格頁與 PubMed。台灣關聯以「Rhodiolife／紅景天／Rhodiola rosea／Nektium」搭配台灣、代理、經銷、distributor 交叉搜尋，打開漢馨與韋鎮產品頁及 Nektium 經銷新聞。TFDA 對紅景天根。",
+            "scoutDate": "2026-11-11"
+          },
+          "efficacy": {
+            "claimedBenefits": [
+              "Nektium 2026-04-08 新聞稿與官網宣稱 Rhodiolife 支持心智能量、紓壓，並改善運動耐力與輸出。這是供應商說法。",
+              "Nektium 引用 Metabolites 2025（PMID 40278391）：96 人 8 週拳擊訓練，紅景天加咖啡因組的出拳爆發力與持續輸出較佳；摘要未寫受試物是否為 Rhodiolife。",
+              "Phytother Res 2014（PMID 23893458）：Rhodiolife 在小鼠肌管細胞上減少過氧化氫造成的存活率下降，並上調 HSP70。"
+            ],
+            "dosageNote": "200 mg 是台灣經銷頁的建議量，不是 TFDA 上限；TFDA 紅景天這筆沒有寫每日限量。",
+            "suggestedDosage": "漢馨產品頁：每次 200 mg，每日 1–2 次。Nektium 規格：總洛塞維（rosavins）≥3%、紅景天苷 ≥1%，或 ≥5%、≥1.8%。"
+          },
+          "evidenceLevels": [
+            "cell"
+          ],
+          "example": false,
+          "id": "rhodiolife",
+          "images": [
+            {
+              "caption": "Nektium 官網 Rhodiolife 頁的圖。",
+              "localPath": "",
+              "source": "official_site",
+              "url": "https://nektium.com/wp-content/uploads/2022/03/rhodiolife-nektium.jpg"
+            }
+          ],
+          "literature": {
+            "note": "摘要明寫 Rhodiolife 的只有細胞試驗；2025 電競多成分試驗（PMID 41356833）含 Rhodiolife 但為複方，不計入。",
+            "refs": [
+              {
+                "note": "Phytother Res 2014（PMID 23893458）。摘要寫明受試物是 Rhodiolife。細胞試驗。",
+                "title": "A Rhodiola rosea root extract protects skeletal muscle cells against chemically induced oxidative stress by modulating heat shock protein 70 (HSP70) expression",
+                "url": "https://pubmed.ncbi.nlm.nih.gov/23893458/"
+              },
+              {
+                "note": "Metabolites 2025（PMID 40278391）。Nektium 新聞稿引用；摘要只寫 Rhodiola rosea，未寫品牌，不列為本品臨床證據。",
+                "title": "Combined Effects of Rhodiola Rosea and Caffeine Supplementation on Straight Punch Explosive Power...",
+                "url": "https://pubmed.ncbi.nlm.nih.gov/40278391/"
+              }
+            ],
+            "status": "yes"
+          },
+          "names": {
+            "commonEn": "Rhodiola rosea root extract",
+            "commonZh": "玫瑰紅景天根萃取物",
+            "scientific": "Rhodiola rosea L.（根）",
+            "trade": "Rhodiolife（Nektium 的玫瑰紅景天萃取商品名，3% 與 5% 兩種規格）"
+          },
+          "patent": {
+            "note": "漢馨產品頁專利欄寫「無」；本次沒有另查專利庫，維持 unknown。",
+            "refs": [],
+            "status": "unknown"
+          },
+          "sources": [
+            {
+              "accessed": "2026-11-11",
+              "channel": "exhibition",
+              "publisher": "Nektium",
+              "title": "Next-gen energy: Nektium to present Rhodiolife® coffees and Zynamite® RTDs at Vitafoods 2026",
+              "url": "https://nektium.prezly.com/next-gen-energy-nektium-to-present-rhodiolifer-coffees-and-zynamiter-rtds-at-vitafoods-2026",
+              "whatItContributes": "2026-04-08 新聞稿：Vitafoods Europe 2026（巴塞隆納 5/5–5/7，攤位 UWA10）展出 Rhodiolife 咖啡概念。"
+            },
+            {
+              "accessed": "2026-11-11",
+              "channel": "exhibition",
+              "publisher": "Nutraceuticals World",
+              "title": "Nektium to Spotlight Rhodiolife Coffee and Zynamite RTD Beverages at Vitafoods Europe",
+              "url": "https://www.nutraceuticalsworld.com/live_from_shows/nektium-to-spotlight-rhodiolife-coffee-and-zynamite-rtd-beverages-at-vitafoods-europe/",
+              "whatItContributes": "2026-04-08 展會報導，交叉確認攤位與展出內容。"
+            },
+            {
+              "accessed": "2026-11-11",
+              "channel": "supplier_site",
+              "publisher": "Nektium",
+              "title": "Rhodiolife®",
+              "url": "https://nektium.com/rhodiolife/",
+              "whatItContributes": "原料規格（3%、5%）、根部來源、DNA 條碼與 UHPLC 鑑別、自我認定 GRAS。"
+            },
+            {
+              "accessed": "2026-11-11",
+              "channel": "other",
+              "publisher": "漢馨科技有限公司",
+              "title": "Rhodiolife 紅景天萃取物",
+              "url": "https://www.hansient.com.tw/product/rhodiolife-%e7%b4%85%e6%99%af%e5%a4%a9%e8%90%83%e5%8f%96%e7%89%a9/",
+              "whatItContributes": "台灣產品頁：原廠 Nektium、產地西班牙、200 mg 每日 1–2 次、專利欄寫無。"
+            },
+            {
+              "accessed": "2026-11-11",
+              "channel": "other",
+              "publisher": "漢馨科技有限公司",
+              "title": "Nektium",
+              "url": "https://www.hansient.com.tw/supplier/nektium/",
+              "whatItContributes": "漢馨供應商頁列 Nektium 與 Rhodiolife。"
+            },
+            {
+              "accessed": "2026-11-11",
+              "channel": "other",
+              "publisher": "韋鎮實業有限公司",
+              "title": "Rhodiolife® 紅景天",
+              "url": "https://www.phfcorp.com.tw/page/product/show.aspx?kind=87&num=176&page=2",
+              "whatItContributes": "台灣產品頁販售 Rhodiolife，原廠西班牙，應用保健食品。"
+            },
+            {
+              "accessed": "2026-11-11",
+              "channel": "paper",
+              "publisher": "Phytotherapy Research（PubMed）",
+              "title": "PubMed 23893458",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/23893458/",
+              "whatItContributes": "摘要明寫 Rhodiolife 的細胞試驗。"
+            }
+          ],
+          "supply": {
+            "relationship": "taiwan_distributor",
+            "relationshipNote": "漢馨官網有 Rhodiolife 產品頁（原廠 Nektium、產地西班牙）與 Nektium 供應商頁；首頁泛稱代理世界頂尖原料，但未逐項寫 Rhodiolife 代理或獨家，記為經銷。韋鎮實業產品頁也販售 Rhodiolife（西班牙原廠），未寫代理。Nektium 官網經銷新聞只點名義、法、日夥伴，本次未見台灣。查核日 2026-11-11。",
+            "supplierCountry": "西班牙",
+            "supplierName": "Nektium Pharma SL",
+            "taiwanPartyName": "漢馨科技有限公司；韋鎮實業有限公司"
+          },
+          "tfda": {
+            "evidenceNotes": "食品原料「紅景天」有列名，學名含 Rhodiola rosea L.，部位根、根莖，分類為供茶包、膳食調理包或萃取後作原料，不是未確認安全性。備註沒有每日限量。商品名 Rhodiolife 與添加物分頁都是 0 筆。",
+            "lookupDate": "2026-11-11",
+            "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+            "officialCrosscheck": {
+              "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+              "done": true,
+              "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+              "notes": "2026-11-11 開啟官方 MaterialDetail id=16794（HTTP 200），學名與部位與助手一致。"
+            },
+            "queries": [
+              {
+                "category": "",
+                "keyword": "紅景天",
+                "matchedName": "紅景天",
+                "note": "本品對 Rhodiola rosea 根。",
+                "restrictionNote": "學名 Rhodiola sacra、R. crenulata、R. rosea L.、R. sachalinensis；部位根、根莖；備註空白。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Rhodiola rosea",
+                "matchedName": "紅景天",
+                "note": "同一筆。",
+                "restrictionNote": "",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Rhodiolife",
+                "matchedName": "",
+                "note": "商品名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "紅景天",
+                "matchedName": "",
+                "note": "添加物分頁 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "紅景天",
+                "matchedName": "",
+                "note": "助手更新歷程（11/01–11/10）沒有這筆異動。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "history",
+                "unconfirmedSafety": false
+              }
+            ],
+            "usable": "listed_food_ingredient"
+          }
+        },
+        {
+          "discovery": {
+            "channel": "exhibition",
+            "notes": "從展昭亞洲生技大展系列展商頁看到 Healthmate 展出 SHARP-PS，再對 IFF 原料頁、Nutraceuticals World 10/22 產業報導與 PubMed。台灣關聯以「Sharp-PS／Sharp PS／磷脂醯絲胺酸／磷脂絲胺酸／IFF／Frutarom」搭配台灣、代理、經銷交叉搜尋，打開大自然與呈定頁面。TFDA 限黃豆來源與每日 500 mg。",
+            "scoutDate": "2026-11-11"
+          },
+          "efficacy": {
+            "claimedBenefits": [
+              "IFF 官網宣稱大豆與葵花來源 PS 經臨床測試可改善認知表現、注意力與行為，並有助於緩和壓力感受。這是供應商說法。",
+              "Nutr J 2025（PMID 41318468）：8–12 歲健康兒童每日 100 mg Sharp-PS Green 軟糖 12 週，主要與次要指標整體無差異；基線表現低於中位數的子群在視覺空間記憶有改善。作者多為 IFF 員工。",
+              "Nutraceuticals World 2026-10-22 產業報導：SPINS 數據顯示 PS 作為認知類旗艦成分過去一年銷售下滑 9%。"
+            ],
+            "dosageNote": "以上為供應商建議或試驗用量；台灣上限為每日 500 mg，且原料須為黃豆卵磷脂來源。",
+            "suggestedDosage": "IFF 官網：每日 100–300 mg；呈定頁：每日 100 mg PS；大自然頁 FAQ 寫年長者研究每次 100 mg、每日 3 次、12 週。"
+          },
+          "evidenceLevels": [
+            "clinical"
+          ],
+          "example": false,
+          "id": "sharp-ps",
+          "images": [
+            {
+              "caption": "IFF Sharp-PS for Brain Health 產品頁主圖。",
+              "localPath": "",
+              "source": "official_site",
+              "url": "https://www.iff.com/wp-content/uploads/2025/09/IFF_HS_Our-Products_Sharp-PS-Brain_1.jpeg"
+            },
+            {
+              "caption": "展昭展商產品頁上 Healthmate 的 SHARP-PS 圖。",
+              "localPath": "",
+              "source": "exhibition",
+              "url": "https://www.chanchao.com.tw/exhibitorservicefiles/products/DMCB2026_219373_215286_M.webp"
+            }
+          ],
+          "literature": {
+            "note": "IFF 頁另引 Hirayama 2014、Benton 2001 等，本次未逐篇核對是否為 Sharp-PS 受試物。",
+            "refs": [
+              {
+                "note": "Nutr J 2025（PMID 41318468，DOI 10.1186/s12937-025-01264-9）。全文關鍵字與內文寫明 Sharp-PS Green（葵花來源）。",
+                "title": "The cognitive effects of supplementation with sunflower phosphatidyl serine in healthy children aged 8 to 12 years: a randomized controlled trial",
+                "url": "https://pubmed.ncbi.nlm.nih.gov/41318468/"
+              }
+            ],
+            "status": "yes"
+          },
+          "names": {
+            "commonEn": "phosphatidylserine",
+            "commonZh": "磷脂醯絲胺酸",
+            "scientific": "不適用單一植物學名。成分為磷脂醯絲胺酸，IFF 寫有大豆與葵花來源；TFDA 只對黃豆卵磷脂經酵素反應製得者。",
+            "trade": "Sharp-PS（IFF Health 的磷脂醯絲胺酸商品名；葵花來源款為 Sharp-PS Green）"
+          },
+          "patent": {
+            "note": "IFF 官網寫 exclusive and patented grades，呈定頁寫多項專利，本次沒有打開具體專利號，維持 unknown。",
+            "refs": [],
+            "status": "unknown"
+          },
+          "sources": [
+            {
+              "accessed": "2026-11-11",
+              "channel": "exhibition",
+              "publisher": "展昭國際（亞洲生技大展系列）",
+              "title": "SHARP-PS® Phosphatidylserine (PS) - HEALTHMATE CO., LTD.",
+              "url": "https://www.chanchao.com.tw/healthcos/en/visitorProductDetail.asp?no=215286",
+              "whatItContributes": "展商產品頁：Healthmate 攤位 i1310 展出 SHARP-PS；頁面標題寫 Expo 2027，圖片檔名為 2026。"
+            },
+            {
+              "accessed": "2026-11-11",
+              "channel": "supplier_site",
+              "publisher": "IFF Health Sciences",
+              "title": "Sharp-PS® for Brain Health",
+              "url": "https://www.iff.com/health-sciences/our-products/sharp-ps-for-brain-health/",
+              "whatItContributes": "規格 18–70% PS、粉末與分散液、建議每日 100–300 mg、大豆與葵花來源。"
+            },
+            {
+              "accessed": "2026-11-11",
+              "channel": "industry_report",
+              "publisher": "Nutraceuticals World",
+              "title": "Market Dynamics and Product Trends in Cognitive Support Nutraceuticals",
+              "url": "https://www.nutraceuticalsworld.com/market-dynamics-and-product-trends-in-cognitive-support-nutraceuticals/",
+              "whatItContributes": "2026-10-22 產業報導：認知類補充品 12.3 億美元，PS 下滑 9%。未點名 Sharp-PS。"
+            },
+            {
+              "accessed": "2026-11-11",
+              "channel": "other",
+              "publisher": "大自然生技素材有限公司",
+              "title": "SHARP-PS® 磷脂醯絲胺酸",
+              "url": "https://www.healthmate.com.tw/zh_TW/shop/sharp-ps-11",
+              "whatItContributes": "台灣產品頁：非基改大豆來源、產地西班牙、劑型與試驗用量。"
+            },
+            {
+              "accessed": "2026-11-11",
+              "channel": "other",
+              "publisher": "大自然生技素材有限公司",
+              "title": "首頁",
+              "url": "https://www.healthmate.com.tw/zh_TW",
+              "whatItContributes": "自述為 IFF Health（原 Frutarom Health）等保健原料之台灣代理商。"
+            },
+            {
+              "accessed": "2026-11-11",
+              "channel": "other",
+              "publisher": "呈定企業有限公司",
+              "title": "Sharp-PS® 磷脂醯絲胺酸",
+              "url": "https://www.chending.com.tw/catalog-detail/Sharp-PS/",
+              "whatItContributes": "經銷品牌頁：品牌 IFF、產地以色列、建議 100 mg/day。"
+            },
+            {
+              "accessed": "2026-11-11",
+              "channel": "paper",
+              "publisher": "Nutrition Journal（PubMed）",
+              "title": "PubMed 41318468",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/41318468/",
+              "whatItContributes": "Sharp-PS Green 兒童 RCT。"
+            }
+          ],
+          "supply": {
+            "relationship": "taiwan_agent",
+            "relationshipNote": "大自然生技素材（Healthmate）官網首頁自述為 IFF Health（原 Frutarom Health）保健原料之台灣代理商，並有 SHARP-PS 產品頁；2026 展昭展商頁列 Healthmate 攤位 i1310 展出 SHARP-PS。代理屬該公司自述，IFF 官網本次未點名台灣代理。呈定企業產品頁列 Sharp-PS，品牌 IFF，標在「經銷品牌」，記為經銷。產地兩家寫法不同：大自然寫西班牙、呈定寫以色列。查核日 2026-11-11。",
+            "supplierCountry": "以色列（IFF 總部美國）",
+            "supplierName": "IFF Health（原 Frutarom Health）",
+            "taiwanPartyName": "大自然生技素材有限公司；呈定企業有限公司"
+          },
+          "tfda": {
+            "evidenceNotes": "食品原料「磷脂醯絲胺酸」有列名，不是未確認安全性；限黃豆卵磷脂加絲胺酸經酵素反應製得，每日食用限量 500 mg（114 年 7 月 1 日起適用）。商品名與添加物分頁都是 0 筆。葵花來源的 Sharp-PS Green 不符合這個來源定義，只能考慮大豆款。",
+            "lookupDate": "2026-11-11",
+            "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+            "officialCrosscheck": {
+              "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+              "done": true,
+              "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+              "notes": "2026-11-11 開啟官方 MaterialDetail id=17374（HTTP 200），來源定義與每日 500 mg 限量與助手一致。"
+            },
+            "queries": [
+              {
+                "category": "",
+                "keyword": "磷脂醯絲胺酸",
+                "matchedName": "磷脂醯絲胺酸",
+                "note": "唯一一筆。",
+                "restrictionNote": "由黃豆製得之卵磷脂添加絲胺酸後經酵素反應製得；每日食用限量以磷脂醯絲胺酸計 500 毫克（113.07.11 衛授食字第1131301534號，114.07.01 起）。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Phosphatidylserine",
+                "matchedName": "磷脂醯絲胺酸",
+                "note": "同一筆。",
+                "restrictionNote": "",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Sharp",
+                "matchedName": "",
+                "note": "命中的是白鱎魚與益智（未確認安全性），都與本品無關，不採用。",
+                "restrictionNote": "",
+                "resultCount": 2,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "磷脂醯絲胺酸",
+                "matchedName": "",
+                "note": "添加物分頁 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "磷脂醯絲胺酸",
+                "matchedName": "",
+                "note": "助手更新歷程（11/01–11/10）沒有這筆異動。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "history",
+                "unconfirmedSafety": false
+              }
+            ],
+            "usable": "listed_food_ingredient"
+          }
+        },
+        {
+          "discovery": {
+            "channel": "industry_report",
+            "notes": "從 Nutraceuticals World 2026-10-22 認知類產業報導的猴頭菇成長數據進入，追到 NutraIngredients 2026-06-04 ErinaPrime 新聞，確認原料為台灣葡萄王 GK Heripene，再對 SNQ 頁與 PubMed。台灣關聯以「GK Heripene／ErinaPrime／猴頭菇菌絲體／Hericium erinaceus mycelium／葡萄王」搭配台灣、代理、經銷交叉搜尋，供應商本身在台灣。TFDA 對猴頭菇菌絲體。",
+            "scoutDate": "2026-11-11"
+          },
+          "efficacy": {
+            "claimedBenefits": [
+              "葡萄王（SNQ 頁）宣稱菌絲體含猴頭菇素 A，可促進神經生長因子分泌；SNQ 標章核可文字為動物試驗中有助降低肝損傷指標與延緩肝纖維化。",
+              "Front Aging Neurosci 2020（PMID 32581767，葡萄王參與）：輕度阿茲海默症患者每日 3 顆 350 mg 菌絲體膠囊（猴頭菇素 A 5 mg/g）49 週，MMSE 改善、IADL 組間有差異。",
+              "NutraIngredients 2024-10-08：GK Heripene 獲 2024 NutraIngredients-Asia 年度認知原料獎；另一項 8 個月試驗以每日 2000 mg 菌絲體觀察老年聽損。"
+            ],
+            "dosageNote": "以上是人體試驗劑量，不是台灣上限；TFDA 猴頭菇這筆沒有每日限量。",
+            "suggestedDosage": "沒有官方單一建議量。臨床試驗用每日 3 顆 350 mg（約 1050 mg，含猴頭菇素 A 5 mg/g）；聽損試驗用每日 2000 mg。"
+          },
+          "evidenceLevels": [
+            "cell",
+            "animal",
+            "clinical"
+          ],
+          "example": false,
+          "id": "gk-heripene",
+          "images": [
+            {
+              "caption": "NutraIngredients 報導用圖，圖說為含 GK Heripene 的 GKB 猴頭菇 400mg 成品（© Grape King Bio）。非原料包裝照。",
+              "localPath": "",
+              "source": "other",
+              "url": "https://www.nutraingredients.com/resizer/v2/ZIRQYGMKBZNU5E6IV3LKHUXEKU.png?auth=40e70d9f618ea894f258c2409af4625163bcd20471d4cc98cd44a4cf4cdcad35&width=1200&height=630&smart=true"
+            }
+          ],
+          "literature": {
+            "note": "SNQ 頁列 38 篇論文，含大鼠 28 天、13 週毒性與基因毒性研究；本次只開臨床摘要。",
+            "refs": [
+              {
+                "note": "Front Aging Neurosci 2020（PMID 32581767，NCT04065061）。作者含葡萄王生技研究所。只核摘要。",
+                "title": "Prevention of Early Alzheimer's Disease by Erinacine A-Enriched Hericium erinaceus Mycelia Pilot Double-Blind Placebo-Controlled Study",
+                "url": "https://pubmed.ncbi.nlm.nih.gov/32581767/"
+              }
+            ],
+            "status": "yes"
+          },
+          "names": {
+            "commonEn": "erinacine A-enriched lion's mane (Hericium erinaceus) mycelium",
+            "commonZh": "猴頭菇菌絲體（富含猴頭菇素 A）",
+            "scientific": "Hericium erinaceus（Bull. ex Fr.）Pers.（液態發酵菌絲體）",
+            "trade": "GK Heripene（葡萄王生技的猴頭菇菌絲體原料商品名；北美由 Nammex 以 ErinaPrime 推出加倍濃度款）"
+          },
+          "patent": {
+            "note": "SNQ 頁寫已取得 16 件專利，本次沒有打開具體專利號，維持 unknown。",
+            "refs": [],
+            "status": "unknown"
+          },
+          "sources": [
+            {
+              "accessed": "2026-11-11",
+              "channel": "industry_report",
+              "publisher": "Nutraceuticals World",
+              "title": "Market Dynamics and Product Trends in Cognitive Support Nutraceuticals",
+              "url": "https://www.nutraceuticalsworld.com/market-dynamics-and-product-trends-in-cognitive-support-nutraceuticals/",
+              "whatItContributes": "2026-10-22 產業報導：猴頭菇在認知類成長 8%，菇類在飲品、軟糖等劑型擴張。未點名葡萄王。"
+            },
+            {
+              "accessed": "2026-11-11",
+              "channel": "news",
+              "publisher": "NutraIngredients",
+              "title": "Nammex introduces ErinaPrime lion’s mane mycelium powder",
+              "url": "https://www.nutraingredients.com/Article/2026/06/04/nammex-introduces-erinaprime-lions-mane-mycelium-powder/",
+              "whatItContributes": "2026-06-04：ErinaPrime 原料由葡萄王在台灣液態發酵生產，為 GK Heripene 的加倍猴頭菇素 A 版本；Novelara 為北美獨家經銷。"
+            },
+            {
+              "accessed": "2026-11-11",
+              "channel": "news",
+              "publisher": "NutraIngredients",
+              "title": "Grape King Bio drives research on cognitive benefits of award-winning mushroom ingredient",
+              "url": "https://www.nutraingredients.com/Article/2024/10/08/grape-king-bio-to-further-study-cognitive-benefits-of-award-winning-mushroom-ingredient/",
+              "whatItContributes": "2024 年獲獎、猴頭菇素 A 5 mg/g、兩項人體試驗劑量。"
+            },
+            {
+              "accessed": "2026-11-11",
+              "channel": "other",
+              "publisher": "SNQ 國家品質標章",
+              "title": "猴頭菇菌絲體粉",
+              "url": "https://www.snq.org.tw/zh/certification/products-and-service/hericium-erinaceus-mycelium-powder-822",
+              "whatItContributes": "製造廠葡萄王生技、猴頭素 A 5 mg/g 以上、16 件專利、38 篇論文清單。"
+            },
+            {
+              "accessed": "2026-11-11",
+              "channel": "paper",
+              "publisher": "Frontiers in Aging Neuroscience（PubMed）",
+              "title": "PubMed 32581767",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/32581767/",
+              "whatItContributes": "49 週輕度阿茲海默症試驗摘要。"
+            }
+          ],
+          "supply": {
+            "relationship": "supplier_is_taiwan",
+            "relationshipNote": "SNQ 認證頁寫製造廠為葡萄王生技股份有限公司；NutraIngredients 2026-06-04 寫 ErinaPrime 原料由葡萄王在台灣工廠生產，Novelara 為葡萄王北美獨家經銷。台灣國內另有代理或經銷本次未見，原料洽詢走葡萄王。查核日 2026-11-11。",
+            "supplierCountry": "台灣",
+            "supplierName": "葡萄王生技股份有限公司（Grape King Bio）",
+            "taiwanPartyName": "葡萄王生技股份有限公司"
+          },
+          "tfda": {
+            "evidenceNotes": "食品原料「猴頭菇」有列名，學名 Hericium erinaceus，部位子實體、菌絲體，備註空白，不是未確認安全性。商品名 Heripene、ErinaPrime 與添加物分頁都是 0 筆。猴頭菇素 A 純化物沒有單獨列名，本筆只對菌絲體原料。",
+            "lookupDate": "2026-11-11",
+            "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+            "officialCrosscheck": {
+              "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+              "done": true,
+              "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+              "notes": "2026-11-11 開啟官方 MaterialDetail id=17450（HTTP 200），學名與部位含菌絲體，與助手一致。"
+            },
+            "queries": [
+              {
+                "category": "",
+                "keyword": "猴頭菇",
+                "matchedName": "猴頭菇",
+                "note": "本品為菌絲體。",
+                "restrictionNote": "學名 Hericium erinaceus（Bull.ex Fr.）Pers.；部位子實體、菌絲體；備註空白。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Hericium erinaceus",
+                "matchedName": "猴頭菇",
+                "note": "同一筆。",
+                "restrictionNote": "",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Heripene",
+                "matchedName": "",
+                "note": "商品名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "ErinaPrime",
+                "matchedName": "",
+                "note": "北美商品名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "猴頭菇",
+                "matchedName": "",
+                "note": "添加物分頁 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "猴頭菇",
+                "matchedName": "",
+                "note": "助手更新歷程（11/01–11/10）沒有這筆異動。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "history",
+                "unconfirmedSafety": false
+              }
+            ],
+            "usable": "listed_food_ingredient"
+          }
+        }
+      ],
+      "targetCount": 5,
+      "title": "2026-11-11 正式日報"
+    },
+    {
+      "channelsCovered": [
+        "news",
+        "exhibition",
+        "industry_report"
+      ],
       "date": "2026-11-10",
       "example": false,
       "notes": "正式五筆。主管道：Wellmune、NEM 為新聞；ElderCraft、MegaNatural-BP 為展覽；life'sDHA 為產業報導。未放入未確認安全性項目。接骨木只對果實與花，葉與接骨草排除。葡萄只對種子與果皮萃取，根莖藤嫩芽排除。藻油 DHA 不是 11 月 9 日磷蝦油。酵母 β-葡聚醣不是 11 月 9 日的反式白藜蘆醇。蛋殼膜不是前幾日的膠原胜肽。",
@@ -6213,6 +7130,355 @@ window.INGREDIENT_CATALOG = {
     },
     {
       "discovery": {
+        "channel": "industry_report",
+        "notes": "從 Nutraceuticals World 2026-10-22 認知類產業報導的猴頭菇成長數據進入，追到 NutraIngredients 2026-06-04 ErinaPrime 新聞，確認原料為台灣葡萄王 GK Heripene，再對 SNQ 頁與 PubMed。台灣關聯以「GK Heripene／ErinaPrime／猴頭菇菌絲體／Hericium erinaceus mycelium／葡萄王」搭配台灣、代理、經銷交叉搜尋，供應商本身在台灣。TFDA 對猴頭菇菌絲體。",
+        "scoutDate": "2026-11-11"
+      },
+      "efficacy": {
+        "claimedBenefits": [
+          "葡萄王（SNQ 頁）宣稱菌絲體含猴頭菇素 A，可促進神經生長因子分泌；SNQ 標章核可文字為動物試驗中有助降低肝損傷指標與延緩肝纖維化。",
+          "Front Aging Neurosci 2020（PMID 32581767，葡萄王參與）：輕度阿茲海默症患者每日 3 顆 350 mg 菌絲體膠囊（猴頭菇素 A 5 mg/g）49 週，MMSE 改善、IADL 組間有差異。",
+          "NutraIngredients 2024-10-08：GK Heripene 獲 2024 NutraIngredients-Asia 年度認知原料獎；另一項 8 個月試驗以每日 2000 mg 菌絲體觀察老年聽損。"
+        ],
+        "dosageNote": "以上是人體試驗劑量，不是台灣上限；TFDA 猴頭菇這筆沒有每日限量。",
+        "suggestedDosage": "沒有官方單一建議量。臨床試驗用每日 3 顆 350 mg（約 1050 mg，含猴頭菇素 A 5 mg/g）；聽損試驗用每日 2000 mg。"
+      },
+      "evidenceLevels": [
+        "cell",
+        "animal",
+        "clinical"
+      ],
+      "example": false,
+      "id": "gk-heripene",
+      "images": [
+        {
+          "caption": "NutraIngredients 報導用圖，圖說為含 GK Heripene 的 GKB 猴頭菇 400mg 成品（© Grape King Bio）。非原料包裝照。",
+          "localPath": "",
+          "source": "other",
+          "url": "https://www.nutraingredients.com/resizer/v2/ZIRQYGMKBZNU5E6IV3LKHUXEKU.png?auth=40e70d9f618ea894f258c2409af4625163bcd20471d4cc98cd44a4cf4cdcad35&width=1200&height=630&smart=true"
+        }
+      ],
+      "literature": {
+        "note": "SNQ 頁列 38 篇論文，含大鼠 28 天、13 週毒性與基因毒性研究；本次只開臨床摘要。",
+        "refs": [
+          {
+            "note": "Front Aging Neurosci 2020（PMID 32581767，NCT04065061）。作者含葡萄王生技研究所。只核摘要。",
+            "title": "Prevention of Early Alzheimer's Disease by Erinacine A-Enriched Hericium erinaceus Mycelia Pilot Double-Blind Placebo-Controlled Study",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32581767/"
+          }
+        ],
+        "status": "yes"
+      },
+      "names": {
+        "commonEn": "erinacine A-enriched lion's mane (Hericium erinaceus) mycelium",
+        "commonZh": "猴頭菇菌絲體（富含猴頭菇素 A）",
+        "scientific": "Hericium erinaceus（Bull. ex Fr.）Pers.（液態發酵菌絲體）",
+        "trade": "GK Heripene（葡萄王生技的猴頭菇菌絲體原料商品名；北美由 Nammex 以 ErinaPrime 推出加倍濃度款）"
+      },
+      "patent": {
+        "note": "SNQ 頁寫已取得 16 件專利，本次沒有打開具體專利號，維持 unknown。",
+        "refs": [],
+        "status": "unknown"
+      },
+      "sources": [
+        {
+          "accessed": "2026-11-11",
+          "channel": "industry_report",
+          "publisher": "Nutraceuticals World",
+          "title": "Market Dynamics and Product Trends in Cognitive Support Nutraceuticals",
+          "url": "https://www.nutraceuticalsworld.com/market-dynamics-and-product-trends-in-cognitive-support-nutraceuticals/",
+          "whatItContributes": "2026-10-22 產業報導：猴頭菇在認知類成長 8%，菇類在飲品、軟糖等劑型擴張。未點名葡萄王。"
+        },
+        {
+          "accessed": "2026-11-11",
+          "channel": "news",
+          "publisher": "NutraIngredients",
+          "title": "Nammex introduces ErinaPrime lion’s mane mycelium powder",
+          "url": "https://www.nutraingredients.com/Article/2026/06/04/nammex-introduces-erinaprime-lions-mane-mycelium-powder/",
+          "whatItContributes": "2026-06-04：ErinaPrime 原料由葡萄王在台灣液態發酵生產，為 GK Heripene 的加倍猴頭菇素 A 版本；Novelara 為北美獨家經銷。"
+        },
+        {
+          "accessed": "2026-11-11",
+          "channel": "news",
+          "publisher": "NutraIngredients",
+          "title": "Grape King Bio drives research on cognitive benefits of award-winning mushroom ingredient",
+          "url": "https://www.nutraingredients.com/Article/2024/10/08/grape-king-bio-to-further-study-cognitive-benefits-of-award-winning-mushroom-ingredient/",
+          "whatItContributes": "2024 年獲獎、猴頭菇素 A 5 mg/g、兩項人體試驗劑量。"
+        },
+        {
+          "accessed": "2026-11-11",
+          "channel": "other",
+          "publisher": "SNQ 國家品質標章",
+          "title": "猴頭菇菌絲體粉",
+          "url": "https://www.snq.org.tw/zh/certification/products-and-service/hericium-erinaceus-mycelium-powder-822",
+          "whatItContributes": "製造廠葡萄王生技、猴頭素 A 5 mg/g 以上、16 件專利、38 篇論文清單。"
+        },
+        {
+          "accessed": "2026-11-11",
+          "channel": "paper",
+          "publisher": "Frontiers in Aging Neuroscience（PubMed）",
+          "title": "PubMed 32581767",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/32581767/",
+          "whatItContributes": "49 週輕度阿茲海默症試驗摘要。"
+        }
+      ],
+      "supply": {
+        "relationship": "supplier_is_taiwan",
+        "relationshipNote": "SNQ 認證頁寫製造廠為葡萄王生技股份有限公司；NutraIngredients 2026-06-04 寫 ErinaPrime 原料由葡萄王在台灣工廠生產，Novelara 為葡萄王北美獨家經銷。台灣國內另有代理或經銷本次未見，原料洽詢走葡萄王。查核日 2026-11-11。",
+        "supplierCountry": "台灣",
+        "supplierName": "葡萄王生技股份有限公司（Grape King Bio）",
+        "taiwanPartyName": "葡萄王生技股份有限公司"
+      },
+      "tfda": {
+        "evidenceNotes": "食品原料「猴頭菇」有列名，學名 Hericium erinaceus，部位子實體、菌絲體，備註空白，不是未確認安全性。商品名 Heripene、ErinaPrime 與添加物分頁都是 0 筆。猴頭菇素 A 純化物沒有單獨列名，本筆只對菌絲體原料。",
+        "lookupDate": "2026-11-11",
+        "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+        "officialCrosscheck": {
+          "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+          "done": true,
+          "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+          "notes": "2026-11-11 開啟官方 MaterialDetail id=17450（HTTP 200），學名與部位含菌絲體，與助手一致。"
+        },
+        "queries": [
+          {
+            "category": "",
+            "keyword": "猴頭菇",
+            "matchedName": "猴頭菇",
+            "note": "本品為菌絲體。",
+            "restrictionNote": "學名 Hericium erinaceus（Bull.ex Fr.）Pers.；部位子實體、菌絲體；備註空白。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Hericium erinaceus",
+            "matchedName": "猴頭菇",
+            "note": "同一筆。",
+            "restrictionNote": "",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Heripene",
+            "matchedName": "",
+            "note": "商品名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "ErinaPrime",
+            "matchedName": "",
+            "note": "北美商品名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "猴頭菇",
+            "matchedName": "",
+            "note": "添加物分頁 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "猴頭菇",
+            "matchedName": "",
+            "note": "助手更新歷程（11/01–11/10）沒有這筆異動。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "history",
+            "unconfirmedSafety": false
+          }
+        ],
+        "usable": "listed_food_ingredient"
+      }
+    },
+    {
+      "discovery": {
+        "channel": "news",
+        "notes": "從 Kewpie 2026-03-12 獲獎新聞稿進入，再對 Hyabest (S)LF-P 原料頁與 Nutrients 2021 台灣試驗。台灣關聯以「Hyabest／丘比／Kewpie／玻尿酸／透明質酸鈉／流行鏈球菌發酵物」搭配台灣、代理、總代理、經銷交叉搜尋，打開東翔、會昌、六和化工、艾比克頁面後區分食品級與化妝品級。TFDA 對流行鏈球菌發酵物，注意每日 80 mg。",
+        "scoutDate": "2026-11-11"
+      },
+      "efficacy": {
+        "claimedBenefits": [
+          "Kewpie 官網宣稱口服 Hyabest (S)LF-P 可改善肌膚乾燥與含水量，並說明腸道菌把玻尿酸分解成寡糖後吸收。這是供應商說法。",
+          "Nutrients 2021（PMID 34203487）：台灣 40 名 35–64 歲成人，每日 120 mg 玻尿酸 12 週，皺紋評分、角質層含水量、經皮水分散失與彈性優於安慰劑；3 名作者為 Kewpie 員工。",
+          "Kewpie 2026-03-12 新聞稿：食品用玻尿酸研究與事業化獲日本農藝化學會 2026 年度技術賞。"
+        ],
+        "dosageNote": "120 mg 是日本與台灣試驗劑量；在台灣作食品須依 TFDA 每日 80 mg 以下。",
+        "suggestedDosage": "論文與 Kewpie 新聞稿的人體試驗用量為每日 120 mg；台灣 TFDA 上限為每日 80 mg 以下。"
+      },
+      "evidenceLevels": [
+        "animal",
+        "clinical"
+      ],
+      "example": false,
+      "id": "hyabest",
+      "images": [
+        {
+          "caption": "Kewpie Hyabest (S)LF-P 產品頁分享圖。",
+          "localPath": "",
+          "source": "official_site",
+          "url": "https://www.kewpie.com/en/assets/img/project/finechemical/hyaluronic/hyabest-lf-p/ogimage.jpg"
+        }
+      ],
+      "literature": {
+        "note": "Kewpie 新聞稿另列 2015 J Clin Biochem Nutr 等研究，本次未逐篇開。",
+        "refs": [
+          {
+            "note": "Nutrients 2021（PMID 34203487，DOI 10.3390/nu13072220）。Kewpie Hyabest (S)LF-P 頁引用此篇。只核摘要。",
+            "title": "Oral Hyaluronan Relieves Wrinkles and Improves Dry Skin: A 12-Week Double-Blinded, Placebo-Controlled Study",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34203487/"
+          }
+        ],
+        "status": "yes"
+      },
+      "names": {
+        "commonEn": "sodium hyaluronate (fermentation-derived, food grade)",
+        "commonZh": "食品用玻尿酸（透明質酸鈉，發酵法）",
+        "scientific": "不適用植物學名。成分為透明質酸鈉 (C14H20NNaO11)n；Kewpie 頁寫 bio-fermentation，台灣經銷頁以 TFDA 名稱「流行鏈球菌發酵物(含透明質酸鈉)」標示。",
+        "trade": "Hyabest（Kewpie 丘比的食品用玻尿酸商品名；口服款 Hyabest (S)LF-P）"
+      },
+      "patent": {
+        "note": "2022 鳴新聞稿寫專利申請超過四十項，本次沒有打開具體專利號，維持 unknown。台灣 Hyabest 商標註冊 01650880（權利人 Kewpie）專用期限寫至 2024-06-30，是商標不是專利。",
+        "refs": [],
+        "status": "unknown"
+      },
+      "sources": [
+        {
+          "accessed": "2026-11-11",
+          "channel": "news",
+          "publisher": "Kewpie",
+          "title": "「食品用ヒアルロン酸」に関する研究と事業化が2026年度農芸化学技術賞を受賞",
+          "url": "https://www.kewpie.com/newsrelease/2026/4018/",
+          "whatItContributes": "2026-03-12 新聞稿：獲獎、120 mg/日試驗、腸道菌分解吸收機制，2004 年起以發酵法供應食品用玻尿酸；並引大鼠分布研究。"
+        },
+        {
+          "accessed": "2026-11-11",
+          "channel": "supplier_site",
+          "publisher": "Kewpie",
+          "title": "Hyabest(S)LF-P oral hyaluronic acid dietary supplements",
+          "url": "https://www.kewpie.com/en/finechemical/hyaluronic/hyabest-lf-p.html",
+          "whatItContributes": "原料頁：bio-fermentation、平均分子量 200k–500k、台灣受試者肌膚含水量試驗。"
+        },
+        {
+          "accessed": "2026-11-11",
+          "channel": "paper",
+          "publisher": "Nutrients（PubMed）",
+          "title": "PubMed 34203487",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34203487/",
+          "whatItContributes": "台灣 40 人、120 mg、12 週隨機雙盲試驗。"
+        },
+        {
+          "accessed": "2026-11-11",
+          "channel": "other",
+          "publisher": "東翔生技股份有限公司",
+          "title": "丘比株式會社",
+          "url": "https://www.toshio-biomed.com.tw/exclusive/%e4%b8%98%e6%af%94%e6%a0%aa%e5%bc%8f%e6%9c%83%e7%a4%be/",
+          "whatItContributes": "東翔「獨家授權」區的丘比頁：流行鏈球菌發酵物(含透明質酸鈉)，寫第一家 TFDA 通過、95% 高純度、每批無溶血檢驗。"
+        },
+        {
+          "accessed": "2026-11-11",
+          "channel": "news",
+          "publisher": "鳴新聞",
+          "title": "7/28-7/31 亞洲生技大展-食品級玻尿酸鈉與蛋殼膜領導品牌參展",
+          "url": "https://www.minews.com.tw/2022/07/340/",
+          "whatItContributes": "2022-07-27 稿：Kewpie 透過總代理管理制度與東翔生技合作經營台灣市場，點名 Hyabest。屬參展宣傳稿。"
+        },
+        {
+          "accessed": "2026-11-11",
+          "channel": "other",
+          "publisher": "會昌實業股份有限公司",
+          "title": "Hyabest® 流行鏈球菌發酵物",
+          "url": "https://www.atp-bio.com/exclusive/atp-exclusive/hyabest-206.html",
+          "whatItContributes": "會昌品牌原料頁販售 Hyabest 流行鏈球菌發酵物，未寫代理。"
+        }
+      ],
+      "supply": {
+        "relationship": "taiwan_agent",
+        "relationshipNote": "東翔官網「獨家授權」區列丘比，丘比頁介紹流行鏈球菌發酵物(含透明質酸鈉)，首頁自述與日本原料廠長期合作及代理（該公司自述）。2022-07-27 鳴新聞稿寫 Kewpie 透過總代理制度與東翔合作，並點名 Hyabest。會昌實業品牌原料頁也販售 Hyabest 流行鏈球菌發酵物，未寫代理，記為販售。六和化工與台灣艾比克列的是 Kewpie 化妝品級玻尿酸，不是本品。Kewpie 官網本次未點名台灣代理。查核日 2026-11-11。",
+        "supplierCountry": "日本",
+        "supplierName": "Kewpie Corporation（キユーピー株式会社）",
+        "taiwanPartyName": "東翔生技股份有限公司"
+      },
+      "tfda": {
+        "evidenceNotes": "食品原料「流行鏈球菌發酵物(含透明質酸鈉)」有列名，不是未確認安全性；限不產溶血毒素菌株、透明質酸鈉 87% 以上、每日 80 mg 以下。商品名、玻尿酸與添加物分頁都是 0 筆。Kewpie 頁本次未寫菌種，需向供應商索規格確認；台灣人體試驗用 120 mg，高於台灣上限。",
+        "lookupDate": "2026-11-11",
+        "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+        "officialCrosscheck": {
+          "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+          "done": true,
+          "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+          "notes": "2026-11-11 開啟官方 MaterialDetail id=17556（HTTP 200），菌種、含量、分子量與每日 80 mg 限量與助手一致。"
+        },
+        "queries": [
+          {
+            "category": "",
+            "keyword": "透明質酸鈉",
+            "matchedName": "流行鏈球菌發酵物(含透明質酸鈉)",
+            "note": "另一筆是雞冠萃取物(含透明質酸鈉)，每日 80 mg 以下；本品為發酵法，對流行鏈球菌那筆。",
+            "restrictionNote": "不產生溶血毒素之 Streptococcus equi subsp. zooepidemicus 培養後去除菌體；透明質酸鈉 87% 以上；分子量 8.02×10^4 至 4.01×10^6；每日使用量 80 毫克以下（106.7.13 衛授食字第1061300712號）。",
+            "resultCount": 2,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Hyabest",
+            "matchedName": "",
+            "note": "商品名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "玻尿酸",
+            "matchedName": "",
+            "note": "俗名 0 筆，官方用透明質酸鈉。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "透明質酸鈉",
+            "matchedName": "",
+            "note": "添加物分頁 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "透明質酸鈉",
+            "matchedName": "",
+            "note": "助手更新歷程（11/01–11/10）沒有這筆異動。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "history",
+            "unconfirmedSafety": false
+          }
+        ],
+        "usable": "listed_food_ingredient"
+      }
+    },
+    {
+      "discovery": {
         "channel": "news",
         "notes": "從 NutraIngredients 2025-10-22 的羥基酪醇試驗新聞看到 Hytolive，再對 Alvinesa 產品頁與他們自己的臨床新聞。TFDA 對上的是果渣萃取物規格，不是商品名。",
         "scoutDate": "2026-11-05"
@@ -6709,6 +7975,189 @@ window.INGREDIENT_CATALOG = {
             "keyword": "南非醉茄",
             "matchedName": "",
             "note": "未改列未確認安全性。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "history",
+            "unconfirmedSafety": false
+          }
+        ],
+        "usable": "listed_food_ingredient"
+      }
+    },
+    {
+      "discovery": {
+        "channel": "news",
+        "notes": "從 NutraIngredients 2026-07-29 Kirin 新聞進入，再對 LC-Plasma 繁中製造商頁、Kirin 2025 台灣上市新聞稿與日本專利、PubMed 統合分析。台灣關聯以「LC-Plasma／IMMUSE／乳酸乳球菌 Plasma／協和發酵」搭配台灣、代理、經銷交叉搜尋，打開正豐產品頁；台灣麒麟與澳佳寶只記成品。TFDA 對 Lactococcus lactis subsp. lactis。",
+        "scoutDate": "2026-11-11"
+      },
+      "efficacy": {
+        "claimedBenefits": [
+          "Kirin／協和官網宣稱 LC-Plasma 可直接活化漿細胞樣樹突狀細胞（pDC），進而帶動 NK、殺手 T、B 與輔助 T 細胞，提供全面免疫支持。這是供應商說法。",
+          "Front Immunol 2025 個別受試者資料統合分析（PMID 41280892，8 篇 RCT、619 人）：攝取期間 pDC 活化指標維持較佳，咳嗽與發熱感的累積天數少於安慰劑。作者多為 Kirin 員工。",
+          "NutraIngredients 2026-07-29：Kirin 把 LC-Plasma 延伸到運動與活躍生活取向飲品，並引用長跑選手兩週 RCT 的運動後疲勞感較低。"
+        ],
+        "dosageNote": "以上是供應商建議量與成品含量，不是台灣法規上限；TFDA 乳酸菌這筆沒有每日用量限制。",
+        "suggestedDosage": "協和繁中製造商頁：建議每日 50 mg，約 1000 億個菌體；安全性試驗做到每日 250 mg。台灣麒麟檸檬水每瓶 500 ml 含 1000 億個。"
+      },
+      "evidenceLevels": [
+        "clinical"
+      ],
+      "example": false,
+      "id": "lc-plasma",
+      "images": [
+        {
+          "caption": "LC-Plasma 官網分享圖（IMMUSE 品牌），不是原料包裝照。",
+          "localPath": "",
+          "source": "official_site",
+          "url": "https://lc-plasma.com/storage/app/media/uploaded-files/immuse-linkedin-social-share-image.jpg"
+        }
+      ],
+      "literature": {
+        "note": "人體證據以 Kirin 參與的統合分析為主。",
+        "refs": [
+          {
+            "note": "Front Immunol 2025（PMID 41280892，DOI 10.3389/fimmu.2025.1696989）。只核摘要。",
+            "title": "Lactococcus lactis strain Plasma activates plasmacytoid dendritic cells and mitigates common cold-like symptoms in healthy adults: a meta-analysis of individual participant data",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41280892/"
+          },
+          {
+            "note": "Fish Shellfish Immunol 2018（PMID 29550602）。只用來對 JCM5805 的亞種寫法，不作人體功效證據。",
+            "title": "Effects of dietary Lactobacillus rhamnosus JCM1136 and Lactococcus lactis subsp. lactis JCM5805 on ... juvenile Nile tilapia",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29550602/"
+          }
+        ],
+        "status": "yes"
+      },
+      "names": {
+        "commonEn": "heat-killed Lactococcus lactis strain Plasma",
+        "commonZh": "熱處理乳酸乳球菌 Plasma 株（後生元）",
+        "scientific": "Lactococcus lactis subsp. lactis JCM 5805（Plasma 株），熱處理菌體。",
+        "trade": "LC-Plasma（Kirin／協和發酵生化的乳酸菌商品名，美國保健原料品牌名 IMMUSE）"
+      },
+      "patent": {
+        "note": "只核到日本專利一件，其他國家未查。",
+        "refs": [
+          {
+            "note": "Kirin 2025-03-05 新聞稿註明 LC-Plasma 用途在日本取得專利 JP 6598824；Google Patents 頁顯示權利人 Kirin Holdings Co Ltd。未核權利範圍細節。",
+            "title": "JP6598824B2 - Interferon production inducer containing lactic acid bacteria",
+            "url": "https://patents.google.com/patent/JP6598824B2/en"
+          }
+        ],
+        "status": "yes"
+      },
+      "sources": [
+        {
+          "accessed": "2026-11-11",
+          "channel": "news",
+          "publisher": "NutraIngredients",
+          "title": "Kirin expands immune support postbiotics’ use into active lifestyle nutrition",
+          "url": "https://www.nutraingredients.com/Article/2026/07/29/kirin-expands-immune-support-postbiotics-use-into-active-lifestyle-nutrition/",
+          "whatItContributes": "2026-07-29 新聞：LC-Plasma 延伸到活躍生活營養，並寫產品已進入越南、台灣、新加坡。"
+        },
+        {
+          "accessed": "2026-11-11",
+          "channel": "supplier_site",
+          "publisher": "LC-Plasma 官網（協和發酵生化）",
+          "title": "對於製造商",
+          "url": "https://lc-plasma.com/zh-tw/for-manufacturers",
+          "whatItContributes": "繁中製造商頁：熱處理後生元、每日 50 mg 或 1000 億個、250 mg 安全性試驗、美國 GRAS 自我認證。"
+        },
+        {
+          "accessed": "2026-11-11",
+          "channel": "news",
+          "publisher": "Kirin Holdings",
+          "title": "Kirin and Blackmores Team Up To Release LC-Plasma in Taiwan",
+          "url": "https://www.kirinholdings.com/en/newsroom/release/2025/0305_01.html",
+          "whatItContributes": "2025-03-05：LC-Plasma 首次在台灣販售（澳佳寶粉末），並註明日本專利 JP 6598824。"
+        },
+        {
+          "accessed": "2026-11-11",
+          "channel": "other",
+          "publisher": "台灣麒麟",
+          "title": "KIRIN iMUSE-乳酸菌檸檬水 500ml",
+          "url": "https://www.kirin.com.tw/products-detail.php?id=388",
+          "whatItContributes": "台灣成品：每瓶含 1000 億個 Plasma 乳酸菌，備註為經熱處理之乳酸菌粉末。成品販售，不是原料代理。"
+        },
+        {
+          "accessed": "2026-11-11",
+          "channel": "other",
+          "publisher": "正豐貿易股份有限公司",
+          "title": "KYOWA IMMUSE®專利乳酸菌創新全面免疫提升機制",
+          "url": "https://www.hermosa-lynnbros.com.tw/kyowa_immuse/",
+          "whatItContributes": "2024-07-01 正豐自述引進 IMMUSE®（LC-Plasma）供生技業者，頁尾列食品原料部門。"
+        },
+        {
+          "accessed": "2026-11-11",
+          "channel": "paper",
+          "publisher": "Frontiers in Immunology（PubMed）",
+          "title": "PubMed 41280892",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41280892/",
+          "whatItContributes": "8 篇 RCT 的統合分析摘要。"
+        }
+      ],
+      "supply": {
+        "relationship": "taiwan_distributor",
+        "relationshipNote": "正豐官網 2024-07-01 文章自述「正豐引進 IMMUSE®」供生技業者，並列食品原料部門電話；頁面未寫代理或獨家，故記經銷／引進，屬該公司自述。成品端另有台灣麒麟 iMUSE 乳酸菌檸檬水與澳佳寶台灣 LC-Plasma 粉末，這是成品販售，不是原料代理。Kirin 與協和官網本次未點名台灣原料代理。查核日 2026-11-11。",
+        "supplierCountry": "日本",
+        "supplierName": "Kirin Holdings（原料由集團內 Kyowa Hakko Bio 協和發酵生化對外供應）",
+        "taiwanPartyName": "正豐貿易股份有限公司"
+      },
+      "tfda": {
+        "evidenceNotes": "食品原料「乳酸菌」有 Lactococcus lactis subsp. lactis（菌體）一筆，備註可供為食品原料或食品加工使用，不是未確認安全性。商品名 LC-Plasma、IMMUSE 與添加物分頁都是 0 筆。台灣成品標示為經熱處理乳酸菌粉末；菌株亞種依論文寫 subsp. lactis。",
+        "lookupDate": "2026-11-11",
+        "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+        "officialCrosscheck": {
+          "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+          "done": true,
+          "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+          "notes": "2026-11-11 開啟官方 MaterialDetail id=17540（HTTP 200），學名、部位、備註與查詢助手一致。"
+        },
+        "queries": [
+          {
+            "category": "",
+            "keyword": "Lactococcus lactis subsp. lactis",
+            "matchedName": "乳酸菌",
+            "note": "3 筆含 biovar diacetylactis 等近似學名；本品對 subsp. lactis 那一筆。",
+            "restrictionNote": "學名 Lactococcus lactis subsp. lactis，部位菌體，備註：可供為食品原料或食品加工使用。",
+            "resultCount": 3,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "LC-Plasma",
+            "matchedName": "",
+            "note": "商品名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "乳酸乳球菌",
+            "matchedName": "",
+            "note": "中文別名 0 筆，官方中文名是「乳酸菌」。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "乳酸菌",
+            "matchedName": "",
+            "note": "添加物分頁 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "乳酸菌",
+            "matchedName": "",
+            "note": "助手更新歷程（11/01–11/10）沒有這筆異動。",
             "restrictionNote": "",
             "resultCount": 0,
             "tab": "history",
@@ -9163,6 +10612,191 @@ window.INGREDIENT_CATALOG = {
     {
       "discovery": {
         "channel": "exhibition",
+        "notes": "從 Vitafoods Europe 2026 Nektium 展前新聞稿進入，以 Nutraceuticals World 展會報導交叉，再對 Nektium 規格頁與 PubMed。台灣關聯以「Rhodiolife／紅景天／Rhodiola rosea／Nektium」搭配台灣、代理、經銷、distributor 交叉搜尋，打開漢馨與韋鎮產品頁及 Nektium 經銷新聞。TFDA 對紅景天根。",
+        "scoutDate": "2026-11-11"
+      },
+      "efficacy": {
+        "claimedBenefits": [
+          "Nektium 2026-04-08 新聞稿與官網宣稱 Rhodiolife 支持心智能量、紓壓，並改善運動耐力與輸出。這是供應商說法。",
+          "Nektium 引用 Metabolites 2025（PMID 40278391）：96 人 8 週拳擊訓練，紅景天加咖啡因組的出拳爆發力與持續輸出較佳；摘要未寫受試物是否為 Rhodiolife。",
+          "Phytother Res 2014（PMID 23893458）：Rhodiolife 在小鼠肌管細胞上減少過氧化氫造成的存活率下降，並上調 HSP70。"
+        ],
+        "dosageNote": "200 mg 是台灣經銷頁的建議量，不是 TFDA 上限；TFDA 紅景天這筆沒有寫每日限量。",
+        "suggestedDosage": "漢馨產品頁：每次 200 mg，每日 1–2 次。Nektium 規格：總洛塞維（rosavins）≥3%、紅景天苷 ≥1%，或 ≥5%、≥1.8%。"
+      },
+      "evidenceLevels": [
+        "cell"
+      ],
+      "example": false,
+      "id": "rhodiolife",
+      "images": [
+        {
+          "caption": "Nektium 官網 Rhodiolife 頁的圖。",
+          "localPath": "",
+          "source": "official_site",
+          "url": "https://nektium.com/wp-content/uploads/2022/03/rhodiolife-nektium.jpg"
+        }
+      ],
+      "literature": {
+        "note": "摘要明寫 Rhodiolife 的只有細胞試驗；2025 電競多成分試驗（PMID 41356833）含 Rhodiolife 但為複方，不計入。",
+        "refs": [
+          {
+            "note": "Phytother Res 2014（PMID 23893458）。摘要寫明受試物是 Rhodiolife。細胞試驗。",
+            "title": "A Rhodiola rosea root extract protects skeletal muscle cells against chemically induced oxidative stress by modulating heat shock protein 70 (HSP70) expression",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23893458/"
+          },
+          {
+            "note": "Metabolites 2025（PMID 40278391）。Nektium 新聞稿引用；摘要只寫 Rhodiola rosea，未寫品牌，不列為本品臨床證據。",
+            "title": "Combined Effects of Rhodiola Rosea and Caffeine Supplementation on Straight Punch Explosive Power...",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40278391/"
+          }
+        ],
+        "status": "yes"
+      },
+      "names": {
+        "commonEn": "Rhodiola rosea root extract",
+        "commonZh": "玫瑰紅景天根萃取物",
+        "scientific": "Rhodiola rosea L.（根）",
+        "trade": "Rhodiolife（Nektium 的玫瑰紅景天萃取商品名，3% 與 5% 兩種規格）"
+      },
+      "patent": {
+        "note": "漢馨產品頁專利欄寫「無」；本次沒有另查專利庫，維持 unknown。",
+        "refs": [],
+        "status": "unknown"
+      },
+      "sources": [
+        {
+          "accessed": "2026-11-11",
+          "channel": "exhibition",
+          "publisher": "Nektium",
+          "title": "Next-gen energy: Nektium to present Rhodiolife® coffees and Zynamite® RTDs at Vitafoods 2026",
+          "url": "https://nektium.prezly.com/next-gen-energy-nektium-to-present-rhodiolifer-coffees-and-zynamiter-rtds-at-vitafoods-2026",
+          "whatItContributes": "2026-04-08 新聞稿：Vitafoods Europe 2026（巴塞隆納 5/5–5/7，攤位 UWA10）展出 Rhodiolife 咖啡概念。"
+        },
+        {
+          "accessed": "2026-11-11",
+          "channel": "exhibition",
+          "publisher": "Nutraceuticals World",
+          "title": "Nektium to Spotlight Rhodiolife Coffee and Zynamite RTD Beverages at Vitafoods Europe",
+          "url": "https://www.nutraceuticalsworld.com/live_from_shows/nektium-to-spotlight-rhodiolife-coffee-and-zynamite-rtd-beverages-at-vitafoods-europe/",
+          "whatItContributes": "2026-04-08 展會報導，交叉確認攤位與展出內容。"
+        },
+        {
+          "accessed": "2026-11-11",
+          "channel": "supplier_site",
+          "publisher": "Nektium",
+          "title": "Rhodiolife®",
+          "url": "https://nektium.com/rhodiolife/",
+          "whatItContributes": "原料規格（3%、5%）、根部來源、DNA 條碼與 UHPLC 鑑別、自我認定 GRAS。"
+        },
+        {
+          "accessed": "2026-11-11",
+          "channel": "other",
+          "publisher": "漢馨科技有限公司",
+          "title": "Rhodiolife 紅景天萃取物",
+          "url": "https://www.hansient.com.tw/product/rhodiolife-%e7%b4%85%e6%99%af%e5%a4%a9%e8%90%83%e5%8f%96%e7%89%a9/",
+          "whatItContributes": "台灣產品頁：原廠 Nektium、產地西班牙、200 mg 每日 1–2 次、專利欄寫無。"
+        },
+        {
+          "accessed": "2026-11-11",
+          "channel": "other",
+          "publisher": "漢馨科技有限公司",
+          "title": "Nektium",
+          "url": "https://www.hansient.com.tw/supplier/nektium/",
+          "whatItContributes": "漢馨供應商頁列 Nektium 與 Rhodiolife。"
+        },
+        {
+          "accessed": "2026-11-11",
+          "channel": "other",
+          "publisher": "韋鎮實業有限公司",
+          "title": "Rhodiolife® 紅景天",
+          "url": "https://www.phfcorp.com.tw/page/product/show.aspx?kind=87&num=176&page=2",
+          "whatItContributes": "台灣產品頁販售 Rhodiolife，原廠西班牙，應用保健食品。"
+        },
+        {
+          "accessed": "2026-11-11",
+          "channel": "paper",
+          "publisher": "Phytotherapy Research（PubMed）",
+          "title": "PubMed 23893458",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/23893458/",
+          "whatItContributes": "摘要明寫 Rhodiolife 的細胞試驗。"
+        }
+      ],
+      "supply": {
+        "relationship": "taiwan_distributor",
+        "relationshipNote": "漢馨官網有 Rhodiolife 產品頁（原廠 Nektium、產地西班牙）與 Nektium 供應商頁；首頁泛稱代理世界頂尖原料，但未逐項寫 Rhodiolife 代理或獨家，記為經銷。韋鎮實業產品頁也販售 Rhodiolife（西班牙原廠），未寫代理。Nektium 官網經銷新聞只點名義、法、日夥伴，本次未見台灣。查核日 2026-11-11。",
+        "supplierCountry": "西班牙",
+        "supplierName": "Nektium Pharma SL",
+        "taiwanPartyName": "漢馨科技有限公司；韋鎮實業有限公司"
+      },
+      "tfda": {
+        "evidenceNotes": "食品原料「紅景天」有列名，學名含 Rhodiola rosea L.，部位根、根莖，分類為供茶包、膳食調理包或萃取後作原料，不是未確認安全性。備註沒有每日限量。商品名 Rhodiolife 與添加物分頁都是 0 筆。",
+        "lookupDate": "2026-11-11",
+        "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+        "officialCrosscheck": {
+          "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+          "done": true,
+          "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+          "notes": "2026-11-11 開啟官方 MaterialDetail id=16794（HTTP 200），學名與部位與助手一致。"
+        },
+        "queries": [
+          {
+            "category": "",
+            "keyword": "紅景天",
+            "matchedName": "紅景天",
+            "note": "本品對 Rhodiola rosea 根。",
+            "restrictionNote": "學名 Rhodiola sacra、R. crenulata、R. rosea L.、R. sachalinensis；部位根、根莖；備註空白。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Rhodiola rosea",
+            "matchedName": "紅景天",
+            "note": "同一筆。",
+            "restrictionNote": "",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Rhodiolife",
+            "matchedName": "",
+            "note": "商品名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "紅景天",
+            "matchedName": "",
+            "note": "添加物分頁 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "紅景天",
+            "matchedName": "",
+            "note": "助手更新歷程（11/01–11/10）沒有這筆異動。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "history",
+            "unconfirmedSafety": false
+          }
+        ],
+        "usable": "listed_food_ingredient"
+      }
+    },
+    {
+      "discovery": {
+        "channel": "exhibition",
         "notes": "從 Richen 的 Vitafoods Asia 2026 展後稿看到 RiviK2，再打開 MK-7 產品頁，並用另一個網域的聯絡頁核對公司在上海。TFDA 對上的是添加物「維生素K2」，不是商品名。",
         "scoutDate": "2026-11-05"
       },
@@ -9343,6 +10977,192 @@ window.INGREDIENT_CATALOG = {
           }
         ],
         "usable": "listed_food_additive"
+      }
+    },
+    {
+      "discovery": {
+        "channel": "exhibition",
+        "notes": "從展昭亞洲生技大展系列展商頁看到 Healthmate 展出 SHARP-PS，再對 IFF 原料頁、Nutraceuticals World 10/22 產業報導與 PubMed。台灣關聯以「Sharp-PS／Sharp PS／磷脂醯絲胺酸／磷脂絲胺酸／IFF／Frutarom」搭配台灣、代理、經銷交叉搜尋，打開大自然與呈定頁面。TFDA 限黃豆來源與每日 500 mg。",
+        "scoutDate": "2026-11-11"
+      },
+      "efficacy": {
+        "claimedBenefits": [
+          "IFF 官網宣稱大豆與葵花來源 PS 經臨床測試可改善認知表現、注意力與行為，並有助於緩和壓力感受。這是供應商說法。",
+          "Nutr J 2025（PMID 41318468）：8–12 歲健康兒童每日 100 mg Sharp-PS Green 軟糖 12 週，主要與次要指標整體無差異；基線表現低於中位數的子群在視覺空間記憶有改善。作者多為 IFF 員工。",
+          "Nutraceuticals World 2026-10-22 產業報導：SPINS 數據顯示 PS 作為認知類旗艦成分過去一年銷售下滑 9%。"
+        ],
+        "dosageNote": "以上為供應商建議或試驗用量；台灣上限為每日 500 mg，且原料須為黃豆卵磷脂來源。",
+        "suggestedDosage": "IFF 官網：每日 100–300 mg；呈定頁：每日 100 mg PS；大自然頁 FAQ 寫年長者研究每次 100 mg、每日 3 次、12 週。"
+      },
+      "evidenceLevels": [
+        "clinical"
+      ],
+      "example": false,
+      "id": "sharp-ps",
+      "images": [
+        {
+          "caption": "IFF Sharp-PS for Brain Health 產品頁主圖。",
+          "localPath": "",
+          "source": "official_site",
+          "url": "https://www.iff.com/wp-content/uploads/2025/09/IFF_HS_Our-Products_Sharp-PS-Brain_1.jpeg"
+        },
+        {
+          "caption": "展昭展商產品頁上 Healthmate 的 SHARP-PS 圖。",
+          "localPath": "",
+          "source": "exhibition",
+          "url": "https://www.chanchao.com.tw/exhibitorservicefiles/products/DMCB2026_219373_215286_M.webp"
+        }
+      ],
+      "literature": {
+        "note": "IFF 頁另引 Hirayama 2014、Benton 2001 等，本次未逐篇核對是否為 Sharp-PS 受試物。",
+        "refs": [
+          {
+            "note": "Nutr J 2025（PMID 41318468，DOI 10.1186/s12937-025-01264-9）。全文關鍵字與內文寫明 Sharp-PS Green（葵花來源）。",
+            "title": "The cognitive effects of supplementation with sunflower phosphatidyl serine in healthy children aged 8 to 12 years: a randomized controlled trial",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41318468/"
+          }
+        ],
+        "status": "yes"
+      },
+      "names": {
+        "commonEn": "phosphatidylserine",
+        "commonZh": "磷脂醯絲胺酸",
+        "scientific": "不適用單一植物學名。成分為磷脂醯絲胺酸，IFF 寫有大豆與葵花來源；TFDA 只對黃豆卵磷脂經酵素反應製得者。",
+        "trade": "Sharp-PS（IFF Health 的磷脂醯絲胺酸商品名；葵花來源款為 Sharp-PS Green）"
+      },
+      "patent": {
+        "note": "IFF 官網寫 exclusive and patented grades，呈定頁寫多項專利，本次沒有打開具體專利號，維持 unknown。",
+        "refs": [],
+        "status": "unknown"
+      },
+      "sources": [
+        {
+          "accessed": "2026-11-11",
+          "channel": "exhibition",
+          "publisher": "展昭國際（亞洲生技大展系列）",
+          "title": "SHARP-PS® Phosphatidylserine (PS) - HEALTHMATE CO., LTD.",
+          "url": "https://www.chanchao.com.tw/healthcos/en/visitorProductDetail.asp?no=215286",
+          "whatItContributes": "展商產品頁：Healthmate 攤位 i1310 展出 SHARP-PS；頁面標題寫 Expo 2027，圖片檔名為 2026。"
+        },
+        {
+          "accessed": "2026-11-11",
+          "channel": "supplier_site",
+          "publisher": "IFF Health Sciences",
+          "title": "Sharp-PS® for Brain Health",
+          "url": "https://www.iff.com/health-sciences/our-products/sharp-ps-for-brain-health/",
+          "whatItContributes": "規格 18–70% PS、粉末與分散液、建議每日 100–300 mg、大豆與葵花來源。"
+        },
+        {
+          "accessed": "2026-11-11",
+          "channel": "industry_report",
+          "publisher": "Nutraceuticals World",
+          "title": "Market Dynamics and Product Trends in Cognitive Support Nutraceuticals",
+          "url": "https://www.nutraceuticalsworld.com/market-dynamics-and-product-trends-in-cognitive-support-nutraceuticals/",
+          "whatItContributes": "2026-10-22 產業報導：認知類補充品 12.3 億美元，PS 下滑 9%。未點名 Sharp-PS。"
+        },
+        {
+          "accessed": "2026-11-11",
+          "channel": "other",
+          "publisher": "大自然生技素材有限公司",
+          "title": "SHARP-PS® 磷脂醯絲胺酸",
+          "url": "https://www.healthmate.com.tw/zh_TW/shop/sharp-ps-11",
+          "whatItContributes": "台灣產品頁：非基改大豆來源、產地西班牙、劑型與試驗用量。"
+        },
+        {
+          "accessed": "2026-11-11",
+          "channel": "other",
+          "publisher": "大自然生技素材有限公司",
+          "title": "首頁",
+          "url": "https://www.healthmate.com.tw/zh_TW",
+          "whatItContributes": "自述為 IFF Health（原 Frutarom Health）等保健原料之台灣代理商。"
+        },
+        {
+          "accessed": "2026-11-11",
+          "channel": "other",
+          "publisher": "呈定企業有限公司",
+          "title": "Sharp-PS® 磷脂醯絲胺酸",
+          "url": "https://www.chending.com.tw/catalog-detail/Sharp-PS/",
+          "whatItContributes": "經銷品牌頁：品牌 IFF、產地以色列、建議 100 mg/day。"
+        },
+        {
+          "accessed": "2026-11-11",
+          "channel": "paper",
+          "publisher": "Nutrition Journal（PubMed）",
+          "title": "PubMed 41318468",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41318468/",
+          "whatItContributes": "Sharp-PS Green 兒童 RCT。"
+        }
+      ],
+      "supply": {
+        "relationship": "taiwan_agent",
+        "relationshipNote": "大自然生技素材（Healthmate）官網首頁自述為 IFF Health（原 Frutarom Health）保健原料之台灣代理商，並有 SHARP-PS 產品頁；2026 展昭展商頁列 Healthmate 攤位 i1310 展出 SHARP-PS。代理屬該公司自述，IFF 官網本次未點名台灣代理。呈定企業產品頁列 Sharp-PS，品牌 IFF，標在「經銷品牌」，記為經銷。產地兩家寫法不同：大自然寫西班牙、呈定寫以色列。查核日 2026-11-11。",
+        "supplierCountry": "以色列（IFF 總部美國）",
+        "supplierName": "IFF Health（原 Frutarom Health）",
+        "taiwanPartyName": "大自然生技素材有限公司；呈定企業有限公司"
+      },
+      "tfda": {
+        "evidenceNotes": "食品原料「磷脂醯絲胺酸」有列名，不是未確認安全性；限黃豆卵磷脂加絲胺酸經酵素反應製得，每日食用限量 500 mg（114 年 7 月 1 日起適用）。商品名與添加物分頁都是 0 筆。葵花來源的 Sharp-PS Green 不符合這個來源定義，只能考慮大豆款。",
+        "lookupDate": "2026-11-11",
+        "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+        "officialCrosscheck": {
+          "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+          "done": true,
+          "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+          "notes": "2026-11-11 開啟官方 MaterialDetail id=17374（HTTP 200），來源定義與每日 500 mg 限量與助手一致。"
+        },
+        "queries": [
+          {
+            "category": "",
+            "keyword": "磷脂醯絲胺酸",
+            "matchedName": "磷脂醯絲胺酸",
+            "note": "唯一一筆。",
+            "restrictionNote": "由黃豆製得之卵磷脂添加絲胺酸後經酵素反應製得；每日食用限量以磷脂醯絲胺酸計 500 毫克（113.07.11 衛授食字第1131301534號，114.07.01 起）。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Phosphatidylserine",
+            "matchedName": "磷脂醯絲胺酸",
+            "note": "同一筆。",
+            "restrictionNote": "",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Sharp",
+            "matchedName": "",
+            "note": "命中的是白鱎魚與益智（未確認安全性），都與本品無關，不採用。",
+            "restrictionNote": "",
+            "resultCount": 2,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "磷脂醯絲胺酸",
+            "matchedName": "",
+            "note": "添加物分頁 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "磷脂醯絲胺酸",
+            "matchedName": "",
+            "note": "助手更新歷程（11/01–11/10）沒有這筆異動。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "history",
+            "unconfirmedSafety": false
+          }
+        ],
+        "usable": "listed_food_ingredient"
       }
     },
     {

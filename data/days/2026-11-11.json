@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-11",
+  "example": false,
+  "title": "2026-11-11 正式日報",
+  "targetCount": 5,
+  "channelsCovered": [
+    "news",
+    "exhibition",
+    "industry_report"
+  ],
+  "notes": "正式五筆。主管道：LC-Plasma、Hyabest 為新聞；Rhodiolife、Sharp-PS 為展覽；GK Heripene 為產業報導。未放入未確認安全性項目。Hyabest 台灣上限每日 80 mg；Sharp-PS 限黃豆來源、每日 500 mg。",
+  "picks": [
+    "lc-plasma",
+    "hyabest",
+    "rhodiolife",
+    "sharp-ps",
+    "gk-heripene"
+  ]
+}

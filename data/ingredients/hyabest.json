@@ -1,0 +1,173 @@
+{
+  "id": "hyabest",
+  "example": false,
+  "names": {
+    "commonZh": "食品用玻尿酸（透明質酸鈉，發酵法）",
+    "commonEn": "sodium hyaluronate (fermentation-derived, food grade)",
+    "trade": "Hyabest（Kewpie 丘比的食品用玻尿酸商品名；口服款 Hyabest (S)LF-P）",
+    "scientific": "不適用植物學名。成分為透明質酸鈉 (C14H20NNaO11)n；Kewpie 頁寫 bio-fermentation，台灣經銷頁以 TFDA 名稱「流行鏈球菌發酵物(含透明質酸鈉)」標示。"
+  },
+  "supply": {
+    "supplierName": "Kewpie Corporation（キユーピー株式会社）",
+    "supplierCountry": "日本",
+    "relationship": "taiwan_agent",
+    "taiwanPartyName": "東翔生技股份有限公司",
+    "relationshipNote": "東翔官網「獨家授權」區列丘比，丘比頁介紹流行鏈球菌發酵物(含透明質酸鈉)，首頁自述與日本原料廠長期合作及代理（該公司自述）。2022-07-27 鳴新聞稿寫 Kewpie 透過總代理制度與東翔合作，並點名 Hyabest。會昌實業品牌原料頁也販售 Hyabest 流行鏈球菌發酵物，未寫代理，記為販售。六和化工與台灣艾比克列的是 Kewpie 化妝品級玻尿酸，不是本品。Kewpie 官網本次未點名台灣代理。查核日 2026-11-11。"
+  },
+  "tfda": {
+    "usable": "listed_food_ingredient",
+    "evidenceNotes": "食品原料「流行鏈球菌發酵物(含透明質酸鈉)」有列名，不是未確認安全性；限不產溶血毒素菌株、透明質酸鈉 87% 以上、每日 80 mg 以下。商品名、玻尿酸與添加物分頁都是 0 筆。Kewpie 頁本次未寫菌種，需向供應商索規格確認；台灣人體試驗用 120 mg，高於台灣上限。",
+    "lookupDate": "2026-11-11",
+    "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+    "queries": [
+      {
+        "tab": "ingredient",
+        "keyword": "透明質酸鈉",
+        "category": "",
+        "resultCount": 2,
+        "matchedName": "流行鏈球菌發酵物(含透明質酸鈉)",
+        "restrictionNote": "不產生溶血毒素之 Streptococcus equi subsp. zooepidemicus 培養後去除菌體；透明質酸鈉 87% 以上；分子量 8.02×10^4 至 4.01×10^6；每日使用量 80 毫克以下（106.7.13 衛授食字第1061300712號）。",
+        "unconfirmedSafety": false,
+        "note": "另一筆是雞冠萃取物(含透明質酸鈉)，每日 80 mg 以下；本品為發酵法，對流行鏈球菌那筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Hyabest",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名 0 筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "玻尿酸",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "俗名 0 筆，官方用透明質酸鈉。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "透明質酸鈉",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "添加物分頁 0 筆。"
+      },
+      {
+        "tab": "history",
+        "keyword": "透明質酸鈉",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "助手更新歷程（11/01–11/10）沒有這筆異動。"
+      }
+    ],
+    "officialCrosscheck": {
+      "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+      "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+      "done": true,
+      "notes": "2026-11-11 開啟官方 MaterialDetail id=17556（HTTP 200），菌種、含量、分子量與每日 80 mg 限量與助手一致。"
+    }
+  },
+  "efficacy": {
+    "claimedBenefits": [
+      "Kewpie 官網宣稱口服 Hyabest (S)LF-P 可改善肌膚乾燥與含水量，並說明腸道菌把玻尿酸分解成寡糖後吸收。這是供應商說法。",
+      "Nutrients 2021（PMID 34203487）：台灣 40 名 35–64 歲成人，每日 120 mg 玻尿酸 12 週，皺紋評分、角質層含水量、經皮水分散失與彈性優於安慰劑；3 名作者為 Kewpie 員工。",
+      "Kewpie 2026-03-12 新聞稿：食品用玻尿酸研究與事業化獲日本農藝化學會 2026 年度技術賞。"
+    ],
+    "suggestedDosage": "論文與 Kewpie 新聞稿的人體試驗用量為每日 120 mg；台灣 TFDA 上限為每日 80 mg 以下。",
+    "dosageNote": "120 mg 是日本與台灣試驗劑量；在台灣作食品須依 TFDA 每日 80 mg 以下。"
+  },
+  "patent": {
+    "status": "unknown",
+    "refs": [],
+    "note": "2022 鳴新聞稿寫專利申請超過四十項，本次沒有打開具體專利號，維持 unknown。台灣 Hyabest 商標註冊 01650880（權利人 Kewpie）專用期限寫至 2024-06-30，是商標不是專利。"
+  },
+  "literature": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "Oral Hyaluronan Relieves Wrinkles and Improves Dry Skin: A 12-Week Double-Blinded, Placebo-Controlled Study",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/34203487/",
+        "note": "Nutrients 2021（PMID 34203487，DOI 10.3390/nu13072220）。Kewpie Hyabest (S)LF-P 頁引用此篇。只核摘要。"
+      }
+    ],
+    "note": "Kewpie 新聞稿另列 2015 J Clin Biochem Nutr 等研究，本次未逐篇開。"
+  },
+  "evidenceLevels": [
+    "animal",
+    "clinical"
+  ],
+  "images": [
+    {
+      "url": "https://www.kewpie.com/en/assets/img/project/finechemical/hyaluronic/hyabest-lf-p/ogimage.jpg",
+      "localPath": "",
+      "caption": "Kewpie Hyabest (S)LF-P 產品頁分享圖。",
+      "source": "official_site"
+    }
+  ],
+  "sources": [
+    {
+      "title": "「食品用ヒアルロン酸」に関する研究と事業化が2026年度農芸化学技術賞を受賞",
+      "url": "https://www.kewpie.com/newsrelease/2026/4018/",
+      "publisher": "Kewpie",
+      "channel": "news",
+      "accessed": "2026-11-11",
+      "whatItContributes": "2026-03-12 新聞稿：獲獎、120 mg/日試驗、腸道菌分解吸收機制，2004 年起以發酵法供應食品用玻尿酸；並引大鼠分布研究。"
+    },
+    {
+      "title": "Hyabest(S)LF-P oral hyaluronic acid dietary supplements",
+      "url": "https://www.kewpie.com/en/finechemical/hyaluronic/hyabest-lf-p.html",
+      "publisher": "Kewpie",
+      "channel": "supplier_site",
+      "accessed": "2026-11-11",
+      "whatItContributes": "原料頁：bio-fermentation、平均分子量 200k–500k、台灣受試者肌膚含水量試驗。"
+    },
+    {
+      "title": "PubMed 34203487",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34203487/",
+      "publisher": "Nutrients（PubMed）",
+      "channel": "paper",
+      "accessed": "2026-11-11",
+      "whatItContributes": "台灣 40 人、120 mg、12 週隨機雙盲試驗。"
+    },
+    {
+      "title": "丘比株式會社",
+      "url": "https://www.toshio-biomed.com.tw/exclusive/%e4%b8%98%e6%af%94%e6%a0%aa%e5%bc%8f%e6%9c%83%e7%a4%be/",
+      "publisher": "東翔生技股份有限公司",
+      "channel": "other",
+      "accessed": "2026-11-11",
+      "whatItContributes": "東翔「獨家授權」區的丘比頁：流行鏈球菌發酵物(含透明質酸鈉)，寫第一家 TFDA 通過、95% 高純度、每批無溶血檢驗。"
+    },
+    {
+      "title": "7/28-7/31 亞洲生技大展-食品級玻尿酸鈉與蛋殼膜領導品牌參展",
+      "url": "https://www.minews.com.tw/2022/07/340/",
+      "publisher": "鳴新聞",
+      "channel": "news",
+      "accessed": "2026-11-11",
+      "whatItContributes": "2022-07-27 稿：Kewpie 透過總代理管理制度與東翔生技合作經營台灣市場，點名 Hyabest。屬參展宣傳稿。"
+    },
+    {
+      "title": "Hyabest® 流行鏈球菌發酵物",
+      "url": "https://www.atp-bio.com/exclusive/atp-exclusive/hyabest-206.html",
+      "publisher": "會昌實業股份有限公司",
+      "channel": "other",
+      "accessed": "2026-11-11",
+      "whatItContributes": "會昌品牌原料頁販售 Hyabest 流行鏈球菌發酵物，未寫代理。"
+    }
+  ],
+  "discovery": {
+    "channel": "news",
+    "scoutDate": "2026-11-11",
+    "notes": "從 Kewpie 2026-03-12 獲獎新聞稿進入，再對 Hyabest (S)LF-P 原料頁與 Nutrients 2021 台灣試驗。台灣關聯以「Hyabest／丘比／Kewpie／玻尿酸／透明質酸鈉／流行鏈球菌發酵物」搭配台灣、代理、總代理、經銷交叉搜尋，打開東翔、會昌、六和化工、艾比克頁面後區分食品級與化妝品級。TFDA 對流行鏈球菌發酵物，注意每日 80 mg。"
+  }
+}

@@ -1,0 +1,185 @@
+{
+  "id": "rhodiolife",
+  "example": false,
+  "names": {
+    "commonZh": "玫瑰紅景天根萃取物",
+    "commonEn": "Rhodiola rosea root extract",
+    "trade": "Rhodiolife（Nektium 的玫瑰紅景天萃取商品名，3% 與 5% 兩種規格）",
+    "scientific": "Rhodiola rosea L.（根）"
+  },
+  "supply": {
+    "supplierName": "Nektium Pharma SL",
+    "supplierCountry": "西班牙",
+    "relationship": "taiwan_distributor",
+    "taiwanPartyName": "漢馨科技有限公司；韋鎮實業有限公司",
+    "relationshipNote": "漢馨官網有 Rhodiolife 產品頁（原廠 Nektium、產地西班牙）與 Nektium 供應商頁；首頁泛稱代理世界頂尖原料，但未逐項寫 Rhodiolife 代理或獨家，記為經銷。韋鎮實業產品頁也販售 Rhodiolife（西班牙原廠），未寫代理。Nektium 官網經銷新聞只點名義、法、日夥伴，本次未見台灣。查核日 2026-11-11。"
+  },
+  "tfda": {
+    "usable": "listed_food_ingredient",
+    "evidenceNotes": "食品原料「紅景天」有列名，學名含 Rhodiola rosea L.，部位根、根莖，分類為供茶包、膳食調理包或萃取後作原料，不是未確認安全性。備註沒有每日限量。商品名 Rhodiolife 與添加物分頁都是 0 筆。",
+    "lookupDate": "2026-11-11",
+    "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+    "queries": [
+      {
+        "tab": "ingredient",
+        "keyword": "紅景天",
+        "category": "",
+        "resultCount": 1,
+        "matchedName": "紅景天",
+        "restrictionNote": "學名 Rhodiola sacra、R. crenulata、R. rosea L.、R. sachalinensis；部位根、根莖；備註空白。",
+        "unconfirmedSafety": false,
+        "note": "本品對 Rhodiola rosea 根。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Rhodiola rosea",
+        "category": "",
+        "resultCount": 1,
+        "matchedName": "紅景天",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "同一筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Rhodiolife",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "紅景天",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "添加物分頁 0 筆。"
+      },
+      {
+        "tab": "history",
+        "keyword": "紅景天",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "助手更新歷程（11/01–11/10）沒有這筆異動。"
+      }
+    ],
+    "officialCrosscheck": {
+      "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+      "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+      "done": true,
+      "notes": "2026-11-11 開啟官方 MaterialDetail id=16794（HTTP 200），學名與部位與助手一致。"
+    }
+  },
+  "efficacy": {
+    "claimedBenefits": [
+      "Nektium 2026-04-08 新聞稿與官網宣稱 Rhodiolife 支持心智能量、紓壓，並改善運動耐力與輸出。這是供應商說法。",
+      "Nektium 引用 Metabolites 2025（PMID 40278391）：96 人 8 週拳擊訓練，紅景天加咖啡因組的出拳爆發力與持續輸出較佳；摘要未寫受試物是否為 Rhodiolife。",
+      "Phytother Res 2014（PMID 23893458）：Rhodiolife 在小鼠肌管細胞上減少過氧化氫造成的存活率下降，並上調 HSP70。"
+    ],
+    "suggestedDosage": "漢馨產品頁：每次 200 mg，每日 1–2 次。Nektium 規格：總洛塞維（rosavins）≥3%、紅景天苷 ≥1%，或 ≥5%、≥1.8%。",
+    "dosageNote": "200 mg 是台灣經銷頁的建議量，不是 TFDA 上限；TFDA 紅景天這筆沒有寫每日限量。"
+  },
+  "patent": {
+    "status": "unknown",
+    "refs": [],
+    "note": "漢馨產品頁專利欄寫「無」；本次沒有另查專利庫，維持 unknown。"
+  },
+  "literature": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "A Rhodiola rosea root extract protects skeletal muscle cells against chemically induced oxidative stress by modulating heat shock protein 70 (HSP70) expression",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/23893458/",
+        "note": "Phytother Res 2014（PMID 23893458）。摘要寫明受試物是 Rhodiolife。細胞試驗。"
+      },
+      {
+        "title": "Combined Effects of Rhodiola Rosea and Caffeine Supplementation on Straight Punch Explosive Power...",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/40278391/",
+        "note": "Metabolites 2025（PMID 40278391）。Nektium 新聞稿引用；摘要只寫 Rhodiola rosea，未寫品牌，不列為本品臨床證據。"
+      }
+    ],
+    "note": "摘要明寫 Rhodiolife 的只有細胞試驗；2025 電競多成分試驗（PMID 41356833）含 Rhodiolife 但為複方，不計入。"
+  },
+  "evidenceLevels": [
+    "cell"
+  ],
+  "images": [
+    {
+      "url": "https://nektium.com/wp-content/uploads/2022/03/rhodiolife-nektium.jpg",
+      "localPath": "",
+      "caption": "Nektium 官網 Rhodiolife 頁的圖。",
+      "source": "official_site"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Next-gen energy: Nektium to present Rhodiolife® coffees and Zynamite® RTDs at Vitafoods 2026",
+      "url": "https://nektium.prezly.com/next-gen-energy-nektium-to-present-rhodiolifer-coffees-and-zynamiter-rtds-at-vitafoods-2026",
+      "publisher": "Nektium",
+      "channel": "exhibition",
+      "accessed": "2026-11-11",
+      "whatItContributes": "2026-04-08 新聞稿：Vitafoods Europe 2026（巴塞隆納 5/5–5/7，攤位 UWA10）展出 Rhodiolife 咖啡概念。"
+    },
+    {
+      "title": "Nektium to Spotlight Rhodiolife Coffee and Zynamite RTD Beverages at Vitafoods Europe",
+      "url": "https://www.nutraceuticalsworld.com/live_from_shows/nektium-to-spotlight-rhodiolife-coffee-and-zynamite-rtd-beverages-at-vitafoods-europe/",
+      "publisher": "Nutraceuticals World",
+      "channel": "exhibition",
+      "accessed": "2026-11-11",
+      "whatItContributes": "2026-04-08 展會報導，交叉確認攤位與展出內容。"
+    },
+    {
+      "title": "Rhodiolife®",
+      "url": "https://nektium.com/rhodiolife/",
+      "publisher": "Nektium",
+      "channel": "supplier_site",
+      "accessed": "2026-11-11",
+      "whatItContributes": "原料規格（3%、5%）、根部來源、DNA 條碼與 UHPLC 鑑別、自我認定 GRAS。"
+    },
+    {
+      "title": "Rhodiolife 紅景天萃取物",
+      "url": "https://www.hansient.com.tw/product/rhodiolife-%e7%b4%85%e6%99%af%e5%a4%a9%e8%90%83%e5%8f%96%e7%89%a9/",
+      "publisher": "漢馨科技有限公司",
+      "channel": "other",
+      "accessed": "2026-11-11",
+      "whatItContributes": "台灣產品頁：原廠 Nektium、產地西班牙、200 mg 每日 1–2 次、專利欄寫無。"
+    },
+    {
+      "title": "Nektium",
+      "url": "https://www.hansient.com.tw/supplier/nektium/",
+      "publisher": "漢馨科技有限公司",
+      "channel": "other",
+      "accessed": "2026-11-11",
+      "whatItContributes": "漢馨供應商頁列 Nektium 與 Rhodiolife。"
+    },
+    {
+      "title": "Rhodiolife® 紅景天",
+      "url": "https://www.phfcorp.com.tw/page/product/show.aspx?kind=87&num=176&page=2",
+      "publisher": "韋鎮實業有限公司",
+      "channel": "other",
+      "accessed": "2026-11-11",
+      "whatItContributes": "台灣產品頁販售 Rhodiolife，原廠西班牙，應用保健食品。"
+    },
+    {
+      "title": "PubMed 23893458",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23893458/",
+      "publisher": "Phytotherapy Research（PubMed）",
+      "channel": "paper",
+      "accessed": "2026-11-11",
+      "whatItContributes": "摘要明寫 Rhodiolife 的細胞試驗。"
+    }
+  ],
+  "discovery": {
+    "channel": "exhibition",
+    "scoutDate": "2026-11-11",
+    "notes": "從 Vitafoods Europe 2026 Nektium 展前新聞稿進入，以 Nutraceuticals World 展會報導交叉，再對 Nektium 規格頁與 PubMed。台灣關聯以「Rhodiolife／紅景天／Rhodiola rosea／Nektium」搭配台灣、代理、經銷、distributor 交叉搜尋，打開漢馨與韋鎮產品頁及 Nektium 經銷新聞。TFDA 對紅景天根。"
+  }
+}

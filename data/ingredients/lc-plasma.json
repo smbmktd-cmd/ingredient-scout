@@ -1,0 +1,183 @@
+{
+  "id": "lc-plasma",
+  "example": false,
+  "names": {
+    "commonZh": "熱處理乳酸乳球菌 Plasma 株（後生元）",
+    "commonEn": "heat-killed Lactococcus lactis strain Plasma",
+    "trade": "LC-Plasma（Kirin／協和發酵生化的乳酸菌商品名，美國保健原料品牌名 IMMUSE）",
+    "scientific": "Lactococcus lactis subsp. lactis JCM 5805（Plasma 株），熱處理菌體。"
+  },
+  "supply": {
+    "supplierName": "Kirin Holdings（原料由集團內 Kyowa Hakko Bio 協和發酵生化對外供應）",
+    "supplierCountry": "日本",
+    "relationship": "taiwan_distributor",
+    "taiwanPartyName": "正豐貿易股份有限公司",
+    "relationshipNote": "正豐官網 2024-07-01 文章自述「正豐引進 IMMUSE®」供生技業者，並列食品原料部門電話；頁面未寫代理或獨家，故記經銷／引進，屬該公司自述。成品端另有台灣麒麟 iMUSE 乳酸菌檸檬水與澳佳寶台灣 LC-Plasma 粉末，這是成品販售，不是原料代理。Kirin 與協和官網本次未點名台灣原料代理。查核日 2026-11-11。"
+  },
+  "tfda": {
+    "usable": "listed_food_ingredient",
+    "evidenceNotes": "食品原料「乳酸菌」有 Lactococcus lactis subsp. lactis（菌體）一筆，備註可供為食品原料或食品加工使用，不是未確認安全性。商品名 LC-Plasma、IMMUSE 與添加物分頁都是 0 筆。台灣成品標示為經熱處理乳酸菌粉末；菌株亞種依論文寫 subsp. lactis。",
+    "lookupDate": "2026-11-11",
+    "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+    "queries": [
+      {
+        "tab": "ingredient",
+        "keyword": "Lactococcus lactis subsp. lactis",
+        "category": "",
+        "resultCount": 3,
+        "matchedName": "乳酸菌",
+        "restrictionNote": "學名 Lactococcus lactis subsp. lactis，部位菌體，備註：可供為食品原料或食品加工使用。",
+        "unconfirmedSafety": false,
+        "note": "3 筆含 biovar diacetylactis 等近似學名；本品對 subsp. lactis 那一筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "LC-Plasma",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名 0 筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "乳酸乳球菌",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "中文別名 0 筆，官方中文名是「乳酸菌」。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "乳酸菌",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "添加物分頁 0 筆。"
+      },
+      {
+        "tab": "history",
+        "keyword": "乳酸菌",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "助手更新歷程（11/01–11/10）沒有這筆異動。"
+      }
+    ],
+    "officialCrosscheck": {
+      "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+      "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+      "done": true,
+      "notes": "2026-11-11 開啟官方 MaterialDetail id=17540（HTTP 200），學名、部位、備註與查詢助手一致。"
+    }
+  },
+  "efficacy": {
+    "claimedBenefits": [
+      "Kirin／協和官網宣稱 LC-Plasma 可直接活化漿細胞樣樹突狀細胞（pDC），進而帶動 NK、殺手 T、B 與輔助 T 細胞，提供全面免疫支持。這是供應商說法。",
+      "Front Immunol 2025 個別受試者資料統合分析（PMID 41280892，8 篇 RCT、619 人）：攝取期間 pDC 活化指標維持較佳，咳嗽與發熱感的累積天數少於安慰劑。作者多為 Kirin 員工。",
+      "NutraIngredients 2026-07-29：Kirin 把 LC-Plasma 延伸到運動與活躍生活取向飲品，並引用長跑選手兩週 RCT 的運動後疲勞感較低。"
+    ],
+    "suggestedDosage": "協和繁中製造商頁：建議每日 50 mg，約 1000 億個菌體；安全性試驗做到每日 250 mg。台灣麒麟檸檬水每瓶 500 ml 含 1000 億個。",
+    "dosageNote": "以上是供應商建議量與成品含量，不是台灣法規上限；TFDA 乳酸菌這筆沒有每日用量限制。"
+  },
+  "patent": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "JP6598824B2 - Interferon production inducer containing lactic acid bacteria",
+        "url": "https://patents.google.com/patent/JP6598824B2/en",
+        "note": "Kirin 2025-03-05 新聞稿註明 LC-Plasma 用途在日本取得專利 JP 6598824；Google Patents 頁顯示權利人 Kirin Holdings Co Ltd。未核權利範圍細節。"
+      }
+    ],
+    "note": "只核到日本專利一件，其他國家未查。"
+  },
+  "literature": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "Lactococcus lactis strain Plasma activates plasmacytoid dendritic cells and mitigates common cold-like symptoms in healthy adults: a meta-analysis of individual participant data",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41280892/",
+        "note": "Front Immunol 2025（PMID 41280892，DOI 10.3389/fimmu.2025.1696989）。只核摘要。"
+      },
+      {
+        "title": "Effects of dietary Lactobacillus rhamnosus JCM1136 and Lactococcus lactis subsp. lactis JCM5805 on ... juvenile Nile tilapia",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/29550602/",
+        "note": "Fish Shellfish Immunol 2018（PMID 29550602）。只用來對 JCM5805 的亞種寫法，不作人體功效證據。"
+      }
+    ],
+    "note": "人體證據以 Kirin 參與的統合分析為主。"
+  },
+  "evidenceLevels": [
+    "clinical"
+  ],
+  "images": [
+    {
+      "url": "https://lc-plasma.com/storage/app/media/uploaded-files/immuse-linkedin-social-share-image.jpg",
+      "localPath": "",
+      "caption": "LC-Plasma 官網分享圖（IMMUSE 品牌），不是原料包裝照。",
+      "source": "official_site"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Kirin expands immune support postbiotics’ use into active lifestyle nutrition",
+      "url": "https://www.nutraingredients.com/Article/2026/07/29/kirin-expands-immune-support-postbiotics-use-into-active-lifestyle-nutrition/",
+      "publisher": "NutraIngredients",
+      "channel": "news",
+      "accessed": "2026-11-11",
+      "whatItContributes": "2026-07-29 新聞：LC-Plasma 延伸到活躍生活營養，並寫產品已進入越南、台灣、新加坡。"
+    },
+    {
+      "title": "對於製造商",
+      "url": "https://lc-plasma.com/zh-tw/for-manufacturers",
+      "publisher": "LC-Plasma 官網（協和發酵生化）",
+      "channel": "supplier_site",
+      "accessed": "2026-11-11",
+      "whatItContributes": "繁中製造商頁：熱處理後生元、每日 50 mg 或 1000 億個、250 mg 安全性試驗、美國 GRAS 自我認證。"
+    },
+    {
+      "title": "Kirin and Blackmores Team Up To Release LC-Plasma in Taiwan",
+      "url": "https://www.kirinholdings.com/en/newsroom/release/2025/0305_01.html",
+      "publisher": "Kirin Holdings",
+      "channel": "news",
+      "accessed": "2026-11-11",
+      "whatItContributes": "2025-03-05：LC-Plasma 首次在台灣販售（澳佳寶粉末），並註明日本專利 JP 6598824。"
+    },
+    {
+      "title": "KIRIN iMUSE-乳酸菌檸檬水 500ml",
+      "url": "https://www.kirin.com.tw/products-detail.php?id=388",
+      "publisher": "台灣麒麟",
+      "channel": "other",
+      "accessed": "2026-11-11",
+      "whatItContributes": "台灣成品：每瓶含 1000 億個 Plasma 乳酸菌，備註為經熱處理之乳酸菌粉末。成品販售，不是原料代理。"
+    },
+    {
+      "title": "KYOWA IMMUSE®專利乳酸菌創新全面免疫提升機制",
+      "url": "https://www.hermosa-lynnbros.com.tw/kyowa_immuse/",
+      "publisher": "正豐貿易股份有限公司",
+      "channel": "other",
+      "accessed": "2026-11-11",
+      "whatItContributes": "2024-07-01 正豐自述引進 IMMUSE®（LC-Plasma）供生技業者，頁尾列食品原料部門。"
+    },
+    {
+      "title": "PubMed 41280892",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41280892/",
+      "publisher": "Frontiers in Immunology（PubMed）",
+      "channel": "paper",
+      "accessed": "2026-11-11",
+      "whatItContributes": "8 篇 RCT 的統合分析摘要。"
+    }
+  ],
+  "discovery": {
+    "channel": "news",
+    "scoutDate": "2026-11-11",
+    "notes": "從 NutraIngredients 2026-07-29 Kirin 新聞進入，再對 LC-Plasma 繁中製造商頁、Kirin 2025 台灣上市新聞稿與日本專利、PubMed 統合分析。台灣關聯以「LC-Plasma／IMMUSE／乳酸乳球菌 Plasma／協和發酵」搭配台灣、代理、經銷交叉搜尋，打開正豐產品頁；台灣麒麟與澳佳寶只記成品。TFDA 對 Lactococcus lactis subsp. lactis。"
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "id": "gk-heripene",
+  "example": false,
+  "names": {
+    "commonZh": "猴頭菇菌絲體（富含猴頭菇素 A）",
+    "commonEn": "erinacine A-enriched lion's mane (Hericium erinaceus) mycelium",
+    "trade": "GK Heripene（葡萄王生技的猴頭菇菌絲體原料商品名；北美由 Nammex 以 ErinaPrime 推出加倍濃度款）",
+    "scientific": "Hericium erinaceus（Bull. ex Fr.）Pers.（液態發酵菌絲體）"
+  },
+  "supply": {
+    "supplierName": "葡萄王生技股份有限公司（Grape King Bio）",
+    "supplierCountry": "台灣",
+    "relationship": "supplier_is_taiwan",
+    "taiwanPartyName": "葡萄王生技股份有限公司",
+    "relationshipNote": "SNQ 認證頁寫製造廠為葡萄王生技股份有限公司；NutraIngredients 2026-06-04 寫 ErinaPrime 原料由葡萄王在台灣工廠生產，Novelara 為葡萄王北美獨家經銷。台灣國內另有代理或經銷本次未見，原料洽詢走葡萄王。查核日 2026-11-11。"
+  },
+  "tfda": {
+    "usable": "listed_food_ingredient",
+    "evidenceNotes": "食品原料「猴頭菇」有列名，學名 Hericium erinaceus，部位子實體、菌絲體，備註空白，不是未確認安全性。商品名 Heripene、ErinaPrime 與添加物分頁都是 0 筆。猴頭菇素 A 純化物沒有單獨列名，本筆只對菌絲體原料。",
+    "lookupDate": "2026-11-11",
+    "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+    "queries": [
+      {
+        "tab": "ingredient",
+        "keyword": "猴頭菇",
+        "category": "",
+        "resultCount": 1,
+        "matchedName": "猴頭菇",
+        "restrictionNote": "學名 Hericium erinaceus（Bull.ex Fr.）Pers.；部位子實體、菌絲體；備註空白。",
+        "unconfirmedSafety": false,
+        "note": "本品為菌絲體。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Hericium erinaceus",
+        "category": "",
+        "resultCount": 1,
+        "matchedName": "猴頭菇",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "同一筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Heripene",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名 0 筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "ErinaPrime",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "北美商品名 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "猴頭菇",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "添加物分頁 0 筆。"
+      },
+      {
+        "tab": "history",
+        "keyword": "猴頭菇",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "助手更新歷程（11/01–11/10）沒有這筆異動。"
+      }
+    ],
+    "officialCrosscheck": {
+      "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+      "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+      "done": true,
+      "notes": "2026-11-11 開啟官方 MaterialDetail id=17450（HTTP 200），學名與部位含菌絲體，與助手一致。"
+    }
+  },
+  "efficacy": {
+    "claimedBenefits": [
+      "葡萄王（SNQ 頁）宣稱菌絲體含猴頭菇素 A，可促進神經生長因子分泌；SNQ 標章核可文字為動物試驗中有助降低肝損傷指標與延緩肝纖維化。",
+      "Front Aging Neurosci 2020（PMID 32581767，葡萄王參與）：輕度阿茲海默症患者每日 3 顆 350 mg 菌絲體膠囊（猴頭菇素 A 5 mg/g）49 週，MMSE 改善、IADL 組間有差異。",
+      "NutraIngredients 2024-10-08：GK Heripene 獲 2024 NutraIngredients-Asia 年度認知原料獎；另一項 8 個月試驗以每日 2000 mg 菌絲體觀察老年聽損。"
+    ],
+    "suggestedDosage": "沒有官方單一建議量。臨床試驗用每日 3 顆 350 mg（約 1050 mg，含猴頭菇素 A 5 mg/g）；聽損試驗用每日 2000 mg。",
+    "dosageNote": "以上是人體試驗劑量，不是台灣上限；TFDA 猴頭菇這筆沒有每日限量。"
+  },
+  "patent": {
+    "status": "unknown",
+    "refs": [],
+    "note": "SNQ 頁寫已取得 16 件專利，本次沒有打開具體專利號，維持 unknown。"
+  },
+  "literature": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "Prevention of Early Alzheimer's Disease by Erinacine A-Enriched Hericium erinaceus Mycelia Pilot Double-Blind Placebo-Controlled Study",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/32581767/",
+        "note": "Front Aging Neurosci 2020（PMID 32581767，NCT04065061）。作者含葡萄王生技研究所。只核摘要。"
+      }
+    ],
+    "note": "SNQ 頁列 38 篇論文，含大鼠 28 天、13 週毒性與基因毒性研究；本次只開臨床摘要。"
+  },
+  "evidenceLevels": [
+    "cell",
+    "animal",
+    "clinical"
+  ],
+  "images": [
+    {
+      "url": "https://www.nutraingredients.com/resizer/v2/ZIRQYGMKBZNU5E6IV3LKHUXEKU.png?auth=40e70d9f618ea894f258c2409af4625163bcd20471d4cc98cd44a4cf4cdcad35&width=1200&height=630&smart=true",
+      "localPath": "",
+      "caption": "NutraIngredients 報導用圖，圖說為含 GK Heripene 的 GKB 猴頭菇 400mg 成品（© Grape King Bio）。非原料包裝照。",
+      "source": "other"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Market Dynamics and Product Trends in Cognitive Support Nutraceuticals",
+      "url": "https://www.nutraceuticalsworld.com/market-dynamics-and-product-trends-in-cognitive-support-nutraceuticals/",
+      "publisher": "Nutraceuticals World",
+      "channel": "industry_report",
+      "accessed": "2026-11-11",
+      "whatItContributes": "2026-10-22 產業報導：猴頭菇在認知類成長 8%，菇類在飲品、軟糖等劑型擴張。未點名葡萄王。"
+    },
+    {
+      "title": "Nammex introduces ErinaPrime lion’s mane mycelium powder",
+      "url": "https://www.nutraingredients.com/Article/2026/06/04/nammex-introduces-erinaprime-lions-mane-mycelium-powder/",
+      "publisher": "NutraIngredients",
+      "channel": "news",
+      "accessed": "2026-11-11",
+      "whatItContributes": "2026-06-04：ErinaPrime 原料由葡萄王在台灣液態發酵生產，為 GK Heripene 的加倍猴頭菇素 A 版本；Novelara 為北美獨家經銷。"
+    },
+    {
+      "title": "Grape King Bio drives research on cognitive benefits of award-winning mushroom ingredient",
+      "url": "https://www.nutraingredients.com/Article/2024/10/08/grape-king-bio-to-further-study-cognitive-benefits-of-award-winning-mushroom-ingredient/",
+      "publisher": "NutraIngredients",
+      "channel": "news",
+      "accessed": "2026-11-11",
+      "whatItContributes": "2024 年獲獎、猴頭菇素 A 5 mg/g、兩項人體試驗劑量。"
+    },
+    {
+      "title": "猴頭菇菌絲體粉",
+      "url": "https://www.snq.org.tw/zh/certification/products-and-service/hericium-erinaceus-mycelium-powder-822",
+      "publisher": "SNQ 國家品質標章",
+      "channel": "other",
+      "accessed": "2026-11-11",
+      "whatItContributes": "製造廠葡萄王生技、猴頭素 A 5 mg/g 以上、16 件專利、38 篇論文清單。"
+    },
+    {
+      "title": "PubMed 32581767",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32581767/",
+      "publisher": "Frontiers in Aging Neuroscience（PubMed）",
+      "channel": "paper",
+      "accessed": "2026-11-11",
+      "whatItContributes": "49 週輕度阿茲海默症試驗摘要。"
+    }
+  ],
+  "discovery": {
+    "channel": "industry_report",
+    "scoutDate": "2026-11-11",
+    "notes": "從 Nutraceuticals World 2026-10-22 認知類產業報導的猴頭菇成長數據進入，追到 NutraIngredients 2026-06-04 ErinaPrime 新聞，確認原料為台灣葡萄王 GK Heripene，再對 SNQ 頁與 PubMed。台灣關聯以「GK Heripene／ErinaPrime／猴頭菇菌絲體／Hericium erinaceus mycelium／葡萄王」搭配台灣、代理、經銷交叉搜尋，供應商本身在台灣。TFDA 對猴頭菇菌絲體。"
+  }
+}

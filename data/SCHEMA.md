@@ -17,8 +17,8 @@
 | `supply.supplierName` | 是 | 供應商名稱。 |
 | `supply.supplierCountry` | 是 | 供應商國家。 |
 | `supply.relationship` | 是 | `direct` 直接對台、`taiwan_agent` 台灣代理、`taiwan_distributor` 台灣經銷、`supplier_is_taiwan` 供應商在台灣、`unknown` 尚未確認。 |
-| `supply.taiwanPartyName` | 是 | 台灣關聯廠商名稱。代理、經銷或目錄上看得到的合作都寫名稱。關係代碼是代理或經銷時不可空白。真的查無才寫「查無」。 |
-| `supply.relationshipNote` | 是 | 來源之間是否一致、還缺什麼證明。 |
+| `supply.taiwanPartyName` | 是 | 台灣關聯廠商名稱。代理、經銷或目錄上看得到的合作都寫名稱。關係代碼是代理或經銷時不可空白。查詢沒做完或頁面打不開寫「待確認」，關係維持 `unknown`。只有查完商品名與中英文成分名，並搭配 Taiwan、台灣、代理、經銷、distributor，且已打開公司產品或代理頁、發布前再獨立複查，才寫「本次查無」，並在 `relationshipNote` 留下範圍與日期。沒有代理契約，不能把已寫明的公開關係改成查無。成品使用與原料代理、經銷分開記。 |
+| `supply.relationshipNote` | 是 | 來源之間是否一致、還缺什麼證明。寫「本次查無」時要含查過的範圍與日期。 |
 | `tfda.usable` | 是 | 見下方狀態。 |
 | `tfda.evidenceNotes` | 是 | 給投票的人看的短註記：查了什麼、結果是什麼、還有什麼限制。 |
 | `tfda.lookupDate` | 是 | `YYYY-MM-DD`。 |

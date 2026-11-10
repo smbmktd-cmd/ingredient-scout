@@ -10,9 +10,9 @@
   "supply": {
     "supplierName": "Kerry Group",
     "supplierCountry": "愛爾蘭",
-    "relationship": "unknown",
-    "taiwanPartyName": "查無",
-    "relationshipNote": "加拿大商標 WELLMUNE（申請號 1358147）現有權人是 Kerry Group Services International Limited（Tralee）。悠活原力成品成分表把酵母 β-葡聚醣寫成 Kerry Wellmune，那是配方揭露，不是原料代理頁，所以台灣關聯廠商填查無。"
+    "relationship": "taiwan_agent",
+    "taiwanPartyName": "統園企業股份有限公司",
+    "relationshipNote": "統園官網自述台灣獨家代理；2013 Biothera 公告曾列台灣獨家經銷；現任 Kerry 官網本次未交叉點名。"
   },
   "tfda": {
     "usable": "listed_food_ingredient",
@@ -142,12 +142,44 @@
       "publisher": "悠活原力",
       "channel": "other",
       "accessed": "2026-11-10",
-      "whatItContributes": "台灣成品成分表出現 Kerry Wellmune。未見代理契約，不當成原料經銷。"
+      "whatItContributes": "台灣成品成分表出現 Kerry Wellmune。這是配方揭露，不是原料代理或經銷頁。"
+    },
+    {
+      "title": "衛冕力 Wellmune 產品頁",
+      "url": "https://www.tyig.com.tw/web/product/product_in.jsp?pdid=PD1587109320605&dm_no=DM1585834353649&sub_no=DM1586313334056&lang=tw",
+      "publisher": "統園企業股份有限公司",
+      "channel": "other",
+      "accessed": "2026-11-10",
+      "whatItContributes": "統園官網自述：統園公司是衛冕力 Wellmune 酵母 Beta-葡聚醣在台灣的獨家代理商。"
+    },
+    {
+      "title": "統園獨家代理 Wellmune 獲 2020 亞洲年度最佳原料",
+      "url": "https://www.tyig.com.tw/web/news/news_in.jsp?lang=tw&np_no=NP1601372219081",
+      "publisher": "統園企業股份有限公司",
+      "channel": "news",
+      "accessed": "2026-11-10",
+      "whatItContributes": "2020-09-29 新聞寫統園獨家代理 Wellmune 聚葡萄糖。"
+    },
+    {
+      "title": "Biothera Names Taiwan Distributor",
+      "url": "https://www.supplysidesj.com/healthy-living/biothera-names-taiwan-distributor",
+      "publisher": "SupplySide Supplement Journal",
+      "channel": "news",
+      "accessed": "2026-11-10",
+      "whatItContributes": "2013-04-23 Biothera 公告將 Toong Yeuan Enterprise Co. Ltd. 列為免疫原料的台灣獨家經銷，並點名 Wellmune WGP。這是當時公告，不是現任 Kerry 獨家確認。"
+    },
+    {
+      "title": "Immune Health",
+      "url": "https://supplements.kerry.com/proactive-health/immune-health/",
+      "publisher": "Kerry",
+      "channel": "supplier_site",
+      "accessed": "2026-11-10",
+      "whatItContributes": "現任 Kerry 保健原料站列出 Wellmune，頁上沒有點名台灣代理或經銷。本次未把獨家代理寫成 Kerry 已確認。"
     }
   ],
   "discovery": {
     "channel": "news",
     "scoutDate": "2026-11-10",
-    "notes": "從 NutraIngredients 2026-04-14 的 Kerry 付費稿進入 Wellmune，再對 Kerry 研究頁、PubMed 39846553 與加拿大商標。TFDA 只對到微生物來源的 β-聚葡萄糖，沒有商品名列名。"
+    "notes": "從 NutraIngredients 2026-04-14 的 Kerry 付費稿進入 Wellmune，再對 Kerry 研究頁、PubMed 39846553 與加拿大商標。台灣關聯廠商記統園企業股份有限公司：統園產品頁與 2020-09-29 新聞自述獨家代理，2013 Biothera 公告列 Toong Yeuan 為台灣獨家經銷。悠活原力頁只記成品成分。現任 Kerry 官網本次未交叉點名。TFDA 只對到微生物來源的 β-聚葡萄糖，沒有商品名列名。"
   }
 }

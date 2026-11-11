@@ -1,0 +1,194 @@
+{
+  "id": "levagen-plus",
+  "example": false,
+  "names": {
+    "commonZh": "棕櫚醯乙醇胺（冷水分散型）",
+    "commonEn": "palmitoylethanolamide (cold-water dispersible)",
+    "trade": "Levagen+（Saanroo／Gencor 的 PEA 商品名，搭配 Pharmako 的 LipiSperse）",
+    "scientific": "不適用植物學名。PEA 是內源性脂肪酸醯胺。Saanroo 原料頁寫粉末為 90% PEA 與 10% LipiSperse，PEA 本體在印度合成。"
+  },
+  "supply": {
+    "supplierName": "Saanroo（Nutrition Insight 2026-11-05 寫 Gencor，now Saanroo；2024 年論文署名 Gencor Pacific Limited）",
+    "supplierCountry": "香港",
+    "relationship": "unknown",
+    "taiwanPartyName": "本次查無台灣關聯廠商",
+    "relationshipNote": "2026-11-12 以 Levagen、Levagen+、palmitoylethanolamide、PEA、棕櫚醯乙醇胺、Gencor、Saanroo、Pharmako、LipiSperse 搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商交叉查詢。生資原料總表與 HydroCurc 頁、和聚的 Testofen 頁都沒有 Levagen，同集團其他商品不算這個商品名的代理。發布前再打開卓昇的 Palmitoylethanolamide 目錄（研究用試劑 B6485）與科羅耐的 10 mg 試劑頁，兩頁都沒有 Levagen，是同一化合物的研究用試劑，不是食品原料經銷。2019-05-29 NutraIngredients 只寫與台灣產業夥伴討論、沒有公司名。查核日 2026-11-12。Saanroo 登記國未另核到，論文地址在香港大嶼山，供應商國家先記香港。"
+  },
+  "tfda": {
+    "usable": "not_found",
+    "evidenceNotes": "2026-11-12 原料與添加物查 Levagen、palmitoylethanolamide、棕櫚醯乙醇胺皆 0 筆，官方開放資料 InfoId 4 與 61 同樣 0 筆。不是「未確認安全性」分類。not_found 只表示這次沒查到，不是准用，也不是禁用。",
+    "lookupDate": "2026-11-12",
+    "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+    "queries": [
+      {
+        "tab": "ingredient",
+        "keyword": "palmitoylethanolamide",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "化合物英文名 0 筆。開放資料 InfoId 4 同樣 0 筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "棕櫚醯乙醇胺",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "中文名 0 筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Levagen",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "palmitoylethanolamide",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "添加物分頁 0 筆。開放資料 InfoId 61 同樣 0 筆。短字 PEA 會命中無關英文，未拿來當筆數。"
+      },
+      {
+        "tab": "history",
+        "keyword": "Levagen",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "助手更新歷程（11/01–11/11）沒有這筆異動。"
+      }
+    ],
+    "officialCrosscheck": {
+      "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+      "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+      "done": false,
+      "notes": "2026-11-12 消費者專區連線失敗。官方開放資料 InfoId 4 與 61 查 Levagen、palmitoylethanolamide、棕櫚醯乙醇胺皆 0 筆。"
+    }
+  },
+  "efficacy": {
+    "claimedBenefits": [
+      "Nutrition Insight 2026-11-05 訪問 Saanroo：Levagen+ 是可分散的棕櫚醯乙醇胺。文中寫 2024 年交叉試驗每日 700 mg、六週、39 人完成，循環 BDNF 上升，配對聯想測驗錯誤減少。研究由供應商資助。",
+      "同一篇論文的方法段寫每日兩粒、每粒 350 mg（其中 300 mg PEA、50 mg 賦形），合計 PEA 600 mg，與摘要的 700 mg 不一致。這裡兩句都留下。",
+      "Saanroo 原料頁寫 LipiSperse 使 PEA 冷水可分散，並寫相對未配方 PEA 的生體可用率為 1.75 倍。這是供應商說法。"
+    ],
+    "suggestedDosage": "2024 年認知試驗摘要寫每日 700 mg Levagen+；方法段寫每日 PEA 600 mg。Saanroo 頁寫粉末組成 90% PEA、10% LipiSperse。Pharmako 頁另寫關節研究用每日 300 mg 與 600 mg。",
+    "dosageNote": "以上是論文與供應商頁的劑量，論文摘要與方法不一致。不是台灣法規上限。"
+  },
+  "patent": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "Pharmako patent approval for delivery system technology",
+        "url": "https://www.nutraingredients.com/Article/2018/11/28/Pharmako-patent-approval-for-delivery-system-technology-opens-doors-for-NPD-and-new-partnerships/",
+        "note": "2018-11-28：NutraIngredients 寫 LipiSperse 已獲 WIPO 專利核准，並用於 Levagen+。這次沒有打開專利號全文。"
+      }
+    ],
+    "note": "Pharmako 的 Levagen 頁寫使用專利 LipiSperse。專利號本次未核到。"
+  },
+  "literature": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "Formulated Palmitoylethanolamide Supplementation Improves Parameters of Cognitive Function and BDNF Levels in Young, Healthy Adults: A Randomised Cross-Over Trial",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10891801/",
+        "note": "Nutrients 相關全文頁（PMC10891801）。39 人完成、六週交叉。摘要寫 700 mg/day，方法段寫每日 600 mg PEA。"
+      }
+    ],
+    "note": "已打開這一篇。供應商稱還有其他臨床，這次沒有逐篇打開。"
+  },
+  "evidenceLevels": [
+    "clinical"
+  ],
+  "images": [
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/5f311e5e1b5ab209909db68c/3dc23730-e5b2-4417-8f8c-6908714f7b0e/LEVAGEN+LOGO+CS5+PLUS+(1).png",
+      "localPath": "",
+      "caption": "Pharmako 官網 Levagen+ 標誌，不是粉末照片。",
+      "source": "official_site"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Brain health supplements expand into digital overload and menopause brain fog",
+      "url": "https://www.nutritioninsight.com/news/brain-health-supplements-kemin-balchem-saanroo-probi.html",
+      "publisher": "Nutrition Insight",
+      "channel": "industry_report",
+      "accessed": "2026-11-12",
+      "whatItContributes": "2026-11-05 產業訪談：Saanroo 的 Levagen+、每日 700 mg 認知試驗與 BDNF。"
+    },
+    {
+      "title": "Levagen+",
+      "url": "https://www.saanroo.com/ingredients/levagen",
+      "publisher": "Saanroo",
+      "channel": "supplier_site",
+      "accessed": "2026-11-12",
+      "whatItContributes": "90% PEA、10% LipiSperse；PEA 在印度合成；寫生體可用率 1.75 倍。"
+    },
+    {
+      "title": "Levagen+ — Pharmako Biotechnologies",
+      "url": "https://www.pharmako.com.au/levagen",
+      "publisher": "Pharmako Biotechnologies",
+      "channel": "supplier_site",
+      "accessed": "2026-11-12",
+      "whatItContributes": "澳洲頁：冷水可分散 PEA，關節研究寫每日 300 mg 與 600 mg，並寫 LipiSperse 為專利技術。"
+    },
+    {
+      "title": "PMC10891801",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10891801/",
+      "publisher": "PMC",
+      "channel": "paper",
+      "accessed": "2026-11-12",
+      "whatItContributes": "年輕成人交叉試驗。摘要與方法的劑量寫法不同，論文署名 Gencor Pacific Limited。"
+    },
+    {
+      "title": "生資原料列表與 HydroCurc 頁",
+      "url": "https://www.nutrisense.com.tw/all-ingredients/",
+      "publisher": "生資有限公司",
+      "channel": "other",
+      "accessed": "2026-11-12",
+      "whatItContributes": "台灣原料目錄打開後沒有 Levagen。同站 HydroCurc 頁是另一個商品名。"
+    },
+    {
+      "title": "Osteoarthritis opportunity: Gencor eyes South East Asia and Taiwan",
+      "url": "https://www.nutraingredients.com/Article/2019/05/29/Osteoarthritis-opportunity-Gencor-eyes-South-East-Asia-and-Taiwan-after-Levagen-study-boost/",
+      "publisher": "NutraIngredients",
+      "channel": "news",
+      "accessed": "2026-11-12",
+      "whatItContributes": "2019-05-29：Gencor 說與台灣產業夥伴討論，沒有指出公司名稱。"
+    },
+    {
+      "title": "Palmitoylethanolamide 試劑目錄",
+      "url": "https://www.interlabbiotech.com/wp/product-name/palmitoylethanolamide",
+      "publisher": "卓昇有限公司",
+      "channel": "other",
+      "accessed": "2026-11-12",
+      "whatItContributes": "台灣科學研究供應商的 PEA 試劑型號，頁面沒有 Levagen。"
+    },
+    {
+      "title": "科羅耐 Palmitoylethanolamide 10 mg",
+      "url": "http://www.kelowna.com.tw/pdtView.php?pid=561095",
+      "publisher": "科羅耐國際科技有限公司",
+      "channel": "other",
+      "accessed": "2026-11-12",
+      "whatItContributes": "研究用試劑 10 mg，不是 Levagen 食品原料。"
+    }
+  ],
+  "discovery": {
+    "channel": "industry_report",
+    "scoutDate": "2026-11-12",
+    "notes": "從 Nutrition Insight 2026-11-05 腦健康產業訪談進入，再對 Saanroo 與 Pharmako 產品頁、PMC10891801，以及 2018 年 LipiSperse 專利新聞。台灣關聯打開生資總表、HydroCurc 頁與和聚 Testofen 頁，確認同集團其他商品沒有寫 Levagen。"
+  }
+}

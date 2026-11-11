@@ -1,0 +1,193 @@
+{
+  "id": "cognizin",
+  "example": false,
+  "names": {
+    "commonZh": "胞磷膽鹼（胞苷二磷酸膽鹼）",
+    "commonEn": "citicoline (CDP-choline)",
+    "trade": "Cognizin（Kyowa Hakko Bio 的胞磷膽鹼商品名）",
+    "scientific": "不適用植物學名。化合物為 cytidine 5'-diphosphocholine。協和產品頁寫 CAS 987-78-0、含量不低於 98.0%，由發酵製程生產。"
+  },
+  "supply": {
+    "supplierName": "Kyowa Hakko Bio Co., Ltd.",
+    "supplierCountry": "日本",
+    "relationship": "unknown",
+    "taiwanPartyName": "heal.com.tw（頁面自稱希爾林療癒系、Vimergy 台灣官方授權經銷）",
+    "relationshipNote": "heal.com.tw 產品頁自述販售 Vimergy 成品，成分寫含 COGNIZIN®，並自稱為 Vimergy 台灣官方授權經銷。這是成品販售與該站自述，不是協和證實的原料代理。亨元股份有限公司首頁寫早期曾代理日本協和發酵工業的食品加工與工業化學原料，打開的頁面沒有 Cognizin 或胞磷膽鹼，不把舊的集團代理升格到這個商品名。以 Cognizin、citicoline、胞磷膽鹼、胞苷二磷酸膽鹼、CDP-choline、協和發酵搭配台灣、代理、經銷複查，沒有看到原料經銷頁。查核日 2026-11-12。"
+  },
+  "tfda": {
+    "usable": "not_found",
+    "evidenceNotes": "胞磷膽鹼、citicoline、Cognizin 在食品原料與添加物都是 0 筆，官方開放資料同樣 0 筆。添加物另有英文品名 Choline Chloride、Choline Bitartrate（開放資料中文品名寫成「氯化膽生僉」「重酒石酸膽生僉」），原料另有未確認安全性的磷脂醯膽鹼，都不是本品。not_found 不是准用，也不是禁用。",
+    "lookupDate": "2026-11-12",
+    "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+    "queries": [
+      {
+        "tab": "ingredient",
+        "keyword": "citicoline",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "外文名 0 筆。開放資料 InfoId 4 同樣 0 筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "胞磷膽鹼",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "中文名 0 筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Cognizin",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名 0 筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Phosphatidylcholine",
+        "category": "",
+        "resultCount": 1,
+        "matchedName": "磷脂醯膽鹼",
+        "restrictionNote": "部位純化物。備註：非屬准用之食品添加物或可供食品使用之原料，尚不得用於食品。",
+        "unconfirmedSafety": true,
+        "note": "這是另一個化合物，不是胞磷膽鹼。未放入本筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "choline",
+        "category": "",
+        "resultCount": 2,
+        "matchedName": "Choline Chloride；Choline Bitartrate",
+        "restrictionNote": "開放資料中文品名為「氯化膽生僉」「重酒石酸膽生僉」。皆可於各類食品視需要適量使用，限於補充食品中不足之營養素。",
+        "unconfirmedSafety": false,
+        "note": "是膽鹼鹽，不是 citicoline。開放資料 InfoId 61 的 citicoline 為 0 筆。"
+      },
+      {
+        "tab": "history",
+        "keyword": "citicoline",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "助手更新歷程（11/01–11/11）沒有這筆異動。"
+      }
+    ],
+    "officialCrosscheck": {
+      "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+      "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+      "done": false,
+      "notes": "2026-11-12 消費者專區連線失敗（HTTPS 錯誤、HTTP 502）。官方開放資料 InfoId 4 的 citicoline、Cognizin、胞磷膽鹼為 0 筆；InfoId 61 的 citicoline 為 0 筆，choline 命中兩種膽鹼鹽。"
+    }
+  },
+  "efficacy": {
+    "claimedBenefits": [
+      "協和英文產品頁：Cognizin 用於膳食補充，寫成參與磷脂醯膽鹼合成並轉成乙醯膽鹼，支持精神活力、專注、注意力與回憶。這是供應商說法。含量不低於 98.0%。",
+      "Cognizin 新聞稿：美國專利 US12115181 的用途為改善認知、注意力與運動功能，並寫臨床用量每日 250–500 mg。",
+      "PubMed 26179181：75 名健康青春期男性，Cognizin 250 或 500 mg、28 天，相對安慰劑注意力與心理動作速度較佳、衝動指標較低。"
+    ],
+    "suggestedDosage": "Cognizin 專利新聞稿寫每日 250–500 mg。青春期男性試驗用 250 或 500 mg、28 天。",
+    "dosageNote": "這是供應商與已打開試驗的劑量，不是台灣法規上限。胞磷膽鹼本身這次沒有列在原料或添加物。"
+  },
+  "patent": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "US12115181B2 - Administration of citicoline to improve cognitive performance, attentional performance, and motor function",
+        "url": "https://patents.google.com/patent/US12115181B2/en",
+        "note": "權利人含 Kyowa Hakko Bio。打開的請求項含每日 250–500 mg 胞磷膽鹼。未核其他國家。"
+      }
+    ],
+    "note": "只打開這一件用途專利。"
+  },
+  "literature": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "The Effect of Citicoline Supplementation on Motor Speed and Attention in Adolescent Males",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/26179181/",
+        "note": "McGlade 等，J Atten Disord.（PMID 26179181）。Cognizin 250 或 500 mg、28 天、75 名青春期男性。只核摘要。"
+      },
+      {
+        "title": "Improved Attentional Performance Following Citicoline Administration in Healthy Adult Women",
+        "url": "https://doi.org/10.4236/fns.2012.36103",
+        "note": "60 名 40–60 歲女性，每日 250 mg、500 mg 或安慰劑、28 天。250 mg 組遺漏與委託錯誤少於安慰劑。"
+      }
+    ],
+    "note": "兩篇都是供應鏈相關的人體試驗，只核打開的摘要與結果句。"
+  },
+  "evidenceLevels": [
+    "clinical"
+  ],
+  "images": [
+    {
+      "url": "https://cognizin.com/themes/cognizin/assets/images/logos/cognizin-logo.png",
+      "localPath": "",
+      "caption": "Cognizin 官網標誌，不是原料粉末照片。",
+      "source": "official_site"
+    }
+  ],
+  "sources": [
+    {
+      "title": "SupplySide Global 2026: What’s happening on the show floor",
+      "url": "https://www.nutraingredients.com/Article/2026/10/14/supplyside-global-2026-whats-happening-on-the-show-floor/",
+      "publisher": "NutraIngredients",
+      "channel": "exhibition",
+      "accessed": "2026-11-12",
+      "whatItContributes": "2026-10-14 展場預告：Kyowa Hakko 攤位 4365 展示 Cognizin，並提供含 Cognizin 的軟糖、棒與餅乾試吃。"
+    },
+    {
+      "title": "Citicoline / Cognizin",
+      "url": "https://www.kyowahakko-bio.co.jp/english/products/citicoline_cognizin/",
+      "publisher": "Kyowa Hakko Bio",
+      "channel": "supplier_site",
+      "accessed": "2026-11-12",
+      "whatItContributes": "日本原廠頁：CAS 987-78-0、含量不低於 98.0%、用途寫膳食補充、包裝 25 kg。"
+    },
+    {
+      "title": "Kyowa Hakko USA Receives Patent for Cognizin Citicoline",
+      "url": "https://cognizin.com/news/post/kyowa-hakko-usa-receives-us-patent-cognizin-citicoline-cementing-its-position-gold-standard-ingredient-cognitive-health",
+      "publisher": "Cognizin",
+      "channel": "supplier_site",
+      "accessed": "2026-11-12",
+      "whatItContributes": "專利 US12115181，以及每日 250–500 mg 的用量寫法。"
+    },
+    {
+      "title": "PubMed 26179181",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26179181/",
+      "publisher": "PubMed",
+      "channel": "paper",
+      "accessed": "2026-11-12",
+      "whatItContributes": "青春期男性 28 天試驗摘要。"
+    },
+    {
+      "title": "Vimergy Brain Body Memory",
+      "url": "https://www.heal.com.tw/products/brain-body-memory-%E8%85%A6%E8%83%BD%E8%BA%AB%E9%AB%94%E8%A8%98%E6%86%B6%E9%85%8D%E6%96%B9",
+      "publisher": "heal.com.tw",
+      "channel": "other",
+      "accessed": "2026-11-12",
+      "whatItContributes": "台灣網頁自述經銷 Vimergy 成品，成分標示含 COGNIZIN。不是原料代理契約。"
+    },
+    {
+      "title": "亨元股份有限公司",
+      "url": "https://www.llab.com.tw/index_tw.php",
+      "publisher": "亨元",
+      "channel": "other",
+      "accessed": "2026-11-12",
+      "whatItContributes": "首頁寫早期代理協和發酵工業的食品加工與工業化學原料。頁面沒有 Cognizin 或胞磷膽鹼。"
+    }
+  ],
+  "discovery": {
+    "channel": "exhibition",
+    "scoutDate": "2026-11-12",
+    "notes": "從 NutraIngredients 2026-10-14 SupplySide Global 展場預告的 Kyowa Hakko 攤位進入，再對協和產品頁、Cognizin 專利新聞、兩篇人體試驗。台灣關聯打開 heal.com.tw 成品頁與亨元首頁；前者是成品自述，後者沒有這個商品名。"
+  }
+}

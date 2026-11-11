@@ -1,0 +1,179 @@
+{
+  "id": "thymoquin",
+  "example": false,
+  "names": {
+    "commonZh": "黑種草籽油（標準化百里醌）",
+    "commonEn": "black seed oil standardized for thymoquinone",
+    "trade": "ThymoQuin（TriNutra 的冷壓黑種草籽油商品名）",
+    "scientific": "Nigella sativa L.（種子油）"
+  },
+  "supply": {
+    "supplierName": "TriNutra Ltd.",
+    "supplierCountry": "以色列",
+    "relationship": "taiwan_distributor",
+    "taiwanPartyName": "美隆貿易股份有限公司",
+    "relationshipNote": "美隆官網品牌頁自述販售 ThymoQuin，並寫以色列廠 TriNutra 生產、定量 3% 百里醌；頁面沒有寫總代理或獨家。2026 亞洲醫療美容展展商頁把美隆列為參展商、TriNutra 列為製造商，同樣未寫獨家。TriNutra 官網這次沒有點名台灣經銷，故不升格為原廠證實。查核日 2026-11-12。"
+  },
+  "tfda": {
+    "usable": "listed_food_ingredient",
+    "evidenceNotes": "食品原料「黑種草油」1 筆，學名 Nigella sativa L.、部位種子、可供食品使用，備註空白，不是未確認安全性。商品名 ThymoQuin、百里醌與添加物分頁都是 0 筆。2026-11-12 官方開放資料 InfoId 4 與助手一致；消費者專區詳細頁 id=17292 當下打不開。",
+    "lookupDate": "2026-11-12",
+    "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+    "queries": [
+      {
+        "tab": "ingredient",
+        "keyword": "黑種草油",
+        "category": "",
+        "resultCount": 1,
+        "matchedName": "黑種草油",
+        "restrictionNote": "學名 Nigella sativa L.，部位種子。備註空白。大分類為可供食品使用之原料。",
+        "unconfirmedSafety": false,
+        "note": "與官方開放資料 InfoId 4 同一筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Nigella sativa",
+        "category": "",
+        "resultCount": 1,
+        "matchedName": "黑種草油",
+        "restrictionNote": "部位種子。",
+        "unconfirmedSafety": false,
+        "note": "學名只命中黑種草油。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "ThymoQuin",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名 0 筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "百里醌",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "成分中文名 0 筆。列名的是黑種草油，不是純百里醌。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "黑種草",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "添加物分頁 0 筆。開放資料 InfoId 61 同樣 0 筆。"
+      },
+      {
+        "tab": "history",
+        "keyword": "黑種草",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "助手更新歷程（11/01–11/11）沒有這筆異動。"
+      }
+    ],
+    "officialCrosscheck": {
+      "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+      "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+      "done": true,
+      "notes": "2026-11-12 下載官方開放資料 InfoId 4：黑種草油、Black Cumin Oil、Nigella sativa L.、部位種子、可供食品使用，備註空，與助手 id=17292 一致。同日消費者專區詳細頁 HTTPS 失敗、HTTP 502，WebFetch 為 500，沒有看到線上詳細頁。"
+    }
+  },
+  "efficacy": {
+    "claimedBenefits": [
+      "Nutraceuticals World 2026-10-05：TriNutra 將在 SupplySide Global 談腸道與壓力。文中寫每日 500 mg，標準化至少 3% 百里醌、對傘花烴大於 1%、游離脂肪酸不高於 1.25%，並轉述皮質醇、睡眠與微生物的新研究。這是展前記者稿。",
+      "Food Science & Nutrition Research 2020（DOI 10.33425/2641-4295.1029）：非隨機、先給 ThymoQuin 再給安慰劑。文中寫 20 名成人每日 500 mg、六週，收縮壓平均自 143.5 降到 127.3 mmHg、舒張壓自 90.7 降到 79.6 mmHg。論文同時寫受試者血壓正常，與上述基準值並陳，這裡只照論文記載。"
+    ],
+    "suggestedDosage": "展前記者稿與 2020 論文都寫每日 500 mg。ThymoQuin 原料頁寫標準化 3% 百里醌、低游離脂肪酸。",
+    "dosageNote": "這是供應商與該篇非隨機試驗的劑量，不是台灣法規上限。TFDA 黑種草油這筆沒有每日用量。"
+  },
+  "patent": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "US11426365B2 - Compositions comprising thymoquinone and omega-3 fatty acids",
+        "url": "https://www.patents-review.com/a/20200138743-compositions-comprising-thymoquinone-omega-3-fatty-acids.html",
+        "note": "該頁寫專利號 US 11,426,365 B2、PCT WO2019/016794，權利人 TRINUTRA LTD.（以色列 Ness Ziona）。權利範圍是百里醌與 omega-3 的組合，不是單獨核過冷壓油規格的每一項宣稱。"
+      }
+    ],
+    "note": "美隆頁另寫成分與配方共 3 項國際專利，並點名 WO2019016794。2024 年另有冷壓油組成專利的新聞，這次沒有打開那個專利號。"
+  },
+  "literature": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "Effects of Standardized Black Seed Oil Cold Press Supplement Over A Six Week Period on Blood Pressure and Heart Rate in Healthy Patients: A Nonrandomized Clinical Trial",
+        "url": "https://doi.org/10.33425/2641-4295.1029",
+        "note": "Bush 等，Food Science & Nutrition Research 2020。非隨機、n 約 20、每日 500 mg ThymoQuin。作者含 TriNutra／Pharmaseed。"
+      }
+    ],
+    "note": "2026 年皮質醇與微生物結果這次只見展前記者稿，沒有打開對應期刊全文，不另算進文獻。"
+  },
+  "evidenceLevels": [
+    "clinical"
+  ],
+  "images": [
+    {
+      "url": "https://thymoquin.com/cdn/shop/files/ThymoQuin_-_Ingredient.webp?v=1791205955",
+      "localPath": "",
+      "caption": "ThymoQuin 官網原料圖。",
+      "source": "official_site"
+    }
+  ],
+  "sources": [
+    {
+      "title": "TriNutra to Present New Research on ThymoQuin's Gut-Brain Benefits on Stress",
+      "url": "https://www.nutraceuticalsworld.com/live_from_shows/trinutra-to-present-new-research-on-thymoquins-gut-brain-benefits-on-stress/",
+      "publisher": "Nutraceuticals World",
+      "channel": "exhibition",
+      "accessed": "2026-11-12",
+      "whatItContributes": "2026-10-05 展前記者稿：SupplySide Global 2026 攤位 4149、每日 500 mg、3% 百里醌與游離脂肪酸規格。"
+    },
+    {
+      "title": "SupplySide Global 2026: What’s happening on the show floor",
+      "url": "https://www.nutraingredients.com/Article/2026/10/14/supplyside-global-2026-whats-happening-on-the-show-floor/",
+      "publisher": "NutraIngredients",
+      "channel": "exhibition",
+      "accessed": "2026-11-12",
+      "whatItContributes": "2026-10-14 展場預告：TriNutra 攤位 4149，以 ThymoQuin 談腸道與壓力。"
+    },
+    {
+      "title": "ThymoQuin",
+      "url": "https://trinutra.com/pages/thymoquin",
+      "publisher": "TriNutra",
+      "channel": "supplier_site",
+      "accessed": "2026-11-12",
+      "whatItContributes": "官網：冷壓、標準化 3% 百里醌、低游離脂肪酸的黑種草籽油。"
+    },
+    {
+      "title": "ThymoQuin 黑種草籽油",
+      "url": "https://www.meelung.com.tw/zh/brand/view/41",
+      "publisher": "美隆貿易股份有限公司",
+      "channel": "other",
+      "accessed": "2026-11-12",
+      "whatItContributes": "美隆自述供應此原料，寫 TriNutra 生產、3% 百里醌，並引用 WO2019016794。未寫獨家代理。"
+    },
+    {
+      "title": "Food Science & Nutrition Research 2020",
+      "url": "https://doi.org/10.33425/2641-4295.1029",
+      "publisher": "Food Science & Nutrition Research",
+      "channel": "paper",
+      "accessed": "2026-11-12",
+      "whatItContributes": "非隨機人體試驗：每日 500 mg、六週血壓數字。"
+    }
+  ],
+  "discovery": {
+    "channel": "exhibition",
+    "scoutDate": "2026-11-12",
+    "notes": "從 Nutraceuticals World 2026-10-05 SupplySide Global 展前記者稿進入，再對 NutraIngredients 10 月 14 日展場預告、TriNutra 產品頁、美隆品牌頁與 2020 年非隨機試驗。台灣關聯以 ThymoQuin、黑種草油、Nigella sativa、百里醌搭配台灣、代理、經銷查詢後打開美隆頁與展會參展頁。"
+  }
+}

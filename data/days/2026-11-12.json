@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-12",
+  "example": false,
+  "title": "2026-11-12 正式日報",
+  "targetCount": 5,
+  "channelsCovered": [
+    "news",
+    "exhibition",
+    "industry_report"
+  ],
+  "notes": "正式五筆。主管道：Mitopure 為新聞；ThymoQuin、ODILIA、Cognizin 為展覽；Levagen+ 為產業報導。未放入未確認安全性項目。黑種草油與仙人掌（Opuntia ficus-indica，葉狀莖）有列名；尿石素 A、PEA、胞磷膽鹼這次原料與添加物都沒查到。",
+  "picks": [
+    "mitopure",
+    "thymoquin",
+    "odilia",
+    "cognizin",
+    "levagen-plus"
+  ]
+}

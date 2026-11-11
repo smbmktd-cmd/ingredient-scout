@@ -6,6 +6,946 @@
         "exhibition",
         "industry_report"
       ],
+      "date": "2026-11-12",
+      "example": false,
+      "notes": "正式五筆。主管道：Mitopure 為新聞；ThymoQuin、ODILIA、Cognizin 為展覽；Levagen+ 為產業報導。未放入未確認安全性項目。黑種草油與仙人掌（Opuntia ficus-indica，葉狀莖）有列名；尿石素 A、PEA、胞磷膽鹼這次原料與添加物都沒查到。",
+      "picks": [
+        {
+          "discovery": {
+            "channel": "news",
+            "notes": "從 NutraIngredients 2026-09-02 健康壽命產品新聞的 Timeline 軟糖進入，再對 Timeline 常見問答、PubMed 35584623、JAMA Network Open 四週試驗與 Amazentis 專利。台灣關聯以商品名與尿石素中英文搭配台灣、代理、經銷重查，只見到跨境成品，沒有台灣原料廠商頁。",
+            "scoutDate": "2026-11-12"
+          },
+          "efficacy": {
+            "claimedBenefits": [
+              "NutraIngredients 2026-09-02 轉述 Timeline：Mitopure 著重粒線體品質與肌肉功能，並寫公司臨床組合在 28 天看到細胞能量、16 週肌肉力量最多增加 12%。這是新聞裡的公司說法。",
+              "Cell Reports Medicine 2022（PMID 35584623，Mitopure，中年成人、四個月）：火腿肌平均峰扭力 500 mg 組相對安慰劑 +12%（p=0.027）、1000 mg 組 +9.8%（p=0.029）。主要終點尖峰功率沒有顯著改善。作者含 Amazentis。",
+              "JAMA Network Open 的四週 RCT（1000 mg，50 名中年肥胖成人）：周邊血管內皮功能相對安慰劑沒有顯著差異；任務誘發的腦血流反應較高。論文寫成值得再研究，不是已確認的腦部功效。"
+            ],
+            "dosageNote": "以上是品牌建議與已打開的試驗劑量，不是台灣法規上限。助手與開放資料都沒有這筆化合物。",
+            "suggestedDosage": "Timeline 常見問答：每日 500 mg 或 1000 mg；軟膠囊與軟糖各兩顆、粉末一包為 500 mg。四個月肌肉試驗用 500 mg 與 1000 mg。"
+          },
+          "evidenceLevels": [
+            "clinical"
+          ],
+          "example": false,
+          "id": "mitopure",
+          "images": [
+            {
+              "caption": "Mitopure 官網分享圖，不是原料包裝規格書。",
+              "localPath": "",
+              "source": "official_site",
+              "url": "https://cdn.sanity.io/images/9likowm1/mitopure_com/9113f0e0e578728a6510da6056be871eaff6820c-2640x1760.jpg"
+            }
+          ],
+          "literature": {
+            "note": "兩篇都是人體試驗。肌肉那篇的主要終點沒有過。",
+            "refs": [
+              {
+                "note": "Singh 等，Cell Reports Medicine 2022（PMID 35584623）。主要終點尖峰功率未顯著改善；火腿肌力量有組間差異。只核 PubMed 頁所載摘要與結果表。",
+                "title": "Urolithin A improves muscle strength, exercise performance, and biomarkers of mitochondrial health in a randomized trial in middle-aged adults",
+                "url": "https://pubmed.ncbi.nlm.nih.gov/35584623/"
+              },
+              {
+                "note": "四週、1000 mg、50 人。周邊內皮功能沒有顯著治療差異。",
+                "title": "Urolithin A and Endothelial and Cerebrovascular Function in Middle-Aged Adults With Obesity",
+                "url": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2855121"
+              }
+            ],
+            "status": "yes"
+          },
+          "names": {
+            "commonEn": "urolithin A",
+            "commonZh": "尿石素 A",
+            "scientific": "不適用植物學名。尿石素 A 是鞣花單寧經腸道菌代謝後的產物。Timeline 常見問答寫 Mitopure 為合成且純度大於 99%；Amazentis 首頁寫大於 98%。兩處數字不一致，這裡都留下。",
+            "trade": "Mitopure（Amazentis 的尿石素 A 商品名；消費者品牌為 Timeline）"
+          },
+          "patent": {
+            "note": "mitopure.com/patents 另列多件美國專利號，這次只打開 US11931335B2。",
+            "refs": [
+              {
+                "note": "權利人 Amazentis SA。打開的頁面是尿石素用於自噬的方法專利，未逐條核對是否涵蓋市售 Mitopure 規格。",
+                "title": "US11931335B2 - Enhancing autophagy or increasing longevity by administration of urolithins or precursors thereof",
+                "url": "https://patents.google.com/patent/US11931335B2/en"
+              }
+            ],
+            "status": "yes"
+          },
+          "sources": [
+            {
+              "accessed": "2026-11-12",
+              "channel": "news",
+              "publisher": "NutraIngredients",
+              "title": "Healthspan supplement launches enter stacked market building on platforms",
+              "url": "https://www.nutraingredients.com/Article/2026/09/02/healthspan-supplement-launches-enter-stacked-market-building-on-platforms/",
+              "whatItContributes": "2026-09-02 新聞：Timeline 無糖莓果軟糖使用 Mitopure（尿石素 A），並轉述 16 週肌肉力量與 28 天細胞能量的公司說法。"
+            },
+            {
+              "accessed": "2026-11-12",
+              "channel": "supplier_site",
+              "publisher": "Timeline",
+              "title": "Mitopure FAQ",
+              "url": "https://www.timeline.com/faq",
+              "whatItContributes": "Amazentis 在瑞士洛桑、Timeline 在美國；每日 500 mg 或 1000 mg；寫成合成且純度大於 99% 的尿石素 A。"
+            },
+            {
+              "accessed": "2026-11-12",
+              "channel": "paper",
+              "publisher": "Cell Reports Medicine（PubMed）",
+              "title": "PubMed 35584623",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/35584623/",
+              "whatItContributes": "四個月 RCT：火腿肌力量與主要終點尖峰功率的結果。"
+            },
+            {
+              "accessed": "2026-11-12",
+              "channel": "patent",
+              "publisher": "Google Patents",
+              "title": "US11931335B2",
+              "url": "https://patents.google.com/patent/US11931335B2/en",
+              "whatItContributes": "Amazentis 的尿石素用途專利。"
+            },
+            {
+              "accessed": "2026-11-12",
+              "channel": "other",
+              "publisher": "iHerb 台灣站",
+              "title": "Timeline, Urolithin A, 60 Softgels",
+              "url": "https://tw.iherb.com/pr/timeline-urolithin-a-60-softgels/160198",
+              "whatItContributes": "跨境成品零售，每份 2 粒含 Mitopure 500 mg。不是台灣原料代理。"
+            },
+            {
+              "accessed": "2026-11-12",
+              "channel": "other",
+              "publisher": "Naturecan TW",
+              "title": "尿石素A膠囊（Urolithin A）",
+              "url": "https://www.naturecan.tw/products/urolithin-a",
+              "whatItContributes": "台灣站成品：每顆 500 mg 尿石素 A。頁面沒有 Mitopure 或 Amazentis。"
+            }
+          ],
+          "supply": {
+            "relationship": "unknown",
+            "relationshipNote": "2026-11-12 以 Mitopure、Timeline、Urolithin A、尿石素、尿石素 A、Amazentis 搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商交叉查詢。iHerb 台灣站是 Timeline 成品跨境零售。Naturecan TW 成品頁寫每顆 500 mg 尿石素 A、歐洲製造，全文沒有 Mitopure 或 Amazentis，只記同一化合物的成品，不當成這個商品名的代理。締納斯集團原料頁寫 Mitopure，地址在香港，不是台灣公司。發布前再查一次，仍無台灣廠商把 Mitopure 寫成原料代理或經銷。查核日 2026-11-12。",
+            "supplierCountry": "瑞士",
+            "supplierName": "Amazentis SA（消費者品牌 Timeline）",
+            "taiwanPartyName": "本次查無台灣關聯廠商"
+          },
+          "tfda": {
+            "evidenceNotes": "2026-11-12 用查詢助手（data.json 更新於 2026-11-11）查食品原料與添加物：Mitopure、urolithin A、尿石素皆 0 筆。同日官方開放資料 InfoId 4、61 同樣 0 筆。不是「未確認安全性」分類。not_found 只表示這次沒查到此化合物，不是准用，也不是禁用。",
+            "lookupDate": "2026-11-12",
+            "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+            "officialCrosscheck": {
+              "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+              "done": false,
+              "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+              "notes": "2026-11-12 消費者專區 HTTPS 連線失敗、HTTP 為 502，詳細頁打不開。另下載官方開放資料 InfoId 4 與 61，urolithin、尿石素、Mitopure 皆 0 筆，與助手一致。"
+            },
+            "queries": [
+              {
+                "category": "",
+                "keyword": "urolithin A",
+                "matchedName": "",
+                "note": "外文名 0 筆。官方開放資料 InfoId 4 同樣 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "尿石素",
+                "matchedName": "",
+                "note": "中文名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Mitopure",
+                "matchedName": "",
+                "note": "商品名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "urolithin",
+                "matchedName": "",
+                "note": "添加物分頁 0 筆。開放資料 InfoId 61 同樣 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "urolithin",
+                "matchedName": "",
+                "note": "助手更新歷程（11/01–11/11）沒有這筆異動。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "history",
+                "unconfirmedSafety": false
+              }
+            ],
+            "usable": "not_found"
+          }
+        },
+        {
+          "discovery": {
+            "channel": "exhibition",
+            "notes": "從 Nutraceuticals World 2026-10-05 SupplySide Global 展前記者稿進入，再對 NutraIngredients 10 月 14 日展場預告、TriNutra 產品頁、美隆品牌頁與 2020 年非隨機試驗。台灣關聯以 ThymoQuin、黑種草油、Nigella sativa、百里醌搭配台灣、代理、經銷查詢後打開美隆頁與展會參展頁。",
+            "scoutDate": "2026-11-12"
+          },
+          "efficacy": {
+            "claimedBenefits": [
+              "Nutraceuticals World 2026-10-05：TriNutra 將在 SupplySide Global 談腸道與壓力。文中寫每日 500 mg，標準化至少 3% 百里醌、對傘花烴大於 1%、游離脂肪酸不高於 1.25%，並轉述皮質醇、睡眠與微生物的新研究。這是展前記者稿。",
+              "Food Science & Nutrition Research 2020（DOI 10.33425/2641-4295.1029）：非隨機、先給 ThymoQuin 再給安慰劑。文中寫 20 名成人每日 500 mg、六週，收縮壓平均自 143.5 降到 127.3 mmHg、舒張壓自 90.7 降到 79.6 mmHg。論文同時寫受試者血壓正常，與上述基準值並陳，這裡只照論文記載。"
+            ],
+            "dosageNote": "這是供應商與該篇非隨機試驗的劑量，不是台灣法規上限。TFDA 黑種草油這筆沒有每日用量。",
+            "suggestedDosage": "展前記者稿與 2020 論文都寫每日 500 mg。ThymoQuin 原料頁寫標準化 3% 百里醌、低游離脂肪酸。"
+          },
+          "evidenceLevels": [
+            "clinical"
+          ],
+          "example": false,
+          "id": "thymoquin",
+          "images": [
+            {
+              "caption": "ThymoQuin 官網原料圖。",
+              "localPath": "",
+              "source": "official_site",
+              "url": "https://thymoquin.com/cdn/shop/files/ThymoQuin_-_Ingredient.webp?v=1791205955"
+            }
+          ],
+          "literature": {
+            "note": "2026 年皮質醇與微生物結果這次只見展前記者稿，沒有打開對應期刊全文，不另算進文獻。",
+            "refs": [
+              {
+                "note": "Bush 等，Food Science & Nutrition Research 2020。非隨機、n 約 20、每日 500 mg ThymoQuin。作者含 TriNutra／Pharmaseed。",
+                "title": "Effects of Standardized Black Seed Oil Cold Press Supplement Over A Six Week Period on Blood Pressure and Heart Rate in Healthy Patients: A Nonrandomized Clinical Trial",
+                "url": "https://doi.org/10.33425/2641-4295.1029"
+              }
+            ],
+            "status": "yes"
+          },
+          "names": {
+            "commonEn": "black seed oil standardized for thymoquinone",
+            "commonZh": "黑種草籽油（標準化百里醌）",
+            "scientific": "Nigella sativa L.（種子油）",
+            "trade": "ThymoQuin（TriNutra 的冷壓黑種草籽油商品名）"
+          },
+          "patent": {
+            "note": "美隆頁另寫成分與配方共 3 項國際專利，並點名 WO2019016794。2024 年另有冷壓油組成專利的新聞，這次沒有打開那個專利號。",
+            "refs": [
+              {
+                "note": "該頁寫專利號 US 11,426,365 B2、PCT WO2019/016794，權利人 TRINUTRA LTD.（以色列 Ness Ziona）。權利範圍是百里醌與 omega-3 的組合，不是單獨核過冷壓油規格的每一項宣稱。",
+                "title": "US11426365B2 - Compositions comprising thymoquinone and omega-3 fatty acids",
+                "url": "https://www.patents-review.com/a/20200138743-compositions-comprising-thymoquinone-omega-3-fatty-acids.html"
+              }
+            ],
+            "status": "yes"
+          },
+          "sources": [
+            {
+              "accessed": "2026-11-12",
+              "channel": "exhibition",
+              "publisher": "Nutraceuticals World",
+              "title": "TriNutra to Present New Research on ThymoQuin's Gut-Brain Benefits on Stress",
+              "url": "https://www.nutraceuticalsworld.com/live_from_shows/trinutra-to-present-new-research-on-thymoquins-gut-brain-benefits-on-stress/",
+              "whatItContributes": "2026-10-05 展前記者稿：SupplySide Global 2026 攤位 4149、每日 500 mg、3% 百里醌與游離脂肪酸規格。"
+            },
+            {
+              "accessed": "2026-11-12",
+              "channel": "exhibition",
+              "publisher": "NutraIngredients",
+              "title": "SupplySide Global 2026: What’s happening on the show floor",
+              "url": "https://www.nutraingredients.com/Article/2026/10/14/supplyside-global-2026-whats-happening-on-the-show-floor/",
+              "whatItContributes": "2026-10-14 展場預告：TriNutra 攤位 4149，以 ThymoQuin 談腸道與壓力。"
+            },
+            {
+              "accessed": "2026-11-12",
+              "channel": "supplier_site",
+              "publisher": "TriNutra",
+              "title": "ThymoQuin",
+              "url": "https://trinutra.com/pages/thymoquin",
+              "whatItContributes": "官網：冷壓、標準化 3% 百里醌、低游離脂肪酸的黑種草籽油。"
+            },
+            {
+              "accessed": "2026-11-12",
+              "channel": "other",
+              "publisher": "美隆貿易股份有限公司",
+              "title": "ThymoQuin 黑種草籽油",
+              "url": "https://www.meelung.com.tw/zh/brand/view/41",
+              "whatItContributes": "美隆自述供應此原料，寫 TriNutra 生產、3% 百里醌，並引用 WO2019016794。未寫獨家代理。"
+            },
+            {
+              "accessed": "2026-11-12",
+              "channel": "paper",
+              "publisher": "Food Science & Nutrition Research",
+              "title": "Food Science & Nutrition Research 2020",
+              "url": "https://doi.org/10.33425/2641-4295.1029",
+              "whatItContributes": "非隨機人體試驗：每日 500 mg、六週血壓數字。"
+            }
+          ],
+          "supply": {
+            "relationship": "taiwan_distributor",
+            "relationshipNote": "美隆官網品牌頁自述販售 ThymoQuin，並寫以色列廠 TriNutra 生產、定量 3% 百里醌；頁面沒有寫總代理或獨家。2026 亞洲醫療美容展展商頁把美隆列為參展商、TriNutra 列為製造商，同樣未寫獨家。TriNutra 官網這次沒有點名台灣經銷，故不升格為原廠證實。查核日 2026-11-12。",
+            "supplierCountry": "以色列",
+            "supplierName": "TriNutra Ltd.",
+            "taiwanPartyName": "美隆貿易股份有限公司"
+          },
+          "tfda": {
+            "evidenceNotes": "食品原料「黑種草油」1 筆，學名 Nigella sativa L.、部位種子、可供食品使用，備註空白，不是未確認安全性。商品名 ThymoQuin、百里醌與添加物分頁都是 0 筆。2026-11-12 官方開放資料 InfoId 4 與助手一致；消費者專區詳細頁 id=17292 當下打不開。",
+            "lookupDate": "2026-11-12",
+            "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+            "officialCrosscheck": {
+              "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+              "done": true,
+              "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+              "notes": "2026-11-12 下載官方開放資料 InfoId 4：黑種草油、Black Cumin Oil、Nigella sativa L.、部位種子、可供食品使用，備註空，與助手 id=17292 一致。同日消費者專區詳細頁 HTTPS 失敗、HTTP 502，WebFetch 為 500，沒有看到線上詳細頁。"
+            },
+            "queries": [
+              {
+                "category": "",
+                "keyword": "黑種草油",
+                "matchedName": "黑種草油",
+                "note": "與官方開放資料 InfoId 4 同一筆。",
+                "restrictionNote": "學名 Nigella sativa L.，部位種子。備註空白。大分類為可供食品使用之原料。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Nigella sativa",
+                "matchedName": "黑種草油",
+                "note": "學名只命中黑種草油。",
+                "restrictionNote": "部位種子。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "ThymoQuin",
+                "matchedName": "",
+                "note": "商品名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "百里醌",
+                "matchedName": "",
+                "note": "成分中文名 0 筆。列名的是黑種草油，不是純百里醌。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "黑種草",
+                "matchedName": "",
+                "note": "添加物分頁 0 筆。開放資料 InfoId 61 同樣 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "黑種草",
+                "matchedName": "",
+                "note": "助手更新歷程（11/01–11/11）沒有這筆異動。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "history",
+                "unconfirmedSafety": false
+              }
+            ],
+            "usable": "listed_food_ingredient"
+          }
+        },
+        {
+          "discovery": {
+            "channel": "exhibition",
+            "notes": "從 Vitafoods Insights 2026-07-14 的 Vitafoods Asia 參展預告進入，再對展會產品頁、Bionap 產品頁、Nutrients 2024 與歐洲專利。台灣關聯查到的是義大利原廠在台商標與新加坡亞太窗口，沒有台灣經銷產品頁。",
+            "scoutDate": "2026-11-12"
+          },
+          "efficacy": {
+            "claimedBenefits": [
+              "Bionap 產品頁：ODILIA 是仙人掌葉狀莖汁粉末，標準化多醣與 piscidic acid，宣稱作為益生質、支持腸道菌相，並經微生物–腸–腦–肌肉軸幫助減輕疲勞與壓力。這是供應商說法。建議量寫每日 300 mg。",
+              "Nutrients 2024（DOI 10.3390/nu16050586）：80 名腸道菌相失衡成人，每日 300 mg ODILIA 或麥芽糊精、八週。八週後 Firmicutes/Bacteroidetes 比值下降（p=0.0012），GIQLI 與 GSAS 分數有改善。原料由 Bionap 提供。"
+            ],
+            "dosageNote": "這是供應商建議與該篇試驗劑量，不是台灣法規上限。TFDA 仙人掌這筆沒有每日用量，部位含葉狀莖。",
+            "suggestedDosage": "Bionap 產品頁與上述 RCT 都是每日 300 mg。賣頁寫多醣（以葡萄糖計）40–60%、piscidic acid 至少 0.5%。"
+          },
+          "evidenceLevels": [
+            "clinical"
+          ],
+          "example": false,
+          "id": "odilia",
+          "images": [
+            {
+              "caption": "Bionap 官網 ODILIA 產品圖。",
+              "localPath": "",
+              "source": "official_site",
+              "url": "https://bionap.com/assets/images/products/odilia/img_1.png"
+            }
+          ],
+          "literature": {
+            "note": "人體試驗由原料供應方提供試驗品。",
+            "refs": [
+              {
+                "note": "Nutrients 2024, 16(5), 586。每日 300 mg、八週、80 人。只核該頁所載摘要與介入描述。",
+                "title": "A Randomized, Double-Blind, Placebo-Controlled Trial: Efficacy of Opuntia ficus-indica Prebiotic Supplementation in Subjects with Gut Dysbiosis",
+                "url": "https://www.mdpi.com/2072-6643/16/5/586"
+              }
+            ],
+            "status": "yes"
+          },
+          "names": {
+            "commonEn": "prickly pear cladode juice extract",
+            "commonZh": "梨果仙人掌葉狀莖汁萃取物",
+            "scientific": "Opuntia ficus-indica (L.) Mill.（葉狀莖汁）",
+            "trade": "ODILIA（Bionap 的仙人掌葉狀莖萃取商品名）"
+          },
+          "patent": {
+            "note": "只打開這一件相關專利。商品頁沒有另給 ODILIA 專用專利號。",
+            "refs": [
+              {
+                "note": "申請人 Bionap。打開的請求項是仙人掌葉狀莖萃取與油橄欖葉萃取的組合，用於痔瘡相關用途。沒有核到這件專利就是 ODILIA 腸道宣稱的權利範圍。",
+                "title": "EP2473178A2 - Composition for the treatment of hemorrhoids and related diseases",
+                "url": "https://patents.google.com/patent/EP2473178A2/en"
+              }
+            ],
+            "status": "yes"
+          },
+          "sources": [
+            {
+              "accessed": "2026-11-12",
+              "channel": "exhibition",
+              "publisher": "Vitafoods Insights",
+              "title": "BIONAP brings the Mediterranean to Vitafoods Asia",
+              "url": "https://www.vitafoodsinsights.com/botanicals-herbs/bionap-brings-the-mediterranean-to-vitafoods-asia",
+              "whatItContributes": "2026-07-14：Vitafoods Asia 攤位 H5-E41，ODILIA 在新原料區，寫西西里梨果仙人掌莖片萃取、每日 300 mg。"
+            },
+            {
+              "accessed": "2026-11-12",
+              "channel": "exhibition",
+              "publisher": "Vitafoods Asia",
+              "title": "ODILIA at Vitafoods Asia 2026",
+              "url": "https://visitor.vitafoodsglobal.com/event/vitafoods-asia-2026/product/UHJvZHVjdF8xNTA2ODYy",
+              "whatItContributes": "展會產品頁：每日 300 mg、多醣與 piscidic acid，Bionap Asia Pacific 為新加坡窗口。"
+            },
+            {
+              "accessed": "2026-11-12",
+              "channel": "supplier_site",
+              "publisher": "Bionap",
+              "title": "BIONAP - Odilia",
+              "url": "https://bionap.com/products/odilia",
+              "whatItContributes": "義大利 Belpasso 原廠頁：Opuntia ficus-indica 葉狀莖汁萃取、每日 300 mg。"
+            },
+            {
+              "accessed": "2026-11-12",
+              "channel": "paper",
+              "publisher": "Nutrients（MDPI）",
+              "title": "Nutrients 2024 ODILIA trial",
+              "url": "https://www.mdpi.com/2072-6643/16/5/586",
+              "whatItContributes": "八週、每日 300 mg 的隨機雙盲試驗摘要。"
+            },
+            {
+              "accessed": "2026-11-12",
+              "channel": "other",
+              "publisher": "經濟部智慧財產局公開資料轉載",
+              "title": "ODILIA 商標",
+              "url": "https://www.findcompany.com.tw/trademark/02407471_113005291",
+              "whatItContributes": "商標權人是義大利 BIONAP SRL。在台聯絡人是商標代理人，不是原料經銷商。"
+            },
+            {
+              "accessed": "2026-11-12",
+              "channel": "exhibition",
+              "publisher": "亞洲美容保養生技保健大展參展頁",
+              "title": "香檸檬萃取物（和聚國際展會頁）",
+              "url": "https://www.chanchao.com.tw/healthcos/visitorProductDetail.asp?no=179730",
+              "whatItContributes": "和聚國際參展的是 Bionap 的 Bergavit 香檸檬萃取，頁面沒有 ODILIA。"
+            }
+          ],
+          "supply": {
+            "relationship": "unknown",
+            "relationshipNote": "2026-11-12 以 ODILIA、Odilia、Bionap、比奧納普、Opuntia ficus-indica、仙人掌萃取、梨果仙人掌搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商交叉查詢。商標「ODILIA」權人是義大利 BIONAP SRL，在台只見商標代理人。Bionap Asia Pacific 在新加坡。發布前複查時打開和聚國際的展會頁，該頁寫的是 Bionap 另一商品 Bergavit（香檸檬），沒有 ODILIA，不把同廠其他商品當成這個商品名的代理。查核日 2026-11-12。",
+            "supplierCountry": "義大利",
+            "supplierName": "Bionap S.r.l.",
+            "taiwanPartyName": "本次查無台灣關聯廠商"
+          },
+          "tfda": {
+            "evidenceNotes": "食品原料以 Opuntia ficus-indica 查到「仙人掌」1 筆，部位果實、葉狀莖，可供食品使用，備註空白。同屬的 Opuntia humifusa、O. stricta 另列未確認安全性，學名不同，不是本品。商品名 ODILIA 與添加物都是 0 筆。官方開放資料與助手一致；詳細頁 id=16972 當下打不開。",
+            "lookupDate": "2026-11-12",
+            "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+            "officialCrosscheck": {
+              "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+              "done": true,
+              "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+              "notes": "2026-11-12 官方開放資料 InfoId 4：仙人掌、Cactus、Opuntia ficus-indica (L) Miller 與 Opuntia dillenii、部位果實與葉狀莖、可供食品使用，備註空。同檔另見 O. humifusa、O. stricta 為未確認且不得作為食品原料。消費者專區詳細頁 id=16972 當下 HTTPS 失敗、HTTP 502。"
+            },
+            "queries": [
+              {
+                "category": "",
+                "keyword": "Opuntia ficus-indica",
+                "matchedName": "仙人掌",
+                "note": "本品學名對這一筆。官方開放資料 InfoId 4 相同。",
+                "restrictionNote": "學名同時列 Opuntia ficus-indica (L) Miller 與 Opuntia dillenii (Ker Gawl.) Haw.，部位果實、葉狀莖。備註空白。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "仙人掌",
+                "matchedName": "仙人掌",
+                "note": "5 筆含印度仙人掌（Caralluma fimbriata，不同學名）與備註帶有「仙人掌」字樣的其他原料。未確認的兩筆不是 O. ficus-indica。",
+                "restrictionNote": "可供食用的是果實、葉狀莖。另有圓武扇（Opuntia humifusa）與縮刺仙人掌（Opuntia stricta）寫未確認安全性、不得供為食品原料。",
+                "resultCount": 5,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "ODILIA",
+                "matchedName": "",
+                "note": "商品名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "仙人掌",
+                "matchedName": "",
+                "note": "添加物分頁 0 筆。開放資料 InfoId 61 同樣 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "仙人掌",
+                "matchedName": "",
+                "note": "助手更新歷程（11/01–11/11）沒有這筆異動。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "history",
+                "unconfirmedSafety": false
+              }
+            ],
+            "usable": "listed_food_ingredient"
+          }
+        },
+        {
+          "discovery": {
+            "channel": "exhibition",
+            "notes": "從 NutraIngredients 2026-10-14 SupplySide Global 展場預告的 Kyowa Hakko 攤位進入，再對協和產品頁、Cognizin 專利新聞、兩篇人體試驗。台灣關聯打開 heal.com.tw 成品頁與亨元首頁；前者是成品自述，後者沒有這個商品名。",
+            "scoutDate": "2026-11-12"
+          },
+          "efficacy": {
+            "claimedBenefits": [
+              "協和英文產品頁：Cognizin 用於膳食補充，寫成參與磷脂醯膽鹼合成並轉成乙醯膽鹼，支持精神活力、專注、注意力與回憶。這是供應商說法。含量不低於 98.0%。",
+              "Cognizin 新聞稿：美國專利 US12115181 的用途為改善認知、注意力與運動功能，並寫臨床用量每日 250–500 mg。",
+              "PubMed 26179181：75 名健康青春期男性，Cognizin 250 或 500 mg、28 天，相對安慰劑注意力與心理動作速度較佳、衝動指標較低。"
+            ],
+            "dosageNote": "這是供應商與已打開試驗的劑量，不是台灣法規上限。胞磷膽鹼本身這次沒有列在原料或添加物。",
+            "suggestedDosage": "Cognizin 專利新聞稿寫每日 250–500 mg。青春期男性試驗用 250 或 500 mg、28 天。"
+          },
+          "evidenceLevels": [
+            "clinical"
+          ],
+          "example": false,
+          "id": "cognizin",
+          "images": [
+            {
+              "caption": "Cognizin 官網標誌，不是原料粉末照片。",
+              "localPath": "",
+              "source": "official_site",
+              "url": "https://cognizin.com/themes/cognizin/assets/images/logos/cognizin-logo.png"
+            }
+          ],
+          "literature": {
+            "note": "兩篇都是供應鏈相關的人體試驗，只核打開的摘要與結果句。",
+            "refs": [
+              {
+                "note": "McGlade 等，J Atten Disord.（PMID 26179181）。Cognizin 250 或 500 mg、28 天、75 名青春期男性。只核摘要。",
+                "title": "The Effect of Citicoline Supplementation on Motor Speed and Attention in Adolescent Males",
+                "url": "https://pubmed.ncbi.nlm.nih.gov/26179181/"
+              },
+              {
+                "note": "60 名 40–60 歲女性，每日 250 mg、500 mg 或安慰劑、28 天。250 mg 組遺漏與委託錯誤少於安慰劑。",
+                "title": "Improved Attentional Performance Following Citicoline Administration in Healthy Adult Women",
+                "url": "https://doi.org/10.4236/fns.2012.36103"
+              }
+            ],
+            "status": "yes"
+          },
+          "names": {
+            "commonEn": "citicoline (CDP-choline)",
+            "commonZh": "胞磷膽鹼（胞苷二磷酸膽鹼）",
+            "scientific": "不適用植物學名。化合物為 cytidine 5'-diphosphocholine。協和產品頁寫 CAS 987-78-0、含量不低於 98.0%，由發酵製程生產。",
+            "trade": "Cognizin（Kyowa Hakko Bio 的胞磷膽鹼商品名）"
+          },
+          "patent": {
+            "note": "只打開這一件用途專利。",
+            "refs": [
+              {
+                "note": "權利人含 Kyowa Hakko Bio。打開的請求項含每日 250–500 mg 胞磷膽鹼。未核其他國家。",
+                "title": "US12115181B2 - Administration of citicoline to improve cognitive performance, attentional performance, and motor function",
+                "url": "https://patents.google.com/patent/US12115181B2/en"
+              }
+            ],
+            "status": "yes"
+          },
+          "sources": [
+            {
+              "accessed": "2026-11-12",
+              "channel": "exhibition",
+              "publisher": "NutraIngredients",
+              "title": "SupplySide Global 2026: What’s happening on the show floor",
+              "url": "https://www.nutraingredients.com/Article/2026/10/14/supplyside-global-2026-whats-happening-on-the-show-floor/",
+              "whatItContributes": "2026-10-14 展場預告：Kyowa Hakko 攤位 4365 展示 Cognizin，並提供含 Cognizin 的軟糖、棒與餅乾試吃。"
+            },
+            {
+              "accessed": "2026-11-12",
+              "channel": "supplier_site",
+              "publisher": "Kyowa Hakko Bio",
+              "title": "Citicoline / Cognizin",
+              "url": "https://www.kyowahakko-bio.co.jp/english/products/citicoline_cognizin/",
+              "whatItContributes": "日本原廠頁：CAS 987-78-0、含量不低於 98.0%、用途寫膳食補充、包裝 25 kg。"
+            },
+            {
+              "accessed": "2026-11-12",
+              "channel": "supplier_site",
+              "publisher": "Cognizin",
+              "title": "Kyowa Hakko USA Receives Patent for Cognizin Citicoline",
+              "url": "https://cognizin.com/news/post/kyowa-hakko-usa-receives-us-patent-cognizin-citicoline-cementing-its-position-gold-standard-ingredient-cognitive-health",
+              "whatItContributes": "專利 US12115181，以及每日 250–500 mg 的用量寫法。"
+            },
+            {
+              "accessed": "2026-11-12",
+              "channel": "paper",
+              "publisher": "PubMed",
+              "title": "PubMed 26179181",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/26179181/",
+              "whatItContributes": "青春期男性 28 天試驗摘要。"
+            },
+            {
+              "accessed": "2026-11-12",
+              "channel": "other",
+              "publisher": "heal.com.tw",
+              "title": "Vimergy Brain Body Memory",
+              "url": "https://www.heal.com.tw/products/brain-body-memory-%E8%85%A6%E8%83%BD%E8%BA%AB%E9%AB%94%E8%A8%98%E6%86%B6%E9%85%8D%E6%96%B9",
+              "whatItContributes": "台灣網頁自述經銷 Vimergy 成品，成分標示含 COGNIZIN。不是原料代理契約。"
+            },
+            {
+              "accessed": "2026-11-12",
+              "channel": "other",
+              "publisher": "亨元",
+              "title": "亨元股份有限公司",
+              "url": "https://www.llab.com.tw/index_tw.php",
+              "whatItContributes": "首頁寫早期代理協和發酵工業的食品加工與工業化學原料。頁面沒有 Cognizin 或胞磷膽鹼。"
+            }
+          ],
+          "supply": {
+            "relationship": "unknown",
+            "relationshipNote": "heal.com.tw 產品頁自述販售 Vimergy 成品，成分寫含 COGNIZIN®，並自稱為 Vimergy 台灣官方授權經銷。這是成品販售與該站自述，不是協和證實的原料代理。亨元股份有限公司首頁寫早期曾代理日本協和發酵工業的食品加工與工業化學原料，打開的頁面沒有 Cognizin 或胞磷膽鹼，不把舊的集團代理升格到這個商品名。以 Cognizin、citicoline、胞磷膽鹼、胞苷二磷酸膽鹼、CDP-choline、協和發酵搭配台灣、代理、經銷複查，沒有看到原料經銷頁。查核日 2026-11-12。",
+            "supplierCountry": "日本",
+            "supplierName": "Kyowa Hakko Bio Co., Ltd.",
+            "taiwanPartyName": "heal.com.tw（頁面自稱希爾林療癒系、Vimergy 台灣官方授權經銷）"
+          },
+          "tfda": {
+            "evidenceNotes": "胞磷膽鹼、citicoline、Cognizin 在食品原料與添加物都是 0 筆，官方開放資料同樣 0 筆。添加物另有英文品名 Choline Chloride、Choline Bitartrate（開放資料中文品名寫成「氯化膽生僉」「重酒石酸膽生僉」），原料另有未確認安全性的磷脂醯膽鹼，都不是本品。not_found 不是准用，也不是禁用。",
+            "lookupDate": "2026-11-12",
+            "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+            "officialCrosscheck": {
+              "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+              "done": false,
+              "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+              "notes": "2026-11-12 消費者專區連線失敗（HTTPS 錯誤、HTTP 502）。官方開放資料 InfoId 4 的 citicoline、Cognizin、胞磷膽鹼為 0 筆；InfoId 61 的 citicoline 為 0 筆，choline 命中兩種膽鹼鹽。"
+            },
+            "queries": [
+              {
+                "category": "",
+                "keyword": "citicoline",
+                "matchedName": "",
+                "note": "外文名 0 筆。開放資料 InfoId 4 同樣 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "胞磷膽鹼",
+                "matchedName": "",
+                "note": "中文名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Cognizin",
+                "matchedName": "",
+                "note": "商品名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Phosphatidylcholine",
+                "matchedName": "磷脂醯膽鹼",
+                "note": "這是另一個化合物，不是胞磷膽鹼。未放入本筆。",
+                "restrictionNote": "部位純化物。備註：非屬准用之食品添加物或可供食品使用之原料，尚不得用於食品。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": true
+              },
+              {
+                "category": "",
+                "keyword": "choline",
+                "matchedName": "Choline Chloride；Choline Bitartrate",
+                "note": "是膽鹼鹽，不是 citicoline。開放資料 InfoId 61 的 citicoline 為 0 筆。",
+                "restrictionNote": "開放資料中文品名為「氯化膽生僉」「重酒石酸膽生僉」。皆可於各類食品視需要適量使用，限於補充食品中不足之營養素。",
+                "resultCount": 2,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "citicoline",
+                "matchedName": "",
+                "note": "助手更新歷程（11/01–11/11）沒有這筆異動。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "history",
+                "unconfirmedSafety": false
+              }
+            ],
+            "usable": "not_found"
+          }
+        },
+        {
+          "discovery": {
+            "channel": "industry_report",
+            "notes": "從 Nutrition Insight 2026-11-05 腦健康產業訪談進入，再對 Saanroo 與 Pharmako 產品頁、PMC10891801，以及 2018 年 LipiSperse 專利新聞。台灣關聯打開生資總表、HydroCurc 頁與和聚 Testofen 頁，確認同集團其他商品沒有寫 Levagen。",
+            "scoutDate": "2026-11-12"
+          },
+          "efficacy": {
+            "claimedBenefits": [
+              "Nutrition Insight 2026-11-05 訪問 Saanroo：Levagen+ 是可分散的棕櫚醯乙醇胺。文中寫 2024 年交叉試驗每日 700 mg、六週、39 人完成，循環 BDNF 上升，配對聯想測驗錯誤減少。研究由供應商資助。",
+              "同一篇論文的方法段寫每日兩粒、每粒 350 mg（其中 300 mg PEA、50 mg 賦形），合計 PEA 600 mg，與摘要的 700 mg 不一致。這裡兩句都留下。",
+              "Saanroo 原料頁寫 LipiSperse 使 PEA 冷水可分散，並寫相對未配方 PEA 的生體可用率為 1.75 倍。這是供應商說法。"
+            ],
+            "dosageNote": "以上是論文與供應商頁的劑量，論文摘要與方法不一致。不是台灣法規上限。",
+            "suggestedDosage": "2024 年認知試驗摘要寫每日 700 mg Levagen+；方法段寫每日 PEA 600 mg。Saanroo 頁寫粉末組成 90% PEA、10% LipiSperse。Pharmako 頁另寫關節研究用每日 300 mg 與 600 mg。"
+          },
+          "evidenceLevels": [
+            "clinical"
+          ],
+          "example": false,
+          "id": "levagen-plus",
+          "images": [
+            {
+              "caption": "Pharmako 官網 Levagen+ 標誌，不是粉末照片。",
+              "localPath": "",
+              "source": "official_site",
+              "url": "https://images.squarespace-cdn.com/content/v1/5f311e5e1b5ab209909db68c/3dc23730-e5b2-4417-8f8c-6908714f7b0e/LEVAGEN+LOGO+CS5+PLUS+(1).png"
+            }
+          ],
+          "literature": {
+            "note": "已打開這一篇。供應商稱還有其他臨床，這次沒有逐篇打開。",
+            "refs": [
+              {
+                "note": "Nutrients 相關全文頁（PMC10891801）。39 人完成、六週交叉。摘要寫 700 mg/day，方法段寫每日 600 mg PEA。",
+                "title": "Formulated Palmitoylethanolamide Supplementation Improves Parameters of Cognitive Function and BDNF Levels in Young, Healthy Adults: A Randomised Cross-Over Trial",
+                "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10891801/"
+              }
+            ],
+            "status": "yes"
+          },
+          "names": {
+            "commonEn": "palmitoylethanolamide (cold-water dispersible)",
+            "commonZh": "棕櫚醯乙醇胺（冷水分散型）",
+            "scientific": "不適用植物學名。PEA 是內源性脂肪酸醯胺。Saanroo 原料頁寫粉末為 90% PEA 與 10% LipiSperse，PEA 本體在印度合成。",
+            "trade": "Levagen+（Saanroo／Gencor 的 PEA 商品名，搭配 Pharmako 的 LipiSperse）"
+          },
+          "patent": {
+            "note": "Pharmako 的 Levagen 頁寫使用專利 LipiSperse。專利號本次未核到。",
+            "refs": [
+              {
+                "note": "2018-11-28：NutraIngredients 寫 LipiSperse 已獲 WIPO 專利核准，並用於 Levagen+。這次沒有打開專利號全文。",
+                "title": "Pharmako patent approval for delivery system technology",
+                "url": "https://www.nutraingredients.com/Article/2018/11/28/Pharmako-patent-approval-for-delivery-system-technology-opens-doors-for-NPD-and-new-partnerships/"
+              }
+            ],
+            "status": "yes"
+          },
+          "sources": [
+            {
+              "accessed": "2026-11-12",
+              "channel": "industry_report",
+              "publisher": "Nutrition Insight",
+              "title": "Brain health supplements expand into digital overload and menopause brain fog",
+              "url": "https://www.nutritioninsight.com/news/brain-health-supplements-kemin-balchem-saanroo-probi.html",
+              "whatItContributes": "2026-11-05 產業訪談：Saanroo 的 Levagen+、每日 700 mg 認知試驗與 BDNF。"
+            },
+            {
+              "accessed": "2026-11-12",
+              "channel": "supplier_site",
+              "publisher": "Saanroo",
+              "title": "Levagen+",
+              "url": "https://www.saanroo.com/ingredients/levagen",
+              "whatItContributes": "90% PEA、10% LipiSperse；PEA 在印度合成；寫生體可用率 1.75 倍。"
+            },
+            {
+              "accessed": "2026-11-12",
+              "channel": "supplier_site",
+              "publisher": "Pharmako Biotechnologies",
+              "title": "Levagen+ — Pharmako Biotechnologies",
+              "url": "https://www.pharmako.com.au/levagen",
+              "whatItContributes": "澳洲頁：冷水可分散 PEA，關節研究寫每日 300 mg 與 600 mg，並寫 LipiSperse 為專利技術。"
+            },
+            {
+              "accessed": "2026-11-12",
+              "channel": "paper",
+              "publisher": "PMC",
+              "title": "PMC10891801",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10891801/",
+              "whatItContributes": "年輕成人交叉試驗。摘要與方法的劑量寫法不同，論文署名 Gencor Pacific Limited。"
+            },
+            {
+              "accessed": "2026-11-12",
+              "channel": "other",
+              "publisher": "生資有限公司",
+              "title": "生資原料列表與 HydroCurc 頁",
+              "url": "https://www.nutrisense.com.tw/all-ingredients/",
+              "whatItContributes": "台灣原料目錄打開後沒有 Levagen。同站 HydroCurc 頁是另一個商品名。"
+            },
+            {
+              "accessed": "2026-11-12",
+              "channel": "news",
+              "publisher": "NutraIngredients",
+              "title": "Osteoarthritis opportunity: Gencor eyes South East Asia and Taiwan",
+              "url": "https://www.nutraingredients.com/Article/2019/05/29/Osteoarthritis-opportunity-Gencor-eyes-South-East-Asia-and-Taiwan-after-Levagen-study-boost/",
+              "whatItContributes": "2019-05-29：Gencor 說與台灣產業夥伴討論，沒有指出公司名稱。"
+            },
+            {
+              "accessed": "2026-11-12",
+              "channel": "other",
+              "publisher": "卓昇有限公司",
+              "title": "Palmitoylethanolamide 試劑目錄",
+              "url": "https://www.interlabbiotech.com/wp/product-name/palmitoylethanolamide",
+              "whatItContributes": "台灣科學研究供應商的 PEA 試劑型號，頁面沒有 Levagen。"
+            },
+            {
+              "accessed": "2026-11-12",
+              "channel": "other",
+              "publisher": "科羅耐國際科技有限公司",
+              "title": "科羅耐 Palmitoylethanolamide 10 mg",
+              "url": "http://www.kelowna.com.tw/pdtView.php?pid=561095",
+              "whatItContributes": "研究用試劑 10 mg，不是 Levagen 食品原料。"
+            }
+          ],
+          "supply": {
+            "relationship": "unknown",
+            "relationshipNote": "2026-11-12 以 Levagen、Levagen+、palmitoylethanolamide、PEA、棕櫚醯乙醇胺、Gencor、Saanroo、Pharmako、LipiSperse 搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商交叉查詢。生資原料總表與 HydroCurc 頁、和聚的 Testofen 頁都沒有 Levagen，同集團其他商品不算這個商品名的代理。發布前再打開卓昇的 Palmitoylethanolamide 目錄（研究用試劑 B6485）與科羅耐的 10 mg 試劑頁，兩頁都沒有 Levagen，是同一化合物的研究用試劑，不是食品原料經銷。2019-05-29 NutraIngredients 只寫與台灣產業夥伴討論、沒有公司名。查核日 2026-11-12。Saanroo 登記國未另核到，論文地址在香港大嶼山，供應商國家先記香港。",
+            "supplierCountry": "香港",
+            "supplierName": "Saanroo（Nutrition Insight 2026-11-05 寫 Gencor，now Saanroo；2024 年論文署名 Gencor Pacific Limited）",
+            "taiwanPartyName": "本次查無台灣關聯廠商"
+          },
+          "tfda": {
+            "evidenceNotes": "2026-11-12 原料與添加物查 Levagen、palmitoylethanolamide、棕櫚醯乙醇胺皆 0 筆，官方開放資料 InfoId 4 與 61 同樣 0 筆。不是「未確認安全性」分類。not_found 只表示這次沒查到，不是准用，也不是禁用。",
+            "lookupDate": "2026-11-12",
+            "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+            "officialCrosscheck": {
+              "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+              "done": false,
+              "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+              "notes": "2026-11-12 消費者專區連線失敗。官方開放資料 InfoId 4 與 61 查 Levagen、palmitoylethanolamide、棕櫚醯乙醇胺皆 0 筆。"
+            },
+            "queries": [
+              {
+                "category": "",
+                "keyword": "palmitoylethanolamide",
+                "matchedName": "",
+                "note": "化合物英文名 0 筆。開放資料 InfoId 4 同樣 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "棕櫚醯乙醇胺",
+                "matchedName": "",
+                "note": "中文名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Levagen",
+                "matchedName": "",
+                "note": "商品名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "palmitoylethanolamide",
+                "matchedName": "",
+                "note": "添加物分頁 0 筆。開放資料 InfoId 61 同樣 0 筆。短字 PEA 會命中無關英文，未拿來當筆數。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Levagen",
+                "matchedName": "",
+                "note": "助手更新歷程（11/01–11/11）沒有這筆異動。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "history",
+                "unconfirmedSafety": false
+              }
+            ],
+            "usable": "not_found"
+          }
+        }
+      ],
+      "targetCount": 5,
+      "title": "2026-11-12 正式日報"
+    },
+    {
+      "channelsCovered": [
+        "news",
+        "exhibition",
+        "industry_report"
+      ],
       "date": "2026-11-11",
       "example": false,
       "notes": "正式五筆。主管道：LC-Plasma、Hyabest 為新聞；Rhodiolife、Sharp-PS 為展覽；GK Heripene 為產業報導。未放入未確認安全性項目。Hyabest 台灣上限每日 80 mg；Sharp-PS 限黃豆來源、每日 500 mg。",
@@ -6784,6 +7724,199 @@
     },
     {
       "discovery": {
+        "channel": "exhibition",
+        "notes": "從 NutraIngredients 2026-10-14 SupplySide Global 展場預告的 Kyowa Hakko 攤位進入，再對協和產品頁、Cognizin 專利新聞、兩篇人體試驗。台灣關聯打開 heal.com.tw 成品頁與亨元首頁；前者是成品自述，後者沒有這個商品名。",
+        "scoutDate": "2026-11-12"
+      },
+      "efficacy": {
+        "claimedBenefits": [
+          "協和英文產品頁：Cognizin 用於膳食補充，寫成參與磷脂醯膽鹼合成並轉成乙醯膽鹼，支持精神活力、專注、注意力與回憶。這是供應商說法。含量不低於 98.0%。",
+          "Cognizin 新聞稿：美國專利 US12115181 的用途為改善認知、注意力與運動功能，並寫臨床用量每日 250–500 mg。",
+          "PubMed 26179181：75 名健康青春期男性，Cognizin 250 或 500 mg、28 天，相對安慰劑注意力與心理動作速度較佳、衝動指標較低。"
+        ],
+        "dosageNote": "這是供應商與已打開試驗的劑量，不是台灣法規上限。胞磷膽鹼本身這次沒有列在原料或添加物。",
+        "suggestedDosage": "Cognizin 專利新聞稿寫每日 250–500 mg。青春期男性試驗用 250 或 500 mg、28 天。"
+      },
+      "evidenceLevels": [
+        "clinical"
+      ],
+      "example": false,
+      "id": "cognizin",
+      "images": [
+        {
+          "caption": "Cognizin 官網標誌，不是原料粉末照片。",
+          "localPath": "",
+          "source": "official_site",
+          "url": "https://cognizin.com/themes/cognizin/assets/images/logos/cognizin-logo.png"
+        }
+      ],
+      "literature": {
+        "note": "兩篇都是供應鏈相關的人體試驗，只核打開的摘要與結果句。",
+        "refs": [
+          {
+            "note": "McGlade 等，J Atten Disord.（PMID 26179181）。Cognizin 250 或 500 mg、28 天、75 名青春期男性。只核摘要。",
+            "title": "The Effect of Citicoline Supplementation on Motor Speed and Attention in Adolescent Males",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26179181/"
+          },
+          {
+            "note": "60 名 40–60 歲女性，每日 250 mg、500 mg 或安慰劑、28 天。250 mg 組遺漏與委託錯誤少於安慰劑。",
+            "title": "Improved Attentional Performance Following Citicoline Administration in Healthy Adult Women",
+            "url": "https://doi.org/10.4236/fns.2012.36103"
+          }
+        ],
+        "status": "yes"
+      },
+      "names": {
+        "commonEn": "citicoline (CDP-choline)",
+        "commonZh": "胞磷膽鹼（胞苷二磷酸膽鹼）",
+        "scientific": "不適用植物學名。化合物為 cytidine 5'-diphosphocholine。協和產品頁寫 CAS 987-78-0、含量不低於 98.0%，由發酵製程生產。",
+        "trade": "Cognizin（Kyowa Hakko Bio 的胞磷膽鹼商品名）"
+      },
+      "patent": {
+        "note": "只打開這一件用途專利。",
+        "refs": [
+          {
+            "note": "權利人含 Kyowa Hakko Bio。打開的請求項含每日 250–500 mg 胞磷膽鹼。未核其他國家。",
+            "title": "US12115181B2 - Administration of citicoline to improve cognitive performance, attentional performance, and motor function",
+            "url": "https://patents.google.com/patent/US12115181B2/en"
+          }
+        ],
+        "status": "yes"
+      },
+      "sources": [
+        {
+          "accessed": "2026-11-12",
+          "channel": "exhibition",
+          "publisher": "NutraIngredients",
+          "title": "SupplySide Global 2026: What’s happening on the show floor",
+          "url": "https://www.nutraingredients.com/Article/2026/10/14/supplyside-global-2026-whats-happening-on-the-show-floor/",
+          "whatItContributes": "2026-10-14 展場預告：Kyowa Hakko 攤位 4365 展示 Cognizin，並提供含 Cognizin 的軟糖、棒與餅乾試吃。"
+        },
+        {
+          "accessed": "2026-11-12",
+          "channel": "supplier_site",
+          "publisher": "Kyowa Hakko Bio",
+          "title": "Citicoline / Cognizin",
+          "url": "https://www.kyowahakko-bio.co.jp/english/products/citicoline_cognizin/",
+          "whatItContributes": "日本原廠頁：CAS 987-78-0、含量不低於 98.0%、用途寫膳食補充、包裝 25 kg。"
+        },
+        {
+          "accessed": "2026-11-12",
+          "channel": "supplier_site",
+          "publisher": "Cognizin",
+          "title": "Kyowa Hakko USA Receives Patent for Cognizin Citicoline",
+          "url": "https://cognizin.com/news/post/kyowa-hakko-usa-receives-us-patent-cognizin-citicoline-cementing-its-position-gold-standard-ingredient-cognitive-health",
+          "whatItContributes": "專利 US12115181，以及每日 250–500 mg 的用量寫法。"
+        },
+        {
+          "accessed": "2026-11-12",
+          "channel": "paper",
+          "publisher": "PubMed",
+          "title": "PubMed 26179181",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/26179181/",
+          "whatItContributes": "青春期男性 28 天試驗摘要。"
+        },
+        {
+          "accessed": "2026-11-12",
+          "channel": "other",
+          "publisher": "heal.com.tw",
+          "title": "Vimergy Brain Body Memory",
+          "url": "https://www.heal.com.tw/products/brain-body-memory-%E8%85%A6%E8%83%BD%E8%BA%AB%E9%AB%94%E8%A8%98%E6%86%B6%E9%85%8D%E6%96%B9",
+          "whatItContributes": "台灣網頁自述經銷 Vimergy 成品，成分標示含 COGNIZIN。不是原料代理契約。"
+        },
+        {
+          "accessed": "2026-11-12",
+          "channel": "other",
+          "publisher": "亨元",
+          "title": "亨元股份有限公司",
+          "url": "https://www.llab.com.tw/index_tw.php",
+          "whatItContributes": "首頁寫早期代理協和發酵工業的食品加工與工業化學原料。頁面沒有 Cognizin 或胞磷膽鹼。"
+        }
+      ],
+      "supply": {
+        "relationship": "unknown",
+        "relationshipNote": "heal.com.tw 產品頁自述販售 Vimergy 成品，成分寫含 COGNIZIN®，並自稱為 Vimergy 台灣官方授權經銷。這是成品販售與該站自述，不是協和證實的原料代理。亨元股份有限公司首頁寫早期曾代理日本協和發酵工業的食品加工與工業化學原料，打開的頁面沒有 Cognizin 或胞磷膽鹼，不把舊的集團代理升格到這個商品名。以 Cognizin、citicoline、胞磷膽鹼、胞苷二磷酸膽鹼、CDP-choline、協和發酵搭配台灣、代理、經銷複查，沒有看到原料經銷頁。查核日 2026-11-12。",
+        "supplierCountry": "日本",
+        "supplierName": "Kyowa Hakko Bio Co., Ltd.",
+        "taiwanPartyName": "heal.com.tw（頁面自稱希爾林療癒系、Vimergy 台灣官方授權經銷）"
+      },
+      "tfda": {
+        "evidenceNotes": "胞磷膽鹼、citicoline、Cognizin 在食品原料與添加物都是 0 筆，官方開放資料同樣 0 筆。添加物另有英文品名 Choline Chloride、Choline Bitartrate（開放資料中文品名寫成「氯化膽生僉」「重酒石酸膽生僉」），原料另有未確認安全性的磷脂醯膽鹼，都不是本品。not_found 不是准用，也不是禁用。",
+        "lookupDate": "2026-11-12",
+        "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+        "officialCrosscheck": {
+          "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+          "done": false,
+          "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+          "notes": "2026-11-12 消費者專區連線失敗（HTTPS 錯誤、HTTP 502）。官方開放資料 InfoId 4 的 citicoline、Cognizin、胞磷膽鹼為 0 筆；InfoId 61 的 citicoline 為 0 筆，choline 命中兩種膽鹼鹽。"
+        },
+        "queries": [
+          {
+            "category": "",
+            "keyword": "citicoline",
+            "matchedName": "",
+            "note": "外文名 0 筆。開放資料 InfoId 4 同樣 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "胞磷膽鹼",
+            "matchedName": "",
+            "note": "中文名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Cognizin",
+            "matchedName": "",
+            "note": "商品名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Phosphatidylcholine",
+            "matchedName": "磷脂醯膽鹼",
+            "note": "這是另一個化合物，不是胞磷膽鹼。未放入本筆。",
+            "restrictionNote": "部位純化物。備註：非屬准用之食品添加物或可供食品使用之原料，尚不得用於食品。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": true
+          },
+          {
+            "category": "",
+            "keyword": "choline",
+            "matchedName": "Choline Chloride；Choline Bitartrate",
+            "note": "是膽鹼鹽，不是 citicoline。開放資料 InfoId 61 的 citicoline 為 0 筆。",
+            "restrictionNote": "開放資料中文品名為「氯化膽生僉」「重酒石酸膽生僉」。皆可於各類食品視需要適量使用，限於補充食品中不足之營養素。",
+            "resultCount": 2,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "citicoline",
+            "matchedName": "",
+            "note": "助手更新歷程（11/01–11/11）沒有這筆異動。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "history",
+            "unconfirmedSafety": false
+          }
+        ],
+        "usable": "not_found"
+      }
+    },
+    {
+      "discovery": {
         "channel": "industry_report",
         "notes": "從 NutraIngredients 2026-05-28 的肌酸供給報導看到 Creapure，再對 Alzchem 品牌頁、Creapure 劑量頁，以及呈定企業目錄。目錄有列出 Creapure，但沒有寫代理或經銷。",
         "scoutDate": "2026-11-05"
@@ -8169,6 +9302,200 @@
     {
       "discovery": {
         "channel": "industry_report",
+        "notes": "從 Nutrition Insight 2026-11-05 腦健康產業訪談進入，再對 Saanroo 與 Pharmako 產品頁、PMC10891801，以及 2018 年 LipiSperse 專利新聞。台灣關聯打開生資總表、HydroCurc 頁與和聚 Testofen 頁，確認同集團其他商品沒有寫 Levagen。",
+        "scoutDate": "2026-11-12"
+      },
+      "efficacy": {
+        "claimedBenefits": [
+          "Nutrition Insight 2026-11-05 訪問 Saanroo：Levagen+ 是可分散的棕櫚醯乙醇胺。文中寫 2024 年交叉試驗每日 700 mg、六週、39 人完成，循環 BDNF 上升，配對聯想測驗錯誤減少。研究由供應商資助。",
+          "同一篇論文的方法段寫每日兩粒、每粒 350 mg（其中 300 mg PEA、50 mg 賦形），合計 PEA 600 mg，與摘要的 700 mg 不一致。這裡兩句都留下。",
+          "Saanroo 原料頁寫 LipiSperse 使 PEA 冷水可分散，並寫相對未配方 PEA 的生體可用率為 1.75 倍。這是供應商說法。"
+        ],
+        "dosageNote": "以上是論文與供應商頁的劑量，論文摘要與方法不一致。不是台灣法規上限。",
+        "suggestedDosage": "2024 年認知試驗摘要寫每日 700 mg Levagen+；方法段寫每日 PEA 600 mg。Saanroo 頁寫粉末組成 90% PEA、10% LipiSperse。Pharmako 頁另寫關節研究用每日 300 mg 與 600 mg。"
+      },
+      "evidenceLevels": [
+        "clinical"
+      ],
+      "example": false,
+      "id": "levagen-plus",
+      "images": [
+        {
+          "caption": "Pharmako 官網 Levagen+ 標誌，不是粉末照片。",
+          "localPath": "",
+          "source": "official_site",
+          "url": "https://images.squarespace-cdn.com/content/v1/5f311e5e1b5ab209909db68c/3dc23730-e5b2-4417-8f8c-6908714f7b0e/LEVAGEN+LOGO+CS5+PLUS+(1).png"
+        }
+      ],
+      "literature": {
+        "note": "已打開這一篇。供應商稱還有其他臨床，這次沒有逐篇打開。",
+        "refs": [
+          {
+            "note": "Nutrients 相關全文頁（PMC10891801）。39 人完成、六週交叉。摘要寫 700 mg/day，方法段寫每日 600 mg PEA。",
+            "title": "Formulated Palmitoylethanolamide Supplementation Improves Parameters of Cognitive Function and BDNF Levels in Young, Healthy Adults: A Randomised Cross-Over Trial",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10891801/"
+          }
+        ],
+        "status": "yes"
+      },
+      "names": {
+        "commonEn": "palmitoylethanolamide (cold-water dispersible)",
+        "commonZh": "棕櫚醯乙醇胺（冷水分散型）",
+        "scientific": "不適用植物學名。PEA 是內源性脂肪酸醯胺。Saanroo 原料頁寫粉末為 90% PEA 與 10% LipiSperse，PEA 本體在印度合成。",
+        "trade": "Levagen+（Saanroo／Gencor 的 PEA 商品名，搭配 Pharmako 的 LipiSperse）"
+      },
+      "patent": {
+        "note": "Pharmako 的 Levagen 頁寫使用專利 LipiSperse。專利號本次未核到。",
+        "refs": [
+          {
+            "note": "2018-11-28：NutraIngredients 寫 LipiSperse 已獲 WIPO 專利核准，並用於 Levagen+。這次沒有打開專利號全文。",
+            "title": "Pharmako patent approval for delivery system technology",
+            "url": "https://www.nutraingredients.com/Article/2018/11/28/Pharmako-patent-approval-for-delivery-system-technology-opens-doors-for-NPD-and-new-partnerships/"
+          }
+        ],
+        "status": "yes"
+      },
+      "sources": [
+        {
+          "accessed": "2026-11-12",
+          "channel": "industry_report",
+          "publisher": "Nutrition Insight",
+          "title": "Brain health supplements expand into digital overload and menopause brain fog",
+          "url": "https://www.nutritioninsight.com/news/brain-health-supplements-kemin-balchem-saanroo-probi.html",
+          "whatItContributes": "2026-11-05 產業訪談：Saanroo 的 Levagen+、每日 700 mg 認知試驗與 BDNF。"
+        },
+        {
+          "accessed": "2026-11-12",
+          "channel": "supplier_site",
+          "publisher": "Saanroo",
+          "title": "Levagen+",
+          "url": "https://www.saanroo.com/ingredients/levagen",
+          "whatItContributes": "90% PEA、10% LipiSperse；PEA 在印度合成；寫生體可用率 1.75 倍。"
+        },
+        {
+          "accessed": "2026-11-12",
+          "channel": "supplier_site",
+          "publisher": "Pharmako Biotechnologies",
+          "title": "Levagen+ — Pharmako Biotechnologies",
+          "url": "https://www.pharmako.com.au/levagen",
+          "whatItContributes": "澳洲頁：冷水可分散 PEA，關節研究寫每日 300 mg 與 600 mg，並寫 LipiSperse 為專利技術。"
+        },
+        {
+          "accessed": "2026-11-12",
+          "channel": "paper",
+          "publisher": "PMC",
+          "title": "PMC10891801",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10891801/",
+          "whatItContributes": "年輕成人交叉試驗。摘要與方法的劑量寫法不同，論文署名 Gencor Pacific Limited。"
+        },
+        {
+          "accessed": "2026-11-12",
+          "channel": "other",
+          "publisher": "生資有限公司",
+          "title": "生資原料列表與 HydroCurc 頁",
+          "url": "https://www.nutrisense.com.tw/all-ingredients/",
+          "whatItContributes": "台灣原料目錄打開後沒有 Levagen。同站 HydroCurc 頁是另一個商品名。"
+        },
+        {
+          "accessed": "2026-11-12",
+          "channel": "news",
+          "publisher": "NutraIngredients",
+          "title": "Osteoarthritis opportunity: Gencor eyes South East Asia and Taiwan",
+          "url": "https://www.nutraingredients.com/Article/2019/05/29/Osteoarthritis-opportunity-Gencor-eyes-South-East-Asia-and-Taiwan-after-Levagen-study-boost/",
+          "whatItContributes": "2019-05-29：Gencor 說與台灣產業夥伴討論，沒有指出公司名稱。"
+        },
+        {
+          "accessed": "2026-11-12",
+          "channel": "other",
+          "publisher": "卓昇有限公司",
+          "title": "Palmitoylethanolamide 試劑目錄",
+          "url": "https://www.interlabbiotech.com/wp/product-name/palmitoylethanolamide",
+          "whatItContributes": "台灣科學研究供應商的 PEA 試劑型號，頁面沒有 Levagen。"
+        },
+        {
+          "accessed": "2026-11-12",
+          "channel": "other",
+          "publisher": "科羅耐國際科技有限公司",
+          "title": "科羅耐 Palmitoylethanolamide 10 mg",
+          "url": "http://www.kelowna.com.tw/pdtView.php?pid=561095",
+          "whatItContributes": "研究用試劑 10 mg，不是 Levagen 食品原料。"
+        }
+      ],
+      "supply": {
+        "relationship": "unknown",
+        "relationshipNote": "2026-11-12 以 Levagen、Levagen+、palmitoylethanolamide、PEA、棕櫚醯乙醇胺、Gencor、Saanroo、Pharmako、LipiSperse 搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商交叉查詢。生資原料總表與 HydroCurc 頁、和聚的 Testofen 頁都沒有 Levagen，同集團其他商品不算這個商品名的代理。發布前再打開卓昇的 Palmitoylethanolamide 目錄（研究用試劑 B6485）與科羅耐的 10 mg 試劑頁，兩頁都沒有 Levagen，是同一化合物的研究用試劑，不是食品原料經銷。2019-05-29 NutraIngredients 只寫與台灣產業夥伴討論、沒有公司名。查核日 2026-11-12。Saanroo 登記國未另核到，論文地址在香港大嶼山，供應商國家先記香港。",
+        "supplierCountry": "香港",
+        "supplierName": "Saanroo（Nutrition Insight 2026-11-05 寫 Gencor，now Saanroo；2024 年論文署名 Gencor Pacific Limited）",
+        "taiwanPartyName": "本次查無台灣關聯廠商"
+      },
+      "tfda": {
+        "evidenceNotes": "2026-11-12 原料與添加物查 Levagen、palmitoylethanolamide、棕櫚醯乙醇胺皆 0 筆，官方開放資料 InfoId 4 與 61 同樣 0 筆。不是「未確認安全性」分類。not_found 只表示這次沒查到，不是准用，也不是禁用。",
+        "lookupDate": "2026-11-12",
+        "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+        "officialCrosscheck": {
+          "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+          "done": false,
+          "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+          "notes": "2026-11-12 消費者專區連線失敗。官方開放資料 InfoId 4 與 61 查 Levagen、palmitoylethanolamide、棕櫚醯乙醇胺皆 0 筆。"
+        },
+        "queries": [
+          {
+            "category": "",
+            "keyword": "palmitoylethanolamide",
+            "matchedName": "",
+            "note": "化合物英文名 0 筆。開放資料 InfoId 4 同樣 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "棕櫚醯乙醇胺",
+            "matchedName": "",
+            "note": "中文名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Levagen",
+            "matchedName": "",
+            "note": "商品名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "palmitoylethanolamide",
+            "matchedName": "",
+            "note": "添加物分頁 0 筆。開放資料 InfoId 61 同樣 0 筆。短字 PEA 會命中無關英文，未拿來當筆數。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Levagen",
+            "matchedName": "",
+            "note": "助手更新歷程（11/01–11/11）沒有這筆異動。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "history",
+            "unconfirmedSafety": false
+          }
+        ],
+        "usable": "not_found"
+      }
+    },
+    {
+      "discovery": {
+        "channel": "industry_report",
         "notes": "從藻類 omega-3 市場稿點名的 life'sDHA B54-0100 進入，再對 dsm-firmenich 新聞稿與產品頁、仁友興業目錄。PubMed 沒有掛這個商品名的論文，專利號也沒有對到。與 11 月 9 日磷蝦油不是同一筆原料。",
         "scoutDate": "2026-11-10"
       },
@@ -9015,6 +10342,189 @@
     },
     {
       "discovery": {
+        "channel": "news",
+        "notes": "從 NutraIngredients 2026-09-02 健康壽命產品新聞的 Timeline 軟糖進入，再對 Timeline 常見問答、PubMed 35584623、JAMA Network Open 四週試驗與 Amazentis 專利。台灣關聯以商品名與尿石素中英文搭配台灣、代理、經銷重查，只見到跨境成品，沒有台灣原料廠商頁。",
+        "scoutDate": "2026-11-12"
+      },
+      "efficacy": {
+        "claimedBenefits": [
+          "NutraIngredients 2026-09-02 轉述 Timeline：Mitopure 著重粒線體品質與肌肉功能，並寫公司臨床組合在 28 天看到細胞能量、16 週肌肉力量最多增加 12%。這是新聞裡的公司說法。",
+          "Cell Reports Medicine 2022（PMID 35584623，Mitopure，中年成人、四個月）：火腿肌平均峰扭力 500 mg 組相對安慰劑 +12%（p=0.027）、1000 mg 組 +9.8%（p=0.029）。主要終點尖峰功率沒有顯著改善。作者含 Amazentis。",
+          "JAMA Network Open 的四週 RCT（1000 mg，50 名中年肥胖成人）：周邊血管內皮功能相對安慰劑沒有顯著差異；任務誘發的腦血流反應較高。論文寫成值得再研究，不是已確認的腦部功效。"
+        ],
+        "dosageNote": "以上是品牌建議與已打開的試驗劑量，不是台灣法規上限。助手與開放資料都沒有這筆化合物。",
+        "suggestedDosage": "Timeline 常見問答：每日 500 mg 或 1000 mg；軟膠囊與軟糖各兩顆、粉末一包為 500 mg。四個月肌肉試驗用 500 mg 與 1000 mg。"
+      },
+      "evidenceLevels": [
+        "clinical"
+      ],
+      "example": false,
+      "id": "mitopure",
+      "images": [
+        {
+          "caption": "Mitopure 官網分享圖，不是原料包裝規格書。",
+          "localPath": "",
+          "source": "official_site",
+          "url": "https://cdn.sanity.io/images/9likowm1/mitopure_com/9113f0e0e578728a6510da6056be871eaff6820c-2640x1760.jpg"
+        }
+      ],
+      "literature": {
+        "note": "兩篇都是人體試驗。肌肉那篇的主要終點沒有過。",
+        "refs": [
+          {
+            "note": "Singh 等，Cell Reports Medicine 2022（PMID 35584623）。主要終點尖峰功率未顯著改善；火腿肌力量有組間差異。只核 PubMed 頁所載摘要與結果表。",
+            "title": "Urolithin A improves muscle strength, exercise performance, and biomarkers of mitochondrial health in a randomized trial in middle-aged adults",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35584623/"
+          },
+          {
+            "note": "四週、1000 mg、50 人。周邊內皮功能沒有顯著治療差異。",
+            "title": "Urolithin A and Endothelial and Cerebrovascular Function in Middle-Aged Adults With Obesity",
+            "url": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2855121"
+          }
+        ],
+        "status": "yes"
+      },
+      "names": {
+        "commonEn": "urolithin A",
+        "commonZh": "尿石素 A",
+        "scientific": "不適用植物學名。尿石素 A 是鞣花單寧經腸道菌代謝後的產物。Timeline 常見問答寫 Mitopure 為合成且純度大於 99%；Amazentis 首頁寫大於 98%。兩處數字不一致，這裡都留下。",
+        "trade": "Mitopure（Amazentis 的尿石素 A 商品名；消費者品牌為 Timeline）"
+      },
+      "patent": {
+        "note": "mitopure.com/patents 另列多件美國專利號，這次只打開 US11931335B2。",
+        "refs": [
+          {
+            "note": "權利人 Amazentis SA。打開的頁面是尿石素用於自噬的方法專利，未逐條核對是否涵蓋市售 Mitopure 規格。",
+            "title": "US11931335B2 - Enhancing autophagy or increasing longevity by administration of urolithins or precursors thereof",
+            "url": "https://patents.google.com/patent/US11931335B2/en"
+          }
+        ],
+        "status": "yes"
+      },
+      "sources": [
+        {
+          "accessed": "2026-11-12",
+          "channel": "news",
+          "publisher": "NutraIngredients",
+          "title": "Healthspan supplement launches enter stacked market building on platforms",
+          "url": "https://www.nutraingredients.com/Article/2026/09/02/healthspan-supplement-launches-enter-stacked-market-building-on-platforms/",
+          "whatItContributes": "2026-09-02 新聞：Timeline 無糖莓果軟糖使用 Mitopure（尿石素 A），並轉述 16 週肌肉力量與 28 天細胞能量的公司說法。"
+        },
+        {
+          "accessed": "2026-11-12",
+          "channel": "supplier_site",
+          "publisher": "Timeline",
+          "title": "Mitopure FAQ",
+          "url": "https://www.timeline.com/faq",
+          "whatItContributes": "Amazentis 在瑞士洛桑、Timeline 在美國；每日 500 mg 或 1000 mg；寫成合成且純度大於 99% 的尿石素 A。"
+        },
+        {
+          "accessed": "2026-11-12",
+          "channel": "paper",
+          "publisher": "Cell Reports Medicine（PubMed）",
+          "title": "PubMed 35584623",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/35584623/",
+          "whatItContributes": "四個月 RCT：火腿肌力量與主要終點尖峰功率的結果。"
+        },
+        {
+          "accessed": "2026-11-12",
+          "channel": "patent",
+          "publisher": "Google Patents",
+          "title": "US11931335B2",
+          "url": "https://patents.google.com/patent/US11931335B2/en",
+          "whatItContributes": "Amazentis 的尿石素用途專利。"
+        },
+        {
+          "accessed": "2026-11-12",
+          "channel": "other",
+          "publisher": "iHerb 台灣站",
+          "title": "Timeline, Urolithin A, 60 Softgels",
+          "url": "https://tw.iherb.com/pr/timeline-urolithin-a-60-softgels/160198",
+          "whatItContributes": "跨境成品零售，每份 2 粒含 Mitopure 500 mg。不是台灣原料代理。"
+        },
+        {
+          "accessed": "2026-11-12",
+          "channel": "other",
+          "publisher": "Naturecan TW",
+          "title": "尿石素A膠囊（Urolithin A）",
+          "url": "https://www.naturecan.tw/products/urolithin-a",
+          "whatItContributes": "台灣站成品：每顆 500 mg 尿石素 A。頁面沒有 Mitopure 或 Amazentis。"
+        }
+      ],
+      "supply": {
+        "relationship": "unknown",
+        "relationshipNote": "2026-11-12 以 Mitopure、Timeline、Urolithin A、尿石素、尿石素 A、Amazentis 搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商交叉查詢。iHerb 台灣站是 Timeline 成品跨境零售。Naturecan TW 成品頁寫每顆 500 mg 尿石素 A、歐洲製造，全文沒有 Mitopure 或 Amazentis，只記同一化合物的成品，不當成這個商品名的代理。締納斯集團原料頁寫 Mitopure，地址在香港，不是台灣公司。發布前再查一次，仍無台灣廠商把 Mitopure 寫成原料代理或經銷。查核日 2026-11-12。",
+        "supplierCountry": "瑞士",
+        "supplierName": "Amazentis SA（消費者品牌 Timeline）",
+        "taiwanPartyName": "本次查無台灣關聯廠商"
+      },
+      "tfda": {
+        "evidenceNotes": "2026-11-12 用查詢助手（data.json 更新於 2026-11-11）查食品原料與添加物：Mitopure、urolithin A、尿石素皆 0 筆。同日官方開放資料 InfoId 4、61 同樣 0 筆。不是「未確認安全性」分類。not_found 只表示這次沒查到此化合物，不是准用，也不是禁用。",
+        "lookupDate": "2026-11-12",
+        "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+        "officialCrosscheck": {
+          "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+          "done": false,
+          "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+          "notes": "2026-11-12 消費者專區 HTTPS 連線失敗、HTTP 為 502，詳細頁打不開。另下載官方開放資料 InfoId 4 與 61，urolithin、尿石素、Mitopure 皆 0 筆，與助手一致。"
+        },
+        "queries": [
+          {
+            "category": "",
+            "keyword": "urolithin A",
+            "matchedName": "",
+            "note": "外文名 0 筆。官方開放資料 InfoId 4 同樣 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "尿石素",
+            "matchedName": "",
+            "note": "中文名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Mitopure",
+            "matchedName": "",
+            "note": "商品名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "urolithin",
+            "matchedName": "",
+            "note": "添加物分頁 0 筆。開放資料 InfoId 61 同樣 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "urolithin",
+            "matchedName": "",
+            "note": "助手更新歷程（11/01–11/11）沒有這筆異動。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "history",
+            "unconfirmedSafety": false
+          }
+        ],
+        "usable": "not_found"
+      }
+    },
+    {
+      "discovery": {
         "channel": "industry_report",
         "notes": "從 Mordor Intelligence 2026 乳鐵蛋白市場報告進入，再對森永研發頁、兩篇森永 RCT、Google Patents 與登盛台灣頁。",
         "scoutDate": "2026-11-09"
@@ -9652,6 +11162,183 @@
             "keyword": "Nextida",
             "matchedName": "",
             "note": "更新歷程未見此商品名。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "history",
+            "unconfirmedSafety": false
+          }
+        ],
+        "usable": "listed_food_ingredient"
+      }
+    },
+    {
+      "discovery": {
+        "channel": "exhibition",
+        "notes": "從 Vitafoods Insights 2026-07-14 的 Vitafoods Asia 參展預告進入，再對展會產品頁、Bionap 產品頁、Nutrients 2024 與歐洲專利。台灣關聯查到的是義大利原廠在台商標與新加坡亞太窗口，沒有台灣經銷產品頁。",
+        "scoutDate": "2026-11-12"
+      },
+      "efficacy": {
+        "claimedBenefits": [
+          "Bionap 產品頁：ODILIA 是仙人掌葉狀莖汁粉末，標準化多醣與 piscidic acid，宣稱作為益生質、支持腸道菌相，並經微生物–腸–腦–肌肉軸幫助減輕疲勞與壓力。這是供應商說法。建議量寫每日 300 mg。",
+          "Nutrients 2024（DOI 10.3390/nu16050586）：80 名腸道菌相失衡成人，每日 300 mg ODILIA 或麥芽糊精、八週。八週後 Firmicutes/Bacteroidetes 比值下降（p=0.0012），GIQLI 與 GSAS 分數有改善。原料由 Bionap 提供。"
+        ],
+        "dosageNote": "這是供應商建議與該篇試驗劑量，不是台灣法規上限。TFDA 仙人掌這筆沒有每日用量，部位含葉狀莖。",
+        "suggestedDosage": "Bionap 產品頁與上述 RCT 都是每日 300 mg。賣頁寫多醣（以葡萄糖計）40–60%、piscidic acid 至少 0.5%。"
+      },
+      "evidenceLevels": [
+        "clinical"
+      ],
+      "example": false,
+      "id": "odilia",
+      "images": [
+        {
+          "caption": "Bionap 官網 ODILIA 產品圖。",
+          "localPath": "",
+          "source": "official_site",
+          "url": "https://bionap.com/assets/images/products/odilia/img_1.png"
+        }
+      ],
+      "literature": {
+        "note": "人體試驗由原料供應方提供試驗品。",
+        "refs": [
+          {
+            "note": "Nutrients 2024, 16(5), 586。每日 300 mg、八週、80 人。只核該頁所載摘要與介入描述。",
+            "title": "A Randomized, Double-Blind, Placebo-Controlled Trial: Efficacy of Opuntia ficus-indica Prebiotic Supplementation in Subjects with Gut Dysbiosis",
+            "url": "https://www.mdpi.com/2072-6643/16/5/586"
+          }
+        ],
+        "status": "yes"
+      },
+      "names": {
+        "commonEn": "prickly pear cladode juice extract",
+        "commonZh": "梨果仙人掌葉狀莖汁萃取物",
+        "scientific": "Opuntia ficus-indica (L.) Mill.（葉狀莖汁）",
+        "trade": "ODILIA（Bionap 的仙人掌葉狀莖萃取商品名）"
+      },
+      "patent": {
+        "note": "只打開這一件相關專利。商品頁沒有另給 ODILIA 專用專利號。",
+        "refs": [
+          {
+            "note": "申請人 Bionap。打開的請求項是仙人掌葉狀莖萃取與油橄欖葉萃取的組合，用於痔瘡相關用途。沒有核到這件專利就是 ODILIA 腸道宣稱的權利範圍。",
+            "title": "EP2473178A2 - Composition for the treatment of hemorrhoids and related diseases",
+            "url": "https://patents.google.com/patent/EP2473178A2/en"
+          }
+        ],
+        "status": "yes"
+      },
+      "sources": [
+        {
+          "accessed": "2026-11-12",
+          "channel": "exhibition",
+          "publisher": "Vitafoods Insights",
+          "title": "BIONAP brings the Mediterranean to Vitafoods Asia",
+          "url": "https://www.vitafoodsinsights.com/botanicals-herbs/bionap-brings-the-mediterranean-to-vitafoods-asia",
+          "whatItContributes": "2026-07-14：Vitafoods Asia 攤位 H5-E41，ODILIA 在新原料區，寫西西里梨果仙人掌莖片萃取、每日 300 mg。"
+        },
+        {
+          "accessed": "2026-11-12",
+          "channel": "exhibition",
+          "publisher": "Vitafoods Asia",
+          "title": "ODILIA at Vitafoods Asia 2026",
+          "url": "https://visitor.vitafoodsglobal.com/event/vitafoods-asia-2026/product/UHJvZHVjdF8xNTA2ODYy",
+          "whatItContributes": "展會產品頁：每日 300 mg、多醣與 piscidic acid，Bionap Asia Pacific 為新加坡窗口。"
+        },
+        {
+          "accessed": "2026-11-12",
+          "channel": "supplier_site",
+          "publisher": "Bionap",
+          "title": "BIONAP - Odilia",
+          "url": "https://bionap.com/products/odilia",
+          "whatItContributes": "義大利 Belpasso 原廠頁：Opuntia ficus-indica 葉狀莖汁萃取、每日 300 mg。"
+        },
+        {
+          "accessed": "2026-11-12",
+          "channel": "paper",
+          "publisher": "Nutrients（MDPI）",
+          "title": "Nutrients 2024 ODILIA trial",
+          "url": "https://www.mdpi.com/2072-6643/16/5/586",
+          "whatItContributes": "八週、每日 300 mg 的隨機雙盲試驗摘要。"
+        },
+        {
+          "accessed": "2026-11-12",
+          "channel": "other",
+          "publisher": "經濟部智慧財產局公開資料轉載",
+          "title": "ODILIA 商標",
+          "url": "https://www.findcompany.com.tw/trademark/02407471_113005291",
+          "whatItContributes": "商標權人是義大利 BIONAP SRL。在台聯絡人是商標代理人，不是原料經銷商。"
+        },
+        {
+          "accessed": "2026-11-12",
+          "channel": "exhibition",
+          "publisher": "亞洲美容保養生技保健大展參展頁",
+          "title": "香檸檬萃取物（和聚國際展會頁）",
+          "url": "https://www.chanchao.com.tw/healthcos/visitorProductDetail.asp?no=179730",
+          "whatItContributes": "和聚國際參展的是 Bionap 的 Bergavit 香檸檬萃取，頁面沒有 ODILIA。"
+        }
+      ],
+      "supply": {
+        "relationship": "unknown",
+        "relationshipNote": "2026-11-12 以 ODILIA、Odilia、Bionap、比奧納普、Opuntia ficus-indica、仙人掌萃取、梨果仙人掌搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商交叉查詢。商標「ODILIA」權人是義大利 BIONAP SRL，在台只見商標代理人。Bionap Asia Pacific 在新加坡。發布前複查時打開和聚國際的展會頁，該頁寫的是 Bionap 另一商品 Bergavit（香檸檬），沒有 ODILIA，不把同廠其他商品當成這個商品名的代理。查核日 2026-11-12。",
+        "supplierCountry": "義大利",
+        "supplierName": "Bionap S.r.l.",
+        "taiwanPartyName": "本次查無台灣關聯廠商"
+      },
+      "tfda": {
+        "evidenceNotes": "食品原料以 Opuntia ficus-indica 查到「仙人掌」1 筆，部位果實、葉狀莖，可供食品使用，備註空白。同屬的 Opuntia humifusa、O. stricta 另列未確認安全性，學名不同，不是本品。商品名 ODILIA 與添加物都是 0 筆。官方開放資料與助手一致；詳細頁 id=16972 當下打不開。",
+        "lookupDate": "2026-11-12",
+        "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+        "officialCrosscheck": {
+          "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+          "done": true,
+          "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+          "notes": "2026-11-12 官方開放資料 InfoId 4：仙人掌、Cactus、Opuntia ficus-indica (L) Miller 與 Opuntia dillenii、部位果實與葉狀莖、可供食品使用，備註空。同檔另見 O. humifusa、O. stricta 為未確認且不得作為食品原料。消費者專區詳細頁 id=16972 當下 HTTPS 失敗、HTTP 502。"
+        },
+        "queries": [
+          {
+            "category": "",
+            "keyword": "Opuntia ficus-indica",
+            "matchedName": "仙人掌",
+            "note": "本品學名對這一筆。官方開放資料 InfoId 4 相同。",
+            "restrictionNote": "學名同時列 Opuntia ficus-indica (L) Miller 與 Opuntia dillenii (Ker Gawl.) Haw.，部位果實、葉狀莖。備註空白。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "仙人掌",
+            "matchedName": "仙人掌",
+            "note": "5 筆含印度仙人掌（Caralluma fimbriata，不同學名）與備註帶有「仙人掌」字樣的其他原料。未確認的兩筆不是 O. ficus-indica。",
+            "restrictionNote": "可供食用的是果實、葉狀莖。另有圓武扇（Opuntia humifusa）與縮刺仙人掌（Opuntia stricta）寫未確認安全性、不得供為食品原料。",
+            "resultCount": 5,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "ODILIA",
+            "matchedName": "",
+            "note": "商品名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "仙人掌",
+            "matchedName": "",
+            "note": "添加物分頁 0 筆。開放資料 InfoId 61 同樣 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "仙人掌",
+            "matchedName": "",
+            "note": "助手更新歷程（11/01–11/11）沒有這筆異動。",
             "restrictionNote": "",
             "resultCount": 0,
             "tab": "history",
@@ -11658,6 +13345,185 @@
             "keyword": "沒食子",
             "matchedName": "",
             "note": "助手更新歷程未另見改列未確認。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "history",
+            "unconfirmedSafety": false
+          }
+        ],
+        "usable": "listed_food_ingredient"
+      }
+    },
+    {
+      "discovery": {
+        "channel": "exhibition",
+        "notes": "從 Nutraceuticals World 2026-10-05 SupplySide Global 展前記者稿進入，再對 NutraIngredients 10 月 14 日展場預告、TriNutra 產品頁、美隆品牌頁與 2020 年非隨機試驗。台灣關聯以 ThymoQuin、黑種草油、Nigella sativa、百里醌搭配台灣、代理、經銷查詢後打開美隆頁與展會參展頁。",
+        "scoutDate": "2026-11-12"
+      },
+      "efficacy": {
+        "claimedBenefits": [
+          "Nutraceuticals World 2026-10-05：TriNutra 將在 SupplySide Global 談腸道與壓力。文中寫每日 500 mg，標準化至少 3% 百里醌、對傘花烴大於 1%、游離脂肪酸不高於 1.25%，並轉述皮質醇、睡眠與微生物的新研究。這是展前記者稿。",
+          "Food Science & Nutrition Research 2020（DOI 10.33425/2641-4295.1029）：非隨機、先給 ThymoQuin 再給安慰劑。文中寫 20 名成人每日 500 mg、六週，收縮壓平均自 143.5 降到 127.3 mmHg、舒張壓自 90.7 降到 79.6 mmHg。論文同時寫受試者血壓正常，與上述基準值並陳，這裡只照論文記載。"
+        ],
+        "dosageNote": "這是供應商與該篇非隨機試驗的劑量，不是台灣法規上限。TFDA 黑種草油這筆沒有每日用量。",
+        "suggestedDosage": "展前記者稿與 2020 論文都寫每日 500 mg。ThymoQuin 原料頁寫標準化 3% 百里醌、低游離脂肪酸。"
+      },
+      "evidenceLevels": [
+        "clinical"
+      ],
+      "example": false,
+      "id": "thymoquin",
+      "images": [
+        {
+          "caption": "ThymoQuin 官網原料圖。",
+          "localPath": "",
+          "source": "official_site",
+          "url": "https://thymoquin.com/cdn/shop/files/ThymoQuin_-_Ingredient.webp?v=1791205955"
+        }
+      ],
+      "literature": {
+        "note": "2026 年皮質醇與微生物結果這次只見展前記者稿，沒有打開對應期刊全文，不另算進文獻。",
+        "refs": [
+          {
+            "note": "Bush 等，Food Science & Nutrition Research 2020。非隨機、n 約 20、每日 500 mg ThymoQuin。作者含 TriNutra／Pharmaseed。",
+            "title": "Effects of Standardized Black Seed Oil Cold Press Supplement Over A Six Week Period on Blood Pressure and Heart Rate in Healthy Patients: A Nonrandomized Clinical Trial",
+            "url": "https://doi.org/10.33425/2641-4295.1029"
+          }
+        ],
+        "status": "yes"
+      },
+      "names": {
+        "commonEn": "black seed oil standardized for thymoquinone",
+        "commonZh": "黑種草籽油（標準化百里醌）",
+        "scientific": "Nigella sativa L.（種子油）",
+        "trade": "ThymoQuin（TriNutra 的冷壓黑種草籽油商品名）"
+      },
+      "patent": {
+        "note": "美隆頁另寫成分與配方共 3 項國際專利，並點名 WO2019016794。2024 年另有冷壓油組成專利的新聞，這次沒有打開那個專利號。",
+        "refs": [
+          {
+            "note": "該頁寫專利號 US 11,426,365 B2、PCT WO2019/016794，權利人 TRINUTRA LTD.（以色列 Ness Ziona）。權利範圍是百里醌與 omega-3 的組合，不是單獨核過冷壓油規格的每一項宣稱。",
+            "title": "US11426365B2 - Compositions comprising thymoquinone and omega-3 fatty acids",
+            "url": "https://www.patents-review.com/a/20200138743-compositions-comprising-thymoquinone-omega-3-fatty-acids.html"
+          }
+        ],
+        "status": "yes"
+      },
+      "sources": [
+        {
+          "accessed": "2026-11-12",
+          "channel": "exhibition",
+          "publisher": "Nutraceuticals World",
+          "title": "TriNutra to Present New Research on ThymoQuin's Gut-Brain Benefits on Stress",
+          "url": "https://www.nutraceuticalsworld.com/live_from_shows/trinutra-to-present-new-research-on-thymoquins-gut-brain-benefits-on-stress/",
+          "whatItContributes": "2026-10-05 展前記者稿：SupplySide Global 2026 攤位 4149、每日 500 mg、3% 百里醌與游離脂肪酸規格。"
+        },
+        {
+          "accessed": "2026-11-12",
+          "channel": "exhibition",
+          "publisher": "NutraIngredients",
+          "title": "SupplySide Global 2026: What’s happening on the show floor",
+          "url": "https://www.nutraingredients.com/Article/2026/10/14/supplyside-global-2026-whats-happening-on-the-show-floor/",
+          "whatItContributes": "2026-10-14 展場預告：TriNutra 攤位 4149，以 ThymoQuin 談腸道與壓力。"
+        },
+        {
+          "accessed": "2026-11-12",
+          "channel": "supplier_site",
+          "publisher": "TriNutra",
+          "title": "ThymoQuin",
+          "url": "https://trinutra.com/pages/thymoquin",
+          "whatItContributes": "官網：冷壓、標準化 3% 百里醌、低游離脂肪酸的黑種草籽油。"
+        },
+        {
+          "accessed": "2026-11-12",
+          "channel": "other",
+          "publisher": "美隆貿易股份有限公司",
+          "title": "ThymoQuin 黑種草籽油",
+          "url": "https://www.meelung.com.tw/zh/brand/view/41",
+          "whatItContributes": "美隆自述供應此原料，寫 TriNutra 生產、3% 百里醌，並引用 WO2019016794。未寫獨家代理。"
+        },
+        {
+          "accessed": "2026-11-12",
+          "channel": "paper",
+          "publisher": "Food Science & Nutrition Research",
+          "title": "Food Science & Nutrition Research 2020",
+          "url": "https://doi.org/10.33425/2641-4295.1029",
+          "whatItContributes": "非隨機人體試驗：每日 500 mg、六週血壓數字。"
+        }
+      ],
+      "supply": {
+        "relationship": "taiwan_distributor",
+        "relationshipNote": "美隆官網品牌頁自述販售 ThymoQuin，並寫以色列廠 TriNutra 生產、定量 3% 百里醌；頁面沒有寫總代理或獨家。2026 亞洲醫療美容展展商頁把美隆列為參展商、TriNutra 列為製造商，同樣未寫獨家。TriNutra 官網這次沒有點名台灣經銷，故不升格為原廠證實。查核日 2026-11-12。",
+        "supplierCountry": "以色列",
+        "supplierName": "TriNutra Ltd.",
+        "taiwanPartyName": "美隆貿易股份有限公司"
+      },
+      "tfda": {
+        "evidenceNotes": "食品原料「黑種草油」1 筆，學名 Nigella sativa L.、部位種子、可供食品使用，備註空白，不是未確認安全性。商品名 ThymoQuin、百里醌與添加物分頁都是 0 筆。2026-11-12 官方開放資料 InfoId 4 與助手一致；消費者專區詳細頁 id=17292 當下打不開。",
+        "lookupDate": "2026-11-12",
+        "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+        "officialCrosscheck": {
+          "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+          "done": true,
+          "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+          "notes": "2026-11-12 下載官方開放資料 InfoId 4：黑種草油、Black Cumin Oil、Nigella sativa L.、部位種子、可供食品使用，備註空，與助手 id=17292 一致。同日消費者專區詳細頁 HTTPS 失敗、HTTP 502，WebFetch 為 500，沒有看到線上詳細頁。"
+        },
+        "queries": [
+          {
+            "category": "",
+            "keyword": "黑種草油",
+            "matchedName": "黑種草油",
+            "note": "與官方開放資料 InfoId 4 同一筆。",
+            "restrictionNote": "學名 Nigella sativa L.，部位種子。備註空白。大分類為可供食品使用之原料。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Nigella sativa",
+            "matchedName": "黑種草油",
+            "note": "學名只命中黑種草油。",
+            "restrictionNote": "部位種子。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "ThymoQuin",
+            "matchedName": "",
+            "note": "商品名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "百里醌",
+            "matchedName": "",
+            "note": "成分中文名 0 筆。列名的是黑種草油，不是純百里醌。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "黑種草",
+            "matchedName": "",
+            "note": "添加物分頁 0 筆。開放資料 InfoId 61 同樣 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "黑種草",
+            "matchedName": "",
+            "note": "助手更新歷程（11/01–11/11）沒有這筆異動。",
             "restrictionNote": "",
             "resultCount": 0,
             "tab": "history",

@@ -1,0 +1,177 @@
+{
+  "id": "odilia",
+  "example": false,
+  "names": {
+    "commonZh": "梨果仙人掌葉狀莖汁萃取物",
+    "commonEn": "prickly pear cladode juice extract",
+    "trade": "ODILIA（Bionap 的仙人掌葉狀莖萃取商品名）",
+    "scientific": "Opuntia ficus-indica (L.) Mill.（葉狀莖汁）"
+  },
+  "supply": {
+    "supplierName": "Bionap S.r.l.",
+    "supplierCountry": "義大利",
+    "relationship": "unknown",
+    "taiwanPartyName": "本次查無台灣關聯廠商",
+    "relationshipNote": "2026-11-12 以 ODILIA、Odilia、Bionap、比奧納普、Opuntia ficus-indica、仙人掌萃取、梨果仙人掌搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商交叉查詢。商標「ODILIA」權人是義大利 BIONAP SRL，在台只見商標代理人。Bionap Asia Pacific 在新加坡。發布前複查時打開和聚國際的展會頁，該頁寫的是 Bionap 另一商品 Bergavit（香檸檬），沒有 ODILIA，不把同廠其他商品當成這個商品名的代理。查核日 2026-11-12。"
+  },
+  "tfda": {
+    "usable": "listed_food_ingredient",
+    "evidenceNotes": "食品原料以 Opuntia ficus-indica 查到「仙人掌」1 筆，部位果實、葉狀莖，可供食品使用，備註空白。同屬的 Opuntia humifusa、O. stricta 另列未確認安全性，學名不同，不是本品。商品名 ODILIA 與添加物都是 0 筆。官方開放資料與助手一致；詳細頁 id=16972 當下打不開。",
+    "lookupDate": "2026-11-12",
+    "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+    "queries": [
+      {
+        "tab": "ingredient",
+        "keyword": "Opuntia ficus-indica",
+        "category": "",
+        "resultCount": 1,
+        "matchedName": "仙人掌",
+        "restrictionNote": "學名同時列 Opuntia ficus-indica (L) Miller 與 Opuntia dillenii (Ker Gawl.) Haw.，部位果實、葉狀莖。備註空白。",
+        "unconfirmedSafety": false,
+        "note": "本品學名對這一筆。官方開放資料 InfoId 4 相同。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "仙人掌",
+        "category": "",
+        "resultCount": 5,
+        "matchedName": "仙人掌",
+        "restrictionNote": "可供食用的是果實、葉狀莖。另有圓武扇（Opuntia humifusa）與縮刺仙人掌（Opuntia stricta）寫未確認安全性、不得供為食品原料。",
+        "unconfirmedSafety": false,
+        "note": "5 筆含印度仙人掌（Caralluma fimbriata，不同學名）與備註帶有「仙人掌」字樣的其他原料。未確認的兩筆不是 O. ficus-indica。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "ODILIA",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "仙人掌",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "添加物分頁 0 筆。開放資料 InfoId 61 同樣 0 筆。"
+      },
+      {
+        "tab": "history",
+        "keyword": "仙人掌",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "助手更新歷程（11/01–11/11）沒有這筆異動。"
+      }
+    ],
+    "officialCrosscheck": {
+      "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+      "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+      "done": true,
+      "notes": "2026-11-12 官方開放資料 InfoId 4：仙人掌、Cactus、Opuntia ficus-indica (L) Miller 與 Opuntia dillenii、部位果實與葉狀莖、可供食品使用，備註空。同檔另見 O. humifusa、O. stricta 為未確認且不得作為食品原料。消費者專區詳細頁 id=16972 當下 HTTPS 失敗、HTTP 502。"
+    }
+  },
+  "efficacy": {
+    "claimedBenefits": [
+      "Bionap 產品頁：ODILIA 是仙人掌葉狀莖汁粉末，標準化多醣與 piscidic acid，宣稱作為益生質、支持腸道菌相，並經微生物–腸–腦–肌肉軸幫助減輕疲勞與壓力。這是供應商說法。建議量寫每日 300 mg。",
+      "Nutrients 2024（DOI 10.3390/nu16050586）：80 名腸道菌相失衡成人，每日 300 mg ODILIA 或麥芽糊精、八週。八週後 Firmicutes/Bacteroidetes 比值下降（p=0.0012），GIQLI 與 GSAS 分數有改善。原料由 Bionap 提供。"
+    ],
+    "suggestedDosage": "Bionap 產品頁與上述 RCT 都是每日 300 mg。賣頁寫多醣（以葡萄糖計）40–60%、piscidic acid 至少 0.5%。",
+    "dosageNote": "這是供應商建議與該篇試驗劑量，不是台灣法規上限。TFDA 仙人掌這筆沒有每日用量，部位含葉狀莖。"
+  },
+  "patent": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "EP2473178A2 - Composition for the treatment of hemorrhoids and related diseases",
+        "url": "https://patents.google.com/patent/EP2473178A2/en",
+        "note": "申請人 Bionap。打開的請求項是仙人掌葉狀莖萃取與油橄欖葉萃取的組合，用於痔瘡相關用途。沒有核到這件專利就是 ODILIA 腸道宣稱的權利範圍。"
+      }
+    ],
+    "note": "只打開這一件相關專利。商品頁沒有另給 ODILIA 專用專利號。"
+  },
+  "literature": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "A Randomized, Double-Blind, Placebo-Controlled Trial: Efficacy of Opuntia ficus-indica Prebiotic Supplementation in Subjects with Gut Dysbiosis",
+        "url": "https://www.mdpi.com/2072-6643/16/5/586",
+        "note": "Nutrients 2024, 16(5), 586。每日 300 mg、八週、80 人。只核該頁所載摘要與介入描述。"
+      }
+    ],
+    "note": "人體試驗由原料供應方提供試驗品。"
+  },
+  "evidenceLevels": [
+    "clinical"
+  ],
+  "images": [
+    {
+      "url": "https://bionap.com/assets/images/products/odilia/img_1.png",
+      "localPath": "",
+      "caption": "Bionap 官網 ODILIA 產品圖。",
+      "source": "official_site"
+    }
+  ],
+  "sources": [
+    {
+      "title": "BIONAP brings the Mediterranean to Vitafoods Asia",
+      "url": "https://www.vitafoodsinsights.com/botanicals-herbs/bionap-brings-the-mediterranean-to-vitafoods-asia",
+      "publisher": "Vitafoods Insights",
+      "channel": "exhibition",
+      "accessed": "2026-11-12",
+      "whatItContributes": "2026-07-14：Vitafoods Asia 攤位 H5-E41，ODILIA 在新原料區，寫西西里梨果仙人掌莖片萃取、每日 300 mg。"
+    },
+    {
+      "title": "ODILIA at Vitafoods Asia 2026",
+      "url": "https://visitor.vitafoodsglobal.com/event/vitafoods-asia-2026/product/UHJvZHVjdF8xNTA2ODYy",
+      "publisher": "Vitafoods Asia",
+      "channel": "exhibition",
+      "accessed": "2026-11-12",
+      "whatItContributes": "展會產品頁：每日 300 mg、多醣與 piscidic acid，Bionap Asia Pacific 為新加坡窗口。"
+    },
+    {
+      "title": "BIONAP - Odilia",
+      "url": "https://bionap.com/products/odilia",
+      "publisher": "Bionap",
+      "channel": "supplier_site",
+      "accessed": "2026-11-12",
+      "whatItContributes": "義大利 Belpasso 原廠頁：Opuntia ficus-indica 葉狀莖汁萃取、每日 300 mg。"
+    },
+    {
+      "title": "Nutrients 2024 ODILIA trial",
+      "url": "https://www.mdpi.com/2072-6643/16/5/586",
+      "publisher": "Nutrients（MDPI）",
+      "channel": "paper",
+      "accessed": "2026-11-12",
+      "whatItContributes": "八週、每日 300 mg 的隨機雙盲試驗摘要。"
+    },
+    {
+      "title": "ODILIA 商標",
+      "url": "https://www.findcompany.com.tw/trademark/02407471_113005291",
+      "publisher": "經濟部智慧財產局公開資料轉載",
+      "channel": "other",
+      "accessed": "2026-11-12",
+      "whatItContributes": "商標權人是義大利 BIONAP SRL。在台聯絡人是商標代理人，不是原料經銷商。"
+    },
+    {
+      "title": "香檸檬萃取物（和聚國際展會頁）",
+      "url": "https://www.chanchao.com.tw/healthcos/visitorProductDetail.asp?no=179730",
+      "publisher": "亞洲美容保養生技保健大展參展頁",
+      "channel": "exhibition",
+      "accessed": "2026-11-12",
+      "whatItContributes": "和聚國際參展的是 Bionap 的 Bergavit 香檸檬萃取，頁面沒有 ODILIA。"
+    }
+  ],
+  "discovery": {
+    "channel": "exhibition",
+    "scoutDate": "2026-11-12",
+    "notes": "從 Vitafoods Insights 2026-07-14 的 Vitafoods Asia 參展預告進入，再對展會產品頁、Bionap 產品頁、Nutrients 2024 與歐洲專利。台灣關聯查到的是義大利原廠在台商標與新加坡亞太窗口，沒有台灣經銷產品頁。"
+  }
+}

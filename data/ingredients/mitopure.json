@@ -1,0 +1,183 @@
+{
+  "id": "mitopure",
+  "example": false,
+  "names": {
+    "commonZh": "尿石素 A",
+    "commonEn": "urolithin A",
+    "trade": "Mitopure（Amazentis 的尿石素 A 商品名；消費者品牌為 Timeline）",
+    "scientific": "不適用植物學名。尿石素 A 是鞣花單寧經腸道菌代謝後的產物。Timeline 常見問答寫 Mitopure 為合成且純度大於 99%；Amazentis 首頁寫大於 98%。兩處數字不一致，這裡都留下。"
+  },
+  "supply": {
+    "supplierName": "Amazentis SA（消費者品牌 Timeline）",
+    "supplierCountry": "瑞士",
+    "relationship": "unknown",
+    "taiwanPartyName": "本次查無台灣關聯廠商",
+    "relationshipNote": "2026-11-12 以 Mitopure、Timeline、Urolithin A、尿石素、尿石素 A、Amazentis 搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商交叉查詢。iHerb 台灣站是 Timeline 成品跨境零售。Naturecan TW 成品頁寫每顆 500 mg 尿石素 A、歐洲製造，全文沒有 Mitopure 或 Amazentis，只記同一化合物的成品，不當成這個商品名的代理。締納斯集團原料頁寫 Mitopure，地址在香港，不是台灣公司。發布前再查一次，仍無台灣廠商把 Mitopure 寫成原料代理或經銷。查核日 2026-11-12。"
+  },
+  "tfda": {
+    "usable": "not_found",
+    "evidenceNotes": "2026-11-12 用查詢助手（data.json 更新於 2026-11-11）查食品原料與添加物：Mitopure、urolithin A、尿石素皆 0 筆。同日官方開放資料 InfoId 4、61 同樣 0 筆。不是「未確認安全性」分類。not_found 只表示這次沒查到此化合物，不是准用，也不是禁用。",
+    "lookupDate": "2026-11-12",
+    "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+    "queries": [
+      {
+        "tab": "ingredient",
+        "keyword": "urolithin A",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "外文名 0 筆。官方開放資料 InfoId 4 同樣 0 筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "尿石素",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "中文名 0 筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Mitopure",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "urolithin",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "添加物分頁 0 筆。開放資料 InfoId 61 同樣 0 筆。"
+      },
+      {
+        "tab": "history",
+        "keyword": "urolithin",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "助手更新歷程（11/01–11/11）沒有這筆異動。"
+      }
+    ],
+    "officialCrosscheck": {
+      "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+      "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+      "done": false,
+      "notes": "2026-11-12 消費者專區 HTTPS 連線失敗、HTTP 為 502，詳細頁打不開。另下載官方開放資料 InfoId 4 與 61，urolithin、尿石素、Mitopure 皆 0 筆，與助手一致。"
+    }
+  },
+  "efficacy": {
+    "claimedBenefits": [
+      "NutraIngredients 2026-09-02 轉述 Timeline：Mitopure 著重粒線體品質與肌肉功能，並寫公司臨床組合在 28 天看到細胞能量、16 週肌肉力量最多增加 12%。這是新聞裡的公司說法。",
+      "Cell Reports Medicine 2022（PMID 35584623，Mitopure，中年成人、四個月）：火腿肌平均峰扭力 500 mg 組相對安慰劑 +12%（p=0.027）、1000 mg 組 +9.8%（p=0.029）。主要終點尖峰功率沒有顯著改善。作者含 Amazentis。",
+      "JAMA Network Open 的四週 RCT（1000 mg，50 名中年肥胖成人）：周邊血管內皮功能相對安慰劑沒有顯著差異；任務誘發的腦血流反應較高。論文寫成值得再研究，不是已確認的腦部功效。"
+    ],
+    "suggestedDosage": "Timeline 常見問答：每日 500 mg 或 1000 mg；軟膠囊與軟糖各兩顆、粉末一包為 500 mg。四個月肌肉試驗用 500 mg 與 1000 mg。",
+    "dosageNote": "以上是品牌建議與已打開的試驗劑量，不是台灣法規上限。助手與開放資料都沒有這筆化合物。"
+  },
+  "patent": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "US11931335B2 - Enhancing autophagy or increasing longevity by administration of urolithins or precursors thereof",
+        "url": "https://patents.google.com/patent/US11931335B2/en",
+        "note": "權利人 Amazentis SA。打開的頁面是尿石素用於自噬的方法專利，未逐條核對是否涵蓋市售 Mitopure 規格。"
+      }
+    ],
+    "note": "mitopure.com/patents 另列多件美國專利號，這次只打開 US11931335B2。"
+  },
+  "literature": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "Urolithin A improves muscle strength, exercise performance, and biomarkers of mitochondrial health in a randomized trial in middle-aged adults",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/35584623/",
+        "note": "Singh 等，Cell Reports Medicine 2022（PMID 35584623）。主要終點尖峰功率未顯著改善；火腿肌力量有組間差異。只核 PubMed 頁所載摘要與結果表。"
+      },
+      {
+        "title": "Urolithin A and Endothelial and Cerebrovascular Function in Middle-Aged Adults With Obesity",
+        "url": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2855121",
+        "note": "四週、1000 mg、50 人。周邊內皮功能沒有顯著治療差異。"
+      }
+    ],
+    "note": "兩篇都是人體試驗。肌肉那篇的主要終點沒有過。"
+  },
+  "evidenceLevels": [
+    "clinical"
+  ],
+  "images": [
+    {
+      "url": "https://cdn.sanity.io/images/9likowm1/mitopure_com/9113f0e0e578728a6510da6056be871eaff6820c-2640x1760.jpg",
+      "localPath": "",
+      "caption": "Mitopure 官網分享圖，不是原料包裝規格書。",
+      "source": "official_site"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Healthspan supplement launches enter stacked market building on platforms",
+      "url": "https://www.nutraingredients.com/Article/2026/09/02/healthspan-supplement-launches-enter-stacked-market-building-on-platforms/",
+      "publisher": "NutraIngredients",
+      "channel": "news",
+      "accessed": "2026-11-12",
+      "whatItContributes": "2026-09-02 新聞：Timeline 無糖莓果軟糖使用 Mitopure（尿石素 A），並轉述 16 週肌肉力量與 28 天細胞能量的公司說法。"
+    },
+    {
+      "title": "Mitopure FAQ",
+      "url": "https://www.timeline.com/faq",
+      "publisher": "Timeline",
+      "channel": "supplier_site",
+      "accessed": "2026-11-12",
+      "whatItContributes": "Amazentis 在瑞士洛桑、Timeline 在美國；每日 500 mg 或 1000 mg；寫成合成且純度大於 99% 的尿石素 A。"
+    },
+    {
+      "title": "PubMed 35584623",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35584623/",
+      "publisher": "Cell Reports Medicine（PubMed）",
+      "channel": "paper",
+      "accessed": "2026-11-12",
+      "whatItContributes": "四個月 RCT：火腿肌力量與主要終點尖峰功率的結果。"
+    },
+    {
+      "title": "US11931335B2",
+      "url": "https://patents.google.com/patent/US11931335B2/en",
+      "publisher": "Google Patents",
+      "channel": "patent",
+      "accessed": "2026-11-12",
+      "whatItContributes": "Amazentis 的尿石素用途專利。"
+    },
+    {
+      "title": "Timeline, Urolithin A, 60 Softgels",
+      "url": "https://tw.iherb.com/pr/timeline-urolithin-a-60-softgels/160198",
+      "publisher": "iHerb 台灣站",
+      "channel": "other",
+      "accessed": "2026-11-12",
+      "whatItContributes": "跨境成品零售，每份 2 粒含 Mitopure 500 mg。不是台灣原料代理。"
+    },
+    {
+      "title": "尿石素A膠囊（Urolithin A）",
+      "url": "https://www.naturecan.tw/products/urolithin-a",
+      "publisher": "Naturecan TW",
+      "channel": "other",
+      "accessed": "2026-11-12",
+      "whatItContributes": "台灣站成品：每顆 500 mg 尿石素 A。頁面沒有 Mitopure 或 Amazentis。"
+    }
+  ],
+  "discovery": {
+    "channel": "news",
+    "scoutDate": "2026-11-12",
+    "notes": "從 NutraIngredients 2026-09-02 健康壽命產品新聞的 Timeline 軟糖進入，再對 Timeline 常見問答、PubMed 35584623、JAMA Network Open 四週試驗與 Amazentis 專利。台灣關聯以商品名與尿石素中英文搭配台灣、代理、經銷重查，只見到跨境成品，沒有台灣原料廠商頁。"
+  }
+}

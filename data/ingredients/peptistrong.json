@@ -1,0 +1,172 @@
+{
+  "id": "peptistrong",
+  "example": false,
+  "names": {
+    "commonZh": "蠶豆胜肽網絡",
+    "commonEn": "fava bean peptide network",
+    "trade": "PeptiStrong（Nuritas 的蠶豆胜肽商品名）",
+    "scientific": "Vicia faba（種子酵素水解後的胜肽網絡。不是膠原蛋白胜肽，也不是牛乳蛋白。）"
+  },
+  "supply": {
+    "supplierName": "Nuritas Ltd.",
+    "supplierCountry": "愛爾蘭",
+    "relationship": "unknown",
+    "taiwanPartyName": "利統股份有限公司（頁面只列 Nuritas 的 PeptiSleep，未列 PeptiStrong）",
+    "relationshipNote": "利統的 Nuritas 品牌頁只寫 PeptiSleep 糙米睡眠胜肽，沒有 PeptiStrong。同品牌另一個胜肽不算這個商品名的代理。2026-11-13 以 PeptiStrong、Nuritas、Vicia faba、fava bean peptide、蠶豆胜肽搭配台灣、臺灣、Taiwan、代理、總代理、經銷複查，沒有看到把 PeptiStrong 寫成原料代理的頁。發布前再查一次，仍只有 PeptiSleep 那一頁。查核日 2026-11-13。"
+  },
+  "tfda": {
+    "usable": "not_found",
+    "evidenceNotes": "Vicia faba、PeptiStrong、蠶豆胜肽在食品原料與添加物都是 0 筆，開放資料 InfoId 4 與 61 同樣 0 筆。短字「蠶」會命中蠶絲蛋白與蠶蛹，沒有拿來當筆數。不是「未確認安全性」分類。not_found 只表示這次沒查到這個胜肽網絡，不是准用，也不是禁用。平臺說明寫傳統食品不會全部列出。",
+    "lookupDate": "2026-11-13",
+    "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+    "queries": [
+      {
+        "tab": "ingredient",
+        "keyword": "Vicia faba",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "學名 0 筆。開放資料 InfoId 4 同樣 0 筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "PeptiStrong",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名 0 筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "蠶豆胜肽",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "中文名 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "Vicia faba",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "添加物分頁 0 筆。開放資料 InfoId 61 同樣 0 筆。"
+      },
+      {
+        "tab": "history",
+        "keyword": "PeptiStrong",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "助手更新歷程（11/01–11/12）沒有這筆異動。"
+      }
+    ],
+    "officialCrosscheck": {
+      "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+      "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+      "done": false,
+      "notes": "2026-11-13 消費者專區連線失敗。開放資料 InfoId 4 與 61 查 Vicia faba、PeptiStrong、蠶豆胜肽皆 0 筆。"
+    }
+  },
+  "efficacy": {
+    "claimedBenefits": [
+      "Nuritas 原料頁：蠶豆胜肽，寫 2.4 g。頁面另寫力量恢復增加 144%、肌肉能量增加 54%、疲勞少 47%、力量增加 17%。這些百分比是網站句子，對應的論文這次沒有逐篇打開。",
+      "Nutrition Insight 2026-11-06：Gundry MD 成品每份 2.4 g PeptiStrong。文中寫固定試驗用的是較高劑量，而且肌肉量與力量流失相對牛乳蛋白沒有差異。",
+      "J Nutr 2023 摘要（PMID 37277162）：30 名年輕男性，單腳固定 7 天再恢復 14 天。蠶豆胜肽網絡每次 10 g、每日兩次，對照等氮牛乳蛋白。股四頭肌截面積兩組都下降，組間沒有差異。恢復期固定腿的肌原纖維蛋白合成率，胜肽組 1.53%/日、牛乳蛋白組 1.23%/日（p=0.027）。新聞稿寫的是每日兩次 20 g，與摘要的每次 10 g 不一致，兩句都留下。"
+    ],
+    "suggestedDosage": "Nuritas 頁寫粉末劑量 2.4 g。2023 年固定試驗摘要寫每次 10 g、每日兩次。Nutrition Insight 把同一試驗寫成每日兩次 20 g。",
+    "dosageNote": "2.4 g 是供應商頁的成品配方劑量。試驗摘要是每次 10 g、每日兩次。新聞與摘要的克數不一致。都不是台灣法規上限。"
+  },
+  "patent": {
+    "status": "unknown",
+    "refs": [],
+    "note": "Nuritas 頁與新聞寫專利胜肽。Justia 的 Nuritas Limited 清單有肌肉萎縮胜肽等標題，這次沒有打開任何一件全文，也沒有對到市售序列。狀態維持未知。"
+  },
+  "literature": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "Vicia faba Peptide Network Supplementation Does Not Differ From Milk Protein in Modulating Changes in Muscle Size During Short-Term Immobilization and Subsequent Remobilization",
+        "url": "https://doi.org/10.1016/j.tjnut.2023.01.014",
+        "note": "Weijzen 等，J Nutr 2023（PMID 37277162）。主要終點肌肉截面積沒有組間差異。恢復期蛋白合成率有組間差異。Europe PMC 作者串含原料端姓名，單位欄這次沒有逐一核對。"
+      }
+    ],
+    "note": "已讀 Europe PMC 摘要。官網引用的 Nutrients 2023 與 BMJ Nutrition 2025 這次沒有打開，百分比不從那兩篇抄。"
+  },
+  "evidenceLevels": [
+    "clinical"
+  ],
+  "images": [
+    {
+      "url": "https://www.nuritas.com/wp-content/uploads/2024/02/main-header-peptistrong-man.jpg",
+      "localPath": "",
+      "caption": "Nuritas 官網 PeptiStrong 頁首圖，不是粉末照片。",
+      "source": "official_site"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Nuritas Launches Peptide Innovation Series, Highlights Peptides at SupplySide Global",
+      "url": "https://www.nutraceuticalsworld.com/live_from_shows/nuritas-launches-peptide-innovation-series-highlights-peptides-at-supplyside-global/",
+      "publisher": "Nutraceuticals World",
+      "channel": "exhibition",
+      "accessed": "2026-11-13",
+      "whatItContributes": "2026-10-21：SupplySide Global 展示 PeptiSleep，並以胜肽咖啡談 PeptiStrong 所屬的胜肽線。"
+    },
+    {
+      "title": "SupplySide Global 2026: What’s happening on the show floor",
+      "url": "https://www.nutraingredients.com/Article/2026/10/14/supplyside-global-2026-whats-happening-on-the-show-floor/",
+      "publisher": "NutraIngredients",
+      "channel": "exhibition",
+      "accessed": "2026-11-13",
+      "whatItContributes": "2026-10-14：Nuritas 攤位提供 PeptiStrong 咖啡。"
+    },
+    {
+      "title": "PeptiStrong",
+      "url": "https://www.nuritas.com/peptistrong",
+      "publisher": "Nuritas",
+      "channel": "supplier_site",
+      "accessed": "2026-11-13",
+      "whatItContributes": "蠶豆胜肽、2.4 g，以及網站上的百分比。聯絡頁地址在愛爾蘭都柏林。"
+    },
+    {
+      "title": "PMID 37277162",
+      "url": "https://doi.org/10.1016/j.tjnut.2023.01.014",
+      "publisher": "The Journal of Nutrition",
+      "channel": "paper",
+      "accessed": "2026-11-13",
+      "whatItContributes": "每次 10 g、每日兩次。肌肉截面積沒有組間差異；恢復期蛋白合成率有差異。"
+    },
+    {
+      "title": "Gundry MD blends creatine with Nuritas’ PeptiStrong",
+      "url": "https://www.nutritioninsight.com/news/gundry-md-myopeptide-complex-creatine-peptistrong.html",
+      "publisher": "Nutrition Insight",
+      "channel": "news",
+      "accessed": "2026-11-13",
+      "whatItContributes": "2026-11-06：成品 2.4 g，並把固定試驗的劑量寫成每日兩次 20 g。"
+    },
+    {
+      "title": "Nuritas 原料品牌",
+      "url": "https://www.lytone.com/functional-food/1/Nuritas",
+      "publisher": "利統股份有限公司",
+      "channel": "other",
+      "accessed": "2026-11-13",
+      "whatItContributes": "台灣頁只列 PeptiSleep，沒有 PeptiStrong。"
+    }
+  ],
+  "discovery": {
+    "channel": "exhibition",
+    "scoutDate": "2026-11-13",
+    "notes": "從 Nutraceuticals World 2026-10-21 與 NutraIngredients 10 月 14 日的 SupplySide 預告進入，再對 Nuritas 產品頁、PMID 37277162 與 11 月 6 日 Gundry 成品新聞。台灣關聯打開利統的 Nuritas 頁，確認只有 PeptiSleep。"
+  }
+}

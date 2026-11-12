@@ -1,0 +1,193 @@
+{
+  "id": "sagextra",
+  "example": false,
+  "names": {
+    "commonZh": "藥用鼠尾草葉萃取物",
+    "commonEn": "common sage leaf extract",
+    "trade": "SageXtra（Stratum Nutrition 的鼠尾草萃取商品名；公司頁寫 2024 年自 Sibelius 取得，舊名 Sibelius Sage）",
+    "scientific": "Salvia officinalis L.（葉。統園 2026-06-26 頁寫英國鼠尾草葉。開放資料對「全草」的說明是根、莖、葉、花，不含果實與種子。）"
+  },
+  "supply": {
+    "supplierName": "Stratum Nutrition",
+    "supplierCountry": "美國",
+    "relationship": "taiwan_agent",
+    "taiwanPartyName": "統園企業股份有限公司",
+    "relationshipNote": "統園 2026-06-26 新聞自述獲得 Stratum 指定授權，「獨家代理」NEM、OVOLUX 與 SageXtra。Nutraceuticals World 2026-11-09 與 Nutrition Insight 2026-11-10 轉述的是 distribution partnership，兩篇都沒有寫獨家。獨家只見該公司自述，不升格為原廠已證實。查核日 2026-11-13。"
+  },
+  "tfda": {
+    "usable": "needs_review",
+    "evidenceNotes": "Salvia officinalis 有兩筆：全草列在可供食品使用，分類是茶包、膳食調理包或萃取後作原料，備註空白；果實、種子列在未確認安全性，不得作為食品原料。平臺說明寫全草指根、莖、葉、花。本品是葉萃取，對到的是全草那一筆，不是種子。同字「鼠尾草」還會命中其他鼠尾草種。添加物用「鼠尾草」會命中迷迭香萃取物，因為規格寫鼠尾草酸，不是這個學名。",
+    "lookupDate": "2026-11-13",
+    "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+    "queries": [
+      {
+        "tab": "ingredient",
+        "keyword": "Salvia officinalis",
+        "category": "",
+        "resultCount": 2,
+        "matchedName": "鼠尾草",
+        "restrictionNote": "全草：可供食品使用，茶包、膳食調理包或萃取後作為原料，備註空白。果實、種子：未經確認其食用安全性前，不得供作食品原料使用。",
+        "unconfirmedSafety": true,
+        "note": "同一學名兩筆。助手與開放資料 InfoId 4 一致。全草的官方說明不含果實、種子。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "鼠尾草",
+        "category": "",
+        "resultCount": 9,
+        "matchedName": "鼠尾草",
+        "restrictionNote": "Salvia officinalis 的全草與果實、種子如上。另外兩筆可供食用的種子是奇亞：Salvia columbariae，以及 Salvia hispanica（須標示對花生等核果過敏者應小心食用）。節毛鼠尾草是 Salvia plebeia。白鼠尾草、墨西哥鼠尾草、日本紫花鼠尾草葉、西班牙鼠尾草全草則是未確認。",
+        "unconfirmedSafety": true,
+        "note": "子字串會帶進其他種。西班牙鼠尾草全草是未確認，不是本品。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "SageXtra",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "鼠尾草",
+        "category": "",
+        "resultCount": 1,
+        "matchedName": "迷迭香萃取物",
+        "restrictionNote": "抗氧化劑。用量以鼠尾草酸與鼠尾草酚總量計，依食品別有 mg/kg 上限。",
+        "unconfirmedSafety": false,
+        "note": "命中的是迷迭香萃取物，不是 Salvia officinalis。開放資料 InfoId 61 同樣只有這一筆含「鼠尾草」字樣。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "Salvia officinalis",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "學名在添加物 0 筆。"
+      },
+      {
+        "tab": "history",
+        "keyword": "鼠尾草",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "助手更新歷程（11/01–11/12）沒有這筆異動。"
+      }
+    ],
+    "officialCrosscheck": {
+      "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+      "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+      "done": true,
+      "notes": "2026-11-13 消費者專區 HTTPS 為 SSL 錯誤、HTTP 為 502。另下載開放資料 InfoId 4：鼠尾草、Salvia officinalis L.，全草為可供食品使用，果實與種子為未確認。資料內的平臺說明寫全草指根、莖、葉、花。InfoId 61 的「鼠尾草」只命中迷迭香萃取物。"
+    }
+  },
+  "efficacy": {
+    "claimedBenefits": [
+      "Stratum 原料頁：標準化 2.5% 迷迭香酸，寫單次後 1 小時可支持工作記憶、注意力準確度與次級記憶；167 mg 與 333 mg 寫可支持記憶。這是供應商宣稱。",
+      "Nutrition Insight 2026-11-10：Stratum 說次級記憶與注意力的依據，是 2008 年另一種標準化鼠尾草萃取的交叉試驗，由 Oxford Natural Products 資助。20 名 65 歲以上成人，單次 167 至 1332 mg。",
+      "medRxiv 2021.05.28.21257776 是 Sibelius 出資的預印本，不是期刊。年輕成人單次 150 mg 或 300 mg Sibelius Sage（最低 2.5% 迷迭香酸），1 小時後立即詞語回憶的正確率下降較安慰劑少。預印本把 2008 年 Scholey 論文寫成同一萃取，與上一則「不同萃取」並陳，這裡不自行判定。"
+    ],
+    "suggestedDosage": "Stratum 頁寫 167 mg 與 333 mg。預印本用 150 mg 與 300 mg。2008 年試驗的劑量是 167、333、666、1332 mg，摘要寫 333 mg 對次級記憶與注意力準確度有組間差異。",
+    "dosageNote": "以上是供應商頁、預印本與 2008 年試驗的劑量，不是台灣法規上限。全草那一筆沒有每日毫克。果實與種子不得作為食品原料。"
+  },
+  "patent": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "WO2017129987A1 - Botanical compositions of salvia officinalis",
+        "url": "https://patents.google.com/patent/WO2017129987A1/en",
+        "note": "申請人 Sibelius Ltd。打開的頁面是鼠尾草組成與壽命篩選方法，沒有逐條對到市售 2.5% 迷迭香酸規格。"
+      }
+    ],
+    "note": "Sibelius 原料頁寫 patented，沒有在該頁給專利號。這次只打開 WO2017129987A1。"
+  },
+  "literature": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "Assessment of the Effects of a Sage (Salvia officinalis) Extract on Cognitive Performance in Adolescents and Young Adults",
+        "url": "https://www.medrxiv.org/content/10.1101/2021.05.28.21257776v1.full",
+        "note": "預印本，DRKS00015716。年輕成人 36 人完成，150 mg 與 300 mg。立即詞語回憶在 1 小時有組間差異。青少年組這次不另摘數字。"
+      },
+      {
+        "title": "An extract of Salvia (sage) with anticholinesterase properties improves memory and attention in healthy older volunteers",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/18350281/",
+        "note": "Scholey 等，Psychopharmacology 2008（PMID 18350281）。20 人、333 mg 的次級記憶與注意力。Stratum 與預印本對「是不是同一萃取」說法不同。"
+      }
+    ],
+    "note": "已讀預印本全文與 2008 年論文的 PubMed 摘要。2008 年全文這次沒有打開。"
+  },
+  "evidenceLevels": [
+    "clinical"
+  ],
+  "images": [
+    {
+      "url": "https://pub-62493d3b6c1f43b3b3da35416578b569.r2.dev/file/Website-Ingredient-Cover-sageXtra2.webp-29e7a43332452043edf9ff874edca508.webp",
+      "localPath": "",
+      "caption": "Stratum 官網 SageXtra 原料頁的封面圖。",
+      "source": "official_site"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Stratum Nutrition targets Taiwan’s super-aged market with Toong Yeuan distribution deal",
+      "url": "https://www.nutritioninsight.com/news/stratum-nutrition-toong-yeuan-enterprise-taiwan.html",
+      "publisher": "Nutrition Insight",
+      "channel": "news",
+      "accessed": "2026-11-13",
+      "whatItContributes": "2026-11-10：與統園的通路合作涵蓋 SageXtra；2.5% 迷迭香酸；並寫 2008 年試驗是另一種萃取。"
+    },
+    {
+      "title": "Stratum Nutrition Announces Distribution Partnership with Toong Yeuan Enterprise Co. Ltd. in Taiwan",
+      "url": "https://www.nutraceuticalsworld.com/breaking-news/stratum-nutrition-announces-distribution-partnership-with-toong-yeuan-enterprise-co-ltd-in-taiwan/",
+      "publisher": "Nutraceuticals World",
+      "channel": "news",
+      "accessed": "2026-11-13",
+      "whatItContributes": "2026-11-09：Stratum 宣布與統園的 distribution partnership，文中沒有寫獨家。"
+    },
+    {
+      "title": "統園企業獨家代理美國NEM、OVOLUX蛋殼膜等明星原料",
+      "url": "https://www.tyig.com.tw/web/news/news_in.jsp?lang=tw&np_no=NP1782292043014",
+      "publisher": "統園企業股份有限公司",
+      "channel": "other",
+      "accessed": "2026-11-13",
+      "whatItContributes": "2026-06-26 該公司自述獨家代理 SageXtra，並寫英國鼠尾草葉、不含咖啡因。"
+    },
+    {
+      "title": "sageXtra overview",
+      "url": "https://stratumnutrition.com/human/ingredients/detail/sage-xtra/overview",
+      "publisher": "Stratum Nutrition",
+      "channel": "supplier_site",
+      "accessed": "2026-11-13",
+      "whatItContributes": "2.5% 迷迭香酸、167 mg 與 333 mg，地址在美國密蘇里州 Carthage。"
+    },
+    {
+      "title": "medRxiv 2021.05.28.21257776",
+      "url": "https://www.medrxiv.org/content/10.1101/2021.05.28.21257776v1.full",
+      "publisher": "medRxiv",
+      "channel": "paper",
+      "accessed": "2026-11-13",
+      "whatItContributes": "Sibelius Sage 的年輕成人急性試驗，以及 2.5% 迷迭香酸的製程描述。"
+    },
+    {
+      "title": "WO2017129987A1",
+      "url": "https://patents.google.com/patent/WO2017129987A1/en",
+      "publisher": "Google Patents",
+      "channel": "patent",
+      "accessed": "2026-11-13",
+      "whatItContributes": "Sibelius 的鼠尾草組成專利。"
+    }
+  ],
+  "discovery": {
+    "channel": "news",
+    "scoutDate": "2026-11-13",
+    "notes": "從 Nutrition Insight 2026-11-10 統園通路新聞進入，再對 Nutraceuticals World 11 月 9 日稿、統園 6 月 26 日頁、Stratum 原料頁、medRxiv 預印本與 WO2017129987A1。台灣關聯用 SageXtra、Sibelius Sage、鼠尾草、Salvia officinalis 搭配台灣、代理、經銷打開統園頁。"
+  }
+}

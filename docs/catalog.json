@@ -6,6 +6,895 @@
         "exhibition",
         "industry_report"
       ],
+      "date": "2026-11-13",
+      "example": false,
+      "notes": "正式五筆。主管道：SageXtra、Ahiflower 為新聞；InSea2、PeptiStrong 為展覽；Lipofer 為產業報導。鼠尾草全草有列、果實種子未確認；褐藻、墨角藻與焦磷酸鐵有列。田紫草油與蠶豆胜肽這次沒查到。",
+      "picks": [
+        {
+          "discovery": {
+            "channel": "news",
+            "notes": "從 Nutrition Insight 2026-11-10 統園通路新聞進入，再對 Nutraceuticals World 11 月 9 日稿、統園 6 月 26 日頁、Stratum 原料頁、medRxiv 預印本與 WO2017129987A1。台灣關聯用 SageXtra、Sibelius Sage、鼠尾草、Salvia officinalis 搭配台灣、代理、經銷打開統園頁。",
+            "scoutDate": "2026-11-13"
+          },
+          "efficacy": {
+            "claimedBenefits": [
+              "Stratum 原料頁：標準化 2.5% 迷迭香酸，寫單次後 1 小時可支持工作記憶、注意力準確度與次級記憶；167 mg 與 333 mg 寫可支持記憶。這是供應商宣稱。",
+              "Nutrition Insight 2026-11-10：Stratum 說次級記憶與注意力的依據，是 2008 年另一種標準化鼠尾草萃取的交叉試驗，由 Oxford Natural Products 資助。20 名 65 歲以上成人，單次 167 至 1332 mg。",
+              "medRxiv 2021.05.28.21257776 是 Sibelius 出資的預印本，不是期刊。年輕成人單次 150 mg 或 300 mg Sibelius Sage（最低 2.5% 迷迭香酸），1 小時後立即詞語回憶的正確率下降較安慰劑少。預印本把 2008 年 Scholey 論文寫成同一萃取，與上一則「不同萃取」並陳，這裡不自行判定。"
+            ],
+            "dosageNote": "以上是供應商頁、預印本與 2008 年試驗的劑量，不是台灣法規上限。全草那一筆沒有每日毫克。果實與種子不得作為食品原料。",
+            "suggestedDosage": "Stratum 頁寫 167 mg 與 333 mg。預印本用 150 mg 與 300 mg。2008 年試驗的劑量是 167、333、666、1332 mg，摘要寫 333 mg 對次級記憶與注意力準確度有組間差異。"
+          },
+          "evidenceLevels": [
+            "clinical"
+          ],
+          "example": false,
+          "id": "sagextra",
+          "images": [
+            {
+              "caption": "Stratum 官網 SageXtra 原料頁的封面圖。",
+              "localPath": "",
+              "source": "official_site",
+              "url": "https://pub-62493d3b6c1f43b3b3da35416578b569.r2.dev/file/Website-Ingredient-Cover-sageXtra2.webp-29e7a43332452043edf9ff874edca508.webp"
+            }
+          ],
+          "literature": {
+            "note": "已讀預印本全文與 2008 年論文的 PubMed 摘要。2008 年全文這次沒有打開。",
+            "refs": [
+              {
+                "note": "預印本，DRKS00015716。年輕成人 36 人完成，150 mg 與 300 mg。立即詞語回憶在 1 小時有組間差異。青少年組這次不另摘數字。",
+                "title": "Assessment of the Effects of a Sage (Salvia officinalis) Extract on Cognitive Performance in Adolescents and Young Adults",
+                "url": "https://www.medrxiv.org/content/10.1101/2021.05.28.21257776v1.full"
+              },
+              {
+                "note": "Scholey 等，Psychopharmacology 2008（PMID 18350281）。20 人、333 mg 的次級記憶與注意力。Stratum 與預印本對「是不是同一萃取」說法不同。",
+                "title": "An extract of Salvia (sage) with anticholinesterase properties improves memory and attention in healthy older volunteers",
+                "url": "https://pubmed.ncbi.nlm.nih.gov/18350281/"
+              }
+            ],
+            "status": "yes"
+          },
+          "names": {
+            "commonEn": "common sage leaf extract",
+            "commonZh": "藥用鼠尾草葉萃取物",
+            "scientific": "Salvia officinalis L.（葉。統園 2026-06-26 頁寫英國鼠尾草葉。開放資料對「全草」的說明是根、莖、葉、花，不含果實與種子。）",
+            "trade": "SageXtra（Stratum Nutrition 的鼠尾草萃取商品名；公司頁寫 2024 年自 Sibelius 取得，舊名 Sibelius Sage）"
+          },
+          "patent": {
+            "note": "Sibelius 原料頁寫 patented，沒有在該頁給專利號。這次只打開 WO2017129987A1。",
+            "refs": [
+              {
+                "note": "申請人 Sibelius Ltd。打開的頁面是鼠尾草組成與壽命篩選方法，沒有逐條對到市售 2.5% 迷迭香酸規格。",
+                "title": "WO2017129987A1 - Botanical compositions of salvia officinalis",
+                "url": "https://patents.google.com/patent/WO2017129987A1/en"
+              }
+            ],
+            "status": "yes"
+          },
+          "sources": [
+            {
+              "accessed": "2026-11-13",
+              "channel": "news",
+              "publisher": "Nutrition Insight",
+              "title": "Stratum Nutrition targets Taiwan’s super-aged market with Toong Yeuan distribution deal",
+              "url": "https://www.nutritioninsight.com/news/stratum-nutrition-toong-yeuan-enterprise-taiwan.html",
+              "whatItContributes": "2026-11-10：與統園的通路合作涵蓋 SageXtra；2.5% 迷迭香酸；並寫 2008 年試驗是另一種萃取。"
+            },
+            {
+              "accessed": "2026-11-13",
+              "channel": "news",
+              "publisher": "Nutraceuticals World",
+              "title": "Stratum Nutrition Announces Distribution Partnership with Toong Yeuan Enterprise Co. Ltd. in Taiwan",
+              "url": "https://www.nutraceuticalsworld.com/breaking-news/stratum-nutrition-announces-distribution-partnership-with-toong-yeuan-enterprise-co-ltd-in-taiwan/",
+              "whatItContributes": "2026-11-09：Stratum 宣布與統園的 distribution partnership，文中沒有寫獨家。"
+            },
+            {
+              "accessed": "2026-11-13",
+              "channel": "other",
+              "publisher": "統園企業股份有限公司",
+              "title": "統園企業獨家代理美國NEM、OVOLUX蛋殼膜等明星原料",
+              "url": "https://www.tyig.com.tw/web/news/news_in.jsp?lang=tw&np_no=NP1782292043014",
+              "whatItContributes": "2026-06-26 該公司自述獨家代理 SageXtra，並寫英國鼠尾草葉、不含咖啡因。"
+            },
+            {
+              "accessed": "2026-11-13",
+              "channel": "supplier_site",
+              "publisher": "Stratum Nutrition",
+              "title": "sageXtra overview",
+              "url": "https://stratumnutrition.com/human/ingredients/detail/sage-xtra/overview",
+              "whatItContributes": "2.5% 迷迭香酸、167 mg 與 333 mg，地址在美國密蘇里州 Carthage。"
+            },
+            {
+              "accessed": "2026-11-13",
+              "channel": "paper",
+              "publisher": "medRxiv",
+              "title": "medRxiv 2021.05.28.21257776",
+              "url": "https://www.medrxiv.org/content/10.1101/2021.05.28.21257776v1.full",
+              "whatItContributes": "Sibelius Sage 的年輕成人急性試驗，以及 2.5% 迷迭香酸的製程描述。"
+            },
+            {
+              "accessed": "2026-11-13",
+              "channel": "patent",
+              "publisher": "Google Patents",
+              "title": "WO2017129987A1",
+              "url": "https://patents.google.com/patent/WO2017129987A1/en",
+              "whatItContributes": "Sibelius 的鼠尾草組成專利。"
+            }
+          ],
+          "supply": {
+            "relationship": "taiwan_agent",
+            "relationshipNote": "統園 2026-06-26 新聞自述獲得 Stratum 指定授權，「獨家代理」NEM、OVOLUX 與 SageXtra。Nutraceuticals World 2026-11-09 與 Nutrition Insight 2026-11-10 轉述的是 distribution partnership，兩篇都沒有寫獨家。獨家只見該公司自述，不升格為原廠已證實。查核日 2026-11-13。",
+            "supplierCountry": "美國",
+            "supplierName": "Stratum Nutrition",
+            "taiwanPartyName": "統園企業股份有限公司"
+          },
+          "tfda": {
+            "evidenceNotes": "Salvia officinalis 有兩筆：全草列在可供食品使用，分類是茶包、膳食調理包或萃取後作原料，備註空白；果實、種子列在未確認安全性，不得作為食品原料。平臺說明寫全草指根、莖、葉、花。本品是葉萃取，對到的是全草那一筆，不是種子。同字「鼠尾草」還會命中其他鼠尾草種。添加物用「鼠尾草」會命中迷迭香萃取物，因為規格寫鼠尾草酸，不是這個學名。",
+            "lookupDate": "2026-11-13",
+            "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+            "officialCrosscheck": {
+              "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+              "done": true,
+              "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+              "notes": "2026-11-13 消費者專區 HTTPS 為 SSL 錯誤、HTTP 為 502。另下載開放資料 InfoId 4：鼠尾草、Salvia officinalis L.，全草為可供食品使用，果實與種子為未確認。資料內的平臺說明寫全草指根、莖、葉、花。InfoId 61 的「鼠尾草」只命中迷迭香萃取物。"
+            },
+            "queries": [
+              {
+                "category": "",
+                "keyword": "Salvia officinalis",
+                "matchedName": "鼠尾草",
+                "note": "同一學名兩筆。助手與開放資料 InfoId 4 一致。全草的官方說明不含果實、種子。",
+                "restrictionNote": "全草：可供食品使用，茶包、膳食調理包或萃取後作為原料，備註空白。果實、種子：未經確認其食用安全性前，不得供作食品原料使用。",
+                "resultCount": 2,
+                "tab": "ingredient",
+                "unconfirmedSafety": true
+              },
+              {
+                "category": "",
+                "keyword": "鼠尾草",
+                "matchedName": "鼠尾草",
+                "note": "子字串會帶進其他種。西班牙鼠尾草全草是未確認，不是本品。",
+                "restrictionNote": "Salvia officinalis 的全草與果實、種子如上。另外兩筆可供食用的種子是奇亞：Salvia columbariae，以及 Salvia hispanica（須標示對花生等核果過敏者應小心食用）。節毛鼠尾草是 Salvia plebeia。白鼠尾草、墨西哥鼠尾草、日本紫花鼠尾草葉、西班牙鼠尾草全草則是未確認。",
+                "resultCount": 9,
+                "tab": "ingredient",
+                "unconfirmedSafety": true
+              },
+              {
+                "category": "",
+                "keyword": "SageXtra",
+                "matchedName": "",
+                "note": "商品名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "鼠尾草",
+                "matchedName": "迷迭香萃取物",
+                "note": "命中的是迷迭香萃取物，不是 Salvia officinalis。開放資料 InfoId 61 同樣只有這一筆含「鼠尾草」字樣。",
+                "restrictionNote": "抗氧化劑。用量以鼠尾草酸與鼠尾草酚總量計，依食品別有 mg/kg 上限。",
+                "resultCount": 1,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Salvia officinalis",
+                "matchedName": "",
+                "note": "學名在添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "鼠尾草",
+                "matchedName": "",
+                "note": "助手更新歷程（11/01–11/12）沒有這筆異動。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "history",
+                "unconfirmedSafety": false
+              }
+            ],
+            "usable": "needs_review"
+          }
+        },
+        {
+          "discovery": {
+            "channel": "exhibition",
+            "notes": "從 NutraIngredients 2026-10-14 SupplySide 展場預告的 Artemis 段落進入，再對 innoVactiv 產品頁、Marine Drugs 2022，以及 2009 年 WEDAR 舊稿。台灣關聯打開崴達 2026 年原料總覽與康鮮分類頁。",
+            "scoutDate": "2026-11-13"
+          },
+          "efficacy": {
+            "claimedBenefits": [
+              "innoVactiv 原料頁：北大西洋兩種褐藻的水萃取，濃縮多酚，不另加溶劑。頁面寫可把升糖壓力最多降低 48.3%，並寫八項臨床、九百多名志願者。加拿大衛生部 NPN 80033840 的兩句是維持健康血糖，以及降低所吃食物的升糖指數。這些是供應商頁上的句子。",
+              "Marine Drugs 2022（DOI 10.3390/md20030174）：56 名過重或肥胖、血糖偏高的成人完成 12 週。每日 500 mg InSea2 加上減重建議。血糖沒有組間效果。120 分鐘 C-肽的下降，褐藻組與安慰劑組的變化差異 p=0.002。心率與 IL-6 上升幅度也有組間差異。論文寫成邊緣代謝變化，不是血糖已經下降。"
+            ],
+            "dosageNote": "500 mg 是該篇試驗的劑量，不是台灣法規上限。褐藻與墨角藻的列名沒有每日限量。論文寫萃取物碘含量 67 mg/kg。",
+            "suggestedDosage": "2022 年論文寫每日 500 mg（兩顆 250 mg），主餐前 30 分鐘。原料頁這次讀到的段落沒有寫每日毫克，只寫低劑量。"
+          },
+          "evidenceLevels": [
+            "clinical"
+          ],
+          "example": false,
+          "id": "insea2",
+          "images": [
+            {
+              "caption": "innoVactiv 官網 InSea2 頁的血糖控制圖，不是粉末規格書。",
+              "localPath": "",
+              "source": "official_site",
+              "url": "https://innovactiv.com/wp-content/uploads/2022/02/controle-glycemie.jpg"
+            }
+          ],
+          "literature": {
+            "note": "2022 年那篇已讀方法與結果。2011 年急性試驗的百分比這次沒有從原文抄。",
+            "refs": [
+              {
+                "note": "Marine Drugs 2022。每日 500 mg、12 週。血糖沒有組間效果。多酚約 35%，碘 67 mg/kg。",
+                "title": "Marginal Impact of Brown Seaweed Ascophyllum nodosum and Fucus vesiculosus Extract on Metabolic and Inflammatory Response",
+                "url": "https://www.mdpi.com/1660-3397/20/3/174"
+              },
+              {
+                "note": "Paradis 等，Appl Physiol Nutr Metab 2011（PMID 22087795）。原料頁列出這篇。這次只核到題名與出處，沒有打開結果數字。",
+                "title": "A randomised crossover placebo-controlled trial investigating the effect of brown seaweed on postchallenge plasma glucose and insulin",
+                "url": "https://doi.org/10.1139/h11-115"
+              }
+            ],
+            "status": "yes"
+          },
+          "names": {
+            "commonEn": "brown seaweed polyphenol extract",
+            "commonZh": "褐藻與墨角藻多酚萃取物",
+            "scientific": "Ascophyllum nodosum 與 Fucus vesiculosus L.（藻體。水萃取後濃縮多酚，不是整株藻粉。）",
+            "trade": "InSea2（innoVactiv 的兩種褐藻多酚商品名）"
+          },
+          "patent": {
+            "note": "以 InSea2、innoVactiv、Ascophyllum nodosum、Fucus vesiculosus 查專利，這次沒有打開對得上這個商品名的專利全文。原料頁沒有給專利號。",
+            "refs": [],
+            "status": "unknown"
+          },
+          "sources": [
+            {
+              "accessed": "2026-11-13",
+              "channel": "exhibition",
+              "publisher": "NutraIngredients",
+              "title": "SupplySide Global 2026: What’s happening on the show floor",
+              "url": "https://www.nutraingredients.com/Article/2026/10/14/supplyside-global-2026-whats-happening-on-the-show-floor/",
+              "whatItContributes": "2026-10-14 展場預告：Artemis International 攤位將 spotlight InSea2，寫成支持血糖的海藻萃取。"
+            },
+            {
+              "accessed": "2026-11-13",
+              "channel": "supplier_site",
+              "publisher": "innoVactiv",
+              "title": "InSea2",
+              "url": "https://innovactiv.com/produits/insea2/",
+              "whatItContributes": "兩種褐藻、水萃取、NPN 80033840，公司在加拿大 Rimouski。"
+            },
+            {
+              "accessed": "2026-11-13",
+              "channel": "paper",
+              "publisher": "Marine Drugs",
+              "title": "Marine Drugs 2022",
+              "url": "https://www.mdpi.com/1660-3397/20/3/174",
+              "whatItContributes": "12 週、每日 500 mg。血糖沒有組間效果；C-肽、心率與 IL-6 有組間差異。"
+            },
+            {
+              "accessed": "2026-11-13",
+              "channel": "news",
+              "publisher": "SupplySide Supplement Journal",
+              "title": "innoVactiv, Wedar Launching InSea2 into China, Taiwan",
+              "url": "https://www.supplysidesj.com/weight-management/innovactiv-wedar-launching-insea2-into-china-taiwan",
+              "whatItContributes": "2009-08-18：與台灣 WEDAR 的五年獨家。不是 2026 年的現況。"
+            },
+            {
+              "accessed": "2026-11-13",
+              "channel": "other",
+              "publisher": "崴達國際",
+              "title": "保健原料總覽",
+              "url": "https://www.wedar.com/product",
+              "whatItContributes": "2026-11-13 打開的原料清單沒有 InSea2。"
+            },
+            {
+              "accessed": "2026-11-13",
+              "channel": "other",
+              "publisher": "康鮮國際股份有限公司",
+              "title": "褐藻萃取分類",
+              "url": "https://www.nisoro.com/categories/insea2",
+              "whatItContributes": "網址含 insea2，頁面寫這個分類沒有產品。不當成現行經銷。"
+            }
+          ],
+          "supply": {
+            "relationship": "unknown",
+            "relationshipNote": "2009-08-18 SupplySide 稿寫 innoVactiv 與台灣 WEDAR 簽五年獨家，把 InSea2 銷往台灣與中國。2010-02-01 New Hope 稿仍寫 WEDAR 已在銷 InSea2。五年約的年限已過。2026-11-13 打開 wedar.com/product，原料總覽沒有 InSea2。nisoro.com/categories/insea2 頁面寫這個分類沒有產品。現行代理沒有在原廠或崴達現頁寫明。查核日 2026-11-13。以 InSea2、Ascophyllum、Fucus、褐藻、墨角藻、innoVactiv、崴達搭配台灣、代理、經銷複查，仍只有上述舊稿。",
+            "supplierCountry": "加拿大",
+            "supplierName": "innoVactiv",
+            "taiwanPartyName": "待確認"
+          },
+          "tfda": {
+            "evidenceNotes": "褐藻（Ascophyllum nodosum，藻體）與墨角藻（Fucus vesiculosus L.，藻體）各 1 筆，都在藻類及其來源製取之原料，備註空白，不是未確認安全性。商品名 InSea2 是 0 筆。列名的是藻體來源，沒有寫多酚萃取的每日上限。",
+            "lookupDate": "2026-11-13",
+            "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+            "officialCrosscheck": {
+              "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+              "done": true,
+              "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+              "notes": "2026-11-13 消費者專區 HTTPS 失敗、HTTP 502。開放資料 InfoId 4 的褐藻與墨角藻兩筆，學名、部位、空白備註與助手一致。InfoId 61 沒有這兩個學名。"
+            },
+            "queries": [
+              {
+                "category": "",
+                "keyword": "Ascophyllum nodosum",
+                "matchedName": "褐藻",
+                "note": "與開放資料 InfoId 4 同一筆。",
+                "restrictionNote": "學名 Ascophyllum nodosum，部位藻體。次分類為藻類及其來源製取之原料。備註空白。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Fucus vesiculosus",
+                "matchedName": "墨角藻",
+                "note": "與開放資料 InfoId 4 同一筆。",
+                "restrictionNote": "學名 Fucus vesiculosus L.，部位藻體。備註空白。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "InSea2",
+                "matchedName": "",
+                "note": "商品名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Fucus",
+                "matchedName": "",
+                "note": "添加物分頁 0 筆。開放資料 InfoId 61 同樣 0 筆。Ascophyllum 也是 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "墨角藻",
+                "matchedName": "",
+                "note": "助手更新歷程（11/01–11/12）沒有褐藻或墨角藻的異動。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "history",
+                "unconfirmedSafety": false
+              }
+            ],
+            "usable": "listed_food_ingredient"
+          }
+        },
+        {
+          "discovery": {
+            "channel": "news",
+            "notes": "從 Nutrition Insight 2026-09-11 小鼠心臟研究新聞進入，再對 Ahiflower 新聞稿、Natures Crops 產品頁、DOI 10.1016/j.jff.2026.107449 與 US10888057。台灣關聯以商品名、學名與 Natures Crops 搭配台灣、代理、經銷複查，沒有打開到台灣原料頁。",
+            "scoutDate": "2026-11-13"
+          },
+          "efficacy": {
+            "claimedBenefits": [
+              "Nutrition Insight 2026-09-11 與 Ahiflower 2026-09-10 新聞稿：12 週小鼠試驗，寫血脂、血管、肝指數與血小板有改善，並寫與魚油在若干指標上相近。油本身不含 EPA 或 DHA，成分是 ALA、SDA 與 GLA。新聞稿把小鼠用量寫成約相當於人類每日 1 至 2.5 g。這是新聞與公司稿，不是論文摘要裡的句子。",
+              "Journal of Functional Foods 論文摘要（DOI 10.1016/j.jff.2026.107449）：人類臍靜脈內皮細胞在 TNF-α 刺激下，油降低 ICAM-1、VCAM-1 與 thromboxane B2，並提高 eNOS 與一氧化氮。小鼠有高脂飲食 12 週、poloxamer 407 與角叉菜膠三個模型。高脂組寫到血脂與肝指數下降；角叉菜膠組寫到血小板聚集下降但血脂沒有一起改變。摘要沒有寫人類等價劑量。"
+            ],
+            "dosageNote": "1 至 2.5 g 是新聞稿對小鼠劑量的換算說法，不是台灣法規上限，也不是這次讀到的論文摘要原文。",
+            "suggestedDosage": "新聞與公司稿寫小鼠用量約相當於人類每日 1 至 2.5 g。產品頁沒有寫建議毫克。論文摘要沒有這句換算。"
+          },
+          "evidenceLevels": [
+            "cell",
+            "animal"
+          ],
+          "example": false,
+          "id": "ahiflower",
+          "images": [
+            {
+              "caption": "Ahiflower 官網標誌。",
+              "localPath": "",
+              "source": "official_site",
+              "url": "https://images.squarespace-cdn.com/content/62a768c6b513fe529f9ab021/1a690fa8-debf-4adc-a4f5-754c1725b052/Ahiflower.png"
+            }
+          ],
+          "literature": {
+            "note": "已讀 DOI 頁摘要。新聞稿另提到 Frontiers in Nutrition 的人體 oxylipin 試驗，這次沒有打開，不計入文獻。",
+            "refs": [
+              {
+                "note": "Oh 等，Journal of Functional Foods，2026-07-30。摘要是細胞與小鼠，不是人體試驗。作者含韓國 Nine B Co., Ltd.。",
+                "title": "Beneficial effects of Ahiflower (Buglossoides arvensis) oil on hyperlipidemia and thrombosis",
+                "url": "https://doi.org/10.1016/j.jff.2026.107449"
+              }
+            ],
+            "status": "yes"
+          },
+          "names": {
+            "commonEn": "corn gromwell seed oil",
+            "commonZh": "田紫草種子油",
+            "scientific": "Buglossoides arvensis（種子油。不是琉璃苣 Borago officinalis，也不是紫草 Lithospermum。）",
+            "trade": "Ahiflower（Natures Crops International 的種子油商品名；產品頁亦寫 Natralipid Ahiflower）"
+          },
+          "patent": {
+            "note": "這是品種專利，不是油品功效專利。沒有另打開油脂組成的專利號。",
+            "refs": [
+              {
+                "note": "植物專利，2021-01-12 核准。頁面寫種子用來生產商業上稱為 Ahiflower oil 的油。發明人 Philip Howell。該頁的受讓人欄寫的是發明人，沒有寫 Natures Crops。",
+                "title": "US10888057B2 - Buglossoides arvensis plant named ‘Trafalgar’",
+                "url": "https://patents.justia.com/patent/10888057"
+              }
+            ],
+            "status": "yes"
+          },
+          "sources": [
+            {
+              "accessed": "2026-11-13",
+              "channel": "news",
+              "publisher": "Nutrition Insight",
+              "title": "Plant-based Ahiflower may rival fish oil for heart health, mouse study shows",
+              "url": "https://www.nutritioninsight.com/news/ahiflower-oil-heart-health-omegas.html",
+              "whatItContributes": "2026-09-11：小鼠 12 週、ALA／SDA／GLA、不含 EPA／DHA，以及 1 至 2.5 g 的換算說法。"
+            },
+            {
+              "accessed": "2026-11-13",
+              "channel": "supplier_site",
+              "publisher": "Ahiflower",
+              "title": "New Study Finds Ahiflower Omega-3 Oil Comparable to Fish Oil",
+              "url": "https://www.ahiflower.com/pressrelease/new-study-finds-ahiflower-omega-3-oil-comparable-to-fish-oil-for-cardiometabolic-amp-vascular-health",
+              "whatItContributes": "2026-09-10 公司稿：學名 Buglossoides arvensis，並引 Journal of Functional Foods。"
+            },
+            {
+              "accessed": "2026-11-13",
+              "channel": "supplier_site",
+              "publisher": "Natures Crops International",
+              "title": "Ahiflower seed oil",
+              "url": "https://www.naturescrops.com/our-products/ahiflower-seed-oil",
+              "whatItContributes": "種子在英國種植，壓榨、不使用溶劑。頁面沒有台灣經銷名單。"
+            },
+            {
+              "accessed": "2026-11-13",
+              "channel": "paper",
+              "publisher": "Journal of Functional Foods",
+              "title": "Journal of Functional Foods 2026",
+              "url": "https://doi.org/10.1016/j.jff.2026.107449",
+              "whatItContributes": "細胞與三個小鼠模型的摘要。沒有人類等價劑量。"
+            },
+            {
+              "accessed": "2026-11-13",
+              "channel": "patent",
+              "publisher": "Justia",
+              "title": "US10888057",
+              "url": "https://patents.justia.com/patent/10888057",
+              "whatItContributes": "Trafalgar 品種專利，頁面寫種子用於 Ahiflower oil。"
+            },
+            {
+              "accessed": "2026-11-13",
+              "channel": "supplier_site",
+              "publisher": "Natures Crops International",
+              "title": "Contact Us — Natures Crops",
+              "url": "https://www.naturescrops.com/contact-us",
+              "whatItContributes": "美國 Winston-Salem、加拿大與英國聯絡處。沒有台灣地址。"
+            }
+          ],
+          "supply": {
+            "relationship": "unknown",
+            "relationshipNote": "2026-11-13 以 Ahiflower、Natralipid、Buglossoides arvensis、Natures Crops、田紫草、種子油搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商交叉查詢。打開的 naturescrops.com 產品頁與聯絡頁、ahiflower.com 新聞稿都沒有台灣公司。Phytonet 頁寫的是東歐與土耳其通路，地址在瑞士，不是台灣。發布前再用同樣的商品名與學名複查一次，仍無台灣廠商頁把 Ahiflower 寫成原料代理或經銷。查核日 2026-11-13。",
+            "supplierCountry": "美國（聯絡頁同時列加拿大與英國辦公室；種子頁寫作物在英國種植）",
+            "supplierName": "Natures Crops International",
+            "taiwanPartyName": "本次查無台灣關聯廠商"
+          },
+          "tfda": {
+            "evidenceNotes": "Buglossoides、Ahiflower、田紫草在食品原料與添加物都是 0 筆，開放資料 InfoId 4 與 61 同樣 0 筆。另見的紫草是 Lithospermum，琉璃苣是 Borago officinalis，都不是這個學名。不是「未確認安全性」分類。not_found 只表示這次沒查到，不是准用，也不是禁用。",
+            "lookupDate": "2026-11-13",
+            "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+            "officialCrosscheck": {
+              "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+              "done": false,
+              "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+              "notes": "2026-11-13 消費者專區連線失敗。開放資料 InfoId 4 與 61 查 Buglossoides、Ahiflower、田紫草皆 0 筆。"
+            },
+            "queries": [
+              {
+                "category": "",
+                "keyword": "Buglossoides",
+                "matchedName": "",
+                "note": "學名 0 筆。開放資料 InfoId 4 同樣 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Ahiflower",
+                "matchedName": "",
+                "note": "商品名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "田紫草",
+                "matchedName": "",
+                "note": "中文名 0 筆。紫草（Lithospermum）與琉璃苣是另外的列名，沒有拿來當筆數。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Buglossoides",
+                "matchedName": "",
+                "note": "添加物分頁 0 筆。開放資料 InfoId 61 同樣 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Ahiflower",
+                "matchedName": "",
+                "note": "助手更新歷程（11/01–11/12）沒有這筆異動。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "history",
+                "unconfirmedSafety": false
+              }
+            ],
+            "usable": "not_found"
+          }
+        },
+        {
+          "discovery": {
+            "channel": "exhibition",
+            "notes": "從 Nutraceuticals World 2026-10-21 與 NutraIngredients 10 月 14 日的 SupplySide 預告進入，再對 Nuritas 產品頁、PMID 37277162 與 11 月 6 日 Gundry 成品新聞。台灣關聯打開利統的 Nuritas 頁，確認只有 PeptiSleep。",
+            "scoutDate": "2026-11-13"
+          },
+          "efficacy": {
+            "claimedBenefits": [
+              "Nuritas 原料頁：蠶豆胜肽，寫 2.4 g。頁面另寫力量恢復增加 144%、肌肉能量增加 54%、疲勞少 47%、力量增加 17%。這些百分比是網站句子，對應的論文這次沒有逐篇打開。",
+              "Nutrition Insight 2026-11-06：Gundry MD 成品每份 2.4 g PeptiStrong。文中寫固定試驗用的是較高劑量，而且肌肉量與力量流失相對牛乳蛋白沒有差異。",
+              "J Nutr 2023 摘要（PMID 37277162）：30 名年輕男性，單腳固定 7 天再恢復 14 天。蠶豆胜肽網絡每次 10 g、每日兩次，對照等氮牛乳蛋白。股四頭肌截面積兩組都下降，組間沒有差異。恢復期固定腿的肌原纖維蛋白合成率，胜肽組 1.53%/日、牛乳蛋白組 1.23%/日（p=0.027）。新聞稿寫的是每日兩次 20 g，與摘要的每次 10 g 不一致，兩句都留下。"
+            ],
+            "dosageNote": "2.4 g 是供應商頁的成品配方劑量。試驗摘要是每次 10 g、每日兩次。新聞與摘要的克數不一致。都不是台灣法規上限。",
+            "suggestedDosage": "Nuritas 頁寫粉末劑量 2.4 g。2023 年固定試驗摘要寫每次 10 g、每日兩次。Nutrition Insight 把同一試驗寫成每日兩次 20 g。"
+          },
+          "evidenceLevels": [
+            "clinical"
+          ],
+          "example": false,
+          "id": "peptistrong",
+          "images": [
+            {
+              "caption": "Nuritas 官網 PeptiStrong 頁首圖，不是粉末照片。",
+              "localPath": "",
+              "source": "official_site",
+              "url": "https://www.nuritas.com/wp-content/uploads/2024/02/main-header-peptistrong-man.jpg"
+            }
+          ],
+          "literature": {
+            "note": "已讀 Europe PMC 摘要。官網引用的 Nutrients 2023 與 BMJ Nutrition 2025 這次沒有打開，百分比不從那兩篇抄。",
+            "refs": [
+              {
+                "note": "Weijzen 等，J Nutr 2023（PMID 37277162）。主要終點肌肉截面積沒有組間差異。恢復期蛋白合成率有組間差異。Europe PMC 作者串含原料端姓名，單位欄這次沒有逐一核對。",
+                "title": "Vicia faba Peptide Network Supplementation Does Not Differ From Milk Protein in Modulating Changes in Muscle Size During Short-Term Immobilization and Subsequent Remobilization",
+                "url": "https://doi.org/10.1016/j.tjnut.2023.01.014"
+              }
+            ],
+            "status": "yes"
+          },
+          "names": {
+            "commonEn": "fava bean peptide network",
+            "commonZh": "蠶豆胜肽網絡",
+            "scientific": "Vicia faba（種子酵素水解後的胜肽網絡。不是膠原蛋白胜肽，也不是牛乳蛋白。）",
+            "trade": "PeptiStrong（Nuritas 的蠶豆胜肽商品名）"
+          },
+          "patent": {
+            "note": "Nuritas 頁與新聞寫專利胜肽。Justia 的 Nuritas Limited 清單有肌肉萎縮胜肽等標題，這次沒有打開任何一件全文，也沒有對到市售序列。狀態維持未知。",
+            "refs": [],
+            "status": "unknown"
+          },
+          "sources": [
+            {
+              "accessed": "2026-11-13",
+              "channel": "exhibition",
+              "publisher": "Nutraceuticals World",
+              "title": "Nuritas Launches Peptide Innovation Series, Highlights Peptides at SupplySide Global",
+              "url": "https://www.nutraceuticalsworld.com/live_from_shows/nuritas-launches-peptide-innovation-series-highlights-peptides-at-supplyside-global/",
+              "whatItContributes": "2026-10-21：SupplySide Global 展示 PeptiSleep，並以胜肽咖啡談 PeptiStrong 所屬的胜肽線。"
+            },
+            {
+              "accessed": "2026-11-13",
+              "channel": "exhibition",
+              "publisher": "NutraIngredients",
+              "title": "SupplySide Global 2026: What’s happening on the show floor",
+              "url": "https://www.nutraingredients.com/Article/2026/10/14/supplyside-global-2026-whats-happening-on-the-show-floor/",
+              "whatItContributes": "2026-10-14：Nuritas 攤位提供 PeptiStrong 咖啡。"
+            },
+            {
+              "accessed": "2026-11-13",
+              "channel": "supplier_site",
+              "publisher": "Nuritas",
+              "title": "PeptiStrong",
+              "url": "https://www.nuritas.com/peptistrong",
+              "whatItContributes": "蠶豆胜肽、2.4 g，以及網站上的百分比。聯絡頁地址在愛爾蘭都柏林。"
+            },
+            {
+              "accessed": "2026-11-13",
+              "channel": "paper",
+              "publisher": "The Journal of Nutrition",
+              "title": "PMID 37277162",
+              "url": "https://doi.org/10.1016/j.tjnut.2023.01.014",
+              "whatItContributes": "每次 10 g、每日兩次。肌肉截面積沒有組間差異；恢復期蛋白合成率有差異。"
+            },
+            {
+              "accessed": "2026-11-13",
+              "channel": "news",
+              "publisher": "Nutrition Insight",
+              "title": "Gundry MD blends creatine with Nuritas’ PeptiStrong",
+              "url": "https://www.nutritioninsight.com/news/gundry-md-myopeptide-complex-creatine-peptistrong.html",
+              "whatItContributes": "2026-11-06：成品 2.4 g，並把固定試驗的劑量寫成每日兩次 20 g。"
+            },
+            {
+              "accessed": "2026-11-13",
+              "channel": "other",
+              "publisher": "利統股份有限公司",
+              "title": "Nuritas 原料品牌",
+              "url": "https://www.lytone.com/functional-food/1/Nuritas",
+              "whatItContributes": "台灣頁只列 PeptiSleep，沒有 PeptiStrong。"
+            }
+          ],
+          "supply": {
+            "relationship": "unknown",
+            "relationshipNote": "利統的 Nuritas 品牌頁只寫 PeptiSleep 糙米睡眠胜肽，沒有 PeptiStrong。同品牌另一個胜肽不算這個商品名的代理。2026-11-13 以 PeptiStrong、Nuritas、Vicia faba、fava bean peptide、蠶豆胜肽搭配台灣、臺灣、Taiwan、代理、總代理、經銷複查，沒有看到把 PeptiStrong 寫成原料代理的頁。發布前再查一次，仍只有 PeptiSleep 那一頁。查核日 2026-11-13。",
+            "supplierCountry": "愛爾蘭",
+            "supplierName": "Nuritas Ltd.",
+            "taiwanPartyName": "利統股份有限公司（頁面只列 Nuritas 的 PeptiSleep，未列 PeptiStrong）"
+          },
+          "tfda": {
+            "evidenceNotes": "Vicia faba、PeptiStrong、蠶豆胜肽在食品原料與添加物都是 0 筆，開放資料 InfoId 4 與 61 同樣 0 筆。短字「蠶」會命中蠶絲蛋白與蠶蛹，沒有拿來當筆數。不是「未確認安全性」分類。not_found 只表示這次沒查到這個胜肽網絡，不是准用，也不是禁用。平臺說明寫傳統食品不會全部列出。",
+            "lookupDate": "2026-11-13",
+            "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+            "officialCrosscheck": {
+              "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+              "done": false,
+              "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+              "notes": "2026-11-13 消費者專區連線失敗。開放資料 InfoId 4 與 61 查 Vicia faba、PeptiStrong、蠶豆胜肽皆 0 筆。"
+            },
+            "queries": [
+              {
+                "category": "",
+                "keyword": "Vicia faba",
+                "matchedName": "",
+                "note": "學名 0 筆。開放資料 InfoId 4 同樣 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "PeptiStrong",
+                "matchedName": "",
+                "note": "商品名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "蠶豆胜肽",
+                "matchedName": "",
+                "note": "中文名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Vicia faba",
+                "matchedName": "",
+                "note": "添加物分頁 0 筆。開放資料 InfoId 61 同樣 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "PeptiStrong",
+                "matchedName": "",
+                "note": "助手更新歷程（11/01–11/12）沒有這筆異動。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "history",
+                "unconfirmedSafety": false
+              }
+            ],
+            "usable": "not_found"
+          }
+        },
+        {
+          "discovery": {
+            "channel": "industry_report",
+            "notes": "從 Nutrition Insight 2026-11-12 劑型產業訪談的 Lipofer 段落進入，再對路博潤產品頁與漢馨的品牌頁、產品頁。台灣關聯用 Lipofer、焦磷酸鐵、Lubrizol、路博潤搭配台灣、代理、經銷，打開漢馨三個頁面。",
+            "scoutDate": "2026-11-13"
+          },
+          "efficacy": {
+            "claimedBenefits": [
+              "Nutrition Insight 2026-11-12 的產業訪談：Lubrizol 的 Lipofer 微膠囊被拿來說明鐵的吸收、味道與耐用性，並寫可用在軟糖與免水沖的條包。文中沒有每日毫克。",
+              "路博潤產品頁：焦磷酸鐵先磨細再微膠囊，用來降低金屬味、減少與其他成分的作用，並使粉末可分散在水。頁面點名一篇西班牙缺鐵女性、果汁強化的隨機雙盲試驗標題。這次沒有打開那篇期刊，不抄鐵蛋白數字。",
+              "漢馨產品頁：寫人體實驗顯示生物利用率高、腸胃刺激少、沒有金屬味。同頁把專利欄寫成「無」。這些是該頁的句子。"
+            ],
+            "dosageNote": "膠囊或錠狀食品，鐵的總含量每日不得高於 45 mg；一般食品不得高於 22.5 mg；嬰兒食品不得高於 15 mg。這是焦磷酸鐵作為營養添加劑的上限，不是供應商建議的粉末克數。",
+            "suggestedDosage": "這次打開的訪談、路博潤產品頁與漢馨產品頁都沒有寫 Lipofer 的每日克數。添加物規格管的是食品中鐵的總含量。"
+          },
+          "evidenceLevels": [],
+          "example": false,
+          "id": "lipofer",
+          "images": [
+            {
+              "caption": "漢馨科技產品頁的 Lipofer 圖。路博潤產品頁這次回 403，沒有取到原廠圖。",
+              "localPath": "",
+              "source": "other",
+              "url": "https://www.hansient.com.tw/wp-content/uploads/Lipofer-微膠囊化鐵.jpg"
+            }
+          ],
+          "literature": {
+            "note": "路博潤頁點名果汁試驗的標題，漢馨寫有原廠研究。兩處都沒有給論文連結。這次沒有打開期刊全文，不把生物利用率寫成已核對的結果。",
+            "refs": [],
+            "status": "unknown"
+          },
+          "names": {
+            "commonEn": "microencapsulated ferric pyrophosphate",
+            "commonZh": "微膠囊化焦磷酸鐵",
+            "scientific": "不適用植物學名。鐵鹽為 ferric pyrophosphate（焦磷酸鐵）。路博潤產品頁寫先把焦磷酸鐵磨細，再做微膠囊，過程不改分子。",
+            "trade": "Lipofer（Lubrizol 的微膠囊鐵商品名）"
+          },
+          "patent": {
+            "note": "漢馨產品頁的專利欄寫「無」。另以 Lipofer、ferric pyrophosphate microencapsulated、Lubrizol 查專利，打開的一件是皮膚胜肽，不是這個鐵。沒有看到涵蓋 Lipofer 的專利號。",
+            "refs": [],
+            "status": "no"
+          },
+          "sources": [
+            {
+              "accessed": "2026-11-13",
+              "channel": "industry_report",
+              "publisher": "Nutrition Insight",
+              "title": "Next-gen supplements pair precision nutrition with consumer-friendly formats",
+              "url": "https://www.nutritioninsight.com/news/next-gen-supplements-precision-nutrition-formats.html",
+              "whatItContributes": "2026-11-12 產業訪談：Lipofer 被用來說明鐵的微膠囊、軟糖與條包。"
+            },
+            {
+              "accessed": "2026-11-13",
+              "channel": "supplier_site",
+              "publisher": "Lubrizol",
+              "title": "Lipofer",
+              "url": "https://www.lubrizol.com/solutions/products/lipofer",
+              "whatItContributes": "磨細的焦磷酸鐵、微膠囊、可分散。頁面點名果汁試驗標題。直接下載回 403，內容由頁面擷取讀到。"
+            },
+            {
+              "accessed": "2026-11-13",
+              "channel": "other",
+              "publisher": "漢馨科技有限公司",
+              "title": "Lipofer 微膠囊化鐵",
+              "url": "https://www.hansient.com.tw/product/lipofer-iron-%e5%be%ae%e8%86%a0%e5%9b%8a%e5%8c%96%e9%90%b5/",
+              "whatItContributes": "原廠 Lubrizol、產地法國、專利欄為無、寫有原廠研究。"
+            },
+            {
+              "accessed": "2026-11-13",
+              "channel": "other",
+              "publisher": "漢馨科技有限公司",
+              "title": "漢馨獨家品牌原料",
+              "url": "https://www.hansient.com.tw/brands/",
+              "whatItContributes": "Lipofer 列在該公司「獨家代理品牌」區的 Lubrizol 微膠囊系列。是該公司分類。"
+            },
+            {
+              "accessed": "2026-11-13",
+              "channel": "other",
+              "publisher": "漢馨科技有限公司",
+              "title": "Lubrizol 供應頁",
+              "url": "https://www.hansient.com.tw/supplier/lubrizol/",
+              "whatItContributes": "把路博潤生命科學事業部與 Lipofer 微膠囊化鐵放在同一頁。"
+            }
+          ],
+          "supply": {
+            "relationship": "taiwan_agent",
+            "relationshipNote": "漢馨品牌頁把 Lipofer 列在「漢馨獨家代理品牌」的 Lubrizol 微膠囊系列。這是該公司頁面的分類，不是路博潤官網點名。產品頁寫原廠 Lubrizol、產地法國。路博潤產品頁這次打不開，沒有看到經銷名單，不升格為原廠證實的獨家。查核日 2026-11-13。",
+            "supplierCountry": "法國（漢馨產品頁的產地欄。路博潤產品頁這次回 403，沒有另核到集團登記國）",
+            "supplierName": "Lubrizol",
+            "taiwanPartyName": "漢馨科技有限公司"
+          },
+          "tfda": {
+            "evidenceNotes": "食品添加物「焦磷酸鐵」（Ferric Pyrophosphate）1 筆，類別是營養添加劑。膠囊錠狀且標示每日食用量者，鐵的總含量每日不得高於 45 mg；一般食品不得高於 22.5 mg；嬰兒食品不得高於 15 mg。原料分頁沒有焦磷酸鐵或 Lipofer。列的是鐵鹽與鐵的總量，不是這個微膠囊商品名。",
+            "lookupDate": "2026-11-13",
+            "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+            "officialCrosscheck": {
+              "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+              "done": true,
+              "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+              "notes": "2026-11-13 消費者專區連線失敗。開放資料 InfoId 61 的焦磷酸鐵限量與助手一致。InfoId 4 沒有焦磷酸鐵或 Lipofer。"
+            },
+            "queries": [
+              {
+                "category": "",
+                "keyword": "焦磷酸鐵",
+                "matchedName": "焦磷酸鐵",
+                "note": "與開放資料 InfoId 61 同一筆。英文品名 Ferric Pyrophosphate（Iron Pyrophosphate）。",
+                "restrictionNote": "營養添加劑。膠囊、錠狀且有每日食用量者，鐵總量不得高於 45 mg／日。一般食品不得高於 22.5 mg。嬰兒（輔助）食品不得高於 15 mg。",
+                "resultCount": 1,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Lipofer",
+                "matchedName": "",
+                "note": "商品名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "焦磷酸鐵",
+                "matchedName": "",
+                "note": "原料分頁 0 筆。開放資料 InfoId 4 同樣 0 筆。鐵鹽在添加物，不在原料平臺。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Lipofer",
+                "matchedName": "",
+                "note": "商品名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "焦磷酸鐵",
+                "matchedName": "",
+                "note": "助手更新歷程（11/01–11/12）沒有這筆異動。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "history",
+                "unconfirmedSafety": false
+              }
+            ],
+            "usable": "listed_food_additive"
+          }
+        }
+      ],
+      "targetCount": 5,
+      "title": "2026-11-13 正式日報"
+    },
+    {
+      "channelsCovered": [
+        "news",
+        "exhibition",
+        "industry_report"
+      ],
       "date": "2026-11-12",
       "example": false,
       "notes": "正式五筆。主管道：Mitopure 為新聞；ThymoQuin、ODILIA、Cognizin 為展覽；Levagen+ 為產業報導。未放入未確認安全性項目。黑種草油與仙人掌（Opuntia ficus-indica，葉狀莖）有列名；尿石素 A、PEA、胞磷膽鹼這次原料與添加物都沒查到。",
@@ -7195,6 +8084,184 @@
     },
     {
       "discovery": {
+        "channel": "news",
+        "notes": "從 Nutrition Insight 2026-09-11 小鼠心臟研究新聞進入，再對 Ahiflower 新聞稿、Natures Crops 產品頁、DOI 10.1016/j.jff.2026.107449 與 US10888057。台灣關聯以商品名、學名與 Natures Crops 搭配台灣、代理、經銷複查，沒有打開到台灣原料頁。",
+        "scoutDate": "2026-11-13"
+      },
+      "efficacy": {
+        "claimedBenefits": [
+          "Nutrition Insight 2026-09-11 與 Ahiflower 2026-09-10 新聞稿：12 週小鼠試驗，寫血脂、血管、肝指數與血小板有改善，並寫與魚油在若干指標上相近。油本身不含 EPA 或 DHA，成分是 ALA、SDA 與 GLA。新聞稿把小鼠用量寫成約相當於人類每日 1 至 2.5 g。這是新聞與公司稿，不是論文摘要裡的句子。",
+          "Journal of Functional Foods 論文摘要（DOI 10.1016/j.jff.2026.107449）：人類臍靜脈內皮細胞在 TNF-α 刺激下，油降低 ICAM-1、VCAM-1 與 thromboxane B2，並提高 eNOS 與一氧化氮。小鼠有高脂飲食 12 週、poloxamer 407 與角叉菜膠三個模型。高脂組寫到血脂與肝指數下降；角叉菜膠組寫到血小板聚集下降但血脂沒有一起改變。摘要沒有寫人類等價劑量。"
+        ],
+        "dosageNote": "1 至 2.5 g 是新聞稿對小鼠劑量的換算說法，不是台灣法規上限，也不是這次讀到的論文摘要原文。",
+        "suggestedDosage": "新聞與公司稿寫小鼠用量約相當於人類每日 1 至 2.5 g。產品頁沒有寫建議毫克。論文摘要沒有這句換算。"
+      },
+      "evidenceLevels": [
+        "cell",
+        "animal"
+      ],
+      "example": false,
+      "id": "ahiflower",
+      "images": [
+        {
+          "caption": "Ahiflower 官網標誌。",
+          "localPath": "",
+          "source": "official_site",
+          "url": "https://images.squarespace-cdn.com/content/62a768c6b513fe529f9ab021/1a690fa8-debf-4adc-a4f5-754c1725b052/Ahiflower.png"
+        }
+      ],
+      "literature": {
+        "note": "已讀 DOI 頁摘要。新聞稿另提到 Frontiers in Nutrition 的人體 oxylipin 試驗，這次沒有打開，不計入文獻。",
+        "refs": [
+          {
+            "note": "Oh 等，Journal of Functional Foods，2026-07-30。摘要是細胞與小鼠，不是人體試驗。作者含韓國 Nine B Co., Ltd.。",
+            "title": "Beneficial effects of Ahiflower (Buglossoides arvensis) oil on hyperlipidemia and thrombosis",
+            "url": "https://doi.org/10.1016/j.jff.2026.107449"
+          }
+        ],
+        "status": "yes"
+      },
+      "names": {
+        "commonEn": "corn gromwell seed oil",
+        "commonZh": "田紫草種子油",
+        "scientific": "Buglossoides arvensis（種子油。不是琉璃苣 Borago officinalis，也不是紫草 Lithospermum。）",
+        "trade": "Ahiflower（Natures Crops International 的種子油商品名；產品頁亦寫 Natralipid Ahiflower）"
+      },
+      "patent": {
+        "note": "這是品種專利，不是油品功效專利。沒有另打開油脂組成的專利號。",
+        "refs": [
+          {
+            "note": "植物專利，2021-01-12 核准。頁面寫種子用來生產商業上稱為 Ahiflower oil 的油。發明人 Philip Howell。該頁的受讓人欄寫的是發明人，沒有寫 Natures Crops。",
+            "title": "US10888057B2 - Buglossoides arvensis plant named ‘Trafalgar’",
+            "url": "https://patents.justia.com/patent/10888057"
+          }
+        ],
+        "status": "yes"
+      },
+      "sources": [
+        {
+          "accessed": "2026-11-13",
+          "channel": "news",
+          "publisher": "Nutrition Insight",
+          "title": "Plant-based Ahiflower may rival fish oil for heart health, mouse study shows",
+          "url": "https://www.nutritioninsight.com/news/ahiflower-oil-heart-health-omegas.html",
+          "whatItContributes": "2026-09-11：小鼠 12 週、ALA／SDA／GLA、不含 EPA／DHA，以及 1 至 2.5 g 的換算說法。"
+        },
+        {
+          "accessed": "2026-11-13",
+          "channel": "supplier_site",
+          "publisher": "Ahiflower",
+          "title": "New Study Finds Ahiflower Omega-3 Oil Comparable to Fish Oil",
+          "url": "https://www.ahiflower.com/pressrelease/new-study-finds-ahiflower-omega-3-oil-comparable-to-fish-oil-for-cardiometabolic-amp-vascular-health",
+          "whatItContributes": "2026-09-10 公司稿：學名 Buglossoides arvensis，並引 Journal of Functional Foods。"
+        },
+        {
+          "accessed": "2026-11-13",
+          "channel": "supplier_site",
+          "publisher": "Natures Crops International",
+          "title": "Ahiflower seed oil",
+          "url": "https://www.naturescrops.com/our-products/ahiflower-seed-oil",
+          "whatItContributes": "種子在英國種植，壓榨、不使用溶劑。頁面沒有台灣經銷名單。"
+        },
+        {
+          "accessed": "2026-11-13",
+          "channel": "paper",
+          "publisher": "Journal of Functional Foods",
+          "title": "Journal of Functional Foods 2026",
+          "url": "https://doi.org/10.1016/j.jff.2026.107449",
+          "whatItContributes": "細胞與三個小鼠模型的摘要。沒有人類等價劑量。"
+        },
+        {
+          "accessed": "2026-11-13",
+          "channel": "patent",
+          "publisher": "Justia",
+          "title": "US10888057",
+          "url": "https://patents.justia.com/patent/10888057",
+          "whatItContributes": "Trafalgar 品種專利，頁面寫種子用於 Ahiflower oil。"
+        },
+        {
+          "accessed": "2026-11-13",
+          "channel": "supplier_site",
+          "publisher": "Natures Crops International",
+          "title": "Contact Us — Natures Crops",
+          "url": "https://www.naturescrops.com/contact-us",
+          "whatItContributes": "美國 Winston-Salem、加拿大與英國聯絡處。沒有台灣地址。"
+        }
+      ],
+      "supply": {
+        "relationship": "unknown",
+        "relationshipNote": "2026-11-13 以 Ahiflower、Natralipid、Buglossoides arvensis、Natures Crops、田紫草、種子油搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商交叉查詢。打開的 naturescrops.com 產品頁與聯絡頁、ahiflower.com 新聞稿都沒有台灣公司。Phytonet 頁寫的是東歐與土耳其通路，地址在瑞士，不是台灣。發布前再用同樣的商品名與學名複查一次，仍無台灣廠商頁把 Ahiflower 寫成原料代理或經銷。查核日 2026-11-13。",
+        "supplierCountry": "美國（聯絡頁同時列加拿大與英國辦公室；種子頁寫作物在英國種植）",
+        "supplierName": "Natures Crops International",
+        "taiwanPartyName": "本次查無台灣關聯廠商"
+      },
+      "tfda": {
+        "evidenceNotes": "Buglossoides、Ahiflower、田紫草在食品原料與添加物都是 0 筆，開放資料 InfoId 4 與 61 同樣 0 筆。另見的紫草是 Lithospermum，琉璃苣是 Borago officinalis，都不是這個學名。不是「未確認安全性」分類。not_found 只表示這次沒查到，不是准用，也不是禁用。",
+        "lookupDate": "2026-11-13",
+        "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+        "officialCrosscheck": {
+          "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+          "done": false,
+          "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+          "notes": "2026-11-13 消費者專區連線失敗。開放資料 InfoId 4 與 61 查 Buglossoides、Ahiflower、田紫草皆 0 筆。"
+        },
+        "queries": [
+          {
+            "category": "",
+            "keyword": "Buglossoides",
+            "matchedName": "",
+            "note": "學名 0 筆。開放資料 InfoId 4 同樣 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Ahiflower",
+            "matchedName": "",
+            "note": "商品名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "田紫草",
+            "matchedName": "",
+            "note": "中文名 0 筆。紫草（Lithospermum）與琉璃苣是另外的列名，沒有拿來當筆數。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Buglossoides",
+            "matchedName": "",
+            "note": "添加物分頁 0 筆。開放資料 InfoId 61 同樣 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Ahiflower",
+            "matchedName": "",
+            "note": "助手更新歷程（11/01–11/12）沒有這筆異動。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "history",
+            "unconfirmedSafety": false
+          }
+        ],
+        "usable": "not_found"
+      }
+    },
+    {
+      "discovery": {
         "channel": "exhibition",
         "notes": "從 Solabia 的 Vitafoods Asia 2026 攤位頁與 NutraIngredients 展前記看到 BrainBerry，再打開產品頁與 2020 年 PMC 全文，並用 Google Patents 核對 BioActor 的美國專利。TFDA 對的是果實列名，不是商品名。",
         "scoutDate": "2026-11-05"
@@ -8795,6 +9862,182 @@
     {
       "discovery": {
         "channel": "exhibition",
+        "notes": "從 NutraIngredients 2026-10-14 SupplySide 展場預告的 Artemis 段落進入，再對 innoVactiv 產品頁、Marine Drugs 2022，以及 2009 年 WEDAR 舊稿。台灣關聯打開崴達 2026 年原料總覽與康鮮分類頁。",
+        "scoutDate": "2026-11-13"
+      },
+      "efficacy": {
+        "claimedBenefits": [
+          "innoVactiv 原料頁：北大西洋兩種褐藻的水萃取，濃縮多酚，不另加溶劑。頁面寫可把升糖壓力最多降低 48.3%，並寫八項臨床、九百多名志願者。加拿大衛生部 NPN 80033840 的兩句是維持健康血糖，以及降低所吃食物的升糖指數。這些是供應商頁上的句子。",
+          "Marine Drugs 2022（DOI 10.3390/md20030174）：56 名過重或肥胖、血糖偏高的成人完成 12 週。每日 500 mg InSea2 加上減重建議。血糖沒有組間效果。120 分鐘 C-肽的下降，褐藻組與安慰劑組的變化差異 p=0.002。心率與 IL-6 上升幅度也有組間差異。論文寫成邊緣代謝變化，不是血糖已經下降。"
+        ],
+        "dosageNote": "500 mg 是該篇試驗的劑量，不是台灣法規上限。褐藻與墨角藻的列名沒有每日限量。論文寫萃取物碘含量 67 mg/kg。",
+        "suggestedDosage": "2022 年論文寫每日 500 mg（兩顆 250 mg），主餐前 30 分鐘。原料頁這次讀到的段落沒有寫每日毫克，只寫低劑量。"
+      },
+      "evidenceLevels": [
+        "clinical"
+      ],
+      "example": false,
+      "id": "insea2",
+      "images": [
+        {
+          "caption": "innoVactiv 官網 InSea2 頁的血糖控制圖，不是粉末規格書。",
+          "localPath": "",
+          "source": "official_site",
+          "url": "https://innovactiv.com/wp-content/uploads/2022/02/controle-glycemie.jpg"
+        }
+      ],
+      "literature": {
+        "note": "2022 年那篇已讀方法與結果。2011 年急性試驗的百分比這次沒有從原文抄。",
+        "refs": [
+          {
+            "note": "Marine Drugs 2022。每日 500 mg、12 週。血糖沒有組間效果。多酚約 35%，碘 67 mg/kg。",
+            "title": "Marginal Impact of Brown Seaweed Ascophyllum nodosum and Fucus vesiculosus Extract on Metabolic and Inflammatory Response",
+            "url": "https://www.mdpi.com/1660-3397/20/3/174"
+          },
+          {
+            "note": "Paradis 等，Appl Physiol Nutr Metab 2011（PMID 22087795）。原料頁列出這篇。這次只核到題名與出處，沒有打開結果數字。",
+            "title": "A randomised crossover placebo-controlled trial investigating the effect of brown seaweed on postchallenge plasma glucose and insulin",
+            "url": "https://doi.org/10.1139/h11-115"
+          }
+        ],
+        "status": "yes"
+      },
+      "names": {
+        "commonEn": "brown seaweed polyphenol extract",
+        "commonZh": "褐藻與墨角藻多酚萃取物",
+        "scientific": "Ascophyllum nodosum 與 Fucus vesiculosus L.（藻體。水萃取後濃縮多酚，不是整株藻粉。）",
+        "trade": "InSea2（innoVactiv 的兩種褐藻多酚商品名）"
+      },
+      "patent": {
+        "note": "以 InSea2、innoVactiv、Ascophyllum nodosum、Fucus vesiculosus 查專利，這次沒有打開對得上這個商品名的專利全文。原料頁沒有給專利號。",
+        "refs": [],
+        "status": "unknown"
+      },
+      "sources": [
+        {
+          "accessed": "2026-11-13",
+          "channel": "exhibition",
+          "publisher": "NutraIngredients",
+          "title": "SupplySide Global 2026: What’s happening on the show floor",
+          "url": "https://www.nutraingredients.com/Article/2026/10/14/supplyside-global-2026-whats-happening-on-the-show-floor/",
+          "whatItContributes": "2026-10-14 展場預告：Artemis International 攤位將 spotlight InSea2，寫成支持血糖的海藻萃取。"
+        },
+        {
+          "accessed": "2026-11-13",
+          "channel": "supplier_site",
+          "publisher": "innoVactiv",
+          "title": "InSea2",
+          "url": "https://innovactiv.com/produits/insea2/",
+          "whatItContributes": "兩種褐藻、水萃取、NPN 80033840，公司在加拿大 Rimouski。"
+        },
+        {
+          "accessed": "2026-11-13",
+          "channel": "paper",
+          "publisher": "Marine Drugs",
+          "title": "Marine Drugs 2022",
+          "url": "https://www.mdpi.com/1660-3397/20/3/174",
+          "whatItContributes": "12 週、每日 500 mg。血糖沒有組間效果；C-肽、心率與 IL-6 有組間差異。"
+        },
+        {
+          "accessed": "2026-11-13",
+          "channel": "news",
+          "publisher": "SupplySide Supplement Journal",
+          "title": "innoVactiv, Wedar Launching InSea2 into China, Taiwan",
+          "url": "https://www.supplysidesj.com/weight-management/innovactiv-wedar-launching-insea2-into-china-taiwan",
+          "whatItContributes": "2009-08-18：與台灣 WEDAR 的五年獨家。不是 2026 年的現況。"
+        },
+        {
+          "accessed": "2026-11-13",
+          "channel": "other",
+          "publisher": "崴達國際",
+          "title": "保健原料總覽",
+          "url": "https://www.wedar.com/product",
+          "whatItContributes": "2026-11-13 打開的原料清單沒有 InSea2。"
+        },
+        {
+          "accessed": "2026-11-13",
+          "channel": "other",
+          "publisher": "康鮮國際股份有限公司",
+          "title": "褐藻萃取分類",
+          "url": "https://www.nisoro.com/categories/insea2",
+          "whatItContributes": "網址含 insea2，頁面寫這個分類沒有產品。不當成現行經銷。"
+        }
+      ],
+      "supply": {
+        "relationship": "unknown",
+        "relationshipNote": "2009-08-18 SupplySide 稿寫 innoVactiv 與台灣 WEDAR 簽五年獨家，把 InSea2 銷往台灣與中國。2010-02-01 New Hope 稿仍寫 WEDAR 已在銷 InSea2。五年約的年限已過。2026-11-13 打開 wedar.com/product，原料總覽沒有 InSea2。nisoro.com/categories/insea2 頁面寫這個分類沒有產品。現行代理沒有在原廠或崴達現頁寫明。查核日 2026-11-13。以 InSea2、Ascophyllum、Fucus、褐藻、墨角藻、innoVactiv、崴達搭配台灣、代理、經銷複查，仍只有上述舊稿。",
+        "supplierCountry": "加拿大",
+        "supplierName": "innoVactiv",
+        "taiwanPartyName": "待確認"
+      },
+      "tfda": {
+        "evidenceNotes": "褐藻（Ascophyllum nodosum，藻體）與墨角藻（Fucus vesiculosus L.，藻體）各 1 筆，都在藻類及其來源製取之原料，備註空白，不是未確認安全性。商品名 InSea2 是 0 筆。列名的是藻體來源，沒有寫多酚萃取的每日上限。",
+        "lookupDate": "2026-11-13",
+        "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+        "officialCrosscheck": {
+          "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+          "done": true,
+          "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+          "notes": "2026-11-13 消費者專區 HTTPS 失敗、HTTP 502。開放資料 InfoId 4 的褐藻與墨角藻兩筆，學名、部位、空白備註與助手一致。InfoId 61 沒有這兩個學名。"
+        },
+        "queries": [
+          {
+            "category": "",
+            "keyword": "Ascophyllum nodosum",
+            "matchedName": "褐藻",
+            "note": "與開放資料 InfoId 4 同一筆。",
+            "restrictionNote": "學名 Ascophyllum nodosum，部位藻體。次分類為藻類及其來源製取之原料。備註空白。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Fucus vesiculosus",
+            "matchedName": "墨角藻",
+            "note": "與開放資料 InfoId 4 同一筆。",
+            "restrictionNote": "學名 Fucus vesiculosus L.，部位藻體。備註空白。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "InSea2",
+            "matchedName": "",
+            "note": "商品名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Fucus",
+            "matchedName": "",
+            "note": "添加物分頁 0 筆。開放資料 InfoId 61 同樣 0 筆。Ascophyllum 也是 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "墨角藻",
+            "matchedName": "",
+            "note": "助手更新歷程（11/01–11/12）沒有褐藻或墨角藻的異動。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "history",
+            "unconfirmedSafety": false
+          }
+        ],
+        "usable": "listed_food_ingredient"
+      }
+    },
+    {
+      "discovery": {
+        "channel": "exhibition",
         "notes": "從 Vitafoods Asia 2026 展前名錄的 Kaneka H6-F25 進入，對歐洲官網與 PMC 的 Kaneka QH 試驗，再對東翔與登盛的台灣頁。SupplySide 2025 名錄只核到 Kaneka North America 攤位。",
         "scoutDate": "2026-11-08"
       },
@@ -9638,6 +10881,162 @@
           }
         ],
         "usable": "listed_food_ingredient"
+      }
+    },
+    {
+      "discovery": {
+        "channel": "industry_report",
+        "notes": "從 Nutrition Insight 2026-11-12 劑型產業訪談的 Lipofer 段落進入，再對路博潤產品頁與漢馨的品牌頁、產品頁。台灣關聯用 Lipofer、焦磷酸鐵、Lubrizol、路博潤搭配台灣、代理、經銷，打開漢馨三個頁面。",
+        "scoutDate": "2026-11-13"
+      },
+      "efficacy": {
+        "claimedBenefits": [
+          "Nutrition Insight 2026-11-12 的產業訪談：Lubrizol 的 Lipofer 微膠囊被拿來說明鐵的吸收、味道與耐用性，並寫可用在軟糖與免水沖的條包。文中沒有每日毫克。",
+          "路博潤產品頁：焦磷酸鐵先磨細再微膠囊，用來降低金屬味、減少與其他成分的作用，並使粉末可分散在水。頁面點名一篇西班牙缺鐵女性、果汁強化的隨機雙盲試驗標題。這次沒有打開那篇期刊，不抄鐵蛋白數字。",
+          "漢馨產品頁：寫人體實驗顯示生物利用率高、腸胃刺激少、沒有金屬味。同頁把專利欄寫成「無」。這些是該頁的句子。"
+        ],
+        "dosageNote": "膠囊或錠狀食品，鐵的總含量每日不得高於 45 mg；一般食品不得高於 22.5 mg；嬰兒食品不得高於 15 mg。這是焦磷酸鐵作為營養添加劑的上限，不是供應商建議的粉末克數。",
+        "suggestedDosage": "這次打開的訪談、路博潤產品頁與漢馨產品頁都沒有寫 Lipofer 的每日克數。添加物規格管的是食品中鐵的總含量。"
+      },
+      "evidenceLevels": [],
+      "example": false,
+      "id": "lipofer",
+      "images": [
+        {
+          "caption": "漢馨科技產品頁的 Lipofer 圖。路博潤產品頁這次回 403，沒有取到原廠圖。",
+          "localPath": "",
+          "source": "other",
+          "url": "https://www.hansient.com.tw/wp-content/uploads/Lipofer-微膠囊化鐵.jpg"
+        }
+      ],
+      "literature": {
+        "note": "路博潤頁點名果汁試驗的標題，漢馨寫有原廠研究。兩處都沒有給論文連結。這次沒有打開期刊全文，不把生物利用率寫成已核對的結果。",
+        "refs": [],
+        "status": "unknown"
+      },
+      "names": {
+        "commonEn": "microencapsulated ferric pyrophosphate",
+        "commonZh": "微膠囊化焦磷酸鐵",
+        "scientific": "不適用植物學名。鐵鹽為 ferric pyrophosphate（焦磷酸鐵）。路博潤產品頁寫先把焦磷酸鐵磨細，再做微膠囊，過程不改分子。",
+        "trade": "Lipofer（Lubrizol 的微膠囊鐵商品名）"
+      },
+      "patent": {
+        "note": "漢馨產品頁的專利欄寫「無」。另以 Lipofer、ferric pyrophosphate microencapsulated、Lubrizol 查專利，打開的一件是皮膚胜肽，不是這個鐵。沒有看到涵蓋 Lipofer 的專利號。",
+        "refs": [],
+        "status": "no"
+      },
+      "sources": [
+        {
+          "accessed": "2026-11-13",
+          "channel": "industry_report",
+          "publisher": "Nutrition Insight",
+          "title": "Next-gen supplements pair precision nutrition with consumer-friendly formats",
+          "url": "https://www.nutritioninsight.com/news/next-gen-supplements-precision-nutrition-formats.html",
+          "whatItContributes": "2026-11-12 產業訪談：Lipofer 被用來說明鐵的微膠囊、軟糖與條包。"
+        },
+        {
+          "accessed": "2026-11-13",
+          "channel": "supplier_site",
+          "publisher": "Lubrizol",
+          "title": "Lipofer",
+          "url": "https://www.lubrizol.com/solutions/products/lipofer",
+          "whatItContributes": "磨細的焦磷酸鐵、微膠囊、可分散。頁面點名果汁試驗標題。直接下載回 403，內容由頁面擷取讀到。"
+        },
+        {
+          "accessed": "2026-11-13",
+          "channel": "other",
+          "publisher": "漢馨科技有限公司",
+          "title": "Lipofer 微膠囊化鐵",
+          "url": "https://www.hansient.com.tw/product/lipofer-iron-%e5%be%ae%e8%86%a0%e5%9b%8a%e5%8c%96%e9%90%b5/",
+          "whatItContributes": "原廠 Lubrizol、產地法國、專利欄為無、寫有原廠研究。"
+        },
+        {
+          "accessed": "2026-11-13",
+          "channel": "other",
+          "publisher": "漢馨科技有限公司",
+          "title": "漢馨獨家品牌原料",
+          "url": "https://www.hansient.com.tw/brands/",
+          "whatItContributes": "Lipofer 列在該公司「獨家代理品牌」區的 Lubrizol 微膠囊系列。是該公司分類。"
+        },
+        {
+          "accessed": "2026-11-13",
+          "channel": "other",
+          "publisher": "漢馨科技有限公司",
+          "title": "Lubrizol 供應頁",
+          "url": "https://www.hansient.com.tw/supplier/lubrizol/",
+          "whatItContributes": "把路博潤生命科學事業部與 Lipofer 微膠囊化鐵放在同一頁。"
+        }
+      ],
+      "supply": {
+        "relationship": "taiwan_agent",
+        "relationshipNote": "漢馨品牌頁把 Lipofer 列在「漢馨獨家代理品牌」的 Lubrizol 微膠囊系列。這是該公司頁面的分類，不是路博潤官網點名。產品頁寫原廠 Lubrizol、產地法國。路博潤產品頁這次打不開，沒有看到經銷名單，不升格為原廠證實的獨家。查核日 2026-11-13。",
+        "supplierCountry": "法國（漢馨產品頁的產地欄。路博潤產品頁這次回 403，沒有另核到集團登記國）",
+        "supplierName": "Lubrizol",
+        "taiwanPartyName": "漢馨科技有限公司"
+      },
+      "tfda": {
+        "evidenceNotes": "食品添加物「焦磷酸鐵」（Ferric Pyrophosphate）1 筆，類別是營養添加劑。膠囊錠狀且標示每日食用量者，鐵的總含量每日不得高於 45 mg；一般食品不得高於 22.5 mg；嬰兒食品不得高於 15 mg。原料分頁沒有焦磷酸鐵或 Lipofer。列的是鐵鹽與鐵的總量，不是這個微膠囊商品名。",
+        "lookupDate": "2026-11-13",
+        "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+        "officialCrosscheck": {
+          "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+          "done": true,
+          "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+          "notes": "2026-11-13 消費者專區連線失敗。開放資料 InfoId 61 的焦磷酸鐵限量與助手一致。InfoId 4 沒有焦磷酸鐵或 Lipofer。"
+        },
+        "queries": [
+          {
+            "category": "",
+            "keyword": "焦磷酸鐵",
+            "matchedName": "焦磷酸鐵",
+            "note": "與開放資料 InfoId 61 同一筆。英文品名 Ferric Pyrophosphate（Iron Pyrophosphate）。",
+            "restrictionNote": "營養添加劑。膠囊、錠狀且有每日食用量者，鐵總量不得高於 45 mg／日。一般食品不得高於 22.5 mg。嬰兒（輔助）食品不得高於 15 mg。",
+            "resultCount": 1,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Lipofer",
+            "matchedName": "",
+            "note": "商品名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "焦磷酸鐵",
+            "matchedName": "",
+            "note": "原料分頁 0 筆。開放資料 InfoId 4 同樣 0 筆。鐵鹽在添加物，不在原料平臺。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Lipofer",
+            "matchedName": "",
+            "note": "商品名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "焦磷酸鐵",
+            "matchedName": "",
+            "note": "助手更新歷程（11/01–11/12）沒有這筆異動。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "history",
+            "unconfirmedSafety": false
+          }
+        ],
+        "usable": "listed_food_additive"
       }
     },
     {
@@ -11817,6 +13216,178 @@
     {
       "discovery": {
         "channel": "exhibition",
+        "notes": "從 Nutraceuticals World 2026-10-21 與 NutraIngredients 10 月 14 日的 SupplySide 預告進入，再對 Nuritas 產品頁、PMID 37277162 與 11 月 6 日 Gundry 成品新聞。台灣關聯打開利統的 Nuritas 頁，確認只有 PeptiSleep。",
+        "scoutDate": "2026-11-13"
+      },
+      "efficacy": {
+        "claimedBenefits": [
+          "Nuritas 原料頁：蠶豆胜肽，寫 2.4 g。頁面另寫力量恢復增加 144%、肌肉能量增加 54%、疲勞少 47%、力量增加 17%。這些百分比是網站句子，對應的論文這次沒有逐篇打開。",
+          "Nutrition Insight 2026-11-06：Gundry MD 成品每份 2.4 g PeptiStrong。文中寫固定試驗用的是較高劑量，而且肌肉量與力量流失相對牛乳蛋白沒有差異。",
+          "J Nutr 2023 摘要（PMID 37277162）：30 名年輕男性，單腳固定 7 天再恢復 14 天。蠶豆胜肽網絡每次 10 g、每日兩次，對照等氮牛乳蛋白。股四頭肌截面積兩組都下降，組間沒有差異。恢復期固定腿的肌原纖維蛋白合成率，胜肽組 1.53%/日、牛乳蛋白組 1.23%/日（p=0.027）。新聞稿寫的是每日兩次 20 g，與摘要的每次 10 g 不一致，兩句都留下。"
+        ],
+        "dosageNote": "2.4 g 是供應商頁的成品配方劑量。試驗摘要是每次 10 g、每日兩次。新聞與摘要的克數不一致。都不是台灣法規上限。",
+        "suggestedDosage": "Nuritas 頁寫粉末劑量 2.4 g。2023 年固定試驗摘要寫每次 10 g、每日兩次。Nutrition Insight 把同一試驗寫成每日兩次 20 g。"
+      },
+      "evidenceLevels": [
+        "clinical"
+      ],
+      "example": false,
+      "id": "peptistrong",
+      "images": [
+        {
+          "caption": "Nuritas 官網 PeptiStrong 頁首圖，不是粉末照片。",
+          "localPath": "",
+          "source": "official_site",
+          "url": "https://www.nuritas.com/wp-content/uploads/2024/02/main-header-peptistrong-man.jpg"
+        }
+      ],
+      "literature": {
+        "note": "已讀 Europe PMC 摘要。官網引用的 Nutrients 2023 與 BMJ Nutrition 2025 這次沒有打開，百分比不從那兩篇抄。",
+        "refs": [
+          {
+            "note": "Weijzen 等，J Nutr 2023（PMID 37277162）。主要終點肌肉截面積沒有組間差異。恢復期蛋白合成率有組間差異。Europe PMC 作者串含原料端姓名，單位欄這次沒有逐一核對。",
+            "title": "Vicia faba Peptide Network Supplementation Does Not Differ From Milk Protein in Modulating Changes in Muscle Size During Short-Term Immobilization and Subsequent Remobilization",
+            "url": "https://doi.org/10.1016/j.tjnut.2023.01.014"
+          }
+        ],
+        "status": "yes"
+      },
+      "names": {
+        "commonEn": "fava bean peptide network",
+        "commonZh": "蠶豆胜肽網絡",
+        "scientific": "Vicia faba（種子酵素水解後的胜肽網絡。不是膠原蛋白胜肽，也不是牛乳蛋白。）",
+        "trade": "PeptiStrong（Nuritas 的蠶豆胜肽商品名）"
+      },
+      "patent": {
+        "note": "Nuritas 頁與新聞寫專利胜肽。Justia 的 Nuritas Limited 清單有肌肉萎縮胜肽等標題，這次沒有打開任何一件全文，也沒有對到市售序列。狀態維持未知。",
+        "refs": [],
+        "status": "unknown"
+      },
+      "sources": [
+        {
+          "accessed": "2026-11-13",
+          "channel": "exhibition",
+          "publisher": "Nutraceuticals World",
+          "title": "Nuritas Launches Peptide Innovation Series, Highlights Peptides at SupplySide Global",
+          "url": "https://www.nutraceuticalsworld.com/live_from_shows/nuritas-launches-peptide-innovation-series-highlights-peptides-at-supplyside-global/",
+          "whatItContributes": "2026-10-21：SupplySide Global 展示 PeptiSleep，並以胜肽咖啡談 PeptiStrong 所屬的胜肽線。"
+        },
+        {
+          "accessed": "2026-11-13",
+          "channel": "exhibition",
+          "publisher": "NutraIngredients",
+          "title": "SupplySide Global 2026: What’s happening on the show floor",
+          "url": "https://www.nutraingredients.com/Article/2026/10/14/supplyside-global-2026-whats-happening-on-the-show-floor/",
+          "whatItContributes": "2026-10-14：Nuritas 攤位提供 PeptiStrong 咖啡。"
+        },
+        {
+          "accessed": "2026-11-13",
+          "channel": "supplier_site",
+          "publisher": "Nuritas",
+          "title": "PeptiStrong",
+          "url": "https://www.nuritas.com/peptistrong",
+          "whatItContributes": "蠶豆胜肽、2.4 g，以及網站上的百分比。聯絡頁地址在愛爾蘭都柏林。"
+        },
+        {
+          "accessed": "2026-11-13",
+          "channel": "paper",
+          "publisher": "The Journal of Nutrition",
+          "title": "PMID 37277162",
+          "url": "https://doi.org/10.1016/j.tjnut.2023.01.014",
+          "whatItContributes": "每次 10 g、每日兩次。肌肉截面積沒有組間差異；恢復期蛋白合成率有差異。"
+        },
+        {
+          "accessed": "2026-11-13",
+          "channel": "news",
+          "publisher": "Nutrition Insight",
+          "title": "Gundry MD blends creatine with Nuritas’ PeptiStrong",
+          "url": "https://www.nutritioninsight.com/news/gundry-md-myopeptide-complex-creatine-peptistrong.html",
+          "whatItContributes": "2026-11-06：成品 2.4 g，並把固定試驗的劑量寫成每日兩次 20 g。"
+        },
+        {
+          "accessed": "2026-11-13",
+          "channel": "other",
+          "publisher": "利統股份有限公司",
+          "title": "Nuritas 原料品牌",
+          "url": "https://www.lytone.com/functional-food/1/Nuritas",
+          "whatItContributes": "台灣頁只列 PeptiSleep，沒有 PeptiStrong。"
+        }
+      ],
+      "supply": {
+        "relationship": "unknown",
+        "relationshipNote": "利統的 Nuritas 品牌頁只寫 PeptiSleep 糙米睡眠胜肽，沒有 PeptiStrong。同品牌另一個胜肽不算這個商品名的代理。2026-11-13 以 PeptiStrong、Nuritas、Vicia faba、fava bean peptide、蠶豆胜肽搭配台灣、臺灣、Taiwan、代理、總代理、經銷複查，沒有看到把 PeptiStrong 寫成原料代理的頁。發布前再查一次，仍只有 PeptiSleep 那一頁。查核日 2026-11-13。",
+        "supplierCountry": "愛爾蘭",
+        "supplierName": "Nuritas Ltd.",
+        "taiwanPartyName": "利統股份有限公司（頁面只列 Nuritas 的 PeptiSleep，未列 PeptiStrong）"
+      },
+      "tfda": {
+        "evidenceNotes": "Vicia faba、PeptiStrong、蠶豆胜肽在食品原料與添加物都是 0 筆，開放資料 InfoId 4 與 61 同樣 0 筆。短字「蠶」會命中蠶絲蛋白與蠶蛹，沒有拿來當筆數。不是「未確認安全性」分類。not_found 只表示這次沒查到這個胜肽網絡，不是准用，也不是禁用。平臺說明寫傳統食品不會全部列出。",
+        "lookupDate": "2026-11-13",
+        "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+        "officialCrosscheck": {
+          "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+          "done": false,
+          "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+          "notes": "2026-11-13 消費者專區連線失敗。開放資料 InfoId 4 與 61 查 Vicia faba、PeptiStrong、蠶豆胜肽皆 0 筆。"
+        },
+        "queries": [
+          {
+            "category": "",
+            "keyword": "Vicia faba",
+            "matchedName": "",
+            "note": "學名 0 筆。開放資料 InfoId 4 同樣 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "PeptiStrong",
+            "matchedName": "",
+            "note": "商品名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "蠶豆胜肽",
+            "matchedName": "",
+            "note": "中文名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Vicia faba",
+            "matchedName": "",
+            "note": "添加物分頁 0 筆。開放資料 InfoId 61 同樣 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "PeptiStrong",
+            "matchedName": "",
+            "note": "助手更新歷程（11/01–11/12）沒有這筆異動。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "history",
+            "unconfirmedSafety": false
+          }
+        ],
+        "usable": "not_found"
+      }
+    },
+    {
+      "discovery": {
+        "channel": "exhibition",
         "notes": "從 PharmaGABA 的 Vitafoods Asia 2026 攤位稿開始，對官網的發酵製程與效益頁的毫克數，再看統園產品頁。該頁自稱為獨家代理，供應商頁沒有互指。TFDA 的菌種與每日 100 毫克是用助手同一筆原料抄的，沒有把 200 毫克寫成可用劑量。",
         "scoutDate": "2026-11-05"
       },
@@ -12663,6 +14234,199 @@
           }
         ],
         "usable": "listed_food_additive"
+      }
+    },
+    {
+      "discovery": {
+        "channel": "news",
+        "notes": "從 Nutrition Insight 2026-11-10 統園通路新聞進入，再對 Nutraceuticals World 11 月 9 日稿、統園 6 月 26 日頁、Stratum 原料頁、medRxiv 預印本與 WO2017129987A1。台灣關聯用 SageXtra、Sibelius Sage、鼠尾草、Salvia officinalis 搭配台灣、代理、經銷打開統園頁。",
+        "scoutDate": "2026-11-13"
+      },
+      "efficacy": {
+        "claimedBenefits": [
+          "Stratum 原料頁：標準化 2.5% 迷迭香酸，寫單次後 1 小時可支持工作記憶、注意力準確度與次級記憶；167 mg 與 333 mg 寫可支持記憶。這是供應商宣稱。",
+          "Nutrition Insight 2026-11-10：Stratum 說次級記憶與注意力的依據，是 2008 年另一種標準化鼠尾草萃取的交叉試驗，由 Oxford Natural Products 資助。20 名 65 歲以上成人，單次 167 至 1332 mg。",
+          "medRxiv 2021.05.28.21257776 是 Sibelius 出資的預印本，不是期刊。年輕成人單次 150 mg 或 300 mg Sibelius Sage（最低 2.5% 迷迭香酸），1 小時後立即詞語回憶的正確率下降較安慰劑少。預印本把 2008 年 Scholey 論文寫成同一萃取，與上一則「不同萃取」並陳，這裡不自行判定。"
+        ],
+        "dosageNote": "以上是供應商頁、預印本與 2008 年試驗的劑量，不是台灣法規上限。全草那一筆沒有每日毫克。果實與種子不得作為食品原料。",
+        "suggestedDosage": "Stratum 頁寫 167 mg 與 333 mg。預印本用 150 mg 與 300 mg。2008 年試驗的劑量是 167、333、666、1332 mg，摘要寫 333 mg 對次級記憶與注意力準確度有組間差異。"
+      },
+      "evidenceLevels": [
+        "clinical"
+      ],
+      "example": false,
+      "id": "sagextra",
+      "images": [
+        {
+          "caption": "Stratum 官網 SageXtra 原料頁的封面圖。",
+          "localPath": "",
+          "source": "official_site",
+          "url": "https://pub-62493d3b6c1f43b3b3da35416578b569.r2.dev/file/Website-Ingredient-Cover-sageXtra2.webp-29e7a43332452043edf9ff874edca508.webp"
+        }
+      ],
+      "literature": {
+        "note": "已讀預印本全文與 2008 年論文的 PubMed 摘要。2008 年全文這次沒有打開。",
+        "refs": [
+          {
+            "note": "預印本，DRKS00015716。年輕成人 36 人完成，150 mg 與 300 mg。立即詞語回憶在 1 小時有組間差異。青少年組這次不另摘數字。",
+            "title": "Assessment of the Effects of a Sage (Salvia officinalis) Extract on Cognitive Performance in Adolescents and Young Adults",
+            "url": "https://www.medrxiv.org/content/10.1101/2021.05.28.21257776v1.full"
+          },
+          {
+            "note": "Scholey 等，Psychopharmacology 2008（PMID 18350281）。20 人、333 mg 的次級記憶與注意力。Stratum 與預印本對「是不是同一萃取」說法不同。",
+            "title": "An extract of Salvia (sage) with anticholinesterase properties improves memory and attention in healthy older volunteers",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18350281/"
+          }
+        ],
+        "status": "yes"
+      },
+      "names": {
+        "commonEn": "common sage leaf extract",
+        "commonZh": "藥用鼠尾草葉萃取物",
+        "scientific": "Salvia officinalis L.（葉。統園 2026-06-26 頁寫英國鼠尾草葉。開放資料對「全草」的說明是根、莖、葉、花，不含果實與種子。）",
+        "trade": "SageXtra（Stratum Nutrition 的鼠尾草萃取商品名；公司頁寫 2024 年自 Sibelius 取得，舊名 Sibelius Sage）"
+      },
+      "patent": {
+        "note": "Sibelius 原料頁寫 patented，沒有在該頁給專利號。這次只打開 WO2017129987A1。",
+        "refs": [
+          {
+            "note": "申請人 Sibelius Ltd。打開的頁面是鼠尾草組成與壽命篩選方法，沒有逐條對到市售 2.5% 迷迭香酸規格。",
+            "title": "WO2017129987A1 - Botanical compositions of salvia officinalis",
+            "url": "https://patents.google.com/patent/WO2017129987A1/en"
+          }
+        ],
+        "status": "yes"
+      },
+      "sources": [
+        {
+          "accessed": "2026-11-13",
+          "channel": "news",
+          "publisher": "Nutrition Insight",
+          "title": "Stratum Nutrition targets Taiwan’s super-aged market with Toong Yeuan distribution deal",
+          "url": "https://www.nutritioninsight.com/news/stratum-nutrition-toong-yeuan-enterprise-taiwan.html",
+          "whatItContributes": "2026-11-10：與統園的通路合作涵蓋 SageXtra；2.5% 迷迭香酸；並寫 2008 年試驗是另一種萃取。"
+        },
+        {
+          "accessed": "2026-11-13",
+          "channel": "news",
+          "publisher": "Nutraceuticals World",
+          "title": "Stratum Nutrition Announces Distribution Partnership with Toong Yeuan Enterprise Co. Ltd. in Taiwan",
+          "url": "https://www.nutraceuticalsworld.com/breaking-news/stratum-nutrition-announces-distribution-partnership-with-toong-yeuan-enterprise-co-ltd-in-taiwan/",
+          "whatItContributes": "2026-11-09：Stratum 宣布與統園的 distribution partnership，文中沒有寫獨家。"
+        },
+        {
+          "accessed": "2026-11-13",
+          "channel": "other",
+          "publisher": "統園企業股份有限公司",
+          "title": "統園企業獨家代理美國NEM、OVOLUX蛋殼膜等明星原料",
+          "url": "https://www.tyig.com.tw/web/news/news_in.jsp?lang=tw&np_no=NP1782292043014",
+          "whatItContributes": "2026-06-26 該公司自述獨家代理 SageXtra，並寫英國鼠尾草葉、不含咖啡因。"
+        },
+        {
+          "accessed": "2026-11-13",
+          "channel": "supplier_site",
+          "publisher": "Stratum Nutrition",
+          "title": "sageXtra overview",
+          "url": "https://stratumnutrition.com/human/ingredients/detail/sage-xtra/overview",
+          "whatItContributes": "2.5% 迷迭香酸、167 mg 與 333 mg，地址在美國密蘇里州 Carthage。"
+        },
+        {
+          "accessed": "2026-11-13",
+          "channel": "paper",
+          "publisher": "medRxiv",
+          "title": "medRxiv 2021.05.28.21257776",
+          "url": "https://www.medrxiv.org/content/10.1101/2021.05.28.21257776v1.full",
+          "whatItContributes": "Sibelius Sage 的年輕成人急性試驗，以及 2.5% 迷迭香酸的製程描述。"
+        },
+        {
+          "accessed": "2026-11-13",
+          "channel": "patent",
+          "publisher": "Google Patents",
+          "title": "WO2017129987A1",
+          "url": "https://patents.google.com/patent/WO2017129987A1/en",
+          "whatItContributes": "Sibelius 的鼠尾草組成專利。"
+        }
+      ],
+      "supply": {
+        "relationship": "taiwan_agent",
+        "relationshipNote": "統園 2026-06-26 新聞自述獲得 Stratum 指定授權，「獨家代理」NEM、OVOLUX 與 SageXtra。Nutraceuticals World 2026-11-09 與 Nutrition Insight 2026-11-10 轉述的是 distribution partnership，兩篇都沒有寫獨家。獨家只見該公司自述，不升格為原廠已證實。查核日 2026-11-13。",
+        "supplierCountry": "美國",
+        "supplierName": "Stratum Nutrition",
+        "taiwanPartyName": "統園企業股份有限公司"
+      },
+      "tfda": {
+        "evidenceNotes": "Salvia officinalis 有兩筆：全草列在可供食品使用，分類是茶包、膳食調理包或萃取後作原料，備註空白；果實、種子列在未確認安全性，不得作為食品原料。平臺說明寫全草指根、莖、葉、花。本品是葉萃取，對到的是全草那一筆，不是種子。同字「鼠尾草」還會命中其他鼠尾草種。添加物用「鼠尾草」會命中迷迭香萃取物，因為規格寫鼠尾草酸，不是這個學名。",
+        "lookupDate": "2026-11-13",
+        "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+        "officialCrosscheck": {
+          "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+          "done": true,
+          "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+          "notes": "2026-11-13 消費者專區 HTTPS 為 SSL 錯誤、HTTP 為 502。另下載開放資料 InfoId 4：鼠尾草、Salvia officinalis L.，全草為可供食品使用，果實與種子為未確認。資料內的平臺說明寫全草指根、莖、葉、花。InfoId 61 的「鼠尾草」只命中迷迭香萃取物。"
+        },
+        "queries": [
+          {
+            "category": "",
+            "keyword": "Salvia officinalis",
+            "matchedName": "鼠尾草",
+            "note": "同一學名兩筆。助手與開放資料 InfoId 4 一致。全草的官方說明不含果實、種子。",
+            "restrictionNote": "全草：可供食品使用，茶包、膳食調理包或萃取後作為原料，備註空白。果實、種子：未經確認其食用安全性前，不得供作食品原料使用。",
+            "resultCount": 2,
+            "tab": "ingredient",
+            "unconfirmedSafety": true
+          },
+          {
+            "category": "",
+            "keyword": "鼠尾草",
+            "matchedName": "鼠尾草",
+            "note": "子字串會帶進其他種。西班牙鼠尾草全草是未確認，不是本品。",
+            "restrictionNote": "Salvia officinalis 的全草與果實、種子如上。另外兩筆可供食用的種子是奇亞：Salvia columbariae，以及 Salvia hispanica（須標示對花生等核果過敏者應小心食用）。節毛鼠尾草是 Salvia plebeia。白鼠尾草、墨西哥鼠尾草、日本紫花鼠尾草葉、西班牙鼠尾草全草則是未確認。",
+            "resultCount": 9,
+            "tab": "ingredient",
+            "unconfirmedSafety": true
+          },
+          {
+            "category": "",
+            "keyword": "SageXtra",
+            "matchedName": "",
+            "note": "商品名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "鼠尾草",
+            "matchedName": "迷迭香萃取物",
+            "note": "命中的是迷迭香萃取物，不是 Salvia officinalis。開放資料 InfoId 61 同樣只有這一筆含「鼠尾草」字樣。",
+            "restrictionNote": "抗氧化劑。用量以鼠尾草酸與鼠尾草酚總量計，依食品別有 mg/kg 上限。",
+            "resultCount": 1,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Salvia officinalis",
+            "matchedName": "",
+            "note": "學名在添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "鼠尾草",
+            "matchedName": "",
+            "note": "助手更新歷程（11/01–11/12）沒有這筆異動。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "history",
+            "unconfirmedSafety": false
+          }
+        ],
+        "usable": "needs_review"
       }
     },
     {

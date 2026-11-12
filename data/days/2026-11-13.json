@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-13",
+  "example": false,
+  "title": "2026-11-13 正式日報",
+  "targetCount": 5,
+  "channelsCovered": [
+    "news",
+    "exhibition",
+    "industry_report"
+  ],
+  "notes": "正式五筆。主管道：SageXtra、Ahiflower 為新聞；InSea2、PeptiStrong 為展覽；Lipofer 為產業報導。鼠尾草全草有列、果實種子未確認；褐藻、墨角藻與焦磷酸鐵有列。田紫草油與蠶豆胜肽這次沒查到。",
+  "picks": [
+    "sagextra",
+    "insea2",
+    "ahiflower",
+    "peptistrong",
+    "lipofer"
+  ]
+}

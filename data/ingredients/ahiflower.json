@@ -1,0 +1,178 @@
+{
+  "id": "ahiflower",
+  "example": false,
+  "names": {
+    "commonZh": "田紫草種子油",
+    "commonEn": "corn gromwell seed oil",
+    "trade": "Ahiflower（Natures Crops International 的種子油商品名；產品頁亦寫 Natralipid Ahiflower）",
+    "scientific": "Buglossoides arvensis（種子油。不是琉璃苣 Borago officinalis，也不是紫草 Lithospermum。）"
+  },
+  "supply": {
+    "supplierName": "Natures Crops International",
+    "supplierCountry": "美國（聯絡頁同時列加拿大與英國辦公室；種子頁寫作物在英國種植）",
+    "relationship": "unknown",
+    "taiwanPartyName": "本次查無台灣關聯廠商",
+    "relationshipNote": "2026-11-13 以 Ahiflower、Natralipid、Buglossoides arvensis、Natures Crops、田紫草、種子油搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商交叉查詢。打開的 naturescrops.com 產品頁與聯絡頁、ahiflower.com 新聞稿都沒有台灣公司。Phytonet 頁寫的是東歐與土耳其通路，地址在瑞士，不是台灣。發布前再用同樣的商品名與學名複查一次，仍無台灣廠商頁把 Ahiflower 寫成原料代理或經銷。查核日 2026-11-13。"
+  },
+  "tfda": {
+    "usable": "not_found",
+    "evidenceNotes": "Buglossoides、Ahiflower、田紫草在食品原料與添加物都是 0 筆，開放資料 InfoId 4 與 61 同樣 0 筆。另見的紫草是 Lithospermum，琉璃苣是 Borago officinalis，都不是這個學名。不是「未確認安全性」分類。not_found 只表示這次沒查到，不是准用，也不是禁用。",
+    "lookupDate": "2026-11-13",
+    "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+    "queries": [
+      {
+        "tab": "ingredient",
+        "keyword": "Buglossoides",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "學名 0 筆。開放資料 InfoId 4 同樣 0 筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Ahiflower",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名 0 筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "田紫草",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "中文名 0 筆。紫草（Lithospermum）與琉璃苣是另外的列名，沒有拿來當筆數。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "Buglossoides",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "添加物分頁 0 筆。開放資料 InfoId 61 同樣 0 筆。"
+      },
+      {
+        "tab": "history",
+        "keyword": "Ahiflower",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "助手更新歷程（11/01–11/12）沒有這筆異動。"
+      }
+    ],
+    "officialCrosscheck": {
+      "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+      "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+      "done": false,
+      "notes": "2026-11-13 消費者專區連線失敗。開放資料 InfoId 4 與 61 查 Buglossoides、Ahiflower、田紫草皆 0 筆。"
+    }
+  },
+  "efficacy": {
+    "claimedBenefits": [
+      "Nutrition Insight 2026-09-11 與 Ahiflower 2026-09-10 新聞稿：12 週小鼠試驗，寫血脂、血管、肝指數與血小板有改善，並寫與魚油在若干指標上相近。油本身不含 EPA 或 DHA，成分是 ALA、SDA 與 GLA。新聞稿把小鼠用量寫成約相當於人類每日 1 至 2.5 g。這是新聞與公司稿，不是論文摘要裡的句子。",
+      "Journal of Functional Foods 論文摘要（DOI 10.1016/j.jff.2026.107449）：人類臍靜脈內皮細胞在 TNF-α 刺激下，油降低 ICAM-1、VCAM-1 與 thromboxane B2，並提高 eNOS 與一氧化氮。小鼠有高脂飲食 12 週、poloxamer 407 與角叉菜膠三個模型。高脂組寫到血脂與肝指數下降；角叉菜膠組寫到血小板聚集下降但血脂沒有一起改變。摘要沒有寫人類等價劑量。"
+    ],
+    "suggestedDosage": "新聞與公司稿寫小鼠用量約相當於人類每日 1 至 2.5 g。產品頁沒有寫建議毫克。論文摘要沒有這句換算。",
+    "dosageNote": "1 至 2.5 g 是新聞稿對小鼠劑量的換算說法，不是台灣法規上限，也不是這次讀到的論文摘要原文。"
+  },
+  "patent": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "US10888057B2 - Buglossoides arvensis plant named ‘Trafalgar’",
+        "url": "https://patents.justia.com/patent/10888057",
+        "note": "植物專利，2021-01-12 核准。頁面寫種子用來生產商業上稱為 Ahiflower oil 的油。發明人 Philip Howell。該頁的受讓人欄寫的是發明人，沒有寫 Natures Crops。"
+      }
+    ],
+    "note": "這是品種專利，不是油品功效專利。沒有另打開油脂組成的專利號。"
+  },
+  "literature": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "Beneficial effects of Ahiflower (Buglossoides arvensis) oil on hyperlipidemia and thrombosis",
+        "url": "https://doi.org/10.1016/j.jff.2026.107449",
+        "note": "Oh 等，Journal of Functional Foods，2026-07-30。摘要是細胞與小鼠，不是人體試驗。作者含韓國 Nine B Co., Ltd.。"
+      }
+    ],
+    "note": "已讀 DOI 頁摘要。新聞稿另提到 Frontiers in Nutrition 的人體 oxylipin 試驗，這次沒有打開，不計入文獻。"
+  },
+  "evidenceLevels": [
+    "cell",
+    "animal"
+  ],
+  "images": [
+    {
+      "url": "https://images.squarespace-cdn.com/content/62a768c6b513fe529f9ab021/1a690fa8-debf-4adc-a4f5-754c1725b052/Ahiflower.png",
+      "localPath": "",
+      "caption": "Ahiflower 官網標誌。",
+      "source": "official_site"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Plant-based Ahiflower may rival fish oil for heart health, mouse study shows",
+      "url": "https://www.nutritioninsight.com/news/ahiflower-oil-heart-health-omegas.html",
+      "publisher": "Nutrition Insight",
+      "channel": "news",
+      "accessed": "2026-11-13",
+      "whatItContributes": "2026-09-11：小鼠 12 週、ALA／SDA／GLA、不含 EPA／DHA，以及 1 至 2.5 g 的換算說法。"
+    },
+    {
+      "title": "New Study Finds Ahiflower Omega-3 Oil Comparable to Fish Oil",
+      "url": "https://www.ahiflower.com/pressrelease/new-study-finds-ahiflower-omega-3-oil-comparable-to-fish-oil-for-cardiometabolic-amp-vascular-health",
+      "publisher": "Ahiflower",
+      "channel": "supplier_site",
+      "accessed": "2026-11-13",
+      "whatItContributes": "2026-09-10 公司稿：學名 Buglossoides arvensis，並引 Journal of Functional Foods。"
+    },
+    {
+      "title": "Ahiflower seed oil",
+      "url": "https://www.naturescrops.com/our-products/ahiflower-seed-oil",
+      "publisher": "Natures Crops International",
+      "channel": "supplier_site",
+      "accessed": "2026-11-13",
+      "whatItContributes": "種子在英國種植，壓榨、不使用溶劑。頁面沒有台灣經銷名單。"
+    },
+    {
+      "title": "Journal of Functional Foods 2026",
+      "url": "https://doi.org/10.1016/j.jff.2026.107449",
+      "publisher": "Journal of Functional Foods",
+      "channel": "paper",
+      "accessed": "2026-11-13",
+      "whatItContributes": "細胞與三個小鼠模型的摘要。沒有人類等價劑量。"
+    },
+    {
+      "title": "US10888057",
+      "url": "https://patents.justia.com/patent/10888057",
+      "publisher": "Justia",
+      "channel": "patent",
+      "accessed": "2026-11-13",
+      "whatItContributes": "Trafalgar 品種專利，頁面寫種子用於 Ahiflower oil。"
+    },
+    {
+      "title": "Contact Us — Natures Crops",
+      "url": "https://www.naturescrops.com/contact-us",
+      "publisher": "Natures Crops International",
+      "channel": "supplier_site",
+      "accessed": "2026-11-13",
+      "whatItContributes": "美國 Winston-Salem、加拿大與英國聯絡處。沒有台灣地址。"
+    }
+  ],
+  "discovery": {
+    "channel": "news",
+    "scoutDate": "2026-11-13",
+    "notes": "從 Nutrition Insight 2026-09-11 小鼠心臟研究新聞進入，再對 Ahiflower 新聞稿、Natures Crops 產品頁、DOI 10.1016/j.jff.2026.107449 與 US10888057。台灣關聯以商品名、學名與 Natures Crops 搭配台灣、代理、經銷複查，沒有打開到台灣原料頁。"
+  }
+}

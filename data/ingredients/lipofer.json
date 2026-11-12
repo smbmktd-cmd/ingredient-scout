@@ -1,0 +1,156 @@
+{
+  "id": "lipofer",
+  "example": false,
+  "names": {
+    "commonZh": "微膠囊化焦磷酸鐵",
+    "commonEn": "microencapsulated ferric pyrophosphate",
+    "trade": "Lipofer（Lubrizol 的微膠囊鐵商品名）",
+    "scientific": "不適用植物學名。鐵鹽為 ferric pyrophosphate（焦磷酸鐵）。路博潤產品頁寫先把焦磷酸鐵磨細，再做微膠囊，過程不改分子。"
+  },
+  "supply": {
+    "supplierName": "Lubrizol",
+    "supplierCountry": "法國（漢馨產品頁的產地欄。路博潤產品頁這次回 403，沒有另核到集團登記國）",
+    "relationship": "taiwan_agent",
+    "taiwanPartyName": "漢馨科技有限公司",
+    "relationshipNote": "漢馨品牌頁把 Lipofer 列在「漢馨獨家代理品牌」的 Lubrizol 微膠囊系列。這是該公司頁面的分類，不是路博潤官網點名。產品頁寫原廠 Lubrizol、產地法國。路博潤產品頁這次打不開，沒有看到經銷名單，不升格為原廠證實的獨家。查核日 2026-11-13。"
+  },
+  "tfda": {
+    "usable": "listed_food_additive",
+    "evidenceNotes": "食品添加物「焦磷酸鐵」（Ferric Pyrophosphate）1 筆，類別是營養添加劑。膠囊錠狀且標示每日食用量者，鐵的總含量每日不得高於 45 mg；一般食品不得高於 22.5 mg；嬰兒食品不得高於 15 mg。原料分頁沒有焦磷酸鐵或 Lipofer。列的是鐵鹽與鐵的總量，不是這個微膠囊商品名。",
+    "lookupDate": "2026-11-13",
+    "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+    "queries": [
+      {
+        "tab": "additive",
+        "keyword": "焦磷酸鐵",
+        "category": "",
+        "resultCount": 1,
+        "matchedName": "焦磷酸鐵",
+        "restrictionNote": "營養添加劑。膠囊、錠狀且有每日食用量者，鐵總量不得高於 45 mg／日。一般食品不得高於 22.5 mg。嬰兒（輔助）食品不得高於 15 mg。",
+        "unconfirmedSafety": false,
+        "note": "與開放資料 InfoId 61 同一筆。英文品名 Ferric Pyrophosphate（Iron Pyrophosphate）。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "Lipofer",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名 0 筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "焦磷酸鐵",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "原料分頁 0 筆。開放資料 InfoId 4 同樣 0 筆。鐵鹽在添加物，不在原料平臺。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Lipofer",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名 0 筆。"
+      },
+      {
+        "tab": "history",
+        "keyword": "焦磷酸鐵",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "助手更新歷程（11/01–11/12）沒有這筆異動。"
+      }
+    ],
+    "officialCrosscheck": {
+      "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+      "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+      "done": true,
+      "notes": "2026-11-13 消費者專區連線失敗。開放資料 InfoId 61 的焦磷酸鐵限量與助手一致。InfoId 4 沒有焦磷酸鐵或 Lipofer。"
+    }
+  },
+  "efficacy": {
+    "claimedBenefits": [
+      "Nutrition Insight 2026-11-12 的產業訪談：Lubrizol 的 Lipofer 微膠囊被拿來說明鐵的吸收、味道與耐用性，並寫可用在軟糖與免水沖的條包。文中沒有每日毫克。",
+      "路博潤產品頁：焦磷酸鐵先磨細再微膠囊，用來降低金屬味、減少與其他成分的作用，並使粉末可分散在水。頁面點名一篇西班牙缺鐵女性、果汁強化的隨機雙盲試驗標題。這次沒有打開那篇期刊，不抄鐵蛋白數字。",
+      "漢馨產品頁：寫人體實驗顯示生物利用率高、腸胃刺激少、沒有金屬味。同頁把專利欄寫成「無」。這些是該頁的句子。"
+    ],
+    "suggestedDosage": "這次打開的訪談、路博潤產品頁與漢馨產品頁都沒有寫 Lipofer 的每日克數。添加物規格管的是食品中鐵的總含量。",
+    "dosageNote": "膠囊或錠狀食品，鐵的總含量每日不得高於 45 mg；一般食品不得高於 22.5 mg；嬰兒食品不得高於 15 mg。這是焦磷酸鐵作為營養添加劑的上限，不是供應商建議的粉末克數。"
+  },
+  "patent": {
+    "status": "no",
+    "refs": [],
+    "note": "漢馨產品頁的專利欄寫「無」。另以 Lipofer、ferric pyrophosphate microencapsulated、Lubrizol 查專利，打開的一件是皮膚胜肽，不是這個鐵。沒有看到涵蓋 Lipofer 的專利號。"
+  },
+  "literature": {
+    "status": "unknown",
+    "refs": [],
+    "note": "路博潤頁點名果汁試驗的標題，漢馨寫有原廠研究。兩處都沒有給論文連結。這次沒有打開期刊全文，不把生物利用率寫成已核對的結果。"
+  },
+  "evidenceLevels": [],
+  "images": [
+    {
+      "url": "https://www.hansient.com.tw/wp-content/uploads/Lipofer-微膠囊化鐵.jpg",
+      "localPath": "",
+      "caption": "漢馨科技產品頁的 Lipofer 圖。路博潤產品頁這次回 403，沒有取到原廠圖。",
+      "source": "other"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Next-gen supplements pair precision nutrition with consumer-friendly formats",
+      "url": "https://www.nutritioninsight.com/news/next-gen-supplements-precision-nutrition-formats.html",
+      "publisher": "Nutrition Insight",
+      "channel": "industry_report",
+      "accessed": "2026-11-13",
+      "whatItContributes": "2026-11-12 產業訪談：Lipofer 被用來說明鐵的微膠囊、軟糖與條包。"
+    },
+    {
+      "title": "Lipofer",
+      "url": "https://www.lubrizol.com/solutions/products/lipofer",
+      "publisher": "Lubrizol",
+      "channel": "supplier_site",
+      "accessed": "2026-11-13",
+      "whatItContributes": "磨細的焦磷酸鐵、微膠囊、可分散。頁面點名果汁試驗標題。直接下載回 403，內容由頁面擷取讀到。"
+    },
+    {
+      "title": "Lipofer 微膠囊化鐵",
+      "url": "https://www.hansient.com.tw/product/lipofer-iron-%e5%be%ae%e8%86%a0%e5%9b%8a%e5%8c%96%e9%90%b5/",
+      "publisher": "漢馨科技有限公司",
+      "channel": "other",
+      "accessed": "2026-11-13",
+      "whatItContributes": "原廠 Lubrizol、產地法國、專利欄為無、寫有原廠研究。"
+    },
+    {
+      "title": "漢馨獨家品牌原料",
+      "url": "https://www.hansient.com.tw/brands/",
+      "publisher": "漢馨科技有限公司",
+      "channel": "other",
+      "accessed": "2026-11-13",
+      "whatItContributes": "Lipofer 列在該公司「獨家代理品牌」區的 Lubrizol 微膠囊系列。是該公司分類。"
+    },
+    {
+      "title": "Lubrizol 供應頁",
+      "url": "https://www.hansient.com.tw/supplier/lubrizol/",
+      "publisher": "漢馨科技有限公司",
+      "channel": "other",
+      "accessed": "2026-11-13",
+      "whatItContributes": "把路博潤生命科學事業部與 Lipofer 微膠囊化鐵放在同一頁。"
+    }
+  ],
+  "discovery": {
+    "channel": "industry_report",
+    "scoutDate": "2026-11-13",
+    "notes": "從 Nutrition Insight 2026-11-12 劑型產業訪談的 Lipofer 段落進入，再對路博潤產品頁與漢馨的品牌頁、產品頁。台灣關聯用 Lipofer、焦磷酸鐵、Lubrizol、路博潤搭配台灣、代理、經銷，打開漢馨三個頁面。"
+  }
+}

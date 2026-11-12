@@ -1,0 +1,176 @@
+{
+  "id": "insea2",
+  "example": false,
+  "names": {
+    "commonZh": "褐藻與墨角藻多酚萃取物",
+    "commonEn": "brown seaweed polyphenol extract",
+    "trade": "InSea2（innoVactiv 的兩種褐藻多酚商品名）",
+    "scientific": "Ascophyllum nodosum 與 Fucus vesiculosus L.（藻體。水萃取後濃縮多酚，不是整株藻粉。）"
+  },
+  "supply": {
+    "supplierName": "innoVactiv",
+    "supplierCountry": "加拿大",
+    "relationship": "unknown",
+    "taiwanPartyName": "待確認",
+    "relationshipNote": "2009-08-18 SupplySide 稿寫 innoVactiv 與台灣 WEDAR 簽五年獨家，把 InSea2 銷往台灣與中國。2010-02-01 New Hope 稿仍寫 WEDAR 已在銷 InSea2。五年約的年限已過。2026-11-13 打開 wedar.com/product，原料總覽沒有 InSea2。nisoro.com/categories/insea2 頁面寫這個分類沒有產品。現行代理沒有在原廠或崴達現頁寫明。查核日 2026-11-13。以 InSea2、Ascophyllum、Fucus、褐藻、墨角藻、innoVactiv、崴達搭配台灣、代理、經銷複查，仍只有上述舊稿。"
+  },
+  "tfda": {
+    "usable": "listed_food_ingredient",
+    "evidenceNotes": "褐藻（Ascophyllum nodosum，藻體）與墨角藻（Fucus vesiculosus L.，藻體）各 1 筆，都在藻類及其來源製取之原料，備註空白，不是未確認安全性。商品名 InSea2 是 0 筆。列名的是藻體來源，沒有寫多酚萃取的每日上限。",
+    "lookupDate": "2026-11-13",
+    "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+    "queries": [
+      {
+        "tab": "ingredient",
+        "keyword": "Ascophyllum nodosum",
+        "category": "",
+        "resultCount": 1,
+        "matchedName": "褐藻",
+        "restrictionNote": "學名 Ascophyllum nodosum，部位藻體。次分類為藻類及其來源製取之原料。備註空白。",
+        "unconfirmedSafety": false,
+        "note": "與開放資料 InfoId 4 同一筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Fucus vesiculosus",
+        "category": "",
+        "resultCount": 1,
+        "matchedName": "墨角藻",
+        "restrictionNote": "學名 Fucus vesiculosus L.，部位藻體。備註空白。",
+        "unconfirmedSafety": false,
+        "note": "與開放資料 InfoId 4 同一筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "InSea2",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "Fucus",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "添加物分頁 0 筆。開放資料 InfoId 61 同樣 0 筆。Ascophyllum 也是 0 筆。"
+      },
+      {
+        "tab": "history",
+        "keyword": "墨角藻",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "助手更新歷程（11/01–11/12）沒有褐藻或墨角藻的異動。"
+      }
+    ],
+    "officialCrosscheck": {
+      "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+      "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+      "done": true,
+      "notes": "2026-11-13 消費者專區 HTTPS 失敗、HTTP 502。開放資料 InfoId 4 的褐藻與墨角藻兩筆，學名、部位、空白備註與助手一致。InfoId 61 沒有這兩個學名。"
+    }
+  },
+  "efficacy": {
+    "claimedBenefits": [
+      "innoVactiv 原料頁：北大西洋兩種褐藻的水萃取，濃縮多酚，不另加溶劑。頁面寫可把升糖壓力最多降低 48.3%，並寫八項臨床、九百多名志願者。加拿大衛生部 NPN 80033840 的兩句是維持健康血糖，以及降低所吃食物的升糖指數。這些是供應商頁上的句子。",
+      "Marine Drugs 2022（DOI 10.3390/md20030174）：56 名過重或肥胖、血糖偏高的成人完成 12 週。每日 500 mg InSea2 加上減重建議。血糖沒有組間效果。120 分鐘 C-肽的下降，褐藻組與安慰劑組的變化差異 p=0.002。心率與 IL-6 上升幅度也有組間差異。論文寫成邊緣代謝變化，不是血糖已經下降。"
+    ],
+    "suggestedDosage": "2022 年論文寫每日 500 mg（兩顆 250 mg），主餐前 30 分鐘。原料頁這次讀到的段落沒有寫每日毫克，只寫低劑量。",
+    "dosageNote": "500 mg 是該篇試驗的劑量，不是台灣法規上限。褐藻與墨角藻的列名沒有每日限量。論文寫萃取物碘含量 67 mg/kg。"
+  },
+  "patent": {
+    "status": "unknown",
+    "refs": [],
+    "note": "以 InSea2、innoVactiv、Ascophyllum nodosum、Fucus vesiculosus 查專利，這次沒有打開對得上這個商品名的專利全文。原料頁沒有給專利號。"
+  },
+  "literature": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "Marginal Impact of Brown Seaweed Ascophyllum nodosum and Fucus vesiculosus Extract on Metabolic and Inflammatory Response",
+        "url": "https://www.mdpi.com/1660-3397/20/3/174",
+        "note": "Marine Drugs 2022。每日 500 mg、12 週。血糖沒有組間效果。多酚約 35%，碘 67 mg/kg。"
+      },
+      {
+        "title": "A randomised crossover placebo-controlled trial investigating the effect of brown seaweed on postchallenge plasma glucose and insulin",
+        "url": "https://doi.org/10.1139/h11-115",
+        "note": "Paradis 等，Appl Physiol Nutr Metab 2011（PMID 22087795）。原料頁列出這篇。這次只核到題名與出處，沒有打開結果數字。"
+      }
+    ],
+    "note": "2022 年那篇已讀方法與結果。2011 年急性試驗的百分比這次沒有從原文抄。"
+  },
+  "evidenceLevels": [
+    "clinical"
+  ],
+  "images": [
+    {
+      "url": "https://innovactiv.com/wp-content/uploads/2022/02/controle-glycemie.jpg",
+      "localPath": "",
+      "caption": "innoVactiv 官網 InSea2 頁的血糖控制圖，不是粉末規格書。",
+      "source": "official_site"
+    }
+  ],
+  "sources": [
+    {
+      "title": "SupplySide Global 2026: What’s happening on the show floor",
+      "url": "https://www.nutraingredients.com/Article/2026/10/14/supplyside-global-2026-whats-happening-on-the-show-floor/",
+      "publisher": "NutraIngredients",
+      "channel": "exhibition",
+      "accessed": "2026-11-13",
+      "whatItContributes": "2026-10-14 展場預告：Artemis International 攤位將 spotlight InSea2，寫成支持血糖的海藻萃取。"
+    },
+    {
+      "title": "InSea2",
+      "url": "https://innovactiv.com/produits/insea2/",
+      "publisher": "innoVactiv",
+      "channel": "supplier_site",
+      "accessed": "2026-11-13",
+      "whatItContributes": "兩種褐藻、水萃取、NPN 80033840，公司在加拿大 Rimouski。"
+    },
+    {
+      "title": "Marine Drugs 2022",
+      "url": "https://www.mdpi.com/1660-3397/20/3/174",
+      "publisher": "Marine Drugs",
+      "channel": "paper",
+      "accessed": "2026-11-13",
+      "whatItContributes": "12 週、每日 500 mg。血糖沒有組間效果；C-肽、心率與 IL-6 有組間差異。"
+    },
+    {
+      "title": "innoVactiv, Wedar Launching InSea2 into China, Taiwan",
+      "url": "https://www.supplysidesj.com/weight-management/innovactiv-wedar-launching-insea2-into-china-taiwan",
+      "publisher": "SupplySide Supplement Journal",
+      "channel": "news",
+      "accessed": "2026-11-13",
+      "whatItContributes": "2009-08-18：與台灣 WEDAR 的五年獨家。不是 2026 年的現況。"
+    },
+    {
+      "title": "保健原料總覽",
+      "url": "https://www.wedar.com/product",
+      "publisher": "崴達國際",
+      "channel": "other",
+      "accessed": "2026-11-13",
+      "whatItContributes": "2026-11-13 打開的原料清單沒有 InSea2。"
+    },
+    {
+      "title": "褐藻萃取分類",
+      "url": "https://www.nisoro.com/categories/insea2",
+      "publisher": "康鮮國際股份有限公司",
+      "channel": "other",
+      "accessed": "2026-11-13",
+      "whatItContributes": "網址含 insea2，頁面寫這個分類沒有產品。不當成現行經銷。"
+    }
+  ],
+  "discovery": {
+    "channel": "exhibition",
+    "scoutDate": "2026-11-13",
+    "notes": "從 NutraIngredients 2026-10-14 SupplySide 展場預告的 Artemis 段落進入，再對 innoVactiv 產品頁、Marine Drugs 2022，以及 2009 年 WEDAR 舊稿。台灣關聯打開崴達 2026 年原料總覽與康鮮分類頁。"
+  }
+}

@@ -24,6 +24,22 @@
       <select id="date"></select>
     </div>
   </header>
+  <div class="mine" id="mine">
+    <div class="mine-actions" role="group" aria-label="我的投票紀錄">
+      <button type="button" id="mine-approve" aria-pressed="false" aria-expanded="false" aria-controls="mine-panel">
+        我贊成的
+        <span class="mine-count" id="mine-approve-count">0</span>
+      </button>
+      <button type="button" id="mine-oppose" aria-pressed="false" aria-expanded="false" aria-controls="mine-panel">
+        我反對的
+        <span class="mine-count" id="mine-oppose-count">0</span>
+      </button>
+    </div>
+    <div id="mine-panel" class="mine-panel" hidden>
+      <p id="mine-empty" class="mine-empty" hidden></p>
+      <ul id="mine-list" class="mine-list"></ul>
+    </div>
+  </div>
   <div class="searchbox">
     <div class="search-heading">
       <label for="ingredient-search">搜尋原料</label>
@@ -80,6 +96,7 @@
       <ol>
         <li>選日期。每天的原料來自儲存庫的 <code>data/days</code>。</li>
         <li>上方搜尋列會找每一天偵察過的原料，不限目前選到的日期。點建議或按 Enter 會打開那一筆的卡片。</li>
+        <li>「我贊成的」「我反對的」列出這台瀏覽器在所有日期投過的原料。點一筆會打開那天的卡片。沒有登入，換裝置或清掉網站資料就看不到。</li>
         <li>每筆原料選「贊成」或「反對」，備註可留白。不要寫姓名、部門、電話或信箱。</li>
         <li>同一台瀏覽器再按一次會改掉原來的選擇，不會變成兩票。</li>
         <li>這台裝置的表態可下載 JSON 留底。大家的數字看頁面上方的團隊累計。</li>

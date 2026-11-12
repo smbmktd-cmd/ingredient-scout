@@ -281,6 +281,126 @@
     };
   }
 
+  function copyRow(value) {
+    if (!value || typeof value !== "object" || Array.isArray(value)) return null;
+    let choice = null;
+    if (value.choice === "approve" || value.choice === "oppose") choice = value.choice;
+    else if (value.choice != null && value.choice !== "") return null;
+    const note = normalizeNote(value.note);
+    if (!choice && !note) return null;
+    return {
+      choice: choice,
+      note: note,
+      updatedAt: typeof value.updatedAt === "string" ? value.updatedAt : ""
+    };
+  }
+
+  function dayFrom(value) {
+    const day = {};
+    if (Array.isArray(value)) {
+      value.forEach(function (item) {
+        if (!item || !isId(item.ingredientId)) return;
+        const row = copyRow(item);
+        if (row) day[item.ingredientId] = row;
+      });
+      return day;
+    }
+    if (!value || typeof value !== "object") return {};
+    Object.keys(value).forEach(function (id) {
+      if (!isId(id)) return;
+      const row = copyRow(value[id]);
+      if (row) day[id] = row;
+    });
+    return day;
+  }
+
+  function mergeDay(primary, extra) {
+    return Object.assign({}, extra || {}, primary || {});
+  }
+
+  // 本機紀錄的正式形狀是 { "YYYY-MM-DD": { "原料 id": { choice, note, updatedAt } } }，
+  // 一次保存所有日期。舊資料若把某一天存成陣列、或整包是單日匯出檔，在這裡折回同一形狀，不丟已有的票。
+  function normalizeStored(raw) {
+    if (!raw || typeof raw !== "object" || Array.isArray(raw)) return {};
+    const next = {};
+    let recognized = false;
+    Object.keys(raw).forEach(function (key) {
+      if (!isDate(key)) return;
+      const day = dayFrom(raw[key]);
+      if (Object.keys(day).length) {
+        next[key] = day;
+        recognized = true;
+      }
+    });
+    if (raw.kind === "ingredient-scout-votes" && isDate(raw.date) && Array.isArray(raw.votes)) {
+      const imported = dayFrom(raw.votes);
+      if (Object.keys(imported).length) {
+        next[raw.date] = mergeDay(next[raw.date], imported);
+        recognized = true;
+      }
+    }
+    if (recognized) return next;
+    const keys = Object.keys(raw);
+    if (!keys.length || !keys.every(isId)) return raw;
+    const grouped = {};
+    let dated = false;
+    for (let i = 0; i < keys.length; i += 1) {
+      const row = copyRow(raw[keys[i]]);
+      if (!row) return raw;
+      const stamp = String(row.updatedAt || "");
+      const date = isDate(stamp.slice(0, 10)) ? stamp.slice(0, 10) : "";
+      if (!date) return raw;
+      if (!grouped[date]) grouped[date] = {};
+      grouped[date][keys[i]] = row;
+      dated = true;
+    }
+    return dated ? grouped : raw;
+  }
+
+  function storedNeedsMigration(raw) {
+    if (!raw || typeof raw !== "object" || Array.isArray(raw)) return false;
+    if (raw.kind === "ingredient-scout-votes" && Array.isArray(raw.votes)) return true;
+    const keys = Object.keys(raw);
+    if (!keys.length) return false;
+    if (keys.every(isDate)) return keys.some(function (key) { return Array.isArray(raw[key]); });
+    if (keys.every(isId)) {
+      return keys.every(function (key) {
+        const row = copyRow(raw[key]);
+        return row && isDate(String(row.updatedAt || "").slice(0, 10));
+      });
+    }
+    return false;
+  }
+
+  function myVotes(state, choice) {
+    if (choice !== "approve" && choice !== "oppose") return [];
+    const rows = [];
+    if (!state || typeof state !== "object" || Array.isArray(state)) return rows;
+    Object.keys(state).forEach(function (date) {
+      if (!isDate(date)) return;
+      const day = state[date];
+      if (!day || typeof day !== "object" || Array.isArray(day)) return;
+      Object.keys(day).forEach(function (id) {
+        if (!isId(id)) return;
+        const row = day[id];
+        if (!row || row.choice !== choice) return;
+        rows.push({
+          date: date,
+          ingredientId: id,
+          choice: choice,
+          note: normalizeNote(row.note).trim(),
+          updatedAt: typeof row.updatedAt === "string" ? row.updatedAt : ""
+        });
+      });
+    });
+    rows.sort(function (a, b) {
+      if (a.date !== b.date) return a.date < b.date ? 1 : -1;
+      if (a.updatedAt !== b.updatedAt) return a.updatedAt < b.updatedAt ? 1 : -1;
+      return a.ingredientId < b.ingredientId ? -1 : a.ingredientId > b.ingredientId ? 1 : 0;
+    });
+    return rows;
+  }
+
   return {
     CHOICES: CHOICES,
     cast: cast,
@@ -293,6 +413,9 @@
     decodeShare: decodeShare,
     mergeDumps: mergeDumps,
     summaryDocument: summaryDocument,
-    normalizeNote: normalizeNote
+    normalizeNote: normalizeNote,
+    normalizeStored: normalizeStored,
+    storedNeedsMigration: storedNeedsMigration,
+    myVotes: myVotes
   };
 });

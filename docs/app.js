@@ -38,10 +38,13 @@
   const EVIDENCE = { in_vitro: "體外", cell: "細胞", animal: "動物", clinical: "臨床" };
   const TAB = { ingredient: "食品原料", additive: "食品添加物", history: "更新歷程" };
 
+  const loadedVotes = loadJson(localStorage, VOTES_KEY, {});
   const state = {
     catalog: window.INGREDIENT_CATALOG,
     date: "",
-    votes: loadJson(localStorage, VOTES_KEY, {}),
+    votes: VoteModel.normalizeStored(loadedVotes),
+    mine: "",
+    mineSig: "",
     sending: false,
     ready: false,
     team: null,
@@ -503,6 +506,114 @@
       else syncNote.textContent = "";
     }
     paintTeam();
+    paintMine();
+  }
+
+  function ingredientRecord(date, id) {
+    const days = (state.catalog && state.catalog.days) || [];
+    const onDate = days.find(function (day) { return day.date === date; });
+    const pick = onDate && (onDate.picks || []).find(function (item) { return item.id === id; });
+    if (pick) return pick;
+    for (let i = 0; i < days.length; i += 1) {
+      const found = (days[i].picks || []).find(function (item) { return item.id === id; });
+      if (found) return found;
+    }
+    const all = (state.catalog && state.catalog.ingredients) || [];
+    return all.find(function (item) { return item && item.id === id; }) || null;
+  }
+
+  function mineRows(choice) {
+    const rows = VoteModel.myVotes(state.votes, choice).map(function (row) {
+      const ingredient = ingredientRecord(row.date, row.ingredientId);
+      const names = (ingredient && ingredient.names) || {};
+      return {
+        date: row.date,
+        ingredientId: row.ingredientId,
+        note: row.note,
+        commonZh: names.commonZh || row.ingredientId,
+        trade: typeof names.trade === "string" ? names.trade.trim() : ""
+      };
+    });
+    const rank = new Map();
+    ((state.catalog && state.catalog.days) || []).forEach(function (day) {
+      (day.picks || []).forEach(function (item, index) {
+        rank.set(day.date + "\n" + item.id, index);
+      });
+    });
+    rows.sort(function (a, b) {
+      if (a.date !== b.date) return a.date < b.date ? 1 : -1;
+      const ar = rank.has(a.date + "\n" + a.ingredientId) ? rank.get(a.date + "\n" + a.ingredientId) : 9999;
+      const br = rank.has(b.date + "\n" + b.ingredientId) ? rank.get(b.date + "\n" + b.ingredientId) : 9999;
+      if (ar !== br) return ar - br;
+      return a.ingredientId < b.ingredientId ? -1 : a.ingredientId > b.ingredientId ? 1 : 0;
+    });
+    return rows;
+  }
+
+  function paintMine() {
+    const approveBtn = $("mine-approve");
+    const opposeBtn = $("mine-oppose");
+    const panel = $("mine-panel");
+    if (!approveBtn || !opposeBtn || !panel) return;
+    const approve = mineRows("approve");
+    const oppose = mineRows("oppose");
+    $("mine-approve-count").textContent = String(approve.length);
+    $("mine-oppose-count").textContent = String(oppose.length);
+    approveBtn.setAttribute("aria-pressed", state.mine === "approve" ? "true" : "false");
+    opposeBtn.setAttribute("aria-pressed", state.mine === "oppose" ? "true" : "false");
+    approveBtn.setAttribute("aria-expanded", state.mine === "approve" ? "true" : "false");
+    opposeBtn.setAttribute("aria-expanded", state.mine === "oppose" ? "true" : "false");
+    approveBtn.setAttribute("aria-label", "我贊成的，" + approve.length + " 筆");
+    opposeBtn.setAttribute("aria-label", "我反對的，" + oppose.length + " 筆");
+    const active = state.mine === "oppose" ? oppose : state.mine === "approve" ? approve : [];
+    const sig = state.mine + "\n" + JSON.stringify(active);
+    const shouldHide = !state.mine;
+    if (sig === state.mineSig && panel.hidden === shouldHide) return;
+    state.mineSig = sig;
+    panel.hidden = shouldHide;
+    const list = $("mine-list");
+    const empty = $("mine-empty");
+    list.replaceChildren();
+    if (shouldHide) {
+      empty.hidden = true;
+      return;
+    }
+    if (!active.length) {
+      empty.hidden = false;
+      empty.textContent = state.mine === "approve"
+        ? "這台瀏覽器還沒有贊成紀錄。到任一日期的原料卡片按「贊成」，就會出現在這裡。"
+        : "這台瀏覽器還沒有反對紀錄。到任一日期的原料卡片按「反對」，就會出現在這裡。";
+      return;
+    }
+    empty.hidden = true;
+    active.forEach(function (row) {
+      const button = el("button", {
+        type: "button",
+        class: "mine-item",
+        "data-date": row.date,
+        "data-id": row.ingredientId
+      },
+        el("span", { class: "mine-name" }, row.commonZh),
+        row.trade ? el("span", { class: "mine-trade" }, "商品名 " + row.trade) : null,
+        el("span", { class: "mine-date" }, "日報 " + row.date),
+        row.note ? el("span", { class: "mine-note" }, "備註：" + row.note) : null
+      );
+      button.addEventListener("click", function () {
+        openIngredient(row.ingredientId, row.date, row.commonZh);
+      });
+      list.append(el("li", {}, button));
+    });
+  }
+
+  function toggleMine(choice) {
+    state.mine = state.mine === choice ? "" : choice;
+    paintMine();
+    if (!state.mine) {
+      announce("已收合投票紀錄。");
+      return;
+    }
+    const count = VoteModel.myVotes(state.votes, choice).length;
+    announce((choice === "approve" ? "已列出贊成 " : "已列出反對 ") + count + " 筆。");
   }
 
   function teamResultMap() {
@@ -1338,9 +1449,12 @@
       sendDump();
     });
     $("clear").addEventListener("click", clearDay);
+    $("mine-approve").addEventListener("click", function () { toggleMine("approve"); });
+    $("mine-oppose").addEventListener("click", function () { toggleMine("oppose"); });
   }
 
   function boot() {
+    if (VoteModel.storedNeedsMigration(loadedVotes)) saveVotes();
     const team = $("team-label");
     if (cfg.teamLabel) team.textContent = cfg.teamLabel;
     const readme = $("readme-link");

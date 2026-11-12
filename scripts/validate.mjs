@@ -234,9 +234,17 @@ function checkDocs() {
   if (!html.includes('id="ingredient-search"') || !html.includes("搜尋原料關鍵字")) {
     fail("投票頁缺少跨日期原料關鍵字搜尋");
   }
+  const mineAt = html.indexOf('id="mine"');
+  const searchAt = html.indexOf('id="ingredient-search"');
+  if (mineAt < 0 || searchAt < 0 || mineAt > searchAt || !html.includes("我贊成的") || !html.includes("我反對的")) {
+    fail("投票頁應在搜尋列上方提供我贊成的與我反對的");
+  }
   const app = fs.readFileSync(path.join(root, "docs", "app.js"), "utf8");
   if (!app.includes("SearchModel.search") || !app.includes("SearchModel.buildIndex")) {
     fail("投票頁搜尋應查全部日報，而不是只查目前選到的日期");
+  }
+  if (!app.includes("VoteModel.myVotes") || !app.includes("normalizeStored") || !app.includes("names.commonZh") || !app.includes("names.trade")) {
+    fail("我的投票紀錄應讀本機跨日期表態，並用目錄裡的中文名與商品名");
   }
   for (const key of [
     ...schema.enums["tfda.usable"],
@@ -459,6 +467,73 @@ function checkVoteModel() {
     badChoice = true;
   }
   assert(badChoice, "贊成與反對以外的值應被拒絕");
+
+  let cross = {};
+  cross = VoteModel.cast(cross, { date: "2026-11-05", ingredientId: ids[0], choice: "approve", note: "  前後空白  ", now: "2026-11-05T00:00:00.000Z" });
+  cross = VoteModel.cast(cross, { date: "2026-11-06", ingredientId: ids[1], choice: "oppose", note: "另一天", now: "2026-11-06T00:00:00.000Z" });
+  cross = VoteModel.setNote(cross, { date: "2026-11-07", ingredientId: ids[0], note: "只有備註還沒表態", now: "2026-11-07T00:00:00.000Z" });
+  const approved = VoteModel.myVotes(cross, "approve");
+  const opposed = VoteModel.myVotes(cross, "oppose");
+  assert(approved.length === 1 && approved[0].date === "2026-11-05" && approved[0].ingredientId === ids[0], "我的贊成應跨日列出，且不含未表態");
+  assert(approved[0].note === "前後空白", "清單上的備註要去掉前後空白，但不改儲存內容");
+  assert(cross["2026-11-05"][ids[0]].note === "  前後空白  ", "讀清單不應改寫本機備註");
+  assert(opposed.length === 1 && opposed[0].date === "2026-11-06" && opposed[0].note === "另一天", "我的反對應留下另一天的票");
+  assert(VoteModel.myVotes(cross, "approve").every(function (row) { return row.date !== "2026-11-07"; }), "只寫備註、尚未表態的原料不進清單");
+  assert(!VoteModel.storedNeedsMigration(cross), "正式的跨日物件不需要遷移");
+  const roundTrip = VoteModel.normalizeStored(cross);
+  assert(roundTrip["2026-11-05"][ids[0]].choice === "approve" && roundTrip["2026-11-06"][ids[1]].choice === "oppose", "正規化不應弄丟任一天的票");
+  assert(roundTrip["2026-11-07"][ids[0]].note === "只有備註還沒表態" && !roundTrip["2026-11-07"][ids[0]].choice, "尚未表態的備註也要留著");
+  cross = VoteModel.cast(cross, { date: "2026-11-05", ingredientId: ids[0], choice: "oppose", note: "改投" });
+  assert(VoteModel.myVotes(cross, "approve").length === 0, "改投後應離開贊成清單");
+  assert(VoteModel.myVotes(cross, "oppose").some(function (row) { return row.date === "2026-11-05" && row.note === "改投"; }), "改投後應出現在反對清單");
+  cross = VoteModel.clearDate(cross, "2026-11-06");
+  assert(!VoteModel.myVotes(cross, "oppose").some(function (row) { return row.date === "2026-11-06"; }), "取消一天不應留下那天的票");
+  assert(VoteModel.myVotes(cross, "oppose").some(function (row) { return row.date === "2026-11-05"; }), "取消一天不應清掉其他日期");
+
+  const legacy = {
+    "2026-11-05": [
+      { ingredientId: ids[0], choice: "approve", note: "舊陣列", updatedAt: "2026-11-05T00:00:00.000Z" }
+    ],
+    "2026-11-06": {
+      [ids[1]]: { choice: "oppose", note: "新格式", updatedAt: "2026-11-06T00:00:00.000Z" }
+    }
+  };
+  assert(VoteModel.storedNeedsMigration(legacy), "某一天存成陣列時應遷移");
+  const lifted = VoteModel.normalizeStored(legacy);
+  assert(lifted["2026-11-05"][ids[0]].choice === "approve" && lifted["2026-11-05"][ids[0]].note === "舊陣列", "舊陣列要折回同一天的原料");
+  assert(lifted["2026-11-06"][ids[1]].choice === "oppose" && lifted["2026-11-06"][ids[1]].note === "新格式", "遷移時不能弄丟已經是新格式的另一天");
+  assert(!VoteModel.storedNeedsMigration(lifted), "遷移後的物件應是正式形狀");
+  const dumped = {
+    kind: "ingredient-scout-votes",
+    version: 1,
+    date: "2026-11-05",
+    exportedAt: "2026-11-05T00:00:00.000Z",
+    source: "browser-session",
+    anonymous: true,
+    votes: [{ ingredientId: ids[0], choice: "oppose", note: "舊匯出", updatedAt: "2026-11-05T00:00:00.000Z" }],
+    "2026-11-06": {
+      [ids[1]]: { choice: "approve", note: "旁邊那天", updatedAt: "2026-11-06T00:00:00.000Z" }
+    }
+  };
+  const fromDump = VoteModel.normalizeStored(dumped);
+  assert(fromDump["2026-11-05"][ids[0]].note === "舊匯出" && fromDump["2026-11-06"][ids[1]].note === "旁邊那天", "單日匯出檔要併入，且不能蓋掉其他日期");
+  const collision = VoteModel.normalizeStored({
+    kind: "ingredient-scout-votes",
+    date: "2026-11-05",
+    votes: [{ ingredientId: ids[0], choice: "oppose", note: "舊匯出", updatedAt: "2026-11-05T00:00:00.000Z" }],
+    "2026-11-05": {
+      [ids[0]]: { choice: "approve", note: "以本機為準", updatedAt: "2026-11-05T02:00:00.000Z" }
+    }
+  });
+  assert(collision["2026-11-05"][ids[0]].choice === "approve" && collision["2026-11-05"][ids[0]].note === "以本機為準", "同一天已有本機票時，不以舊匯出檔覆寫");
+  const flat = {};
+  flat[ids[0]] = { choice: "approve", note: "沒有日期鍵", updatedAt: "2026-11-05T03:00:00.000Z" };
+  flat[ids[1]] = { choice: "oppose", note: "同筆舊檔", updatedAt: "2026-11-06T03:00:00.000Z" };
+  assert(VoteModel.storedNeedsMigration(flat), "只有原料 id、沒有日期鍵的舊檔應遷移");
+  const grouped = VoteModel.normalizeStored(flat);
+  assert(grouped["2026-11-05"][ids[0]].choice === "approve" && grouped["2026-11-06"][ids[1]].choice === "oppose", "沒有日期鍵的舊檔應按表態時間歸到各日");
+  const odd = { hello: 1 };
+  assert(VoteModel.normalizeStored(odd) === odd && !VoteModel.storedNeedsMigration(odd), "看不懂的紀錄應原樣留下，不要清成空的");
 }
 
 function assertSheet(condition, message) {

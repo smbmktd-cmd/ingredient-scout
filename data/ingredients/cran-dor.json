@@ -1,0 +1,173 @@
+{
+  "id": "cran-dor",
+  "example": false,
+  "names": {
+    "commonZh": "蔓越莓果實粉",
+    "commonEn": "cranberry fruit powder",
+    "trade": "Cran d'Or TotalPAC（Fruit d'Or 的蔓越莓粉商品名；2026-02-09 新聞寫新增 50:1 規格）",
+    "scientific": "Vaccinium macrocarpon（果實粉。不是種子油，也不是山桑子 Vaccinium myrtillus。）"
+  },
+  "supply": {
+    "supplierName": "Fruit d'Or",
+    "supplierCountry": "加拿大",
+    "relationship": "unknown",
+    "taiwanPartyName": "本次查無台灣關聯廠商",
+    "relationshipNote": "2026-11-14 以 Cran d'Or、Cran dOr、TotalPAC、Fruit d'Or、蔓越莓、Vaccinium macrocarpon 搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商各查一輪，發布前再用商品名與「台灣 代理」複查。打開的荃新蔓越莓粉頁是 10:1 果實粉，沒有 Fruit d'Or 或 Cran d'Or。檢索另出現聖馥欣的蔓越莓粉與香港 Topstars 寫 Fruit d'Or，這兩頁沒有打開，不把摘要當成台灣代理。原廠頁寫原料來自加拿大田區，沒有台灣經銷名單。"
+  },
+  "tfda": {
+    "usable": "listed_food_ingredient",
+    "evidenceNotes": "蔓越莓果實（Vaccinium macrocarpon、Vaccinium oxycoccos）1 筆，可供食品使用，備註空白。同一中文關鍵字另有蔓越莓種子油，那是種子油脂，不是這個果粉。商品名 0 筆。添加物 0 筆。列名不是美國 qualified health claim，也不是 500 mg 的法規上限。",
+    "lookupDate": "2026-11-14",
+    "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+    "queries": [
+      {
+        "tab": "ingredient",
+        "keyword": "蔓越莓",
+        "category": "",
+        "resultCount": 2,
+        "matchedName": "蔓越莓；越橘",
+        "restrictionNote": "果實：可供食品使用，備註空白。種子油：由種子製取，經良好製程加工及品管所得之油脂。",
+        "unconfirmedSafety": false,
+        "note": "兩筆都是可供使用。本品對的是果實，不是種子油。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Vaccinium macrocarpon",
+        "category": "",
+        "resultCount": 2,
+        "matchedName": "蔓越莓；越橘",
+        "restrictionNote": "同上。果實那一筆的學名還並列 Vaccinium oxycoccos。",
+        "unconfirmedSafety": false,
+        "note": "與中文關鍵字同一組兩筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Cran d'Or",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "蔓越莓",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "添加物 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "Vaccinium macrocarpon",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "學名在添加物 0 筆。"
+      },
+      {
+        "tab": "history",
+        "keyword": "蔓越莓",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "助手更新歷程（11/01–11/13）沒有這筆異動。"
+      }
+    ],
+    "officialCrosscheck": {
+      "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+      "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+      "done": true,
+      "notes": "2026-11-14 消費者專區 HTTP 為 502，HTTPS 沒有取得頁首。另下載開放資料 InfoId 4：蔓越莓果實與蔓越莓種子油都在可供食品使用。與查詢助手一致。"
+    }
+  },
+  "efficacy": {
+    "claimedBenefits": [
+      "Nutraceuticals World 2026-02-09：Fruit d'Or 說 TotalPAC 的 50:1 新規格保證 7.2% 原花青素，500 mg 含 36 mg，並寫有對尿道致病性大腸桿菌抗黏附的臨床驗證，以及可對應美國 FDA qualified health claim 的資格。這是公司經由新聞說的。",
+      "美國 FDA 2020-07-21 函：對每日至少 500 mg、100% 果實的蔓越莓膳食補充品，只給有限度的科學證據，可在執法裁量下使用降低健康女性再發泌尿道感染風險的限定語句。不是一般性的核准宣稱，也不含果汁以外的一般食品。"
+    ],
+    "suggestedDosage": "新聞與原廠規格把 500 mg 粉對到至少 36 mg 原花青素。FDA 2020 年函寫的補充品條件是每日至少 500 mg 蔓越莓果實粉。",
+    "dosageNote": "500 mg 來自供應商規格與美國 FDA 的限定健康聲稱條件，不是台灣法規上限。果實那一筆沒有每日毫克。"
+  },
+  "patent": {
+    "status": "unknown",
+    "refs": [],
+    "note": "新聞與原廠頁寫全程自種自製，沒有給專利號。這次沒有打開對得上 Cran d'Or 的專利，不填成無。"
+  },
+  "literature": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "FDA Announces Qualified Health Claim for Certain Cranberry Products and Urinary Tract Infections",
+        "url": "https://www.fda.gov/food/hfp-constituent-updates/fda-announces-qualified-health-claim-certain-cranberry-products-and-urinary-tract-infections",
+        "note": "2020-07-21。FDA 寫補充品的人體證據有限。不是 Cran d'Or 這個商品名的試驗。"
+      }
+    ],
+    "note": "新聞說的抗黏附試驗這次沒有另開到全文，所以不把那句寫成已讀的論文結果。"
+  },
+  "evidenceLevels": [
+    "clinical"
+  ],
+  "images": [
+    {
+      "url": "https://nutra.fruitdor.ca/wp-content/uploads/2026/02/FDO_NPew_Blogue_880_Header.png",
+      "localPath": "",
+      "caption": "Fruit d'Or 官網 Cran d'Or TotalPAC 50:1 介紹頁的蔓越莓與粉末圖。",
+      "source": "official_site"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Fruit d'Or Launches 50:1 Fruit Ratio Option for Flagship Cranberry Ingredient",
+      "url": "https://www.nutraceuticalsworld.com/breaking-news/fruit-dor-launches-501-fruit-ratio-option-for-flagship-cranberry-ingredient/",
+      "publisher": "Nutraceuticals World",
+      "channel": "news",
+      "accessed": "2026-11-14",
+      "whatItContributes": "2026-02-09：TotalPAC 新增 50:1，7.2% 原花青素，500 mg 含 36 mg。"
+    },
+    {
+      "title": "Better Cranberry Performance: Expanding Cran d'Or TotalPAC with a New 50:1 Option",
+      "url": "https://nutra.fruitdor.ca/products/cran-dor-totalpac-new-50-1-option",
+      "publisher": "Fruit d'Or",
+      "channel": "supplier_site",
+      "accessed": "2026-11-14",
+      "whatItContributes": "原廠說明 50:1 是既有 TotalPAC 的新規格，原花青素規格不變，原料由自家田區到加工。"
+    },
+    {
+      "title": "Cran d'Or range",
+      "url": "https://nutra.fruitdor.ca/crandor",
+      "publisher": "Fruit d'Or",
+      "channel": "supplier_site",
+      "accessed": "2026-11-14",
+      "whatItContributes": "系列頁：TotalPAC 保證 7.2% 可溶與不可溶原花青素；Complete 那一列另寫 4% 與製造比 50:1。與新聞把 50:1 放在 TotalPAC 並陳。"
+    },
+    {
+      "title": "FDA constituent update, July 21, 2020",
+      "url": "https://www.fda.gov/food/hfp-constituent-updates/fda-announces-qualified-health-claim-certain-cranberry-products-and-urinary-tract-infections",
+      "publisher": "U.S. FDA",
+      "channel": "other",
+      "accessed": "2026-11-14",
+      "whatItContributes": "每日至少 500 mg 蔓越莓果實粉的限定健康聲稱，證據程度寫的是有限。"
+    },
+    {
+      "title": "Cranberry Powder 蔓越莓粉",
+      "url": "https://newin.com.tw/materials02/1932/",
+      "publisher": "荃新",
+      "channel": "other",
+      "accessed": "2026-11-14",
+      "whatItContributes": "台灣原料頁的蔓越莓果實粉，10:1。頁上沒有 Cran d'Or 或 Fruit d'Or。"
+    }
+  ],
+  "discovery": {
+    "channel": "news",
+    "scoutDate": "2026-11-14",
+    "notes": "從 Nutraceuticals World 2026-02-09 的 50:1 新聞進入，再對 Fruit d'Or 的規格頁、系列頁與 FDA 2020 年函。台灣關聯用商品名與蔓越莓搭配代理、經銷，並打開荃新頁；沒有看到這個商品名。"
+  }
+}

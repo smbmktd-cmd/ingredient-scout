@@ -7,6 +7,927 @@ window.INGREDIENT_CATALOG = {
         "exhibition",
         "industry_report"
       ],
+      "date": "2026-11-14",
+      "example": false,
+      "notes": "正式五筆。主管道：Omegia、Cran d'Or 為新聞；Holixer、ApplePhenon 為展覽；CherryPURE 為產業報導。聖羅勒葉、沙棘果實與種子、蔓越莓果實、蘋果果實、酸櫻桃果實有列。蘋果幹細胞是另一筆未確認，不是這次的青蘋果萃取。",
+      "picks": [
+        {
+          "discovery": {
+            "channel": "news",
+            "notes": "從 NutraIngredients 2026-09-16 獲獎新聞進入，再對 Puredia 產品頁、2023 年論文與 2008 年 Yang 論文。台灣關聯用 Omegia、可麗妍、沙棘油搭配代理、經銷；官網當天打不開，改開 Wayback 2025-02-09 的麥司克目錄。",
+            "scoutDate": "2026-11-14"
+          },
+          "efficacy": {
+            "claimedBenefits": [
+              "NutraIngredients 2026-09-16：Puredia 說 Omegia 是沙棘果與種子油，標準化到 omega-7 至少 30%，並含 omega-3、6、9、β-胡蘿蔔素、維生素 E 與植物固醇。這是供應商經由新聞轉述的說法。",
+              "Puredia 產品頁把皮膚保水增加 49%、彈性增加 26%、皺紋減少 9%，寫成 60 名 50–70 歲女性、口服每日 4 次 500 mg 並併用外用、共 3 個月。2008 年 Yang 論文是口服組與外用組分開，各 30 人，口服為每日 4 顆、每顆 0.5 g，文中沒有 Omegia 這個商品名。兩處並陳。",
+              "2023 年 Journal of Functional Foods 論文的受試物寫 Omegia 軟膠囊。方法一處寫每日 1 顆、每顆 500 mg 沙棘油；同一篇後文又寫每日 1 顆 1 g。12 週的皮膚亮度、水分、彈性百分比以該文表格為準，這裡不把兩種劑量併成一個。"
+            ],
+            "dosageNote": "以上是供應商頁與兩篇研究的劑量，不是台灣法規上限。果實與種子那一筆沒有每日毫克。",
+            "suggestedDosage": "Puredia 產品頁寫油劑建議每日 1–2 g，粉末建議每日 2–4 g。同一頁的更年期段落寫每日 2 次 500 mg、3 個月。2023 年論文方法段同時出現每日 500 mg 與每日 1 g。"
+          },
+          "evidenceLevels": [
+            "clinical"
+          ],
+          "example": false,
+          "id": "omegia",
+          "images": [
+            {
+              "caption": "Puredia 官網 Omegia 產品頁上的商品標誌。",
+              "localPath": "",
+              "source": "official_site",
+              "url": "https://images.squarespace-cdn.com/content/v1/5d4bb44f65e8a500018e870b/1565771100521-EEFH49OTRVU42SWAYLUV/Omegia+Logo.png?format=1500w"
+            }
+          ],
+          "literature": {
+            "note": "已讀 2023 年論文頁與 2008 年 PDF 的方法段。原廠頁的 49%、26%、9% 沒有改寫成 Omegia 本身的試驗結果。",
+            "refs": [
+              {
+                "note": "Journal of Functional Foods，2023。受試物寫 Omegia。40 名 45 歲以上女性，平行分組。劑量在文中有 500 mg 與 1 g 兩種寫法。",
+                "title": "The impact of oral sea-buckthorn oil on skin, blood markers, ocular, and vaginal health: A randomized control trial",
+                "url": "https://doi.org/10.1016/j.jff.2023.105973"
+              },
+              {
+                "note": "Yang 與 Kallio，Journal of Applied Cosmetology，2008。60 名 50–70 歲女性分成口服與外用兩組。沒有寫 Omegia。",
+                "title": "Effects of oral supplementation and topical application of supercritical CO2 extracted sea buckthorn oil on skin ageing of female subjects",
+                "url": "https://www.scicompdf.se/membrasin/yang_bon_2008.pdf"
+              }
+            ],
+            "status": "yes"
+          },
+          "names": {
+            "commonEn": "sea buckthorn fruit and seed oil",
+            "commonZh": "沙棘果與種子油",
+            "scientific": "Hippophae rhamnoides（果實與種子的油。不是葉，也不是琉璃苣或田紫草油。）",
+            "trade": "Omegia（Puredia 的沙棘果與種子油商品名；油劑之外另有粉末規格）"
+          },
+          "patent": {
+            "note": "產品頁寫超臨界二氧化碳萃取，沒有給專利號。這次沒有打開對得上 Omegia 的專利全文，不填成無。",
+            "refs": [],
+            "status": "unknown"
+          },
+          "sources": [
+            {
+              "accessed": "2026-11-14",
+              "channel": "news",
+              "publisher": "NutraIngredients",
+              "title": "Puredia looks to heighten awareness of sea buckthorn for oral beauty amid award win",
+              "url": "https://www.nutraingredients.com/Article/2026/09/16/puredia-looks-to-heighten-awareness-of-sea-buckthorn-for-bfw-on-the-back-of-ni-asia-award/",
+              "whatItContributes": "2026-09-16：Omegia 獲 NutraIngredients-Asia 口服美容原料獎；香港公司；果與籽油；omega-7 至少 30%；超臨界二氧化碳萃取。"
+            },
+            {
+              "accessed": "2026-11-14",
+              "channel": "supplier_site",
+              "publisher": "Puredia",
+              "title": "Omegia product page",
+              "url": "https://www.puredia.com/product/omegia",
+              "whatItContributes": "油劑與粉末規格、建議攝取量，以及香港地址。皮膚百分比的寫法與 2008 年論文不完全相同。"
+            },
+            {
+              "accessed": "2026-11-14",
+              "channel": "paper",
+              "publisher": "Journal of Functional Foods",
+              "title": "Journal of Functional Foods 2023, 10.1016/j.jff.2023.105973",
+              "url": "https://doi.org/10.1016/j.jff.2023.105973",
+              "whatItContributes": "點名 Omegia 軟膠囊的 12 週試驗，以及文內兩種劑量寫法。"
+            },
+            {
+              "accessed": "2026-11-14",
+              "channel": "paper",
+              "publisher": "Journal of Applied Cosmetology",
+              "title": "Yang and Kallio, Journal of Applied Cosmetology, 2008",
+              "url": "https://www.scicompdf.se/membrasin/yang_bon_2008.pdf",
+              "whatItContributes": "沙棘油口服與外用分開的皮膚試驗。沒有商品名 Omegia。"
+            },
+            {
+              "accessed": "2026-11-14",
+              "channel": "other",
+              "publisher": "麥司克股份有限公司（Internet Archive 擷取）",
+              "title": "Wayback 2025-02-09：麥司克美容原料目錄",
+              "url": "https://web.archive.org/web/2026/https://www.maxcarecorp.com/prod/beauty",
+              "whatItContributes": "當天官網打不開。擷取頁的美容原料目錄列出 Omegia 可麗妍。同站自述代理的素材，沒有寫獨家。"
+            }
+          ],
+          "supply": {
+            "relationship": "taiwan_agent",
+            "relationshipNote": "2026-11-14 官網連線逾時。Wayback 2025-02-09 的擷取打得開：首頁結構化資料自述「代理的素材」；美容原料目錄列出 Omegia 可麗妍。產品頁簡介寫「專利沙棘果萃取」，沒有寫獨家代理。Puredia 產品頁地址在香港，沒有點名麥司克。不升格為原廠證實或獨家。該擷取之後有沒有改，這次沒核到。查核日 2026-11-14。",
+            "supplierCountry": "香港",
+            "supplierName": "Puredia",
+            "taiwanPartyName": "麥司克股份有限公司"
+          },
+          "tfda": {
+            "evidenceNotes": "沙棘（Hippophae rhamnoides）有兩筆，都可供食品使用：果實、種子一筆；葉一筆，備註寫果實、種子得供為一般食品原料。Omegia 是果實與種子的油，商品名沒有另列。添加物用沙棘、學名與商品名都是 0 筆。列名不是這瓶油的每日克數上限。",
+            "lookupDate": "2026-11-14",
+            "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+            "officialCrosscheck": {
+              "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+              "done": true,
+              "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+              "notes": "2026-11-14 消費者專區 HTTP 為 502，HTTPS 沒有取得頁首。另下載開放資料 InfoId 4，沙棘、Hippophae rhamnoides L. 的果實與種子、以及葉，都在可供食品使用。與查詢助手一致。添加物筆數用的是助手 2026-11-13 那套資料。"
+            },
+            "queries": [
+              {
+                "category": "",
+                "keyword": "沙棘",
+                "matchedName": "沙棘（黑、黃、白）",
+                "note": "兩筆都不是未確認。本品用的是果實與種子。",
+                "restrictionNote": "果實、種子：可供食品使用，備註空白。葉：可供食品使用，分類是茶包、膳食調理包或萃取後作為原料，備註寫果實、種子得供為一般食品原料。",
+                "resultCount": 2,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Hippophae",
+                "matchedName": "沙棘（黑、黃、白）",
+                "note": "與中文關鍵字同一組兩筆。",
+                "restrictionNote": "同上。學名 Hippophae rhamnoides L.。",
+                "resultCount": 2,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Omegia",
+                "matchedName": "",
+                "note": "商品名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "沙棘",
+                "matchedName": "",
+                "note": "添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Hippophae",
+                "matchedName": "",
+                "note": "學名在添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "沙棘",
+                "matchedName": "",
+                "note": "助手更新歷程（11/01–11/13）沒有這筆異動。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "history",
+                "unconfirmedSafety": false
+              }
+            ],
+            "usable": "listed_food_ingredient"
+          }
+        },
+        {
+          "discovery": {
+            "channel": "exhibition",
+            "notes": "從 Vitafoods Asia 2026 展前名錄的 Natural Remedies 攤位進入 Holixer，再對原廠頁、2022 年論文與 WO2023203401A1。台灣關聯以 Holixer、樂舒寧、聖羅勒搭配代理、經銷；官網當天打不開，改開 Wayback 2025-02-09 的麥司克頁。",
+            "scoutDate": "2026-11-14"
+          },
+          "efficacy": {
+            "claimedBenefits": [
+              "Natural Remedies 官網：標準化到至少 5% Ocimum Bioactive Complex，每日 250 mg，並寫可對應壓力與睡眠。頁上另寫睡眠品質改善 50%、睡眠干擾減少 95%、入睡加快 60%、頭髮皮質醇減少 66%。這些百分比不在下面這篇 2022 年論文的結論裡。",
+              "Frontiers in Nutrition 2022：100 名有壓力與睡眠問題的成人，Holixer 每日 250 mg（125 mg、一日兩次）或安慰劑，8 週。自覺壓力分數下降 37%，安慰劑下降 19%。雅典失眠量表分數下降 48%，安慰劑下降 27%。新長出的頭髮皮質醇，萃取組 269.68 pg/50 mg、安慰劑組 789.89 pg/50 mg。手腕睡眠紀錄的組間差異沒有達到顯著。"
+            ],
+            "dosageNote": "這是供應商頁與該篇試驗的劑量，不是台灣法規上限。聖羅勒葉那一筆沒有每日毫克。",
+            "suggestedDosage": "官網與 2022 年論文都是每日 250 mg。論文的膠囊是每顆 62.5 mg，一日兩次、每次 2 顆。"
+          },
+          "evidenceLevels": [
+            "clinical"
+          ],
+          "example": false,
+          "id": "holixer",
+          "images": [
+            {
+              "caption": "Natural Remedies 官網 Holixer 頁的主視覺。",
+              "localPath": "",
+              "source": "official_site",
+              "url": "https://cdn.prod.website-files.com/6a0d43b82a41cfe209379fdd/6aab2146692e6bf4654122f8_holixer-07.webp"
+            }
+          ],
+          "literature": {
+            "note": "已讀這篇全文的方法與結果段。官網另一組較高的睡眠百分比沒有在這篇裡看到，不併成同一筆數字。",
+            "refs": [
+              {
+                "note": "Frontiers in Nutrition，2022。PMC9524226。每日 250 mg、8 週。自覺壓力與失眠分數有組間差異；手腕睡眠效率的組間差異不顯著。",
+                "title": "A randomized, double-blind, placebo-controlled trial investigating the effects of an Ocimum tenuiflorum (Holy Basil) extract (Holixer) on stress, mood, and sleep",
+                "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9524226/"
+              }
+            ],
+            "status": "yes"
+          },
+          "names": {
+            "commonEn": "holy basil leaf extract",
+            "commonZh": "聖羅勒葉萃取物",
+            "scientific": "Ocimum tenuiflorum（亦寫 Ocimum sanctum。論文寫富含葉的地上部。不是羅勒 Ocimum basilicum，也不是未確認的灰羅勒 Ocimum americanum。）",
+            "trade": "Holixer（Natural Remedies 的聖羅勒萃取商品名；麥司克頁寫樂舒寧）"
+          },
+          "patent": {
+            "note": "成分組合與官網列出的 OBC 對得上。沒有把這件寫成已核准的台灣專利。",
+            "refs": [
+              {
+                "note": "組成寫 rabdosiin、迷迭香酸、木犀草素葡萄糖醛酸苷、芹菜素葡萄糖醛酸苷與 ociglycoside I，且不含齊墩果酸與熊果酸。2022 年論文把 Holixer 寫成 patent-pending 202241023540。這次打開的專利頁首沒有留下申請人姓名。",
+                "title": "WO2023203401A1 - A low-dose phytochemical composition of ocimum tenuiflorum",
+                "url": "https://patents.google.com/patent/WO2023203401A1/en"
+              }
+            ],
+            "status": "yes"
+          },
+          "sources": [
+            {
+              "accessed": "2026-11-14",
+              "channel": "exhibition",
+              "publisher": "NutraIngredients",
+              "title": "Vitafoods Asia 2026 show floor preview: Exhibitors H-P",
+              "url": "https://www.nutraingredients.com/Article/2026/08/25/vitafoods-asia-2026-show-floor-preview-exhibitors-h-p/",
+              "whatItContributes": "2026-08-25 展前整理：Natural Remedies 攤位 H6-L01 會展示 Holixer，並寫有睡眠相關的人體資料。"
+            },
+            {
+              "accessed": "2026-11-14",
+              "channel": "supplier_site",
+              "publisher": "Natural Remedies",
+              "title": "Holixer product page",
+              "url": "https://www.naturalremedieshumanhealth.com/holixer",
+              "whatItContributes": "至少 5% OBC、每日 250 mg，以及頁上另列的睡眠百分比。"
+            },
+            {
+              "accessed": "2026-11-14",
+              "channel": "supplier_site",
+              "publisher": "Natural Remedies",
+              "title": "Natural Remedies company page",
+              "url": "https://naturalremedieshumanhealth.com/",
+              "whatItContributes": "印度班加羅爾地址，以及美國公司地址。沒有台灣據點。"
+            },
+            {
+              "accessed": "2026-11-14",
+              "channel": "paper",
+              "publisher": "Frontiers in Nutrition",
+              "title": "PMC9524226",
+              "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9524226/",
+              "whatItContributes": "8 週、每日 250 mg 的壓力與睡眠試驗，以及萃取來自富含葉的地上部。"
+            },
+            {
+              "accessed": "2026-11-14",
+              "channel": "patent",
+              "publisher": "Google Patents",
+              "title": "WO2023203401A1",
+              "url": "https://patents.google.com/patent/WO2023203401A1/en",
+              "whatItContributes": "聖羅勒低劑量組成的公開文本。"
+            },
+            {
+              "accessed": "2026-11-14",
+              "channel": "news",
+              "publisher": "NutraIngredients",
+              "title": "Natural Remedies adds Holixer holy basil to botanicals portfolio",
+              "url": "https://www.nutraingredients.com/Article/2022/10/05/Natural-Remedies-adds-Holixer-holy-basil-to-botanicals-portfolio/",
+              "whatItContributes": "2022-10-05：北美洲獨家經銷寫的是 AIDP。不是台灣。"
+            },
+            {
+              "accessed": "2026-11-14",
+              "channel": "other",
+              "publisher": "麥司克股份有限公司（Internet Archive 擷取）",
+              "title": "Wayback 2025-02-09：HOLIXER 樂舒寧",
+              "url": "https://web.archive.org/web/20250209022809/https://www.maxcarecorp.com/%E6%A8%82%E8%88%92%E5%AF%A7",
+              "whatItContributes": "當天官網打不開。這份 2025-02-09 擷取的頁標題是樂舒寧，簡介寫獨家技術；同站結構化資料自述代理的素材。"
+            }
+          ],
+          "supply": {
+            "relationship": "taiwan_agent",
+            "relationshipNote": "2026-11-14 官網連線逾時。Wayback 2025-02-09 的擷取打得開：首頁結構化資料自述「代理的素材」。Holixer 頁標題是樂舒寧，簡介寫「獨家技術取得之聖羅勒萃取」，這句是技術，不是獨家代理。原廠頁沒有點名麥司克。北美洲獨家經銷在 2022 年新聞寫的是 AIDP。不升格為原廠證實或獨家。該擷取之後有沒有改，這次沒核到。查核日 2026-11-14。",
+            "supplierCountry": "印度",
+            "supplierName": "Natural Remedies",
+            "taiwanPartyName": "麥司克股份有限公司"
+          },
+          "tfda": {
+            "evidenceNotes": "聖羅勒葉（Ocimum sanctum、Ocimum tenuiflorum）1 筆，可供食品使用，備註空白。商品名 Holixer 0 筆。添加物用聖羅勒與學名都是 0 筆。灰羅勒是另一個未確認的種。論文寫萃取來自富含葉的地上部，平台列的部位是葉。",
+            "lookupDate": "2026-11-14",
+            "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+            "officialCrosscheck": {
+              "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+              "done": true,
+              "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+              "notes": "2026-11-14 消費者專區 HTTP 為 502，HTTPS 沒有取得頁首。另下載開放資料 InfoId 4：聖羅勒，學名 Ocimum sanctum、Ocimum tenuiflorum，部位葉，可供食品使用。與查詢助手一致。"
+            },
+            "queries": [
+              {
+                "category": "",
+                "keyword": "聖羅勒",
+                "matchedName": "聖羅勒",
+                "note": "學名寫 Ocimum sanctum、Ocimum tenuiflorum。開放資料 InfoId 4 同一筆。",
+                "restrictionNote": "可供食品使用。部位葉。備註空白。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Ocimum tenuiflorum",
+                "matchedName": "聖羅勒",
+                "note": "與中文名稱同一筆。",
+                "restrictionNote": "部位葉。備註空白。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Holixer",
+                "matchedName": "",
+                "note": "商品名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "聖羅勒",
+                "matchedName": "",
+                "note": "添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Ocimum tenuiflorum",
+                "matchedName": "",
+                "note": "學名在添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "聖羅勒",
+                "matchedName": "",
+                "note": "助手更新歷程（11/01–11/13）沒有這筆異動。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "history",
+                "unconfirmedSafety": false
+              }
+            ],
+            "usable": "listed_food_ingredient"
+          }
+        },
+        {
+          "discovery": {
+            "channel": "news",
+            "notes": "從 Nutraceuticals World 2026-02-09 的 50:1 新聞進入，再對 Fruit d'Or 的規格頁、系列頁與 FDA 2020 年函。台灣關聯用商品名與蔓越莓搭配代理、經銷，並打開荃新頁；沒有看到這個商品名。",
+            "scoutDate": "2026-11-14"
+          },
+          "efficacy": {
+            "claimedBenefits": [
+              "Nutraceuticals World 2026-02-09：Fruit d'Or 說 TotalPAC 的 50:1 新規格保證 7.2% 原花青素，500 mg 含 36 mg，並寫有對尿道致病性大腸桿菌抗黏附的臨床驗證，以及可對應美國 FDA qualified health claim 的資格。這是公司經由新聞說的。",
+              "美國 FDA 2020-07-21 函：對每日至少 500 mg、100% 果實的蔓越莓膳食補充品，只給有限度的科學證據，可在執法裁量下使用降低健康女性再發泌尿道感染風險的限定語句。不是一般性的核准宣稱，也不含果汁以外的一般食品。"
+            ],
+            "dosageNote": "500 mg 來自供應商規格與美國 FDA 的限定健康聲稱條件，不是台灣法規上限。果實那一筆沒有每日毫克。",
+            "suggestedDosage": "新聞與原廠規格把 500 mg 粉對到至少 36 mg 原花青素。FDA 2020 年函寫的補充品條件是每日至少 500 mg 蔓越莓果實粉。"
+          },
+          "evidenceLevels": [
+            "clinical"
+          ],
+          "example": false,
+          "id": "cran-dor",
+          "images": [
+            {
+              "caption": "Fruit d'Or 官網 Cran d'Or TotalPAC 50:1 介紹頁的蔓越莓與粉末圖。",
+              "localPath": "",
+              "source": "official_site",
+              "url": "https://nutra.fruitdor.ca/wp-content/uploads/2026/02/FDO_NPew_Blogue_880_Header.png"
+            }
+          ],
+          "literature": {
+            "note": "新聞說的抗黏附試驗這次沒有另開到全文，所以不把那句寫成已讀的論文結果。",
+            "refs": [
+              {
+                "note": "2020-07-21。FDA 寫補充品的人體證據有限。不是 Cran d'Or 這個商品名的試驗。",
+                "title": "FDA Announces Qualified Health Claim for Certain Cranberry Products and Urinary Tract Infections",
+                "url": "https://www.fda.gov/food/hfp-constituent-updates/fda-announces-qualified-health-claim-certain-cranberry-products-and-urinary-tract-infections"
+              }
+            ],
+            "status": "yes"
+          },
+          "names": {
+            "commonEn": "cranberry fruit powder",
+            "commonZh": "蔓越莓果實粉",
+            "scientific": "Vaccinium macrocarpon（果實粉。不是種子油，也不是山桑子 Vaccinium myrtillus。）",
+            "trade": "Cran d'Or TotalPAC（Fruit d'Or 的蔓越莓粉商品名；2026-02-09 新聞寫新增 50:1 規格）"
+          },
+          "patent": {
+            "note": "新聞與原廠頁寫全程自種自製，沒有給專利號。這次沒有打開對得上 Cran d'Or 的專利，不填成無。",
+            "refs": [],
+            "status": "unknown"
+          },
+          "sources": [
+            {
+              "accessed": "2026-11-14",
+              "channel": "news",
+              "publisher": "Nutraceuticals World",
+              "title": "Fruit d'Or Launches 50:1 Fruit Ratio Option for Flagship Cranberry Ingredient",
+              "url": "https://www.nutraceuticalsworld.com/breaking-news/fruit-dor-launches-501-fruit-ratio-option-for-flagship-cranberry-ingredient/",
+              "whatItContributes": "2026-02-09：TotalPAC 新增 50:1，7.2% 原花青素，500 mg 含 36 mg。"
+            },
+            {
+              "accessed": "2026-11-14",
+              "channel": "supplier_site",
+              "publisher": "Fruit d'Or",
+              "title": "Better Cranberry Performance: Expanding Cran d'Or TotalPAC with a New 50:1 Option",
+              "url": "https://nutra.fruitdor.ca/products/cran-dor-totalpac-new-50-1-option",
+              "whatItContributes": "原廠說明 50:1 是既有 TotalPAC 的新規格，原花青素規格不變，原料由自家田區到加工。"
+            },
+            {
+              "accessed": "2026-11-14",
+              "channel": "supplier_site",
+              "publisher": "Fruit d'Or",
+              "title": "Cran d'Or range",
+              "url": "https://nutra.fruitdor.ca/crandor",
+              "whatItContributes": "系列頁：TotalPAC 保證 7.2% 可溶與不可溶原花青素；Complete 那一列另寫 4% 與製造比 50:1。與新聞把 50:1 放在 TotalPAC 並陳。"
+            },
+            {
+              "accessed": "2026-11-14",
+              "channel": "other",
+              "publisher": "U.S. FDA",
+              "title": "FDA constituent update, July 21, 2020",
+              "url": "https://www.fda.gov/food/hfp-constituent-updates/fda-announces-qualified-health-claim-certain-cranberry-products-and-urinary-tract-infections",
+              "whatItContributes": "每日至少 500 mg 蔓越莓果實粉的限定健康聲稱，證據程度寫的是有限。"
+            },
+            {
+              "accessed": "2026-11-14",
+              "channel": "other",
+              "publisher": "荃新",
+              "title": "Cranberry Powder 蔓越莓粉",
+              "url": "https://newin.com.tw/materials02/1932/",
+              "whatItContributes": "台灣原料頁的蔓越莓果實粉，10:1。頁上沒有 Cran d'Or 或 Fruit d'Or。"
+            }
+          ],
+          "supply": {
+            "relationship": "unknown",
+            "relationshipNote": "2026-11-14 以 Cran d'Or、Cran dOr、TotalPAC、Fruit d'Or、蔓越莓、Vaccinium macrocarpon 搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商各查一輪，發布前再用商品名與「台灣 代理」複查。打開的荃新蔓越莓粉頁是 10:1 果實粉，沒有 Fruit d'Or 或 Cran d'Or。檢索另出現聖馥欣的蔓越莓粉與香港 Topstars 寫 Fruit d'Or，這兩頁沒有打開，不把摘要當成台灣代理。原廠頁寫原料來自加拿大田區，沒有台灣經銷名單。",
+            "supplierCountry": "加拿大",
+            "supplierName": "Fruit d'Or",
+            "taiwanPartyName": "本次查無台灣關聯廠商"
+          },
+          "tfda": {
+            "evidenceNotes": "蔓越莓果實（Vaccinium macrocarpon、Vaccinium oxycoccos）1 筆，可供食品使用，備註空白。同一中文關鍵字另有蔓越莓種子油，那是種子油脂，不是這個果粉。商品名 0 筆。添加物 0 筆。列名不是美國 qualified health claim，也不是 500 mg 的法規上限。",
+            "lookupDate": "2026-11-14",
+            "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+            "officialCrosscheck": {
+              "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+              "done": true,
+              "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+              "notes": "2026-11-14 消費者專區 HTTP 為 502，HTTPS 沒有取得頁首。另下載開放資料 InfoId 4：蔓越莓果實與蔓越莓種子油都在可供食品使用。與查詢助手一致。"
+            },
+            "queries": [
+              {
+                "category": "",
+                "keyword": "蔓越莓",
+                "matchedName": "蔓越莓；越橘",
+                "note": "兩筆都是可供使用。本品對的是果實，不是種子油。",
+                "restrictionNote": "果實：可供食品使用，備註空白。種子油：由種子製取，經良好製程加工及品管所得之油脂。",
+                "resultCount": 2,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Vaccinium macrocarpon",
+                "matchedName": "蔓越莓；越橘",
+                "note": "與中文關鍵字同一組兩筆。",
+                "restrictionNote": "同上。果實那一筆的學名還並列 Vaccinium oxycoccos。",
+                "resultCount": 2,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Cran d'Or",
+                "matchedName": "",
+                "note": "商品名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "蔓越莓",
+                "matchedName": "",
+                "note": "添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Vaccinium macrocarpon",
+                "matchedName": "",
+                "note": "學名在添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "蔓越莓",
+                "matchedName": "",
+                "note": "助手更新歷程（11/01–11/13）沒有這筆異動。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "history",
+                "unconfirmedSafety": false
+              }
+            ],
+            "usable": "listed_food_ingredient"
+          }
+        },
+        {
+          "discovery": {
+            "channel": "exhibition",
+            "notes": "從 SupplySide Global 2026 展前記者的 BGG 攤位進入 ApplePhenon，再對 BGG 產品頁、2010 年論文與 US6855352B2。台灣關聯用 ApplePhenon、蘋果多酚、Malus pumila 搭配台灣、代理、經銷，打開仕琦產品頁與商標頁。",
+            "scoutDate": "2026-11-14"
+          },
+          "efficacy": {
+            "claimedBenefits": [
+              "BGG 產品頁：未成熟青蘋果萃取，規格寫 60% 原花青素（UV），並寫每日 600 mg、12 週可對應內臟脂肪。這是供應商頁的說法。",
+              "J Oleo Sci 2010（PMID 20484838）：飲料中的蘋果多酚用的是 Applephenon（當時寫 Asahi Food and Healthcare）。長期試驗 94 人，每日 600 mg、12 週。蘋果多酚組的內臟脂肪面積在第 8 週與第 12 週低於自己的起點，和安慰劑的變化量在這兩週也有差異。起始內臟脂肪面積 100 cm² 以上的分層有下降，未達 100 cm² 的分層沒有顯著變化。"
+            ],
+            "dosageNote": "這是供應商頁與 2010 年試驗的劑量，不是台灣法規上限。蘋果果實那一筆沒有每日毫克。2010 年試驗的供應者寫 Asahi，現在銷售頁是 BGG。",
+            "suggestedDosage": "產品頁與上述試驗都是每日 600 mg。試驗是 340 g 飲料裡含 600 mg。"
+          },
+          "evidenceLevels": [
+            "clinical"
+          ],
+          "example": false,
+          "id": "applephenon",
+          "images": [
+            {
+              "caption": "BGG 官網 ApplePhenon 頁的青蘋果圖。",
+              "localPath": "",
+              "source": "official_site",
+              "url": "https://bggworld.com/wp-content/uploads/2023/09/ApplePhenon.png"
+            }
+          ],
+          "literature": {
+            "note": "已讀 PubMed 與 J-STAGE 頁上的摘要。摘要寫內臟脂肪有組間差異，沒有寫體重下降的公斤數。",
+            "refs": [
+              {
+                "note": "Akazome 等，J Oleo Sci，2010。PMID 20484838。Applephenon，每日 600 mg，94 人、12 週，另有 30 人的過量 4 週試驗。",
+                "title": "Evaluation of Safety of Excessive Intake and Efficacy of Long-term Intake of Beverages Containing Apple Polyphenols",
+                "url": "https://pubmed.ncbi.nlm.nih.gov/20484838/"
+              }
+            ],
+            "status": "yes"
+          },
+          "names": {
+            "commonEn": "unripe apple polyphenol extract",
+            "commonZh": "未成熟蘋果多酚萃取物",
+            "scientific": "Malus pumila Mill.（未成熟青蘋果果實。不是蘋果幹細胞，也不是星蘋果。）",
+            "trade": "ApplePhenon（BGG 銷售的蘋果多酚商品名；台灣商標權人登記為 BGG Japan）"
+          },
+          "patent": {
+            "note": "產品頁另寫有 5 件國際專利，沒有給號碼。這次只打開 US6855352B2。",
+            "refs": [
+              {
+                "note": "2018-11-06 受讓人改為 BGG Japan Co., Ltd.。文本寫的是海棠果、野蘋果的多酚製程。BGG 產品頁寫 ApplePhenon 有專利，但沒有在該頁列出這個號碼，也沒有寫原料是海棠果。不把兩件事併成同一件規格。",
+                "title": "US6855352B2 - Wild apple polyphenol and process for producing the same",
+                "url": "https://patents.google.com/patent/US6855352B2/en"
+              }
+            ],
+            "status": "yes"
+          },
+          "sources": [
+            {
+              "accessed": "2026-11-14",
+              "channel": "exhibition",
+              "publisher": "NutraIngredients",
+              "title": "SupplySide Global 2026: What's happening on the show floor",
+              "url": "https://www.nutraingredients.com/Article/2026/10/14/supplyside-global-2026-whats-happening-on-the-show-floor/",
+              "whatItContributes": "2026-10-14：BGG 攤位 2937 會以體重管理飲品概念展示 ApplePhenon。"
+            },
+            {
+              "accessed": "2026-11-14",
+              "channel": "supplier_site",
+              "publisher": "BGG",
+              "title": "ApplePhenon Apple Polyphenols",
+              "url": "https://bggworld.com/applephenon-apple-polyphenols/",
+              "whatItContributes": "來源寫青蘋果 Malus pumila Mill.，60% 原花青素，每日 600 mg 的內臟脂肪說法。"
+            },
+            {
+              "accessed": "2026-11-14",
+              "channel": "paper",
+              "publisher": "Journal of Oleo Science",
+              "title": "PMID 20484838",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/20484838/",
+              "whatItContributes": "Applephenon 每日 600 mg、12 週的內臟脂肪試驗摘要。"
+            },
+            {
+              "accessed": "2026-11-14",
+              "channel": "patent",
+              "publisher": "Google Patents",
+              "title": "US6855352B2",
+              "url": "https://patents.google.com/patent/US6855352B2/en",
+              "whatItContributes": "2018 年轉給 BGG Japan 的野蘋果多酚製程專利。"
+            },
+            {
+              "accessed": "2026-11-14",
+              "channel": "other",
+              "publisher": "仕琦",
+              "title": "蘋果抽出物 Applephenon",
+              "url": "https://www.skyrich.com.tw/product.php?act=view&no=95",
+              "whatItContributes": "台灣頁列出這個商品名。網站標題自述代理銷售，頁內沒有寫獨家。"
+            },
+            {
+              "accessed": "2026-11-14",
+              "channel": "other",
+              "publisher": "經濟部智慧財產局公開資料轉載頁",
+              "title": "APPLEPHENON 商標",
+              "url": "https://www.findcompany.com.tw/trademark/00820432_086053156",
+              "whatItContributes": "商標權人為 BGG Japan Co., Ltd.，登記地址日本。類別是香料，不是原料代理契約。"
+            }
+          ],
+          "supply": {
+            "relationship": "taiwan_agent",
+            "relationshipNote": "仕琦產品頁列出「蘋果抽出物 Applephenon」。網站標題自述「代理銷售全球頂尖供應商機能性保健素材」。該頁沒有寫獨家，也沒有點名 BGG。BGG 產品頁這次沒有看到經銷名單，不升格為原廠證實。台灣商標 APPLEPHENON 的權利人是 BGG Japan Co., Ltd.。唯創生技的化粧品原料頁把 Applephenon 寫進 INCI，不是這筆保健原料的代理頁。查核日 2026-11-14。",
+            "supplierCountry": "日本",
+            "supplierName": "BGG",
+            "taiwanPartyName": "仕琦（Sky Rich）"
+          },
+          "tfda": {
+            "evidenceNotes": "Malus pumila 對到蘋果果實 1 筆，可供食品使用，備註空白。中文「蘋果」還會帶進星蘋果、蘋果纖維的舉例、蘋果薄荷，以及未確認的蘋果幹細胞。蘋果幹細胞是 Malus domestica 的細胞培養，不是未成熟果實萃取。添加物裡含「蘋果」的是蘋果酸鹽和蠟的使用範圍，不是這個多酚。",
+            "lookupDate": "2026-11-14",
+            "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+            "officialCrosscheck": {
+              "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+              "done": true,
+              "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+              "notes": "2026-11-14 消費者專區 HTTP 為 502，HTTPS 沒有取得頁首。另下載開放資料 InfoId 4：蘋果果實為可供食品使用；蘋果幹細胞為未確認。與查詢助手一致。"
+            },
+            "queries": [
+              {
+                "category": "",
+                "keyword": "Malus pumila",
+                "matchedName": "蘋果",
+                "note": "開放資料 InfoId 4 同一筆。",
+                "restrictionNote": "可供食品使用。學名 Malus sylvestris Mill.、Malus pumila Mill.。部位果實。備註空白。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "蘋果",
+                "matchedName": "蘋果",
+                "note": "未確認的是蘋果薄荷與蘋果幹細胞，不是 Malus pumila 果實。",
+                "restrictionNote": "蘋果果實如上。另外：星蘋果是 Chrysophyllum cainito；膳食纖維的備註把蘋果纖維當名稱舉例；蘋果薄荷與蘋果幹細胞列在未確認。",
+                "resultCount": 5,
+                "tab": "ingredient",
+                "unconfirmedSafety": true
+              },
+              {
+                "category": "",
+                "keyword": "ApplePhenon",
+                "matchedName": "",
+                "note": "商品名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "蘋果",
+                "matchedName": "蘋果酸鈣",
+                "note": "關鍵字會命中「蘋果酸」。Malus pumila 在添加物是 0 筆。",
+                "restrictionNote": "抽看為蘋果酸鹽等營養添加劑，以及棕櫚蠟可用於蘋果等水果表面。不是蘋果多酚。",
+                "resultCount": 10,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Malus pumila",
+                "matchedName": "",
+                "note": "學名在添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "蘋果",
+                "matchedName": "",
+                "note": "助手更新歷程（11/01–11/13）沒有這筆異動。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "history",
+                "unconfirmedSafety": false
+              }
+            ],
+            "usable": "listed_food_ingredient"
+          }
+        },
+        {
+          "discovery": {
+            "channel": "industry_report",
+            "notes": "從 NutraIngredients 2026-11-11 運動營養整理裡的酸櫻桃段落進入，再對到有商品名試驗的 CherryPURE、Shoreline 產品頁與 JISSN 2015。台灣關聯用 CherryPURE、酸櫻桃、Shoreline、tart cherry 搭配台灣、代理、經銷，打開恒宜與宸品兩頁。",
+            "scoutDate": "2026-11-14"
+          },
+          "efficacy": {
+            "claimedBenefits": [
+              "NutraIngredients 2026-11-11 的運動營養科學整理：回顧裡，酸櫻桃對劇烈運動後肌力恢復的證據在所比較的食物中較多，但各試驗並不一致。這段沒有點名 CherryPURE。",
+              "JISSN 2015：23 名有阻力訓練的男性，CherryPURE 每日 480 mg 或安慰劑，運動前 7 日、當天與之後 2 日。和安慰劑相比，酸櫻桃組的股外側肌酸痛較低，肌酸酐與總蛋白的變化較小。發炎指標與抗氧化能力指標沒有顯著的補充效應。"
+            ],
+            "dosageNote": "480 mg 是 2015 年試驗的劑量，不是供應商頁上的建議，也不是台灣法規上限。果實那一筆沒有每日毫克。",
+            "suggestedDosage": "上述試驗是每日 480 mg，共 10 日。Shoreline 這次打開的產品頁沒有寫每日建議毫克。恒宜頁寫 1 kg 粉等於 50 kg 櫻桃，也沒有每日劑量。"
+          },
+          "evidenceLevels": [
+            "clinical"
+          ],
+          "example": false,
+          "id": "cherrypure",
+          "images": [
+            {
+              "caption": "Shoreline Fruit 官網 CherryPURE 產品頁的酸櫻桃照片。",
+              "localPath": "",
+              "source": "official_site",
+              "url": "https://cdn.prod.website-files.com/683dac133311d87f89c021a6/68c1750deb6604ef90e4651c_og-cherry-powder.jpg"
+            }
+          ],
+          "literature": {
+            "note": "已讀這篇的摘要與補充方法。2026-11-11 的產業整理說酸櫻桃的恢復證據並不一致，所以這一篇不寫成所有酸櫻桃試驗的共同結論。",
+            "refs": [
+              {
+                "note": "Levers 等，JISSN，2015。受試物寫 CherryPURE，Shoreline Fruit。每日 480 mg。論文一處把城市寫成 Transverse City。",
+                "title": "Effects of powdered Montmorency tart cherry supplementation on an acute bout of intense lower body strength exercise in resistance trained males",
+                "url": "https://link.springer.com/article/10.1186/s12970-015-0102-y"
+              }
+            ],
+            "status": "yes"
+          },
+          "names": {
+            "commonEn": "Montmorency tart cherry skin powder",
+            "commonZh": "蒙莫朗西酸櫻桃果皮粉",
+            "scientific": "Prunus cerasus L.（蒙莫朗西品種。產品頁寫榨汁後的果皮再凍乾。不是甜櫻桃。）",
+            "trade": "CherryPURE（Shoreline Fruit 的酸櫻桃凍乾粉商品名）"
+          },
+          "patent": {
+            "note": "Shoreline 產品頁寫有專有加工，沒有給專利號。商標 CHERRYPURE 不是專利。這次沒有打開對得上這個粉末的專利全文，不填成無。",
+            "refs": [],
+            "status": "unknown"
+          },
+          "sources": [
+            {
+              "accessed": "2026-11-14",
+              "channel": "industry_report",
+              "publisher": "NutraIngredients",
+              "title": "Catching up with sports nutrition supplements: A roundup of the latest science",
+              "url": "https://www.nutraingredients.com/Article/2026/11/11/catching-up-with-sports-nutrition-supplement-science/",
+              "whatItContributes": "2026-11-11：多酚與運動的整理指出酸櫻桃對肌力恢復的證據較多，但試驗之間不一致。未點名商品。"
+            },
+            {
+              "accessed": "2026-11-14",
+              "channel": "supplier_site",
+              "publisher": "Shoreline Fruit",
+              "title": "Nutraceutical Cherry Powder",
+              "url": "https://www.shorelinefruit.com/products/nutraceutical-cherry-powder",
+              "whatItContributes": "美國果農公司的 CherryPURE，原料是蒙莫朗西酸櫻桃，寫專有加工、不含人工填充。"
+            },
+            {
+              "accessed": "2026-11-14",
+              "channel": "paper",
+              "publisher": "Journal of the International Society of Sports Nutrition",
+              "title": "JISSN 2015, 10.1186/s12970-015-0102-y",
+              "url": "https://link.springer.com/article/10.1186/s12970-015-0102-y",
+              "whatItContributes": "每日 480 mg、10 日的阻力運動酸痛試驗，受試物寫 CherryPURE 果皮粉。"
+            },
+            {
+              "accessed": "2026-11-14",
+              "channel": "other",
+              "publisher": "恒宜生技",
+              "title": "CherryPURE 酸櫻桃凍乾粉",
+              "url": "https://www.hengyi-bio.com.tw/products-detail/113__2/",
+              "whatItContributes": "台灣原料頁列出商品名、美國產地與前花青素至少 3%。沒有寫代理。"
+            },
+            {
+              "accessed": "2026-11-14",
+              "channel": "other",
+              "publisher": "宸品",
+              "title": "宸品原料 CherryPURE 櫻桃凍乾粉",
+              "url": "https://www.champion-bio.com/tw/product-detail/cherry_powder/",
+              "whatItContributes": "另一個台灣原料頁列出同一商品名，並介紹 Anderson Advanced Ingredients。沒有寫代理。"
+            }
+          ],
+          "supply": {
+            "relationship": "unknown",
+            "relationshipNote": "恒宜生技產品頁列出 CherryPURE 酸櫻桃凍乾粉，產地寫美國，前花青素規格寫至少 3%，並寫 1 kg 粉等於 50 kg 櫻桃。頁上沒有「代理」或「經銷」，也沒有寫 Shoreline。宸品產品頁同樣列出 CherryPURE，並在同頁介紹美國 Anderson Advanced Ingredients，沒有寫自己是 Shoreline 或 Anderson 的代理。Shoreline 產品頁沒有經銷名單。兩家都是原料頁有這個商品名，關係不升格。查核日 2026-11-14。恒宜頁寫「萃取」，Shoreline 頁寫果皮凍乾粉，用詞不同，不自行判定是不是同一規格。",
+            "supplierCountry": "美國",
+            "supplierName": "Shoreline Fruit",
+            "taiwanPartyName": "恒宜生技；宸品"
+          },
+          "tfda": {
+            "evidenceNotes": "酸櫻桃果實（Prunus cerasus）1 筆，可供食品使用，備註空白。商品名 CherryPURE 0 筆。添加物 0 筆。Shoreline 寫的是榨汁後果皮的凍乾粉，平台列的部位是果實，沒有把果皮另列成未確認。",
+            "lookupDate": "2026-11-14",
+            "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+            "officialCrosscheck": {
+              "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+              "done": true,
+              "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+              "notes": "2026-11-14 消費者專區 HTTP 為 502，HTTPS 沒有取得頁首。另下載開放資料 InfoId 4：酸櫻桃，Prunus cerasus L.，部位果實，可供食品使用。與查詢助手一致。"
+            },
+            "queries": [
+              {
+                "category": "",
+                "keyword": "酸櫻桃",
+                "matchedName": "酸櫻桃；歐洲酸櫻桃",
+                "note": "開放資料 InfoId 4 同一筆。",
+                "restrictionNote": "可供食品使用。學名 Prunus cerasus L.、Cerasus vulgaris。部位果實。備註空白。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Prunus cerasus",
+                "matchedName": "酸櫻桃；歐洲酸櫻桃",
+                "note": "與中文名稱同一筆。",
+                "restrictionNote": "部位果實。備註空白。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "CherryPURE",
+                "matchedName": "",
+                "note": "商品名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "酸櫻桃",
+                "matchedName": "",
+                "note": "添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Prunus cerasus",
+                "matchedName": "",
+                "note": "學名在添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "酸櫻桃",
+                "matchedName": "",
+                "note": "助手更新歷程（11/01–11/13）沒有這筆異動。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "history",
+                "unconfirmedSafety": false
+              }
+            ],
+            "usable": "listed_food_ingredient"
+          }
+        }
+      ],
+      "targetCount": 5,
+      "title": "2026-11-14 正式日報"
+    },
+    {
+      "channelsCovered": [
+        "news",
+        "exhibition",
+        "industry_report"
+      ],
       "date": "2026-11-13",
       "example": false,
       "notes": "正式五筆。主管道：SageXtra、Ahiflower 為新聞；InSea2、PeptiStrong 為展覽；Lipofer 為產業報導。鼠尾草全草有列、果實種子未確認；褐藻、墨角藻與焦磷酸鐵有列。田紫草油與蠶豆胜肽這次沒查到。",
@@ -8264,6 +9185,193 @@ window.INGREDIENT_CATALOG = {
     {
       "discovery": {
         "channel": "exhibition",
+        "notes": "從 SupplySide Global 2026 展前記者的 BGG 攤位進入 ApplePhenon，再對 BGG 產品頁、2010 年論文與 US6855352B2。台灣關聯用 ApplePhenon、蘋果多酚、Malus pumila 搭配台灣、代理、經銷，打開仕琦產品頁與商標頁。",
+        "scoutDate": "2026-11-14"
+      },
+      "efficacy": {
+        "claimedBenefits": [
+          "BGG 產品頁：未成熟青蘋果萃取，規格寫 60% 原花青素（UV），並寫每日 600 mg、12 週可對應內臟脂肪。這是供應商頁的說法。",
+          "J Oleo Sci 2010（PMID 20484838）：飲料中的蘋果多酚用的是 Applephenon（當時寫 Asahi Food and Healthcare）。長期試驗 94 人，每日 600 mg、12 週。蘋果多酚組的內臟脂肪面積在第 8 週與第 12 週低於自己的起點，和安慰劑的變化量在這兩週也有差異。起始內臟脂肪面積 100 cm² 以上的分層有下降，未達 100 cm² 的分層沒有顯著變化。"
+        ],
+        "dosageNote": "這是供應商頁與 2010 年試驗的劑量，不是台灣法規上限。蘋果果實那一筆沒有每日毫克。2010 年試驗的供應者寫 Asahi，現在銷售頁是 BGG。",
+        "suggestedDosage": "產品頁與上述試驗都是每日 600 mg。試驗是 340 g 飲料裡含 600 mg。"
+      },
+      "evidenceLevels": [
+        "clinical"
+      ],
+      "example": false,
+      "id": "applephenon",
+      "images": [
+        {
+          "caption": "BGG 官網 ApplePhenon 頁的青蘋果圖。",
+          "localPath": "",
+          "source": "official_site",
+          "url": "https://bggworld.com/wp-content/uploads/2023/09/ApplePhenon.png"
+        }
+      ],
+      "literature": {
+        "note": "已讀 PubMed 與 J-STAGE 頁上的摘要。摘要寫內臟脂肪有組間差異，沒有寫體重下降的公斤數。",
+        "refs": [
+          {
+            "note": "Akazome 等，J Oleo Sci，2010。PMID 20484838。Applephenon，每日 600 mg，94 人、12 週，另有 30 人的過量 4 週試驗。",
+            "title": "Evaluation of Safety of Excessive Intake and Efficacy of Long-term Intake of Beverages Containing Apple Polyphenols",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20484838/"
+          }
+        ],
+        "status": "yes"
+      },
+      "names": {
+        "commonEn": "unripe apple polyphenol extract",
+        "commonZh": "未成熟蘋果多酚萃取物",
+        "scientific": "Malus pumila Mill.（未成熟青蘋果果實。不是蘋果幹細胞，也不是星蘋果。）",
+        "trade": "ApplePhenon（BGG 銷售的蘋果多酚商品名；台灣商標權人登記為 BGG Japan）"
+      },
+      "patent": {
+        "note": "產品頁另寫有 5 件國際專利，沒有給號碼。這次只打開 US6855352B2。",
+        "refs": [
+          {
+            "note": "2018-11-06 受讓人改為 BGG Japan Co., Ltd.。文本寫的是海棠果、野蘋果的多酚製程。BGG 產品頁寫 ApplePhenon 有專利，但沒有在該頁列出這個號碼，也沒有寫原料是海棠果。不把兩件事併成同一件規格。",
+            "title": "US6855352B2 - Wild apple polyphenol and process for producing the same",
+            "url": "https://patents.google.com/patent/US6855352B2/en"
+          }
+        ],
+        "status": "yes"
+      },
+      "sources": [
+        {
+          "accessed": "2026-11-14",
+          "channel": "exhibition",
+          "publisher": "NutraIngredients",
+          "title": "SupplySide Global 2026: What's happening on the show floor",
+          "url": "https://www.nutraingredients.com/Article/2026/10/14/supplyside-global-2026-whats-happening-on-the-show-floor/",
+          "whatItContributes": "2026-10-14：BGG 攤位 2937 會以體重管理飲品概念展示 ApplePhenon。"
+        },
+        {
+          "accessed": "2026-11-14",
+          "channel": "supplier_site",
+          "publisher": "BGG",
+          "title": "ApplePhenon Apple Polyphenols",
+          "url": "https://bggworld.com/applephenon-apple-polyphenols/",
+          "whatItContributes": "來源寫青蘋果 Malus pumila Mill.，60% 原花青素，每日 600 mg 的內臟脂肪說法。"
+        },
+        {
+          "accessed": "2026-11-14",
+          "channel": "paper",
+          "publisher": "Journal of Oleo Science",
+          "title": "PMID 20484838",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/20484838/",
+          "whatItContributes": "Applephenon 每日 600 mg、12 週的內臟脂肪試驗摘要。"
+        },
+        {
+          "accessed": "2026-11-14",
+          "channel": "patent",
+          "publisher": "Google Patents",
+          "title": "US6855352B2",
+          "url": "https://patents.google.com/patent/US6855352B2/en",
+          "whatItContributes": "2018 年轉給 BGG Japan 的野蘋果多酚製程專利。"
+        },
+        {
+          "accessed": "2026-11-14",
+          "channel": "other",
+          "publisher": "仕琦",
+          "title": "蘋果抽出物 Applephenon",
+          "url": "https://www.skyrich.com.tw/product.php?act=view&no=95",
+          "whatItContributes": "台灣頁列出這個商品名。網站標題自述代理銷售，頁內沒有寫獨家。"
+        },
+        {
+          "accessed": "2026-11-14",
+          "channel": "other",
+          "publisher": "經濟部智慧財產局公開資料轉載頁",
+          "title": "APPLEPHENON 商標",
+          "url": "https://www.findcompany.com.tw/trademark/00820432_086053156",
+          "whatItContributes": "商標權人為 BGG Japan Co., Ltd.，登記地址日本。類別是香料，不是原料代理契約。"
+        }
+      ],
+      "supply": {
+        "relationship": "taiwan_agent",
+        "relationshipNote": "仕琦產品頁列出「蘋果抽出物 Applephenon」。網站標題自述「代理銷售全球頂尖供應商機能性保健素材」。該頁沒有寫獨家，也沒有點名 BGG。BGG 產品頁這次沒有看到經銷名單，不升格為原廠證實。台灣商標 APPLEPHENON 的權利人是 BGG Japan Co., Ltd.。唯創生技的化粧品原料頁把 Applephenon 寫進 INCI，不是這筆保健原料的代理頁。查核日 2026-11-14。",
+        "supplierCountry": "日本",
+        "supplierName": "BGG",
+        "taiwanPartyName": "仕琦（Sky Rich）"
+      },
+      "tfda": {
+        "evidenceNotes": "Malus pumila 對到蘋果果實 1 筆，可供食品使用，備註空白。中文「蘋果」還會帶進星蘋果、蘋果纖維的舉例、蘋果薄荷，以及未確認的蘋果幹細胞。蘋果幹細胞是 Malus domestica 的細胞培養，不是未成熟果實萃取。添加物裡含「蘋果」的是蘋果酸鹽和蠟的使用範圍，不是這個多酚。",
+        "lookupDate": "2026-11-14",
+        "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+        "officialCrosscheck": {
+          "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+          "done": true,
+          "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+          "notes": "2026-11-14 消費者專區 HTTP 為 502，HTTPS 沒有取得頁首。另下載開放資料 InfoId 4：蘋果果實為可供食品使用；蘋果幹細胞為未確認。與查詢助手一致。"
+        },
+        "queries": [
+          {
+            "category": "",
+            "keyword": "Malus pumila",
+            "matchedName": "蘋果",
+            "note": "開放資料 InfoId 4 同一筆。",
+            "restrictionNote": "可供食品使用。學名 Malus sylvestris Mill.、Malus pumila Mill.。部位果實。備註空白。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "蘋果",
+            "matchedName": "蘋果",
+            "note": "未確認的是蘋果薄荷與蘋果幹細胞，不是 Malus pumila 果實。",
+            "restrictionNote": "蘋果果實如上。另外：星蘋果是 Chrysophyllum cainito；膳食纖維的備註把蘋果纖維當名稱舉例；蘋果薄荷與蘋果幹細胞列在未確認。",
+            "resultCount": 5,
+            "tab": "ingredient",
+            "unconfirmedSafety": true
+          },
+          {
+            "category": "",
+            "keyword": "ApplePhenon",
+            "matchedName": "",
+            "note": "商品名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "蘋果",
+            "matchedName": "蘋果酸鈣",
+            "note": "關鍵字會命中「蘋果酸」。Malus pumila 在添加物是 0 筆。",
+            "restrictionNote": "抽看為蘋果酸鹽等營養添加劑，以及棕櫚蠟可用於蘋果等水果表面。不是蘋果多酚。",
+            "resultCount": 10,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Malus pumila",
+            "matchedName": "",
+            "note": "學名在添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "蘋果",
+            "matchedName": "",
+            "note": "助手更新歷程（11/01–11/13）沒有這筆異動。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "history",
+            "unconfirmedSafety": false
+          }
+        ],
+        "usable": "listed_food_ingredient"
+      }
+    },
+    {
+      "discovery": {
+        "channel": "exhibition",
         "notes": "從 Solabia 的 Vitafoods Asia 2026 攤位頁與 NutraIngredients 展前記看到 BrainBerry，再打開產品頁與 2020 年 PMC 全文，並用 Google Patents 核對 BioActor 的美國專利。TFDA 對的是果實列名，不是商品名。",
         "scoutDate": "2026-11-05"
       },
@@ -8792,6 +9900,179 @@ window.INGREDIENT_CATALOG = {
     },
     {
       "discovery": {
+        "channel": "industry_report",
+        "notes": "從 NutraIngredients 2026-11-11 運動營養整理裡的酸櫻桃段落進入，再對到有商品名試驗的 CherryPURE、Shoreline 產品頁與 JISSN 2015。台灣關聯用 CherryPURE、酸櫻桃、Shoreline、tart cherry 搭配台灣、代理、經銷，打開恒宜與宸品兩頁。",
+        "scoutDate": "2026-11-14"
+      },
+      "efficacy": {
+        "claimedBenefits": [
+          "NutraIngredients 2026-11-11 的運動營養科學整理：回顧裡，酸櫻桃對劇烈運動後肌力恢復的證據在所比較的食物中較多，但各試驗並不一致。這段沒有點名 CherryPURE。",
+          "JISSN 2015：23 名有阻力訓練的男性，CherryPURE 每日 480 mg 或安慰劑，運動前 7 日、當天與之後 2 日。和安慰劑相比，酸櫻桃組的股外側肌酸痛較低，肌酸酐與總蛋白的變化較小。發炎指標與抗氧化能力指標沒有顯著的補充效應。"
+        ],
+        "dosageNote": "480 mg 是 2015 年試驗的劑量，不是供應商頁上的建議，也不是台灣法規上限。果實那一筆沒有每日毫克。",
+        "suggestedDosage": "上述試驗是每日 480 mg，共 10 日。Shoreline 這次打開的產品頁沒有寫每日建議毫克。恒宜頁寫 1 kg 粉等於 50 kg 櫻桃，也沒有每日劑量。"
+      },
+      "evidenceLevels": [
+        "clinical"
+      ],
+      "example": false,
+      "id": "cherrypure",
+      "images": [
+        {
+          "caption": "Shoreline Fruit 官網 CherryPURE 產品頁的酸櫻桃照片。",
+          "localPath": "",
+          "source": "official_site",
+          "url": "https://cdn.prod.website-files.com/683dac133311d87f89c021a6/68c1750deb6604ef90e4651c_og-cherry-powder.jpg"
+        }
+      ],
+      "literature": {
+        "note": "已讀這篇的摘要與補充方法。2026-11-11 的產業整理說酸櫻桃的恢復證據並不一致，所以這一篇不寫成所有酸櫻桃試驗的共同結論。",
+        "refs": [
+          {
+            "note": "Levers 等，JISSN，2015。受試物寫 CherryPURE，Shoreline Fruit。每日 480 mg。論文一處把城市寫成 Transverse City。",
+            "title": "Effects of powdered Montmorency tart cherry supplementation on an acute bout of intense lower body strength exercise in resistance trained males",
+            "url": "https://link.springer.com/article/10.1186/s12970-015-0102-y"
+          }
+        ],
+        "status": "yes"
+      },
+      "names": {
+        "commonEn": "Montmorency tart cherry skin powder",
+        "commonZh": "蒙莫朗西酸櫻桃果皮粉",
+        "scientific": "Prunus cerasus L.（蒙莫朗西品種。產品頁寫榨汁後的果皮再凍乾。不是甜櫻桃。）",
+        "trade": "CherryPURE（Shoreline Fruit 的酸櫻桃凍乾粉商品名）"
+      },
+      "patent": {
+        "note": "Shoreline 產品頁寫有專有加工，沒有給專利號。商標 CHERRYPURE 不是專利。這次沒有打開對得上這個粉末的專利全文，不填成無。",
+        "refs": [],
+        "status": "unknown"
+      },
+      "sources": [
+        {
+          "accessed": "2026-11-14",
+          "channel": "industry_report",
+          "publisher": "NutraIngredients",
+          "title": "Catching up with sports nutrition supplements: A roundup of the latest science",
+          "url": "https://www.nutraingredients.com/Article/2026/11/11/catching-up-with-sports-nutrition-supplement-science/",
+          "whatItContributes": "2026-11-11：多酚與運動的整理指出酸櫻桃對肌力恢復的證據較多，但試驗之間不一致。未點名商品。"
+        },
+        {
+          "accessed": "2026-11-14",
+          "channel": "supplier_site",
+          "publisher": "Shoreline Fruit",
+          "title": "Nutraceutical Cherry Powder",
+          "url": "https://www.shorelinefruit.com/products/nutraceutical-cherry-powder",
+          "whatItContributes": "美國果農公司的 CherryPURE，原料是蒙莫朗西酸櫻桃，寫專有加工、不含人工填充。"
+        },
+        {
+          "accessed": "2026-11-14",
+          "channel": "paper",
+          "publisher": "Journal of the International Society of Sports Nutrition",
+          "title": "JISSN 2015, 10.1186/s12970-015-0102-y",
+          "url": "https://link.springer.com/article/10.1186/s12970-015-0102-y",
+          "whatItContributes": "每日 480 mg、10 日的阻力運動酸痛試驗，受試物寫 CherryPURE 果皮粉。"
+        },
+        {
+          "accessed": "2026-11-14",
+          "channel": "other",
+          "publisher": "恒宜生技",
+          "title": "CherryPURE 酸櫻桃凍乾粉",
+          "url": "https://www.hengyi-bio.com.tw/products-detail/113__2/",
+          "whatItContributes": "台灣原料頁列出商品名、美國產地與前花青素至少 3%。沒有寫代理。"
+        },
+        {
+          "accessed": "2026-11-14",
+          "channel": "other",
+          "publisher": "宸品",
+          "title": "宸品原料 CherryPURE 櫻桃凍乾粉",
+          "url": "https://www.champion-bio.com/tw/product-detail/cherry_powder/",
+          "whatItContributes": "另一個台灣原料頁列出同一商品名，並介紹 Anderson Advanced Ingredients。沒有寫代理。"
+        }
+      ],
+      "supply": {
+        "relationship": "unknown",
+        "relationshipNote": "恒宜生技產品頁列出 CherryPURE 酸櫻桃凍乾粉，產地寫美國，前花青素規格寫至少 3%，並寫 1 kg 粉等於 50 kg 櫻桃。頁上沒有「代理」或「經銷」，也沒有寫 Shoreline。宸品產品頁同樣列出 CherryPURE，並在同頁介紹美國 Anderson Advanced Ingredients，沒有寫自己是 Shoreline 或 Anderson 的代理。Shoreline 產品頁沒有經銷名單。兩家都是原料頁有這個商品名，關係不升格。查核日 2026-11-14。恒宜頁寫「萃取」，Shoreline 頁寫果皮凍乾粉，用詞不同，不自行判定是不是同一規格。",
+        "supplierCountry": "美國",
+        "supplierName": "Shoreline Fruit",
+        "taiwanPartyName": "恒宜生技；宸品"
+      },
+      "tfda": {
+        "evidenceNotes": "酸櫻桃果實（Prunus cerasus）1 筆，可供食品使用，備註空白。商品名 CherryPURE 0 筆。添加物 0 筆。Shoreline 寫的是榨汁後果皮的凍乾粉，平台列的部位是果實，沒有把果皮另列成未確認。",
+        "lookupDate": "2026-11-14",
+        "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+        "officialCrosscheck": {
+          "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+          "done": true,
+          "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+          "notes": "2026-11-14 消費者專區 HTTP 為 502，HTTPS 沒有取得頁首。另下載開放資料 InfoId 4：酸櫻桃，Prunus cerasus L.，部位果實，可供食品使用。與查詢助手一致。"
+        },
+        "queries": [
+          {
+            "category": "",
+            "keyword": "酸櫻桃",
+            "matchedName": "酸櫻桃；歐洲酸櫻桃",
+            "note": "開放資料 InfoId 4 同一筆。",
+            "restrictionNote": "可供食品使用。學名 Prunus cerasus L.、Cerasus vulgaris。部位果實。備註空白。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Prunus cerasus",
+            "matchedName": "酸櫻桃；歐洲酸櫻桃",
+            "note": "與中文名稱同一筆。",
+            "restrictionNote": "部位果實。備註空白。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "CherryPURE",
+            "matchedName": "",
+            "note": "商品名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "酸櫻桃",
+            "matchedName": "",
+            "note": "添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Prunus cerasus",
+            "matchedName": "",
+            "note": "學名在添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "酸櫻桃",
+            "matchedName": "",
+            "note": "助手更新歷程（11/01–11/13）沒有這筆異動。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "history",
+            "unconfirmedSafety": false
+          }
+        ],
+        "usable": "listed_food_ingredient"
+      }
+    },
+    {
+      "discovery": {
         "channel": "exhibition",
         "notes": "從 NutraIngredients 2026-10-14 SupplySide Global 展場預告的 Kyowa Hakko 攤位進入，再對協和產品頁、Cognizin 專利新聞、兩篇人體試驗。台灣關聯打開 heal.com.tw 成品頁與亨元首頁；前者是成品自述，後者沒有這個商品名。",
         "scoutDate": "2026-11-12"
@@ -8981,6 +10262,179 @@ window.INGREDIENT_CATALOG = {
           }
         ],
         "usable": "not_found"
+      }
+    },
+    {
+      "discovery": {
+        "channel": "news",
+        "notes": "從 Nutraceuticals World 2026-02-09 的 50:1 新聞進入，再對 Fruit d'Or 的規格頁、系列頁與 FDA 2020 年函。台灣關聯用商品名與蔓越莓搭配代理、經銷，並打開荃新頁；沒有看到這個商品名。",
+        "scoutDate": "2026-11-14"
+      },
+      "efficacy": {
+        "claimedBenefits": [
+          "Nutraceuticals World 2026-02-09：Fruit d'Or 說 TotalPAC 的 50:1 新規格保證 7.2% 原花青素，500 mg 含 36 mg，並寫有對尿道致病性大腸桿菌抗黏附的臨床驗證，以及可對應美國 FDA qualified health claim 的資格。這是公司經由新聞說的。",
+          "美國 FDA 2020-07-21 函：對每日至少 500 mg、100% 果實的蔓越莓膳食補充品，只給有限度的科學證據，可在執法裁量下使用降低健康女性再發泌尿道感染風險的限定語句。不是一般性的核准宣稱，也不含果汁以外的一般食品。"
+        ],
+        "dosageNote": "500 mg 來自供應商規格與美國 FDA 的限定健康聲稱條件，不是台灣法規上限。果實那一筆沒有每日毫克。",
+        "suggestedDosage": "新聞與原廠規格把 500 mg 粉對到至少 36 mg 原花青素。FDA 2020 年函寫的補充品條件是每日至少 500 mg 蔓越莓果實粉。"
+      },
+      "evidenceLevels": [
+        "clinical"
+      ],
+      "example": false,
+      "id": "cran-dor",
+      "images": [
+        {
+          "caption": "Fruit d'Or 官網 Cran d'Or TotalPAC 50:1 介紹頁的蔓越莓與粉末圖。",
+          "localPath": "",
+          "source": "official_site",
+          "url": "https://nutra.fruitdor.ca/wp-content/uploads/2026/02/FDO_NPew_Blogue_880_Header.png"
+        }
+      ],
+      "literature": {
+        "note": "新聞說的抗黏附試驗這次沒有另開到全文，所以不把那句寫成已讀的論文結果。",
+        "refs": [
+          {
+            "note": "2020-07-21。FDA 寫補充品的人體證據有限。不是 Cran d'Or 這個商品名的試驗。",
+            "title": "FDA Announces Qualified Health Claim for Certain Cranberry Products and Urinary Tract Infections",
+            "url": "https://www.fda.gov/food/hfp-constituent-updates/fda-announces-qualified-health-claim-certain-cranberry-products-and-urinary-tract-infections"
+          }
+        ],
+        "status": "yes"
+      },
+      "names": {
+        "commonEn": "cranberry fruit powder",
+        "commonZh": "蔓越莓果實粉",
+        "scientific": "Vaccinium macrocarpon（果實粉。不是種子油，也不是山桑子 Vaccinium myrtillus。）",
+        "trade": "Cran d'Or TotalPAC（Fruit d'Or 的蔓越莓粉商品名；2026-02-09 新聞寫新增 50:1 規格）"
+      },
+      "patent": {
+        "note": "新聞與原廠頁寫全程自種自製，沒有給專利號。這次沒有打開對得上 Cran d'Or 的專利，不填成無。",
+        "refs": [],
+        "status": "unknown"
+      },
+      "sources": [
+        {
+          "accessed": "2026-11-14",
+          "channel": "news",
+          "publisher": "Nutraceuticals World",
+          "title": "Fruit d'Or Launches 50:1 Fruit Ratio Option for Flagship Cranberry Ingredient",
+          "url": "https://www.nutraceuticalsworld.com/breaking-news/fruit-dor-launches-501-fruit-ratio-option-for-flagship-cranberry-ingredient/",
+          "whatItContributes": "2026-02-09：TotalPAC 新增 50:1，7.2% 原花青素，500 mg 含 36 mg。"
+        },
+        {
+          "accessed": "2026-11-14",
+          "channel": "supplier_site",
+          "publisher": "Fruit d'Or",
+          "title": "Better Cranberry Performance: Expanding Cran d'Or TotalPAC with a New 50:1 Option",
+          "url": "https://nutra.fruitdor.ca/products/cran-dor-totalpac-new-50-1-option",
+          "whatItContributes": "原廠說明 50:1 是既有 TotalPAC 的新規格，原花青素規格不變，原料由自家田區到加工。"
+        },
+        {
+          "accessed": "2026-11-14",
+          "channel": "supplier_site",
+          "publisher": "Fruit d'Or",
+          "title": "Cran d'Or range",
+          "url": "https://nutra.fruitdor.ca/crandor",
+          "whatItContributes": "系列頁：TotalPAC 保證 7.2% 可溶與不可溶原花青素；Complete 那一列另寫 4% 與製造比 50:1。與新聞把 50:1 放在 TotalPAC 並陳。"
+        },
+        {
+          "accessed": "2026-11-14",
+          "channel": "other",
+          "publisher": "U.S. FDA",
+          "title": "FDA constituent update, July 21, 2020",
+          "url": "https://www.fda.gov/food/hfp-constituent-updates/fda-announces-qualified-health-claim-certain-cranberry-products-and-urinary-tract-infections",
+          "whatItContributes": "每日至少 500 mg 蔓越莓果實粉的限定健康聲稱，證據程度寫的是有限。"
+        },
+        {
+          "accessed": "2026-11-14",
+          "channel": "other",
+          "publisher": "荃新",
+          "title": "Cranberry Powder 蔓越莓粉",
+          "url": "https://newin.com.tw/materials02/1932/",
+          "whatItContributes": "台灣原料頁的蔓越莓果實粉，10:1。頁上沒有 Cran d'Or 或 Fruit d'Or。"
+        }
+      ],
+      "supply": {
+        "relationship": "unknown",
+        "relationshipNote": "2026-11-14 以 Cran d'Or、Cran dOr、TotalPAC、Fruit d'Or、蔓越莓、Vaccinium macrocarpon 搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商各查一輪，發布前再用商品名與「台灣 代理」複查。打開的荃新蔓越莓粉頁是 10:1 果實粉，沒有 Fruit d'Or 或 Cran d'Or。檢索另出現聖馥欣的蔓越莓粉與香港 Topstars 寫 Fruit d'Or，這兩頁沒有打開，不把摘要當成台灣代理。原廠頁寫原料來自加拿大田區，沒有台灣經銷名單。",
+        "supplierCountry": "加拿大",
+        "supplierName": "Fruit d'Or",
+        "taiwanPartyName": "本次查無台灣關聯廠商"
+      },
+      "tfda": {
+        "evidenceNotes": "蔓越莓果實（Vaccinium macrocarpon、Vaccinium oxycoccos）1 筆，可供食品使用，備註空白。同一中文關鍵字另有蔓越莓種子油，那是種子油脂，不是這個果粉。商品名 0 筆。添加物 0 筆。列名不是美國 qualified health claim，也不是 500 mg 的法規上限。",
+        "lookupDate": "2026-11-14",
+        "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+        "officialCrosscheck": {
+          "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+          "done": true,
+          "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+          "notes": "2026-11-14 消費者專區 HTTP 為 502，HTTPS 沒有取得頁首。另下載開放資料 InfoId 4：蔓越莓果實與蔓越莓種子油都在可供食品使用。與查詢助手一致。"
+        },
+        "queries": [
+          {
+            "category": "",
+            "keyword": "蔓越莓",
+            "matchedName": "蔓越莓；越橘",
+            "note": "兩筆都是可供使用。本品對的是果實，不是種子油。",
+            "restrictionNote": "果實：可供食品使用，備註空白。種子油：由種子製取，經良好製程加工及品管所得之油脂。",
+            "resultCount": 2,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Vaccinium macrocarpon",
+            "matchedName": "蔓越莓；越橘",
+            "note": "與中文關鍵字同一組兩筆。",
+            "restrictionNote": "同上。果實那一筆的學名還並列 Vaccinium oxycoccos。",
+            "resultCount": 2,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Cran d'Or",
+            "matchedName": "",
+            "note": "商品名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "蔓越莓",
+            "matchedName": "",
+            "note": "添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Vaccinium macrocarpon",
+            "matchedName": "",
+            "note": "學名在添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "蔓越莓",
+            "matchedName": "",
+            "note": "助手更新歷程（11/01–11/13）沒有這筆異動。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "history",
+            "unconfirmedSafety": false
+          }
+        ],
+        "usable": "listed_food_ingredient"
       }
     },
     {
@@ -9495,6 +10949,201 @@ window.INGREDIENT_CATALOG = {
             "keyword": "猴頭菇",
             "matchedName": "",
             "note": "助手更新歷程（11/01–11/10）沒有這筆異動。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "history",
+            "unconfirmedSafety": false
+          }
+        ],
+        "usable": "listed_food_ingredient"
+      }
+    },
+    {
+      "discovery": {
+        "channel": "exhibition",
+        "notes": "從 Vitafoods Asia 2026 展前名錄的 Natural Remedies 攤位進入 Holixer，再對原廠頁、2022 年論文與 WO2023203401A1。台灣關聯以 Holixer、樂舒寧、聖羅勒搭配代理、經銷；官網當天打不開，改開 Wayback 2025-02-09 的麥司克頁。",
+        "scoutDate": "2026-11-14"
+      },
+      "efficacy": {
+        "claimedBenefits": [
+          "Natural Remedies 官網：標準化到至少 5% Ocimum Bioactive Complex，每日 250 mg，並寫可對應壓力與睡眠。頁上另寫睡眠品質改善 50%、睡眠干擾減少 95%、入睡加快 60%、頭髮皮質醇減少 66%。這些百分比不在下面這篇 2022 年論文的結論裡。",
+          "Frontiers in Nutrition 2022：100 名有壓力與睡眠問題的成人，Holixer 每日 250 mg（125 mg、一日兩次）或安慰劑，8 週。自覺壓力分數下降 37%，安慰劑下降 19%。雅典失眠量表分數下降 48%，安慰劑下降 27%。新長出的頭髮皮質醇，萃取組 269.68 pg/50 mg、安慰劑組 789.89 pg/50 mg。手腕睡眠紀錄的組間差異沒有達到顯著。"
+        ],
+        "dosageNote": "這是供應商頁與該篇試驗的劑量，不是台灣法規上限。聖羅勒葉那一筆沒有每日毫克。",
+        "suggestedDosage": "官網與 2022 年論文都是每日 250 mg。論文的膠囊是每顆 62.5 mg，一日兩次、每次 2 顆。"
+      },
+      "evidenceLevels": [
+        "clinical"
+      ],
+      "example": false,
+      "id": "holixer",
+      "images": [
+        {
+          "caption": "Natural Remedies 官網 Holixer 頁的主視覺。",
+          "localPath": "",
+          "source": "official_site",
+          "url": "https://cdn.prod.website-files.com/6a0d43b82a41cfe209379fdd/6aab2146692e6bf4654122f8_holixer-07.webp"
+        }
+      ],
+      "literature": {
+        "note": "已讀這篇全文的方法與結果段。官網另一組較高的睡眠百分比沒有在這篇裡看到，不併成同一筆數字。",
+        "refs": [
+          {
+            "note": "Frontiers in Nutrition，2022。PMC9524226。每日 250 mg、8 週。自覺壓力與失眠分數有組間差異；手腕睡眠效率的組間差異不顯著。",
+            "title": "A randomized, double-blind, placebo-controlled trial investigating the effects of an Ocimum tenuiflorum (Holy Basil) extract (Holixer) on stress, mood, and sleep",
+            "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9524226/"
+          }
+        ],
+        "status": "yes"
+      },
+      "names": {
+        "commonEn": "holy basil leaf extract",
+        "commonZh": "聖羅勒葉萃取物",
+        "scientific": "Ocimum tenuiflorum（亦寫 Ocimum sanctum。論文寫富含葉的地上部。不是羅勒 Ocimum basilicum，也不是未確認的灰羅勒 Ocimum americanum。）",
+        "trade": "Holixer（Natural Remedies 的聖羅勒萃取商品名；麥司克頁寫樂舒寧）"
+      },
+      "patent": {
+        "note": "成分組合與官網列出的 OBC 對得上。沒有把這件寫成已核准的台灣專利。",
+        "refs": [
+          {
+            "note": "組成寫 rabdosiin、迷迭香酸、木犀草素葡萄糖醛酸苷、芹菜素葡萄糖醛酸苷與 ociglycoside I，且不含齊墩果酸與熊果酸。2022 年論文把 Holixer 寫成 patent-pending 202241023540。這次打開的專利頁首沒有留下申請人姓名。",
+            "title": "WO2023203401A1 - A low-dose phytochemical composition of ocimum tenuiflorum",
+            "url": "https://patents.google.com/patent/WO2023203401A1/en"
+          }
+        ],
+        "status": "yes"
+      },
+      "sources": [
+        {
+          "accessed": "2026-11-14",
+          "channel": "exhibition",
+          "publisher": "NutraIngredients",
+          "title": "Vitafoods Asia 2026 show floor preview: Exhibitors H-P",
+          "url": "https://www.nutraingredients.com/Article/2026/08/25/vitafoods-asia-2026-show-floor-preview-exhibitors-h-p/",
+          "whatItContributes": "2026-08-25 展前整理：Natural Remedies 攤位 H6-L01 會展示 Holixer，並寫有睡眠相關的人體資料。"
+        },
+        {
+          "accessed": "2026-11-14",
+          "channel": "supplier_site",
+          "publisher": "Natural Remedies",
+          "title": "Holixer product page",
+          "url": "https://www.naturalremedieshumanhealth.com/holixer",
+          "whatItContributes": "至少 5% OBC、每日 250 mg，以及頁上另列的睡眠百分比。"
+        },
+        {
+          "accessed": "2026-11-14",
+          "channel": "supplier_site",
+          "publisher": "Natural Remedies",
+          "title": "Natural Remedies company page",
+          "url": "https://naturalremedieshumanhealth.com/",
+          "whatItContributes": "印度班加羅爾地址，以及美國公司地址。沒有台灣據點。"
+        },
+        {
+          "accessed": "2026-11-14",
+          "channel": "paper",
+          "publisher": "Frontiers in Nutrition",
+          "title": "PMC9524226",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9524226/",
+          "whatItContributes": "8 週、每日 250 mg 的壓力與睡眠試驗，以及萃取來自富含葉的地上部。"
+        },
+        {
+          "accessed": "2026-11-14",
+          "channel": "patent",
+          "publisher": "Google Patents",
+          "title": "WO2023203401A1",
+          "url": "https://patents.google.com/patent/WO2023203401A1/en",
+          "whatItContributes": "聖羅勒低劑量組成的公開文本。"
+        },
+        {
+          "accessed": "2026-11-14",
+          "channel": "news",
+          "publisher": "NutraIngredients",
+          "title": "Natural Remedies adds Holixer holy basil to botanicals portfolio",
+          "url": "https://www.nutraingredients.com/Article/2022/10/05/Natural-Remedies-adds-Holixer-holy-basil-to-botanicals-portfolio/",
+          "whatItContributes": "2022-10-05：北美洲獨家經銷寫的是 AIDP。不是台灣。"
+        },
+        {
+          "accessed": "2026-11-14",
+          "channel": "other",
+          "publisher": "麥司克股份有限公司（Internet Archive 擷取）",
+          "title": "Wayback 2025-02-09：HOLIXER 樂舒寧",
+          "url": "https://web.archive.org/web/20250209022809/https://www.maxcarecorp.com/%E6%A8%82%E8%88%92%E5%AF%A7",
+          "whatItContributes": "當天官網打不開。這份 2025-02-09 擷取的頁標題是樂舒寧，簡介寫獨家技術；同站結構化資料自述代理的素材。"
+        }
+      ],
+      "supply": {
+        "relationship": "taiwan_agent",
+        "relationshipNote": "2026-11-14 官網連線逾時。Wayback 2025-02-09 的擷取打得開：首頁結構化資料自述「代理的素材」。Holixer 頁標題是樂舒寧，簡介寫「獨家技術取得之聖羅勒萃取」，這句是技術，不是獨家代理。原廠頁沒有點名麥司克。北美洲獨家經銷在 2022 年新聞寫的是 AIDP。不升格為原廠證實或獨家。該擷取之後有沒有改，這次沒核到。查核日 2026-11-14。",
+        "supplierCountry": "印度",
+        "supplierName": "Natural Remedies",
+        "taiwanPartyName": "麥司克股份有限公司"
+      },
+      "tfda": {
+        "evidenceNotes": "聖羅勒葉（Ocimum sanctum、Ocimum tenuiflorum）1 筆，可供食品使用，備註空白。商品名 Holixer 0 筆。添加物用聖羅勒與學名都是 0 筆。灰羅勒是另一個未確認的種。論文寫萃取來自富含葉的地上部，平台列的部位是葉。",
+        "lookupDate": "2026-11-14",
+        "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+        "officialCrosscheck": {
+          "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+          "done": true,
+          "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+          "notes": "2026-11-14 消費者專區 HTTP 為 502，HTTPS 沒有取得頁首。另下載開放資料 InfoId 4：聖羅勒，學名 Ocimum sanctum、Ocimum tenuiflorum，部位葉，可供食品使用。與查詢助手一致。"
+        },
+        "queries": [
+          {
+            "category": "",
+            "keyword": "聖羅勒",
+            "matchedName": "聖羅勒",
+            "note": "學名寫 Ocimum sanctum、Ocimum tenuiflorum。開放資料 InfoId 4 同一筆。",
+            "restrictionNote": "可供食品使用。部位葉。備註空白。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Ocimum tenuiflorum",
+            "matchedName": "聖羅勒",
+            "note": "與中文名稱同一筆。",
+            "restrictionNote": "部位葉。備註空白。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Holixer",
+            "matchedName": "",
+            "note": "商品名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "聖羅勒",
+            "matchedName": "",
+            "note": "添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Ocimum tenuiflorum",
+            "matchedName": "",
+            "note": "學名在添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "聖羅勒",
+            "matchedName": "",
+            "note": "助手更新歷程（11/01–11/13）沒有這筆異動。",
             "restrictionNote": "",
             "resultCount": 0,
             "tab": "history",
@@ -12739,6 +14388,185 @@ window.INGREDIENT_CATALOG = {
             "keyword": "仙人掌",
             "matchedName": "",
             "note": "助手更新歷程（11/01–11/11）沒有這筆異動。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "history",
+            "unconfirmedSafety": false
+          }
+        ],
+        "usable": "listed_food_ingredient"
+      }
+    },
+    {
+      "discovery": {
+        "channel": "news",
+        "notes": "從 NutraIngredients 2026-09-16 獲獎新聞進入，再對 Puredia 產品頁、2023 年論文與 2008 年 Yang 論文。台灣關聯用 Omegia、可麗妍、沙棘油搭配代理、經銷；官網當天打不開，改開 Wayback 2025-02-09 的麥司克目錄。",
+        "scoutDate": "2026-11-14"
+      },
+      "efficacy": {
+        "claimedBenefits": [
+          "NutraIngredients 2026-09-16：Puredia 說 Omegia 是沙棘果與種子油，標準化到 omega-7 至少 30%，並含 omega-3、6、9、β-胡蘿蔔素、維生素 E 與植物固醇。這是供應商經由新聞轉述的說法。",
+          "Puredia 產品頁把皮膚保水增加 49%、彈性增加 26%、皺紋減少 9%，寫成 60 名 50–70 歲女性、口服每日 4 次 500 mg 並併用外用、共 3 個月。2008 年 Yang 論文是口服組與外用組分開，各 30 人，口服為每日 4 顆、每顆 0.5 g，文中沒有 Omegia 這個商品名。兩處並陳。",
+          "2023 年 Journal of Functional Foods 論文的受試物寫 Omegia 軟膠囊。方法一處寫每日 1 顆、每顆 500 mg 沙棘油；同一篇後文又寫每日 1 顆 1 g。12 週的皮膚亮度、水分、彈性百分比以該文表格為準，這裡不把兩種劑量併成一個。"
+        ],
+        "dosageNote": "以上是供應商頁與兩篇研究的劑量，不是台灣法規上限。果實與種子那一筆沒有每日毫克。",
+        "suggestedDosage": "Puredia 產品頁寫油劑建議每日 1–2 g，粉末建議每日 2–4 g。同一頁的更年期段落寫每日 2 次 500 mg、3 個月。2023 年論文方法段同時出現每日 500 mg 與每日 1 g。"
+      },
+      "evidenceLevels": [
+        "clinical"
+      ],
+      "example": false,
+      "id": "omegia",
+      "images": [
+        {
+          "caption": "Puredia 官網 Omegia 產品頁上的商品標誌。",
+          "localPath": "",
+          "source": "official_site",
+          "url": "https://images.squarespace-cdn.com/content/v1/5d4bb44f65e8a500018e870b/1565771100521-EEFH49OTRVU42SWAYLUV/Omegia+Logo.png?format=1500w"
+        }
+      ],
+      "literature": {
+        "note": "已讀 2023 年論文頁與 2008 年 PDF 的方法段。原廠頁的 49%、26%、9% 沒有改寫成 Omegia 本身的試驗結果。",
+        "refs": [
+          {
+            "note": "Journal of Functional Foods，2023。受試物寫 Omegia。40 名 45 歲以上女性，平行分組。劑量在文中有 500 mg 與 1 g 兩種寫法。",
+            "title": "The impact of oral sea-buckthorn oil on skin, blood markers, ocular, and vaginal health: A randomized control trial",
+            "url": "https://doi.org/10.1016/j.jff.2023.105973"
+          },
+          {
+            "note": "Yang 與 Kallio，Journal of Applied Cosmetology，2008。60 名 50–70 歲女性分成口服與外用兩組。沒有寫 Omegia。",
+            "title": "Effects of oral supplementation and topical application of supercritical CO2 extracted sea buckthorn oil on skin ageing of female subjects",
+            "url": "https://www.scicompdf.se/membrasin/yang_bon_2008.pdf"
+          }
+        ],
+        "status": "yes"
+      },
+      "names": {
+        "commonEn": "sea buckthorn fruit and seed oil",
+        "commonZh": "沙棘果與種子油",
+        "scientific": "Hippophae rhamnoides（果實與種子的油。不是葉，也不是琉璃苣或田紫草油。）",
+        "trade": "Omegia（Puredia 的沙棘果與種子油商品名；油劑之外另有粉末規格）"
+      },
+      "patent": {
+        "note": "產品頁寫超臨界二氧化碳萃取，沒有給專利號。這次沒有打開對得上 Omegia 的專利全文，不填成無。",
+        "refs": [],
+        "status": "unknown"
+      },
+      "sources": [
+        {
+          "accessed": "2026-11-14",
+          "channel": "news",
+          "publisher": "NutraIngredients",
+          "title": "Puredia looks to heighten awareness of sea buckthorn for oral beauty amid award win",
+          "url": "https://www.nutraingredients.com/Article/2026/09/16/puredia-looks-to-heighten-awareness-of-sea-buckthorn-for-bfw-on-the-back-of-ni-asia-award/",
+          "whatItContributes": "2026-09-16：Omegia 獲 NutraIngredients-Asia 口服美容原料獎；香港公司；果與籽油；omega-7 至少 30%；超臨界二氧化碳萃取。"
+        },
+        {
+          "accessed": "2026-11-14",
+          "channel": "supplier_site",
+          "publisher": "Puredia",
+          "title": "Omegia product page",
+          "url": "https://www.puredia.com/product/omegia",
+          "whatItContributes": "油劑與粉末規格、建議攝取量，以及香港地址。皮膚百分比的寫法與 2008 年論文不完全相同。"
+        },
+        {
+          "accessed": "2026-11-14",
+          "channel": "paper",
+          "publisher": "Journal of Functional Foods",
+          "title": "Journal of Functional Foods 2023, 10.1016/j.jff.2023.105973",
+          "url": "https://doi.org/10.1016/j.jff.2023.105973",
+          "whatItContributes": "點名 Omegia 軟膠囊的 12 週試驗，以及文內兩種劑量寫法。"
+        },
+        {
+          "accessed": "2026-11-14",
+          "channel": "paper",
+          "publisher": "Journal of Applied Cosmetology",
+          "title": "Yang and Kallio, Journal of Applied Cosmetology, 2008",
+          "url": "https://www.scicompdf.se/membrasin/yang_bon_2008.pdf",
+          "whatItContributes": "沙棘油口服與外用分開的皮膚試驗。沒有商品名 Omegia。"
+        },
+        {
+          "accessed": "2026-11-14",
+          "channel": "other",
+          "publisher": "麥司克股份有限公司（Internet Archive 擷取）",
+          "title": "Wayback 2025-02-09：麥司克美容原料目錄",
+          "url": "https://web.archive.org/web/2026/https://www.maxcarecorp.com/prod/beauty",
+          "whatItContributes": "當天官網打不開。擷取頁的美容原料目錄列出 Omegia 可麗妍。同站自述代理的素材，沒有寫獨家。"
+        }
+      ],
+      "supply": {
+        "relationship": "taiwan_agent",
+        "relationshipNote": "2026-11-14 官網連線逾時。Wayback 2025-02-09 的擷取打得開：首頁結構化資料自述「代理的素材」；美容原料目錄列出 Omegia 可麗妍。產品頁簡介寫「專利沙棘果萃取」，沒有寫獨家代理。Puredia 產品頁地址在香港，沒有點名麥司克。不升格為原廠證實或獨家。該擷取之後有沒有改，這次沒核到。查核日 2026-11-14。",
+        "supplierCountry": "香港",
+        "supplierName": "Puredia",
+        "taiwanPartyName": "麥司克股份有限公司"
+      },
+      "tfda": {
+        "evidenceNotes": "沙棘（Hippophae rhamnoides）有兩筆，都可供食品使用：果實、種子一筆；葉一筆，備註寫果實、種子得供為一般食品原料。Omegia 是果實與種子的油，商品名沒有另列。添加物用沙棘、學名與商品名都是 0 筆。列名不是這瓶油的每日克數上限。",
+        "lookupDate": "2026-11-14",
+        "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+        "officialCrosscheck": {
+          "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+          "done": true,
+          "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+          "notes": "2026-11-14 消費者專區 HTTP 為 502，HTTPS 沒有取得頁首。另下載開放資料 InfoId 4，沙棘、Hippophae rhamnoides L. 的果實與種子、以及葉，都在可供食品使用。與查詢助手一致。添加物筆數用的是助手 2026-11-13 那套資料。"
+        },
+        "queries": [
+          {
+            "category": "",
+            "keyword": "沙棘",
+            "matchedName": "沙棘（黑、黃、白）",
+            "note": "兩筆都不是未確認。本品用的是果實與種子。",
+            "restrictionNote": "果實、種子：可供食品使用，備註空白。葉：可供食品使用，分類是茶包、膳食調理包或萃取後作為原料，備註寫果實、種子得供為一般食品原料。",
+            "resultCount": 2,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Hippophae",
+            "matchedName": "沙棘（黑、黃、白）",
+            "note": "與中文關鍵字同一組兩筆。",
+            "restrictionNote": "同上。學名 Hippophae rhamnoides L.。",
+            "resultCount": 2,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Omegia",
+            "matchedName": "",
+            "note": "商品名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "沙棘",
+            "matchedName": "",
+            "note": "添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Hippophae",
+            "matchedName": "",
+            "note": "學名在添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "沙棘",
+            "matchedName": "",
+            "note": "助手更新歷程（11/01–11/13）沒有這筆異動。",
             "restrictionNote": "",
             "resultCount": 0,
             "tab": "history",

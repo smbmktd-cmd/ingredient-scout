@@ -1,0 +1,195 @@
+{
+  "id": "holixer",
+  "example": false,
+  "names": {
+    "commonZh": "聖羅勒葉萃取物",
+    "commonEn": "holy basil leaf extract",
+    "trade": "Holixer（Natural Remedies 的聖羅勒萃取商品名；麥司克頁寫樂舒寧）",
+    "scientific": "Ocimum tenuiflorum（亦寫 Ocimum sanctum。論文寫富含葉的地上部。不是羅勒 Ocimum basilicum，也不是未確認的灰羅勒 Ocimum americanum。）"
+  },
+  "supply": {
+    "supplierName": "Natural Remedies",
+    "supplierCountry": "印度",
+    "relationship": "taiwan_agent",
+    "taiwanPartyName": "麥司克股份有限公司",
+    "relationshipNote": "2026-11-14 官網連線逾時。Wayback 2025-02-09 的擷取打得開：首頁結構化資料自述「代理的素材」。Holixer 頁標題是樂舒寧，簡介寫「獨家技術取得之聖羅勒萃取」，這句是技術，不是獨家代理。原廠頁沒有點名麥司克。北美洲獨家經銷在 2022 年新聞寫的是 AIDP。不升格為原廠證實或獨家。該擷取之後有沒有改，這次沒核到。查核日 2026-11-14。"
+  },
+  "tfda": {
+    "usable": "listed_food_ingredient",
+    "evidenceNotes": "聖羅勒葉（Ocimum sanctum、Ocimum tenuiflorum）1 筆，可供食品使用，備註空白。商品名 Holixer 0 筆。添加物用聖羅勒與學名都是 0 筆。灰羅勒是另一個未確認的種。論文寫萃取來自富含葉的地上部，平台列的部位是葉。",
+    "lookupDate": "2026-11-14",
+    "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+    "queries": [
+      {
+        "tab": "ingredient",
+        "keyword": "聖羅勒",
+        "category": "",
+        "resultCount": 1,
+        "matchedName": "聖羅勒",
+        "restrictionNote": "可供食品使用。部位葉。備註空白。",
+        "unconfirmedSafety": false,
+        "note": "學名寫 Ocimum sanctum、Ocimum tenuiflorum。開放資料 InfoId 4 同一筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Ocimum tenuiflorum",
+        "category": "",
+        "resultCount": 1,
+        "matchedName": "聖羅勒",
+        "restrictionNote": "部位葉。備註空白。",
+        "unconfirmedSafety": false,
+        "note": "與中文名稱同一筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Holixer",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "聖羅勒",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "添加物 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "Ocimum tenuiflorum",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "學名在添加物 0 筆。"
+      },
+      {
+        "tab": "history",
+        "keyword": "聖羅勒",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "助手更新歷程（11/01–11/13）沒有這筆異動。"
+      }
+    ],
+    "officialCrosscheck": {
+      "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+      "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+      "done": true,
+      "notes": "2026-11-14 消費者專區 HTTP 為 502，HTTPS 沒有取得頁首。另下載開放資料 InfoId 4：聖羅勒，學名 Ocimum sanctum、Ocimum tenuiflorum，部位葉，可供食品使用。與查詢助手一致。"
+    }
+  },
+  "efficacy": {
+    "claimedBenefits": [
+      "Natural Remedies 官網：標準化到至少 5% Ocimum Bioactive Complex，每日 250 mg，並寫可對應壓力與睡眠。頁上另寫睡眠品質改善 50%、睡眠干擾減少 95%、入睡加快 60%、頭髮皮質醇減少 66%。這些百分比不在下面這篇 2022 年論文的結論裡。",
+      "Frontiers in Nutrition 2022：100 名有壓力與睡眠問題的成人，Holixer 每日 250 mg（125 mg、一日兩次）或安慰劑，8 週。自覺壓力分數下降 37%，安慰劑下降 19%。雅典失眠量表分數下降 48%，安慰劑下降 27%。新長出的頭髮皮質醇，萃取組 269.68 pg/50 mg、安慰劑組 789.89 pg/50 mg。手腕睡眠紀錄的組間差異沒有達到顯著。"
+    ],
+    "suggestedDosage": "官網與 2022 年論文都是每日 250 mg。論文的膠囊是每顆 62.5 mg，一日兩次、每次 2 顆。",
+    "dosageNote": "這是供應商頁與該篇試驗的劑量，不是台灣法規上限。聖羅勒葉那一筆沒有每日毫克。"
+  },
+  "patent": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "WO2023203401A1 - A low-dose phytochemical composition of ocimum tenuiflorum",
+        "url": "https://patents.google.com/patent/WO2023203401A1/en",
+        "note": "組成寫 rabdosiin、迷迭香酸、木犀草素葡萄糖醛酸苷、芹菜素葡萄糖醛酸苷與 ociglycoside I，且不含齊墩果酸與熊果酸。2022 年論文把 Holixer 寫成 patent-pending 202241023540。這次打開的專利頁首沒有留下申請人姓名。"
+      }
+    ],
+    "note": "成分組合與官網列出的 OBC 對得上。沒有把這件寫成已核准的台灣專利。"
+  },
+  "literature": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "A randomized, double-blind, placebo-controlled trial investigating the effects of an Ocimum tenuiflorum (Holy Basil) extract (Holixer) on stress, mood, and sleep",
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9524226/",
+        "note": "Frontiers in Nutrition，2022。PMC9524226。每日 250 mg、8 週。自覺壓力與失眠分數有組間差異；手腕睡眠效率的組間差異不顯著。"
+      }
+    ],
+    "note": "已讀這篇全文的方法與結果段。官網另一組較高的睡眠百分比沒有在這篇裡看到，不併成同一筆數字。"
+  },
+  "evidenceLevels": [
+    "clinical"
+  ],
+  "images": [
+    {
+      "url": "https://cdn.prod.website-files.com/6a0d43b82a41cfe209379fdd/6aab2146692e6bf4654122f8_holixer-07.webp",
+      "localPath": "",
+      "caption": "Natural Remedies 官網 Holixer 頁的主視覺。",
+      "source": "official_site"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Vitafoods Asia 2026 show floor preview: Exhibitors H-P",
+      "url": "https://www.nutraingredients.com/Article/2026/08/25/vitafoods-asia-2026-show-floor-preview-exhibitors-h-p/",
+      "publisher": "NutraIngredients",
+      "channel": "exhibition",
+      "accessed": "2026-11-14",
+      "whatItContributes": "2026-08-25 展前整理：Natural Remedies 攤位 H6-L01 會展示 Holixer，並寫有睡眠相關的人體資料。"
+    },
+    {
+      "title": "Holixer product page",
+      "url": "https://www.naturalremedieshumanhealth.com/holixer",
+      "publisher": "Natural Remedies",
+      "channel": "supplier_site",
+      "accessed": "2026-11-14",
+      "whatItContributes": "至少 5% OBC、每日 250 mg，以及頁上另列的睡眠百分比。"
+    },
+    {
+      "title": "Natural Remedies company page",
+      "url": "https://naturalremedieshumanhealth.com/",
+      "publisher": "Natural Remedies",
+      "channel": "supplier_site",
+      "accessed": "2026-11-14",
+      "whatItContributes": "印度班加羅爾地址，以及美國公司地址。沒有台灣據點。"
+    },
+    {
+      "title": "PMC9524226",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9524226/",
+      "publisher": "Frontiers in Nutrition",
+      "channel": "paper",
+      "accessed": "2026-11-14",
+      "whatItContributes": "8 週、每日 250 mg 的壓力與睡眠試驗，以及萃取來自富含葉的地上部。"
+    },
+    {
+      "title": "WO2023203401A1",
+      "url": "https://patents.google.com/patent/WO2023203401A1/en",
+      "publisher": "Google Patents",
+      "channel": "patent",
+      "accessed": "2026-11-14",
+      "whatItContributes": "聖羅勒低劑量組成的公開文本。"
+    },
+    {
+      "title": "Natural Remedies adds Holixer holy basil to botanicals portfolio",
+      "url": "https://www.nutraingredients.com/Article/2022/10/05/Natural-Remedies-adds-Holixer-holy-basil-to-botanicals-portfolio/",
+      "publisher": "NutraIngredients",
+      "channel": "news",
+      "accessed": "2026-11-14",
+      "whatItContributes": "2022-10-05：北美洲獨家經銷寫的是 AIDP。不是台灣。"
+    },
+    {
+      "title": "Wayback 2025-02-09：HOLIXER 樂舒寧",
+      "url": "https://web.archive.org/web/20250209022809/https://www.maxcarecorp.com/%E6%A8%82%E8%88%92%E5%AF%A7",
+      "publisher": "麥司克股份有限公司（Internet Archive 擷取）",
+      "channel": "other",
+      "accessed": "2026-11-14",
+      "whatItContributes": "當天官網打不開。這份 2025-02-09 擷取的頁標題是樂舒寧，簡介寫獨家技術；同站結構化資料自述代理的素材。"
+    }
+  ],
+  "discovery": {
+    "channel": "exhibition",
+    "scoutDate": "2026-11-14",
+    "notes": "從 Vitafoods Asia 2026 展前名錄的 Natural Remedies 攤位進入 Holixer，再對原廠頁、2022 年論文與 WO2023203401A1。台灣關聯以 Holixer、樂舒寧、聖羅勒搭配代理、經銷；官網當天打不開，改開 Wayback 2025-02-09 的麥司克頁。"
+  }
+}

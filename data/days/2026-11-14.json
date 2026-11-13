@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-14",
+  "example": false,
+  "title": "2026-11-14 正式日報",
+  "targetCount": 5,
+  "channelsCovered": [
+    "news",
+    "exhibition",
+    "industry_report"
+  ],
+  "notes": "正式五筆。主管道：Omegia、Cran d'Or 為新聞；Holixer、ApplePhenon 為展覽；CherryPURE 為產業報導。聖羅勒葉、沙棘果實與種子、蔓越莓果實、蘋果果實、酸櫻桃果實有列。蘋果幹細胞是另一筆未確認，不是這次的青蘋果萃取。",
+  "picks": [
+    "omegia",
+    "holixer",
+    "cran-dor",
+    "applephenon",
+    "cherrypure"
+  ]
+}

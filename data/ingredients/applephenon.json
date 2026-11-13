@@ -1,0 +1,187 @@
+{
+  "id": "applephenon",
+  "example": false,
+  "names": {
+    "commonZh": "未成熟蘋果多酚萃取物",
+    "commonEn": "unripe apple polyphenol extract",
+    "trade": "ApplePhenon（BGG 銷售的蘋果多酚商品名；台灣商標權人登記為 BGG Japan）",
+    "scientific": "Malus pumila Mill.（未成熟青蘋果果實。不是蘋果幹細胞，也不是星蘋果。）"
+  },
+  "supply": {
+    "supplierName": "BGG",
+    "supplierCountry": "日本",
+    "relationship": "taiwan_agent",
+    "taiwanPartyName": "仕琦（Sky Rich）",
+    "relationshipNote": "仕琦產品頁列出「蘋果抽出物 Applephenon」。網站標題自述「代理銷售全球頂尖供應商機能性保健素材」。該頁沒有寫獨家，也沒有點名 BGG。BGG 產品頁這次沒有看到經銷名單，不升格為原廠證實。台灣商標 APPLEPHENON 的權利人是 BGG Japan Co., Ltd.。唯創生技的化粧品原料頁把 Applephenon 寫進 INCI，不是這筆保健原料的代理頁。查核日 2026-11-14。"
+  },
+  "tfda": {
+    "usable": "listed_food_ingredient",
+    "evidenceNotes": "Malus pumila 對到蘋果果實 1 筆，可供食品使用，備註空白。中文「蘋果」還會帶進星蘋果、蘋果纖維的舉例、蘋果薄荷，以及未確認的蘋果幹細胞。蘋果幹細胞是 Malus domestica 的細胞培養，不是未成熟果實萃取。添加物裡含「蘋果」的是蘋果酸鹽和蠟的使用範圍，不是這個多酚。",
+    "lookupDate": "2026-11-14",
+    "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+    "queries": [
+      {
+        "tab": "ingredient",
+        "keyword": "Malus pumila",
+        "category": "",
+        "resultCount": 1,
+        "matchedName": "蘋果",
+        "restrictionNote": "可供食品使用。學名 Malus sylvestris Mill.、Malus pumila Mill.。部位果實。備註空白。",
+        "unconfirmedSafety": false,
+        "note": "開放資料 InfoId 4 同一筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "蘋果",
+        "category": "",
+        "resultCount": 5,
+        "matchedName": "蘋果",
+        "restrictionNote": "蘋果果實如上。另外：星蘋果是 Chrysophyllum cainito；膳食纖維的備註把蘋果纖維當名稱舉例；蘋果薄荷與蘋果幹細胞列在未確認。",
+        "unconfirmedSafety": true,
+        "note": "未確認的是蘋果薄荷與蘋果幹細胞，不是 Malus pumila 果實。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "ApplePhenon",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "蘋果",
+        "category": "",
+        "resultCount": 10,
+        "matchedName": "蘋果酸鈣",
+        "restrictionNote": "抽看為蘋果酸鹽等營養添加劑，以及棕櫚蠟可用於蘋果等水果表面。不是蘋果多酚。",
+        "unconfirmedSafety": false,
+        "note": "關鍵字會命中「蘋果酸」。Malus pumila 在添加物是 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "Malus pumila",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "學名在添加物 0 筆。"
+      },
+      {
+        "tab": "history",
+        "keyword": "蘋果",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "助手更新歷程（11/01–11/13）沒有這筆異動。"
+      }
+    ],
+    "officialCrosscheck": {
+      "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+      "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+      "done": true,
+      "notes": "2026-11-14 消費者專區 HTTP 為 502，HTTPS 沒有取得頁首。另下載開放資料 InfoId 4：蘋果果實為可供食品使用；蘋果幹細胞為未確認。與查詢助手一致。"
+    }
+  },
+  "efficacy": {
+    "claimedBenefits": [
+      "BGG 產品頁：未成熟青蘋果萃取，規格寫 60% 原花青素（UV），並寫每日 600 mg、12 週可對應內臟脂肪。這是供應商頁的說法。",
+      "J Oleo Sci 2010（PMID 20484838）：飲料中的蘋果多酚用的是 Applephenon（當時寫 Asahi Food and Healthcare）。長期試驗 94 人，每日 600 mg、12 週。蘋果多酚組的內臟脂肪面積在第 8 週與第 12 週低於自己的起點，和安慰劑的變化量在這兩週也有差異。起始內臟脂肪面積 100 cm² 以上的分層有下降，未達 100 cm² 的分層沒有顯著變化。"
+    ],
+    "suggestedDosage": "產品頁與上述試驗都是每日 600 mg。試驗是 340 g 飲料裡含 600 mg。",
+    "dosageNote": "這是供應商頁與 2010 年試驗的劑量，不是台灣法規上限。蘋果果實那一筆沒有每日毫克。2010 年試驗的供應者寫 Asahi，現在銷售頁是 BGG。"
+  },
+  "patent": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "US6855352B2 - Wild apple polyphenol and process for producing the same",
+        "url": "https://patents.google.com/patent/US6855352B2/en",
+        "note": "2018-11-06 受讓人改為 BGG Japan Co., Ltd.。文本寫的是海棠果、野蘋果的多酚製程。BGG 產品頁寫 ApplePhenon 有專利，但沒有在該頁列出這個號碼，也沒有寫原料是海棠果。不把兩件事併成同一件規格。"
+      }
+    ],
+    "note": "產品頁另寫有 5 件國際專利，沒有給號碼。這次只打開 US6855352B2。"
+  },
+  "literature": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "Evaluation of Safety of Excessive Intake and Efficacy of Long-term Intake of Beverages Containing Apple Polyphenols",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/20484838/",
+        "note": "Akazome 等，J Oleo Sci，2010。PMID 20484838。Applephenon，每日 600 mg，94 人、12 週，另有 30 人的過量 4 週試驗。"
+      }
+    ],
+    "note": "已讀 PubMed 與 J-STAGE 頁上的摘要。摘要寫內臟脂肪有組間差異，沒有寫體重下降的公斤數。"
+  },
+  "evidenceLevels": [
+    "clinical"
+  ],
+  "images": [
+    {
+      "url": "https://bggworld.com/wp-content/uploads/2023/09/ApplePhenon.png",
+      "localPath": "",
+      "caption": "BGG 官網 ApplePhenon 頁的青蘋果圖。",
+      "source": "official_site"
+    }
+  ],
+  "sources": [
+    {
+      "title": "SupplySide Global 2026: What's happening on the show floor",
+      "url": "https://www.nutraingredients.com/Article/2026/10/14/supplyside-global-2026-whats-happening-on-the-show-floor/",
+      "publisher": "NutraIngredients",
+      "channel": "exhibition",
+      "accessed": "2026-11-14",
+      "whatItContributes": "2026-10-14：BGG 攤位 2937 會以體重管理飲品概念展示 ApplePhenon。"
+    },
+    {
+      "title": "ApplePhenon Apple Polyphenols",
+      "url": "https://bggworld.com/applephenon-apple-polyphenols/",
+      "publisher": "BGG",
+      "channel": "supplier_site",
+      "accessed": "2026-11-14",
+      "whatItContributes": "來源寫青蘋果 Malus pumila Mill.，60% 原花青素，每日 600 mg 的內臟脂肪說法。"
+    },
+    {
+      "title": "PMID 20484838",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20484838/",
+      "publisher": "Journal of Oleo Science",
+      "channel": "paper",
+      "accessed": "2026-11-14",
+      "whatItContributes": "Applephenon 每日 600 mg、12 週的內臟脂肪試驗摘要。"
+    },
+    {
+      "title": "US6855352B2",
+      "url": "https://patents.google.com/patent/US6855352B2/en",
+      "publisher": "Google Patents",
+      "channel": "patent",
+      "accessed": "2026-11-14",
+      "whatItContributes": "2018 年轉給 BGG Japan 的野蘋果多酚製程專利。"
+    },
+    {
+      "title": "蘋果抽出物 Applephenon",
+      "url": "https://www.skyrich.com.tw/product.php?act=view&no=95",
+      "publisher": "仕琦",
+      "channel": "other",
+      "accessed": "2026-11-14",
+      "whatItContributes": "台灣頁列出這個商品名。網站標題自述代理銷售，頁內沒有寫獨家。"
+    },
+    {
+      "title": "APPLEPHENON 商標",
+      "url": "https://www.findcompany.com.tw/trademark/00820432_086053156",
+      "publisher": "經濟部智慧財產局公開資料轉載頁",
+      "channel": "other",
+      "accessed": "2026-11-14",
+      "whatItContributes": "商標權人為 BGG Japan Co., Ltd.，登記地址日本。類別是香料，不是原料代理契約。"
+    }
+  ],
+  "discovery": {
+    "channel": "exhibition",
+    "scoutDate": "2026-11-14",
+    "notes": "從 SupplySide Global 2026 展前記者的 BGG 攤位進入 ApplePhenon，再對 BGG 產品頁、2010 年論文與 US6855352B2。台灣關聯用 ApplePhenon、蘋果多酚、Malus pumila 搭配台灣、代理、經銷，打開仕琦產品頁與商標頁。"
+  }
+}

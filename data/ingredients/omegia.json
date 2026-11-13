@@ -1,0 +1,179 @@
+{
+  "id": "omegia",
+  "example": false,
+  "names": {
+    "commonZh": "沙棘果與種子油",
+    "commonEn": "sea buckthorn fruit and seed oil",
+    "trade": "Omegia（Puredia 的沙棘果與種子油商品名；油劑之外另有粉末規格）",
+    "scientific": "Hippophae rhamnoides（果實與種子的油。不是葉，也不是琉璃苣或田紫草油。）"
+  },
+  "supply": {
+    "supplierName": "Puredia",
+    "supplierCountry": "香港",
+    "relationship": "taiwan_agent",
+    "taiwanPartyName": "麥司克股份有限公司",
+    "relationshipNote": "2026-11-14 官網連線逾時。Wayback 2025-02-09 的擷取打得開：首頁結構化資料自述「代理的素材」；美容原料目錄列出 Omegia 可麗妍。產品頁簡介寫「專利沙棘果萃取」，沒有寫獨家代理。Puredia 產品頁地址在香港，沒有點名麥司克。不升格為原廠證實或獨家。該擷取之後有沒有改，這次沒核到。查核日 2026-11-14。"
+  },
+  "tfda": {
+    "usable": "listed_food_ingredient",
+    "evidenceNotes": "沙棘（Hippophae rhamnoides）有兩筆，都可供食品使用：果實、種子一筆；葉一筆，備註寫果實、種子得供為一般食品原料。Omegia 是果實與種子的油，商品名沒有另列。添加物用沙棘、學名與商品名都是 0 筆。列名不是這瓶油的每日克數上限。",
+    "lookupDate": "2026-11-14",
+    "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+    "queries": [
+      {
+        "tab": "ingredient",
+        "keyword": "沙棘",
+        "category": "",
+        "resultCount": 2,
+        "matchedName": "沙棘（黑、黃、白）",
+        "restrictionNote": "果實、種子：可供食品使用，備註空白。葉：可供食品使用，分類是茶包、膳食調理包或萃取後作為原料，備註寫果實、種子得供為一般食品原料。",
+        "unconfirmedSafety": false,
+        "note": "兩筆都不是未確認。本品用的是果實與種子。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Hippophae",
+        "category": "",
+        "resultCount": 2,
+        "matchedName": "沙棘（黑、黃、白）",
+        "restrictionNote": "同上。學名 Hippophae rhamnoides L.。",
+        "unconfirmedSafety": false,
+        "note": "與中文關鍵字同一組兩筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Omegia",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "沙棘",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "添加物 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "Hippophae",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "學名在添加物 0 筆。"
+      },
+      {
+        "tab": "history",
+        "keyword": "沙棘",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "助手更新歷程（11/01–11/13）沒有這筆異動。"
+      }
+    ],
+    "officialCrosscheck": {
+      "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+      "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+      "done": true,
+      "notes": "2026-11-14 消費者專區 HTTP 為 502，HTTPS 沒有取得頁首。另下載開放資料 InfoId 4，沙棘、Hippophae rhamnoides L. 的果實與種子、以及葉，都在可供食品使用。與查詢助手一致。添加物筆數用的是助手 2026-11-13 那套資料。"
+    }
+  },
+  "efficacy": {
+    "claimedBenefits": [
+      "NutraIngredients 2026-09-16：Puredia 說 Omegia 是沙棘果與種子油，標準化到 omega-7 至少 30%，並含 omega-3、6、9、β-胡蘿蔔素、維生素 E 與植物固醇。這是供應商經由新聞轉述的說法。",
+      "Puredia 產品頁把皮膚保水增加 49%、彈性增加 26%、皺紋減少 9%，寫成 60 名 50–70 歲女性、口服每日 4 次 500 mg 並併用外用、共 3 個月。2008 年 Yang 論文是口服組與外用組分開，各 30 人，口服為每日 4 顆、每顆 0.5 g，文中沒有 Omegia 這個商品名。兩處並陳。",
+      "2023 年 Journal of Functional Foods 論文的受試物寫 Omegia 軟膠囊。方法一處寫每日 1 顆、每顆 500 mg 沙棘油；同一篇後文又寫每日 1 顆 1 g。12 週的皮膚亮度、水分、彈性百分比以該文表格為準，這裡不把兩種劑量併成一個。"
+    ],
+    "suggestedDosage": "Puredia 產品頁寫油劑建議每日 1–2 g，粉末建議每日 2–4 g。同一頁的更年期段落寫每日 2 次 500 mg、3 個月。2023 年論文方法段同時出現每日 500 mg 與每日 1 g。",
+    "dosageNote": "以上是供應商頁與兩篇研究的劑量，不是台灣法規上限。果實與種子那一筆沒有每日毫克。"
+  },
+  "patent": {
+    "status": "unknown",
+    "refs": [],
+    "note": "產品頁寫超臨界二氧化碳萃取，沒有給專利號。這次沒有打開對得上 Omegia 的專利全文，不填成無。"
+  },
+  "literature": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "The impact of oral sea-buckthorn oil on skin, blood markers, ocular, and vaginal health: A randomized control trial",
+        "url": "https://doi.org/10.1016/j.jff.2023.105973",
+        "note": "Journal of Functional Foods，2023。受試物寫 Omegia。40 名 45 歲以上女性，平行分組。劑量在文中有 500 mg 與 1 g 兩種寫法。"
+      },
+      {
+        "title": "Effects of oral supplementation and topical application of supercritical CO2 extracted sea buckthorn oil on skin ageing of female subjects",
+        "url": "https://www.scicompdf.se/membrasin/yang_bon_2008.pdf",
+        "note": "Yang 與 Kallio，Journal of Applied Cosmetology，2008。60 名 50–70 歲女性分成口服與外用兩組。沒有寫 Omegia。"
+      }
+    ],
+    "note": "已讀 2023 年論文頁與 2008 年 PDF 的方法段。原廠頁的 49%、26%、9% 沒有改寫成 Omegia 本身的試驗結果。"
+  },
+  "evidenceLevels": [
+    "clinical"
+  ],
+  "images": [
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/5d4bb44f65e8a500018e870b/1565771100521-EEFH49OTRVU42SWAYLUV/Omegia+Logo.png?format=1500w",
+      "localPath": "",
+      "caption": "Puredia 官網 Omegia 產品頁上的商品標誌。",
+      "source": "official_site"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Puredia looks to heighten awareness of sea buckthorn for oral beauty amid award win",
+      "url": "https://www.nutraingredients.com/Article/2026/09/16/puredia-looks-to-heighten-awareness-of-sea-buckthorn-for-bfw-on-the-back-of-ni-asia-award/",
+      "publisher": "NutraIngredients",
+      "channel": "news",
+      "accessed": "2026-11-14",
+      "whatItContributes": "2026-09-16：Omegia 獲 NutraIngredients-Asia 口服美容原料獎；香港公司；果與籽油；omega-7 至少 30%；超臨界二氧化碳萃取。"
+    },
+    {
+      "title": "Omegia product page",
+      "url": "https://www.puredia.com/product/omegia",
+      "publisher": "Puredia",
+      "channel": "supplier_site",
+      "accessed": "2026-11-14",
+      "whatItContributes": "油劑與粉末規格、建議攝取量，以及香港地址。皮膚百分比的寫法與 2008 年論文不完全相同。"
+    },
+    {
+      "title": "Journal of Functional Foods 2023, 10.1016/j.jff.2023.105973",
+      "url": "https://doi.org/10.1016/j.jff.2023.105973",
+      "publisher": "Journal of Functional Foods",
+      "channel": "paper",
+      "accessed": "2026-11-14",
+      "whatItContributes": "點名 Omegia 軟膠囊的 12 週試驗，以及文內兩種劑量寫法。"
+    },
+    {
+      "title": "Yang and Kallio, Journal of Applied Cosmetology, 2008",
+      "url": "https://www.scicompdf.se/membrasin/yang_bon_2008.pdf",
+      "publisher": "Journal of Applied Cosmetology",
+      "channel": "paper",
+      "accessed": "2026-11-14",
+      "whatItContributes": "沙棘油口服與外用分開的皮膚試驗。沒有商品名 Omegia。"
+    },
+    {
+      "title": "Wayback 2025-02-09：麥司克美容原料目錄",
+      "url": "https://web.archive.org/web/2026/https://www.maxcarecorp.com/prod/beauty",
+      "publisher": "麥司克股份有限公司（Internet Archive 擷取）",
+      "channel": "other",
+      "accessed": "2026-11-14",
+      "whatItContributes": "當天官網打不開。擷取頁的美容原料目錄列出 Omegia 可麗妍。同站自述代理的素材，沒有寫獨家。"
+    }
+  ],
+  "discovery": {
+    "channel": "news",
+    "scoutDate": "2026-11-14",
+    "notes": "從 NutraIngredients 2026-09-16 獲獎新聞進入，再對 Puredia 產品頁、2023 年論文與 2008 年 Yang 論文。台灣關聯用 Omegia、可麗妍、沙棘油搭配代理、經銷；官網當天打不開，改開 Wayback 2025-02-09 的麥司克目錄。"
+  }
+}

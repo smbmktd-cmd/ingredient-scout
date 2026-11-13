@@ -1,0 +1,173 @@
+{
+  "id": "cherrypure",
+  "example": false,
+  "names": {
+    "commonZh": "蒙莫朗西酸櫻桃果皮粉",
+    "commonEn": "Montmorency tart cherry skin powder",
+    "trade": "CherryPURE（Shoreline Fruit 的酸櫻桃凍乾粉商品名）",
+    "scientific": "Prunus cerasus L.（蒙莫朗西品種。產品頁寫榨汁後的果皮再凍乾。不是甜櫻桃。）"
+  },
+  "supply": {
+    "supplierName": "Shoreline Fruit",
+    "supplierCountry": "美國",
+    "relationship": "unknown",
+    "taiwanPartyName": "恒宜生技；宸品",
+    "relationshipNote": "恒宜生技產品頁列出 CherryPURE 酸櫻桃凍乾粉，產地寫美國，前花青素規格寫至少 3%，並寫 1 kg 粉等於 50 kg 櫻桃。頁上沒有「代理」或「經銷」，也沒有寫 Shoreline。宸品產品頁同樣列出 CherryPURE，並在同頁介紹美國 Anderson Advanced Ingredients，沒有寫自己是 Shoreline 或 Anderson 的代理。Shoreline 產品頁沒有經銷名單。兩家都是原料頁有這個商品名，關係不升格。查核日 2026-11-14。恒宜頁寫「萃取」，Shoreline 頁寫果皮凍乾粉，用詞不同，不自行判定是不是同一規格。"
+  },
+  "tfda": {
+    "usable": "listed_food_ingredient",
+    "evidenceNotes": "酸櫻桃果實（Prunus cerasus）1 筆，可供食品使用，備註空白。商品名 CherryPURE 0 筆。添加物 0 筆。Shoreline 寫的是榨汁後果皮的凍乾粉，平台列的部位是果實，沒有把果皮另列成未確認。",
+    "lookupDate": "2026-11-14",
+    "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+    "queries": [
+      {
+        "tab": "ingredient",
+        "keyword": "酸櫻桃",
+        "category": "",
+        "resultCount": 1,
+        "matchedName": "酸櫻桃；歐洲酸櫻桃",
+        "restrictionNote": "可供食品使用。學名 Prunus cerasus L.、Cerasus vulgaris。部位果實。備註空白。",
+        "unconfirmedSafety": false,
+        "note": "開放資料 InfoId 4 同一筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Prunus cerasus",
+        "category": "",
+        "resultCount": 1,
+        "matchedName": "酸櫻桃；歐洲酸櫻桃",
+        "restrictionNote": "部位果實。備註空白。",
+        "unconfirmedSafety": false,
+        "note": "與中文名稱同一筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "CherryPURE",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "酸櫻桃",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "添加物 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "Prunus cerasus",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "學名在添加物 0 筆。"
+      },
+      {
+        "tab": "history",
+        "keyword": "酸櫻桃",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "助手更新歷程（11/01–11/13）沒有這筆異動。"
+      }
+    ],
+    "officialCrosscheck": {
+      "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+      "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+      "done": true,
+      "notes": "2026-11-14 消費者專區 HTTP 為 502，HTTPS 沒有取得頁首。另下載開放資料 InfoId 4：酸櫻桃，Prunus cerasus L.，部位果實，可供食品使用。與查詢助手一致。"
+    }
+  },
+  "efficacy": {
+    "claimedBenefits": [
+      "NutraIngredients 2026-11-11 的運動營養科學整理：回顧裡，酸櫻桃對劇烈運動後肌力恢復的證據在所比較的食物中較多，但各試驗並不一致。這段沒有點名 CherryPURE。",
+      "JISSN 2015：23 名有阻力訓練的男性，CherryPURE 每日 480 mg 或安慰劑，運動前 7 日、當天與之後 2 日。和安慰劑相比，酸櫻桃組的股外側肌酸痛較低，肌酸酐與總蛋白的變化較小。發炎指標與抗氧化能力指標沒有顯著的補充效應。"
+    ],
+    "suggestedDosage": "上述試驗是每日 480 mg，共 10 日。Shoreline 這次打開的產品頁沒有寫每日建議毫克。恒宜頁寫 1 kg 粉等於 50 kg 櫻桃，也沒有每日劑量。",
+    "dosageNote": "480 mg 是 2015 年試驗的劑量，不是供應商頁上的建議，也不是台灣法規上限。果實那一筆沒有每日毫克。"
+  },
+  "patent": {
+    "status": "unknown",
+    "refs": [],
+    "note": "Shoreline 產品頁寫有專有加工，沒有給專利號。商標 CHERRYPURE 不是專利。這次沒有打開對得上這個粉末的專利全文，不填成無。"
+  },
+  "literature": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "Effects of powdered Montmorency tart cherry supplementation on an acute bout of intense lower body strength exercise in resistance trained males",
+        "url": "https://link.springer.com/article/10.1186/s12970-015-0102-y",
+        "note": "Levers 等，JISSN，2015。受試物寫 CherryPURE，Shoreline Fruit。每日 480 mg。論文一處把城市寫成 Transverse City。"
+      }
+    ],
+    "note": "已讀這篇的摘要與補充方法。2026-11-11 的產業整理說酸櫻桃的恢復證據並不一致，所以這一篇不寫成所有酸櫻桃試驗的共同結論。"
+  },
+  "evidenceLevels": [
+    "clinical"
+  ],
+  "images": [
+    {
+      "url": "https://cdn.prod.website-files.com/683dac133311d87f89c021a6/68c1750deb6604ef90e4651c_og-cherry-powder.jpg",
+      "localPath": "",
+      "caption": "Shoreline Fruit 官網 CherryPURE 產品頁的酸櫻桃照片。",
+      "source": "official_site"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Catching up with sports nutrition supplements: A roundup of the latest science",
+      "url": "https://www.nutraingredients.com/Article/2026/11/11/catching-up-with-sports-nutrition-supplement-science/",
+      "publisher": "NutraIngredients",
+      "channel": "industry_report",
+      "accessed": "2026-11-14",
+      "whatItContributes": "2026-11-11：多酚與運動的整理指出酸櫻桃對肌力恢復的證據較多，但試驗之間不一致。未點名商品。"
+    },
+    {
+      "title": "Nutraceutical Cherry Powder",
+      "url": "https://www.shorelinefruit.com/products/nutraceutical-cherry-powder",
+      "publisher": "Shoreline Fruit",
+      "channel": "supplier_site",
+      "accessed": "2026-11-14",
+      "whatItContributes": "美國果農公司的 CherryPURE，原料是蒙莫朗西酸櫻桃，寫專有加工、不含人工填充。"
+    },
+    {
+      "title": "JISSN 2015, 10.1186/s12970-015-0102-y",
+      "url": "https://link.springer.com/article/10.1186/s12970-015-0102-y",
+      "publisher": "Journal of the International Society of Sports Nutrition",
+      "channel": "paper",
+      "accessed": "2026-11-14",
+      "whatItContributes": "每日 480 mg、10 日的阻力運動酸痛試驗，受試物寫 CherryPURE 果皮粉。"
+    },
+    {
+      "title": "CherryPURE 酸櫻桃凍乾粉",
+      "url": "https://www.hengyi-bio.com.tw/products-detail/113__2/",
+      "publisher": "恒宜生技",
+      "channel": "other",
+      "accessed": "2026-11-14",
+      "whatItContributes": "台灣原料頁列出商品名、美國產地與前花青素至少 3%。沒有寫代理。"
+    },
+    {
+      "title": "宸品原料 CherryPURE 櫻桃凍乾粉",
+      "url": "https://www.champion-bio.com/tw/product-detail/cherry_powder/",
+      "publisher": "宸品",
+      "channel": "other",
+      "accessed": "2026-11-14",
+      "whatItContributes": "另一個台灣原料頁列出同一商品名，並介紹 Anderson Advanced Ingredients。沒有寫代理。"
+    }
+  ],
+  "discovery": {
+    "channel": "industry_report",
+    "scoutDate": "2026-11-14",
+    "notes": "從 NutraIngredients 2026-11-11 運動營養整理裡的酸櫻桃段落進入，再對到有商品名試驗的 CherryPURE、Shoreline 產品頁與 JISSN 2015。台灣關聯用 CherryPURE、酸櫻桃、Shoreline、tart cherry 搭配台灣、代理、經銷，打開恒宜與宸品兩頁。"
+  }
+}

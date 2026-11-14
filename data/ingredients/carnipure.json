@@ -1,0 +1,167 @@
+{
+  "id": "carnipure",
+  "example": false,
+  "names": {
+    "commonZh": "左旋肉鹼",
+    "commonEn": "L-carnitine",
+    "trade": "Carnipure（Lonza 的左旋肉鹼商品名；頁上分結晶與酒石酸鹽）",
+    "scientific": "不適用植物學名。成分是 L-肉鹼。酒石酸鹽頁寫由 L-肉鹼與食品級酒石酸以莫耳比 2:1 製成，約 68% L-肉鹼與 32% L-酒石酸。"
+  },
+  "supply": {
+    "supplierName": "Lonza",
+    "supplierCountry": "瑞士",
+    "relationship": "unknown",
+    "taiwanPartyName": "婿展國際有限公司；譚璽貿易",
+    "relationshipNote": "婿展國際的頁面標題寫 Carnipure 品牌授權，內文是康尼左旋肉鹼液態膠囊這個成品，屬於該公司自述，不是 Lonza 點名的原料經銷。樂沛力成品頁寫原料來源 LONZA carnipure、代理商為譚璽貿易，是成品採用與成品代理。Lonza 產品頁沒有點名這兩家。另有批發頁寫瀧晶生技取得商標與代工授權，頁上是個人聯絡方式，這次沒有打開瀧晶自己的網站，該句維持待確認，不升格。查核日 2026-11-15。"
+  },
+  "tfda": {
+    "usable": "needs_review",
+    "evidenceNotes": "原料分頁用肉鹼、Carnitine、Carnipure 都是 0 筆。添加物有兩筆，都限於補充食品中不足的營養素。L-肉鹼可用於標示每日食用量的膠囊與錠狀，每日總量不得高於 2 克，也可於特殊營養食品適量使用。L-酒石酸肉鹼只寫特殊營養食品。Carnipure 同時有結晶與酒石酸鹽，兩筆範圍不同，不併成一種准用。",
+    "lookupDate": "2026-11-15",
+    "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+    "queries": [
+      {
+        "tab": "ingredient",
+        "keyword": "肉鹼",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "原料 0 筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Carnitine",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "原料 0 筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Carnipure",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名在原料 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "肉鹼",
+        "category": "",
+        "resultCount": 2,
+        "matchedName": "L-肉鹼(L-肉酸)",
+        "restrictionNote": "L-肉鹼：膠囊、錠狀且標示每日食用量者，每日總量不得高於 2 g；另可於特殊營養食品適量使用。L-酒石酸肉鹼：可於特殊營養食品適量使用。兩筆使用限制都是限於補充食品中不足之營養素。",
+        "unconfirmedSafety": false,
+        "note": "兩筆營養添加劑，範圍不同。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "Carnitine",
+        "category": "",
+        "resultCount": 2,
+        "matchedName": "L-肉鹼(L-肉酸)",
+        "restrictionNote": "同上。英文品名 L-Carnitine 與 L-Carnitine Tartrate。",
+        "unconfirmedSafety": false,
+        "note": "與中文關鍵字同一組兩筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "Carnipure",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名在添加物 0 筆。"
+      },
+      {
+        "tab": "history",
+        "keyword": "肉鹼",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "助手更新歷程（2026-11-01 至 2026-11-14）沒有這筆異動。"
+      }
+    ],
+    "officialCrosscheck": {
+      "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+      "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+      "done": true,
+      "notes": "2026-11-15 消費者專區 HTTP 為 502。開放資料 InfoId 4 沒有肉鹼品名。InfoId 61 有 L-肉鹼與 L-酒石酸肉鹼，使用範圍與 2 克上限、特殊營養食品的寫法與查詢助手一致。"
+    }
+  },
+  "efficacy": {
+    "claimedBenefits": [
+      "Lonza 的 Carnipure 產品頁寫，這個左旋肉鹼有助於能量、體重管理與運動恢復，並寫相較安慰劑，與運動有關的疲勞和痠痛減少 25%。25% 是該頁的供應商句子，頁上沒有同時寫出劑量。",
+      "同一頁寫結晶與酒石酸鹽兩種規格，並寫 2001 至 2010 年與康乃狄克大學合作、使用 Carnipure 酒石酸鹽的運動恢復研究，發表了九篇同儕論文。這次沒有打開那九篇全文。"
+    ],
+    "suggestedDosage": "2026-11-15 讀到的產品頁沒有寫單一每日毫克。酒石酸鹽規格寫約含 68% L-肉鹼。",
+    "dosageNote": "沒有把供應商頁沒寫的劑量補上。L-肉鹼添加物對膠囊、錠狀的每日總量上限是 2 克；酒石酸鹽那一筆只寫特殊營養食品。兩筆都是營養素補充用途，不是健康食品許可。"
+  },
+  "patent": {
+    "status": "unknown",
+    "refs": [],
+    "note": "產品頁寫不含氰化鈉的製程，沒有給專利號。這次沒有打開對得上 Carnipure 的專利全文，不填成無。"
+  },
+  "literature": {
+    "status": "unknown",
+    "refs": [],
+    "note": "產品頁列出 Stefan 等 2021、Volek 等 2002 等引用，並寫有數十篇人體研究。這次打開 MDPI 得到 403，沒有讀到點名 Carnipure 的論文全文，不把供應商的 25% 填成已核對的文獻。"
+  },
+  "evidenceLevels": [],
+  "images": [
+    {
+      "url": "https://www.capsugel.com/application/files/2717/7754/7515/carnipure_lifestyle.webp",
+      "localPath": "",
+      "caption": "Lonza／Capsugel 的 Carnipure 產品頁所連結的商品情境圖。",
+      "source": "official_site"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Power for the people: Sports nutrition diversifies",
+      "url": "https://www.nutritioninsight.com/news/power-for-the-people-sports-nutrition-diversifies-as-active-lifestyles-proliferate-across-generations.html",
+      "publisher": "Nutrition Insight",
+      "channel": "industry_report",
+      "accessed": "2026-11-15",
+      "whatItContributes": "2023-03-16：Lonza 把 Carnipure L-carnitine 列為能量與體能原料，與 TWK10、UC-II 分開寫。"
+    },
+    {
+      "title": "Carnipure L-carnitine for Human",
+      "url": "https://www.lonza.com/capsules-health-ingredients/nutraceutical-solutions/ingredients/carnipure",
+      "publisher": "Lonza／Capsugel",
+      "channel": "supplier_site",
+      "accessed": "2026-11-15",
+      "whatItContributes": "結晶與酒石酸鹽兩種規格、68% 與 32% 的比例，以及頁上的 25% 疲勞句子。直接連線曾被拒，文字以同日可讀的頁面擷取核對。"
+    },
+    {
+      "title": "婿展國際：Carnipure 品牌授權頁",
+      "url": "https://nuxu.bvshop.tw/page/%E5%93%81%E7%89%8C%E6%8E%88%E6%AC%8A-carnipure",
+      "publisher": "婿展國際有限公司",
+      "channel": "other",
+      "accessed": "2026-11-15",
+      "whatItContributes": "該公司自述 Carnipure 品牌授權，對應的是康尼液態膠囊成品。頁上聯絡方式不轉抄。"
+    },
+    {
+      "title": "樂沛力卡尼汀全素膠囊",
+      "url": "https://web.hocom.tw/h/ProductDetail?cateId=36121&key=808172030539&productId=324249",
+      "publisher": "藥王有機藥局商品頁",
+      "channel": "other",
+      "accessed": "2026-11-15",
+      "whatItContributes": "成品頁寫原料來源 LONZA carnipure，代理商為譚璽貿易。不是原料經銷契約。"
+    }
+  ],
+  "discovery": {
+    "channel": "industry_report",
+    "scoutDate": "2026-11-15",
+    "notes": "從 Nutrition Insight 2023-03-16 的運動營養報導進入，該篇點名 Carnipure。再對 Lonza 產品頁。台灣關聯打開婿展的品牌授權頁與樂沛力成品頁；瀧晶只有批發頁線索，官網沒打開，維持待確認。"
+  }
+}

@@ -1,0 +1,184 @@
+{
+  "id": "truebroc",
+  "example": false,
+  "names": {
+    "commonZh": "青花菜種子萃取物（蘿蔔硫苷）",
+    "commonEn": "broccoli seed extract (glucoraphanin)",
+    "trade": "TrueBroc（Brassica Protection Products 的青花菜種子萃取商品名；台灣頁亦寫 Truebroc）",
+    "scientific": "Brassica oleracea L. var. italica（種子的熱水萃取。不是花球，也不是芥末種子的芥子酶。）"
+  },
+  "supply": {
+    "supplierName": "Brassica Protection Products LLC",
+    "supplierCountry": "美國",
+    "relationship": "taiwan_distributor",
+    "taiwanPartyName": "台灣卡爾迪克",
+    "relationshipNote": "台灣卡爾迪克原料頁列出 Truebroc 青花菜種子萃取物（含 13% 蘿蔔硫苷），地址是台北市大安區光復南路 102 號 12 樓，並整段抄了熱水萃取、活性碳與噴霧乾燥的製程文字。Brassica 產品頁寫亞洲由 Connell Brothers 銷售；聯絡頁把 Connell Bros. Co. (Taiwan), Ltd. 放在同一地址。Caldic 2025-04-08 公告寫 Connell Caldic 自 2025-04-01 改名 Caldic APAC。原廠頁仍寫 Connell，沒有改成卡爾迪克。記為經銷。頁上個人姓名與電話不收入。查核日 2026-11-15。"
+  },
+  "tfda": {
+    "usable": "listed_food_ingredient",
+    "evidenceNotes": "青花菜種子萃取物 1 筆，可供食品使用。公告限定熱水萃取後再經活性碳、離心、過濾、濃縮及噴霧乾燥，限成人，每日 115 毫克，並應標示孕婦、授乳者、甲狀腺疾病，以及抗凝血劑與癌症患者用前諮詢。TrueBroc 商品名沒有另列。論文寫的是熱水萃取後 refractance window drying，單次 385 毫克，製程文字和劑量都不是自動套用這則 115 毫克規格。添加物 0 筆。",
+    "lookupDate": "2026-11-15",
+    "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+    "queries": [
+      {
+        "tab": "ingredient",
+        "keyword": "青花菜種子",
+        "category": "",
+        "resultCount": 1,
+        "matchedName": "青花菜種子萃取物",
+        "restrictionNote": "衛授食字第1121301044號：熱水萃取、活性碳、離心、過濾、濃縮及噴霧乾燥。限成人。每日 115 毫克。警語：孕婦、授乳者及甲狀腺相關疾病患者應避免食用；服用抗凝血劑及癌症患者使用前須先諮詢醫療人員。",
+        "unconfirmedSafety": false,
+        "note": "學名 Brassica oleracea var. italica，部位種子。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "青花菜",
+        "category": "",
+        "resultCount": 2,
+        "matchedName": "青花菜種子萃取物",
+        "restrictionNote": "種子萃取物如上。另一筆是青花菜花球，可供直接食用，備註空白。",
+        "unconfirmedSafety": false,
+        "note": "花球不是本品。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "TrueBroc",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "青花菜",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "添加物 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "glucoraphanin",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "成分英文名在添加物 0 筆。"
+      },
+      {
+        "tab": "history",
+        "keyword": "青花菜",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "助手更新歷程（2026-11-01 至 2026-11-14）沒有這筆異動。"
+      }
+    ],
+    "officialCrosscheck": {
+      "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+      "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+      "done": true,
+      "notes": "2026-11-15 消費者專區 HTTP 為 502。開放資料 InfoId 4 的青花菜種子萃取物備註含 1121301044 號、每日 115 毫克與警語；花球是另一筆。與查詢助手一致。InfoId 61 沒有青花菜品名。"
+    }
+  },
+  "efficacy": {
+    "claimedBenefits": [
+      "Brassica 產品頁寫 TrueBroc 是青花菜種子熱水萃取，蘿蔔硫苷 13%，並寫攝取後抗氧化作用可到 72 小時、其他抗氧化劑約 3 小時。72 小時這句是供應商頁的說法。",
+      "Scientific Reports 2026-02-15：16 名成人單次口服。TrueBroc 385 mg（115 µmol、50 mg 蘿蔔硫苷）單獨時，24 小時尿中蘿蔔硫素代謝物為劑量的 18.6%；加上芥末種子芥子酶為 39.8%。前 8 小時是 8.0% 與 25.4%。沒有不良事件。這是轉換率，不是疾病療效。"
+    ],
+    "suggestedDosage": "論文的單次劑量是 TrueBroc 385 mg，含 50 mg 蘿蔔硫苷。原廠頁寫規格 13% 蘿蔔硫苷，沒有另寫一個每日建議毫克。台灣公告對符合該製程定義的種子萃取物，每日 115 mg。",
+    "dosageNote": "385 mg 是這篇試驗的單次劑量。115 mg 是公告對特定製程的每日上限。論文寫 refractance window drying，公告寫噴霧乾燥並經活性碳，兩套文字沒有併成同一規格。"
+  },
+  "patent": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "US5968505A",
+        "url": "https://patents.google.com/patent/US5968505A/en",
+        "note": "Johns Hopkins。十字花科芽苗相關食物。Google Patents 頁寫 Expired - Lifetime。"
+      },
+      {
+        "title": "Brassica Protection Products LLC v. Sunrise Farms（Fed. Cir. 2002）",
+        "url": "https://www.courtlistener.com/opinion/7107572/brassica-protection-products-llc-v-sunrise-farms/",
+        "note": "聯邦巡迴上訴法院維持地院判決：US 5,725,895、5,968,567、5,968,505 因先前技術而無效。當事人含 Brassica 與 Johns Hopkins。"
+      }
+    ],
+    "note": "原廠頁寫 patent protected，並寫是 Johns Hopkins 芥子油苷與異硫氰酸酯技術的獨家被授權人，沒有在該頁給專利號。上面兩則是這次打開的專利與 2002 年無效判決，不把已無效的芽苗專利寫成仍涵蓋現在的種子萃取規格。"
+  },
+  "literature": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "Exogenous myrosinase from mustard seed increases bioavailability of sulforaphane from a glucoraphanin-rich broccoli seed extract",
+        "url": "https://doi.org/10.1038/s41598-026-39389-4",
+        "note": "Scientific Reports，2026-02-15。16 人、單次、交叉。受試物寫 TrueBroc。轉換率 18.6% 與 39.8%。"
+      }
+    ],
+    "note": "已讀方法段的 385 mg、50 mg 蘿蔔硫苷與製程描述。新聞稿把 18.6% 與 39.8% 四捨五入成 19% 與 40%，這裡用論文數字。"
+  },
+  "evidenceLevels": [
+    "clinical"
+  ],
+  "images": [
+    {
+      "url": "https://brassica.com/wp-content/uploads/2016/08/TrueBroc_Notag-wBoxTransparent_R_4c_Final.png",
+      "localPath": "",
+      "caption": "Brassica 官網 TrueBroc 產品頁上的商品標誌。",
+      "source": "official_site"
+    }
+  ],
+  "sources": [
+    {
+      "title": "EIN Presswire：TrueBroc bioavailability trial",
+      "url": "https://www.einpresswire.com/article/893839751/new-human-clinical-trial-with-glucoraphanin-rich-broccoli-seed-extract-shows-doubling-of-sulforaphane-bioavailability",
+      "publisher": "EIN Presswire（Brassica 新聞稿）",
+      "channel": "news",
+      "accessed": "2026-11-15",
+      "whatItContributes": "2026-02-19：點名 TrueBroc，並把轉換率寫成約 19% 到 40%。公司執行長姓名留在稿內，這裡不轉抄。"
+    },
+    {
+      "title": "Scientific Reports 2026, 10.1038/s41598-026-39389-4",
+      "url": "https://doi.org/10.1038/s41598-026-39389-4",
+      "publisher": "Scientific Reports",
+      "channel": "paper",
+      "accessed": "2026-11-15",
+      "whatItContributes": "16 人單次試驗的劑量、製程與 18.6%、39.8%。"
+    },
+    {
+      "title": "TrueBroc product page",
+      "url": "https://brassica.com/truebroc/",
+      "publisher": "Brassica Protection Products",
+      "channel": "supplier_site",
+      "accessed": "2026-11-15",
+      "whatItContributes": "熱水萃取、13% 蘿蔔硫苷、亞洲夥伴寫 Connell Brothers，以及供應商的 72 小時句子。"
+    },
+    {
+      "title": "台灣卡爾迪克：BRASSICA 花椰菜萃取",
+      "url": "https://www.caldic.com.tw/raw/brassica-%E8%8A%B1%E6%A4%B0%E8%8F%9C%E8%90%83%E5%8F%96/",
+      "publisher": "台灣卡爾迪克",
+      "channel": "other",
+      "accessed": "2026-11-15",
+      "whatItContributes": "列出 Truebroc 與 13% 蘿蔔硫苷，並抄了公告裡的熱水萃取與噴霧乾燥製程。"
+    },
+    {
+      "title": "Connell Caldic rebranded to Caldic APAC",
+      "url": "https://www.caldic.com/en-co/insights/connell-caldic-rebranded-to-caldic-apac/",
+      "publisher": "Caldic",
+      "channel": "other",
+      "accessed": "2026-11-15",
+      "whatItContributes": "2025-04-08：Connell Caldic 自 2025-04-01 改名 Caldic APAC。沒有點名 TrueBroc。"
+    }
+  ],
+  "discovery": {
+    "channel": "news",
+    "scoutDate": "2026-11-15",
+    "notes": "從 2026-02-19 的 TrueBroc 新聞稿進入，再對 Scientific Reports、Brassica 產品頁與台灣卡爾迪克原料頁。原廠仍寫 Connell Brothers，對到同一地址的卡爾迪克與 2025 年改名公告。"
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "id": "forslean",
+  "example": false,
+  "names": {
+    "commonZh": "毛喉鞘蕊花根萃取物",
+    "commonEn": "Coleus forskohlii root extract",
+    "trade": "ForsLean（Sabinsa 的毛喉鞘蕊花根萃取商品名；標準化 10% forskolin，頁上另寫 20% 與 40% 規格）",
+    "scientific": "Coleus forskohlii（平台亦列 Plectranthus barbatus。部位是根。不是純化後單獨列名的 forskolin。）"
+  },
+  "supply": {
+    "supplierName": "Sabinsa Corporation",
+    "supplierCountry": "美國",
+    "relationship": "taiwan_agent",
+    "taiwanPartyName": "和聚國際生醫材料有限公司",
+    "relationshipNote": "和聚產品頁列出廠牌 Sabinsa、規格 Forskolin 10%、產地印度、專利欄寫有。關於我們與 FAQ 自述代理進口原料，這頁沒有寫獨家或原廠指定。Sabinsa 品牌頁沒有點名和聚。產地寫印度、供應商名稱用 Sabinsa，兩處都留下。不升格為原廠證實或獨家。查核日 2026-11-15。"
+  },
+  "tfda": {
+    "usable": "listed_food_ingredient",
+    "evidenceNotes": "毛喉鞘蕊花根列在可供直接食用，學名 Coleus forskohlii、Plectranthus barbatus，備註空白。ForsLean 與 forskolin 在原料、添加物都是 0 筆。根的列名沒有每日毫克，也不等於 10% forskolin 萃取的劑量已經核准。",
+    "lookupDate": "2026-11-15",
+    "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+    "queries": [
+      {
+        "tab": "ingredient",
+        "keyword": "毛喉",
+        "category": "",
+        "resultCount": 1,
+        "matchedName": "毛喉鞘蕊花",
+        "restrictionNote": "根：可供食品使用，分類是可供直接食用，備註空白。",
+        "unconfirmedSafety": false,
+        "note": "外文 forskohlii。學名 Coleus forskohlii、Plectranthus barbatus。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Coleus",
+        "category": "",
+        "resultCount": 1,
+        "matchedName": "毛喉鞘蕊花",
+        "restrictionNote": "同上。",
+        "unconfirmedSafety": false,
+        "note": "與中文關鍵字同一筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "ForsLean",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名 0 筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "forskolin",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "純化成分名在原料 0 筆。不是未確認分類，是沒有這一列。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "毛喉",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "添加物 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "forskolin",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "添加物 0 筆。"
+      },
+      {
+        "tab": "history",
+        "keyword": "毛喉",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "助手更新歷程（2026-11-01 至 2026-11-14）沒有這筆異動。"
+      }
+    ],
+    "officialCrosscheck": {
+      "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+      "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+      "done": true,
+      "notes": "2026-11-15 消費者專區 HTTP 為 502。開放資料 InfoId 4 的毛喉鞘蕊花根為可供直接食用，學名 Coleus forskohlii、Plectranthus barbatus，備註空白。與查詢助手一致。InfoId 61 沒有毛喉或 forskolin 品名。"
+    }
+  },
+  "efficacy": {
+    "claimedBenefits": [
+      "Sabinsa 品牌頁寫 ForsLean 是根萃取、標準化 10% forskolin，並寫有助維持體組成、減少體脂、支持除脂體重。這是供應商宣稱。",
+      "JISSN 2005：23 名體重稍高的女性，ForsLean 每顆 250 mg（10% forskolin）每日兩次、12 週。摘要寫脂肪量等沒有顯著組間差異，體重增加有減輕的趨勢；飢餓感的組間 p 值為 0.02。結論寫看起來沒有促進減重。",
+      "Obesity Research 2005：30 名男性，方法段寫 Forslean（文中拼成 Sabina Corp.）每顆 250 mg、10% forskolin、每日兩次、12 週。摘要寫體脂百分比與脂肪量下降、游離睪固酮上升。兩篇方向不同，都留下。"
+    ],
+    "suggestedDosage": "Sabinsa 品牌頁寫建議每日兩次、每次 250 mg（對應 25 mg forskolin）。上面兩篇試驗用的也是這個次數與每顆毫克。",
+    "dosageNote": "每次 250 mg、每日兩次是供應商建議，也是這兩篇試驗的劑量，不是台灣法規上限。根的列名沒有每日毫克。"
+  },
+  "patent": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "US5804596A",
+        "url": "https://patents.google.com/patent/US5804596A/en",
+        "note": "原權利人 Sabinsa。由毛喉鞘蕊花萃取製備 forskolin 組成，以及用於除脂體重與情緒。頁面寫 2017-02-27 屆期，狀態 Expired - Lifetime。"
+      }
+    ],
+    "note": "品牌頁現在仍寫 patented。這次打開的美國專利頁寫已屆期。不把屆期專利寫成仍在有效期間。"
+  },
+  "literature": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "Effects of Coleus Forskohlii Supplementation on Body Composition and Hematological Profiles in Mildly Overweight Women",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/18500958/",
+        "note": "JISSN 2005。點名 ForsLean。女性 12 週。脂肪量沒有顯著差異。"
+      },
+      {
+        "title": "Body Composition and Hormonal Adaptations Associated with Forskolin Consumption in Overweight and Obese Men",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/16129715/",
+        "note": "Obesity Research 2005。方法段寫 Forslean，公司名拼成 Sabina Corp.。男性 12 週，摘要寫體脂下降。"
+      }
+    ],
+    "note": "兩篇都讀了摘要與劑量句。女性篇與男性篇的體脂結論不同，沒有併成一個減重結果。供應商頁的「減少體脂」只當宣稱。"
+  },
+  "evidenceLevels": [
+    "clinical"
+  ],
+  "images": [
+    {
+      "url": "https://sabinsa.com/wp-content/uploads/2026/02/forslean-banner-01.webp",
+      "localPath": "",
+      "caption": "Sabinsa 官網 ForsLean 品牌頁上的商品橫幅。",
+      "source": "official_site"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Sabinsa launches six products, consolidates brands",
+      "url": "https://www.nutraingredients.com/Article/2025/08/27/sabinsa-launches-six-products-consolidates-brands/",
+      "publisher": "NutraIngredients",
+      "channel": "news",
+      "accessed": "2026-11-15",
+      "whatItContributes": "2025-08-27：Sanutra 體重管理配方寫入 Citrin K、GarCitrin、ForsLean 與 BioPerine。這則只取 ForsLean 這個原料名。"
+    },
+    {
+      "title": "ForsLean brand page",
+      "url": "https://sabinsa.com/brand/forslean",
+      "publisher": "Sabinsa",
+      "channel": "supplier_site",
+      "accessed": "2026-11-15",
+      "whatItContributes": "根萃取、10% forskolin，以及 20%、40% 規格。建議每日兩次 250 mg。"
+    },
+    {
+      "title": "JISSN 2005 ForsLean trial",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18500958/",
+      "publisher": "Journal of the International Society of Sports Nutrition",
+      "channel": "paper",
+      "accessed": "2026-11-15",
+      "whatItContributes": "女性 12 週試驗。點名 ForsLean。體重與脂肪量的統計寫法。"
+    },
+    {
+      "title": "Obesity Research 2005 forskolin trial",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16129715/",
+      "publisher": "Obesity Research",
+      "channel": "paper",
+      "accessed": "2026-11-15",
+      "whatItContributes": "男性 12 週。方法段的商品名拼字是 Forslean、公司名拼成 Sabina。"
+    },
+    {
+      "title": "US5804596A",
+      "url": "https://patents.google.com/patent/US5804596A/en",
+      "publisher": "Google Patents",
+      "channel": "patent",
+      "accessed": "2026-11-15",
+      "whatItContributes": "Sabinsa 的 forskolin 組成專利。頁面狀態是屆期。"
+    },
+    {
+      "title": "和聚產品頁：ForsLean",
+      "url": "https://www.hg-bio.com.tw/products/forslean/",
+      "publisher": "和聚國際生醫材料有限公司",
+      "channel": "other",
+      "accessed": "2026-11-15",
+      "whatItContributes": "廠牌 Sabinsa、Forskolin 10%、產地印度、專利欄寫有。沒有寫獨家。"
+    }
+  ],
+  "discovery": {
+    "channel": "news",
+    "scoutDate": "2026-11-15",
+    "notes": "從 NutraIngredients 2025-08-27 的 Sabinsa 零售配方新聞進入，配方裡點名 ForsLean。再對 Sabinsa 品牌頁、兩篇 PubMed 與 US5804596A。台灣關聯打開和聚的 ForsLean 產品頁；代理二字在該公司關於我們與 FAQ，不升成原廠獨家。"
+  }
+}

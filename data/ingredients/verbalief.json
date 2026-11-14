@@ -1,0 +1,166 @@
+{
+  "id": "verbalief",
+  "example": false,
+  "names": {
+    "commonZh": "毛蕊草葉萃取物",
+    "commonEn": "great mullein leaf extract",
+    "trade": "VERBALIEF（Bionap 的毛蕊草葉萃取商品名）",
+    "scientific": "Verbascum thapsus L.（葉。平台全草另含 Verbascum phlomoides、Verbascum thapsiforme。不是果實，也不是種子。）"
+  },
+  "supply": {
+    "supplierName": "Bionap S.r.l.",
+    "supplierCountry": "義大利",
+    "relationship": "unknown",
+    "taiwanPartyName": "台北來裕公司",
+    "relationshipNote": "2026-11-15 以 VERBALIEF、Verbalief、Bionap、毛蕊草、毛蕊花、Verbascum thapsus、great mullein 搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商交叉查詢，並於發布前換一組關鍵字再查。打開來裕目錄的葉用頁：植物名 Verbascum Thapsus、部位葉，INCI 為向日葵籽油、毛蕊花提取物與生育酚，廠牌 PHENBIOX、產地義大利，欄位是化粧品原料，不是 Bionap 的 VERBALIEF 食品粉末。同站搜尋摘要另有花部甘油萃取，這次以打開的葉部頁為準。人間仙草頁寫非食藥品、僅供薰香；ESPpop 是儀式用乾燥草。和聚有 Bionap 的 Bergavit，沒有 VERBALIEF。同植物、同原廠其他商品都不升成這個商品名的代理。查核日 2026-11-15。"
+  },
+  "tfda": {
+    "usable": "needs_review",
+    "evidenceNotes": "毛蕊草全草列在可供食品使用，分類是茶包、膳食調理包或萃取後作為原料，備註空白；平台說明全草指根、莖、葉、花。同一中文名的果實、種子是另一筆，未經確認安全性前不得作為食品原料。VERBALIEF 是葉的粉末，商品名沒有另列。添加物用毛蕊草與 Verbascum 都是 0 筆。",
+    "lookupDate": "2026-11-15",
+    "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+    "queries": [
+      {
+        "tab": "ingredient",
+        "keyword": "毛蕊草",
+        "category": "",
+        "resultCount": 2,
+        "matchedName": "毛蕊草",
+        "restrictionNote": "全草：可供食品使用，茶包、膳食調理包或萃取後作為原料，備註空白。果實、種子：未經確認其食用安全性前，不得供為食品原料使用。",
+        "unconfirmedSafety": true,
+        "note": "同一中文名兩筆。本品是葉，對到全草，不是果實、種子。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Verbascum",
+        "category": "",
+        "resultCount": 2,
+        "matchedName": "毛蕊草",
+        "restrictionNote": "同上。全草學名含 Verbascum thapsus L.、Verbascum phlomoides L.、Verbascum thapsiforme Schrader。果實、種子那筆只寫 Verbascum thapsus L.。",
+        "unconfirmedSafety": true,
+        "note": "與中文關鍵字同一組兩筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "VERBALIEF",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "毛蕊草",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "添加物 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "Verbascum",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "學名在添加物 0 筆。"
+      },
+      {
+        "tab": "history",
+        "keyword": "毛蕊草",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "助手更新歷程（2026-11-01 至 2026-11-14）沒有這筆異動。"
+      }
+    ],
+    "officialCrosscheck": {
+      "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+      "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+      "done": true,
+      "notes": "2026-11-15 消費者專區 HTTP 為 502，HTTPS 沒有取得頁首。另下載開放資料 InfoId 4：毛蕊草全草可供食品使用，果實與種子為未確認。與查詢助手一致。添加物筆數另以 InfoId 61 核對，毛蕊草與 Verbascum 都沒有品名。"
+    }
+  },
+  "efficacy": {
+    "claimedBenefits": [
+      "Bionap 產品頁寫 VERBALIEF 是毛蕊草葉粉末，標準化毛蕊花糖苷與衍生物，並寫補充 10 天後有助於運動後的恢復、肌肉與關節。這是供應商頁的說法。",
+      "NutraIngredients 2026-09-14 的產品說明寫，66 名活躍成人的隨機雙盲安慰劑對照試驗，在 10 至 28 天看到關節舒適、肌肉恢復、運動後痠痛與耐力相關表現。銷售單寫部分結果尚待發表、不供對外散播。",
+      "ISRCTN19477801 登記 66 人、每日兩顆、28 天，登記頁寫結果尚未張貼。這裡不把未發表的百分比寫成論文結論。"
+    ],
+    "suggestedDosage": "Bionap 產品頁與銷售單都寫建議每日 300 mg。試驗登記寫每日兩顆，沒有在登記頁寫每顆毫克。",
+    "dosageNote": "每日 300 mg 是供應商建議。全草那一筆沒有每日毫克。果實與種子不得作為食品原料。"
+  },
+  "patent": {
+    "status": "unknown",
+    "refs": [],
+    "note": "產品頁與 SupplySide Global 2026 產品頁都沒有給專利號。這次沒有打開對得上 VERBALIEF 的專利全文，不填成無。"
+  },
+  "literature": {
+    "status": "unknown",
+    "refs": [],
+    "note": "ISRCTN19477801 已完成登記，結果欄寫尚未張貼。銷售單寫臨床結果部分尚待發表。這次沒有讀到已刊出的論文，不把供應商頁的臨床句子填成文獻。"
+  },
+  "evidenceLevels": [],
+  "images": [
+    {
+      "url": "https://bionap.com/assets/images/products/verbalief/verbalief_1.png",
+      "localPath": "",
+      "caption": "Bionap 官網 VERBALIEF 產品頁上的商品圖。",
+      "source": "official_site"
+    }
+  ],
+  "sources": [
+    {
+      "title": "New to Market: VERBALIEF",
+      "url": "https://www.nutraingredients.com/Product-innovations/new-to-market-verbalief-clinically-proven-ingredient-for-active-sport-nutrition/",
+      "publisher": "NutraIngredients",
+      "channel": "news",
+      "accessed": "2026-11-15",
+      "whatItContributes": "2026-09-14 錄製的產品說明：Bionap 新原料，Verbascum thapsus 葉萃取，66 名成人、10 至 28 天。"
+    },
+    {
+      "title": "BIONAP - Verbalief",
+      "url": "https://bionap.com/products/verbalief",
+      "publisher": "Bionap",
+      "channel": "supplier_site",
+      "accessed": "2026-11-15",
+      "whatItContributes": "葉的粉末、建議每日 300 mg、義大利 Belpasso 地址，以及供應商自己的效益句子。"
+    },
+    {
+      "title": "SupplySide Global 2026 product page: VERBALIEF",
+      "url": "https://attendees.supplysideshow.com/event/supplyside-global-2026-1/product/UHJvZHVjdF8xNTUwODMy",
+      "publisher": "SupplySide Global",
+      "channel": "exhibition",
+      "accessed": "2026-11-15",
+      "whatItContributes": "展會產品頁：9–11% 毛蕊花糖苷與衍生物、每日 300 mg，展出單位 Bionap USA。"
+    },
+    {
+      "title": "ISRCTN19477801",
+      "url": "https://www.isrctn.com/ISRCTN19477801",
+      "publisher": "ISRCTN registry",
+      "channel": "other",
+      "accessed": "2026-11-15",
+      "whatItContributes": "試驗登記：66 人、每日兩顆、28 天，結果尚未張貼。贊助者 BIONAP S.R.L.。"
+    },
+    {
+      "title": "來裕目錄：毛蕊花葉用油萃取",
+      "url": "http://www.lica.com.tw/home/index.php/tw/2018-08-18-14-31-35/item/mullein-6",
+      "publisher": "台北來裕公司",
+      "channel": "other",
+      "accessed": "2026-11-15",
+      "whatItContributes": "同植物的葉用油萃取，廠牌是 PHENBIOX，INCI 化粧品欄位。不是 VERBALIEF。"
+    }
+  ],
+  "discovery": {
+    "channel": "news",
+    "scoutDate": "2026-11-15",
+    "notes": "從 NutraIngredients 2026-09-14 的 VERBALIEF 產品說明進入，再對 Bionap 產品頁、SupplySide Global 2026 產品頁與 ISRCTN19477801。台灣關聯另開來裕的 PHENBIOX 葉用頁，以及和聚的 Bionap 目錄；後者只有 Bergavit。"
+  }
+}

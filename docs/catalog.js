@@ -7,6 +7,915 @@ window.INGREDIENT_CATALOG = {
         "exhibition",
         "industry_report"
       ],
+      "date": "2026-11-15",
+      "example": false,
+      "notes": "正式五筆。主管道：VERBALIEF、TrueBroc、ForsLean 為新聞；Bergavit 為展覽；Carnipure 為產業報導。毛蕊草全草有列，果實與種子未確認。香檸檬果實、青花菜種子萃取物、毛喉鞘蕊花根有列。左旋肉鹼是添加物兩筆，範圍不同。",
+      "picks": [
+        {
+          "discovery": {
+            "channel": "news",
+            "notes": "從 NutraIngredients 2026-09-14 的 VERBALIEF 產品說明進入，再對 Bionap 產品頁、SupplySide Global 2026 產品頁與 ISRCTN19477801。台灣關聯另開來裕的 PHENBIOX 葉用頁，以及和聚的 Bionap 目錄；後者只有 Bergavit。",
+            "scoutDate": "2026-11-15"
+          },
+          "efficacy": {
+            "claimedBenefits": [
+              "Bionap 產品頁寫 VERBALIEF 是毛蕊草葉粉末，標準化毛蕊花糖苷與衍生物，並寫補充 10 天後有助於運動後的恢復、肌肉與關節。這是供應商頁的說法。",
+              "NutraIngredients 2026-09-14 的產品說明寫，66 名活躍成人的隨機雙盲安慰劑對照試驗，在 10 至 28 天看到關節舒適、肌肉恢復、運動後痠痛與耐力相關表現。銷售單寫部分結果尚待發表、不供對外散播。",
+              "ISRCTN19477801 登記 66 人、每日兩顆、28 天，登記頁寫結果尚未張貼。這裡不把未發表的百分比寫成論文結論。"
+            ],
+            "dosageNote": "每日 300 mg 是供應商建議。全草那一筆沒有每日毫克。果實與種子不得作為食品原料。",
+            "suggestedDosage": "Bionap 產品頁與銷售單都寫建議每日 300 mg。試驗登記寫每日兩顆，沒有在登記頁寫每顆毫克。"
+          },
+          "evidenceLevels": [],
+          "example": false,
+          "id": "verbalief",
+          "images": [
+            {
+              "caption": "Bionap 官網 VERBALIEF 產品頁上的商品圖。",
+              "localPath": "",
+              "source": "official_site",
+              "url": "https://bionap.com/assets/images/products/verbalief/verbalief_1.png"
+            }
+          ],
+          "literature": {
+            "note": "ISRCTN19477801 已完成登記，結果欄寫尚未張貼。銷售單寫臨床結果部分尚待發表。這次沒有讀到已刊出的論文，不把供應商頁的臨床句子填成文獻。",
+            "refs": [],
+            "status": "unknown"
+          },
+          "names": {
+            "commonEn": "great mullein leaf extract",
+            "commonZh": "毛蕊草葉萃取物",
+            "scientific": "Verbascum thapsus L.（葉。平台全草另含 Verbascum phlomoides、Verbascum thapsiforme。不是果實，也不是種子。）",
+            "trade": "VERBALIEF（Bionap 的毛蕊草葉萃取商品名）"
+          },
+          "patent": {
+            "note": "產品頁與 SupplySide Global 2026 產品頁都沒有給專利號。這次沒有打開對得上 VERBALIEF 的專利全文，不填成無。",
+            "refs": [],
+            "status": "unknown"
+          },
+          "sources": [
+            {
+              "accessed": "2026-11-15",
+              "channel": "news",
+              "publisher": "NutraIngredients",
+              "title": "New to Market: VERBALIEF",
+              "url": "https://www.nutraingredients.com/Product-innovations/new-to-market-verbalief-clinically-proven-ingredient-for-active-sport-nutrition/",
+              "whatItContributes": "2026-09-14 錄製的產品說明：Bionap 新原料，Verbascum thapsus 葉萃取，66 名成人、10 至 28 天。"
+            },
+            {
+              "accessed": "2026-11-15",
+              "channel": "supplier_site",
+              "publisher": "Bionap",
+              "title": "BIONAP - Verbalief",
+              "url": "https://bionap.com/products/verbalief",
+              "whatItContributes": "葉的粉末、建議每日 300 mg、義大利 Belpasso 地址，以及供應商自己的效益句子。"
+            },
+            {
+              "accessed": "2026-11-15",
+              "channel": "exhibition",
+              "publisher": "SupplySide Global",
+              "title": "SupplySide Global 2026 product page: VERBALIEF",
+              "url": "https://attendees.supplysideshow.com/event/supplyside-global-2026-1/product/UHJvZHVjdF8xNTUwODMy",
+              "whatItContributes": "展會產品頁：9–11% 毛蕊花糖苷與衍生物、每日 300 mg，展出單位 Bionap USA。"
+            },
+            {
+              "accessed": "2026-11-15",
+              "channel": "other",
+              "publisher": "ISRCTN registry",
+              "title": "ISRCTN19477801",
+              "url": "https://www.isrctn.com/ISRCTN19477801",
+              "whatItContributes": "試驗登記：66 人、每日兩顆、28 天，結果尚未張貼。贊助者 BIONAP S.R.L.。"
+            },
+            {
+              "accessed": "2026-11-15",
+              "channel": "other",
+              "publisher": "台北來裕公司",
+              "title": "來裕目錄：毛蕊花葉用油萃取",
+              "url": "http://www.lica.com.tw/home/index.php/tw/2018-08-18-14-31-35/item/mullein-6",
+              "whatItContributes": "同植物的葉用油萃取，廠牌是 PHENBIOX，INCI 化粧品欄位。不是 VERBALIEF。"
+            }
+          ],
+          "supply": {
+            "relationship": "unknown",
+            "relationshipNote": "2026-11-15 以 VERBALIEF、Verbalief、Bionap、毛蕊草、毛蕊花、Verbascum thapsus、great mullein 搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商交叉查詢，並於發布前換一組關鍵字再查。打開來裕目錄的葉用頁：植物名 Verbascum Thapsus、部位葉，INCI 為向日葵籽油、毛蕊花提取物與生育酚，廠牌 PHENBIOX、產地義大利，欄位是化粧品原料，不是 Bionap 的 VERBALIEF 食品粉末。同站搜尋摘要另有花部甘油萃取，這次以打開的葉部頁為準。人間仙草頁寫非食藥品、僅供薰香；ESPpop 是儀式用乾燥草。和聚有 Bionap 的 Bergavit，沒有 VERBALIEF。同植物、同原廠其他商品都不升成這個商品名的代理。查核日 2026-11-15。",
+            "supplierCountry": "義大利",
+            "supplierName": "Bionap S.r.l.",
+            "taiwanPartyName": "台北來裕公司"
+          },
+          "tfda": {
+            "evidenceNotes": "毛蕊草全草列在可供食品使用，分類是茶包、膳食調理包或萃取後作為原料，備註空白；平台說明全草指根、莖、葉、花。同一中文名的果實、種子是另一筆，未經確認安全性前不得作為食品原料。VERBALIEF 是葉的粉末，商品名沒有另列。添加物用毛蕊草與 Verbascum 都是 0 筆。",
+            "lookupDate": "2026-11-15",
+            "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+            "officialCrosscheck": {
+              "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+              "done": true,
+              "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+              "notes": "2026-11-15 消費者專區 HTTP 為 502，HTTPS 沒有取得頁首。另下載開放資料 InfoId 4：毛蕊草全草可供食品使用，果實與種子為未確認。與查詢助手一致。添加物筆數另以 InfoId 61 核對，毛蕊草與 Verbascum 都沒有品名。"
+            },
+            "queries": [
+              {
+                "category": "",
+                "keyword": "毛蕊草",
+                "matchedName": "毛蕊草",
+                "note": "同一中文名兩筆。本品是葉，對到全草，不是果實、種子。",
+                "restrictionNote": "全草：可供食品使用，茶包、膳食調理包或萃取後作為原料，備註空白。果實、種子：未經確認其食用安全性前，不得供為食品原料使用。",
+                "resultCount": 2,
+                "tab": "ingredient",
+                "unconfirmedSafety": true
+              },
+              {
+                "category": "",
+                "keyword": "Verbascum",
+                "matchedName": "毛蕊草",
+                "note": "與中文關鍵字同一組兩筆。",
+                "restrictionNote": "同上。全草學名含 Verbascum thapsus L.、Verbascum phlomoides L.、Verbascum thapsiforme Schrader。果實、種子那筆只寫 Verbascum thapsus L.。",
+                "resultCount": 2,
+                "tab": "ingredient",
+                "unconfirmedSafety": true
+              },
+              {
+                "category": "",
+                "keyword": "VERBALIEF",
+                "matchedName": "",
+                "note": "商品名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "毛蕊草",
+                "matchedName": "",
+                "note": "添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Verbascum",
+                "matchedName": "",
+                "note": "學名在添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "毛蕊草",
+                "matchedName": "",
+                "note": "助手更新歷程（2026-11-01 至 2026-11-14）沒有這筆異動。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "history",
+                "unconfirmedSafety": false
+              }
+            ],
+            "usable": "needs_review"
+          }
+        },
+        {
+          "discovery": {
+            "channel": "exhibition",
+            "notes": "從 2026 亞洲美容保養生技保健大展的和聚香檸檬頁進入，再對 Bionap 產品頁、和聚產品頁與 Foods 2024。專利欄兩處不一致，都留下。",
+            "scoutDate": "2026-11-15"
+          },
+          "efficacy": {
+            "claimedBenefits": [
+              "Bionap 產品頁寫 Bergavit 由卡拉布里亞香檸檬果汁取出主要類黃酮，並寫有助維持正常膽固醇、血管與脂蛋白。這是供應商頁的說法。",
+              "Foods 2024 年論文的受試物寫 Bergavit。64 名高膽固醇成人，每日 1 顆 375 mg（類黃酮 150 mg），4 個月後總膽固醇降 8.8%、LDL-C 降 11.5%；HDL-C 升 5.5% 該文寫尚未達顯著。研究由 Bionap 出資。"
+            ],
+            "dosageNote": "550–600 mg 與 375 mg 都是供應商或該篇試驗的劑量，不是台灣法規上限。果實列名沒有每日毫克。",
+            "suggestedDosage": "Bionap 產品頁寫每日 150 mg 類黃酮，相當於 Bergavit 550–600 mg。同一篇 2024 年論文用的是每日 375 mg 膠囊來提供 150 mg 類黃酮。和聚產品頁規格寫 25%，原廠銷售資料寫 25–28%。"
+          },
+          "evidenceLevels": [
+            "clinical"
+          ],
+          "example": false,
+          "id": "bergavit",
+          "images": [
+            {
+              "caption": "Bionap 官網 Bergavit 產品頁上的商品圖。",
+              "localPath": "",
+              "source": "official_site",
+              "url": "https://bionap.com/assets/images/products/bergavit/img_1.png"
+            }
+          ],
+          "literature": {
+            "note": "已讀該文摘要與方法段的劑量、人數與百分比。原廠頁的 550–600 mg 沒有改寫成這篇試驗的膠囊重量。",
+            "refs": [
+              {
+                "note": "Foods 2024, 13(23), 3883。受試物寫 Bergavit，每日 375 mg、類黃酮 150 mg、4 個月、64 人。Bionap 出資。",
+                "title": "Citrus bergamia Extract, a Natural Approach for Cholesterol and Lipid Metabolism Management",
+                "url": "https://doi.org/10.3390/foods13233883"
+              }
+            ],
+            "status": "yes"
+          },
+          "names": {
+            "commonEn": "bergamot juice flavonoids",
+            "commonZh": "香檸檬果汁類黃酮",
+            "scientific": "Citrus bergamia（Bionap 頁亦寫 Citrus aurantium L. var. bergamia。果汁。不是香櫞佛手柑 Citrus medica var. sarcodactylis。）",
+            "trade": "Bergavit（Bionap 的香檸檬果汁類黃酮商品名）"
+          },
+          "patent": {
+            "note": "和聚產品頁專利欄寫無，展會頁寫專利型，沒有給號碼。這次用 Bergavit、Bionap 沒有打開可核對的專利全文，兩處說法都留下，不填成無。",
+            "refs": [],
+            "status": "unknown"
+          },
+          "sources": [
+            {
+              "accessed": "2026-11-15",
+              "channel": "exhibition",
+              "publisher": "亞洲美容保養生技保健大展參展頁",
+              "title": "2026 亞洲美容保養生技保健大展：香檸檬萃取物",
+              "url": "https://www.chanchao.com.tw/healthcos/visitorProductDetail.asp?no=179730",
+              "whatItContributes": "和聚國際攤位 i1116。頁面寫 Bergavit 取自卡拉布里亞香檸檬果汁，並寫「專利型」。"
+            },
+            {
+              "accessed": "2026-11-15",
+              "channel": "supplier_site",
+              "publisher": "Bionap",
+              "title": "BIONAP - Bergavit",
+              "url": "https://bionap.com/products/bergavit",
+              "whatItContributes": "果汁類黃酮、建議每日 150 mg 類黃酮（對應粉末 550–600 mg）、義大利地址。"
+            },
+            {
+              "accessed": "2026-11-15",
+              "channel": "other",
+              "publisher": "和聚國際生醫材料有限公司",
+              "title": "和聚產品頁：Bergavit",
+              "url": "https://www.hg-bio.com.tw/products/bergavit/",
+              "whatItContributes": "廠牌 Bionap、類黃酮 25%、專利欄寫無。與展會頁的「專利型」不同。"
+            },
+            {
+              "accessed": "2026-11-15",
+              "channel": "paper",
+              "publisher": "Foods",
+              "title": "Foods 2024, 10.3390/foods13233883",
+              "url": "https://doi.org/10.3390/foods13233883",
+              "whatItContributes": "點名 Bergavit 的 4 個月試驗、375 mg 膠囊與血脂百分比。"
+            }
+          ],
+          "supply": {
+            "relationship": "taiwan_agent",
+            "relationshipNote": "和聚產品頁列出廠牌 Bionap、規格柑橘類黃酮（neohesperidin 等）25%、專利欄寫無。2026 亞洲美容保養生技保健大展頁（攤位 i1116）介紹同一商品，並寫「專利型」。兩處並陳。關於我們與 FAQ 自述代理進口原料，Bergavit 產品頁沒有寫獨家或原廠指定。Bionap 產品頁地址在義大利 Belpasso，沒有點名和聚。不升格為原廠證實或獨家。查核日 2026-11-15。",
+            "supplierCountry": "義大利",
+            "supplierName": "Bionap S.r.l.",
+            "taiwanPartyName": "和聚國際生醫材料有限公司"
+          },
+          "tfda": {
+            "evidenceNotes": "香檸檬（Citrus bergamia、Citrus aurantium var. bergamia）果實列在可供直接食用，備註空白。商品名 Bergavit 沒有另列。關鍵字「佛手柑」另外命中香櫞佛手柑果實，也是可供直接食用，不是這支香檸檬。添加物用香檸檬與 Bergavit 都是 0 筆。果實那一筆沒有每日毫克。",
+            "lookupDate": "2026-11-15",
+            "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+            "officialCrosscheck": {
+              "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+              "done": true,
+              "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+              "notes": "2026-11-15 消費者專區 HTTP 為 502。開放資料 InfoId 4 的香檸檬果實為可供直接食用，學名 Citrus bergamia、Citrus aurantium var. bergamia；佛手柑另一筆是 Citrus medica var. sarcodactylis。與查詢助手一致。InfoId 61 沒有香檸檬或 Bergavit 品名。"
+            },
+            "queries": [
+              {
+                "category": "",
+                "keyword": "香檸檬",
+                "matchedName": "香檸檬；佛手柑",
+                "note": "不是未確認分類。",
+                "restrictionNote": "果實：可供食品使用，分類是可供直接食用，備註空白。學名 Citrus bergamia、Citrus aurantium var. bergamia。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "bergamia",
+                "matchedName": "香檸檬；佛手柑",
+                "note": "與中文關鍵字同一筆。",
+                "restrictionNote": "同上。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "佛手柑",
+                "matchedName": "香檸檬；佛手柑",
+                "note": "同字命中兩個物種。本品是 Citrus bergamia。",
+                "restrictionNote": "兩筆都是果實、可供直接食用。另一筆中文名是佛手柑，學名 Citrus medica var. sarcodactylis，外文 Fingered citron。",
+                "resultCount": 2,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Bergavit",
+                "matchedName": "",
+                "note": "商品名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "香檸檬",
+                "matchedName": "",
+                "note": "添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Bergavit",
+                "matchedName": "",
+                "note": "商品名在添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "香檸檬",
+                "matchedName": "",
+                "note": "助手更新歷程（2026-11-01 至 2026-11-14）沒有這筆異動。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "history",
+                "unconfirmedSafety": false
+              }
+            ],
+            "usable": "listed_food_ingredient"
+          }
+        },
+        {
+          "discovery": {
+            "channel": "news",
+            "notes": "從 2026-02-19 的 TrueBroc 新聞稿進入，再對 Scientific Reports、Brassica 產品頁與台灣卡爾迪克原料頁。原廠仍寫 Connell Brothers，對到同一地址的卡爾迪克與 2025 年改名公告。",
+            "scoutDate": "2026-11-15"
+          },
+          "efficacy": {
+            "claimedBenefits": [
+              "Brassica 產品頁寫 TrueBroc 是青花菜種子熱水萃取，蘿蔔硫苷 13%，並寫攝取後抗氧化作用可到 72 小時、其他抗氧化劑約 3 小時。72 小時這句是供應商頁的說法。",
+              "Scientific Reports 2026-02-15：16 名成人單次口服。TrueBroc 385 mg（115 µmol、50 mg 蘿蔔硫苷）單獨時，24 小時尿中蘿蔔硫素代謝物為劑量的 18.6%；加上芥末種子芥子酶為 39.8%。前 8 小時是 8.0% 與 25.4%。沒有不良事件。這是轉換率，不是疾病療效。"
+            ],
+            "dosageNote": "385 mg 是這篇試驗的單次劑量。115 mg 是公告對特定製程的每日上限。論文寫 refractance window drying，公告寫噴霧乾燥並經活性碳，兩套文字沒有併成同一規格。",
+            "suggestedDosage": "論文的單次劑量是 TrueBroc 385 mg，含 50 mg 蘿蔔硫苷。原廠頁寫規格 13% 蘿蔔硫苷，沒有另寫一個每日建議毫克。台灣公告對符合該製程定義的種子萃取物，每日 115 mg。"
+          },
+          "evidenceLevels": [
+            "clinical"
+          ],
+          "example": false,
+          "id": "truebroc",
+          "images": [
+            {
+              "caption": "Brassica 官網 TrueBroc 產品頁上的商品標誌。",
+              "localPath": "",
+              "source": "official_site",
+              "url": "https://brassica.com/wp-content/uploads/2016/08/TrueBroc_Notag-wBoxTransparent_R_4c_Final.png"
+            }
+          ],
+          "literature": {
+            "note": "已讀方法段的 385 mg、50 mg 蘿蔔硫苷與製程描述。新聞稿把 18.6% 與 39.8% 四捨五入成 19% 與 40%，這裡用論文數字。",
+            "refs": [
+              {
+                "note": "Scientific Reports，2026-02-15。16 人、單次、交叉。受試物寫 TrueBroc。轉換率 18.6% 與 39.8%。",
+                "title": "Exogenous myrosinase from mustard seed increases bioavailability of sulforaphane from a glucoraphanin-rich broccoli seed extract",
+                "url": "https://doi.org/10.1038/s41598-026-39389-4"
+              }
+            ],
+            "status": "yes"
+          },
+          "names": {
+            "commonEn": "broccoli seed extract (glucoraphanin)",
+            "commonZh": "青花菜種子萃取物（蘿蔔硫苷）",
+            "scientific": "Brassica oleracea L. var. italica（種子的熱水萃取。不是花球，也不是芥末種子的芥子酶。）",
+            "trade": "TrueBroc（Brassica Protection Products 的青花菜種子萃取商品名；台灣頁亦寫 Truebroc）"
+          },
+          "patent": {
+            "note": "原廠頁寫 patent protected，並寫是 Johns Hopkins 芥子油苷與異硫氰酸酯技術的獨家被授權人，沒有在該頁給專利號。上面兩則是這次打開的專利與 2002 年無效判決，不把已無效的芽苗專利寫成仍涵蓋現在的種子萃取規格。",
+            "refs": [
+              {
+                "note": "Johns Hopkins。十字花科芽苗相關食物。Google Patents 頁寫 Expired - Lifetime。",
+                "title": "US5968505A",
+                "url": "https://patents.google.com/patent/US5968505A/en"
+              },
+              {
+                "note": "聯邦巡迴上訴法院維持地院判決：US 5,725,895、5,968,567、5,968,505 因先前技術而無效。當事人含 Brassica 與 Johns Hopkins。",
+                "title": "Brassica Protection Products LLC v. Sunrise Farms（Fed. Cir. 2002）",
+                "url": "https://www.courtlistener.com/opinion/7107572/brassica-protection-products-llc-v-sunrise-farms/"
+              }
+            ],
+            "status": "yes"
+          },
+          "sources": [
+            {
+              "accessed": "2026-11-15",
+              "channel": "news",
+              "publisher": "EIN Presswire（Brassica 新聞稿）",
+              "title": "EIN Presswire：TrueBroc bioavailability trial",
+              "url": "https://www.einpresswire.com/article/893839751/new-human-clinical-trial-with-glucoraphanin-rich-broccoli-seed-extract-shows-doubling-of-sulforaphane-bioavailability",
+              "whatItContributes": "2026-02-19：點名 TrueBroc，並把轉換率寫成約 19% 到 40%。公司執行長姓名留在稿內，這裡不轉抄。"
+            },
+            {
+              "accessed": "2026-11-15",
+              "channel": "paper",
+              "publisher": "Scientific Reports",
+              "title": "Scientific Reports 2026, 10.1038/s41598-026-39389-4",
+              "url": "https://doi.org/10.1038/s41598-026-39389-4",
+              "whatItContributes": "16 人單次試驗的劑量、製程與 18.6%、39.8%。"
+            },
+            {
+              "accessed": "2026-11-15",
+              "channel": "supplier_site",
+              "publisher": "Brassica Protection Products",
+              "title": "TrueBroc product page",
+              "url": "https://brassica.com/truebroc/",
+              "whatItContributes": "熱水萃取、13% 蘿蔔硫苷、亞洲夥伴寫 Connell Brothers，以及供應商的 72 小時句子。"
+            },
+            {
+              "accessed": "2026-11-15",
+              "channel": "other",
+              "publisher": "台灣卡爾迪克",
+              "title": "台灣卡爾迪克：BRASSICA 花椰菜萃取",
+              "url": "https://www.caldic.com.tw/raw/brassica-%E8%8A%B1%E6%A4%B0%E8%8F%9C%E8%90%83%E5%8F%96/",
+              "whatItContributes": "列出 Truebroc 與 13% 蘿蔔硫苷，並抄了公告裡的熱水萃取與噴霧乾燥製程。"
+            },
+            {
+              "accessed": "2026-11-15",
+              "channel": "other",
+              "publisher": "Caldic",
+              "title": "Connell Caldic rebranded to Caldic APAC",
+              "url": "https://www.caldic.com/en-co/insights/connell-caldic-rebranded-to-caldic-apac/",
+              "whatItContributes": "2025-04-08：Connell Caldic 自 2025-04-01 改名 Caldic APAC。沒有點名 TrueBroc。"
+            }
+          ],
+          "supply": {
+            "relationship": "taiwan_distributor",
+            "relationshipNote": "台灣卡爾迪克原料頁列出 Truebroc 青花菜種子萃取物（含 13% 蘿蔔硫苷），地址是台北市大安區光復南路 102 號 12 樓，並整段抄了熱水萃取、活性碳與噴霧乾燥的製程文字。Brassica 產品頁寫亞洲由 Connell Brothers 銷售；聯絡頁把 Connell Bros. Co. (Taiwan), Ltd. 放在同一地址。Caldic 2025-04-08 公告寫 Connell Caldic 自 2025-04-01 改名 Caldic APAC。原廠頁仍寫 Connell，沒有改成卡爾迪克。記為經銷。頁上個人姓名與電話不收入。查核日 2026-11-15。",
+            "supplierCountry": "美國",
+            "supplierName": "Brassica Protection Products LLC",
+            "taiwanPartyName": "台灣卡爾迪克"
+          },
+          "tfda": {
+            "evidenceNotes": "青花菜種子萃取物 1 筆，可供食品使用。公告限定熱水萃取後再經活性碳、離心、過濾、濃縮及噴霧乾燥，限成人，每日 115 毫克，並應標示孕婦、授乳者、甲狀腺疾病，以及抗凝血劑與癌症患者用前諮詢。TrueBroc 商品名沒有另列。論文寫的是熱水萃取後 refractance window drying，單次 385 毫克，製程文字和劑量都不是自動套用這則 115 毫克規格。添加物 0 筆。",
+            "lookupDate": "2026-11-15",
+            "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+            "officialCrosscheck": {
+              "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+              "done": true,
+              "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+              "notes": "2026-11-15 消費者專區 HTTP 為 502。開放資料 InfoId 4 的青花菜種子萃取物備註含 1121301044 號、每日 115 毫克與警語；花球是另一筆。與查詢助手一致。InfoId 61 沒有青花菜品名。"
+            },
+            "queries": [
+              {
+                "category": "",
+                "keyword": "青花菜種子",
+                "matchedName": "青花菜種子萃取物",
+                "note": "學名 Brassica oleracea var. italica，部位種子。",
+                "restrictionNote": "衛授食字第1121301044號：熱水萃取、活性碳、離心、過濾、濃縮及噴霧乾燥。限成人。每日 115 毫克。警語：孕婦、授乳者及甲狀腺相關疾病患者應避免食用；服用抗凝血劑及癌症患者使用前須先諮詢醫療人員。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "青花菜",
+                "matchedName": "青花菜種子萃取物",
+                "note": "花球不是本品。",
+                "restrictionNote": "種子萃取物如上。另一筆是青花菜花球，可供直接食用，備註空白。",
+                "resultCount": 2,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "TrueBroc",
+                "matchedName": "",
+                "note": "商品名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "青花菜",
+                "matchedName": "",
+                "note": "添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "glucoraphanin",
+                "matchedName": "",
+                "note": "成分英文名在添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "青花菜",
+                "matchedName": "",
+                "note": "助手更新歷程（2026-11-01 至 2026-11-14）沒有這筆異動。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "history",
+                "unconfirmedSafety": false
+              }
+            ],
+            "usable": "listed_food_ingredient"
+          }
+        },
+        {
+          "discovery": {
+            "channel": "industry_report",
+            "notes": "從 Nutrition Insight 2023-03-16 的運動營養報導進入，該篇點名 Carnipure。再對 Lonza 產品頁。台灣關聯打開婿展的品牌授權頁與樂沛力成品頁；瀧晶只有批發頁線索，官網沒打開，維持待確認。",
+            "scoutDate": "2026-11-15"
+          },
+          "efficacy": {
+            "claimedBenefits": [
+              "Lonza 的 Carnipure 產品頁寫，這個左旋肉鹼有助於能量、體重管理與運動恢復，並寫相較安慰劑，與運動有關的疲勞和痠痛減少 25%。25% 是該頁的供應商句子，頁上沒有同時寫出劑量。",
+              "同一頁寫結晶與酒石酸鹽兩種規格，並寫 2001 至 2010 年與康乃狄克大學合作、使用 Carnipure 酒石酸鹽的運動恢復研究，發表了九篇同儕論文。這次沒有打開那九篇全文。"
+            ],
+            "dosageNote": "沒有把供應商頁沒寫的劑量補上。L-肉鹼添加物對膠囊、錠狀的每日總量上限是 2 克；酒石酸鹽那一筆只寫特殊營養食品。兩筆都是營養素補充用途，不是健康食品許可。",
+            "suggestedDosage": "2026-11-15 讀到的產品頁沒有寫單一每日毫克。酒石酸鹽規格寫約含 68% L-肉鹼。"
+          },
+          "evidenceLevels": [],
+          "example": false,
+          "id": "carnipure",
+          "images": [
+            {
+              "caption": "Lonza／Capsugel 的 Carnipure 產品頁所連結的商品情境圖。",
+              "localPath": "",
+              "source": "official_site",
+              "url": "https://www.capsugel.com/application/files/2717/7754/7515/carnipure_lifestyle.webp"
+            }
+          ],
+          "literature": {
+            "note": "產品頁列出 Stefan 等 2021、Volek 等 2002 等引用，並寫有數十篇人體研究。這次打開 MDPI 得到 403，沒有讀到點名 Carnipure 的論文全文，不把供應商的 25% 填成已核對的文獻。",
+            "refs": [],
+            "status": "unknown"
+          },
+          "names": {
+            "commonEn": "L-carnitine",
+            "commonZh": "左旋肉鹼",
+            "scientific": "不適用植物學名。成分是 L-肉鹼。酒石酸鹽頁寫由 L-肉鹼與食品級酒石酸以莫耳比 2:1 製成，約 68% L-肉鹼與 32% L-酒石酸。",
+            "trade": "Carnipure（Lonza 的左旋肉鹼商品名；頁上分結晶與酒石酸鹽）"
+          },
+          "patent": {
+            "note": "產品頁寫不含氰化鈉的製程，沒有給專利號。這次沒有打開對得上 Carnipure 的專利全文，不填成無。",
+            "refs": [],
+            "status": "unknown"
+          },
+          "sources": [
+            {
+              "accessed": "2026-11-15",
+              "channel": "industry_report",
+              "publisher": "Nutrition Insight",
+              "title": "Power for the people: Sports nutrition diversifies",
+              "url": "https://www.nutritioninsight.com/news/power-for-the-people-sports-nutrition-diversifies-as-active-lifestyles-proliferate-across-generations.html",
+              "whatItContributes": "2023-03-16：Lonza 把 Carnipure L-carnitine 列為能量與體能原料，與 TWK10、UC-II 分開寫。"
+            },
+            {
+              "accessed": "2026-11-15",
+              "channel": "supplier_site",
+              "publisher": "Lonza／Capsugel",
+              "title": "Carnipure L-carnitine for Human",
+              "url": "https://www.lonza.com/capsules-health-ingredients/nutraceutical-solutions/ingredients/carnipure",
+              "whatItContributes": "結晶與酒石酸鹽兩種規格、68% 與 32% 的比例，以及頁上的 25% 疲勞句子。直接連線曾被拒，文字以同日可讀的頁面擷取核對。"
+            },
+            {
+              "accessed": "2026-11-15",
+              "channel": "other",
+              "publisher": "婿展國際有限公司",
+              "title": "婿展國際：Carnipure 品牌授權頁",
+              "url": "https://nuxu.bvshop.tw/page/%E5%93%81%E7%89%8C%E6%8E%88%E6%AC%8A-carnipure",
+              "whatItContributes": "該公司自述 Carnipure 品牌授權，對應的是康尼液態膠囊成品。頁上聯絡方式不轉抄。"
+            },
+            {
+              "accessed": "2026-11-15",
+              "channel": "other",
+              "publisher": "藥王有機藥局商品頁",
+              "title": "樂沛力卡尼汀全素膠囊",
+              "url": "https://web.hocom.tw/h/ProductDetail?cateId=36121&key=808172030539&productId=324249",
+              "whatItContributes": "成品頁寫原料來源 LONZA carnipure，代理商為譚璽貿易。不是原料經銷契約。"
+            }
+          ],
+          "supply": {
+            "relationship": "unknown",
+            "relationshipNote": "婿展國際的頁面標題寫 Carnipure 品牌授權，內文是康尼左旋肉鹼液態膠囊這個成品，屬於該公司自述，不是 Lonza 點名的原料經銷。樂沛力成品頁寫原料來源 LONZA carnipure、代理商為譚璽貿易，是成品採用與成品代理。Lonza 產品頁沒有點名這兩家。另有批發頁寫瀧晶生技取得商標與代工授權，頁上是個人聯絡方式，這次沒有打開瀧晶自己的網站，該句維持待確認，不升格。查核日 2026-11-15。",
+            "supplierCountry": "瑞士",
+            "supplierName": "Lonza",
+            "taiwanPartyName": "婿展國際有限公司；譚璽貿易"
+          },
+          "tfda": {
+            "evidenceNotes": "原料分頁用肉鹼、Carnitine、Carnipure 都是 0 筆。添加物有兩筆，都限於補充食品中不足的營養素。L-肉鹼可用於標示每日食用量的膠囊與錠狀，每日總量不得高於 2 克，也可於特殊營養食品適量使用。L-酒石酸肉鹼只寫特殊營養食品。Carnipure 同時有結晶與酒石酸鹽，兩筆範圍不同，不併成一種准用。",
+            "lookupDate": "2026-11-15",
+            "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+            "officialCrosscheck": {
+              "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+              "done": true,
+              "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+              "notes": "2026-11-15 消費者專區 HTTP 為 502。開放資料 InfoId 4 沒有肉鹼品名。InfoId 61 有 L-肉鹼與 L-酒石酸肉鹼，使用範圍與 2 克上限、特殊營養食品的寫法與查詢助手一致。"
+            },
+            "queries": [
+              {
+                "category": "",
+                "keyword": "肉鹼",
+                "matchedName": "",
+                "note": "原料 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Carnitine",
+                "matchedName": "",
+                "note": "原料 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Carnipure",
+                "matchedName": "",
+                "note": "商品名在原料 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "肉鹼",
+                "matchedName": "L-肉鹼(L-肉酸)",
+                "note": "兩筆營養添加劑，範圍不同。",
+                "restrictionNote": "L-肉鹼：膠囊、錠狀且標示每日食用量者，每日總量不得高於 2 g；另可於特殊營養食品適量使用。L-酒石酸肉鹼：可於特殊營養食品適量使用。兩筆使用限制都是限於補充食品中不足之營養素。",
+                "resultCount": 2,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Carnitine",
+                "matchedName": "L-肉鹼(L-肉酸)",
+                "note": "與中文關鍵字同一組兩筆。",
+                "restrictionNote": "同上。英文品名 L-Carnitine 與 L-Carnitine Tartrate。",
+                "resultCount": 2,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Carnipure",
+                "matchedName": "",
+                "note": "商品名在添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "肉鹼",
+                "matchedName": "",
+                "note": "助手更新歷程（2026-11-01 至 2026-11-14）沒有這筆異動。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "history",
+                "unconfirmedSafety": false
+              }
+            ],
+            "usable": "needs_review"
+          }
+        },
+        {
+          "discovery": {
+            "channel": "news",
+            "notes": "從 NutraIngredients 2025-08-27 的 Sabinsa 零售配方新聞進入，配方裡點名 ForsLean。再對 Sabinsa 品牌頁、兩篇 PubMed 與 US5804596A。台灣關聯打開和聚的 ForsLean 產品頁；代理二字在該公司關於我們與 FAQ，不升成原廠獨家。",
+            "scoutDate": "2026-11-15"
+          },
+          "efficacy": {
+            "claimedBenefits": [
+              "Sabinsa 品牌頁寫 ForsLean 是根萃取、標準化 10% forskolin，並寫有助維持體組成、減少體脂、支持除脂體重。這是供應商宣稱。",
+              "JISSN 2005：23 名體重稍高的女性，ForsLean 每顆 250 mg（10% forskolin）每日兩次、12 週。摘要寫脂肪量等沒有顯著組間差異，體重增加有減輕的趨勢；飢餓感的組間 p 值為 0.02。結論寫看起來沒有促進減重。",
+              "Obesity Research 2005：30 名男性，方法段寫 Forslean（文中拼成 Sabina Corp.）每顆 250 mg、10% forskolin、每日兩次、12 週。摘要寫體脂百分比與脂肪量下降、游離睪固酮上升。兩篇方向不同，都留下。"
+            ],
+            "dosageNote": "每次 250 mg、每日兩次是供應商建議，也是這兩篇試驗的劑量，不是台灣法規上限。根的列名沒有每日毫克。",
+            "suggestedDosage": "Sabinsa 品牌頁寫建議每日兩次、每次 250 mg（對應 25 mg forskolin）。上面兩篇試驗用的也是這個次數與每顆毫克。"
+          },
+          "evidenceLevels": [
+            "clinical"
+          ],
+          "example": false,
+          "id": "forslean",
+          "images": [
+            {
+              "caption": "Sabinsa 官網 ForsLean 品牌頁上的商品橫幅。",
+              "localPath": "",
+              "source": "official_site",
+              "url": "https://sabinsa.com/wp-content/uploads/2026/02/forslean-banner-01.webp"
+            }
+          ],
+          "literature": {
+            "note": "兩篇都讀了摘要與劑量句。女性篇與男性篇的體脂結論不同，沒有併成一個減重結果。供應商頁的「減少體脂」只當宣稱。",
+            "refs": [
+              {
+                "note": "JISSN 2005。點名 ForsLean。女性 12 週。脂肪量沒有顯著差異。",
+                "title": "Effects of Coleus Forskohlii Supplementation on Body Composition and Hematological Profiles in Mildly Overweight Women",
+                "url": "https://pubmed.ncbi.nlm.nih.gov/18500958/"
+              },
+              {
+                "note": "Obesity Research 2005。方法段寫 Forslean，公司名拼成 Sabina Corp.。男性 12 週，摘要寫體脂下降。",
+                "title": "Body Composition and Hormonal Adaptations Associated with Forskolin Consumption in Overweight and Obese Men",
+                "url": "https://pubmed.ncbi.nlm.nih.gov/16129715/"
+              }
+            ],
+            "status": "yes"
+          },
+          "names": {
+            "commonEn": "Coleus forskohlii root extract",
+            "commonZh": "毛喉鞘蕊花根萃取物",
+            "scientific": "Coleus forskohlii（平台亦列 Plectranthus barbatus。部位是根。不是純化後單獨列名的 forskolin。）",
+            "trade": "ForsLean（Sabinsa 的毛喉鞘蕊花根萃取商品名；標準化 10% forskolin，頁上另寫 20% 與 40% 規格）"
+          },
+          "patent": {
+            "note": "品牌頁現在仍寫 patented。這次打開的美國專利頁寫已屆期。不把屆期專利寫成仍在有效期間。",
+            "refs": [
+              {
+                "note": "原權利人 Sabinsa。由毛喉鞘蕊花萃取製備 forskolin 組成，以及用於除脂體重與情緒。頁面寫 2017-02-27 屆期，狀態 Expired - Lifetime。",
+                "title": "US5804596A",
+                "url": "https://patents.google.com/patent/US5804596A/en"
+              }
+            ],
+            "status": "yes"
+          },
+          "sources": [
+            {
+              "accessed": "2026-11-15",
+              "channel": "news",
+              "publisher": "NutraIngredients",
+              "title": "Sabinsa launches six products, consolidates brands",
+              "url": "https://www.nutraingredients.com/Article/2025/08/27/sabinsa-launches-six-products-consolidates-brands/",
+              "whatItContributes": "2025-08-27：Sanutra 體重管理配方寫入 Citrin K、GarCitrin、ForsLean 與 BioPerine。這則只取 ForsLean 這個原料名。"
+            },
+            {
+              "accessed": "2026-11-15",
+              "channel": "supplier_site",
+              "publisher": "Sabinsa",
+              "title": "ForsLean brand page",
+              "url": "https://sabinsa.com/brand/forslean",
+              "whatItContributes": "根萃取、10% forskolin，以及 20%、40% 規格。建議每日兩次 250 mg。"
+            },
+            {
+              "accessed": "2026-11-15",
+              "channel": "paper",
+              "publisher": "Journal of the International Society of Sports Nutrition",
+              "title": "JISSN 2005 ForsLean trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18500958/",
+              "whatItContributes": "女性 12 週試驗。點名 ForsLean。體重與脂肪量的統計寫法。"
+            },
+            {
+              "accessed": "2026-11-15",
+              "channel": "paper",
+              "publisher": "Obesity Research",
+              "title": "Obesity Research 2005 forskolin trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/16129715/",
+              "whatItContributes": "男性 12 週。方法段的商品名拼字是 Forslean、公司名拼成 Sabina。"
+            },
+            {
+              "accessed": "2026-11-15",
+              "channel": "patent",
+              "publisher": "Google Patents",
+              "title": "US5804596A",
+              "url": "https://patents.google.com/patent/US5804596A/en",
+              "whatItContributes": "Sabinsa 的 forskolin 組成專利。頁面狀態是屆期。"
+            },
+            {
+              "accessed": "2026-11-15",
+              "channel": "other",
+              "publisher": "和聚國際生醫材料有限公司",
+              "title": "和聚產品頁：ForsLean",
+              "url": "https://www.hg-bio.com.tw/products/forslean/",
+              "whatItContributes": "廠牌 Sabinsa、Forskolin 10%、產地印度、專利欄寫有。沒有寫獨家。"
+            }
+          ],
+          "supply": {
+            "relationship": "taiwan_agent",
+            "relationshipNote": "和聚產品頁列出廠牌 Sabinsa、規格 Forskolin 10%、產地印度、專利欄寫有。關於我們與 FAQ 自述代理進口原料，這頁沒有寫獨家或原廠指定。Sabinsa 品牌頁沒有點名和聚。產地寫印度、供應商名稱用 Sabinsa，兩處都留下。不升格為原廠證實或獨家。查核日 2026-11-15。",
+            "supplierCountry": "美國",
+            "supplierName": "Sabinsa Corporation",
+            "taiwanPartyName": "和聚國際生醫材料有限公司"
+          },
+          "tfda": {
+            "evidenceNotes": "毛喉鞘蕊花根列在可供直接食用，學名 Coleus forskohlii、Plectranthus barbatus，備註空白。ForsLean 與 forskolin 在原料、添加物都是 0 筆。根的列名沒有每日毫克，也不等於 10% forskolin 萃取的劑量已經核准。",
+            "lookupDate": "2026-11-15",
+            "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+            "officialCrosscheck": {
+              "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+              "done": true,
+              "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+              "notes": "2026-11-15 消費者專區 HTTP 為 502。開放資料 InfoId 4 的毛喉鞘蕊花根為可供直接食用，學名 Coleus forskohlii、Plectranthus barbatus，備註空白。與查詢助手一致。InfoId 61 沒有毛喉或 forskolin 品名。"
+            },
+            "queries": [
+              {
+                "category": "",
+                "keyword": "毛喉",
+                "matchedName": "毛喉鞘蕊花",
+                "note": "外文 forskohlii。學名 Coleus forskohlii、Plectranthus barbatus。",
+                "restrictionNote": "根：可供食品使用，分類是可供直接食用，備註空白。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Coleus",
+                "matchedName": "毛喉鞘蕊花",
+                "note": "與中文關鍵字同一筆。",
+                "restrictionNote": "同上。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "ForsLean",
+                "matchedName": "",
+                "note": "商品名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "forskolin",
+                "matchedName": "",
+                "note": "純化成分名在原料 0 筆。不是未確認分類，是沒有這一列。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "毛喉",
+                "matchedName": "",
+                "note": "添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "forskolin",
+                "matchedName": "",
+                "note": "添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "毛喉",
+                "matchedName": "",
+                "note": "助手更新歷程（2026-11-01 至 2026-11-14）沒有這筆異動。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "history",
+                "unconfirmedSafety": false
+              }
+            ],
+            "usable": "listed_food_ingredient"
+          }
+        }
+      ],
+      "targetCount": 5,
+      "title": "2026-11-15 正式日報"
+    },
+    {
+      "channelsCovered": [
+        "news",
+        "exhibition",
+        "industry_report"
+      ],
       "date": "2026-11-14",
       "example": false,
       "notes": "正式五筆。主管道：Omegia、Cran d'Or 為新聞；Holixer、ApplePhenon 為展覽；CherryPURE 為產業報導。聖羅勒葉、沙棘果實與種子、蔓越莓果實、蘋果果實、酸櫻桃果實有列。蘋果幹細胞是另一筆未確認，不是這次的青蘋果萃取。",
@@ -9732,6 +10641,181 @@ window.INGREDIENT_CATALOG = {
     {
       "discovery": {
         "channel": "exhibition",
+        "notes": "從 2026 亞洲美容保養生技保健大展的和聚香檸檬頁進入，再對 Bionap 產品頁、和聚產品頁與 Foods 2024。專利欄兩處不一致，都留下。",
+        "scoutDate": "2026-11-15"
+      },
+      "efficacy": {
+        "claimedBenefits": [
+          "Bionap 產品頁寫 Bergavit 由卡拉布里亞香檸檬果汁取出主要類黃酮，並寫有助維持正常膽固醇、血管與脂蛋白。這是供應商頁的說法。",
+          "Foods 2024 年論文的受試物寫 Bergavit。64 名高膽固醇成人，每日 1 顆 375 mg（類黃酮 150 mg），4 個月後總膽固醇降 8.8%、LDL-C 降 11.5%；HDL-C 升 5.5% 該文寫尚未達顯著。研究由 Bionap 出資。"
+        ],
+        "dosageNote": "550–600 mg 與 375 mg 都是供應商或該篇試驗的劑量，不是台灣法規上限。果實列名沒有每日毫克。",
+        "suggestedDosage": "Bionap 產品頁寫每日 150 mg 類黃酮，相當於 Bergavit 550–600 mg。同一篇 2024 年論文用的是每日 375 mg 膠囊來提供 150 mg 類黃酮。和聚產品頁規格寫 25%，原廠銷售資料寫 25–28%。"
+      },
+      "evidenceLevels": [
+        "clinical"
+      ],
+      "example": false,
+      "id": "bergavit",
+      "images": [
+        {
+          "caption": "Bionap 官網 Bergavit 產品頁上的商品圖。",
+          "localPath": "",
+          "source": "official_site",
+          "url": "https://bionap.com/assets/images/products/bergavit/img_1.png"
+        }
+      ],
+      "literature": {
+        "note": "已讀該文摘要與方法段的劑量、人數與百分比。原廠頁的 550–600 mg 沒有改寫成這篇試驗的膠囊重量。",
+        "refs": [
+          {
+            "note": "Foods 2024, 13(23), 3883。受試物寫 Bergavit，每日 375 mg、類黃酮 150 mg、4 個月、64 人。Bionap 出資。",
+            "title": "Citrus bergamia Extract, a Natural Approach for Cholesterol and Lipid Metabolism Management",
+            "url": "https://doi.org/10.3390/foods13233883"
+          }
+        ],
+        "status": "yes"
+      },
+      "names": {
+        "commonEn": "bergamot juice flavonoids",
+        "commonZh": "香檸檬果汁類黃酮",
+        "scientific": "Citrus bergamia（Bionap 頁亦寫 Citrus aurantium L. var. bergamia。果汁。不是香櫞佛手柑 Citrus medica var. sarcodactylis。）",
+        "trade": "Bergavit（Bionap 的香檸檬果汁類黃酮商品名）"
+      },
+      "patent": {
+        "note": "和聚產品頁專利欄寫無，展會頁寫專利型，沒有給號碼。這次用 Bergavit、Bionap 沒有打開可核對的專利全文，兩處說法都留下，不填成無。",
+        "refs": [],
+        "status": "unknown"
+      },
+      "sources": [
+        {
+          "accessed": "2026-11-15",
+          "channel": "exhibition",
+          "publisher": "亞洲美容保養生技保健大展參展頁",
+          "title": "2026 亞洲美容保養生技保健大展：香檸檬萃取物",
+          "url": "https://www.chanchao.com.tw/healthcos/visitorProductDetail.asp?no=179730",
+          "whatItContributes": "和聚國際攤位 i1116。頁面寫 Bergavit 取自卡拉布里亞香檸檬果汁，並寫「專利型」。"
+        },
+        {
+          "accessed": "2026-11-15",
+          "channel": "supplier_site",
+          "publisher": "Bionap",
+          "title": "BIONAP - Bergavit",
+          "url": "https://bionap.com/products/bergavit",
+          "whatItContributes": "果汁類黃酮、建議每日 150 mg 類黃酮（對應粉末 550–600 mg）、義大利地址。"
+        },
+        {
+          "accessed": "2026-11-15",
+          "channel": "other",
+          "publisher": "和聚國際生醫材料有限公司",
+          "title": "和聚產品頁：Bergavit",
+          "url": "https://www.hg-bio.com.tw/products/bergavit/",
+          "whatItContributes": "廠牌 Bionap、類黃酮 25%、專利欄寫無。與展會頁的「專利型」不同。"
+        },
+        {
+          "accessed": "2026-11-15",
+          "channel": "paper",
+          "publisher": "Foods",
+          "title": "Foods 2024, 10.3390/foods13233883",
+          "url": "https://doi.org/10.3390/foods13233883",
+          "whatItContributes": "點名 Bergavit 的 4 個月試驗、375 mg 膠囊與血脂百分比。"
+        }
+      ],
+      "supply": {
+        "relationship": "taiwan_agent",
+        "relationshipNote": "和聚產品頁列出廠牌 Bionap、規格柑橘類黃酮（neohesperidin 等）25%、專利欄寫無。2026 亞洲美容保養生技保健大展頁（攤位 i1116）介紹同一商品，並寫「專利型」。兩處並陳。關於我們與 FAQ 自述代理進口原料，Bergavit 產品頁沒有寫獨家或原廠指定。Bionap 產品頁地址在義大利 Belpasso，沒有點名和聚。不升格為原廠證實或獨家。查核日 2026-11-15。",
+        "supplierCountry": "義大利",
+        "supplierName": "Bionap S.r.l.",
+        "taiwanPartyName": "和聚國際生醫材料有限公司"
+      },
+      "tfda": {
+        "evidenceNotes": "香檸檬（Citrus bergamia、Citrus aurantium var. bergamia）果實列在可供直接食用，備註空白。商品名 Bergavit 沒有另列。關鍵字「佛手柑」另外命中香櫞佛手柑果實，也是可供直接食用，不是這支香檸檬。添加物用香檸檬與 Bergavit 都是 0 筆。果實那一筆沒有每日毫克。",
+        "lookupDate": "2026-11-15",
+        "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+        "officialCrosscheck": {
+          "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+          "done": true,
+          "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+          "notes": "2026-11-15 消費者專區 HTTP 為 502。開放資料 InfoId 4 的香檸檬果實為可供直接食用，學名 Citrus bergamia、Citrus aurantium var. bergamia；佛手柑另一筆是 Citrus medica var. sarcodactylis。與查詢助手一致。InfoId 61 沒有香檸檬或 Bergavit 品名。"
+        },
+        "queries": [
+          {
+            "category": "",
+            "keyword": "香檸檬",
+            "matchedName": "香檸檬；佛手柑",
+            "note": "不是未確認分類。",
+            "restrictionNote": "果實：可供食品使用，分類是可供直接食用，備註空白。學名 Citrus bergamia、Citrus aurantium var. bergamia。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "bergamia",
+            "matchedName": "香檸檬；佛手柑",
+            "note": "與中文關鍵字同一筆。",
+            "restrictionNote": "同上。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "佛手柑",
+            "matchedName": "香檸檬；佛手柑",
+            "note": "同字命中兩個物種。本品是 Citrus bergamia。",
+            "restrictionNote": "兩筆都是果實、可供直接食用。另一筆中文名是佛手柑，學名 Citrus medica var. sarcodactylis，外文 Fingered citron。",
+            "resultCount": 2,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Bergavit",
+            "matchedName": "",
+            "note": "商品名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "香檸檬",
+            "matchedName": "",
+            "note": "添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Bergavit",
+            "matchedName": "",
+            "note": "商品名在添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "香檸檬",
+            "matchedName": "",
+            "note": "助手更新歷程（2026-11-01 至 2026-11-14）沒有這筆異動。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "history",
+            "unconfirmedSafety": false
+          }
+        ],
+        "usable": "listed_food_ingredient"
+      }
+    },
+    {
+      "discovery": {
+        "channel": "exhibition",
         "notes": "從 SupplySide Global 2025 的 Sabinsa 展前與展後稿看到 BioPerine，用展商名錄核對攤位 5765，再對 Sabinsa 產品頁、專利頁與和聚目錄。胡椒莖的未確認列名已分開，不把莖當成這個原料。",
         "scoutDate": "2026-11-08"
       },
@@ -9896,6 +10980,173 @@ window.INGREDIENT_CATALOG = {
           }
         ],
         "usable": "listed_food_ingredient"
+      }
+    },
+    {
+      "discovery": {
+        "channel": "industry_report",
+        "notes": "從 Nutrition Insight 2023-03-16 的運動營養報導進入，該篇點名 Carnipure。再對 Lonza 產品頁。台灣關聯打開婿展的品牌授權頁與樂沛力成品頁；瀧晶只有批發頁線索，官網沒打開，維持待確認。",
+        "scoutDate": "2026-11-15"
+      },
+      "efficacy": {
+        "claimedBenefits": [
+          "Lonza 的 Carnipure 產品頁寫，這個左旋肉鹼有助於能量、體重管理與運動恢復，並寫相較安慰劑，與運動有關的疲勞和痠痛減少 25%。25% 是該頁的供應商句子，頁上沒有同時寫出劑量。",
+          "同一頁寫結晶與酒石酸鹽兩種規格，並寫 2001 至 2010 年與康乃狄克大學合作、使用 Carnipure 酒石酸鹽的運動恢復研究，發表了九篇同儕論文。這次沒有打開那九篇全文。"
+        ],
+        "dosageNote": "沒有把供應商頁沒寫的劑量補上。L-肉鹼添加物對膠囊、錠狀的每日總量上限是 2 克；酒石酸鹽那一筆只寫特殊營養食品。兩筆都是營養素補充用途，不是健康食品許可。",
+        "suggestedDosage": "2026-11-15 讀到的產品頁沒有寫單一每日毫克。酒石酸鹽規格寫約含 68% L-肉鹼。"
+      },
+      "evidenceLevels": [],
+      "example": false,
+      "id": "carnipure",
+      "images": [
+        {
+          "caption": "Lonza／Capsugel 的 Carnipure 產品頁所連結的商品情境圖。",
+          "localPath": "",
+          "source": "official_site",
+          "url": "https://www.capsugel.com/application/files/2717/7754/7515/carnipure_lifestyle.webp"
+        }
+      ],
+      "literature": {
+        "note": "產品頁列出 Stefan 等 2021、Volek 等 2002 等引用，並寫有數十篇人體研究。這次打開 MDPI 得到 403，沒有讀到點名 Carnipure 的論文全文，不把供應商的 25% 填成已核對的文獻。",
+        "refs": [],
+        "status": "unknown"
+      },
+      "names": {
+        "commonEn": "L-carnitine",
+        "commonZh": "左旋肉鹼",
+        "scientific": "不適用植物學名。成分是 L-肉鹼。酒石酸鹽頁寫由 L-肉鹼與食品級酒石酸以莫耳比 2:1 製成，約 68% L-肉鹼與 32% L-酒石酸。",
+        "trade": "Carnipure（Lonza 的左旋肉鹼商品名；頁上分結晶與酒石酸鹽）"
+      },
+      "patent": {
+        "note": "產品頁寫不含氰化鈉的製程，沒有給專利號。這次沒有打開對得上 Carnipure 的專利全文，不填成無。",
+        "refs": [],
+        "status": "unknown"
+      },
+      "sources": [
+        {
+          "accessed": "2026-11-15",
+          "channel": "industry_report",
+          "publisher": "Nutrition Insight",
+          "title": "Power for the people: Sports nutrition diversifies",
+          "url": "https://www.nutritioninsight.com/news/power-for-the-people-sports-nutrition-diversifies-as-active-lifestyles-proliferate-across-generations.html",
+          "whatItContributes": "2023-03-16：Lonza 把 Carnipure L-carnitine 列為能量與體能原料，與 TWK10、UC-II 分開寫。"
+        },
+        {
+          "accessed": "2026-11-15",
+          "channel": "supplier_site",
+          "publisher": "Lonza／Capsugel",
+          "title": "Carnipure L-carnitine for Human",
+          "url": "https://www.lonza.com/capsules-health-ingredients/nutraceutical-solutions/ingredients/carnipure",
+          "whatItContributes": "結晶與酒石酸鹽兩種規格、68% 與 32% 的比例，以及頁上的 25% 疲勞句子。直接連線曾被拒，文字以同日可讀的頁面擷取核對。"
+        },
+        {
+          "accessed": "2026-11-15",
+          "channel": "other",
+          "publisher": "婿展國際有限公司",
+          "title": "婿展國際：Carnipure 品牌授權頁",
+          "url": "https://nuxu.bvshop.tw/page/%E5%93%81%E7%89%8C%E6%8E%88%E6%AC%8A-carnipure",
+          "whatItContributes": "該公司自述 Carnipure 品牌授權，對應的是康尼液態膠囊成品。頁上聯絡方式不轉抄。"
+        },
+        {
+          "accessed": "2026-11-15",
+          "channel": "other",
+          "publisher": "藥王有機藥局商品頁",
+          "title": "樂沛力卡尼汀全素膠囊",
+          "url": "https://web.hocom.tw/h/ProductDetail?cateId=36121&key=808172030539&productId=324249",
+          "whatItContributes": "成品頁寫原料來源 LONZA carnipure，代理商為譚璽貿易。不是原料經銷契約。"
+        }
+      ],
+      "supply": {
+        "relationship": "unknown",
+        "relationshipNote": "婿展國際的頁面標題寫 Carnipure 品牌授權，內文是康尼左旋肉鹼液態膠囊這個成品，屬於該公司自述，不是 Lonza 點名的原料經銷。樂沛力成品頁寫原料來源 LONZA carnipure、代理商為譚璽貿易，是成品採用與成品代理。Lonza 產品頁沒有點名這兩家。另有批發頁寫瀧晶生技取得商標與代工授權，頁上是個人聯絡方式，這次沒有打開瀧晶自己的網站，該句維持待確認，不升格。查核日 2026-11-15。",
+        "supplierCountry": "瑞士",
+        "supplierName": "Lonza",
+        "taiwanPartyName": "婿展國際有限公司；譚璽貿易"
+      },
+      "tfda": {
+        "evidenceNotes": "原料分頁用肉鹼、Carnitine、Carnipure 都是 0 筆。添加物有兩筆，都限於補充食品中不足的營養素。L-肉鹼可用於標示每日食用量的膠囊與錠狀，每日總量不得高於 2 克，也可於特殊營養食品適量使用。L-酒石酸肉鹼只寫特殊營養食品。Carnipure 同時有結晶與酒石酸鹽，兩筆範圍不同，不併成一種准用。",
+        "lookupDate": "2026-11-15",
+        "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+        "officialCrosscheck": {
+          "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+          "done": true,
+          "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+          "notes": "2026-11-15 消費者專區 HTTP 為 502。開放資料 InfoId 4 沒有肉鹼品名。InfoId 61 有 L-肉鹼與 L-酒石酸肉鹼，使用範圍與 2 克上限、特殊營養食品的寫法與查詢助手一致。"
+        },
+        "queries": [
+          {
+            "category": "",
+            "keyword": "肉鹼",
+            "matchedName": "",
+            "note": "原料 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Carnitine",
+            "matchedName": "",
+            "note": "原料 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Carnipure",
+            "matchedName": "",
+            "note": "商品名在原料 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "肉鹼",
+            "matchedName": "L-肉鹼(L-肉酸)",
+            "note": "兩筆營養添加劑，範圍不同。",
+            "restrictionNote": "L-肉鹼：膠囊、錠狀且標示每日食用量者，每日總量不得高於 2 g；另可於特殊營養食品適量使用。L-酒石酸肉鹼：可於特殊營養食品適量使用。兩筆使用限制都是限於補充食品中不足之營養素。",
+            "resultCount": 2,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Carnitine",
+            "matchedName": "L-肉鹼(L-肉酸)",
+            "note": "與中文關鍵字同一組兩筆。",
+            "restrictionNote": "同上。英文品名 L-Carnitine 與 L-Carnitine Tartrate。",
+            "resultCount": 2,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Carnipure",
+            "matchedName": "",
+            "note": "商品名在添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "肉鹼",
+            "matchedName": "",
+            "note": "助手更新歷程（2026-11-01 至 2026-11-14）沒有這筆異動。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "history",
+            "unconfirmedSafety": false
+          }
+        ],
+        "usable": "needs_review"
       }
     },
     {
@@ -10773,6 +12024,209 @@ window.INGREDIENT_CATALOG = {
             "keyword": "接骨木",
             "matchedName": "",
             "note": "助手更新歷程（11/01–11/09）沒有異動。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "history",
+            "unconfirmedSafety": false
+          }
+        ],
+        "usable": "listed_food_ingredient"
+      }
+    },
+    {
+      "discovery": {
+        "channel": "news",
+        "notes": "從 NutraIngredients 2025-08-27 的 Sabinsa 零售配方新聞進入，配方裡點名 ForsLean。再對 Sabinsa 品牌頁、兩篇 PubMed 與 US5804596A。台灣關聯打開和聚的 ForsLean 產品頁；代理二字在該公司關於我們與 FAQ，不升成原廠獨家。",
+        "scoutDate": "2026-11-15"
+      },
+      "efficacy": {
+        "claimedBenefits": [
+          "Sabinsa 品牌頁寫 ForsLean 是根萃取、標準化 10% forskolin，並寫有助維持體組成、減少體脂、支持除脂體重。這是供應商宣稱。",
+          "JISSN 2005：23 名體重稍高的女性，ForsLean 每顆 250 mg（10% forskolin）每日兩次、12 週。摘要寫脂肪量等沒有顯著組間差異，體重增加有減輕的趨勢；飢餓感的組間 p 值為 0.02。結論寫看起來沒有促進減重。",
+          "Obesity Research 2005：30 名男性，方法段寫 Forslean（文中拼成 Sabina Corp.）每顆 250 mg、10% forskolin、每日兩次、12 週。摘要寫體脂百分比與脂肪量下降、游離睪固酮上升。兩篇方向不同，都留下。"
+        ],
+        "dosageNote": "每次 250 mg、每日兩次是供應商建議，也是這兩篇試驗的劑量，不是台灣法規上限。根的列名沒有每日毫克。",
+        "suggestedDosage": "Sabinsa 品牌頁寫建議每日兩次、每次 250 mg（對應 25 mg forskolin）。上面兩篇試驗用的也是這個次數與每顆毫克。"
+      },
+      "evidenceLevels": [
+        "clinical"
+      ],
+      "example": false,
+      "id": "forslean",
+      "images": [
+        {
+          "caption": "Sabinsa 官網 ForsLean 品牌頁上的商品橫幅。",
+          "localPath": "",
+          "source": "official_site",
+          "url": "https://sabinsa.com/wp-content/uploads/2026/02/forslean-banner-01.webp"
+        }
+      ],
+      "literature": {
+        "note": "兩篇都讀了摘要與劑量句。女性篇與男性篇的體脂結論不同，沒有併成一個減重結果。供應商頁的「減少體脂」只當宣稱。",
+        "refs": [
+          {
+            "note": "JISSN 2005。點名 ForsLean。女性 12 週。脂肪量沒有顯著差異。",
+            "title": "Effects of Coleus Forskohlii Supplementation on Body Composition and Hematological Profiles in Mildly Overweight Women",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18500958/"
+          },
+          {
+            "note": "Obesity Research 2005。方法段寫 Forslean，公司名拼成 Sabina Corp.。男性 12 週，摘要寫體脂下降。",
+            "title": "Body Composition and Hormonal Adaptations Associated with Forskolin Consumption in Overweight and Obese Men",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16129715/"
+          }
+        ],
+        "status": "yes"
+      },
+      "names": {
+        "commonEn": "Coleus forskohlii root extract",
+        "commonZh": "毛喉鞘蕊花根萃取物",
+        "scientific": "Coleus forskohlii（平台亦列 Plectranthus barbatus。部位是根。不是純化後單獨列名的 forskolin。）",
+        "trade": "ForsLean（Sabinsa 的毛喉鞘蕊花根萃取商品名；標準化 10% forskolin，頁上另寫 20% 與 40% 規格）"
+      },
+      "patent": {
+        "note": "品牌頁現在仍寫 patented。這次打開的美國專利頁寫已屆期。不把屆期專利寫成仍在有效期間。",
+        "refs": [
+          {
+            "note": "原權利人 Sabinsa。由毛喉鞘蕊花萃取製備 forskolin 組成，以及用於除脂體重與情緒。頁面寫 2017-02-27 屆期，狀態 Expired - Lifetime。",
+            "title": "US5804596A",
+            "url": "https://patents.google.com/patent/US5804596A/en"
+          }
+        ],
+        "status": "yes"
+      },
+      "sources": [
+        {
+          "accessed": "2026-11-15",
+          "channel": "news",
+          "publisher": "NutraIngredients",
+          "title": "Sabinsa launches six products, consolidates brands",
+          "url": "https://www.nutraingredients.com/Article/2025/08/27/sabinsa-launches-six-products-consolidates-brands/",
+          "whatItContributes": "2025-08-27：Sanutra 體重管理配方寫入 Citrin K、GarCitrin、ForsLean 與 BioPerine。這則只取 ForsLean 這個原料名。"
+        },
+        {
+          "accessed": "2026-11-15",
+          "channel": "supplier_site",
+          "publisher": "Sabinsa",
+          "title": "ForsLean brand page",
+          "url": "https://sabinsa.com/brand/forslean",
+          "whatItContributes": "根萃取、10% forskolin，以及 20%、40% 規格。建議每日兩次 250 mg。"
+        },
+        {
+          "accessed": "2026-11-15",
+          "channel": "paper",
+          "publisher": "Journal of the International Society of Sports Nutrition",
+          "title": "JISSN 2005 ForsLean trial",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/18500958/",
+          "whatItContributes": "女性 12 週試驗。點名 ForsLean。體重與脂肪量的統計寫法。"
+        },
+        {
+          "accessed": "2026-11-15",
+          "channel": "paper",
+          "publisher": "Obesity Research",
+          "title": "Obesity Research 2005 forskolin trial",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/16129715/",
+          "whatItContributes": "男性 12 週。方法段的商品名拼字是 Forslean、公司名拼成 Sabina。"
+        },
+        {
+          "accessed": "2026-11-15",
+          "channel": "patent",
+          "publisher": "Google Patents",
+          "title": "US5804596A",
+          "url": "https://patents.google.com/patent/US5804596A/en",
+          "whatItContributes": "Sabinsa 的 forskolin 組成專利。頁面狀態是屆期。"
+        },
+        {
+          "accessed": "2026-11-15",
+          "channel": "other",
+          "publisher": "和聚國際生醫材料有限公司",
+          "title": "和聚產品頁：ForsLean",
+          "url": "https://www.hg-bio.com.tw/products/forslean/",
+          "whatItContributes": "廠牌 Sabinsa、Forskolin 10%、產地印度、專利欄寫有。沒有寫獨家。"
+        }
+      ],
+      "supply": {
+        "relationship": "taiwan_agent",
+        "relationshipNote": "和聚產品頁列出廠牌 Sabinsa、規格 Forskolin 10%、產地印度、專利欄寫有。關於我們與 FAQ 自述代理進口原料，這頁沒有寫獨家或原廠指定。Sabinsa 品牌頁沒有點名和聚。產地寫印度、供應商名稱用 Sabinsa，兩處都留下。不升格為原廠證實或獨家。查核日 2026-11-15。",
+        "supplierCountry": "美國",
+        "supplierName": "Sabinsa Corporation",
+        "taiwanPartyName": "和聚國際生醫材料有限公司"
+      },
+      "tfda": {
+        "evidenceNotes": "毛喉鞘蕊花根列在可供直接食用，學名 Coleus forskohlii、Plectranthus barbatus，備註空白。ForsLean 與 forskolin 在原料、添加物都是 0 筆。根的列名沒有每日毫克，也不等於 10% forskolin 萃取的劑量已經核准。",
+        "lookupDate": "2026-11-15",
+        "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+        "officialCrosscheck": {
+          "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+          "done": true,
+          "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+          "notes": "2026-11-15 消費者專區 HTTP 為 502。開放資料 InfoId 4 的毛喉鞘蕊花根為可供直接食用，學名 Coleus forskohlii、Plectranthus barbatus，備註空白。與查詢助手一致。InfoId 61 沒有毛喉或 forskolin 品名。"
+        },
+        "queries": [
+          {
+            "category": "",
+            "keyword": "毛喉",
+            "matchedName": "毛喉鞘蕊花",
+            "note": "外文 forskohlii。學名 Coleus forskohlii、Plectranthus barbatus。",
+            "restrictionNote": "根：可供食品使用，分類是可供直接食用，備註空白。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Coleus",
+            "matchedName": "毛喉鞘蕊花",
+            "note": "與中文關鍵字同一筆。",
+            "restrictionNote": "同上。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "ForsLean",
+            "matchedName": "",
+            "note": "商品名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "forskolin",
+            "matchedName": "",
+            "note": "純化成分名在原料 0 筆。不是未確認分類，是沒有這一列。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "毛喉",
+            "matchedName": "",
+            "note": "添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "forskolin",
+            "matchedName": "",
+            "note": "添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "毛喉",
+            "matchedName": "",
+            "note": "助手更新歷程（2026-11-01 至 2026-11-14）沒有這筆異動。",
             "restrictionNote": "",
             "resultCount": 0,
             "tab": "history",
@@ -17124,6 +18578,356 @@ window.INGREDIENT_CATALOG = {
           }
         ],
         "usable": "listed_food_ingredient"
+      }
+    },
+    {
+      "discovery": {
+        "channel": "news",
+        "notes": "從 2026-02-19 的 TrueBroc 新聞稿進入，再對 Scientific Reports、Brassica 產品頁與台灣卡爾迪克原料頁。原廠仍寫 Connell Brothers，對到同一地址的卡爾迪克與 2025 年改名公告。",
+        "scoutDate": "2026-11-15"
+      },
+      "efficacy": {
+        "claimedBenefits": [
+          "Brassica 產品頁寫 TrueBroc 是青花菜種子熱水萃取，蘿蔔硫苷 13%，並寫攝取後抗氧化作用可到 72 小時、其他抗氧化劑約 3 小時。72 小時這句是供應商頁的說法。",
+          "Scientific Reports 2026-02-15：16 名成人單次口服。TrueBroc 385 mg（115 µmol、50 mg 蘿蔔硫苷）單獨時，24 小時尿中蘿蔔硫素代謝物為劑量的 18.6%；加上芥末種子芥子酶為 39.8%。前 8 小時是 8.0% 與 25.4%。沒有不良事件。這是轉換率，不是疾病療效。"
+        ],
+        "dosageNote": "385 mg 是這篇試驗的單次劑量。115 mg 是公告對特定製程的每日上限。論文寫 refractance window drying，公告寫噴霧乾燥並經活性碳，兩套文字沒有併成同一規格。",
+        "suggestedDosage": "論文的單次劑量是 TrueBroc 385 mg，含 50 mg 蘿蔔硫苷。原廠頁寫規格 13% 蘿蔔硫苷，沒有另寫一個每日建議毫克。台灣公告對符合該製程定義的種子萃取物，每日 115 mg。"
+      },
+      "evidenceLevels": [
+        "clinical"
+      ],
+      "example": false,
+      "id": "truebroc",
+      "images": [
+        {
+          "caption": "Brassica 官網 TrueBroc 產品頁上的商品標誌。",
+          "localPath": "",
+          "source": "official_site",
+          "url": "https://brassica.com/wp-content/uploads/2016/08/TrueBroc_Notag-wBoxTransparent_R_4c_Final.png"
+        }
+      ],
+      "literature": {
+        "note": "已讀方法段的 385 mg、50 mg 蘿蔔硫苷與製程描述。新聞稿把 18.6% 與 39.8% 四捨五入成 19% 與 40%，這裡用論文數字。",
+        "refs": [
+          {
+            "note": "Scientific Reports，2026-02-15。16 人、單次、交叉。受試物寫 TrueBroc。轉換率 18.6% 與 39.8%。",
+            "title": "Exogenous myrosinase from mustard seed increases bioavailability of sulforaphane from a glucoraphanin-rich broccoli seed extract",
+            "url": "https://doi.org/10.1038/s41598-026-39389-4"
+          }
+        ],
+        "status": "yes"
+      },
+      "names": {
+        "commonEn": "broccoli seed extract (glucoraphanin)",
+        "commonZh": "青花菜種子萃取物（蘿蔔硫苷）",
+        "scientific": "Brassica oleracea L. var. italica（種子的熱水萃取。不是花球，也不是芥末種子的芥子酶。）",
+        "trade": "TrueBroc（Brassica Protection Products 的青花菜種子萃取商品名；台灣頁亦寫 Truebroc）"
+      },
+      "patent": {
+        "note": "原廠頁寫 patent protected，並寫是 Johns Hopkins 芥子油苷與異硫氰酸酯技術的獨家被授權人，沒有在該頁給專利號。上面兩則是這次打開的專利與 2002 年無效判決，不把已無效的芽苗專利寫成仍涵蓋現在的種子萃取規格。",
+        "refs": [
+          {
+            "note": "Johns Hopkins。十字花科芽苗相關食物。Google Patents 頁寫 Expired - Lifetime。",
+            "title": "US5968505A",
+            "url": "https://patents.google.com/patent/US5968505A/en"
+          },
+          {
+            "note": "聯邦巡迴上訴法院維持地院判決：US 5,725,895、5,968,567、5,968,505 因先前技術而無效。當事人含 Brassica 與 Johns Hopkins。",
+            "title": "Brassica Protection Products LLC v. Sunrise Farms（Fed. Cir. 2002）",
+            "url": "https://www.courtlistener.com/opinion/7107572/brassica-protection-products-llc-v-sunrise-farms/"
+          }
+        ],
+        "status": "yes"
+      },
+      "sources": [
+        {
+          "accessed": "2026-11-15",
+          "channel": "news",
+          "publisher": "EIN Presswire（Brassica 新聞稿）",
+          "title": "EIN Presswire：TrueBroc bioavailability trial",
+          "url": "https://www.einpresswire.com/article/893839751/new-human-clinical-trial-with-glucoraphanin-rich-broccoli-seed-extract-shows-doubling-of-sulforaphane-bioavailability",
+          "whatItContributes": "2026-02-19：點名 TrueBroc，並把轉換率寫成約 19% 到 40%。公司執行長姓名留在稿內，這裡不轉抄。"
+        },
+        {
+          "accessed": "2026-11-15",
+          "channel": "paper",
+          "publisher": "Scientific Reports",
+          "title": "Scientific Reports 2026, 10.1038/s41598-026-39389-4",
+          "url": "https://doi.org/10.1038/s41598-026-39389-4",
+          "whatItContributes": "16 人單次試驗的劑量、製程與 18.6%、39.8%。"
+        },
+        {
+          "accessed": "2026-11-15",
+          "channel": "supplier_site",
+          "publisher": "Brassica Protection Products",
+          "title": "TrueBroc product page",
+          "url": "https://brassica.com/truebroc/",
+          "whatItContributes": "熱水萃取、13% 蘿蔔硫苷、亞洲夥伴寫 Connell Brothers，以及供應商的 72 小時句子。"
+        },
+        {
+          "accessed": "2026-11-15",
+          "channel": "other",
+          "publisher": "台灣卡爾迪克",
+          "title": "台灣卡爾迪克：BRASSICA 花椰菜萃取",
+          "url": "https://www.caldic.com.tw/raw/brassica-%E8%8A%B1%E6%A4%B0%E8%8F%9C%E8%90%83%E5%8F%96/",
+          "whatItContributes": "列出 Truebroc 與 13% 蘿蔔硫苷，並抄了公告裡的熱水萃取與噴霧乾燥製程。"
+        },
+        {
+          "accessed": "2026-11-15",
+          "channel": "other",
+          "publisher": "Caldic",
+          "title": "Connell Caldic rebranded to Caldic APAC",
+          "url": "https://www.caldic.com/en-co/insights/connell-caldic-rebranded-to-caldic-apac/",
+          "whatItContributes": "2025-04-08：Connell Caldic 自 2025-04-01 改名 Caldic APAC。沒有點名 TrueBroc。"
+        }
+      ],
+      "supply": {
+        "relationship": "taiwan_distributor",
+        "relationshipNote": "台灣卡爾迪克原料頁列出 Truebroc 青花菜種子萃取物（含 13% 蘿蔔硫苷），地址是台北市大安區光復南路 102 號 12 樓，並整段抄了熱水萃取、活性碳與噴霧乾燥的製程文字。Brassica 產品頁寫亞洲由 Connell Brothers 銷售；聯絡頁把 Connell Bros. Co. (Taiwan), Ltd. 放在同一地址。Caldic 2025-04-08 公告寫 Connell Caldic 自 2025-04-01 改名 Caldic APAC。原廠頁仍寫 Connell，沒有改成卡爾迪克。記為經銷。頁上個人姓名與電話不收入。查核日 2026-11-15。",
+        "supplierCountry": "美國",
+        "supplierName": "Brassica Protection Products LLC",
+        "taiwanPartyName": "台灣卡爾迪克"
+      },
+      "tfda": {
+        "evidenceNotes": "青花菜種子萃取物 1 筆，可供食品使用。公告限定熱水萃取後再經活性碳、離心、過濾、濃縮及噴霧乾燥，限成人，每日 115 毫克，並應標示孕婦、授乳者、甲狀腺疾病，以及抗凝血劑與癌症患者用前諮詢。TrueBroc 商品名沒有另列。論文寫的是熱水萃取後 refractance window drying，單次 385 毫克，製程文字和劑量都不是自動套用這則 115 毫克規格。添加物 0 筆。",
+        "lookupDate": "2026-11-15",
+        "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+        "officialCrosscheck": {
+          "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+          "done": true,
+          "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+          "notes": "2026-11-15 消費者專區 HTTP 為 502。開放資料 InfoId 4 的青花菜種子萃取物備註含 1121301044 號、每日 115 毫克與警語；花球是另一筆。與查詢助手一致。InfoId 61 沒有青花菜品名。"
+        },
+        "queries": [
+          {
+            "category": "",
+            "keyword": "青花菜種子",
+            "matchedName": "青花菜種子萃取物",
+            "note": "學名 Brassica oleracea var. italica，部位種子。",
+            "restrictionNote": "衛授食字第1121301044號：熱水萃取、活性碳、離心、過濾、濃縮及噴霧乾燥。限成人。每日 115 毫克。警語：孕婦、授乳者及甲狀腺相關疾病患者應避免食用；服用抗凝血劑及癌症患者使用前須先諮詢醫療人員。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "青花菜",
+            "matchedName": "青花菜種子萃取物",
+            "note": "花球不是本品。",
+            "restrictionNote": "種子萃取物如上。另一筆是青花菜花球，可供直接食用，備註空白。",
+            "resultCount": 2,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "TrueBroc",
+            "matchedName": "",
+            "note": "商品名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "青花菜",
+            "matchedName": "",
+            "note": "添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "glucoraphanin",
+            "matchedName": "",
+            "note": "成分英文名在添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "青花菜",
+            "matchedName": "",
+            "note": "助手更新歷程（2026-11-01 至 2026-11-14）沒有這筆異動。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "history",
+            "unconfirmedSafety": false
+          }
+        ],
+        "usable": "listed_food_ingredient"
+      }
+    },
+    {
+      "discovery": {
+        "channel": "news",
+        "notes": "從 NutraIngredients 2026-09-14 的 VERBALIEF 產品說明進入，再對 Bionap 產品頁、SupplySide Global 2026 產品頁與 ISRCTN19477801。台灣關聯另開來裕的 PHENBIOX 葉用頁，以及和聚的 Bionap 目錄；後者只有 Bergavit。",
+        "scoutDate": "2026-11-15"
+      },
+      "efficacy": {
+        "claimedBenefits": [
+          "Bionap 產品頁寫 VERBALIEF 是毛蕊草葉粉末，標準化毛蕊花糖苷與衍生物，並寫補充 10 天後有助於運動後的恢復、肌肉與關節。這是供應商頁的說法。",
+          "NutraIngredients 2026-09-14 的產品說明寫，66 名活躍成人的隨機雙盲安慰劑對照試驗，在 10 至 28 天看到關節舒適、肌肉恢復、運動後痠痛與耐力相關表現。銷售單寫部分結果尚待發表、不供對外散播。",
+          "ISRCTN19477801 登記 66 人、每日兩顆、28 天，登記頁寫結果尚未張貼。這裡不把未發表的百分比寫成論文結論。"
+        ],
+        "dosageNote": "每日 300 mg 是供應商建議。全草那一筆沒有每日毫克。果實與種子不得作為食品原料。",
+        "suggestedDosage": "Bionap 產品頁與銷售單都寫建議每日 300 mg。試驗登記寫每日兩顆，沒有在登記頁寫每顆毫克。"
+      },
+      "evidenceLevels": [],
+      "example": false,
+      "id": "verbalief",
+      "images": [
+        {
+          "caption": "Bionap 官網 VERBALIEF 產品頁上的商品圖。",
+          "localPath": "",
+          "source": "official_site",
+          "url": "https://bionap.com/assets/images/products/verbalief/verbalief_1.png"
+        }
+      ],
+      "literature": {
+        "note": "ISRCTN19477801 已完成登記，結果欄寫尚未張貼。銷售單寫臨床結果部分尚待發表。這次沒有讀到已刊出的論文，不把供應商頁的臨床句子填成文獻。",
+        "refs": [],
+        "status": "unknown"
+      },
+      "names": {
+        "commonEn": "great mullein leaf extract",
+        "commonZh": "毛蕊草葉萃取物",
+        "scientific": "Verbascum thapsus L.（葉。平台全草另含 Verbascum phlomoides、Verbascum thapsiforme。不是果實，也不是種子。）",
+        "trade": "VERBALIEF（Bionap 的毛蕊草葉萃取商品名）"
+      },
+      "patent": {
+        "note": "產品頁與 SupplySide Global 2026 產品頁都沒有給專利號。這次沒有打開對得上 VERBALIEF 的專利全文，不填成無。",
+        "refs": [],
+        "status": "unknown"
+      },
+      "sources": [
+        {
+          "accessed": "2026-11-15",
+          "channel": "news",
+          "publisher": "NutraIngredients",
+          "title": "New to Market: VERBALIEF",
+          "url": "https://www.nutraingredients.com/Product-innovations/new-to-market-verbalief-clinically-proven-ingredient-for-active-sport-nutrition/",
+          "whatItContributes": "2026-09-14 錄製的產品說明：Bionap 新原料，Verbascum thapsus 葉萃取，66 名成人、10 至 28 天。"
+        },
+        {
+          "accessed": "2026-11-15",
+          "channel": "supplier_site",
+          "publisher": "Bionap",
+          "title": "BIONAP - Verbalief",
+          "url": "https://bionap.com/products/verbalief",
+          "whatItContributes": "葉的粉末、建議每日 300 mg、義大利 Belpasso 地址，以及供應商自己的效益句子。"
+        },
+        {
+          "accessed": "2026-11-15",
+          "channel": "exhibition",
+          "publisher": "SupplySide Global",
+          "title": "SupplySide Global 2026 product page: VERBALIEF",
+          "url": "https://attendees.supplysideshow.com/event/supplyside-global-2026-1/product/UHJvZHVjdF8xNTUwODMy",
+          "whatItContributes": "展會產品頁：9–11% 毛蕊花糖苷與衍生物、每日 300 mg，展出單位 Bionap USA。"
+        },
+        {
+          "accessed": "2026-11-15",
+          "channel": "other",
+          "publisher": "ISRCTN registry",
+          "title": "ISRCTN19477801",
+          "url": "https://www.isrctn.com/ISRCTN19477801",
+          "whatItContributes": "試驗登記：66 人、每日兩顆、28 天，結果尚未張貼。贊助者 BIONAP S.R.L.。"
+        },
+        {
+          "accessed": "2026-11-15",
+          "channel": "other",
+          "publisher": "台北來裕公司",
+          "title": "來裕目錄：毛蕊花葉用油萃取",
+          "url": "http://www.lica.com.tw/home/index.php/tw/2018-08-18-14-31-35/item/mullein-6",
+          "whatItContributes": "同植物的葉用油萃取，廠牌是 PHENBIOX，INCI 化粧品欄位。不是 VERBALIEF。"
+        }
+      ],
+      "supply": {
+        "relationship": "unknown",
+        "relationshipNote": "2026-11-15 以 VERBALIEF、Verbalief、Bionap、毛蕊草、毛蕊花、Verbascum thapsus、great mullein 搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商交叉查詢，並於發布前換一組關鍵字再查。打開來裕目錄的葉用頁：植物名 Verbascum Thapsus、部位葉，INCI 為向日葵籽油、毛蕊花提取物與生育酚，廠牌 PHENBIOX、產地義大利，欄位是化粧品原料，不是 Bionap 的 VERBALIEF 食品粉末。同站搜尋摘要另有花部甘油萃取，這次以打開的葉部頁為準。人間仙草頁寫非食藥品、僅供薰香；ESPpop 是儀式用乾燥草。和聚有 Bionap 的 Bergavit，沒有 VERBALIEF。同植物、同原廠其他商品都不升成這個商品名的代理。查核日 2026-11-15。",
+        "supplierCountry": "義大利",
+        "supplierName": "Bionap S.r.l.",
+        "taiwanPartyName": "台北來裕公司"
+      },
+      "tfda": {
+        "evidenceNotes": "毛蕊草全草列在可供食品使用，分類是茶包、膳食調理包或萃取後作為原料，備註空白；平台說明全草指根、莖、葉、花。同一中文名的果實、種子是另一筆，未經確認安全性前不得作為食品原料。VERBALIEF 是葉的粉末，商品名沒有另列。添加物用毛蕊草與 Verbascum 都是 0 筆。",
+        "lookupDate": "2026-11-15",
+        "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+        "officialCrosscheck": {
+          "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+          "done": true,
+          "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+          "notes": "2026-11-15 消費者專區 HTTP 為 502，HTTPS 沒有取得頁首。另下載開放資料 InfoId 4：毛蕊草全草可供食品使用，果實與種子為未確認。與查詢助手一致。添加物筆數另以 InfoId 61 核對，毛蕊草與 Verbascum 都沒有品名。"
+        },
+        "queries": [
+          {
+            "category": "",
+            "keyword": "毛蕊草",
+            "matchedName": "毛蕊草",
+            "note": "同一中文名兩筆。本品是葉，對到全草，不是果實、種子。",
+            "restrictionNote": "全草：可供食品使用，茶包、膳食調理包或萃取後作為原料，備註空白。果實、種子：未經確認其食用安全性前，不得供為食品原料使用。",
+            "resultCount": 2,
+            "tab": "ingredient",
+            "unconfirmedSafety": true
+          },
+          {
+            "category": "",
+            "keyword": "Verbascum",
+            "matchedName": "毛蕊草",
+            "note": "與中文關鍵字同一組兩筆。",
+            "restrictionNote": "同上。全草學名含 Verbascum thapsus L.、Verbascum phlomoides L.、Verbascum thapsiforme Schrader。果實、種子那筆只寫 Verbascum thapsus L.。",
+            "resultCount": 2,
+            "tab": "ingredient",
+            "unconfirmedSafety": true
+          },
+          {
+            "category": "",
+            "keyword": "VERBALIEF",
+            "matchedName": "",
+            "note": "商品名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "毛蕊草",
+            "matchedName": "",
+            "note": "添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Verbascum",
+            "matchedName": "",
+            "note": "學名在添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "毛蕊草",
+            "matchedName": "",
+            "note": "助手更新歷程（2026-11-01 至 2026-11-14）沒有這筆異動。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "history",
+            "unconfirmedSafety": false
+          }
+        ],
+        "usable": "needs_review"
       }
     },
     {

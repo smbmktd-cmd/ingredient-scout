@@ -1,0 +1,175 @@
+{
+  "id": "bergavit",
+  "example": false,
+  "names": {
+    "commonZh": "香檸檬果汁類黃酮",
+    "commonEn": "bergamot juice flavonoids",
+    "trade": "Bergavit（Bionap 的香檸檬果汁類黃酮商品名）",
+    "scientific": "Citrus bergamia（Bionap 頁亦寫 Citrus aurantium L. var. bergamia。果汁。不是香櫞佛手柑 Citrus medica var. sarcodactylis。）"
+  },
+  "supply": {
+    "supplierName": "Bionap S.r.l.",
+    "supplierCountry": "義大利",
+    "relationship": "taiwan_agent",
+    "taiwanPartyName": "和聚國際生醫材料有限公司",
+    "relationshipNote": "和聚產品頁列出廠牌 Bionap、規格柑橘類黃酮（neohesperidin 等）25%、專利欄寫無。2026 亞洲美容保養生技保健大展頁（攤位 i1116）介紹同一商品，並寫「專利型」。兩處並陳。關於我們與 FAQ 自述代理進口原料，Bergavit 產品頁沒有寫獨家或原廠指定。Bionap 產品頁地址在義大利 Belpasso，沒有點名和聚。不升格為原廠證實或獨家。查核日 2026-11-15。"
+  },
+  "tfda": {
+    "usable": "listed_food_ingredient",
+    "evidenceNotes": "香檸檬（Citrus bergamia、Citrus aurantium var. bergamia）果實列在可供直接食用，備註空白。商品名 Bergavit 沒有另列。關鍵字「佛手柑」另外命中香櫞佛手柑果實，也是可供直接食用，不是這支香檸檬。添加物用香檸檬與 Bergavit 都是 0 筆。果實那一筆沒有每日毫克。",
+    "lookupDate": "2026-11-15",
+    "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+    "queries": [
+      {
+        "tab": "ingredient",
+        "keyword": "香檸檬",
+        "category": "",
+        "resultCount": 1,
+        "matchedName": "香檸檬；佛手柑",
+        "restrictionNote": "果實：可供食品使用，分類是可供直接食用，備註空白。學名 Citrus bergamia、Citrus aurantium var. bergamia。",
+        "unconfirmedSafety": false,
+        "note": "不是未確認分類。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "bergamia",
+        "category": "",
+        "resultCount": 1,
+        "matchedName": "香檸檬；佛手柑",
+        "restrictionNote": "同上。",
+        "unconfirmedSafety": false,
+        "note": "與中文關鍵字同一筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "佛手柑",
+        "category": "",
+        "resultCount": 2,
+        "matchedName": "香檸檬；佛手柑",
+        "restrictionNote": "兩筆都是果實、可供直接食用。另一筆中文名是佛手柑，學名 Citrus medica var. sarcodactylis，外文 Fingered citron。",
+        "unconfirmedSafety": false,
+        "note": "同字命中兩個物種。本品是 Citrus bergamia。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Bergavit",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "香檸檬",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "添加物 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "Bergavit",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名在添加物 0 筆。"
+      },
+      {
+        "tab": "history",
+        "keyword": "香檸檬",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "助手更新歷程（2026-11-01 至 2026-11-14）沒有這筆異動。"
+      }
+    ],
+    "officialCrosscheck": {
+      "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+      "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+      "done": true,
+      "notes": "2026-11-15 消費者專區 HTTP 為 502。開放資料 InfoId 4 的香檸檬果實為可供直接食用，學名 Citrus bergamia、Citrus aurantium var. bergamia；佛手柑另一筆是 Citrus medica var. sarcodactylis。與查詢助手一致。InfoId 61 沒有香檸檬或 Bergavit 品名。"
+    }
+  },
+  "efficacy": {
+    "claimedBenefits": [
+      "Bionap 產品頁寫 Bergavit 由卡拉布里亞香檸檬果汁取出主要類黃酮，並寫有助維持正常膽固醇、血管與脂蛋白。這是供應商頁的說法。",
+      "Foods 2024 年論文的受試物寫 Bergavit。64 名高膽固醇成人，每日 1 顆 375 mg（類黃酮 150 mg），4 個月後總膽固醇降 8.8%、LDL-C 降 11.5%；HDL-C 升 5.5% 該文寫尚未達顯著。研究由 Bionap 出資。"
+    ],
+    "suggestedDosage": "Bionap 產品頁寫每日 150 mg 類黃酮，相當於 Bergavit 550–600 mg。同一篇 2024 年論文用的是每日 375 mg 膠囊來提供 150 mg 類黃酮。和聚產品頁規格寫 25%，原廠銷售資料寫 25–28%。",
+    "dosageNote": "550–600 mg 與 375 mg 都是供應商或該篇試驗的劑量，不是台灣法規上限。果實列名沒有每日毫克。"
+  },
+  "patent": {
+    "status": "unknown",
+    "refs": [],
+    "note": "和聚產品頁專利欄寫無，展會頁寫專利型，沒有給號碼。這次用 Bergavit、Bionap 沒有打開可核對的專利全文，兩處說法都留下，不填成無。"
+  },
+  "literature": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "Citrus bergamia Extract, a Natural Approach for Cholesterol and Lipid Metabolism Management",
+        "url": "https://doi.org/10.3390/foods13233883",
+        "note": "Foods 2024, 13(23), 3883。受試物寫 Bergavit，每日 375 mg、類黃酮 150 mg、4 個月、64 人。Bionap 出資。"
+      }
+    ],
+    "note": "已讀該文摘要與方法段的劑量、人數與百分比。原廠頁的 550–600 mg 沒有改寫成這篇試驗的膠囊重量。"
+  },
+  "evidenceLevels": [
+    "clinical"
+  ],
+  "images": [
+    {
+      "url": "https://bionap.com/assets/images/products/bergavit/img_1.png",
+      "localPath": "",
+      "caption": "Bionap 官網 Bergavit 產品頁上的商品圖。",
+      "source": "official_site"
+    }
+  ],
+  "sources": [
+    {
+      "title": "2026 亞洲美容保養生技保健大展：香檸檬萃取物",
+      "url": "https://www.chanchao.com.tw/healthcos/visitorProductDetail.asp?no=179730",
+      "publisher": "亞洲美容保養生技保健大展參展頁",
+      "channel": "exhibition",
+      "accessed": "2026-11-15",
+      "whatItContributes": "和聚國際攤位 i1116。頁面寫 Bergavit 取自卡拉布里亞香檸檬果汁，並寫「專利型」。"
+    },
+    {
+      "title": "BIONAP - Bergavit",
+      "url": "https://bionap.com/products/bergavit",
+      "publisher": "Bionap",
+      "channel": "supplier_site",
+      "accessed": "2026-11-15",
+      "whatItContributes": "果汁類黃酮、建議每日 150 mg 類黃酮（對應粉末 550–600 mg）、義大利地址。"
+    },
+    {
+      "title": "和聚產品頁：Bergavit",
+      "url": "https://www.hg-bio.com.tw/products/bergavit/",
+      "publisher": "和聚國際生醫材料有限公司",
+      "channel": "other",
+      "accessed": "2026-11-15",
+      "whatItContributes": "廠牌 Bionap、類黃酮 25%、專利欄寫無。與展會頁的「專利型」不同。"
+    },
+    {
+      "title": "Foods 2024, 10.3390/foods13233883",
+      "url": "https://doi.org/10.3390/foods13233883",
+      "publisher": "Foods",
+      "channel": "paper",
+      "accessed": "2026-11-15",
+      "whatItContributes": "點名 Bergavit 的 4 個月試驗、375 mg 膠囊與血脂百分比。"
+    }
+  ],
+  "discovery": {
+    "channel": "exhibition",
+    "scoutDate": "2026-11-15",
+    "notes": "從 2026 亞洲美容保養生技保健大展的和聚香檸檬頁進入，再對 Bionap 產品頁、和聚產品頁與 Foods 2024。專利欄兩處不一致，都留下。"
+  }
+}

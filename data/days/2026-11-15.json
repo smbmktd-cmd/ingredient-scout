@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-15",
+  "example": false,
+  "title": "2026-11-15 正式日報",
+  "targetCount": 5,
+  "channelsCovered": [
+    "news",
+    "exhibition",
+    "industry_report"
+  ],
+  "notes": "正式五筆。主管道：VERBALIEF、TrueBroc、ForsLean 為新聞；Bergavit 為展覽；Carnipure 為產業報導。毛蕊草全草有列，果實與種子未確認。香檸檬果實、青花菜種子萃取物、毛喉鞘蕊花根有列。左旋肉鹼是添加物兩筆，範圍不同。",
+  "picks": [
+    "verbalief",
+    "bergavit",
+    "truebroc",
+    "carnipure",
+    "forslean"
+  ]
+}

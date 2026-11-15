@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-16",
+  "example": false,
+  "title": "2026-11-16 正式日報",
+  "targetCount": 5,
+  "channelsCovered": [
+    "news",
+    "exhibition",
+    "industry_report"
+  ],
+  "notes": "正式五筆。主管道：TurmXTRA、Reducose 為新聞；Centextra、Gingeren 為展覽；Saberry 為產業報導。薑黃根莖、雷公根根莖葉、余甘子果實、桑葉、薑根莖有列。四氫類薑黃素、化學合成薑黃素與 Zingiber cassumunar 是另一筆未確認，不是這次的原料。",
+  "picks": [
+    "turmxtra",
+    "centextra",
+    "saberry",
+    "reducose",
+    "gingeren"
+  ]
+}

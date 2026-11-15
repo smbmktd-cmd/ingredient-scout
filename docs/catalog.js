@@ -7,6 +7,924 @@ window.INGREDIENT_CATALOG = {
         "exhibition",
         "industry_report"
       ],
+      "date": "2026-11-16",
+      "example": false,
+      "notes": "正式五筆。主管道：TurmXTRA、Reducose 為新聞；Centextra、Gingeren 為展覽；Saberry 為產業報導。薑黃根莖、雷公根根莖葉、余甘子果實、桑葉、薑根莖有列。四氫類薑黃素、化學合成薑黃素與 Zingiber cassumunar 是另一筆未確認，不是這次的原料。",
+      "picks": [
+        {
+          "discovery": {
+            "channel": "news",
+            "notes": "從 Nutraceuticals World 2026-01-20 的加拿大核准新聞進入，再對 Nutriventia 產品頁、US11666535B2 與兩篇 PubMed。台灣關聯另查漢馨的 BCM-95 與日本 Tradepia，都不是這個商品名的台灣代理。",
+            "scoutDate": "2026-11-16"
+          },
+          "efficacy": {
+            "claimedBenefits": [
+              "Nutraceuticals World 2026-01-20 寫，加拿大衛生部對含 TurmXTRA 的產品核准抗氧化，以及有關關節疼痛下的中等強度有氧、運動後不適與健康者膝關節疼痛的聲稱。這是該報導轉述的加拿大產品聲稱，不是台灣核准。",
+              "Nutriventia 產品頁寫每日 250 mg、含 150 mg 薑黃素類，並寫一次劑量對應較高劑量的一般薑黃萃取。這是供應商頁的說法。",
+              "PubMed 34045905：健康、有慢性膝痛的成人，WDTE60N 250 mg 或安慰劑各約 53 人、每日一次、90 天。完成 96 人。摘要寫 80 公尺快走的疼痛分數下降大於安慰劑。"
+            ],
+            "dosageNote": "每日 250 mg 是供應商建議，也是這兩篇試驗的劑量。根莖那一筆沒有每日毫克。不是四氫類薑黃素的用法。",
+            "suggestedDosage": "產品頁與上述膝痛試驗都寫每日一次 250 mg（150 mg 薑黃素類）。2025 年膝骨關節炎試驗（PubMed 39882178）也是每日 250 mg、90 天。"
+          },
+          "evidenceLevels": [
+            "clinical"
+          ],
+          "example": false,
+          "id": "turmxtra",
+          "images": [
+            {
+              "caption": "Nutriventia 官網 TurmXTRA 產品頁上的商品圖。",
+              "localPath": "",
+              "source": "official_site",
+              "url": "https://www.nutriventia.com/wp-content/uploads/2025/10/Turm.png"
+            }
+          ],
+          "literature": {
+            "note": "兩篇都是人體隨機雙盲安慰劑對照。第一篇對象寫健康但有慢性膝痛，第二篇是膝骨關節炎，沒有併成同一句結論。",
+            "refs": [
+              {
+                "note": "健康成人慢性膝痛。WDTE60N 250 mg、每日一次、90 天。摘要寫疼痛分數與行走、爬梯時間。",
+                "title": "A Multicenter, Randomized, Double-Blind, Placebo-Controlled Trial Assessing Efficacy and Safety of a Novel Low-Dose Turmeric Extract Formulation in Healthy Adults with Chronic Knee Pain",
+                "url": "https://pubmed.ncbi.nlm.nih.gov/34045905/"
+              },
+              {
+                "note": "膝骨關節炎。TurmXTRA 60N 250 mg 或安慰劑、每日一次、三個月。摘要寫 VAS 與 KOOS。製造句寫 Nutriventia Limited, Mumbai, India。",
+                "title": "Efficacy and Safety of a Novel Low-Dose Water-Dispersible Turmeric Extract in the Management of Knee Osteoarthritis",
+                "url": "https://pubmed.ncbi.nlm.nih.gov/39882178/"
+              }
+            ],
+            "status": "yes"
+          },
+          "names": {
+            "commonEn": "turmeric rhizome extract (curcuminoids)",
+            "commonZh": "薑黃根莖萃取物（薑黃素類）",
+            "scientific": "Curcuma longa L.（根莖。不是葉，也不是四氫類薑黃素或化學合成薑黃素。）",
+            "trade": "TurmXTRA（Nutriventia 的水分散薑黃萃取商品名；試驗寫 TurmXTRA 60N、WDTE60N）"
+          },
+          "patent": {
+            "note": "2026-01-06 美國專利公報另有 US12514829，寫為上述申請的延續案，權利人 Nutriventia Private Limited，載體為米糠萃取與麥芽糊精。這次以已打開的 US11666535B2 為主。",
+            "refs": [
+              {
+                "note": "權利人 Nutriventia Pvt Ltd。薑黃素類與米糠萃取、甘露醇或麥芽糊精的熔融複合物。請求項寫薑黃素類可以是天然或合成，植物範圍含多個 Curcuma 種。商品頁與試驗寫的是天然薑黃素類，不把專利裡的合成途徑或爪哇薑黃當成這支產品。",
+                "title": "US11666535B2",
+                "url": "https://patents.google.com/patent/US11666535B2/en"
+              }
+            ],
+            "status": "yes"
+          },
+          "sources": [
+            {
+              "accessed": "2026-11-16",
+              "channel": "news",
+              "publisher": "Nutraceuticals World",
+              "title": "Nutriventia's TurmXTRA Receives Health Canada Approval",
+              "url": "https://www.nutraceuticalsworld.com/breaking-news/nutriventias-turmxtra-receives-health-canada-approval/",
+              "whatItContributes": "2026-01-20：水分散、標準化 60% 薑黃素類，以及加拿大產品聲稱與每日 250 mg 的生體可用率比較。"
+            },
+            {
+              "accessed": "2026-11-16",
+              "channel": "supplier_site",
+              "publisher": "Nutriventia",
+              "title": "TurmXTRA",
+              "url": "https://www.nutriventia.com/turmxtra/",
+              "whatItContributes": "每日 250 mg、其中 150 mg 薑黃素類，以及供應商自己的劑量比較。"
+            },
+            {
+              "accessed": "2026-11-16",
+              "channel": "patent",
+              "publisher": "Google Patents",
+              "title": "US11666535B2",
+              "url": "https://patents.google.com/patent/US11666535B2/en",
+              "whatItContributes": "熔融複合物專利。權利人 Nutriventia。請求項含合成途徑與多個 Curcuma 種，範圍大於商品頁。"
+            },
+            {
+              "accessed": "2026-11-16",
+              "channel": "paper",
+              "publisher": "PubMed",
+              "title": "PubMed 39882178",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39882178/",
+              "whatItContributes": "膝骨關節炎試驗：每日 250 mg、90 天，並寫 Mumbai 的 Nutriventia Limited 製造。"
+            },
+            {
+              "accessed": "2026-11-16",
+              "channel": "other",
+              "publisher": "Tradepia",
+              "title": "Tradepia company history",
+              "url": "https://tradepia.co.jp/en/about/",
+              "whatItContributes": "日本公司寫 2019 年起獨家經銷 TurmXTRA 60N。不是台灣廠商。"
+            }
+          ],
+          "supply": {
+            "relationship": "unknown",
+            "relationshipNote": "2026-11-16 以 TurmXTRA、TurmXTRA 60N、WDTE60N、Nutriventia、薑黃、Curcuma longa、curcumin 搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商交叉查詢，並於發布前用 site:.tw 再查一次商品名。打開的 Nutriventia 全球據點沒有台灣。日本 Tradepia 沿革寫 2019 年起獨家經銷 TurmXTRA 60N，地址在日本，不是台灣廠商。漢馨植物來源目錄有 BCM-95 薑黃萃取物，商品名不同，不當成這個商品的代理。沒有打開台灣公司的 TurmXTRA 產品頁或代理頁。查核日 2026-11-16。",
+            "supplierCountry": "印度",
+            "supplierName": "Nutriventia Limited",
+            "taiwanPartyName": "本次查無台灣關聯廠商"
+          },
+          "tfda": {
+            "evidenceNotes": "薑黃（Curcuma longa）根莖列在可供直接食用，備註空白；同一中文名的葉只寫香辛調味、適量使用。四氫類薑黃素與化學合成薑黃素是另外兩筆，未經確認安全性前不得作為食品原料。TurmXTRA 的產品頁與試驗寫天然薑黃素類、每日 250 mg，不是那兩筆。商品名沒有另列。添加物 0 筆。",
+            "lookupDate": "2026-11-16",
+            "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+            "officialCrosscheck": {
+              "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+              "done": true,
+              "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+              "notes": "2026-11-16 消費者專區 HTTPS 連線失敗（SSL_ERROR_SYSCALL），沒有取得頁面。開放資料 InfoId 4 下載 1707 筆，薑黃根莖與葉都是 Curcuma longa L.，根莖備註空白，葉為香辛調味。四氫類薑黃素與化學合成薑黃素在未確認分類。與查詢助手一致；助手細節為 1709 筆，總筆數差 2，這幾列的中文名、學名、部位、大分類相同。InfoId 61 下載 804 筆，薑黃與 curcumin 都沒有品名。"
+            },
+            "queries": [
+              {
+                "category": "",
+                "keyword": "薑黃",
+                "matchedName": "薑黃",
+                "note": "五筆裡只有根莖對到本品。未確認的三筆不是這支水分散萃取。",
+                "restrictionNote": "根莖：可供直接食用，學名 Curcuma longa L.，備註空白。葉：同一學名，僅供香辛調味、適量使用。另三筆是爪哇薑黃、化學合成薑黃素、四氫類薑黃素，皆為未確認、不得作為食品原料。",
+                "resultCount": 5,
+                "tab": "ingredient",
+                "unconfirmedSafety": true
+              },
+              {
+                "category": "",
+                "keyword": "Curcuma longa",
+                "matchedName": "薑黃",
+                "note": "學名會同時命中根莖與四氫類。本品對根莖。",
+                "restrictionNote": "根莖與葉同上。第三筆是四氫類薑黃素，部位寫由薑黃根莖製取，未確認。",
+                "resultCount": 3,
+                "tab": "ingredient",
+                "unconfirmedSafety": true
+              },
+              {
+                "category": "",
+                "keyword": "TurmXTRA",
+                "matchedName": "",
+                "note": "商品名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "薑黃",
+                "matchedName": "",
+                "note": "添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "curcumin",
+                "matchedName": "",
+                "note": "英文關鍵字在添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "薑黃",
+                "matchedName": "",
+                "note": "助手更新歷程（2026-11-01 至 2026-11-15）沒有這筆異動。資料時間戳 2026-11-15 06:21。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "history",
+                "unconfirmedSafety": false
+              }
+            ],
+            "usable": "listed_food_ingredient"
+          }
+        },
+        {
+          "discovery": {
+            "channel": "exhibition",
+            "notes": "從 Indena 2026-10-28 的 SupplySide Global 2026 新聞稿進入 Centextra，再對產品頁與 Frontiers 2026 細胞論文。台灣關聯打開漢馨的 Indena 頁，只有山桑子。",
+            "scoutDate": "2026-11-16"
+          },
+          "efficacy": {
+            "claimedBenefits": [
+              "Indena 產品頁寫 Centextra 是 Centella asiatica 乾萃取，標準化總三萜至少 13%，並寫膠原、皮膚彈性與外觀。同一頁寫臨床研究尚在投稿，外觀約年輕五歲是該未刊稿的說法，這裡不當成已發表結論。",
+              "Indena 2026-10-28 的 SupplySide Global 新聞稿把 Centextra 放進展會主打，並寫三萜酸、膠原與三個月外觀。劑量與部位以產品頁為準。",
+              "Frontiers in Molecular Biosciences 2026：人類皮膚纖維母細胞。摘要寫磷脂配方比未配方萃取更能降低 ROS、IL-6 與 MMP-1，並較能恢復膠原。這是細胞試驗，不是人體結論。"
+            ],
+            "dosageNote": "每日 150 mg 是供應商建議。平台這一部份沒有每日毫克。臨床稿產品頁寫尚在準備，不把 150 mg 寫成已發表人體劑量。",
+            "suggestedDosage": "Indena 產品頁技術欄寫建議 150 mg/die。已發表的 Frontiers 論文是細胞試驗，沒有每日口服毫克。"
+          },
+          "evidenceLevels": [
+            "cell"
+          ],
+          "example": false,
+          "id": "centextra",
+          "images": [
+            {
+              "caption": "Indena 官網 Centextra 產品頁上的商品卡圖。",
+              "localPath": "",
+              "source": "official_site",
+              "url": "https://www.indena.com/indena_files/2026/03/card-product-natura-listing_centextra_820x754px.jpg"
+            }
+          ],
+          "literature": {
+            "note": "產品頁參考文獻第 5 條寫 manuscript in preparation。那篇臨床沒有刊出，不列入文獻，也不標臨床證據。",
+            "refs": [
+              {
+                "note": "2026-06-29。Centextra 對未配方乾萃取。人類皮膚纖維母細胞。摘要沒有人體數據。",
+                "title": "In vitro antioxidant and collagen restoration activities of a standardized Centella asiatica L. extract formulated with phospholipids",
+                "url": "https://www.frontiersin.org/journals/molecular-biosciences/articles/10.3389/fmolb.2026.1832045/full"
+              }
+            ],
+            "status": "yes"
+          },
+          "names": {
+            "commonEn": "gotu kola extract",
+            "commonZh": "雷公根萃取物（積雪草）",
+            "scientific": "Centella asiatica (L.) Urban（產品頁寫 aerial parts。平台列根、莖、葉。不是金錢薄荷。）",
+            "trade": "Centextra（Indena 的積雪草 Phytosome 商品名）"
+          },
+          "patent": {
+            "note": "產品頁的 Patent 欄寫 Centextra 是 Indena S.p.A. 商標，使用須經授權，沒有給專利號。這次沒有打開標題對得上 Centextra 的專利全文，不填成無。",
+            "refs": [],
+            "status": "unknown"
+          },
+          "sources": [
+            {
+              "accessed": "2026-11-16",
+              "channel": "exhibition",
+              "publisher": "Indena",
+              "title": "Indena at SupplySide Global 2026",
+              "url": "https://www.indena.com/us/press-release/the-golden-aging-revolution-how-indenas-botanical-innovations-redefine-longevity-and-healthy-appearance-at-supplyside-global-2026/",
+              "whatItContributes": "2026-10-28：SupplySide Global 2026 主打 Centextra，植物為 Centella asiatica，並寫三萜與皮膚外觀。"
+            },
+            {
+              "accessed": "2026-11-16",
+              "channel": "supplier_site",
+              "publisher": "Indena",
+              "title": "Centextra",
+              "url": "https://www.indena.com/us/product/centextra/",
+              "whatItContributes": "乾萃取、aerial parts、總三萜至少 13%、建議 150 mg/die，以及臨床稿尚未發表。"
+            },
+            {
+              "accessed": "2026-11-16",
+              "channel": "paper",
+              "publisher": "Frontiers",
+              "title": "Frontiers in Molecular Biosciences 2026;13:1832045",
+              "url": "https://www.frontiersin.org/journals/molecular-biosciences/articles/10.3389/fmolb.2026.1832045/full",
+              "whatItContributes": "已發表的細胞試驗：ROS、IL-6、MMP-1 與膠原。"
+            },
+            {
+              "accessed": "2026-11-16",
+              "channel": "other",
+              "publisher": "漢馨科技",
+              "title": "漢馨的 Indena 供應商頁",
+              "url": "https://www.hansient.com.tw/supplier/indena/",
+              "whatItContributes": "該頁只列出 Mirtoselect，沒有 Centextra。同廠其他商品不計為本品代理。"
+            }
+          ],
+          "supply": {
+            "relationship": "unknown",
+            "relationshipNote": "2026-11-16 以 Centextra、Indena、Centella asiatica、gotu kola、雷公根、積雪草搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商交叉查詢，並於發布前用 site:.tw 再查商品名。打開漢馨的 Indena 供應商頁，只列出 Mirtoselect 山桑子，沒有 Centextra。同廠其他商品不升成這個商品名的代理。Indena 產品頁地址脈絡在義大利，沒有點名台灣公司。查核日 2026-11-16。",
+            "supplierCountry": "義大利",
+            "supplierName": "Indena S.p.A.",
+            "taiwanPartyName": "本次查無台灣關聯廠商"
+          },
+          "tfda": {
+            "evidenceNotes": "雷公根（Centella asiatica）根、莖、葉列在可供食品使用，分類是茶包、膳食調理包或萃取後作為原料，備註空白。關鍵字「積雪草」另外命中金錢薄荷，學名不是 Centella。商品名 Centextra 沒有另列。產品頁寫 aerial parts。添加物用積雪草、Centella、雷公根都是 0 筆。",
+            "lookupDate": "2026-11-16",
+            "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+            "officialCrosscheck": {
+              "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+              "done": true,
+              "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+              "notes": "2026-11-16 消費者專區 HTTPS 連線失敗（SSL_ERROR_SYSCALL）。開放資料 InfoId 4：雷公根根、莖、葉，學名 Centella asiatica（L.）Urban，外文名寫 Asiatic Gentella, Gotu Kola，大分類可供食品使用，備註空白。與查詢助手一致。InfoId 61 沒有積雪草或 Centella 品名。助手原料細節 1709 筆，這次開放資料 1707 筆。"
+            },
+            "queries": [
+              {
+                "category": "",
+                "keyword": "雷公根",
+                "matchedName": "雷公根；蚶殼仔草；地棠草；銅錢草；蚋仔草；積雪草",
+                "note": "不是未確認分類。",
+                "restrictionNote": "根、莖、葉。可供食品使用。次分類為茶包、膳食調理包或萃取後作為原料。備註空白。學名 Centella asiatica（L.）Urban。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "積雪草",
+                "matchedName": "雷公根；蚶殼仔草；地棠草；銅錢草；蚋仔草；積雪草",
+                "note": "別名撞名。本品對 Centella 那一筆。",
+                "restrictionNote": "另一筆中文名含積雪草，學名是 Glechoma hederacea，部位莖、葉，不是 Centella。",
+                "resultCount": 2,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Centella",
+                "matchedName": "雷公根；蚶殼仔草；地棠草；銅錢草；蚋仔草；積雪草",
+                "note": "學名只命中雷公根。",
+                "restrictionNote": "同上，根、莖、葉，備註空白。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Centextra",
+                "matchedName": "",
+                "note": "商品名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Centella",
+                "matchedName": "",
+                "note": "添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "積雪草",
+                "matchedName": "",
+                "note": "中文名在添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "雷公根",
+                "matchedName": "",
+                "note": "助手更新歷程（2026-11-01 至 2026-11-15）沒有這筆異動。資料時間戳 2026-11-15 06:21。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "history",
+                "unconfirmedSafety": false
+              }
+            ],
+            "usable": "listed_food_ingredient"
+          }
+        },
+        {
+          "discovery": {
+            "channel": "industry_report",
+            "notes": "從 Nutrition Insight 2026-02-23 的 Expo West 展商訪談進入 Saberry，再對 Sabinsa 產品頁與 PubMed 35996967。台灣關聯打開和聚產品頁、關於我們，以及生資的另一頁。同篇訪談的 C3 Reduct 屬於四氫類薑黃素，沒有放進這張卡。",
+            "scoutDate": "2026-11-16"
+          },
+          "efficacy": {
+            "claimedBenefits": [
+              "Sabinsa 產品頁寫 Saberry 來自新鮮餘甘子果實，標準化至少 10% β-glucogallin，並寫血糖代謝、肝臟與皮膚、頭髮。這是供應商頁的說法。",
+              "Nutrition Insight 2026-02-23 的 Expo West 展前記者訪問把 Saberry 寫成有臨床、並與抗氧化以及血糖、血脂平衡放在一起。同一篇也點名 Curcumin C3 Reduct，那是另一個商品，不是這支。"
+            ],
+            "dosageNote": "100 至 500 mg、一天兩次是供應商建議，上限約每日 1 g。論文的 2 g 高於這個範圍。果實列名沒有每日毫克。論文不是健康食品許可，也不把疾病治療寫成原料核准。",
+            "suggestedDosage": "Sabinsa 產品頁寫每日 100 至 500 mg、一天兩次。Food & Function 論文（PubMed 35996967）用的是每日 1 g 或 2 g，對象是新診斷的第二型糖尿病合併血脂異常，對照是 metformin 500 mg，開放標籤、沒有安慰劑。"
+          },
+          "evidenceLevels": [
+            "clinical"
+          ],
+          "example": false,
+          "id": "saberry",
+          "images": [
+            {
+              "caption": "Sabinsa 官網 Saberry 產品頁上的商品圖。",
+              "localPath": "",
+              "source": "official_site",
+              "url": "https://sabinsa.com/wp-content/uploads/2025/09/saberry-sabinsa.webp"
+            }
+          ],
+          "literature": {
+            "note": "讀的是摘要與方法段的劑量。沒有安慰劑組。不把對照藥的結果寫成一般食品功效。",
+            "refs": [
+              {
+                "note": "開放標籤、三組、對照 metformin。萃取物標準化 10% β-glucogallin，文中寫 Saberry。每日 1 g 或 2 g、90 天。完成 124 人。對象是新診斷糖尿病合併血脂異常。",
+                "title": "Novel Emblica officinalis extract containing β-glucogallin vs. metformin",
+                "url": "https://pubmed.ncbi.nlm.nih.gov/35996967/"
+              }
+            ],
+            "status": "yes"
+          },
+          "names": {
+            "commonEn": "amla fruit extract",
+            "commonZh": "餘甘子果實萃取物",
+            "scientific": "Phyllanthus emblica L.（亦寫 Emblica officinalis Gaertn.。果實。不是葉下珠。）",
+            "trade": "Saberry（Sabinsa 的餘甘子萃取商品名）"
+          },
+          "patent": {
+            "note": "產品頁寫有專利，沒有在該頁給號碼。歐洲產品頁另列 EP2461786 與 AU2010326651，這次沒有打開請求項，不另計。",
+            "refs": [
+              {
+                "note": "Sabinsa 新聞稿寫 US8247003 是 Saberry 加 Cococin 的配方專利，不是單獨果實萃取的請求項。這次沒有把複方專利寫成 Saberry 單方專利。",
+                "title": "Saberry 與 Cococin 配方獲美國專利",
+                "url": "https://sami-sabinsagroup.com/sami-sabinsa-newsroom/press-release/2012/sabinsa-s-saberry-cococin-formulation-granted-us-patent/882"
+              }
+            ],
+            "status": "yes"
+          },
+          "sources": [
+            {
+              "accessed": "2026-11-16",
+              "channel": "industry_report",
+              "publisher": "Nutrition Insight",
+              "title": "Expo West 2026: Exploring natural products for longevity and energy",
+              "url": "https://www.nutritioninsight.com/news/expo-west-2026-sabinsa-layn-biovivo-science.html",
+              "whatItContributes": "2026-02-23 展前記者訪問：Saberry 為餘甘子萃取，與血糖、血脂平衡和抗氧化放在同一段。同篇的 C3 Reduct 不是本品。"
+            },
+            {
+              "accessed": "2026-11-16",
+              "channel": "supplier_site",
+              "publisher": "Sabinsa",
+              "title": "Saberry",
+              "url": "https://sabinsa.com/brand/saberry",
+              "whatItContributes": "新鮮果實、至少 10% β-glucogallin、建議每日 100 至 500 mg 兩次。頁上美國地址。"
+            },
+            {
+              "accessed": "2026-11-16",
+              "channel": "paper",
+              "publisher": "PubMed",
+              "title": "PubMed 35996967",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/35996967/",
+              "whatItContributes": "開放標籤試驗的劑量 1 g 與 2 g，以及對照藥設計。"
+            },
+            {
+              "accessed": "2026-11-16",
+              "channel": "other",
+              "publisher": "和聚國際生醫材料",
+              "title": "和聚的 Saberry 產品頁",
+              "url": "https://www.hg-bio.com.tw/products/saberry/",
+              "whatItContributes": "台灣頁列出 Sabinsa、β-glucogallin 10%、產地印度。沒有寫獨家。"
+            },
+            {
+              "accessed": "2026-11-16",
+              "channel": "other",
+              "publisher": "生資",
+              "title": "生資的 Saberry 原料頁",
+              "url": "https://www.nutrisense.com.tw/ingredients/emblica-extract-saberry/",
+              "whatItContributes": "另一家台灣公司的產品頁。有效成分至少 10%。該頁沒有寫代理。"
+            }
+          ],
+          "supply": {
+            "relationship": "taiwan_agent",
+            "relationshipNote": "和聚產品頁列出廠牌 Sabinsa、規格 β-glucogallin 10%、產地印度。關於我們與 FAQ 自述代理進口原料，產品頁沒有寫獨家或原廠指定。Sabinsa 品牌彙整頁這次沒有列出資料，產品頁本身有 Saberry。生資另有餘甘子 Saberry 頁，有效成分寫乙型葡糖倍苷至少 10%，該頁沒有寫代理。兩頁並陳，不升格為原廠證實或獨家。查核日 2026-11-16。",
+            "supplierCountry": "美國",
+            "supplierName": "Sabinsa Corporation",
+            "taiwanPartyName": "和聚國際生醫材料有限公司"
+          },
+          "tfda": {
+            "evidenceNotes": "余甘子果實（Phyllanthus emblica，亦寫 Emblica officinalis）列在可供直接食用，備註空白。商品名 Saberry 沒有另列。添加物用余甘、Emblica、Saberry 都是 0 筆。果實那一筆沒有每日毫克。",
+            "lookupDate": "2026-11-16",
+            "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+            "officialCrosscheck": {
+              "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+              "done": true,
+              "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+              "notes": "2026-11-16 消費者專區 HTTPS 連線失敗（SSL_ERROR_SYSCALL）。開放資料 InfoId 4：余甘子果實，學名 Phyllanthus emblica L.(Emblica officinalis Gaertn.)，可供食品使用，備註空白。與查詢助手一致。InfoId 61 沒有余甘或 Emblica 品名。助手原料細節 1709 筆，這次開放資料 1707 筆。"
+            },
+            "queries": [
+              {
+                "category": "",
+                "keyword": "余甘子",
+                "matchedName": "余甘子；餘甘子",
+                "note": "不是未確認分類。",
+                "restrictionNote": "果實。可供直接食用。學名 Phyllanthus emblica L.(Emblica officinalis Gaertn.)。備註空白。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Phyllanthus emblica",
+                "matchedName": "余甘子；餘甘子",
+                "note": "學名與中文關鍵字同一筆。Phyllanthus 其他種是另一批植物，這次用完整種小名。",
+                "restrictionNote": "同上。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Saberry",
+                "matchedName": "",
+                "note": "商品名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "余甘",
+                "matchedName": "",
+                "note": "添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Emblica",
+                "matchedName": "",
+                "note": "外文名在添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "余甘",
+                "matchedName": "",
+                "note": "助手更新歷程（2026-11-01 至 2026-11-15）沒有這筆異動。資料時間戳 2026-11-15 06:21。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "history",
+                "unconfirmedSafety": false
+              }
+            ],
+            "usable": "listed_food_ingredient"
+          }
+        },
+        {
+          "discovery": {
+            "channel": "news",
+            "notes": "從 NutraIngredients 2026-10-08 的獲獎報導進入 Reducose，再對 Phynova 產品頁、PubMed 38892603 與 US11484561B2。台灣關聯打開生資的 2026-10 說明頁、2025-03 新聞頁與成分頁。",
+            "scoutDate": "2026-11-16"
+          },
+          "efficacy": {
+            "claimedBenefits": [
+              "Phynova 產品頁寫 Reducose 是桑葉水萃取，並寫飯後血糖、胰島素與常見碳水化合物的升糖指數。這是供應商頁的說法。",
+              "NutraIngredients 2026-10-08 寫，已發表研究多數看的是飯後血糖；公司並在訪問中談到往老化、停用 GLP-1 後的體重與更年期延伸。那些延伸研究該篇寫的是計畫，不是這次讀到的結果。",
+              "Nutrients 2024（PubMed 38892603）：37 名健康成人、交叉試驗。200、225、250 mg 都降低白麵包加蛋沙拉餐後 120 分鐘的血糖與胰島素曲線下面積。萃取標準化 5% DNJ。"
+            ],
+            "dosageNote": "250 mg 是這篇論文裡的建議劑量，200 與 225 mg 是同一試驗的較低劑量。都是 5% DNJ 規格。葉的列名沒有每日毫克。另一篇把桑葉萃取和色胺酸等併成配方的睡眠試驗，不把睡眠寫成 Reducose 單獨的結果。",
+            "suggestedDosage": "該論文把 250 mg 寫成建議劑量，並同時測了 200 mg 與 225 mg。Phynova 產品頁這次打開的文字沒有寫毫克。"
+          },
+          "evidenceLevels": [
+            "clinical"
+          ],
+          "example": false,
+          "id": "reducose",
+          "images": [
+            {
+              "caption": "Phynova 官網 Reducose 產品頁上的桑葉圖。",
+              "localPath": "",
+              "source": "official_site",
+              "url": "https://www.phynova.com/wp-content/uploads/2025/10/thumbnail_Mulberry-Leaf.jpg"
+            }
+          ],
+          "literature": {
+            "note": "這篇是 Reducose 單獨、飯前膠囊。睡眠那篇是複方，不放進這個文獻等級。",
+            "refs": [
+              {
+                "note": "Nutrients 2024。健康成人 37 人。200、225、250 mg，5% DNJ。餐後血糖與胰島素。",
+                "title": "Understanding the Impact of Different Doses of Reducose Mulberry Leaf Extract on Blood Glucose and Insulin Responses after Eating a Complex Meal",
+                "url": "https://pubmed.ncbi.nlm.nih.gov/38892603/"
+              }
+            ],
+            "status": "yes"
+          },
+          "names": {
+            "commonEn": "white mulberry leaf extract",
+            "commonZh": "桑葉萃取物",
+            "scientific": "Morus alba L.（葉。不是雲莓 Rubus chamaemorus。）",
+            "trade": "Reducose（Phynova 的桑葉水萃取商品名）"
+          },
+          "patent": {
+            "note": "產品頁寫 patented。專利與 5% DNJ 商品規格不是同一句話，不把請求項自動等同每一批 5% 規格。",
+            "refs": [
+              {
+                "note": "申請頁顯示 2022-11-01 核准，權利人 Phynova Limited。請求項是桑葉水溶性萃取、含亞胺糖 N-酸與哌啶酸，並限制 DNJ 在亞胺糖中的比例。這次打開的請求項沒有寫商品名 Reducose。",
+                "title": "US11484561B2",
+                "url": "https://patents.google.com/patent/US11484561B2/en"
+              }
+            ],
+            "status": "yes"
+          },
+          "sources": [
+            {
+              "accessed": "2026-11-16",
+              "channel": "news",
+              "publisher": "NutraIngredients",
+              "title": "Double champion: Phynova takes mulberry leaf extract beyond sugar control",
+              "url": "https://www.nutraingredients.com/Article/2026/10/08/double-champion-phynova-takes-mulberry-leaf-extract-beyond-sugar-control/",
+              "whatItContributes": "2026-10-08：Reducose 為桑葉水萃取，已發表研究集中在飯後血糖，並寫後續研究計畫。"
+            },
+            {
+              "accessed": "2026-11-16",
+              "channel": "supplier_site",
+              "publisher": "Phynova",
+              "title": "Reducose",
+              "url": "https://www.phynova.com/reducose/",
+              "whatItContributes": "桑葉水萃取、供應商的飯後血糖句子。頁上沒有點名台灣公司，也沒有寫毫克。"
+            },
+            {
+              "accessed": "2026-11-16",
+              "channel": "paper",
+              "publisher": "PubMed",
+              "title": "PubMed 38892603",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38892603/",
+              "whatItContributes": "200、225、250 mg 的餐後血糖與胰島素，以及湖南製造、Phynova 提供膠囊。"
+            },
+            {
+              "accessed": "2026-11-16",
+              "channel": "patent",
+              "publisher": "Google Patents",
+              "title": "US11484561B2",
+              "url": "https://patents.google.com/patent/US20140328950A1/en",
+              "whatItContributes": "申請頁顯示核准為 US11484561B2，權利人 Phynova Limited。請求項沒有商品名。"
+            },
+            {
+              "accessed": "2026-11-16",
+              "channel": "other",
+              "publisher": "生資",
+              "title": "生資：Reducose 台灣市場說明",
+              "url": "https://www.nutrisense.com.tw/newsroom/company/reducose_tw_pr_statement/",
+              "whatItContributes": "2026-10：該公司自述總代理，並轉述原廠說明函。這次沒有打開函件原件。"
+            }
+          ],
+          "supply": {
+            "relationship": "taiwan_agent",
+            "relationshipNote": "生資 2026-10 說明頁自述為 Phynova 的 Reducose 台灣總代理，並轉述原廠 2026-10-01 致台灣客戶的說明函；這次沒有打開該函原件。2025-03 新聞頁自述獨家代理。成分頁寫產地印度、DNJ 5.0%±0.5%，並寫 Phynova 為 2002 年在牛津創立的英國公司。PubMed 38892603 寫試驗膠囊由中國湖南 Hunan Hill Pharmaceutical 製造、由 Phynova 提供。產地與製造地點並陳。Phynova 產品頁沒有點名生資。不升格為原廠頁上的獨家。查核日 2026-11-16。",
+            "supplierCountry": "英國",
+            "supplierName": "Phynova Group Limited",
+            "taiwanPartyName": "生資有限公司"
+          },
+          "tfda": {
+            "evidenceNotes": "桑樹（Morus alba）果實、枝、葉列在可供直接食用，備註空白。Reducose 是葉的水萃取，商品名沒有另列。關鍵字 Morus 另外命中雲莓果實，不是這支。添加物用桑、Morus、桑葉都是 0 筆。葉那一筆沒有每日毫克。",
+            "lookupDate": "2026-11-16",
+            "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+            "officialCrosscheck": {
+              "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+              "done": true,
+              "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+              "notes": "2026-11-16 消費者專區 HTTPS 連線失敗（SSL_ERROR_SYSCALL）。開放資料 InfoId 4：桑樹，外文名 Mulberry，學名 Morus alba L.，部位果實、枝、葉，可供食品使用，備註空白。與查詢助手一致。InfoId 61 沒有桑或 Morus 品名。助手原料細節 1709 筆，這次開放資料 1707 筆。"
+            },
+            "queries": [
+              {
+                "category": "",
+                "keyword": "桑樹",
+                "matchedName": "桑樹",
+                "note": "葉在列名部位裡。",
+                "restrictionNote": "果實、枝、葉。可供直接食用。學名 Morus alba L.。備註空白。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Morus",
+                "matchedName": "桑樹",
+                "note": "學名片段會撞到雲莓。本品是 Morus alba 的葉。",
+                "restrictionNote": "另一筆是雲莓，學名 Rubus chamaemorus，部位果實。",
+                "resultCount": 2,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Reducose",
+                "matchedName": "",
+                "note": "商品名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "桑",
+                "matchedName": "",
+                "note": "添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Morus",
+                "matchedName": "",
+                "note": "學名在添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "桑樹",
+                "matchedName": "",
+                "note": "助手更新歷程（2026-11-01 至 2026-11-15）沒有這筆異動。資料時間戳 2026-11-15 06:21。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "history",
+                "unconfirmedSafety": false
+              }
+            ],
+            "usable": "listed_food_ingredient"
+          }
+        },
+        {
+          "discovery": {
+            "channel": "exhibition",
+            "notes": "從 NutraIngredients 2026-10-14 的 SupplySide Global 展場預告進入 Gingeren，再對 Ennature 產品頁、Cureus 摘要與商業報導。台灣關聯沒有對到產品頁。同預告裡的 Aspargize 是另一種植物，沒有放進這張卡。",
+            "scoutDate": "2026-11-16"
+          },
+          "efficacy": {
+            "claimedBenefits": [
+              "Ennature 產品頁寫 Gingeren 是薑根莖萃取、緩釋顆粒，標準化總薑酚至少 20%，並寫經期舒適。頁上的 68% WaLIDD、34% VAS、17% PGF2α 與論文摘要的百分比不同，這裡不把頁上的百分比當成論文數字。",
+              "Cureus 2026 摘要：原發性經痛，標準化薑萃取 49 人、安慰劑 47 人，每日兩次、90 天。第三週期 VAS 較基線降 31.2% 至 33.3%，WaLIDD 降 62.4% 至 63.5%。PGF2α 降 11.6% 至 11.9%。摘要的方法句沒有寫每顆毫克。",
+              "Nutraceutical Business Review 對同一篇的報導寫每顆 100 mg、每日兩次，並用 68%、74%、34%、17% 這組百分比。與摘要並陳。"
+            ],
+            "dosageNote": "每日 200 mg 是供應商建議。摘要沒有獨立寫出毫克，所以不把 200 mg 寫成論文已載明的劑量。根莖列名沒有每日毫克。新聞稿同時介紹的 Aspargize 是另一種植物，不是這支薑。",
+            "suggestedDosage": "產品頁寫每日 200 mg。商業報導寫每顆 100 mg、每日兩次，加總也是 200 mg。論文摘要只寫每日兩次。"
+          },
+          "evidenceLevels": [
+            "clinical"
+          ],
+          "example": false,
+          "id": "gingeren",
+          "images": [
+            {
+              "caption": "Ennature 官網 Gingeren 產品頁上的商品封面。",
+              "localPath": "",
+              "source": "official_site",
+              "url": "https://ennature.com/assets/covers/products/gingeren.webp"
+            }
+          ],
+          "literature": {
+            "note": "供應商另列 Genetics and Molecular Research 2026 的性功能論文。這次沒有把該篇百分比放進效益句。證據等級只依已讀到摘要的 Cureus 論文標臨床。",
+            "refs": [
+              {
+                "note": "Cureus，2026-08-21，DOI 10.7759/cureus.114903。摘要人數與百分比如上。供應商頁的百分比沒有併進去。",
+                "title": "Efficacy of a Standardized Ginger Extract for Menstrual Pain and Associated Symptoms in Women With Primary Dysmenorrhea",
+                "url": "https://www.cureus.com/articles/518362-efficacy-of-a-standardized-ginger-extract-for-menstrual-pain-and-associated-symptoms-in-women-with-primary-dysmenorrhea-a-randomized-double-blind-placebo-controlled-trial"
+              }
+            ],
+            "status": "yes"
+          },
+          "names": {
+            "commonEn": "ginger rhizome extract (gingerols)",
+            "commonZh": "薑根莖萃取物（薑酚）",
+            "scientific": "Zingiber officinale（根莖。不是 Zingiber cassumunar，也不是薑黃。）",
+            "trade": "Gingeren（Ennature 的緩釋薑顆粒商品名）"
+          },
+          "patent": {
+            "note": "產品頁狀態欄寫 Patent pending。2026-09-16 新聞稿寫 patented sustained-release technology。兩種說法都在，這次沒有打開申請號或核准號，不填成有，也不填成無。",
+            "refs": [],
+            "status": "unknown"
+          },
+          "sources": [
+            {
+              "accessed": "2026-11-16",
+              "channel": "exhibition",
+              "publisher": "NutraIngredients",
+              "title": "SupplySide Global 2026: What’s happening on the show floor",
+              "url": "https://www.nutraingredients.com/Article/2026/10/14/supplyside-global-2026-whats-happening-on-the-show-floor/",
+              "whatItContributes": "2026-10-14 展前記者整理：Ennature 攤位列出 Gingeren，緩釋薑，與經期舒適放在同一段。同段的 Aspargize 不是本品。"
+            },
+            {
+              "accessed": "2026-11-16",
+              "channel": "supplier_site",
+              "publisher": "Ennature",
+              "title": "Gingeren",
+              "url": "https://ennature.com/gingeren.html",
+              "whatItContributes": "根莖、總薑酚至少 20%、每日 200 mg、Patent pending，以及頁上另一組百分比。"
+            },
+            {
+              "accessed": "2026-11-16",
+              "channel": "paper",
+              "publisher": "Cureus",
+              "title": "Cureus 2026 ginger extract dysmenorrhea trial",
+              "url": "https://doi.org/10.7759/cureus.114903",
+              "whatItContributes": "摘要的人數、每日兩次、90 天，以及 VAS、WaLIDD、PGF2α 的百分比區間。"
+            },
+            {
+              "accessed": "2026-11-16",
+              "channel": "news",
+              "publisher": "Nutraceutical Business Review",
+              "title": "Ginger extract Gingeren supports menstrual comfort",
+              "url": "https://nutraceuticalbusinessreview.com/ginger-extract-gingeren-supports-menstrual-comfort-and-daily",
+              "whatItContributes": "把同一篇寫成每顆 100 mg、每日兩次，百分比與摘要不同。"
+            },
+            {
+              "accessed": "2026-11-16",
+              "channel": "other",
+              "publisher": "Univar Solutions",
+              "title": "Ennature at Univar Solutions",
+              "url": "https://www.univarsolutions.com/suppliers/ennature-biopharma",
+              "whatItContributes": "寫北美經銷 Gingeren 顆粒。不是台灣廠商。"
+            }
+          ],
+          "supply": {
+            "relationship": "unknown",
+            "relationshipNote": "2026-11-16 以 Gingeren、Ennature、BioRelay、Zingiber officinale、gingerols、薑、薑酚、緩釋薑搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商交叉查詢，並於發布前用 site:.tw 再查商品名。打開的 Univar 頁寫北美經銷 Gingeren，不是台灣。產品頁地址在印度 Noida，沒有點名台灣公司。沒有打開台灣廠商的 Gingeren 產品頁或代理頁。查核日 2026-11-16。",
+            "supplierCountry": "印度",
+            "supplierName": "Ennature Bio Pharma Limited",
+            "taiwanPartyName": "本次查無台灣關聯廠商"
+          },
+          "tfda": {
+            "evidenceNotes": "薑（Zingiber officinale）根莖列在可供直接食用，備註空白。商品名 Gingeren 沒有另列。關鍵字 Ginger 會連到另一筆未確認的「姜黄」，學名是 Zingiber cassumunar，不是本品。添加物用薑、Zingiber、Ginger 都是 0 筆。根莖那一筆沒有每日毫克。",
+            "lookupDate": "2026-11-16",
+            "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+            "officialCrosscheck": {
+              "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+              "done": true,
+              "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+              "notes": "2026-11-16 消費者專區 HTTPS 連線失敗（SSL_ERROR_SYSCALL）。開放資料 InfoId 4：薑，外文名 Ginger，學名 Zingiber officinale，部位根莖，可供食品使用，備註空白。姜黄為 Zingiber cassumunar，在未確認分類。與查詢助手一致。InfoId 61 沒有薑、Zingiber 或 Ginger 品名。助手原料細節 1709 筆，這次開放資料 1707 筆。"
+            },
+            "queries": [
+              {
+                "category": "",
+                "keyword": "Zingiber officinale",
+                "matchedName": "薑",
+                "note": "種小名只命中這一筆。",
+                "restrictionNote": "根莖。可供直接食用。外文名 Ginger。備註空白。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "薑",
+                "matchedName": "薑",
+                "note": "單字「薑」範圍太寬。以學名那一筆為準。",
+                "restrictionNote": "其中外文名 Ginger、學名 Zingiber officinale、部位根莖的是本品。同字還命中薑黃、高良薑等其他植物。",
+                "resultCount": 15,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Ginger",
+                "matchedName": "薑",
+                "note": "未確認的是 cassumunar，不是 officinale。",
+                "restrictionNote": "七筆含薑。另有未確認的姜黄，學名 Zingiber cassumunar，根莖，不得作為食品原料。",
+                "resultCount": 7,
+                "tab": "ingredient",
+                "unconfirmedSafety": true
+              },
+              {
+                "category": "",
+                "keyword": "Gingeren",
+                "matchedName": "",
+                "note": "商品名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "薑",
+                "matchedName": "",
+                "note": "添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Zingiber",
+                "matchedName": "",
+                "note": "學名在添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "薑",
+                "matchedName": "",
+                "note": "助手更新歷程（2026-11-01 至 2026-11-15）沒有含「薑」的異動。資料時間戳 2026-11-15 06:21。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "history",
+                "unconfirmedSafety": false
+              }
+            ],
+            "usable": "listed_food_ingredient"
+          }
+        }
+      ],
+      "targetCount": 5,
+      "title": "2026-11-16 正式日報"
+    },
+    {
+      "channelsCovered": [
+        "news",
+        "exhibition",
+        "industry_report"
+      ],
       "date": "2026-11-15",
       "example": false,
       "notes": "正式五筆。主管道：VERBALIEF、TrueBroc、ForsLean 為新聞；Bergavit 為展覽；Carnipure 為產業報導。毛蕊草全草有列，果實與種子未確認。香檸檬果實、青花菜種子萃取物、毛喉鞘蕊花根有列。左旋肉鹼是添加物兩筆，範圍不同。",
@@ -11151,6 +12069,182 @@ window.INGREDIENT_CATALOG = {
     },
     {
       "discovery": {
+        "channel": "exhibition",
+        "notes": "從 Indena 2026-10-28 的 SupplySide Global 2026 新聞稿進入 Centextra，再對產品頁與 Frontiers 2026 細胞論文。台灣關聯打開漢馨的 Indena 頁，只有山桑子。",
+        "scoutDate": "2026-11-16"
+      },
+      "efficacy": {
+        "claimedBenefits": [
+          "Indena 產品頁寫 Centextra 是 Centella asiatica 乾萃取，標準化總三萜至少 13%，並寫膠原、皮膚彈性與外觀。同一頁寫臨床研究尚在投稿，外觀約年輕五歲是該未刊稿的說法，這裡不當成已發表結論。",
+          "Indena 2026-10-28 的 SupplySide Global 新聞稿把 Centextra 放進展會主打，並寫三萜酸、膠原與三個月外觀。劑量與部位以產品頁為準。",
+          "Frontiers in Molecular Biosciences 2026：人類皮膚纖維母細胞。摘要寫磷脂配方比未配方萃取更能降低 ROS、IL-6 與 MMP-1，並較能恢復膠原。這是細胞試驗，不是人體結論。"
+        ],
+        "dosageNote": "每日 150 mg 是供應商建議。平台這一部份沒有每日毫克。臨床稿產品頁寫尚在準備，不把 150 mg 寫成已發表人體劑量。",
+        "suggestedDosage": "Indena 產品頁技術欄寫建議 150 mg/die。已發表的 Frontiers 論文是細胞試驗，沒有每日口服毫克。"
+      },
+      "evidenceLevels": [
+        "cell"
+      ],
+      "example": false,
+      "id": "centextra",
+      "images": [
+        {
+          "caption": "Indena 官網 Centextra 產品頁上的商品卡圖。",
+          "localPath": "",
+          "source": "official_site",
+          "url": "https://www.indena.com/indena_files/2026/03/card-product-natura-listing_centextra_820x754px.jpg"
+        }
+      ],
+      "literature": {
+        "note": "產品頁參考文獻第 5 條寫 manuscript in preparation。那篇臨床沒有刊出，不列入文獻，也不標臨床證據。",
+        "refs": [
+          {
+            "note": "2026-06-29。Centextra 對未配方乾萃取。人類皮膚纖維母細胞。摘要沒有人體數據。",
+            "title": "In vitro antioxidant and collagen restoration activities of a standardized Centella asiatica L. extract formulated with phospholipids",
+            "url": "https://www.frontiersin.org/journals/molecular-biosciences/articles/10.3389/fmolb.2026.1832045/full"
+          }
+        ],
+        "status": "yes"
+      },
+      "names": {
+        "commonEn": "gotu kola extract",
+        "commonZh": "雷公根萃取物（積雪草）",
+        "scientific": "Centella asiatica (L.) Urban（產品頁寫 aerial parts。平台列根、莖、葉。不是金錢薄荷。）",
+        "trade": "Centextra（Indena 的積雪草 Phytosome 商品名）"
+      },
+      "patent": {
+        "note": "產品頁的 Patent 欄寫 Centextra 是 Indena S.p.A. 商標，使用須經授權，沒有給專利號。這次沒有打開標題對得上 Centextra 的專利全文，不填成無。",
+        "refs": [],
+        "status": "unknown"
+      },
+      "sources": [
+        {
+          "accessed": "2026-11-16",
+          "channel": "exhibition",
+          "publisher": "Indena",
+          "title": "Indena at SupplySide Global 2026",
+          "url": "https://www.indena.com/us/press-release/the-golden-aging-revolution-how-indenas-botanical-innovations-redefine-longevity-and-healthy-appearance-at-supplyside-global-2026/",
+          "whatItContributes": "2026-10-28：SupplySide Global 2026 主打 Centextra，植物為 Centella asiatica，並寫三萜與皮膚外觀。"
+        },
+        {
+          "accessed": "2026-11-16",
+          "channel": "supplier_site",
+          "publisher": "Indena",
+          "title": "Centextra",
+          "url": "https://www.indena.com/us/product/centextra/",
+          "whatItContributes": "乾萃取、aerial parts、總三萜至少 13%、建議 150 mg/die，以及臨床稿尚未發表。"
+        },
+        {
+          "accessed": "2026-11-16",
+          "channel": "paper",
+          "publisher": "Frontiers",
+          "title": "Frontiers in Molecular Biosciences 2026;13:1832045",
+          "url": "https://www.frontiersin.org/journals/molecular-biosciences/articles/10.3389/fmolb.2026.1832045/full",
+          "whatItContributes": "已發表的細胞試驗：ROS、IL-6、MMP-1 與膠原。"
+        },
+        {
+          "accessed": "2026-11-16",
+          "channel": "other",
+          "publisher": "漢馨科技",
+          "title": "漢馨的 Indena 供應商頁",
+          "url": "https://www.hansient.com.tw/supplier/indena/",
+          "whatItContributes": "該頁只列出 Mirtoselect，沒有 Centextra。同廠其他商品不計為本品代理。"
+        }
+      ],
+      "supply": {
+        "relationship": "unknown",
+        "relationshipNote": "2026-11-16 以 Centextra、Indena、Centella asiatica、gotu kola、雷公根、積雪草搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商交叉查詢，並於發布前用 site:.tw 再查商品名。打開漢馨的 Indena 供應商頁，只列出 Mirtoselect 山桑子，沒有 Centextra。同廠其他商品不升成這個商品名的代理。Indena 產品頁地址脈絡在義大利，沒有點名台灣公司。查核日 2026-11-16。",
+        "supplierCountry": "義大利",
+        "supplierName": "Indena S.p.A.",
+        "taiwanPartyName": "本次查無台灣關聯廠商"
+      },
+      "tfda": {
+        "evidenceNotes": "雷公根（Centella asiatica）根、莖、葉列在可供食品使用，分類是茶包、膳食調理包或萃取後作為原料，備註空白。關鍵字「積雪草」另外命中金錢薄荷，學名不是 Centella。商品名 Centextra 沒有另列。產品頁寫 aerial parts。添加物用積雪草、Centella、雷公根都是 0 筆。",
+        "lookupDate": "2026-11-16",
+        "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+        "officialCrosscheck": {
+          "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+          "done": true,
+          "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+          "notes": "2026-11-16 消費者專區 HTTPS 連線失敗（SSL_ERROR_SYSCALL）。開放資料 InfoId 4：雷公根根、莖、葉，學名 Centella asiatica（L.）Urban，外文名寫 Asiatic Gentella, Gotu Kola，大分類可供食品使用，備註空白。與查詢助手一致。InfoId 61 沒有積雪草或 Centella 品名。助手原料細節 1709 筆，這次開放資料 1707 筆。"
+        },
+        "queries": [
+          {
+            "category": "",
+            "keyword": "雷公根",
+            "matchedName": "雷公根；蚶殼仔草；地棠草；銅錢草；蚋仔草；積雪草",
+            "note": "不是未確認分類。",
+            "restrictionNote": "根、莖、葉。可供食品使用。次分類為茶包、膳食調理包或萃取後作為原料。備註空白。學名 Centella asiatica（L.）Urban。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "積雪草",
+            "matchedName": "雷公根；蚶殼仔草；地棠草；銅錢草；蚋仔草；積雪草",
+            "note": "別名撞名。本品對 Centella 那一筆。",
+            "restrictionNote": "另一筆中文名含積雪草，學名是 Glechoma hederacea，部位莖、葉，不是 Centella。",
+            "resultCount": 2,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Centella",
+            "matchedName": "雷公根；蚶殼仔草；地棠草；銅錢草；蚋仔草；積雪草",
+            "note": "學名只命中雷公根。",
+            "restrictionNote": "同上，根、莖、葉，備註空白。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Centextra",
+            "matchedName": "",
+            "note": "商品名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Centella",
+            "matchedName": "",
+            "note": "添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "積雪草",
+            "matchedName": "",
+            "note": "中文名在添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "雷公根",
+            "matchedName": "",
+            "note": "助手更新歷程（2026-11-01 至 2026-11-15）沒有這筆異動。資料時間戳 2026-11-15 06:21。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "history",
+            "unconfirmedSafety": false
+          }
+        ],
+        "usable": "listed_food_ingredient"
+      }
+    },
+    {
+      "discovery": {
         "channel": "industry_report",
         "notes": "從 NutraIngredients 2026-11-11 運動營養整理裡的酸櫻桃段落進入，再對到有商品名試驗的 CherryPURE、Shoreline 產品頁與 JISSN 2015。台灣關聯用 CherryPURE、酸櫻桃、Shoreline、tart cherry 搭配台灣、代理、經銷，打開恒宜與宸品兩頁。",
         "scoutDate": "2026-11-14"
@@ -12227,6 +13321,190 @@ window.INGREDIENT_CATALOG = {
             "keyword": "毛喉",
             "matchedName": "",
             "note": "助手更新歷程（2026-11-01 至 2026-11-14）沒有這筆異動。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "history",
+            "unconfirmedSafety": false
+          }
+        ],
+        "usable": "listed_food_ingredient"
+      }
+    },
+    {
+      "discovery": {
+        "channel": "exhibition",
+        "notes": "從 NutraIngredients 2026-10-14 的 SupplySide Global 展場預告進入 Gingeren，再對 Ennature 產品頁、Cureus 摘要與商業報導。台灣關聯沒有對到產品頁。同預告裡的 Aspargize 是另一種植物，沒有放進這張卡。",
+        "scoutDate": "2026-11-16"
+      },
+      "efficacy": {
+        "claimedBenefits": [
+          "Ennature 產品頁寫 Gingeren 是薑根莖萃取、緩釋顆粒，標準化總薑酚至少 20%，並寫經期舒適。頁上的 68% WaLIDD、34% VAS、17% PGF2α 與論文摘要的百分比不同，這裡不把頁上的百分比當成論文數字。",
+          "Cureus 2026 摘要：原發性經痛，標準化薑萃取 49 人、安慰劑 47 人，每日兩次、90 天。第三週期 VAS 較基線降 31.2% 至 33.3%，WaLIDD 降 62.4% 至 63.5%。PGF2α 降 11.6% 至 11.9%。摘要的方法句沒有寫每顆毫克。",
+          "Nutraceutical Business Review 對同一篇的報導寫每顆 100 mg、每日兩次，並用 68%、74%、34%、17% 這組百分比。與摘要並陳。"
+        ],
+        "dosageNote": "每日 200 mg 是供應商建議。摘要沒有獨立寫出毫克，所以不把 200 mg 寫成論文已載明的劑量。根莖列名沒有每日毫克。新聞稿同時介紹的 Aspargize 是另一種植物，不是這支薑。",
+        "suggestedDosage": "產品頁寫每日 200 mg。商業報導寫每顆 100 mg、每日兩次，加總也是 200 mg。論文摘要只寫每日兩次。"
+      },
+      "evidenceLevels": [
+        "clinical"
+      ],
+      "example": false,
+      "id": "gingeren",
+      "images": [
+        {
+          "caption": "Ennature 官網 Gingeren 產品頁上的商品封面。",
+          "localPath": "",
+          "source": "official_site",
+          "url": "https://ennature.com/assets/covers/products/gingeren.webp"
+        }
+      ],
+      "literature": {
+        "note": "供應商另列 Genetics and Molecular Research 2026 的性功能論文。這次沒有把該篇百分比放進效益句。證據等級只依已讀到摘要的 Cureus 論文標臨床。",
+        "refs": [
+          {
+            "note": "Cureus，2026-08-21，DOI 10.7759/cureus.114903。摘要人數與百分比如上。供應商頁的百分比沒有併進去。",
+            "title": "Efficacy of a Standardized Ginger Extract for Menstrual Pain and Associated Symptoms in Women With Primary Dysmenorrhea",
+            "url": "https://www.cureus.com/articles/518362-efficacy-of-a-standardized-ginger-extract-for-menstrual-pain-and-associated-symptoms-in-women-with-primary-dysmenorrhea-a-randomized-double-blind-placebo-controlled-trial"
+          }
+        ],
+        "status": "yes"
+      },
+      "names": {
+        "commonEn": "ginger rhizome extract (gingerols)",
+        "commonZh": "薑根莖萃取物（薑酚）",
+        "scientific": "Zingiber officinale（根莖。不是 Zingiber cassumunar，也不是薑黃。）",
+        "trade": "Gingeren（Ennature 的緩釋薑顆粒商品名）"
+      },
+      "patent": {
+        "note": "產品頁狀態欄寫 Patent pending。2026-09-16 新聞稿寫 patented sustained-release technology。兩種說法都在，這次沒有打開申請號或核准號，不填成有，也不填成無。",
+        "refs": [],
+        "status": "unknown"
+      },
+      "sources": [
+        {
+          "accessed": "2026-11-16",
+          "channel": "exhibition",
+          "publisher": "NutraIngredients",
+          "title": "SupplySide Global 2026: What’s happening on the show floor",
+          "url": "https://www.nutraingredients.com/Article/2026/10/14/supplyside-global-2026-whats-happening-on-the-show-floor/",
+          "whatItContributes": "2026-10-14 展前記者整理：Ennature 攤位列出 Gingeren，緩釋薑，與經期舒適放在同一段。同段的 Aspargize 不是本品。"
+        },
+        {
+          "accessed": "2026-11-16",
+          "channel": "supplier_site",
+          "publisher": "Ennature",
+          "title": "Gingeren",
+          "url": "https://ennature.com/gingeren.html",
+          "whatItContributes": "根莖、總薑酚至少 20%、每日 200 mg、Patent pending，以及頁上另一組百分比。"
+        },
+        {
+          "accessed": "2026-11-16",
+          "channel": "paper",
+          "publisher": "Cureus",
+          "title": "Cureus 2026 ginger extract dysmenorrhea trial",
+          "url": "https://doi.org/10.7759/cureus.114903",
+          "whatItContributes": "摘要的人數、每日兩次、90 天，以及 VAS、WaLIDD、PGF2α 的百分比區間。"
+        },
+        {
+          "accessed": "2026-11-16",
+          "channel": "news",
+          "publisher": "Nutraceutical Business Review",
+          "title": "Ginger extract Gingeren supports menstrual comfort",
+          "url": "https://nutraceuticalbusinessreview.com/ginger-extract-gingeren-supports-menstrual-comfort-and-daily",
+          "whatItContributes": "把同一篇寫成每顆 100 mg、每日兩次，百分比與摘要不同。"
+        },
+        {
+          "accessed": "2026-11-16",
+          "channel": "other",
+          "publisher": "Univar Solutions",
+          "title": "Ennature at Univar Solutions",
+          "url": "https://www.univarsolutions.com/suppliers/ennature-biopharma",
+          "whatItContributes": "寫北美經銷 Gingeren 顆粒。不是台灣廠商。"
+        }
+      ],
+      "supply": {
+        "relationship": "unknown",
+        "relationshipNote": "2026-11-16 以 Gingeren、Ennature、BioRelay、Zingiber officinale、gingerols、薑、薑酚、緩釋薑搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商交叉查詢，並於發布前用 site:.tw 再查商品名。打開的 Univar 頁寫北美經銷 Gingeren，不是台灣。產品頁地址在印度 Noida，沒有點名台灣公司。沒有打開台灣廠商的 Gingeren 產品頁或代理頁。查核日 2026-11-16。",
+        "supplierCountry": "印度",
+        "supplierName": "Ennature Bio Pharma Limited",
+        "taiwanPartyName": "本次查無台灣關聯廠商"
+      },
+      "tfda": {
+        "evidenceNotes": "薑（Zingiber officinale）根莖列在可供直接食用，備註空白。商品名 Gingeren 沒有另列。關鍵字 Ginger 會連到另一筆未確認的「姜黄」，學名是 Zingiber cassumunar，不是本品。添加物用薑、Zingiber、Ginger 都是 0 筆。根莖那一筆沒有每日毫克。",
+        "lookupDate": "2026-11-16",
+        "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+        "officialCrosscheck": {
+          "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+          "done": true,
+          "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+          "notes": "2026-11-16 消費者專區 HTTPS 連線失敗（SSL_ERROR_SYSCALL）。開放資料 InfoId 4：薑，外文名 Ginger，學名 Zingiber officinale，部位根莖，可供食品使用，備註空白。姜黄為 Zingiber cassumunar，在未確認分類。與查詢助手一致。InfoId 61 沒有薑、Zingiber 或 Ginger 品名。助手原料細節 1709 筆，這次開放資料 1707 筆。"
+        },
+        "queries": [
+          {
+            "category": "",
+            "keyword": "Zingiber officinale",
+            "matchedName": "薑",
+            "note": "種小名只命中這一筆。",
+            "restrictionNote": "根莖。可供直接食用。外文名 Ginger。備註空白。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "薑",
+            "matchedName": "薑",
+            "note": "單字「薑」範圍太寬。以學名那一筆為準。",
+            "restrictionNote": "其中外文名 Ginger、學名 Zingiber officinale、部位根莖的是本品。同字還命中薑黃、高良薑等其他植物。",
+            "resultCount": 15,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Ginger",
+            "matchedName": "薑",
+            "note": "未確認的是 cassumunar，不是 officinale。",
+            "restrictionNote": "七筆含薑。另有未確認的姜黄，學名 Zingiber cassumunar，根莖，不得作為食品原料。",
+            "resultCount": 7,
+            "tab": "ingredient",
+            "unconfirmedSafety": true
+          },
+          {
+            "category": "",
+            "keyword": "Gingeren",
+            "matchedName": "",
+            "note": "商品名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "薑",
+            "matchedName": "",
+            "note": "添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Zingiber",
+            "matchedName": "",
+            "note": "學名在添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "薑",
+            "matchedName": "",
+            "note": "助手更新歷程（2026-11-01 至 2026-11-15）沒有含「薑」的異動。資料時間戳 2026-11-15 06:21。",
             "restrictionNote": "",
             "resultCount": 0,
             "tab": "history",
@@ -17151,6 +18429,186 @@ window.INGREDIENT_CATALOG = {
     },
     {
       "discovery": {
+        "channel": "news",
+        "notes": "從 NutraIngredients 2026-10-08 的獲獎報導進入 Reducose，再對 Phynova 產品頁、PubMed 38892603 與 US11484561B2。台灣關聯打開生資的 2026-10 說明頁、2025-03 新聞頁與成分頁。",
+        "scoutDate": "2026-11-16"
+      },
+      "efficacy": {
+        "claimedBenefits": [
+          "Phynova 產品頁寫 Reducose 是桑葉水萃取，並寫飯後血糖、胰島素與常見碳水化合物的升糖指數。這是供應商頁的說法。",
+          "NutraIngredients 2026-10-08 寫，已發表研究多數看的是飯後血糖；公司並在訪問中談到往老化、停用 GLP-1 後的體重與更年期延伸。那些延伸研究該篇寫的是計畫，不是這次讀到的結果。",
+          "Nutrients 2024（PubMed 38892603）：37 名健康成人、交叉試驗。200、225、250 mg 都降低白麵包加蛋沙拉餐後 120 分鐘的血糖與胰島素曲線下面積。萃取標準化 5% DNJ。"
+        ],
+        "dosageNote": "250 mg 是這篇論文裡的建議劑量，200 與 225 mg 是同一試驗的較低劑量。都是 5% DNJ 規格。葉的列名沒有每日毫克。另一篇把桑葉萃取和色胺酸等併成配方的睡眠試驗，不把睡眠寫成 Reducose 單獨的結果。",
+        "suggestedDosage": "該論文把 250 mg 寫成建議劑量，並同時測了 200 mg 與 225 mg。Phynova 產品頁這次打開的文字沒有寫毫克。"
+      },
+      "evidenceLevels": [
+        "clinical"
+      ],
+      "example": false,
+      "id": "reducose",
+      "images": [
+        {
+          "caption": "Phynova 官網 Reducose 產品頁上的桑葉圖。",
+          "localPath": "",
+          "source": "official_site",
+          "url": "https://www.phynova.com/wp-content/uploads/2025/10/thumbnail_Mulberry-Leaf.jpg"
+        }
+      ],
+      "literature": {
+        "note": "這篇是 Reducose 單獨、飯前膠囊。睡眠那篇是複方，不放進這個文獻等級。",
+        "refs": [
+          {
+            "note": "Nutrients 2024。健康成人 37 人。200、225、250 mg，5% DNJ。餐後血糖與胰島素。",
+            "title": "Understanding the Impact of Different Doses of Reducose Mulberry Leaf Extract on Blood Glucose and Insulin Responses after Eating a Complex Meal",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38892603/"
+          }
+        ],
+        "status": "yes"
+      },
+      "names": {
+        "commonEn": "white mulberry leaf extract",
+        "commonZh": "桑葉萃取物",
+        "scientific": "Morus alba L.（葉。不是雲莓 Rubus chamaemorus。）",
+        "trade": "Reducose（Phynova 的桑葉水萃取商品名）"
+      },
+      "patent": {
+        "note": "產品頁寫 patented。專利與 5% DNJ 商品規格不是同一句話，不把請求項自動等同每一批 5% 規格。",
+        "refs": [
+          {
+            "note": "申請頁顯示 2022-11-01 核准，權利人 Phynova Limited。請求項是桑葉水溶性萃取、含亞胺糖 N-酸與哌啶酸，並限制 DNJ 在亞胺糖中的比例。這次打開的請求項沒有寫商品名 Reducose。",
+            "title": "US11484561B2",
+            "url": "https://patents.google.com/patent/US11484561B2/en"
+          }
+        ],
+        "status": "yes"
+      },
+      "sources": [
+        {
+          "accessed": "2026-11-16",
+          "channel": "news",
+          "publisher": "NutraIngredients",
+          "title": "Double champion: Phynova takes mulberry leaf extract beyond sugar control",
+          "url": "https://www.nutraingredients.com/Article/2026/10/08/double-champion-phynova-takes-mulberry-leaf-extract-beyond-sugar-control/",
+          "whatItContributes": "2026-10-08：Reducose 為桑葉水萃取，已發表研究集中在飯後血糖，並寫後續研究計畫。"
+        },
+        {
+          "accessed": "2026-11-16",
+          "channel": "supplier_site",
+          "publisher": "Phynova",
+          "title": "Reducose",
+          "url": "https://www.phynova.com/reducose/",
+          "whatItContributes": "桑葉水萃取、供應商的飯後血糖句子。頁上沒有點名台灣公司，也沒有寫毫克。"
+        },
+        {
+          "accessed": "2026-11-16",
+          "channel": "paper",
+          "publisher": "PubMed",
+          "title": "PubMed 38892603",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38892603/",
+          "whatItContributes": "200、225、250 mg 的餐後血糖與胰島素，以及湖南製造、Phynova 提供膠囊。"
+        },
+        {
+          "accessed": "2026-11-16",
+          "channel": "patent",
+          "publisher": "Google Patents",
+          "title": "US11484561B2",
+          "url": "https://patents.google.com/patent/US20140328950A1/en",
+          "whatItContributes": "申請頁顯示核准為 US11484561B2，權利人 Phynova Limited。請求項沒有商品名。"
+        },
+        {
+          "accessed": "2026-11-16",
+          "channel": "other",
+          "publisher": "生資",
+          "title": "生資：Reducose 台灣市場說明",
+          "url": "https://www.nutrisense.com.tw/newsroom/company/reducose_tw_pr_statement/",
+          "whatItContributes": "2026-10：該公司自述總代理，並轉述原廠說明函。這次沒有打開函件原件。"
+        }
+      ],
+      "supply": {
+        "relationship": "taiwan_agent",
+        "relationshipNote": "生資 2026-10 說明頁自述為 Phynova 的 Reducose 台灣總代理，並轉述原廠 2026-10-01 致台灣客戶的說明函；這次沒有打開該函原件。2025-03 新聞頁自述獨家代理。成分頁寫產地印度、DNJ 5.0%±0.5%，並寫 Phynova 為 2002 年在牛津創立的英國公司。PubMed 38892603 寫試驗膠囊由中國湖南 Hunan Hill Pharmaceutical 製造、由 Phynova 提供。產地與製造地點並陳。Phynova 產品頁沒有點名生資。不升格為原廠頁上的獨家。查核日 2026-11-16。",
+        "supplierCountry": "英國",
+        "supplierName": "Phynova Group Limited",
+        "taiwanPartyName": "生資有限公司"
+      },
+      "tfda": {
+        "evidenceNotes": "桑樹（Morus alba）果實、枝、葉列在可供直接食用，備註空白。Reducose 是葉的水萃取，商品名沒有另列。關鍵字 Morus 另外命中雲莓果實，不是這支。添加物用桑、Morus、桑葉都是 0 筆。葉那一筆沒有每日毫克。",
+        "lookupDate": "2026-11-16",
+        "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+        "officialCrosscheck": {
+          "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+          "done": true,
+          "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+          "notes": "2026-11-16 消費者專區 HTTPS 連線失敗（SSL_ERROR_SYSCALL）。開放資料 InfoId 4：桑樹，外文名 Mulberry，學名 Morus alba L.，部位果實、枝、葉，可供食品使用，備註空白。與查詢助手一致。InfoId 61 沒有桑或 Morus 品名。助手原料細節 1709 筆，這次開放資料 1707 筆。"
+        },
+        "queries": [
+          {
+            "category": "",
+            "keyword": "桑樹",
+            "matchedName": "桑樹",
+            "note": "葉在列名部位裡。",
+            "restrictionNote": "果實、枝、葉。可供直接食用。學名 Morus alba L.。備註空白。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Morus",
+            "matchedName": "桑樹",
+            "note": "學名片段會撞到雲莓。本品是 Morus alba 的葉。",
+            "restrictionNote": "另一筆是雲莓，學名 Rubus chamaemorus，部位果實。",
+            "resultCount": 2,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Reducose",
+            "matchedName": "",
+            "note": "商品名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "桑",
+            "matchedName": "",
+            "note": "添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Morus",
+            "matchedName": "",
+            "note": "學名在添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "桑樹",
+            "matchedName": "",
+            "note": "助手更新歷程（2026-11-01 至 2026-11-15）沒有這筆異動。資料時間戳 2026-11-15 06:21。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "history",
+            "unconfirmedSafety": false
+          }
+        ],
+        "usable": "listed_food_ingredient"
+      }
+    },
+    {
+      "discovery": {
         "channel": "exhibition",
         "notes": "從 Vitafoods Europe 2026 Nektium 展前新聞稿進入，以 Nutraceuticals World 展會報導交叉，再對 Nektium 規格頁與 PubMed。台灣關聯以「Rhodiolife／紅景天／Rhodiola rosea／Nektium」搭配台灣、代理、經銷、distributor 交叉搜尋，打開漢馨與韋鎮產品頁及 Nektium 經銷新聞。TFDA 對紅景天根。",
         "scoutDate": "2026-11-11"
@@ -17517,6 +18975,185 @@ window.INGREDIENT_CATALOG = {
           }
         ],
         "usable": "listed_food_additive"
+      }
+    },
+    {
+      "discovery": {
+        "channel": "industry_report",
+        "notes": "從 Nutrition Insight 2026-02-23 的 Expo West 展商訪談進入 Saberry，再對 Sabinsa 產品頁與 PubMed 35996967。台灣關聯打開和聚產品頁、關於我們，以及生資的另一頁。同篇訪談的 C3 Reduct 屬於四氫類薑黃素，沒有放進這張卡。",
+        "scoutDate": "2026-11-16"
+      },
+      "efficacy": {
+        "claimedBenefits": [
+          "Sabinsa 產品頁寫 Saberry 來自新鮮餘甘子果實，標準化至少 10% β-glucogallin，並寫血糖代謝、肝臟與皮膚、頭髮。這是供應商頁的說法。",
+          "Nutrition Insight 2026-02-23 的 Expo West 展前記者訪問把 Saberry 寫成有臨床、並與抗氧化以及血糖、血脂平衡放在一起。同一篇也點名 Curcumin C3 Reduct，那是另一個商品，不是這支。"
+        ],
+        "dosageNote": "100 至 500 mg、一天兩次是供應商建議，上限約每日 1 g。論文的 2 g 高於這個範圍。果實列名沒有每日毫克。論文不是健康食品許可，也不把疾病治療寫成原料核准。",
+        "suggestedDosage": "Sabinsa 產品頁寫每日 100 至 500 mg、一天兩次。Food & Function 論文（PubMed 35996967）用的是每日 1 g 或 2 g，對象是新診斷的第二型糖尿病合併血脂異常，對照是 metformin 500 mg，開放標籤、沒有安慰劑。"
+      },
+      "evidenceLevels": [
+        "clinical"
+      ],
+      "example": false,
+      "id": "saberry",
+      "images": [
+        {
+          "caption": "Sabinsa 官網 Saberry 產品頁上的商品圖。",
+          "localPath": "",
+          "source": "official_site",
+          "url": "https://sabinsa.com/wp-content/uploads/2025/09/saberry-sabinsa.webp"
+        }
+      ],
+      "literature": {
+        "note": "讀的是摘要與方法段的劑量。沒有安慰劑組。不把對照藥的結果寫成一般食品功效。",
+        "refs": [
+          {
+            "note": "開放標籤、三組、對照 metformin。萃取物標準化 10% β-glucogallin，文中寫 Saberry。每日 1 g 或 2 g、90 天。完成 124 人。對象是新診斷糖尿病合併血脂異常。",
+            "title": "Novel Emblica officinalis extract containing β-glucogallin vs. metformin",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35996967/"
+          }
+        ],
+        "status": "yes"
+      },
+      "names": {
+        "commonEn": "amla fruit extract",
+        "commonZh": "餘甘子果實萃取物",
+        "scientific": "Phyllanthus emblica L.（亦寫 Emblica officinalis Gaertn.。果實。不是葉下珠。）",
+        "trade": "Saberry（Sabinsa 的餘甘子萃取商品名）"
+      },
+      "patent": {
+        "note": "產品頁寫有專利，沒有在該頁給號碼。歐洲產品頁另列 EP2461786 與 AU2010326651，這次沒有打開請求項，不另計。",
+        "refs": [
+          {
+            "note": "Sabinsa 新聞稿寫 US8247003 是 Saberry 加 Cococin 的配方專利，不是單獨果實萃取的請求項。這次沒有把複方專利寫成 Saberry 單方專利。",
+            "title": "Saberry 與 Cococin 配方獲美國專利",
+            "url": "https://sami-sabinsagroup.com/sami-sabinsa-newsroom/press-release/2012/sabinsa-s-saberry-cococin-formulation-granted-us-patent/882"
+          }
+        ],
+        "status": "yes"
+      },
+      "sources": [
+        {
+          "accessed": "2026-11-16",
+          "channel": "industry_report",
+          "publisher": "Nutrition Insight",
+          "title": "Expo West 2026: Exploring natural products for longevity and energy",
+          "url": "https://www.nutritioninsight.com/news/expo-west-2026-sabinsa-layn-biovivo-science.html",
+          "whatItContributes": "2026-02-23 展前記者訪問：Saberry 為餘甘子萃取，與血糖、血脂平衡和抗氧化放在同一段。同篇的 C3 Reduct 不是本品。"
+        },
+        {
+          "accessed": "2026-11-16",
+          "channel": "supplier_site",
+          "publisher": "Sabinsa",
+          "title": "Saberry",
+          "url": "https://sabinsa.com/brand/saberry",
+          "whatItContributes": "新鮮果實、至少 10% β-glucogallin、建議每日 100 至 500 mg 兩次。頁上美國地址。"
+        },
+        {
+          "accessed": "2026-11-16",
+          "channel": "paper",
+          "publisher": "PubMed",
+          "title": "PubMed 35996967",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/35996967/",
+          "whatItContributes": "開放標籤試驗的劑量 1 g 與 2 g，以及對照藥設計。"
+        },
+        {
+          "accessed": "2026-11-16",
+          "channel": "other",
+          "publisher": "和聚國際生醫材料",
+          "title": "和聚的 Saberry 產品頁",
+          "url": "https://www.hg-bio.com.tw/products/saberry/",
+          "whatItContributes": "台灣頁列出 Sabinsa、β-glucogallin 10%、產地印度。沒有寫獨家。"
+        },
+        {
+          "accessed": "2026-11-16",
+          "channel": "other",
+          "publisher": "生資",
+          "title": "生資的 Saberry 原料頁",
+          "url": "https://www.nutrisense.com.tw/ingredients/emblica-extract-saberry/",
+          "whatItContributes": "另一家台灣公司的產品頁。有效成分至少 10%。該頁沒有寫代理。"
+        }
+      ],
+      "supply": {
+        "relationship": "taiwan_agent",
+        "relationshipNote": "和聚產品頁列出廠牌 Sabinsa、規格 β-glucogallin 10%、產地印度。關於我們與 FAQ 自述代理進口原料，產品頁沒有寫獨家或原廠指定。Sabinsa 品牌彙整頁這次沒有列出資料，產品頁本身有 Saberry。生資另有餘甘子 Saberry 頁，有效成分寫乙型葡糖倍苷至少 10%，該頁沒有寫代理。兩頁並陳，不升格為原廠證實或獨家。查核日 2026-11-16。",
+        "supplierCountry": "美國",
+        "supplierName": "Sabinsa Corporation",
+        "taiwanPartyName": "和聚國際生醫材料有限公司"
+      },
+      "tfda": {
+        "evidenceNotes": "余甘子果實（Phyllanthus emblica，亦寫 Emblica officinalis）列在可供直接食用，備註空白。商品名 Saberry 沒有另列。添加物用余甘、Emblica、Saberry 都是 0 筆。果實那一筆沒有每日毫克。",
+        "lookupDate": "2026-11-16",
+        "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+        "officialCrosscheck": {
+          "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+          "done": true,
+          "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+          "notes": "2026-11-16 消費者專區 HTTPS 連線失敗（SSL_ERROR_SYSCALL）。開放資料 InfoId 4：余甘子果實，學名 Phyllanthus emblica L.(Emblica officinalis Gaertn.)，可供食品使用，備註空白。與查詢助手一致。InfoId 61 沒有余甘或 Emblica 品名。助手原料細節 1709 筆，這次開放資料 1707 筆。"
+        },
+        "queries": [
+          {
+            "category": "",
+            "keyword": "余甘子",
+            "matchedName": "余甘子；餘甘子",
+            "note": "不是未確認分類。",
+            "restrictionNote": "果實。可供直接食用。學名 Phyllanthus emblica L.(Emblica officinalis Gaertn.)。備註空白。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Phyllanthus emblica",
+            "matchedName": "余甘子；餘甘子",
+            "note": "學名與中文關鍵字同一筆。Phyllanthus 其他種是另一批植物，這次用完整種小名。",
+            "restrictionNote": "同上。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Saberry",
+            "matchedName": "",
+            "note": "商品名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "余甘",
+            "matchedName": "",
+            "note": "添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Emblica",
+            "matchedName": "",
+            "note": "外文名在添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "余甘",
+            "matchedName": "",
+            "note": "助手更新歷程（2026-11-01 至 2026-11-15）沒有這筆異動。資料時間戳 2026-11-15 06:21。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "history",
+            "unconfirmedSafety": false
+          }
+        ],
+        "usable": "listed_food_ingredient"
       }
     },
     {
@@ -18755,6 +20392,191 @@ window.INGREDIENT_CATALOG = {
             "keyword": "青花菜",
             "matchedName": "",
             "note": "助手更新歷程（2026-11-01 至 2026-11-14）沒有這筆異動。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "history",
+            "unconfirmedSafety": false
+          }
+        ],
+        "usable": "listed_food_ingredient"
+      }
+    },
+    {
+      "discovery": {
+        "channel": "news",
+        "notes": "從 Nutraceuticals World 2026-01-20 的加拿大核准新聞進入，再對 Nutriventia 產品頁、US11666535B2 與兩篇 PubMed。台灣關聯另查漢馨的 BCM-95 與日本 Tradepia，都不是這個商品名的台灣代理。",
+        "scoutDate": "2026-11-16"
+      },
+      "efficacy": {
+        "claimedBenefits": [
+          "Nutraceuticals World 2026-01-20 寫，加拿大衛生部對含 TurmXTRA 的產品核准抗氧化，以及有關關節疼痛下的中等強度有氧、運動後不適與健康者膝關節疼痛的聲稱。這是該報導轉述的加拿大產品聲稱，不是台灣核准。",
+          "Nutriventia 產品頁寫每日 250 mg、含 150 mg 薑黃素類，並寫一次劑量對應較高劑量的一般薑黃萃取。這是供應商頁的說法。",
+          "PubMed 34045905：健康、有慢性膝痛的成人，WDTE60N 250 mg 或安慰劑各約 53 人、每日一次、90 天。完成 96 人。摘要寫 80 公尺快走的疼痛分數下降大於安慰劑。"
+        ],
+        "dosageNote": "每日 250 mg 是供應商建議，也是這兩篇試驗的劑量。根莖那一筆沒有每日毫克。不是四氫類薑黃素的用法。",
+        "suggestedDosage": "產品頁與上述膝痛試驗都寫每日一次 250 mg（150 mg 薑黃素類）。2025 年膝骨關節炎試驗（PubMed 39882178）也是每日 250 mg、90 天。"
+      },
+      "evidenceLevels": [
+        "clinical"
+      ],
+      "example": false,
+      "id": "turmxtra",
+      "images": [
+        {
+          "caption": "Nutriventia 官網 TurmXTRA 產品頁上的商品圖。",
+          "localPath": "",
+          "source": "official_site",
+          "url": "https://www.nutriventia.com/wp-content/uploads/2025/10/Turm.png"
+        }
+      ],
+      "literature": {
+        "note": "兩篇都是人體隨機雙盲安慰劑對照。第一篇對象寫健康但有慢性膝痛，第二篇是膝骨關節炎，沒有併成同一句結論。",
+        "refs": [
+          {
+            "note": "健康成人慢性膝痛。WDTE60N 250 mg、每日一次、90 天。摘要寫疼痛分數與行走、爬梯時間。",
+            "title": "A Multicenter, Randomized, Double-Blind, Placebo-Controlled Trial Assessing Efficacy and Safety of a Novel Low-Dose Turmeric Extract Formulation in Healthy Adults with Chronic Knee Pain",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34045905/"
+          },
+          {
+            "note": "膝骨關節炎。TurmXTRA 60N 250 mg 或安慰劑、每日一次、三個月。摘要寫 VAS 與 KOOS。製造句寫 Nutriventia Limited, Mumbai, India。",
+            "title": "Efficacy and Safety of a Novel Low-Dose Water-Dispersible Turmeric Extract in the Management of Knee Osteoarthritis",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39882178/"
+          }
+        ],
+        "status": "yes"
+      },
+      "names": {
+        "commonEn": "turmeric rhizome extract (curcuminoids)",
+        "commonZh": "薑黃根莖萃取物（薑黃素類）",
+        "scientific": "Curcuma longa L.（根莖。不是葉，也不是四氫類薑黃素或化學合成薑黃素。）",
+        "trade": "TurmXTRA（Nutriventia 的水分散薑黃萃取商品名；試驗寫 TurmXTRA 60N、WDTE60N）"
+      },
+      "patent": {
+        "note": "2026-01-06 美國專利公報另有 US12514829，寫為上述申請的延續案，權利人 Nutriventia Private Limited，載體為米糠萃取與麥芽糊精。這次以已打開的 US11666535B2 為主。",
+        "refs": [
+          {
+            "note": "權利人 Nutriventia Pvt Ltd。薑黃素類與米糠萃取、甘露醇或麥芽糊精的熔融複合物。請求項寫薑黃素類可以是天然或合成，植物範圍含多個 Curcuma 種。商品頁與試驗寫的是天然薑黃素類，不把專利裡的合成途徑或爪哇薑黃當成這支產品。",
+            "title": "US11666535B2",
+            "url": "https://patents.google.com/patent/US11666535B2/en"
+          }
+        ],
+        "status": "yes"
+      },
+      "sources": [
+        {
+          "accessed": "2026-11-16",
+          "channel": "news",
+          "publisher": "Nutraceuticals World",
+          "title": "Nutriventia's TurmXTRA Receives Health Canada Approval",
+          "url": "https://www.nutraceuticalsworld.com/breaking-news/nutriventias-turmxtra-receives-health-canada-approval/",
+          "whatItContributes": "2026-01-20：水分散、標準化 60% 薑黃素類，以及加拿大產品聲稱與每日 250 mg 的生體可用率比較。"
+        },
+        {
+          "accessed": "2026-11-16",
+          "channel": "supplier_site",
+          "publisher": "Nutriventia",
+          "title": "TurmXTRA",
+          "url": "https://www.nutriventia.com/turmxtra/",
+          "whatItContributes": "每日 250 mg、其中 150 mg 薑黃素類，以及供應商自己的劑量比較。"
+        },
+        {
+          "accessed": "2026-11-16",
+          "channel": "patent",
+          "publisher": "Google Patents",
+          "title": "US11666535B2",
+          "url": "https://patents.google.com/patent/US11666535B2/en",
+          "whatItContributes": "熔融複合物專利。權利人 Nutriventia。請求項含合成途徑與多個 Curcuma 種，範圍大於商品頁。"
+        },
+        {
+          "accessed": "2026-11-16",
+          "channel": "paper",
+          "publisher": "PubMed",
+          "title": "PubMed 39882178",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39882178/",
+          "whatItContributes": "膝骨關節炎試驗：每日 250 mg、90 天，並寫 Mumbai 的 Nutriventia Limited 製造。"
+        },
+        {
+          "accessed": "2026-11-16",
+          "channel": "other",
+          "publisher": "Tradepia",
+          "title": "Tradepia company history",
+          "url": "https://tradepia.co.jp/en/about/",
+          "whatItContributes": "日本公司寫 2019 年起獨家經銷 TurmXTRA 60N。不是台灣廠商。"
+        }
+      ],
+      "supply": {
+        "relationship": "unknown",
+        "relationshipNote": "2026-11-16 以 TurmXTRA、TurmXTRA 60N、WDTE60N、Nutriventia、薑黃、Curcuma longa、curcumin 搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商交叉查詢，並於發布前用 site:.tw 再查一次商品名。打開的 Nutriventia 全球據點沒有台灣。日本 Tradepia 沿革寫 2019 年起獨家經銷 TurmXTRA 60N，地址在日本，不是台灣廠商。漢馨植物來源目錄有 BCM-95 薑黃萃取物，商品名不同，不當成這個商品的代理。沒有打開台灣公司的 TurmXTRA 產品頁或代理頁。查核日 2026-11-16。",
+        "supplierCountry": "印度",
+        "supplierName": "Nutriventia Limited",
+        "taiwanPartyName": "本次查無台灣關聯廠商"
+      },
+      "tfda": {
+        "evidenceNotes": "薑黃（Curcuma longa）根莖列在可供直接食用，備註空白；同一中文名的葉只寫香辛調味、適量使用。四氫類薑黃素與化學合成薑黃素是另外兩筆，未經確認安全性前不得作為食品原料。TurmXTRA 的產品頁與試驗寫天然薑黃素類、每日 250 mg，不是那兩筆。商品名沒有另列。添加物 0 筆。",
+        "lookupDate": "2026-11-16",
+        "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+        "officialCrosscheck": {
+          "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+          "done": true,
+          "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+          "notes": "2026-11-16 消費者專區 HTTPS 連線失敗（SSL_ERROR_SYSCALL），沒有取得頁面。開放資料 InfoId 4 下載 1707 筆，薑黃根莖與葉都是 Curcuma longa L.，根莖備註空白，葉為香辛調味。四氫類薑黃素與化學合成薑黃素在未確認分類。與查詢助手一致；助手細節為 1709 筆，總筆數差 2，這幾列的中文名、學名、部位、大分類相同。InfoId 61 下載 804 筆，薑黃與 curcumin 都沒有品名。"
+        },
+        "queries": [
+          {
+            "category": "",
+            "keyword": "薑黃",
+            "matchedName": "薑黃",
+            "note": "五筆裡只有根莖對到本品。未確認的三筆不是這支水分散萃取。",
+            "restrictionNote": "根莖：可供直接食用，學名 Curcuma longa L.，備註空白。葉：同一學名，僅供香辛調味、適量使用。另三筆是爪哇薑黃、化學合成薑黃素、四氫類薑黃素，皆為未確認、不得作為食品原料。",
+            "resultCount": 5,
+            "tab": "ingredient",
+            "unconfirmedSafety": true
+          },
+          {
+            "category": "",
+            "keyword": "Curcuma longa",
+            "matchedName": "薑黃",
+            "note": "學名會同時命中根莖與四氫類。本品對根莖。",
+            "restrictionNote": "根莖與葉同上。第三筆是四氫類薑黃素，部位寫由薑黃根莖製取，未確認。",
+            "resultCount": 3,
+            "tab": "ingredient",
+            "unconfirmedSafety": true
+          },
+          {
+            "category": "",
+            "keyword": "TurmXTRA",
+            "matchedName": "",
+            "note": "商品名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "薑黃",
+            "matchedName": "",
+            "note": "添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "curcumin",
+            "matchedName": "",
+            "note": "英文關鍵字在添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "薑黃",
+            "matchedName": "",
+            "note": "助手更新歷程（2026-11-01 至 2026-11-15）沒有這筆異動。資料時間戳 2026-11-15 06:21。",
             "restrictionNote": "",
             "resultCount": 0,
             "tab": "history",

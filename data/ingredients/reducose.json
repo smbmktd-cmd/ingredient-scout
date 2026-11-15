@@ -1,0 +1,180 @@
+{
+  "id": "reducose",
+  "example": false,
+  "names": {
+    "commonZh": "桑葉萃取物",
+    "commonEn": "white mulberry leaf extract",
+    "trade": "Reducose（Phynova 的桑葉水萃取商品名）",
+    "scientific": "Morus alba L.（葉。不是雲莓 Rubus chamaemorus。）"
+  },
+  "supply": {
+    "supplierName": "Phynova Group Limited",
+    "supplierCountry": "英國",
+    "relationship": "taiwan_agent",
+    "taiwanPartyName": "生資有限公司",
+    "relationshipNote": "生資 2026-10 說明頁自述為 Phynova 的 Reducose 台灣總代理，並轉述原廠 2026-10-01 致台灣客戶的說明函；這次沒有打開該函原件。2025-03 新聞頁自述獨家代理。成分頁寫產地印度、DNJ 5.0%±0.5%，並寫 Phynova 為 2002 年在牛津創立的英國公司。PubMed 38892603 寫試驗膠囊由中國湖南 Hunan Hill Pharmaceutical 製造、由 Phynova 提供。產地與製造地點並陳。Phynova 產品頁沒有點名生資。不升格為原廠頁上的獨家。查核日 2026-11-16。"
+  },
+  "tfda": {
+    "usable": "listed_food_ingredient",
+    "evidenceNotes": "桑樹（Morus alba）果實、枝、葉列在可供直接食用，備註空白。Reducose 是葉的水萃取，商品名沒有另列。關鍵字 Morus 另外命中雲莓果實，不是這支。添加物用桑、Morus、桑葉都是 0 筆。葉那一筆沒有每日毫克。",
+    "lookupDate": "2026-11-16",
+    "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+    "queries": [
+      {
+        "tab": "ingredient",
+        "keyword": "桑樹",
+        "category": "",
+        "resultCount": 1,
+        "matchedName": "桑樹",
+        "restrictionNote": "果實、枝、葉。可供直接食用。學名 Morus alba L.。備註空白。",
+        "unconfirmedSafety": false,
+        "note": "葉在列名部位裡。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Morus",
+        "category": "",
+        "resultCount": 2,
+        "matchedName": "桑樹",
+        "restrictionNote": "另一筆是雲莓，學名 Rubus chamaemorus，部位果實。",
+        "unconfirmedSafety": false,
+        "note": "學名片段會撞到雲莓。本品是 Morus alba 的葉。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Reducose",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "桑",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "添加物 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "Morus",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "學名在添加物 0 筆。"
+      },
+      {
+        "tab": "history",
+        "keyword": "桑樹",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "助手更新歷程（2026-11-01 至 2026-11-15）沒有這筆異動。資料時間戳 2026-11-15 06:21。"
+      }
+    ],
+    "officialCrosscheck": {
+      "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+      "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+      "done": true,
+      "notes": "2026-11-16 消費者專區 HTTPS 連線失敗（SSL_ERROR_SYSCALL）。開放資料 InfoId 4：桑樹，外文名 Mulberry，學名 Morus alba L.，部位果實、枝、葉，可供食品使用，備註空白。與查詢助手一致。InfoId 61 沒有桑或 Morus 品名。助手原料細節 1709 筆，這次開放資料 1707 筆。"
+    }
+  },
+  "efficacy": {
+    "claimedBenefits": [
+      "Phynova 產品頁寫 Reducose 是桑葉水萃取，並寫飯後血糖、胰島素與常見碳水化合物的升糖指數。這是供應商頁的說法。",
+      "NutraIngredients 2026-10-08 寫，已發表研究多數看的是飯後血糖；公司並在訪問中談到往老化、停用 GLP-1 後的體重與更年期延伸。那些延伸研究該篇寫的是計畫，不是這次讀到的結果。",
+      "Nutrients 2024（PubMed 38892603）：37 名健康成人、交叉試驗。200、225、250 mg 都降低白麵包加蛋沙拉餐後 120 分鐘的血糖與胰島素曲線下面積。萃取標準化 5% DNJ。"
+    ],
+    "suggestedDosage": "該論文把 250 mg 寫成建議劑量，並同時測了 200 mg 與 225 mg。Phynova 產品頁這次打開的文字沒有寫毫克。",
+    "dosageNote": "250 mg 是這篇論文裡的建議劑量，200 與 225 mg 是同一試驗的較低劑量。都是 5% DNJ 規格。葉的列名沒有每日毫克。另一篇把桑葉萃取和色胺酸等併成配方的睡眠試驗，不把睡眠寫成 Reducose 單獨的結果。"
+  },
+  "patent": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "US11484561B2",
+        "url": "https://patents.google.com/patent/US11484561B2/en",
+        "note": "申請頁顯示 2022-11-01 核准，權利人 Phynova Limited。請求項是桑葉水溶性萃取、含亞胺糖 N-酸與哌啶酸，並限制 DNJ 在亞胺糖中的比例。這次打開的請求項沒有寫商品名 Reducose。"
+      }
+    ],
+    "note": "產品頁寫 patented。專利與 5% DNJ 商品規格不是同一句話，不把請求項自動等同每一批 5% 規格。"
+  },
+  "literature": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "Understanding the Impact of Different Doses of Reducose Mulberry Leaf Extract on Blood Glucose and Insulin Responses after Eating a Complex Meal",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/38892603/",
+        "note": "Nutrients 2024。健康成人 37 人。200、225、250 mg，5% DNJ。餐後血糖與胰島素。"
+      }
+    ],
+    "note": "這篇是 Reducose 單獨、飯前膠囊。睡眠那篇是複方，不放進這個文獻等級。"
+  },
+  "evidenceLevels": [
+    "clinical"
+  ],
+  "images": [
+    {
+      "url": "https://www.phynova.com/wp-content/uploads/2025/10/thumbnail_Mulberry-Leaf.jpg",
+      "localPath": "",
+      "caption": "Phynova 官網 Reducose 產品頁上的桑葉圖。",
+      "source": "official_site"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Double champion: Phynova takes mulberry leaf extract beyond sugar control",
+      "url": "https://www.nutraingredients.com/Article/2026/10/08/double-champion-phynova-takes-mulberry-leaf-extract-beyond-sugar-control/",
+      "publisher": "NutraIngredients",
+      "channel": "news",
+      "accessed": "2026-11-16",
+      "whatItContributes": "2026-10-08：Reducose 為桑葉水萃取，已發表研究集中在飯後血糖，並寫後續研究計畫。"
+    },
+    {
+      "title": "Reducose",
+      "url": "https://www.phynova.com/reducose/",
+      "publisher": "Phynova",
+      "channel": "supplier_site",
+      "accessed": "2026-11-16",
+      "whatItContributes": "桑葉水萃取、供應商的飯後血糖句子。頁上沒有點名台灣公司，也沒有寫毫克。"
+    },
+    {
+      "title": "PubMed 38892603",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38892603/",
+      "publisher": "PubMed",
+      "channel": "paper",
+      "accessed": "2026-11-16",
+      "whatItContributes": "200、225、250 mg 的餐後血糖與胰島素，以及湖南製造、Phynova 提供膠囊。"
+    },
+    {
+      "title": "US11484561B2",
+      "url": "https://patents.google.com/patent/US20140328950A1/en",
+      "publisher": "Google Patents",
+      "channel": "patent",
+      "accessed": "2026-11-16",
+      "whatItContributes": "申請頁顯示核准為 US11484561B2，權利人 Phynova Limited。請求項沒有商品名。"
+    },
+    {
+      "title": "生資：Reducose 台灣市場說明",
+      "url": "https://www.nutrisense.com.tw/newsroom/company/reducose_tw_pr_statement/",
+      "publisher": "生資",
+      "channel": "other",
+      "accessed": "2026-11-16",
+      "whatItContributes": "2026-10：該公司自述總代理，並轉述原廠說明函。這次沒有打開函件原件。"
+    }
+  ],
+  "discovery": {
+    "channel": "news",
+    "scoutDate": "2026-11-16",
+    "notes": "從 NutraIngredients 2026-10-08 的獲獎報導進入 Reducose，再對 Phynova 產品頁、PubMed 38892603 與 US11484561B2。台灣關聯打開生資的 2026-10 說明頁、2025-03 新聞頁與成分頁。"
+  }
+}

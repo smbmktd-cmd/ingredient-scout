@@ -1,0 +1,179 @@
+{
+  "id": "saberry",
+  "example": false,
+  "names": {
+    "commonZh": "餘甘子果實萃取物",
+    "commonEn": "amla fruit extract",
+    "trade": "Saberry（Sabinsa 的餘甘子萃取商品名）",
+    "scientific": "Phyllanthus emblica L.（亦寫 Emblica officinalis Gaertn.。果實。不是葉下珠。）"
+  },
+  "supply": {
+    "supplierName": "Sabinsa Corporation",
+    "supplierCountry": "美國",
+    "relationship": "taiwan_agent",
+    "taiwanPartyName": "和聚國際生醫材料有限公司",
+    "relationshipNote": "和聚產品頁列出廠牌 Sabinsa、規格 β-glucogallin 10%、產地印度。關於我們與 FAQ 自述代理進口原料，產品頁沒有寫獨家或原廠指定。Sabinsa 品牌彙整頁這次沒有列出資料，產品頁本身有 Saberry。生資另有餘甘子 Saberry 頁，有效成分寫乙型葡糖倍苷至少 10%，該頁沒有寫代理。兩頁並陳，不升格為原廠證實或獨家。查核日 2026-11-16。"
+  },
+  "tfda": {
+    "usable": "listed_food_ingredient",
+    "evidenceNotes": "余甘子果實（Phyllanthus emblica，亦寫 Emblica officinalis）列在可供直接食用，備註空白。商品名 Saberry 沒有另列。添加物用余甘、Emblica、Saberry 都是 0 筆。果實那一筆沒有每日毫克。",
+    "lookupDate": "2026-11-16",
+    "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+    "queries": [
+      {
+        "tab": "ingredient",
+        "keyword": "余甘子",
+        "category": "",
+        "resultCount": 1,
+        "matchedName": "余甘子；餘甘子",
+        "restrictionNote": "果實。可供直接食用。學名 Phyllanthus emblica L.(Emblica officinalis Gaertn.)。備註空白。",
+        "unconfirmedSafety": false,
+        "note": "不是未確認分類。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Phyllanthus emblica",
+        "category": "",
+        "resultCount": 1,
+        "matchedName": "余甘子；餘甘子",
+        "restrictionNote": "同上。",
+        "unconfirmedSafety": false,
+        "note": "學名與中文關鍵字同一筆。Phyllanthus 其他種是另一批植物，這次用完整種小名。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Saberry",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "余甘",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "添加物 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "Emblica",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "外文名在添加物 0 筆。"
+      },
+      {
+        "tab": "history",
+        "keyword": "余甘",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "助手更新歷程（2026-11-01 至 2026-11-15）沒有這筆異動。資料時間戳 2026-11-15 06:21。"
+      }
+    ],
+    "officialCrosscheck": {
+      "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+      "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+      "done": true,
+      "notes": "2026-11-16 消費者專區 HTTPS 連線失敗（SSL_ERROR_SYSCALL）。開放資料 InfoId 4：余甘子果實，學名 Phyllanthus emblica L.(Emblica officinalis Gaertn.)，可供食品使用，備註空白。與查詢助手一致。InfoId 61 沒有余甘或 Emblica 品名。助手原料細節 1709 筆，這次開放資料 1707 筆。"
+    }
+  },
+  "efficacy": {
+    "claimedBenefits": [
+      "Sabinsa 產品頁寫 Saberry 來自新鮮餘甘子果實，標準化至少 10% β-glucogallin，並寫血糖代謝、肝臟與皮膚、頭髮。這是供應商頁的說法。",
+      "Nutrition Insight 2026-02-23 的 Expo West 展前記者訪問把 Saberry 寫成有臨床、並與抗氧化以及血糖、血脂平衡放在一起。同一篇也點名 Curcumin C3 Reduct，那是另一個商品，不是這支。"
+    ],
+    "suggestedDosage": "Sabinsa 產品頁寫每日 100 至 500 mg、一天兩次。Food & Function 論文（PubMed 35996967）用的是每日 1 g 或 2 g，對象是新診斷的第二型糖尿病合併血脂異常，對照是 metformin 500 mg，開放標籤、沒有安慰劑。",
+    "dosageNote": "100 至 500 mg、一天兩次是供應商建議，上限約每日 1 g。論文的 2 g 高於這個範圍。果實列名沒有每日毫克。論文不是健康食品許可，也不把疾病治療寫成原料核准。"
+  },
+  "patent": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "Saberry 與 Cococin 配方獲美國專利",
+        "url": "https://sami-sabinsagroup.com/sami-sabinsa-newsroom/press-release/2012/sabinsa-s-saberry-cococin-formulation-granted-us-patent/882",
+        "note": "Sabinsa 新聞稿寫 US8247003 是 Saberry 加 Cococin 的配方專利，不是單獨果實萃取的請求項。這次沒有把複方專利寫成 Saberry 單方專利。"
+      }
+    ],
+    "note": "產品頁寫有專利，沒有在該頁給號碼。歐洲產品頁另列 EP2461786 與 AU2010326651，這次沒有打開請求項，不另計。"
+  },
+  "literature": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "Novel Emblica officinalis extract containing β-glucogallin vs. metformin",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/35996967/",
+        "note": "開放標籤、三組、對照 metformin。萃取物標準化 10% β-glucogallin，文中寫 Saberry。每日 1 g 或 2 g、90 天。完成 124 人。對象是新診斷糖尿病合併血脂異常。"
+      }
+    ],
+    "note": "讀的是摘要與方法段的劑量。沒有安慰劑組。不把對照藥的結果寫成一般食品功效。"
+  },
+  "evidenceLevels": [
+    "clinical"
+  ],
+  "images": [
+    {
+      "url": "https://sabinsa.com/wp-content/uploads/2025/09/saberry-sabinsa.webp",
+      "localPath": "",
+      "caption": "Sabinsa 官網 Saberry 產品頁上的商品圖。",
+      "source": "official_site"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Expo West 2026: Exploring natural products for longevity and energy",
+      "url": "https://www.nutritioninsight.com/news/expo-west-2026-sabinsa-layn-biovivo-science.html",
+      "publisher": "Nutrition Insight",
+      "channel": "industry_report",
+      "accessed": "2026-11-16",
+      "whatItContributes": "2026-02-23 展前記者訪問：Saberry 為餘甘子萃取，與血糖、血脂平衡和抗氧化放在同一段。同篇的 C3 Reduct 不是本品。"
+    },
+    {
+      "title": "Saberry",
+      "url": "https://sabinsa.com/brand/saberry",
+      "publisher": "Sabinsa",
+      "channel": "supplier_site",
+      "accessed": "2026-11-16",
+      "whatItContributes": "新鮮果實、至少 10% β-glucogallin、建議每日 100 至 500 mg 兩次。頁上美國地址。"
+    },
+    {
+      "title": "PubMed 35996967",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35996967/",
+      "publisher": "PubMed",
+      "channel": "paper",
+      "accessed": "2026-11-16",
+      "whatItContributes": "開放標籤試驗的劑量 1 g 與 2 g，以及對照藥設計。"
+    },
+    {
+      "title": "和聚的 Saberry 產品頁",
+      "url": "https://www.hg-bio.com.tw/products/saberry/",
+      "publisher": "和聚國際生醫材料",
+      "channel": "other",
+      "accessed": "2026-11-16",
+      "whatItContributes": "台灣頁列出 Sabinsa、β-glucogallin 10%、產地印度。沒有寫獨家。"
+    },
+    {
+      "title": "生資的 Saberry 原料頁",
+      "url": "https://www.nutrisense.com.tw/ingredients/emblica-extract-saberry/",
+      "publisher": "生資",
+      "channel": "other",
+      "accessed": "2026-11-16",
+      "whatItContributes": "另一家台灣公司的產品頁。有效成分至少 10%。該頁沒有寫代理。"
+    }
+  ],
+  "discovery": {
+    "channel": "industry_report",
+    "scoutDate": "2026-11-16",
+    "notes": "從 Nutrition Insight 2026-02-23 的 Expo West 展商訪談進入 Saberry，再對 Sabinsa 產品頁與 PubMed 35996967。台灣關聯打開和聚產品頁、關於我們，以及生資的另一頁。同篇訪談的 C3 Reduct 屬於四氫類薑黃素，沒有放進這張卡。"
+  }
+}

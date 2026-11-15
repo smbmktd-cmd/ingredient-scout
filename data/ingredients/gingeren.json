@@ -1,0 +1,184 @@
+{
+  "id": "gingeren",
+  "example": false,
+  "names": {
+    "commonZh": "薑根莖萃取物（薑酚）",
+    "commonEn": "ginger rhizome extract (gingerols)",
+    "trade": "Gingeren（Ennature 的緩釋薑顆粒商品名）",
+    "scientific": "Zingiber officinale（根莖。不是 Zingiber cassumunar，也不是薑黃。）"
+  },
+  "supply": {
+    "supplierName": "Ennature Bio Pharma Limited",
+    "supplierCountry": "印度",
+    "relationship": "unknown",
+    "taiwanPartyName": "本次查無台灣關聯廠商",
+    "relationshipNote": "2026-11-16 以 Gingeren、Ennature、BioRelay、Zingiber officinale、gingerols、薑、薑酚、緩釋薑搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商交叉查詢，並於發布前用 site:.tw 再查商品名。打開的 Univar 頁寫北美經銷 Gingeren，不是台灣。產品頁地址在印度 Noida，沒有點名台灣公司。沒有打開台灣廠商的 Gingeren 產品頁或代理頁。查核日 2026-11-16。"
+  },
+  "tfda": {
+    "usable": "listed_food_ingredient",
+    "evidenceNotes": "薑（Zingiber officinale）根莖列在可供直接食用，備註空白。商品名 Gingeren 沒有另列。關鍵字 Ginger 會連到另一筆未確認的「姜黄」，學名是 Zingiber cassumunar，不是本品。添加物用薑、Zingiber、Ginger 都是 0 筆。根莖那一筆沒有每日毫克。",
+    "lookupDate": "2026-11-16",
+    "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+    "queries": [
+      {
+        "tab": "ingredient",
+        "keyword": "Zingiber officinale",
+        "category": "",
+        "resultCount": 1,
+        "matchedName": "薑",
+        "restrictionNote": "根莖。可供直接食用。外文名 Ginger。備註空白。",
+        "unconfirmedSafety": false,
+        "note": "種小名只命中這一筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "薑",
+        "category": "",
+        "resultCount": 15,
+        "matchedName": "薑",
+        "restrictionNote": "其中外文名 Ginger、學名 Zingiber officinale、部位根莖的是本品。同字還命中薑黃、高良薑等其他植物。",
+        "unconfirmedSafety": false,
+        "note": "單字「薑」範圍太寬。以學名那一筆為準。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Ginger",
+        "category": "",
+        "resultCount": 7,
+        "matchedName": "薑",
+        "restrictionNote": "七筆含薑。另有未確認的姜黄，學名 Zingiber cassumunar，根莖，不得作為食品原料。",
+        "unconfirmedSafety": true,
+        "note": "未確認的是 cassumunar，不是 officinale。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Gingeren",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "薑",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "添加物 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "Zingiber",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "學名在添加物 0 筆。"
+      },
+      {
+        "tab": "history",
+        "keyword": "薑",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "助手更新歷程（2026-11-01 至 2026-11-15）沒有含「薑」的異動。資料時間戳 2026-11-15 06:21。"
+      }
+    ],
+    "officialCrosscheck": {
+      "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+      "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+      "done": true,
+      "notes": "2026-11-16 消費者專區 HTTPS 連線失敗（SSL_ERROR_SYSCALL）。開放資料 InfoId 4：薑，外文名 Ginger，學名 Zingiber officinale，部位根莖，可供食品使用，備註空白。姜黄為 Zingiber cassumunar，在未確認分類。與查詢助手一致。InfoId 61 沒有薑、Zingiber 或 Ginger 品名。助手原料細節 1709 筆，這次開放資料 1707 筆。"
+    }
+  },
+  "efficacy": {
+    "claimedBenefits": [
+      "Ennature 產品頁寫 Gingeren 是薑根莖萃取、緩釋顆粒，標準化總薑酚至少 20%，並寫經期舒適。頁上的 68% WaLIDD、34% VAS、17% PGF2α 與論文摘要的百分比不同，這裡不把頁上的百分比當成論文數字。",
+      "Cureus 2026 摘要：原發性經痛，標準化薑萃取 49 人、安慰劑 47 人，每日兩次、90 天。第三週期 VAS 較基線降 31.2% 至 33.3%，WaLIDD 降 62.4% 至 63.5%。PGF2α 降 11.6% 至 11.9%。摘要的方法句沒有寫每顆毫克。",
+      "Nutraceutical Business Review 對同一篇的報導寫每顆 100 mg、每日兩次，並用 68%、74%、34%、17% 這組百分比。與摘要並陳。"
+    ],
+    "suggestedDosage": "產品頁寫每日 200 mg。商業報導寫每顆 100 mg、每日兩次，加總也是 200 mg。論文摘要只寫每日兩次。",
+    "dosageNote": "每日 200 mg 是供應商建議。摘要沒有獨立寫出毫克，所以不把 200 mg 寫成論文已載明的劑量。根莖列名沒有每日毫克。新聞稿同時介紹的 Aspargize 是另一種植物，不是這支薑。"
+  },
+  "patent": {
+    "status": "unknown",
+    "refs": [],
+    "note": "產品頁狀態欄寫 Patent pending。2026-09-16 新聞稿寫 patented sustained-release technology。兩種說法都在，這次沒有打開申請號或核准號，不填成有，也不填成無。"
+  },
+  "literature": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "Efficacy of a Standardized Ginger Extract for Menstrual Pain and Associated Symptoms in Women With Primary Dysmenorrhea",
+        "url": "https://www.cureus.com/articles/518362-efficacy-of-a-standardized-ginger-extract-for-menstrual-pain-and-associated-symptoms-in-women-with-primary-dysmenorrhea-a-randomized-double-blind-placebo-controlled-trial",
+        "note": "Cureus，2026-08-21，DOI 10.7759/cureus.114903。摘要人數與百分比如上。供應商頁的百分比沒有併進去。"
+      }
+    ],
+    "note": "供應商另列 Genetics and Molecular Research 2026 的性功能論文。這次沒有把該篇百分比放進效益句。證據等級只依已讀到摘要的 Cureus 論文標臨床。"
+  },
+  "evidenceLevels": [
+    "clinical"
+  ],
+  "images": [
+    {
+      "url": "https://ennature.com/assets/covers/products/gingeren.webp",
+      "localPath": "",
+      "caption": "Ennature 官網 Gingeren 產品頁上的商品封面。",
+      "source": "official_site"
+    }
+  ],
+  "sources": [
+    {
+      "title": "SupplySide Global 2026: What’s happening on the show floor",
+      "url": "https://www.nutraingredients.com/Article/2026/10/14/supplyside-global-2026-whats-happening-on-the-show-floor/",
+      "publisher": "NutraIngredients",
+      "channel": "exhibition",
+      "accessed": "2026-11-16",
+      "whatItContributes": "2026-10-14 展前記者整理：Ennature 攤位列出 Gingeren，緩釋薑，與經期舒適放在同一段。同段的 Aspargize 不是本品。"
+    },
+    {
+      "title": "Gingeren",
+      "url": "https://ennature.com/gingeren.html",
+      "publisher": "Ennature",
+      "channel": "supplier_site",
+      "accessed": "2026-11-16",
+      "whatItContributes": "根莖、總薑酚至少 20%、每日 200 mg、Patent pending，以及頁上另一組百分比。"
+    },
+    {
+      "title": "Cureus 2026 ginger extract dysmenorrhea trial",
+      "url": "https://doi.org/10.7759/cureus.114903",
+      "publisher": "Cureus",
+      "channel": "paper",
+      "accessed": "2026-11-16",
+      "whatItContributes": "摘要的人數、每日兩次、90 天，以及 VAS、WaLIDD、PGF2α 的百分比區間。"
+    },
+    {
+      "title": "Ginger extract Gingeren supports menstrual comfort",
+      "url": "https://nutraceuticalbusinessreview.com/ginger-extract-gingeren-supports-menstrual-comfort-and-daily",
+      "publisher": "Nutraceutical Business Review",
+      "channel": "news",
+      "accessed": "2026-11-16",
+      "whatItContributes": "把同一篇寫成每顆 100 mg、每日兩次，百分比與摘要不同。"
+    },
+    {
+      "title": "Ennature at Univar Solutions",
+      "url": "https://www.univarsolutions.com/suppliers/ennature-biopharma",
+      "publisher": "Univar Solutions",
+      "channel": "other",
+      "accessed": "2026-11-16",
+      "whatItContributes": "寫北美經銷 Gingeren 顆粒。不是台灣廠商。"
+    }
+  ],
+  "discovery": {
+    "channel": "exhibition",
+    "scoutDate": "2026-11-16",
+    "notes": "從 NutraIngredients 2026-10-14 的 SupplySide Global 展場預告進入 Gingeren，再對 Ennature 產品頁、Cureus 摘要與商業報導。台灣關聯沒有對到產品頁。同預告裡的 Aspargize 是另一種植物，沒有放進這張卡。"
+  }
+}

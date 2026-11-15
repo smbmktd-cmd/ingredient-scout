@@ -1,0 +1,176 @@
+{
+  "id": "centextra",
+  "example": false,
+  "names": {
+    "commonZh": "雷公根萃取物（積雪草）",
+    "commonEn": "gotu kola extract",
+    "trade": "Centextra（Indena 的積雪草 Phytosome 商品名）",
+    "scientific": "Centella asiatica (L.) Urban（產品頁寫 aerial parts。平台列根、莖、葉。不是金錢薄荷。）"
+  },
+  "supply": {
+    "supplierName": "Indena S.p.A.",
+    "supplierCountry": "義大利",
+    "relationship": "unknown",
+    "taiwanPartyName": "本次查無台灣關聯廠商",
+    "relationshipNote": "2026-11-16 以 Centextra、Indena、Centella asiatica、gotu kola、雷公根、積雪草搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商交叉查詢，並於發布前用 site:.tw 再查商品名。打開漢馨的 Indena 供應商頁，只列出 Mirtoselect 山桑子，沒有 Centextra。同廠其他商品不升成這個商品名的代理。Indena 產品頁地址脈絡在義大利，沒有點名台灣公司。查核日 2026-11-16。"
+  },
+  "tfda": {
+    "usable": "listed_food_ingredient",
+    "evidenceNotes": "雷公根（Centella asiatica）根、莖、葉列在可供食品使用，分類是茶包、膳食調理包或萃取後作為原料，備註空白。關鍵字「積雪草」另外命中金錢薄荷，學名不是 Centella。商品名 Centextra 沒有另列。產品頁寫 aerial parts。添加物用積雪草、Centella、雷公根都是 0 筆。",
+    "lookupDate": "2026-11-16",
+    "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+    "queries": [
+      {
+        "tab": "ingredient",
+        "keyword": "雷公根",
+        "category": "",
+        "resultCount": 1,
+        "matchedName": "雷公根；蚶殼仔草；地棠草；銅錢草；蚋仔草；積雪草",
+        "restrictionNote": "根、莖、葉。可供食品使用。次分類為茶包、膳食調理包或萃取後作為原料。備註空白。學名 Centella asiatica（L.）Urban。",
+        "unconfirmedSafety": false,
+        "note": "不是未確認分類。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "積雪草",
+        "category": "",
+        "resultCount": 2,
+        "matchedName": "雷公根；蚶殼仔草；地棠草；銅錢草；蚋仔草；積雪草",
+        "restrictionNote": "另一筆中文名含積雪草，學名是 Glechoma hederacea，部位莖、葉，不是 Centella。",
+        "unconfirmedSafety": false,
+        "note": "別名撞名。本品對 Centella 那一筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Centella",
+        "category": "",
+        "resultCount": 1,
+        "matchedName": "雷公根；蚶殼仔草；地棠草；銅錢草；蚋仔草；積雪草",
+        "restrictionNote": "同上，根、莖、葉，備註空白。",
+        "unconfirmedSafety": false,
+        "note": "學名只命中雷公根。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Centextra",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "Centella",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "添加物 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "積雪草",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "中文名在添加物 0 筆。"
+      },
+      {
+        "tab": "history",
+        "keyword": "雷公根",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "助手更新歷程（2026-11-01 至 2026-11-15）沒有這筆異動。資料時間戳 2026-11-15 06:21。"
+      }
+    ],
+    "officialCrosscheck": {
+      "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+      "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+      "done": true,
+      "notes": "2026-11-16 消費者專區 HTTPS 連線失敗（SSL_ERROR_SYSCALL）。開放資料 InfoId 4：雷公根根、莖、葉，學名 Centella asiatica（L.）Urban，外文名寫 Asiatic Gentella, Gotu Kola，大分類可供食品使用，備註空白。與查詢助手一致。InfoId 61 沒有積雪草或 Centella 品名。助手原料細節 1709 筆，這次開放資料 1707 筆。"
+    }
+  },
+  "efficacy": {
+    "claimedBenefits": [
+      "Indena 產品頁寫 Centextra 是 Centella asiatica 乾萃取，標準化總三萜至少 13%，並寫膠原、皮膚彈性與外觀。同一頁寫臨床研究尚在投稿，外觀約年輕五歲是該未刊稿的說法，這裡不當成已發表結論。",
+      "Indena 2026-10-28 的 SupplySide Global 新聞稿把 Centextra 放進展會主打，並寫三萜酸、膠原與三個月外觀。劑量與部位以產品頁為準。",
+      "Frontiers in Molecular Biosciences 2026：人類皮膚纖維母細胞。摘要寫磷脂配方比未配方萃取更能降低 ROS、IL-6 與 MMP-1，並較能恢復膠原。這是細胞試驗，不是人體結論。"
+    ],
+    "suggestedDosage": "Indena 產品頁技術欄寫建議 150 mg/die。已發表的 Frontiers 論文是細胞試驗，沒有每日口服毫克。",
+    "dosageNote": "每日 150 mg 是供應商建議。平台這一部份沒有每日毫克。臨床稿產品頁寫尚在準備，不把 150 mg 寫成已發表人體劑量。"
+  },
+  "patent": {
+    "status": "unknown",
+    "refs": [],
+    "note": "產品頁的 Patent 欄寫 Centextra 是 Indena S.p.A. 商標，使用須經授權，沒有給專利號。這次沒有打開標題對得上 Centextra 的專利全文，不填成無。"
+  },
+  "literature": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "In vitro antioxidant and collagen restoration activities of a standardized Centella asiatica L. extract formulated with phospholipids",
+        "url": "https://www.frontiersin.org/journals/molecular-biosciences/articles/10.3389/fmolb.2026.1832045/full",
+        "note": "2026-06-29。Centextra 對未配方乾萃取。人類皮膚纖維母細胞。摘要沒有人體數據。"
+      }
+    ],
+    "note": "產品頁參考文獻第 5 條寫 manuscript in preparation。那篇臨床沒有刊出，不列入文獻，也不標臨床證據。"
+  },
+  "evidenceLevels": [
+    "cell"
+  ],
+  "images": [
+    {
+      "url": "https://www.indena.com/indena_files/2026/03/card-product-natura-listing_centextra_820x754px.jpg",
+      "localPath": "",
+      "caption": "Indena 官網 Centextra 產品頁上的商品卡圖。",
+      "source": "official_site"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Indena at SupplySide Global 2026",
+      "url": "https://www.indena.com/us/press-release/the-golden-aging-revolution-how-indenas-botanical-innovations-redefine-longevity-and-healthy-appearance-at-supplyside-global-2026/",
+      "publisher": "Indena",
+      "channel": "exhibition",
+      "accessed": "2026-11-16",
+      "whatItContributes": "2026-10-28：SupplySide Global 2026 主打 Centextra，植物為 Centella asiatica，並寫三萜與皮膚外觀。"
+    },
+    {
+      "title": "Centextra",
+      "url": "https://www.indena.com/us/product/centextra/",
+      "publisher": "Indena",
+      "channel": "supplier_site",
+      "accessed": "2026-11-16",
+      "whatItContributes": "乾萃取、aerial parts、總三萜至少 13%、建議 150 mg/die，以及臨床稿尚未發表。"
+    },
+    {
+      "title": "Frontiers in Molecular Biosciences 2026;13:1832045",
+      "url": "https://www.frontiersin.org/journals/molecular-biosciences/articles/10.3389/fmolb.2026.1832045/full",
+      "publisher": "Frontiers",
+      "channel": "paper",
+      "accessed": "2026-11-16",
+      "whatItContributes": "已發表的細胞試驗：ROS、IL-6、MMP-1 與膠原。"
+    },
+    {
+      "title": "漢馨的 Indena 供應商頁",
+      "url": "https://www.hansient.com.tw/supplier/indena/",
+      "publisher": "漢馨科技",
+      "channel": "other",
+      "accessed": "2026-11-16",
+      "whatItContributes": "該頁只列出 Mirtoselect，沒有 Centextra。同廠其他商品不計為本品代理。"
+    }
+  ],
+  "discovery": {
+    "channel": "exhibition",
+    "scoutDate": "2026-11-16",
+    "notes": "從 Indena 2026-10-28 的 SupplySide Global 2026 新聞稿進入 Centextra，再對產品頁與 Frontiers 2026 細胞論文。台灣關聯打開漢馨的 Indena 頁，只有山桑子。"
+  }
+}

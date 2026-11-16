@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-17",
+  "example": false,
+  "title": "2026-11-17 正式日報",
+  "targetCount": 5,
+  "channelsCovered": [
+    "news",
+    "exhibition",
+    "industry_report"
+  ],
+  "notes": "正式五筆。主管道：Phase 2、ParActin 為新聞；Glycostat、Relissa 為展覽；Testofen 為產業報導。",
+  "picks": [
+    "testofen",
+    "glycostat",
+    "phase-2",
+    "paractin",
+    "relissa"
+  ]
+}

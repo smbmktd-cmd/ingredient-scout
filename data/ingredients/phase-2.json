@@ -1,0 +1,206 @@
+{
+  "id": "phase-2",
+  "example": false,
+  "names": {
+    "commonZh": "白腎豆種子萃取物",
+    "commonEn": "white kidney bean seed extract",
+    "trade": "Phase 2（Pharmachem 的白腎豆萃取商品名，頁上亦寫 Phase 2 Carb Controller；試驗亦見 Glucosanol、Glycolite、PhaseLite、Starchlite）",
+    "scientific": "Phaseolus vulgaris（種子的水萃取，標準化 α-澱粉酶抑制活性。不是其他菜豆部位。）"
+  },
+  "supply": {
+    "supplierName": "Pharmachem Laboratories／Pharmachem Innovations",
+    "supplierCountry": "美國",
+    "relationship": "taiwan_agent",
+    "taiwanPartyName": "統園企業（該公司自述獨家代理）",
+    "relationshipNote": "統園產品頁寫「Phase 2 品牌原料由統園企業獨家代理」，並寫商標屬 Pharmachem Laboratories, Inc.。這次打開的 Pharmachem 產品頁與品牌組合頁沒有列出台灣經銷名單，所以獨家只依統園自述。赫而司成品頁寫原廠商標授權，配方另含吡啶甲酸鉻，是成品採用，不是這支原料的代理。美之選與九五之丹頁是使用該商品名的成品。查核日 2026-11-17。"
+  },
+  "tfda": {
+    "usable": "listed_food_ingredient",
+    "evidenceNotes": "菜豆／白腎豆（Phaseolus vulgaris）種子列在可供直接食用，備註空白。商品名 Phase 2 沒有另列。2024 年試驗寫配方含阿拉伯膠，阿拉伯膠另有一筆原料、備註空白。白腎豆與阿拉伯膠在添加物都是 0 筆。列名沒有寫每日克數。",
+    "lookupDate": "2026-11-17",
+    "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+    "queries": [
+      {
+        "tab": "ingredient",
+        "keyword": "白腎豆",
+        "category": "",
+        "resultCount": 1,
+        "matchedName": "菜豆；白腎豆",
+        "restrictionNote": "可供直接食用。學名 Phaseolus vulgaris，外文名 kidney bean，部位種子，備註空白。",
+        "unconfirmedSafety": false,
+        "note": "種子這一筆對到本品。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Phaseolus vulgaris",
+        "category": "",
+        "resultCount": 1,
+        "matchedName": "菜豆；白腎豆",
+        "restrictionNote": "同上。",
+        "unconfirmedSafety": false,
+        "note": "學名 1 筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Phase 2",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名 0 筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "阿拉伯膠",
+        "category": "",
+        "resultCount": 1,
+        "matchedName": "阿拉伯膠",
+        "restrictionNote": "草木本植物來源製取之原料。外文名 Acacia gum, Arabic gum。學名與部位空白，備註空白。",
+        "unconfirmedSafety": false,
+        "note": "2024 年論文寫 Phase 2 配方含阿拉伯膠，所以另查這一筆。它不是白腎豆本身。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "白腎豆",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "添加物 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "阿拉伯膠",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "阿拉伯膠在添加物 0 筆，命中的是原料那一筆。"
+      },
+      {
+        "tab": "history",
+        "keyword": "白腎豆",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "助手更新歷程（2026-11-01 至 2026-11-16）沒有這筆異動。資料時間戳 2026-11-16 06:23。"
+      }
+    ],
+    "officialCrosscheck": {
+      "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+      "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+      "done": true,
+      "notes": "2026-11-17 消費者專區詳細頁 HTTPS 中斷（UNEXPECTED_EOF_WHILE_READING），沒有取得頁面。查詢助手細節時間戳 2026-11-16 06:23，原料 1709 筆、添加物 804 筆；同檔開放資料原料列 1707 筆。白腎豆與阿拉伯膠的中文名、學名、部位、大分類與助手細節一致。添加物沒有這兩個品名。"
+    }
+  },
+  "efficacy": {
+    "claimedBenefits": [
+      "NutraIngredients 2024-06-05 報導 Scientific Reports 的 12 週試驗：熱量限制飲食加上 Phase 2，高劑量組平均體重下降大於安慰劑。這是該報導對論文的轉述。",
+      "Pharmachem 銷售頁寫，可減少膳食澱粉的酵素消化與吸收，最高 66%；並寫美國允許兩則結構／功能聲稱，以及 self-affirmed GRAS。頁上沒有寫成藥品核准。",
+      "論文寫 Phase 2 為白腎豆水萃取加阿拉伯膠，每克至少 3000 AAIU。高劑量是每次 1000 mg、低劑量每次 700 mg，都是一日三次、餐前 30 分鐘、12 週，完成 81 人。"
+    ],
+    "suggestedDosage": "銷售單頁寫含澱粉的一餐 500 至 1500 mg，並轉述加拿大專論在每日 3000 mg、每克 3000 AAIU 時的體重管理文句。2024 年試驗是每日 2.1 g 或 3 g，分三次於餐前。",
+    "dosageNote": "500 至 1500 mg 是供應商單頁的每餐用量。2.1 g 與 3 g 是這篇試驗的每日總量。原料平臺的種子與阿拉伯膠都沒有寫每日克數。統園頁寫的「FDA 認證」和供應商頁的 self-affirmed GRAS、結構／功能聲稱不是同一句。"
+  },
+  "patent": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "US6797287B2",
+        "url": "https://patents.google.com/patent/US6797287B2/en",
+        "note": "標題為 phaseolamin 組成物與其使用方法。Google Patents 現權利人欄為 Pharmachem Laboratories Inc。"
+      }
+    ],
+    "note": "2026-11-17 打開 US6797287B2。另有 2006 年公開案 US20060147565A1，寫超臨界二氧化碳純化澱粉酶抑制物，同樣由 Pharmachem 申請。這次以已核准的 US6797287B2 為主，沒有把兩份製程併成同一句。"
+  },
+  "literature": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "Proprietary alpha-amylase inhibitor formulation from white kidney bean (Phaseolus vulgaris L.) promotes weight and fat loss: a 12-week, double-blind, placebo-controlled, randomized trial",
+        "url": "https://www.nature.com/articles/s41598-024-63443-8",
+        "note": "Scientific Reports，2024-06-03。隨機雙盲安慰劑對照，登記 NCT02930668。高劑量每日 3 g、低劑量每日 2.1 g，都配合熱量限制。論文寫配方含阿拉伯膠。"
+      }
+    ],
+    "note": "Pharmachem 臨床列表還有更早的試驗與綜論。66% 這個數字出現在銷售頁，沒有出現在這篇 2024 年論文這次讀到的結果句。"
+  },
+  "evidenceLevels": [
+    "clinical"
+  ],
+  "images": [
+    {
+      "url": "https://pharmachem.com/wp-content/uploads/2024/09/key-benefits.jpg",
+      "localPath": "",
+      "caption": "Pharmachem 的 Phase 2 產品頁圖片，畫面是白腎豆種子，不是萃取粉末。",
+      "source": "official_site"
+    }
+  ],
+  "sources": [
+    {
+      "title": "White kidney bean extract may promote body weight and fat loss",
+      "url": "https://www.nutraingredients.com/Article/2024/06/05/white-kidney-bean-extract-may-promote-body-weight-and-fat-loss/",
+      "publisher": "NutraIngredients",
+      "channel": "news",
+      "accessed": "2026-11-17",
+      "whatItContributes": "2024-06-05：12 週試驗的每日 3 g 與 2.1 g、餐前三次，以及體重結果的報導。"
+    },
+    {
+      "title": "Phase 2 Carb Controller",
+      "url": "https://pharmachem.com/phase-2-carb-controller/",
+      "publisher": "Pharmachem",
+      "channel": "supplier_site",
+      "accessed": "2026-11-17",
+      "whatItContributes": "供應商頁的澱粉消化聲稱、兩則美國結構／功能聲稱，以及加拿大專論的每日 3000 mg。"
+    },
+    {
+      "title": "Phase 2 sell sheet",
+      "url": "https://pharmachem.com/wp-content/uploads/2024/10/v07_Pharmachem_SellSheet_SingleIngredient_Phase2CarbController-v1.pdf",
+      "publisher": "Pharmachem",
+      "channel": "supplier_site",
+      "accessed": "2026-11-17",
+      "whatItContributes": "每餐 500 至 1500 mg、美國白腎豆、self-affirmed GRAS。沒有寫阿拉伯膠。"
+    },
+    {
+      "title": "Scientific Reports 2024",
+      "url": "https://www.nature.com/articles/s41598-024-63443-8",
+      "publisher": "Scientific Reports",
+      "channel": "paper",
+      "accessed": "2026-11-17",
+      "whatItContributes": "試驗設計、劑量，以及配方含 Phaseolus vulgaris 萃取與阿拉伯膠。"
+    },
+    {
+      "title": "US6797287B2",
+      "url": "https://patents.google.com/patent/US6797287B2/en",
+      "publisher": "Google Patents",
+      "channel": "patent",
+      "accessed": "2026-11-17",
+      "whatItContributes": "phaseolamin 組成物專利，權利人 Pharmachem Laboratories Inc。"
+    },
+    {
+      "title": "統園的 Phase 2 產品頁",
+      "url": "https://www.tyig.com.tw/web/product/product_in.jsp?dm_no=DM1585834353649&lang=tw&pdid=PD1589870090768&sub_no=DM1585834497190",
+      "publisher": "統園企業",
+      "channel": "other",
+      "accessed": "2026-11-17",
+      "whatItContributes": "該公司自述獨家代理。頁上的 FDA 用詞與供應商頁不同。"
+    },
+    {
+      "title": "赫而司的 Phase 2 成品頁",
+      "url": "https://www.healthwomen.com.tw/phaseolamin/",
+      "publisher": "赫而司",
+      "channel": "other",
+      "accessed": "2026-11-17",
+      "whatItContributes": "成品採用，另含吡啶甲酸鉻。頁寫原廠商標授權，不是統園那一句獨家代理。"
+    }
+  ],
+  "discovery": {
+    "channel": "news",
+    "scoutDate": "2026-11-17",
+    "notes": "從 NutraIngredients 2024-06-05 的白腎豆試驗新聞進入，再對 Pharmachem 產品頁、銷售單頁、Scientific Reports 論文與 US6797287B2。台灣關聯打開統園產品頁，以及赫而司、美之選、九五之丹的成品頁。吡啶甲酸鉻是赫而司成品另加的成分，不是 Phase 2 本身。"
+  }
+}

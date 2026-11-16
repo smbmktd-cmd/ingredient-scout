@@ -1,0 +1,188 @@
+{
+  "id": "paractin",
+  "example": false,
+  "names": {
+    "commonZh": "穿心蓮葉萃取物",
+    "commonEn": "Andrographis paniculata leaf extract",
+    "trade": "ParActin（HP Ingredients 的穿心蓮萃取商品名）",
+    "scientific": "Andrographis paniculata Nees（供應商常見問答寫葉。平臺這一筆部位是全草，葉在其中。不是藥品許可證裡的穿心蓮濃縮製劑。）"
+  },
+  "supply": {
+    "supplierName": "HP Ingredients",
+    "supplierCountry": "美國",
+    "relationship": "unknown",
+    "taiwanPartyName": "澄豐國際有限公司（商標權人，關係待確認）",
+    "relationshipNote": "2026-11-17 以 ParActin、穿心蓮、Andrographis、HP Ingredients 搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商交叉查詢，並於寫入前再用同一組詞獨立查一次。經濟部商標公開資料：澄豐國際是「風司通 PARACTIN」商標權人，註冊號 02049609，類別含植物萃取營養補充品。公司登記營業項目含保健營養食品批發。沒有打開澄豐的 ParActin 產品頁或代理頁。ParActin 常見問答寫由 HP Ingredients 獨家供應，列舉的市場沒有台灣；where-to-buy 頁的成品品牌也沒有台灣公司。中藥許可證的穿心蓮濃縮是藥品，不是這個商品名。商標與營業項目不足以寫成代理，也不把這次寫成查無。查核日 2026-11-17。"
+  },
+  "tfda": {
+    "usable": "listed_food_ingredient",
+    "evidenceNotes": "穿心蓮（Andrographis paniculata）全草列在可供茶包、膳食調理包或萃取後作為原料，備註空白。商品名 ParActin 沒有另列。供應商頁寫原料是葉，葉在全草這筆的部位裡。添加物 0 筆。這不是藥品許可，也不是澳洲 2026 年的藥品分類。",
+    "lookupDate": "2026-11-17",
+    "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+    "queries": [
+      {
+        "tab": "ingredient",
+        "keyword": "穿心蓮",
+        "category": "",
+        "resultCount": 1,
+        "matchedName": "穿心蓮",
+        "restrictionNote": "可供食品使用。次分類為供茶包、膳食調理包或萃取後作為原料。學名 Andrographis paniculata Nees，外文名 Herba andrographitis，部位全草，備註空白。",
+        "unconfirmedSafety": false,
+        "note": "沒有另見未確認分類的穿心蓮。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Andrographis",
+        "category": "",
+        "resultCount": 1,
+        "matchedName": "穿心蓮",
+        "restrictionNote": "同上。",
+        "unconfirmedSafety": false,
+        "note": "學名 1 筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "ParActin",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "穿心蓮",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "添加物 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "andrographolide",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "穿心蓮內酯這個詞在添加物 0 筆。"
+      },
+      {
+        "tab": "history",
+        "keyword": "穿心蓮",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "助手更新歷程（2026-11-01 至 2026-11-16）沒有這筆異動。資料時間戳 2026-11-16 06:23。"
+      }
+    ],
+    "officialCrosscheck": {
+      "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+      "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+      "done": true,
+      "notes": "2026-11-17 消費者專區詳細頁 HTTPS 中斷（UNEXPECTED_EOF_WHILE_READING），沒有取得頁面。查詢助手細節時間戳 2026-11-16 06:23，原料 1709 筆、添加物 804 筆；同檔開放資料原料列 1707 筆。穿心蓮這一筆的中文名、學名、部位全草、大分類與助手細節一致，備註空白。添加物沒有這個品名。"
+    }
+  },
+  "efficacy": {
+    "claimedBenefits": [
+      "ParActin 常見問答寫：印度與東南亞栽種的穿心蓮葉乾燥萃取，標準化總穿心蓮內酯 50%；印度規格寫 60%。並寫人體試驗劑量 300 mg／日，骨關節炎試驗另見 600 mg／日。這是供應商頁的說法。",
+      "PubMed 30968986：輕至中度膝骨關節炎，ParActin 每日 300 mg 或 600 mg 對安慰劑、84 天，評估 103 人。摘要寫兩組的疼痛分數在第 28、56、84 天低於安慰劑，僵硬與身體功能分數也有差異。",
+      "NutraIngredients 2026-04-24 寫，澳洲 TGA 正諮詢把穿心蓮移出低風險 listed medicines 清單，原因是過敏性休克通報；圖說寫 ParActin 來自穿心蓮。這是澳洲藥品管制新聞，不是 TFDA 分類。"
+    ],
+    "suggestedDosage": "常見問答寫臨床劑量 300 mg／日，骨關節炎可到 600 mg／日。上述膝關節試驗就是這兩個每日劑量、84 天。",
+    "dosageNote": "300 與 600 mg 是供應商頁和這篇膝關節試驗的劑量。全草那一筆沒有每日毫克。常見問答另寫較低毫克時的免疫方向與較高毫克時的發炎方向，沒有併進同一句建議。"
+  },
+  "patent": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "US8084495B2",
+        "url": "https://patents.google.com/patent/US8084495B2/en",
+        "note": "標題為穿心蓮半日花烷二萜組成物，用途寫自體免疫與阿茲海默、PPAR-gamma。Google Patents 目前權利人欄是 Innobioscience LLC 與 Herbal Powers Corp。ParActin 首頁與 HP Ingredients 2012 年說明把 US 8,084,495 B2 寫成該公司的專利。權利人欄和公司說明不一致，兩說都留下。"
+      }
+    ],
+    "note": "2026-11-17 打開 US8084495B2 與 ParActin 專利頁。專利頁還列智利與 PCT 申請，這次沒有逐份打開，不以那些申請號作為已核准依據。"
+  },
+  "literature": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "A double-blind, randomized, placebo-controlled study to assess the efficacy of Andrographis paniculata standardized extract (ParActin) on pain reduction in subjects with knee osteoarthritis",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30968986/",
+        "note": "膝骨關節炎。每日 300 或 600 mg、84 天。摘要沒有寫併用西藥。"
+      }
+    ],
+    "note": "供應商臨床庫還寫類風濕性關節炎試驗，其中一篇是併用 methotrexate 的 14 週試驗。那是不同設計，沒有併進膝關節這一句。"
+  },
+  "evidenceLevels": [
+    "clinical"
+  ],
+  "images": [
+    {
+      "url": "https://paractin.com/wp-content/uploads/2026/05/paractin-logo-1024x260.png",
+      "localPath": "",
+      "caption": "ParActin 官網使用的商品標誌。",
+      "source": "official_site"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Regulatory review: Andrographis, caffeine warning, biotics and more",
+      "url": "https://www.nutraingredients.com/Article/2026/04/24/andrographis-caffeine-warning-biotics-in-nutraceutical-regulatory-round-up/",
+      "publisher": "NutraIngredients",
+      "channel": "news",
+      "accessed": "2026-11-17",
+      "whatItContributes": "2026-04-24：澳洲 TGA 諮詢把穿心蓮移出低風險清單；圖說點名 HP Ingredients 的 ParActin。"
+    },
+    {
+      "title": "ParActin frequently asked questions",
+      "url": "https://paractin.com/frequently-asked-questions-2/",
+      "publisher": "ParActin",
+      "channel": "supplier_site",
+      "accessed": "2026-11-17",
+      "whatItContributes": "葉萃取、總穿心蓮內酯 50%（印度規格 60%）、每日 300 至 600 mg，以及獨家供應與未列台灣的市場清單。"
+    },
+    {
+      "title": "PubMed 30968986",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30968986/",
+      "publisher": "PubMed",
+      "channel": "paper",
+      "accessed": "2026-11-17",
+      "whatItContributes": "膝骨關節炎隨機雙盲試驗的劑量與 84 天。"
+    },
+    {
+      "title": "US8084495B2",
+      "url": "https://patents.google.com/patent/US8084495B2/en",
+      "publisher": "Google Patents",
+      "channel": "patent",
+      "accessed": "2026-11-17",
+      "whatItContributes": "半日花烷二萜組成物專利。目前權利人欄與 HP Ingredients 的說明不同。"
+    },
+    {
+      "title": "Where to buy ParActin",
+      "url": "https://paractin.com/where-to-buy-2/",
+      "publisher": "ParActin",
+      "channel": "supplier_site",
+      "accessed": "2026-11-17",
+      "whatItContributes": "成品品牌清單。這次沒有看到台灣公司。"
+    },
+    {
+      "title": "商標「風司通 PARACTIN」",
+      "url": "https://www.findcompany.com.tw/trademark/02049609_108057104",
+      "publisher": "經濟部智慧財產局公開資料轉載頁",
+      "channel": "other",
+      "accessed": "2026-11-17",
+      "whatItContributes": "澄豐國際為商標權人。這是商標登記，不是產品或代理頁。"
+    }
+  ],
+  "discovery": {
+    "channel": "news",
+    "scoutDate": "2026-11-17",
+    "notes": "從 NutraIngredients 2026-04-24 的亞太法規回顧進入 ParActin，再對常見問答、PubMed 30968986 與 US8084495B2。台灣關聯查到澄豐的商標與公司登記，沒有產品頁，關係留待確認。2026-10-19 另有澳洲品牌回收穿心蓮藥品的報導，內文這次沒有點名 ParActin，不併進這張卡的試驗結論。"
+  }
+}

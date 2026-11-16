@@ -1,0 +1,188 @@
+{
+  "id": "glycostat",
+  "example": false,
+  "names": {
+    "commonZh": "苦瓜萃取物（野生品系）",
+    "commonEn": "wild-type bitter melon extract",
+    "trade": "Glycostat（Glykon 頁與 Orisen 頁使用的苦瓜萃取商品名）",
+    "scientific": "Momordica charantia L.（野生品系萃取。不是羅漢果，也不是木虌果肉。這次打開的頁面沒有寫使用藤莖。）"
+  },
+  "supply": {
+    "supplierName": "Glykon Technologies Group（美國頁）；Orisen Biotech 官網寫由該公司開發並供應",
+    "supplierCountry": "美國與台灣兩說並存",
+    "relationship": "unknown",
+    "taiwanPartyName": "Orisen Biotech（該公司自述開發並供應）；九五之丹為成品採用",
+    "relationshipNote": "Glykon 的 Glycostat 頁把商品寫成該公司的野生苦瓜萃取。Orisen 官網寫自己開發並供應專利苦瓜原料，公司在台中，Vitafoods Asia 2026 預告寫台灣廠商、攤位 H5-B34。九五之丹成品頁寫研發製造商是美國 Glykon Technologies Group，每份 1000 mg，並稱苦瓜胜肽。三份來源對「誰是供應商、是萃取還是胜肽」不一致，這次不另判。沒有看到原廠經銷契約。查核日 2026-11-17。"
+  },
+  "tfda": {
+    "usable": "listed_food_ingredient",
+    "evidenceNotes": "苦瓜（Momordica charantia）果實、種子、葉列在可供直接食用，備註空白。同一中文名的藤（莖）是另一筆，未經確認前不得作為食品原料。Glycostat 沒有另列，這次打開的供應商頁沒有寫藤莖。添加物 0 筆。",
+    "lookupDate": "2026-11-17",
+    "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+    "queries": [
+      {
+        "tab": "ingredient",
+        "keyword": "苦瓜",
+        "category": "",
+        "resultCount": 2,
+        "matchedName": "苦瓜",
+        "restrictionNote": "可供直接食用的一筆：學名 Momordica charantia L.，外文名 balsam-pear, bitter melon，部位果實、種子、葉，備註空白。另一筆在未確認分類，部位藤（莖），備註寫須依非傳統性食品原料申請。",
+        "unconfirmedSafety": true,
+        "note": "兩筆同名。這張卡對果實、種子、葉那一筆，不把藤莖算進來。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Momordica charantia",
+        "category": "",
+        "resultCount": 2,
+        "matchedName": "苦瓜",
+        "restrictionNote": "同上兩筆。羅漢果與木虌是其他物種，這次用這個學名沒有命中。",
+        "unconfirmedSafety": true,
+        "note": "學名同時命中可食用部位與藤莖。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Glycostat",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "苦瓜",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "添加物 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "Momordica",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "英文關鍵字在添加物 0 筆。"
+      },
+      {
+        "tab": "history",
+        "keyword": "苦瓜",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "助手更新歷程（2026-11-01 至 2026-11-16）沒有這筆異動。資料時間戳 2026-11-16 06:23。"
+      }
+    ],
+    "officialCrosscheck": {
+      "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+      "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+      "done": true,
+      "notes": "2026-11-17 消費者專區詳細頁 HTTPS 中斷（UNEXPECTED_EOF_WHILE_READING），沒有取得頁面。查詢助手細節時間戳 2026-11-16 06:23，原料 1709 筆、添加物 804 筆；同檔開放資料原料列 1707 筆。苦瓜果實種子葉與藤莖兩筆的中文名、學名、部位、大分類與助手細節一致。添加物沒有這個品名。"
+    }
+  },
+  "efficacy": {
+    "claimedBenefits": [
+      "Glykon 產品頁寫，Glycostat 是保留新鮮苦瓜活性的野生苦瓜萃取；與另外兩種苦瓜萃取比，健康大鼠的葡萄糖耐受試驗只有 Glycostat 達到統計差異。這是供應商頁的說法。",
+      "Orisen 首頁寫低溫水萃、保留 10,000 Da 的野生苦瓜胜肽，並寫已有臨床可協助調節血糖與體重。這是該公司首頁的說法，和 Glykon 頁的「萃取」用詞不同。",
+      "PubMed 21861717 是大鼠試驗。摘要寫野生型苦瓜萃取 EX-1 至 EX-4：正常鼠 50 mg/kg 可降低 4 小時血糖且不像 metformin 造成低血糖；鏈脲佐菌素糖尿病鼠以 250 mg/kg 的兩種萃取降血糖。摘要沒有出現 Glycostat 這個商品名。作者單位有 Glykon Technologies Group。"
+    ],
+    "suggestedDosage": "Glykon 與 Orisen 這次打開的頁面都沒有寫人體每日毫克。大鼠摘要的 50 mg/kg 與 250 mg/kg 是動物灌食劑量。九五之丹成品頁寫每份 1000 mg，是該成品標示。",
+    "dosageNote": "沒有看到供應商建議的人體毫克。1000 mg 只出現在成品頁。大鼠的 mg/kg 不能換算成這張卡的人用劑量。果實、種子、葉那一筆沒有每日上限；藤莖是另一筆。"
+  },
+  "patent": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "US20160108456A1",
+        "url": "https://patents.google.com/patent/US20160108456A1/en",
+        "note": "測定苦瓜萃取降血糖潛力的方法公開案，權利人 Glykon Technologies Group, LLC。這次看到的是申請公開，不是已核准的組成專利。說明書寫果實萃取是目前使用的主要形式，也提到種子、葉與根曾被傳統使用；沒有把藤莖寫成這份申請的原料部位。"
+      }
+    ],
+    "note": "Glykon 另一頁寫 Greengo Biomedical（台灣）有台灣與中國申請，頁上的 6663-001ATW、6663-001ACN 像內部卷號。這次沒有打開對應的公開專利，不把這兩個代號寫成專利號。Orisen 寫專利，沒有在首頁給出號碼。"
+  },
+  "literature": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "Bitter Melon Extracts in Diabetic and Normal Rats Favorably Influence Blood Glucose and Blood Pressure Regulation",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/21861717/",
+        "note": "2011 年 Journal of Medicinal Food。大鼠，不是人體。摘要的萃取代號是 EX-1 至 EX-4，沒有寫 Glycostat。"
+      }
+    ],
+    "note": "這次沒有打開一篇標題或摘要寫明 Glycostat 的人體論文。Orisen 首頁的 clinically proven 沒有附那篇論文的出處，所以證據等級只標動物。"
+  },
+  "evidenceLevels": [
+    "animal"
+  ],
+  "images": [
+    {
+      "url": "https://glykon.com/wp-content/uploads/2026/07/glycostat-banner.jpg",
+      "localPath": "",
+      "caption": "Glykon 的 Glycostat 頁橫幅，畫面是苦瓜果實。頁文沒有註明照片品種。",
+      "source": "official_site"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Vitafoods Asia 2026 show floor preview: Exhibitors H-P",
+      "url": "https://www.nutraingredients.com/Article/2026/08/25/vitafoods-asia-2026-show-floor-preview-exhibitors-h-p/",
+      "publisher": "NutraIngredients",
+      "channel": "exhibition",
+      "accessed": "2026-11-17",
+      "whatItContributes": "2026-08-25 預告：台灣 Orisen Biotech 在 H5-B34，主打專利苦瓜萃取 Glycostat，方向是血糖與代謝。"
+    },
+    {
+      "title": "Glycostat",
+      "url": "https://glykon.com/glycostat/",
+      "publisher": "Glykon Technologies",
+      "channel": "supplier_site",
+      "accessed": "2026-11-17",
+      "whatItContributes": "野生苦瓜萃取、穩定化製程，以及供應商自己的大鼠血糖與血壓比較。"
+    },
+    {
+      "title": "Orisen Biotech 首頁",
+      "url": "https://orisen.com.tw/",
+      "publisher": "Orisen Biotech",
+      "channel": "supplier_site",
+      "accessed": "2026-11-17",
+      "whatItContributes": "台灣公司自述開發並供應；寫低溫水萃與 10,000 Da 苦瓜胜肽，用詞和 Glykon 頁不同。"
+    },
+    {
+      "title": "PubMed 21861717",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21861717/",
+      "publisher": "PubMed",
+      "channel": "paper",
+      "accessed": "2026-11-17",
+      "whatItContributes": "大鼠試驗摘要與 Glykon 的作者單位。商品名沒有出現在摘要。"
+    },
+    {
+      "title": "US20160108456A1",
+      "url": "https://patents.google.com/patent/US20160108456A1/en",
+      "publisher": "Google Patents",
+      "channel": "patent",
+      "accessed": "2026-11-17",
+      "whatItContributes": "Glykon 的測定方法公開案。不是已核准的組成專利。"
+    },
+    {
+      "title": "九五之丹的 Glycostat 頁",
+      "url": "https://www.95dan.com.tw/blog/brand-material-glycostat",
+      "publisher": "九五之丹",
+      "channel": "other",
+      "accessed": "2026-11-17",
+      "whatItContributes": "台灣成品頁寫製造商是美國 Glykon，每份 1000 mg，並稱苦瓜胜肽。是成品採用，不是原料代理契約。"
+    }
+  ],
+  "discovery": {
+    "channel": "exhibition",
+    "scoutDate": "2026-11-17",
+    "notes": "從 NutraIngredients 2026-08-25 的 Vitafoods Asia 2026 攤位預告進入 Orisen 的 Glycostat，再對 Glykon 產品頁、Orisen 首頁、PubMed 21861717 與 US20160108456A1。台灣關聯另開九五之丹成品頁。藤莖那一筆未確認，沒有當成這個商品。"
+  }
+}

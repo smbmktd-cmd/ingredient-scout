@@ -1,0 +1,174 @@
+{
+  "id": "relissa",
+  "example": false,
+  "names": {
+    "commonZh": "香蜂草葉萃取物",
+    "commonEn": "lemon balm leaf extract",
+    "trade": "Relissa（Indena 的香蜂草 Phytosome 商品名，頁上亦寫 Melissa Indena Phytosome）",
+    "scientific": "Melissa officinalis L.（葉的水萃取，再與向日葵磷脂做成 Phytosome。不是蜂膠，也不是藥品褪黑激素。）"
+  },
+  "supply": {
+    "supplierName": "Indena S.p.A.",
+    "supplierCountry": "義大利",
+    "relationship": "taiwan_agent",
+    "taiwanPartyName": "和聚國際（該公司自述代理；不是獨家）",
+    "relationshipNote": "Indena 產品頁寫 Relissa 是該公司商標，植物來源 Melissa officinalis 葉；試驗方法寫製造商 Indena S.p.A., Milan。和聚產品頁列出廠牌 Indena、總羥基肉桂酸大於 17%、產地義大利；關於我們寫該公司代理進口國際原料，產品頁沒有寫獨家，也沒有看到 Indena 經銷名單指名和聚。漢馨這次打開的品牌清單沒有 Relissa。查核日 2026-11-17。"
+  },
+  "tfda": {
+    "usable": "listed_food_ingredient",
+    "evidenceNotes": "香蜂草（Melissa officinalis）莖、葉列在可供茶包、膳食調理包或萃取後作為原料，備註空白。商品名 Relissa 沒有另列。供應商頁寫葉的水萃取。添加物 0 筆。列名沒有寫每日毫克。",
+    "lookupDate": "2026-11-17",
+    "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+    "queries": [
+      {
+        "tab": "ingredient",
+        "keyword": "香蜂草",
+        "category": "",
+        "resultCount": 1,
+        "matchedName": "香蜂草；蜜蜂花",
+        "restrictionNote": "可供食品使用。次分類為供茶包、膳食調理包或萃取後作為原料。學名 Melissa officinalis L.，外文名 Melissa, Balm，部位莖、葉，備註空白。",
+        "unconfirmedSafety": false,
+        "note": "莖、葉這一筆對到本品的葉萃取。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Melissa officinalis",
+        "category": "",
+        "resultCount": 1,
+        "matchedName": "香蜂草；蜜蜂花",
+        "restrictionNote": "同上。",
+        "unconfirmedSafety": false,
+        "note": "學名 1 筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Relissa",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "香蜂草",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "添加物 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "Melissa",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "英文關鍵字在添加物 0 筆。"
+      },
+      {
+        "tab": "history",
+        "keyword": "香蜂草",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "助手更新歷程（2026-11-01 至 2026-11-16）沒有這筆異動。資料時間戳 2026-11-16 06:23。"
+      }
+    ],
+    "officialCrosscheck": {
+      "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+      "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+      "done": true,
+      "notes": "2026-11-17 消費者專區詳細頁 HTTPS 中斷（UNEXPECTED_EOF_WHILE_READING），沒有取得頁面。查詢助手細節時間戳 2026-11-16 06:23，原料 1709 筆、添加物 804 筆；同檔開放資料原料列 1707 筆。香蜂草這一筆的中文名、學名、部位、大分類與助手細節一致，備註空白。添加物沒有這個品名。"
+    }
+  },
+  "efficacy": {
+    "claimedBenefits": [
+      "Indena 產品頁寫，Relissa 是香蜂草葉萃取搭配 Phytosome，建議 200 mg 兩次；規格是 HPLC 總羥基肉桂酸 17% 至 23%。並寫三週雙盲試驗後睡眠與心理安適分數相對安慰劑改善。這是供應商頁的說法。",
+      "PubMed 37927585：健康成人，有中等情緒困擾或睡眠不佳，Relissa 200 mg 錠一日兩次（每日 400 mg）或安慰劑、3 週，估計每組 50 人。摘要寫憂鬱情緒、焦慮、壓力、情緒感受、心理安適與生活品質問卷分數改善，並寫沒有嚴重不良事件。",
+      "產品頁另寫 200 mg／日與 400 mg／日、3 週的劑量比較，以及較高劑量的睡眠與皮質醇描述。這次沒有打開那篇全文。"
+    ],
+    "suggestedDosage": "產品頁建議 200 mg，一日兩次。上述雙盲試驗使用的就是每日 400 mg、3 週。",
+    "dosageNote": "每日 400 mg 同時是供應商建議與這篇已發表試驗的劑量。產品頁提到的 200 mg／日是另一個比較組，全文這次沒有打開。莖、葉那一筆沒有每日毫克。"
+  },
+  "patent": {
+    "status": "unknown",
+    "refs": [],
+    "note": "Indena 產品頁的 Patent & Trademark 只寫 Relissa 是 Indena S.p.A. 的商標，沒有專利號。和聚頁寫專利磷脂載體，也沒有號碼。2026-11-17 以 Relissa、Melissa phytosome、Indena 查 Google Patents，沒有打開一份請求項寫明這支香蜂草商品的專利。柑橘或薰衣草精油的 WO2018189100 不是這支原料，不列入。"
+  },
+  "literature": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "The possible calming effect of subchronic supplementation of a standardised phospholipid carrier-based Melissa officinalis L. extract in healthy adults with emotional distress and poor sleep conditions",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/37927585/",
+        "note": "前瞻、隨機、雙盲、安慰劑對照、3 週。每日 400 mg。登記 NCT05602688。方法寫錠劑由 Indena S.p.A.（Milan）製造，葉的水萃取標準化 17% 至 23% 羥基肉桂酸衍生物，磷脂為向日葵。"
+      }
+    ],
+    "note": "這篇是健康成人的情緒與睡眠問卷，不是失眠症的診斷試驗。產品頁描述的劑量比較與皮質醇結果，這次沒有另附論文，不標成第二篇已讀文獻。"
+  },
+  "evidenceLevels": [
+    "clinical"
+  ],
+  "images": [
+    {
+      "url": "https://www.indena.com/indena_files/2022/05/Nutra_SX_RELISSA.jpg",
+      "localPath": "",
+      "caption": "Indena 的 Relissa 產品頁圖片，畫面是香蜂草葉。",
+      "source": "official_site"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Relissa Melissa Indena Phytosome，SupplySide Global 2026 展品頁",
+      "url": "https://attendees.supplysideshow.com/event/supplyside-global-2026-1/product/UHJvZHVjdF8xNTU3MDg5",
+      "publisher": "SupplySide Global",
+      "channel": "exhibition",
+      "accessed": "2026-11-17",
+      "whatItContributes": "2026 年 SupplySide Global 展商 Indena USA 的展品頁列出 Relissa。同場展商名單另有 Centextra 等其他 Indena 商品，不是這張卡的原料。"
+    },
+    {
+      "title": "Relissa",
+      "url": "https://www.indena.com/product/relissa/",
+      "publisher": "Indena",
+      "channel": "supplier_site",
+      "accessed": "2026-11-17",
+      "whatItContributes": "葉萃取、17% 至 23% 羥基肉桂酸、建議 200 mg 兩次，以及商標說明沒有專利號。"
+    },
+    {
+      "title": "PubMed 37927585",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37927585/",
+      "publisher": "PubMed",
+      "channel": "paper",
+      "accessed": "2026-11-17",
+      "whatItContributes": "3 週、每日 400 mg 的人體隨機雙盲試驗，並寫 Milan 的 Indena 製造。"
+    },
+    {
+      "title": "和聚的 Relissa 產品頁",
+      "url": "https://www.hg-bio.com.tw/products/relissa/",
+      "publisher": "和聚國際",
+      "channel": "other",
+      "accessed": "2026-11-17",
+      "whatItContributes": "台灣原料頁列出 Indena、總羥基肉桂酸大於 17%、產地義大利。沒有寫獨家。"
+    },
+    {
+      "title": "和聚關於我們",
+      "url": "https://www.hg-bio.com.tw/aboutus/",
+      "publisher": "和聚國際",
+      "channel": "other",
+      "accessed": "2026-11-17",
+      "whatItContributes": "公司自述代理進口國際原料。不是這支商品的獨家條款。"
+    }
+  ],
+  "discovery": {
+    "channel": "exhibition",
+    "scoutDate": "2026-11-17",
+    "notes": "從 SupplySide Global 2026 的 Indena 展品頁進入 Relissa，再對 Indena 產品頁與 PubMed 37927585。台灣關聯打開和聚產品頁與關於我們，並對過漢馨的品牌清單。專利號這次沒有對到，狀態留未知。"
+  }
+}

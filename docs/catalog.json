@@ -6,6 +6,972 @@
         "exhibition",
         "industry_report"
       ],
+      "date": "2026-11-17",
+      "example": false,
+      "notes": "正式五筆。主管道：Phase 2、ParActin 為新聞；Glycostat、Relissa 為展覽；Testofen 為產業報導。",
+      "picks": [
+        {
+          "discovery": {
+            "channel": "industry_report",
+            "notes": "從 NutraIngredients 2026-04-20 的睪固酮補給市場報導進入 Testofen，再對 Saanroo 原料頁、Testofen 科學頁、US10576118B2 與 PubMed 26791805。台灣關聯打開和聚產品頁與關於我們、展昭的摩根展品頁，以及 MyProtein 台灣成品頁。同篇報導的東革阿里在原料平臺是未確認，沒有放進這張卡。",
+            "scoutDate": "2026-11-17"
+          },
+          "efficacy": {
+            "claimedBenefits": [
+              "NutraIngredients 2026-04-20 的睪固酮補給市場報導引述 Saanroo（前稱 Gencor）：Testofen 是標準化葫蘆巴萃取，標準化到一組稱為 Fenuside 的皂苷配糖，用來對應一般葫蘆巴沒有固定的力價。這是供應商在報導裡的說法。",
+              "Saanroo 原料頁寫，至少 50% Fenuside，並寫有 4 篇已發表臨床，方向是性慾、活力與肌肉量。這是供應商頁的說法。",
+              "PubMed 26791805：43 至 70 歲健康男性，Testofen 每日 600 mg 或安慰劑、12 週，納入 120 人。摘要寫老化男性症狀分數下降、早晨勃起與性活動次數、以及總睪固酮與游離睪固酮相對安慰劑增加。"
+            ],
+            "dosageNote": "每日 600 mg 是這篇試驗與專利實施例的劑量，也是供應商科學頁的其中一組。原料平臺沒有每日毫克。MyProtein 台灣膠囊每粒 100 mg，是成品標示，低於這篇試驗。",
+            "suggestedDosage": "上述 12 週試驗是每日 600 mg。Testofen 科學頁另寫 300 mg 一日兩次，或每日 300 mg 與 600 mg 兩組。專利請求項寫萃取物每日約 300 至 600 mg。"
+          },
+          "evidenceLevels": [
+            "clinical"
+          ],
+          "example": false,
+          "id": "testofen",
+          "images": [
+            {
+              "caption": "Testofen 官網首頁的商品圖，瓶身寫 TESTOFEN、fenugreek extract、60 tablets。是瓶裝成品，不是原料粉末。",
+              "localPath": "",
+              "source": "official_site",
+              "url": "https://testofen.com/wp-content/uploads/2024/02/testofen.png"
+            }
+          ],
+          "literature": {
+            "note": "供應商科學頁還列 2011 年性功能、2015 年阻力訓練與 2020 年徒手訓練三篇。這次以已打開摘要的 2016 年試驗為主，沒有把四篇併成同一句結論。",
+            "refs": [
+              {
+                "note": "隨機雙盲安慰劑對照。健康男性，每日 600 mg、12 週。摘要的對象是 43 至 70 歲，不是運動員。",
+                "title": "Testofen, a specialised Trigonella foenum-graecum seed extract reduces age-related symptoms of androgen decrease, increases testosterone levels and improves sexual function in healthy aging males in a double-blind randomised clinical study",
+                "url": "https://pubmed.ncbi.nlm.nih.gov/26791805/"
+              }
+            ],
+            "status": "yes"
+          },
+          "names": {
+            "commonEn": "fenugreek seed extract",
+            "commonZh": "葫蘆巴種子萃取物",
+            "scientific": "Trigonella foenum-graecum L.（種子。不是藍胡蘆巴 Trigonella caerulea，也不是總序天冬。）",
+            "trade": "Testofen（Saanroo，前稱 Gencor，的葫蘆巴種子萃取商品名；標準化成分稱 Fenuside）"
+          },
+          "patent": {
+            "note": "2026-11-17 打開 Google Patents 的 US10576118B2。Saanroo 原料頁寫有美國專利保護年長男性用途，沒有在該頁寫出號碼；這份與商品名、劑量對得上。",
+            "refs": [
+              {
+                "note": "葫蘆巴或種子萃取用於年長男性性荷爾蒙。請求項寫每日約 300 至 600 mg。2026-02-23 權利人轉為 Saanroo Health Sciences LLC。實施例寫 33:1、至少 50% 皂苷配糖，並寫當時由 Gencor Pacific Ltd.（香港）供料。",
+                "title": "US10576118B2",
+                "url": "https://patents.google.com/patent/US10576118B2/en"
+              }
+            ],
+            "status": "yes"
+          },
+          "sources": [
+            {
+              "accessed": "2026-11-17",
+              "channel": "industry_report",
+              "publisher": "NutraIngredients",
+              "title": "Natural boosters ride growth wave in testosterone market",
+              "url": "https://www.nutraingredients.com/Article/2026/04/20/testosterone-support-market-continues-to-rise-but-with-caveats/",
+              "whatItContributes": "2026-04-20 市場報導：Testofen 是 Saanroo（前稱 Gencor）的標準化葫蘆巴，標準化成分稱 Fenuside。同篇的東革阿里、南非醉茄與 Tesnor 不是這張卡的原料。"
+            },
+            {
+              "accessed": "2026-11-17",
+              "channel": "supplier_site",
+              "publisher": "Saanroo",
+              "title": "Testofen",
+              "url": "https://www.saanroo.com/ingredients/testofen",
+              "whatItContributes": "種子萃取、至少 50% Fenuside、印度產種子，以及美國德州的聯絡地址。"
+            },
+            {
+              "accessed": "2026-11-17",
+              "channel": "supplier_site",
+              "publisher": "Testofen",
+              "title": "Science and Research",
+              "url": "https://testofen.com/science-and-research/",
+              "whatItContributes": "四篇試驗的劑量寫法：每日 600 mg，或 300 mg 一日兩次。"
+            },
+            {
+              "accessed": "2026-11-17",
+              "channel": "patent",
+              "publisher": "Google Patents",
+              "title": "US10576118B2",
+              "url": "https://patents.google.com/patent/US10576118B2/en",
+              "whatItContributes": "年長男性用途專利與 2026 年權利人變更。"
+            },
+            {
+              "accessed": "2026-11-17",
+              "channel": "paper",
+              "publisher": "PubMed",
+              "title": "PubMed 26791805",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/26791805/",
+              "whatItContributes": "12 週、每日 600 mg 的人體隨機雙盲試驗摘要。"
+            },
+            {
+              "accessed": "2026-11-17",
+              "channel": "other",
+              "publisher": "和聚國際",
+              "title": "和聚的 Testofen 產品頁",
+              "url": "https://www.hg-bio.com.tw/products/testofen/",
+              "whatItContributes": "台灣原料頁列出 Gencor、Fenuside 大於 50%、產地印度。沒有寫獨家。"
+            },
+            {
+              "accessed": "2026-11-17",
+              "channel": "exhibition",
+              "publisher": "展昭國際",
+              "title": "展昭展品頁：Testofen 葫蘆巴籽萃取物",
+              "url": "https://www.chanchao.com.tw/healthcos/visitorProductDetail.asp?no=184811",
+              "whatItContributes": "摩根醫藥生技的展品頁寫大於 38% Fenuside、建議每日 600 mg。規格與原廠頁不同，頁上沒有寫總代理。"
+            }
+          ],
+          "supply": {
+            "relationship": "taiwan_agent",
+            "relationshipNote": "Saanroo 原料頁的聯絡地址在美國德州 Austin，專利 2026-02-23 轉給 Saanroo Health Sciences LLC，種子頁寫來自印度。和聚產品頁列出廠牌 Gencor、Fenuside 大於 50%、產地印度；關於我們寫該公司代理進口國際原料，產品頁沒有寫獨家，也沒有看到原廠經銷名單指名和聚。展昭的 2026 亞洲美容保養生技保健大展產品頁寫摩根醫藥生技展出 Testofen，規格寫大於 38% Fenuside、建議每日 600 mg，與原廠及和聚的至少 50% 不同，該頁沒有寫總代理。MyProtein 台灣站販售每粒 100 mg 的膠囊，是成品。上海善邑寫代理，地址在上海，不是台灣廠商。查核日 2026-11-17。",
+            "supplierCountry": "美國",
+            "supplierName": "Saanroo（前稱 Gencor）",
+            "taiwanPartyName": "和聚國際（該公司自述代理；不是獨家）"
+          },
+          "tfda": {
+            "evidenceNotes": "葫蘆巴（Trigonella foenum-graecum）種子、葉、芽列在可供直接食用，備註空白。商品名 Testofen、Fenuside 沒有另列。添加物 0 筆。列名沒有寫每日毫克，不等於試驗用的每日 600 mg。",
+            "lookupDate": "2026-11-17",
+            "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+            "officialCrosscheck": {
+              "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+              "done": true,
+              "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+              "notes": "2026-11-17 消費者專區詳細頁 HTTPS 中斷（UNEXPECTED_EOF_WHILE_READING），沒有取得頁面。查詢助手細節時間戳 2026-11-16 06:23，原料 1709 筆、添加物 804 筆；同檔開放資料原料列 1707 筆。葫蘆巴這一筆的中文名、學名、部位、大分類與助手細節一致，備註空白。添加物沒有這個品名。"
+            },
+            "queries": [
+              {
+                "category": "",
+                "keyword": "葫蘆巴",
+                "matchedName": "葫蘆巴；希臘草",
+                "note": "這一筆對到本品的種子。",
+                "restrictionNote": "可供直接食用。學名 Trigonella foenum-graecum L.，外文名 Fenugreek, Goat horn, Cow horn，部位種子、葉、芽(苗)，備註空白。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Trigonella foenum-graecum",
+                "matchedName": "葫蘆巴；希臘草",
+                "note": "學名 1 筆。",
+                "restrictionNote": "同上。藍胡蘆巴是另一個學名，這次用完整學名沒有命中。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Testofen",
+                "matchedName": "",
+                "note": "商品名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "葫蘆巴",
+                "matchedName": "",
+                "note": "添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "fenugreek",
+                "matchedName": "",
+                "note": "英文關鍵字在添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "葫蘆巴",
+                "matchedName": "",
+                "note": "助手更新歷程（2026-11-01 至 2026-11-16）沒有這筆異動。資料時間戳 2026-11-16 06:23。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "history",
+                "unconfirmedSafety": false
+              }
+            ],
+            "usable": "listed_food_ingredient"
+          }
+        },
+        {
+          "discovery": {
+            "channel": "exhibition",
+            "notes": "從 NutraIngredients 2026-08-25 的 Vitafoods Asia 2026 攤位預告進入 Orisen 的 Glycostat，再對 Glykon 產品頁、Orisen 首頁、PubMed 21861717 與 US20160108456A1。台灣關聯另開九五之丹成品頁。藤莖那一筆未確認，沒有當成這個商品。",
+            "scoutDate": "2026-11-17"
+          },
+          "efficacy": {
+            "claimedBenefits": [
+              "Glykon 產品頁寫，Glycostat 是保留新鮮苦瓜活性的野生苦瓜萃取；與另外兩種苦瓜萃取比，健康大鼠的葡萄糖耐受試驗只有 Glycostat 達到統計差異。這是供應商頁的說法。",
+              "Orisen 首頁寫低溫水萃、保留 10,000 Da 的野生苦瓜胜肽，並寫已有臨床可協助調節血糖與體重。這是該公司首頁的說法，和 Glykon 頁的「萃取」用詞不同。",
+              "PubMed 21861717 是大鼠試驗。摘要寫野生型苦瓜萃取 EX-1 至 EX-4：正常鼠 50 mg/kg 可降低 4 小時血糖且不像 metformin 造成低血糖；鏈脲佐菌素糖尿病鼠以 250 mg/kg 的兩種萃取降血糖。摘要沒有出現 Glycostat 這個商品名。作者單位有 Glykon Technologies Group。"
+            ],
+            "dosageNote": "沒有看到供應商建議的人體毫克。1000 mg 只出現在成品頁。大鼠的 mg/kg 不能換算成這張卡的人用劑量。果實、種子、葉那一筆沒有每日上限；藤莖是另一筆。",
+            "suggestedDosage": "Glykon 與 Orisen 這次打開的頁面都沒有寫人體每日毫克。大鼠摘要的 50 mg/kg 與 250 mg/kg 是動物灌食劑量。九五之丹成品頁寫每份 1000 mg，是該成品標示。"
+          },
+          "evidenceLevels": [
+            "animal"
+          ],
+          "example": false,
+          "id": "glycostat",
+          "images": [
+            {
+              "caption": "Glykon 的 Glycostat 頁橫幅，畫面是苦瓜果實。頁文沒有註明照片品種。",
+              "localPath": "",
+              "source": "official_site",
+              "url": "https://glykon.com/wp-content/uploads/2026/07/glycostat-banner.jpg"
+            }
+          ],
+          "literature": {
+            "note": "這次沒有打開一篇標題或摘要寫明 Glycostat 的人體論文。Orisen 首頁的 clinically proven 沒有附那篇論文的出處，所以證據等級只標動物。",
+            "refs": [
+              {
+                "note": "2011 年 Journal of Medicinal Food。大鼠，不是人體。摘要的萃取代號是 EX-1 至 EX-4，沒有寫 Glycostat。",
+                "title": "Bitter Melon Extracts in Diabetic and Normal Rats Favorably Influence Blood Glucose and Blood Pressure Regulation",
+                "url": "https://pubmed.ncbi.nlm.nih.gov/21861717/"
+              }
+            ],
+            "status": "yes"
+          },
+          "names": {
+            "commonEn": "wild-type bitter melon extract",
+            "commonZh": "苦瓜萃取物（野生品系）",
+            "scientific": "Momordica charantia L.（野生品系萃取。不是羅漢果，也不是木虌果肉。這次打開的頁面沒有寫使用藤莖。）",
+            "trade": "Glycostat（Glykon 頁與 Orisen 頁使用的苦瓜萃取商品名）"
+          },
+          "patent": {
+            "note": "Glykon 另一頁寫 Greengo Biomedical（台灣）有台灣與中國申請，頁上的 6663-001ATW、6663-001ACN 像內部卷號。這次沒有打開對應的公開專利，不把這兩個代號寫成專利號。Orisen 寫專利，沒有在首頁給出號碼。",
+            "refs": [
+              {
+                "note": "測定苦瓜萃取降血糖潛力的方法公開案，權利人 Glykon Technologies Group, LLC。這次看到的是申請公開，不是已核准的組成專利。說明書寫果實萃取是目前使用的主要形式，也提到種子、葉與根曾被傳統使用；沒有把藤莖寫成這份申請的原料部位。",
+                "title": "US20160108456A1",
+                "url": "https://patents.google.com/patent/US20160108456A1/en"
+              }
+            ],
+            "status": "yes"
+          },
+          "sources": [
+            {
+              "accessed": "2026-11-17",
+              "channel": "exhibition",
+              "publisher": "NutraIngredients",
+              "title": "Vitafoods Asia 2026 show floor preview: Exhibitors H-P",
+              "url": "https://www.nutraingredients.com/Article/2026/08/25/vitafoods-asia-2026-show-floor-preview-exhibitors-h-p/",
+              "whatItContributes": "2026-08-25 預告：台灣 Orisen Biotech 在 H5-B34，主打專利苦瓜萃取 Glycostat，方向是血糖與代謝。"
+            },
+            {
+              "accessed": "2026-11-17",
+              "channel": "supplier_site",
+              "publisher": "Glykon Technologies",
+              "title": "Glycostat",
+              "url": "https://glykon.com/glycostat/",
+              "whatItContributes": "野生苦瓜萃取、穩定化製程，以及供應商自己的大鼠血糖與血壓比較。"
+            },
+            {
+              "accessed": "2026-11-17",
+              "channel": "supplier_site",
+              "publisher": "Orisen Biotech",
+              "title": "Orisen Biotech 首頁",
+              "url": "https://orisen.com.tw/",
+              "whatItContributes": "台灣公司自述開發並供應；寫低溫水萃與 10,000 Da 苦瓜胜肽，用詞和 Glykon 頁不同。"
+            },
+            {
+              "accessed": "2026-11-17",
+              "channel": "paper",
+              "publisher": "PubMed",
+              "title": "PubMed 21861717",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21861717/",
+              "whatItContributes": "大鼠試驗摘要與 Glykon 的作者單位。商品名沒有出現在摘要。"
+            },
+            {
+              "accessed": "2026-11-17",
+              "channel": "patent",
+              "publisher": "Google Patents",
+              "title": "US20160108456A1",
+              "url": "https://patents.google.com/patent/US20160108456A1/en",
+              "whatItContributes": "Glykon 的測定方法公開案。不是已核准的組成專利。"
+            },
+            {
+              "accessed": "2026-11-17",
+              "channel": "other",
+              "publisher": "九五之丹",
+              "title": "九五之丹的 Glycostat 頁",
+              "url": "https://www.95dan.com.tw/blog/brand-material-glycostat",
+              "whatItContributes": "台灣成品頁寫製造商是美國 Glykon，每份 1000 mg，並稱苦瓜胜肽。是成品採用，不是原料代理契約。"
+            }
+          ],
+          "supply": {
+            "relationship": "unknown",
+            "relationshipNote": "Glykon 的 Glycostat 頁把商品寫成該公司的野生苦瓜萃取。Orisen 官網寫自己開發並供應專利苦瓜原料，公司在台中，Vitafoods Asia 2026 預告寫台灣廠商、攤位 H5-B34。九五之丹成品頁寫研發製造商是美國 Glykon Technologies Group，每份 1000 mg，並稱苦瓜胜肽。三份來源對「誰是供應商、是萃取還是胜肽」不一致，這次不另判。沒有看到原廠經銷契約。查核日 2026-11-17。",
+            "supplierCountry": "美國與台灣兩說並存",
+            "supplierName": "Glykon Technologies Group（美國頁）；Orisen Biotech 官網寫由該公司開發並供應",
+            "taiwanPartyName": "Orisen Biotech（該公司自述開發並供應）；九五之丹為成品採用"
+          },
+          "tfda": {
+            "evidenceNotes": "苦瓜（Momordica charantia）果實、種子、葉列在可供直接食用，備註空白。同一中文名的藤（莖）是另一筆，未經確認前不得作為食品原料。Glycostat 沒有另列，這次打開的供應商頁沒有寫藤莖。添加物 0 筆。",
+            "lookupDate": "2026-11-17",
+            "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+            "officialCrosscheck": {
+              "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+              "done": true,
+              "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+              "notes": "2026-11-17 消費者專區詳細頁 HTTPS 中斷（UNEXPECTED_EOF_WHILE_READING），沒有取得頁面。查詢助手細節時間戳 2026-11-16 06:23，原料 1709 筆、添加物 804 筆；同檔開放資料原料列 1707 筆。苦瓜果實種子葉與藤莖兩筆的中文名、學名、部位、大分類與助手細節一致。添加物沒有這個品名。"
+            },
+            "queries": [
+              {
+                "category": "",
+                "keyword": "苦瓜",
+                "matchedName": "苦瓜",
+                "note": "兩筆同名。這張卡對果實、種子、葉那一筆，不把藤莖算進來。",
+                "restrictionNote": "可供直接食用的一筆：學名 Momordica charantia L.，外文名 balsam-pear, bitter melon，部位果實、種子、葉，備註空白。另一筆在未確認分類，部位藤（莖），備註寫須依非傳統性食品原料申請。",
+                "resultCount": 2,
+                "tab": "ingredient",
+                "unconfirmedSafety": true
+              },
+              {
+                "category": "",
+                "keyword": "Momordica charantia",
+                "matchedName": "苦瓜",
+                "note": "學名同時命中可食用部位與藤莖。",
+                "restrictionNote": "同上兩筆。羅漢果與木虌是其他物種，這次用這個學名沒有命中。",
+                "resultCount": 2,
+                "tab": "ingredient",
+                "unconfirmedSafety": true
+              },
+              {
+                "category": "",
+                "keyword": "Glycostat",
+                "matchedName": "",
+                "note": "商品名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "苦瓜",
+                "matchedName": "",
+                "note": "添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Momordica",
+                "matchedName": "",
+                "note": "英文關鍵字在添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "苦瓜",
+                "matchedName": "",
+                "note": "助手更新歷程（2026-11-01 至 2026-11-16）沒有這筆異動。資料時間戳 2026-11-16 06:23。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "history",
+                "unconfirmedSafety": false
+              }
+            ],
+            "usable": "listed_food_ingredient"
+          }
+        },
+        {
+          "discovery": {
+            "channel": "news",
+            "notes": "從 NutraIngredients 2024-06-05 的白腎豆試驗新聞進入，再對 Pharmachem 產品頁、銷售單頁、Scientific Reports 論文與 US6797287B2。台灣關聯打開統園產品頁，以及赫而司、美之選、九五之丹的成品頁。吡啶甲酸鉻是赫而司成品另加的成分，不是 Phase 2 本身。",
+            "scoutDate": "2026-11-17"
+          },
+          "efficacy": {
+            "claimedBenefits": [
+              "NutraIngredients 2024-06-05 報導 Scientific Reports 的 12 週試驗：熱量限制飲食加上 Phase 2，高劑量組平均體重下降大於安慰劑。這是該報導對論文的轉述。",
+              "Pharmachem 銷售頁寫，可減少膳食澱粉的酵素消化與吸收，最高 66%；並寫美國允許兩則結構／功能聲稱，以及 self-affirmed GRAS。頁上沒有寫成藥品核准。",
+              "論文寫 Phase 2 為白腎豆水萃取加阿拉伯膠，每克至少 3000 AAIU。高劑量是每次 1000 mg、低劑量每次 700 mg，都是一日三次、餐前 30 分鐘、12 週，完成 81 人。"
+            ],
+            "dosageNote": "500 至 1500 mg 是供應商單頁的每餐用量。2.1 g 與 3 g 是這篇試驗的每日總量。原料平臺的種子與阿拉伯膠都沒有寫每日克數。統園頁寫的「FDA 認證」和供應商頁的 self-affirmed GRAS、結構／功能聲稱不是同一句。",
+            "suggestedDosage": "銷售單頁寫含澱粉的一餐 500 至 1500 mg，並轉述加拿大專論在每日 3000 mg、每克 3000 AAIU 時的體重管理文句。2024 年試驗是每日 2.1 g 或 3 g，分三次於餐前。"
+          },
+          "evidenceLevels": [
+            "clinical"
+          ],
+          "example": false,
+          "id": "phase-2",
+          "images": [
+            {
+              "caption": "Pharmachem 的 Phase 2 產品頁圖片，畫面是白腎豆種子，不是萃取粉末。",
+              "localPath": "",
+              "source": "official_site",
+              "url": "https://pharmachem.com/wp-content/uploads/2024/09/key-benefits.jpg"
+            }
+          ],
+          "literature": {
+            "note": "Pharmachem 臨床列表還有更早的試驗與綜論。66% 這個數字出現在銷售頁，沒有出現在這篇 2024 年論文這次讀到的結果句。",
+            "refs": [
+              {
+                "note": "Scientific Reports，2024-06-03。隨機雙盲安慰劑對照，登記 NCT02930668。高劑量每日 3 g、低劑量每日 2.1 g，都配合熱量限制。論文寫配方含阿拉伯膠。",
+                "title": "Proprietary alpha-amylase inhibitor formulation from white kidney bean (Phaseolus vulgaris L.) promotes weight and fat loss: a 12-week, double-blind, placebo-controlled, randomized trial",
+                "url": "https://www.nature.com/articles/s41598-024-63443-8"
+              }
+            ],
+            "status": "yes"
+          },
+          "names": {
+            "commonEn": "white kidney bean seed extract",
+            "commonZh": "白腎豆種子萃取物",
+            "scientific": "Phaseolus vulgaris（種子的水萃取，標準化 α-澱粉酶抑制活性。不是其他菜豆部位。）",
+            "trade": "Phase 2（Pharmachem 的白腎豆萃取商品名，頁上亦寫 Phase 2 Carb Controller；試驗亦見 Glucosanol、Glycolite、PhaseLite、Starchlite）"
+          },
+          "patent": {
+            "note": "2026-11-17 打開 US6797287B2。另有 2006 年公開案 US20060147565A1，寫超臨界二氧化碳純化澱粉酶抑制物，同樣由 Pharmachem 申請。這次以已核准的 US6797287B2 為主，沒有把兩份製程併成同一句。",
+            "refs": [
+              {
+                "note": "標題為 phaseolamin 組成物與其使用方法。Google Patents 現權利人欄為 Pharmachem Laboratories Inc。",
+                "title": "US6797287B2",
+                "url": "https://patents.google.com/patent/US6797287B2/en"
+              }
+            ],
+            "status": "yes"
+          },
+          "sources": [
+            {
+              "accessed": "2026-11-17",
+              "channel": "news",
+              "publisher": "NutraIngredients",
+              "title": "White kidney bean extract may promote body weight and fat loss",
+              "url": "https://www.nutraingredients.com/Article/2024/06/05/white-kidney-bean-extract-may-promote-body-weight-and-fat-loss/",
+              "whatItContributes": "2024-06-05：12 週試驗的每日 3 g 與 2.1 g、餐前三次，以及體重結果的報導。"
+            },
+            {
+              "accessed": "2026-11-17",
+              "channel": "supplier_site",
+              "publisher": "Pharmachem",
+              "title": "Phase 2 Carb Controller",
+              "url": "https://pharmachem.com/phase-2-carb-controller/",
+              "whatItContributes": "供應商頁的澱粉消化聲稱、兩則美國結構／功能聲稱，以及加拿大專論的每日 3000 mg。"
+            },
+            {
+              "accessed": "2026-11-17",
+              "channel": "supplier_site",
+              "publisher": "Pharmachem",
+              "title": "Phase 2 sell sheet",
+              "url": "https://pharmachem.com/wp-content/uploads/2024/10/v07_Pharmachem_SellSheet_SingleIngredient_Phase2CarbController-v1.pdf",
+              "whatItContributes": "每餐 500 至 1500 mg、美國白腎豆、self-affirmed GRAS。沒有寫阿拉伯膠。"
+            },
+            {
+              "accessed": "2026-11-17",
+              "channel": "paper",
+              "publisher": "Scientific Reports",
+              "title": "Scientific Reports 2024",
+              "url": "https://www.nature.com/articles/s41598-024-63443-8",
+              "whatItContributes": "試驗設計、劑量，以及配方含 Phaseolus vulgaris 萃取與阿拉伯膠。"
+            },
+            {
+              "accessed": "2026-11-17",
+              "channel": "patent",
+              "publisher": "Google Patents",
+              "title": "US6797287B2",
+              "url": "https://patents.google.com/patent/US6797287B2/en",
+              "whatItContributes": "phaseolamin 組成物專利，權利人 Pharmachem Laboratories Inc。"
+            },
+            {
+              "accessed": "2026-11-17",
+              "channel": "other",
+              "publisher": "統園企業",
+              "title": "統園的 Phase 2 產品頁",
+              "url": "https://www.tyig.com.tw/web/product/product_in.jsp?dm_no=DM1585834353649&lang=tw&pdid=PD1589870090768&sub_no=DM1585834497190",
+              "whatItContributes": "該公司自述獨家代理。頁上的 FDA 用詞與供應商頁不同。"
+            },
+            {
+              "accessed": "2026-11-17",
+              "channel": "other",
+              "publisher": "赫而司",
+              "title": "赫而司的 Phase 2 成品頁",
+              "url": "https://www.healthwomen.com.tw/phaseolamin/",
+              "whatItContributes": "成品採用，另含吡啶甲酸鉻。頁寫原廠商標授權，不是統園那一句獨家代理。"
+            }
+          ],
+          "supply": {
+            "relationship": "taiwan_agent",
+            "relationshipNote": "統園產品頁寫「Phase 2 品牌原料由統園企業獨家代理」，並寫商標屬 Pharmachem Laboratories, Inc.。這次打開的 Pharmachem 產品頁與品牌組合頁沒有列出台灣經銷名單，所以獨家只依統園自述。赫而司成品頁寫原廠商標授權，配方另含吡啶甲酸鉻，是成品採用，不是這支原料的代理。美之選與九五之丹頁是使用該商品名的成品。查核日 2026-11-17。",
+            "supplierCountry": "美國",
+            "supplierName": "Pharmachem Laboratories／Pharmachem Innovations",
+            "taiwanPartyName": "統園企業（該公司自述獨家代理）"
+          },
+          "tfda": {
+            "evidenceNotes": "菜豆／白腎豆（Phaseolus vulgaris）種子列在可供直接食用，備註空白。商品名 Phase 2 沒有另列。2024 年試驗寫配方含阿拉伯膠，阿拉伯膠另有一筆原料、備註空白。白腎豆與阿拉伯膠在添加物都是 0 筆。列名沒有寫每日克數。",
+            "lookupDate": "2026-11-17",
+            "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+            "officialCrosscheck": {
+              "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+              "done": true,
+              "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+              "notes": "2026-11-17 消費者專區詳細頁 HTTPS 中斷（UNEXPECTED_EOF_WHILE_READING），沒有取得頁面。查詢助手細節時間戳 2026-11-16 06:23，原料 1709 筆、添加物 804 筆；同檔開放資料原料列 1707 筆。白腎豆與阿拉伯膠的中文名、學名、部位、大分類與助手細節一致。添加物沒有這兩個品名。"
+            },
+            "queries": [
+              {
+                "category": "",
+                "keyword": "白腎豆",
+                "matchedName": "菜豆；白腎豆",
+                "note": "種子這一筆對到本品。",
+                "restrictionNote": "可供直接食用。學名 Phaseolus vulgaris，外文名 kidney bean，部位種子，備註空白。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Phaseolus vulgaris",
+                "matchedName": "菜豆；白腎豆",
+                "note": "學名 1 筆。",
+                "restrictionNote": "同上。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Phase 2",
+                "matchedName": "",
+                "note": "商品名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "阿拉伯膠",
+                "matchedName": "阿拉伯膠",
+                "note": "2024 年論文寫 Phase 2 配方含阿拉伯膠，所以另查這一筆。它不是白腎豆本身。",
+                "restrictionNote": "草木本植物來源製取之原料。外文名 Acacia gum, Arabic gum。學名與部位空白，備註空白。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "白腎豆",
+                "matchedName": "",
+                "note": "添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "阿拉伯膠",
+                "matchedName": "",
+                "note": "阿拉伯膠在添加物 0 筆，命中的是原料那一筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "白腎豆",
+                "matchedName": "",
+                "note": "助手更新歷程（2026-11-01 至 2026-11-16）沒有這筆異動。資料時間戳 2026-11-16 06:23。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "history",
+                "unconfirmedSafety": false
+              }
+            ],
+            "usable": "listed_food_ingredient"
+          }
+        },
+        {
+          "discovery": {
+            "channel": "news",
+            "notes": "從 NutraIngredients 2026-04-24 的亞太法規回顧進入 ParActin，再對常見問答、PubMed 30968986 與 US8084495B2。台灣關聯查到澄豐的商標與公司登記，沒有產品頁，關係留待確認。2026-10-19 另有澳洲品牌回收穿心蓮藥品的報導，內文這次沒有點名 ParActin，不併進這張卡的試驗結論。",
+            "scoutDate": "2026-11-17"
+          },
+          "efficacy": {
+            "claimedBenefits": [
+              "ParActin 常見問答寫：印度與東南亞栽種的穿心蓮葉乾燥萃取，標準化總穿心蓮內酯 50%；印度規格寫 60%。並寫人體試驗劑量 300 mg／日，骨關節炎試驗另見 600 mg／日。這是供應商頁的說法。",
+              "PubMed 30968986：輕至中度膝骨關節炎，ParActin 每日 300 mg 或 600 mg 對安慰劑、84 天，評估 103 人。摘要寫兩組的疼痛分數在第 28、56、84 天低於安慰劑，僵硬與身體功能分數也有差異。",
+              "NutraIngredients 2026-04-24 寫，澳洲 TGA 正諮詢把穿心蓮移出低風險 listed medicines 清單，原因是過敏性休克通報；圖說寫 ParActin 來自穿心蓮。這是澳洲藥品管制新聞，不是 TFDA 分類。"
+            ],
+            "dosageNote": "300 與 600 mg 是供應商頁和這篇膝關節試驗的劑量。全草那一筆沒有每日毫克。常見問答另寫較低毫克時的免疫方向與較高毫克時的發炎方向，沒有併進同一句建議。",
+            "suggestedDosage": "常見問答寫臨床劑量 300 mg／日，骨關節炎可到 600 mg／日。上述膝關節試驗就是這兩個每日劑量、84 天。"
+          },
+          "evidenceLevels": [
+            "clinical"
+          ],
+          "example": false,
+          "id": "paractin",
+          "images": [
+            {
+              "caption": "ParActin 官網使用的商品標誌。",
+              "localPath": "",
+              "source": "official_site",
+              "url": "https://paractin.com/wp-content/uploads/2026/05/paractin-logo-1024x260.png"
+            }
+          ],
+          "literature": {
+            "note": "供應商臨床庫還寫類風濕性關節炎試驗，其中一篇是併用 methotrexate 的 14 週試驗。那是不同設計，沒有併進膝關節這一句。",
+            "refs": [
+              {
+                "note": "膝骨關節炎。每日 300 或 600 mg、84 天。摘要沒有寫併用西藥。",
+                "title": "A double-blind, randomized, placebo-controlled study to assess the efficacy of Andrographis paniculata standardized extract (ParActin) on pain reduction in subjects with knee osteoarthritis",
+                "url": "https://pubmed.ncbi.nlm.nih.gov/30968986/"
+              }
+            ],
+            "status": "yes"
+          },
+          "names": {
+            "commonEn": "Andrographis paniculata leaf extract",
+            "commonZh": "穿心蓮葉萃取物",
+            "scientific": "Andrographis paniculata Nees（供應商常見問答寫葉。平臺這一筆部位是全草，葉在其中。不是藥品許可證裡的穿心蓮濃縮製劑。）",
+            "trade": "ParActin（HP Ingredients 的穿心蓮萃取商品名）"
+          },
+          "patent": {
+            "note": "2026-11-17 打開 US8084495B2 與 ParActin 專利頁。專利頁還列智利與 PCT 申請，這次沒有逐份打開，不以那些申請號作為已核准依據。",
+            "refs": [
+              {
+                "note": "標題為穿心蓮半日花烷二萜組成物，用途寫自體免疫與阿茲海默、PPAR-gamma。Google Patents 目前權利人欄是 Innobioscience LLC 與 Herbal Powers Corp。ParActin 首頁與 HP Ingredients 2012 年說明把 US 8,084,495 B2 寫成該公司的專利。權利人欄和公司說明不一致，兩說都留下。",
+                "title": "US8084495B2",
+                "url": "https://patents.google.com/patent/US8084495B2/en"
+              }
+            ],
+            "status": "yes"
+          },
+          "sources": [
+            {
+              "accessed": "2026-11-17",
+              "channel": "news",
+              "publisher": "NutraIngredients",
+              "title": "Regulatory review: Andrographis, caffeine warning, biotics and more",
+              "url": "https://www.nutraingredients.com/Article/2026/04/24/andrographis-caffeine-warning-biotics-in-nutraceutical-regulatory-round-up/",
+              "whatItContributes": "2026-04-24：澳洲 TGA 諮詢把穿心蓮移出低風險清單；圖說點名 HP Ingredients 的 ParActin。"
+            },
+            {
+              "accessed": "2026-11-17",
+              "channel": "supplier_site",
+              "publisher": "ParActin",
+              "title": "ParActin frequently asked questions",
+              "url": "https://paractin.com/frequently-asked-questions-2/",
+              "whatItContributes": "葉萃取、總穿心蓮內酯 50%（印度規格 60%）、每日 300 至 600 mg，以及獨家供應與未列台灣的市場清單。"
+            },
+            {
+              "accessed": "2026-11-17",
+              "channel": "paper",
+              "publisher": "PubMed",
+              "title": "PubMed 30968986",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/30968986/",
+              "whatItContributes": "膝骨關節炎隨機雙盲試驗的劑量與 84 天。"
+            },
+            {
+              "accessed": "2026-11-17",
+              "channel": "patent",
+              "publisher": "Google Patents",
+              "title": "US8084495B2",
+              "url": "https://patents.google.com/patent/US8084495B2/en",
+              "whatItContributes": "半日花烷二萜組成物專利。目前權利人欄與 HP Ingredients 的說明不同。"
+            },
+            {
+              "accessed": "2026-11-17",
+              "channel": "supplier_site",
+              "publisher": "ParActin",
+              "title": "Where to buy ParActin",
+              "url": "https://paractin.com/where-to-buy-2/",
+              "whatItContributes": "成品品牌清單。這次沒有看到台灣公司。"
+            },
+            {
+              "accessed": "2026-11-17",
+              "channel": "other",
+              "publisher": "經濟部智慧財產局公開資料轉載頁",
+              "title": "商標「風司通 PARACTIN」",
+              "url": "https://www.findcompany.com.tw/trademark/02049609_108057104",
+              "whatItContributes": "澄豐國際為商標權人。這是商標登記，不是產品或代理頁。"
+            }
+          ],
+          "supply": {
+            "relationship": "unknown",
+            "relationshipNote": "2026-11-17 以 ParActin、穿心蓮、Andrographis、HP Ingredients 搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商交叉查詢，並於寫入前再用同一組詞獨立查一次。經濟部商標公開資料：澄豐國際是「風司通 PARACTIN」商標權人，註冊號 02049609，類別含植物萃取營養補充品。公司登記營業項目含保健營養食品批發。沒有打開澄豐的 ParActin 產品頁或代理頁。ParActin 常見問答寫由 HP Ingredients 獨家供應，列舉的市場沒有台灣；where-to-buy 頁的成品品牌也沒有台灣公司。中藥許可證的穿心蓮濃縮是藥品，不是這個商品名。商標與營業項目不足以寫成代理，也不把這次寫成查無。查核日 2026-11-17。",
+            "supplierCountry": "美國",
+            "supplierName": "HP Ingredients",
+            "taiwanPartyName": "澄豐國際有限公司（商標權人，關係待確認）"
+          },
+          "tfda": {
+            "evidenceNotes": "穿心蓮（Andrographis paniculata）全草列在可供茶包、膳食調理包或萃取後作為原料，備註空白。商品名 ParActin 沒有另列。供應商頁寫原料是葉，葉在全草這筆的部位裡。添加物 0 筆。這不是藥品許可，也不是澳洲 2026 年的藥品分類。",
+            "lookupDate": "2026-11-17",
+            "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+            "officialCrosscheck": {
+              "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+              "done": true,
+              "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+              "notes": "2026-11-17 消費者專區詳細頁 HTTPS 中斷（UNEXPECTED_EOF_WHILE_READING），沒有取得頁面。查詢助手細節時間戳 2026-11-16 06:23，原料 1709 筆、添加物 804 筆；同檔開放資料原料列 1707 筆。穿心蓮這一筆的中文名、學名、部位全草、大分類與助手細節一致，備註空白。添加物沒有這個品名。"
+            },
+            "queries": [
+              {
+                "category": "",
+                "keyword": "穿心蓮",
+                "matchedName": "穿心蓮",
+                "note": "沒有另見未確認分類的穿心蓮。",
+                "restrictionNote": "可供食品使用。次分類為供茶包、膳食調理包或萃取後作為原料。學名 Andrographis paniculata Nees，外文名 Herba andrographitis，部位全草，備註空白。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Andrographis",
+                "matchedName": "穿心蓮",
+                "note": "學名 1 筆。",
+                "restrictionNote": "同上。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "ParActin",
+                "matchedName": "",
+                "note": "商品名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "穿心蓮",
+                "matchedName": "",
+                "note": "添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "andrographolide",
+                "matchedName": "",
+                "note": "穿心蓮內酯這個詞在添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "穿心蓮",
+                "matchedName": "",
+                "note": "助手更新歷程（2026-11-01 至 2026-11-16）沒有這筆異動。資料時間戳 2026-11-16 06:23。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "history",
+                "unconfirmedSafety": false
+              }
+            ],
+            "usable": "listed_food_ingredient"
+          }
+        },
+        {
+          "discovery": {
+            "channel": "exhibition",
+            "notes": "從 SupplySide Global 2026 的 Indena 展品頁進入 Relissa，再對 Indena 產品頁與 PubMed 37927585。台灣關聯打開和聚產品頁與關於我們，並對過漢馨的品牌清單。專利號這次沒有對到，狀態留未知。",
+            "scoutDate": "2026-11-17"
+          },
+          "efficacy": {
+            "claimedBenefits": [
+              "Indena 產品頁寫，Relissa 是香蜂草葉萃取搭配 Phytosome，建議 200 mg 兩次；規格是 HPLC 總羥基肉桂酸 17% 至 23%。並寫三週雙盲試驗後睡眠與心理安適分數相對安慰劑改善。這是供應商頁的說法。",
+              "PubMed 37927585：健康成人，有中等情緒困擾或睡眠不佳，Relissa 200 mg 錠一日兩次（每日 400 mg）或安慰劑、3 週，估計每組 50 人。摘要寫憂鬱情緒、焦慮、壓力、情緒感受、心理安適與生活品質問卷分數改善，並寫沒有嚴重不良事件。",
+              "產品頁另寫 200 mg／日與 400 mg／日、3 週的劑量比較，以及較高劑量的睡眠與皮質醇描述。這次沒有打開那篇全文。"
+            ],
+            "dosageNote": "每日 400 mg 同時是供應商建議與這篇已發表試驗的劑量。產品頁提到的 200 mg／日是另一個比較組，全文這次沒有打開。莖、葉那一筆沒有每日毫克。",
+            "suggestedDosage": "產品頁建議 200 mg，一日兩次。上述雙盲試驗使用的就是每日 400 mg、3 週。"
+          },
+          "evidenceLevels": [
+            "clinical"
+          ],
+          "example": false,
+          "id": "relissa",
+          "images": [
+            {
+              "caption": "Indena 的 Relissa 產品頁圖片，畫面是香蜂草葉。",
+              "localPath": "",
+              "source": "official_site",
+              "url": "https://www.indena.com/indena_files/2022/05/Nutra_SX_RELISSA.jpg"
+            }
+          ],
+          "literature": {
+            "note": "這篇是健康成人的情緒與睡眠問卷，不是失眠症的診斷試驗。產品頁描述的劑量比較與皮質醇結果，這次沒有另附論文，不標成第二篇已讀文獻。",
+            "refs": [
+              {
+                "note": "前瞻、隨機、雙盲、安慰劑對照、3 週。每日 400 mg。登記 NCT05602688。方法寫錠劑由 Indena S.p.A.（Milan）製造，葉的水萃取標準化 17% 至 23% 羥基肉桂酸衍生物，磷脂為向日葵。",
+                "title": "The possible calming effect of subchronic supplementation of a standardised phospholipid carrier-based Melissa officinalis L. extract in healthy adults with emotional distress and poor sleep conditions",
+                "url": "https://pubmed.ncbi.nlm.nih.gov/37927585/"
+              }
+            ],
+            "status": "yes"
+          },
+          "names": {
+            "commonEn": "lemon balm leaf extract",
+            "commonZh": "香蜂草葉萃取物",
+            "scientific": "Melissa officinalis L.（葉的水萃取，再與向日葵磷脂做成 Phytosome。不是蜂膠，也不是藥品褪黑激素。）",
+            "trade": "Relissa（Indena 的香蜂草 Phytosome 商品名，頁上亦寫 Melissa Indena Phytosome）"
+          },
+          "patent": {
+            "note": "Indena 產品頁的 Patent & Trademark 只寫 Relissa 是 Indena S.p.A. 的商標，沒有專利號。和聚頁寫專利磷脂載體，也沒有號碼。2026-11-17 以 Relissa、Melissa phytosome、Indena 查 Google Patents，沒有打開一份請求項寫明這支香蜂草商品的專利。柑橘或薰衣草精油的 WO2018189100 不是這支原料，不列入。",
+            "refs": [],
+            "status": "unknown"
+          },
+          "sources": [
+            {
+              "accessed": "2026-11-17",
+              "channel": "exhibition",
+              "publisher": "SupplySide Global",
+              "title": "Relissa Melissa Indena Phytosome，SupplySide Global 2026 展品頁",
+              "url": "https://attendees.supplysideshow.com/event/supplyside-global-2026-1/product/UHJvZHVjdF8xNTU3MDg5",
+              "whatItContributes": "2026 年 SupplySide Global 展商 Indena USA 的展品頁列出 Relissa。同場展商名單另有 Centextra 等其他 Indena 商品，不是這張卡的原料。"
+            },
+            {
+              "accessed": "2026-11-17",
+              "channel": "supplier_site",
+              "publisher": "Indena",
+              "title": "Relissa",
+              "url": "https://www.indena.com/product/relissa/",
+              "whatItContributes": "葉萃取、17% 至 23% 羥基肉桂酸、建議 200 mg 兩次，以及商標說明沒有專利號。"
+            },
+            {
+              "accessed": "2026-11-17",
+              "channel": "paper",
+              "publisher": "PubMed",
+              "title": "PubMed 37927585",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/37927585/",
+              "whatItContributes": "3 週、每日 400 mg 的人體隨機雙盲試驗，並寫 Milan 的 Indena 製造。"
+            },
+            {
+              "accessed": "2026-11-17",
+              "channel": "other",
+              "publisher": "和聚國際",
+              "title": "和聚的 Relissa 產品頁",
+              "url": "https://www.hg-bio.com.tw/products/relissa/",
+              "whatItContributes": "台灣原料頁列出 Indena、總羥基肉桂酸大於 17%、產地義大利。沒有寫獨家。"
+            },
+            {
+              "accessed": "2026-11-17",
+              "channel": "other",
+              "publisher": "和聚國際",
+              "title": "和聚關於我們",
+              "url": "https://www.hg-bio.com.tw/aboutus/",
+              "whatItContributes": "公司自述代理進口國際原料。不是這支商品的獨家條款。"
+            }
+          ],
+          "supply": {
+            "relationship": "taiwan_agent",
+            "relationshipNote": "Indena 產品頁寫 Relissa 是該公司商標，植物來源 Melissa officinalis 葉；試驗方法寫製造商 Indena S.p.A., Milan。和聚產品頁列出廠牌 Indena、總羥基肉桂酸大於 17%、產地義大利；關於我們寫該公司代理進口國際原料，產品頁沒有寫獨家，也沒有看到 Indena 經銷名單指名和聚。漢馨這次打開的品牌清單沒有 Relissa。查核日 2026-11-17。",
+            "supplierCountry": "義大利",
+            "supplierName": "Indena S.p.A.",
+            "taiwanPartyName": "和聚國際（該公司自述代理；不是獨家）"
+          },
+          "tfda": {
+            "evidenceNotes": "香蜂草（Melissa officinalis）莖、葉列在可供茶包、膳食調理包或萃取後作為原料，備註空白。商品名 Relissa 沒有另列。供應商頁寫葉的水萃取。添加物 0 筆。列名沒有寫每日毫克。",
+            "lookupDate": "2026-11-17",
+            "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+            "officialCrosscheck": {
+              "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+              "done": true,
+              "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+              "notes": "2026-11-17 消費者專區詳細頁 HTTPS 中斷（UNEXPECTED_EOF_WHILE_READING），沒有取得頁面。查詢助手細節時間戳 2026-11-16 06:23，原料 1709 筆、添加物 804 筆；同檔開放資料原料列 1707 筆。香蜂草這一筆的中文名、學名、部位、大分類與助手細節一致，備註空白。添加物沒有這個品名。"
+            },
+            "queries": [
+              {
+                "category": "",
+                "keyword": "香蜂草",
+                "matchedName": "香蜂草；蜜蜂花",
+                "note": "莖、葉這一筆對到本品的葉萃取。",
+                "restrictionNote": "可供食品使用。次分類為供茶包、膳食調理包或萃取後作為原料。學名 Melissa officinalis L.，外文名 Melissa, Balm，部位莖、葉，備註空白。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Melissa officinalis",
+                "matchedName": "香蜂草；蜜蜂花",
+                "note": "學名 1 筆。",
+                "restrictionNote": "同上。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Relissa",
+                "matchedName": "",
+                "note": "商品名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "香蜂草",
+                "matchedName": "",
+                "note": "添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Melissa",
+                "matchedName": "",
+                "note": "英文關鍵字在添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "香蜂草",
+                "matchedName": "",
+                "note": "助手更新歷程（2026-11-01 至 2026-11-16）沒有這筆異動。資料時間戳 2026-11-16 06:23。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "history",
+                "unconfirmedSafety": false
+              }
+            ],
+            "usable": "listed_food_ingredient"
+          }
+        }
+      ],
+      "targetCount": 5,
+      "title": "2026-11-17 正式日報"
+    },
+    {
+      "channelsCovered": [
+        "news",
+        "exhibition",
+        "industry_report"
+      ],
       "date": "2026-11-16",
       "example": false,
       "notes": "正式五筆。主管道：TurmXTRA、Reducose 為新聞；Centextra、Gingeren 為展覽；Saberry 為產業報導。薑黃根莖、雷公根根莖葉、余甘子果實、桑葉、薑根莖有列。四氫類薑黃素、化學合成薑黃素與 Zingiber cassumunar 是另一筆未確認，不是這次的原料。",
@@ -13692,6 +14658,194 @@
     {
       "discovery": {
         "channel": "exhibition",
+        "notes": "從 NutraIngredients 2026-08-25 的 Vitafoods Asia 2026 攤位預告進入 Orisen 的 Glycostat，再對 Glykon 產品頁、Orisen 首頁、PubMed 21861717 與 US20160108456A1。台灣關聯另開九五之丹成品頁。藤莖那一筆未確認，沒有當成這個商品。",
+        "scoutDate": "2026-11-17"
+      },
+      "efficacy": {
+        "claimedBenefits": [
+          "Glykon 產品頁寫，Glycostat 是保留新鮮苦瓜活性的野生苦瓜萃取；與另外兩種苦瓜萃取比，健康大鼠的葡萄糖耐受試驗只有 Glycostat 達到統計差異。這是供應商頁的說法。",
+          "Orisen 首頁寫低溫水萃、保留 10,000 Da 的野生苦瓜胜肽，並寫已有臨床可協助調節血糖與體重。這是該公司首頁的說法，和 Glykon 頁的「萃取」用詞不同。",
+          "PubMed 21861717 是大鼠試驗。摘要寫野生型苦瓜萃取 EX-1 至 EX-4：正常鼠 50 mg/kg 可降低 4 小時血糖且不像 metformin 造成低血糖；鏈脲佐菌素糖尿病鼠以 250 mg/kg 的兩種萃取降血糖。摘要沒有出現 Glycostat 這個商品名。作者單位有 Glykon Technologies Group。"
+        ],
+        "dosageNote": "沒有看到供應商建議的人體毫克。1000 mg 只出現在成品頁。大鼠的 mg/kg 不能換算成這張卡的人用劑量。果實、種子、葉那一筆沒有每日上限；藤莖是另一筆。",
+        "suggestedDosage": "Glykon 與 Orisen 這次打開的頁面都沒有寫人體每日毫克。大鼠摘要的 50 mg/kg 與 250 mg/kg 是動物灌食劑量。九五之丹成品頁寫每份 1000 mg，是該成品標示。"
+      },
+      "evidenceLevels": [
+        "animal"
+      ],
+      "example": false,
+      "id": "glycostat",
+      "images": [
+        {
+          "caption": "Glykon 的 Glycostat 頁橫幅，畫面是苦瓜果實。頁文沒有註明照片品種。",
+          "localPath": "",
+          "source": "official_site",
+          "url": "https://glykon.com/wp-content/uploads/2026/07/glycostat-banner.jpg"
+        }
+      ],
+      "literature": {
+        "note": "這次沒有打開一篇標題或摘要寫明 Glycostat 的人體論文。Orisen 首頁的 clinically proven 沒有附那篇論文的出處，所以證據等級只標動物。",
+        "refs": [
+          {
+            "note": "2011 年 Journal of Medicinal Food。大鼠，不是人體。摘要的萃取代號是 EX-1 至 EX-4，沒有寫 Glycostat。",
+            "title": "Bitter Melon Extracts in Diabetic and Normal Rats Favorably Influence Blood Glucose and Blood Pressure Regulation",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21861717/"
+          }
+        ],
+        "status": "yes"
+      },
+      "names": {
+        "commonEn": "wild-type bitter melon extract",
+        "commonZh": "苦瓜萃取物（野生品系）",
+        "scientific": "Momordica charantia L.（野生品系萃取。不是羅漢果，也不是木虌果肉。這次打開的頁面沒有寫使用藤莖。）",
+        "trade": "Glycostat（Glykon 頁與 Orisen 頁使用的苦瓜萃取商品名）"
+      },
+      "patent": {
+        "note": "Glykon 另一頁寫 Greengo Biomedical（台灣）有台灣與中國申請，頁上的 6663-001ATW、6663-001ACN 像內部卷號。這次沒有打開對應的公開專利，不把這兩個代號寫成專利號。Orisen 寫專利，沒有在首頁給出號碼。",
+        "refs": [
+          {
+            "note": "測定苦瓜萃取降血糖潛力的方法公開案，權利人 Glykon Technologies Group, LLC。這次看到的是申請公開，不是已核准的組成專利。說明書寫果實萃取是目前使用的主要形式，也提到種子、葉與根曾被傳統使用；沒有把藤莖寫成這份申請的原料部位。",
+            "title": "US20160108456A1",
+            "url": "https://patents.google.com/patent/US20160108456A1/en"
+          }
+        ],
+        "status": "yes"
+      },
+      "sources": [
+        {
+          "accessed": "2026-11-17",
+          "channel": "exhibition",
+          "publisher": "NutraIngredients",
+          "title": "Vitafoods Asia 2026 show floor preview: Exhibitors H-P",
+          "url": "https://www.nutraingredients.com/Article/2026/08/25/vitafoods-asia-2026-show-floor-preview-exhibitors-h-p/",
+          "whatItContributes": "2026-08-25 預告：台灣 Orisen Biotech 在 H5-B34，主打專利苦瓜萃取 Glycostat，方向是血糖與代謝。"
+        },
+        {
+          "accessed": "2026-11-17",
+          "channel": "supplier_site",
+          "publisher": "Glykon Technologies",
+          "title": "Glycostat",
+          "url": "https://glykon.com/glycostat/",
+          "whatItContributes": "野生苦瓜萃取、穩定化製程，以及供應商自己的大鼠血糖與血壓比較。"
+        },
+        {
+          "accessed": "2026-11-17",
+          "channel": "supplier_site",
+          "publisher": "Orisen Biotech",
+          "title": "Orisen Biotech 首頁",
+          "url": "https://orisen.com.tw/",
+          "whatItContributes": "台灣公司自述開發並供應；寫低溫水萃與 10,000 Da 苦瓜胜肽，用詞和 Glykon 頁不同。"
+        },
+        {
+          "accessed": "2026-11-17",
+          "channel": "paper",
+          "publisher": "PubMed",
+          "title": "PubMed 21861717",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/21861717/",
+          "whatItContributes": "大鼠試驗摘要與 Glykon 的作者單位。商品名沒有出現在摘要。"
+        },
+        {
+          "accessed": "2026-11-17",
+          "channel": "patent",
+          "publisher": "Google Patents",
+          "title": "US20160108456A1",
+          "url": "https://patents.google.com/patent/US20160108456A1/en",
+          "whatItContributes": "Glykon 的測定方法公開案。不是已核准的組成專利。"
+        },
+        {
+          "accessed": "2026-11-17",
+          "channel": "other",
+          "publisher": "九五之丹",
+          "title": "九五之丹的 Glycostat 頁",
+          "url": "https://www.95dan.com.tw/blog/brand-material-glycostat",
+          "whatItContributes": "台灣成品頁寫製造商是美國 Glykon，每份 1000 mg，並稱苦瓜胜肽。是成品採用，不是原料代理契約。"
+        }
+      ],
+      "supply": {
+        "relationship": "unknown",
+        "relationshipNote": "Glykon 的 Glycostat 頁把商品寫成該公司的野生苦瓜萃取。Orisen 官網寫自己開發並供應專利苦瓜原料，公司在台中，Vitafoods Asia 2026 預告寫台灣廠商、攤位 H5-B34。九五之丹成品頁寫研發製造商是美國 Glykon Technologies Group，每份 1000 mg，並稱苦瓜胜肽。三份來源對「誰是供應商、是萃取還是胜肽」不一致，這次不另判。沒有看到原廠經銷契約。查核日 2026-11-17。",
+        "supplierCountry": "美國與台灣兩說並存",
+        "supplierName": "Glykon Technologies Group（美國頁）；Orisen Biotech 官網寫由該公司開發並供應",
+        "taiwanPartyName": "Orisen Biotech（該公司自述開發並供應）；九五之丹為成品採用"
+      },
+      "tfda": {
+        "evidenceNotes": "苦瓜（Momordica charantia）果實、種子、葉列在可供直接食用，備註空白。同一中文名的藤（莖）是另一筆，未經確認前不得作為食品原料。Glycostat 沒有另列，這次打開的供應商頁沒有寫藤莖。添加物 0 筆。",
+        "lookupDate": "2026-11-17",
+        "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+        "officialCrosscheck": {
+          "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+          "done": true,
+          "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+          "notes": "2026-11-17 消費者專區詳細頁 HTTPS 中斷（UNEXPECTED_EOF_WHILE_READING），沒有取得頁面。查詢助手細節時間戳 2026-11-16 06:23，原料 1709 筆、添加物 804 筆；同檔開放資料原料列 1707 筆。苦瓜果實種子葉與藤莖兩筆的中文名、學名、部位、大分類與助手細節一致。添加物沒有這個品名。"
+        },
+        "queries": [
+          {
+            "category": "",
+            "keyword": "苦瓜",
+            "matchedName": "苦瓜",
+            "note": "兩筆同名。這張卡對果實、種子、葉那一筆，不把藤莖算進來。",
+            "restrictionNote": "可供直接食用的一筆：學名 Momordica charantia L.，外文名 balsam-pear, bitter melon，部位果實、種子、葉，備註空白。另一筆在未確認分類，部位藤（莖），備註寫須依非傳統性食品原料申請。",
+            "resultCount": 2,
+            "tab": "ingredient",
+            "unconfirmedSafety": true
+          },
+          {
+            "category": "",
+            "keyword": "Momordica charantia",
+            "matchedName": "苦瓜",
+            "note": "學名同時命中可食用部位與藤莖。",
+            "restrictionNote": "同上兩筆。羅漢果與木虌是其他物種，這次用這個學名沒有命中。",
+            "resultCount": 2,
+            "tab": "ingredient",
+            "unconfirmedSafety": true
+          },
+          {
+            "category": "",
+            "keyword": "Glycostat",
+            "matchedName": "",
+            "note": "商品名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "苦瓜",
+            "matchedName": "",
+            "note": "添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Momordica",
+            "matchedName": "",
+            "note": "英文關鍵字在添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "苦瓜",
+            "matchedName": "",
+            "note": "助手更新歷程（2026-11-01 至 2026-11-16）沒有這筆異動。資料時間戳 2026-11-16 06:23。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "history",
+            "unconfirmedSafety": false
+          }
+        ],
+        "usable": "listed_food_ingredient"
+      }
+    },
+    {
+      "discovery": {
+        "channel": "exhibition",
         "notes": "從 Vitafoods Asia 2026 展前名錄的 Natural Remedies 攤位進入 Holixer，再對原廠頁、2022 年論文與 WO2023203401A1。台灣關聯以 Holixer、樂舒寧、聖羅勒搭配代理、經銷；官網當天打不開，改開 Wayback 2025-02-09 的麥司克頁。",
         "scoutDate": "2026-11-14"
       },
@@ -17775,6 +18929,194 @@
     },
     {
       "discovery": {
+        "channel": "news",
+        "notes": "從 NutraIngredients 2026-04-24 的亞太法規回顧進入 ParActin，再對常見問答、PubMed 30968986 與 US8084495B2。台灣關聯查到澄豐的商標與公司登記，沒有產品頁，關係留待確認。2026-10-19 另有澳洲品牌回收穿心蓮藥品的報導，內文這次沒有點名 ParActin，不併進這張卡的試驗結論。",
+        "scoutDate": "2026-11-17"
+      },
+      "efficacy": {
+        "claimedBenefits": [
+          "ParActin 常見問答寫：印度與東南亞栽種的穿心蓮葉乾燥萃取，標準化總穿心蓮內酯 50%；印度規格寫 60%。並寫人體試驗劑量 300 mg／日，骨關節炎試驗另見 600 mg／日。這是供應商頁的說法。",
+          "PubMed 30968986：輕至中度膝骨關節炎，ParActin 每日 300 mg 或 600 mg 對安慰劑、84 天，評估 103 人。摘要寫兩組的疼痛分數在第 28、56、84 天低於安慰劑，僵硬與身體功能分數也有差異。",
+          "NutraIngredients 2026-04-24 寫，澳洲 TGA 正諮詢把穿心蓮移出低風險 listed medicines 清單，原因是過敏性休克通報；圖說寫 ParActin 來自穿心蓮。這是澳洲藥品管制新聞，不是 TFDA 分類。"
+        ],
+        "dosageNote": "300 與 600 mg 是供應商頁和這篇膝關節試驗的劑量。全草那一筆沒有每日毫克。常見問答另寫較低毫克時的免疫方向與較高毫克時的發炎方向，沒有併進同一句建議。",
+        "suggestedDosage": "常見問答寫臨床劑量 300 mg／日，骨關節炎可到 600 mg／日。上述膝關節試驗就是這兩個每日劑量、84 天。"
+      },
+      "evidenceLevels": [
+        "clinical"
+      ],
+      "example": false,
+      "id": "paractin",
+      "images": [
+        {
+          "caption": "ParActin 官網使用的商品標誌。",
+          "localPath": "",
+          "source": "official_site",
+          "url": "https://paractin.com/wp-content/uploads/2026/05/paractin-logo-1024x260.png"
+        }
+      ],
+      "literature": {
+        "note": "供應商臨床庫還寫類風濕性關節炎試驗，其中一篇是併用 methotrexate 的 14 週試驗。那是不同設計，沒有併進膝關節這一句。",
+        "refs": [
+          {
+            "note": "膝骨關節炎。每日 300 或 600 mg、84 天。摘要沒有寫併用西藥。",
+            "title": "A double-blind, randomized, placebo-controlled study to assess the efficacy of Andrographis paniculata standardized extract (ParActin) on pain reduction in subjects with knee osteoarthritis",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30968986/"
+          }
+        ],
+        "status": "yes"
+      },
+      "names": {
+        "commonEn": "Andrographis paniculata leaf extract",
+        "commonZh": "穿心蓮葉萃取物",
+        "scientific": "Andrographis paniculata Nees（供應商常見問答寫葉。平臺這一筆部位是全草，葉在其中。不是藥品許可證裡的穿心蓮濃縮製劑。）",
+        "trade": "ParActin（HP Ingredients 的穿心蓮萃取商品名）"
+      },
+      "patent": {
+        "note": "2026-11-17 打開 US8084495B2 與 ParActin 專利頁。專利頁還列智利與 PCT 申請，這次沒有逐份打開，不以那些申請號作為已核准依據。",
+        "refs": [
+          {
+            "note": "標題為穿心蓮半日花烷二萜組成物，用途寫自體免疫與阿茲海默、PPAR-gamma。Google Patents 目前權利人欄是 Innobioscience LLC 與 Herbal Powers Corp。ParActin 首頁與 HP Ingredients 2012 年說明把 US 8,084,495 B2 寫成該公司的專利。權利人欄和公司說明不一致，兩說都留下。",
+            "title": "US8084495B2",
+            "url": "https://patents.google.com/patent/US8084495B2/en"
+          }
+        ],
+        "status": "yes"
+      },
+      "sources": [
+        {
+          "accessed": "2026-11-17",
+          "channel": "news",
+          "publisher": "NutraIngredients",
+          "title": "Regulatory review: Andrographis, caffeine warning, biotics and more",
+          "url": "https://www.nutraingredients.com/Article/2026/04/24/andrographis-caffeine-warning-biotics-in-nutraceutical-regulatory-round-up/",
+          "whatItContributes": "2026-04-24：澳洲 TGA 諮詢把穿心蓮移出低風險清單；圖說點名 HP Ingredients 的 ParActin。"
+        },
+        {
+          "accessed": "2026-11-17",
+          "channel": "supplier_site",
+          "publisher": "ParActin",
+          "title": "ParActin frequently asked questions",
+          "url": "https://paractin.com/frequently-asked-questions-2/",
+          "whatItContributes": "葉萃取、總穿心蓮內酯 50%（印度規格 60%）、每日 300 至 600 mg，以及獨家供應與未列台灣的市場清單。"
+        },
+        {
+          "accessed": "2026-11-17",
+          "channel": "paper",
+          "publisher": "PubMed",
+          "title": "PubMed 30968986",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30968986/",
+          "whatItContributes": "膝骨關節炎隨機雙盲試驗的劑量與 84 天。"
+        },
+        {
+          "accessed": "2026-11-17",
+          "channel": "patent",
+          "publisher": "Google Patents",
+          "title": "US8084495B2",
+          "url": "https://patents.google.com/patent/US8084495B2/en",
+          "whatItContributes": "半日花烷二萜組成物專利。目前權利人欄與 HP Ingredients 的說明不同。"
+        },
+        {
+          "accessed": "2026-11-17",
+          "channel": "supplier_site",
+          "publisher": "ParActin",
+          "title": "Where to buy ParActin",
+          "url": "https://paractin.com/where-to-buy-2/",
+          "whatItContributes": "成品品牌清單。這次沒有看到台灣公司。"
+        },
+        {
+          "accessed": "2026-11-17",
+          "channel": "other",
+          "publisher": "經濟部智慧財產局公開資料轉載頁",
+          "title": "商標「風司通 PARACTIN」",
+          "url": "https://www.findcompany.com.tw/trademark/02049609_108057104",
+          "whatItContributes": "澄豐國際為商標權人。這是商標登記，不是產品或代理頁。"
+        }
+      ],
+      "supply": {
+        "relationship": "unknown",
+        "relationshipNote": "2026-11-17 以 ParActin、穿心蓮、Andrographis、HP Ingredients 搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商交叉查詢，並於寫入前再用同一組詞獨立查一次。經濟部商標公開資料：澄豐國際是「風司通 PARACTIN」商標權人，註冊號 02049609，類別含植物萃取營養補充品。公司登記營業項目含保健營養食品批發。沒有打開澄豐的 ParActin 產品頁或代理頁。ParActin 常見問答寫由 HP Ingredients 獨家供應，列舉的市場沒有台灣；where-to-buy 頁的成品品牌也沒有台灣公司。中藥許可證的穿心蓮濃縮是藥品，不是這個商品名。商標與營業項目不足以寫成代理，也不把這次寫成查無。查核日 2026-11-17。",
+        "supplierCountry": "美國",
+        "supplierName": "HP Ingredients",
+        "taiwanPartyName": "澄豐國際有限公司（商標權人，關係待確認）"
+      },
+      "tfda": {
+        "evidenceNotes": "穿心蓮（Andrographis paniculata）全草列在可供茶包、膳食調理包或萃取後作為原料，備註空白。商品名 ParActin 沒有另列。供應商頁寫原料是葉，葉在全草這筆的部位裡。添加物 0 筆。這不是藥品許可，也不是澳洲 2026 年的藥品分類。",
+        "lookupDate": "2026-11-17",
+        "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+        "officialCrosscheck": {
+          "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+          "done": true,
+          "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+          "notes": "2026-11-17 消費者專區詳細頁 HTTPS 中斷（UNEXPECTED_EOF_WHILE_READING），沒有取得頁面。查詢助手細節時間戳 2026-11-16 06:23，原料 1709 筆、添加物 804 筆；同檔開放資料原料列 1707 筆。穿心蓮這一筆的中文名、學名、部位全草、大分類與助手細節一致，備註空白。添加物沒有這個品名。"
+        },
+        "queries": [
+          {
+            "category": "",
+            "keyword": "穿心蓮",
+            "matchedName": "穿心蓮",
+            "note": "沒有另見未確認分類的穿心蓮。",
+            "restrictionNote": "可供食品使用。次分類為供茶包、膳食調理包或萃取後作為原料。學名 Andrographis paniculata Nees，外文名 Herba andrographitis，部位全草，備註空白。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Andrographis",
+            "matchedName": "穿心蓮",
+            "note": "學名 1 筆。",
+            "restrictionNote": "同上。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "ParActin",
+            "matchedName": "",
+            "note": "商品名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "穿心蓮",
+            "matchedName": "",
+            "note": "添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "andrographolide",
+            "matchedName": "",
+            "note": "穿心蓮內酯這個詞在添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "穿心蓮",
+            "matchedName": "",
+            "note": "助手更新歷程（2026-11-01 至 2026-11-16）沒有這筆異動。資料時間戳 2026-11-16 06:23。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "history",
+            "unconfirmedSafety": false
+          }
+        ],
+        "usable": "listed_food_ingredient"
+      }
+    },
+    {
+      "discovery": {
         "channel": "exhibition",
         "notes": "從 Nutraceuticals World 2026-10-21 與 NutraIngredients 10 月 14 日的 SupplySide 預告進入，再對 Nuritas 產品頁、PMID 37277162 與 11 月 6 日 Gundry 成品新聞。台灣關聯打開利統的 Nuritas 頁，確認只有 PeptiSleep。",
         "scoutDate": "2026-11-13"
@@ -18103,6 +19445,212 @@
             "keyword": "GABA",
             "matchedName": "",
             "note": "助手更新歷程 2026-11-01 至 2026-11-05 未見此關鍵字的新增或修改。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "history",
+            "unconfirmedSafety": false
+          }
+        ],
+        "usable": "listed_food_ingredient"
+      }
+    },
+    {
+      "discovery": {
+        "channel": "news",
+        "notes": "從 NutraIngredients 2024-06-05 的白腎豆試驗新聞進入，再對 Pharmachem 產品頁、銷售單頁、Scientific Reports 論文與 US6797287B2。台灣關聯打開統園產品頁，以及赫而司、美之選、九五之丹的成品頁。吡啶甲酸鉻是赫而司成品另加的成分，不是 Phase 2 本身。",
+        "scoutDate": "2026-11-17"
+      },
+      "efficacy": {
+        "claimedBenefits": [
+          "NutraIngredients 2024-06-05 報導 Scientific Reports 的 12 週試驗：熱量限制飲食加上 Phase 2，高劑量組平均體重下降大於安慰劑。這是該報導對論文的轉述。",
+          "Pharmachem 銷售頁寫，可減少膳食澱粉的酵素消化與吸收，最高 66%；並寫美國允許兩則結構／功能聲稱，以及 self-affirmed GRAS。頁上沒有寫成藥品核准。",
+          "論文寫 Phase 2 為白腎豆水萃取加阿拉伯膠，每克至少 3000 AAIU。高劑量是每次 1000 mg、低劑量每次 700 mg，都是一日三次、餐前 30 分鐘、12 週，完成 81 人。"
+        ],
+        "dosageNote": "500 至 1500 mg 是供應商單頁的每餐用量。2.1 g 與 3 g 是這篇試驗的每日總量。原料平臺的種子與阿拉伯膠都沒有寫每日克數。統園頁寫的「FDA 認證」和供應商頁的 self-affirmed GRAS、結構／功能聲稱不是同一句。",
+        "suggestedDosage": "銷售單頁寫含澱粉的一餐 500 至 1500 mg，並轉述加拿大專論在每日 3000 mg、每克 3000 AAIU 時的體重管理文句。2024 年試驗是每日 2.1 g 或 3 g，分三次於餐前。"
+      },
+      "evidenceLevels": [
+        "clinical"
+      ],
+      "example": false,
+      "id": "phase-2",
+      "images": [
+        {
+          "caption": "Pharmachem 的 Phase 2 產品頁圖片，畫面是白腎豆種子，不是萃取粉末。",
+          "localPath": "",
+          "source": "official_site",
+          "url": "https://pharmachem.com/wp-content/uploads/2024/09/key-benefits.jpg"
+        }
+      ],
+      "literature": {
+        "note": "Pharmachem 臨床列表還有更早的試驗與綜論。66% 這個數字出現在銷售頁，沒有出現在這篇 2024 年論文這次讀到的結果句。",
+        "refs": [
+          {
+            "note": "Scientific Reports，2024-06-03。隨機雙盲安慰劑對照，登記 NCT02930668。高劑量每日 3 g、低劑量每日 2.1 g，都配合熱量限制。論文寫配方含阿拉伯膠。",
+            "title": "Proprietary alpha-amylase inhibitor formulation from white kidney bean (Phaseolus vulgaris L.) promotes weight and fat loss: a 12-week, double-blind, placebo-controlled, randomized trial",
+            "url": "https://www.nature.com/articles/s41598-024-63443-8"
+          }
+        ],
+        "status": "yes"
+      },
+      "names": {
+        "commonEn": "white kidney bean seed extract",
+        "commonZh": "白腎豆種子萃取物",
+        "scientific": "Phaseolus vulgaris（種子的水萃取，標準化 α-澱粉酶抑制活性。不是其他菜豆部位。）",
+        "trade": "Phase 2（Pharmachem 的白腎豆萃取商品名，頁上亦寫 Phase 2 Carb Controller；試驗亦見 Glucosanol、Glycolite、PhaseLite、Starchlite）"
+      },
+      "patent": {
+        "note": "2026-11-17 打開 US6797287B2。另有 2006 年公開案 US20060147565A1，寫超臨界二氧化碳純化澱粉酶抑制物，同樣由 Pharmachem 申請。這次以已核准的 US6797287B2 為主，沒有把兩份製程併成同一句。",
+        "refs": [
+          {
+            "note": "標題為 phaseolamin 組成物與其使用方法。Google Patents 現權利人欄為 Pharmachem Laboratories Inc。",
+            "title": "US6797287B2",
+            "url": "https://patents.google.com/patent/US6797287B2/en"
+          }
+        ],
+        "status": "yes"
+      },
+      "sources": [
+        {
+          "accessed": "2026-11-17",
+          "channel": "news",
+          "publisher": "NutraIngredients",
+          "title": "White kidney bean extract may promote body weight and fat loss",
+          "url": "https://www.nutraingredients.com/Article/2024/06/05/white-kidney-bean-extract-may-promote-body-weight-and-fat-loss/",
+          "whatItContributes": "2024-06-05：12 週試驗的每日 3 g 與 2.1 g、餐前三次，以及體重結果的報導。"
+        },
+        {
+          "accessed": "2026-11-17",
+          "channel": "supplier_site",
+          "publisher": "Pharmachem",
+          "title": "Phase 2 Carb Controller",
+          "url": "https://pharmachem.com/phase-2-carb-controller/",
+          "whatItContributes": "供應商頁的澱粉消化聲稱、兩則美國結構／功能聲稱，以及加拿大專論的每日 3000 mg。"
+        },
+        {
+          "accessed": "2026-11-17",
+          "channel": "supplier_site",
+          "publisher": "Pharmachem",
+          "title": "Phase 2 sell sheet",
+          "url": "https://pharmachem.com/wp-content/uploads/2024/10/v07_Pharmachem_SellSheet_SingleIngredient_Phase2CarbController-v1.pdf",
+          "whatItContributes": "每餐 500 至 1500 mg、美國白腎豆、self-affirmed GRAS。沒有寫阿拉伯膠。"
+        },
+        {
+          "accessed": "2026-11-17",
+          "channel": "paper",
+          "publisher": "Scientific Reports",
+          "title": "Scientific Reports 2024",
+          "url": "https://www.nature.com/articles/s41598-024-63443-8",
+          "whatItContributes": "試驗設計、劑量，以及配方含 Phaseolus vulgaris 萃取與阿拉伯膠。"
+        },
+        {
+          "accessed": "2026-11-17",
+          "channel": "patent",
+          "publisher": "Google Patents",
+          "title": "US6797287B2",
+          "url": "https://patents.google.com/patent/US6797287B2/en",
+          "whatItContributes": "phaseolamin 組成物專利，權利人 Pharmachem Laboratories Inc。"
+        },
+        {
+          "accessed": "2026-11-17",
+          "channel": "other",
+          "publisher": "統園企業",
+          "title": "統園的 Phase 2 產品頁",
+          "url": "https://www.tyig.com.tw/web/product/product_in.jsp?dm_no=DM1585834353649&lang=tw&pdid=PD1589870090768&sub_no=DM1585834497190",
+          "whatItContributes": "該公司自述獨家代理。頁上的 FDA 用詞與供應商頁不同。"
+        },
+        {
+          "accessed": "2026-11-17",
+          "channel": "other",
+          "publisher": "赫而司",
+          "title": "赫而司的 Phase 2 成品頁",
+          "url": "https://www.healthwomen.com.tw/phaseolamin/",
+          "whatItContributes": "成品採用，另含吡啶甲酸鉻。頁寫原廠商標授權，不是統園那一句獨家代理。"
+        }
+      ],
+      "supply": {
+        "relationship": "taiwan_agent",
+        "relationshipNote": "統園產品頁寫「Phase 2 品牌原料由統園企業獨家代理」，並寫商標屬 Pharmachem Laboratories, Inc.。這次打開的 Pharmachem 產品頁與品牌組合頁沒有列出台灣經銷名單，所以獨家只依統園自述。赫而司成品頁寫原廠商標授權，配方另含吡啶甲酸鉻，是成品採用，不是這支原料的代理。美之選與九五之丹頁是使用該商品名的成品。查核日 2026-11-17。",
+        "supplierCountry": "美國",
+        "supplierName": "Pharmachem Laboratories／Pharmachem Innovations",
+        "taiwanPartyName": "統園企業（該公司自述獨家代理）"
+      },
+      "tfda": {
+        "evidenceNotes": "菜豆／白腎豆（Phaseolus vulgaris）種子列在可供直接食用，備註空白。商品名 Phase 2 沒有另列。2024 年試驗寫配方含阿拉伯膠，阿拉伯膠另有一筆原料、備註空白。白腎豆與阿拉伯膠在添加物都是 0 筆。列名沒有寫每日克數。",
+        "lookupDate": "2026-11-17",
+        "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+        "officialCrosscheck": {
+          "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+          "done": true,
+          "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+          "notes": "2026-11-17 消費者專區詳細頁 HTTPS 中斷（UNEXPECTED_EOF_WHILE_READING），沒有取得頁面。查詢助手細節時間戳 2026-11-16 06:23，原料 1709 筆、添加物 804 筆；同檔開放資料原料列 1707 筆。白腎豆與阿拉伯膠的中文名、學名、部位、大分類與助手細節一致。添加物沒有這兩個品名。"
+        },
+        "queries": [
+          {
+            "category": "",
+            "keyword": "白腎豆",
+            "matchedName": "菜豆；白腎豆",
+            "note": "種子這一筆對到本品。",
+            "restrictionNote": "可供直接食用。學名 Phaseolus vulgaris，外文名 kidney bean，部位種子，備註空白。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Phaseolus vulgaris",
+            "matchedName": "菜豆；白腎豆",
+            "note": "學名 1 筆。",
+            "restrictionNote": "同上。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Phase 2",
+            "matchedName": "",
+            "note": "商品名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "阿拉伯膠",
+            "matchedName": "阿拉伯膠",
+            "note": "2024 年論文寫 Phase 2 配方含阿拉伯膠，所以另查這一筆。它不是白腎豆本身。",
+            "restrictionNote": "草木本植物來源製取之原料。外文名 Acacia gum, Arabic gum。學名與部位空白，備註空白。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "白腎豆",
+            "matchedName": "",
+            "note": "添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "阿拉伯膠",
+            "matchedName": "",
+            "note": "阿拉伯膠在添加物 0 筆，命中的是原料那一筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "白腎豆",
+            "matchedName": "",
+            "note": "助手更新歷程（2026-11-01 至 2026-11-16）沒有這筆異動。資料時間戳 2026-11-16 06:23。",
             "restrictionNote": "",
             "resultCount": 0,
             "tab": "history",
@@ -18597,6 +20145,180 @@
             "keyword": "桑樹",
             "matchedName": "",
             "note": "助手更新歷程（2026-11-01 至 2026-11-15）沒有這筆異動。資料時間戳 2026-11-15 06:21。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "history",
+            "unconfirmedSafety": false
+          }
+        ],
+        "usable": "listed_food_ingredient"
+      }
+    },
+    {
+      "discovery": {
+        "channel": "exhibition",
+        "notes": "從 SupplySide Global 2026 的 Indena 展品頁進入 Relissa，再對 Indena 產品頁與 PubMed 37927585。台灣關聯打開和聚產品頁與關於我們，並對過漢馨的品牌清單。專利號這次沒有對到，狀態留未知。",
+        "scoutDate": "2026-11-17"
+      },
+      "efficacy": {
+        "claimedBenefits": [
+          "Indena 產品頁寫，Relissa 是香蜂草葉萃取搭配 Phytosome，建議 200 mg 兩次；規格是 HPLC 總羥基肉桂酸 17% 至 23%。並寫三週雙盲試驗後睡眠與心理安適分數相對安慰劑改善。這是供應商頁的說法。",
+          "PubMed 37927585：健康成人，有中等情緒困擾或睡眠不佳，Relissa 200 mg 錠一日兩次（每日 400 mg）或安慰劑、3 週，估計每組 50 人。摘要寫憂鬱情緒、焦慮、壓力、情緒感受、心理安適與生活品質問卷分數改善，並寫沒有嚴重不良事件。",
+          "產品頁另寫 200 mg／日與 400 mg／日、3 週的劑量比較，以及較高劑量的睡眠與皮質醇描述。這次沒有打開那篇全文。"
+        ],
+        "dosageNote": "每日 400 mg 同時是供應商建議與這篇已發表試驗的劑量。產品頁提到的 200 mg／日是另一個比較組，全文這次沒有打開。莖、葉那一筆沒有每日毫克。",
+        "suggestedDosage": "產品頁建議 200 mg，一日兩次。上述雙盲試驗使用的就是每日 400 mg、3 週。"
+      },
+      "evidenceLevels": [
+        "clinical"
+      ],
+      "example": false,
+      "id": "relissa",
+      "images": [
+        {
+          "caption": "Indena 的 Relissa 產品頁圖片，畫面是香蜂草葉。",
+          "localPath": "",
+          "source": "official_site",
+          "url": "https://www.indena.com/indena_files/2022/05/Nutra_SX_RELISSA.jpg"
+        }
+      ],
+      "literature": {
+        "note": "這篇是健康成人的情緒與睡眠問卷，不是失眠症的診斷試驗。產品頁描述的劑量比較與皮質醇結果，這次沒有另附論文，不標成第二篇已讀文獻。",
+        "refs": [
+          {
+            "note": "前瞻、隨機、雙盲、安慰劑對照、3 週。每日 400 mg。登記 NCT05602688。方法寫錠劑由 Indena S.p.A.（Milan）製造，葉的水萃取標準化 17% 至 23% 羥基肉桂酸衍生物，磷脂為向日葵。",
+            "title": "The possible calming effect of subchronic supplementation of a standardised phospholipid carrier-based Melissa officinalis L. extract in healthy adults with emotional distress and poor sleep conditions",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37927585/"
+          }
+        ],
+        "status": "yes"
+      },
+      "names": {
+        "commonEn": "lemon balm leaf extract",
+        "commonZh": "香蜂草葉萃取物",
+        "scientific": "Melissa officinalis L.（葉的水萃取，再與向日葵磷脂做成 Phytosome。不是蜂膠，也不是藥品褪黑激素。）",
+        "trade": "Relissa（Indena 的香蜂草 Phytosome 商品名，頁上亦寫 Melissa Indena Phytosome）"
+      },
+      "patent": {
+        "note": "Indena 產品頁的 Patent & Trademark 只寫 Relissa 是 Indena S.p.A. 的商標，沒有專利號。和聚頁寫專利磷脂載體，也沒有號碼。2026-11-17 以 Relissa、Melissa phytosome、Indena 查 Google Patents，沒有打開一份請求項寫明這支香蜂草商品的專利。柑橘或薰衣草精油的 WO2018189100 不是這支原料，不列入。",
+        "refs": [],
+        "status": "unknown"
+      },
+      "sources": [
+        {
+          "accessed": "2026-11-17",
+          "channel": "exhibition",
+          "publisher": "SupplySide Global",
+          "title": "Relissa Melissa Indena Phytosome，SupplySide Global 2026 展品頁",
+          "url": "https://attendees.supplysideshow.com/event/supplyside-global-2026-1/product/UHJvZHVjdF8xNTU3MDg5",
+          "whatItContributes": "2026 年 SupplySide Global 展商 Indena USA 的展品頁列出 Relissa。同場展商名單另有 Centextra 等其他 Indena 商品，不是這張卡的原料。"
+        },
+        {
+          "accessed": "2026-11-17",
+          "channel": "supplier_site",
+          "publisher": "Indena",
+          "title": "Relissa",
+          "url": "https://www.indena.com/product/relissa/",
+          "whatItContributes": "葉萃取、17% 至 23% 羥基肉桂酸、建議 200 mg 兩次，以及商標說明沒有專利號。"
+        },
+        {
+          "accessed": "2026-11-17",
+          "channel": "paper",
+          "publisher": "PubMed",
+          "title": "PubMed 37927585",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37927585/",
+          "whatItContributes": "3 週、每日 400 mg 的人體隨機雙盲試驗，並寫 Milan 的 Indena 製造。"
+        },
+        {
+          "accessed": "2026-11-17",
+          "channel": "other",
+          "publisher": "和聚國際",
+          "title": "和聚的 Relissa 產品頁",
+          "url": "https://www.hg-bio.com.tw/products/relissa/",
+          "whatItContributes": "台灣原料頁列出 Indena、總羥基肉桂酸大於 17%、產地義大利。沒有寫獨家。"
+        },
+        {
+          "accessed": "2026-11-17",
+          "channel": "other",
+          "publisher": "和聚國際",
+          "title": "和聚關於我們",
+          "url": "https://www.hg-bio.com.tw/aboutus/",
+          "whatItContributes": "公司自述代理進口國際原料。不是這支商品的獨家條款。"
+        }
+      ],
+      "supply": {
+        "relationship": "taiwan_agent",
+        "relationshipNote": "Indena 產品頁寫 Relissa 是該公司商標，植物來源 Melissa officinalis 葉；試驗方法寫製造商 Indena S.p.A., Milan。和聚產品頁列出廠牌 Indena、總羥基肉桂酸大於 17%、產地義大利；關於我們寫該公司代理進口國際原料，產品頁沒有寫獨家，也沒有看到 Indena 經銷名單指名和聚。漢馨這次打開的品牌清單沒有 Relissa。查核日 2026-11-17。",
+        "supplierCountry": "義大利",
+        "supplierName": "Indena S.p.A.",
+        "taiwanPartyName": "和聚國際（該公司自述代理；不是獨家）"
+      },
+      "tfda": {
+        "evidenceNotes": "香蜂草（Melissa officinalis）莖、葉列在可供茶包、膳食調理包或萃取後作為原料，備註空白。商品名 Relissa 沒有另列。供應商頁寫葉的水萃取。添加物 0 筆。列名沒有寫每日毫克。",
+        "lookupDate": "2026-11-17",
+        "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+        "officialCrosscheck": {
+          "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+          "done": true,
+          "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+          "notes": "2026-11-17 消費者專區詳細頁 HTTPS 中斷（UNEXPECTED_EOF_WHILE_READING），沒有取得頁面。查詢助手細節時間戳 2026-11-16 06:23，原料 1709 筆、添加物 804 筆；同檔開放資料原料列 1707 筆。香蜂草這一筆的中文名、學名、部位、大分類與助手細節一致，備註空白。添加物沒有這個品名。"
+        },
+        "queries": [
+          {
+            "category": "",
+            "keyword": "香蜂草",
+            "matchedName": "香蜂草；蜜蜂花",
+            "note": "莖、葉這一筆對到本品的葉萃取。",
+            "restrictionNote": "可供食品使用。次分類為供茶包、膳食調理包或萃取後作為原料。學名 Melissa officinalis L.，外文名 Melissa, Balm，部位莖、葉，備註空白。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Melissa officinalis",
+            "matchedName": "香蜂草；蜜蜂花",
+            "note": "學名 1 筆。",
+            "restrictionNote": "同上。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Relissa",
+            "matchedName": "",
+            "note": "商品名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "香蜂草",
+            "matchedName": "",
+            "note": "添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Melissa",
+            "matchedName": "",
+            "note": "英文關鍵字在添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "香蜂草",
+            "matchedName": "",
+            "note": "助手更新歷程（2026-11-01 至 2026-11-16）沒有這筆異動。資料時間戳 2026-11-16 06:23。",
             "restrictionNote": "",
             "resultCount": 0,
             "tab": "history",
@@ -20028,6 +21750,202 @@
             "keyword": "沒食子",
             "matchedName": "",
             "note": "助手更新歷程未另見改列未確認。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "history",
+            "unconfirmedSafety": false
+          }
+        ],
+        "usable": "listed_food_ingredient"
+      }
+    },
+    {
+      "discovery": {
+        "channel": "industry_report",
+        "notes": "從 NutraIngredients 2026-04-20 的睪固酮補給市場報導進入 Testofen，再對 Saanroo 原料頁、Testofen 科學頁、US10576118B2 與 PubMed 26791805。台灣關聯打開和聚產品頁與關於我們、展昭的摩根展品頁，以及 MyProtein 台灣成品頁。同篇報導的東革阿里在原料平臺是未確認，沒有放進這張卡。",
+        "scoutDate": "2026-11-17"
+      },
+      "efficacy": {
+        "claimedBenefits": [
+          "NutraIngredients 2026-04-20 的睪固酮補給市場報導引述 Saanroo（前稱 Gencor）：Testofen 是標準化葫蘆巴萃取，標準化到一組稱為 Fenuside 的皂苷配糖，用來對應一般葫蘆巴沒有固定的力價。這是供應商在報導裡的說法。",
+          "Saanroo 原料頁寫，至少 50% Fenuside，並寫有 4 篇已發表臨床，方向是性慾、活力與肌肉量。這是供應商頁的說法。",
+          "PubMed 26791805：43 至 70 歲健康男性，Testofen 每日 600 mg 或安慰劑、12 週，納入 120 人。摘要寫老化男性症狀分數下降、早晨勃起與性活動次數、以及總睪固酮與游離睪固酮相對安慰劑增加。"
+        ],
+        "dosageNote": "每日 600 mg 是這篇試驗與專利實施例的劑量，也是供應商科學頁的其中一組。原料平臺沒有每日毫克。MyProtein 台灣膠囊每粒 100 mg，是成品標示，低於這篇試驗。",
+        "suggestedDosage": "上述 12 週試驗是每日 600 mg。Testofen 科學頁另寫 300 mg 一日兩次，或每日 300 mg 與 600 mg 兩組。專利請求項寫萃取物每日約 300 至 600 mg。"
+      },
+      "evidenceLevels": [
+        "clinical"
+      ],
+      "example": false,
+      "id": "testofen",
+      "images": [
+        {
+          "caption": "Testofen 官網首頁的商品圖，瓶身寫 TESTOFEN、fenugreek extract、60 tablets。是瓶裝成品，不是原料粉末。",
+          "localPath": "",
+          "source": "official_site",
+          "url": "https://testofen.com/wp-content/uploads/2024/02/testofen.png"
+        }
+      ],
+      "literature": {
+        "note": "供應商科學頁還列 2011 年性功能、2015 年阻力訓練與 2020 年徒手訓練三篇。這次以已打開摘要的 2016 年試驗為主，沒有把四篇併成同一句結論。",
+        "refs": [
+          {
+            "note": "隨機雙盲安慰劑對照。健康男性，每日 600 mg、12 週。摘要的對象是 43 至 70 歲，不是運動員。",
+            "title": "Testofen, a specialised Trigonella foenum-graecum seed extract reduces age-related symptoms of androgen decrease, increases testosterone levels and improves sexual function in healthy aging males in a double-blind randomised clinical study",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26791805/"
+          }
+        ],
+        "status": "yes"
+      },
+      "names": {
+        "commonEn": "fenugreek seed extract",
+        "commonZh": "葫蘆巴種子萃取物",
+        "scientific": "Trigonella foenum-graecum L.（種子。不是藍胡蘆巴 Trigonella caerulea，也不是總序天冬。）",
+        "trade": "Testofen（Saanroo，前稱 Gencor，的葫蘆巴種子萃取商品名；標準化成分稱 Fenuside）"
+      },
+      "patent": {
+        "note": "2026-11-17 打開 Google Patents 的 US10576118B2。Saanroo 原料頁寫有美國專利保護年長男性用途，沒有在該頁寫出號碼；這份與商品名、劑量對得上。",
+        "refs": [
+          {
+            "note": "葫蘆巴或種子萃取用於年長男性性荷爾蒙。請求項寫每日約 300 至 600 mg。2026-02-23 權利人轉為 Saanroo Health Sciences LLC。實施例寫 33:1、至少 50% 皂苷配糖，並寫當時由 Gencor Pacific Ltd.（香港）供料。",
+            "title": "US10576118B2",
+            "url": "https://patents.google.com/patent/US10576118B2/en"
+          }
+        ],
+        "status": "yes"
+      },
+      "sources": [
+        {
+          "accessed": "2026-11-17",
+          "channel": "industry_report",
+          "publisher": "NutraIngredients",
+          "title": "Natural boosters ride growth wave in testosterone market",
+          "url": "https://www.nutraingredients.com/Article/2026/04/20/testosterone-support-market-continues-to-rise-but-with-caveats/",
+          "whatItContributes": "2026-04-20 市場報導：Testofen 是 Saanroo（前稱 Gencor）的標準化葫蘆巴，標準化成分稱 Fenuside。同篇的東革阿里、南非醉茄與 Tesnor 不是這張卡的原料。"
+        },
+        {
+          "accessed": "2026-11-17",
+          "channel": "supplier_site",
+          "publisher": "Saanroo",
+          "title": "Testofen",
+          "url": "https://www.saanroo.com/ingredients/testofen",
+          "whatItContributes": "種子萃取、至少 50% Fenuside、印度產種子，以及美國德州的聯絡地址。"
+        },
+        {
+          "accessed": "2026-11-17",
+          "channel": "supplier_site",
+          "publisher": "Testofen",
+          "title": "Science and Research",
+          "url": "https://testofen.com/science-and-research/",
+          "whatItContributes": "四篇試驗的劑量寫法：每日 600 mg，或 300 mg 一日兩次。"
+        },
+        {
+          "accessed": "2026-11-17",
+          "channel": "patent",
+          "publisher": "Google Patents",
+          "title": "US10576118B2",
+          "url": "https://patents.google.com/patent/US10576118B2/en",
+          "whatItContributes": "年長男性用途專利與 2026 年權利人變更。"
+        },
+        {
+          "accessed": "2026-11-17",
+          "channel": "paper",
+          "publisher": "PubMed",
+          "title": "PubMed 26791805",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/26791805/",
+          "whatItContributes": "12 週、每日 600 mg 的人體隨機雙盲試驗摘要。"
+        },
+        {
+          "accessed": "2026-11-17",
+          "channel": "other",
+          "publisher": "和聚國際",
+          "title": "和聚的 Testofen 產品頁",
+          "url": "https://www.hg-bio.com.tw/products/testofen/",
+          "whatItContributes": "台灣原料頁列出 Gencor、Fenuside 大於 50%、產地印度。沒有寫獨家。"
+        },
+        {
+          "accessed": "2026-11-17",
+          "channel": "exhibition",
+          "publisher": "展昭國際",
+          "title": "展昭展品頁：Testofen 葫蘆巴籽萃取物",
+          "url": "https://www.chanchao.com.tw/healthcos/visitorProductDetail.asp?no=184811",
+          "whatItContributes": "摩根醫藥生技的展品頁寫大於 38% Fenuside、建議每日 600 mg。規格與原廠頁不同，頁上沒有寫總代理。"
+        }
+      ],
+      "supply": {
+        "relationship": "taiwan_agent",
+        "relationshipNote": "Saanroo 原料頁的聯絡地址在美國德州 Austin，專利 2026-02-23 轉給 Saanroo Health Sciences LLC，種子頁寫來自印度。和聚產品頁列出廠牌 Gencor、Fenuside 大於 50%、產地印度；關於我們寫該公司代理進口國際原料，產品頁沒有寫獨家，也沒有看到原廠經銷名單指名和聚。展昭的 2026 亞洲美容保養生技保健大展產品頁寫摩根醫藥生技展出 Testofen，規格寫大於 38% Fenuside、建議每日 600 mg，與原廠及和聚的至少 50% 不同，該頁沒有寫總代理。MyProtein 台灣站販售每粒 100 mg 的膠囊，是成品。上海善邑寫代理，地址在上海，不是台灣廠商。查核日 2026-11-17。",
+        "supplierCountry": "美國",
+        "supplierName": "Saanroo（前稱 Gencor）",
+        "taiwanPartyName": "和聚國際（該公司自述代理；不是獨家）"
+      },
+      "tfda": {
+        "evidenceNotes": "葫蘆巴（Trigonella foenum-graecum）種子、葉、芽列在可供直接食用，備註空白。商品名 Testofen、Fenuside 沒有另列。添加物 0 筆。列名沒有寫每日毫克，不等於試驗用的每日 600 mg。",
+        "lookupDate": "2026-11-17",
+        "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+        "officialCrosscheck": {
+          "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+          "done": true,
+          "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+          "notes": "2026-11-17 消費者專區詳細頁 HTTPS 中斷（UNEXPECTED_EOF_WHILE_READING），沒有取得頁面。查詢助手細節時間戳 2026-11-16 06:23，原料 1709 筆、添加物 804 筆；同檔開放資料原料列 1707 筆。葫蘆巴這一筆的中文名、學名、部位、大分類與助手細節一致，備註空白。添加物沒有這個品名。"
+        },
+        "queries": [
+          {
+            "category": "",
+            "keyword": "葫蘆巴",
+            "matchedName": "葫蘆巴；希臘草",
+            "note": "這一筆對到本品的種子。",
+            "restrictionNote": "可供直接食用。學名 Trigonella foenum-graecum L.，外文名 Fenugreek, Goat horn, Cow horn，部位種子、葉、芽(苗)，備註空白。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Trigonella foenum-graecum",
+            "matchedName": "葫蘆巴；希臘草",
+            "note": "學名 1 筆。",
+            "restrictionNote": "同上。藍胡蘆巴是另一個學名，這次用完整學名沒有命中。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Testofen",
+            "matchedName": "",
+            "note": "商品名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "葫蘆巴",
+            "matchedName": "",
+            "note": "添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "fenugreek",
+            "matchedName": "",
+            "note": "英文關鍵字在添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "葫蘆巴",
+            "matchedName": "",
+            "note": "助手更新歷程（2026-11-01 至 2026-11-16）沒有這筆異動。資料時間戳 2026-11-16 06:23。",
             "restrictionNote": "",
             "resultCount": 0,
             "tab": "history",

@@ -1,0 +1,196 @@
+{
+  "id": "testofen",
+  "example": false,
+  "names": {
+    "commonZh": "葫蘆巴種子萃取物",
+    "commonEn": "fenugreek seed extract",
+    "trade": "Testofen（Saanroo，前稱 Gencor，的葫蘆巴種子萃取商品名；標準化成分稱 Fenuside）",
+    "scientific": "Trigonella foenum-graecum L.（種子。不是藍胡蘆巴 Trigonella caerulea，也不是總序天冬。）"
+  },
+  "supply": {
+    "supplierName": "Saanroo（前稱 Gencor）",
+    "supplierCountry": "美國",
+    "relationship": "taiwan_agent",
+    "taiwanPartyName": "和聚國際（該公司自述代理；不是獨家）",
+    "relationshipNote": "Saanroo 原料頁的聯絡地址在美國德州 Austin，專利 2026-02-23 轉給 Saanroo Health Sciences LLC，種子頁寫來自印度。和聚產品頁列出廠牌 Gencor、Fenuside 大於 50%、產地印度；關於我們寫該公司代理進口國際原料，產品頁沒有寫獨家，也沒有看到原廠經銷名單指名和聚。展昭的 2026 亞洲美容保養生技保健大展產品頁寫摩根醫藥生技展出 Testofen，規格寫大於 38% Fenuside、建議每日 600 mg，與原廠及和聚的至少 50% 不同，該頁沒有寫總代理。MyProtein 台灣站販售每粒 100 mg 的膠囊，是成品。上海善邑寫代理，地址在上海，不是台灣廠商。查核日 2026-11-17。"
+  },
+  "tfda": {
+    "usable": "listed_food_ingredient",
+    "evidenceNotes": "葫蘆巴（Trigonella foenum-graecum）種子、葉、芽列在可供直接食用，備註空白。商品名 Testofen、Fenuside 沒有另列。添加物 0 筆。列名沒有寫每日毫克，不等於試驗用的每日 600 mg。",
+    "lookupDate": "2026-11-17",
+    "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+    "queries": [
+      {
+        "tab": "ingredient",
+        "keyword": "葫蘆巴",
+        "category": "",
+        "resultCount": 1,
+        "matchedName": "葫蘆巴；希臘草",
+        "restrictionNote": "可供直接食用。學名 Trigonella foenum-graecum L.，外文名 Fenugreek, Goat horn, Cow horn，部位種子、葉、芽(苗)，備註空白。",
+        "unconfirmedSafety": false,
+        "note": "這一筆對到本品的種子。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Trigonella foenum-graecum",
+        "category": "",
+        "resultCount": 1,
+        "matchedName": "葫蘆巴；希臘草",
+        "restrictionNote": "同上。藍胡蘆巴是另一個學名，這次用完整學名沒有命中。",
+        "unconfirmedSafety": false,
+        "note": "學名 1 筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Testofen",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "葫蘆巴",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "添加物 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "fenugreek",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "英文關鍵字在添加物 0 筆。"
+      },
+      {
+        "tab": "history",
+        "keyword": "葫蘆巴",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "助手更新歷程（2026-11-01 至 2026-11-16）沒有這筆異動。資料時間戳 2026-11-16 06:23。"
+      }
+    ],
+    "officialCrosscheck": {
+      "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+      "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+      "done": true,
+      "notes": "2026-11-17 消費者專區詳細頁 HTTPS 中斷（UNEXPECTED_EOF_WHILE_READING），沒有取得頁面。查詢助手細節時間戳 2026-11-16 06:23，原料 1709 筆、添加物 804 筆；同檔開放資料原料列 1707 筆。葫蘆巴這一筆的中文名、學名、部位、大分類與助手細節一致，備註空白。添加物沒有這個品名。"
+    }
+  },
+  "efficacy": {
+    "claimedBenefits": [
+      "NutraIngredients 2026-04-20 的睪固酮補給市場報導引述 Saanroo（前稱 Gencor）：Testofen 是標準化葫蘆巴萃取，標準化到一組稱為 Fenuside 的皂苷配糖，用來對應一般葫蘆巴沒有固定的力價。這是供應商在報導裡的說法。",
+      "Saanroo 原料頁寫，至少 50% Fenuside，並寫有 4 篇已發表臨床，方向是性慾、活力與肌肉量。這是供應商頁的說法。",
+      "PubMed 26791805：43 至 70 歲健康男性，Testofen 每日 600 mg 或安慰劑、12 週，納入 120 人。摘要寫老化男性症狀分數下降、早晨勃起與性活動次數、以及總睪固酮與游離睪固酮相對安慰劑增加。"
+    ],
+    "suggestedDosage": "上述 12 週試驗是每日 600 mg。Testofen 科學頁另寫 300 mg 一日兩次，或每日 300 mg 與 600 mg 兩組。專利請求項寫萃取物每日約 300 至 600 mg。",
+    "dosageNote": "每日 600 mg 是這篇試驗與專利實施例的劑量，也是供應商科學頁的其中一組。原料平臺沒有每日毫克。MyProtein 台灣膠囊每粒 100 mg，是成品標示，低於這篇試驗。"
+  },
+  "patent": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "US10576118B2",
+        "url": "https://patents.google.com/patent/US10576118B2/en",
+        "note": "葫蘆巴或種子萃取用於年長男性性荷爾蒙。請求項寫每日約 300 至 600 mg。2026-02-23 權利人轉為 Saanroo Health Sciences LLC。實施例寫 33:1、至少 50% 皂苷配糖，並寫當時由 Gencor Pacific Ltd.（香港）供料。"
+      }
+    ],
+    "note": "2026-11-17 打開 Google Patents 的 US10576118B2。Saanroo 原料頁寫有美國專利保護年長男性用途，沒有在該頁寫出號碼；這份與商品名、劑量對得上。"
+  },
+  "literature": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "Testofen, a specialised Trigonella foenum-graecum seed extract reduces age-related symptoms of androgen decrease, increases testosterone levels and improves sexual function in healthy aging males in a double-blind randomised clinical study",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/26791805/",
+        "note": "隨機雙盲安慰劑對照。健康男性，每日 600 mg、12 週。摘要的對象是 43 至 70 歲，不是運動員。"
+      }
+    ],
+    "note": "供應商科學頁還列 2011 年性功能、2015 年阻力訓練與 2020 年徒手訓練三篇。這次以已打開摘要的 2016 年試驗為主，沒有把四篇併成同一句結論。"
+  },
+  "evidenceLevels": [
+    "clinical"
+  ],
+  "images": [
+    {
+      "url": "https://testofen.com/wp-content/uploads/2024/02/testofen.png",
+      "localPath": "",
+      "caption": "Testofen 官網首頁的商品圖，瓶身寫 TESTOFEN、fenugreek extract、60 tablets。是瓶裝成品，不是原料粉末。",
+      "source": "official_site"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Natural boosters ride growth wave in testosterone market",
+      "url": "https://www.nutraingredients.com/Article/2026/04/20/testosterone-support-market-continues-to-rise-but-with-caveats/",
+      "publisher": "NutraIngredients",
+      "channel": "industry_report",
+      "accessed": "2026-11-17",
+      "whatItContributes": "2026-04-20 市場報導：Testofen 是 Saanroo（前稱 Gencor）的標準化葫蘆巴，標準化成分稱 Fenuside。同篇的東革阿里、南非醉茄與 Tesnor 不是這張卡的原料。"
+    },
+    {
+      "title": "Testofen",
+      "url": "https://www.saanroo.com/ingredients/testofen",
+      "publisher": "Saanroo",
+      "channel": "supplier_site",
+      "accessed": "2026-11-17",
+      "whatItContributes": "種子萃取、至少 50% Fenuside、印度產種子，以及美國德州的聯絡地址。"
+    },
+    {
+      "title": "Science and Research",
+      "url": "https://testofen.com/science-and-research/",
+      "publisher": "Testofen",
+      "channel": "supplier_site",
+      "accessed": "2026-11-17",
+      "whatItContributes": "四篇試驗的劑量寫法：每日 600 mg，或 300 mg 一日兩次。"
+    },
+    {
+      "title": "US10576118B2",
+      "url": "https://patents.google.com/patent/US10576118B2/en",
+      "publisher": "Google Patents",
+      "channel": "patent",
+      "accessed": "2026-11-17",
+      "whatItContributes": "年長男性用途專利與 2026 年權利人變更。"
+    },
+    {
+      "title": "PubMed 26791805",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26791805/",
+      "publisher": "PubMed",
+      "channel": "paper",
+      "accessed": "2026-11-17",
+      "whatItContributes": "12 週、每日 600 mg 的人體隨機雙盲試驗摘要。"
+    },
+    {
+      "title": "和聚的 Testofen 產品頁",
+      "url": "https://www.hg-bio.com.tw/products/testofen/",
+      "publisher": "和聚國際",
+      "channel": "other",
+      "accessed": "2026-11-17",
+      "whatItContributes": "台灣原料頁列出 Gencor、Fenuside 大於 50%、產地印度。沒有寫獨家。"
+    },
+    {
+      "title": "展昭展品頁：Testofen 葫蘆巴籽萃取物",
+      "url": "https://www.chanchao.com.tw/healthcos/visitorProductDetail.asp?no=184811",
+      "publisher": "展昭國際",
+      "channel": "exhibition",
+      "accessed": "2026-11-17",
+      "whatItContributes": "摩根醫藥生技的展品頁寫大於 38% Fenuside、建議每日 600 mg。規格與原廠頁不同，頁上沒有寫總代理。"
+    }
+  ],
+  "discovery": {
+    "channel": "industry_report",
+    "scoutDate": "2026-11-17",
+    "notes": "從 NutraIngredients 2026-04-20 的睪固酮補給市場報導進入 Testofen，再對 Saanroo 原料頁、Testofen 科學頁、US10576118B2 與 PubMed 26791805。台灣關聯打開和聚產品頁與關於我們、展昭的摩根展品頁，以及 MyProtein 台灣成品頁。同篇報導的東革阿里在原料平臺是未確認，沒有放進這張卡。"
+  }
+}

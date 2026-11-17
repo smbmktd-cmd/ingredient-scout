@@ -1,0 +1,201 @@
+{
+  "id": "altilix",
+  "example": false,
+  "names": {
+    "commonZh": "朝鮮薊葉萃取物",
+    "commonEn": "artichoke leaf extract",
+    "trade": "Altilix（Bionap 的朝鮮薊葉萃取商品名；頁上亦寫 altilix）",
+    "scientific": "產品頁寫 Cynara cardunculus var. altilis DC. 的葉。2019 年試驗方法寫 Cynara cardunculus (L.) subsp. scolymus Hayek。兩處學名不一致，都留下。不是朝鮮薊花，也不是果實。"
+  },
+  "supply": {
+    "supplierName": "Bionap S.r.l.",
+    "supplierCountry": "義大利",
+    "relationship": "taiwan_agent",
+    "taiwanPartyName": "統園企業（該公司 2021 年新聞自述獨家代理）；pakku 與智慧三寶為成品採用",
+    "relationshipNote": "Bionap 產品頁地址是義大利 Belpasso。統園 2021-11-03 新聞寫該公司獨家代理 Altilix 朝鮮薊萃取物。這是統園自述，不是 Bionap 經銷名單。2026-11-18 在統園網域搜 Altilix，沒有看到另一份現行產品頁。pakku 膠囊標題寫 ALTILIX，成分是朝鮮薊葉萃取物。智慧三寶的 A STEAL 頁常見問答寫 ALTILIX 是 Bionap 原料，成分另含桑黃。和聚有 Bionap 的 Bergavit 頁，品牌彙整頁沒有列出 Altilix。台灣商標權人是義大利 Bionap，賴經臣與宿希成是商標申請代理人。查核日 2026-11-18。"
+  },
+  "tfda": {
+    "usable": "needs_review",
+    "evidenceNotes": "朝鮮薊（Cynara scolymus）的花苞、花托、葉列為可直接食用，備註空白。商品名 Altilix 與 Cynara cardunculus 都是 0 筆。產品頁寫的栽培種是 var. altilis，和平台學名不是同一串字。添加物 0 筆。關鍵字 altilis 另命中麵包果，不是本品。",
+    "lookupDate": "2026-11-18",
+    "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+    "queries": [
+      {
+        "tab": "ingredient",
+        "keyword": "朝鮮薊",
+        "category": "",
+        "resultCount": 1,
+        "matchedName": "朝鮮薊；菜薊；食用薊；洋菜薊",
+        "restrictionNote": "可供食品使用。可直接食用。學名 Cynara scolymus L.，外文名 Artichoke，部位花苞、花托、葉，備註空白。",
+        "unconfirmedSafety": false,
+        "note": "葉在部位裡。栽培種字串沒有寫 var. altilis。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Cynara",
+        "category": "",
+        "resultCount": 1,
+        "matchedName": "朝鮮薊；菜薊；食用薊；洋菜薊",
+        "restrictionNote": "同上。",
+        "unconfirmedSafety": false,
+        "note": "屬名對到這一筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "cardunculus",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "產品頁的種小名 0 筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Altilix",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名 0 筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "altilis",
+        "category": "",
+        "resultCount": 1,
+        "matchedName": "麵包果",
+        "restrictionNote": "命中的是麵包果學名裡的 altilis，不是朝鮮薊。",
+        "unconfirmedSafety": false,
+        "note": "不把這一筆算進本品。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "朝鮮薊",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "添加物 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "Altilix",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名在添加物 0 筆。"
+      },
+      {
+        "tab": "history",
+        "keyword": "朝鮮薊",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "助手更新歷程（2026-11-01 至 2026-11-18）沒有這筆異動。資料時間戳 2026-11-18 06:20。"
+      }
+    ],
+    "officialCrosscheck": {
+      "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+      "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+      "done": true,
+      "notes": "2026-11-18 連線 consumer.fda.gov.tw:443 出現 OpenSSL SSL_ERROR_SYSCALL，沒有取得官方詳細頁。查詢助手細節時間戳 2026-11-18 06:20。朝鮮薊詳細頁網址是 MaterialDetail id 16911；學名 Cynara scolymus、部位含葉、備註空白，與助手細節一致。var. altilis 沒有另列。添加物沒有這個品名。"
+    }
+  },
+  "efficacy": {
+    "claimedBenefits": [
+      "Bionap 產品頁寫 Altilix 是 Cynara cardunculus var. altilis 葉的粉末萃取，建議 150 mg／日，並寫有人體研究支持代謝、心血管、體重與腰圍、肝臟。規格在公司 PDF 的檢索結果寫綠原酸及其衍生物 10% 至 12%、木犀草苷及其衍生物 2% 至 4%。這次以產品頁的劑量與植物為準。",
+      "PubMed 31731527：代謝症候群成人，Altilix 150 mg／日或安慰劑、6 個月，各約 50 人。方法寫錠劑由 Bionap 提供，成分為綠原酸及其衍生物 10% 至 12%、木犀草苷及其衍生物 2% 至 4%，植物寫成 Cynara cardunculus (L.) subsp. scolymus Hayek。"
+    ],
+    "suggestedDosage": "產品頁與上述試驗都是 150 mg／日。試驗為期 6 個月。",
+    "dosageNote": "150 mg／日同時是供應商建議與這篇代謝症候群試驗的劑量。平台的朝鮮薊葉沒有寫每日毫克。產品頁與論文的學名不一致，劑量不能用來解消這個差異。"
+  },
+  "patent": {
+    "status": "unknown",
+    "refs": [],
+    "note": "產品頁與 2019 年論文這次讀到的部分沒有專利號。2026-11-18 沒有打開一份請求項寫明 Altilix 的專利，狀態留未知。"
+  },
+  "literature": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "Altilix Supplement Containing Chlorogenic Acid and Luteolin Improved Hepatic and Cardiometabolic Parameters in Subjects with Metabolic Syndrome: A 6 Month Randomized, Double-Blind, Placebo-Controlled Study",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/31731527/",
+        "note": "Nutrients，2019。DOI 10.3390/nu11112580。每日 150 mg、6 個月。登記 NCT03444558。植物寫法與現行產品頁不同。"
+      }
+    ],
+    "note": "這篇是代謝症候群成人，不是一般健康人的日常補充試驗。2023 年的前肥胖子群再分析這次沒有另開全文。"
+  },
+  "evidenceLevels": [
+    "clinical"
+  ],
+  "images": [
+    {
+      "url": "https://bionap.com/assets/images/products/altilix/img_1.png",
+      "localPath": "",
+      "caption": "Bionap 的 Altilix 產品頁圖片。",
+      "source": "official_site"
+    }
+  ],
+  "sources": [
+    {
+      "title": "ALTILIX，Vitafoods Asia 2026 展品頁",
+      "url": "https://visitor.vitafoodsglobal.com/event/vitafoods-asia-2026/product/UHJvZHVjdF8xNTA2ODYz",
+      "publisher": "Vitafoods Asia",
+      "channel": "exhibition",
+      "accessed": "2026-11-18",
+      "whatItContributes": "Bionap Asia Pacific 攤位 H5-E41 的展品頁。寫西西里朝鮮薊葉、綠原酸與木犀草素衍生物、150 mg／日。"
+    },
+    {
+      "title": "Altilix",
+      "url": "https://bionap.com/products/altilix",
+      "publisher": "Bionap",
+      "channel": "supplier_site",
+      "accessed": "2026-11-18",
+      "whatItContributes": "栽培種寫成 Cynara cardunculus var. altilis DC.，部位是葉，建議 150 mg／日。"
+    },
+    {
+      "title": "PubMed 31731527",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31731527/",
+      "publisher": "PubMed",
+      "channel": "paper",
+      "accessed": "2026-11-18",
+      "whatItContributes": "6 個月、每日 150 mg 的代謝症候群人體試驗，植物寫法與產品頁不同。"
+    },
+    {
+      "title": "統園 2021 亞洲生技大展新聞",
+      "url": "https://www.tyig.com.tw/web/news/news_in.jsp?lang=tw&np_no=NP1635929180145",
+      "publisher": "統園企業",
+      "channel": "other",
+      "accessed": "2026-11-18",
+      "whatItContributes": "2021-11-03 該公司自述獨家代理 Altilix 朝鮮薊萃取物。不是原廠經銷名單，也不是 2026 年的產品頁。"
+    },
+    {
+      "title": "pakku 的朝鮮薊膠囊",
+      "url": "https://www.pakku.com.tw/products/atc",
+      "publisher": "pakku",
+      "channel": "other",
+      "accessed": "2026-11-18",
+      "whatItContributes": "台灣成品頁標題寫 ALTILIX，成分為朝鮮薊葉萃取物，產地西西里 Piano Tavola。不是原料代理聲明。"
+    },
+    {
+      "title": "A STEAL 超高濃縮火山朝鮮薊",
+      "url": "https://wellmart.cc/product/a-steal-%e8%b6%85%e9%ab%98%e6%bf%83%e7%b8%ae%e7%81%ab%e5%b1%b1%e6%9c%9d%e9%ae%ae%e8%96%8a/",
+      "publisher": "WellMart／智慧三寶",
+      "channel": "other",
+      "accessed": "2026-11-18",
+      "whatItContributes": "負責廠商智慧三寶。常見問答寫 ALTILIX 是 Bionap 原料。成分另含桑黃，是成品採用。"
+    }
+  ],
+  "discovery": {
+    "channel": "exhibition",
+    "scoutDate": "2026-11-18",
+    "notes": "從 Vitafoods Asia 2026 的 Altilix 展品頁進入 Bionap 產品頁，再對 PubMed 31731527。學名在產品頁與論文不一致，TFDA 只列 Cynara scolymus，因此狀態留待覆核。台灣關聯打開統園 2021 新聞、pakku 與智慧三寶成品頁，以及和聚的 Bionap 頁。和聚頁上看到的是 Bergavit，不是 Altilix。統園的獨家是該公司舊聞自述。"
+  }
+}

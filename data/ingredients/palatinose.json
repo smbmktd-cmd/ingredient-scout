@@ -1,0 +1,183 @@
+{
+  "id": "palatinose",
+  "example": false,
+  "names": {
+    "commonZh": "異麥芽酮糖（巴拉金糖）",
+    "commonEn": "isomaltulose",
+    "trade": "Palatinose（BENEO 的異麥芽酮糖商品名；規格頁另有 PST-N、PST-PF、PST-PA）",
+    "scientific": "不適用植物學名。BENEO 寫由甜菜糖的蔗糖經酵素把 α-1,2 鍵改成 α-1,6 鍵。不是氫化後的異麥芽酮糖醇（巴糖醇、Isomalt）。"
+  },
+  "supply": {
+    "supplierName": "BENEO GmbH",
+    "supplierCountry": "德國",
+    "relationship": "taiwan_agent",
+    "taiwanPartyName": "台灣大昌華嘉（DKSH Taiwan；該公司 2022 年新聞自述代理，含 Palatinose）",
+    "relationshipNote": "BENEO 頁地址是德國 Mannheim。台灣大昌華嘉 2022-11-09 新聞寫，特用原料在亞太獨家代理 Beneo 產品 20 年，範圍含異麥芽酮糖／巴拉金糖 Palatinose，以及 Isomalt。2026 年食品與飲品原料頁仍把 Palatinose 與 Isomalt 並列在 BENEO 合作項目，用詞是合作夥伴，沒有再寫獨家。獨家只依 2022 年該公司新聞，不升格成原廠獨家證明。查核日 2026-11-18。"
+  },
+  "tfda": {
+    "usable": "needs_review",
+    "evidenceNotes": "原料有異麥芽酮糖，備註寫可由蔗糖經微生物轉成，巴拉金糖（Palatinose）為商品名。用 Palatinose 或異麥芽酮糖搜添加物，會命中兩筆異麥芽酮糖醇（巴糖醇），英文是 Hydrogenated Palatinose，那是氫化糖醇，不是這個雙糖。中文「巴拉金糖」在添加物是 0 筆。兩類都有列名，化合物不同。",
+    "lookupDate": "2026-11-18",
+    "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+    "queries": [
+      {
+        "tab": "ingredient",
+        "keyword": "異麥芽酮糖",
+        "category": "",
+        "resultCount": 1,
+        "matchedName": "異麥芽酮糖",
+        "restrictionNote": "草木本植物類來源製取之原料。外文名 Isomaltulose。備註寫存在於蜂蜜與甘蔗汁，商業上經微生物發酵將蔗糖轉為異麥芽酮糖，巴拉金糖（Palatinose）為商品名。",
+        "unconfirmedSafety": false,
+        "note": "詳細頁 id 17326。BENEO 寫甜菜糖，平台寫蜂蜜、甘蔗汁與蔗糖發酵，來源句子不完全相同。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "巴拉金糖",
+        "category": "",
+        "resultCount": 1,
+        "matchedName": "異麥芽酮糖",
+        "restrictionNote": "同上。",
+        "unconfirmedSafety": false,
+        "note": "中文商品名在原料備註裡。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Palatinose",
+        "category": "",
+        "resultCount": 1,
+        "matchedName": "異麥芽酮糖",
+        "restrictionNote": "同上。",
+        "unconfirmedSafety": false,
+        "note": "英文商品名在原料備註裡。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "Palatinose",
+        "category": "",
+        "resultCount": 2,
+        "matchedName": "異麥芽酮糖醇（巴糖醇）",
+        "restrictionNote": "兩筆都是 Isomalt (Hydrogenated Palatinose)，一筆品質改良用，一筆甜味劑。可於各類食品視需要適量使用，限食品製造或加工必須時使用，嬰兒食品不得使用。",
+        "unconfirmedSafety": false,
+        "note": "是氫化糖醇，不是異麥芽酮糖。因為英文字含 Palatinose 而被命中。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "巴拉金糖",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "中文商品名在添加物 0 筆。添加物中文是巴糖醇。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "異麥芽酮糖",
+        "category": "",
+        "resultCount": 2,
+        "matchedName": "異麥芽酮糖醇（巴糖醇）",
+        "restrictionNote": "同 Palatinose 的添加物命中。名稱多了「醇」。",
+        "unconfirmedSafety": false,
+        "note": "不是原料那一筆雙糖。"
+      },
+      {
+        "tab": "history",
+        "keyword": "異麥芽酮糖",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "助手更新歷程（2026-11-01 至 2026-11-18）沒有這筆異動。資料時間戳 2026-11-18 06:20。"
+      }
+    ],
+    "officialCrosscheck": {
+      "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+      "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+      "done": true,
+      "notes": "2026-11-18 連線 consumer.fda.gov.tw:443 出現 OpenSSL SSL_ERROR_SYSCALL，沒有取得官方詳細頁。查詢助手細節時間戳 2026-11-18 06:20。異麥芽酮糖詳細頁是 MaterialDetail id 17326，備註含 Palatinose。添加物 id 823 與 844 是異麥芽酮糖醇，英文 Hydrogenated Palatinose。兩邊都有列，化合物不同。"
+    }
+  },
+  "efficacy": {
+    "claimedBenefits": [
+      "BENEO 產品頁寫 Palatinose 提供每克 4 大卡，升糖指數 32，蔗糖是 65；並寫能量釋放較平、有助脂肪氧化，甜度約為蔗糖一半。這是供應商頁的說法。",
+      "PubMed 31590285：過重或肥胖成人，減重飲食中每天 40 克異麥芽酮糖（Palatinose）或蔗糖、12 週。64 人分組，50 人完成。兩組體重都下降；異麥芽酮糖組多減約 1 公斤，組間 p 為 0.258。同組脂肪量下降達顯著，能量攝取減少也大於蔗糖組。"
+    ],
+    "suggestedDosage": "產品頁沒有寫單一每日克數，而是依食品取代蔗糖。31590285 用的是每天 40 克、12 週。Nutrition Insight 2026-03-05 報導展場燕麥拿鐵每 355 毫升含 15 克 Palatinose。",
+    "dosageNote": "40 克是那篇減重試驗的每日量，不是平台上限；原料這一筆沒有寫每日克數。15 克是 2026 年展場飲品概念的每份含量。體重組間差在摘要裡沒有達到統計顯著。"
+  },
+  "patent": {
+    "status": "unknown",
+    "refs": [],
+    "note": "這次打開的 BENEO 產品頁與 Expo West 報導都沒有專利號。2026-11-18 沒有打開一份請求項寫明 Palatinose 製程的專利，狀態留未知。"
+  },
+  "literature": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "Changes in Weight and Substrate Oxidation in Overweight Adults Following Isomaltulose Intake During a 12-Week Weight Loss Intervention: A Randomized, Double-Blind, Controlled Trial",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/31590285/",
+        "note": "Nutrients，2019。每天 40 克 Palatinose 或蔗糖。體重組間 p 為 0.258；能量攝取與餐後呼吸商有組間差異。"
+      }
+    ],
+    "note": "供應商新聞若寫只有 Palatinose 組顯著減重，和這篇摘要不完全相同。摘要是兩組都顯著減重，組間體重差不顯著。這裡以摘要為準。"
+  },
+  "evidenceLevels": [
+    "clinical"
+  ],
+  "images": [
+    {
+      "url": "https://www.beneo.com/wp-content/uploads/2018/01/beneo-header-palatinose-1920x460px-x2-srgb-scaled.jpg",
+      "localPath": "",
+      "caption": "BENEO 的 Palatinose 產品頁橫幅圖。",
+      "source": "official_site"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Expo West 2026 live: Beneo features fiber-rich ingredients for gut health and satiety",
+      "url": "https://www.nutritioninsight.com/news/expo-west-2026-beneo-fiber-gut-health.html",
+      "publisher": "Nutrition Insight",
+      "channel": "industry_report",
+      "accessed": "2026-11-18",
+      "whatItContributes": "2026-03-05 展場報導。燕麥拿鐵每 355 毫升含 15 克 Palatinose，並把 Palatinose 與 Isomalt 分成兩種低碳水升糖原料。"
+    },
+    {
+      "title": "Palatinose",
+      "url": "https://www.beneo.com/human-nutrition/human-nutrition-products/functional-carbohydrates/palatinose",
+      "publisher": "BENEO",
+      "channel": "supplier_site",
+      "accessed": "2026-11-18",
+      "whatItContributes": "甜菜糖來源、α-1,6 鍵、每克 4 大卡、升糖指數 32，以及 PST-N、PST-PF、PST-PA 三種粒徑。"
+    },
+    {
+      "title": "PubMed 31590285",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31590285/",
+      "publisher": "PubMed",
+      "channel": "paper",
+      "accessed": "2026-11-18",
+      "whatItContributes": "12 週、每天 40 克的減重試驗摘要。體重組間差不顯著。"
+    },
+    {
+      "title": "台灣大昌華嘉 2022-11-09 新聞",
+      "url": "https://www.dksh.com/tw-zh-Hant/home/media/news/%E5%8F%B0%E7%81%A3%E5%A4%A7%E6%98%8C%E8%8F%AF%E5%98%89%E7%89%B9%E7%94%A8%E5%8E%9F%E6%96%99%E6%A6%AE%E7%8D%B2%E5%8E%9F%E6%96%99%E5%A4%A7%E5%BB%A0beneo%E8%A1%A8%E6%8F%9A",
+      "publisher": "台灣大昌華嘉",
+      "channel": "other",
+      "accessed": "2026-11-18",
+      "whatItContributes": "該公司自述亞太獨家代理 Beneo，範圍含 Palatinose。獨家是這則新聞的自述。"
+    },
+    {
+      "title": "台灣大昌華嘉食品與飲品原料",
+      "url": "https://www.dksh.com/tw-zh-Hant/home/performance-materials/food-beverage-ingredients",
+      "publisher": "台灣大昌華嘉",
+      "channel": "other",
+      "accessed": "2026-11-18",
+      "whatItContributes": "2026 年頁面仍列出 BENEO 的 Palatinose 與 Isomalt。用詞是合作夥伴，沒有再寫獨家。"
+    }
+  ],
+  "discovery": {
+    "channel": "industry_report",
+    "scoutDate": "2026-11-18",
+    "notes": "從 Nutrition Insight 2026-03-05 的 Expo West 報導進入 Palatinose，再對 BENEO 產品頁與 PubMed 31590285。添加物命中的是氫化巴糖醇，與雙糖分開記。台灣關聯對過大昌華嘉 2022 新聞與 2026 原料頁，獨家只保留該公司自述。"
+  }
+}

@@ -1,0 +1,180 @@
+{
+  "id": "jointiq",
+  "example": false,
+  "names": {
+    "commonZh": "黃耆根皂苷萃取物",
+    "commonEn": "Astragalus root saponin extract",
+    "trade": "JointIQ（NuLiv Science 的黃耆皂苷商品名）",
+    "scientific": "Astragalus membranaceus（Fisch.）Bge.，含蒙古變種。論文寫根的 20:1 水萃取，標準化皂苷至少 3%，並以 astragaloside IV 做薄層對照。不是黃耆樹膠。"
+  },
+  "supply": {
+    "supplierName": "NuLiv Science USA, Inc.",
+    "supplierCountry": "美國",
+    "relationship": "unknown",
+    "taiwanPartyName": "仲華國際股份有限公司（NULIV HOLDING INC.；商標權人，原料銷售頁未見）",
+    "relationshipNote": "2026-11-18 打開台灣商標網 NuLiv 頁，權人是仲華國際股份有限公司（NULIV HOLDING INC.），地址臺北市信義區松仁路89號16樓，註冊號 00997910。Google Patents 的 US8168596B2 申請人寫 Nuliv Holding Inc.。這兩處都不是 JointIQ 原料的銷售頁。論文寫試驗原料由 NuLiv Science USA, Inc.（Brea, CA）提供。怡得國際原料表有黃耆萃取、多醣 40%，不是這個皂苷規格。以 JointIQ、NuLiv、黃耆皂苷搭配台灣、代理、經銷複查，沒有看到原料經銷頁。查核日 2026-11-18。"
+  },
+  "tfda": {
+    "usable": "listed_food_ingredient",
+    "evidenceNotes": "黃耆根（Astragalus membranaceus，含蒙古變種）列為可直接食用，備註是不得單一原料使用。關鍵字「黃耆」另命中黃耆樹膠，那是特拉卡甘膠，不是本品。商品名 JointIQ 與添加物都是 0 筆。列名沒有寫每日毫克。",
+    "lookupDate": "2026-11-18",
+    "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+    "queries": [
+      {
+        "tab": "ingredient",
+        "keyword": "黃耆",
+        "category": "",
+        "resultCount": 2,
+        "matchedName": "黃耆；黃耆（樹）膠",
+        "restrictionNote": "黃耆：可直接食用，學名含 Astragalus membranaceus 與其蒙古變種，部位根，備註「不得單一原料使用」。另一筆是黃耆（樹）膠，外文名 Tragacanth gum。",
+        "unconfirmedSafety": false,
+        "note": "樹膠那一筆是名稱帶有黃耆，不是膜莢黃耆根。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Astragalus",
+        "category": "",
+        "resultCount": 1,
+        "matchedName": "黃耆",
+        "restrictionNote": "同上，根，不得單一原料使用。",
+        "unconfirmedSafety": false,
+        "note": "學名只對到根這一筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "JointIQ",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "黃耆",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "添加物 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "Astragalus",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "英文關鍵字在添加物 0 筆。"
+      },
+      {
+        "tab": "history",
+        "keyword": "黃耆",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "助手更新歷程（2026-11-01 至 2026-11-18）沒有這筆異動。資料時間戳 2026-11-18 06:20。"
+      }
+    ],
+    "officialCrosscheck": {
+      "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+      "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+      "done": true,
+      "notes": "2026-11-18 連線 consumer.fda.gov.tw:443 出現 OpenSSL SSL_ERROR_SYSCALL，沒有取得官方詳細頁。查詢助手細節時間戳 2026-11-18 06:20，原料 1709 筆、添加物 804 筆。黃耆根這一筆的詳細頁網址是 MaterialDetail id 16868；中文名、學名、部位與「不得單一原料使用」與助手細節一致。添加物沒有這個品名。"
+    }
+  },
+  "efficacy": {
+    "claimedBenefits": [
+      "NuLiv 產品頁寫 JointIQ 來自 Astragalus membranaceus，建議 200 mg；並寫人體研究相對安慰劑，膝相關生活品質與膝伸展改善。這是供應商頁的說法。",
+      "PR Newswire 2026-11-17：NuLiv 公布第一篇 JointIQ 人體研究，12 週、每日一粒。稿中把步下測試約增 20%、恢復時間少逾 33% 放在前面。論文裡這兩個主要終點的組間差沒有達到統計顯著。",
+      "PubMed 42356230：健康成人、自述膝不適、沒有膝關節炎診斷，JointIQ 200 mg 或安慰劑、12 週。完成分析約 23 與 25 人。組間顯著的是 KOOS 生活品質、總分與疼痛；被動伸展的組間差在多重比較校正後減弱。步數與恢復時間只有組內改善。"
+    ],
+    "suggestedDosage": "產品頁寫 200 mg。上述試驗用的是每日一粒 200 mg、12 週，早餐後。",
+    "dosageNote": "200 mg 同時是目前產品頁的建議與這篇試驗的每日劑量。黃耆根那一筆只寫不得單一原料使用，沒有每日毫克。新聞稿的百分比不宜直接讀成主要終點已對安慰劑達顯著。"
+  },
+  "patent": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "US8168596B2 Use of cycloartane compounds for treating arthritis",
+        "url": "https://patents.google.com/patent/US8168596B2/en",
+        "note": "2012-05-01 核准，申請人 Nuliv Holding Inc.，狀態 Active。請求項是用環阿屯烷化合物處理軟骨缺損；說明書提到黃耆根。2026 年試驗材料寫的是根的水萃取，不是這份請求項裡的醇萃句子。"
+      }
+    ],
+    "note": "產品頁與試驗都寫 JointIQ 有專利。這次打開的是 US8168596B2。同族有台灣申請，這次沒有另開請求項。"
+  },
+  "literature": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "Evaluation of the Effect of Astragalus membranaceus Saponins Administration on Knee Function and Cartilage Biomarkers in Healthy Subjects with Knee Discomfort",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42356230/",
+        "note": "Nutrients。DOI 10.3390/nu18121842。隨機、雙盲、安慰劑、12 週、每日 200 mg。原料由 NuLiv Science USA 提供，根的 20:1 水萃取，皂苷至少 3%。主要終點組間未達顯著；KOOS 生活品質等次要結果組間顯著。"
+      }
+    ],
+    "note": "這篇是沒有膝關節炎診斷的健康成人。產品頁另寫 7 項體外研究，這次沒有打開那一批全文，不另標細胞證據。"
+  },
+  "evidenceLevels": [
+    "clinical"
+  ],
+  "images": [
+    {
+      "url": "https://cdn.prod.website-files.com/6a3707e704c48aa5b04a8692/6a67ed30953b485c36098728_jointIQ-hero-web.jpg",
+      "localPath": "",
+      "caption": "NuLiv Science 的 JointIQ 產品頁主圖。",
+      "source": "official_site"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Study Finds NuLiv Science Ingredient, JointIQ Supports Joint Health and Cartilage Markers in Active Adults",
+      "url": "https://www.prnewswire.com/news-releases/study-finds-nuliv-science-ingredient-jointiq-supports-supports-joint-health-and-cartilage-markers-in-active-adults-302941461.html",
+      "publisher": "PR Newswire",
+      "channel": "news",
+      "accessed": "2026-11-18",
+      "whatItContributes": "2026-11-17 NuLiv 發布第一篇 JointIQ 人體研究的新聞稿，並指向 Nutrients 論文。"
+    },
+    {
+      "title": "JointIQ",
+      "url": "https://nulivscience.com/ingredients/jointiq",
+      "publisher": "NuLiv Science",
+      "channel": "supplier_site",
+      "accessed": "2026-11-18",
+      "whatItContributes": "植物來源、建議 200 mg，以及供應商對膝生活品質與伸展的說法。"
+    },
+    {
+      "title": "PubMed 42356230",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42356230/",
+      "publisher": "PubMed",
+      "channel": "paper",
+      "accessed": "2026-11-18",
+      "whatItContributes": "12 週、每日 200 mg 的人體試驗；主要終點組間未顯著，KOOS 部分組間顯著。"
+    },
+    {
+      "title": "US8168596B2",
+      "url": "https://patents.google.com/patent/US8168596B2/en",
+      "publisher": "Google Patents",
+      "channel": "patent",
+      "accessed": "2026-11-18",
+      "whatItContributes": "申請人 Nuliv Holding Inc.，環阿屯烷化合物與軟骨缺損的方法請求項。"
+    },
+    {
+      "title": "NuLiv 商標",
+      "url": "https://tm.twincn.com/item.aspx?sn=4133120402",
+      "publisher": "台灣商標網",
+      "channel": "other",
+      "accessed": "2026-11-18",
+      "whatItContributes": "商標權人仲華國際股份有限公司（NULIV HOLDING INC.），台北市信義區。不是原料經銷頁。"
+    }
+  ],
+  "discovery": {
+    "channel": "news",
+    "scoutDate": "2026-11-18",
+    "notes": "從 2026-11-17 的 PR Newswire 進入 JointIQ，再對 NuLiv 產品頁與 PubMed 42356230。專利打開 US8168596B2。台灣關聯對過商標網、怡得的黃耆多醣規格，以及 JointIQ、NuLiv、黃耆皂苷搭配代理與經銷的檢索。"
+  }
+}

@@ -7,6 +7,949 @@ window.INGREDIENT_CATALOG = {
         "exhibition",
         "industry_report"
       ],
+      "date": "2026-11-18",
+      "example": false,
+      "notes": "正式五筆。主管道：JointIQ 為新聞；Chromax、MecobalActive、Altilix 為展覽；Palatinose 為產業報導。",
+      "picks": [
+        {
+          "discovery": {
+            "channel": "news",
+            "notes": "從 2026-11-17 的 PR Newswire 進入 JointIQ，再對 NuLiv 產品頁與 PubMed 42356230。專利打開 US8168596B2。台灣關聯對過商標網、怡得的黃耆多醣規格，以及 JointIQ、NuLiv、黃耆皂苷搭配代理與經銷的檢索。",
+            "scoutDate": "2026-11-18"
+          },
+          "efficacy": {
+            "claimedBenefits": [
+              "NuLiv 產品頁寫 JointIQ 來自 Astragalus membranaceus，建議 200 mg；並寫人體研究相對安慰劑，膝相關生活品質與膝伸展改善。這是供應商頁的說法。",
+              "PR Newswire 2026-11-17：NuLiv 公布第一篇 JointIQ 人體研究，12 週、每日一粒。稿中把步下測試約增 20%、恢復時間少逾 33% 放在前面。論文裡這兩個主要終點的組間差沒有達到統計顯著。",
+              "PubMed 42356230：健康成人、自述膝不適、沒有膝關節炎診斷，JointIQ 200 mg 或安慰劑、12 週。完成分析約 23 與 25 人。組間顯著的是 KOOS 生活品質、總分與疼痛；被動伸展的組間差在多重比較校正後減弱。步數與恢復時間只有組內改善。"
+            ],
+            "dosageNote": "200 mg 同時是目前產品頁的建議與這篇試驗的每日劑量。黃耆根那一筆只寫不得單一原料使用，沒有每日毫克。新聞稿的百分比不宜直接讀成主要終點已對安慰劑達顯著。",
+            "suggestedDosage": "產品頁寫 200 mg。上述試驗用的是每日一粒 200 mg、12 週，早餐後。"
+          },
+          "evidenceLevels": [
+            "clinical"
+          ],
+          "example": false,
+          "id": "jointiq",
+          "images": [
+            {
+              "caption": "NuLiv Science 的 JointIQ 產品頁主圖。",
+              "localPath": "",
+              "source": "official_site",
+              "url": "https://cdn.prod.website-files.com/6a3707e704c48aa5b04a8692/6a67ed30953b485c36098728_jointIQ-hero-web.jpg"
+            }
+          ],
+          "literature": {
+            "note": "這篇是沒有膝關節炎診斷的健康成人。產品頁另寫 7 項體外研究，這次沒有打開那一批全文，不另標細胞證據。",
+            "refs": [
+              {
+                "note": "Nutrients。DOI 10.3390/nu18121842。隨機、雙盲、安慰劑、12 週、每日 200 mg。原料由 NuLiv Science USA 提供，根的 20:1 水萃取，皂苷至少 3%。主要終點組間未達顯著；KOOS 生活品質等次要結果組間顯著。",
+                "title": "Evaluation of the Effect of Astragalus membranaceus Saponins Administration on Knee Function and Cartilage Biomarkers in Healthy Subjects with Knee Discomfort",
+                "url": "https://pubmed.ncbi.nlm.nih.gov/42356230/"
+              }
+            ],
+            "status": "yes"
+          },
+          "names": {
+            "commonEn": "Astragalus root saponin extract",
+            "commonZh": "黃耆根皂苷萃取物",
+            "scientific": "Astragalus membranaceus（Fisch.）Bge.，含蒙古變種。論文寫根的 20:1 水萃取，標準化皂苷至少 3%，並以 astragaloside IV 做薄層對照。不是黃耆樹膠。",
+            "trade": "JointIQ（NuLiv Science 的黃耆皂苷商品名）"
+          },
+          "patent": {
+            "note": "產品頁與試驗都寫 JointIQ 有專利。這次打開的是 US8168596B2。同族有台灣申請，這次沒有另開請求項。",
+            "refs": [
+              {
+                "note": "2012-05-01 核准，申請人 Nuliv Holding Inc.，狀態 Active。請求項是用環阿屯烷化合物處理軟骨缺損；說明書提到黃耆根。2026 年試驗材料寫的是根的水萃取，不是這份請求項裡的醇萃句子。",
+                "title": "US8168596B2 Use of cycloartane compounds for treating arthritis",
+                "url": "https://patents.google.com/patent/US8168596B2/en"
+              }
+            ],
+            "status": "yes"
+          },
+          "sources": [
+            {
+              "accessed": "2026-11-18",
+              "channel": "news",
+              "publisher": "PR Newswire",
+              "title": "Study Finds NuLiv Science Ingredient, JointIQ Supports Joint Health and Cartilage Markers in Active Adults",
+              "url": "https://www.prnewswire.com/news-releases/study-finds-nuliv-science-ingredient-jointiq-supports-supports-joint-health-and-cartilage-markers-in-active-adults-302941461.html",
+              "whatItContributes": "2026-11-17 NuLiv 發布第一篇 JointIQ 人體研究的新聞稿，並指向 Nutrients 論文。"
+            },
+            {
+              "accessed": "2026-11-18",
+              "channel": "supplier_site",
+              "publisher": "NuLiv Science",
+              "title": "JointIQ",
+              "url": "https://nulivscience.com/ingredients/jointiq",
+              "whatItContributes": "植物來源、建議 200 mg，以及供應商對膝生活品質與伸展的說法。"
+            },
+            {
+              "accessed": "2026-11-18",
+              "channel": "paper",
+              "publisher": "PubMed",
+              "title": "PubMed 42356230",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/42356230/",
+              "whatItContributes": "12 週、每日 200 mg 的人體試驗；主要終點組間未顯著，KOOS 部分組間顯著。"
+            },
+            {
+              "accessed": "2026-11-18",
+              "channel": "patent",
+              "publisher": "Google Patents",
+              "title": "US8168596B2",
+              "url": "https://patents.google.com/patent/US8168596B2/en",
+              "whatItContributes": "申請人 Nuliv Holding Inc.，環阿屯烷化合物與軟骨缺損的方法請求項。"
+            },
+            {
+              "accessed": "2026-11-18",
+              "channel": "other",
+              "publisher": "台灣商標網",
+              "title": "NuLiv 商標",
+              "url": "https://tm.twincn.com/item.aspx?sn=4133120402",
+              "whatItContributes": "商標權人仲華國際股份有限公司（NULIV HOLDING INC.），台北市信義區。不是原料經銷頁。"
+            }
+          ],
+          "supply": {
+            "relationship": "unknown",
+            "relationshipNote": "2026-11-18 打開台灣商標網 NuLiv 頁，權人是仲華國際股份有限公司（NULIV HOLDING INC.），地址臺北市信義區松仁路89號16樓，註冊號 00997910。Google Patents 的 US8168596B2 申請人寫 Nuliv Holding Inc.。這兩處都不是 JointIQ 原料的銷售頁。論文寫試驗原料由 NuLiv Science USA, Inc.（Brea, CA）提供。怡得國際原料表有黃耆萃取、多醣 40%，不是這個皂苷規格。以 JointIQ、NuLiv、黃耆皂苷搭配台灣、代理、經銷複查，沒有看到原料經銷頁。查核日 2026-11-18。",
+            "supplierCountry": "美國",
+            "supplierName": "NuLiv Science USA, Inc.",
+            "taiwanPartyName": "仲華國際股份有限公司（NULIV HOLDING INC.；商標權人，原料銷售頁未見）"
+          },
+          "tfda": {
+            "evidenceNotes": "黃耆根（Astragalus membranaceus，含蒙古變種）列為可直接食用，備註是不得單一原料使用。關鍵字「黃耆」另命中黃耆樹膠，那是特拉卡甘膠，不是本品。商品名 JointIQ 與添加物都是 0 筆。列名沒有寫每日毫克。",
+            "lookupDate": "2026-11-18",
+            "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+            "officialCrosscheck": {
+              "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+              "done": true,
+              "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+              "notes": "2026-11-18 連線 consumer.fda.gov.tw:443 出現 OpenSSL SSL_ERROR_SYSCALL，沒有取得官方詳細頁。查詢助手細節時間戳 2026-11-18 06:20，原料 1709 筆、添加物 804 筆。黃耆根這一筆的詳細頁網址是 MaterialDetail id 16868；中文名、學名、部位與「不得單一原料使用」與助手細節一致。添加物沒有這個品名。"
+            },
+            "queries": [
+              {
+                "category": "",
+                "keyword": "黃耆",
+                "matchedName": "黃耆；黃耆（樹）膠",
+                "note": "樹膠那一筆是名稱帶有黃耆，不是膜莢黃耆根。",
+                "restrictionNote": "黃耆：可直接食用，學名含 Astragalus membranaceus 與其蒙古變種，部位根，備註「不得單一原料使用」。另一筆是黃耆（樹）膠，外文名 Tragacanth gum。",
+                "resultCount": 2,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Astragalus",
+                "matchedName": "黃耆",
+                "note": "學名只對到根這一筆。",
+                "restrictionNote": "同上，根，不得單一原料使用。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "JointIQ",
+                "matchedName": "",
+                "note": "商品名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "黃耆",
+                "matchedName": "",
+                "note": "添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Astragalus",
+                "matchedName": "",
+                "note": "英文關鍵字在添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "黃耆",
+                "matchedName": "",
+                "note": "助手更新歷程（2026-11-01 至 2026-11-18）沒有這筆異動。資料時間戳 2026-11-18 06:20。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "history",
+                "unconfirmedSafety": false
+              }
+            ],
+            "usable": "listed_food_ingredient"
+          }
+        },
+        {
+          "discovery": {
+            "channel": "exhibition",
+            "notes": "從 SupplySide Global 2026 的 Everwell 展商頁與該公司 2026-10-22 展前記者稿進入 Chromax，再對產品頁。文獻只讀了兩篇沒有寫商品名的吡啶甲酸鉻摘要。台灣關聯打開宇晟部落格、good-sa 的吡啶甲酸鉻頁，以及 CHROMAX 商標頁；商標代理人沒有當成經銷商。",
+            "scoutDate": "2026-11-18"
+          },
+          "efficacy": {
+            "claimedBenefits": [
+              "Everwell 產品頁寫 Chromax 是臨床試驗最多的吡啶甲酸鉻，吸收可達其他鉻形式的 15 倍，並寫有助碳水化合物代謝、食慾與減重期間維持肌肉。這是供應商頁的說法，頁上沒有寫每日微克。",
+              "PubMed 16873787 摘要：第二型糖尿病、已用 sulfonylurea 者，再隨機接受 1,000 μg 鉻（以吡啶甲酸鉻計）或安慰劑 6 個月。摘要寫胰島素敏感度與血糖控制改善，體重與腹部脂肪增加少於安慰劑組。摘要沒有寫 Chromax。",
+              "PubMed 18715218 摘要：過重、有碳水化合物渴求的成年女性，雙盲 8 週。摘要寫的劑量是 1,000 mg of CrPic，不是微克；並寫食物攝取、飢餓與脂肪渴求低於安慰劑。同篇還有大鼠實驗。摘要沒有寫 Chromax。"
+            ],
+            "dosageNote": "添加物規格是每日鉻總量不高於 200 μg。1,000 μg 鉻已高於這個上限。18715218 摘要的 1,000 mg 與微克差了一千倍，這次只讀摘要，沒有改寫。兩篇摘要都沒有把材料寫成 Chromax。",
+            "suggestedDosage": "這次打開的 Everwell 產品頁沒有寫每日微克。16873787 摘要是每日 1,000 μg 鉻、6 個月。18715218 摘要寫 1,000 mg of CrPic、8 週。"
+          },
+          "evidenceLevels": [
+            "animal",
+            "clinical"
+          ],
+          "example": false,
+          "id": "chromax",
+          "images": [
+            {
+              "caption": "Everwell Health 的 Chromax 產品頁圖片。",
+              "localPath": "",
+              "source": "official_site",
+              "url": "https://everwellhealth.com/wp-content/uploads/2026/01/Chromax-Brochure-2.jpg"
+            }
+          ],
+          "literature": {
+            "note": "供應商頁寫 Chromax 有十多項臨床。上面兩篇摘要是吡啶甲酸鉻，沒有在摘要裡寫這個商品名，所以不把結果直接寫成 Chromax 已證明。",
+            "refs": [
+              {
+                "note": "Diabetes Care。摘要：sulfonylurea 加上 1,000 μg 鉻（CrPic）或安慰劑、6 個月。沒有寫商品名 Chromax。",
+                "title": "Chromium picolinate supplementation attenuates body weight gain and increases insulin sensitivity in subjects with type 2 diabetes",
+                "url": "https://pubmed.ncbi.nlm.nih.gov/16873787/"
+              },
+              {
+                "note": "摘要含 8 週人體與大鼠。人體劑量在摘要寫成 1,000 mg of CrPic。沒有寫 Chromax。",
+                "title": "Effects of chromium picolinate on food intake and satiety",
+                "url": "https://pubmed.ncbi.nlm.nih.gov/18715218/"
+              }
+            ],
+            "status": "yes"
+          },
+          "names": {
+            "commonEn": "chromium picolinate",
+            "commonZh": "吡啶甲酸鉻",
+            "scientific": "不適用植物學名。化合物是吡啶甲酸鉻。Everwell 頁寫吸收可達其他鉻形式的 15 倍，這是供應商頁的比較，不是這次讀到的論文摘要原文。",
+            "trade": "Chromax（Nutrition21／Everwell Health 的吡啶甲酸鉻商品名；專利頁寫 chromic tripicolinate）"
+          },
+          "patent": {
+            "note": "這份專利已經到期。Everwell 這次打開的產品頁沒有列專利號。公司其他網頁的專利清單沒有逐筆打開，不另掛號碼。",
+            "refs": [
+              {
+                "note": "1992-02-11 核准，申請人 Nutrition 21 LLC。Google Patents 標 Expired - Lifetime，預計到期 2009-02-11。請求項是使用 chromic picolinate，較佳為 tripicolinate。",
+                "title": "US5087623A Chromic picolinate treatment",
+                "url": "https://patents.google.com/patent/US5087623A/en"
+              }
+            ],
+            "status": "yes"
+          },
+          "sources": [
+            {
+              "accessed": "2026-11-18",
+              "channel": "exhibition",
+              "publisher": "SupplySide Global",
+              "title": "Everwell Health，SupplySide Global 2026 展商頁",
+              "url": "https://exhibitor.supplysideglobal.com/supplysideglobal26/Public/eBooth.aspx?BoothID=151727&FromPage=Exhibitors.aspx&IndexInList=899&ListByBooth=true&Nav=False&ParentBoothID=",
+              "whatItContributes": "展商 Everwell Health，攤位 2765，品牌欄列出 Chromax。同頁還有 Nitrosigine 等其他商品，不是這張卡的原料。"
+            },
+            {
+              "accessed": "2026-11-18",
+              "channel": "exhibition",
+              "publisher": "Everwell Health",
+              "title": "Everwell Health Exhibits Functional Ingredients at SupplySide Global 2026",
+              "url": "https://everwellhealth.com/everwell-health-exhibits-functional-ingredients-that-support-a-life-well-lived-at-supplyside-global-2026/",
+              "whatItContributes": "2026-10-22 新聞寫攤位 2765 的 Metabolism Chews 與 MetaboBerry 果昔使用 Chromax，並寫一日一次的咀嚼錠概念。沒有寫毫克。"
+            },
+            {
+              "accessed": "2026-11-18",
+              "channel": "supplier_site",
+              "publisher": "Everwell Health",
+              "title": "Chromax",
+              "url": "https://everwellhealth.com/chromax/",
+              "whatItContributes": "供應商對吸收、食慾、代謝與減重期間維持肌肉的說法。地址在 Saddle Brook, NJ。"
+            },
+            {
+              "accessed": "2026-11-18",
+              "channel": "paper",
+              "publisher": "PubMed",
+              "title": "PubMed 16873787",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/16873787/",
+              "whatItContributes": "第二型糖尿病、1,000 μg 鉻的人體試驗摘要。沒有寫 Chromax。"
+            },
+            {
+              "accessed": "2026-11-18",
+              "channel": "other",
+              "publisher": "綠茵生技",
+              "title": "綠茵生技的吡啶甲酸鉻頁",
+              "url": "https://www.greenynbio.com/en/product/agent/special/chromax/",
+              "whatItContributes": "英文頁標題含 chromax，路徑在 agent。沒有寫獨家或 Nutrition21 授權。"
+            },
+            {
+              "accessed": "2026-11-18",
+              "channel": "other",
+              "publisher": "台灣康田生化科技",
+              "title": "康田的吡啶甲酸鉻目錄",
+              "url": "https://twkt.com.tw/r239-chromium-picolinate",
+              "whatItContributes": "R239-01 寫吡啶甲酸鉻 Chromax（美國）。頁上寫僅提供資訊、不予產品銷售。"
+            },
+            {
+              "accessed": "2026-11-18",
+              "channel": "other",
+              "publisher": "宇晟生醫科技",
+              "title": "宇晟生醫的 Chromax 文章",
+              "url": "https://shop.realpromise.com/zh-hant/blog/posts/chromium-chromax",
+              "whatItContributes": "台灣公司部落格介紹 Chromax，並自行寫到每日鉻 200 微克的添加物上限。未自稱原料代理。"
+            }
+          ],
+          "supply": {
+            "relationship": "unknown",
+            "relationshipNote": "Everwell 頁地址是美國紐澤西 Saddle Brook。台灣商標 CHROMAX 權人是美國 Nutrition 21, LLC，台北的姚漢婷是商標申請代理人，不是經銷商。綠茵英文頁標題是 Chromium Picolinate (chromax)，路徑在 /product/agent/，地址寫台中大雅科雅路與新北新莊；中文頁標題只寫吡啶甲酸鉻（美國），地址又寫台中北區青島路。兩種地址都留下。頁文沒有寫總代理。康田目錄 R239-01 寫吡啶甲酸鉻 Chromax（美國），並寫本站僅提供資訊、不予產品銷售。宇晟生醫（統一編號 52427266）部落格介紹 Chromax，未自稱原料代理。good-sa.com.tw 只寫吡啶甲酸鉻、沒有寫 Chromax。查核日 2026-11-18。",
+            "supplierCountry": "美國",
+            "supplierName": "Nutrition21, LLC（Everwell Health）",
+            "taiwanPartyName": "綠茵生技（目錄列 chromax，未寫獨家）；台灣康田生化科技（目錄列 Chromax，頁寫不銷售）；宇晟生醫（成品部落格）"
+          },
+          "tfda": {
+            "evidenceNotes": "添加物有吡啶甲酸鉻。標示每日食用量的食品，每日鉻總量不得高於 200 μg；特殊營養食品可依需要使用。限於補充食品中不足的營養素。原料分頁的吡啶甲酸鉻與商品名 Chromax 都是 0 筆。另有鉻酵母，每日鉻也不得超過 200 μg，那是酵母菌體，不是這個螯合物。",
+            "lookupDate": "2026-11-18",
+            "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+            "officialCrosscheck": {
+              "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+              "done": true,
+              "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+              "notes": "2026-11-18 連線 consumer.fda.gov.tw:443 出現 OpenSSL SSL_ERROR_SYSCALL，沒有取得官方詳細頁。查詢助手細節時間戳 2026-11-18 06:20，原料 1709 筆、添加物 804 筆。吡啶甲酸鉻詳細頁網址是 FoodAdditivesListDetail id 294；類別、每日 200 μg 與使用限制與助手細節一致。原料沒有這個品名。"
+            },
+            "queries": [
+              {
+                "category": "",
+                "keyword": "吡啶甲酸鉻",
+                "matchedName": "吡啶甲酸鉻",
+                "note": "詳細頁 id 294。",
+                "restrictionNote": "營養添加劑。英文 Chromium Picolinate。標示每日食用量的食品，每日鉻總量不得高於 200 μg；特殊營養食品可依實際需要適量使用。限於補充食品中不足之營養素時使用。",
+                "resultCount": 1,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Chromax",
+                "matchedName": "",
+                "note": "商品名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "吡啶甲酸鉻",
+                "matchedName": "",
+                "note": "原料 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "鉻",
+                "matchedName": "鉻酵母",
+                "note": "是鉻酵母，不是吡啶甲酸鉻。",
+                "restrictionNote": "微生物來源，學名 Saccharomyces cerevisiae，部位菌體。鉻之每日最高攝食量不得超過 200 μg。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "吡啶甲酸鉻",
+                "matchedName": "",
+                "note": "助手更新歷程（2026-11-01 至 2026-11-18）沒有這筆異動。資料時間戳 2026-11-18 06:20。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "history",
+                "unconfirmedSafety": false
+              }
+            ],
+            "usable": "listed_food_additive"
+          }
+        },
+        {
+          "discovery": {
+            "channel": "exhibition",
+            "notes": "從 SupplySide Global 2026 的 HTBA 展商頁進入 MecobalActive，再對 HTBA 功能原料頁與 2026-06-08 的 NutraIngredients 試驗報導。台灣關聯打開藥要看的甲鈷胺明許可頁，沒有把它寫成食品原料代理。專利號這次沒有對到。",
+            "scoutDate": "2026-11-18"
+          },
+          "efficacy": {
+            "claimedBenefits": [
+              "HTBA 功能原料頁寫 MecobalActive 是甲基鈷胺，USP 與 JP 等級，並寫生體可用率與體內停留高於氰鈷胺。頁上沒有寫日常毫克。這是供應商頁的說法。",
+              "NutraIngredients 2026-06-08：18 名男性業餘自行車手，MecobalActive 或安慰劑、舌下錠、3 天，末劑在測試前約 5 小時。報導寫尖峰功率高於安慰劑、反覆衝刺的疲勞下降較少、反應測驗較快，血清 B12 約增 16.8%。"
+            ],
+            "dosageNote": "1 mg 等於 1000 μg，剛好是膠囊與錠狀食品的每日維生素 B12 總量上限。試驗是 3 天、舌下錠、業餘男性自行車手，不是一般長期建議。原料頁沒有另給一個較低的日常劑量。",
+            "suggestedDosage": "這次打開的 HTBA 功能原料頁沒有寫日常毫克。上述試驗是每日 1 mg、連續 3 天。"
+          },
+          "evidenceLevels": [
+            "clinical"
+          ],
+          "example": false,
+          "id": "mecobalactive",
+          "images": [
+            {
+              "caption": "HTBA 的 MecobalActive 介紹頁圖片。",
+              "localPath": "",
+              "source": "official_site",
+              "url": "https://htba.com/wp-content/uploads/2025/10/Mecobalactive.jpeg"
+            }
+          ],
+          "literature": {
+            "note": "這是短天數、小樣本的運動試驗。新聞稿的機制句子（神經傳導、NRF2）是報導轉述，不是這次讀到的全文數據。",
+            "refs": [
+              {
+                "note": "Nutraceuticals，2026。DOI 頁這次回 500。NutraIngredients 2026-06-08 引用同一 DOI，並寫 MecobalActive、1 mg／日、3 天、18 名男性業餘自行車手、隨機三盲交叉。",
+                "title": "Short-Term Methylcobalamin Supplementation Is Associated with Changes in Anaerobic and Cognitive Performance in Amateur Cyclists: A Randomized Crossover Trial",
+                "url": "https://doi.org/10.3390/nutraceuticals6020035"
+              }
+            ],
+            "status": "yes"
+          },
+          "names": {
+            "commonEn": "methylcobalamin (mecobalamin)",
+            "commonZh": "甲鈷胺（甲基鈷胺）",
+            "scientific": "不適用植物學名。化合物是甲基鈷胺。HTBA 功能原料頁寫 USP 與 JP 等級，並寫純度與含量高於一般甲基鈷胺。頁上沒有寫日常毫克。",
+            "trade": "MecobalActive（HTBA 的甲基鈷胺商品名）"
+          },
+          "patent": {
+            "note": "HTBA 功能原料頁寫綠色化學的專利製程，沒有專利號。這次沒有打開一份請求項寫明 MecobalActive 或甲基鈷胺純化方法的專利，狀態留未知。",
+            "refs": [],
+            "status": "unknown"
+          },
+          "sources": [
+            {
+              "accessed": "2026-11-18",
+              "channel": "exhibition",
+              "publisher": "SupplySide Global",
+              "title": "HTBA，SupplySide Global 2026 展商頁",
+              "url": "https://exhibitor.supplysideglobal.com/supplysideglobal26/Public/eBooth.aspx?BoothID=152239&FromPage=Exhibitors.aspx&IndexInList=675&ListByBooth=true&Nav=False&ParentBoothID=",
+              "whatItContributes": "展商 HTBA，巴塞隆納，攤位 3645。品牌欄寫 MecobalActive 用於認知與神經體能。同頁還有 Cardiose、DiosVein，不是這張卡的原料。"
+            },
+            {
+              "accessed": "2026-11-18",
+              "channel": "supplier_site",
+              "publisher": "HTBA",
+              "title": "Functional Health",
+              "url": "https://htba.com/solutions/functional-health/",
+              "whatItContributes": "甲基鈷胺、USP 與 JP 等級，以及相對氰鈷胺的供應商說法。沒有日常毫克。"
+            },
+            {
+              "accessed": "2026-11-18",
+              "channel": "news",
+              "publisher": "NutraIngredients",
+              "title": "HTBA vitamin B12 boosts cycling performance",
+              "url": "https://www.nutraingredients.com/Article/2026/06/08/htba-vitamin-b12-boosts-cycling-performance/",
+              "whatItContributes": "3 天、1 mg、18 名男性業餘自行車手的試驗報導，並給出論文 DOI。"
+            },
+            {
+              "accessed": "2026-11-18",
+              "channel": "other",
+              "publisher": "iHerb",
+              "title": "Seeking Health Methyl B12，iHerb 台灣站",
+              "url": "https://tw.iherb.com/pr/seeking-health-methyl-b12-1-000-mcg-60-lozenges/122616",
+              "whatItContributes": "成品標示維生素 B12 1,000 mcg，來源同時寫 MECOBALACTIVE 甲基鈷胺與腺苷鈷胺。不是原料代理。"
+            },
+            {
+              "accessed": "2026-11-18",
+              "channel": "other",
+              "publisher": "藥要看",
+              "title": "甲鈷胺明許可資料",
+              "url": "https://drugs.olc.tw/licenses/view/571a5d22-a784-440e-bce5-148bd38a10d1/",
+              "whatItContributes": "許可證 52026724，申請商裕元興業，製造廠欄為 HTBA Beniel。是藥品資料，不是食品原料代理頁。"
+            }
+          ],
+          "supply": {
+            "relationship": "unknown",
+            "relationshipNote": "HTBA 總部在西班牙巴塞隆納，製造在 Murcia 的 Beniel。藥要看頁面的許可證 52026724，品名甲鈷胺明，適應症末梢神經障礙，申請商裕元興業股份有限公司（台北市松江路129號9樓），製造廠欄是 HealthTech BioActives, S.L.U. Beniel。頁上沒有寫 MecobalActive。iHerb 台灣站的 Seeking Health 錠標示維生素 B12（as MECOBALACTIVE methylcobalamin and adenosylcobalamin）1,000 mcg，是美國成品，不是台灣原料代理。以 MecobalActive、HTBA 搭配台灣、代理、經銷複查，沒有看到食品原料經銷頁。查核日 2026-11-18。這次沒有另開食藥署藥品查詢頁。",
+            "supplierCountry": "西班牙",
+            "supplierName": "HealthTech BioActives, S.L.U.（HTBA）",
+            "taiwanPartyName": "裕元興業（藥品許可證申請商）；iHerb 台灣站販售 Seeking Health 成品（含 MECOBALACTIVE，不是原料代理）"
+          },
+          "tfda": {
+            "evidenceNotes": "添加物有甲鈷胺（甲基鈷胺）。限膠囊或錠狀、且標示每日食用量的食品，每日維生素 B12 總量不得高於 1000 μg，並限於補充營養素。原料分頁的甲鈷胺、methylcobalamin 與商品名 MecobalActive 都是 0 筆。添加物另有氰鈷胺等其他 B12 形式，不是這一筆。",
+            "lookupDate": "2026-11-18",
+            "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+            "officialCrosscheck": {
+              "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+              "done": true,
+              "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+              "notes": "2026-11-18 連線 consumer.fda.gov.tw:443 出現 OpenSSL SSL_ERROR_SYSCALL，沒有取得官方詳細頁。查詢助手細節時間戳 2026-11-18 06:20，原料 1709 筆、添加物 804 筆。甲鈷胺詳細頁網址是 FoodAdditivesListDetail id 341；劑型、1000 μg 與使用限制與助手細節一致。原料沒有這個品名。"
+            },
+            "queries": [
+              {
+                "category": "",
+                "keyword": "甲鈷胺",
+                "matchedName": "甲鈷胺(甲基鈷胺)",
+                "note": "詳細頁 id 341。",
+                "restrictionNote": "營養添加劑。英文 Mecobalamin/ Methylcobalamin。形態屬膠囊狀、錠狀且標示有每日食用限量之食品，每日食用量中維生素 B12 總含量不得高於 1000 μg。限於補充食品中不足之營養素時使用。",
+                "resultCount": 1,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "methylcobalamin",
+                "matchedName": "甲鈷胺(甲基鈷胺)",
+                "note": "英文關鍵字對到同一筆。",
+                "restrictionNote": "同上。",
+                "resultCount": 1,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "MecobalActive",
+                "matchedName": "",
+                "note": "商品名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "甲鈷胺",
+                "matchedName": "",
+                "note": "原料 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "methylcobalamin",
+                "matchedName": "",
+                "note": "原料外文名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "甲鈷胺",
+                "matchedName": "",
+                "note": "助手更新歷程（2026-11-01 至 2026-11-18）沒有這筆異動。資料時間戳 2026-11-18 06:20。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "history",
+                "unconfirmedSafety": false
+              }
+            ],
+            "usable": "listed_food_additive"
+          }
+        },
+        {
+          "discovery": {
+            "channel": "exhibition",
+            "notes": "從 Vitafoods Asia 2026 的 Altilix 展品頁進入 Bionap 產品頁，再對 PubMed 31731527。學名在產品頁與論文不一致，TFDA 只列 Cynara scolymus，因此狀態留待覆核。台灣關聯打開統園 2021 新聞、pakku 與智慧三寶成品頁，以及和聚的 Bionap 頁。和聚頁上看到的是 Bergavit，不是 Altilix。統園的獨家是該公司舊聞自述。",
+            "scoutDate": "2026-11-18"
+          },
+          "efficacy": {
+            "claimedBenefits": [
+              "Bionap 產品頁寫 Altilix 是 Cynara cardunculus var. altilis 葉的粉末萃取，建議 150 mg／日，並寫有人體研究支持代謝、心血管、體重與腰圍、肝臟。規格在公司 PDF 的檢索結果寫綠原酸及其衍生物 10% 至 12%、木犀草苷及其衍生物 2% 至 4%。這次以產品頁的劑量與植物為準。",
+              "PubMed 31731527：代謝症候群成人，Altilix 150 mg／日或安慰劑、6 個月，各約 50 人。方法寫錠劑由 Bionap 提供，成分為綠原酸及其衍生物 10% 至 12%、木犀草苷及其衍生物 2% 至 4%，植物寫成 Cynara cardunculus (L.) subsp. scolymus Hayek。"
+            ],
+            "dosageNote": "150 mg／日同時是供應商建議與這篇代謝症候群試驗的劑量。平台的朝鮮薊葉沒有寫每日毫克。產品頁與論文的學名不一致，劑量不能用來解消這個差異。",
+            "suggestedDosage": "產品頁與上述試驗都是 150 mg／日。試驗為期 6 個月。"
+          },
+          "evidenceLevels": [
+            "clinical"
+          ],
+          "example": false,
+          "id": "altilix",
+          "images": [
+            {
+              "caption": "Bionap 的 Altilix 產品頁圖片。",
+              "localPath": "",
+              "source": "official_site",
+              "url": "https://bionap.com/assets/images/products/altilix/img_1.png"
+            }
+          ],
+          "literature": {
+            "note": "這篇是代謝症候群成人，不是一般健康人的日常補充試驗。2023 年的前肥胖子群再分析這次沒有另開全文。",
+            "refs": [
+              {
+                "note": "Nutrients，2019。DOI 10.3390/nu11112580。每日 150 mg、6 個月。登記 NCT03444558。植物寫法與現行產品頁不同。",
+                "title": "Altilix Supplement Containing Chlorogenic Acid and Luteolin Improved Hepatic and Cardiometabolic Parameters in Subjects with Metabolic Syndrome: A 6 Month Randomized, Double-Blind, Placebo-Controlled Study",
+                "url": "https://pubmed.ncbi.nlm.nih.gov/31731527/"
+              }
+            ],
+            "status": "yes"
+          },
+          "names": {
+            "commonEn": "artichoke leaf extract",
+            "commonZh": "朝鮮薊葉萃取物",
+            "scientific": "產品頁寫 Cynara cardunculus var. altilis DC. 的葉。2019 年試驗方法寫 Cynara cardunculus (L.) subsp. scolymus Hayek。兩處學名不一致，都留下。不是朝鮮薊花，也不是果實。",
+            "trade": "Altilix（Bionap 的朝鮮薊葉萃取商品名；頁上亦寫 altilix）"
+          },
+          "patent": {
+            "note": "產品頁與 2019 年論文這次讀到的部分沒有專利號。2026-11-18 沒有打開一份請求項寫明 Altilix 的專利，狀態留未知。",
+            "refs": [],
+            "status": "unknown"
+          },
+          "sources": [
+            {
+              "accessed": "2026-11-18",
+              "channel": "exhibition",
+              "publisher": "Vitafoods Asia",
+              "title": "ALTILIX，Vitafoods Asia 2026 展品頁",
+              "url": "https://visitor.vitafoodsglobal.com/event/vitafoods-asia-2026/product/UHJvZHVjdF8xNTA2ODYz",
+              "whatItContributes": "Bionap Asia Pacific 攤位 H5-E41 的展品頁。寫西西里朝鮮薊葉、綠原酸與木犀草素衍生物、150 mg／日。"
+            },
+            {
+              "accessed": "2026-11-18",
+              "channel": "supplier_site",
+              "publisher": "Bionap",
+              "title": "Altilix",
+              "url": "https://bionap.com/products/altilix",
+              "whatItContributes": "栽培種寫成 Cynara cardunculus var. altilis DC.，部位是葉，建議 150 mg／日。"
+            },
+            {
+              "accessed": "2026-11-18",
+              "channel": "paper",
+              "publisher": "PubMed",
+              "title": "PubMed 31731527",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/31731527/",
+              "whatItContributes": "6 個月、每日 150 mg 的代謝症候群人體試驗，植物寫法與產品頁不同。"
+            },
+            {
+              "accessed": "2026-11-18",
+              "channel": "other",
+              "publisher": "統園企業",
+              "title": "統園 2021 亞洲生技大展新聞",
+              "url": "https://www.tyig.com.tw/web/news/news_in.jsp?lang=tw&np_no=NP1635929180145",
+              "whatItContributes": "2021-11-03 該公司自述獨家代理 Altilix 朝鮮薊萃取物。不是原廠經銷名單，也不是 2026 年的產品頁。"
+            },
+            {
+              "accessed": "2026-11-18",
+              "channel": "other",
+              "publisher": "pakku",
+              "title": "pakku 的朝鮮薊膠囊",
+              "url": "https://www.pakku.com.tw/products/atc",
+              "whatItContributes": "台灣成品頁標題寫 ALTILIX，成分為朝鮮薊葉萃取物，產地西西里 Piano Tavola。不是原料代理聲明。"
+            },
+            {
+              "accessed": "2026-11-18",
+              "channel": "other",
+              "publisher": "WellMart／智慧三寶",
+              "title": "A STEAL 超高濃縮火山朝鮮薊",
+              "url": "https://wellmart.cc/product/a-steal-%e8%b6%85%e9%ab%98%e6%bf%83%e7%b8%ae%e7%81%ab%e5%b1%b1%e6%9c%9d%e9%ae%ae%e8%96%8a/",
+              "whatItContributes": "負責廠商智慧三寶。常見問答寫 ALTILIX 是 Bionap 原料。成分另含桑黃，是成品採用。"
+            }
+          ],
+          "supply": {
+            "relationship": "taiwan_agent",
+            "relationshipNote": "Bionap 產品頁地址是義大利 Belpasso。統園 2021-11-03 新聞寫該公司獨家代理 Altilix 朝鮮薊萃取物。這是統園自述，不是 Bionap 經銷名單。2026-11-18 在統園網域搜 Altilix，沒有看到另一份現行產品頁。pakku 膠囊標題寫 ALTILIX，成分是朝鮮薊葉萃取物。智慧三寶的 A STEAL 頁常見問答寫 ALTILIX 是 Bionap 原料，成分另含桑黃。和聚有 Bionap 的 Bergavit 頁，品牌彙整頁沒有列出 Altilix。台灣商標權人是義大利 Bionap，賴經臣與宿希成是商標申請代理人。查核日 2026-11-18。",
+            "supplierCountry": "義大利",
+            "supplierName": "Bionap S.r.l.",
+            "taiwanPartyName": "統園企業（該公司 2021 年新聞自述獨家代理）；pakku 與智慧三寶為成品採用"
+          },
+          "tfda": {
+            "evidenceNotes": "朝鮮薊（Cynara scolymus）的花苞、花托、葉列為可直接食用，備註空白。商品名 Altilix 與 Cynara cardunculus 都是 0 筆。產品頁寫的栽培種是 var. altilis，和平台學名不是同一串字。添加物 0 筆。關鍵字 altilis 另命中麵包果，不是本品。",
+            "lookupDate": "2026-11-18",
+            "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+            "officialCrosscheck": {
+              "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+              "done": true,
+              "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+              "notes": "2026-11-18 連線 consumer.fda.gov.tw:443 出現 OpenSSL SSL_ERROR_SYSCALL，沒有取得官方詳細頁。查詢助手細節時間戳 2026-11-18 06:20。朝鮮薊詳細頁網址是 MaterialDetail id 16911；學名 Cynara scolymus、部位含葉、備註空白，與助手細節一致。var. altilis 沒有另列。添加物沒有這個品名。"
+            },
+            "queries": [
+              {
+                "category": "",
+                "keyword": "朝鮮薊",
+                "matchedName": "朝鮮薊；菜薊；食用薊；洋菜薊",
+                "note": "葉在部位裡。栽培種字串沒有寫 var. altilis。",
+                "restrictionNote": "可供食品使用。可直接食用。學名 Cynara scolymus L.，外文名 Artichoke，部位花苞、花托、葉，備註空白。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Cynara",
+                "matchedName": "朝鮮薊；菜薊；食用薊；洋菜薊",
+                "note": "屬名對到這一筆。",
+                "restrictionNote": "同上。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "cardunculus",
+                "matchedName": "",
+                "note": "產品頁的種小名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Altilix",
+                "matchedName": "",
+                "note": "商品名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "altilis",
+                "matchedName": "麵包果",
+                "note": "不把這一筆算進本品。",
+                "restrictionNote": "命中的是麵包果學名裡的 altilis，不是朝鮮薊。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "朝鮮薊",
+                "matchedName": "",
+                "note": "添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Altilix",
+                "matchedName": "",
+                "note": "商品名在添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "朝鮮薊",
+                "matchedName": "",
+                "note": "助手更新歷程（2026-11-01 至 2026-11-18）沒有這筆異動。資料時間戳 2026-11-18 06:20。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "history",
+                "unconfirmedSafety": false
+              }
+            ],
+            "usable": "needs_review"
+          }
+        },
+        {
+          "discovery": {
+            "channel": "industry_report",
+            "notes": "從 Nutrition Insight 2026-03-05 的 Expo West 報導進入 Palatinose，再對 BENEO 產品頁與 PubMed 31590285。添加物命中的是氫化巴糖醇，與雙糖分開記。台灣關聯對過大昌華嘉 2022 新聞與 2026 原料頁，獨家只保留該公司自述。",
+            "scoutDate": "2026-11-18"
+          },
+          "efficacy": {
+            "claimedBenefits": [
+              "BENEO 產品頁寫 Palatinose 提供每克 4 大卡，升糖指數 32，蔗糖是 65；並寫能量釋放較平、有助脂肪氧化，甜度約為蔗糖一半。這是供應商頁的說法。",
+              "PubMed 31590285：過重或肥胖成人，減重飲食中每天 40 克異麥芽酮糖（Palatinose）或蔗糖、12 週。64 人分組，50 人完成。兩組體重都下降；異麥芽酮糖組多減約 1 公斤，組間 p 為 0.258。同組脂肪量下降達顯著，能量攝取減少也大於蔗糖組。"
+            ],
+            "dosageNote": "40 克是那篇減重試驗的每日量，不是平台上限；原料這一筆沒有寫每日克數。15 克是 2026 年展場飲品概念的每份含量。體重組間差在摘要裡沒有達到統計顯著。",
+            "suggestedDosage": "產品頁沒有寫單一每日克數，而是依食品取代蔗糖。31590285 用的是每天 40 克、12 週。Nutrition Insight 2026-03-05 報導展場燕麥拿鐵每 355 毫升含 15 克 Palatinose。"
+          },
+          "evidenceLevels": [
+            "clinical"
+          ],
+          "example": false,
+          "id": "palatinose",
+          "images": [
+            {
+              "caption": "BENEO 的 Palatinose 產品頁橫幅圖。",
+              "localPath": "",
+              "source": "official_site",
+              "url": "https://www.beneo.com/wp-content/uploads/2018/01/beneo-header-palatinose-1920x460px-x2-srgb-scaled.jpg"
+            }
+          ],
+          "literature": {
+            "note": "供應商新聞若寫只有 Palatinose 組顯著減重，和這篇摘要不完全相同。摘要是兩組都顯著減重，組間體重差不顯著。這裡以摘要為準。",
+            "refs": [
+              {
+                "note": "Nutrients，2019。每天 40 克 Palatinose 或蔗糖。體重組間 p 為 0.258；能量攝取與餐後呼吸商有組間差異。",
+                "title": "Changes in Weight and Substrate Oxidation in Overweight Adults Following Isomaltulose Intake During a 12-Week Weight Loss Intervention: A Randomized, Double-Blind, Controlled Trial",
+                "url": "https://pubmed.ncbi.nlm.nih.gov/31590285/"
+              }
+            ],
+            "status": "yes"
+          },
+          "names": {
+            "commonEn": "isomaltulose",
+            "commonZh": "異麥芽酮糖（巴拉金糖）",
+            "scientific": "不適用植物學名。BENEO 寫由甜菜糖的蔗糖經酵素把 α-1,2 鍵改成 α-1,6 鍵。不是氫化後的異麥芽酮糖醇（巴糖醇、Isomalt）。",
+            "trade": "Palatinose（BENEO 的異麥芽酮糖商品名；規格頁另有 PST-N、PST-PF、PST-PA）"
+          },
+          "patent": {
+            "note": "這次打開的 BENEO 產品頁與 Expo West 報導都沒有專利號。2026-11-18 沒有打開一份請求項寫明 Palatinose 製程的專利，狀態留未知。",
+            "refs": [],
+            "status": "unknown"
+          },
+          "sources": [
+            {
+              "accessed": "2026-11-18",
+              "channel": "industry_report",
+              "publisher": "Nutrition Insight",
+              "title": "Expo West 2026 live: Beneo features fiber-rich ingredients for gut health and satiety",
+              "url": "https://www.nutritioninsight.com/news/expo-west-2026-beneo-fiber-gut-health.html",
+              "whatItContributes": "2026-03-05 展場報導。燕麥拿鐵每 355 毫升含 15 克 Palatinose，並把 Palatinose 與 Isomalt 分成兩種低碳水升糖原料。"
+            },
+            {
+              "accessed": "2026-11-18",
+              "channel": "supplier_site",
+              "publisher": "BENEO",
+              "title": "Palatinose",
+              "url": "https://www.beneo.com/human-nutrition/human-nutrition-products/functional-carbohydrates/palatinose",
+              "whatItContributes": "甜菜糖來源、α-1,6 鍵、每克 4 大卡、升糖指數 32，以及 PST-N、PST-PF、PST-PA 三種粒徑。"
+            },
+            {
+              "accessed": "2026-11-18",
+              "channel": "paper",
+              "publisher": "PubMed",
+              "title": "PubMed 31590285",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/31590285/",
+              "whatItContributes": "12 週、每天 40 克的減重試驗摘要。體重組間差不顯著。"
+            },
+            {
+              "accessed": "2026-11-18",
+              "channel": "other",
+              "publisher": "台灣大昌華嘉",
+              "title": "台灣大昌華嘉 2022-11-09 新聞",
+              "url": "https://www.dksh.com/tw-zh-Hant/home/media/news/%E5%8F%B0%E7%81%A3%E5%A4%A7%E6%98%8C%E8%8F%AF%E5%98%89%E7%89%B9%E7%94%A8%E5%8E%9F%E6%96%99%E6%A6%AE%E7%8D%B2%E5%8E%9F%E6%96%99%E5%A4%A7%E5%BB%A0beneo%E8%A1%A8%E6%8F%9A",
+              "whatItContributes": "該公司自述亞太獨家代理 Beneo，範圍含 Palatinose。獨家是這則新聞的自述。"
+            },
+            {
+              "accessed": "2026-11-18",
+              "channel": "other",
+              "publisher": "台灣大昌華嘉",
+              "title": "台灣大昌華嘉食品與飲品原料",
+              "url": "https://www.dksh.com/tw-zh-Hant/home/performance-materials/food-beverage-ingredients",
+              "whatItContributes": "2026 年頁面仍列出 BENEO 的 Palatinose 與 Isomalt。用詞是合作夥伴，沒有再寫獨家。"
+            }
+          ],
+          "supply": {
+            "relationship": "taiwan_agent",
+            "relationshipNote": "BENEO 頁地址是德國 Mannheim。台灣大昌華嘉 2022-11-09 新聞寫，特用原料在亞太獨家代理 Beneo 產品 20 年，範圍含異麥芽酮糖／巴拉金糖 Palatinose，以及 Isomalt。2026 年食品與飲品原料頁仍把 Palatinose 與 Isomalt 並列在 BENEO 合作項目，用詞是合作夥伴，沒有再寫獨家。獨家只依 2022 年該公司新聞，不升格成原廠獨家證明。查核日 2026-11-18。",
+            "supplierCountry": "德國",
+            "supplierName": "BENEO GmbH",
+            "taiwanPartyName": "台灣大昌華嘉（DKSH Taiwan；該公司 2022 年新聞自述代理，含 Palatinose）"
+          },
+          "tfda": {
+            "evidenceNotes": "原料有異麥芽酮糖，備註寫可由蔗糖經微生物轉成，巴拉金糖（Palatinose）為商品名。用 Palatinose 或異麥芽酮糖搜添加物，會命中兩筆異麥芽酮糖醇（巴糖醇），英文是 Hydrogenated Palatinose，那是氫化糖醇，不是這個雙糖。中文「巴拉金糖」在添加物是 0 筆。兩類都有列名，化合物不同。",
+            "lookupDate": "2026-11-18",
+            "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+            "officialCrosscheck": {
+              "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+              "done": true,
+              "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+              "notes": "2026-11-18 連線 consumer.fda.gov.tw:443 出現 OpenSSL SSL_ERROR_SYSCALL，沒有取得官方詳細頁。查詢助手細節時間戳 2026-11-18 06:20。異麥芽酮糖詳細頁是 MaterialDetail id 17326，備註含 Palatinose。添加物 id 823 與 844 是異麥芽酮糖醇，英文 Hydrogenated Palatinose。兩邊都有列，化合物不同。"
+            },
+            "queries": [
+              {
+                "category": "",
+                "keyword": "異麥芽酮糖",
+                "matchedName": "異麥芽酮糖",
+                "note": "詳細頁 id 17326。BENEO 寫甜菜糖，平台寫蜂蜜、甘蔗汁與蔗糖發酵，來源句子不完全相同。",
+                "restrictionNote": "草木本植物類來源製取之原料。外文名 Isomaltulose。備註寫存在於蜂蜜與甘蔗汁，商業上經微生物發酵將蔗糖轉為異麥芽酮糖，巴拉金糖（Palatinose）為商品名。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "巴拉金糖",
+                "matchedName": "異麥芽酮糖",
+                "note": "中文商品名在原料備註裡。",
+                "restrictionNote": "同上。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Palatinose",
+                "matchedName": "異麥芽酮糖",
+                "note": "英文商品名在原料備註裡。",
+                "restrictionNote": "同上。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Palatinose",
+                "matchedName": "異麥芽酮糖醇（巴糖醇）",
+                "note": "是氫化糖醇，不是異麥芽酮糖。因為英文字含 Palatinose 而被命中。",
+                "restrictionNote": "兩筆都是 Isomalt (Hydrogenated Palatinose)，一筆品質改良用，一筆甜味劑。可於各類食品視需要適量使用，限食品製造或加工必須時使用，嬰兒食品不得使用。",
+                "resultCount": 2,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "巴拉金糖",
+                "matchedName": "",
+                "note": "中文商品名在添加物 0 筆。添加物中文是巴糖醇。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "異麥芽酮糖",
+                "matchedName": "異麥芽酮糖醇（巴糖醇）",
+                "note": "不是原料那一筆雙糖。",
+                "restrictionNote": "同 Palatinose 的添加物命中。名稱多了「醇」。",
+                "resultCount": 2,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "異麥芽酮糖",
+                "matchedName": "",
+                "note": "助手更新歷程（2026-11-01 至 2026-11-18）沒有這筆異動。資料時間戳 2026-11-18 06:20。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "history",
+                "unconfirmedSafety": false
+              }
+            ],
+            "usable": "needs_review"
+          }
+        }
+      ],
+      "targetCount": 5,
+      "title": "2026-11-18 正式日報"
+    },
+    {
+      "channelsCovered": [
+        "news",
+        "exhibition",
+        "industry_report"
+      ],
       "date": "2026-11-17",
       "example": false,
       "notes": "正式五筆。主管道：Phase 2、ParActin 為新聞；Glycostat、Relissa 為展覽；Testofen 為產業報導。",
@@ -11978,6 +12921,207 @@ window.INGREDIENT_CATALOG = {
     {
       "discovery": {
         "channel": "exhibition",
+        "notes": "從 Vitafoods Asia 2026 的 Altilix 展品頁進入 Bionap 產品頁，再對 PubMed 31731527。學名在產品頁與論文不一致，TFDA 只列 Cynara scolymus，因此狀態留待覆核。台灣關聯打開統園 2021 新聞、pakku 與智慧三寶成品頁，以及和聚的 Bionap 頁。和聚頁上看到的是 Bergavit，不是 Altilix。統園的獨家是該公司舊聞自述。",
+        "scoutDate": "2026-11-18"
+      },
+      "efficacy": {
+        "claimedBenefits": [
+          "Bionap 產品頁寫 Altilix 是 Cynara cardunculus var. altilis 葉的粉末萃取，建議 150 mg／日，並寫有人體研究支持代謝、心血管、體重與腰圍、肝臟。規格在公司 PDF 的檢索結果寫綠原酸及其衍生物 10% 至 12%、木犀草苷及其衍生物 2% 至 4%。這次以產品頁的劑量與植物為準。",
+          "PubMed 31731527：代謝症候群成人，Altilix 150 mg／日或安慰劑、6 個月，各約 50 人。方法寫錠劑由 Bionap 提供，成分為綠原酸及其衍生物 10% 至 12%、木犀草苷及其衍生物 2% 至 4%，植物寫成 Cynara cardunculus (L.) subsp. scolymus Hayek。"
+        ],
+        "dosageNote": "150 mg／日同時是供應商建議與這篇代謝症候群試驗的劑量。平台的朝鮮薊葉沒有寫每日毫克。產品頁與論文的學名不一致，劑量不能用來解消這個差異。",
+        "suggestedDosage": "產品頁與上述試驗都是 150 mg／日。試驗為期 6 個月。"
+      },
+      "evidenceLevels": [
+        "clinical"
+      ],
+      "example": false,
+      "id": "altilix",
+      "images": [
+        {
+          "caption": "Bionap 的 Altilix 產品頁圖片。",
+          "localPath": "",
+          "source": "official_site",
+          "url": "https://bionap.com/assets/images/products/altilix/img_1.png"
+        }
+      ],
+      "literature": {
+        "note": "這篇是代謝症候群成人，不是一般健康人的日常補充試驗。2023 年的前肥胖子群再分析這次沒有另開全文。",
+        "refs": [
+          {
+            "note": "Nutrients，2019。DOI 10.3390/nu11112580。每日 150 mg、6 個月。登記 NCT03444558。植物寫法與現行產品頁不同。",
+            "title": "Altilix Supplement Containing Chlorogenic Acid and Luteolin Improved Hepatic and Cardiometabolic Parameters in Subjects with Metabolic Syndrome: A 6 Month Randomized, Double-Blind, Placebo-Controlled Study",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31731527/"
+          }
+        ],
+        "status": "yes"
+      },
+      "names": {
+        "commonEn": "artichoke leaf extract",
+        "commonZh": "朝鮮薊葉萃取物",
+        "scientific": "產品頁寫 Cynara cardunculus var. altilis DC. 的葉。2019 年試驗方法寫 Cynara cardunculus (L.) subsp. scolymus Hayek。兩處學名不一致，都留下。不是朝鮮薊花，也不是果實。",
+        "trade": "Altilix（Bionap 的朝鮮薊葉萃取商品名；頁上亦寫 altilix）"
+      },
+      "patent": {
+        "note": "產品頁與 2019 年論文這次讀到的部分沒有專利號。2026-11-18 沒有打開一份請求項寫明 Altilix 的專利，狀態留未知。",
+        "refs": [],
+        "status": "unknown"
+      },
+      "sources": [
+        {
+          "accessed": "2026-11-18",
+          "channel": "exhibition",
+          "publisher": "Vitafoods Asia",
+          "title": "ALTILIX，Vitafoods Asia 2026 展品頁",
+          "url": "https://visitor.vitafoodsglobal.com/event/vitafoods-asia-2026/product/UHJvZHVjdF8xNTA2ODYz",
+          "whatItContributes": "Bionap Asia Pacific 攤位 H5-E41 的展品頁。寫西西里朝鮮薊葉、綠原酸與木犀草素衍生物、150 mg／日。"
+        },
+        {
+          "accessed": "2026-11-18",
+          "channel": "supplier_site",
+          "publisher": "Bionap",
+          "title": "Altilix",
+          "url": "https://bionap.com/products/altilix",
+          "whatItContributes": "栽培種寫成 Cynara cardunculus var. altilis DC.，部位是葉，建議 150 mg／日。"
+        },
+        {
+          "accessed": "2026-11-18",
+          "channel": "paper",
+          "publisher": "PubMed",
+          "title": "PubMed 31731527",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31731527/",
+          "whatItContributes": "6 個月、每日 150 mg 的代謝症候群人體試驗，植物寫法與產品頁不同。"
+        },
+        {
+          "accessed": "2026-11-18",
+          "channel": "other",
+          "publisher": "統園企業",
+          "title": "統園 2021 亞洲生技大展新聞",
+          "url": "https://www.tyig.com.tw/web/news/news_in.jsp?lang=tw&np_no=NP1635929180145",
+          "whatItContributes": "2021-11-03 該公司自述獨家代理 Altilix 朝鮮薊萃取物。不是原廠經銷名單，也不是 2026 年的產品頁。"
+        },
+        {
+          "accessed": "2026-11-18",
+          "channel": "other",
+          "publisher": "pakku",
+          "title": "pakku 的朝鮮薊膠囊",
+          "url": "https://www.pakku.com.tw/products/atc",
+          "whatItContributes": "台灣成品頁標題寫 ALTILIX，成分為朝鮮薊葉萃取物，產地西西里 Piano Tavola。不是原料代理聲明。"
+        },
+        {
+          "accessed": "2026-11-18",
+          "channel": "other",
+          "publisher": "WellMart／智慧三寶",
+          "title": "A STEAL 超高濃縮火山朝鮮薊",
+          "url": "https://wellmart.cc/product/a-steal-%e8%b6%85%e9%ab%98%e6%bf%83%e7%b8%ae%e7%81%ab%e5%b1%b1%e6%9c%9d%e9%ae%ae%e8%96%8a/",
+          "whatItContributes": "負責廠商智慧三寶。常見問答寫 ALTILIX 是 Bionap 原料。成分另含桑黃，是成品採用。"
+        }
+      ],
+      "supply": {
+        "relationship": "taiwan_agent",
+        "relationshipNote": "Bionap 產品頁地址是義大利 Belpasso。統園 2021-11-03 新聞寫該公司獨家代理 Altilix 朝鮮薊萃取物。這是統園自述，不是 Bionap 經銷名單。2026-11-18 在統園網域搜 Altilix，沒有看到另一份現行產品頁。pakku 膠囊標題寫 ALTILIX，成分是朝鮮薊葉萃取物。智慧三寶的 A STEAL 頁常見問答寫 ALTILIX 是 Bionap 原料，成分另含桑黃。和聚有 Bionap 的 Bergavit 頁，品牌彙整頁沒有列出 Altilix。台灣商標權人是義大利 Bionap，賴經臣與宿希成是商標申請代理人。查核日 2026-11-18。",
+        "supplierCountry": "義大利",
+        "supplierName": "Bionap S.r.l.",
+        "taiwanPartyName": "統園企業（該公司 2021 年新聞自述獨家代理）；pakku 與智慧三寶為成品採用"
+      },
+      "tfda": {
+        "evidenceNotes": "朝鮮薊（Cynara scolymus）的花苞、花托、葉列為可直接食用，備註空白。商品名 Altilix 與 Cynara cardunculus 都是 0 筆。產品頁寫的栽培種是 var. altilis，和平台學名不是同一串字。添加物 0 筆。關鍵字 altilis 另命中麵包果，不是本品。",
+        "lookupDate": "2026-11-18",
+        "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+        "officialCrosscheck": {
+          "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+          "done": true,
+          "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+          "notes": "2026-11-18 連線 consumer.fda.gov.tw:443 出現 OpenSSL SSL_ERROR_SYSCALL，沒有取得官方詳細頁。查詢助手細節時間戳 2026-11-18 06:20。朝鮮薊詳細頁網址是 MaterialDetail id 16911；學名 Cynara scolymus、部位含葉、備註空白，與助手細節一致。var. altilis 沒有另列。添加物沒有這個品名。"
+        },
+        "queries": [
+          {
+            "category": "",
+            "keyword": "朝鮮薊",
+            "matchedName": "朝鮮薊；菜薊；食用薊；洋菜薊",
+            "note": "葉在部位裡。栽培種字串沒有寫 var. altilis。",
+            "restrictionNote": "可供食品使用。可直接食用。學名 Cynara scolymus L.，外文名 Artichoke，部位花苞、花托、葉，備註空白。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Cynara",
+            "matchedName": "朝鮮薊；菜薊；食用薊；洋菜薊",
+            "note": "屬名對到這一筆。",
+            "restrictionNote": "同上。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "cardunculus",
+            "matchedName": "",
+            "note": "產品頁的種小名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Altilix",
+            "matchedName": "",
+            "note": "商品名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "altilis",
+            "matchedName": "麵包果",
+            "note": "不把這一筆算進本品。",
+            "restrictionNote": "命中的是麵包果學名裡的 altilis，不是朝鮮薊。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "朝鮮薊",
+            "matchedName": "",
+            "note": "添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Altilix",
+            "matchedName": "",
+            "note": "商品名在添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "朝鮮薊",
+            "matchedName": "",
+            "note": "助手更新歷程（2026-11-01 至 2026-11-18）沒有這筆異動。資料時間戳 2026-11-18 06:20。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "history",
+            "unconfirmedSafety": false
+          }
+        ],
+        "usable": "needs_review"
+      }
+    },
+    {
+      "discovery": {
+        "channel": "exhibition",
         "notes": "從 SupplySide Global 2026 展前記者的 BGG 攤位進入 ApplePhenon，再對 BGG 產品頁、2010 年論文與 US6855352B2。台灣關聯用 ApplePhenon、蘋果多酚、Malus pumila 搭配台灣、代理、經銷，打開仕琦產品頁與商標頁。",
         "scoutDate": "2026-11-14"
       },
@@ -13380,6 +14524,198 @@ window.INGREDIENT_CATALOG = {
           }
         ],
         "usable": "listed_food_ingredient"
+      }
+    },
+    {
+      "discovery": {
+        "channel": "exhibition",
+        "notes": "從 SupplySide Global 2026 的 Everwell 展商頁與該公司 2026-10-22 展前記者稿進入 Chromax，再對產品頁。文獻只讀了兩篇沒有寫商品名的吡啶甲酸鉻摘要。台灣關聯打開宇晟部落格、good-sa 的吡啶甲酸鉻頁，以及 CHROMAX 商標頁；商標代理人沒有當成經銷商。",
+        "scoutDate": "2026-11-18"
+      },
+      "efficacy": {
+        "claimedBenefits": [
+          "Everwell 產品頁寫 Chromax 是臨床試驗最多的吡啶甲酸鉻，吸收可達其他鉻形式的 15 倍，並寫有助碳水化合物代謝、食慾與減重期間維持肌肉。這是供應商頁的說法，頁上沒有寫每日微克。",
+          "PubMed 16873787 摘要：第二型糖尿病、已用 sulfonylurea 者，再隨機接受 1,000 μg 鉻（以吡啶甲酸鉻計）或安慰劑 6 個月。摘要寫胰島素敏感度與血糖控制改善，體重與腹部脂肪增加少於安慰劑組。摘要沒有寫 Chromax。",
+          "PubMed 18715218 摘要：過重、有碳水化合物渴求的成年女性，雙盲 8 週。摘要寫的劑量是 1,000 mg of CrPic，不是微克；並寫食物攝取、飢餓與脂肪渴求低於安慰劑。同篇還有大鼠實驗。摘要沒有寫 Chromax。"
+        ],
+        "dosageNote": "添加物規格是每日鉻總量不高於 200 μg。1,000 μg 鉻已高於這個上限。18715218 摘要的 1,000 mg 與微克差了一千倍，這次只讀摘要，沒有改寫。兩篇摘要都沒有把材料寫成 Chromax。",
+        "suggestedDosage": "這次打開的 Everwell 產品頁沒有寫每日微克。16873787 摘要是每日 1,000 μg 鉻、6 個月。18715218 摘要寫 1,000 mg of CrPic、8 週。"
+      },
+      "evidenceLevels": [
+        "animal",
+        "clinical"
+      ],
+      "example": false,
+      "id": "chromax",
+      "images": [
+        {
+          "caption": "Everwell Health 的 Chromax 產品頁圖片。",
+          "localPath": "",
+          "source": "official_site",
+          "url": "https://everwellhealth.com/wp-content/uploads/2026/01/Chromax-Brochure-2.jpg"
+        }
+      ],
+      "literature": {
+        "note": "供應商頁寫 Chromax 有十多項臨床。上面兩篇摘要是吡啶甲酸鉻，沒有在摘要裡寫這個商品名，所以不把結果直接寫成 Chromax 已證明。",
+        "refs": [
+          {
+            "note": "Diabetes Care。摘要：sulfonylurea 加上 1,000 μg 鉻（CrPic）或安慰劑、6 個月。沒有寫商品名 Chromax。",
+            "title": "Chromium picolinate supplementation attenuates body weight gain and increases insulin sensitivity in subjects with type 2 diabetes",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16873787/"
+          },
+          {
+            "note": "摘要含 8 週人體與大鼠。人體劑量在摘要寫成 1,000 mg of CrPic。沒有寫 Chromax。",
+            "title": "Effects of chromium picolinate on food intake and satiety",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18715218/"
+          }
+        ],
+        "status": "yes"
+      },
+      "names": {
+        "commonEn": "chromium picolinate",
+        "commonZh": "吡啶甲酸鉻",
+        "scientific": "不適用植物學名。化合物是吡啶甲酸鉻。Everwell 頁寫吸收可達其他鉻形式的 15 倍，這是供應商頁的比較，不是這次讀到的論文摘要原文。",
+        "trade": "Chromax（Nutrition21／Everwell Health 的吡啶甲酸鉻商品名；專利頁寫 chromic tripicolinate）"
+      },
+      "patent": {
+        "note": "這份專利已經到期。Everwell 這次打開的產品頁沒有列專利號。公司其他網頁的專利清單沒有逐筆打開，不另掛號碼。",
+        "refs": [
+          {
+            "note": "1992-02-11 核准，申請人 Nutrition 21 LLC。Google Patents 標 Expired - Lifetime，預計到期 2009-02-11。請求項是使用 chromic picolinate，較佳為 tripicolinate。",
+            "title": "US5087623A Chromic picolinate treatment",
+            "url": "https://patents.google.com/patent/US5087623A/en"
+          }
+        ],
+        "status": "yes"
+      },
+      "sources": [
+        {
+          "accessed": "2026-11-18",
+          "channel": "exhibition",
+          "publisher": "SupplySide Global",
+          "title": "Everwell Health，SupplySide Global 2026 展商頁",
+          "url": "https://exhibitor.supplysideglobal.com/supplysideglobal26/Public/eBooth.aspx?BoothID=151727&FromPage=Exhibitors.aspx&IndexInList=899&ListByBooth=true&Nav=False&ParentBoothID=",
+          "whatItContributes": "展商 Everwell Health，攤位 2765，品牌欄列出 Chromax。同頁還有 Nitrosigine 等其他商品，不是這張卡的原料。"
+        },
+        {
+          "accessed": "2026-11-18",
+          "channel": "exhibition",
+          "publisher": "Everwell Health",
+          "title": "Everwell Health Exhibits Functional Ingredients at SupplySide Global 2026",
+          "url": "https://everwellhealth.com/everwell-health-exhibits-functional-ingredients-that-support-a-life-well-lived-at-supplyside-global-2026/",
+          "whatItContributes": "2026-10-22 新聞寫攤位 2765 的 Metabolism Chews 與 MetaboBerry 果昔使用 Chromax，並寫一日一次的咀嚼錠概念。沒有寫毫克。"
+        },
+        {
+          "accessed": "2026-11-18",
+          "channel": "supplier_site",
+          "publisher": "Everwell Health",
+          "title": "Chromax",
+          "url": "https://everwellhealth.com/chromax/",
+          "whatItContributes": "供應商對吸收、食慾、代謝與減重期間維持肌肉的說法。地址在 Saddle Brook, NJ。"
+        },
+        {
+          "accessed": "2026-11-18",
+          "channel": "paper",
+          "publisher": "PubMed",
+          "title": "PubMed 16873787",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/16873787/",
+          "whatItContributes": "第二型糖尿病、1,000 μg 鉻的人體試驗摘要。沒有寫 Chromax。"
+        },
+        {
+          "accessed": "2026-11-18",
+          "channel": "other",
+          "publisher": "綠茵生技",
+          "title": "綠茵生技的吡啶甲酸鉻頁",
+          "url": "https://www.greenynbio.com/en/product/agent/special/chromax/",
+          "whatItContributes": "英文頁標題含 chromax，路徑在 agent。沒有寫獨家或 Nutrition21 授權。"
+        },
+        {
+          "accessed": "2026-11-18",
+          "channel": "other",
+          "publisher": "台灣康田生化科技",
+          "title": "康田的吡啶甲酸鉻目錄",
+          "url": "https://twkt.com.tw/r239-chromium-picolinate",
+          "whatItContributes": "R239-01 寫吡啶甲酸鉻 Chromax（美國）。頁上寫僅提供資訊、不予產品銷售。"
+        },
+        {
+          "accessed": "2026-11-18",
+          "channel": "other",
+          "publisher": "宇晟生醫科技",
+          "title": "宇晟生醫的 Chromax 文章",
+          "url": "https://shop.realpromise.com/zh-hant/blog/posts/chromium-chromax",
+          "whatItContributes": "台灣公司部落格介紹 Chromax，並自行寫到每日鉻 200 微克的添加物上限。未自稱原料代理。"
+        }
+      ],
+      "supply": {
+        "relationship": "unknown",
+        "relationshipNote": "Everwell 頁地址是美國紐澤西 Saddle Brook。台灣商標 CHROMAX 權人是美國 Nutrition 21, LLC，台北的姚漢婷是商標申請代理人，不是經銷商。綠茵英文頁標題是 Chromium Picolinate (chromax)，路徑在 /product/agent/，地址寫台中大雅科雅路與新北新莊；中文頁標題只寫吡啶甲酸鉻（美國），地址又寫台中北區青島路。兩種地址都留下。頁文沒有寫總代理。康田目錄 R239-01 寫吡啶甲酸鉻 Chromax（美國），並寫本站僅提供資訊、不予產品銷售。宇晟生醫（統一編號 52427266）部落格介紹 Chromax，未自稱原料代理。good-sa.com.tw 只寫吡啶甲酸鉻、沒有寫 Chromax。查核日 2026-11-18。",
+        "supplierCountry": "美國",
+        "supplierName": "Nutrition21, LLC（Everwell Health）",
+        "taiwanPartyName": "綠茵生技（目錄列 chromax，未寫獨家）；台灣康田生化科技（目錄列 Chromax，頁寫不銷售）；宇晟生醫（成品部落格）"
+      },
+      "tfda": {
+        "evidenceNotes": "添加物有吡啶甲酸鉻。標示每日食用量的食品，每日鉻總量不得高於 200 μg；特殊營養食品可依需要使用。限於補充食品中不足的營養素。原料分頁的吡啶甲酸鉻與商品名 Chromax 都是 0 筆。另有鉻酵母，每日鉻也不得超過 200 μg，那是酵母菌體，不是這個螯合物。",
+        "lookupDate": "2026-11-18",
+        "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+        "officialCrosscheck": {
+          "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+          "done": true,
+          "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+          "notes": "2026-11-18 連線 consumer.fda.gov.tw:443 出現 OpenSSL SSL_ERROR_SYSCALL，沒有取得官方詳細頁。查詢助手細節時間戳 2026-11-18 06:20，原料 1709 筆、添加物 804 筆。吡啶甲酸鉻詳細頁網址是 FoodAdditivesListDetail id 294；類別、每日 200 μg 與使用限制與助手細節一致。原料沒有這個品名。"
+        },
+        "queries": [
+          {
+            "category": "",
+            "keyword": "吡啶甲酸鉻",
+            "matchedName": "吡啶甲酸鉻",
+            "note": "詳細頁 id 294。",
+            "restrictionNote": "營養添加劑。英文 Chromium Picolinate。標示每日食用量的食品，每日鉻總量不得高於 200 μg；特殊營養食品可依實際需要適量使用。限於補充食品中不足之營養素時使用。",
+            "resultCount": 1,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Chromax",
+            "matchedName": "",
+            "note": "商品名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "吡啶甲酸鉻",
+            "matchedName": "",
+            "note": "原料 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "鉻",
+            "matchedName": "鉻酵母",
+            "note": "是鉻酵母，不是吡啶甲酸鉻。",
+            "restrictionNote": "微生物來源，學名 Saccharomyces cerevisiae，部位菌體。鉻之每日最高攝食量不得超過 200 μg。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "吡啶甲酸鉻",
+            "matchedName": "",
+            "note": "助手更新歷程（2026-11-01 至 2026-11-18）沒有這筆異動。資料時間戳 2026-11-18 06:20。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "history",
+            "unconfirmedSafety": false
+          }
+        ],
+        "usable": "listed_food_additive"
       }
     },
     {
@@ -15573,6 +16909,186 @@ window.INGREDIENT_CATALOG = {
     },
     {
       "discovery": {
+        "channel": "news",
+        "notes": "從 2026-11-17 的 PR Newswire 進入 JointIQ，再對 NuLiv 產品頁與 PubMed 42356230。專利打開 US8168596B2。台灣關聯對過商標網、怡得的黃耆多醣規格，以及 JointIQ、NuLiv、黃耆皂苷搭配代理與經銷的檢索。",
+        "scoutDate": "2026-11-18"
+      },
+      "efficacy": {
+        "claimedBenefits": [
+          "NuLiv 產品頁寫 JointIQ 來自 Astragalus membranaceus，建議 200 mg；並寫人體研究相對安慰劑，膝相關生活品質與膝伸展改善。這是供應商頁的說法。",
+          "PR Newswire 2026-11-17：NuLiv 公布第一篇 JointIQ 人體研究，12 週、每日一粒。稿中把步下測試約增 20%、恢復時間少逾 33% 放在前面。論文裡這兩個主要終點的組間差沒有達到統計顯著。",
+          "PubMed 42356230：健康成人、自述膝不適、沒有膝關節炎診斷，JointIQ 200 mg 或安慰劑、12 週。完成分析約 23 與 25 人。組間顯著的是 KOOS 生活品質、總分與疼痛；被動伸展的組間差在多重比較校正後減弱。步數與恢復時間只有組內改善。"
+        ],
+        "dosageNote": "200 mg 同時是目前產品頁的建議與這篇試驗的每日劑量。黃耆根那一筆只寫不得單一原料使用，沒有每日毫克。新聞稿的百分比不宜直接讀成主要終點已對安慰劑達顯著。",
+        "suggestedDosage": "產品頁寫 200 mg。上述試驗用的是每日一粒 200 mg、12 週，早餐後。"
+      },
+      "evidenceLevels": [
+        "clinical"
+      ],
+      "example": false,
+      "id": "jointiq",
+      "images": [
+        {
+          "caption": "NuLiv Science 的 JointIQ 產品頁主圖。",
+          "localPath": "",
+          "source": "official_site",
+          "url": "https://cdn.prod.website-files.com/6a3707e704c48aa5b04a8692/6a67ed30953b485c36098728_jointIQ-hero-web.jpg"
+        }
+      ],
+      "literature": {
+        "note": "這篇是沒有膝關節炎診斷的健康成人。產品頁另寫 7 項體外研究，這次沒有打開那一批全文，不另標細胞證據。",
+        "refs": [
+          {
+            "note": "Nutrients。DOI 10.3390/nu18121842。隨機、雙盲、安慰劑、12 週、每日 200 mg。原料由 NuLiv Science USA 提供，根的 20:1 水萃取，皂苷至少 3%。主要終點組間未達顯著；KOOS 生活品質等次要結果組間顯著。",
+            "title": "Evaluation of the Effect of Astragalus membranaceus Saponins Administration on Knee Function and Cartilage Biomarkers in Healthy Subjects with Knee Discomfort",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/42356230/"
+          }
+        ],
+        "status": "yes"
+      },
+      "names": {
+        "commonEn": "Astragalus root saponin extract",
+        "commonZh": "黃耆根皂苷萃取物",
+        "scientific": "Astragalus membranaceus（Fisch.）Bge.，含蒙古變種。論文寫根的 20:1 水萃取，標準化皂苷至少 3%，並以 astragaloside IV 做薄層對照。不是黃耆樹膠。",
+        "trade": "JointIQ（NuLiv Science 的黃耆皂苷商品名）"
+      },
+      "patent": {
+        "note": "產品頁與試驗都寫 JointIQ 有專利。這次打開的是 US8168596B2。同族有台灣申請，這次沒有另開請求項。",
+        "refs": [
+          {
+            "note": "2012-05-01 核准，申請人 Nuliv Holding Inc.，狀態 Active。請求項是用環阿屯烷化合物處理軟骨缺損；說明書提到黃耆根。2026 年試驗材料寫的是根的水萃取，不是這份請求項裡的醇萃句子。",
+            "title": "US8168596B2 Use of cycloartane compounds for treating arthritis",
+            "url": "https://patents.google.com/patent/US8168596B2/en"
+          }
+        ],
+        "status": "yes"
+      },
+      "sources": [
+        {
+          "accessed": "2026-11-18",
+          "channel": "news",
+          "publisher": "PR Newswire",
+          "title": "Study Finds NuLiv Science Ingredient, JointIQ Supports Joint Health and Cartilage Markers in Active Adults",
+          "url": "https://www.prnewswire.com/news-releases/study-finds-nuliv-science-ingredient-jointiq-supports-supports-joint-health-and-cartilage-markers-in-active-adults-302941461.html",
+          "whatItContributes": "2026-11-17 NuLiv 發布第一篇 JointIQ 人體研究的新聞稿，並指向 Nutrients 論文。"
+        },
+        {
+          "accessed": "2026-11-18",
+          "channel": "supplier_site",
+          "publisher": "NuLiv Science",
+          "title": "JointIQ",
+          "url": "https://nulivscience.com/ingredients/jointiq",
+          "whatItContributes": "植物來源、建議 200 mg，以及供應商對膝生活品質與伸展的說法。"
+        },
+        {
+          "accessed": "2026-11-18",
+          "channel": "paper",
+          "publisher": "PubMed",
+          "title": "PubMed 42356230",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42356230/",
+          "whatItContributes": "12 週、每日 200 mg 的人體試驗；主要終點組間未顯著，KOOS 部分組間顯著。"
+        },
+        {
+          "accessed": "2026-11-18",
+          "channel": "patent",
+          "publisher": "Google Patents",
+          "title": "US8168596B2",
+          "url": "https://patents.google.com/patent/US8168596B2/en",
+          "whatItContributes": "申請人 Nuliv Holding Inc.，環阿屯烷化合物與軟骨缺損的方法請求項。"
+        },
+        {
+          "accessed": "2026-11-18",
+          "channel": "other",
+          "publisher": "台灣商標網",
+          "title": "NuLiv 商標",
+          "url": "https://tm.twincn.com/item.aspx?sn=4133120402",
+          "whatItContributes": "商標權人仲華國際股份有限公司（NULIV HOLDING INC.），台北市信義區。不是原料經銷頁。"
+        }
+      ],
+      "supply": {
+        "relationship": "unknown",
+        "relationshipNote": "2026-11-18 打開台灣商標網 NuLiv 頁，權人是仲華國際股份有限公司（NULIV HOLDING INC.），地址臺北市信義區松仁路89號16樓，註冊號 00997910。Google Patents 的 US8168596B2 申請人寫 Nuliv Holding Inc.。這兩處都不是 JointIQ 原料的銷售頁。論文寫試驗原料由 NuLiv Science USA, Inc.（Brea, CA）提供。怡得國際原料表有黃耆萃取、多醣 40%，不是這個皂苷規格。以 JointIQ、NuLiv、黃耆皂苷搭配台灣、代理、經銷複查，沒有看到原料經銷頁。查核日 2026-11-18。",
+        "supplierCountry": "美國",
+        "supplierName": "NuLiv Science USA, Inc.",
+        "taiwanPartyName": "仲華國際股份有限公司（NULIV HOLDING INC.；商標權人，原料銷售頁未見）"
+      },
+      "tfda": {
+        "evidenceNotes": "黃耆根（Astragalus membranaceus，含蒙古變種）列為可直接食用，備註是不得單一原料使用。關鍵字「黃耆」另命中黃耆樹膠，那是特拉卡甘膠，不是本品。商品名 JointIQ 與添加物都是 0 筆。列名沒有寫每日毫克。",
+        "lookupDate": "2026-11-18",
+        "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+        "officialCrosscheck": {
+          "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+          "done": true,
+          "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+          "notes": "2026-11-18 連線 consumer.fda.gov.tw:443 出現 OpenSSL SSL_ERROR_SYSCALL，沒有取得官方詳細頁。查詢助手細節時間戳 2026-11-18 06:20，原料 1709 筆、添加物 804 筆。黃耆根這一筆的詳細頁網址是 MaterialDetail id 16868；中文名、學名、部位與「不得單一原料使用」與助手細節一致。添加物沒有這個品名。"
+        },
+        "queries": [
+          {
+            "category": "",
+            "keyword": "黃耆",
+            "matchedName": "黃耆；黃耆（樹）膠",
+            "note": "樹膠那一筆是名稱帶有黃耆，不是膜莢黃耆根。",
+            "restrictionNote": "黃耆：可直接食用，學名含 Astragalus membranaceus 與其蒙古變種，部位根，備註「不得單一原料使用」。另一筆是黃耆（樹）膠，外文名 Tragacanth gum。",
+            "resultCount": 2,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Astragalus",
+            "matchedName": "黃耆",
+            "note": "學名只對到根這一筆。",
+            "restrictionNote": "同上，根，不得單一原料使用。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "JointIQ",
+            "matchedName": "",
+            "note": "商品名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "黃耆",
+            "matchedName": "",
+            "note": "添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Astragalus",
+            "matchedName": "",
+            "note": "英文關鍵字在添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "黃耆",
+            "matchedName": "",
+            "note": "助手更新歷程（2026-11-01 至 2026-11-18）沒有這筆異動。資料時間戳 2026-11-18 06:20。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "history",
+            "unconfirmedSafety": false
+          }
+        ],
+        "usable": "listed_food_ingredient"
+      }
+    },
+    {
+      "discovery": {
         "channel": "exhibition",
         "notes": "從 Vitafoods Asia 2026 展前名錄的 Kaneka H6-F25 進入，對歐洲官網與 PMC 的 Kaneka QH 試驗，再對東翔與登盛的台灣頁。SupplySide 2025 名錄只核到 Kaneka North America 攤位。",
         "scoutDate": "2026-11-08"
@@ -16904,6 +18420,179 @@ window.INGREDIENT_CATALOG = {
           }
         ],
         "usable": "not_found"
+      }
+    },
+    {
+      "discovery": {
+        "channel": "exhibition",
+        "notes": "從 SupplySide Global 2026 的 HTBA 展商頁進入 MecobalActive，再對 HTBA 功能原料頁與 2026-06-08 的 NutraIngredients 試驗報導。台灣關聯打開藥要看的甲鈷胺明許可頁，沒有把它寫成食品原料代理。專利號這次沒有對到。",
+        "scoutDate": "2026-11-18"
+      },
+      "efficacy": {
+        "claimedBenefits": [
+          "HTBA 功能原料頁寫 MecobalActive 是甲基鈷胺，USP 與 JP 等級，並寫生體可用率與體內停留高於氰鈷胺。頁上沒有寫日常毫克。這是供應商頁的說法。",
+          "NutraIngredients 2026-06-08：18 名男性業餘自行車手，MecobalActive 或安慰劑、舌下錠、3 天，末劑在測試前約 5 小時。報導寫尖峰功率高於安慰劑、反覆衝刺的疲勞下降較少、反應測驗較快，血清 B12 約增 16.8%。"
+        ],
+        "dosageNote": "1 mg 等於 1000 μg，剛好是膠囊與錠狀食品的每日維生素 B12 總量上限。試驗是 3 天、舌下錠、業餘男性自行車手，不是一般長期建議。原料頁沒有另給一個較低的日常劑量。",
+        "suggestedDosage": "這次打開的 HTBA 功能原料頁沒有寫日常毫克。上述試驗是每日 1 mg、連續 3 天。"
+      },
+      "evidenceLevels": [
+        "clinical"
+      ],
+      "example": false,
+      "id": "mecobalactive",
+      "images": [
+        {
+          "caption": "HTBA 的 MecobalActive 介紹頁圖片。",
+          "localPath": "",
+          "source": "official_site",
+          "url": "https://htba.com/wp-content/uploads/2025/10/Mecobalactive.jpeg"
+        }
+      ],
+      "literature": {
+        "note": "這是短天數、小樣本的運動試驗。新聞稿的機制句子（神經傳導、NRF2）是報導轉述，不是這次讀到的全文數據。",
+        "refs": [
+          {
+            "note": "Nutraceuticals，2026。DOI 頁這次回 500。NutraIngredients 2026-06-08 引用同一 DOI，並寫 MecobalActive、1 mg／日、3 天、18 名男性業餘自行車手、隨機三盲交叉。",
+            "title": "Short-Term Methylcobalamin Supplementation Is Associated with Changes in Anaerobic and Cognitive Performance in Amateur Cyclists: A Randomized Crossover Trial",
+            "url": "https://doi.org/10.3390/nutraceuticals6020035"
+          }
+        ],
+        "status": "yes"
+      },
+      "names": {
+        "commonEn": "methylcobalamin (mecobalamin)",
+        "commonZh": "甲鈷胺（甲基鈷胺）",
+        "scientific": "不適用植物學名。化合物是甲基鈷胺。HTBA 功能原料頁寫 USP 與 JP 等級，並寫純度與含量高於一般甲基鈷胺。頁上沒有寫日常毫克。",
+        "trade": "MecobalActive（HTBA 的甲基鈷胺商品名）"
+      },
+      "patent": {
+        "note": "HTBA 功能原料頁寫綠色化學的專利製程，沒有專利號。這次沒有打開一份請求項寫明 MecobalActive 或甲基鈷胺純化方法的專利，狀態留未知。",
+        "refs": [],
+        "status": "unknown"
+      },
+      "sources": [
+        {
+          "accessed": "2026-11-18",
+          "channel": "exhibition",
+          "publisher": "SupplySide Global",
+          "title": "HTBA，SupplySide Global 2026 展商頁",
+          "url": "https://exhibitor.supplysideglobal.com/supplysideglobal26/Public/eBooth.aspx?BoothID=152239&FromPage=Exhibitors.aspx&IndexInList=675&ListByBooth=true&Nav=False&ParentBoothID=",
+          "whatItContributes": "展商 HTBA，巴塞隆納，攤位 3645。品牌欄寫 MecobalActive 用於認知與神經體能。同頁還有 Cardiose、DiosVein，不是這張卡的原料。"
+        },
+        {
+          "accessed": "2026-11-18",
+          "channel": "supplier_site",
+          "publisher": "HTBA",
+          "title": "Functional Health",
+          "url": "https://htba.com/solutions/functional-health/",
+          "whatItContributes": "甲基鈷胺、USP 與 JP 等級，以及相對氰鈷胺的供應商說法。沒有日常毫克。"
+        },
+        {
+          "accessed": "2026-11-18",
+          "channel": "news",
+          "publisher": "NutraIngredients",
+          "title": "HTBA vitamin B12 boosts cycling performance",
+          "url": "https://www.nutraingredients.com/Article/2026/06/08/htba-vitamin-b12-boosts-cycling-performance/",
+          "whatItContributes": "3 天、1 mg、18 名男性業餘自行車手的試驗報導，並給出論文 DOI。"
+        },
+        {
+          "accessed": "2026-11-18",
+          "channel": "other",
+          "publisher": "iHerb",
+          "title": "Seeking Health Methyl B12，iHerb 台灣站",
+          "url": "https://tw.iherb.com/pr/seeking-health-methyl-b12-1-000-mcg-60-lozenges/122616",
+          "whatItContributes": "成品標示維生素 B12 1,000 mcg，來源同時寫 MECOBALACTIVE 甲基鈷胺與腺苷鈷胺。不是原料代理。"
+        },
+        {
+          "accessed": "2026-11-18",
+          "channel": "other",
+          "publisher": "藥要看",
+          "title": "甲鈷胺明許可資料",
+          "url": "https://drugs.olc.tw/licenses/view/571a5d22-a784-440e-bce5-148bd38a10d1/",
+          "whatItContributes": "許可證 52026724，申請商裕元興業，製造廠欄為 HTBA Beniel。是藥品資料，不是食品原料代理頁。"
+        }
+      ],
+      "supply": {
+        "relationship": "unknown",
+        "relationshipNote": "HTBA 總部在西班牙巴塞隆納，製造在 Murcia 的 Beniel。藥要看頁面的許可證 52026724，品名甲鈷胺明，適應症末梢神經障礙，申請商裕元興業股份有限公司（台北市松江路129號9樓），製造廠欄是 HealthTech BioActives, S.L.U. Beniel。頁上沒有寫 MecobalActive。iHerb 台灣站的 Seeking Health 錠標示維生素 B12（as MECOBALACTIVE methylcobalamin and adenosylcobalamin）1,000 mcg，是美國成品，不是台灣原料代理。以 MecobalActive、HTBA 搭配台灣、代理、經銷複查，沒有看到食品原料經銷頁。查核日 2026-11-18。這次沒有另開食藥署藥品查詢頁。",
+        "supplierCountry": "西班牙",
+        "supplierName": "HealthTech BioActives, S.L.U.（HTBA）",
+        "taiwanPartyName": "裕元興業（藥品許可證申請商）；iHerb 台灣站販售 Seeking Health 成品（含 MECOBALACTIVE，不是原料代理）"
+      },
+      "tfda": {
+        "evidenceNotes": "添加物有甲鈷胺（甲基鈷胺）。限膠囊或錠狀、且標示每日食用量的食品，每日維生素 B12 總量不得高於 1000 μg，並限於補充營養素。原料分頁的甲鈷胺、methylcobalamin 與商品名 MecobalActive 都是 0 筆。添加物另有氰鈷胺等其他 B12 形式，不是這一筆。",
+        "lookupDate": "2026-11-18",
+        "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+        "officialCrosscheck": {
+          "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+          "done": true,
+          "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+          "notes": "2026-11-18 連線 consumer.fda.gov.tw:443 出現 OpenSSL SSL_ERROR_SYSCALL，沒有取得官方詳細頁。查詢助手細節時間戳 2026-11-18 06:20，原料 1709 筆、添加物 804 筆。甲鈷胺詳細頁網址是 FoodAdditivesListDetail id 341；劑型、1000 μg 與使用限制與助手細節一致。原料沒有這個品名。"
+        },
+        "queries": [
+          {
+            "category": "",
+            "keyword": "甲鈷胺",
+            "matchedName": "甲鈷胺(甲基鈷胺)",
+            "note": "詳細頁 id 341。",
+            "restrictionNote": "營養添加劑。英文 Mecobalamin/ Methylcobalamin。形態屬膠囊狀、錠狀且標示有每日食用限量之食品，每日食用量中維生素 B12 總含量不得高於 1000 μg。限於補充食品中不足之營養素時使用。",
+            "resultCount": 1,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "methylcobalamin",
+            "matchedName": "甲鈷胺(甲基鈷胺)",
+            "note": "英文關鍵字對到同一筆。",
+            "restrictionNote": "同上。",
+            "resultCount": 1,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "MecobalActive",
+            "matchedName": "",
+            "note": "商品名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "甲鈷胺",
+            "matchedName": "",
+            "note": "原料 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "methylcobalamin",
+            "matchedName": "",
+            "note": "原料外文名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "甲鈷胺",
+            "matchedName": "",
+            "note": "助手更新歷程（2026-11-01 至 2026-11-18）沒有這筆異動。資料時間戳 2026-11-18 06:20。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "history",
+            "unconfirmedSafety": false
+          }
+        ],
+        "usable": "listed_food_additive"
       }
     },
     {
@@ -18926,6 +20615,189 @@ window.INGREDIENT_CATALOG = {
           }
         ],
         "usable": "listed_food_ingredient"
+      }
+    },
+    {
+      "discovery": {
+        "channel": "industry_report",
+        "notes": "從 Nutrition Insight 2026-03-05 的 Expo West 報導進入 Palatinose，再對 BENEO 產品頁與 PubMed 31590285。添加物命中的是氫化巴糖醇，與雙糖分開記。台灣關聯對過大昌華嘉 2022 新聞與 2026 原料頁，獨家只保留該公司自述。",
+        "scoutDate": "2026-11-18"
+      },
+      "efficacy": {
+        "claimedBenefits": [
+          "BENEO 產品頁寫 Palatinose 提供每克 4 大卡，升糖指數 32，蔗糖是 65；並寫能量釋放較平、有助脂肪氧化，甜度約為蔗糖一半。這是供應商頁的說法。",
+          "PubMed 31590285：過重或肥胖成人，減重飲食中每天 40 克異麥芽酮糖（Palatinose）或蔗糖、12 週。64 人分組，50 人完成。兩組體重都下降；異麥芽酮糖組多減約 1 公斤，組間 p 為 0.258。同組脂肪量下降達顯著，能量攝取減少也大於蔗糖組。"
+        ],
+        "dosageNote": "40 克是那篇減重試驗的每日量，不是平台上限；原料這一筆沒有寫每日克數。15 克是 2026 年展場飲品概念的每份含量。體重組間差在摘要裡沒有達到統計顯著。",
+        "suggestedDosage": "產品頁沒有寫單一每日克數，而是依食品取代蔗糖。31590285 用的是每天 40 克、12 週。Nutrition Insight 2026-03-05 報導展場燕麥拿鐵每 355 毫升含 15 克 Palatinose。"
+      },
+      "evidenceLevels": [
+        "clinical"
+      ],
+      "example": false,
+      "id": "palatinose",
+      "images": [
+        {
+          "caption": "BENEO 的 Palatinose 產品頁橫幅圖。",
+          "localPath": "",
+          "source": "official_site",
+          "url": "https://www.beneo.com/wp-content/uploads/2018/01/beneo-header-palatinose-1920x460px-x2-srgb-scaled.jpg"
+        }
+      ],
+      "literature": {
+        "note": "供應商新聞若寫只有 Palatinose 組顯著減重，和這篇摘要不完全相同。摘要是兩組都顯著減重，組間體重差不顯著。這裡以摘要為準。",
+        "refs": [
+          {
+            "note": "Nutrients，2019。每天 40 克 Palatinose 或蔗糖。體重組間 p 為 0.258；能量攝取與餐後呼吸商有組間差異。",
+            "title": "Changes in Weight and Substrate Oxidation in Overweight Adults Following Isomaltulose Intake During a 12-Week Weight Loss Intervention: A Randomized, Double-Blind, Controlled Trial",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31590285/"
+          }
+        ],
+        "status": "yes"
+      },
+      "names": {
+        "commonEn": "isomaltulose",
+        "commonZh": "異麥芽酮糖（巴拉金糖）",
+        "scientific": "不適用植物學名。BENEO 寫由甜菜糖的蔗糖經酵素把 α-1,2 鍵改成 α-1,6 鍵。不是氫化後的異麥芽酮糖醇（巴糖醇、Isomalt）。",
+        "trade": "Palatinose（BENEO 的異麥芽酮糖商品名；規格頁另有 PST-N、PST-PF、PST-PA）"
+      },
+      "patent": {
+        "note": "這次打開的 BENEO 產品頁與 Expo West 報導都沒有專利號。2026-11-18 沒有打開一份請求項寫明 Palatinose 製程的專利，狀態留未知。",
+        "refs": [],
+        "status": "unknown"
+      },
+      "sources": [
+        {
+          "accessed": "2026-11-18",
+          "channel": "industry_report",
+          "publisher": "Nutrition Insight",
+          "title": "Expo West 2026 live: Beneo features fiber-rich ingredients for gut health and satiety",
+          "url": "https://www.nutritioninsight.com/news/expo-west-2026-beneo-fiber-gut-health.html",
+          "whatItContributes": "2026-03-05 展場報導。燕麥拿鐵每 355 毫升含 15 克 Palatinose，並把 Palatinose 與 Isomalt 分成兩種低碳水升糖原料。"
+        },
+        {
+          "accessed": "2026-11-18",
+          "channel": "supplier_site",
+          "publisher": "BENEO",
+          "title": "Palatinose",
+          "url": "https://www.beneo.com/human-nutrition/human-nutrition-products/functional-carbohydrates/palatinose",
+          "whatItContributes": "甜菜糖來源、α-1,6 鍵、每克 4 大卡、升糖指數 32，以及 PST-N、PST-PF、PST-PA 三種粒徑。"
+        },
+        {
+          "accessed": "2026-11-18",
+          "channel": "paper",
+          "publisher": "PubMed",
+          "title": "PubMed 31590285",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31590285/",
+          "whatItContributes": "12 週、每天 40 克的減重試驗摘要。體重組間差不顯著。"
+        },
+        {
+          "accessed": "2026-11-18",
+          "channel": "other",
+          "publisher": "台灣大昌華嘉",
+          "title": "台灣大昌華嘉 2022-11-09 新聞",
+          "url": "https://www.dksh.com/tw-zh-Hant/home/media/news/%E5%8F%B0%E7%81%A3%E5%A4%A7%E6%98%8C%E8%8F%AF%E5%98%89%E7%89%B9%E7%94%A8%E5%8E%9F%E6%96%99%E6%A6%AE%E7%8D%B2%E5%8E%9F%E6%96%99%E5%A4%A7%E5%BB%A0beneo%E8%A1%A8%E6%8F%9A",
+          "whatItContributes": "該公司自述亞太獨家代理 Beneo，範圍含 Palatinose。獨家是這則新聞的自述。"
+        },
+        {
+          "accessed": "2026-11-18",
+          "channel": "other",
+          "publisher": "台灣大昌華嘉",
+          "title": "台灣大昌華嘉食品與飲品原料",
+          "url": "https://www.dksh.com/tw-zh-Hant/home/performance-materials/food-beverage-ingredients",
+          "whatItContributes": "2026 年頁面仍列出 BENEO 的 Palatinose 與 Isomalt。用詞是合作夥伴，沒有再寫獨家。"
+        }
+      ],
+      "supply": {
+        "relationship": "taiwan_agent",
+        "relationshipNote": "BENEO 頁地址是德國 Mannheim。台灣大昌華嘉 2022-11-09 新聞寫，特用原料在亞太獨家代理 Beneo 產品 20 年，範圍含異麥芽酮糖／巴拉金糖 Palatinose，以及 Isomalt。2026 年食品與飲品原料頁仍把 Palatinose 與 Isomalt 並列在 BENEO 合作項目，用詞是合作夥伴，沒有再寫獨家。獨家只依 2022 年該公司新聞，不升格成原廠獨家證明。查核日 2026-11-18。",
+        "supplierCountry": "德國",
+        "supplierName": "BENEO GmbH",
+        "taiwanPartyName": "台灣大昌華嘉（DKSH Taiwan；該公司 2022 年新聞自述代理，含 Palatinose）"
+      },
+      "tfda": {
+        "evidenceNotes": "原料有異麥芽酮糖，備註寫可由蔗糖經微生物轉成，巴拉金糖（Palatinose）為商品名。用 Palatinose 或異麥芽酮糖搜添加物，會命中兩筆異麥芽酮糖醇（巴糖醇），英文是 Hydrogenated Palatinose，那是氫化糖醇，不是這個雙糖。中文「巴拉金糖」在添加物是 0 筆。兩類都有列名，化合物不同。",
+        "lookupDate": "2026-11-18",
+        "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+        "officialCrosscheck": {
+          "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+          "done": true,
+          "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+          "notes": "2026-11-18 連線 consumer.fda.gov.tw:443 出現 OpenSSL SSL_ERROR_SYSCALL，沒有取得官方詳細頁。查詢助手細節時間戳 2026-11-18 06:20。異麥芽酮糖詳細頁是 MaterialDetail id 17326，備註含 Palatinose。添加物 id 823 與 844 是異麥芽酮糖醇，英文 Hydrogenated Palatinose。兩邊都有列，化合物不同。"
+        },
+        "queries": [
+          {
+            "category": "",
+            "keyword": "異麥芽酮糖",
+            "matchedName": "異麥芽酮糖",
+            "note": "詳細頁 id 17326。BENEO 寫甜菜糖，平台寫蜂蜜、甘蔗汁與蔗糖發酵，來源句子不完全相同。",
+            "restrictionNote": "草木本植物類來源製取之原料。外文名 Isomaltulose。備註寫存在於蜂蜜與甘蔗汁，商業上經微生物發酵將蔗糖轉為異麥芽酮糖，巴拉金糖（Palatinose）為商品名。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "巴拉金糖",
+            "matchedName": "異麥芽酮糖",
+            "note": "中文商品名在原料備註裡。",
+            "restrictionNote": "同上。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Palatinose",
+            "matchedName": "異麥芽酮糖",
+            "note": "英文商品名在原料備註裡。",
+            "restrictionNote": "同上。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Palatinose",
+            "matchedName": "異麥芽酮糖醇（巴糖醇）",
+            "note": "是氫化糖醇，不是異麥芽酮糖。因為英文字含 Palatinose 而被命中。",
+            "restrictionNote": "兩筆都是 Isomalt (Hydrogenated Palatinose)，一筆品質改良用，一筆甜味劑。可於各類食品視需要適量使用，限食品製造或加工必須時使用，嬰兒食品不得使用。",
+            "resultCount": 2,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "巴拉金糖",
+            "matchedName": "",
+            "note": "中文商品名在添加物 0 筆。添加物中文是巴糖醇。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "異麥芽酮糖",
+            "matchedName": "異麥芽酮糖醇（巴糖醇）",
+            "note": "不是原料那一筆雙糖。",
+            "restrictionNote": "同 Palatinose 的添加物命中。名稱多了「醇」。",
+            "resultCount": 2,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "異麥芽酮糖",
+            "matchedName": "",
+            "note": "助手更新歷程（2026-11-01 至 2026-11-18）沒有這筆異動。資料時間戳 2026-11-18 06:20。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "history",
+            "unconfirmedSafety": false
+          }
+        ],
+        "usable": "needs_review"
       }
     },
     {

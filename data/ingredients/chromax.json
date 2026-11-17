@@ -1,0 +1,192 @@
+{
+  "id": "chromax",
+  "example": false,
+  "names": {
+    "commonZh": "吡啶甲酸鉻",
+    "commonEn": "chromium picolinate",
+    "trade": "Chromax（Nutrition21／Everwell Health 的吡啶甲酸鉻商品名；專利頁寫 chromic tripicolinate）",
+    "scientific": "不適用植物學名。化合物是吡啶甲酸鉻。Everwell 頁寫吸收可達其他鉻形式的 15 倍，這是供應商頁的比較，不是這次讀到的論文摘要原文。"
+  },
+  "supply": {
+    "supplierName": "Nutrition21, LLC（Everwell Health）",
+    "supplierCountry": "美國",
+    "relationship": "unknown",
+    "taiwanPartyName": "綠茵生技（目錄列 chromax，未寫獨家）；台灣康田生化科技（目錄列 Chromax，頁寫不銷售）；宇晟生醫（成品部落格）",
+    "relationshipNote": "Everwell 頁地址是美國紐澤西 Saddle Brook。台灣商標 CHROMAX 權人是美國 Nutrition 21, LLC，台北的姚漢婷是商標申請代理人，不是經銷商。綠茵英文頁標題是 Chromium Picolinate (chromax)，路徑在 /product/agent/，地址寫台中大雅科雅路與新北新莊；中文頁標題只寫吡啶甲酸鉻（美國），地址又寫台中北區青島路。兩種地址都留下。頁文沒有寫總代理。康田目錄 R239-01 寫吡啶甲酸鉻 Chromax（美國），並寫本站僅提供資訊、不予產品銷售。宇晟生醫（統一編號 52427266）部落格介紹 Chromax，未自稱原料代理。good-sa.com.tw 只寫吡啶甲酸鉻、沒有寫 Chromax。查核日 2026-11-18。"
+  },
+  "tfda": {
+    "usable": "listed_food_additive",
+    "evidenceNotes": "添加物有吡啶甲酸鉻。標示每日食用量的食品，每日鉻總量不得高於 200 μg；特殊營養食品可依需要使用。限於補充食品中不足的營養素。原料分頁的吡啶甲酸鉻與商品名 Chromax 都是 0 筆。另有鉻酵母，每日鉻也不得超過 200 μg，那是酵母菌體，不是這個螯合物。",
+    "lookupDate": "2026-11-18",
+    "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+    "queries": [
+      {
+        "tab": "additive",
+        "keyword": "吡啶甲酸鉻",
+        "category": "",
+        "resultCount": 1,
+        "matchedName": "吡啶甲酸鉻",
+        "restrictionNote": "營養添加劑。英文 Chromium Picolinate。標示每日食用量的食品，每日鉻總量不得高於 200 μg；特殊營養食品可依實際需要適量使用。限於補充食品中不足之營養素時使用。",
+        "unconfirmedSafety": false,
+        "note": "詳細頁 id 294。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "Chromax",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名 0 筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "吡啶甲酸鉻",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "原料 0 筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "鉻",
+        "category": "",
+        "resultCount": 1,
+        "matchedName": "鉻酵母",
+        "restrictionNote": "微生物來源，學名 Saccharomyces cerevisiae，部位菌體。鉻之每日最高攝食量不得超過 200 μg。",
+        "unconfirmedSafety": false,
+        "note": "是鉻酵母，不是吡啶甲酸鉻。"
+      },
+      {
+        "tab": "history",
+        "keyword": "吡啶甲酸鉻",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "助手更新歷程（2026-11-01 至 2026-11-18）沒有這筆異動。資料時間戳 2026-11-18 06:20。"
+      }
+    ],
+    "officialCrosscheck": {
+      "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+      "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+      "done": true,
+      "notes": "2026-11-18 連線 consumer.fda.gov.tw:443 出現 OpenSSL SSL_ERROR_SYSCALL，沒有取得官方詳細頁。查詢助手細節時間戳 2026-11-18 06:20，原料 1709 筆、添加物 804 筆。吡啶甲酸鉻詳細頁網址是 FoodAdditivesListDetail id 294；類別、每日 200 μg 與使用限制與助手細節一致。原料沒有這個品名。"
+    }
+  },
+  "efficacy": {
+    "claimedBenefits": [
+      "Everwell 產品頁寫 Chromax 是臨床試驗最多的吡啶甲酸鉻，吸收可達其他鉻形式的 15 倍，並寫有助碳水化合物代謝、食慾與減重期間維持肌肉。這是供應商頁的說法，頁上沒有寫每日微克。",
+      "PubMed 16873787 摘要：第二型糖尿病、已用 sulfonylurea 者，再隨機接受 1,000 μg 鉻（以吡啶甲酸鉻計）或安慰劑 6 個月。摘要寫胰島素敏感度與血糖控制改善，體重與腹部脂肪增加少於安慰劑組。摘要沒有寫 Chromax。",
+      "PubMed 18715218 摘要：過重、有碳水化合物渴求的成年女性，雙盲 8 週。摘要寫的劑量是 1,000 mg of CrPic，不是微克；並寫食物攝取、飢餓與脂肪渴求低於安慰劑。同篇還有大鼠實驗。摘要沒有寫 Chromax。"
+    ],
+    "suggestedDosage": "這次打開的 Everwell 產品頁沒有寫每日微克。16873787 摘要是每日 1,000 μg 鉻、6 個月。18715218 摘要寫 1,000 mg of CrPic、8 週。",
+    "dosageNote": "添加物規格是每日鉻總量不高於 200 μg。1,000 μg 鉻已高於這個上限。18715218 摘要的 1,000 mg 與微克差了一千倍，這次只讀摘要，沒有改寫。兩篇摘要都沒有把材料寫成 Chromax。"
+  },
+  "patent": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "US5087623A Chromic picolinate treatment",
+        "url": "https://patents.google.com/patent/US5087623A/en",
+        "note": "1992-02-11 核准，申請人 Nutrition 21 LLC。Google Patents 標 Expired - Lifetime，預計到期 2009-02-11。請求項是使用 chromic picolinate，較佳為 tripicolinate。"
+      }
+    ],
+    "note": "這份專利已經到期。Everwell 這次打開的產品頁沒有列專利號。公司其他網頁的專利清單沒有逐筆打開，不另掛號碼。"
+  },
+  "literature": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "Chromium picolinate supplementation attenuates body weight gain and increases insulin sensitivity in subjects with type 2 diabetes",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/16873787/",
+        "note": "Diabetes Care。摘要：sulfonylurea 加上 1,000 μg 鉻（CrPic）或安慰劑、6 個月。沒有寫商品名 Chromax。"
+      },
+      {
+        "title": "Effects of chromium picolinate on food intake and satiety",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/18715218/",
+        "note": "摘要含 8 週人體與大鼠。人體劑量在摘要寫成 1,000 mg of CrPic。沒有寫 Chromax。"
+      }
+    ],
+    "note": "供應商頁寫 Chromax 有十多項臨床。上面兩篇摘要是吡啶甲酸鉻，沒有在摘要裡寫這個商品名，所以不把結果直接寫成 Chromax 已證明。"
+  },
+  "evidenceLevels": [
+    "animal",
+    "clinical"
+  ],
+  "images": [
+    {
+      "url": "https://everwellhealth.com/wp-content/uploads/2026/01/Chromax-Brochure-2.jpg",
+      "localPath": "",
+      "caption": "Everwell Health 的 Chromax 產品頁圖片。",
+      "source": "official_site"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Everwell Health，SupplySide Global 2026 展商頁",
+      "url": "https://exhibitor.supplysideglobal.com/supplysideglobal26/Public/eBooth.aspx?BoothID=151727&FromPage=Exhibitors.aspx&IndexInList=899&ListByBooth=true&Nav=False&ParentBoothID=",
+      "publisher": "SupplySide Global",
+      "channel": "exhibition",
+      "accessed": "2026-11-18",
+      "whatItContributes": "展商 Everwell Health，攤位 2765，品牌欄列出 Chromax。同頁還有 Nitrosigine 等其他商品，不是這張卡的原料。"
+    },
+    {
+      "title": "Everwell Health Exhibits Functional Ingredients at SupplySide Global 2026",
+      "url": "https://everwellhealth.com/everwell-health-exhibits-functional-ingredients-that-support-a-life-well-lived-at-supplyside-global-2026/",
+      "publisher": "Everwell Health",
+      "channel": "exhibition",
+      "accessed": "2026-11-18",
+      "whatItContributes": "2026-10-22 新聞寫攤位 2765 的 Metabolism Chews 與 MetaboBerry 果昔使用 Chromax，並寫一日一次的咀嚼錠概念。沒有寫毫克。"
+    },
+    {
+      "title": "Chromax",
+      "url": "https://everwellhealth.com/chromax/",
+      "publisher": "Everwell Health",
+      "channel": "supplier_site",
+      "accessed": "2026-11-18",
+      "whatItContributes": "供應商對吸收、食慾、代謝與減重期間維持肌肉的說法。地址在 Saddle Brook, NJ。"
+    },
+    {
+      "title": "PubMed 16873787",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16873787/",
+      "publisher": "PubMed",
+      "channel": "paper",
+      "accessed": "2026-11-18",
+      "whatItContributes": "第二型糖尿病、1,000 μg 鉻的人體試驗摘要。沒有寫 Chromax。"
+    },
+    {
+      "title": "綠茵生技的吡啶甲酸鉻頁",
+      "url": "https://www.greenynbio.com/en/product/agent/special/chromax/",
+      "publisher": "綠茵生技",
+      "channel": "other",
+      "accessed": "2026-11-18",
+      "whatItContributes": "英文頁標題含 chromax，路徑在 agent。沒有寫獨家或 Nutrition21 授權。"
+    },
+    {
+      "title": "康田的吡啶甲酸鉻目錄",
+      "url": "https://twkt.com.tw/r239-chromium-picolinate",
+      "publisher": "台灣康田生化科技",
+      "channel": "other",
+      "accessed": "2026-11-18",
+      "whatItContributes": "R239-01 寫吡啶甲酸鉻 Chromax（美國）。頁上寫僅提供資訊、不予產品銷售。"
+    },
+    {
+      "title": "宇晟生醫的 Chromax 文章",
+      "url": "https://shop.realpromise.com/zh-hant/blog/posts/chromium-chromax",
+      "publisher": "宇晟生醫科技",
+      "channel": "other",
+      "accessed": "2026-11-18",
+      "whatItContributes": "台灣公司部落格介紹 Chromax，並自行寫到每日鉻 200 微克的添加物上限。未自稱原料代理。"
+    }
+  ],
+  "discovery": {
+    "channel": "exhibition",
+    "scoutDate": "2026-11-18",
+    "notes": "從 SupplySide Global 2026 的 Everwell 展商頁與該公司 2026-10-22 展前記者稿進入 Chromax，再對產品頁。文獻只讀了兩篇沒有寫商品名的吡啶甲酸鉻摘要。台灣關聯打開宇晟部落格、good-sa 的吡啶甲酸鉻頁，以及 CHROMAX 商標頁；商標代理人沒有當成經銷商。"
+  }
+}

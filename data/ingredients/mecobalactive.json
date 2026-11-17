@@ -1,0 +1,173 @@
+{
+  "id": "mecobalactive",
+  "example": false,
+  "names": {
+    "commonZh": "甲鈷胺（甲基鈷胺）",
+    "commonEn": "methylcobalamin (mecobalamin)",
+    "trade": "MecobalActive（HTBA 的甲基鈷胺商品名）",
+    "scientific": "不適用植物學名。化合物是甲基鈷胺。HTBA 功能原料頁寫 USP 與 JP 等級，並寫純度與含量高於一般甲基鈷胺。頁上沒有寫日常毫克。"
+  },
+  "supply": {
+    "supplierName": "HealthTech BioActives, S.L.U.（HTBA）",
+    "supplierCountry": "西班牙",
+    "relationship": "unknown",
+    "taiwanPartyName": "裕元興業（藥品許可證申請商）；iHerb 台灣站販售 Seeking Health 成品（含 MECOBALACTIVE，不是原料代理）",
+    "relationshipNote": "HTBA 總部在西班牙巴塞隆納，製造在 Murcia 的 Beniel。藥要看頁面的許可證 52026724，品名甲鈷胺明，適應症末梢神經障礙，申請商裕元興業股份有限公司（台北市松江路129號9樓），製造廠欄是 HealthTech BioActives, S.L.U. Beniel。頁上沒有寫 MecobalActive。iHerb 台灣站的 Seeking Health 錠標示維生素 B12（as MECOBALACTIVE methylcobalamin and adenosylcobalamin）1,000 mcg，是美國成品，不是台灣原料代理。以 MecobalActive、HTBA 搭配台灣、代理、經銷複查，沒有看到食品原料經銷頁。查核日 2026-11-18。這次沒有另開食藥署藥品查詢頁。"
+  },
+  "tfda": {
+    "usable": "listed_food_additive",
+    "evidenceNotes": "添加物有甲鈷胺（甲基鈷胺）。限膠囊或錠狀、且標示每日食用量的食品，每日維生素 B12 總量不得高於 1000 μg，並限於補充營養素。原料分頁的甲鈷胺、methylcobalamin 與商品名 MecobalActive 都是 0 筆。添加物另有氰鈷胺等其他 B12 形式，不是這一筆。",
+    "lookupDate": "2026-11-18",
+    "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+    "queries": [
+      {
+        "tab": "additive",
+        "keyword": "甲鈷胺",
+        "category": "",
+        "resultCount": 1,
+        "matchedName": "甲鈷胺(甲基鈷胺)",
+        "restrictionNote": "營養添加劑。英文 Mecobalamin/ Methylcobalamin。形態屬膠囊狀、錠狀且標示有每日食用限量之食品，每日食用量中維生素 B12 總含量不得高於 1000 μg。限於補充食品中不足之營養素時使用。",
+        "unconfirmedSafety": false,
+        "note": "詳細頁 id 341。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "methylcobalamin",
+        "category": "",
+        "resultCount": 1,
+        "matchedName": "甲鈷胺(甲基鈷胺)",
+        "restrictionNote": "同上。",
+        "unconfirmedSafety": false,
+        "note": "英文關鍵字對到同一筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "MecobalActive",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名 0 筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "甲鈷胺",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "原料 0 筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "methylcobalamin",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "原料外文名 0 筆。"
+      },
+      {
+        "tab": "history",
+        "keyword": "甲鈷胺",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "助手更新歷程（2026-11-01 至 2026-11-18）沒有這筆異動。資料時間戳 2026-11-18 06:20。"
+      }
+    ],
+    "officialCrosscheck": {
+      "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+      "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+      "done": true,
+      "notes": "2026-11-18 連線 consumer.fda.gov.tw:443 出現 OpenSSL SSL_ERROR_SYSCALL，沒有取得官方詳細頁。查詢助手細節時間戳 2026-11-18 06:20，原料 1709 筆、添加物 804 筆。甲鈷胺詳細頁網址是 FoodAdditivesListDetail id 341；劑型、1000 μg 與使用限制與助手細節一致。原料沒有這個品名。"
+    }
+  },
+  "efficacy": {
+    "claimedBenefits": [
+      "HTBA 功能原料頁寫 MecobalActive 是甲基鈷胺，USP 與 JP 等級，並寫生體可用率與體內停留高於氰鈷胺。頁上沒有寫日常毫克。這是供應商頁的說法。",
+      "NutraIngredients 2026-06-08：18 名男性業餘自行車手，MecobalActive 或安慰劑、舌下錠、3 天，末劑在測試前約 5 小時。報導寫尖峰功率高於安慰劑、反覆衝刺的疲勞下降較少、反應測驗較快，血清 B12 約增 16.8%。"
+    ],
+    "suggestedDosage": "這次打開的 HTBA 功能原料頁沒有寫日常毫克。上述試驗是每日 1 mg、連續 3 天。",
+    "dosageNote": "1 mg 等於 1000 μg，剛好是膠囊與錠狀食品的每日維生素 B12 總量上限。試驗是 3 天、舌下錠、業餘男性自行車手，不是一般長期建議。原料頁沒有另給一個較低的日常劑量。"
+  },
+  "patent": {
+    "status": "unknown",
+    "refs": [],
+    "note": "HTBA 功能原料頁寫綠色化學的專利製程，沒有專利號。這次沒有打開一份請求項寫明 MecobalActive 或甲基鈷胺純化方法的專利，狀態留未知。"
+  },
+  "literature": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "Short-Term Methylcobalamin Supplementation Is Associated with Changes in Anaerobic and Cognitive Performance in Amateur Cyclists: A Randomized Crossover Trial",
+        "url": "https://doi.org/10.3390/nutraceuticals6020035",
+        "note": "Nutraceuticals，2026。DOI 頁這次回 500。NutraIngredients 2026-06-08 引用同一 DOI，並寫 MecobalActive、1 mg／日、3 天、18 名男性業餘自行車手、隨機三盲交叉。"
+      }
+    ],
+    "note": "這是短天數、小樣本的運動試驗。新聞稿的機制句子（神經傳導、NRF2）是報導轉述，不是這次讀到的全文數據。"
+  },
+  "evidenceLevels": [
+    "clinical"
+  ],
+  "images": [
+    {
+      "url": "https://htba.com/wp-content/uploads/2025/10/Mecobalactive.jpeg",
+      "localPath": "",
+      "caption": "HTBA 的 MecobalActive 介紹頁圖片。",
+      "source": "official_site"
+    }
+  ],
+  "sources": [
+    {
+      "title": "HTBA，SupplySide Global 2026 展商頁",
+      "url": "https://exhibitor.supplysideglobal.com/supplysideglobal26/Public/eBooth.aspx?BoothID=152239&FromPage=Exhibitors.aspx&IndexInList=675&ListByBooth=true&Nav=False&ParentBoothID=",
+      "publisher": "SupplySide Global",
+      "channel": "exhibition",
+      "accessed": "2026-11-18",
+      "whatItContributes": "展商 HTBA，巴塞隆納，攤位 3645。品牌欄寫 MecobalActive 用於認知與神經體能。同頁還有 Cardiose、DiosVein，不是這張卡的原料。"
+    },
+    {
+      "title": "Functional Health",
+      "url": "https://htba.com/solutions/functional-health/",
+      "publisher": "HTBA",
+      "channel": "supplier_site",
+      "accessed": "2026-11-18",
+      "whatItContributes": "甲基鈷胺、USP 與 JP 等級，以及相對氰鈷胺的供應商說法。沒有日常毫克。"
+    },
+    {
+      "title": "HTBA vitamin B12 boosts cycling performance",
+      "url": "https://www.nutraingredients.com/Article/2026/06/08/htba-vitamin-b12-boosts-cycling-performance/",
+      "publisher": "NutraIngredients",
+      "channel": "news",
+      "accessed": "2026-11-18",
+      "whatItContributes": "3 天、1 mg、18 名男性業餘自行車手的試驗報導，並給出論文 DOI。"
+    },
+    {
+      "title": "Seeking Health Methyl B12，iHerb 台灣站",
+      "url": "https://tw.iherb.com/pr/seeking-health-methyl-b12-1-000-mcg-60-lozenges/122616",
+      "publisher": "iHerb",
+      "channel": "other",
+      "accessed": "2026-11-18",
+      "whatItContributes": "成品標示維生素 B12 1,000 mcg，來源同時寫 MECOBALACTIVE 甲基鈷胺與腺苷鈷胺。不是原料代理。"
+    },
+    {
+      "title": "甲鈷胺明許可資料",
+      "url": "https://drugs.olc.tw/licenses/view/571a5d22-a784-440e-bce5-148bd38a10d1/",
+      "publisher": "藥要看",
+      "channel": "other",
+      "accessed": "2026-11-18",
+      "whatItContributes": "許可證 52026724，申請商裕元興業，製造廠欄為 HTBA Beniel。是藥品資料，不是食品原料代理頁。"
+    }
+  ],
+  "discovery": {
+    "channel": "exhibition",
+    "scoutDate": "2026-11-18",
+    "notes": "從 SupplySide Global 2026 的 HTBA 展商頁進入 MecobalActive，再對 HTBA 功能原料頁與 2026-06-08 的 NutraIngredients 試驗報導。台灣關聯打開藥要看的甲鈷胺明許可頁，沒有把它寫成食品原料代理。專利號這次沒有對到。"
+  }
+}

@@ -1,0 +1,180 @@
+{
+  "id": "myhmb",
+  "example": false,
+  "names": {
+    "commonZh": "3-羥基-3-甲基丁酸鈣",
+    "commonEn": "calcium beta-hydroxy-beta-methylbutyrate (HMB)",
+    "trade": "myHMB（TSI Group／Metabolic Technologies 的 HMB 鈣鹽商品名；游離酸規格另稱 myHMB Clear、BetaTOR）",
+    "scientific": "不適用植物學名。添加物品名是 3-羥基-3-甲基丁酸鈣，外文名 Calcium 3-Hydroxy-3-Methyl Butyrate Monohydrate。它是白胺酸的代謝物，不是已收錄的肌酸。"
+  },
+  "supply": {
+    "supplierName": "TSI Group Ltd.（專利與授權頁為 Metabolic Technologies, LLC）",
+    "supplierCountry": "美國",
+    "relationship": "taiwan_distributor",
+    "taiwanPartyName": "恒宜貿易股份有限公司（恒宜生技頁自述販售 myHMB；產地寫中國）",
+    "relationshipNote": "恒宜生技頁標題是專利 myHMB HMB-Ca，規格寫產地中國、HMB-Ca 至少 98%（HMB 77–82%），並寫影片來源為 TSI Group 原廠影片。頁尾公司名是恒宜貿易股份有限公司，地址臺中市北屯區文心路四段83號18樓。另一個恒宜貿易頁只寫 HMB-Ca、美國製程專利，沒有 myHMB 三個字，地址是文心路四段81號18樓之2。兩頁的產地與商品名不一致，都留下，不升成原廠證實的獨家代理。myHMB 成品購買頁這次打開的清單沒有台灣據點。查核日 2026-11-19。"
+  },
+  "tfda": {
+    "usable": "listed_food_additive",
+    "evidenceNotes": "添加物有 3-羥基-3-甲基丁酸鈣，可於特殊營養食品視實際需要適量使用，不適宜孕婦及未滿 18 歲者食用。原料分頁以甲基丁酸、HMB、myHMB 查都是 0 筆。恒宜頁另寫哺乳期婦女，添加物條文沒有這一句。列名沒有寫每日公克。",
+    "lookupDate": "2026-11-19",
+    "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+    "queries": [
+      {
+        "tab": "additive",
+        "keyword": "甲基丁酸",
+        "category": "",
+        "resultCount": 1,
+        "matchedName": "3–羥基– 3–甲基丁酸鈣",
+        "restrictionNote": "營養添加劑。外文名 Calcium 3-Hydroxy-3-Methyl Butyrate Monohydrate。可於特殊營養食品中視實際需要適量使用。不適宜孕婦及未滿18歲者食用。",
+        "unconfirmedSafety": false,
+        "note": "詳細頁網址 FoodAdditivesListDetail id 304。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "HMB",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "英文縮寫沒有出現在品名裡。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "myHMB",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名 0 筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "甲基丁酸",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "原料分頁 0 筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "myHMB",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名在原料分頁 0 筆。"
+      },
+      {
+        "tab": "history",
+        "keyword": "甲基丁酸",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "助手更新歷程（2026-11-01 至 2026-11-18）沒有這筆異動。資料時間戳 2026-11-18 06:20。"
+      }
+    ],
+    "officialCrosscheck": {
+      "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+      "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+      "done": true,
+      "notes": "2026-11-19 連線 consumer.fda.gov.tw 出現 SSL UNEXPECTED_EOF_WHILE_READING，沒有取得官方詳細頁。查詢助手添加物詳細頁 id 304，使用範圍與「不適宜孕婦及未滿18歲者食用」與助手欄位一致。原料分頁沒有這個品名。"
+    }
+  },
+  "efficacy": {
+    "claimedBenefits": [
+      "TSI 2026-06-10 頁：諾丁漢大學隨機、雙盲、交叉試驗，24 名 65–75 歲健康成人。40 克乳清加上 3 克 calcium HMB，相對只有乳清，較晚的餐後時段肌肉蛋白分解受抑制的時間較長。頁上寫女性的肌肉蛋白合成反應較大，男性沒有看到同樣差異，並寫這不是為了比較性別而設計。",
+      "同一頁把這篇連到 myHMB，並引用 Nutrients 2026;18(9):1449、PMID 42124050。期刊頁這次回 403，沒有逐句核對全文，也沒有在 TSI 的轉述裡看到論文寫明使用 myHMB 這個商品名。",
+      "Metabolic Technologies 授權頁寫鈣鹽商品名是 myHMB，游離酸是 myHMB Clear 與 BetaTOR。供應商要求配方達到他們認定的有效劑量才授權，頁上沒有把那個劑量寫成一個公克數。"
+    ],
+    "suggestedDosage": "TSI 轉述的這篇試驗是單次 3 克 calcium HMB，併在 40 克乳清蛋白裡。授權頁沒有另寫一個日常公克數。",
+    "dosageNote": "3 克是 TSI 頁轉述的單次試驗劑量，不是添加物條文裡的數字。條文只寫特殊營養食品可適量使用，並寫不適宜孕婦及未滿 18 歲。恒宜頁另外寫不建議哺乳期婦女，條文沒有這句。"
+  },
+  "patent": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "US10758504B2 Compositions and methods of use of β-hydroxy-β-methylbutyrate (HMB) for enhancing recovery from soft tissue trauma",
+        "url": "https://patents.google.com/patent/US10758504B2/en",
+        "note": "申請人 Metabolic Technologies, LLC。Google Patents 狀態 Active。說明書舉例一天 3 克 calcium HMB。請求項是軟組織創傷恢復，不是 2026 年那篇乳清蛋白試驗的終點。"
+      }
+    ],
+    "note": "授權頁寫鈣鹽、游離酸與合併維生素 D 都有專利，並要求零售商取得授權。TSI 中文稿另寫中國發明專利 ZL 201310127262.X。這次沒有打開中國專利全文。"
+  },
+  "literature": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "TSI：New Research Suggests HMB May Complement Whey Protein in Supporting Muscle Protein Turnover in Older Adults",
+        "url": "https://tsigroupltd.com/new-research-on-hmb-plus-whey-protein/",
+        "note": "2026-06-10。轉述 Nutrients 2026;18(9):1449、PMID 42124050。24 人、65–75 歲、單次 3 克 calcium HMB 加 40 克乳清。期刊全文這次 403，以下細節依 TSI 頁。"
+      }
+    ],
+    "note": "TSI 頁另引 ISSN 2025 年 HMB 立場論文。這次沒有打開那篇，不把立場論文的結論併進來。"
+  },
+  "evidenceLevels": [
+    "clinical"
+  ],
+  "images": [
+    {
+      "url": "https://www.mettechinc.com/media/news/myHMBlaunch_052DF23901CCF.jpg",
+      "localPath": "",
+      "caption": "Metabolic Technologies 網站新聞圖，檔名為 myHMB launch。",
+      "source": "official_site"
+    }
+  ],
+  "sources": [
+    {
+      "title": "New Research Suggests HMB May Complement Whey Protein in Supporting Muscle Protein Turnover in Older Adults",
+      "url": "https://tsigroupltd.com/new-research-on-hmb-plus-whey-protein/",
+      "publisher": "TSI Group",
+      "channel": "news",
+      "accessed": "2026-11-19",
+      "whatItContributes": "2026-06-10 發布諾丁漢試驗的公司新聞，並把 3 克 calcium HMB 連到 myHMB。"
+    },
+    {
+      "title": "Licensing",
+      "url": "https://www.mettechinc.com/licensing",
+      "publisher": "Metabolic Technologies",
+      "channel": "supplier_site",
+      "accessed": "2026-11-19",
+      "whatItContributes": "鈣鹽商品名 myHMB、游離酸另有商品名，以及須取得授權的說法。"
+    },
+    {
+      "title": "US10758504B2",
+      "url": "https://patents.google.com/patent/US10758504B2/en",
+      "publisher": "Google Patents",
+      "channel": "patent",
+      "accessed": "2026-11-19",
+      "whatItContributes": "Metabolic Technologies 的 HMB 與軟組織恢復專利，說明書有一天 3 克 calcium HMB 的例子。"
+    },
+    {
+      "title": "專利 myHMB HMB-Ca",
+      "url": "https://www.hengyi-bio.com.tw/products-detail/106/",
+      "publisher": "恒宜生技",
+      "channel": "other",
+      "accessed": "2026-11-19",
+      "whatItContributes": "台灣頁自寫販售 myHMB，產地寫中國，並寫影片來自 TSI。不是原廠獨家證明。"
+    },
+    {
+      "title": "HMB-Ca",
+      "url": "https://www.hengyi-bio.com/tw/products_d.php?pd=1259",
+      "publisher": "恒宜貿易股份有限公司",
+      "channel": "other",
+      "accessed": "2026-11-19",
+      "whatItContributes": "同一集團另一頁只寫 HMB-Ca 與美國製程專利，沒有寫 myHMB。"
+    }
+  ],
+  "discovery": {
+    "channel": "news",
+    "scoutDate": "2026-11-19",
+    "notes": "從 TSI 2026-06-10 的乳清加 HMB 試驗新聞進入 myHMB，再對 Metabolic Technologies 授權頁與 US10758504B2。期刊全文 403，試驗細節停在 TSI 頁的轉述。台灣關聯打開恒宜兩個產品頁，產地與有沒有寫商品名不一致，沒有改成獨家代理。"
+  }
+}

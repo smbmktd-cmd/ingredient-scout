@@ -1,0 +1,190 @@
+{
+  "id": "trpti",
+  "example": false,
+  "names": {
+    "commonZh": "油醯乙醇胺（冷水分散型）",
+    "commonEn": "oleoylethanolamide (cold-water dispersible)",
+    "trade": "Trpti（Saanroo 的 OEA 商品名；頁上亦寫 TRPTI。搭配 Pharmako 的 LipiSperse）",
+    "scientific": "不適用植物學名。OEA 是油酸與乙醇胺合成的脂肪酸醯胺。Saanroo 頁寫粉末為 90% OEA、最多 10% LipiSperse。NXT Ingredients 頁寫 83.3% OEA。兩處比例不一致，都留下。不是已收錄的 Levagen+（棕櫚醯乙醇胺）。"
+  },
+  "supply": {
+    "supplierName": "Saanroo（製造為澳洲 Pharmako Biotechnologies Pty Ltd）",
+    "supplierCountry": "澳洲製造；Saanroo 原料頁地址在美國德州",
+    "relationship": "unknown",
+    "taiwanPartyName": "本次查無台灣關聯廠商",
+    "relationshipNote": "2026-11-19 以 Trpti、TRPTI、Saanroo、Pharmako、oleoylethanolamide、油醯乙醇胺、油酸乙醇醯胺搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索，並打開命中頁。和聚國際的 Testofen 頁寫到 Gencor，沒有 Trpti、OEA、Levagen 或 Saanroo，不能把葫蘆巴那一頁當成這個商品的代理。台灣新日化的 Tainolin ODE 是油酸二乙醇醯胺（CAS 93-83-4），生技先鋒頁是研究用 DOPE，都不是食品原料 OEA。沒有看到原料經銷頁或成品採用頁。查核日 2026-11-19。"
+  },
+  "tfda": {
+    "usable": "not_found",
+    "evidenceNotes": "原料與添加物以 oleoylethanolamide、Trpti、油醯乙醇胺查，都是 0 筆。三個字母 OEA 會命中兩筆牽牛花屬學名，因為字串裡含有 oea，不是油醯乙醇胺。沒有列名不等於准用，也不是禁用結論。",
+    "lookupDate": "2026-11-19",
+    "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+    "queries": [
+      {
+        "tab": "ingredient",
+        "keyword": "oleoylethanolamide",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "英文化合物名 0 筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "油醯乙醇胺",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "中文名 0 筆。另試油酰乙醇胺也是 0 筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Trpti",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名 0 筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "OEA",
+        "category": "",
+        "resultCount": 2,
+        "matchedName": "番薯；甘藷；地瓜；碗仔花",
+        "restrictionNote": "學名 Ipomoea batatas 與 Ipomoea hederacea。碗仔花那筆是未確認安全性。都不是油醯乙醇胺。",
+        "unconfirmedSafety": false,
+        "note": "短字串嵌在學名裡。不把這兩筆當成 OEA。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "oleoylethanolamide",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "添加物 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "Trpti",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名在添加物 0 筆。"
+      },
+      {
+        "tab": "history",
+        "keyword": "Trpti",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "助手更新歷程（2026-11-01 至 2026-11-18）沒有這筆異動。資料時間戳 2026-11-18 06:20。"
+      }
+    ],
+    "officialCrosscheck": {
+      "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+      "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+      "done": false,
+      "notes": "2026-11-19 連線 consumer.fda.gov.tw 出現 SSL UNEXPECTED_EOF_WHILE_READING。助手側化合物名與商品名都是 0 筆，沒有可核對的詳細頁。"
+    }
+  },
+  "efficacy": {
+    "claimedBenefits": [
+      "Frontiers in Endocrinology 2026：固定順序、單盲、三期交叉。37 名成人，BMI 25–34.9。單次安慰劑、150 mg 或 300 mg Trpti。300 mg 在部分預設餐後時段的 GLP-1 與 GIP 高於安慰劑，文中寫關鍵時點約高 20–25%，15 分鐘內就量得到。150 mg 在若干時段低於安慰劑。兩種劑量都有統計上的進食量減少。",
+      "Saanroo 原料頁寫 Trpti 為 90% OEA 加最多 10% LipiSperse，並把內生 GLP-1 增加 25%、為一般 OEA 的 2 倍放在頁首。這是供應商頁的說法，不是論文裡每一個時段的結果。",
+      "trpti.net 寫 Trpti 支持代謝、飽足與脂肪代謝，並寫與 Akkermansia muciniphila、Faecalibacterium prausnitzii 有關。那一頁把菌相結果放在另一篇 12 週試驗，這次沒有打開全文。"
+    ],
+    "suggestedDosage": "上述急性試驗的有效比較劑量是單次 300 mg Trpti（兩顆 150 mg，每顆 OEA 至少 125 mg，合計至少 250 mg）。Saanroo 頁把 300 mg 寫在錠劑規格。",
+    "dosageNote": "300 mg 是這篇單次試驗與供應商錠劑頁的數字，不是法規上限。150 mg 在同一篇裡並不是每個時段都高於安慰劑。平台沒有這個化合物的列名。"
+  },
+  "patent": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "Pharmako patent approval for delivery system technology",
+        "url": "https://www.nutraingredients.com/Article/2018/11/28/Pharmako-patent-approval-for-delivery-system-technology-opens-doors-for-NPD-and-new-partnerships/",
+        "note": "2018-11-28：NutraIngredients 寫 LipiSperse 已獲 WIPO 核准，當時點名的應用是 HydroCurc 與 Levagen，沒有 Trpti，也沒有寫專利號碼。"
+      }
+    ],
+    "note": "Saanroo 與 Pharmako 頁都寫 LipiSperse 為專利冷水分散技術，Trpti 使用它。這次沒有打開寫有 OEA 請求項的專利全文。2018 年那則沒有號碼，不能把它讀成 OEA 本身的物質專利。"
+  },
+  "literature": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "Acute TRPTI (oleoylethanolamide) supplementation enhances incretin hormone responses: a fixed-sequence crossover study",
+        "url": "https://www.frontiersin.org/journals/endocrinology/articles/10.3389/fendo.2026.1879799/full",
+        "note": "Frontiers in Endocrinology。2026。DOI 10.3389/fendo.2026.1879799。單次 300 mg 在部分時段提高 GLP-1 與 GIP。固定順序、單盲。每顆 150 mg Trpti 含 OEA 至少 125 mg。"
+      }
+    ],
+    "note": "trpti.net 另列 12 週、每日 300 mg、57 名肥胖成人的菌相論文。這次沒有打開全文，不把菌相數字寫成已核對。"
+  },
+  "evidenceLevels": [
+    "clinical"
+  ],
+  "images": [
+    {
+      "url": "https://trpti.net/wp-content/uploads/2026/06/Capsules-1-300x300.png",
+      "localPath": "",
+      "caption": "Trpti 官網的膠囊劑型圖。",
+      "source": "official_site"
+    }
+  ],
+  "sources": [
+    {
+      "title": "SupplySide Global 2026: What’s happening on the show floor",
+      "url": "https://www.nutraingredients.com/Article/2026/10/14/supplyside-global-2026-whats-happening-on-the-show-floor/",
+      "publisher": "NutraIngredients",
+      "channel": "exhibition",
+      "accessed": "2026-11-19",
+      "whatItContributes": "2026-10-14 展商預告：Saanroo 攤位提出 Trpti 的新人體研究，寫補充後 15 分鐘內看得到 GLP-1 與 GIP。"
+    },
+    {
+      "title": "Trpti",
+      "url": "https://www.saanroo.com/ingredients/trpti",
+      "publisher": "Saanroo",
+      "channel": "supplier_site",
+      "accessed": "2026-11-19",
+      "whatItContributes": "90% OEA、LipiSperse、澳洲 Pharmako 製造，以及 300 mg 錠劑的供應商規格。"
+    },
+    {
+      "title": "Acute TRPTI supplementation enhances incretin hormone responses",
+      "url": "https://www.frontiersin.org/journals/endocrinology/articles/10.3389/fendo.2026.1879799/full",
+      "publisher": "Frontiers in Endocrinology",
+      "channel": "paper",
+      "accessed": "2026-11-19",
+      "whatItContributes": "單次 150 mg 與 300 mg 的 GLP-1、GIP 時段差異，以及每顆 OEA 至少 125 mg。"
+    },
+    {
+      "title": "Pharmako patent approval for delivery system technology",
+      "url": "https://www.nutraingredients.com/Article/2018/11/28/Pharmako-patent-approval-for-delivery-system-technology-opens-doors-for-NPD-and-new-partnerships/",
+      "publisher": "NutraIngredients",
+      "channel": "patent",
+      "accessed": "2026-11-19",
+      "whatItContributes": "LipiSperse 在 2018 年獲 WIPO 核准的報導。當時還沒有寫 Trpti。"
+    },
+    {
+      "title": "Testofen 專利葫蘆巴萃取",
+      "url": "https://www.hg-bio.com.tw/products/testofen/",
+      "publisher": "和聚國際",
+      "channel": "other",
+      "accessed": "2026-11-19",
+      "whatItContributes": "同一集團其他商品的台灣頁。頁上有 Gencor，沒有 Trpti 或 OEA。"
+    }
+  ],
+  "discovery": {
+    "channel": "exhibition",
+    "scoutDate": "2026-11-19",
+    "notes": "從 NutraIngredients 2026-10-14 的 SupplySide Global 展商預告進入 Saanroo 攤位的 Trpti，再對 Saanroo 原料頁與 Frontiers 2026 論文。和聚的 Testofen 頁用來確認同集團其他商品沒有寫這個 OEA 商品名。與已收錄的 Levagen+ 不是同一種脂肪醯胺。"
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "id": "capsifen",
+  "example": false,
+  "names": {
+    "commonZh": "辣椒果實辣椒素類微珠",
+    "commonEn": "red chili capsaicinoid beadlets",
+    "trade": "Capsifen（Akay Bioactives 的辣椒素類微珠商品名）",
+    "scientific": "Capsicum annuum（果實。論文寫微珠的總辣椒素類至少 2.8%，其中 capsaicin 1.8%、dihydrocapsaicin 0.84%、nordihydrocapsaicin 0.16%。載體是葫蘆巴半乳甘露聚醣 FenuMat，不是已收錄的 Testofen 種子皂苷。不是葉。大島成品頁寫「天堂椒籽」，與果實說法不同，都留下。）"
+  },
+  "supply": {
+    "supplierName": "Akay Bioactives（Akay Natural Ingredients Private Limited）",
+    "supplierCountry": "印度",
+    "relationship": "unknown",
+    "taiwanPartyName": "大島生醫（成品頁寫採用 Capsifen；未寫原料代理或經銷）",
+    "relationshipNote": "2026-11-19 以 Capsifen、Akay、FenuMat、辣椒素、紅辣椒萃取搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索。大島生醫「好夢夜酵素」的國際原料段寫 Capsifen 為印度 Akay 專利原料、天堂椒籽萃取，用於該成品，沒有寫原料代理。漢馨科技的 Clovinol 頁寫原廠 Akay，頁上沒有 Capsifen，同原廠不等於這個商品的代理。艾凱味（北京）與新营养的薇安生物是中國頁，不計入台灣關聯。沒有看到原廠夥伴名單上的台灣經銷。查核日 2026-11-19。"
+  },
+  "tfda": {
+    "usable": "listed_food_ingredient",
+    "evidenceNotes": "辣椒果實（Capsicum annuum）列為可直接食用，備註是空的，沒有每日毫克。同名的葉是另一筆，寫未經確認安全性前不得作為食品原料，不是這個果實微珠。商品名 Capsifen 與「辣椒素」在原料、添加物都是 0 筆。添加物關鍵字「辣椒」的 7 筆是防腐劑使用範圍裡的辣椒醬，不是辣椒素。",
+    "lookupDate": "2026-11-19",
+    "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+    "queries": [
+      {
+        "tab": "ingredient",
+        "keyword": "辣椒",
+        "category": "",
+        "resultCount": 3,
+        "matchedName": "辣椒；番椒（果實）；黃燈籠辣椒；辣椒；番椒（葉）",
+        "restrictionNote": "果實：Capsicum annuum，可直接食用，備註空白。黃燈籠辣椒是 Capsicum chinense 果實。葉：同名 Capsicum annuum，未確認安全性，不得作為食品原料。",
+        "unconfirmedSafety": false,
+        "note": "未確認的是葉。本品論文寫的是果實辣椒素類微珠。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Capsicum annuum",
+        "category": "",
+        "resultCount": 2,
+        "matchedName": "辣椒；番椒",
+        "restrictionNote": "果實可直接食用。葉為未確認，不得作為食品原料。",
+        "unconfirmedSafety": false,
+        "note": "兩筆同一學名，部位不同。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Capsifen",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名 0 筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "辣椒素",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "化合物中文名 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "辣椒素",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "添加物 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "辣椒",
+        "category": "",
+        "resultCount": 7,
+        "matchedName": "己二烯酸等防腐劑使用範圍出現辣椒醬",
+        "restrictionNote": "命中的是防腐劑使用範圍文句裡的辣椒醬，不是辣椒素規格。",
+        "unconfirmedSafety": false,
+        "note": "Capsifen 與 capsaicin 在添加物是 0 筆。"
+      },
+      {
+        "tab": "history",
+        "keyword": "辣椒",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "助手更新歷程（2026-11-01 至 2026-11-18）沒有這筆異動。資料時間戳 2026-11-18 06:20。"
+      }
+    ],
+    "officialCrosscheck": {
+      "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+      "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+      "done": true,
+      "notes": "2026-11-19 連線 consumer.fda.gov.tw 出現 SSL UNEXPECTED_EOF_WHILE_READING，沒有取得官方詳細頁。查詢助手細節時間戳 2026-11-18 06:20，原料 1709 筆、添加物 804 筆。果實詳細頁網址是 MaterialDetail id 17118，葉是 id 16101。果實備註空白、葉寫不得作為食品原料，與助手一致。"
+    }
+  },
+  "efficacy": {
+    "claimedBenefits": [
+      "NutraIngredients 2026-11-05：南昆士蘭大學試驗，Capsifen 每日 200 mg、12 週。完成者各 17 人。相對安慰劑，認知刺激下的腦血管反應與總認知分數上升；高二氧化碳的腦血管反應沒有改變。腰圍與腰臀比下降，報導寫應謹慎解讀。",
+      "Akay 產品頁寫 Capsifen 來自 Capsicum annum，以 FenuMat 做無刺激微珠，並寫游離辣椒素類生物利用度為一般萃取的 19 倍。這是供應商頁的說法。頁上建議 100 mg 一次或一天兩次，並寫體重管理與運動表現有兩項隨機對照試驗。",
+      "akay-group.com 另寫每日 200 mg。兩頁劑量句子不一致，都留下。"
+    ],
+    "suggestedDosage": "認知試驗是每日 200 mg（兩顆 100 mg）、12 週。akaybioactives.com 寫 100 mg 一次或一天兩次。akay-group.com 寫每日 200 mg。",
+    "dosageNote": "200 mg 是這篇試驗與其中一頁產品說明的每日量。另一產品頁把 100 mg 寫成可一天一次或兩次。果實列名沒有毫克上限。葉那一筆不得作為食品原料，不是這個果實規格。"
+  },
+  "patent": {
+    "status": "unknown",
+    "refs": [],
+    "note": "產品頁寫 FenuMat 為專利技術。這次打開的 US8785380B2 申請人是 Akay，狀態 Active，請求項是薑黃素與葫蘆巴半乳甘露聚醣，不是辣椒素類。沒有另找到寫 Capsifen 或 capsaicinoid 的核准請求項，所以不把那件薑黃素專利算成本品。"
+  },
+  "literature": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "The Preliminary Effects of Capsaicin Supplementation on Cerebrovascular Function and Cognition in Middle-Aged and Older Adults Who Are Overweight or Obese",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13765294/",
+        "note": "Nutrients。2026-10-30。PMC13765294。隨機、雙盲、安慰劑。招募 40 人，完成 34 人。Capsifen 每日 200 mg、12 週。原料由研究團隊自行購買，廠商未參與設計。認知刺激的腦血管反應與總認知相對安慰劑改善；高二氧化碳反應沒有。"
+      }
+    ],
+    "note": "這篇是超重或肥胖的中高齡成人。產品頁另寫兩項體重與表現試驗，這次沒有打開那兩篇全文，不另標。"
+  },
+  "evidenceLevels": [
+    "clinical"
+  ],
+  "images": [
+    {
+      "url": "https://akaybioactives.com/wp-content/uploads/red-chilli-paste-black-1.png",
+      "localPath": "",
+      "caption": "Akay Bioactives 的 Capsifen 產品頁主圖。",
+      "source": "official_site"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Akay Bioactives’ capsaicin may improve cerebrovascular function and cognition in middle-aged and older overweight adults",
+      "url": "https://www.nutraingredients.com/Article/2026/11/05/capsaicin-may-boost-brain-function-in-overweight-older-adults/",
+      "publisher": "NutraIngredients",
+      "channel": "news",
+      "accessed": "2026-11-19",
+      "whatItContributes": "2026-11-05 報導 Capsifen 每日 200 mg、12 週的認知與腦血管反應試驗。"
+    },
+    {
+      "title": "Capsifen",
+      "url": "https://akaybioactives.com/product/capsifen/",
+      "publisher": "Akay Bioactives",
+      "channel": "supplier_site",
+      "accessed": "2026-11-19",
+      "whatItContributes": "商品名、Capsicum annum、FenuMat、100 mg 一次或一天兩次，以及 19 倍生物利用度的供應商說法。"
+    },
+    {
+      "title": "PMC13765294",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13765294/",
+      "publisher": "PubMed Central",
+      "channel": "paper",
+      "accessed": "2026-11-19",
+      "whatItContributes": "每日 200 mg、辣椒素類規格、廠商未參與試驗，以及相對安慰劑的終點。"
+    },
+    {
+      "title": "機能の根拠｜國際科學成分說明書",
+      "url": "https://www.oshimashop.com.tw/pages/sci",
+      "publisher": "大島生醫",
+      "channel": "other",
+      "accessed": "2026-11-19",
+      "whatItContributes": "台灣成品「好夢夜酵素」頁把 Capsifen 寫成印度 Akay 原料，並寫天堂椒籽。不是原料經銷頁。"
+    }
+  ],
+  "discovery": {
+    "channel": "news",
+    "scoutDate": "2026-11-19",
+    "notes": "從 NutraIngredients 2026-11-05 的 Capsifen 認知報導進入，再對 Akay 產品頁、PMC13765294 與大島成品頁。專利打開 US8785380B2，確認是薑黃素請求項，沒有改記成辣椒素專利。台灣關聯另開漢馨的 Akay Clovinol 頁，確認不是 Capsifen。"
+  }
+}

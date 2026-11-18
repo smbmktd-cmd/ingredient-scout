@@ -1,0 +1,184 @@
+{
+  "id": "fibernova",
+  "example": false,
+  "names": {
+    "commonZh": "蔗果三糖（結晶短鏈果寡糖）",
+    "commonEn": "crystalline 1-kestose (short-chain fructooligosaccharide)",
+    "trade": "Fibernova Kestose（Samyang Specialty 的 kestose 商品名；結晶款與液態 Kestose LS）",
+    "scientific": "不適用單一植物學名。產品頁寫 kestose 是蔗糖再接一分子果糖的短鏈果寡糖（GF2），可由糖製成，也天然存在於大蒜、洋蔥、香蕉。不是已收錄的菊苣根菊糖，也不是異麥芽酮糖。"
+  },
+  "supply": {
+    "supplierName": "Samyang Specialty（Samyang Corporation）",
+    "supplierCountry": "韓國",
+    "relationship": "unknown",
+    "taiwanPartyName": "本次查無 Fibernova 的代理或經銷。台灣糖業股份有限公司自產果寡醣（頁寫含 1-kestose）；盛美股份有限公司目錄有三養 Fiberest，不是這個商品",
+    "relationshipNote": "2026-11-19 以 Fibernova、kestose、1-kestose、蔗果三糖、Samyang、三養、果寡糖搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索。台糖 2023-04-26 頁寫自產果寡醣漿含 1-kestose、nystose 等，是自己的製程，沒有寫 Fibernova 或 Samyang Specialty。盛美目錄與 Fiberest 文章寫三養的難消化性麥芽糊精，不是 kestose。比價頁上的三養泡麵與 Q.one 是食品品牌，沒有原料經銷說明。沒有打開寫明代理 Fibernova 的公司頁。查核日 2026-11-19。"
+  },
+  "tfda": {
+    "usable": "listed_food_ingredient",
+    "evidenceNotes": "原料有「果寡糖；果寡醣」，外文名 Fructooligosaccharide，學名、部位、備註都是空的，沒有每日公克。商品名 Fibernova、kestose、蔗果三糖都是 0 筆，不能把結晶 1-kestose 讀成條文已經寫明的規格。關鍵字「果寡醣」另命中乳果寡醣，那是另一筆、有自己的使用限制。添加物沒有果寡糖。",
+    "lookupDate": "2026-11-19",
+    "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+    "queries": [
+      {
+        "tab": "ingredient",
+        "keyword": "果寡糖",
+        "category": "",
+        "resultCount": 1,
+        "matchedName": "果寡糖；果寡醣",
+        "restrictionNote": "外文名 Fructooligosaccharide。學名、部位、備註皆空白。詳細頁 MaterialDetail id 17403。",
+        "unconfirmedSafety": false,
+        "note": "沒有寫聚合度，也沒有寫 1-kestose。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "果寡醣",
+        "category": "",
+        "resultCount": 2,
+        "matchedName": "果寡糖；果寡醣；乳果三聚醣；乳果寡醣",
+        "restrictionNote": "第二筆是乳果寡醣（Lactosucrose），備註指向 113 年 7 月 11 日衛授食字第1131301534號使用限制。不是蔗果三糖。",
+        "unconfirmedSafety": false,
+        "note": "「果寡醣」三個字嵌在乳果寡醣裡。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "kestose",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "1-kestose 與 Fibernova 也是 0 筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "蔗果三糖",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "中文別名 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "果寡糖",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "添加物 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "kestose",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "英文在添加物 0 筆。"
+      },
+      {
+        "tab": "history",
+        "keyword": "果寡糖",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "助手更新歷程（2026-11-01 至 2026-11-18）沒有這筆異動。資料時間戳 2026-11-18 06:20。"
+      }
+    ],
+    "officialCrosscheck": {
+      "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+      "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+      "done": true,
+      "notes": "2026-11-19 連線 consumer.fda.gov.tw 出現 SSL UNEXPECTED_EOF_WHILE_READING，沒有取得官方詳細頁。查詢助手果寡糖詳細頁 id 17403，學名、部位、備註空白，與助手欄位一致。乳果寡醣是另一筆。"
+    }
+  },
+  "efficacy": {
+    "claimedBenefits": [
+      "Samyang 產品頁寫 Fibernova 結晶 kestose 的 kestose 至少 98 克／100 克、果寡糖至少 99 克／100 克、糖低於 1 克／100 克；液態 Kestose LS 的 kestose 至少 80 克／100 克。頁上把它當成益生元與可溶纖維，並寫低吸濕、流動性與減少結塊。沒有在這頁寫一個每日公克。",
+      "Frontiers in Microbiology 2024：異位性皮膚炎兒童，隨機雙盲。三養提供的 advanced FOS（文中寫大於 85% 1-kestose）或麥芽糖，2.5 克一天兩次、12 週。方法段寫 advanced FOS 含 4.25 克 1-kestose。SCORAD 與搔癢在 FOS 與安慰劑都下降；睡眠干擾只在 FOS 組下降。",
+      "SupplySide 2026-11-10 展後觀察寫 Fibernova kestose 今年較早已推出，展場用在電解質粉，強調溶解與不易結塊。那是配方觀察，不是療效數據。"
+    ],
+    "suggestedDosage": "規格頁沒有寫每日公克。2024 年那篇兒童試驗是 advanced FOS 2.5 克、一天兩次、12 週。",
+    "dosageNote": "2.5 克一天兩次是這篇文獻的用法，材料寫明由 Samyang 提供，但沒有寫商品名 Fibernova。果寡糖列名沒有公克上限。結晶規格的 98% 是含量，不是建議攝取量。"
+  },
+  "patent": {
+    "status": "unknown",
+    "refs": [],
+    "note": "Fibernova 產品頁與 2026 年規格 PDF 沒有寫專利號碼。盛美寫三養 Fiberest 難消化性麥芽糊精有美、日、韓專利，那是另一個商品，沒有併進這張卡。"
+  },
+  "literature": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "Advanced fructo-oligosaccharides improve itching and aberrant epidermal lipid composition in children with atopic dermatitis",
+        "url": "https://doi.org/10.3389/fmicb.2024.1383779",
+        "note": "Frontiers in Microbiology。2024。材料由 Samyang Corp Food R&D 提供，advanced FOS 大於 85% 1-kestose，2.5 克一天兩次。SCORAD 與搔癢兩組都改善；睡眠只見於 FOS 組。受試者是兒童異位性皮膚炎，不是一般成人纖維補充。"
+      }
+    ],
+    "note": "另有 1-kestose 與空腹胰島素的人體試驗，材料寫 B Food Science，不是三養，這次不把它算進 Fibernova 的證據。"
+  },
+  "evidenceLevels": [
+    "clinical"
+  ],
+  "images": [
+    {
+      "url": "https://samyangspecialty.com/resources/images/en/product/ingredients/fibernova/content_overview-img-01.png",
+      "localPath": "",
+      "caption": "Samyang Specialty 的 Fibernova Kestose 產品頁概觀圖。",
+      "source": "official_site"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Purposeful nutrition goes mainstream with SupplySide Global",
+      "url": "https://www.supplysidefbj.com/food-development/purposeful-nutrition-goes-mainstream-with-supplyside-global-energized-by-food-and-beverage-tech",
+      "publisher": "SupplySide Food & Beverage Journal",
+      "channel": "industry_report",
+      "accessed": "2026-11-19",
+      "whatItContributes": "2026-11-10 展後觀察：Fibernova kestose 為結晶短鏈果寡糖，展場用於電解質粉，強調溶解與不易結塊。"
+    },
+    {
+      "title": "Fibernova Kestose",
+      "url": "https://www.samyangspecialty.com/en/product/Ingredients/fibernova",
+      "publisher": "Samyang Specialty",
+      "channel": "supplier_site",
+      "accessed": "2026-11-19",
+      "whatItContributes": "GF2、結晶 kestose 至少 98%、果寡糖至少 99%，以及液態規格。"
+    },
+    {
+      "title": "Advanced fructo-oligosaccharides improve itching and aberrant epidermal lipid composition in children with atopic dermatitis",
+      "url": "https://doi.org/10.3389/fmicb.2024.1383779",
+      "publisher": "Frontiers in Microbiology",
+      "channel": "paper",
+      "accessed": "2026-11-19",
+      "whatItContributes": "三養提供的 advanced FOS、2.5 克一天兩次，以及兒童異位性皮膚炎試驗裡兩組都改善的部分。"
+    },
+    {
+      "title": "走過30年．台糖果寡醣",
+      "url": "https://www.taisugar.com.tw/business/News_detail.aspx?n=12692&p=157&s=11794",
+      "publisher": "台灣糖業股份有限公司",
+      "channel": "other",
+      "accessed": "2026-11-19",
+      "whatItContributes": "台糖自產果寡醣含 1-kestose。不是 Fibernova 的代理頁。"
+    },
+    {
+      "title": "Fiberest 難消化性麥芽糊精",
+      "url": "https://www.shinemate.com.tw/en/news.php?act=view&id=37",
+      "publisher": "盛美股份有限公司",
+      "channel": "other",
+      "accessed": "2026-11-19",
+      "whatItContributes": "盛美寫的是三養 Fiberest 難消化性麥芽糊精。同公司不等於 Fibernova 經銷。"
+    }
+  ],
+  "discovery": {
+    "channel": "industry_report",
+    "scoutDate": "2026-11-19",
+    "notes": "從 SupplySide Food & Beverage Journal 2026-11-10 的展後觀察進入 Fibernova kestose，再對 Samyang 產品頁與 2024 年寫明三養供料的兒童試驗。台灣關聯打開台糖自產果寡醣頁與盛美的 Fiberest 頁，確認都不是這個商品名的代理。"
+  }
+}

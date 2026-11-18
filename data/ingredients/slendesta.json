@@ -1,0 +1,190 @@
+{
+  "id": "slendesta",
+  "example": false,
+  "names": {
+    "commonZh": "馬鈴薯蛋白酶抑制劑 II 萃取物",
+    "commonEn": "potato proteinase inhibitor II extract",
+    "trade": "Slendesta（Kemin 的馬鈴薯萃取商品名）",
+    "scientific": "供應商寫來源是馬鈴薯塊莖的蛋白酶抑制劑 II（PI2）。這次查詢沒有對到 Solanum tuberosum 這一列。不是甘藷，也不是澱粉糊精。"
+  },
+  "supply": {
+    "supplierName": "Kemin Industries, Inc.（Kemin Foods）",
+    "supplierCountry": "美國",
+    "relationship": "taiwan_distributor",
+    "taiwanPartyName": "盛美股份有限公司（目錄列 Slendesta；頁文未寫獨家或總代理）",
+    "relationshipNote": "盛美保健原料目錄與 Slendesta 產品頁寫原料由 Kemin Industries, Inc. 研發製造，地址台南市安南區安新一路99號。2025 年亞洲美容保養生技保健大展的盛美新聞寫現場說明 Slendesta 的 PI2 與 CCK，沒有寫總代理。slendesta.com.tw 列出美國專利號碼，頁上沒有公司名稱，不另算一家經銷。查核日 2026-11-19。另以 PI2、馬鈴薯萃取、蛋白酶抑制劑、Kemin 搭配台灣、代理、經銷複查，沒有看到第二家寫明經銷 Slendesta 的公司頁。"
+  },
+  "tfda": {
+    "usable": "not_found",
+    "evidenceNotes": "原料關鍵字「馬鈴薯」1 筆是澱粉糊精，備註「由馬鈴薯製得」，不是塊莖，也不是蛋白酶抑制劑。Solanum tuberosum、Slendesta、PI2 都是 0 筆。添加物「馬鈴薯」3 筆是抗氧化劑使用範圍提到馬鈴薯加工品，不是這個萃取。平台寫傳統食品不會全部列出。這次沒查到不等於准用或禁用。",
+    "lookupDate": "2026-11-19",
+    "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+    "queries": [
+      {
+        "tab": "ingredient",
+        "keyword": "馬鈴薯",
+        "category": "",
+        "resultCount": 1,
+        "matchedName": "澱粉糊精",
+        "restrictionNote": "外文名 Lactwei（amylogen, amylodextrin）。備註只寫由馬鈴薯製得。",
+        "unconfirmedSafety": false,
+        "note": "不是 PI2 萃取，也不是馬鈴薯塊莖本體。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Solanum tuberosum",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "學名 0 筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Slendesta",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名 0 筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "PI2",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "蛋白酶抑制劑簡稱 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "馬鈴薯",
+        "category": "",
+        "resultCount": 3,
+        "matchedName": "二丁基羥基甲苯；丁基羥基甲氧苯；迷迭香萃取物",
+        "restrictionNote": "使用範圍提到脫水馬鈴薯片、粉或顆粒，或加工品。不是蛋白酶抑制劑。",
+        "unconfirmedSafety": false,
+        "note": "Slendesta 與 PI2 在添加物是 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "Slendesta",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名 0 筆。"
+      },
+      {
+        "tab": "history",
+        "keyword": "馬鈴薯",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "助手更新歷程（2026-11-01 至 2026-11-18）沒有這筆異動。資料時間戳 2026-11-18 06:20。"
+      }
+    ],
+    "officialCrosscheck": {
+      "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+      "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+      "done": false,
+      "notes": "2026-11-19 連線 consumer.fda.gov.tw 出現 SSL UNEXPECTED_EOF_WHILE_READING，沒有另開官方詳細頁。查詢助手的澱粉糊精詳細頁網址是 MaterialDetail id 17317。狀態維持這次沒查到 PI2 萃取。"
+    }
+  },
+  "efficacy": {
+    "claimedBenefits": [
+      "Kemin 產品頁寫 Slendesta 標準化馬鈴薯 PI2，並寫 PI2 會提高膽囊收縮素（CCK）。頁上寫 21 項人體研究、500 人以上；餐前 60 分鐘服用 300–600 mg 的人，餐後 2–3 小時飢餓感與想吃的欲望較低。這是供應商頁的彙整。",
+      "Food & Function 的隨機交叉試驗：44 名健康女性，早餐前 1 小時吃 15 mg 或 30 mg PI2（對應 300 mg 或 600 mg 的 5% 萃取）或安慰劑。相對安慰劑，餐後飢餓、想吃與預期食量較低，飽足較高；15 mg 組的餐後 CCK 較高。沒有不良事件報告。論文沒有把這次單餐結果寫成已減重。",
+      "盛美頁寫 17 篇臨床、PI2 大於 5%。與 Kemin 頁的 21 項、以及賣單上的 5% 規格不是同一組數字，都留下。"
+    ],
+    "suggestedDosage": "Kemin 頁寫臨床使用 300–600 mg，一天一次或兩次，餐前約 60 分鐘。上述試驗用的是 300 mg 或 600 mg 單次，對應 15 mg 或 30 mg PI2。",
+    "dosageNote": "300–600 mg 是供應商頁與這篇單餐試驗的劑量，不是食品原料平臺上的每日上限。這次沒有查到 PI2 萃取的列名。"
+  },
+  "patent": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "US7371418B2 Method for controlling the yield and purity of proteinase inhibitor II during extraction",
+        "url": "https://patents.google.com/patent/US7371418B2/en",
+        "note": "申請人經轉讓為 Kemin Foods, L.C.。Google Patents 狀態寫 Expired - Fee Related，調整到期日 2021-07-08。請求項是萃取時控制 PI2 的產率與純度。"
+      }
+    ],
+    "note": "slendesta.com.tw 的專利頁另列 US6414124B1、US6686456B2、US6767566B2、US6872544B2。那一頁沒有公司名。這次只打開 US7371418B2 的請求項，其他號碼沒有逐件核對法律狀態。"
+  },
+  "literature": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "Potato protease inhibitor II suppresses postprandial appetite in healthy women: a randomized double-blind placebo-controlled trial",
+        "url": "https://doi.org/10.1039/c6fo01803c",
+        "note": "Food & Function。44 名健康女性，交叉、單餐。15 mg 或 30 mg PI2。餐後食慾分數與 15 mg 組的 CCK 相對安慰劑有差。沒有做到後續體重。"
+      }
+    ],
+    "note": "Kemin 頁寫共 21 項人體研究。這次只讀這一篇摘要，不把其餘研究的數字寫進來。盛美寫 17 篇，與 21 項並列。"
+  },
+  "evidenceLevels": [
+    "clinical"
+  ],
+  "images": [
+    {
+      "url": "https://www.shinemate.com.tw/data/editor/files/slendesta(2).png",
+      "localPath": "",
+      "caption": "盛美股份有限公司 Slendesta 原料頁上的產品圖。Kemin 產品頁這次讀到的靜態檔只有公司標誌。",
+      "source": "other"
+    }
+  ],
+  "sources": [
+    {
+      "title": "SupplySide Global 2026: What’s happening on the show floor",
+      "url": "https://www.nutraingredients.com/Article/2026/10/14/supplyside-global-2026-whats-happening-on-the-show-floor/",
+      "publisher": "NutraIngredients",
+      "channel": "exhibition",
+      "accessed": "2026-11-19",
+      "whatItContributes": "2026-10-14 展商預告：Kemin 攤位將展示 Slendesta，並寫它是馬鈴薯來源、用於飽足。"
+    },
+    {
+      "title": "Slendesta",
+      "url": "https://www.kemin.com/na/en-us/markets/human-nutrition/products/slendesta",
+      "publisher": "Kemin",
+      "channel": "supplier_site",
+      "accessed": "2026-11-19",
+      "whatItContributes": "PI2、CCK、300–600 mg，以及 21 項人體研究的供應商彙整。"
+    },
+    {
+      "title": "Potato protease inhibitor II suppresses postprandial appetite in healthy women",
+      "url": "https://doi.org/10.1039/c6fo01803c",
+      "publisher": "Food & Function",
+      "channel": "paper",
+      "accessed": "2026-11-19",
+      "whatItContributes": "44 名女性、15 mg 或 30 mg PI2 的單餐食慾與 CCK 結果。"
+    },
+    {
+      "title": "US7371418B2",
+      "url": "https://patents.google.com/patent/US7371418B2/en",
+      "publisher": "Google Patents",
+      "channel": "patent",
+      "accessed": "2026-11-19",
+      "whatItContributes": "Kemin Foods 的 PI2 萃取產率與純度方法專利，狀態為年費屆滿。"
+    },
+    {
+      "title": "Slendesta 馬鈴薯萃取物",
+      "url": "https://www.shinemate.com.tw/zh-tw/healthcare.php?id=17",
+      "publisher": "盛美股份有限公司",
+      "channel": "other",
+      "accessed": "2026-11-19",
+      "whatItContributes": "台灣原料目錄列出 Slendesta，寫 Kemin 製造、PI2 大於 5%，未寫總代理。"
+    }
+  ],
+  "discovery": {
+    "channel": "exhibition",
+    "scoutDate": "2026-11-19",
+    "notes": "從 NutraIngredients 2026-10-14 的 SupplySide Global 展商預告看到 Kemin 攤位的 Slendesta，再對 Kemin 產品頁、Food & Function 論文與 US7371418B2。台灣關聯打開盛美產品頁、2025 展會新聞與 slendesta.com.tw 專利頁。"
+  }
+}

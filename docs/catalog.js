@@ -7,6 +7,940 @@ window.INGREDIENT_CATALOG = {
         "exhibition",
         "industry_report"
       ],
+      "date": "2026-11-19",
+      "example": false,
+      "notes": "正式五筆。主管道：Capsifen、myHMB 為新聞；Slendesta、Trpti 為展覽；Fibernova 為產業報導。未收未確認安全性項目：總序天冬、吡咯喹啉醌二鈉鹽、印度小檗、鋸棕櫚果實、裸藻。",
+      "picks": [
+        {
+          "discovery": {
+            "channel": "news",
+            "notes": "從 NutraIngredients 2026-11-05 的 Capsifen 認知報導進入，再對 Akay 產品頁、PMC13765294 與大島成品頁。專利打開 US8785380B2，確認是薑黃素請求項，沒有改記成辣椒素專利。台灣關聯另開漢馨的 Akay Clovinol 頁，確認不是 Capsifen。",
+            "scoutDate": "2026-11-19"
+          },
+          "efficacy": {
+            "claimedBenefits": [
+              "NutraIngredients 2026-11-05：南昆士蘭大學試驗，Capsifen 每日 200 mg、12 週。完成者各 17 人。相對安慰劑，認知刺激下的腦血管反應與總認知分數上升；高二氧化碳的腦血管反應沒有改變。腰圍與腰臀比下降，報導寫應謹慎解讀。",
+              "Akay 產品頁寫 Capsifen 來自 Capsicum annum，以 FenuMat 做無刺激微珠，並寫游離辣椒素類生物利用度為一般萃取的 19 倍。這是供應商頁的說法。頁上建議 100 mg 一次或一天兩次，並寫體重管理與運動表現有兩項隨機對照試驗。",
+              "akay-group.com 另寫每日 200 mg。兩頁劑量句子不一致，都留下。"
+            ],
+            "dosageNote": "200 mg 是這篇試驗與其中一頁產品說明的每日量。另一產品頁把 100 mg 寫成可一天一次或兩次。果實列名沒有毫克上限。葉那一筆不得作為食品原料，不是這個果實規格。",
+            "suggestedDosage": "認知試驗是每日 200 mg（兩顆 100 mg）、12 週。akaybioactives.com 寫 100 mg 一次或一天兩次。akay-group.com 寫每日 200 mg。"
+          },
+          "evidenceLevels": [
+            "clinical"
+          ],
+          "example": false,
+          "id": "capsifen",
+          "images": [
+            {
+              "caption": "Akay Bioactives 的 Capsifen 產品頁主圖。",
+              "localPath": "",
+              "source": "official_site",
+              "url": "https://akaybioactives.com/wp-content/uploads/red-chilli-paste-black-1.png"
+            }
+          ],
+          "literature": {
+            "note": "這篇是超重或肥胖的中高齡成人。產品頁另寫兩項體重與表現試驗，這次沒有打開那兩篇全文，不另標。",
+            "refs": [
+              {
+                "note": "Nutrients。2026-10-30。PMC13765294。隨機、雙盲、安慰劑。招募 40 人，完成 34 人。Capsifen 每日 200 mg、12 週。原料由研究團隊自行購買，廠商未參與設計。認知刺激的腦血管反應與總認知相對安慰劑改善；高二氧化碳反應沒有。",
+                "title": "The Preliminary Effects of Capsaicin Supplementation on Cerebrovascular Function and Cognition in Middle-Aged and Older Adults Who Are Overweight or Obese",
+                "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13765294/"
+              }
+            ],
+            "status": "yes"
+          },
+          "names": {
+            "commonEn": "red chili capsaicinoid beadlets",
+            "commonZh": "辣椒果實辣椒素類微珠",
+            "scientific": "Capsicum annuum（果實。論文寫微珠的總辣椒素類至少 2.8%，其中 capsaicin 1.8%、dihydrocapsaicin 0.84%、nordihydrocapsaicin 0.16%。載體是葫蘆巴半乳甘露聚醣 FenuMat，不是已收錄的 Testofen 種子皂苷。不是葉。大島成品頁寫「天堂椒籽」，與果實說法不同，都留下。）",
+            "trade": "Capsifen（Akay Bioactives 的辣椒素類微珠商品名）"
+          },
+          "patent": {
+            "note": "產品頁寫 FenuMat 為專利技術。這次打開的 US8785380B2 申請人是 Akay，狀態 Active，請求項是薑黃素與葫蘆巴半乳甘露聚醣，不是辣椒素類。沒有另找到寫 Capsifen 或 capsaicinoid 的核准請求項，所以不把那件薑黃素專利算成本品。",
+            "refs": [],
+            "status": "unknown"
+          },
+          "sources": [
+            {
+              "accessed": "2026-11-19",
+              "channel": "news",
+              "publisher": "NutraIngredients",
+              "title": "Akay Bioactives’ capsaicin may improve cerebrovascular function and cognition in middle-aged and older overweight adults",
+              "url": "https://www.nutraingredients.com/Article/2026/11/05/capsaicin-may-boost-brain-function-in-overweight-older-adults/",
+              "whatItContributes": "2026-11-05 報導 Capsifen 每日 200 mg、12 週的認知與腦血管反應試驗。"
+            },
+            {
+              "accessed": "2026-11-19",
+              "channel": "supplier_site",
+              "publisher": "Akay Bioactives",
+              "title": "Capsifen",
+              "url": "https://akaybioactives.com/product/capsifen/",
+              "whatItContributes": "商品名、Capsicum annum、FenuMat、100 mg 一次或一天兩次，以及 19 倍生物利用度的供應商說法。"
+            },
+            {
+              "accessed": "2026-11-19",
+              "channel": "paper",
+              "publisher": "PubMed Central",
+              "title": "PMC13765294",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13765294/",
+              "whatItContributes": "每日 200 mg、辣椒素類規格、廠商未參與試驗，以及相對安慰劑的終點。"
+            },
+            {
+              "accessed": "2026-11-19",
+              "channel": "other",
+              "publisher": "大島生醫",
+              "title": "機能の根拠｜國際科學成分說明書",
+              "url": "https://www.oshimashop.com.tw/pages/sci",
+              "whatItContributes": "台灣成品「好夢夜酵素」頁把 Capsifen 寫成印度 Akay 原料，並寫天堂椒籽。不是原料經銷頁。"
+            }
+          ],
+          "supply": {
+            "relationship": "unknown",
+            "relationshipNote": "2026-11-19 以 Capsifen、Akay、FenuMat、辣椒素、紅辣椒萃取搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索。大島生醫「好夢夜酵素」的國際原料段寫 Capsifen 為印度 Akay 專利原料、天堂椒籽萃取，用於該成品，沒有寫原料代理。漢馨科技的 Clovinol 頁寫原廠 Akay，頁上沒有 Capsifen，同原廠不等於這個商品的代理。艾凱味（北京）與新营养的薇安生物是中國頁，不計入台灣關聯。沒有看到原廠夥伴名單上的台灣經銷。查核日 2026-11-19。",
+            "supplierCountry": "印度",
+            "supplierName": "Akay Bioactives（Akay Natural Ingredients Private Limited）",
+            "taiwanPartyName": "大島生醫（成品頁寫採用 Capsifen；未寫原料代理或經銷）"
+          },
+          "tfda": {
+            "evidenceNotes": "辣椒果實（Capsicum annuum）列為可直接食用，備註是空的，沒有每日毫克。同名的葉是另一筆，寫未經確認安全性前不得作為食品原料，不是這個果實微珠。商品名 Capsifen 與「辣椒素」在原料、添加物都是 0 筆。添加物關鍵字「辣椒」的 7 筆是防腐劑使用範圍裡的辣椒醬，不是辣椒素。",
+            "lookupDate": "2026-11-19",
+            "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+            "officialCrosscheck": {
+              "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+              "done": true,
+              "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+              "notes": "2026-11-19 連線 consumer.fda.gov.tw 出現 SSL UNEXPECTED_EOF_WHILE_READING，沒有取得官方詳細頁。查詢助手細節時間戳 2026-11-18 06:20，原料 1709 筆、添加物 804 筆。果實詳細頁網址是 MaterialDetail id 17118，葉是 id 16101。果實備註空白、葉寫不得作為食品原料，與助手一致。"
+            },
+            "queries": [
+              {
+                "category": "",
+                "keyword": "辣椒",
+                "matchedName": "辣椒；番椒（果實）；黃燈籠辣椒；辣椒；番椒（葉）",
+                "note": "未確認的是葉。本品論文寫的是果實辣椒素類微珠。",
+                "restrictionNote": "果實：Capsicum annuum，可直接食用，備註空白。黃燈籠辣椒是 Capsicum chinense 果實。葉：同名 Capsicum annuum，未確認安全性，不得作為食品原料。",
+                "resultCount": 3,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Capsicum annuum",
+                "matchedName": "辣椒；番椒",
+                "note": "兩筆同一學名，部位不同。",
+                "restrictionNote": "果實可直接食用。葉為未確認，不得作為食品原料。",
+                "resultCount": 2,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Capsifen",
+                "matchedName": "",
+                "note": "商品名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "辣椒素",
+                "matchedName": "",
+                "note": "化合物中文名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "辣椒素",
+                "matchedName": "",
+                "note": "添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "辣椒",
+                "matchedName": "己二烯酸等防腐劑使用範圍出現辣椒醬",
+                "note": "Capsifen 與 capsaicin 在添加物是 0 筆。",
+                "restrictionNote": "命中的是防腐劑使用範圍文句裡的辣椒醬，不是辣椒素規格。",
+                "resultCount": 7,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "辣椒",
+                "matchedName": "",
+                "note": "助手更新歷程（2026-11-01 至 2026-11-18）沒有這筆異動。資料時間戳 2026-11-18 06:20。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "history",
+                "unconfirmedSafety": false
+              }
+            ],
+            "usable": "listed_food_ingredient"
+          }
+        },
+        {
+          "discovery": {
+            "channel": "exhibition",
+            "notes": "從 NutraIngredients 2026-10-14 的 SupplySide Global 展商預告看到 Kemin 攤位的 Slendesta，再對 Kemin 產品頁、Food & Function 論文與 US7371418B2。台灣關聯打開盛美產品頁、2025 展會新聞與 slendesta.com.tw 專利頁。",
+            "scoutDate": "2026-11-19"
+          },
+          "efficacy": {
+            "claimedBenefits": [
+              "Kemin 產品頁寫 Slendesta 標準化馬鈴薯 PI2，並寫 PI2 會提高膽囊收縮素（CCK）。頁上寫 21 項人體研究、500 人以上；餐前 60 分鐘服用 300–600 mg 的人，餐後 2–3 小時飢餓感與想吃的欲望較低。這是供應商頁的彙整。",
+              "Food & Function 的隨機交叉試驗：44 名健康女性，早餐前 1 小時吃 15 mg 或 30 mg PI2（對應 300 mg 或 600 mg 的 5% 萃取）或安慰劑。相對安慰劑，餐後飢餓、想吃與預期食量較低，飽足較高；15 mg 組的餐後 CCK 較高。沒有不良事件報告。論文沒有把這次單餐結果寫成已減重。",
+              "盛美頁寫 17 篇臨床、PI2 大於 5%。與 Kemin 頁的 21 項、以及賣單上的 5% 規格不是同一組數字，都留下。"
+            ],
+            "dosageNote": "300–600 mg 是供應商頁與這篇單餐試驗的劑量，不是食品原料平臺上的每日上限。這次沒有查到 PI2 萃取的列名。",
+            "suggestedDosage": "Kemin 頁寫臨床使用 300–600 mg，一天一次或兩次，餐前約 60 分鐘。上述試驗用的是 300 mg 或 600 mg 單次，對應 15 mg 或 30 mg PI2。"
+          },
+          "evidenceLevels": [
+            "clinical"
+          ],
+          "example": false,
+          "id": "slendesta",
+          "images": [
+            {
+              "caption": "盛美股份有限公司 Slendesta 原料頁上的產品圖。Kemin 產品頁這次讀到的靜態檔只有公司標誌。",
+              "localPath": "",
+              "source": "other",
+              "url": "https://www.shinemate.com.tw/data/editor/files/slendesta(2).png"
+            }
+          ],
+          "literature": {
+            "note": "Kemin 頁寫共 21 項人體研究。這次只讀這一篇摘要，不把其餘研究的數字寫進來。盛美寫 17 篇，與 21 項並列。",
+            "refs": [
+              {
+                "note": "Food & Function。44 名健康女性，交叉、單餐。15 mg 或 30 mg PI2。餐後食慾分數與 15 mg 組的 CCK 相對安慰劑有差。沒有做到後續體重。",
+                "title": "Potato protease inhibitor II suppresses postprandial appetite in healthy women: a randomized double-blind placebo-controlled trial",
+                "url": "https://doi.org/10.1039/c6fo01803c"
+              }
+            ],
+            "status": "yes"
+          },
+          "names": {
+            "commonEn": "potato proteinase inhibitor II extract",
+            "commonZh": "馬鈴薯蛋白酶抑制劑 II 萃取物",
+            "scientific": "供應商寫來源是馬鈴薯塊莖的蛋白酶抑制劑 II（PI2）。這次查詢沒有對到 Solanum tuberosum 這一列。不是甘藷，也不是澱粉糊精。",
+            "trade": "Slendesta（Kemin 的馬鈴薯萃取商品名）"
+          },
+          "patent": {
+            "note": "slendesta.com.tw 的專利頁另列 US6414124B1、US6686456B2、US6767566B2、US6872544B2。那一頁沒有公司名。這次只打開 US7371418B2 的請求項，其他號碼沒有逐件核對法律狀態。",
+            "refs": [
+              {
+                "note": "申請人經轉讓為 Kemin Foods, L.C.。Google Patents 狀態寫 Expired - Fee Related，調整到期日 2021-07-08。請求項是萃取時控制 PI2 的產率與純度。",
+                "title": "US7371418B2 Method for controlling the yield and purity of proteinase inhibitor II during extraction",
+                "url": "https://patents.google.com/patent/US7371418B2/en"
+              }
+            ],
+            "status": "yes"
+          },
+          "sources": [
+            {
+              "accessed": "2026-11-19",
+              "channel": "exhibition",
+              "publisher": "NutraIngredients",
+              "title": "SupplySide Global 2026: What’s happening on the show floor",
+              "url": "https://www.nutraingredients.com/Article/2026/10/14/supplyside-global-2026-whats-happening-on-the-show-floor/",
+              "whatItContributes": "2026-10-14 展商預告：Kemin 攤位將展示 Slendesta，並寫它是馬鈴薯來源、用於飽足。"
+            },
+            {
+              "accessed": "2026-11-19",
+              "channel": "supplier_site",
+              "publisher": "Kemin",
+              "title": "Slendesta",
+              "url": "https://www.kemin.com/na/en-us/markets/human-nutrition/products/slendesta",
+              "whatItContributes": "PI2、CCK、300–600 mg，以及 21 項人體研究的供應商彙整。"
+            },
+            {
+              "accessed": "2026-11-19",
+              "channel": "paper",
+              "publisher": "Food & Function",
+              "title": "Potato protease inhibitor II suppresses postprandial appetite in healthy women",
+              "url": "https://doi.org/10.1039/c6fo01803c",
+              "whatItContributes": "44 名女性、15 mg 或 30 mg PI2 的單餐食慾與 CCK 結果。"
+            },
+            {
+              "accessed": "2026-11-19",
+              "channel": "patent",
+              "publisher": "Google Patents",
+              "title": "US7371418B2",
+              "url": "https://patents.google.com/patent/US7371418B2/en",
+              "whatItContributes": "Kemin Foods 的 PI2 萃取產率與純度方法專利，狀態為年費屆滿。"
+            },
+            {
+              "accessed": "2026-11-19",
+              "channel": "other",
+              "publisher": "盛美股份有限公司",
+              "title": "Slendesta 馬鈴薯萃取物",
+              "url": "https://www.shinemate.com.tw/zh-tw/healthcare.php?id=17",
+              "whatItContributes": "台灣原料目錄列出 Slendesta，寫 Kemin 製造、PI2 大於 5%，未寫總代理。"
+            }
+          ],
+          "supply": {
+            "relationship": "taiwan_distributor",
+            "relationshipNote": "盛美保健原料目錄與 Slendesta 產品頁寫原料由 Kemin Industries, Inc. 研發製造，地址台南市安南區安新一路99號。2025 年亞洲美容保養生技保健大展的盛美新聞寫現場說明 Slendesta 的 PI2 與 CCK，沒有寫總代理。slendesta.com.tw 列出美國專利號碼，頁上沒有公司名稱，不另算一家經銷。查核日 2026-11-19。另以 PI2、馬鈴薯萃取、蛋白酶抑制劑、Kemin 搭配台灣、代理、經銷複查，沒有看到第二家寫明經銷 Slendesta 的公司頁。",
+            "supplierCountry": "美國",
+            "supplierName": "Kemin Industries, Inc.（Kemin Foods）",
+            "taiwanPartyName": "盛美股份有限公司（目錄列 Slendesta；頁文未寫獨家或總代理）"
+          },
+          "tfda": {
+            "evidenceNotes": "原料關鍵字「馬鈴薯」1 筆是澱粉糊精，備註「由馬鈴薯製得」，不是塊莖，也不是蛋白酶抑制劑。Solanum tuberosum、Slendesta、PI2 都是 0 筆。添加物「馬鈴薯」3 筆是抗氧化劑使用範圍提到馬鈴薯加工品，不是這個萃取。平台寫傳統食品不會全部列出。這次沒查到不等於准用或禁用。",
+            "lookupDate": "2026-11-19",
+            "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+            "officialCrosscheck": {
+              "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+              "done": false,
+              "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+              "notes": "2026-11-19 連線 consumer.fda.gov.tw 出現 SSL UNEXPECTED_EOF_WHILE_READING，沒有另開官方詳細頁。查詢助手的澱粉糊精詳細頁網址是 MaterialDetail id 17317。狀態維持這次沒查到 PI2 萃取。"
+            },
+            "queries": [
+              {
+                "category": "",
+                "keyword": "馬鈴薯",
+                "matchedName": "澱粉糊精",
+                "note": "不是 PI2 萃取，也不是馬鈴薯塊莖本體。",
+                "restrictionNote": "外文名 Lactwei（amylogen, amylodextrin）。備註只寫由馬鈴薯製得。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Solanum tuberosum",
+                "matchedName": "",
+                "note": "學名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Slendesta",
+                "matchedName": "",
+                "note": "商品名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "PI2",
+                "matchedName": "",
+                "note": "蛋白酶抑制劑簡稱 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "馬鈴薯",
+                "matchedName": "二丁基羥基甲苯；丁基羥基甲氧苯；迷迭香萃取物",
+                "note": "Slendesta 與 PI2 在添加物是 0 筆。",
+                "restrictionNote": "使用範圍提到脫水馬鈴薯片、粉或顆粒，或加工品。不是蛋白酶抑制劑。",
+                "resultCount": 3,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Slendesta",
+                "matchedName": "",
+                "note": "商品名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "馬鈴薯",
+                "matchedName": "",
+                "note": "助手更新歷程（2026-11-01 至 2026-11-18）沒有這筆異動。資料時間戳 2026-11-18 06:20。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "history",
+                "unconfirmedSafety": false
+              }
+            ],
+            "usable": "not_found"
+          }
+        },
+        {
+          "discovery": {
+            "channel": "exhibition",
+            "notes": "從 NutraIngredients 2026-10-14 的 SupplySide Global 展商預告進入 Saanroo 攤位的 Trpti，再對 Saanroo 原料頁與 Frontiers 2026 論文。和聚的 Testofen 頁用來確認同集團其他商品沒有寫這個 OEA 商品名。與已收錄的 Levagen+ 不是同一種脂肪醯胺。",
+            "scoutDate": "2026-11-19"
+          },
+          "efficacy": {
+            "claimedBenefits": [
+              "Frontiers in Endocrinology 2026：固定順序、單盲、三期交叉。37 名成人，BMI 25–34.9。單次安慰劑、150 mg 或 300 mg Trpti。300 mg 在部分預設餐後時段的 GLP-1 與 GIP 高於安慰劑，文中寫關鍵時點約高 20–25%，15 分鐘內就量得到。150 mg 在若干時段低於安慰劑。兩種劑量都有統計上的進食量減少。",
+              "Saanroo 原料頁寫 Trpti 為 90% OEA 加最多 10% LipiSperse，並把內生 GLP-1 增加 25%、為一般 OEA 的 2 倍放在頁首。這是供應商頁的說法，不是論文裡每一個時段的結果。",
+              "trpti.net 寫 Trpti 支持代謝、飽足與脂肪代謝，並寫與 Akkermansia muciniphila、Faecalibacterium prausnitzii 有關。那一頁把菌相結果放在另一篇 12 週試驗，這次沒有打開全文。"
+            ],
+            "dosageNote": "300 mg 是這篇單次試驗與供應商錠劑頁的數字，不是法規上限。150 mg 在同一篇裡並不是每個時段都高於安慰劑。平台沒有這個化合物的列名。",
+            "suggestedDosage": "上述急性試驗的有效比較劑量是單次 300 mg Trpti（兩顆 150 mg，每顆 OEA 至少 125 mg，合計至少 250 mg）。Saanroo 頁把 300 mg 寫在錠劑規格。"
+          },
+          "evidenceLevels": [
+            "clinical"
+          ],
+          "example": false,
+          "id": "trpti",
+          "images": [
+            {
+              "caption": "Trpti 官網的膠囊劑型圖。",
+              "localPath": "",
+              "source": "official_site",
+              "url": "https://trpti.net/wp-content/uploads/2026/06/Capsules-1-300x300.png"
+            }
+          ],
+          "literature": {
+            "note": "trpti.net 另列 12 週、每日 300 mg、57 名肥胖成人的菌相論文。這次沒有打開全文，不把菌相數字寫成已核對。",
+            "refs": [
+              {
+                "note": "Frontiers in Endocrinology。2026。DOI 10.3389/fendo.2026.1879799。單次 300 mg 在部分時段提高 GLP-1 與 GIP。固定順序、單盲。每顆 150 mg Trpti 含 OEA 至少 125 mg。",
+                "title": "Acute TRPTI (oleoylethanolamide) supplementation enhances incretin hormone responses: a fixed-sequence crossover study",
+                "url": "https://www.frontiersin.org/journals/endocrinology/articles/10.3389/fendo.2026.1879799/full"
+              }
+            ],
+            "status": "yes"
+          },
+          "names": {
+            "commonEn": "oleoylethanolamide (cold-water dispersible)",
+            "commonZh": "油醯乙醇胺（冷水分散型）",
+            "scientific": "不適用植物學名。OEA 是油酸與乙醇胺合成的脂肪酸醯胺。Saanroo 頁寫粉末為 90% OEA、最多 10% LipiSperse。NXT Ingredients 頁寫 83.3% OEA。兩處比例不一致，都留下。不是已收錄的 Levagen+（棕櫚醯乙醇胺）。",
+            "trade": "Trpti（Saanroo 的 OEA 商品名；頁上亦寫 TRPTI。搭配 Pharmako 的 LipiSperse）"
+          },
+          "patent": {
+            "note": "Saanroo 與 Pharmako 頁都寫 LipiSperse 為專利冷水分散技術，Trpti 使用它。這次沒有打開寫有 OEA 請求項的專利全文。2018 年那則沒有號碼，不能把它讀成 OEA 本身的物質專利。",
+            "refs": [
+              {
+                "note": "2018-11-28：NutraIngredients 寫 LipiSperse 已獲 WIPO 核准，當時點名的應用是 HydroCurc 與 Levagen，沒有 Trpti，也沒有寫專利號碼。",
+                "title": "Pharmako patent approval for delivery system technology",
+                "url": "https://www.nutraingredients.com/Article/2018/11/28/Pharmako-patent-approval-for-delivery-system-technology-opens-doors-for-NPD-and-new-partnerships/"
+              }
+            ],
+            "status": "yes"
+          },
+          "sources": [
+            {
+              "accessed": "2026-11-19",
+              "channel": "exhibition",
+              "publisher": "NutraIngredients",
+              "title": "SupplySide Global 2026: What’s happening on the show floor",
+              "url": "https://www.nutraingredients.com/Article/2026/10/14/supplyside-global-2026-whats-happening-on-the-show-floor/",
+              "whatItContributes": "2026-10-14 展商預告：Saanroo 攤位提出 Trpti 的新人體研究，寫補充後 15 分鐘內看得到 GLP-1 與 GIP。"
+            },
+            {
+              "accessed": "2026-11-19",
+              "channel": "supplier_site",
+              "publisher": "Saanroo",
+              "title": "Trpti",
+              "url": "https://www.saanroo.com/ingredients/trpti",
+              "whatItContributes": "90% OEA、LipiSperse、澳洲 Pharmako 製造，以及 300 mg 錠劑的供應商規格。"
+            },
+            {
+              "accessed": "2026-11-19",
+              "channel": "paper",
+              "publisher": "Frontiers in Endocrinology",
+              "title": "Acute TRPTI supplementation enhances incretin hormone responses",
+              "url": "https://www.frontiersin.org/journals/endocrinology/articles/10.3389/fendo.2026.1879799/full",
+              "whatItContributes": "單次 150 mg 與 300 mg 的 GLP-1、GIP 時段差異，以及每顆 OEA 至少 125 mg。"
+            },
+            {
+              "accessed": "2026-11-19",
+              "channel": "patent",
+              "publisher": "NutraIngredients",
+              "title": "Pharmako patent approval for delivery system technology",
+              "url": "https://www.nutraingredients.com/Article/2018/11/28/Pharmako-patent-approval-for-delivery-system-technology-opens-doors-for-NPD-and-new-partnerships/",
+              "whatItContributes": "LipiSperse 在 2018 年獲 WIPO 核准的報導。當時還沒有寫 Trpti。"
+            },
+            {
+              "accessed": "2026-11-19",
+              "channel": "other",
+              "publisher": "和聚國際",
+              "title": "Testofen 專利葫蘆巴萃取",
+              "url": "https://www.hg-bio.com.tw/products/testofen/",
+              "whatItContributes": "同一集團其他商品的台灣頁。頁上有 Gencor，沒有 Trpti 或 OEA。"
+            }
+          ],
+          "supply": {
+            "relationship": "unknown",
+            "relationshipNote": "2026-11-19 以 Trpti、TRPTI、Saanroo、Pharmako、oleoylethanolamide、油醯乙醇胺、油酸乙醇醯胺搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索，並打開命中頁。和聚國際的 Testofen 頁寫到 Gencor，沒有 Trpti、OEA、Levagen 或 Saanroo，不能把葫蘆巴那一頁當成這個商品的代理。台灣新日化的 Tainolin ODE 是油酸二乙醇醯胺（CAS 93-83-4），生技先鋒頁是研究用 DOPE，都不是食品原料 OEA。沒有看到原料經銷頁或成品採用頁。查核日 2026-11-19。",
+            "supplierCountry": "澳洲製造；Saanroo 原料頁地址在美國德州",
+            "supplierName": "Saanroo（製造為澳洲 Pharmako Biotechnologies Pty Ltd）",
+            "taiwanPartyName": "本次查無台灣關聯廠商"
+          },
+          "tfda": {
+            "evidenceNotes": "原料與添加物以 oleoylethanolamide、Trpti、油醯乙醇胺查，都是 0 筆。三個字母 OEA 會命中兩筆牽牛花屬學名，因為字串裡含有 oea，不是油醯乙醇胺。沒有列名不等於准用，也不是禁用結論。",
+            "lookupDate": "2026-11-19",
+            "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+            "officialCrosscheck": {
+              "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+              "done": false,
+              "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+              "notes": "2026-11-19 連線 consumer.fda.gov.tw 出現 SSL UNEXPECTED_EOF_WHILE_READING。助手側化合物名與商品名都是 0 筆，沒有可核對的詳細頁。"
+            },
+            "queries": [
+              {
+                "category": "",
+                "keyword": "oleoylethanolamide",
+                "matchedName": "",
+                "note": "英文化合物名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "油醯乙醇胺",
+                "matchedName": "",
+                "note": "中文名 0 筆。另試油酰乙醇胺也是 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Trpti",
+                "matchedName": "",
+                "note": "商品名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "OEA",
+                "matchedName": "番薯；甘藷；地瓜；碗仔花",
+                "note": "短字串嵌在學名裡。不把這兩筆當成 OEA。",
+                "restrictionNote": "學名 Ipomoea batatas 與 Ipomoea hederacea。碗仔花那筆是未確認安全性。都不是油醯乙醇胺。",
+                "resultCount": 2,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "oleoylethanolamide",
+                "matchedName": "",
+                "note": "添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Trpti",
+                "matchedName": "",
+                "note": "商品名在添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Trpti",
+                "matchedName": "",
+                "note": "助手更新歷程（2026-11-01 至 2026-11-18）沒有這筆異動。資料時間戳 2026-11-18 06:20。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "history",
+                "unconfirmedSafety": false
+              }
+            ],
+            "usable": "not_found"
+          }
+        },
+        {
+          "discovery": {
+            "channel": "news",
+            "notes": "從 TSI 2026-06-10 的乳清加 HMB 試驗新聞進入 myHMB，再對 Metabolic Technologies 授權頁與 US10758504B2。期刊全文 403，試驗細節停在 TSI 頁的轉述。台灣關聯打開恒宜兩個產品頁，產地與有沒有寫商品名不一致，沒有改成獨家代理。",
+            "scoutDate": "2026-11-19"
+          },
+          "efficacy": {
+            "claimedBenefits": [
+              "TSI 2026-06-10 頁：諾丁漢大學隨機、雙盲、交叉試驗，24 名 65–75 歲健康成人。40 克乳清加上 3 克 calcium HMB，相對只有乳清，較晚的餐後時段肌肉蛋白分解受抑制的時間較長。頁上寫女性的肌肉蛋白合成反應較大，男性沒有看到同樣差異，並寫這不是為了比較性別而設計。",
+              "同一頁把這篇連到 myHMB，並引用 Nutrients 2026;18(9):1449、PMID 42124050。期刊頁這次回 403，沒有逐句核對全文，也沒有在 TSI 的轉述裡看到論文寫明使用 myHMB 這個商品名。",
+              "Metabolic Technologies 授權頁寫鈣鹽商品名是 myHMB，游離酸是 myHMB Clear 與 BetaTOR。供應商要求配方達到他們認定的有效劑量才授權，頁上沒有把那個劑量寫成一個公克數。"
+            ],
+            "dosageNote": "3 克是 TSI 頁轉述的單次試驗劑量，不是添加物條文裡的數字。條文只寫特殊營養食品可適量使用，並寫不適宜孕婦及未滿 18 歲。恒宜頁另外寫不建議哺乳期婦女，條文沒有這句。",
+            "suggestedDosage": "TSI 轉述的這篇試驗是單次 3 克 calcium HMB，併在 40 克乳清蛋白裡。授權頁沒有另寫一個日常公克數。"
+          },
+          "evidenceLevels": [
+            "clinical"
+          ],
+          "example": false,
+          "id": "myhmb",
+          "images": [
+            {
+              "caption": "Metabolic Technologies 網站新聞圖，檔名為 myHMB launch。",
+              "localPath": "",
+              "source": "official_site",
+              "url": "https://www.mettechinc.com/media/news/myHMBlaunch_052DF23901CCF.jpg"
+            }
+          ],
+          "literature": {
+            "note": "TSI 頁另引 ISSN 2025 年 HMB 立場論文。這次沒有打開那篇，不把立場論文的結論併進來。",
+            "refs": [
+              {
+                "note": "2026-06-10。轉述 Nutrients 2026;18(9):1449、PMID 42124050。24 人、65–75 歲、單次 3 克 calcium HMB 加 40 克乳清。期刊全文這次 403，以下細節依 TSI 頁。",
+                "title": "TSI：New Research Suggests HMB May Complement Whey Protein in Supporting Muscle Protein Turnover in Older Adults",
+                "url": "https://tsigroupltd.com/new-research-on-hmb-plus-whey-protein/"
+              }
+            ],
+            "status": "yes"
+          },
+          "names": {
+            "commonEn": "calcium beta-hydroxy-beta-methylbutyrate (HMB)",
+            "commonZh": "3-羥基-3-甲基丁酸鈣",
+            "scientific": "不適用植物學名。添加物品名是 3-羥基-3-甲基丁酸鈣，外文名 Calcium 3-Hydroxy-3-Methyl Butyrate Monohydrate。它是白胺酸的代謝物，不是已收錄的肌酸。",
+            "trade": "myHMB（TSI Group／Metabolic Technologies 的 HMB 鈣鹽商品名；游離酸規格另稱 myHMB Clear、BetaTOR）"
+          },
+          "patent": {
+            "note": "授權頁寫鈣鹽、游離酸與合併維生素 D 都有專利，並要求零售商取得授權。TSI 中文稿另寫中國發明專利 ZL 201310127262.X。這次沒有打開中國專利全文。",
+            "refs": [
+              {
+                "note": "申請人 Metabolic Technologies, LLC。Google Patents 狀態 Active。說明書舉例一天 3 克 calcium HMB。請求項是軟組織創傷恢復，不是 2026 年那篇乳清蛋白試驗的終點。",
+                "title": "US10758504B2 Compositions and methods of use of β-hydroxy-β-methylbutyrate (HMB) for enhancing recovery from soft tissue trauma",
+                "url": "https://patents.google.com/patent/US10758504B2/en"
+              }
+            ],
+            "status": "yes"
+          },
+          "sources": [
+            {
+              "accessed": "2026-11-19",
+              "channel": "news",
+              "publisher": "TSI Group",
+              "title": "New Research Suggests HMB May Complement Whey Protein in Supporting Muscle Protein Turnover in Older Adults",
+              "url": "https://tsigroupltd.com/new-research-on-hmb-plus-whey-protein/",
+              "whatItContributes": "2026-06-10 發布諾丁漢試驗的公司新聞，並把 3 克 calcium HMB 連到 myHMB。"
+            },
+            {
+              "accessed": "2026-11-19",
+              "channel": "supplier_site",
+              "publisher": "Metabolic Technologies",
+              "title": "Licensing",
+              "url": "https://www.mettechinc.com/licensing",
+              "whatItContributes": "鈣鹽商品名 myHMB、游離酸另有商品名，以及須取得授權的說法。"
+            },
+            {
+              "accessed": "2026-11-19",
+              "channel": "patent",
+              "publisher": "Google Patents",
+              "title": "US10758504B2",
+              "url": "https://patents.google.com/patent/US10758504B2/en",
+              "whatItContributes": "Metabolic Technologies 的 HMB 與軟組織恢復專利，說明書有一天 3 克 calcium HMB 的例子。"
+            },
+            {
+              "accessed": "2026-11-19",
+              "channel": "other",
+              "publisher": "恒宜生技",
+              "title": "專利 myHMB HMB-Ca",
+              "url": "https://www.hengyi-bio.com.tw/products-detail/106/",
+              "whatItContributes": "台灣頁自寫販售 myHMB，產地寫中國，並寫影片來自 TSI。不是原廠獨家證明。"
+            },
+            {
+              "accessed": "2026-11-19",
+              "channel": "other",
+              "publisher": "恒宜貿易股份有限公司",
+              "title": "HMB-Ca",
+              "url": "https://www.hengyi-bio.com/tw/products_d.php?pd=1259",
+              "whatItContributes": "同一集團另一頁只寫 HMB-Ca 與美國製程專利，沒有寫 myHMB。"
+            }
+          ],
+          "supply": {
+            "relationship": "taiwan_distributor",
+            "relationshipNote": "恒宜生技頁標題是專利 myHMB HMB-Ca，規格寫產地中國、HMB-Ca 至少 98%（HMB 77–82%），並寫影片來源為 TSI Group 原廠影片。頁尾公司名是恒宜貿易股份有限公司，地址臺中市北屯區文心路四段83號18樓。另一個恒宜貿易頁只寫 HMB-Ca、美國製程專利，沒有 myHMB 三個字，地址是文心路四段81號18樓之2。兩頁的產地與商品名不一致，都留下，不升成原廠證實的獨家代理。myHMB 成品購買頁這次打開的清單沒有台灣據點。查核日 2026-11-19。",
+            "supplierCountry": "美國",
+            "supplierName": "TSI Group Ltd.（專利與授權頁為 Metabolic Technologies, LLC）",
+            "taiwanPartyName": "恒宜貿易股份有限公司（恒宜生技頁自述販售 myHMB；產地寫中國）"
+          },
+          "tfda": {
+            "evidenceNotes": "添加物有 3-羥基-3-甲基丁酸鈣，可於特殊營養食品視實際需要適量使用，不適宜孕婦及未滿 18 歲者食用。原料分頁以甲基丁酸、HMB、myHMB 查都是 0 筆。恒宜頁另寫哺乳期婦女，添加物條文沒有這一句。列名沒有寫每日公克。",
+            "lookupDate": "2026-11-19",
+            "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+            "officialCrosscheck": {
+              "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+              "done": true,
+              "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+              "notes": "2026-11-19 連線 consumer.fda.gov.tw 出現 SSL UNEXPECTED_EOF_WHILE_READING，沒有取得官方詳細頁。查詢助手添加物詳細頁 id 304，使用範圍與「不適宜孕婦及未滿18歲者食用」與助手欄位一致。原料分頁沒有這個品名。"
+            },
+            "queries": [
+              {
+                "category": "",
+                "keyword": "甲基丁酸",
+                "matchedName": "3–羥基– 3–甲基丁酸鈣",
+                "note": "詳細頁網址 FoodAdditivesListDetail id 304。",
+                "restrictionNote": "營養添加劑。外文名 Calcium 3-Hydroxy-3-Methyl Butyrate Monohydrate。可於特殊營養食品中視實際需要適量使用。不適宜孕婦及未滿18歲者食用。",
+                "resultCount": 1,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "HMB",
+                "matchedName": "",
+                "note": "英文縮寫沒有出現在品名裡。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "myHMB",
+                "matchedName": "",
+                "note": "商品名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "甲基丁酸",
+                "matchedName": "",
+                "note": "原料分頁 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "myHMB",
+                "matchedName": "",
+                "note": "商品名在原料分頁 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "甲基丁酸",
+                "matchedName": "",
+                "note": "助手更新歷程（2026-11-01 至 2026-11-18）沒有這筆異動。資料時間戳 2026-11-18 06:20。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "history",
+                "unconfirmedSafety": false
+              }
+            ],
+            "usable": "listed_food_additive"
+          }
+        },
+        {
+          "discovery": {
+            "channel": "industry_report",
+            "notes": "從 SupplySide Food & Beverage Journal 2026-11-10 的展後觀察進入 Fibernova kestose，再對 Samyang 產品頁與 2024 年寫明三養供料的兒童試驗。台灣關聯打開台糖自產果寡醣頁與盛美的 Fiberest 頁，確認都不是這個商品名的代理。",
+            "scoutDate": "2026-11-19"
+          },
+          "efficacy": {
+            "claimedBenefits": [
+              "Samyang 產品頁寫 Fibernova 結晶 kestose 的 kestose 至少 98 克／100 克、果寡糖至少 99 克／100 克、糖低於 1 克／100 克；液態 Kestose LS 的 kestose 至少 80 克／100 克。頁上把它當成益生元與可溶纖維，並寫低吸濕、流動性與減少結塊。沒有在這頁寫一個每日公克。",
+              "Frontiers in Microbiology 2024：異位性皮膚炎兒童，隨機雙盲。三養提供的 advanced FOS（文中寫大於 85% 1-kestose）或麥芽糖，2.5 克一天兩次、12 週。方法段寫 advanced FOS 含 4.25 克 1-kestose。SCORAD 與搔癢在 FOS 與安慰劑都下降；睡眠干擾只在 FOS 組下降。",
+              "SupplySide 2026-11-10 展後觀察寫 Fibernova kestose 今年較早已推出，展場用在電解質粉，強調溶解與不易結塊。那是配方觀察，不是療效數據。"
+            ],
+            "dosageNote": "2.5 克一天兩次是這篇文獻的用法，材料寫明由 Samyang 提供，但沒有寫商品名 Fibernova。果寡糖列名沒有公克上限。結晶規格的 98% 是含量，不是建議攝取量。",
+            "suggestedDosage": "規格頁沒有寫每日公克。2024 年那篇兒童試驗是 advanced FOS 2.5 克、一天兩次、12 週。"
+          },
+          "evidenceLevels": [
+            "clinical"
+          ],
+          "example": false,
+          "id": "fibernova",
+          "images": [
+            {
+              "caption": "Samyang Specialty 的 Fibernova Kestose 產品頁概觀圖。",
+              "localPath": "",
+              "source": "official_site",
+              "url": "https://samyangspecialty.com/resources/images/en/product/ingredients/fibernova/content_overview-img-01.png"
+            }
+          ],
+          "literature": {
+            "note": "另有 1-kestose 與空腹胰島素的人體試驗，材料寫 B Food Science，不是三養，這次不把它算進 Fibernova 的證據。",
+            "refs": [
+              {
+                "note": "Frontiers in Microbiology。2024。材料由 Samyang Corp Food R&D 提供，advanced FOS 大於 85% 1-kestose，2.5 克一天兩次。SCORAD 與搔癢兩組都改善；睡眠只見於 FOS 組。受試者是兒童異位性皮膚炎，不是一般成人纖維補充。",
+                "title": "Advanced fructo-oligosaccharides improve itching and aberrant epidermal lipid composition in children with atopic dermatitis",
+                "url": "https://doi.org/10.3389/fmicb.2024.1383779"
+              }
+            ],
+            "status": "yes"
+          },
+          "names": {
+            "commonEn": "crystalline 1-kestose (short-chain fructooligosaccharide)",
+            "commonZh": "蔗果三糖（結晶短鏈果寡糖）",
+            "scientific": "不適用單一植物學名。產品頁寫 kestose 是蔗糖再接一分子果糖的短鏈果寡糖（GF2），可由糖製成，也天然存在於大蒜、洋蔥、香蕉。不是已收錄的菊苣根菊糖，也不是異麥芽酮糖。",
+            "trade": "Fibernova Kestose（Samyang Specialty 的 kestose 商品名；結晶款與液態 Kestose LS）"
+          },
+          "patent": {
+            "note": "Fibernova 產品頁與 2026 年規格 PDF 沒有寫專利號碼。盛美寫三養 Fiberest 難消化性麥芽糊精有美、日、韓專利，那是另一個商品，沒有併進這張卡。",
+            "refs": [],
+            "status": "unknown"
+          },
+          "sources": [
+            {
+              "accessed": "2026-11-19",
+              "channel": "industry_report",
+              "publisher": "SupplySide Food & Beverage Journal",
+              "title": "Purposeful nutrition goes mainstream with SupplySide Global",
+              "url": "https://www.supplysidefbj.com/food-development/purposeful-nutrition-goes-mainstream-with-supplyside-global-energized-by-food-and-beverage-tech",
+              "whatItContributes": "2026-11-10 展後觀察：Fibernova kestose 為結晶短鏈果寡糖，展場用於電解質粉，強調溶解與不易結塊。"
+            },
+            {
+              "accessed": "2026-11-19",
+              "channel": "supplier_site",
+              "publisher": "Samyang Specialty",
+              "title": "Fibernova Kestose",
+              "url": "https://www.samyangspecialty.com/en/product/Ingredients/fibernova",
+              "whatItContributes": "GF2、結晶 kestose 至少 98%、果寡糖至少 99%，以及液態規格。"
+            },
+            {
+              "accessed": "2026-11-19",
+              "channel": "paper",
+              "publisher": "Frontiers in Microbiology",
+              "title": "Advanced fructo-oligosaccharides improve itching and aberrant epidermal lipid composition in children with atopic dermatitis",
+              "url": "https://doi.org/10.3389/fmicb.2024.1383779",
+              "whatItContributes": "三養提供的 advanced FOS、2.5 克一天兩次，以及兒童異位性皮膚炎試驗裡兩組都改善的部分。"
+            },
+            {
+              "accessed": "2026-11-19",
+              "channel": "other",
+              "publisher": "台灣糖業股份有限公司",
+              "title": "走過30年．台糖果寡醣",
+              "url": "https://www.taisugar.com.tw/business/News_detail.aspx?n=12692&p=157&s=11794",
+              "whatItContributes": "台糖自產果寡醣含 1-kestose。不是 Fibernova 的代理頁。"
+            },
+            {
+              "accessed": "2026-11-19",
+              "channel": "other",
+              "publisher": "盛美股份有限公司",
+              "title": "Fiberest 難消化性麥芽糊精",
+              "url": "https://www.shinemate.com.tw/en/news.php?act=view&id=37",
+              "whatItContributes": "盛美寫的是三養 Fiberest 難消化性麥芽糊精。同公司不等於 Fibernova 經銷。"
+            }
+          ],
+          "supply": {
+            "relationship": "unknown",
+            "relationshipNote": "2026-11-19 以 Fibernova、kestose、1-kestose、蔗果三糖、Samyang、三養、果寡糖搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索。台糖 2023-04-26 頁寫自產果寡醣漿含 1-kestose、nystose 等，是自己的製程，沒有寫 Fibernova 或 Samyang Specialty。盛美目錄與 Fiberest 文章寫三養的難消化性麥芽糊精，不是 kestose。比價頁上的三養泡麵與 Q.one 是食品品牌，沒有原料經銷說明。沒有打開寫明代理 Fibernova 的公司頁。查核日 2026-11-19。",
+            "supplierCountry": "韓國",
+            "supplierName": "Samyang Specialty（Samyang Corporation）",
+            "taiwanPartyName": "本次查無 Fibernova 的代理或經銷。台灣糖業股份有限公司自產果寡醣（頁寫含 1-kestose）；盛美股份有限公司目錄有三養 Fiberest，不是這個商品"
+          },
+          "tfda": {
+            "evidenceNotes": "原料有「果寡糖；果寡醣」，外文名 Fructooligosaccharide，學名、部位、備註都是空的，沒有每日公克。商品名 Fibernova、kestose、蔗果三糖都是 0 筆，不能把結晶 1-kestose 讀成條文已經寫明的規格。關鍵字「果寡醣」另命中乳果寡醣，那是另一筆、有自己的使用限制。添加物沒有果寡糖。",
+            "lookupDate": "2026-11-19",
+            "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+            "officialCrosscheck": {
+              "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+              "done": true,
+              "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+              "notes": "2026-11-19 連線 consumer.fda.gov.tw 出現 SSL UNEXPECTED_EOF_WHILE_READING，沒有取得官方詳細頁。查詢助手果寡糖詳細頁 id 17403，學名、部位、備註空白，與助手欄位一致。乳果寡醣是另一筆。"
+            },
+            "queries": [
+              {
+                "category": "",
+                "keyword": "果寡糖",
+                "matchedName": "果寡糖；果寡醣",
+                "note": "沒有寫聚合度，也沒有寫 1-kestose。",
+                "restrictionNote": "外文名 Fructooligosaccharide。學名、部位、備註皆空白。詳細頁 MaterialDetail id 17403。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "果寡醣",
+                "matchedName": "果寡糖；果寡醣；乳果三聚醣；乳果寡醣",
+                "note": "「果寡醣」三個字嵌在乳果寡醣裡。",
+                "restrictionNote": "第二筆是乳果寡醣（Lactosucrose），備註指向 113 年 7 月 11 日衛授食字第1131301534號使用限制。不是蔗果三糖。",
+                "resultCount": 2,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "kestose",
+                "matchedName": "",
+                "note": "1-kestose 與 Fibernova 也是 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "蔗果三糖",
+                "matchedName": "",
+                "note": "中文別名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "果寡糖",
+                "matchedName": "",
+                "note": "添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "kestose",
+                "matchedName": "",
+                "note": "英文在添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "果寡糖",
+                "matchedName": "",
+                "note": "助手更新歷程（2026-11-01 至 2026-11-18）沒有這筆異動。資料時間戳 2026-11-18 06:20。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "history",
+                "unconfirmedSafety": false
+              }
+            ],
+            "usable": "listed_food_ingredient"
+          }
+        }
+      ],
+      "targetCount": 5,
+      "title": "2026-11-19 正式日報"
+    },
+    {
+      "channelsCovered": [
+        "news",
+        "exhibition",
+        "industry_report"
+      ],
       "date": "2026-11-18",
       "example": false,
       "notes": "正式五筆。主管道：JointIQ 為新聞；Chromax、MecobalActive、Altilix 為展覽；Palatinose 為產業報導。",
@@ -14012,6 +14946,182 @@ window.INGREDIENT_CATALOG = {
     },
     {
       "discovery": {
+        "channel": "news",
+        "notes": "從 NutraIngredients 2026-11-05 的 Capsifen 認知報導進入，再對 Akay 產品頁、PMC13765294 與大島成品頁。專利打開 US8785380B2，確認是薑黃素請求項，沒有改記成辣椒素專利。台灣關聯另開漢馨的 Akay Clovinol 頁，確認不是 Capsifen。",
+        "scoutDate": "2026-11-19"
+      },
+      "efficacy": {
+        "claimedBenefits": [
+          "NutraIngredients 2026-11-05：南昆士蘭大學試驗，Capsifen 每日 200 mg、12 週。完成者各 17 人。相對安慰劑，認知刺激下的腦血管反應與總認知分數上升；高二氧化碳的腦血管反應沒有改變。腰圍與腰臀比下降，報導寫應謹慎解讀。",
+          "Akay 產品頁寫 Capsifen 來自 Capsicum annum，以 FenuMat 做無刺激微珠，並寫游離辣椒素類生物利用度為一般萃取的 19 倍。這是供應商頁的說法。頁上建議 100 mg 一次或一天兩次，並寫體重管理與運動表現有兩項隨機對照試驗。",
+          "akay-group.com 另寫每日 200 mg。兩頁劑量句子不一致，都留下。"
+        ],
+        "dosageNote": "200 mg 是這篇試驗與其中一頁產品說明的每日量。另一產品頁把 100 mg 寫成可一天一次或兩次。果實列名沒有毫克上限。葉那一筆不得作為食品原料，不是這個果實規格。",
+        "suggestedDosage": "認知試驗是每日 200 mg（兩顆 100 mg）、12 週。akaybioactives.com 寫 100 mg 一次或一天兩次。akay-group.com 寫每日 200 mg。"
+      },
+      "evidenceLevels": [
+        "clinical"
+      ],
+      "example": false,
+      "id": "capsifen",
+      "images": [
+        {
+          "caption": "Akay Bioactives 的 Capsifen 產品頁主圖。",
+          "localPath": "",
+          "source": "official_site",
+          "url": "https://akaybioactives.com/wp-content/uploads/red-chilli-paste-black-1.png"
+        }
+      ],
+      "literature": {
+        "note": "這篇是超重或肥胖的中高齡成人。產品頁另寫兩項體重與表現試驗，這次沒有打開那兩篇全文，不另標。",
+        "refs": [
+          {
+            "note": "Nutrients。2026-10-30。PMC13765294。隨機、雙盲、安慰劑。招募 40 人，完成 34 人。Capsifen 每日 200 mg、12 週。原料由研究團隊自行購買，廠商未參與設計。認知刺激的腦血管反應與總認知相對安慰劑改善；高二氧化碳反應沒有。",
+            "title": "The Preliminary Effects of Capsaicin Supplementation on Cerebrovascular Function and Cognition in Middle-Aged and Older Adults Who Are Overweight or Obese",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13765294/"
+          }
+        ],
+        "status": "yes"
+      },
+      "names": {
+        "commonEn": "red chili capsaicinoid beadlets",
+        "commonZh": "辣椒果實辣椒素類微珠",
+        "scientific": "Capsicum annuum（果實。論文寫微珠的總辣椒素類至少 2.8%，其中 capsaicin 1.8%、dihydrocapsaicin 0.84%、nordihydrocapsaicin 0.16%。載體是葫蘆巴半乳甘露聚醣 FenuMat，不是已收錄的 Testofen 種子皂苷。不是葉。大島成品頁寫「天堂椒籽」，與果實說法不同，都留下。）",
+        "trade": "Capsifen（Akay Bioactives 的辣椒素類微珠商品名）"
+      },
+      "patent": {
+        "note": "產品頁寫 FenuMat 為專利技術。這次打開的 US8785380B2 申請人是 Akay，狀態 Active，請求項是薑黃素與葫蘆巴半乳甘露聚醣，不是辣椒素類。沒有另找到寫 Capsifen 或 capsaicinoid 的核准請求項，所以不把那件薑黃素專利算成本品。",
+        "refs": [],
+        "status": "unknown"
+      },
+      "sources": [
+        {
+          "accessed": "2026-11-19",
+          "channel": "news",
+          "publisher": "NutraIngredients",
+          "title": "Akay Bioactives’ capsaicin may improve cerebrovascular function and cognition in middle-aged and older overweight adults",
+          "url": "https://www.nutraingredients.com/Article/2026/11/05/capsaicin-may-boost-brain-function-in-overweight-older-adults/",
+          "whatItContributes": "2026-11-05 報導 Capsifen 每日 200 mg、12 週的認知與腦血管反應試驗。"
+        },
+        {
+          "accessed": "2026-11-19",
+          "channel": "supplier_site",
+          "publisher": "Akay Bioactives",
+          "title": "Capsifen",
+          "url": "https://akaybioactives.com/product/capsifen/",
+          "whatItContributes": "商品名、Capsicum annum、FenuMat、100 mg 一次或一天兩次，以及 19 倍生物利用度的供應商說法。"
+        },
+        {
+          "accessed": "2026-11-19",
+          "channel": "paper",
+          "publisher": "PubMed Central",
+          "title": "PMC13765294",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13765294/",
+          "whatItContributes": "每日 200 mg、辣椒素類規格、廠商未參與試驗，以及相對安慰劑的終點。"
+        },
+        {
+          "accessed": "2026-11-19",
+          "channel": "other",
+          "publisher": "大島生醫",
+          "title": "機能の根拠｜國際科學成分說明書",
+          "url": "https://www.oshimashop.com.tw/pages/sci",
+          "whatItContributes": "台灣成品「好夢夜酵素」頁把 Capsifen 寫成印度 Akay 原料，並寫天堂椒籽。不是原料經銷頁。"
+        }
+      ],
+      "supply": {
+        "relationship": "unknown",
+        "relationshipNote": "2026-11-19 以 Capsifen、Akay、FenuMat、辣椒素、紅辣椒萃取搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索。大島生醫「好夢夜酵素」的國際原料段寫 Capsifen 為印度 Akay 專利原料、天堂椒籽萃取，用於該成品，沒有寫原料代理。漢馨科技的 Clovinol 頁寫原廠 Akay，頁上沒有 Capsifen，同原廠不等於這個商品的代理。艾凱味（北京）與新营养的薇安生物是中國頁，不計入台灣關聯。沒有看到原廠夥伴名單上的台灣經銷。查核日 2026-11-19。",
+        "supplierCountry": "印度",
+        "supplierName": "Akay Bioactives（Akay Natural Ingredients Private Limited）",
+        "taiwanPartyName": "大島生醫（成品頁寫採用 Capsifen；未寫原料代理或經銷）"
+      },
+      "tfda": {
+        "evidenceNotes": "辣椒果實（Capsicum annuum）列為可直接食用，備註是空的，沒有每日毫克。同名的葉是另一筆，寫未經確認安全性前不得作為食品原料，不是這個果實微珠。商品名 Capsifen 與「辣椒素」在原料、添加物都是 0 筆。添加物關鍵字「辣椒」的 7 筆是防腐劑使用範圍裡的辣椒醬，不是辣椒素。",
+        "lookupDate": "2026-11-19",
+        "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+        "officialCrosscheck": {
+          "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+          "done": true,
+          "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+          "notes": "2026-11-19 連線 consumer.fda.gov.tw 出現 SSL UNEXPECTED_EOF_WHILE_READING，沒有取得官方詳細頁。查詢助手細節時間戳 2026-11-18 06:20，原料 1709 筆、添加物 804 筆。果實詳細頁網址是 MaterialDetail id 17118，葉是 id 16101。果實備註空白、葉寫不得作為食品原料，與助手一致。"
+        },
+        "queries": [
+          {
+            "category": "",
+            "keyword": "辣椒",
+            "matchedName": "辣椒；番椒（果實）；黃燈籠辣椒；辣椒；番椒（葉）",
+            "note": "未確認的是葉。本品論文寫的是果實辣椒素類微珠。",
+            "restrictionNote": "果實：Capsicum annuum，可直接食用，備註空白。黃燈籠辣椒是 Capsicum chinense 果實。葉：同名 Capsicum annuum，未確認安全性，不得作為食品原料。",
+            "resultCount": 3,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Capsicum annuum",
+            "matchedName": "辣椒；番椒",
+            "note": "兩筆同一學名，部位不同。",
+            "restrictionNote": "果實可直接食用。葉為未確認，不得作為食品原料。",
+            "resultCount": 2,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Capsifen",
+            "matchedName": "",
+            "note": "商品名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "辣椒素",
+            "matchedName": "",
+            "note": "化合物中文名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "辣椒素",
+            "matchedName": "",
+            "note": "添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "辣椒",
+            "matchedName": "己二烯酸等防腐劑使用範圍出現辣椒醬",
+            "note": "Capsifen 與 capsaicin 在添加物是 0 筆。",
+            "restrictionNote": "命中的是防腐劑使用範圍文句裡的辣椒醬，不是辣椒素規格。",
+            "resultCount": 7,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "辣椒",
+            "matchedName": "",
+            "note": "助手更新歷程（2026-11-01 至 2026-11-18）沒有這筆異動。資料時間戳 2026-11-18 06:20。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "history",
+            "unconfirmedSafety": false
+          }
+        ],
+        "usable": "listed_food_ingredient"
+      }
+    },
+    {
+      "discovery": {
         "channel": "industry_report",
         "notes": "從 Nutrition Insight 2023-03-16 的運動營養報導進入，該篇點名 Carnipure。再對 Lonza 產品頁。台灣關聯打開婿展的品牌授權頁與樂沛力成品頁；瀧晶只有批發頁線索，官網沒打開，維持待確認。",
         "scoutDate": "2026-11-15"
@@ -15420,6 +16530,190 @@ window.INGREDIENT_CATALOG = {
             "keyword": "接骨木",
             "matchedName": "",
             "note": "助手更新歷程（11/01–11/09）沒有異動。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "history",
+            "unconfirmedSafety": false
+          }
+        ],
+        "usable": "listed_food_ingredient"
+      }
+    },
+    {
+      "discovery": {
+        "channel": "industry_report",
+        "notes": "從 SupplySide Food & Beverage Journal 2026-11-10 的展後觀察進入 Fibernova kestose，再對 Samyang 產品頁與 2024 年寫明三養供料的兒童試驗。台灣關聯打開台糖自產果寡醣頁與盛美的 Fiberest 頁，確認都不是這個商品名的代理。",
+        "scoutDate": "2026-11-19"
+      },
+      "efficacy": {
+        "claimedBenefits": [
+          "Samyang 產品頁寫 Fibernova 結晶 kestose 的 kestose 至少 98 克／100 克、果寡糖至少 99 克／100 克、糖低於 1 克／100 克；液態 Kestose LS 的 kestose 至少 80 克／100 克。頁上把它當成益生元與可溶纖維，並寫低吸濕、流動性與減少結塊。沒有在這頁寫一個每日公克。",
+          "Frontiers in Microbiology 2024：異位性皮膚炎兒童，隨機雙盲。三養提供的 advanced FOS（文中寫大於 85% 1-kestose）或麥芽糖，2.5 克一天兩次、12 週。方法段寫 advanced FOS 含 4.25 克 1-kestose。SCORAD 與搔癢在 FOS 與安慰劑都下降；睡眠干擾只在 FOS 組下降。",
+          "SupplySide 2026-11-10 展後觀察寫 Fibernova kestose 今年較早已推出，展場用在電解質粉，強調溶解與不易結塊。那是配方觀察，不是療效數據。"
+        ],
+        "dosageNote": "2.5 克一天兩次是這篇文獻的用法，材料寫明由 Samyang 提供，但沒有寫商品名 Fibernova。果寡糖列名沒有公克上限。結晶規格的 98% 是含量，不是建議攝取量。",
+        "suggestedDosage": "規格頁沒有寫每日公克。2024 年那篇兒童試驗是 advanced FOS 2.5 克、一天兩次、12 週。"
+      },
+      "evidenceLevels": [
+        "clinical"
+      ],
+      "example": false,
+      "id": "fibernova",
+      "images": [
+        {
+          "caption": "Samyang Specialty 的 Fibernova Kestose 產品頁概觀圖。",
+          "localPath": "",
+          "source": "official_site",
+          "url": "https://samyangspecialty.com/resources/images/en/product/ingredients/fibernova/content_overview-img-01.png"
+        }
+      ],
+      "literature": {
+        "note": "另有 1-kestose 與空腹胰島素的人體試驗，材料寫 B Food Science，不是三養，這次不把它算進 Fibernova 的證據。",
+        "refs": [
+          {
+            "note": "Frontiers in Microbiology。2024。材料由 Samyang Corp Food R&D 提供，advanced FOS 大於 85% 1-kestose，2.5 克一天兩次。SCORAD 與搔癢兩組都改善；睡眠只見於 FOS 組。受試者是兒童異位性皮膚炎，不是一般成人纖維補充。",
+            "title": "Advanced fructo-oligosaccharides improve itching and aberrant epidermal lipid composition in children with atopic dermatitis",
+            "url": "https://doi.org/10.3389/fmicb.2024.1383779"
+          }
+        ],
+        "status": "yes"
+      },
+      "names": {
+        "commonEn": "crystalline 1-kestose (short-chain fructooligosaccharide)",
+        "commonZh": "蔗果三糖（結晶短鏈果寡糖）",
+        "scientific": "不適用單一植物學名。產品頁寫 kestose 是蔗糖再接一分子果糖的短鏈果寡糖（GF2），可由糖製成，也天然存在於大蒜、洋蔥、香蕉。不是已收錄的菊苣根菊糖，也不是異麥芽酮糖。",
+        "trade": "Fibernova Kestose（Samyang Specialty 的 kestose 商品名；結晶款與液態 Kestose LS）"
+      },
+      "patent": {
+        "note": "Fibernova 產品頁與 2026 年規格 PDF 沒有寫專利號碼。盛美寫三養 Fiberest 難消化性麥芽糊精有美、日、韓專利，那是另一個商品，沒有併進這張卡。",
+        "refs": [],
+        "status": "unknown"
+      },
+      "sources": [
+        {
+          "accessed": "2026-11-19",
+          "channel": "industry_report",
+          "publisher": "SupplySide Food & Beverage Journal",
+          "title": "Purposeful nutrition goes mainstream with SupplySide Global",
+          "url": "https://www.supplysidefbj.com/food-development/purposeful-nutrition-goes-mainstream-with-supplyside-global-energized-by-food-and-beverage-tech",
+          "whatItContributes": "2026-11-10 展後觀察：Fibernova kestose 為結晶短鏈果寡糖，展場用於電解質粉，強調溶解與不易結塊。"
+        },
+        {
+          "accessed": "2026-11-19",
+          "channel": "supplier_site",
+          "publisher": "Samyang Specialty",
+          "title": "Fibernova Kestose",
+          "url": "https://www.samyangspecialty.com/en/product/Ingredients/fibernova",
+          "whatItContributes": "GF2、結晶 kestose 至少 98%、果寡糖至少 99%，以及液態規格。"
+        },
+        {
+          "accessed": "2026-11-19",
+          "channel": "paper",
+          "publisher": "Frontiers in Microbiology",
+          "title": "Advanced fructo-oligosaccharides improve itching and aberrant epidermal lipid composition in children with atopic dermatitis",
+          "url": "https://doi.org/10.3389/fmicb.2024.1383779",
+          "whatItContributes": "三養提供的 advanced FOS、2.5 克一天兩次，以及兒童異位性皮膚炎試驗裡兩組都改善的部分。"
+        },
+        {
+          "accessed": "2026-11-19",
+          "channel": "other",
+          "publisher": "台灣糖業股份有限公司",
+          "title": "走過30年．台糖果寡醣",
+          "url": "https://www.taisugar.com.tw/business/News_detail.aspx?n=12692&p=157&s=11794",
+          "whatItContributes": "台糖自產果寡醣含 1-kestose。不是 Fibernova 的代理頁。"
+        },
+        {
+          "accessed": "2026-11-19",
+          "channel": "other",
+          "publisher": "盛美股份有限公司",
+          "title": "Fiberest 難消化性麥芽糊精",
+          "url": "https://www.shinemate.com.tw/en/news.php?act=view&id=37",
+          "whatItContributes": "盛美寫的是三養 Fiberest 難消化性麥芽糊精。同公司不等於 Fibernova 經銷。"
+        }
+      ],
+      "supply": {
+        "relationship": "unknown",
+        "relationshipNote": "2026-11-19 以 Fibernova、kestose、1-kestose、蔗果三糖、Samyang、三養、果寡糖搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索。台糖 2023-04-26 頁寫自產果寡醣漿含 1-kestose、nystose 等，是自己的製程，沒有寫 Fibernova 或 Samyang Specialty。盛美目錄與 Fiberest 文章寫三養的難消化性麥芽糊精，不是 kestose。比價頁上的三養泡麵與 Q.one 是食品品牌，沒有原料經銷說明。沒有打開寫明代理 Fibernova 的公司頁。查核日 2026-11-19。",
+        "supplierCountry": "韓國",
+        "supplierName": "Samyang Specialty（Samyang Corporation）",
+        "taiwanPartyName": "本次查無 Fibernova 的代理或經銷。台灣糖業股份有限公司自產果寡醣（頁寫含 1-kestose）；盛美股份有限公司目錄有三養 Fiberest，不是這個商品"
+      },
+      "tfda": {
+        "evidenceNotes": "原料有「果寡糖；果寡醣」，外文名 Fructooligosaccharide，學名、部位、備註都是空的，沒有每日公克。商品名 Fibernova、kestose、蔗果三糖都是 0 筆，不能把結晶 1-kestose 讀成條文已經寫明的規格。關鍵字「果寡醣」另命中乳果寡醣，那是另一筆、有自己的使用限制。添加物沒有果寡糖。",
+        "lookupDate": "2026-11-19",
+        "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+        "officialCrosscheck": {
+          "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+          "done": true,
+          "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+          "notes": "2026-11-19 連線 consumer.fda.gov.tw 出現 SSL UNEXPECTED_EOF_WHILE_READING，沒有取得官方詳細頁。查詢助手果寡糖詳細頁 id 17403，學名、部位、備註空白，與助手欄位一致。乳果寡醣是另一筆。"
+        },
+        "queries": [
+          {
+            "category": "",
+            "keyword": "果寡糖",
+            "matchedName": "果寡糖；果寡醣",
+            "note": "沒有寫聚合度，也沒有寫 1-kestose。",
+            "restrictionNote": "外文名 Fructooligosaccharide。學名、部位、備註皆空白。詳細頁 MaterialDetail id 17403。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "果寡醣",
+            "matchedName": "果寡糖；果寡醣；乳果三聚醣；乳果寡醣",
+            "note": "「果寡醣」三個字嵌在乳果寡醣裡。",
+            "restrictionNote": "第二筆是乳果寡醣（Lactosucrose），備註指向 113 年 7 月 11 日衛授食字第1131301534號使用限制。不是蔗果三糖。",
+            "resultCount": 2,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "kestose",
+            "matchedName": "",
+            "note": "1-kestose 與 Fibernova 也是 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "蔗果三糖",
+            "matchedName": "",
+            "note": "中文別名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "果寡糖",
+            "matchedName": "",
+            "note": "添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "kestose",
+            "matchedName": "",
+            "note": "英文在添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "果寡糖",
+            "matchedName": "",
+            "note": "助手更新歷程（2026-11-01 至 2026-11-18）沒有這筆異動。資料時間戳 2026-11-18 06:20。",
             "restrictionNote": "",
             "resultCount": 0,
             "tab": "history",
@@ -19338,6 +20632,186 @@ window.INGREDIENT_CATALOG = {
     },
     {
       "discovery": {
+        "channel": "news",
+        "notes": "從 TSI 2026-06-10 的乳清加 HMB 試驗新聞進入 myHMB，再對 Metabolic Technologies 授權頁與 US10758504B2。期刊全文 403，試驗細節停在 TSI 頁的轉述。台灣關聯打開恒宜兩個產品頁，產地與有沒有寫商品名不一致，沒有改成獨家代理。",
+        "scoutDate": "2026-11-19"
+      },
+      "efficacy": {
+        "claimedBenefits": [
+          "TSI 2026-06-10 頁：諾丁漢大學隨機、雙盲、交叉試驗，24 名 65–75 歲健康成人。40 克乳清加上 3 克 calcium HMB，相對只有乳清，較晚的餐後時段肌肉蛋白分解受抑制的時間較長。頁上寫女性的肌肉蛋白合成反應較大，男性沒有看到同樣差異，並寫這不是為了比較性別而設計。",
+          "同一頁把這篇連到 myHMB，並引用 Nutrients 2026;18(9):1449、PMID 42124050。期刊頁這次回 403，沒有逐句核對全文，也沒有在 TSI 的轉述裡看到論文寫明使用 myHMB 這個商品名。",
+          "Metabolic Technologies 授權頁寫鈣鹽商品名是 myHMB，游離酸是 myHMB Clear 與 BetaTOR。供應商要求配方達到他們認定的有效劑量才授權，頁上沒有把那個劑量寫成一個公克數。"
+        ],
+        "dosageNote": "3 克是 TSI 頁轉述的單次試驗劑量，不是添加物條文裡的數字。條文只寫特殊營養食品可適量使用，並寫不適宜孕婦及未滿 18 歲。恒宜頁另外寫不建議哺乳期婦女，條文沒有這句。",
+        "suggestedDosage": "TSI 轉述的這篇試驗是單次 3 克 calcium HMB，併在 40 克乳清蛋白裡。授權頁沒有另寫一個日常公克數。"
+      },
+      "evidenceLevels": [
+        "clinical"
+      ],
+      "example": false,
+      "id": "myhmb",
+      "images": [
+        {
+          "caption": "Metabolic Technologies 網站新聞圖，檔名為 myHMB launch。",
+          "localPath": "",
+          "source": "official_site",
+          "url": "https://www.mettechinc.com/media/news/myHMBlaunch_052DF23901CCF.jpg"
+        }
+      ],
+      "literature": {
+        "note": "TSI 頁另引 ISSN 2025 年 HMB 立場論文。這次沒有打開那篇，不把立場論文的結論併進來。",
+        "refs": [
+          {
+            "note": "2026-06-10。轉述 Nutrients 2026;18(9):1449、PMID 42124050。24 人、65–75 歲、單次 3 克 calcium HMB 加 40 克乳清。期刊全文這次 403，以下細節依 TSI 頁。",
+            "title": "TSI：New Research Suggests HMB May Complement Whey Protein in Supporting Muscle Protein Turnover in Older Adults",
+            "url": "https://tsigroupltd.com/new-research-on-hmb-plus-whey-protein/"
+          }
+        ],
+        "status": "yes"
+      },
+      "names": {
+        "commonEn": "calcium beta-hydroxy-beta-methylbutyrate (HMB)",
+        "commonZh": "3-羥基-3-甲基丁酸鈣",
+        "scientific": "不適用植物學名。添加物品名是 3-羥基-3-甲基丁酸鈣，外文名 Calcium 3-Hydroxy-3-Methyl Butyrate Monohydrate。它是白胺酸的代謝物，不是已收錄的肌酸。",
+        "trade": "myHMB（TSI Group／Metabolic Technologies 的 HMB 鈣鹽商品名；游離酸規格另稱 myHMB Clear、BetaTOR）"
+      },
+      "patent": {
+        "note": "授權頁寫鈣鹽、游離酸與合併維生素 D 都有專利，並要求零售商取得授權。TSI 中文稿另寫中國發明專利 ZL 201310127262.X。這次沒有打開中國專利全文。",
+        "refs": [
+          {
+            "note": "申請人 Metabolic Technologies, LLC。Google Patents 狀態 Active。說明書舉例一天 3 克 calcium HMB。請求項是軟組織創傷恢復，不是 2026 年那篇乳清蛋白試驗的終點。",
+            "title": "US10758504B2 Compositions and methods of use of β-hydroxy-β-methylbutyrate (HMB) for enhancing recovery from soft tissue trauma",
+            "url": "https://patents.google.com/patent/US10758504B2/en"
+          }
+        ],
+        "status": "yes"
+      },
+      "sources": [
+        {
+          "accessed": "2026-11-19",
+          "channel": "news",
+          "publisher": "TSI Group",
+          "title": "New Research Suggests HMB May Complement Whey Protein in Supporting Muscle Protein Turnover in Older Adults",
+          "url": "https://tsigroupltd.com/new-research-on-hmb-plus-whey-protein/",
+          "whatItContributes": "2026-06-10 發布諾丁漢試驗的公司新聞，並把 3 克 calcium HMB 連到 myHMB。"
+        },
+        {
+          "accessed": "2026-11-19",
+          "channel": "supplier_site",
+          "publisher": "Metabolic Technologies",
+          "title": "Licensing",
+          "url": "https://www.mettechinc.com/licensing",
+          "whatItContributes": "鈣鹽商品名 myHMB、游離酸另有商品名，以及須取得授權的說法。"
+        },
+        {
+          "accessed": "2026-11-19",
+          "channel": "patent",
+          "publisher": "Google Patents",
+          "title": "US10758504B2",
+          "url": "https://patents.google.com/patent/US10758504B2/en",
+          "whatItContributes": "Metabolic Technologies 的 HMB 與軟組織恢復專利，說明書有一天 3 克 calcium HMB 的例子。"
+        },
+        {
+          "accessed": "2026-11-19",
+          "channel": "other",
+          "publisher": "恒宜生技",
+          "title": "專利 myHMB HMB-Ca",
+          "url": "https://www.hengyi-bio.com.tw/products-detail/106/",
+          "whatItContributes": "台灣頁自寫販售 myHMB，產地寫中國，並寫影片來自 TSI。不是原廠獨家證明。"
+        },
+        {
+          "accessed": "2026-11-19",
+          "channel": "other",
+          "publisher": "恒宜貿易股份有限公司",
+          "title": "HMB-Ca",
+          "url": "https://www.hengyi-bio.com/tw/products_d.php?pd=1259",
+          "whatItContributes": "同一集團另一頁只寫 HMB-Ca 與美國製程專利，沒有寫 myHMB。"
+        }
+      ],
+      "supply": {
+        "relationship": "taiwan_distributor",
+        "relationshipNote": "恒宜生技頁標題是專利 myHMB HMB-Ca，規格寫產地中國、HMB-Ca 至少 98%（HMB 77–82%），並寫影片來源為 TSI Group 原廠影片。頁尾公司名是恒宜貿易股份有限公司，地址臺中市北屯區文心路四段83號18樓。另一個恒宜貿易頁只寫 HMB-Ca、美國製程專利，沒有 myHMB 三個字，地址是文心路四段81號18樓之2。兩頁的產地與商品名不一致，都留下，不升成原廠證實的獨家代理。myHMB 成品購買頁這次打開的清單沒有台灣據點。查核日 2026-11-19。",
+        "supplierCountry": "美國",
+        "supplierName": "TSI Group Ltd.（專利與授權頁為 Metabolic Technologies, LLC）",
+        "taiwanPartyName": "恒宜貿易股份有限公司（恒宜生技頁自述販售 myHMB；產地寫中國）"
+      },
+      "tfda": {
+        "evidenceNotes": "添加物有 3-羥基-3-甲基丁酸鈣，可於特殊營養食品視實際需要適量使用，不適宜孕婦及未滿 18 歲者食用。原料分頁以甲基丁酸、HMB、myHMB 查都是 0 筆。恒宜頁另寫哺乳期婦女，添加物條文沒有這一句。列名沒有寫每日公克。",
+        "lookupDate": "2026-11-19",
+        "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+        "officialCrosscheck": {
+          "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+          "done": true,
+          "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+          "notes": "2026-11-19 連線 consumer.fda.gov.tw 出現 SSL UNEXPECTED_EOF_WHILE_READING，沒有取得官方詳細頁。查詢助手添加物詳細頁 id 304，使用範圍與「不適宜孕婦及未滿18歲者食用」與助手欄位一致。原料分頁沒有這個品名。"
+        },
+        "queries": [
+          {
+            "category": "",
+            "keyword": "甲基丁酸",
+            "matchedName": "3–羥基– 3–甲基丁酸鈣",
+            "note": "詳細頁網址 FoodAdditivesListDetail id 304。",
+            "restrictionNote": "營養添加劑。外文名 Calcium 3-Hydroxy-3-Methyl Butyrate Monohydrate。可於特殊營養食品中視實際需要適量使用。不適宜孕婦及未滿18歲者食用。",
+            "resultCount": 1,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "HMB",
+            "matchedName": "",
+            "note": "英文縮寫沒有出現在品名裡。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "myHMB",
+            "matchedName": "",
+            "note": "商品名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "甲基丁酸",
+            "matchedName": "",
+            "note": "原料分頁 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "myHMB",
+            "matchedName": "",
+            "note": "商品名在原料分頁 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "甲基丁酸",
+            "matchedName": "",
+            "note": "助手更新歷程（2026-11-01 至 2026-11-18）沒有這筆異動。資料時間戳 2026-11-18 06:20。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "history",
+            "unconfirmedSafety": false
+          }
+        ],
+        "usable": "listed_food_additive"
+      }
+    },
+    {
+      "discovery": {
         "channel": "exhibition",
         "notes": "從 NutraIngredients 對 Vitafoods 2026 發表稿開始，對 Naticol 官網，再對和司特與台灣 Naticol 站確認通路。",
         "scoutDate": "2026-11-06"
@@ -23131,6 +24605,196 @@ window.INGREDIENT_CATALOG = {
     },
     {
       "discovery": {
+        "channel": "exhibition",
+        "notes": "從 NutraIngredients 2026-10-14 的 SupplySide Global 展商預告看到 Kemin 攤位的 Slendesta，再對 Kemin 產品頁、Food & Function 論文與 US7371418B2。台灣關聯打開盛美產品頁、2025 展會新聞與 slendesta.com.tw 專利頁。",
+        "scoutDate": "2026-11-19"
+      },
+      "efficacy": {
+        "claimedBenefits": [
+          "Kemin 產品頁寫 Slendesta 標準化馬鈴薯 PI2，並寫 PI2 會提高膽囊收縮素（CCK）。頁上寫 21 項人體研究、500 人以上；餐前 60 分鐘服用 300–600 mg 的人，餐後 2–3 小時飢餓感與想吃的欲望較低。這是供應商頁的彙整。",
+          "Food & Function 的隨機交叉試驗：44 名健康女性，早餐前 1 小時吃 15 mg 或 30 mg PI2（對應 300 mg 或 600 mg 的 5% 萃取）或安慰劑。相對安慰劑，餐後飢餓、想吃與預期食量較低，飽足較高；15 mg 組的餐後 CCK 較高。沒有不良事件報告。論文沒有把這次單餐結果寫成已減重。",
+          "盛美頁寫 17 篇臨床、PI2 大於 5%。與 Kemin 頁的 21 項、以及賣單上的 5% 規格不是同一組數字，都留下。"
+        ],
+        "dosageNote": "300–600 mg 是供應商頁與這篇單餐試驗的劑量，不是食品原料平臺上的每日上限。這次沒有查到 PI2 萃取的列名。",
+        "suggestedDosage": "Kemin 頁寫臨床使用 300–600 mg，一天一次或兩次，餐前約 60 分鐘。上述試驗用的是 300 mg 或 600 mg 單次，對應 15 mg 或 30 mg PI2。"
+      },
+      "evidenceLevels": [
+        "clinical"
+      ],
+      "example": false,
+      "id": "slendesta",
+      "images": [
+        {
+          "caption": "盛美股份有限公司 Slendesta 原料頁上的產品圖。Kemin 產品頁這次讀到的靜態檔只有公司標誌。",
+          "localPath": "",
+          "source": "other",
+          "url": "https://www.shinemate.com.tw/data/editor/files/slendesta(2).png"
+        }
+      ],
+      "literature": {
+        "note": "Kemin 頁寫共 21 項人體研究。這次只讀這一篇摘要，不把其餘研究的數字寫進來。盛美寫 17 篇，與 21 項並列。",
+        "refs": [
+          {
+            "note": "Food & Function。44 名健康女性，交叉、單餐。15 mg 或 30 mg PI2。餐後食慾分數與 15 mg 組的 CCK 相對安慰劑有差。沒有做到後續體重。",
+            "title": "Potato protease inhibitor II suppresses postprandial appetite in healthy women: a randomized double-blind placebo-controlled trial",
+            "url": "https://doi.org/10.1039/c6fo01803c"
+          }
+        ],
+        "status": "yes"
+      },
+      "names": {
+        "commonEn": "potato proteinase inhibitor II extract",
+        "commonZh": "馬鈴薯蛋白酶抑制劑 II 萃取物",
+        "scientific": "供應商寫來源是馬鈴薯塊莖的蛋白酶抑制劑 II（PI2）。這次查詢沒有對到 Solanum tuberosum 這一列。不是甘藷，也不是澱粉糊精。",
+        "trade": "Slendesta（Kemin 的馬鈴薯萃取商品名）"
+      },
+      "patent": {
+        "note": "slendesta.com.tw 的專利頁另列 US6414124B1、US6686456B2、US6767566B2、US6872544B2。那一頁沒有公司名。這次只打開 US7371418B2 的請求項，其他號碼沒有逐件核對法律狀態。",
+        "refs": [
+          {
+            "note": "申請人經轉讓為 Kemin Foods, L.C.。Google Patents 狀態寫 Expired - Fee Related，調整到期日 2021-07-08。請求項是萃取時控制 PI2 的產率與純度。",
+            "title": "US7371418B2 Method for controlling the yield and purity of proteinase inhibitor II during extraction",
+            "url": "https://patents.google.com/patent/US7371418B2/en"
+          }
+        ],
+        "status": "yes"
+      },
+      "sources": [
+        {
+          "accessed": "2026-11-19",
+          "channel": "exhibition",
+          "publisher": "NutraIngredients",
+          "title": "SupplySide Global 2026: What’s happening on the show floor",
+          "url": "https://www.nutraingredients.com/Article/2026/10/14/supplyside-global-2026-whats-happening-on-the-show-floor/",
+          "whatItContributes": "2026-10-14 展商預告：Kemin 攤位將展示 Slendesta，並寫它是馬鈴薯來源、用於飽足。"
+        },
+        {
+          "accessed": "2026-11-19",
+          "channel": "supplier_site",
+          "publisher": "Kemin",
+          "title": "Slendesta",
+          "url": "https://www.kemin.com/na/en-us/markets/human-nutrition/products/slendesta",
+          "whatItContributes": "PI2、CCK、300–600 mg，以及 21 項人體研究的供應商彙整。"
+        },
+        {
+          "accessed": "2026-11-19",
+          "channel": "paper",
+          "publisher": "Food & Function",
+          "title": "Potato protease inhibitor II suppresses postprandial appetite in healthy women",
+          "url": "https://doi.org/10.1039/c6fo01803c",
+          "whatItContributes": "44 名女性、15 mg 或 30 mg PI2 的單餐食慾與 CCK 結果。"
+        },
+        {
+          "accessed": "2026-11-19",
+          "channel": "patent",
+          "publisher": "Google Patents",
+          "title": "US7371418B2",
+          "url": "https://patents.google.com/patent/US7371418B2/en",
+          "whatItContributes": "Kemin Foods 的 PI2 萃取產率與純度方法專利，狀態為年費屆滿。"
+        },
+        {
+          "accessed": "2026-11-19",
+          "channel": "other",
+          "publisher": "盛美股份有限公司",
+          "title": "Slendesta 馬鈴薯萃取物",
+          "url": "https://www.shinemate.com.tw/zh-tw/healthcare.php?id=17",
+          "whatItContributes": "台灣原料目錄列出 Slendesta，寫 Kemin 製造、PI2 大於 5%，未寫總代理。"
+        }
+      ],
+      "supply": {
+        "relationship": "taiwan_distributor",
+        "relationshipNote": "盛美保健原料目錄與 Slendesta 產品頁寫原料由 Kemin Industries, Inc. 研發製造，地址台南市安南區安新一路99號。2025 年亞洲美容保養生技保健大展的盛美新聞寫現場說明 Slendesta 的 PI2 與 CCK，沒有寫總代理。slendesta.com.tw 列出美國專利號碼，頁上沒有公司名稱，不另算一家經銷。查核日 2026-11-19。另以 PI2、馬鈴薯萃取、蛋白酶抑制劑、Kemin 搭配台灣、代理、經銷複查，沒有看到第二家寫明經銷 Slendesta 的公司頁。",
+        "supplierCountry": "美國",
+        "supplierName": "Kemin Industries, Inc.（Kemin Foods）",
+        "taiwanPartyName": "盛美股份有限公司（目錄列 Slendesta；頁文未寫獨家或總代理）"
+      },
+      "tfda": {
+        "evidenceNotes": "原料關鍵字「馬鈴薯」1 筆是澱粉糊精，備註「由馬鈴薯製得」，不是塊莖，也不是蛋白酶抑制劑。Solanum tuberosum、Slendesta、PI2 都是 0 筆。添加物「馬鈴薯」3 筆是抗氧化劑使用範圍提到馬鈴薯加工品，不是這個萃取。平台寫傳統食品不會全部列出。這次沒查到不等於准用或禁用。",
+        "lookupDate": "2026-11-19",
+        "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+        "officialCrosscheck": {
+          "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+          "done": false,
+          "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+          "notes": "2026-11-19 連線 consumer.fda.gov.tw 出現 SSL UNEXPECTED_EOF_WHILE_READING，沒有另開官方詳細頁。查詢助手的澱粉糊精詳細頁網址是 MaterialDetail id 17317。狀態維持這次沒查到 PI2 萃取。"
+        },
+        "queries": [
+          {
+            "category": "",
+            "keyword": "馬鈴薯",
+            "matchedName": "澱粉糊精",
+            "note": "不是 PI2 萃取，也不是馬鈴薯塊莖本體。",
+            "restrictionNote": "外文名 Lactwei（amylogen, amylodextrin）。備註只寫由馬鈴薯製得。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Solanum tuberosum",
+            "matchedName": "",
+            "note": "學名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Slendesta",
+            "matchedName": "",
+            "note": "商品名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "PI2",
+            "matchedName": "",
+            "note": "蛋白酶抑制劑簡稱 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "馬鈴薯",
+            "matchedName": "二丁基羥基甲苯；丁基羥基甲氧苯；迷迭香萃取物",
+            "note": "Slendesta 與 PI2 在添加物是 0 筆。",
+            "restrictionNote": "使用範圍提到脫水馬鈴薯片、粉或顆粒，或加工品。不是蛋白酶抑制劑。",
+            "resultCount": 3,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Slendesta",
+            "matchedName": "",
+            "note": "商品名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "馬鈴薯",
+            "matchedName": "",
+            "note": "助手更新歷程（2026-11-01 至 2026-11-18）沒有這筆異動。資料時間戳 2026-11-18 06:20。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "history",
+            "unconfirmedSafety": false
+          }
+        ],
+        "usable": "not_found"
+      }
+    },
+    {
+      "discovery": {
         "channel": "news",
         "notes": "從 Suntheanine 2025 mindful drinking 新聞進入，再對 Taiyo 產品頁與北美通路頁。台灣代理公開頁查無；TFDA 以調味劑添加物列名。",
         "scoutDate": "2026-11-07"
@@ -24005,6 +25669,196 @@ window.INGREDIENT_CATALOG = {
           }
         ],
         "usable": "listed_food_ingredient"
+      }
+    },
+    {
+      "discovery": {
+        "channel": "exhibition",
+        "notes": "從 NutraIngredients 2026-10-14 的 SupplySide Global 展商預告進入 Saanroo 攤位的 Trpti，再對 Saanroo 原料頁與 Frontiers 2026 論文。和聚的 Testofen 頁用來確認同集團其他商品沒有寫這個 OEA 商品名。與已收錄的 Levagen+ 不是同一種脂肪醯胺。",
+        "scoutDate": "2026-11-19"
+      },
+      "efficacy": {
+        "claimedBenefits": [
+          "Frontiers in Endocrinology 2026：固定順序、單盲、三期交叉。37 名成人，BMI 25–34.9。單次安慰劑、150 mg 或 300 mg Trpti。300 mg 在部分預設餐後時段的 GLP-1 與 GIP 高於安慰劑，文中寫關鍵時點約高 20–25%，15 分鐘內就量得到。150 mg 在若干時段低於安慰劑。兩種劑量都有統計上的進食量減少。",
+          "Saanroo 原料頁寫 Trpti 為 90% OEA 加最多 10% LipiSperse，並把內生 GLP-1 增加 25%、為一般 OEA 的 2 倍放在頁首。這是供應商頁的說法，不是論文裡每一個時段的結果。",
+          "trpti.net 寫 Trpti 支持代謝、飽足與脂肪代謝，並寫與 Akkermansia muciniphila、Faecalibacterium prausnitzii 有關。那一頁把菌相結果放在另一篇 12 週試驗，這次沒有打開全文。"
+        ],
+        "dosageNote": "300 mg 是這篇單次試驗與供應商錠劑頁的數字，不是法規上限。150 mg 在同一篇裡並不是每個時段都高於安慰劑。平台沒有這個化合物的列名。",
+        "suggestedDosage": "上述急性試驗的有效比較劑量是單次 300 mg Trpti（兩顆 150 mg，每顆 OEA 至少 125 mg，合計至少 250 mg）。Saanroo 頁把 300 mg 寫在錠劑規格。"
+      },
+      "evidenceLevels": [
+        "clinical"
+      ],
+      "example": false,
+      "id": "trpti",
+      "images": [
+        {
+          "caption": "Trpti 官網的膠囊劑型圖。",
+          "localPath": "",
+          "source": "official_site",
+          "url": "https://trpti.net/wp-content/uploads/2026/06/Capsules-1-300x300.png"
+        }
+      ],
+      "literature": {
+        "note": "trpti.net 另列 12 週、每日 300 mg、57 名肥胖成人的菌相論文。這次沒有打開全文，不把菌相數字寫成已核對。",
+        "refs": [
+          {
+            "note": "Frontiers in Endocrinology。2026。DOI 10.3389/fendo.2026.1879799。單次 300 mg 在部分時段提高 GLP-1 與 GIP。固定順序、單盲。每顆 150 mg Trpti 含 OEA 至少 125 mg。",
+            "title": "Acute TRPTI (oleoylethanolamide) supplementation enhances incretin hormone responses: a fixed-sequence crossover study",
+            "url": "https://www.frontiersin.org/journals/endocrinology/articles/10.3389/fendo.2026.1879799/full"
+          }
+        ],
+        "status": "yes"
+      },
+      "names": {
+        "commonEn": "oleoylethanolamide (cold-water dispersible)",
+        "commonZh": "油醯乙醇胺（冷水分散型）",
+        "scientific": "不適用植物學名。OEA 是油酸與乙醇胺合成的脂肪酸醯胺。Saanroo 頁寫粉末為 90% OEA、最多 10% LipiSperse。NXT Ingredients 頁寫 83.3% OEA。兩處比例不一致，都留下。不是已收錄的 Levagen+（棕櫚醯乙醇胺）。",
+        "trade": "Trpti（Saanroo 的 OEA 商品名；頁上亦寫 TRPTI。搭配 Pharmako 的 LipiSperse）"
+      },
+      "patent": {
+        "note": "Saanroo 與 Pharmako 頁都寫 LipiSperse 為專利冷水分散技術，Trpti 使用它。這次沒有打開寫有 OEA 請求項的專利全文。2018 年那則沒有號碼，不能把它讀成 OEA 本身的物質專利。",
+        "refs": [
+          {
+            "note": "2018-11-28：NutraIngredients 寫 LipiSperse 已獲 WIPO 核准，當時點名的應用是 HydroCurc 與 Levagen，沒有 Trpti，也沒有寫專利號碼。",
+            "title": "Pharmako patent approval for delivery system technology",
+            "url": "https://www.nutraingredients.com/Article/2018/11/28/Pharmako-patent-approval-for-delivery-system-technology-opens-doors-for-NPD-and-new-partnerships/"
+          }
+        ],
+        "status": "yes"
+      },
+      "sources": [
+        {
+          "accessed": "2026-11-19",
+          "channel": "exhibition",
+          "publisher": "NutraIngredients",
+          "title": "SupplySide Global 2026: What’s happening on the show floor",
+          "url": "https://www.nutraingredients.com/Article/2026/10/14/supplyside-global-2026-whats-happening-on-the-show-floor/",
+          "whatItContributes": "2026-10-14 展商預告：Saanroo 攤位提出 Trpti 的新人體研究，寫補充後 15 分鐘內看得到 GLP-1 與 GIP。"
+        },
+        {
+          "accessed": "2026-11-19",
+          "channel": "supplier_site",
+          "publisher": "Saanroo",
+          "title": "Trpti",
+          "url": "https://www.saanroo.com/ingredients/trpti",
+          "whatItContributes": "90% OEA、LipiSperse、澳洲 Pharmako 製造，以及 300 mg 錠劑的供應商規格。"
+        },
+        {
+          "accessed": "2026-11-19",
+          "channel": "paper",
+          "publisher": "Frontiers in Endocrinology",
+          "title": "Acute TRPTI supplementation enhances incretin hormone responses",
+          "url": "https://www.frontiersin.org/journals/endocrinology/articles/10.3389/fendo.2026.1879799/full",
+          "whatItContributes": "單次 150 mg 與 300 mg 的 GLP-1、GIP 時段差異，以及每顆 OEA 至少 125 mg。"
+        },
+        {
+          "accessed": "2026-11-19",
+          "channel": "patent",
+          "publisher": "NutraIngredients",
+          "title": "Pharmako patent approval for delivery system technology",
+          "url": "https://www.nutraingredients.com/Article/2018/11/28/Pharmako-patent-approval-for-delivery-system-technology-opens-doors-for-NPD-and-new-partnerships/",
+          "whatItContributes": "LipiSperse 在 2018 年獲 WIPO 核准的報導。當時還沒有寫 Trpti。"
+        },
+        {
+          "accessed": "2026-11-19",
+          "channel": "other",
+          "publisher": "和聚國際",
+          "title": "Testofen 專利葫蘆巴萃取",
+          "url": "https://www.hg-bio.com.tw/products/testofen/",
+          "whatItContributes": "同一集團其他商品的台灣頁。頁上有 Gencor，沒有 Trpti 或 OEA。"
+        }
+      ],
+      "supply": {
+        "relationship": "unknown",
+        "relationshipNote": "2026-11-19 以 Trpti、TRPTI、Saanroo、Pharmako、oleoylethanolamide、油醯乙醇胺、油酸乙醇醯胺搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索，並打開命中頁。和聚國際的 Testofen 頁寫到 Gencor，沒有 Trpti、OEA、Levagen 或 Saanroo，不能把葫蘆巴那一頁當成這個商品的代理。台灣新日化的 Tainolin ODE 是油酸二乙醇醯胺（CAS 93-83-4），生技先鋒頁是研究用 DOPE，都不是食品原料 OEA。沒有看到原料經銷頁或成品採用頁。查核日 2026-11-19。",
+        "supplierCountry": "澳洲製造；Saanroo 原料頁地址在美國德州",
+        "supplierName": "Saanroo（製造為澳洲 Pharmako Biotechnologies Pty Ltd）",
+        "taiwanPartyName": "本次查無台灣關聯廠商"
+      },
+      "tfda": {
+        "evidenceNotes": "原料與添加物以 oleoylethanolamide、Trpti、油醯乙醇胺查，都是 0 筆。三個字母 OEA 會命中兩筆牽牛花屬學名，因為字串裡含有 oea，不是油醯乙醇胺。沒有列名不等於准用，也不是禁用結論。",
+        "lookupDate": "2026-11-19",
+        "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+        "officialCrosscheck": {
+          "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+          "done": false,
+          "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+          "notes": "2026-11-19 連線 consumer.fda.gov.tw 出現 SSL UNEXPECTED_EOF_WHILE_READING。助手側化合物名與商品名都是 0 筆，沒有可核對的詳細頁。"
+        },
+        "queries": [
+          {
+            "category": "",
+            "keyword": "oleoylethanolamide",
+            "matchedName": "",
+            "note": "英文化合物名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "油醯乙醇胺",
+            "matchedName": "",
+            "note": "中文名 0 筆。另試油酰乙醇胺也是 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Trpti",
+            "matchedName": "",
+            "note": "商品名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "OEA",
+            "matchedName": "番薯；甘藷；地瓜；碗仔花",
+            "note": "短字串嵌在學名裡。不把這兩筆當成 OEA。",
+            "restrictionNote": "學名 Ipomoea batatas 與 Ipomoea hederacea。碗仔花那筆是未確認安全性。都不是油醯乙醇胺。",
+            "resultCount": 2,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "oleoylethanolamide",
+            "matchedName": "",
+            "note": "添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Trpti",
+            "matchedName": "",
+            "note": "商品名在添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Trpti",
+            "matchedName": "",
+            "note": "助手更新歷程（2026-11-01 至 2026-11-18）沒有這筆異動。資料時間戳 2026-11-18 06:20。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "history",
+            "unconfirmedSafety": false
+          }
+        ],
+        "usable": "not_found"
       }
     },
     {

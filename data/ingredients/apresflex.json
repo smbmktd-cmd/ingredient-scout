@@ -1,0 +1,192 @@
+{
+  "id": "apresflex",
+  "example": false,
+  "names": {
+    "commonZh": "齒葉乳香樹膠脂萃取",
+    "commonEn": "Indian frankincense gum resin extract",
+    "trade": "AprèsFlex（PLT Health Solutions 銷售的乳香萃取商品名；同一原料亦稱 Aflapin）",
+    "scientific": "Boswellia serrata（樹膠脂。PLT 頁寫兩種專有萃取的組合，並寫 AKBA 的口服生物利用度高於一般乳香萃取。平台學名只到 Boswellia spp.，沒有寫 serrata。不是乳香精油的芳香用途本身。）"
+  },
+  "supply": {
+    "supplierName": "Laila Nutraceuticals（印度生產）／PLT Health Solutions（銷售 AprèsFlex）",
+    "supplierCountry": "印度（生產）；PLT 據點在美國",
+    "relationship": "unknown",
+    "taiwanPartyName": "本次查無台灣關聯廠商",
+    "relationshipNote": "2026-11-20 以 AprèsFlex、ApresFlex、Aflapin、阿貝福、PLT、Laila、Boswellia serrata、乳香萃取，搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索。打開和聚國際的 Boswellin 展訊與科友的 Soothex 頁：前者是另一個乳香商品名，後者是化妝品 INCI（Boswellia Serrata Gum），都沒有寫 AprèsFlex 或 Aflapin。仕琦的品牌原料名單這次看到的項目裡沒有這個商品。同日用「ApresFlex 台灣 原料」再查，仍沒有寫明代理的台灣廠商頁。查核日 2026-11-20。"
+  },
+  "tfda": {
+    "usable": "listed_food_ingredient",
+    "evidenceNotes": "商品名 AprèsFlex、ApresFlex 與學名 Boswellia serrata 在原料都是 0 筆。乳香（id 17235）學名只寫 Boswellia spp.，部位是該屬植物皮部滲出的樹脂，備註是僅供香辛調味、適量使用，沒有每日毫克，也沒有關節用途。添加物「乳香」「Boswellia」都是 0 筆。",
+    "lookupDate": "2026-11-20",
+    "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+    "queries": [
+      {
+        "tab": "ingredient",
+        "keyword": "乳香",
+        "category": "",
+        "resultCount": 1,
+        "matchedName": "乳香",
+        "restrictionNote": "Olibanum。Boswellia spp.。部位為該屬植物皮部滲出的樹脂。可作為香味或風味，僅以香辛調味目的、適量使用。",
+        "unconfirmedSafety": false,
+        "note": "沒有寫 serrata，也沒有毫克。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Boswellia",
+        "category": "",
+        "resultCount": 1,
+        "matchedName": "乳香",
+        "restrictionNote": "與「乳香」同一筆。屬名 spp.，香辛調味、適量。",
+        "unconfirmedSafety": false,
+        "note": "屬名命中，種小名沒有出現在這一列。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Boswellia serrata",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "種小名整串是 0 筆。spp. 那一列不含 serrata 這個字。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "AprèsFlex",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名 0 筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "ApresFlex",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "去掉重音的拼法也是 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "乳香",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "添加物 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "Boswellia",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "添加物 0 筆。"
+      },
+      {
+        "tab": "history",
+        "keyword": "乳香",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "助手更新歷程（2026-11-01 至 2026-11-19）沒有這筆異動。資料時間戳 2026-11-19 06:23。"
+      }
+    ],
+    "officialCrosscheck": {
+      "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+      "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+      "done": true,
+      "notes": "2026-11-20 連線 consumer.fda.gov.tw 在 TLS 交握出現 SSL_ERROR_SYSCALL，沒有取得官方詳細頁。乳香詳細頁網址是 MaterialDetail id 17235。香辛調味、適量使用的備註與助手一致。siteTotals 原料 1709、添加物 804。"
+    }
+  },
+  "efficacy": {
+    "claimedBenefits": [
+      "PLT 產品頁寫 AprèsFlex 是 Boswellia serrata 萃取，每日 100 mg，並寫 4 項人體試驗、最早約 5 天看到關節舒適度變化。六個月那一項，頁上寫關節不適約降 70%、僵硬約降 72%。這些是供應商頁對試驗的摘要。",
+      "同一頁引用 Journal of the American Nutrition Association 2023 的 30 天試驗：膝關節不適者每天 100 mg Aflapin 或安慰劑。頁上寫第 5 天疼痛與功能分數相對安慰劑下降。這次沒有另開期刊付費全文。",
+      "PricePlow 的 SupplySide Global 2026 預告把 AprèsFlex 寫成 PLT 關節組合裡的快作用乳香萃取，低劑量、有臨床。預告沒有新的毫克。"
+    ],
+    "suggestedDosage": "PLT 產品頁與它所引的試驗寫每日 100 mg。",
+    "dosageNote": "100 mg 是供應商與試驗頁的每日量，不是平台上的上限。乳香列名只寫香辛調味、適量使用，沒有關節保健的毫克。種小名 serrata 沒有單獨列名。"
+  },
+  "patent": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "US8551496B2 Boswellia low polar gum resin extract and its synergistic compositions",
+        "url": "https://patents.google.com/patent/US8551496B2",
+        "note": "標題是乳香低極性樹膠脂萃取與其協同組成。頁面文字出現 Laila。讀取日 2026-11-20。成品標示頁亦把 US 8,551,496 寫在 AprèsFlex 上，這次以 Google Patents 這件為準。"
+      }
+    ],
+    "note": "這件是低極性乳香樹膠脂組成。沒有把其他乳香商品的專利號算進來。"
+  },
+  "literature": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "Efficacy and Safety of Aflapin, a Novel Boswellia Serrata Extract, in the Treatment of Osteoarthritis of the Knee: A Short-Term 30-Day Randomized, Double-Blind, Placebo-Controlled Clinical Study",
+        "url": "https://doi.org/10.1080/07315724.2021.2014370",
+        "note": "Journal of the American Nutrition Association。2023。PLT 頁寫每天 100 mg、30 天，並寫 Aflapin 是 AprèsFlex 的另一商品名。這次讀的是供應商頁上的引用與摘要，不是付費全文。"
+      }
+    ],
+    "note": "六個月與 MRI 的 70%、72% 只記在供應商頁，這次沒有打開 2024 年那篇全文，不另標成已核對的第二篇。"
+  },
+  "evidenceLevels": [
+    "clinical"
+  ],
+  "images": [
+    {
+      "url": "https://www.plthealth.com/hubfs/PLTHealth-Feb2023-Theme/images/ApresFlex_TileTemplate6.jpg",
+      "localPath": "",
+      "caption": "PLT Health 的 AprèsFlex 產品頁主圖。",
+      "source": "official_site"
+    }
+  ],
+  "sources": [
+    {
+      "title": "PLT Health Solutions at SupplySide Global 2026",
+      "url": "https://blog.priceplow.com/industry-events/plt-health-solutions-supplyside-global-2026",
+      "publisher": "PricePlow",
+      "channel": "exhibition",
+      "accessed": "2026-11-20",
+      "whatItContributes": "2026 年展前預告把 AprèsFlex 放在 PLT 攤位的關節組合，寫低劑量與臨床。"
+    },
+    {
+      "title": "AprèsFlex",
+      "url": "https://www.plthealth.com/product-catalog/apresflex",
+      "publisher": "PLT Health Solutions",
+      "channel": "supplier_site",
+      "accessed": "2026-11-20",
+      "whatItContributes": "商品名、Boswellia serrata、每日 100 mg，以及 5 天與六個月的供應商摘要。"
+    },
+    {
+      "title": "US8551496B2",
+      "url": "https://patents.google.com/patent/US8551496B2",
+      "publisher": "Google Patents",
+      "channel": "patent",
+      "accessed": "2026-11-20",
+      "whatItContributes": "乳香低極性樹膠脂萃取的核准專利標題。"
+    },
+    {
+      "title": "DOI 10.1080/07315724.2021.2014370",
+      "url": "https://doi.org/10.1080/07315724.2021.2014370",
+      "publisher": "Journal of the American Nutrition Association",
+      "channel": "paper",
+      "accessed": "2026-11-20",
+      "whatItContributes": "Aflapin 30 天膝關節試驗的論文出處。全文這次沒有打開。"
+    }
+  ],
+  "discovery": {
+    "channel": "exhibition",
+    "scoutDate": "2026-11-20",
+    "notes": "從 PricePlow 的 SupplySide Global 2026 預告進入 PLT 的 AprèsFlex 頁，再對 US8551496B2 與 2023 年論文 DOI。台灣頁上的 Boswellin 與化妝品用 Soothex 是別的乳香品項，沒有併成這個商品的代理。"
+  }
+}

@@ -1,0 +1,200 @@
+{
+  "id": "metabolaid",
+  "example": false,
+  "names": {
+    "commonZh": "檸檬馬鞭草葉與洛神花花萼萃取複方",
+    "commonEn": "lemon verbena leaf and hibiscus calyx extracts",
+    "trade": "Metabolaid（Monteloeder 的檸檬馬鞭草與洛神花複方商品名；頁上亦寫 MetabolAid）",
+    "scientific": "Aloysia triphylla（平台亦列 Lippia citriodora；論文寫葉，標準化毛蕊花苷至少 25%）。搭配 Hibiscus sabdariffa 花萼萃取（2024 年論文寫花青素 10%）。2025 年一篇成分分析把兩者寫成洛神 35、檸檬馬鞭草 65 的重量比。不是洛神的蒴果或果實。"
+  },
+  "supply": {
+    "supplierName": "Monteloeder",
+    "supplierCountry": "西班牙",
+    "relationship": "taiwan_agent",
+    "taiwanPartyName": "台灣荃新股份有限公司（荃新頁自述獨家代理；原廠 2019 頁只寫台灣夥伴）",
+    "relationshipNote": "2026-11-20 以 Metabolaid、MetabolAid、Monteloeder、檸檬馬鞭草、洛神花、hibiscus lemon verbena，搭配台灣、臺灣、Taiwan、代理、總代理、經銷檢索。打開荃新原料頁與 2025 年前後的原料文，文中寫「台灣荃新獨家代理」Monteloeder 的 Metabolaid，規格寫檸檬馬鞭草萃取及洛神花萃取、產地西班牙、建議劑量 500 mg/天。Monteloeder 2019-10-21 的研討會頁寫 our partner in Taiwan, Newin，沒有寫 exclusive。獨家是荃新自述，不升成原廠證實的獨家。同日再用「Monteloeder 台灣 經銷」複查，仍是荃新這條，沒有第二家寫自己是總代理。查核日 2026-11-20。"
+  },
+  "tfda": {
+    "usable": "listed_food_ingredient",
+    "evidenceNotes": "商品名 Metabolaid 在原料與添加物都是 0 筆。檸檬馬鞭草全草（id 16655）列在可供茶包、調理包或萃取，備註空白。洛神花花萼（id 16935）列為可直接食用，備註也空白；同名 Hibiscus sabdariffa 的蒴果與果實是另一筆未確認，不是這個花萼萃取。兩筆都沒有每日毫克。",
+    "lookupDate": "2026-11-20",
+    "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+    "queries": [
+      {
+        "tab": "ingredient",
+        "keyword": "檸檬馬鞭草",
+        "category": "",
+        "resultCount": 1,
+        "matchedName": "檸檬馬鞭草",
+        "restrictionNote": "Aloysia triphylla、Lippia citriodora。部位全草。次分類是供茶包、膳食調理包或萃取。備註空白。",
+        "unconfirmedSafety": false,
+        "note": "論文寫的是葉。全草包含葉，平台沒有把葉另列成未確認。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "洛神花",
+        "category": "",
+        "resultCount": 1,
+        "matchedName": "洛神花；洛神葵",
+        "restrictionNote": "Hibiscus sabdariffa。部位花萼。可直接食用。備註空白。",
+        "unconfirmedSafety": false,
+        "note": "這個關鍵字沒有帶出蒴果那一筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Hibiscus sabdariffa",
+        "category": "",
+        "resultCount": 2,
+        "matchedName": "洛神花；洛神葵（花萼）；洛神葵（蒴果、果實）",
+        "restrictionNote": "花萼可直接食用。蒴果與果實在未確認分類，備註是非傳統性食品原料，須另案申請。",
+        "unconfirmedSafety": false,
+        "note": "未確認的是蒴果與果實。2024 年論文寫本品用花萼萃取。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Metabolaid",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "檸檬馬鞭草",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "添加物 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "洛神",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "添加物 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "Metabolaid",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名在添加物 0 筆。"
+      },
+      {
+        "tab": "history",
+        "keyword": "檸檬馬鞭草",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "助手更新歷程（2026-11-01 至 2026-11-19）沒有這兩種植物的異動。資料時間戳 2026-11-19 06:23。"
+      }
+    ],
+    "officialCrosscheck": {
+      "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+      "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+      "done": true,
+      "notes": "2026-11-20 連線 consumer.fda.gov.tw 在 TLS 交握出現 SSL_ERROR_SYSCALL，沒有取得官方詳細頁。檸檬馬鞭草詳細頁網址是 MaterialDetail id 16655，洛神花花萼是 id 16935，未確認的蒴果與果實是 id 16179。備註與分類與助手一致。siteTotals 原料 1709、添加物 804。"
+    }
+  },
+  "efficacy": {
+    "claimedBenefits": [
+      "NutraIngredients 2026-11-19：美國一款成品把 Metabolaid 寫成檸檬馬鞭草與洛神花萃取，用於食慾與代謝。同篇還有其他原料，那些不是這一筆。",
+      "Monteloeder 產品頁寫建議每日 500 mg，並寫支持 GLP-1、AMPK、飽足、膽固醇與血壓。這些是供應商頁的說法。頁上列了 8 項臨床與 10 篇文獻，這次沒有逐篇打開 2018 與 2019 的全文。",
+      "Applied Sciences 2024：每日 300 mg、90 天、超重成人。論文摘要寫體重約下降 3 kg（約 3.4%）、體脂百分點約下降 1.7%，膽固醇約下降 7%；血糖與血壓沒有顯著變化。文中寫沒有配合飲食限制。"
+    ],
+    "suggestedDosage": "供應商頁與荃新原料文寫每日 500 mg。ClinicalTrials NCT03568877 登記的是每天兩顆、每顆 250 mg，共 8 週。2024 年這篇打開的試驗是每日 300 mg、90 天。",
+    "dosageNote": "500 mg 是供應商與台灣代理頁的建議量。300 mg 是 2024 年論文的每日量。平台對全草與花萼都沒有寫毫克上限。蒴果與果實那一筆不得直接當這支花萼萃取使用。"
+  },
+  "patent": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "Processes 2025 論文所記 Patent P201731147",
+        "url": "https://www.mdpi.com/2227-9717/13/8/2405",
+        "note": "這篇把 Metabolaid 寫成 Patent P201731147，並寫洛神花萼與檸檬馬鞭草葉、重量比 35:65。這次沒有打開西班牙專利登記簿核對法律狀態。讀取日 2026-11-20。"
+      }
+    ],
+    "note": "供應商頁與荃新頁都寫有西班牙功效專利。公開編號目前只看到這篇論文裡的 P201731147，所以不另填未核對的號碼。"
+  },
+  "literature": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "Effectiveness of a Polyphenol-Enriched Blend on Weight Management and Metabolic Syndrome-Related Parameters in Healthy Overweight Adults",
+        "url": "https://doi.org/10.3390/app14093882",
+        "note": "Applied Sciences。2024。每日 300 mg Metabolaid，檸檬馬鞭草葉萃取（毛蕊花苷至少 25%）與洛神花花萼萃取（花青素 10%），90 天。"
+      }
+    ],
+    "note": "NCT03568877 登記每日 500 mg、56 名超重者、8 週。登記頁沒有結果表，這次不把供應商對那一劑量的句子改寫成論文結果。"
+  },
+  "evidenceLevels": [
+    "clinical"
+  ],
+  "images": [
+    {
+      "url": "https://monteloeder.com/wp-content/uploads/2025/10/cabecera-metabolaid.png",
+      "localPath": "",
+      "caption": "Monteloeder 的 Metabolaid 產品頁頁首圖。",
+      "source": "official_site"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Weight-loss companion supplements target satiety, spikes and side effects",
+      "url": "https://www.nutraingredients.com/Article/2026/11/19/weight-loss-companion-supplements-target-satiety-spikes-and-side-effects/",
+      "publisher": "NutraIngredients",
+      "channel": "news",
+      "accessed": "2026-11-20",
+      "whatItContributes": "2026-11-19 成品盤點把 Metabolaid 寫成檸檬馬鞭草與洛神花萃取。"
+    },
+    {
+      "title": "Metabolaid",
+      "url": "https://monteloeder.com/branded-ingredients/metabolaid-2/",
+      "publisher": "Monteloeder",
+      "channel": "supplier_site",
+      "accessed": "2026-11-20",
+      "whatItContributes": "商品名、每日 500 mg，以及 GLP-1 與 AMPK 的供應商說法。"
+    },
+    {
+      "title": "Applied Sciences 2024, 14, 3882",
+      "url": "https://doi.org/10.3390/app14093882",
+      "publisher": "MDPI",
+      "channel": "paper",
+      "accessed": "2026-11-20",
+      "whatItContributes": "葉與花萼、300 mg、90 天，以及體重、體脂、膽固醇與血糖血壓的論文摘要。"
+    },
+    {
+      "title": "metabolaid 專利複合植物萃取",
+      "url": "https://newin.com.tw/materials/1782/",
+      "publisher": "台灣荃新",
+      "channel": "other",
+      "accessed": "2026-11-20",
+      "whatItContributes": "台灣原料頁寫檸檬馬鞭草萃取及洛神花萃取、產地西班牙。"
+    },
+    {
+      "title": "GLP-1保健原料 Metabolaid",
+      "url": "https://newin.com.tw/post/5449/",
+      "publisher": "台灣荃新",
+      "channel": "other",
+      "accessed": "2026-11-20",
+      "whatItContributes": "荃新自述獨家代理，並寫建議劑量 500 mg/天。獨家沒有升成原廠用詞。"
+    }
+  ],
+  "discovery": {
+    "channel": "news",
+    "scoutDate": "2026-11-20",
+    "notes": "從 NutraIngredients 2026-11-19 的體重管理成品盤點看到 Metabolaid，再對 Monteloeder 產品頁、2024 年 Applied Sciences 與荃新兩頁。原廠 2019 研討會頁只寫台灣夥伴，與荃新現頁的「獨家」並陳，沒有改成原廠獨家。"
+  }
+}

@@ -7,6 +7,952 @@ window.INGREDIENT_CATALOG = {
         "exhibition",
         "industry_report"
       ],
+      "date": "2026-11-20",
+      "example": false,
+      "notes": "正式五筆。主管道：Amarasate、Metabolaid 為新聞；Calzbone、AprèsFlex 為展覽；Livaux 為產業報導。",
+      "picks": [
+        {
+          "discovery": {
+            "channel": "news",
+            "notes": "從 NutraIngredients 2026-11-09 的 Calocurb 英國市場簡訊進入，再對 Calocurb 說明頁、PMC11279280 與 WO2019158983A1。台灣關聯另看了 Ubuy 台灣網址與紐西蘭 LOLU，確認不是本地原料代理。",
+            "scoutDate": "2026-11-20"
+          },
+          "efficacy": {
+            "claimedBenefits": [
+              "NutraIngredients 2026-11-09：Calocurb 以 Amarasate 苦味啤酒花萃取進入英國市場，定位在食慾控制。報導沒有寫新的毫克或新試驗數字。",
+              "Obesity Pillars 2024（PMC11279280）：30 名健康女性、24 小時只喝水的禁食、隨機雙盲交叉。高劑量全程 500 mg、低劑量全程 250 mg，各分兩次，在禁食第 16 與第 20 小時給。相對安慰劑，食慾與對食物的渴望下降。禁食結束後的自由進食，高劑量少 14.3%（p \u003c 0.05），低劑量少 8.1%（未達顯著）。高劑量有兩人腹瀉、一人胃灼熱，低劑量有一人腹瀉。",
+              "Calocurb 說明頁寫萃取刺激腸道苦味受體、帶出 GLP-1、CCK 與 PYY。這是供應商頁的機制句子。同一頁寫膠囊為延遲釋放，並寫超臨界二氧化碳萃取。"
+            ],
+            "dosageNote": "250 mg 與 500 mg 是這篇禁食試驗的全程萃取量，不是法規上限。花的列名沒有毫克。葉那一筆不得作為食品原料，不是這個花球果規格。官網最多四顆等於 500 mg，與試驗高劑量同一數字，仍不是平台上的限量。",
+            "suggestedDosage": "女性禁食試驗是全程 250 mg 或 500 mg（各分兩次，每次 125 mg 或 250 mg）。Calocurb 官網寫 125 mg 膠囊，建議逐步到一天兩次、每次兩顆，最多一天四顆。"
+          },
+          "evidenceLevels": [
+            "clinical"
+          ],
+          "example": false,
+          "id": "amarasate",
+          "images": [
+            {
+              "caption": "Calocurb 官網的成品瓶圖。頁上寫活性成分是 Amarasate。",
+              "localPath": "",
+              "source": "official_site",
+              "url": "https://www.calocurb.com/cdn/shop/files/Bottle_US_2_db473225-44a8-4323-9ee1-fdc9277ef9f8.png"
+            }
+          ],
+          "literature": {
+            "note": "這篇是正常體重女性的急性禁食，不是減重療程。論文提到先前有男性試驗，這次沒有打開那一篇，不另標數字。",
+            "refs": [
+              {
+                "note": "Obesity Pillars。2024。PMC11279280。30 名女性、24 小時禁食、交叉。Amarasate 花萃取，超臨界二氧化碳。高劑量全程 500 mg、低劑量 250 mg。",
+                "title": "Gastrointestinal delivery of bitter hop extract reduces appetite and food cravings in healthy adult women undergoing acute fasting",
+                "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11279280/"
+              }
+            ],
+            "status": "yes"
+          },
+          "names": {
+            "commonEn": "bitter hop cone extract",
+            "commonZh": "啤酒花花球果苦味萃取",
+            "scientific": "Humulus lupulus（花，啤酒花球果。Calocurb 說明頁寫超臨界二氧化碳萃取，並寫幾乎去掉有鎮靜作用的 prenylflavonoids。不是葉。平台另有 Humulus americanus，與這一筆花列在同一列。）",
+            "trade": "Amarasate（Plant & Food Research 的啤酒花萃取商品名；成品品牌為 Calocurb）"
+          },
+          "patent": {
+            "note": "這件是啤酒花萃取的口服劑型。沒有把膠囊殼供應商自己的膠囊專利算進來。",
+            "refs": [
+              {
+                "note": "原申請人 New Zealand Institute for Plant and Food Research。請求項含未異變化的啤酒花酸、延遲釋放口服劑型，以及降低食慾。同族美國案寫成 US11801225B2，後續案 US12246095B2。讀取日 2026-11-20。",
+                "title": "WO2019158983A1 Oral dosage forms comprising a hops extract",
+                "url": "https://patents.google.com/patent/WO2019158983A1/en"
+              }
+            ],
+            "status": "yes"
+          },
+          "sources": [
+            {
+              "accessed": "2026-11-20",
+              "channel": "news",
+              "publisher": "NutraIngredients",
+              "title": "Across the Nutraverse: Calocurb in the UK",
+              "url": "https://www.nutraingredients.com/Article/2026/11/09/this-weeks-nutraverse-hbs-2027-key-trends-novos-science-cdmos-in-poland-and-calocurb-expands/",
+              "whatItContributes": "2026-11-09 報導 Calocurb 以 Amarasate 苦味啤酒花萃取進入英國，定位食慾控制。"
+            },
+            {
+              "accessed": "2026-11-20",
+              "channel": "supplier_site",
+              "publisher": "Calocurb",
+              "title": "Calocurb science",
+              "url": "https://www.calocurb.com/pages/science",
+              "whatItContributes": "花萃取、超臨界二氧化碳、延遲釋放膠囊，以及 GLP-1、CCK、PYY 的供應商說法。"
+            },
+            {
+              "accessed": "2026-11-20",
+              "channel": "paper",
+              "publisher": "PubMed Central",
+              "title": "PMC11279280",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11279280/",
+              "whatItContributes": "女性禁食試驗的劑量、14.3% 與 8.1% 的進食差，以及不適紀錄。"
+            },
+            {
+              "accessed": "2026-11-20",
+              "channel": "patent",
+              "publisher": "Google Patents",
+              "title": "WO2019158983A1",
+              "url": "https://patents.google.com/patent/WO2019158983A1/en",
+              "whatItContributes": "Plant & Food Research 的啤酒花萃取口服劑型專利族。"
+            }
+          ],
+          "supply": {
+            "relationship": "unknown",
+            "relationshipNote": "2026-11-20 分別以 Amarasate、Calocurb、Amarasate 啤酒花、hop extract、啤酒花萃取，搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索，並看 Calocurb 官網、KiwiNet 商業化頁與 Ubuy 台灣網址。Calocurb 以紐西蘭與美國直售為主。Ubuy 的 .tw 頁寫 Imported from USA store、由美國店出貨，是跨境代購，不是台灣原料代理。LOLU 頁是紐西蘭公司。沒有打開寫明 Amarasate 或 Calocurb 原料代理的台灣廠商產品頁。同日用另一組「啤酒花 食慾 台灣 原料」再查，仍沒有這個商品名。查核日 2026-11-20。",
+            "supplierCountry": "紐西蘭",
+            "supplierName": "Plant & Food Research（萃取開發）／Calocurb（Amarasate 的被授權商品化方）",
+            "taiwanPartyName": "本次查無台灣關聯廠商"
+          },
+          "tfda": {
+            "evidenceNotes": "「啤酒花」「蛇麻」「Humulus lupulus」在原料各 2 筆：花（詳細頁 id 16938）列為可直接食用，備註空白，沒有每日毫克；葉（id 16404）寫未經確認安全性前不得作為食品原料，不是這個花球果萃取。商品名 Amarasate 在原料與添加物都是 0 筆。花這一筆沒有另列超臨界苦味酸萃取，列名不等於試驗用的毫克已經核准。",
+            "lookupDate": "2026-11-20",
+            "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+            "officialCrosscheck": {
+              "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+              "done": true,
+              "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+              "notes": "2026-11-20 連線 consumer.fda.gov.tw 在 TLS 交握出現 SSL_ERROR_SYSCALL，沒有取得官方詳細頁。花的助手詳細頁網址是 MaterialDetail id 16938，葉是 id 16404。花備註空白、葉寫不得作為食品原料，與助手一致。siteTotals 原料 1709、添加物 804。"
+            },
+            "queries": [
+              {
+                "category": "",
+                "keyword": "啤酒花",
+                "matchedName": "啤酒花；忽布；蛇麻草",
+                "note": "未確認的是葉。本品說明寫的是花球果萃取。",
+                "restrictionNote": "花：Humulus lupulus L. 與 Humulus americanus，可直接食用，備註空白。葉：Humulus lupulus L.，未經確認安全性前不得作為食品原料。",
+                "resultCount": 2,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Humulus lupulus",
+                "matchedName": "啤酒花；忽布；蛇麻草",
+                "note": "學名同時命中花與葉。",
+                "restrictionNote": "與「啤酒花」相同的兩筆，花可直接食用，葉不得作為食品原料。",
+                "resultCount": 2,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Amarasate",
+                "matchedName": "",
+                "note": "商品名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "啤酒花",
+                "matchedName": "",
+                "note": "添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Humulus",
+                "matchedName": "",
+                "note": "添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Amarasate",
+                "matchedName": "",
+                "note": "商品名在添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "啤酒花",
+                "matchedName": "",
+                "note": "助手更新歷程（2026-11-01 至 2026-11-19）沒有這筆異動。資料時間戳 2026-11-19 06:23。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "history",
+                "unconfirmedSafety": false
+              }
+            ],
+            "usable": "listed_food_ingredient"
+          }
+        },
+        {
+          "discovery": {
+            "channel": "news",
+            "notes": "從 NutraIngredients 2026-11-19 的體重管理成品盤點看到 Metabolaid，再對 Monteloeder 產品頁、2024 年 Applied Sciences 與荃新兩頁。原廠 2019 研討會頁只寫台灣夥伴，與荃新現頁的「獨家」並陳，沒有改成原廠獨家。",
+            "scoutDate": "2026-11-20"
+          },
+          "efficacy": {
+            "claimedBenefits": [
+              "NutraIngredients 2026-11-19：美國一款成品把 Metabolaid 寫成檸檬馬鞭草與洛神花萃取，用於食慾與代謝。同篇還有其他原料，那些不是這一筆。",
+              "Monteloeder 產品頁寫建議每日 500 mg，並寫支持 GLP-1、AMPK、飽足、膽固醇與血壓。這些是供應商頁的說法。頁上列了 8 項臨床與 10 篇文獻，這次沒有逐篇打開 2018 與 2019 的全文。",
+              "Applied Sciences 2024：每日 300 mg、90 天、超重成人。論文摘要寫體重約下降 3 kg（約 3.4%）、體脂百分點約下降 1.7%，膽固醇約下降 7%；血糖與血壓沒有顯著變化。文中寫沒有配合飲食限制。"
+            ],
+            "dosageNote": "500 mg 是供應商與台灣代理頁的建議量。300 mg 是 2024 年論文的每日量。平台對全草與花萼都沒有寫毫克上限。蒴果與果實那一筆不得直接當這支花萼萃取使用。",
+            "suggestedDosage": "供應商頁與荃新原料文寫每日 500 mg。ClinicalTrials NCT03568877 登記的是每天兩顆、每顆 250 mg，共 8 週。2024 年這篇打開的試驗是每日 300 mg、90 天。"
+          },
+          "evidenceLevels": [
+            "clinical"
+          ],
+          "example": false,
+          "id": "metabolaid",
+          "images": [
+            {
+              "caption": "Monteloeder 的 Metabolaid 產品頁頁首圖。",
+              "localPath": "",
+              "source": "official_site",
+              "url": "https://monteloeder.com/wp-content/uploads/2025/10/cabecera-metabolaid.png"
+            }
+          ],
+          "literature": {
+            "note": "NCT03568877 登記每日 500 mg、56 名超重者、8 週。登記頁沒有結果表，這次不把供應商對那一劑量的句子改寫成論文結果。",
+            "refs": [
+              {
+                "note": "Applied Sciences。2024。每日 300 mg Metabolaid，檸檬馬鞭草葉萃取（毛蕊花苷至少 25%）與洛神花花萼萃取（花青素 10%），90 天。",
+                "title": "Effectiveness of a Polyphenol-Enriched Blend on Weight Management and Metabolic Syndrome-Related Parameters in Healthy Overweight Adults",
+                "url": "https://doi.org/10.3390/app14093882"
+              }
+            ],
+            "status": "yes"
+          },
+          "names": {
+            "commonEn": "lemon verbena leaf and hibiscus calyx extracts",
+            "commonZh": "檸檬馬鞭草葉與洛神花花萼萃取複方",
+            "scientific": "Aloysia triphylla（平台亦列 Lippia citriodora；論文寫葉，標準化毛蕊花苷至少 25%）。搭配 Hibiscus sabdariffa 花萼萃取（2024 年論文寫花青素 10%）。2025 年一篇成分分析把兩者寫成洛神 35、檸檬馬鞭草 65 的重量比。不是洛神的蒴果或果實。",
+            "trade": "Metabolaid（Monteloeder 的檸檬馬鞭草與洛神花複方商品名；頁上亦寫 MetabolAid）"
+          },
+          "patent": {
+            "note": "供應商頁與荃新頁都寫有西班牙功效專利。公開編號目前只看到這篇論文裡的 P201731147，所以不另填未核對的號碼。",
+            "refs": [
+              {
+                "note": "這篇把 Metabolaid 寫成 Patent P201731147，並寫洛神花萼與檸檬馬鞭草葉、重量比 35:65。這次沒有打開西班牙專利登記簿核對法律狀態。讀取日 2026-11-20。",
+                "title": "Processes 2025 論文所記 Patent P201731147",
+                "url": "https://www.mdpi.com/2227-9717/13/8/2405"
+              }
+            ],
+            "status": "yes"
+          },
+          "sources": [
+            {
+              "accessed": "2026-11-20",
+              "channel": "news",
+              "publisher": "NutraIngredients",
+              "title": "Weight-loss companion supplements target satiety, spikes and side effects",
+              "url": "https://www.nutraingredients.com/Article/2026/11/19/weight-loss-companion-supplements-target-satiety-spikes-and-side-effects/",
+              "whatItContributes": "2026-11-19 成品盤點把 Metabolaid 寫成檸檬馬鞭草與洛神花萃取。"
+            },
+            {
+              "accessed": "2026-11-20",
+              "channel": "supplier_site",
+              "publisher": "Monteloeder",
+              "title": "Metabolaid",
+              "url": "https://monteloeder.com/branded-ingredients/metabolaid-2/",
+              "whatItContributes": "商品名、每日 500 mg，以及 GLP-1 與 AMPK 的供應商說法。"
+            },
+            {
+              "accessed": "2026-11-20",
+              "channel": "paper",
+              "publisher": "MDPI",
+              "title": "Applied Sciences 2024, 14, 3882",
+              "url": "https://doi.org/10.3390/app14093882",
+              "whatItContributes": "葉與花萼、300 mg、90 天，以及體重、體脂、膽固醇與血糖血壓的論文摘要。"
+            },
+            {
+              "accessed": "2026-11-20",
+              "channel": "other",
+              "publisher": "台灣荃新",
+              "title": "metabolaid 專利複合植物萃取",
+              "url": "https://newin.com.tw/materials/1782/",
+              "whatItContributes": "台灣原料頁寫檸檬馬鞭草萃取及洛神花萃取、產地西班牙。"
+            },
+            {
+              "accessed": "2026-11-20",
+              "channel": "other",
+              "publisher": "台灣荃新",
+              "title": "GLP-1保健原料 Metabolaid",
+              "url": "https://newin.com.tw/post/5449/",
+              "whatItContributes": "荃新自述獨家代理，並寫建議劑量 500 mg/天。獨家沒有升成原廠用詞。"
+            }
+          ],
+          "supply": {
+            "relationship": "taiwan_agent",
+            "relationshipNote": "2026-11-20 以 Metabolaid、MetabolAid、Monteloeder、檸檬馬鞭草、洛神花、hibiscus lemon verbena，搭配台灣、臺灣、Taiwan、代理、總代理、經銷檢索。打開荃新原料頁與 2025 年前後的原料文，文中寫「台灣荃新獨家代理」Monteloeder 的 Metabolaid，規格寫檸檬馬鞭草萃取及洛神花萃取、產地西班牙、建議劑量 500 mg/天。Monteloeder 2019-10-21 的研討會頁寫 our partner in Taiwan, Newin，沒有寫 exclusive。獨家是荃新自述，不升成原廠證實的獨家。同日再用「Monteloeder 台灣 經銷」複查，仍是荃新這條，沒有第二家寫自己是總代理。查核日 2026-11-20。",
+            "supplierCountry": "西班牙",
+            "supplierName": "Monteloeder",
+            "taiwanPartyName": "台灣荃新股份有限公司（荃新頁自述獨家代理；原廠 2019 頁只寫台灣夥伴）"
+          },
+          "tfda": {
+            "evidenceNotes": "商品名 Metabolaid 在原料與添加物都是 0 筆。檸檬馬鞭草全草（id 16655）列在可供茶包、調理包或萃取，備註空白。洛神花花萼（id 16935）列為可直接食用，備註也空白；同名 Hibiscus sabdariffa 的蒴果與果實是另一筆未確認，不是這個花萼萃取。兩筆都沒有每日毫克。",
+            "lookupDate": "2026-11-20",
+            "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+            "officialCrosscheck": {
+              "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+              "done": true,
+              "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+              "notes": "2026-11-20 連線 consumer.fda.gov.tw 在 TLS 交握出現 SSL_ERROR_SYSCALL，沒有取得官方詳細頁。檸檬馬鞭草詳細頁網址是 MaterialDetail id 16655，洛神花花萼是 id 16935，未確認的蒴果與果實是 id 16179。備註與分類與助手一致。siteTotals 原料 1709、添加物 804。"
+            },
+            "queries": [
+              {
+                "category": "",
+                "keyword": "檸檬馬鞭草",
+                "matchedName": "檸檬馬鞭草",
+                "note": "論文寫的是葉。全草包含葉，平台沒有把葉另列成未確認。",
+                "restrictionNote": "Aloysia triphylla、Lippia citriodora。部位全草。次分類是供茶包、膳食調理包或萃取。備註空白。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "洛神花",
+                "matchedName": "洛神花；洛神葵",
+                "note": "這個關鍵字沒有帶出蒴果那一筆。",
+                "restrictionNote": "Hibiscus sabdariffa。部位花萼。可直接食用。備註空白。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Hibiscus sabdariffa",
+                "matchedName": "洛神花；洛神葵（花萼）；洛神葵（蒴果、果實）",
+                "note": "未確認的是蒴果與果實。2024 年論文寫本品用花萼萃取。",
+                "restrictionNote": "花萼可直接食用。蒴果與果實在未確認分類，備註是非傳統性食品原料，須另案申請。",
+                "resultCount": 2,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Metabolaid",
+                "matchedName": "",
+                "note": "商品名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "檸檬馬鞭草",
+                "matchedName": "",
+                "note": "添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "洛神",
+                "matchedName": "",
+                "note": "添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Metabolaid",
+                "matchedName": "",
+                "note": "商品名在添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "檸檬馬鞭草",
+                "matchedName": "",
+                "note": "助手更新歷程（2026-11-01 至 2026-11-19）沒有這兩種植物的異動。資料時間戳 2026-11-19 06:23。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "history",
+                "unconfirmedSafety": false
+              }
+            ],
+            "usable": "listed_food_ingredient"
+          }
+        },
+        {
+          "discovery": {
+            "channel": "exhibition",
+            "notes": "從 SupplySide Global 2026 的 Verdure 攤位 5724 名單看到 Calzbone，再對 vs-corp.com 的劑量與 US20050048141A1。台灣頁上的 CISSUS／CQR-300、和司特與若亞方舟是別的四棱白粉藤商品，沒有併進這個牌子。專利申請已放棄，這點寫在劑量註記，避免卡片上的「有」被讀成仍有效。",
+            "scoutDate": "2026-11-20"
+          },
+          "efficacy": {
+            "claimedBenefits": [
+              "Verdure 植物萃取頁把 Calzbone 寫成支持骨骼的專屬四棱白粉藤萃取，建議每日 250–750 mg。這是供應商頁的劑量區間。",
+              "SupplySide Global 2026 展商頁把 Calzbone 列在 Verdure 攤位 5724 的品牌名單，括號寫 cissus。頁上沒有毫克。"
+            ],
+            "dosageNote": "250 mg 落在平台每日 300 毫克以內，750 mg 超過藤莖的每日限量。供應商頁沒有寫這是台灣限量。舊的貿易報導提過一天三次、每次 250 mg 的骨密度試驗，這次沒有打開期刊全文，不引用百分比。卡片上的專利「有」是指美國申請 US20050048141A1，Google Patents 狀態為 Abandoned，不是仍有效的核准專利。",
+            "suggestedDosage": "Verdure 植物萃取頁寫每日 250–750 mg。"
+          },
+          "evidenceLevels": [],
+          "example": false,
+          "id": "calzbone",
+          "images": [],
+          "literature": {
+            "note": "貿易媒體轉述過 26 週、每日三次 250 mg 的骨密度試驗，期刊名寫 The Antiseptic。這次沒有打開全文，也不把公司轉述的百分比標成已核對的臨床結果，所以文獻狀態維持未知。",
+            "refs": [],
+            "status": "unknown"
+          },
+          "names": {
+            "commonEn": "veldt grape extract",
+            "commonZh": "四棱白粉藤萃取物",
+            "scientific": "Cissus quadrangularis（供應商頁寫萃取，沒有另寫部位。平台這一筆的部位是藤莖。不是爬牆虎 Parthenocissus tricuspidata。）",
+            "trade": "Calzbone（Verdure Sciences 的四棱白粉藤萃取商品名）"
+          },
+          "patent": {
+            "note": "查到的是已放棄的美國申請。沒有找到仍有效、且申請人是 Verdure 的核准專利，所以不把別家的 CQR-300 專利號寫進來。",
+            "refs": [
+              {
+                "note": "受讓人欄寫到 Verdure Sciences。Google Patents 法律狀態是 Abandoned。讀取日 2026-11-20。沒有把其他公司的 Cissus 專利算成本品。",
+                "title": "US20050048141A1 Use of the plant Cissus quadrangularis or its extracts for osteo-health",
+                "url": "https://patents.google.com/patent/US20050048141A1/en"
+              }
+            ],
+            "status": "yes"
+          },
+          "sources": [
+            {
+              "accessed": "2026-11-20",
+              "channel": "exhibition",
+              "publisher": "SupplySide Global",
+              "title": "Verdure Sciences exhibitor listing, SupplySide Global 2026",
+              "url": "https://exhibitor.supplysideglobal.com/supplysideglobal26/Public/eBooth.aspx?BoothID=153436&FromPage=Exhibitors.aspx&IndexInList=1201&ListByBooth=true&Nav=False&ParentBoothID=",
+              "whatItContributes": "攤位 5724 的品牌名單寫 Calzbone（cissus）。"
+            },
+            {
+              "accessed": "2026-11-20",
+              "channel": "supplier_site",
+              "publisher": "Verdure Sciences",
+              "title": "Botanical Extracts",
+              "url": "https://vs-corp.com/botanicals/",
+              "whatItContributes": "商品名、骨骼用途的供應商說法，以及每日 250–750 mg。"
+            },
+            {
+              "accessed": "2026-11-20",
+              "channel": "patent",
+              "publisher": "Google Patents",
+              "title": "US20050048141A1",
+              "url": "https://patents.google.com/patent/US20050048141A1/en",
+              "whatItContributes": "Verdure 名下的四棱白粉藤骨骼申請，狀態 Abandoned。"
+            }
+          ],
+          "supply": {
+            "relationship": "unknown",
+            "relationshipNote": "2026-11-20 以 Calzbone、Verdure、Verdure Sciences、Cissus quadrangularis、四棱白粉藤、方莖青紫葛，搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索，並打開 Verdure 的 Calzbone 聯絡頁。沒有台灣公司頁寫 Calzbone 或 Verdure 的代理。同化合物的其他商品有看到：創百頁的 CISSUS／CQR-300 寫美國 GHA 授權，和司特頁的 Veldt Grape Extract 沒有寫 Calzbone，若亞方舟賣的是印度植物固醇皂苷 3% 萃取。這些不是這個商品名，不記成 Calzbone 的代理。同日用「Calzbone 台灣」再查一次，仍沒有這個牌子。查核日 2026-11-20。",
+            "supplierCountry": "美國",
+            "supplierName": "Verdure Sciences",
+            "taiwanPartyName": "本次查無台灣關聯廠商"
+          },
+          "tfda": {
+            "evidenceNotes": "商品名 Calzbone 是 0 筆。四棱白粉藤藤莖（id 17040）列為可直接食用，每日食用限量 300 毫克，並應標示孕婦、幼兒與生長發育期青少年不宜使用。關鍵字 Cissus 另外命中爬牆虎，學名不是本品。添加物是 0 筆。",
+            "lookupDate": "2026-11-20",
+            "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+            "officialCrosscheck": {
+              "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+              "done": true,
+              "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+              "notes": "2026-11-20 連線 consumer.fda.gov.tw 在 TLS 交握出現 SSL_ERROR_SYSCALL，沒有取得官方詳細頁。藤莖詳細頁網址是 MaterialDetail id 17040。每日 300 毫克與警語和助手一致。siteTotals 原料 1709、添加物 804。"
+            },
+            "queries": [
+              {
+                "category": "",
+                "keyword": "四棱白粉藤",
+                "matchedName": "四棱白粉藤；方莖青紫葛；翡翠閣；碧水角",
+                "note": "公告文號寫衛生福利部 108 年 10 月 18 日衛授食字第 1081302650 號。",
+                "restrictionNote": "Cissus quadrangularis。部位藤莖。每日食用限量三百毫克。警語：孕婦、幼兒與生長發育期之青少年不宜使用。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Cissus quadrangularis",
+                "matchedName": "四棱白粉藤；方莖青紫葛；翡翠閣；碧水角",
+                "note": "學名全名只命中這一筆。",
+                "restrictionNote": "與中文名同一筆。每日 300 毫克，並有孕婦、幼兒與青少年警語。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Cissus",
+                "matchedName": "四棱白粉藤；紅骨蛇；爬牆虎",
+                "note": "短學名會多中爬牆虎。",
+                "restrictionNote": "第二筆是 Parthenocissus tricuspidata 的根、莖，不是四棱白粉藤。",
+                "resultCount": 2,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Calzbone",
+                "matchedName": "",
+                "note": "商品名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "四棱白粉藤",
+                "matchedName": "",
+                "note": "添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Cissus",
+                "matchedName": "",
+                "note": "添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "四棱白粉藤",
+                "matchedName": "",
+                "note": "助手更新歷程（2026-11-01 至 2026-11-19）沒有這筆異動。資料時間戳 2026-11-19 06:23。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "history",
+                "unconfirmedSafety": false
+              }
+            ],
+            "usable": "listed_food_ingredient"
+          }
+        },
+        {
+          "discovery": {
+            "channel": "exhibition",
+            "notes": "從 PricePlow 的 SupplySide Global 2026 預告進入 PLT 的 AprèsFlex 頁，再對 US8551496B2 與 2023 年論文 DOI。台灣頁上的 Boswellin 與化妝品用 Soothex 是別的乳香品項，沒有併成這個商品的代理。",
+            "scoutDate": "2026-11-20"
+          },
+          "efficacy": {
+            "claimedBenefits": [
+              "PLT 產品頁寫 AprèsFlex 是 Boswellia serrata 萃取，每日 100 mg，並寫 4 項人體試驗、最早約 5 天看到關節舒適度變化。六個月那一項，頁上寫關節不適約降 70%、僵硬約降 72%。這些是供應商頁對試驗的摘要。",
+              "同一頁引用 Journal of the American Nutrition Association 2023 的 30 天試驗：膝關節不適者每天 100 mg Aflapin 或安慰劑。頁上寫第 5 天疼痛與功能分數相對安慰劑下降。這次沒有另開期刊付費全文。",
+              "PricePlow 的 SupplySide Global 2026 預告把 AprèsFlex 寫成 PLT 關節組合裡的快作用乳香萃取，低劑量、有臨床。預告沒有新的毫克。"
+            ],
+            "dosageNote": "100 mg 是供應商與試驗頁的每日量，不是平台上的上限。乳香列名只寫香辛調味、適量使用，沒有關節保健的毫克。種小名 serrata 沒有單獨列名。",
+            "suggestedDosage": "PLT 產品頁與它所引的試驗寫每日 100 mg。"
+          },
+          "evidenceLevels": [
+            "clinical"
+          ],
+          "example": false,
+          "id": "apresflex",
+          "images": [
+            {
+              "caption": "PLT Health 的 AprèsFlex 產品頁主圖。",
+              "localPath": "",
+              "source": "official_site",
+              "url": "https://www.plthealth.com/hubfs/PLTHealth-Feb2023-Theme/images/ApresFlex_TileTemplate6.jpg"
+            }
+          ],
+          "literature": {
+            "note": "六個月與 MRI 的 70%、72% 只記在供應商頁，這次沒有打開 2024 年那篇全文，不另標成已核對的第二篇。",
+            "refs": [
+              {
+                "note": "Journal of the American Nutrition Association。2023。PLT 頁寫每天 100 mg、30 天，並寫 Aflapin 是 AprèsFlex 的另一商品名。這次讀的是供應商頁上的引用與摘要，不是付費全文。",
+                "title": "Efficacy and Safety of Aflapin, a Novel Boswellia Serrata Extract, in the Treatment of Osteoarthritis of the Knee: A Short-Term 30-Day Randomized, Double-Blind, Placebo-Controlled Clinical Study",
+                "url": "https://doi.org/10.1080/07315724.2021.2014370"
+              }
+            ],
+            "status": "yes"
+          },
+          "names": {
+            "commonEn": "Indian frankincense gum resin extract",
+            "commonZh": "齒葉乳香樹膠脂萃取",
+            "scientific": "Boswellia serrata（樹膠脂。PLT 頁寫兩種專有萃取的組合，並寫 AKBA 的口服生物利用度高於一般乳香萃取。平台學名只到 Boswellia spp.，沒有寫 serrata。不是乳香精油的芳香用途本身。）",
+            "trade": "AprèsFlex（PLT Health Solutions 銷售的乳香萃取商品名；同一原料亦稱 Aflapin）"
+          },
+          "patent": {
+            "note": "這件是低極性乳香樹膠脂組成。沒有把其他乳香商品的專利號算進來。",
+            "refs": [
+              {
+                "note": "標題是乳香低極性樹膠脂萃取與其協同組成。頁面文字出現 Laila。讀取日 2026-11-20。成品標示頁亦把 US 8,551,496 寫在 AprèsFlex 上，這次以 Google Patents 這件為準。",
+                "title": "US8551496B2 Boswellia low polar gum resin extract and its synergistic compositions",
+                "url": "https://patents.google.com/patent/US8551496B2"
+              }
+            ],
+            "status": "yes"
+          },
+          "sources": [
+            {
+              "accessed": "2026-11-20",
+              "channel": "exhibition",
+              "publisher": "PricePlow",
+              "title": "PLT Health Solutions at SupplySide Global 2026",
+              "url": "https://blog.priceplow.com/industry-events/plt-health-solutions-supplyside-global-2026",
+              "whatItContributes": "2026 年展前預告把 AprèsFlex 放在 PLT 攤位的關節組合，寫低劑量與臨床。"
+            },
+            {
+              "accessed": "2026-11-20",
+              "channel": "supplier_site",
+              "publisher": "PLT Health Solutions",
+              "title": "AprèsFlex",
+              "url": "https://www.plthealth.com/product-catalog/apresflex",
+              "whatItContributes": "商品名、Boswellia serrata、每日 100 mg，以及 5 天與六個月的供應商摘要。"
+            },
+            {
+              "accessed": "2026-11-20",
+              "channel": "patent",
+              "publisher": "Google Patents",
+              "title": "US8551496B2",
+              "url": "https://patents.google.com/patent/US8551496B2",
+              "whatItContributes": "乳香低極性樹膠脂萃取的核准專利標題。"
+            },
+            {
+              "accessed": "2026-11-20",
+              "channel": "paper",
+              "publisher": "Journal of the American Nutrition Association",
+              "title": "DOI 10.1080/07315724.2021.2014370",
+              "url": "https://doi.org/10.1080/07315724.2021.2014370",
+              "whatItContributes": "Aflapin 30 天膝關節試驗的論文出處。全文這次沒有打開。"
+            }
+          ],
+          "supply": {
+            "relationship": "unknown",
+            "relationshipNote": "2026-11-20 以 AprèsFlex、ApresFlex、Aflapin、阿貝福、PLT、Laila、Boswellia serrata、乳香萃取，搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索。打開和聚國際的 Boswellin 展訊與科友的 Soothex 頁：前者是另一個乳香商品名，後者是化妝品 INCI（Boswellia Serrata Gum），都沒有寫 AprèsFlex 或 Aflapin。仕琦的品牌原料名單這次看到的項目裡沒有這個商品。同日用「ApresFlex 台灣 原料」再查，仍沒有寫明代理的台灣廠商頁。查核日 2026-11-20。",
+            "supplierCountry": "印度（生產）；PLT 據點在美國",
+            "supplierName": "Laila Nutraceuticals（印度生產）／PLT Health Solutions（銷售 AprèsFlex）",
+            "taiwanPartyName": "本次查無台灣關聯廠商"
+          },
+          "tfda": {
+            "evidenceNotes": "商品名 AprèsFlex、ApresFlex 與學名 Boswellia serrata 在原料都是 0 筆。乳香（id 17235）學名只寫 Boswellia spp.，部位是該屬植物皮部滲出的樹脂，備註是僅供香辛調味、適量使用，沒有每日毫克，也沒有關節用途。添加物「乳香」「Boswellia」都是 0 筆。",
+            "lookupDate": "2026-11-20",
+            "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+            "officialCrosscheck": {
+              "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+              "done": true,
+              "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+              "notes": "2026-11-20 連線 consumer.fda.gov.tw 在 TLS 交握出現 SSL_ERROR_SYSCALL，沒有取得官方詳細頁。乳香詳細頁網址是 MaterialDetail id 17235。香辛調味、適量使用的備註與助手一致。siteTotals 原料 1709、添加物 804。"
+            },
+            "queries": [
+              {
+                "category": "",
+                "keyword": "乳香",
+                "matchedName": "乳香",
+                "note": "沒有寫 serrata，也沒有毫克。",
+                "restrictionNote": "Olibanum。Boswellia spp.。部位為該屬植物皮部滲出的樹脂。可作為香味或風味，僅以香辛調味目的、適量使用。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Boswellia",
+                "matchedName": "乳香",
+                "note": "屬名命中，種小名沒有出現在這一列。",
+                "restrictionNote": "與「乳香」同一筆。屬名 spp.，香辛調味、適量。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Boswellia serrata",
+                "matchedName": "",
+                "note": "種小名整串是 0 筆。spp. 那一列不含 serrata 這個字。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "AprèsFlex",
+                "matchedName": "",
+                "note": "商品名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "ApresFlex",
+                "matchedName": "",
+                "note": "去掉重音的拼法也是 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "乳香",
+                "matchedName": "",
+                "note": "添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Boswellia",
+                "matchedName": "",
+                "note": "添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "乳香",
+                "matchedName": "",
+                "note": "助手更新歷程（2026-11-01 至 2026-11-19）沒有這筆異動。資料時間戳 2026-11-19 06:23。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "history",
+                "unconfirmedSafety": false
+              }
+            ],
+            "usable": "listed_food_ingredient"
+          }
+        },
+        {
+          "discovery": {
+            "channel": "industry_report",
+            "notes": "從 NutraIngredients 2026-10-05 的第三代益生元報導進入 Livaux 官網、28 天試驗摘要、公司專利頁與 Anagenix 經銷名單，再打開統園產品頁核對獨家與用詞差異。種子萃取物與木天蓼沒有拿來當成這支全果粉的列名。",
+            "scoutDate": "2026-11-20"
+          },
+          "efficacy": {
+            "claimedBenefits": [
+              "NutraIngredients 2026-10-05：Livaux 獲 2026 NutraIngredients-Asia 菌相調節年度原料。報導寫它是非基改紐西蘭黃金奇異果全果粉，含纖維、果膠、多酚與高甲氧基果膠，並把定位寫成第三代益生元。文中的酚類種類數是公司自己的比較測試，不是這次打開的人體試驗終點。",
+              "2025 年隨機雙盲對照試驗摘要：85 人、每日 600 mg Livaux 或纖維素安慰劑、28 天。Livaux 組糞便 Faecalibacterium prausnitzii 相對量上升，安慰劑組沒有。完全自發性排便、自發性排便、布里斯托分數與便秘症狀是相對基線改善。摘要沒有把每一項症狀都寫成相對安慰劑顯著。",
+              "Anagenix 經銷說明與統園頁都寫每日 600 mg。統園另寫「相當於兩顆新鮮黃金奇異果」，這是統園頁的句子，這次沒有對到秤重換算。"
+            ],
+            "dosageNote": "600 mg 是這篇試驗、原廠低劑量說法與台灣代理頁的每日量，不是法規上限。平台沒有黃金奇異果全果粉的列名。種子萃取物是另一筆，警語不能直接套到這支粉，也不能拿來當成已列名。",
+            "suggestedDosage": "打開的 28 天試驗與統園頁都是每日 600 mg。公司菌相頁把專利請求項的劑量區間寫成每日 250–4000 mg，其中包含約 600 mg。"
+          },
+          "evidenceLevels": [
+            "clinical"
+          ],
+          "example": false,
+          "id": "livaux",
+          "images": [
+            {
+              "caption": "Livaux 官網首頁主視覺。",
+              "localPath": "",
+              "source": "official_site",
+              "url": "https://livaux.com/wp-content/uploads/2026/04/Livaux-Website2-1-copy.webp"
+            }
+          ],
+          "literature": {
+            "note": "症狀改善在摘要裡是相對基線。公司頁還提到較早的每日 2400 mg 研究，這次沒有打開那一篇，不另標。",
+            "refs": [
+              {
+                "note": "隨機、雙盲、安慰劑、平行。85 人、28 天、600 mg 對纖維素。登記 NCT03462199。這次讀的是摘要。",
+                "title": "Livaux gold kiwifruit powder consumption at 600 mg per day for 28 days increases Faecalibacterium prausnitzii numbers",
+                "url": "https://www.sciencedirect.com/science/article/pii/S2212619825000026"
+              }
+            ],
+            "status": "yes"
+          },
+          "names": {
+            "commonEn": "gold kiwifruit powder",
+            "commonZh": "黃金奇異果粉",
+            "scientific": "Actinidia chinensis（紐西蘭黃金奇異果，公司專利頁寫 Gold3 乾燥果。原廠與 2026-10-05 報導寫全果。統園產品頁寫果肉凍乾。兩處部位用詞不同，都留下。不是平台上的奇異果種子萃取物，也不是軟棗獼猴桃 Actinidia arguta，更不是未確認的木天蓼 Actinidia polygama。）",
+            "trade": "Livaux（Anagenix 的黃金奇異果粉商品名；統園頁亦寫利菌升）"
+          },
+          "patent": {
+            "note": "專利狀態依公司專利頁的 Granted 表。沒有自行把申請號改寫成另一個美國專利號。",
+            "refs": [
+              {
+                "note": "公司頁寫美國申請 17/345,478 於 2023-05-09 核准，並列出日本、馬來西亞、紐西蘭等已核准案。這次沒有逐件打開各國登記簿。讀取日 2026-11-20。",
+                "title": "Livaux patents and granted claims",
+                "url": "https://livaux.com/patents/"
+              }
+            ],
+            "status": "yes"
+          },
+          "sources": [
+            {
+              "accessed": "2026-11-20",
+              "channel": "industry_report",
+              "publisher": "NutraIngredients",
+              "title": "3rd-gen prebiotic? Whole fruit kiwi's benefits lie beyond fiber",
+              "url": "https://www.nutraingredients.com/Article/2026/10/05/3rd-gen-prebiotic-whole-fruit-kiwi-extracts-benefits-lie-beyond-fiber/",
+              "whatItContributes": "2026-10-05 報導 Livaux 獲得亞洲菌相調節年度原料，並寫全果、高甲氧基果膠與多酚。"
+            },
+            {
+              "accessed": "2026-11-20",
+              "channel": "supplier_site",
+              "publisher": "Livaux／Anagenix",
+              "title": "Livaux gold kiwifruit",
+              "url": "https://livaux.com/livaux-gold-kiwifruit/",
+              "whatItContributes": "紐西蘭全果粉、每日 600 mg，以及 Faecalibacterium prausnitzii 的供應商說法。"
+            },
+            {
+              "accessed": "2026-11-20",
+              "channel": "paper",
+              "publisher": "ScienceDirect",
+              "title": "ScienceDirect S2212619825000026",
+              "url": "https://www.sciencedirect.com/science/article/pii/S2212619825000026",
+              "whatItContributes": "600 mg、28 天、85 人，以及菌量相對安慰劑、症狀相對基線的摘要差別。"
+            },
+            {
+              "accessed": "2026-11-20",
+              "channel": "supplier_site",
+              "publisher": "Anagenix",
+              "title": "Anagenix distributors",
+              "url": "https://anagenix.com/our-distributors/",
+              "whatItContributes": "原廠把台灣獨家經銷寫成 Toong Yeuan，網址 tyig.com.tw。"
+            },
+            {
+              "accessed": "2026-11-20",
+              "channel": "other",
+              "publisher": "統園企業",
+              "title": "黃金奇異果粉",
+              "url": "https://www.tyig.com.tw/web/product/product_in.jsp?dm_no=DM1585834353649&pdid=PD1588129562180&sub_no=DM1588038438997",
+              "whatItContributes": "台灣頁寫利菌升、獨家代理，以及果肉凍乾、果寡糖等與原廠不完全相同的用詞。"
+            }
+          ],
+          "supply": {
+            "relationship": "taiwan_agent",
+            "relationshipNote": "2026-11-20 以 Livaux、利菌升、Anagenix、黃金奇異果粉、gold kiwifruit，搭配台灣、臺灣、Taiwan、代理、總代理、經銷、獨家檢索。Anagenix 經銷名單寫 Taiwan - Toong Yeuan Taiwan，Our exclusive distributor for Actazin、Livaux、BerriQi and Feiolix，並給 tyig.com.tw。統園黃金奇異果粉頁寫「利菌升 Livaux 是統園獨家代理品牌原料」。獨家經銷這句原廠頁與統園頁一致。統園頁另寫果肉凍乾、果寡糖，與原廠全果、高甲氧基果膠的用詞不同，不把果寡糖改成另一種已收錄的蔗果三糖。同日用「Livaux 台灣 經銷」再查，沒有第二家寫自己是這個商品的總代理。查核日 2026-11-20。",
+            "supplierCountry": "紐西蘭",
+            "supplierName": "Anagenix",
+            "taiwanPartyName": "統園企業股份有限公司（Toong Yeuan；原廠經銷名單寫台灣獨家經銷）"
+          },
+          "tfda": {
+            "evidenceNotes": "商品名 Livaux 與「黃金奇異果」在原料、添加物都是 0 筆。關鍵字「奇異果」的 3 筆是軟棗獼猴桃果實、奇異果種子萃取物，以及備註裡提到奇異果的草莓種子萃取物，都不是這支全果粉。Actinidia 還會命中未確認的木天蓼，那是另一種。",
+            "lookupDate": "2026-11-20",
+            "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+            "officialCrosscheck": {
+              "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+              "done": false,
+              "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+              "notes": "2026-11-20 連線 consumer.fda.gov.tw 在 TLS 交握出現 SSL_ERROR_SYSCALL。助手側商品名與「黃金奇異果」是 0 筆，沒有可核對的全果粉詳細頁。種子萃取物詳細頁網址是 MaterialDetail id 17363，木天蓼是 id 16040，都不是本品。"
+            },
+            "queries": [
+              {
+                "category": "",
+                "keyword": "Livaux",
+                "matchedName": "",
+                "note": "商品名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "黃金奇異果",
+                "matchedName": "",
+                "note": "中文商品描述 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "奇異果",
+                "matchedName": "軟棗獼猴桃；奇異果種子萃取物；草莓種子萃取物",
+                "note": "沒有黃金奇異果全果粉。種子萃取不是這支粉。",
+                "restrictionNote": "軟棗獼猴桃是 Actinidia arguta 果實。種子萃取物是 Actinidia chinensis 種子，警語含孩童過敏與葡萄柚汁用藥。草莓那一筆是因為共同公告的備註寫到奇異果。",
+                "resultCount": 3,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Actinidia chinensis",
+                "matchedName": "奇異果種子萃取物；草莓種子萃取物",
+                "note": "沒有果肉或全果這一列。",
+                "restrictionNote": "真正的種子列有警語。草莓列是備註文字命中。",
+                "resultCount": 2,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Actinidia",
+                "matchedName": "軟棗獼猴桃；奇異果種子萃取物；草莓種子萃取物；木天蓼",
+                "note": "未確認的是另一種。本品公司頁寫的是黃金奇異果 Gold3。",
+                "restrictionNote": "木天蓼 Actinidia polygama 在未確認分類，不得作為食品原料。",
+                "resultCount": 4,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "奇異果",
+                "matchedName": "",
+                "note": "添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Livaux",
+                "matchedName": "",
+                "note": "商品名在添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "奇異果",
+                "matchedName": "",
+                "note": "助手更新歷程（2026-11-01 至 2026-11-19）沒有這筆異動。資料時間戳 2026-11-19 06:23。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "history",
+                "unconfirmedSafety": false
+              }
+            ],
+            "usable": "not_found"
+          }
+        }
+      ],
+      "targetCount": 5,
+      "title": "2026-11-20 正式日報"
+    },
+    {
+      "channelsCovered": [
+        "news",
+        "exhibition",
+        "industry_report"
+      ],
       "date": "2026-11-19",
       "example": false,
       "notes": "正式五筆。主管道：Capsifen、myHMB 為新聞；Slendesta、Trpti 為展覽；Fibernova 為產業報導。未收未確認安全性項目：總序天冬、吡咯喹啉醌二鈉鹽、印度小檗、鋸棕櫚果實、裸藻。",
@@ -14055,6 +15001,188 @@ window.INGREDIENT_CATALOG = {
     },
     {
       "discovery": {
+        "channel": "news",
+        "notes": "從 NutraIngredients 2026-11-09 的 Calocurb 英國市場簡訊進入，再對 Calocurb 說明頁、PMC11279280 與 WO2019158983A1。台灣關聯另看了 Ubuy 台灣網址與紐西蘭 LOLU，確認不是本地原料代理。",
+        "scoutDate": "2026-11-20"
+      },
+      "efficacy": {
+        "claimedBenefits": [
+          "NutraIngredients 2026-11-09：Calocurb 以 Amarasate 苦味啤酒花萃取進入英國市場，定位在食慾控制。報導沒有寫新的毫克或新試驗數字。",
+          "Obesity Pillars 2024（PMC11279280）：30 名健康女性、24 小時只喝水的禁食、隨機雙盲交叉。高劑量全程 500 mg、低劑量全程 250 mg，各分兩次，在禁食第 16 與第 20 小時給。相對安慰劑，食慾與對食物的渴望下降。禁食結束後的自由進食，高劑量少 14.3%（p \u003c 0.05），低劑量少 8.1%（未達顯著）。高劑量有兩人腹瀉、一人胃灼熱，低劑量有一人腹瀉。",
+          "Calocurb 說明頁寫萃取刺激腸道苦味受體、帶出 GLP-1、CCK 與 PYY。這是供應商頁的機制句子。同一頁寫膠囊為延遲釋放，並寫超臨界二氧化碳萃取。"
+        ],
+        "dosageNote": "250 mg 與 500 mg 是這篇禁食試驗的全程萃取量，不是法規上限。花的列名沒有毫克。葉那一筆不得作為食品原料，不是這個花球果規格。官網最多四顆等於 500 mg，與試驗高劑量同一數字，仍不是平台上的限量。",
+        "suggestedDosage": "女性禁食試驗是全程 250 mg 或 500 mg（各分兩次，每次 125 mg 或 250 mg）。Calocurb 官網寫 125 mg 膠囊，建議逐步到一天兩次、每次兩顆，最多一天四顆。"
+      },
+      "evidenceLevels": [
+        "clinical"
+      ],
+      "example": false,
+      "id": "amarasate",
+      "images": [
+        {
+          "caption": "Calocurb 官網的成品瓶圖。頁上寫活性成分是 Amarasate。",
+          "localPath": "",
+          "source": "official_site",
+          "url": "https://www.calocurb.com/cdn/shop/files/Bottle_US_2_db473225-44a8-4323-9ee1-fdc9277ef9f8.png"
+        }
+      ],
+      "literature": {
+        "note": "這篇是正常體重女性的急性禁食，不是減重療程。論文提到先前有男性試驗，這次沒有打開那一篇，不另標數字。",
+        "refs": [
+          {
+            "note": "Obesity Pillars。2024。PMC11279280。30 名女性、24 小時禁食、交叉。Amarasate 花萃取，超臨界二氧化碳。高劑量全程 500 mg、低劑量 250 mg。",
+            "title": "Gastrointestinal delivery of bitter hop extract reduces appetite and food cravings in healthy adult women undergoing acute fasting",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11279280/"
+          }
+        ],
+        "status": "yes"
+      },
+      "names": {
+        "commonEn": "bitter hop cone extract",
+        "commonZh": "啤酒花花球果苦味萃取",
+        "scientific": "Humulus lupulus（花，啤酒花球果。Calocurb 說明頁寫超臨界二氧化碳萃取，並寫幾乎去掉有鎮靜作用的 prenylflavonoids。不是葉。平台另有 Humulus americanus，與這一筆花列在同一列。）",
+        "trade": "Amarasate（Plant & Food Research 的啤酒花萃取商品名；成品品牌為 Calocurb）"
+      },
+      "patent": {
+        "note": "這件是啤酒花萃取的口服劑型。沒有把膠囊殼供應商自己的膠囊專利算進來。",
+        "refs": [
+          {
+            "note": "原申請人 New Zealand Institute for Plant and Food Research。請求項含未異變化的啤酒花酸、延遲釋放口服劑型，以及降低食慾。同族美國案寫成 US11801225B2，後續案 US12246095B2。讀取日 2026-11-20。",
+            "title": "WO2019158983A1 Oral dosage forms comprising a hops extract",
+            "url": "https://patents.google.com/patent/WO2019158983A1/en"
+          }
+        ],
+        "status": "yes"
+      },
+      "sources": [
+        {
+          "accessed": "2026-11-20",
+          "channel": "news",
+          "publisher": "NutraIngredients",
+          "title": "Across the Nutraverse: Calocurb in the UK",
+          "url": "https://www.nutraingredients.com/Article/2026/11/09/this-weeks-nutraverse-hbs-2027-key-trends-novos-science-cdmos-in-poland-and-calocurb-expands/",
+          "whatItContributes": "2026-11-09 報導 Calocurb 以 Amarasate 苦味啤酒花萃取進入英國，定位食慾控制。"
+        },
+        {
+          "accessed": "2026-11-20",
+          "channel": "supplier_site",
+          "publisher": "Calocurb",
+          "title": "Calocurb science",
+          "url": "https://www.calocurb.com/pages/science",
+          "whatItContributes": "花萃取、超臨界二氧化碳、延遲釋放膠囊，以及 GLP-1、CCK、PYY 的供應商說法。"
+        },
+        {
+          "accessed": "2026-11-20",
+          "channel": "paper",
+          "publisher": "PubMed Central",
+          "title": "PMC11279280",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11279280/",
+          "whatItContributes": "女性禁食試驗的劑量、14.3% 與 8.1% 的進食差，以及不適紀錄。"
+        },
+        {
+          "accessed": "2026-11-20",
+          "channel": "patent",
+          "publisher": "Google Patents",
+          "title": "WO2019158983A1",
+          "url": "https://patents.google.com/patent/WO2019158983A1/en",
+          "whatItContributes": "Plant & Food Research 的啤酒花萃取口服劑型專利族。"
+        }
+      ],
+      "supply": {
+        "relationship": "unknown",
+        "relationshipNote": "2026-11-20 分別以 Amarasate、Calocurb、Amarasate 啤酒花、hop extract、啤酒花萃取，搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索，並看 Calocurb 官網、KiwiNet 商業化頁與 Ubuy 台灣網址。Calocurb 以紐西蘭與美國直售為主。Ubuy 的 .tw 頁寫 Imported from USA store、由美國店出貨，是跨境代購，不是台灣原料代理。LOLU 頁是紐西蘭公司。沒有打開寫明 Amarasate 或 Calocurb 原料代理的台灣廠商產品頁。同日用另一組「啤酒花 食慾 台灣 原料」再查，仍沒有這個商品名。查核日 2026-11-20。",
+        "supplierCountry": "紐西蘭",
+        "supplierName": "Plant & Food Research（萃取開發）／Calocurb（Amarasate 的被授權商品化方）",
+        "taiwanPartyName": "本次查無台灣關聯廠商"
+      },
+      "tfda": {
+        "evidenceNotes": "「啤酒花」「蛇麻」「Humulus lupulus」在原料各 2 筆：花（詳細頁 id 16938）列為可直接食用，備註空白，沒有每日毫克；葉（id 16404）寫未經確認安全性前不得作為食品原料，不是這個花球果萃取。商品名 Amarasate 在原料與添加物都是 0 筆。花這一筆沒有另列超臨界苦味酸萃取，列名不等於試驗用的毫克已經核准。",
+        "lookupDate": "2026-11-20",
+        "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+        "officialCrosscheck": {
+          "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+          "done": true,
+          "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+          "notes": "2026-11-20 連線 consumer.fda.gov.tw 在 TLS 交握出現 SSL_ERROR_SYSCALL，沒有取得官方詳細頁。花的助手詳細頁網址是 MaterialDetail id 16938，葉是 id 16404。花備註空白、葉寫不得作為食品原料，與助手一致。siteTotals 原料 1709、添加物 804。"
+        },
+        "queries": [
+          {
+            "category": "",
+            "keyword": "啤酒花",
+            "matchedName": "啤酒花；忽布；蛇麻草",
+            "note": "未確認的是葉。本品說明寫的是花球果萃取。",
+            "restrictionNote": "花：Humulus lupulus L. 與 Humulus americanus，可直接食用，備註空白。葉：Humulus lupulus L.，未經確認安全性前不得作為食品原料。",
+            "resultCount": 2,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Humulus lupulus",
+            "matchedName": "啤酒花；忽布；蛇麻草",
+            "note": "學名同時命中花與葉。",
+            "restrictionNote": "與「啤酒花」相同的兩筆，花可直接食用，葉不得作為食品原料。",
+            "resultCount": 2,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Amarasate",
+            "matchedName": "",
+            "note": "商品名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "啤酒花",
+            "matchedName": "",
+            "note": "添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Humulus",
+            "matchedName": "",
+            "note": "添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Amarasate",
+            "matchedName": "",
+            "note": "商品名在添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "啤酒花",
+            "matchedName": "",
+            "note": "助手更新歷程（2026-11-01 至 2026-11-19）沒有這筆異動。資料時間戳 2026-11-19 06:23。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "history",
+            "unconfirmedSafety": false
+          }
+        ],
+        "usable": "listed_food_ingredient"
+      }
+    },
+    {
+      "discovery": {
         "channel": "exhibition",
         "notes": "從 SupplySide Global 2026 展前記者的 BGG 攤位進入 ApplePhenon，再對 BGG 產品頁、2010 年論文與 US6855352B2。台灣關聯用 ApplePhenon、蘋果多酚、Malus pumila 搭配台灣、代理、經銷，打開仕琦產品頁與商標頁。",
         "scoutDate": "2026-11-14"
@@ -14231,6 +15359,198 @@ window.INGREDIENT_CATALOG = {
             "keyword": "蘋果",
             "matchedName": "",
             "note": "助手更新歷程（11/01–11/13）沒有這筆異動。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "history",
+            "unconfirmedSafety": false
+          }
+        ],
+        "usable": "listed_food_ingredient"
+      }
+    },
+    {
+      "discovery": {
+        "channel": "exhibition",
+        "notes": "從 PricePlow 的 SupplySide Global 2026 預告進入 PLT 的 AprèsFlex 頁，再對 US8551496B2 與 2023 年論文 DOI。台灣頁上的 Boswellin 與化妝品用 Soothex 是別的乳香品項，沒有併成這個商品的代理。",
+        "scoutDate": "2026-11-20"
+      },
+      "efficacy": {
+        "claimedBenefits": [
+          "PLT 產品頁寫 AprèsFlex 是 Boswellia serrata 萃取，每日 100 mg，並寫 4 項人體試驗、最早約 5 天看到關節舒適度變化。六個月那一項，頁上寫關節不適約降 70%、僵硬約降 72%。這些是供應商頁對試驗的摘要。",
+          "同一頁引用 Journal of the American Nutrition Association 2023 的 30 天試驗：膝關節不適者每天 100 mg Aflapin 或安慰劑。頁上寫第 5 天疼痛與功能分數相對安慰劑下降。這次沒有另開期刊付費全文。",
+          "PricePlow 的 SupplySide Global 2026 預告把 AprèsFlex 寫成 PLT 關節組合裡的快作用乳香萃取，低劑量、有臨床。預告沒有新的毫克。"
+        ],
+        "dosageNote": "100 mg 是供應商與試驗頁的每日量，不是平台上的上限。乳香列名只寫香辛調味、適量使用，沒有關節保健的毫克。種小名 serrata 沒有單獨列名。",
+        "suggestedDosage": "PLT 產品頁與它所引的試驗寫每日 100 mg。"
+      },
+      "evidenceLevels": [
+        "clinical"
+      ],
+      "example": false,
+      "id": "apresflex",
+      "images": [
+        {
+          "caption": "PLT Health 的 AprèsFlex 產品頁主圖。",
+          "localPath": "",
+          "source": "official_site",
+          "url": "https://www.plthealth.com/hubfs/PLTHealth-Feb2023-Theme/images/ApresFlex_TileTemplate6.jpg"
+        }
+      ],
+      "literature": {
+        "note": "六個月與 MRI 的 70%、72% 只記在供應商頁，這次沒有打開 2024 年那篇全文，不另標成已核對的第二篇。",
+        "refs": [
+          {
+            "note": "Journal of the American Nutrition Association。2023。PLT 頁寫每天 100 mg、30 天，並寫 Aflapin 是 AprèsFlex 的另一商品名。這次讀的是供應商頁上的引用與摘要，不是付費全文。",
+            "title": "Efficacy and Safety of Aflapin, a Novel Boswellia Serrata Extract, in the Treatment of Osteoarthritis of the Knee: A Short-Term 30-Day Randomized, Double-Blind, Placebo-Controlled Clinical Study",
+            "url": "https://doi.org/10.1080/07315724.2021.2014370"
+          }
+        ],
+        "status": "yes"
+      },
+      "names": {
+        "commonEn": "Indian frankincense gum resin extract",
+        "commonZh": "齒葉乳香樹膠脂萃取",
+        "scientific": "Boswellia serrata（樹膠脂。PLT 頁寫兩種專有萃取的組合，並寫 AKBA 的口服生物利用度高於一般乳香萃取。平台學名只到 Boswellia spp.，沒有寫 serrata。不是乳香精油的芳香用途本身。）",
+        "trade": "AprèsFlex（PLT Health Solutions 銷售的乳香萃取商品名；同一原料亦稱 Aflapin）"
+      },
+      "patent": {
+        "note": "這件是低極性乳香樹膠脂組成。沒有把其他乳香商品的專利號算進來。",
+        "refs": [
+          {
+            "note": "標題是乳香低極性樹膠脂萃取與其協同組成。頁面文字出現 Laila。讀取日 2026-11-20。成品標示頁亦把 US 8,551,496 寫在 AprèsFlex 上，這次以 Google Patents 這件為準。",
+            "title": "US8551496B2 Boswellia low polar gum resin extract and its synergistic compositions",
+            "url": "https://patents.google.com/patent/US8551496B2"
+          }
+        ],
+        "status": "yes"
+      },
+      "sources": [
+        {
+          "accessed": "2026-11-20",
+          "channel": "exhibition",
+          "publisher": "PricePlow",
+          "title": "PLT Health Solutions at SupplySide Global 2026",
+          "url": "https://blog.priceplow.com/industry-events/plt-health-solutions-supplyside-global-2026",
+          "whatItContributes": "2026 年展前預告把 AprèsFlex 放在 PLT 攤位的關節組合，寫低劑量與臨床。"
+        },
+        {
+          "accessed": "2026-11-20",
+          "channel": "supplier_site",
+          "publisher": "PLT Health Solutions",
+          "title": "AprèsFlex",
+          "url": "https://www.plthealth.com/product-catalog/apresflex",
+          "whatItContributes": "商品名、Boswellia serrata、每日 100 mg，以及 5 天與六個月的供應商摘要。"
+        },
+        {
+          "accessed": "2026-11-20",
+          "channel": "patent",
+          "publisher": "Google Patents",
+          "title": "US8551496B2",
+          "url": "https://patents.google.com/patent/US8551496B2",
+          "whatItContributes": "乳香低極性樹膠脂萃取的核准專利標題。"
+        },
+        {
+          "accessed": "2026-11-20",
+          "channel": "paper",
+          "publisher": "Journal of the American Nutrition Association",
+          "title": "DOI 10.1080/07315724.2021.2014370",
+          "url": "https://doi.org/10.1080/07315724.2021.2014370",
+          "whatItContributes": "Aflapin 30 天膝關節試驗的論文出處。全文這次沒有打開。"
+        }
+      ],
+      "supply": {
+        "relationship": "unknown",
+        "relationshipNote": "2026-11-20 以 AprèsFlex、ApresFlex、Aflapin、阿貝福、PLT、Laila、Boswellia serrata、乳香萃取，搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索。打開和聚國際的 Boswellin 展訊與科友的 Soothex 頁：前者是另一個乳香商品名，後者是化妝品 INCI（Boswellia Serrata Gum），都沒有寫 AprèsFlex 或 Aflapin。仕琦的品牌原料名單這次看到的項目裡沒有這個商品。同日用「ApresFlex 台灣 原料」再查，仍沒有寫明代理的台灣廠商頁。查核日 2026-11-20。",
+        "supplierCountry": "印度（生產）；PLT 據點在美國",
+        "supplierName": "Laila Nutraceuticals（印度生產）／PLT Health Solutions（銷售 AprèsFlex）",
+        "taiwanPartyName": "本次查無台灣關聯廠商"
+      },
+      "tfda": {
+        "evidenceNotes": "商品名 AprèsFlex、ApresFlex 與學名 Boswellia serrata 在原料都是 0 筆。乳香（id 17235）學名只寫 Boswellia spp.，部位是該屬植物皮部滲出的樹脂，備註是僅供香辛調味、適量使用，沒有每日毫克，也沒有關節用途。添加物「乳香」「Boswellia」都是 0 筆。",
+        "lookupDate": "2026-11-20",
+        "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+        "officialCrosscheck": {
+          "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+          "done": true,
+          "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+          "notes": "2026-11-20 連線 consumer.fda.gov.tw 在 TLS 交握出現 SSL_ERROR_SYSCALL，沒有取得官方詳細頁。乳香詳細頁網址是 MaterialDetail id 17235。香辛調味、適量使用的備註與助手一致。siteTotals 原料 1709、添加物 804。"
+        },
+        "queries": [
+          {
+            "category": "",
+            "keyword": "乳香",
+            "matchedName": "乳香",
+            "note": "沒有寫 serrata，也沒有毫克。",
+            "restrictionNote": "Olibanum。Boswellia spp.。部位為該屬植物皮部滲出的樹脂。可作為香味或風味，僅以香辛調味目的、適量使用。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Boswellia",
+            "matchedName": "乳香",
+            "note": "屬名命中，種小名沒有出現在這一列。",
+            "restrictionNote": "與「乳香」同一筆。屬名 spp.，香辛調味、適量。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Boswellia serrata",
+            "matchedName": "",
+            "note": "種小名整串是 0 筆。spp. 那一列不含 serrata 這個字。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "AprèsFlex",
+            "matchedName": "",
+            "note": "商品名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "ApresFlex",
+            "matchedName": "",
+            "note": "去掉重音的拼法也是 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "乳香",
+            "matchedName": "",
+            "note": "添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Boswellia",
+            "matchedName": "",
+            "note": "添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "乳香",
+            "matchedName": "",
+            "note": "助手更新歷程（2026-11-01 至 2026-11-19）沒有這筆異動。資料時間戳 2026-11-19 06:23。",
             "restrictionNote": "",
             "resultCount": 0,
             "tab": "history",
@@ -14935,6 +16255,164 @@ window.INGREDIENT_CATALOG = {
             "keyword": "胡椒鹼",
             "matchedName": "",
             "note": "助手更新歷程未另見胡椒鹼改列未確認。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "history",
+            "unconfirmedSafety": false
+          }
+        ],
+        "usable": "listed_food_ingredient"
+      }
+    },
+    {
+      "discovery": {
+        "channel": "exhibition",
+        "notes": "從 SupplySide Global 2026 的 Verdure 攤位 5724 名單看到 Calzbone，再對 vs-corp.com 的劑量與 US20050048141A1。台灣頁上的 CISSUS／CQR-300、和司特與若亞方舟是別的四棱白粉藤商品，沒有併進這個牌子。專利申請已放棄，這點寫在劑量註記，避免卡片上的「有」被讀成仍有效。",
+        "scoutDate": "2026-11-20"
+      },
+      "efficacy": {
+        "claimedBenefits": [
+          "Verdure 植物萃取頁把 Calzbone 寫成支持骨骼的專屬四棱白粉藤萃取，建議每日 250–750 mg。這是供應商頁的劑量區間。",
+          "SupplySide Global 2026 展商頁把 Calzbone 列在 Verdure 攤位 5724 的品牌名單，括號寫 cissus。頁上沒有毫克。"
+        ],
+        "dosageNote": "250 mg 落在平台每日 300 毫克以內，750 mg 超過藤莖的每日限量。供應商頁沒有寫這是台灣限量。舊的貿易報導提過一天三次、每次 250 mg 的骨密度試驗，這次沒有打開期刊全文，不引用百分比。卡片上的專利「有」是指美國申請 US20050048141A1，Google Patents 狀態為 Abandoned，不是仍有效的核准專利。",
+        "suggestedDosage": "Verdure 植物萃取頁寫每日 250–750 mg。"
+      },
+      "evidenceLevels": [],
+      "example": false,
+      "id": "calzbone",
+      "images": [],
+      "literature": {
+        "note": "貿易媒體轉述過 26 週、每日三次 250 mg 的骨密度試驗，期刊名寫 The Antiseptic。這次沒有打開全文，也不把公司轉述的百分比標成已核對的臨床結果，所以文獻狀態維持未知。",
+        "refs": [],
+        "status": "unknown"
+      },
+      "names": {
+        "commonEn": "veldt grape extract",
+        "commonZh": "四棱白粉藤萃取物",
+        "scientific": "Cissus quadrangularis（供應商頁寫萃取，沒有另寫部位。平台這一筆的部位是藤莖。不是爬牆虎 Parthenocissus tricuspidata。）",
+        "trade": "Calzbone（Verdure Sciences 的四棱白粉藤萃取商品名）"
+      },
+      "patent": {
+        "note": "查到的是已放棄的美國申請。沒有找到仍有效、且申請人是 Verdure 的核准專利，所以不把別家的 CQR-300 專利號寫進來。",
+        "refs": [
+          {
+            "note": "受讓人欄寫到 Verdure Sciences。Google Patents 法律狀態是 Abandoned。讀取日 2026-11-20。沒有把其他公司的 Cissus 專利算成本品。",
+            "title": "US20050048141A1 Use of the plant Cissus quadrangularis or its extracts for osteo-health",
+            "url": "https://patents.google.com/patent/US20050048141A1/en"
+          }
+        ],
+        "status": "yes"
+      },
+      "sources": [
+        {
+          "accessed": "2026-11-20",
+          "channel": "exhibition",
+          "publisher": "SupplySide Global",
+          "title": "Verdure Sciences exhibitor listing, SupplySide Global 2026",
+          "url": "https://exhibitor.supplysideglobal.com/supplysideglobal26/Public/eBooth.aspx?BoothID=153436&FromPage=Exhibitors.aspx&IndexInList=1201&ListByBooth=true&Nav=False&ParentBoothID=",
+          "whatItContributes": "攤位 5724 的品牌名單寫 Calzbone（cissus）。"
+        },
+        {
+          "accessed": "2026-11-20",
+          "channel": "supplier_site",
+          "publisher": "Verdure Sciences",
+          "title": "Botanical Extracts",
+          "url": "https://vs-corp.com/botanicals/",
+          "whatItContributes": "商品名、骨骼用途的供應商說法，以及每日 250–750 mg。"
+        },
+        {
+          "accessed": "2026-11-20",
+          "channel": "patent",
+          "publisher": "Google Patents",
+          "title": "US20050048141A1",
+          "url": "https://patents.google.com/patent/US20050048141A1/en",
+          "whatItContributes": "Verdure 名下的四棱白粉藤骨骼申請，狀態 Abandoned。"
+        }
+      ],
+      "supply": {
+        "relationship": "unknown",
+        "relationshipNote": "2026-11-20 以 Calzbone、Verdure、Verdure Sciences、Cissus quadrangularis、四棱白粉藤、方莖青紫葛，搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索，並打開 Verdure 的 Calzbone 聯絡頁。沒有台灣公司頁寫 Calzbone 或 Verdure 的代理。同化合物的其他商品有看到：創百頁的 CISSUS／CQR-300 寫美國 GHA 授權，和司特頁的 Veldt Grape Extract 沒有寫 Calzbone，若亞方舟賣的是印度植物固醇皂苷 3% 萃取。這些不是這個商品名，不記成 Calzbone 的代理。同日用「Calzbone 台灣」再查一次，仍沒有這個牌子。查核日 2026-11-20。",
+        "supplierCountry": "美國",
+        "supplierName": "Verdure Sciences",
+        "taiwanPartyName": "本次查無台灣關聯廠商"
+      },
+      "tfda": {
+        "evidenceNotes": "商品名 Calzbone 是 0 筆。四棱白粉藤藤莖（id 17040）列為可直接食用，每日食用限量 300 毫克，並應標示孕婦、幼兒與生長發育期青少年不宜使用。關鍵字 Cissus 另外命中爬牆虎，學名不是本品。添加物是 0 筆。",
+        "lookupDate": "2026-11-20",
+        "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+        "officialCrosscheck": {
+          "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+          "done": true,
+          "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+          "notes": "2026-11-20 連線 consumer.fda.gov.tw 在 TLS 交握出現 SSL_ERROR_SYSCALL，沒有取得官方詳細頁。藤莖詳細頁網址是 MaterialDetail id 17040。每日 300 毫克與警語和助手一致。siteTotals 原料 1709、添加物 804。"
+        },
+        "queries": [
+          {
+            "category": "",
+            "keyword": "四棱白粉藤",
+            "matchedName": "四棱白粉藤；方莖青紫葛；翡翠閣；碧水角",
+            "note": "公告文號寫衛生福利部 108 年 10 月 18 日衛授食字第 1081302650 號。",
+            "restrictionNote": "Cissus quadrangularis。部位藤莖。每日食用限量三百毫克。警語：孕婦、幼兒與生長發育期之青少年不宜使用。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Cissus quadrangularis",
+            "matchedName": "四棱白粉藤；方莖青紫葛；翡翠閣；碧水角",
+            "note": "學名全名只命中這一筆。",
+            "restrictionNote": "與中文名同一筆。每日 300 毫克，並有孕婦、幼兒與青少年警語。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Cissus",
+            "matchedName": "四棱白粉藤；紅骨蛇；爬牆虎",
+            "note": "短學名會多中爬牆虎。",
+            "restrictionNote": "第二筆是 Parthenocissus tricuspidata 的根、莖，不是四棱白粉藤。",
+            "resultCount": 2,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Calzbone",
+            "matchedName": "",
+            "note": "商品名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "四棱白粉藤",
+            "matchedName": "",
+            "note": "添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Cissus",
+            "matchedName": "",
+            "note": "添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "四棱白粉藤",
+            "matchedName": "",
+            "note": "助手更新歷程（2026-11-01 至 2026-11-19）沒有這筆異動。資料時間戳 2026-11-19 06:23。",
             "restrictionNote": "",
             "resultCount": 0,
             "tab": "history",
@@ -19388,6 +20866,206 @@ window.INGREDIENT_CATALOG = {
     {
       "discovery": {
         "channel": "industry_report",
+        "notes": "從 NutraIngredients 2026-10-05 的第三代益生元報導進入 Livaux 官網、28 天試驗摘要、公司專利頁與 Anagenix 經銷名單，再打開統園產品頁核對獨家與用詞差異。種子萃取物與木天蓼沒有拿來當成這支全果粉的列名。",
+        "scoutDate": "2026-11-20"
+      },
+      "efficacy": {
+        "claimedBenefits": [
+          "NutraIngredients 2026-10-05：Livaux 獲 2026 NutraIngredients-Asia 菌相調節年度原料。報導寫它是非基改紐西蘭黃金奇異果全果粉，含纖維、果膠、多酚與高甲氧基果膠，並把定位寫成第三代益生元。文中的酚類種類數是公司自己的比較測試，不是這次打開的人體試驗終點。",
+          "2025 年隨機雙盲對照試驗摘要：85 人、每日 600 mg Livaux 或纖維素安慰劑、28 天。Livaux 組糞便 Faecalibacterium prausnitzii 相對量上升，安慰劑組沒有。完全自發性排便、自發性排便、布里斯托分數與便秘症狀是相對基線改善。摘要沒有把每一項症狀都寫成相對安慰劑顯著。",
+          "Anagenix 經銷說明與統園頁都寫每日 600 mg。統園另寫「相當於兩顆新鮮黃金奇異果」，這是統園頁的句子，這次沒有對到秤重換算。"
+        ],
+        "dosageNote": "600 mg 是這篇試驗、原廠低劑量說法與台灣代理頁的每日量，不是法規上限。平台沒有黃金奇異果全果粉的列名。種子萃取物是另一筆，警語不能直接套到這支粉，也不能拿來當成已列名。",
+        "suggestedDosage": "打開的 28 天試驗與統園頁都是每日 600 mg。公司菌相頁把專利請求項的劑量區間寫成每日 250–4000 mg，其中包含約 600 mg。"
+      },
+      "evidenceLevels": [
+        "clinical"
+      ],
+      "example": false,
+      "id": "livaux",
+      "images": [
+        {
+          "caption": "Livaux 官網首頁主視覺。",
+          "localPath": "",
+          "source": "official_site",
+          "url": "https://livaux.com/wp-content/uploads/2026/04/Livaux-Website2-1-copy.webp"
+        }
+      ],
+      "literature": {
+        "note": "症狀改善在摘要裡是相對基線。公司頁還提到較早的每日 2400 mg 研究，這次沒有打開那一篇，不另標。",
+        "refs": [
+          {
+            "note": "隨機、雙盲、安慰劑、平行。85 人、28 天、600 mg 對纖維素。登記 NCT03462199。這次讀的是摘要。",
+            "title": "Livaux gold kiwifruit powder consumption at 600 mg per day for 28 days increases Faecalibacterium prausnitzii numbers",
+            "url": "https://www.sciencedirect.com/science/article/pii/S2212619825000026"
+          }
+        ],
+        "status": "yes"
+      },
+      "names": {
+        "commonEn": "gold kiwifruit powder",
+        "commonZh": "黃金奇異果粉",
+        "scientific": "Actinidia chinensis（紐西蘭黃金奇異果，公司專利頁寫 Gold3 乾燥果。原廠與 2026-10-05 報導寫全果。統園產品頁寫果肉凍乾。兩處部位用詞不同，都留下。不是平台上的奇異果種子萃取物，也不是軟棗獼猴桃 Actinidia arguta，更不是未確認的木天蓼 Actinidia polygama。）",
+        "trade": "Livaux（Anagenix 的黃金奇異果粉商品名；統園頁亦寫利菌升）"
+      },
+      "patent": {
+        "note": "專利狀態依公司專利頁的 Granted 表。沒有自行把申請號改寫成另一個美國專利號。",
+        "refs": [
+          {
+            "note": "公司頁寫美國申請 17/345,478 於 2023-05-09 核准，並列出日本、馬來西亞、紐西蘭等已核准案。這次沒有逐件打開各國登記簿。讀取日 2026-11-20。",
+            "title": "Livaux patents and granted claims",
+            "url": "https://livaux.com/patents/"
+          }
+        ],
+        "status": "yes"
+      },
+      "sources": [
+        {
+          "accessed": "2026-11-20",
+          "channel": "industry_report",
+          "publisher": "NutraIngredients",
+          "title": "3rd-gen prebiotic? Whole fruit kiwi's benefits lie beyond fiber",
+          "url": "https://www.nutraingredients.com/Article/2026/10/05/3rd-gen-prebiotic-whole-fruit-kiwi-extracts-benefits-lie-beyond-fiber/",
+          "whatItContributes": "2026-10-05 報導 Livaux 獲得亞洲菌相調節年度原料，並寫全果、高甲氧基果膠與多酚。"
+        },
+        {
+          "accessed": "2026-11-20",
+          "channel": "supplier_site",
+          "publisher": "Livaux／Anagenix",
+          "title": "Livaux gold kiwifruit",
+          "url": "https://livaux.com/livaux-gold-kiwifruit/",
+          "whatItContributes": "紐西蘭全果粉、每日 600 mg，以及 Faecalibacterium prausnitzii 的供應商說法。"
+        },
+        {
+          "accessed": "2026-11-20",
+          "channel": "paper",
+          "publisher": "ScienceDirect",
+          "title": "ScienceDirect S2212619825000026",
+          "url": "https://www.sciencedirect.com/science/article/pii/S2212619825000026",
+          "whatItContributes": "600 mg、28 天、85 人，以及菌量相對安慰劑、症狀相對基線的摘要差別。"
+        },
+        {
+          "accessed": "2026-11-20",
+          "channel": "supplier_site",
+          "publisher": "Anagenix",
+          "title": "Anagenix distributors",
+          "url": "https://anagenix.com/our-distributors/",
+          "whatItContributes": "原廠把台灣獨家經銷寫成 Toong Yeuan，網址 tyig.com.tw。"
+        },
+        {
+          "accessed": "2026-11-20",
+          "channel": "other",
+          "publisher": "統園企業",
+          "title": "黃金奇異果粉",
+          "url": "https://www.tyig.com.tw/web/product/product_in.jsp?dm_no=DM1585834353649&pdid=PD1588129562180&sub_no=DM1588038438997",
+          "whatItContributes": "台灣頁寫利菌升、獨家代理，以及果肉凍乾、果寡糖等與原廠不完全相同的用詞。"
+        }
+      ],
+      "supply": {
+        "relationship": "taiwan_agent",
+        "relationshipNote": "2026-11-20 以 Livaux、利菌升、Anagenix、黃金奇異果粉、gold kiwifruit，搭配台灣、臺灣、Taiwan、代理、總代理、經銷、獨家檢索。Anagenix 經銷名單寫 Taiwan - Toong Yeuan Taiwan，Our exclusive distributor for Actazin、Livaux、BerriQi and Feiolix，並給 tyig.com.tw。統園黃金奇異果粉頁寫「利菌升 Livaux 是統園獨家代理品牌原料」。獨家經銷這句原廠頁與統園頁一致。統園頁另寫果肉凍乾、果寡糖，與原廠全果、高甲氧基果膠的用詞不同，不把果寡糖改成另一種已收錄的蔗果三糖。同日用「Livaux 台灣 經銷」再查，沒有第二家寫自己是這個商品的總代理。查核日 2026-11-20。",
+        "supplierCountry": "紐西蘭",
+        "supplierName": "Anagenix",
+        "taiwanPartyName": "統園企業股份有限公司（Toong Yeuan；原廠經銷名單寫台灣獨家經銷）"
+      },
+      "tfda": {
+        "evidenceNotes": "商品名 Livaux 與「黃金奇異果」在原料、添加物都是 0 筆。關鍵字「奇異果」的 3 筆是軟棗獼猴桃果實、奇異果種子萃取物，以及備註裡提到奇異果的草莓種子萃取物，都不是這支全果粉。Actinidia 還會命中未確認的木天蓼，那是另一種。",
+        "lookupDate": "2026-11-20",
+        "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+        "officialCrosscheck": {
+          "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+          "done": false,
+          "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+          "notes": "2026-11-20 連線 consumer.fda.gov.tw 在 TLS 交握出現 SSL_ERROR_SYSCALL。助手側商品名與「黃金奇異果」是 0 筆，沒有可核對的全果粉詳細頁。種子萃取物詳細頁網址是 MaterialDetail id 17363，木天蓼是 id 16040，都不是本品。"
+        },
+        "queries": [
+          {
+            "category": "",
+            "keyword": "Livaux",
+            "matchedName": "",
+            "note": "商品名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "黃金奇異果",
+            "matchedName": "",
+            "note": "中文商品描述 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "奇異果",
+            "matchedName": "軟棗獼猴桃；奇異果種子萃取物；草莓種子萃取物",
+            "note": "沒有黃金奇異果全果粉。種子萃取不是這支粉。",
+            "restrictionNote": "軟棗獼猴桃是 Actinidia arguta 果實。種子萃取物是 Actinidia chinensis 種子，警語含孩童過敏與葡萄柚汁用藥。草莓那一筆是因為共同公告的備註寫到奇異果。",
+            "resultCount": 3,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Actinidia chinensis",
+            "matchedName": "奇異果種子萃取物；草莓種子萃取物",
+            "note": "沒有果肉或全果這一列。",
+            "restrictionNote": "真正的種子列有警語。草莓列是備註文字命中。",
+            "resultCount": 2,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Actinidia",
+            "matchedName": "軟棗獼猴桃；奇異果種子萃取物；草莓種子萃取物；木天蓼",
+            "note": "未確認的是另一種。本品公司頁寫的是黃金奇異果 Gold3。",
+            "restrictionNote": "木天蓼 Actinidia polygama 在未確認分類，不得作為食品原料。",
+            "resultCount": 4,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "奇異果",
+            "matchedName": "",
+            "note": "添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Livaux",
+            "matchedName": "",
+            "note": "商品名在添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "奇異果",
+            "matchedName": "",
+            "note": "助手更新歷程（2026-11-01 至 2026-11-19）沒有這筆異動。資料時間戳 2026-11-19 06:23。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "history",
+            "unconfirmedSafety": false
+          }
+        ],
+        "usable": "not_found"
+      }
+    },
+    {
+      "discovery": {
+        "channel": "industry_report",
         "notes": "從 OmniActive EU non-novel／Vitafoods 產業稿進入 Lutemax 2020，再對原廠產品頁、Nutrition Insight 訪談與生資台灣目錄。劑量以生資 100 mg 原料對齊葉黃素 30 mg 上限。",
         "scoutDate": "2026-11-07"
       },
@@ -20063,6 +21741,206 @@ window.INGREDIENT_CATALOG = {
             "keyword": "葡萄種子",
             "matchedName": "",
             "note": "助手更新歷程（11/01–11/09）沒有異動。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "history",
+            "unconfirmedSafety": false
+          }
+        ],
+        "usable": "listed_food_ingredient"
+      }
+    },
+    {
+      "discovery": {
+        "channel": "news",
+        "notes": "從 NutraIngredients 2026-11-19 的體重管理成品盤點看到 Metabolaid，再對 Monteloeder 產品頁、2024 年 Applied Sciences 與荃新兩頁。原廠 2019 研討會頁只寫台灣夥伴，與荃新現頁的「獨家」並陳，沒有改成原廠獨家。",
+        "scoutDate": "2026-11-20"
+      },
+      "efficacy": {
+        "claimedBenefits": [
+          "NutraIngredients 2026-11-19：美國一款成品把 Metabolaid 寫成檸檬馬鞭草與洛神花萃取，用於食慾與代謝。同篇還有其他原料，那些不是這一筆。",
+          "Monteloeder 產品頁寫建議每日 500 mg，並寫支持 GLP-1、AMPK、飽足、膽固醇與血壓。這些是供應商頁的說法。頁上列了 8 項臨床與 10 篇文獻，這次沒有逐篇打開 2018 與 2019 的全文。",
+          "Applied Sciences 2024：每日 300 mg、90 天、超重成人。論文摘要寫體重約下降 3 kg（約 3.4%）、體脂百分點約下降 1.7%，膽固醇約下降 7%；血糖與血壓沒有顯著變化。文中寫沒有配合飲食限制。"
+        ],
+        "dosageNote": "500 mg 是供應商與台灣代理頁的建議量。300 mg 是 2024 年論文的每日量。平台對全草與花萼都沒有寫毫克上限。蒴果與果實那一筆不得直接當這支花萼萃取使用。",
+        "suggestedDosage": "供應商頁與荃新原料文寫每日 500 mg。ClinicalTrials NCT03568877 登記的是每天兩顆、每顆 250 mg，共 8 週。2024 年這篇打開的試驗是每日 300 mg、90 天。"
+      },
+      "evidenceLevels": [
+        "clinical"
+      ],
+      "example": false,
+      "id": "metabolaid",
+      "images": [
+        {
+          "caption": "Monteloeder 的 Metabolaid 產品頁頁首圖。",
+          "localPath": "",
+          "source": "official_site",
+          "url": "https://monteloeder.com/wp-content/uploads/2025/10/cabecera-metabolaid.png"
+        }
+      ],
+      "literature": {
+        "note": "NCT03568877 登記每日 500 mg、56 名超重者、8 週。登記頁沒有結果表，這次不把供應商對那一劑量的句子改寫成論文結果。",
+        "refs": [
+          {
+            "note": "Applied Sciences。2024。每日 300 mg Metabolaid，檸檬馬鞭草葉萃取（毛蕊花苷至少 25%）與洛神花花萼萃取（花青素 10%），90 天。",
+            "title": "Effectiveness of a Polyphenol-Enriched Blend on Weight Management and Metabolic Syndrome-Related Parameters in Healthy Overweight Adults",
+            "url": "https://doi.org/10.3390/app14093882"
+          }
+        ],
+        "status": "yes"
+      },
+      "names": {
+        "commonEn": "lemon verbena leaf and hibiscus calyx extracts",
+        "commonZh": "檸檬馬鞭草葉與洛神花花萼萃取複方",
+        "scientific": "Aloysia triphylla（平台亦列 Lippia citriodora；論文寫葉，標準化毛蕊花苷至少 25%）。搭配 Hibiscus sabdariffa 花萼萃取（2024 年論文寫花青素 10%）。2025 年一篇成分分析把兩者寫成洛神 35、檸檬馬鞭草 65 的重量比。不是洛神的蒴果或果實。",
+        "trade": "Metabolaid（Monteloeder 的檸檬馬鞭草與洛神花複方商品名；頁上亦寫 MetabolAid）"
+      },
+      "patent": {
+        "note": "供應商頁與荃新頁都寫有西班牙功效專利。公開編號目前只看到這篇論文裡的 P201731147，所以不另填未核對的號碼。",
+        "refs": [
+          {
+            "note": "這篇把 Metabolaid 寫成 Patent P201731147，並寫洛神花萼與檸檬馬鞭草葉、重量比 35:65。這次沒有打開西班牙專利登記簿核對法律狀態。讀取日 2026-11-20。",
+            "title": "Processes 2025 論文所記 Patent P201731147",
+            "url": "https://www.mdpi.com/2227-9717/13/8/2405"
+          }
+        ],
+        "status": "yes"
+      },
+      "sources": [
+        {
+          "accessed": "2026-11-20",
+          "channel": "news",
+          "publisher": "NutraIngredients",
+          "title": "Weight-loss companion supplements target satiety, spikes and side effects",
+          "url": "https://www.nutraingredients.com/Article/2026/11/19/weight-loss-companion-supplements-target-satiety-spikes-and-side-effects/",
+          "whatItContributes": "2026-11-19 成品盤點把 Metabolaid 寫成檸檬馬鞭草與洛神花萃取。"
+        },
+        {
+          "accessed": "2026-11-20",
+          "channel": "supplier_site",
+          "publisher": "Monteloeder",
+          "title": "Metabolaid",
+          "url": "https://monteloeder.com/branded-ingredients/metabolaid-2/",
+          "whatItContributes": "商品名、每日 500 mg，以及 GLP-1 與 AMPK 的供應商說法。"
+        },
+        {
+          "accessed": "2026-11-20",
+          "channel": "paper",
+          "publisher": "MDPI",
+          "title": "Applied Sciences 2024, 14, 3882",
+          "url": "https://doi.org/10.3390/app14093882",
+          "whatItContributes": "葉與花萼、300 mg、90 天，以及體重、體脂、膽固醇與血糖血壓的論文摘要。"
+        },
+        {
+          "accessed": "2026-11-20",
+          "channel": "other",
+          "publisher": "台灣荃新",
+          "title": "metabolaid 專利複合植物萃取",
+          "url": "https://newin.com.tw/materials/1782/",
+          "whatItContributes": "台灣原料頁寫檸檬馬鞭草萃取及洛神花萃取、產地西班牙。"
+        },
+        {
+          "accessed": "2026-11-20",
+          "channel": "other",
+          "publisher": "台灣荃新",
+          "title": "GLP-1保健原料 Metabolaid",
+          "url": "https://newin.com.tw/post/5449/",
+          "whatItContributes": "荃新自述獨家代理，並寫建議劑量 500 mg/天。獨家沒有升成原廠用詞。"
+        }
+      ],
+      "supply": {
+        "relationship": "taiwan_agent",
+        "relationshipNote": "2026-11-20 以 Metabolaid、MetabolAid、Monteloeder、檸檬馬鞭草、洛神花、hibiscus lemon verbena，搭配台灣、臺灣、Taiwan、代理、總代理、經銷檢索。打開荃新原料頁與 2025 年前後的原料文，文中寫「台灣荃新獨家代理」Monteloeder 的 Metabolaid，規格寫檸檬馬鞭草萃取及洛神花萃取、產地西班牙、建議劑量 500 mg/天。Monteloeder 2019-10-21 的研討會頁寫 our partner in Taiwan, Newin，沒有寫 exclusive。獨家是荃新自述，不升成原廠證實的獨家。同日再用「Monteloeder 台灣 經銷」複查，仍是荃新這條，沒有第二家寫自己是總代理。查核日 2026-11-20。",
+        "supplierCountry": "西班牙",
+        "supplierName": "Monteloeder",
+        "taiwanPartyName": "台灣荃新股份有限公司（荃新頁自述獨家代理；原廠 2019 頁只寫台灣夥伴）"
+      },
+      "tfda": {
+        "evidenceNotes": "商品名 Metabolaid 在原料與添加物都是 0 筆。檸檬馬鞭草全草（id 16655）列在可供茶包、調理包或萃取，備註空白。洛神花花萼（id 16935）列為可直接食用，備註也空白；同名 Hibiscus sabdariffa 的蒴果與果實是另一筆未確認，不是這個花萼萃取。兩筆都沒有每日毫克。",
+        "lookupDate": "2026-11-20",
+        "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+        "officialCrosscheck": {
+          "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+          "done": true,
+          "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+          "notes": "2026-11-20 連線 consumer.fda.gov.tw 在 TLS 交握出現 SSL_ERROR_SYSCALL，沒有取得官方詳細頁。檸檬馬鞭草詳細頁網址是 MaterialDetail id 16655，洛神花花萼是 id 16935，未確認的蒴果與果實是 id 16179。備註與分類與助手一致。siteTotals 原料 1709、添加物 804。"
+        },
+        "queries": [
+          {
+            "category": "",
+            "keyword": "檸檬馬鞭草",
+            "matchedName": "檸檬馬鞭草",
+            "note": "論文寫的是葉。全草包含葉，平台沒有把葉另列成未確認。",
+            "restrictionNote": "Aloysia triphylla、Lippia citriodora。部位全草。次分類是供茶包、膳食調理包或萃取。備註空白。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "洛神花",
+            "matchedName": "洛神花；洛神葵",
+            "note": "這個關鍵字沒有帶出蒴果那一筆。",
+            "restrictionNote": "Hibiscus sabdariffa。部位花萼。可直接食用。備註空白。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Hibiscus sabdariffa",
+            "matchedName": "洛神花；洛神葵（花萼）；洛神葵（蒴果、果實）",
+            "note": "未確認的是蒴果與果實。2024 年論文寫本品用花萼萃取。",
+            "restrictionNote": "花萼可直接食用。蒴果與果實在未確認分類，備註是非傳統性食品原料，須另案申請。",
+            "resultCount": 2,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Metabolaid",
+            "matchedName": "",
+            "note": "商品名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "檸檬馬鞭草",
+            "matchedName": "",
+            "note": "添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "洛神",
+            "matchedName": "",
+            "note": "添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Metabolaid",
+            "matchedName": "",
+            "note": "商品名在添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "檸檬馬鞭草",
+            "matchedName": "",
+            "note": "助手更新歷程（2026-11-01 至 2026-11-19）沒有這兩種植物的異動。資料時間戳 2026-11-19 06:23。",
             "restrictionNote": "",
             "resultCount": 0,
             "tab": "history",

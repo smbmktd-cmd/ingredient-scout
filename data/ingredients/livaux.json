@@ -1,0 +1,200 @@
+{
+  "id": "livaux",
+  "example": false,
+  "names": {
+    "commonZh": "黃金奇異果粉",
+    "commonEn": "gold kiwifruit powder",
+    "trade": "Livaux（Anagenix 的黃金奇異果粉商品名；統園頁亦寫利菌升）",
+    "scientific": "Actinidia chinensis（紐西蘭黃金奇異果，公司專利頁寫 Gold3 乾燥果。原廠與 2026-10-05 報導寫全果。統園產品頁寫果肉凍乾。兩處部位用詞不同，都留下。不是平台上的奇異果種子萃取物，也不是軟棗獼猴桃 Actinidia arguta，更不是未確認的木天蓼 Actinidia polygama。）"
+  },
+  "supply": {
+    "supplierName": "Anagenix",
+    "supplierCountry": "紐西蘭",
+    "relationship": "taiwan_agent",
+    "taiwanPartyName": "統園企業股份有限公司（Toong Yeuan；原廠經銷名單寫台灣獨家經銷）",
+    "relationshipNote": "2026-11-20 以 Livaux、利菌升、Anagenix、黃金奇異果粉、gold kiwifruit，搭配台灣、臺灣、Taiwan、代理、總代理、經銷、獨家檢索。Anagenix 經銷名單寫 Taiwan - Toong Yeuan Taiwan，Our exclusive distributor for Actazin、Livaux、BerriQi and Feiolix，並給 tyig.com.tw。統園黃金奇異果粉頁寫「利菌升 Livaux 是統園獨家代理品牌原料」。獨家經銷這句原廠頁與統園頁一致。統園頁另寫果肉凍乾、果寡糖，與原廠全果、高甲氧基果膠的用詞不同，不把果寡糖改成另一種已收錄的蔗果三糖。同日用「Livaux 台灣 經銷」再查，沒有第二家寫自己是這個商品的總代理。查核日 2026-11-20。"
+  },
+  "tfda": {
+    "usable": "not_found",
+    "evidenceNotes": "商品名 Livaux 與「黃金奇異果」在原料、添加物都是 0 筆。關鍵字「奇異果」的 3 筆是軟棗獼猴桃果實、奇異果種子萃取物，以及備註裡提到奇異果的草莓種子萃取物，都不是這支全果粉。Actinidia 還會命中未確認的木天蓼，那是另一種。",
+    "lookupDate": "2026-11-20",
+    "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+    "queries": [
+      {
+        "tab": "ingredient",
+        "keyword": "Livaux",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名 0 筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "黃金奇異果",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "中文商品描述 0 筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "奇異果",
+        "category": "",
+        "resultCount": 3,
+        "matchedName": "軟棗獼猴桃；奇異果種子萃取物；草莓種子萃取物",
+        "restrictionNote": "軟棗獼猴桃是 Actinidia arguta 果實。種子萃取物是 Actinidia chinensis 種子，警語含孩童過敏與葡萄柚汁用藥。草莓那一筆是因為共同公告的備註寫到奇異果。",
+        "unconfirmedSafety": false,
+        "note": "沒有黃金奇異果全果粉。種子萃取不是這支粉。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Actinidia chinensis",
+        "category": "",
+        "resultCount": 2,
+        "matchedName": "奇異果種子萃取物；草莓種子萃取物",
+        "restrictionNote": "真正的種子列有警語。草莓列是備註文字命中。",
+        "unconfirmedSafety": false,
+        "note": "沒有果肉或全果這一列。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Actinidia",
+        "category": "",
+        "resultCount": 4,
+        "matchedName": "軟棗獼猴桃；奇異果種子萃取物；草莓種子萃取物；木天蓼",
+        "restrictionNote": "木天蓼 Actinidia polygama 在未確認分類，不得作為食品原料。",
+        "unconfirmedSafety": false,
+        "note": "未確認的是另一種。本品公司頁寫的是黃金奇異果 Gold3。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "奇異果",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "添加物 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "Livaux",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名在添加物 0 筆。"
+      },
+      {
+        "tab": "history",
+        "keyword": "奇異果",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "助手更新歷程（2026-11-01 至 2026-11-19）沒有這筆異動。資料時間戳 2026-11-19 06:23。"
+      }
+    ],
+    "officialCrosscheck": {
+      "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+      "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+      "done": false,
+      "notes": "2026-11-20 連線 consumer.fda.gov.tw 在 TLS 交握出現 SSL_ERROR_SYSCALL。助手側商品名與「黃金奇異果」是 0 筆，沒有可核對的全果粉詳細頁。種子萃取物詳細頁網址是 MaterialDetail id 17363，木天蓼是 id 16040，都不是本品。"
+    }
+  },
+  "efficacy": {
+    "claimedBenefits": [
+      "NutraIngredients 2026-10-05：Livaux 獲 2026 NutraIngredients-Asia 菌相調節年度原料。報導寫它是非基改紐西蘭黃金奇異果全果粉，含纖維、果膠、多酚與高甲氧基果膠，並把定位寫成第三代益生元。文中的酚類種類數是公司自己的比較測試，不是這次打開的人體試驗終點。",
+      "2025 年隨機雙盲對照試驗摘要：85 人、每日 600 mg Livaux 或纖維素安慰劑、28 天。Livaux 組糞便 Faecalibacterium prausnitzii 相對量上升，安慰劑組沒有。完全自發性排便、自發性排便、布里斯托分數與便秘症狀是相對基線改善。摘要沒有把每一項症狀都寫成相對安慰劑顯著。",
+      "Anagenix 經銷說明與統園頁都寫每日 600 mg。統園另寫「相當於兩顆新鮮黃金奇異果」，這是統園頁的句子，這次沒有對到秤重換算。"
+    ],
+    "suggestedDosage": "打開的 28 天試驗與統園頁都是每日 600 mg。公司菌相頁把專利請求項的劑量區間寫成每日 250–4000 mg，其中包含約 600 mg。",
+    "dosageNote": "600 mg 是這篇試驗、原廠低劑量說法與台灣代理頁的每日量，不是法規上限。平台沒有黃金奇異果全果粉的列名。種子萃取物是另一筆，警語不能直接套到這支粉，也不能拿來當成已列名。"
+  },
+  "patent": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "Livaux patents and granted claims",
+        "url": "https://livaux.com/patents/",
+        "note": "公司頁寫美國申請 17/345,478 於 2023-05-09 核准，並列出日本、馬來西亞、紐西蘭等已核准案。這次沒有逐件打開各國登記簿。讀取日 2026-11-20。"
+      }
+    ],
+    "note": "專利狀態依公司專利頁的 Granted 表。沒有自行把申請號改寫成另一個美國專利號。"
+  },
+  "literature": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "Livaux gold kiwifruit powder consumption at 600 mg per day for 28 days increases Faecalibacterium prausnitzii numbers",
+        "url": "https://www.sciencedirect.com/science/article/pii/S2212619825000026",
+        "note": "隨機、雙盲、安慰劑、平行。85 人、28 天、600 mg 對纖維素。登記 NCT03462199。這次讀的是摘要。"
+      }
+    ],
+    "note": "症狀改善在摘要裡是相對基線。公司頁還提到較早的每日 2400 mg 研究，這次沒有打開那一篇，不另標。"
+  },
+  "evidenceLevels": [
+    "clinical"
+  ],
+  "images": [
+    {
+      "url": "https://livaux.com/wp-content/uploads/2026/04/Livaux-Website2-1-copy.webp",
+      "localPath": "",
+      "caption": "Livaux 官網首頁主視覺。",
+      "source": "official_site"
+    }
+  ],
+  "sources": [
+    {
+      "title": "3rd-gen prebiotic? Whole fruit kiwi's benefits lie beyond fiber",
+      "url": "https://www.nutraingredients.com/Article/2026/10/05/3rd-gen-prebiotic-whole-fruit-kiwi-extracts-benefits-lie-beyond-fiber/",
+      "publisher": "NutraIngredients",
+      "channel": "industry_report",
+      "accessed": "2026-11-20",
+      "whatItContributes": "2026-10-05 報導 Livaux 獲得亞洲菌相調節年度原料，並寫全果、高甲氧基果膠與多酚。"
+    },
+    {
+      "title": "Livaux gold kiwifruit",
+      "url": "https://livaux.com/livaux-gold-kiwifruit/",
+      "publisher": "Livaux／Anagenix",
+      "channel": "supplier_site",
+      "accessed": "2026-11-20",
+      "whatItContributes": "紐西蘭全果粉、每日 600 mg，以及 Faecalibacterium prausnitzii 的供應商說法。"
+    },
+    {
+      "title": "ScienceDirect S2212619825000026",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2212619825000026",
+      "publisher": "ScienceDirect",
+      "channel": "paper",
+      "accessed": "2026-11-20",
+      "whatItContributes": "600 mg、28 天、85 人，以及菌量相對安慰劑、症狀相對基線的摘要差別。"
+    },
+    {
+      "title": "Anagenix distributors",
+      "url": "https://anagenix.com/our-distributors/",
+      "publisher": "Anagenix",
+      "channel": "supplier_site",
+      "accessed": "2026-11-20",
+      "whatItContributes": "原廠把台灣獨家經銷寫成 Toong Yeuan，網址 tyig.com.tw。"
+    },
+    {
+      "title": "黃金奇異果粉",
+      "url": "https://www.tyig.com.tw/web/product/product_in.jsp?dm_no=DM1585834353649&pdid=PD1588129562180&sub_no=DM1588038438997",
+      "publisher": "統園企業",
+      "channel": "other",
+      "accessed": "2026-11-20",
+      "whatItContributes": "台灣頁寫利菌升、獨家代理，以及果肉凍乾、果寡糖等與原廠不完全相同的用詞。"
+    }
+  ],
+  "discovery": {
+    "channel": "industry_report",
+    "scoutDate": "2026-11-20",
+    "notes": "從 NutraIngredients 2026-10-05 的第三代益生元報導進入 Livaux 官網、28 天試驗摘要、公司專利頁與 Anagenix 經銷名單，再打開統園產品頁核對獨家與用詞差異。種子萃取物與木天蓼沒有拿來當成這支全果粉的列名。"
+  }
+}

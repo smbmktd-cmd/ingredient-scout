@@ -1,0 +1,182 @@
+{
+  "id": "amarasate",
+  "example": false,
+  "names": {
+    "commonZh": "啤酒花花球果苦味萃取",
+    "commonEn": "bitter hop cone extract",
+    "trade": "Amarasate（Plant & Food Research 的啤酒花萃取商品名；成品品牌為 Calocurb）",
+    "scientific": "Humulus lupulus（花，啤酒花球果。Calocurb 說明頁寫超臨界二氧化碳萃取，並寫幾乎去掉有鎮靜作用的 prenylflavonoids。不是葉。平台另有 Humulus americanus，與這一筆花列在同一列。）"
+  },
+  "supply": {
+    "supplierName": "Plant & Food Research（萃取開發）／Calocurb（Amarasate 的被授權商品化方）",
+    "supplierCountry": "紐西蘭",
+    "relationship": "unknown",
+    "taiwanPartyName": "本次查無台灣關聯廠商",
+    "relationshipNote": "2026-11-20 分別以 Amarasate、Calocurb、Amarasate 啤酒花、hop extract、啤酒花萃取，搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索，並看 Calocurb 官網、KiwiNet 商業化頁與 Ubuy 台灣網址。Calocurb 以紐西蘭與美國直售為主。Ubuy 的 .tw 頁寫 Imported from USA store、由美國店出貨，是跨境代購，不是台灣原料代理。LOLU 頁是紐西蘭公司。沒有打開寫明 Amarasate 或 Calocurb 原料代理的台灣廠商產品頁。同日用另一組「啤酒花 食慾 台灣 原料」再查，仍沒有這個商品名。查核日 2026-11-20。"
+  },
+  "tfda": {
+    "usable": "listed_food_ingredient",
+    "evidenceNotes": "「啤酒花」「蛇麻」「Humulus lupulus」在原料各 2 筆：花（詳細頁 id 16938）列為可直接食用，備註空白，沒有每日毫克；葉（id 16404）寫未經確認安全性前不得作為食品原料，不是這個花球果萃取。商品名 Amarasate 在原料與添加物都是 0 筆。花這一筆沒有另列超臨界苦味酸萃取，列名不等於試驗用的毫克已經核准。",
+    "lookupDate": "2026-11-20",
+    "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+    "queries": [
+      {
+        "tab": "ingredient",
+        "keyword": "啤酒花",
+        "category": "",
+        "resultCount": 2,
+        "matchedName": "啤酒花；忽布；蛇麻草",
+        "restrictionNote": "花：Humulus lupulus L. 與 Humulus americanus，可直接食用，備註空白。葉：Humulus lupulus L.，未經確認安全性前不得作為食品原料。",
+        "unconfirmedSafety": false,
+        "note": "未確認的是葉。本品說明寫的是花球果萃取。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Humulus lupulus",
+        "category": "",
+        "resultCount": 2,
+        "matchedName": "啤酒花；忽布；蛇麻草",
+        "restrictionNote": "與「啤酒花」相同的兩筆，花可直接食用，葉不得作為食品原料。",
+        "unconfirmedSafety": false,
+        "note": "學名同時命中花與葉。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Amarasate",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "啤酒花",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "添加物 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "Humulus",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "添加物 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "Amarasate",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名在添加物 0 筆。"
+      },
+      {
+        "tab": "history",
+        "keyword": "啤酒花",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "助手更新歷程（2026-11-01 至 2026-11-19）沒有這筆異動。資料時間戳 2026-11-19 06:23。"
+      }
+    ],
+    "officialCrosscheck": {
+      "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+      "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+      "done": true,
+      "notes": "2026-11-20 連線 consumer.fda.gov.tw 在 TLS 交握出現 SSL_ERROR_SYSCALL，沒有取得官方詳細頁。花的助手詳細頁網址是 MaterialDetail id 16938，葉是 id 16404。花備註空白、葉寫不得作為食品原料，與助手一致。siteTotals 原料 1709、添加物 804。"
+    }
+  },
+  "efficacy": {
+    "claimedBenefits": [
+      "NutraIngredients 2026-11-09：Calocurb 以 Amarasate 苦味啤酒花萃取進入英國市場，定位在食慾控制。報導沒有寫新的毫克或新試驗數字。",
+      "Obesity Pillars 2024（PMC11279280）：30 名健康女性、24 小時只喝水的禁食、隨機雙盲交叉。高劑量全程 500 mg、低劑量全程 250 mg，各分兩次，在禁食第 16 與第 20 小時給。相對安慰劑，食慾與對食物的渴望下降。禁食結束後的自由進食，高劑量少 14.3%（p < 0.05），低劑量少 8.1%（未達顯著）。高劑量有兩人腹瀉、一人胃灼熱，低劑量有一人腹瀉。",
+      "Calocurb 說明頁寫萃取刺激腸道苦味受體、帶出 GLP-1、CCK 與 PYY。這是供應商頁的機制句子。同一頁寫膠囊為延遲釋放，並寫超臨界二氧化碳萃取。"
+    ],
+    "suggestedDosage": "女性禁食試驗是全程 250 mg 或 500 mg（各分兩次，每次 125 mg 或 250 mg）。Calocurb 官網寫 125 mg 膠囊，建議逐步到一天兩次、每次兩顆，最多一天四顆。",
+    "dosageNote": "250 mg 與 500 mg 是這篇禁食試驗的全程萃取量，不是法規上限。花的列名沒有毫克。葉那一筆不得作為食品原料，不是這個花球果規格。官網最多四顆等於 500 mg，與試驗高劑量同一數字，仍不是平台上的限量。"
+  },
+  "patent": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "WO2019158983A1 Oral dosage forms comprising a hops extract",
+        "url": "https://patents.google.com/patent/WO2019158983A1/en",
+        "note": "原申請人 New Zealand Institute for Plant and Food Research。請求項含未異變化的啤酒花酸、延遲釋放口服劑型，以及降低食慾。同族美國案寫成 US11801225B2，後續案 US12246095B2。讀取日 2026-11-20。"
+      }
+    ],
+    "note": "這件是啤酒花萃取的口服劑型。沒有把膠囊殼供應商自己的膠囊專利算進來。"
+  },
+  "literature": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "Gastrointestinal delivery of bitter hop extract reduces appetite and food cravings in healthy adult women undergoing acute fasting",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11279280/",
+        "note": "Obesity Pillars。2024。PMC11279280。30 名女性、24 小時禁食、交叉。Amarasate 花萃取，超臨界二氧化碳。高劑量全程 500 mg、低劑量 250 mg。"
+      }
+    ],
+    "note": "這篇是正常體重女性的急性禁食，不是減重療程。論文提到先前有男性試驗，這次沒有打開那一篇，不另標數字。"
+  },
+  "evidenceLevels": [
+    "clinical"
+  ],
+  "images": [
+    {
+      "url": "https://www.calocurb.com/cdn/shop/files/Bottle_US_2_db473225-44a8-4323-9ee1-fdc9277ef9f8.png",
+      "localPath": "",
+      "caption": "Calocurb 官網的成品瓶圖。頁上寫活性成分是 Amarasate。",
+      "source": "official_site"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Across the Nutraverse: Calocurb in the UK",
+      "url": "https://www.nutraingredients.com/Article/2026/11/09/this-weeks-nutraverse-hbs-2027-key-trends-novos-science-cdmos-in-poland-and-calocurb-expands/",
+      "publisher": "NutraIngredients",
+      "channel": "news",
+      "accessed": "2026-11-20",
+      "whatItContributes": "2026-11-09 報導 Calocurb 以 Amarasate 苦味啤酒花萃取進入英國，定位食慾控制。"
+    },
+    {
+      "title": "Calocurb science",
+      "url": "https://www.calocurb.com/pages/science",
+      "publisher": "Calocurb",
+      "channel": "supplier_site",
+      "accessed": "2026-11-20",
+      "whatItContributes": "花萃取、超臨界二氧化碳、延遲釋放膠囊，以及 GLP-1、CCK、PYY 的供應商說法。"
+    },
+    {
+      "title": "PMC11279280",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11279280/",
+      "publisher": "PubMed Central",
+      "channel": "paper",
+      "accessed": "2026-11-20",
+      "whatItContributes": "女性禁食試驗的劑量、14.3% 與 8.1% 的進食差，以及不適紀錄。"
+    },
+    {
+      "title": "WO2019158983A1",
+      "url": "https://patents.google.com/patent/WO2019158983A1/en",
+      "publisher": "Google Patents",
+      "channel": "patent",
+      "accessed": "2026-11-20",
+      "whatItContributes": "Plant & Food Research 的啤酒花萃取口服劑型專利族。"
+    }
+  ],
+  "discovery": {
+    "channel": "news",
+    "scoutDate": "2026-11-20",
+    "notes": "從 NutraIngredients 2026-11-09 的 Calocurb 英國市場簡訊進入，再對 Calocurb 說明頁、PMC11279280 與 WO2019158983A1。台灣關聯另看了 Ubuy 台灣網址與紐西蘭 LOLU，確認不是本地原料代理。"
+  }
+}

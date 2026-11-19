@@ -1,0 +1,158 @@
+{
+  "id": "calzbone",
+  "example": false,
+  "names": {
+    "commonZh": "四棱白粉藤萃取物",
+    "commonEn": "veldt grape extract",
+    "trade": "Calzbone（Verdure Sciences 的四棱白粉藤萃取商品名）",
+    "scientific": "Cissus quadrangularis（供應商頁寫萃取，沒有另寫部位。平台這一筆的部位是藤莖。不是爬牆虎 Parthenocissus tricuspidata。）"
+  },
+  "supply": {
+    "supplierName": "Verdure Sciences",
+    "supplierCountry": "美國",
+    "relationship": "unknown",
+    "taiwanPartyName": "本次查無台灣關聯廠商",
+    "relationshipNote": "2026-11-20 以 Calzbone、Verdure、Verdure Sciences、Cissus quadrangularis、四棱白粉藤、方莖青紫葛，搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索，並打開 Verdure 的 Calzbone 聯絡頁。沒有台灣公司頁寫 Calzbone 或 Verdure 的代理。同化合物的其他商品有看到：創百頁的 CISSUS／CQR-300 寫美國 GHA 授權，和司特頁的 Veldt Grape Extract 沒有寫 Calzbone，若亞方舟賣的是印度植物固醇皂苷 3% 萃取。這些不是這個商品名，不記成 Calzbone 的代理。同日用「Calzbone 台灣」再查一次，仍沒有這個牌子。查核日 2026-11-20。"
+  },
+  "tfda": {
+    "usable": "listed_food_ingredient",
+    "evidenceNotes": "商品名 Calzbone 是 0 筆。四棱白粉藤藤莖（id 17040）列為可直接食用，每日食用限量 300 毫克，並應標示孕婦、幼兒與生長發育期青少年不宜使用。關鍵字 Cissus 另外命中爬牆虎，學名不是本品。添加物是 0 筆。",
+    "lookupDate": "2026-11-20",
+    "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+    "queries": [
+      {
+        "tab": "ingredient",
+        "keyword": "四棱白粉藤",
+        "category": "",
+        "resultCount": 1,
+        "matchedName": "四棱白粉藤；方莖青紫葛；翡翠閣；碧水角",
+        "restrictionNote": "Cissus quadrangularis。部位藤莖。每日食用限量三百毫克。警語：孕婦、幼兒與生長發育期之青少年不宜使用。",
+        "unconfirmedSafety": false,
+        "note": "公告文號寫衛生福利部 108 年 10 月 18 日衛授食字第 1081302650 號。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Cissus quadrangularis",
+        "category": "",
+        "resultCount": 1,
+        "matchedName": "四棱白粉藤；方莖青紫葛；翡翠閣；碧水角",
+        "restrictionNote": "與中文名同一筆。每日 300 毫克，並有孕婦、幼兒與青少年警語。",
+        "unconfirmedSafety": false,
+        "note": "學名全名只命中這一筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Cissus",
+        "category": "",
+        "resultCount": 2,
+        "matchedName": "四棱白粉藤；紅骨蛇；爬牆虎",
+        "restrictionNote": "第二筆是 Parthenocissus tricuspidata 的根、莖，不是四棱白粉藤。",
+        "unconfirmedSafety": false,
+        "note": "短學名會多中爬牆虎。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Calzbone",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "四棱白粉藤",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "添加物 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "Cissus",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "添加物 0 筆。"
+      },
+      {
+        "tab": "history",
+        "keyword": "四棱白粉藤",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "助手更新歷程（2026-11-01 至 2026-11-19）沒有這筆異動。資料時間戳 2026-11-19 06:23。"
+      }
+    ],
+    "officialCrosscheck": {
+      "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+      "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+      "done": true,
+      "notes": "2026-11-20 連線 consumer.fda.gov.tw 在 TLS 交握出現 SSL_ERROR_SYSCALL，沒有取得官方詳細頁。藤莖詳細頁網址是 MaterialDetail id 17040。每日 300 毫克與警語和助手一致。siteTotals 原料 1709、添加物 804。"
+    }
+  },
+  "efficacy": {
+    "claimedBenefits": [
+      "Verdure 植物萃取頁把 Calzbone 寫成支持骨骼的專屬四棱白粉藤萃取，建議每日 250–750 mg。這是供應商頁的劑量區間。",
+      "SupplySide Global 2026 展商頁把 Calzbone 列在 Verdure 攤位 5724 的品牌名單，括號寫 cissus。頁上沒有毫克。"
+    ],
+    "suggestedDosage": "Verdure 植物萃取頁寫每日 250–750 mg。",
+    "dosageNote": "250 mg 落在平台每日 300 毫克以內，750 mg 超過藤莖的每日限量。供應商頁沒有寫這是台灣限量。舊的貿易報導提過一天三次、每次 250 mg 的骨密度試驗，這次沒有打開期刊全文，不引用百分比。卡片上的專利「有」是指美國申請 US20050048141A1，Google Patents 狀態為 Abandoned，不是仍有效的核准專利。"
+  },
+  "patent": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "US20050048141A1 Use of the plant Cissus quadrangularis or its extracts for osteo-health",
+        "url": "https://patents.google.com/patent/US20050048141A1/en",
+        "note": "受讓人欄寫到 Verdure Sciences。Google Patents 法律狀態是 Abandoned。讀取日 2026-11-20。沒有把其他公司的 Cissus 專利算成本品。"
+      }
+    ],
+    "note": "查到的是已放棄的美國申請。沒有找到仍有效、且申請人是 Verdure 的核准專利，所以不把別家的 CQR-300 專利號寫進來。"
+  },
+  "literature": {
+    "status": "unknown",
+    "refs": [],
+    "note": "貿易媒體轉述過 26 週、每日三次 250 mg 的骨密度試驗，期刊名寫 The Antiseptic。這次沒有打開全文，也不把公司轉述的百分比標成已核對的臨床結果，所以文獻狀態維持未知。"
+  },
+  "evidenceLevels": [],
+  "images": [],
+  "sources": [
+    {
+      "title": "Verdure Sciences exhibitor listing, SupplySide Global 2026",
+      "url": "https://exhibitor.supplysideglobal.com/supplysideglobal26/Public/eBooth.aspx?BoothID=153436&FromPage=Exhibitors.aspx&IndexInList=1201&ListByBooth=true&Nav=False&ParentBoothID=",
+      "publisher": "SupplySide Global",
+      "channel": "exhibition",
+      "accessed": "2026-11-20",
+      "whatItContributes": "攤位 5724 的品牌名單寫 Calzbone（cissus）。"
+    },
+    {
+      "title": "Botanical Extracts",
+      "url": "https://vs-corp.com/botanicals/",
+      "publisher": "Verdure Sciences",
+      "channel": "supplier_site",
+      "accessed": "2026-11-20",
+      "whatItContributes": "商品名、骨骼用途的供應商說法，以及每日 250–750 mg。"
+    },
+    {
+      "title": "US20050048141A1",
+      "url": "https://patents.google.com/patent/US20050048141A1/en",
+      "publisher": "Google Patents",
+      "channel": "patent",
+      "accessed": "2026-11-20",
+      "whatItContributes": "Verdure 名下的四棱白粉藤骨骼申請，狀態 Abandoned。"
+    }
+  ],
+  "discovery": {
+    "channel": "exhibition",
+    "scoutDate": "2026-11-20",
+    "notes": "從 SupplySide Global 2026 的 Verdure 攤位 5724 名單看到 Calzbone，再對 vs-corp.com 的劑量與 US20050048141A1。台灣頁上的 CISSUS／CQR-300、和司特與若亞方舟是別的四棱白粉藤商品，沒有併進這個牌子。專利申請已放棄，這點寫在劑量註記，避免卡片上的「有」被讀成仍有效。"
+  }
+}

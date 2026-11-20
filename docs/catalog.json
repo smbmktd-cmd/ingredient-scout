@@ -6,6 +6,1002 @@
         "exhibition",
         "industry_report"
       ],
+      "date": "2026-11-21",
+      "example": false,
+      "notes": "正式五筆。主管道：ReDaxin、TruBeet 為新聞；EpiCor、VitaliG 為展覽；MonaJuventa Nu 為產業報導。未收未確認安全性項目：蟬花（Cordyceps cicadae）、水飛薊、銀杏葉、神經醯胺、肌肽、葡萄糖胺硫酸鹽、富含生育三烯酚之棕櫚油萃取物、糙蘇與韓國當歸（EstroG-100 的成分）、虎乳靈芝。南甜菜樹未確認，但不是 TruBeet 的甜菜根。",
+      "picks": [
+        {
+          "discovery": {
+            "channel": "news",
+            "notes": "從 NutraIngredients 2026-11-10 的 RedLeaf 市場報導進入公司產品頁、2025-09-22 的試驗報導與 US20250064094A1。甜高粱糖漿沒有拿來當成這支萃取的列名。",
+            "scoutDate": "2026-11-21"
+          },
+          "efficacy": {
+            "claimedBenefits": [
+              "NutraIngredients 2026-11-10：RedLeaf 準備放大 ReDaxin 產能，並把後續人體試驗的方向寫成氧化壓力、發炎與恢復。同一篇寫 2025 年第一篇人體研究已發表，主題是運動後肌力恢復。健康老化與寵物是公司正在看的市場，不是這篇已完成的人體終點。",
+              "公司產品頁寫萃取物多酚高於 20%，並寫每日 250 mg 與 500 mg。頁上的摘要是肌力恢復最多約 5 倍、恢復期痠痛最多約降 27%。",
+              "2025-09-22 對同一篇試驗的報導寫：29 名健康男性、每日 250 mg 或 500 mg、約 17–18 天。兩劑量的肌力恢復都快於安慰劑；腫脹、自覺疼痛或恢復感與安慰劑沒有差別。公司頁的痠痛降幅與這段「沒有差別」並存，不把其中一句改掉。"
+            ],
+            "dosageNote": "這是供應商頁與該試驗的每日量，不是平台上限。平台沒有這支萃取的列名。甜高粱糖漿是另一筆，不能拿來當成已列名。",
+            "suggestedDosage": "公司頁與 2025 年那篇試驗寫每日 250 mg 或 500 mg。"
+          },
+          "evidenceLevels": [
+            "clinical"
+          ],
+          "example": false,
+          "id": "redaxin",
+          "images": [
+            {
+              "caption": "RedLeaf ReDaxin 產品頁使用的圖片。",
+              "localPath": "",
+              "source": "official_site",
+              "url": "https://redleafbiologics.com/wp-content/uploads/2025/07/plant-cell-1.jpg"
+            }
+          ],
+          "literature": {
+            "note": "肌力恢復與痠痛結論以報導裡對論文的兩句話分開記。公司頁的 5 倍與 27% 沒有在這次打開的全文裡核對。",
+            "refs": [
+              {
+                "note": "Journal of Strength and Conditioning Research，2025。DOI 與 29 人、250 mg、500 mg 的設計來自 2025-09-22 報導。這次沒有打開期刊全文。",
+                "title": "Polyphenol-Rich Sorghum Bicolor Extract Enhances Strength Recovery After Eccentric Exercise",
+                "url": "https://doi.org/10.1519/JSC.0000000000005144"
+              }
+            ],
+            "status": "yes"
+          },
+          "names": {
+            "commonEn": "red sorghum extract",
+            "commonZh": "紅高粱萃取（多酚）",
+            "scientific": "Sorghum bicolor（2025-09-22 報導標題寫葉萃取。2026-11-10 報導寫非基改紅高粱品種的專有萃取，沒有再寫葉。不是平台上的甜高粱糖漿，那個部位是莖桿。）",
+            "trade": "ReDaxin（RedLeaf Biologics 的紅高粱萃取商品名）"
+          },
+          "patent": {
+            "note": "有公開申請。沒有把申請公開號寫成已核准的專利號。",
+            "refs": [
+              {
+                "note": "Justia 將同一公開號標成申請，申請人 RedLeaf Biologics，申請日 2023-02-02，公開日 2025-02-27。這次沒有打開美國登記簿確認是否已核准。讀取日 2026-11-21。",
+                "title": "US20250064094A1 Compositions for food coloring and antioxidant supplementation derived from sorghum",
+                "url": "https://patents.google.com/patent/US20250064094A1"
+              }
+            ],
+            "status": "yes"
+          },
+          "sources": [
+            {
+              "accessed": "2026-11-21",
+              "channel": "news",
+              "publisher": "NutraIngredients",
+              "title": "Start-Up Stars winner RedLeaf eyes new markets",
+              "url": "https://www.nutraingredients.com/Article/2026/11/10/start-up-stars-winner-redleaf-eyes-new-markets/",
+              "whatItContributes": "2026-11-10 報導 ReDaxin 放大產能、2025 年肌力恢復研究，以及公司把下一階段放在氧化壓力與恢復。"
+            },
+            {
+              "accessed": "2026-11-21",
+              "channel": "supplier_site",
+              "publisher": "RedLeaf Biologics",
+              "title": "ReDaxin",
+              "url": "https://redleafbiologics.com/redaxin/",
+              "whatItContributes": "商品名、多酚高於 20%，以及 250 mg、500 mg 與公司自己的恢復摘要。"
+            },
+            {
+              "accessed": "2026-11-21",
+              "channel": "news",
+              "publisher": "NutraIngredients",
+              "title": "Red sorghum leaf extract may accelerate post-exercise strength recovery",
+              "url": "https://www.nutraingredients.com/Article/2025/09/22/red-sorghum-leaf-extract-may-accelerate-post-exercise-strength-recovery/",
+              "whatItContributes": "29 人、劑量、天數，以及肌力恢復與自覺疼痛結論不一致的地方。"
+            },
+            {
+              "accessed": "2026-11-21",
+              "channel": "patent",
+              "publisher": "Google Patents",
+              "title": "US20250064094A1",
+              "url": "https://patents.google.com/patent/US20250064094A1",
+              "whatItContributes": "高粱來源著色與抗氧化組成的公開申請。"
+            }
+          ],
+          "supply": {
+            "relationship": "unknown",
+            "relationshipNote": "2026-11-21 以 ReDaxin、Redaxin、RedLeaf、紅高粱萃取、red sorghum、Sorghum bicolor，搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索。打開 RedLeaf 產品頁，以及 Barrington Nutritionals 的 ReDaxin 頁；後者是美國原料頁，沒有台灣公司。同日再用「ReDaxin 台灣 原料」獨立複查，仍沒有寫明代理或經銷的台灣廠商頁。查核日 2026-11-21。",
+            "supplierCountry": "美國",
+            "supplierName": "RedLeaf Biologics",
+            "taiwanPartyName": "本次查無台灣關聯廠商"
+          },
+          "tfda": {
+            "evidenceNotes": "商品名 ReDaxin 與「高粱葉」在原料、添加物都是 0 筆。學名 Sorghum bicolor 只命中甜高粱糖漿（id 17421），部位是莖桿，備註是經良好製程的糖漿，不是這支多酚萃取。這不是准用，也不是禁用結論。",
+            "lookupDate": "2026-11-21",
+            "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+            "officialCrosscheck": {
+              "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+              "done": false,
+              "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+              "notes": "2026-11-21 連線 consumer.fda.gov.tw 在 TLS 交握出現 SSL_ERROR_SYSCALL。助手側沒有高粱葉或多酚萃取可核對的詳細頁。甜高粱糖漿詳細頁網址是 MaterialDetail id 17421，部位是莖桿。siteTotals 原料 1709、添加物 804。"
+            },
+            "queries": [
+              {
+                "category": "",
+                "keyword": "ReDaxin",
+                "matchedName": "",
+                "note": "商品名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "高粱葉",
+                "matchedName": "",
+                "note": "葉這個部位 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "高粱",
+                "matchedName": "甜高粱糖漿",
+                "note": "不是葉或多酚萃取。",
+                "restrictionNote": "Sorghum bicolor。部位莖桿。經良好製程加工及品管所得之糖漿。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Sorghum",
+                "matchedName": "甜高粱糖漿",
+                "note": "學名命中的是莖桿糖漿。",
+                "restrictionNote": "與「高粱」同一筆糖漿。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "高粱",
+                "matchedName": "",
+                "note": "添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "ReDaxin",
+                "matchedName": "",
+                "note": "商品名在添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "高粱",
+                "matchedName": "",
+                "note": "助手更新歷程（2026-11-01 至 2026-11-21）沒有這筆異動。資料時間戳 2026-11-21 06:17。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "history",
+                "unconfirmedSafety": false
+              }
+            ],
+            "usable": "not_found"
+          }
+        },
+        {
+          "discovery": {
+            "channel": "news",
+            "notes": "從 NutraIngredients 2026-10-09 的咖啡因與動脈僵硬度報導進入 Food & Function 兩篇、原廠 TruBeet 頁與印度專利頁，再打開遠景與良勵的台灣頁。南甜菜樹沒有併成這支原料。",
+            "scoutDate": "2026-11-21"
+          },
+          "efficacy": {
+            "claimedBenefits": [
+              "NutraIngredients 2026-10-09：以 TruBeet 供應的試驗寫，24 名健康成人、硝酸鹽約 400 mg 的甜菜根粉，可抵銷咖啡因造成的動脈僵硬度上升。肱動脈血壓、中心血壓與巨血管內皮功能在該篇摘要裡沒有相對安慰劑改變。",
+              "Food & Function 劑量試驗：17 名健康男性，硝酸鹽 200、400 或 800 mg。動脈僵硬度三個劑量都有改善；內皮功能只在 400 mg；主動脈收縮壓只在 800 mg。肱動脈血壓沒有改善。",
+              "原廠頁寫這是專利製程的紅甜菜根萃取，不含外加亞硝酸鹽與合成硝酸鹽，並寫草酸檢測為完全沒有。印度專利請求項寫組成物的草酸低於 0.01%。兩句都留下。"
+            ],
+            "dosageNote": "上述毫克是試驗或專利請求項，不是平台上限。平台沒有甜菜根這一列。硝酸鹽百分比也不一致：遠景 2020 頁寫 Nitrate 大於 6%，良勵頁寫 6%；原廠頁寫比一般 1%–3% 的粉高約 2–6 倍；專利請求項寫 3%–10%。不改成單一規格。",
+            "suggestedDosage": "打開的人體試驗以硝酸鹽計為 200、400 或 800 mg。印度專利請求項另寫組成物每日 400–600 mg、連續 6 天。原廠 2026 頁沒有寫一個每日粉末毫克。"
+          },
+          "evidenceLevels": [
+            "clinical"
+          ],
+          "example": false,
+          "id": "trubeet",
+          "images": [
+            {
+              "caption": "Bio-gen TruBeet 產品頁圖片。",
+              "localPath": "",
+              "source": "official_site",
+              "url": "https://bio-gen.in/assets/images/products/trubeet-img0001.png"
+            }
+          ],
+          "literature": {
+            "note": "兩篇都是急性、小樣本。內皮功能、動脈僵硬度與血壓不是同一個劑量都有同樣結果。",
+            "refs": [
+              {
+                "note": "Food & Function。隨機、雙盲、交叉。硝酸鹽 200、400、800 mg，樣品寫 TruBeet。這次讀的是期刊頁的方法與結論。",
+                "title": "The dose–response effects of nitrate-rich beetroot ingestion on cardiovascular and endothelial function",
+                "url": "https://doi.org/10.1039/d5fo05298j"
+              },
+              {
+                "note": "Food & Function，2026，17，8145。24 人、約 400 mg 硝酸鹽的 TruBeet，與咖啡因交叉。這次讀的是期刊頁。",
+                "title": "Acute dietary nitrate supplementation attenuates caffeine-induced increase in arterial stiffness",
+                "url": "https://pubs.rsc.org/fo/article/17/18/8145/1294700/Acute-dietary-nitrate-supplementation-attenuates"
+              }
+            ],
+            "status": "yes"
+          },
+          "names": {
+            "commonEn": "nitrate-rich beetroot extract",
+            "commonZh": "甜菜根萃取物（硝酸鹽）",
+            "scientific": "Beta vulgaris（根。原廠頁寫紅甜菜根的無機硝酸鹽。不是未確認的南甜菜樹 Melientha suavis。）",
+            "trade": "TruBeet（Bio-gen Extracts 的甜菜根萃取商品名）"
+          },
+          "patent": {
+            "note": "依 QuickCompany 頁的 Granted。美國專利 US10967294B1 申請人是 ThermoLife，不是這家，不計入。",
+            "refs": [
+              {
+                "note": "申請人 Bio-gen Extracts。頁面寫公開號 13/2024、狀態 Granted、核准日 2025-08-20。專利號欄是空的，這次沒有另填號碼。讀取日 2026-11-21。",
+                "title": "Composition And Method Comprising Beetroot Extract",
+                "url": "https://www.quickcompany.in/patents/composition-and-method-comprising-beetroot-extract"
+              }
+            ],
+            "status": "yes"
+          },
+          "sources": [
+            {
+              "accessed": "2026-11-21",
+              "channel": "news",
+              "publisher": "NutraIngredients",
+              "title": "Study links beetroot to reduced caffeine-induced stiffness",
+              "url": "https://www.nutraingredients.com/Article/2026/10/09/study-links-beetroot-to-reduced-caffeine-induced-stiffness/",
+              "whatItContributes": "2026-10-09 報導 TruBeet 與咖啡因、動脈僵硬度的試驗方向。"
+            },
+            {
+              "accessed": "2026-11-21",
+              "channel": "supplier_site",
+              "publisher": "Bio-gen Extracts",
+              "title": "TruBeet",
+              "url": "https://bio-gen.in/trubeet/",
+              "whatItContributes": "商品名、Beta vulgaris、可用國家含 Taiwan，以及草酸與硝酸鹽倍數的原廠說法。"
+            },
+            {
+              "accessed": "2026-11-21",
+              "channel": "paper",
+              "publisher": "Food & Function",
+              "title": "DOI 10.1039/d5fo05298j",
+              "url": "https://doi.org/10.1039/d5fo05298j",
+              "whatItContributes": "200、400、800 mg 硝酸鹽對內皮功能、動脈僵硬度與主動脈收縮壓的差別。"
+            },
+            {
+              "accessed": "2026-11-21",
+              "channel": "other",
+              "publisher": "遠景股份有限公司",
+              "title": "賀！TruBeet 榮獲 2026 NutraIngredients-Asia Awards",
+              "url": "https://www.food7-11.com/news/content/83",
+              "whatItContributes": "遠景自述為 TruBeet 台灣代理。不是原廠經銷名單。"
+            },
+            {
+              "accessed": "2026-11-21",
+              "channel": "other",
+              "publisher": "良勵生物科技",
+              "title": "甜菜根萃取物",
+              "url": "https://www.pharmachief.com.tw/news_detail/94.htm",
+              "whatItContributes": "另一家台灣頁寫 6% 硝酸鹽與代工劑型，放在品牌原料代理分類，沒有寫代理句。"
+            }
+          ],
+          "supply": {
+            "relationship": "taiwan_agent",
+            "relationshipNote": "2026-11-21 以 TruBeet、Trubeet、Bio-gen、甜菜根萃取、beetroot、Beta vulgaris，搭配台灣、臺灣、Taiwan、代理、總代理、經銷檢索。遠景 2026-09-23 新聞寫「身為 TruBeet® 台灣代理商」，側欄寫「遠景代理之」。這是遠景自述。同日打開的原廠頁只把 Taiwan 列在可用國家，沒有寫遠景或獨家。良勵頁放在「品牌原料代理」分類，內文寫水代法、6% 硝酸鹽與代工劑型，沒有寫「本公司是台灣代理」。兩頁都留下，不把其中一家升成原廠證實的獨家代理。查核日 2026-11-21。",
+            "supplierCountry": "印度",
+            "supplierName": "Bio-gen Extracts",
+            "taiwanPartyName": "遠景股份有限公司（自述 TruBeet 台灣代理）；良勵生物科技另有產品頁"
+          },
+          "tfda": {
+            "evidenceNotes": "商品名 TruBeet、學名 Beta vulgaris、甜菜根與紅菜頭在原料、添加物都是 0 筆。關鍵字「甜菜」命中的是未確認的南甜菜樹（Melientha suavis，id 16223），學名不同，不是這支甜菜根萃取。查無不是准用。",
+            "lookupDate": "2026-11-21",
+            "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+            "officialCrosscheck": {
+              "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+              "done": false,
+              "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+              "notes": "2026-11-21 連線 consumer.fda.gov.tw 在 TLS 交握出現 SSL_ERROR_SYSCALL。助手側沒有 Beta vulgaris 可核對的詳細頁。南甜菜樹詳細頁網址是 MaterialDetail id 16223，學名不是這支原料。siteTotals 原料 1709、添加物 804。"
+            },
+            "queries": [
+              {
+                "category": "",
+                "keyword": "TruBeet",
+                "matchedName": "",
+                "note": "商品名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Beta vulgaris",
+                "matchedName": "",
+                "note": "甜菜學名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "甜菜根",
+                "matchedName": "",
+                "note": "中文部位名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "紅菜頭",
+                "matchedName": "",
+                "note": "另一個中文俗名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "甜菜",
+                "matchedName": "南甜菜樹",
+                "note": "未確認的是另一種植物。不是 Beta vulgaris。",
+                "restrictionNote": "Melientha suavis。未經確認其食用安全性前，不得供為食品原料使用。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": true
+              },
+              {
+                "category": "",
+                "keyword": "甜菜",
+                "matchedName": "",
+                "note": "添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "beet",
+                "matchedName": "",
+                "note": "英文在添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "甜菜",
+                "matchedName": "",
+                "note": "助手更新歷程（2026-11-01 至 2026-11-21）沒有這筆異動。資料時間戳 2026-11-21 06:17。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "history",
+                "unconfirmedSafety": false
+              }
+            ],
+            "usable": "not_found"
+          }
+        },
+        {
+          "discovery": {
+            "channel": "exhibition",
+            "notes": "從 NutraIngredients 2026-10-14 的 SupplySide Global 展前記進入 Cargill FAQ、GRAS notice 928 與 PubMed 20180695，再打開生資原料頁、展會名錄與 EpiCor 品牌站的台灣成品分類。boulardii 那一筆啤酒酵母沒有併成這個商品。",
+            "scoutDate": "2026-11-21"
+          },
+          "efficacy": {
+            "claimedBenefits": [
+              "Cargill FAQ：EpiCor 是 Saccharomyces cerevisiae 發酵後乾燥的後生元，人體試驗都用每日 500 mg，並寫超過 15 篇研究、其中 8 篇人體，方向是免疫與腸道菌相。FAQ 建議配方也用 500 mg。",
+              "12 週隨機雙盲對照試驗：116 名近期沒有施打季節流感疫苗的人，每日 500 mg EpiCor 或安慰劑。感冒或類流感的發生次數下降（p=0.01），天數沒有顯著縮短（p=0.10），嚴重度沒有差異（p=0.90）。",
+              "GRAS notice 928 寫每份 500 mg，製程是好氧增殖、厭氧發酵再乾燥，沒有把其中一種成分濃縮或分離出來。菌株編號在同一份通知裡寫成 ATCC 7752 與 ATCC 7522。"
+            ],
+            "dosageNote": "500 mg 是供應商與這份美國 GRAS 通知的份量，不是平台上的毫克上限。平台對到的是啤酒酵母這類原料，而且 cerevisiae 與 boulardii 是兩筆。",
+            "suggestedDosage": "Cargill FAQ 的人體試驗與建議配方量，以及 GRAS notice 的每份量，都是 500 mg。"
+          },
+          "evidenceLevels": [
+            "clinical"
+          ],
+          "example": false,
+          "id": "epicor",
+          "images": [
+            {
+              "caption": "EpiCor 品牌站圖片。",
+              "localPath": "",
+              "source": "official_site",
+              "url": "https://epicorimmune.com/wp-content/uploads/2022/06/epicor.jpg"
+            }
+          ],
+          "literature": {
+            "note": "Cargill 寫還有其他人體試驗。這次只核對這一篇的發生次數、天數與嚴重度差別。",
+            "refs": [
+              {
+                "note": "Journal of Alternative and Complementary Medicine。12 週、116 人、每日 500 mg。這次讀的是 PubMed 頁上的摘要。",
+                "title": "Immunogenic yeast-based fermentate for cold/flu-like symptoms in nonvaccinated individuals",
+                "url": "https://pubmed.ncbi.nlm.nih.gov/20180695/"
+              }
+            ],
+            "status": "yes"
+          },
+          "names": {
+            "commonEn": "dried Saccharomyces cerevisiae fermentate",
+            "commonZh": "啤酒酵母發酵物",
+            "scientific": "Saccharomyces cerevisiae（GRAS notice 928 一處寫菌株來自 ATCC 7752，另一處寫 ATCC 7522。兩處都留下。乾燥發酵物含熱處理後的菌體與發酵產物。不是 id 17605 的 Saccharomyces boulardii，也不是已收錄的酵母 β-葡聚醣。）",
+            "trade": "EpiCor（Cargill 的酵母發酵物商品名；原為 Embria）"
+          },
+          "patent": {
+            "note": "生資頁標題寫「美國專利」，頁內沒有號碼。2026-11-21 用 EpiCor、Embria、dried fermentate 查公開專利，沒有打開可對上這個商品的專利號。不把標題寫成已核准。",
+            "refs": [],
+            "status": "unknown"
+          },
+          "sources": [
+            {
+              "accessed": "2026-11-21",
+              "channel": "exhibition",
+              "publisher": "NutraIngredients",
+              "title": "SupplySide Global 2026: What’s happening on the show floor",
+              "url": "https://www.nutraingredients.com/Article/2026/10/14/supplyside-global-2026-whats-happening-on-the-show-floor/",
+              "whatItContributes": "2026-10-14 展前記 Cargill 攤位的飲品概念使用 EpiCor postbiotic。"
+            },
+            {
+              "accessed": "2026-11-21",
+              "channel": "supplier_site",
+              "publisher": "Cargill",
+              "title": "EpiCor FAQs",
+              "url": "https://www.cargill.com/food-beverage/na/epicor-faqs",
+              "whatItContributes": "每日 500 mg、8 篇人體試驗，以及標示名 dried fermentate made using Saccharomyces cerevisiae。"
+            },
+            {
+              "accessed": "2026-11-21",
+              "channel": "other",
+              "publisher": "U.S. FDA",
+              "title": "GRAS notice 928, dried yeast fermentate",
+              "url": "https://www.fda.gov/media/142858/download",
+              "whatItContributes": "每份 500 mg、未分離單一成分，以及 ATCC 7752 與 7522 兩種寫法。"
+            },
+            {
+              "accessed": "2026-11-21",
+              "channel": "paper",
+              "publisher": "PubMed",
+              "title": "PubMed 20180695",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/20180695/",
+              "whatItContributes": "116 人、12 週、500 mg，以及發生次數與天數的 p 值差別。"
+            },
+            {
+              "accessed": "2026-11-21",
+              "channel": "other",
+              "publisher": "生資有限公司",
+              "title": "啤酒酵母發酵物 EpiCor",
+              "url": "https://www.nutrisense.com.tw/ingredients/prebiotics-epicor/",
+              "whatItContributes": "台灣頁販售這支原料，寫多酚與膳食纖維規格，沒有寫代理。"
+            },
+            {
+              "accessed": "2026-11-21",
+              "channel": "exhibition",
+              "publisher": "展會名錄",
+              "title": "Saccharomyces cerevisiae dried fermentate, exhibitor Nutrisense",
+              "url": "https://www.chanchao.com.tw/healthcos/en/visitorProductDetail.asp?no=224637",
+              "whatItContributes": "參展商自述 EpiCor 直接來自 Cargill。"
+            }
+          ],
+          "supply": {
+            "relationship": "unknown",
+            "relationshipNote": "2026-11-21 以 EpiCor、Epicor、Cargill、Embria、啤酒酵母發酵物、dried fermentate，搭配台灣、臺灣、Taiwan、代理、總代理、經銷檢索。生資原料頁把 EpiCor 當啤酒酵母發酵物介紹，並寫 2017 年 Cargill 收購 Embria。頁面沒有寫代理、總代理或獨家。展會名錄寫參展者 NUTRISENSE、型號 EpiCor、Sourced directly from Cargill，是參展商自述。原廠 FAQ 這次沒有點名台灣經銷。EpiCor 品牌站台灣分類看得到成品 Bowtee 與 Nutrigiant Biomed 膠囊，那是成品採用，不是原料代理。查核日 2026-11-21。",
+            "supplierCountry": "美國",
+            "supplierName": "Cargill（原 Embria Health Sciences）",
+            "taiwanPartyName": "生資有限公司（Nutrisense；原料頁與展會名錄販售 EpiCor，未寫代理）"
+          },
+          "tfda": {
+            "evidenceNotes": "商品名 EpiCor 在原料、添加物都是 0 筆。中文「啤酒酵母」有兩筆菌：id 17276 是 Saccharomyces cerevisiae，id 17605 是 Saccharomyces boulardii。EpiCor 對到的是前者。前者寫未把特定成分分離純化才可當食品原料；GRAS notice 寫整罐發酵物乾燥、沒有分離單一成分。這不是健康食品許可。",
+            "lookupDate": "2026-11-21",
+            "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+            "officialCrosscheck": {
+              "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+              "done": true,
+              "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+              "notes": "2026-11-21 連線 consumer.fda.gov.tw 在 TLS 交握出現 SSL_ERROR_SYSCALL，沒有取得官方詳細頁。cerevisiae 那筆是 MaterialDetail id 17276，boulardii 那筆是 id 17605。未分離純化的備註與助手一致。siteTotals 原料 1709、添加物 804。"
+            },
+            "queries": [
+              {
+                "category": "",
+                "keyword": "EpiCor",
+                "matchedName": "",
+                "note": "商品名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "啤酒酵母",
+                "matchedName": "啤酒酵母；啤酒酵母；反式白藜蘆醇",
+                "note": "同名兩筆，學名不同。本品是 cerevisiae 的發酵物。",
+                "restrictionNote": "id 17276：Saccharomyces cerevisiae，菌體。可供食品使用；若培養基使用准用添加物、傳統加工且未分離純化特定成分，得供食品原料使用，添加物仍要符合各自規定。id 17605：Saccharomyces boulardii，菌體，可供食品使用。反式白藜蘆醇是備註寫到基因改造啤酒酵母而命中。",
+                "resultCount": 3,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Saccharomyces cerevisiae",
+                "matchedName": "啤酒酵母；鋅酵母；硒酵母；鉻酵母等",
+                "note": "礦物質酵母是別的規格。",
+                "restrictionNote": "同菌還有鋅、硒、鉻、鐵、鎂等礦物質酵母，各有該礦物質的每日上限。那些不是這支未純化的發酵物。",
+                "resultCount": 11,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "啤酒酵母",
+                "matchedName": "",
+                "note": "添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "酵母",
+                "matchedName": "",
+                "note": "添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "啤酒酵母",
+                "matchedName": "",
+                "note": "助手更新歷程（2026-11-01 至 2026-11-21）沒有這筆異動。資料時間戳 2026-11-21 06:17。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "history",
+                "unconfirmedSafety": false
+              }
+            ],
+            "usable": "needs_review"
+          }
+        },
+        {
+          "discovery": {
+            "channel": "exhibition",
+            "notes": "從 Nutraceuticals World 的 SupplySide Global 2026 展場報導進入 Everwell 的 VitaliG 頁，再對 US7989006B2、2023 年試驗與自認 GRAS 報導。德和的化學品頁沒有併成品牌代理。紅木種子的香辛調味列名沒有寫成這支濃縮物的毫克上限。",
+            "scoutDate": "2026-11-21"
+          },
+          "efficacy": {
+            "claimedBenefits": [
+              "Everwell 產品頁寫 VitaliG 是胭脂樹來源的高濃度香葉基香葉醇，並寫可能支持細胞訊息與細胞功能。睪固酮那一句標成探索性分析：基線偏低到正常範圍的男性。頁上這次沒有寫每日毫克。",
+              "2023 年隨機雙盲對照、劑量遞增試驗：66 名 30–49 歲成人，前 4 週每日 150 mg GG-Gold，其後 4 週每日 300 mg。全組的血球、代謝與性荷爾蒙沒有顯著變化。基線總睪固酮低於 700 ng/dL 的男性子群，總睪固酮、游離與生物可利用睪固酮上升，論文自己標成探索性分析。",
+              "Nutraceuticals World 報導 American River 的自認 GRAS：獨立專家小組審查後，營養棒、運動飲料、粉末與巧克力每份最多 250 mg。這是報導裡的自認，不是這次打開的 FDA no-objection 函。"
+            ],
+            "dosageNote": "150 mg、300 mg 是試驗劑量，250 mg 是那篇自認 GRAS 報導的食品份量。都不是平台上限。紅木列名只寫香辛調味、適量。",
+            "suggestedDosage": "打開的 8 週試驗是每日 150 mg，4 週後改每日 300 mg。自認 GRAS 的報導寫特定食品每份最多 250 mg。原廠 VitaliG 頁沒有寫一個每日毫克。"
+          },
+          "evidenceLevels": [
+            "clinical"
+          ],
+          "example": false,
+          "id": "vitalig",
+          "images": [
+            {
+              "caption": "Everwell VitaliG 頁使用的 GG-Gold 圖片。",
+              "localPath": "",
+              "source": "official_site",
+              "url": "https://everwellhealth.com/wp-content/uploads/2025/12/about-gggold.jpg"
+            }
+          ],
+          "literature": {
+            "note": "全組沒有顯著荷爾蒙變化。探索性子群的上升不寫成整體結果。",
+            "refs": [
+              {
+                "note": "Nutraceuticals，2023。GG-Gold，150 mg 再 300 mg，66 人。NCT05258513。睪固酮子群是探索性分析。這次讀的是論文頁的摘要與方法。",
+                "title": "The Effects of Geranylgeraniol on Blood Safety and Sex Hormone Profiles in Healthy Adults",
+                "url": "https://doi.org/10.3390/nutraceuticals3040043"
+              }
+            ],
+            "status": "yes"
+          },
+          "names": {
+            "commonEn": "annatto-derived geranylgeraniol",
+            "commonZh": "香葉基香葉醇（胭脂樹來源）",
+            "scientific": "化合物是香葉基香葉醇。來源植物是 Bixa orellana。Everwell 2026 頁寫從胭脂樹植物萃取。US7989006B2 標題是含香葉基香葉醇的胭脂樹萃取物。NXT 原料頁寫種子。三處部位用詞不同，都留下。不是只供香辛調味的紅木種子本身。",
+            "trade": "VitaliG（Everwell Health 的商品名；原名 GG-Gold，American River Nutrition）"
+          },
+          "patent": {
+            "note": "這件是胭脂樹萃取組成。沒有把同一公司的生育三烯酚商品 DeltaGold 另計成這支的第二件專利。",
+            "refs": [
+              {
+                "note": "發明人 Barrie Tan，申請人 American River Nutrition。標題同時涵蓋香葉基香葉醇與無生育醇的生育三烯酚。讀取日 2026-11-21。成品標示頁也把 US 7,989,006 寫在 GG-Gold 上。",
+                "title": "US7989006B2 Annatto extract compositions, including geranyl geraniols and methods of use",
+                "url": "https://patents.google.com/patent/US7989006B2"
+              }
+            ],
+            "status": "yes"
+          },
+          "sources": [
+            {
+              "accessed": "2026-11-21",
+              "channel": "exhibition",
+              "publisher": "Nutraceuticals World",
+              "title": "Everwell Health to Highlight Role of Functional Ingredients in Cellular Function",
+              "url": "https://www.nutraceuticalsworld.com/live_from_shows/everwell-health-to-highlight-role-of-functional-ingredients-in-cellular-function/",
+              "whatItContributes": "SupplySide Global 2026 展場報導把 VitaliG 寫成 GG-Gold 的新名稱，來源是胭脂樹。"
+            },
+            {
+              "accessed": "2026-11-21",
+              "channel": "supplier_site",
+              "publisher": "Everwell Health",
+              "title": "VitaliG",
+              "url": "https://everwellhealth.com/vitalig/",
+              "whatItContributes": "商品名、香葉基香葉醇，以及細胞功能與探索性睪固酮的原廠說法。"
+            },
+            {
+              "accessed": "2026-11-21",
+              "channel": "patent",
+              "publisher": "Google Patents",
+              "title": "US7989006B2",
+              "url": "https://patents.google.com/patent/US7989006B2",
+              "whatItContributes": "American River Nutrition 的胭脂樹萃取專利，標題含香葉基香葉醇。"
+            },
+            {
+              "accessed": "2026-11-21",
+              "channel": "paper",
+              "publisher": "Nutraceuticals",
+              "title": "DOI 10.3390/nutraceuticals3040043",
+              "url": "https://doi.org/10.3390/nutraceuticals3040043",
+              "whatItContributes": "150 mg 與 300 mg、66 人，以及全組與探索性子群的差別。"
+            },
+            {
+              "accessed": "2026-11-21",
+              "channel": "industry_report",
+              "publisher": "Nutraceuticals World",
+              "title": "American River Nutrition Affirms GRAS Status of Geranylgeraniol Ingredient",
+              "url": "https://www.nutraceuticalsworld.com/breaking-news/american-river-nutritions-geranylgeraniol-ingredient-achieves-self-affirmed-gras/",
+              "whatItContributes": "自認 GRAS，以及特定食品每份最多 250 mg 的報導。"
+            },
+            {
+              "accessed": "2026-11-21",
+              "channel": "other",
+              "publisher": "台灣德和精化",
+              "title": "GERANYL GERANIOL",
+              "url": "https://www.tekho.com/products/fine-chemicals/geranyl-geraniol",
+              "whatItContributes": "台灣頁販售 CAS 24034-73-9 的化學品，沒有寫 VitaliG 或胭脂樹，不計成這個商品的代理。"
+            }
+          ],
+          "supply": {
+            "relationship": "unknown",
+            "relationshipNote": "2026-11-21 以 VitaliG、GG-Gold、GG Gold、geranylgeraniol、香葉基香葉醇、American River、Everwell、胭脂樹，搭配台灣、臺灣、Taiwan、代理、總代理、經銷檢索。打開德和精化的香葉基香葉醇頁：CAS 24034-73-9、含量至少 95%，沒有寫 VitaliG、GG-Gold 或胭脂樹。同化合物不算這個商品的代理。AIDP 與 American River 的獨家銷售新聞寫的是北美。同日再用「GG-Gold 台灣 經銷」獨立複查，沒有寫明這個商品代理的台灣廠商頁。查核日 2026-11-21。",
+            "supplierCountry": "美國",
+            "supplierName": "Everwell Health（原 American River Nutrition）",
+            "taiwanPartyName": "本次查無台灣關聯廠商"
+          },
+          "tfda": {
+            "evidenceNotes": "商品名 VitaliG、GG-Gold 與香葉基香葉醇在原料、添加物都是 0 筆，也沒有出現在未確認分類。紅木（id 17268）種子有列，備註只寫可作香辛調味、適量，沒有毫克。這支濃縮物不能直接套成那一筆。",
+            "lookupDate": "2026-11-21",
+            "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+            "officialCrosscheck": {
+              "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+              "done": true,
+              "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+              "notes": "2026-11-21 連線 consumer.fda.gov.tw 在 TLS 交握出現 SSL_ERROR_SYSCALL，沒有取得官方詳細頁。紅木詳細頁網址是 MaterialDetail id 17268。香辛調味、適量使用的備註與助手一致。香葉基香葉醇沒有單獨詳細頁。siteTotals 原料 1709、添加物 804。"
+            },
+            "queries": [
+              {
+                "category": "",
+                "keyword": "VitaliG",
+                "matchedName": "",
+                "note": "新商品名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "GG-Gold",
+                "matchedName": "",
+                "note": "舊商品名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "香葉基香葉醇",
+                "matchedName": "",
+                "note": "化合物中文名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "geranylgeraniol",
+                "matchedName": "",
+                "note": "化合物英文名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "紅木",
+                "matchedName": "紅木；胭脂樹",
+                "note": "有列名的是種子調味，不是香葉基香葉醇濃縮物。",
+                "restrictionNote": "annatto, lipstick tree。Bixa orellana。部位種子。可作為香味或風味，僅以香辛調味目的、適量使用。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Bixa orellana",
+                "matchedName": "紅木；胭脂樹",
+                "note": "學名命中種子那一列。",
+                "restrictionNote": "與「紅木」同一筆。香辛調味、適量。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "紅木",
+                "matchedName": "",
+                "note": "添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "胭脂",
+                "matchedName": "",
+                "note": "添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "annatto",
+                "matchedName": "",
+                "note": "添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "紅木",
+                "matchedName": "",
+                "note": "助手更新歷程（2026-11-01 至 2026-11-21）沒有這筆異動。資料時間戳 2026-11-21 06:17。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "history",
+                "unconfirmedSafety": false
+              }
+            ],
+            "usable": "needs_review"
+          }
+        },
+        {
+          "discovery": {
+            "channel": "industry_report",
+            "notes": "從 2026-09-02 亞洲獎決選名單進入 MonaJuventa Nu 產品頁、2025-03-25 試驗報導與 GeroScience DOI，再核對 Mibelle 經銷名單與恆新 2014 年新聞。精油用的 Monarda fistulosa 沒有併進來。",
+            "scoutDate": "2026-11-21"
+          },
+          "efficacy": {
+            "claimedBenefits": [
+              "NutraIngredients-Asia Awards 2026 健康壽命組決選介紹：MonaJuventa Nu 來自猩紅蜂香草，12 週人體試驗寫到表觀遺傳老化速度、端粒縮短、氧化壓力、衰老細胞與粒線體功能。介紹沒有寫毫克。",
+              "2025-03-25 報導同一篇 GeroScience 試驗：45–65 歲、自述工作壓力高、81 人、每日 100 mg 或安慰劑、12 週。生物年齡增加約 0.3 年，安慰劑約 1.8 年。同篇還寫皮質醇約降 25%，以及生活品質與睡眠。這些是報導對論文的數字。",
+              "原廠產品頁寫有機 Monarda didyma 萃取，臨床終點包含表觀遺傳指標、生活品質與相對安慰劑的睡眠。頁上沒有重複 0.3 年或 25%。"
+            ],
+            "dosageNote": "100 mg 是試驗頁的每日量，不是平台上限。蜂香薄荷列名是全草、可供直接食用，沒有萃取物毫克。",
+            "suggestedDosage": "ClinicalTrials.gov NCT05399966 與 2025-03-25 報導都是每日 100 mg、一顆、午餐時、12 週。"
+          },
+          "evidenceLevels": [
+            "in_vitro",
+            "clinical"
+          ],
+          "example": false,
+          "id": "monajuventa-nu",
+          "images": [
+            {
+              "caption": "Mibelle MonaJuventa Nu 產品頁主圖。",
+              "localPath": "",
+              "source": "official_site",
+              "url": "https://www.mibellebiochemistry.com/sites/default/files/styles/default/public/2024-04/monajuventa_nu_website.png.webp?itok=oSo_7SXl"
+            }
+          ],
+          "literature": {
+            "note": "報導另寫試驗前有體外試驗。0.3 年、1.8 年與皮質醇 25% 只記在報導，沒有用全文再核。",
+            "refs": [
+              {
+                "note": "GeroScience。原廠頁與 2025-03-25 報導都指向這篇。隨機、雙盲、安慰劑、平行，81 人、每日 100 mg、12 週。這次讀的是報導與原廠頁上的引用，不是付費全文。",
+                "title": "Unveiling the geroprotective potential of Monarda didyma L.",
+                "url": "https://doi.org/10.1007/s11357-025-01580-2"
+              }
+            ],
+            "status": "yes"
+          },
+          "names": {
+            "commonEn": "scarlet beebalm extract",
+            "commonZh": "蜂香薄荷萃取物",
+            "scientific": "Monarda didyma L.（有機猩紅蜂香草萃取。平台中文名是蜂香薄荷，部位全草。不是精油頁上的 Monarda fistulosa。）",
+            "trade": "MonaJuventa Nu（Mibelle Biochemistry 的蜂香薄荷萃取商品名）"
+          },
+          "patent": {
+            "note": "Mibelle 公司介紹寫多數活性物有專利與論文。2026-11-21 用 MonaJuventa、Monarda didyma、Mibelle 查公開專利，沒有打開寫著這個商品名的專利號。不把「多數有專利」寫成這支已核准。",
+            "refs": [],
+            "status": "unknown"
+          },
+          "sources": [
+            {
+              "accessed": "2026-11-21",
+              "channel": "industry_report",
+              "publisher": "NutraIngredients",
+              "title": "NutraIngredients-Asia Awards 2026: Winners announced",
+              "url": "https://www.nutraingredients.com/Article/2026/09/02/nutraingredients-asia-awards-2026-winners-announced/",
+              "whatItContributes": "2026 年亞洲獎健康壽命組決選名單有 MonaJuventa Nu。該組得獎的是 Kaneka Ubiquinol，不是這支。"
+            },
+            {
+              "accessed": "2026-11-21",
+              "channel": "supplier_site",
+              "publisher": "Mibelle Biochemistry",
+              "title": "MonaJuventa Nu",
+              "url": "https://www.mibellebiochemistry.com/monajuventatm-nu",
+              "whatItContributes": "商品名、Monarda didyma，以及臨床與植物來源的原廠說法。"
+            },
+            {
+              "accessed": "2026-11-21",
+              "channel": "news",
+              "publisher": "NutraIngredients",
+              "title": "Scarlet beebalm extract may slow biological aging and boost healthspan",
+              "url": "https://www.nutraingredients.com/Article/2025/03/25/scarlet-beebalm-extract-may-slow-biological-aging-and-boost-healthspan/",
+              "whatItContributes": "81 人、每日 100 mg、12 週，以及生物年齡與皮質醇的報導數字。"
+            },
+            {
+              "accessed": "2026-11-21",
+              "channel": "supplier_site",
+              "publisher": "Mibelle Biochemistry",
+              "title": "Mibelle Biochemistry contact and distributors",
+              "url": "https://www.mibellebiochemistry.com/contact",
+              "whatItContributes": "Food & Health 台灣經銷寫 Heng Hsin。沒有寫 MonaJuventa 這個商品名。"
+            },
+            {
+              "accessed": "2026-11-21",
+              "channel": "other",
+              "publisher": "恆新股份有限公司",
+              "title": "本公司取得瑞士米百樂台灣獨家代理權",
+              "url": "https://www.henghsin.com.tw/ec99/rwd1215/news.asp?newsno=17",
+              "whatItContributes": "2014 年自述化妝品活性物獨家代理。沒有寫這支食品原料。"
+            }
+          ],
+          "supply": {
+            "relationship": "taiwan_distributor",
+            "relationshipNote": "2026-11-21 打開 Mibelle 聯絡頁。Distributors - Food & Health 的 Taiwan 是 Heng Hsin Co., Ltd.，地址台北市松江路，網站 henghsin.com.tw。同一頁的化妝品經銷名單也是這家。恆新 2014-01-27 新聞自述取得米百樂化妝品活性物的台灣獨家代理，文中沒有 MonaJuventa Nu。原廠名單沒有在台灣那一列寫這個商品名，也沒有寫獨家。這次在恆新站內沒有打開寫有 MonaJuventa 的產品頁。化妝品獨家不套到這支食品原料。查核日 2026-11-21。",
+            "supplierCountry": "瑞士",
+            "supplierName": "Mibelle Biochemistry（Solabia Biochemistry）",
+            "taiwanPartyName": "恆新股份有限公司（Heng Hsin；原廠 Food & Health 經銷名單寫台灣）"
+          },
+          "tfda": {
+            "evidenceNotes": "蜂香薄荷（id 16959）學名 Monarda didyma L.，部位全草，次分類是可供直接食用，備註空白，沒有萃取物或每日毫克。商品名 MonaJuventa 與 didymin 在原料、添加物都是 0 筆。全草列名不是這支萃取已有毫克上限。",
+            "lookupDate": "2026-11-21",
+            "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+            "officialCrosscheck": {
+              "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+              "done": true,
+              "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+              "notes": "2026-11-21 連線 consumer.fda.gov.tw 在 TLS 交握出現 SSL_ERROR_SYSCALL，沒有取得官方詳細頁。蜂香薄荷詳細頁網址是 MaterialDetail id 16959。全草、可供直接食用、備註空白，與助手一致。siteTotals 原料 1709、添加物 804。"
+            },
+            "queries": [
+              {
+                "category": "",
+                "keyword": "蜂香薄荷",
+                "matchedName": "蜂香薄荷",
+                "note": "沒有寫萃取，也沒有毫克。",
+                "restrictionNote": "Beebalm。Monarda didyma L.。部位全草。次分類為草木本植物類可供直接食用。備註空白。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Monarda",
+                "matchedName": "蜂香薄荷",
+                "note": "屬名命中 didyma 這一列。",
+                "restrictionNote": "與「蜂香薄荷」同一筆。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "MonaJuventa",
+                "matchedName": "",
+                "note": "商品名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "didymin",
+                "matchedName": "",
+                "note": "公司頁提到的黃酮沒有單獨列名。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "蜂香薄荷",
+                "matchedName": "",
+                "note": "添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Monarda",
+                "matchedName": "",
+                "note": "添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "蜂香薄荷",
+                "matchedName": "",
+                "note": "助手更新歷程（2026-11-01 至 2026-11-21）沒有這筆異動。資料時間戳 2026-11-21 06:17。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "history",
+                "unconfirmedSafety": false
+              }
+            ],
+            "usable": "listed_food_ingredient"
+          }
+        }
+      ],
+      "targetCount": 5,
+      "title": "2026-11-21 正式日報"
+    },
+    {
+      "channelsCovered": [
+        "news",
+        "exhibition",
+        "industry_report"
+      ],
       "date": "2026-11-20",
       "example": false,
       "notes": "正式五筆。主管道：Amarasate、Metabolaid 為新聞；Calzbone、AprèsFlex 為展覽；Livaux 為產業報導。",
@@ -18018,6 +19014,188 @@
     },
     {
       "discovery": {
+        "channel": "exhibition",
+        "notes": "從 NutraIngredients 2026-10-14 的 SupplySide Global 展前記進入 Cargill FAQ、GRAS notice 928 與 PubMed 20180695，再打開生資原料頁、展會名錄與 EpiCor 品牌站的台灣成品分類。boulardii 那一筆啤酒酵母沒有併成這個商品。",
+        "scoutDate": "2026-11-21"
+      },
+      "efficacy": {
+        "claimedBenefits": [
+          "Cargill FAQ：EpiCor 是 Saccharomyces cerevisiae 發酵後乾燥的後生元，人體試驗都用每日 500 mg，並寫超過 15 篇研究、其中 8 篇人體，方向是免疫與腸道菌相。FAQ 建議配方也用 500 mg。",
+          "12 週隨機雙盲對照試驗：116 名近期沒有施打季節流感疫苗的人，每日 500 mg EpiCor 或安慰劑。感冒或類流感的發生次數下降（p=0.01），天數沒有顯著縮短（p=0.10），嚴重度沒有差異（p=0.90）。",
+          "GRAS notice 928 寫每份 500 mg，製程是好氧增殖、厭氧發酵再乾燥，沒有把其中一種成分濃縮或分離出來。菌株編號在同一份通知裡寫成 ATCC 7752 與 ATCC 7522。"
+        ],
+        "dosageNote": "500 mg 是供應商與這份美國 GRAS 通知的份量，不是平台上的毫克上限。平台對到的是啤酒酵母這類原料，而且 cerevisiae 與 boulardii 是兩筆。",
+        "suggestedDosage": "Cargill FAQ 的人體試驗與建議配方量，以及 GRAS notice 的每份量，都是 500 mg。"
+      },
+      "evidenceLevels": [
+        "clinical"
+      ],
+      "example": false,
+      "id": "epicor",
+      "images": [
+        {
+          "caption": "EpiCor 品牌站圖片。",
+          "localPath": "",
+          "source": "official_site",
+          "url": "https://epicorimmune.com/wp-content/uploads/2022/06/epicor.jpg"
+        }
+      ],
+      "literature": {
+        "note": "Cargill 寫還有其他人體試驗。這次只核對這一篇的發生次數、天數與嚴重度差別。",
+        "refs": [
+          {
+            "note": "Journal of Alternative and Complementary Medicine。12 週、116 人、每日 500 mg。這次讀的是 PubMed 頁上的摘要。",
+            "title": "Immunogenic yeast-based fermentate for cold/flu-like symptoms in nonvaccinated individuals",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20180695/"
+          }
+        ],
+        "status": "yes"
+      },
+      "names": {
+        "commonEn": "dried Saccharomyces cerevisiae fermentate",
+        "commonZh": "啤酒酵母發酵物",
+        "scientific": "Saccharomyces cerevisiae（GRAS notice 928 一處寫菌株來自 ATCC 7752，另一處寫 ATCC 7522。兩處都留下。乾燥發酵物含熱處理後的菌體與發酵產物。不是 id 17605 的 Saccharomyces boulardii，也不是已收錄的酵母 β-葡聚醣。）",
+        "trade": "EpiCor（Cargill 的酵母發酵物商品名；原為 Embria）"
+      },
+      "patent": {
+        "note": "生資頁標題寫「美國專利」，頁內沒有號碼。2026-11-21 用 EpiCor、Embria、dried fermentate 查公開專利，沒有打開可對上這個商品的專利號。不把標題寫成已核准。",
+        "refs": [],
+        "status": "unknown"
+      },
+      "sources": [
+        {
+          "accessed": "2026-11-21",
+          "channel": "exhibition",
+          "publisher": "NutraIngredients",
+          "title": "SupplySide Global 2026: What’s happening on the show floor",
+          "url": "https://www.nutraingredients.com/Article/2026/10/14/supplyside-global-2026-whats-happening-on-the-show-floor/",
+          "whatItContributes": "2026-10-14 展前記 Cargill 攤位的飲品概念使用 EpiCor postbiotic。"
+        },
+        {
+          "accessed": "2026-11-21",
+          "channel": "supplier_site",
+          "publisher": "Cargill",
+          "title": "EpiCor FAQs",
+          "url": "https://www.cargill.com/food-beverage/na/epicor-faqs",
+          "whatItContributes": "每日 500 mg、8 篇人體試驗，以及標示名 dried fermentate made using Saccharomyces cerevisiae。"
+        },
+        {
+          "accessed": "2026-11-21",
+          "channel": "other",
+          "publisher": "U.S. FDA",
+          "title": "GRAS notice 928, dried yeast fermentate",
+          "url": "https://www.fda.gov/media/142858/download",
+          "whatItContributes": "每份 500 mg、未分離單一成分，以及 ATCC 7752 與 7522 兩種寫法。"
+        },
+        {
+          "accessed": "2026-11-21",
+          "channel": "paper",
+          "publisher": "PubMed",
+          "title": "PubMed 20180695",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/20180695/",
+          "whatItContributes": "116 人、12 週、500 mg，以及發生次數與天數的 p 值差別。"
+        },
+        {
+          "accessed": "2026-11-21",
+          "channel": "other",
+          "publisher": "生資有限公司",
+          "title": "啤酒酵母發酵物 EpiCor",
+          "url": "https://www.nutrisense.com.tw/ingredients/prebiotics-epicor/",
+          "whatItContributes": "台灣頁販售這支原料，寫多酚與膳食纖維規格，沒有寫代理。"
+        },
+        {
+          "accessed": "2026-11-21",
+          "channel": "exhibition",
+          "publisher": "展會名錄",
+          "title": "Saccharomyces cerevisiae dried fermentate, exhibitor Nutrisense",
+          "url": "https://www.chanchao.com.tw/healthcos/en/visitorProductDetail.asp?no=224637",
+          "whatItContributes": "參展商自述 EpiCor 直接來自 Cargill。"
+        }
+      ],
+      "supply": {
+        "relationship": "unknown",
+        "relationshipNote": "2026-11-21 以 EpiCor、Epicor、Cargill、Embria、啤酒酵母發酵物、dried fermentate，搭配台灣、臺灣、Taiwan、代理、總代理、經銷檢索。生資原料頁把 EpiCor 當啤酒酵母發酵物介紹，並寫 2017 年 Cargill 收購 Embria。頁面沒有寫代理、總代理或獨家。展會名錄寫參展者 NUTRISENSE、型號 EpiCor、Sourced directly from Cargill，是參展商自述。原廠 FAQ 這次沒有點名台灣經銷。EpiCor 品牌站台灣分類看得到成品 Bowtee 與 Nutrigiant Biomed 膠囊，那是成品採用，不是原料代理。查核日 2026-11-21。",
+        "supplierCountry": "美國",
+        "supplierName": "Cargill（原 Embria Health Sciences）",
+        "taiwanPartyName": "生資有限公司（Nutrisense；原料頁與展會名錄販售 EpiCor，未寫代理）"
+      },
+      "tfda": {
+        "evidenceNotes": "商品名 EpiCor 在原料、添加物都是 0 筆。中文「啤酒酵母」有兩筆菌：id 17276 是 Saccharomyces cerevisiae，id 17605 是 Saccharomyces boulardii。EpiCor 對到的是前者。前者寫未把特定成分分離純化才可當食品原料；GRAS notice 寫整罐發酵物乾燥、沒有分離單一成分。這不是健康食品許可。",
+        "lookupDate": "2026-11-21",
+        "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+        "officialCrosscheck": {
+          "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+          "done": true,
+          "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+          "notes": "2026-11-21 連線 consumer.fda.gov.tw 在 TLS 交握出現 SSL_ERROR_SYSCALL，沒有取得官方詳細頁。cerevisiae 那筆是 MaterialDetail id 17276，boulardii 那筆是 id 17605。未分離純化的備註與助手一致。siteTotals 原料 1709、添加物 804。"
+        },
+        "queries": [
+          {
+            "category": "",
+            "keyword": "EpiCor",
+            "matchedName": "",
+            "note": "商品名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "啤酒酵母",
+            "matchedName": "啤酒酵母；啤酒酵母；反式白藜蘆醇",
+            "note": "同名兩筆，學名不同。本品是 cerevisiae 的發酵物。",
+            "restrictionNote": "id 17276：Saccharomyces cerevisiae，菌體。可供食品使用；若培養基使用准用添加物、傳統加工且未分離純化特定成分，得供食品原料使用，添加物仍要符合各自規定。id 17605：Saccharomyces boulardii，菌體，可供食品使用。反式白藜蘆醇是備註寫到基因改造啤酒酵母而命中。",
+            "resultCount": 3,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Saccharomyces cerevisiae",
+            "matchedName": "啤酒酵母；鋅酵母；硒酵母；鉻酵母等",
+            "note": "礦物質酵母是別的規格。",
+            "restrictionNote": "同菌還有鋅、硒、鉻、鐵、鎂等礦物質酵母，各有該礦物質的每日上限。那些不是這支未純化的發酵物。",
+            "resultCount": 11,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "啤酒酵母",
+            "matchedName": "",
+            "note": "添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "酵母",
+            "matchedName": "",
+            "note": "添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "啤酒酵母",
+            "matchedName": "",
+            "note": "助手更新歷程（2026-11-01 至 2026-11-21）沒有這筆異動。資料時間戳 2026-11-21 06:17。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "history",
+            "unconfirmedSafety": false
+          }
+        ],
+        "usable": "needs_review"
+      }
+    },
+    {
+      "discovery": {
         "channel": "industry_report",
         "notes": "從 SupplySide Food & Beverage Journal 2026-11-10 的展後觀察進入 Fibernova kestose，再對 Samyang 產品頁與 2024 年寫明三養供料的兒童試驗。台灣關聯打開台糖自產果寡醣頁與盛美的 Fiberest 頁，確認都不是這個商品名的代理。",
         "scoutDate": "2026-11-19"
@@ -22321,6 +23499,191 @@
     {
       "discovery": {
         "channel": "industry_report",
+        "notes": "從 2026-09-02 亞洲獎決選名單進入 MonaJuventa Nu 產品頁、2025-03-25 試驗報導與 GeroScience DOI，再核對 Mibelle 經銷名單與恆新 2014 年新聞。精油用的 Monarda fistulosa 沒有併進來。",
+        "scoutDate": "2026-11-21"
+      },
+      "efficacy": {
+        "claimedBenefits": [
+          "NutraIngredients-Asia Awards 2026 健康壽命組決選介紹：MonaJuventa Nu 來自猩紅蜂香草，12 週人體試驗寫到表觀遺傳老化速度、端粒縮短、氧化壓力、衰老細胞與粒線體功能。介紹沒有寫毫克。",
+          "2025-03-25 報導同一篇 GeroScience 試驗：45–65 歲、自述工作壓力高、81 人、每日 100 mg 或安慰劑、12 週。生物年齡增加約 0.3 年，安慰劑約 1.8 年。同篇還寫皮質醇約降 25%，以及生活品質與睡眠。這些是報導對論文的數字。",
+          "原廠產品頁寫有機 Monarda didyma 萃取，臨床終點包含表觀遺傳指標、生活品質與相對安慰劑的睡眠。頁上沒有重複 0.3 年或 25%。"
+        ],
+        "dosageNote": "100 mg 是試驗頁的每日量，不是平台上限。蜂香薄荷列名是全草、可供直接食用，沒有萃取物毫克。",
+        "suggestedDosage": "ClinicalTrials.gov NCT05399966 與 2025-03-25 報導都是每日 100 mg、一顆、午餐時、12 週。"
+      },
+      "evidenceLevels": [
+        "in_vitro",
+        "clinical"
+      ],
+      "example": false,
+      "id": "monajuventa-nu",
+      "images": [
+        {
+          "caption": "Mibelle MonaJuventa Nu 產品頁主圖。",
+          "localPath": "",
+          "source": "official_site",
+          "url": "https://www.mibellebiochemistry.com/sites/default/files/styles/default/public/2024-04/monajuventa_nu_website.png.webp?itok=oSo_7SXl"
+        }
+      ],
+      "literature": {
+        "note": "報導另寫試驗前有體外試驗。0.3 年、1.8 年與皮質醇 25% 只記在報導，沒有用全文再核。",
+        "refs": [
+          {
+            "note": "GeroScience。原廠頁與 2025-03-25 報導都指向這篇。隨機、雙盲、安慰劑、平行，81 人、每日 100 mg、12 週。這次讀的是報導與原廠頁上的引用，不是付費全文。",
+            "title": "Unveiling the geroprotective potential of Monarda didyma L.",
+            "url": "https://doi.org/10.1007/s11357-025-01580-2"
+          }
+        ],
+        "status": "yes"
+      },
+      "names": {
+        "commonEn": "scarlet beebalm extract",
+        "commonZh": "蜂香薄荷萃取物",
+        "scientific": "Monarda didyma L.（有機猩紅蜂香草萃取。平台中文名是蜂香薄荷，部位全草。不是精油頁上的 Monarda fistulosa。）",
+        "trade": "MonaJuventa Nu（Mibelle Biochemistry 的蜂香薄荷萃取商品名）"
+      },
+      "patent": {
+        "note": "Mibelle 公司介紹寫多數活性物有專利與論文。2026-11-21 用 MonaJuventa、Monarda didyma、Mibelle 查公開專利，沒有打開寫著這個商品名的專利號。不把「多數有專利」寫成這支已核准。",
+        "refs": [],
+        "status": "unknown"
+      },
+      "sources": [
+        {
+          "accessed": "2026-11-21",
+          "channel": "industry_report",
+          "publisher": "NutraIngredients",
+          "title": "NutraIngredients-Asia Awards 2026: Winners announced",
+          "url": "https://www.nutraingredients.com/Article/2026/09/02/nutraingredients-asia-awards-2026-winners-announced/",
+          "whatItContributes": "2026 年亞洲獎健康壽命組決選名單有 MonaJuventa Nu。該組得獎的是 Kaneka Ubiquinol，不是這支。"
+        },
+        {
+          "accessed": "2026-11-21",
+          "channel": "supplier_site",
+          "publisher": "Mibelle Biochemistry",
+          "title": "MonaJuventa Nu",
+          "url": "https://www.mibellebiochemistry.com/monajuventatm-nu",
+          "whatItContributes": "商品名、Monarda didyma，以及臨床與植物來源的原廠說法。"
+        },
+        {
+          "accessed": "2026-11-21",
+          "channel": "news",
+          "publisher": "NutraIngredients",
+          "title": "Scarlet beebalm extract may slow biological aging and boost healthspan",
+          "url": "https://www.nutraingredients.com/Article/2025/03/25/scarlet-beebalm-extract-may-slow-biological-aging-and-boost-healthspan/",
+          "whatItContributes": "81 人、每日 100 mg、12 週，以及生物年齡與皮質醇的報導數字。"
+        },
+        {
+          "accessed": "2026-11-21",
+          "channel": "supplier_site",
+          "publisher": "Mibelle Biochemistry",
+          "title": "Mibelle Biochemistry contact and distributors",
+          "url": "https://www.mibellebiochemistry.com/contact",
+          "whatItContributes": "Food & Health 台灣經銷寫 Heng Hsin。沒有寫 MonaJuventa 這個商品名。"
+        },
+        {
+          "accessed": "2026-11-21",
+          "channel": "other",
+          "publisher": "恆新股份有限公司",
+          "title": "本公司取得瑞士米百樂台灣獨家代理權",
+          "url": "https://www.henghsin.com.tw/ec99/rwd1215/news.asp?newsno=17",
+          "whatItContributes": "2014 年自述化妝品活性物獨家代理。沒有寫這支食品原料。"
+        }
+      ],
+      "supply": {
+        "relationship": "taiwan_distributor",
+        "relationshipNote": "2026-11-21 打開 Mibelle 聯絡頁。Distributors - Food & Health 的 Taiwan 是 Heng Hsin Co., Ltd.，地址台北市松江路，網站 henghsin.com.tw。同一頁的化妝品經銷名單也是這家。恆新 2014-01-27 新聞自述取得米百樂化妝品活性物的台灣獨家代理，文中沒有 MonaJuventa Nu。原廠名單沒有在台灣那一列寫這個商品名，也沒有寫獨家。這次在恆新站內沒有打開寫有 MonaJuventa 的產品頁。化妝品獨家不套到這支食品原料。查核日 2026-11-21。",
+        "supplierCountry": "瑞士",
+        "supplierName": "Mibelle Biochemistry（Solabia Biochemistry）",
+        "taiwanPartyName": "恆新股份有限公司（Heng Hsin；原廠 Food & Health 經銷名單寫台灣）"
+      },
+      "tfda": {
+        "evidenceNotes": "蜂香薄荷（id 16959）學名 Monarda didyma L.，部位全草，次分類是可供直接食用，備註空白，沒有萃取物或每日毫克。商品名 MonaJuventa 與 didymin 在原料、添加物都是 0 筆。全草列名不是這支萃取已有毫克上限。",
+        "lookupDate": "2026-11-21",
+        "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+        "officialCrosscheck": {
+          "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+          "done": true,
+          "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+          "notes": "2026-11-21 連線 consumer.fda.gov.tw 在 TLS 交握出現 SSL_ERROR_SYSCALL，沒有取得官方詳細頁。蜂香薄荷詳細頁網址是 MaterialDetail id 16959。全草、可供直接食用、備註空白，與助手一致。siteTotals 原料 1709、添加物 804。"
+        },
+        "queries": [
+          {
+            "category": "",
+            "keyword": "蜂香薄荷",
+            "matchedName": "蜂香薄荷",
+            "note": "沒有寫萃取，也沒有毫克。",
+            "restrictionNote": "Beebalm。Monarda didyma L.。部位全草。次分類為草木本植物類可供直接食用。備註空白。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Monarda",
+            "matchedName": "蜂香薄荷",
+            "note": "屬名命中 didyma 這一列。",
+            "restrictionNote": "與「蜂香薄荷」同一筆。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "MonaJuventa",
+            "matchedName": "",
+            "note": "商品名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "didymin",
+            "matchedName": "",
+            "note": "公司頁提到的黃酮沒有單獨列名。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "蜂香薄荷",
+            "matchedName": "",
+            "note": "添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Monarda",
+            "matchedName": "",
+            "note": "添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "蜂香薄荷",
+            "matchedName": "",
+            "note": "助手更新歷程（2026-11-01 至 2026-11-21）沒有這筆異動。資料時間戳 2026-11-21 06:17。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "history",
+            "unconfirmedSafety": false
+          }
+        ],
+        "usable": "listed_food_ingredient"
+      }
+    },
+    {
+      "discovery": {
+        "channel": "industry_report",
         "notes": "從 Mordor Intelligence 2026 乳鐵蛋白市場報告進入，再對森永研發頁、兩篇森永 RCT、Google Patents 與登盛台灣頁。",
         "scoutDate": "2026-11-09"
       },
@@ -25201,6 +26564,188 @@
     {
       "discovery": {
         "channel": "news",
+        "notes": "從 NutraIngredients 2026-11-10 的 RedLeaf 市場報導進入公司產品頁、2025-09-22 的試驗報導與 US20250064094A1。甜高粱糖漿沒有拿來當成這支萃取的列名。",
+        "scoutDate": "2026-11-21"
+      },
+      "efficacy": {
+        "claimedBenefits": [
+          "NutraIngredients 2026-11-10：RedLeaf 準備放大 ReDaxin 產能，並把後續人體試驗的方向寫成氧化壓力、發炎與恢復。同一篇寫 2025 年第一篇人體研究已發表，主題是運動後肌力恢復。健康老化與寵物是公司正在看的市場，不是這篇已完成的人體終點。",
+          "公司產品頁寫萃取物多酚高於 20%，並寫每日 250 mg 與 500 mg。頁上的摘要是肌力恢復最多約 5 倍、恢復期痠痛最多約降 27%。",
+          "2025-09-22 對同一篇試驗的報導寫：29 名健康男性、每日 250 mg 或 500 mg、約 17–18 天。兩劑量的肌力恢復都快於安慰劑；腫脹、自覺疼痛或恢復感與安慰劑沒有差別。公司頁的痠痛降幅與這段「沒有差別」並存，不把其中一句改掉。"
+        ],
+        "dosageNote": "這是供應商頁與該試驗的每日量，不是平台上限。平台沒有這支萃取的列名。甜高粱糖漿是另一筆，不能拿來當成已列名。",
+        "suggestedDosage": "公司頁與 2025 年那篇試驗寫每日 250 mg 或 500 mg。"
+      },
+      "evidenceLevels": [
+        "clinical"
+      ],
+      "example": false,
+      "id": "redaxin",
+      "images": [
+        {
+          "caption": "RedLeaf ReDaxin 產品頁使用的圖片。",
+          "localPath": "",
+          "source": "official_site",
+          "url": "https://redleafbiologics.com/wp-content/uploads/2025/07/plant-cell-1.jpg"
+        }
+      ],
+      "literature": {
+        "note": "肌力恢復與痠痛結論以報導裡對論文的兩句話分開記。公司頁的 5 倍與 27% 沒有在這次打開的全文裡核對。",
+        "refs": [
+          {
+            "note": "Journal of Strength and Conditioning Research，2025。DOI 與 29 人、250 mg、500 mg 的設計來自 2025-09-22 報導。這次沒有打開期刊全文。",
+            "title": "Polyphenol-Rich Sorghum Bicolor Extract Enhances Strength Recovery After Eccentric Exercise",
+            "url": "https://doi.org/10.1519/JSC.0000000000005144"
+          }
+        ],
+        "status": "yes"
+      },
+      "names": {
+        "commonEn": "red sorghum extract",
+        "commonZh": "紅高粱萃取（多酚）",
+        "scientific": "Sorghum bicolor（2025-09-22 報導標題寫葉萃取。2026-11-10 報導寫非基改紅高粱品種的專有萃取，沒有再寫葉。不是平台上的甜高粱糖漿，那個部位是莖桿。）",
+        "trade": "ReDaxin（RedLeaf Biologics 的紅高粱萃取商品名）"
+      },
+      "patent": {
+        "note": "有公開申請。沒有把申請公開號寫成已核准的專利號。",
+        "refs": [
+          {
+            "note": "Justia 將同一公開號標成申請，申請人 RedLeaf Biologics，申請日 2023-02-02，公開日 2025-02-27。這次沒有打開美國登記簿確認是否已核准。讀取日 2026-11-21。",
+            "title": "US20250064094A1 Compositions for food coloring and antioxidant supplementation derived from sorghum",
+            "url": "https://patents.google.com/patent/US20250064094A1"
+          }
+        ],
+        "status": "yes"
+      },
+      "sources": [
+        {
+          "accessed": "2026-11-21",
+          "channel": "news",
+          "publisher": "NutraIngredients",
+          "title": "Start-Up Stars winner RedLeaf eyes new markets",
+          "url": "https://www.nutraingredients.com/Article/2026/11/10/start-up-stars-winner-redleaf-eyes-new-markets/",
+          "whatItContributes": "2026-11-10 報導 ReDaxin 放大產能、2025 年肌力恢復研究，以及公司把下一階段放在氧化壓力與恢復。"
+        },
+        {
+          "accessed": "2026-11-21",
+          "channel": "supplier_site",
+          "publisher": "RedLeaf Biologics",
+          "title": "ReDaxin",
+          "url": "https://redleafbiologics.com/redaxin/",
+          "whatItContributes": "商品名、多酚高於 20%，以及 250 mg、500 mg 與公司自己的恢復摘要。"
+        },
+        {
+          "accessed": "2026-11-21",
+          "channel": "news",
+          "publisher": "NutraIngredients",
+          "title": "Red sorghum leaf extract may accelerate post-exercise strength recovery",
+          "url": "https://www.nutraingredients.com/Article/2025/09/22/red-sorghum-leaf-extract-may-accelerate-post-exercise-strength-recovery/",
+          "whatItContributes": "29 人、劑量、天數，以及肌力恢復與自覺疼痛結論不一致的地方。"
+        },
+        {
+          "accessed": "2026-11-21",
+          "channel": "patent",
+          "publisher": "Google Patents",
+          "title": "US20250064094A1",
+          "url": "https://patents.google.com/patent/US20250064094A1",
+          "whatItContributes": "高粱來源著色與抗氧化組成的公開申請。"
+        }
+      ],
+      "supply": {
+        "relationship": "unknown",
+        "relationshipNote": "2026-11-21 以 ReDaxin、Redaxin、RedLeaf、紅高粱萃取、red sorghum、Sorghum bicolor，搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索。打開 RedLeaf 產品頁，以及 Barrington Nutritionals 的 ReDaxin 頁；後者是美國原料頁，沒有台灣公司。同日再用「ReDaxin 台灣 原料」獨立複查，仍沒有寫明代理或經銷的台灣廠商頁。查核日 2026-11-21。",
+        "supplierCountry": "美國",
+        "supplierName": "RedLeaf Biologics",
+        "taiwanPartyName": "本次查無台灣關聯廠商"
+      },
+      "tfda": {
+        "evidenceNotes": "商品名 ReDaxin 與「高粱葉」在原料、添加物都是 0 筆。學名 Sorghum bicolor 只命中甜高粱糖漿（id 17421），部位是莖桿，備註是經良好製程的糖漿，不是這支多酚萃取。這不是准用，也不是禁用結論。",
+        "lookupDate": "2026-11-21",
+        "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+        "officialCrosscheck": {
+          "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+          "done": false,
+          "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+          "notes": "2026-11-21 連線 consumer.fda.gov.tw 在 TLS 交握出現 SSL_ERROR_SYSCALL。助手側沒有高粱葉或多酚萃取可核對的詳細頁。甜高粱糖漿詳細頁網址是 MaterialDetail id 17421，部位是莖桿。siteTotals 原料 1709、添加物 804。"
+        },
+        "queries": [
+          {
+            "category": "",
+            "keyword": "ReDaxin",
+            "matchedName": "",
+            "note": "商品名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "高粱葉",
+            "matchedName": "",
+            "note": "葉這個部位 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "高粱",
+            "matchedName": "甜高粱糖漿",
+            "note": "不是葉或多酚萃取。",
+            "restrictionNote": "Sorghum bicolor。部位莖桿。經良好製程加工及品管所得之糖漿。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Sorghum",
+            "matchedName": "甜高粱糖漿",
+            "note": "學名命中的是莖桿糖漿。",
+            "restrictionNote": "與「高粱」同一筆糖漿。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "高粱",
+            "matchedName": "",
+            "note": "添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "ReDaxin",
+            "matchedName": "",
+            "note": "商品名在添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "高粱",
+            "matchedName": "",
+            "note": "助手更新歷程（2026-11-01 至 2026-11-21）沒有這筆異動。資料時間戳 2026-11-21 06:17。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "history",
+            "unconfirmedSafety": false
+          }
+        ],
+        "usable": "not_found"
+      }
+    },
+    {
+      "discovery": {
+        "channel": "news",
         "notes": "從 NutraIngredients 2026-10-08 的獲獎報導進入 Reducose，再對 Phynova 產品頁、PubMed 38892603 與 US11484561B2。台灣關聯打開生資的 2026-10 說明頁、2025-03 新聞頁與成分頁。",
         "scoutDate": "2026-11-16"
       },
@@ -27741,6 +29286,211 @@
     {
       "discovery": {
         "channel": "news",
+        "notes": "從 NutraIngredients 2026-10-09 的咖啡因與動脈僵硬度報導進入 Food & Function 兩篇、原廠 TruBeet 頁與印度專利頁，再打開遠景與良勵的台灣頁。南甜菜樹沒有併成這支原料。",
+        "scoutDate": "2026-11-21"
+      },
+      "efficacy": {
+        "claimedBenefits": [
+          "NutraIngredients 2026-10-09：以 TruBeet 供應的試驗寫，24 名健康成人、硝酸鹽約 400 mg 的甜菜根粉，可抵銷咖啡因造成的動脈僵硬度上升。肱動脈血壓、中心血壓與巨血管內皮功能在該篇摘要裡沒有相對安慰劑改變。",
+          "Food & Function 劑量試驗：17 名健康男性，硝酸鹽 200、400 或 800 mg。動脈僵硬度三個劑量都有改善；內皮功能只在 400 mg；主動脈收縮壓只在 800 mg。肱動脈血壓沒有改善。",
+          "原廠頁寫這是專利製程的紅甜菜根萃取，不含外加亞硝酸鹽與合成硝酸鹽，並寫草酸檢測為完全沒有。印度專利請求項寫組成物的草酸低於 0.01%。兩句都留下。"
+        ],
+        "dosageNote": "上述毫克是試驗或專利請求項，不是平台上限。平台沒有甜菜根這一列。硝酸鹽百分比也不一致：遠景 2020 頁寫 Nitrate 大於 6%，良勵頁寫 6%；原廠頁寫比一般 1%–3% 的粉高約 2–6 倍；專利請求項寫 3%–10%。不改成單一規格。",
+        "suggestedDosage": "打開的人體試驗以硝酸鹽計為 200、400 或 800 mg。印度專利請求項另寫組成物每日 400–600 mg、連續 6 天。原廠 2026 頁沒有寫一個每日粉末毫克。"
+      },
+      "evidenceLevels": [
+        "clinical"
+      ],
+      "example": false,
+      "id": "trubeet",
+      "images": [
+        {
+          "caption": "Bio-gen TruBeet 產品頁圖片。",
+          "localPath": "",
+          "source": "official_site",
+          "url": "https://bio-gen.in/assets/images/products/trubeet-img0001.png"
+        }
+      ],
+      "literature": {
+        "note": "兩篇都是急性、小樣本。內皮功能、動脈僵硬度與血壓不是同一個劑量都有同樣結果。",
+        "refs": [
+          {
+            "note": "Food & Function。隨機、雙盲、交叉。硝酸鹽 200、400、800 mg，樣品寫 TruBeet。這次讀的是期刊頁的方法與結論。",
+            "title": "The dose–response effects of nitrate-rich beetroot ingestion on cardiovascular and endothelial function",
+            "url": "https://doi.org/10.1039/d5fo05298j"
+          },
+          {
+            "note": "Food & Function，2026，17，8145。24 人、約 400 mg 硝酸鹽的 TruBeet，與咖啡因交叉。這次讀的是期刊頁。",
+            "title": "Acute dietary nitrate supplementation attenuates caffeine-induced increase in arterial stiffness",
+            "url": "https://pubs.rsc.org/fo/article/17/18/8145/1294700/Acute-dietary-nitrate-supplementation-attenuates"
+          }
+        ],
+        "status": "yes"
+      },
+      "names": {
+        "commonEn": "nitrate-rich beetroot extract",
+        "commonZh": "甜菜根萃取物（硝酸鹽）",
+        "scientific": "Beta vulgaris（根。原廠頁寫紅甜菜根的無機硝酸鹽。不是未確認的南甜菜樹 Melientha suavis。）",
+        "trade": "TruBeet（Bio-gen Extracts 的甜菜根萃取商品名）"
+      },
+      "patent": {
+        "note": "依 QuickCompany 頁的 Granted。美國專利 US10967294B1 申請人是 ThermoLife，不是這家，不計入。",
+        "refs": [
+          {
+            "note": "申請人 Bio-gen Extracts。頁面寫公開號 13/2024、狀態 Granted、核准日 2025-08-20。專利號欄是空的，這次沒有另填號碼。讀取日 2026-11-21。",
+            "title": "Composition And Method Comprising Beetroot Extract",
+            "url": "https://www.quickcompany.in/patents/composition-and-method-comprising-beetroot-extract"
+          }
+        ],
+        "status": "yes"
+      },
+      "sources": [
+        {
+          "accessed": "2026-11-21",
+          "channel": "news",
+          "publisher": "NutraIngredients",
+          "title": "Study links beetroot to reduced caffeine-induced stiffness",
+          "url": "https://www.nutraingredients.com/Article/2026/10/09/study-links-beetroot-to-reduced-caffeine-induced-stiffness/",
+          "whatItContributes": "2026-10-09 報導 TruBeet 與咖啡因、動脈僵硬度的試驗方向。"
+        },
+        {
+          "accessed": "2026-11-21",
+          "channel": "supplier_site",
+          "publisher": "Bio-gen Extracts",
+          "title": "TruBeet",
+          "url": "https://bio-gen.in/trubeet/",
+          "whatItContributes": "商品名、Beta vulgaris、可用國家含 Taiwan，以及草酸與硝酸鹽倍數的原廠說法。"
+        },
+        {
+          "accessed": "2026-11-21",
+          "channel": "paper",
+          "publisher": "Food & Function",
+          "title": "DOI 10.1039/d5fo05298j",
+          "url": "https://doi.org/10.1039/d5fo05298j",
+          "whatItContributes": "200、400、800 mg 硝酸鹽對內皮功能、動脈僵硬度與主動脈收縮壓的差別。"
+        },
+        {
+          "accessed": "2026-11-21",
+          "channel": "other",
+          "publisher": "遠景股份有限公司",
+          "title": "賀！TruBeet 榮獲 2026 NutraIngredients-Asia Awards",
+          "url": "https://www.food7-11.com/news/content/83",
+          "whatItContributes": "遠景自述為 TruBeet 台灣代理。不是原廠經銷名單。"
+        },
+        {
+          "accessed": "2026-11-21",
+          "channel": "other",
+          "publisher": "良勵生物科技",
+          "title": "甜菜根萃取物",
+          "url": "https://www.pharmachief.com.tw/news_detail/94.htm",
+          "whatItContributes": "另一家台灣頁寫 6% 硝酸鹽與代工劑型，放在品牌原料代理分類，沒有寫代理句。"
+        }
+      ],
+      "supply": {
+        "relationship": "taiwan_agent",
+        "relationshipNote": "2026-11-21 以 TruBeet、Trubeet、Bio-gen、甜菜根萃取、beetroot、Beta vulgaris，搭配台灣、臺灣、Taiwan、代理、總代理、經銷檢索。遠景 2026-09-23 新聞寫「身為 TruBeet® 台灣代理商」，側欄寫「遠景代理之」。這是遠景自述。同日打開的原廠頁只把 Taiwan 列在可用國家，沒有寫遠景或獨家。良勵頁放在「品牌原料代理」分類，內文寫水代法、6% 硝酸鹽與代工劑型，沒有寫「本公司是台灣代理」。兩頁都留下，不把其中一家升成原廠證實的獨家代理。查核日 2026-11-21。",
+        "supplierCountry": "印度",
+        "supplierName": "Bio-gen Extracts",
+        "taiwanPartyName": "遠景股份有限公司（自述 TruBeet 台灣代理）；良勵生物科技另有產品頁"
+      },
+      "tfda": {
+        "evidenceNotes": "商品名 TruBeet、學名 Beta vulgaris、甜菜根與紅菜頭在原料、添加物都是 0 筆。關鍵字「甜菜」命中的是未確認的南甜菜樹（Melientha suavis，id 16223），學名不同，不是這支甜菜根萃取。查無不是准用。",
+        "lookupDate": "2026-11-21",
+        "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+        "officialCrosscheck": {
+          "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+          "done": false,
+          "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+          "notes": "2026-11-21 連線 consumer.fda.gov.tw 在 TLS 交握出現 SSL_ERROR_SYSCALL。助手側沒有 Beta vulgaris 可核對的詳細頁。南甜菜樹詳細頁網址是 MaterialDetail id 16223，學名不是這支原料。siteTotals 原料 1709、添加物 804。"
+        },
+        "queries": [
+          {
+            "category": "",
+            "keyword": "TruBeet",
+            "matchedName": "",
+            "note": "商品名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Beta vulgaris",
+            "matchedName": "",
+            "note": "甜菜學名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "甜菜根",
+            "matchedName": "",
+            "note": "中文部位名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "紅菜頭",
+            "matchedName": "",
+            "note": "另一個中文俗名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "甜菜",
+            "matchedName": "南甜菜樹",
+            "note": "未確認的是另一種植物。不是 Beta vulgaris。",
+            "restrictionNote": "Melientha suavis。未經確認其食用安全性前，不得供為食品原料使用。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": true
+          },
+          {
+            "category": "",
+            "keyword": "甜菜",
+            "matchedName": "",
+            "note": "添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "beet",
+            "matchedName": "",
+            "note": "英文在添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "甜菜",
+            "matchedName": "",
+            "note": "助手更新歷程（2026-11-01 至 2026-11-21）沒有這筆異動。資料時間戳 2026-11-21 06:17。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "history",
+            "unconfirmedSafety": false
+          }
+        ],
+        "usable": "not_found"
+      }
+    },
+    {
+      "discovery": {
+        "channel": "news",
         "notes": "從 2026-02-19 的 TrueBroc 新聞稿進入，再對 Scientific Reports、Brassica 產品頁與台灣卡爾迪克原料頁。原廠仍寫 Connell Brothers，對到同一地址的卡爾迪克與 2025 年改名公告。",
         "scoutDate": "2026-11-15"
       },
@@ -28469,6 +30219,234 @@
           }
         ],
         "usable": "listed_food_ingredient"
+      }
+    },
+    {
+      "discovery": {
+        "channel": "exhibition",
+        "notes": "從 Nutraceuticals World 的 SupplySide Global 2026 展場報導進入 Everwell 的 VitaliG 頁，再對 US7989006B2、2023 年試驗與自認 GRAS 報導。德和的化學品頁沒有併成品牌代理。紅木種子的香辛調味列名沒有寫成這支濃縮物的毫克上限。",
+        "scoutDate": "2026-11-21"
+      },
+      "efficacy": {
+        "claimedBenefits": [
+          "Everwell 產品頁寫 VitaliG 是胭脂樹來源的高濃度香葉基香葉醇，並寫可能支持細胞訊息與細胞功能。睪固酮那一句標成探索性分析：基線偏低到正常範圍的男性。頁上這次沒有寫每日毫克。",
+          "2023 年隨機雙盲對照、劑量遞增試驗：66 名 30–49 歲成人，前 4 週每日 150 mg GG-Gold，其後 4 週每日 300 mg。全組的血球、代謝與性荷爾蒙沒有顯著變化。基線總睪固酮低於 700 ng/dL 的男性子群，總睪固酮、游離與生物可利用睪固酮上升，論文自己標成探索性分析。",
+          "Nutraceuticals World 報導 American River 的自認 GRAS：獨立專家小組審查後，營養棒、運動飲料、粉末與巧克力每份最多 250 mg。這是報導裡的自認，不是這次打開的 FDA no-objection 函。"
+        ],
+        "dosageNote": "150 mg、300 mg 是試驗劑量，250 mg 是那篇自認 GRAS 報導的食品份量。都不是平台上限。紅木列名只寫香辛調味、適量。",
+        "suggestedDosage": "打開的 8 週試驗是每日 150 mg，4 週後改每日 300 mg。自認 GRAS 的報導寫特定食品每份最多 250 mg。原廠 VitaliG 頁沒有寫一個每日毫克。"
+      },
+      "evidenceLevels": [
+        "clinical"
+      ],
+      "example": false,
+      "id": "vitalig",
+      "images": [
+        {
+          "caption": "Everwell VitaliG 頁使用的 GG-Gold 圖片。",
+          "localPath": "",
+          "source": "official_site",
+          "url": "https://everwellhealth.com/wp-content/uploads/2025/12/about-gggold.jpg"
+        }
+      ],
+      "literature": {
+        "note": "全組沒有顯著荷爾蒙變化。探索性子群的上升不寫成整體結果。",
+        "refs": [
+          {
+            "note": "Nutraceuticals，2023。GG-Gold，150 mg 再 300 mg，66 人。NCT05258513。睪固酮子群是探索性分析。這次讀的是論文頁的摘要與方法。",
+            "title": "The Effects of Geranylgeraniol on Blood Safety and Sex Hormone Profiles in Healthy Adults",
+            "url": "https://doi.org/10.3390/nutraceuticals3040043"
+          }
+        ],
+        "status": "yes"
+      },
+      "names": {
+        "commonEn": "annatto-derived geranylgeraniol",
+        "commonZh": "香葉基香葉醇（胭脂樹來源）",
+        "scientific": "化合物是香葉基香葉醇。來源植物是 Bixa orellana。Everwell 2026 頁寫從胭脂樹植物萃取。US7989006B2 標題是含香葉基香葉醇的胭脂樹萃取物。NXT 原料頁寫種子。三處部位用詞不同，都留下。不是只供香辛調味的紅木種子本身。",
+        "trade": "VitaliG（Everwell Health 的商品名；原名 GG-Gold，American River Nutrition）"
+      },
+      "patent": {
+        "note": "這件是胭脂樹萃取組成。沒有把同一公司的生育三烯酚商品 DeltaGold 另計成這支的第二件專利。",
+        "refs": [
+          {
+            "note": "發明人 Barrie Tan，申請人 American River Nutrition。標題同時涵蓋香葉基香葉醇與無生育醇的生育三烯酚。讀取日 2026-11-21。成品標示頁也把 US 7,989,006 寫在 GG-Gold 上。",
+            "title": "US7989006B2 Annatto extract compositions, including geranyl geraniols and methods of use",
+            "url": "https://patents.google.com/patent/US7989006B2"
+          }
+        ],
+        "status": "yes"
+      },
+      "sources": [
+        {
+          "accessed": "2026-11-21",
+          "channel": "exhibition",
+          "publisher": "Nutraceuticals World",
+          "title": "Everwell Health to Highlight Role of Functional Ingredients in Cellular Function",
+          "url": "https://www.nutraceuticalsworld.com/live_from_shows/everwell-health-to-highlight-role-of-functional-ingredients-in-cellular-function/",
+          "whatItContributes": "SupplySide Global 2026 展場報導把 VitaliG 寫成 GG-Gold 的新名稱，來源是胭脂樹。"
+        },
+        {
+          "accessed": "2026-11-21",
+          "channel": "supplier_site",
+          "publisher": "Everwell Health",
+          "title": "VitaliG",
+          "url": "https://everwellhealth.com/vitalig/",
+          "whatItContributes": "商品名、香葉基香葉醇，以及細胞功能與探索性睪固酮的原廠說法。"
+        },
+        {
+          "accessed": "2026-11-21",
+          "channel": "patent",
+          "publisher": "Google Patents",
+          "title": "US7989006B2",
+          "url": "https://patents.google.com/patent/US7989006B2",
+          "whatItContributes": "American River Nutrition 的胭脂樹萃取專利，標題含香葉基香葉醇。"
+        },
+        {
+          "accessed": "2026-11-21",
+          "channel": "paper",
+          "publisher": "Nutraceuticals",
+          "title": "DOI 10.3390/nutraceuticals3040043",
+          "url": "https://doi.org/10.3390/nutraceuticals3040043",
+          "whatItContributes": "150 mg 與 300 mg、66 人，以及全組與探索性子群的差別。"
+        },
+        {
+          "accessed": "2026-11-21",
+          "channel": "industry_report",
+          "publisher": "Nutraceuticals World",
+          "title": "American River Nutrition Affirms GRAS Status of Geranylgeraniol Ingredient",
+          "url": "https://www.nutraceuticalsworld.com/breaking-news/american-river-nutritions-geranylgeraniol-ingredient-achieves-self-affirmed-gras/",
+          "whatItContributes": "自認 GRAS，以及特定食品每份最多 250 mg 的報導。"
+        },
+        {
+          "accessed": "2026-11-21",
+          "channel": "other",
+          "publisher": "台灣德和精化",
+          "title": "GERANYL GERANIOL",
+          "url": "https://www.tekho.com/products/fine-chemicals/geranyl-geraniol",
+          "whatItContributes": "台灣頁販售 CAS 24034-73-9 的化學品，沒有寫 VitaliG 或胭脂樹，不計成這個商品的代理。"
+        }
+      ],
+      "supply": {
+        "relationship": "unknown",
+        "relationshipNote": "2026-11-21 以 VitaliG、GG-Gold、GG Gold、geranylgeraniol、香葉基香葉醇、American River、Everwell、胭脂樹，搭配台灣、臺灣、Taiwan、代理、總代理、經銷檢索。打開德和精化的香葉基香葉醇頁：CAS 24034-73-9、含量至少 95%，沒有寫 VitaliG、GG-Gold 或胭脂樹。同化合物不算這個商品的代理。AIDP 與 American River 的獨家銷售新聞寫的是北美。同日再用「GG-Gold 台灣 經銷」獨立複查，沒有寫明這個商品代理的台灣廠商頁。查核日 2026-11-21。",
+        "supplierCountry": "美國",
+        "supplierName": "Everwell Health（原 American River Nutrition）",
+        "taiwanPartyName": "本次查無台灣關聯廠商"
+      },
+      "tfda": {
+        "evidenceNotes": "商品名 VitaliG、GG-Gold 與香葉基香葉醇在原料、添加物都是 0 筆，也沒有出現在未確認分類。紅木（id 17268）種子有列，備註只寫可作香辛調味、適量，沒有毫克。這支濃縮物不能直接套成那一筆。",
+        "lookupDate": "2026-11-21",
+        "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+        "officialCrosscheck": {
+          "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+          "done": true,
+          "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+          "notes": "2026-11-21 連線 consumer.fda.gov.tw 在 TLS 交握出現 SSL_ERROR_SYSCALL，沒有取得官方詳細頁。紅木詳細頁網址是 MaterialDetail id 17268。香辛調味、適量使用的備註與助手一致。香葉基香葉醇沒有單獨詳細頁。siteTotals 原料 1709、添加物 804。"
+        },
+        "queries": [
+          {
+            "category": "",
+            "keyword": "VitaliG",
+            "matchedName": "",
+            "note": "新商品名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "GG-Gold",
+            "matchedName": "",
+            "note": "舊商品名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "香葉基香葉醇",
+            "matchedName": "",
+            "note": "化合物中文名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "geranylgeraniol",
+            "matchedName": "",
+            "note": "化合物英文名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "紅木",
+            "matchedName": "紅木；胭脂樹",
+            "note": "有列名的是種子調味，不是香葉基香葉醇濃縮物。",
+            "restrictionNote": "annatto, lipstick tree。Bixa orellana。部位種子。可作為香味或風味，僅以香辛調味目的、適量使用。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Bixa orellana",
+            "matchedName": "紅木；胭脂樹",
+            "note": "學名命中種子那一列。",
+            "restrictionNote": "與「紅木」同一筆。香辛調味、適量。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "紅木",
+            "matchedName": "",
+            "note": "添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "胭脂",
+            "matchedName": "",
+            "note": "添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "annatto",
+            "matchedName": "",
+            "note": "添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "紅木",
+            "matchedName": "",
+            "note": "助手更新歷程（2026-11-01 至 2026-11-21）沒有這筆異動。資料時間戳 2026-11-21 06:17。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "history",
+            "unconfirmedSafety": false
+          }
+        ],
+        "usable": "needs_review"
       }
     },
     {

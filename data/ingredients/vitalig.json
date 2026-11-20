@@ -1,0 +1,228 @@
+{
+  "id": "vitalig",
+  "example": false,
+  "names": {
+    "commonZh": "香葉基香葉醇（胭脂樹來源）",
+    "commonEn": "annatto-derived geranylgeraniol",
+    "trade": "VitaliG（Everwell Health 的商品名；原名 GG-Gold，American River Nutrition）",
+    "scientific": "化合物是香葉基香葉醇。來源植物是 Bixa orellana。Everwell 2026 頁寫從胭脂樹植物萃取。US7989006B2 標題是含香葉基香葉醇的胭脂樹萃取物。NXT 原料頁寫種子。三處部位用詞不同，都留下。不是只供香辛調味的紅木種子本身。"
+  },
+  "supply": {
+    "supplierName": "Everwell Health（原 American River Nutrition）",
+    "supplierCountry": "美國",
+    "relationship": "unknown",
+    "taiwanPartyName": "本次查無台灣關聯廠商",
+    "relationshipNote": "2026-11-21 以 VitaliG、GG-Gold、GG Gold、geranylgeraniol、香葉基香葉醇、American River、Everwell、胭脂樹，搭配台灣、臺灣、Taiwan、代理、總代理、經銷檢索。打開德和精化的香葉基香葉醇頁：CAS 24034-73-9、含量至少 95%，沒有寫 VitaliG、GG-Gold 或胭脂樹。同化合物不算這個商品的代理。AIDP 與 American River 的獨家銷售新聞寫的是北美。同日再用「GG-Gold 台灣 經銷」獨立複查，沒有寫明這個商品代理的台灣廠商頁。查核日 2026-11-21。"
+  },
+  "tfda": {
+    "usable": "needs_review",
+    "evidenceNotes": "商品名 VitaliG、GG-Gold 與香葉基香葉醇在原料、添加物都是 0 筆，也沒有出現在未確認分類。紅木（id 17268）種子有列，備註只寫可作香辛調味、適量，沒有毫克。這支濃縮物不能直接套成那一筆。",
+    "lookupDate": "2026-11-21",
+    "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+    "queries": [
+      {
+        "tab": "ingredient",
+        "keyword": "VitaliG",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "新商品名 0 筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "GG-Gold",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "舊商品名 0 筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "香葉基香葉醇",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "化合物中文名 0 筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "geranylgeraniol",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "化合物英文名 0 筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "紅木",
+        "category": "",
+        "resultCount": 1,
+        "matchedName": "紅木；胭脂樹",
+        "restrictionNote": "annatto, lipstick tree。Bixa orellana。部位種子。可作為香味或風味，僅以香辛調味目的、適量使用。",
+        "unconfirmedSafety": false,
+        "note": "有列名的是種子調味，不是香葉基香葉醇濃縮物。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Bixa orellana",
+        "category": "",
+        "resultCount": 1,
+        "matchedName": "紅木；胭脂樹",
+        "restrictionNote": "與「紅木」同一筆。香辛調味、適量。",
+        "unconfirmedSafety": false,
+        "note": "學名命中種子那一列。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "紅木",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "添加物 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "胭脂",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "添加物 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "annatto",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "添加物 0 筆。"
+      },
+      {
+        "tab": "history",
+        "keyword": "紅木",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "助手更新歷程（2026-11-01 至 2026-11-21）沒有這筆異動。資料時間戳 2026-11-21 06:17。"
+      }
+    ],
+    "officialCrosscheck": {
+      "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+      "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+      "done": true,
+      "notes": "2026-11-21 連線 consumer.fda.gov.tw 在 TLS 交握出現 SSL_ERROR_SYSCALL，沒有取得官方詳細頁。紅木詳細頁網址是 MaterialDetail id 17268。香辛調味、適量使用的備註與助手一致。香葉基香葉醇沒有單獨詳細頁。siteTotals 原料 1709、添加物 804。"
+    }
+  },
+  "efficacy": {
+    "claimedBenefits": [
+      "Everwell 產品頁寫 VitaliG 是胭脂樹來源的高濃度香葉基香葉醇，並寫可能支持細胞訊息與細胞功能。睪固酮那一句標成探索性分析：基線偏低到正常範圍的男性。頁上這次沒有寫每日毫克。",
+      "2023 年隨機雙盲對照、劑量遞增試驗：66 名 30–49 歲成人，前 4 週每日 150 mg GG-Gold，其後 4 週每日 300 mg。全組的血球、代謝與性荷爾蒙沒有顯著變化。基線總睪固酮低於 700 ng/dL 的男性子群，總睪固酮、游離與生物可利用睪固酮上升，論文自己標成探索性分析。",
+      "Nutraceuticals World 報導 American River 的自認 GRAS：獨立專家小組審查後，營養棒、運動飲料、粉末與巧克力每份最多 250 mg。這是報導裡的自認，不是這次打開的 FDA no-objection 函。"
+    ],
+    "suggestedDosage": "打開的 8 週試驗是每日 150 mg，4 週後改每日 300 mg。自認 GRAS 的報導寫特定食品每份最多 250 mg。原廠 VitaliG 頁沒有寫一個每日毫克。",
+    "dosageNote": "150 mg、300 mg 是試驗劑量，250 mg 是那篇自認 GRAS 報導的食品份量。都不是平台上限。紅木列名只寫香辛調味、適量。"
+  },
+  "patent": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "US7989006B2 Annatto extract compositions, including geranyl geraniols and methods of use",
+        "url": "https://patents.google.com/patent/US7989006B2",
+        "note": "發明人 Barrie Tan，申請人 American River Nutrition。標題同時涵蓋香葉基香葉醇與無生育醇的生育三烯酚。讀取日 2026-11-21。成品標示頁也把 US 7,989,006 寫在 GG-Gold 上。"
+      }
+    ],
+    "note": "這件是胭脂樹萃取組成。沒有把同一公司的生育三烯酚商品 DeltaGold 另計成這支的第二件專利。"
+  },
+  "literature": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "The Effects of Geranylgeraniol on Blood Safety and Sex Hormone Profiles in Healthy Adults",
+        "url": "https://doi.org/10.3390/nutraceuticals3040043",
+        "note": "Nutraceuticals，2023。GG-Gold，150 mg 再 300 mg，66 人。NCT05258513。睪固酮子群是探索性分析。這次讀的是論文頁的摘要與方法。"
+      }
+    ],
+    "note": "全組沒有顯著荷爾蒙變化。探索性子群的上升不寫成整體結果。"
+  },
+  "evidenceLevels": [
+    "clinical"
+  ],
+  "images": [
+    {
+      "url": "https://everwellhealth.com/wp-content/uploads/2025/12/about-gggold.jpg",
+      "localPath": "",
+      "caption": "Everwell VitaliG 頁使用的 GG-Gold 圖片。",
+      "source": "official_site"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Everwell Health to Highlight Role of Functional Ingredients in Cellular Function",
+      "url": "https://www.nutraceuticalsworld.com/live_from_shows/everwell-health-to-highlight-role-of-functional-ingredients-in-cellular-function/",
+      "publisher": "Nutraceuticals World",
+      "channel": "exhibition",
+      "accessed": "2026-11-21",
+      "whatItContributes": "SupplySide Global 2026 展場報導把 VitaliG 寫成 GG-Gold 的新名稱，來源是胭脂樹。"
+    },
+    {
+      "title": "VitaliG",
+      "url": "https://everwellhealth.com/vitalig/",
+      "publisher": "Everwell Health",
+      "channel": "supplier_site",
+      "accessed": "2026-11-21",
+      "whatItContributes": "商品名、香葉基香葉醇，以及細胞功能與探索性睪固酮的原廠說法。"
+    },
+    {
+      "title": "US7989006B2",
+      "url": "https://patents.google.com/patent/US7989006B2",
+      "publisher": "Google Patents",
+      "channel": "patent",
+      "accessed": "2026-11-21",
+      "whatItContributes": "American River Nutrition 的胭脂樹萃取專利，標題含香葉基香葉醇。"
+    },
+    {
+      "title": "DOI 10.3390/nutraceuticals3040043",
+      "url": "https://doi.org/10.3390/nutraceuticals3040043",
+      "publisher": "Nutraceuticals",
+      "channel": "paper",
+      "accessed": "2026-11-21",
+      "whatItContributes": "150 mg 與 300 mg、66 人，以及全組與探索性子群的差別。"
+    },
+    {
+      "title": "American River Nutrition Affirms GRAS Status of Geranylgeraniol Ingredient",
+      "url": "https://www.nutraceuticalsworld.com/breaking-news/american-river-nutritions-geranylgeraniol-ingredient-achieves-self-affirmed-gras/",
+      "publisher": "Nutraceuticals World",
+      "channel": "industry_report",
+      "accessed": "2026-11-21",
+      "whatItContributes": "自認 GRAS，以及特定食品每份最多 250 mg 的報導。"
+    },
+    {
+      "title": "GERANYL GERANIOL",
+      "url": "https://www.tekho.com/products/fine-chemicals/geranyl-geraniol",
+      "publisher": "台灣德和精化",
+      "channel": "other",
+      "accessed": "2026-11-21",
+      "whatItContributes": "台灣頁販售 CAS 24034-73-9 的化學品，沒有寫 VitaliG 或胭脂樹，不計成這個商品的代理。"
+    }
+  ],
+  "discovery": {
+    "channel": "exhibition",
+    "scoutDate": "2026-11-21",
+    "notes": "從 Nutraceuticals World 的 SupplySide Global 2026 展場報導進入 Everwell 的 VitaliG 頁，再對 US7989006B2、2023 年試驗與自認 GRAS 報導。德和的化學品頁沒有併成品牌代理。紅木種子的香辛調味列名沒有寫成這支濃縮物的毫克上限。"
+  }
+}

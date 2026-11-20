@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-21",
+  "example": false,
+  "title": "2026-11-21 正式日報",
+  "targetCount": 5,
+  "channelsCovered": [
+    "news",
+    "exhibition",
+    "industry_report"
+  ],
+  "notes": "正式五筆。主管道：ReDaxin、TruBeet 為新聞；EpiCor、VitaliG 為展覽；MonaJuventa Nu 為產業報導。未收未確認安全性項目：蟬花（Cordyceps cicadae）、水飛薊、銀杏葉、神經醯胺、肌肽、葡萄糖胺硫酸鹽、富含生育三烯酚之棕櫚油萃取物、糙蘇與韓國當歸（EstroG-100 的成分）、虎乳靈芝。南甜菜樹未確認，但不是 TruBeet 的甜菜根。",
+  "picks": [
+    "redaxin",
+    "trubeet",
+    "epicor",
+    "vitalig",
+    "monajuventa-nu"
+  ]
+}

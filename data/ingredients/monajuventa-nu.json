@@ -1,0 +1,185 @@
+{
+  "id": "monajuventa-nu",
+  "example": false,
+  "names": {
+    "commonZh": "蜂香薄荷萃取物",
+    "commonEn": "scarlet beebalm extract",
+    "trade": "MonaJuventa Nu（Mibelle Biochemistry 的蜂香薄荷萃取商品名）",
+    "scientific": "Monarda didyma L.（有機猩紅蜂香草萃取。平台中文名是蜂香薄荷，部位全草。不是精油頁上的 Monarda fistulosa。）"
+  },
+  "supply": {
+    "supplierName": "Mibelle Biochemistry（Solabia Biochemistry）",
+    "supplierCountry": "瑞士",
+    "relationship": "taiwan_distributor",
+    "taiwanPartyName": "恆新股份有限公司（Heng Hsin；原廠 Food & Health 經銷名單寫台灣）",
+    "relationshipNote": "2026-11-21 打開 Mibelle 聯絡頁。Distributors - Food & Health 的 Taiwan 是 Heng Hsin Co., Ltd.，地址台北市松江路，網站 henghsin.com.tw。同一頁的化妝品經銷名單也是這家。恆新 2014-01-27 新聞自述取得米百樂化妝品活性物的台灣獨家代理，文中沒有 MonaJuventa Nu。原廠名單沒有在台灣那一列寫這個商品名，也沒有寫獨家。這次在恆新站內沒有打開寫有 MonaJuventa 的產品頁。化妝品獨家不套到這支食品原料。查核日 2026-11-21。"
+  },
+  "tfda": {
+    "usable": "listed_food_ingredient",
+    "evidenceNotes": "蜂香薄荷（id 16959）學名 Monarda didyma L.，部位全草，次分類是可供直接食用，備註空白，沒有萃取物或每日毫克。商品名 MonaJuventa 與 didymin 在原料、添加物都是 0 筆。全草列名不是這支萃取已有毫克上限。",
+    "lookupDate": "2026-11-21",
+    "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+    "queries": [
+      {
+        "tab": "ingredient",
+        "keyword": "蜂香薄荷",
+        "category": "",
+        "resultCount": 1,
+        "matchedName": "蜂香薄荷",
+        "restrictionNote": "Beebalm。Monarda didyma L.。部位全草。次分類為草木本植物類可供直接食用。備註空白。",
+        "unconfirmedSafety": false,
+        "note": "沒有寫萃取，也沒有毫克。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Monarda",
+        "category": "",
+        "resultCount": 1,
+        "matchedName": "蜂香薄荷",
+        "restrictionNote": "與「蜂香薄荷」同一筆。",
+        "unconfirmedSafety": false,
+        "note": "屬名命中 didyma 這一列。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "MonaJuventa",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名 0 筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "didymin",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "公司頁提到的黃酮沒有單獨列名。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "蜂香薄荷",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "添加物 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "Monarda",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "添加物 0 筆。"
+      },
+      {
+        "tab": "history",
+        "keyword": "蜂香薄荷",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "助手更新歷程（2026-11-01 至 2026-11-21）沒有這筆異動。資料時間戳 2026-11-21 06:17。"
+      }
+    ],
+    "officialCrosscheck": {
+      "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+      "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+      "done": true,
+      "notes": "2026-11-21 連線 consumer.fda.gov.tw 在 TLS 交握出現 SSL_ERROR_SYSCALL，沒有取得官方詳細頁。蜂香薄荷詳細頁網址是 MaterialDetail id 16959。全草、可供直接食用、備註空白，與助手一致。siteTotals 原料 1709、添加物 804。"
+    }
+  },
+  "efficacy": {
+    "claimedBenefits": [
+      "NutraIngredients-Asia Awards 2026 健康壽命組決選介紹：MonaJuventa Nu 來自猩紅蜂香草，12 週人體試驗寫到表觀遺傳老化速度、端粒縮短、氧化壓力、衰老細胞與粒線體功能。介紹沒有寫毫克。",
+      "2025-03-25 報導同一篇 GeroScience 試驗：45–65 歲、自述工作壓力高、81 人、每日 100 mg 或安慰劑、12 週。生物年齡增加約 0.3 年，安慰劑約 1.8 年。同篇還寫皮質醇約降 25%，以及生活品質與睡眠。這些是報導對論文的數字。",
+      "原廠產品頁寫有機 Monarda didyma 萃取，臨床終點包含表觀遺傳指標、生活品質與相對安慰劑的睡眠。頁上沒有重複 0.3 年或 25%。"
+    ],
+    "suggestedDosage": "ClinicalTrials.gov NCT05399966 與 2025-03-25 報導都是每日 100 mg、一顆、午餐時、12 週。",
+    "dosageNote": "100 mg 是試驗頁的每日量，不是平台上限。蜂香薄荷列名是全草、可供直接食用，沒有萃取物毫克。"
+  },
+  "patent": {
+    "status": "unknown",
+    "refs": [],
+    "note": "Mibelle 公司介紹寫多數活性物有專利與論文。2026-11-21 用 MonaJuventa、Monarda didyma、Mibelle 查公開專利，沒有打開寫著這個商品名的專利號。不把「多數有專利」寫成這支已核准。"
+  },
+  "literature": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "Unveiling the geroprotective potential of Monarda didyma L.",
+        "url": "https://doi.org/10.1007/s11357-025-01580-2",
+        "note": "GeroScience。原廠頁與 2025-03-25 報導都指向這篇。隨機、雙盲、安慰劑、平行，81 人、每日 100 mg、12 週。這次讀的是報導與原廠頁上的引用，不是付費全文。"
+      }
+    ],
+    "note": "報導另寫試驗前有體外試驗。0.3 年、1.8 年與皮質醇 25% 只記在報導，沒有用全文再核。"
+  },
+  "evidenceLevels": [
+    "in_vitro",
+    "clinical"
+  ],
+  "images": [
+    {
+      "url": "https://www.mibellebiochemistry.com/sites/default/files/styles/default/public/2024-04/monajuventa_nu_website.png.webp?itok=oSo_7SXl",
+      "localPath": "",
+      "caption": "Mibelle MonaJuventa Nu 產品頁主圖。",
+      "source": "official_site"
+    }
+  ],
+  "sources": [
+    {
+      "title": "NutraIngredients-Asia Awards 2026: Winners announced",
+      "url": "https://www.nutraingredients.com/Article/2026/09/02/nutraingredients-asia-awards-2026-winners-announced/",
+      "publisher": "NutraIngredients",
+      "channel": "industry_report",
+      "accessed": "2026-11-21",
+      "whatItContributes": "2026 年亞洲獎健康壽命組決選名單有 MonaJuventa Nu。該組得獎的是 Kaneka Ubiquinol，不是這支。"
+    },
+    {
+      "title": "MonaJuventa Nu",
+      "url": "https://www.mibellebiochemistry.com/monajuventatm-nu",
+      "publisher": "Mibelle Biochemistry",
+      "channel": "supplier_site",
+      "accessed": "2026-11-21",
+      "whatItContributes": "商品名、Monarda didyma，以及臨床與植物來源的原廠說法。"
+    },
+    {
+      "title": "Scarlet beebalm extract may slow biological aging and boost healthspan",
+      "url": "https://www.nutraingredients.com/Article/2025/03/25/scarlet-beebalm-extract-may-slow-biological-aging-and-boost-healthspan/",
+      "publisher": "NutraIngredients",
+      "channel": "news",
+      "accessed": "2026-11-21",
+      "whatItContributes": "81 人、每日 100 mg、12 週，以及生物年齡與皮質醇的報導數字。"
+    },
+    {
+      "title": "Mibelle Biochemistry contact and distributors",
+      "url": "https://www.mibellebiochemistry.com/contact",
+      "publisher": "Mibelle Biochemistry",
+      "channel": "supplier_site",
+      "accessed": "2026-11-21",
+      "whatItContributes": "Food & Health 台灣經銷寫 Heng Hsin。沒有寫 MonaJuventa 這個商品名。"
+    },
+    {
+      "title": "本公司取得瑞士米百樂台灣獨家代理權",
+      "url": "https://www.henghsin.com.tw/ec99/rwd1215/news.asp?newsno=17",
+      "publisher": "恆新股份有限公司",
+      "channel": "other",
+      "accessed": "2026-11-21",
+      "whatItContributes": "2014 年自述化妝品活性物獨家代理。沒有寫這支食品原料。"
+    }
+  ],
+  "discovery": {
+    "channel": "industry_report",
+    "scoutDate": "2026-11-21",
+    "notes": "從 2026-09-02 亞洲獎決選名單進入 MonaJuventa Nu 產品頁、2025-03-25 試驗報導與 GeroScience DOI，再核對 Mibelle 經銷名單與恆新 2014 年新聞。精油用的 Monarda fistulosa 沒有併進來。"
+  }
+}

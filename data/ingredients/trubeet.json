@@ -1,0 +1,205 @@
+{
+  "id": "trubeet",
+  "example": false,
+  "names": {
+    "commonZh": "甜菜根萃取物（硝酸鹽）",
+    "commonEn": "nitrate-rich beetroot extract",
+    "trade": "TruBeet（Bio-gen Extracts 的甜菜根萃取商品名）",
+    "scientific": "Beta vulgaris（根。原廠頁寫紅甜菜根的無機硝酸鹽。不是未確認的南甜菜樹 Melientha suavis。）"
+  },
+  "supply": {
+    "supplierName": "Bio-gen Extracts",
+    "supplierCountry": "印度",
+    "relationship": "taiwan_agent",
+    "taiwanPartyName": "遠景股份有限公司（自述 TruBeet 台灣代理）；良勵生物科技另有產品頁",
+    "relationshipNote": "2026-11-21 以 TruBeet、Trubeet、Bio-gen、甜菜根萃取、beetroot、Beta vulgaris，搭配台灣、臺灣、Taiwan、代理、總代理、經銷檢索。遠景 2026-09-23 新聞寫「身為 TruBeet® 台灣代理商」，側欄寫「遠景代理之」。這是遠景自述。同日打開的原廠頁只把 Taiwan 列在可用國家，沒有寫遠景或獨家。良勵頁放在「品牌原料代理」分類，內文寫水代法、6% 硝酸鹽與代工劑型，沒有寫「本公司是台灣代理」。兩頁都留下，不把其中一家升成原廠證實的獨家代理。查核日 2026-11-21。"
+  },
+  "tfda": {
+    "usable": "not_found",
+    "evidenceNotes": "商品名 TruBeet、學名 Beta vulgaris、甜菜根與紅菜頭在原料、添加物都是 0 筆。關鍵字「甜菜」命中的是未確認的南甜菜樹（Melientha suavis，id 16223），學名不同，不是這支甜菜根萃取。查無不是准用。",
+    "lookupDate": "2026-11-21",
+    "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+    "queries": [
+      {
+        "tab": "ingredient",
+        "keyword": "TruBeet",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名 0 筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Beta vulgaris",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "甜菜學名 0 筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "甜菜根",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "中文部位名 0 筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "紅菜頭",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "另一個中文俗名 0 筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "甜菜",
+        "category": "",
+        "resultCount": 1,
+        "matchedName": "南甜菜樹",
+        "restrictionNote": "Melientha suavis。未經確認其食用安全性前，不得供為食品原料使用。",
+        "unconfirmedSafety": true,
+        "note": "未確認的是另一種植物。不是 Beta vulgaris。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "甜菜",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "添加物 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "beet",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "英文在添加物 0 筆。"
+      },
+      {
+        "tab": "history",
+        "keyword": "甜菜",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "助手更新歷程（2026-11-01 至 2026-11-21）沒有這筆異動。資料時間戳 2026-11-21 06:17。"
+      }
+    ],
+    "officialCrosscheck": {
+      "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+      "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+      "done": false,
+      "notes": "2026-11-21 連線 consumer.fda.gov.tw 在 TLS 交握出現 SSL_ERROR_SYSCALL。助手側沒有 Beta vulgaris 可核對的詳細頁。南甜菜樹詳細頁網址是 MaterialDetail id 16223，學名不是這支原料。siteTotals 原料 1709、添加物 804。"
+    }
+  },
+  "efficacy": {
+    "claimedBenefits": [
+      "NutraIngredients 2026-10-09：以 TruBeet 供應的試驗寫，24 名健康成人、硝酸鹽約 400 mg 的甜菜根粉，可抵銷咖啡因造成的動脈僵硬度上升。肱動脈血壓、中心血壓與巨血管內皮功能在該篇摘要裡沒有相對安慰劑改變。",
+      "Food & Function 劑量試驗：17 名健康男性，硝酸鹽 200、400 或 800 mg。動脈僵硬度三個劑量都有改善；內皮功能只在 400 mg；主動脈收縮壓只在 800 mg。肱動脈血壓沒有改善。",
+      "原廠頁寫這是專利製程的紅甜菜根萃取，不含外加亞硝酸鹽與合成硝酸鹽，並寫草酸檢測為完全沒有。印度專利請求項寫組成物的草酸低於 0.01%。兩句都留下。"
+    ],
+    "suggestedDosage": "打開的人體試驗以硝酸鹽計為 200、400 或 800 mg。印度專利請求項另寫組成物每日 400–600 mg、連續 6 天。原廠 2026 頁沒有寫一個每日粉末毫克。",
+    "dosageNote": "上述毫克是試驗或專利請求項，不是平台上限。平台沒有甜菜根這一列。硝酸鹽百分比也不一致：遠景 2020 頁寫 Nitrate 大於 6%，良勵頁寫 6%；原廠頁寫比一般 1%–3% 的粉高約 2–6 倍；專利請求項寫 3%–10%。不改成單一規格。"
+  },
+  "patent": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "Composition And Method Comprising Beetroot Extract",
+        "url": "https://www.quickcompany.in/patents/composition-and-method-comprising-beetroot-extract",
+        "note": "申請人 Bio-gen Extracts。頁面寫公開號 13/2024、狀態 Granted、核准日 2025-08-20。專利號欄是空的，這次沒有另填號碼。讀取日 2026-11-21。"
+      }
+    ],
+    "note": "依 QuickCompany 頁的 Granted。美國專利 US10967294B1 申請人是 ThermoLife，不是這家，不計入。"
+  },
+  "literature": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "The dose–response effects of nitrate-rich beetroot ingestion on cardiovascular and endothelial function",
+        "url": "https://doi.org/10.1039/d5fo05298j",
+        "note": "Food & Function。隨機、雙盲、交叉。硝酸鹽 200、400、800 mg，樣品寫 TruBeet。這次讀的是期刊頁的方法與結論。"
+      },
+      {
+        "title": "Acute dietary nitrate supplementation attenuates caffeine-induced increase in arterial stiffness",
+        "url": "https://pubs.rsc.org/fo/article/17/18/8145/1294700/Acute-dietary-nitrate-supplementation-attenuates",
+        "note": "Food & Function，2026，17，8145。24 人、約 400 mg 硝酸鹽的 TruBeet，與咖啡因交叉。這次讀的是期刊頁。"
+      }
+    ],
+    "note": "兩篇都是急性、小樣本。內皮功能、動脈僵硬度與血壓不是同一個劑量都有同樣結果。"
+  },
+  "evidenceLevels": [
+    "clinical"
+  ],
+  "images": [
+    {
+      "url": "https://bio-gen.in/assets/images/products/trubeet-img0001.png",
+      "localPath": "",
+      "caption": "Bio-gen TruBeet 產品頁圖片。",
+      "source": "official_site"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Study links beetroot to reduced caffeine-induced stiffness",
+      "url": "https://www.nutraingredients.com/Article/2026/10/09/study-links-beetroot-to-reduced-caffeine-induced-stiffness/",
+      "publisher": "NutraIngredients",
+      "channel": "news",
+      "accessed": "2026-11-21",
+      "whatItContributes": "2026-10-09 報導 TruBeet 與咖啡因、動脈僵硬度的試驗方向。"
+    },
+    {
+      "title": "TruBeet",
+      "url": "https://bio-gen.in/trubeet/",
+      "publisher": "Bio-gen Extracts",
+      "channel": "supplier_site",
+      "accessed": "2026-11-21",
+      "whatItContributes": "商品名、Beta vulgaris、可用國家含 Taiwan，以及草酸與硝酸鹽倍數的原廠說法。"
+    },
+    {
+      "title": "DOI 10.1039/d5fo05298j",
+      "url": "https://doi.org/10.1039/d5fo05298j",
+      "publisher": "Food & Function",
+      "channel": "paper",
+      "accessed": "2026-11-21",
+      "whatItContributes": "200、400、800 mg 硝酸鹽對內皮功能、動脈僵硬度與主動脈收縮壓的差別。"
+    },
+    {
+      "title": "賀！TruBeet 榮獲 2026 NutraIngredients-Asia Awards",
+      "url": "https://www.food7-11.com/news/content/83",
+      "publisher": "遠景股份有限公司",
+      "channel": "other",
+      "accessed": "2026-11-21",
+      "whatItContributes": "遠景自述為 TruBeet 台灣代理。不是原廠經銷名單。"
+    },
+    {
+      "title": "甜菜根萃取物",
+      "url": "https://www.pharmachief.com.tw/news_detail/94.htm",
+      "publisher": "良勵生物科技",
+      "channel": "other",
+      "accessed": "2026-11-21",
+      "whatItContributes": "另一家台灣頁寫 6% 硝酸鹽與代工劑型，放在品牌原料代理分類，沒有寫代理句。"
+    }
+  ],
+  "discovery": {
+    "channel": "news",
+    "scoutDate": "2026-11-21",
+    "notes": "從 NutraIngredients 2026-10-09 的咖啡因與動脈僵硬度報導進入 Food & Function 兩篇、原廠 TruBeet 頁與印度專利頁，再打開遠景與良勵的台灣頁。南甜菜樹沒有併成這支原料。"
+  }
+}

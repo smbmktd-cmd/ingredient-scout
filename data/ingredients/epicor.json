@@ -1,0 +1,182 @@
+{
+  "id": "epicor",
+  "example": false,
+  "names": {
+    "commonZh": "啤酒酵母發酵物",
+    "commonEn": "dried Saccharomyces cerevisiae fermentate",
+    "trade": "EpiCor（Cargill 的酵母發酵物商品名；原為 Embria）",
+    "scientific": "Saccharomyces cerevisiae（GRAS notice 928 一處寫菌株來自 ATCC 7752，另一處寫 ATCC 7522。兩處都留下。乾燥發酵物含熱處理後的菌體與發酵產物。不是 id 17605 的 Saccharomyces boulardii，也不是已收錄的酵母 β-葡聚醣。）"
+  },
+  "supply": {
+    "supplierName": "Cargill（原 Embria Health Sciences）",
+    "supplierCountry": "美國",
+    "relationship": "unknown",
+    "taiwanPartyName": "生資有限公司（Nutrisense；原料頁與展會名錄販售 EpiCor，未寫代理）",
+    "relationshipNote": "2026-11-21 以 EpiCor、Epicor、Cargill、Embria、啤酒酵母發酵物、dried fermentate，搭配台灣、臺灣、Taiwan、代理、總代理、經銷檢索。生資原料頁把 EpiCor 當啤酒酵母發酵物介紹，並寫 2017 年 Cargill 收購 Embria。頁面沒有寫代理、總代理或獨家。展會名錄寫參展者 NUTRISENSE、型號 EpiCor、Sourced directly from Cargill，是參展商自述。原廠 FAQ 這次沒有點名台灣經銷。EpiCor 品牌站台灣分類看得到成品 Bowtee 與 Nutrigiant Biomed 膠囊，那是成品採用，不是原料代理。查核日 2026-11-21。"
+  },
+  "tfda": {
+    "usable": "needs_review",
+    "evidenceNotes": "商品名 EpiCor 在原料、添加物都是 0 筆。中文「啤酒酵母」有兩筆菌：id 17276 是 Saccharomyces cerevisiae，id 17605 是 Saccharomyces boulardii。EpiCor 對到的是前者。前者寫未把特定成分分離純化才可當食品原料；GRAS notice 寫整罐發酵物乾燥、沒有分離單一成分。這不是健康食品許可。",
+    "lookupDate": "2026-11-21",
+    "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+    "queries": [
+      {
+        "tab": "ingredient",
+        "keyword": "EpiCor",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名 0 筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "啤酒酵母",
+        "category": "",
+        "resultCount": 3,
+        "matchedName": "啤酒酵母；啤酒酵母；反式白藜蘆醇",
+        "restrictionNote": "id 17276：Saccharomyces cerevisiae，菌體。可供食品使用；若培養基使用准用添加物、傳統加工且未分離純化特定成分，得供食品原料使用，添加物仍要符合各自規定。id 17605：Saccharomyces boulardii，菌體，可供食品使用。反式白藜蘆醇是備註寫到基因改造啤酒酵母而命中。",
+        "unconfirmedSafety": false,
+        "note": "同名兩筆，學名不同。本品是 cerevisiae 的發酵物。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Saccharomyces cerevisiae",
+        "category": "",
+        "resultCount": 11,
+        "matchedName": "啤酒酵母；鋅酵母；硒酵母；鉻酵母等",
+        "restrictionNote": "同菌還有鋅、硒、鉻、鐵、鎂等礦物質酵母，各有該礦物質的每日上限。那些不是這支未純化的發酵物。",
+        "unconfirmedSafety": false,
+        "note": "礦物質酵母是別的規格。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "啤酒酵母",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "添加物 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "酵母",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "添加物 0 筆。"
+      },
+      {
+        "tab": "history",
+        "keyword": "啤酒酵母",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "助手更新歷程（2026-11-01 至 2026-11-21）沒有這筆異動。資料時間戳 2026-11-21 06:17。"
+      }
+    ],
+    "officialCrosscheck": {
+      "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+      "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+      "done": true,
+      "notes": "2026-11-21 連線 consumer.fda.gov.tw 在 TLS 交握出現 SSL_ERROR_SYSCALL，沒有取得官方詳細頁。cerevisiae 那筆是 MaterialDetail id 17276，boulardii 那筆是 id 17605。未分離純化的備註與助手一致。siteTotals 原料 1709、添加物 804。"
+    }
+  },
+  "efficacy": {
+    "claimedBenefits": [
+      "Cargill FAQ：EpiCor 是 Saccharomyces cerevisiae 發酵後乾燥的後生元，人體試驗都用每日 500 mg，並寫超過 15 篇研究、其中 8 篇人體，方向是免疫與腸道菌相。FAQ 建議配方也用 500 mg。",
+      "12 週隨機雙盲對照試驗：116 名近期沒有施打季節流感疫苗的人，每日 500 mg EpiCor 或安慰劑。感冒或類流感的發生次數下降（p=0.01），天數沒有顯著縮短（p=0.10），嚴重度沒有差異（p=0.90）。",
+      "GRAS notice 928 寫每份 500 mg，製程是好氧增殖、厭氧發酵再乾燥，沒有把其中一種成分濃縮或分離出來。菌株編號在同一份通知裡寫成 ATCC 7752 與 ATCC 7522。"
+    ],
+    "suggestedDosage": "Cargill FAQ 的人體試驗與建議配方量，以及 GRAS notice 的每份量，都是 500 mg。",
+    "dosageNote": "500 mg 是供應商與這份美國 GRAS 通知的份量，不是平台上的毫克上限。平台對到的是啤酒酵母這類原料，而且 cerevisiae 與 boulardii 是兩筆。"
+  },
+  "patent": {
+    "status": "unknown",
+    "refs": [],
+    "note": "生資頁標題寫「美國專利」，頁內沒有號碼。2026-11-21 用 EpiCor、Embria、dried fermentate 查公開專利，沒有打開可對上這個商品的專利號。不把標題寫成已核准。"
+  },
+  "literature": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "Immunogenic yeast-based fermentate for cold/flu-like symptoms in nonvaccinated individuals",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/20180695/",
+        "note": "Journal of Alternative and Complementary Medicine。12 週、116 人、每日 500 mg。這次讀的是 PubMed 頁上的摘要。"
+      }
+    ],
+    "note": "Cargill 寫還有其他人體試驗。這次只核對這一篇的發生次數、天數與嚴重度差別。"
+  },
+  "evidenceLevels": [
+    "clinical"
+  ],
+  "images": [
+    {
+      "url": "https://epicorimmune.com/wp-content/uploads/2022/06/epicor.jpg",
+      "localPath": "",
+      "caption": "EpiCor 品牌站圖片。",
+      "source": "official_site"
+    }
+  ],
+  "sources": [
+    {
+      "title": "SupplySide Global 2026: What’s happening on the show floor",
+      "url": "https://www.nutraingredients.com/Article/2026/10/14/supplyside-global-2026-whats-happening-on-the-show-floor/",
+      "publisher": "NutraIngredients",
+      "channel": "exhibition",
+      "accessed": "2026-11-21",
+      "whatItContributes": "2026-10-14 展前記 Cargill 攤位的飲品概念使用 EpiCor postbiotic。"
+    },
+    {
+      "title": "EpiCor FAQs",
+      "url": "https://www.cargill.com/food-beverage/na/epicor-faqs",
+      "publisher": "Cargill",
+      "channel": "supplier_site",
+      "accessed": "2026-11-21",
+      "whatItContributes": "每日 500 mg、8 篇人體試驗，以及標示名 dried fermentate made using Saccharomyces cerevisiae。"
+    },
+    {
+      "title": "GRAS notice 928, dried yeast fermentate",
+      "url": "https://www.fda.gov/media/142858/download",
+      "publisher": "U.S. FDA",
+      "channel": "other",
+      "accessed": "2026-11-21",
+      "whatItContributes": "每份 500 mg、未分離單一成分，以及 ATCC 7752 與 7522 兩種寫法。"
+    },
+    {
+      "title": "PubMed 20180695",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20180695/",
+      "publisher": "PubMed",
+      "channel": "paper",
+      "accessed": "2026-11-21",
+      "whatItContributes": "116 人、12 週、500 mg，以及發生次數與天數的 p 值差別。"
+    },
+    {
+      "title": "啤酒酵母發酵物 EpiCor",
+      "url": "https://www.nutrisense.com.tw/ingredients/prebiotics-epicor/",
+      "publisher": "生資有限公司",
+      "channel": "other",
+      "accessed": "2026-11-21",
+      "whatItContributes": "台灣頁販售這支原料，寫多酚與膳食纖維規格，沒有寫代理。"
+    },
+    {
+      "title": "Saccharomyces cerevisiae dried fermentate, exhibitor Nutrisense",
+      "url": "https://www.chanchao.com.tw/healthcos/en/visitorProductDetail.asp?no=224637",
+      "publisher": "展會名錄",
+      "channel": "exhibition",
+      "accessed": "2026-11-21",
+      "whatItContributes": "參展商自述 EpiCor 直接來自 Cargill。"
+    }
+  ],
+  "discovery": {
+    "channel": "exhibition",
+    "scoutDate": "2026-11-21",
+    "notes": "從 NutraIngredients 2026-10-14 的 SupplySide Global 展前記進入 Cargill FAQ、GRAS notice 928 與 PubMed 20180695，再打開生資原料頁、展會名錄與 EpiCor 品牌站的台灣成品分類。boulardii 那一筆啤酒酵母沒有併成這個商品。"
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "id": "redaxin",
+  "example": false,
+  "names": {
+    "commonZh": "紅高粱萃取（多酚）",
+    "commonEn": "red sorghum extract",
+    "trade": "ReDaxin（RedLeaf Biologics 的紅高粱萃取商品名）",
+    "scientific": "Sorghum bicolor（2025-09-22 報導標題寫葉萃取。2026-11-10 報導寫非基改紅高粱品種的專有萃取，沒有再寫葉。不是平台上的甜高粱糖漿，那個部位是莖桿。）"
+  },
+  "supply": {
+    "supplierName": "RedLeaf Biologics",
+    "supplierCountry": "美國",
+    "relationship": "unknown",
+    "taiwanPartyName": "本次查無台灣關聯廠商",
+    "relationshipNote": "2026-11-21 以 ReDaxin、Redaxin、RedLeaf、紅高粱萃取、red sorghum、Sorghum bicolor，搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索。打開 RedLeaf 產品頁，以及 Barrington Nutritionals 的 ReDaxin 頁；後者是美國原料頁，沒有台灣公司。同日再用「ReDaxin 台灣 原料」獨立複查，仍沒有寫明代理或經銷的台灣廠商頁。查核日 2026-11-21。"
+  },
+  "tfda": {
+    "usable": "not_found",
+    "evidenceNotes": "商品名 ReDaxin 與「高粱葉」在原料、添加物都是 0 筆。學名 Sorghum bicolor 只命中甜高粱糖漿（id 17421），部位是莖桿，備註是經良好製程的糖漿，不是這支多酚萃取。這不是准用，也不是禁用結論。",
+    "lookupDate": "2026-11-21",
+    "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+    "queries": [
+      {
+        "tab": "ingredient",
+        "keyword": "ReDaxin",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名 0 筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "高粱葉",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "葉這個部位 0 筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "高粱",
+        "category": "",
+        "resultCount": 1,
+        "matchedName": "甜高粱糖漿",
+        "restrictionNote": "Sorghum bicolor。部位莖桿。經良好製程加工及品管所得之糖漿。",
+        "unconfirmedSafety": false,
+        "note": "不是葉或多酚萃取。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Sorghum",
+        "category": "",
+        "resultCount": 1,
+        "matchedName": "甜高粱糖漿",
+        "restrictionNote": "與「高粱」同一筆糖漿。",
+        "unconfirmedSafety": false,
+        "note": "學名命中的是莖桿糖漿。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "高粱",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "添加物 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "ReDaxin",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名在添加物 0 筆。"
+      },
+      {
+        "tab": "history",
+        "keyword": "高粱",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "助手更新歷程（2026-11-01 至 2026-11-21）沒有這筆異動。資料時間戳 2026-11-21 06:17。"
+      }
+    ],
+    "officialCrosscheck": {
+      "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+      "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+      "done": false,
+      "notes": "2026-11-21 連線 consumer.fda.gov.tw 在 TLS 交握出現 SSL_ERROR_SYSCALL。助手側沒有高粱葉或多酚萃取可核對的詳細頁。甜高粱糖漿詳細頁網址是 MaterialDetail id 17421，部位是莖桿。siteTotals 原料 1709、添加物 804。"
+    }
+  },
+  "efficacy": {
+    "claimedBenefits": [
+      "NutraIngredients 2026-11-10：RedLeaf 準備放大 ReDaxin 產能，並把後續人體試驗的方向寫成氧化壓力、發炎與恢復。同一篇寫 2025 年第一篇人體研究已發表，主題是運動後肌力恢復。健康老化與寵物是公司正在看的市場，不是這篇已完成的人體終點。",
+      "公司產品頁寫萃取物多酚高於 20%，並寫每日 250 mg 與 500 mg。頁上的摘要是肌力恢復最多約 5 倍、恢復期痠痛最多約降 27%。",
+      "2025-09-22 對同一篇試驗的報導寫：29 名健康男性、每日 250 mg 或 500 mg、約 17–18 天。兩劑量的肌力恢復都快於安慰劑；腫脹、自覺疼痛或恢復感與安慰劑沒有差別。公司頁的痠痛降幅與這段「沒有差別」並存，不把其中一句改掉。"
+    ],
+    "suggestedDosage": "公司頁與 2025 年那篇試驗寫每日 250 mg 或 500 mg。",
+    "dosageNote": "這是供應商頁與該試驗的每日量，不是平台上限。平台沒有這支萃取的列名。甜高粱糖漿是另一筆，不能拿來當成已列名。"
+  },
+  "patent": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "US20250064094A1 Compositions for food coloring and antioxidant supplementation derived from sorghum",
+        "url": "https://patents.google.com/patent/US20250064094A1",
+        "note": "Justia 將同一公開號標成申請，申請人 RedLeaf Biologics，申請日 2023-02-02，公開日 2025-02-27。這次沒有打開美國登記簿確認是否已核准。讀取日 2026-11-21。"
+      }
+    ],
+    "note": "有公開申請。沒有把申請公開號寫成已核准的專利號。"
+  },
+  "literature": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "Polyphenol-Rich Sorghum Bicolor Extract Enhances Strength Recovery After Eccentric Exercise",
+        "url": "https://doi.org/10.1519/JSC.0000000000005144",
+        "note": "Journal of Strength and Conditioning Research，2025。DOI 與 29 人、250 mg、500 mg 的設計來自 2025-09-22 報導。這次沒有打開期刊全文。"
+      }
+    ],
+    "note": "肌力恢復與痠痛結論以報導裡對論文的兩句話分開記。公司頁的 5 倍與 27% 沒有在這次打開的全文裡核對。"
+  },
+  "evidenceLevels": [
+    "clinical"
+  ],
+  "images": [
+    {
+      "url": "https://redleafbiologics.com/wp-content/uploads/2025/07/plant-cell-1.jpg",
+      "localPath": "",
+      "caption": "RedLeaf ReDaxin 產品頁使用的圖片。",
+      "source": "official_site"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Start-Up Stars winner RedLeaf eyes new markets",
+      "url": "https://www.nutraingredients.com/Article/2026/11/10/start-up-stars-winner-redleaf-eyes-new-markets/",
+      "publisher": "NutraIngredients",
+      "channel": "news",
+      "accessed": "2026-11-21",
+      "whatItContributes": "2026-11-10 報導 ReDaxin 放大產能、2025 年肌力恢復研究，以及公司把下一階段放在氧化壓力與恢復。"
+    },
+    {
+      "title": "ReDaxin",
+      "url": "https://redleafbiologics.com/redaxin/",
+      "publisher": "RedLeaf Biologics",
+      "channel": "supplier_site",
+      "accessed": "2026-11-21",
+      "whatItContributes": "商品名、多酚高於 20%，以及 250 mg、500 mg 與公司自己的恢復摘要。"
+    },
+    {
+      "title": "Red sorghum leaf extract may accelerate post-exercise strength recovery",
+      "url": "https://www.nutraingredients.com/Article/2025/09/22/red-sorghum-leaf-extract-may-accelerate-post-exercise-strength-recovery/",
+      "publisher": "NutraIngredients",
+      "channel": "news",
+      "accessed": "2026-11-21",
+      "whatItContributes": "29 人、劑量、天數，以及肌力恢復與自覺疼痛結論不一致的地方。"
+    },
+    {
+      "title": "US20250064094A1",
+      "url": "https://patents.google.com/patent/US20250064094A1",
+      "publisher": "Google Patents",
+      "channel": "patent",
+      "accessed": "2026-11-21",
+      "whatItContributes": "高粱來源著色與抗氧化組成的公開申請。"
+    }
+  ],
+  "discovery": {
+    "channel": "news",
+    "scoutDate": "2026-11-21",
+    "notes": "從 NutraIngredients 2026-11-10 的 RedLeaf 市場報導進入公司產品頁、2025-09-22 的試驗報導與 US20250064094A1。甜高粱糖漿沒有拿來當成這支萃取的列名。"
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "id": "gut-360",
+  "example": false,
+  "names": {
+    "commonZh": "野百里香萃取物",
+    "commonEn": "wild thyme extract",
+    "trade": "360GUT（Martin Bauer Nutraceuticals 的野百里香萃取商品名）",
+    "scientific": "Thymus serpyllum L.（商品頁與 2022 年試驗的寫法。平台百里香學名串寫成 Thymus serphyllum L.。部位是全草，不是小飛揚草，也不是家畜胸腺。）"
+  },
+  "supply": {
+    "supplierName": "Martin Bauer Nutraceuticals",
+    "supplierCountry": "義大利（Nutraceuticals 公司頁地址在 Rivalta di Torino。2024 年文章把開發寫成德國 Finzelberg。）",
+    "relationship": "unknown",
+    "taiwanPartyName": "本次查無台灣關聯廠商",
+    "relationshipNote": "2026-11-22 以 360GUT、360 GUT、360°GUT、Martin Bauer、Finzelberg、野百里香、野生百里香、Thymus serpyllum，搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索。打開 Martin Bauer Nutraceuticals 官網與 Pharmanager 產品頁；後者總部在法國 Angers，不是台灣公司。大醫生技的 Finzelberg 頁只寫紅景天與原廠授權，頁內沒有 360GUT 或百里香。大自然生技的 EFLA633 是另一支百里香萃取，頁內沒有 360GUT。生資 THYMOX 的檢索摘要是義大利百里酚萃取；同日直接開啟該網址得到 HTTP 406，沒有把它當成 360GUT 的代理頁。同日再以「360GUT 台灣 原料」獨立複查，仍沒有寫明這個商品名的台灣廠商頁。查核日 2026-11-22。"
+  },
+  "tfda": {
+    "usable": "listed_food_ingredient",
+    "evidenceNotes": "商品名 360GUT 與「野百里香」在原料、添加物都是 0 筆。「百里香」命中一筆（id 16816），部位全草，學名串含 Thymus serphyllum L.；商品頁寫 Thymus serpyllum L.，兩個拼法都留下。thyme 另命中小飛揚草，Thymus 另命中牛、羊、豬胸腺，不是這支草。這筆沒有未確認安全性標記。",
+    "lookupDate": "2026-11-22",
+    "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+    "queries": [
+      {
+        "tab": "ingredient",
+        "keyword": "360GUT",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名 0 筆。關鍵字「360」會誤中其他含數字的列，不計入這支。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "野百里香",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "這個中文 0 筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "百里香",
+        "category": "",
+        "resultCount": 1,
+        "matchedName": "百里香",
+        "restrictionNote": "id 16816。學名串含 Thymus vulgaris L. 與 Thymus serphyllum L. 等。部位全草。次分類是供茶包、膳食調理包或萃取後作為原料。備註空白。",
+        "unconfirmedSafety": false,
+        "note": "全草萃取對到這一筆。拼法是 serphyllum。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Thymus",
+        "category": "",
+        "resultCount": 2,
+        "matchedName": "百里香；牛、羊、豬胸腺",
+        "restrictionNote": "id 17611 是胸腺，外文名也寫 Thymus，不是植物。",
+        "unconfirmedSafety": false,
+        "note": "器官那一筆不是野百里香。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "thyme",
+        "category": "",
+        "resultCount": 2,
+        "matchedName": "小飛揚草；百里香",
+        "restrictionNote": "小飛揚草學名 Euphorbia thymifolia L.，外文名含 Thymeleaved spurge。",
+        "unconfirmedSafety": false,
+        "note": "大戟科，不是 Thymus。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "百里香",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "添加物 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "thyme",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "英文在添加物 0 筆。"
+      },
+      {
+        "tab": "history",
+        "keyword": "百里香",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "助手更新歷程（2026-11-01 至 2026-11-21）沒有這筆異動。資料時間戳 2026-11-21 06:17。"
+      }
+    ],
+    "officialCrosscheck": {
+      "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+      "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+      "done": true,
+      "notes": "2026-11-22 連線 consumer.fda.gov.tw 在 TLS 讀取時出現 UNEXPECTED_EOF_WHILE_READING，沒有另開官方詳細頁。百里香全草列名來自助手資料，詳細頁網址是 MaterialDetail id 16816。胸腺是 id 17611。siteTotals 原料 1709、添加物 804。"
+    }
+  },
+  "efficacy": {
+    "claimedBenefits": [
+      "MicrobiomePost 2026 年 Vitafoods 報告：360GUT 被寫成野百里香的低劑量多酚益生元，每日定位 600 毫克，用來對照需要公克級的菊糖或果寡糖。同一篇寫已發表先導試驗，以及 171 人有可用資料的多中心確認試驗；稿件當時在審查，結果沒有在這篇報告裡列成已發表數字。",
+      "2022 年先導試驗：40 名過重但沒有腸道疾病診斷的成人，先 4 週每日 600 毫克，再 4 週每日 900 毫克，對照安慰劑。摘要寫腸胃症狀與排便次數有改善方向，Firmicutes／Bacteroidetes 比值在萃取組下降。",
+      "Martin Bauer Nutraceuticals 官網把每日量寫成 600 毫克，並寫成分曾顯示增加 Faecalibacterium 與 Akkermansia。這句是公司頁的說法。打開的 2022 年摘要沒有這兩個屬名。"
+    ],
+    "suggestedDosage": "公司頁與 Vitafoods 報告的定位是每日 600 毫克。2022 年試驗是 600 毫克 4 週後再 900 毫克 4 週。",
+    "dosageNote": "600 與 900 毫克是公司頁或那篇先導試驗的每日量，不是平台上限。平台百里香全草沒有寫毫克上限。確認試驗的結果這次沒有當成已發表數字。"
+  },
+  "patent": {
+    "status": "unknown",
+    "refs": [],
+    "note": "2026-11-22 以 360GUT、Finzelberg、Thymus serpyllum、wild thyme extract 查公開專利，沒有打開可對上這個商品名的專利號。"
+  },
+  "literature": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "Effects of a Food Supplement with a Wild Thyme (Thymus serpyllum L.) Extract on Gut Health and the Microbiome",
+        "url": "https://doi.org/10.4236/fns.2022.1311065",
+        "note": "Food and Nutrition Sciences，2022。40 人，600 毫克再 900 毫克。登記 DRKS00026074。這次讀的是期刊頁的摘要與設計。"
+      }
+    ],
+    "note": "MicrobiomePost 寫確認試驗 171 人有可用資料、稿件審查中。這次沒有打開那份未發表全文，也不把公司頁的菌屬名字寫進這篇先導摘要。"
+  },
+  "evidenceLevels": [
+    "clinical"
+  ],
+  "images": [
+    {
+      "url": "https://www.martin-bauer-nutraceuticals.com/management.file/img/202602035277001169.png",
+      "localPath": "",
+      "caption": "Martin Bauer Nutraceuticals 官網 360GUT 區塊的野百里香圖片，圖上寫 Thymus serpyllum。",
+      "source": "official_site"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Vitafoods report 2026",
+      "url": "https://microbiomepost.com/wp-content/uploads/2026/05/Vitafoods-Report-2026.pdf",
+      "publisher": "MicrobiomePost",
+      "channel": "industry_report",
+      "accessed": "2026-11-22",
+      "whatItContributes": "360GUT 的 600 毫克定位、已發表先導試驗，以及 171 人確認試驗仍在審查。"
+    },
+    {
+      "title": "Martin Bauer Nutraceuticals",
+      "url": "https://www.martin-bauer-nutraceuticals.com/home",
+      "publisher": "Martin Bauer Nutraceuticals",
+      "channel": "supplier_site",
+      "accessed": "2026-11-22",
+      "whatItContributes": "商品名、Thymus serpyllum、每日 600 毫克，以及公司自己寫的菌屬。"
+    },
+    {
+      "title": "DOI 10.4236/fns.2022.1311065",
+      "url": "https://doi.org/10.4236/fns.2022.1311065",
+      "publisher": "Food and Nutrition Sciences",
+      "channel": "paper",
+      "accessed": "2026-11-22",
+      "whatItContributes": "40 人、600 再 900 毫克，以及腸胃症狀與菌相比值。"
+    },
+    {
+      "title": "360 GUT prebiotic",
+      "url": "https://www.pharmanager-ingredients.com/en/ingredients/360-gut-prebotic/",
+      "publisher": "Pharmanager Ingredients",
+      "channel": "other",
+      "accessed": "2026-11-22",
+      "whatItContributes": "法國經銷頁寫 Finzelberg 開發、產地阿爾巴尼亞，以及同一套 600／900 毫克設計。不是台灣公司。"
+    },
+    {
+      "title": "Finzelberg 紅景天",
+      "url": "https://www.greencome.com.tw/Finzelberg",
+      "publisher": "大醫生技",
+      "channel": "other",
+      "accessed": "2026-11-22",
+      "whatItContributes": "台灣頁寫 Finzelberg 紅景天的原廠授權，沒有 360GUT。"
+    }
+  ],
+  "discovery": {
+    "channel": "industry_report",
+    "scoutDate": "2026-11-22",
+    "notes": "從 MicrobiomePost 的 2026 Vitafoods 報告進入 Martin Bauer Nutraceuticals 官網、2022 年先導試驗與法國 Pharmanager 頁，再打開大醫生技、大自然生技的百里香頁。小飛揚草與家畜胸腺沒有併成這支。EFLA633 與 THYMOX 是別的百里香商品。"
+  }
+}

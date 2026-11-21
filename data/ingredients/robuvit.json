@@ -1,0 +1,195 @@
+{
+  "id": "robuvit",
+  "example": false,
+  "names": {
+    "commonZh": "歐洲櫟木材萃取物",
+    "commonEn": "French oak wood extract",
+    "trade": "Robuvit（Horphag Research 的法國橡木萃取商品名）",
+    "scientific": "Quercus robur L.（平台中文名含歐洲櫟、歐洲橡，部位木材。不是碧容健的 Pinus pinaster，也不是未確認的海南石櫟。）"
+  },
+  "supply": {
+    "supplierName": "Horphag Research",
+    "supplierCountry": "瑞士",
+    "relationship": "unknown",
+    "taiwanPartyName": "大昌華嘉（DKSH）產品頁把 Taiwan 列為可供應市場，沒有寫台灣公司名稱",
+    "relationshipNote": "2026-11-22 以 Robuvit、Robuvit®、Horphag、法國橡木、歐洲櫟、Quercus robur，搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索。DKSH 的 Robuvit 頁（網址含馬來西亞代碼，頁首客訴地址在印尼）把 Markets of Availability 寫成 Japan、Malaysia、Spain、Portugal、Thailand、France、Taiwan，沒有台灣公司名稱，也沒有獨家。英凡特授權頁只寫 Pycnogenol／碧容健，證書沒有 Robuvit；同公司不等於這支橡木的代理。台灣商標 ROBUVIT 權人是瑞士 Horphag，代理人是商標事務所，不是原料經銷。Robuvit 官網成品名單有歐洲、日本、香港、馬來西亞等地的品牌，沒有台灣公司。查核日 2026-11-22。同日再以「Robuvit 台灣 代理」獨立複查，仍沒有寫明台灣代理的公司產品頁。"
+  },
+  "tfda": {
+    "usable": "listed_food_ingredient",
+    "evidenceNotes": "商品名 Robuvit、橡木與法國橡木在原料、添加物都是 0 筆。學名 Quercus robur 命中夏櫟／歐洲櫟（id 17257），部位木材，備註是只作香辛調味、適量使用。這不是未確認安全性。研究用的 200 或 300 毫克不能當成平台允許的補充品上限。",
+    "lookupDate": "2026-11-22",
+    "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+    "queries": [
+      {
+        "tab": "ingredient",
+        "keyword": "Robuvit",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名 0 筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "橡木",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "這個中文 0 筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Quercus",
+        "category": "",
+        "resultCount": 1,
+        "matchedName": "夏櫟；歐洲櫟；歐洲橡；英國櫟；英國橡",
+        "restrictionNote": "Quercus robur L.。部位木材（WOOD）。可作為賦予食品特殊香味或風味，僅以達香辛調味目的，適量使用為宜。",
+        "unconfirmedSafety": false,
+        "note": "學名對到木材調味這一筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "櫟",
+        "category": "",
+        "resultCount": 2,
+        "matchedName": "夏櫟；歐洲櫟；海南石櫟",
+        "restrictionNote": "id 17257 是 Quercus robur 木材，可供食品使用但限調味。id 16211 海南石櫟 Lithocarpus litseifolius 是未確認，學名不同。",
+        "unconfirmedSafety": true,
+        "note": "兩筆裡，未確認的是海南石櫟，屬名不同。Quercus robur 那筆本身不是未確認。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "橡木",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "添加物 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "Quercus",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "學名在添加物 0 筆。"
+      },
+      {
+        "tab": "history",
+        "keyword": "櫟",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "助手更新歷程（2026-11-01 至 2026-11-21）沒有這筆異動。資料時間戳 2026-11-21 06:17。"
+      }
+    ],
+    "officialCrosscheck": {
+      "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+      "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+      "done": true,
+      "notes": "2026-11-22 連線 consumer.fda.gov.tw 在 TLS 讀取時出現 UNEXPECTED_EOF_WHILE_READING，沒有另開官方詳細頁。木材調味限制來自助手資料，詳細頁網址是 MaterialDetail id 17257。海南石櫟是 id 16211，不是這支。siteTotals 原料 1709、添加物 804。"
+    }
+  },
+  "efficacy": {
+    "claimedBenefits": [
+      "NutraIngredients 2026-11-17 的 Fi Europe 預告：Horphag 攤位（30K48）把 Robuvit 寫成法國橡木萃取，方向是精力、活力、疲勞管理與恢復。",
+      "PubMed 24231834：登記觀察，Robuvit 每日 200 毫克、至少 6 個月，搭配同一套慢性疲勞管理計畫。納入使用 Robuvit 的 48 人、只做管理計畫的 43 人。摘要寫 3 與 6 個月時多數症狀與情緒分數較對照改善，沒有觀察到副作用。這不是隨機雙盲試驗的寫法。",
+      "PubMed 25394351：另一份登記，38 人每日 300 毫克、4 週，對照 42 人。摘要寫疲勞問卷與氧化壓力指標在補充組改善較多。同樣是登記，不是這次讀到的隨機雙盲設計。"
+    ],
+    "suggestedDosage": "打開的兩份人體登記分別是每日 200 毫克至少 6 個月，以及每日 300 毫克 4 週。US9060999B2 說明書把較佳範圍寫成每日 100–400 毫克。",
+    "dosageNote": "200 與 300 毫克是登記研究的補充量，100–400 毫克是專利說明書的較佳範圍。平台對木材的寫法是香辛調味、適量，沒有毫克上限。列名不等於這些毫克已可當補充品使用。"
+  },
+  "patent": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "US9060999B2 Ellagitannins rich extracts composition",
+        "url": "https://patents.google.com/patent/US9060999B2",
+        "note": "Google Patents 頁寫原權利人 HORPHAG RESEARCH IP (QR) Ltd，現權利人 Horphag Research Ip Ltd。請求項含 Quercus robur 萃取，鞣花單寧以乾萃取物計高於 10%。讀取日 2026-11-22。"
+      }
+    ],
+    "note": "有已核准的美國專利。這次沒有另對歐洲專利家族。"
+  },
+  "literature": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "Improved management of primary chronic fatigue syndrome with French oak wood extract (Robuvit)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/24231834/",
+        "note": "Panminerva Medica。每日 200 毫克、至少 6 個月的登記。這次讀的是 PubMed 摘要。"
+      },
+      {
+        "title": "Robuvit supplementation in subjects with chronic fatigue syndrome and increased oxidative stress",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/25394351/",
+        "note": "Journal of Neurosurgical Sciences。每日 300 毫克、4 週的登記。這次讀的是 PubMed 摘要。"
+      }
+    ],
+    "note": "兩篇都是登記觀察，不是這次讀到的隨機雙盲試驗。疲勞問卷改善不能寫成疾病療效。"
+  },
+  "evidenceLevels": [
+    "clinical"
+  ],
+  "images": [
+    {
+      "url": "https://www.robuvit.com/fileadmin/_processed_/8/4/csm_Robuvit_-_Powder_007db56d3a.jpg",
+      "localPath": "",
+      "caption": "Robuvit 官網的粉末照片。",
+      "source": "official_site"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Supplement industry must-sees at Fi Europe 2026",
+      "url": "https://www.nutraingredients.com/Article/2026/11/17/supplement-industry-must-sees-at-fi-europe-2026/",
+      "publisher": "NutraIngredients",
+      "channel": "exhibition",
+      "accessed": "2026-11-22",
+      "whatItContributes": "2026-11-17 展前記 Horphag 攤位的 Robuvit，方向是精力、活力與疲勞。"
+    },
+    {
+      "title": "Robuvit",
+      "url": "https://www.robuvit.com/home",
+      "publisher": "Horphag Research",
+      "channel": "supplier_site",
+      "accessed": "2026-11-22",
+      "whatItContributes": "商品名、法國橡木萃取與水溶性粉末。"
+    },
+    {
+      "title": "PubMed 24231834",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24231834/",
+      "publisher": "PubMed",
+      "channel": "paper",
+      "accessed": "2026-11-22",
+      "whatItContributes": "每日 200 毫克、至少 6 個月的疲勞登記。"
+    },
+    {
+      "title": "US9060999B2",
+      "url": "https://patents.google.com/patent/US9060999B2",
+      "publisher": "Google Patents",
+      "channel": "patent",
+      "accessed": "2026-11-22",
+      "whatItContributes": "Horphag 的橡木鞣花單寧萃取專利。"
+    },
+    {
+      "title": "Robuvit, DKSH",
+      "url": "https://www.dkshdiscover.com/en/promo/fbi-my-robuvit",
+      "publisher": "DKSH",
+      "channel": "other",
+      "accessed": "2026-11-22",
+      "whatItContributes": "可供應市場列表含 Taiwan，沒有台灣公司名稱。"
+    }
+  ],
+  "discovery": {
+    "channel": "exhibition",
+    "scoutDate": "2026-11-22",
+    "notes": "從 NutraIngredients 2026-11-17 的 Fi Europe 展前記進入 Robuvit 官網、兩篇 PubMed 登記與 US9060999B2，再打開 DKSH 產品頁與英凡特的碧容健授權頁。海南石櫟與松樹皮沒有併成這支木材萃取。"
+  }
+}

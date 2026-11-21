@@ -1,0 +1,194 @@
+{
+  "id": "progo",
+  "example": false,
+  "names": {
+    "commonZh": "鮭魚蛋白水解物",
+    "commonEn": "salmon protein hydrolysate",
+    "trade": "ProGo（Hofseth BioCare 的鮭魚蛋白水解物商品名）",
+    "scientific": "Salmo salar（論文寫新鮮挪威鮭魚魚片經酵素水解的胜肽。2020 年 DKSH 新聞把 ProGo 與膠原胜肽 CollaGo 分成兩項。台灣大昌華嘉頁把 ProGo 寫成鮭魚膠原蛋白，與前兩份不一致。）"
+  },
+  "supply": {
+    "supplierName": "Hofseth BioCare",
+    "supplierCountry": "挪威",
+    "relationship": "taiwan_distributor",
+    "taiwanPartyName": "台灣大昌華嘉（DKSH；2020 年雙方新聞寫含台灣的獨家經銷）；宸品股份有限公司另有產品頁；登盛企業原料表列有品名",
+    "relationshipNote": "2026-11-22 以 ProGo、Hofseth、鮭魚蛋白、鮭魚水解、salmon protein hydrolysate，搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索。DKSH 與 Hofseth 2020-12-07 新聞寫獨家經銷涵蓋台灣等十個亞洲市場，品項含 ProGo，並把 ProGo 寫成運動與耐力用蛋白、CollaGo 才是膠原胜肽。Hofseth 自己的新聞稿同樣列出台灣與 ProGo。台灣大昌華嘉食品原料頁仍把 Hofseth 放在合作夥伴，但中文寫「ProGo 鮭魚膠原蛋白」，與 2020 年新聞的蛋白／膠原分工不同，兩句都留下。宸品產品頁介紹 ProGo 鮭魚水解蛋白與代工，沒有寫代理或獨家。登盛原料總覽表有「水解鮭魚蛋白／ProGo Salmon Protein Hydrolysate」，打開的那一頁沒有代理句。不把宸品或登盛升成原廠證實的代理。查核日 2026-11-22。"
+  },
+  "tfda": {
+    "usable": "not_found",
+    "evidenceNotes": "商品名 ProGo、鮭魚蛋白與魚蛋白在原料、添加物都是 0 筆。「鮭魚」命中的是魚體（id 16595，含 Salmo salar，傳統供食部位），不是這支酵素水解胜肽。添加物裡提到鮭魚的是亞硝酸鹽等用於鮭魚卵製品的列，也不是這個蛋白。查無不是准用。",
+    "lookupDate": "2026-11-22",
+    "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+    "queries": [
+      {
+        "tab": "ingredient",
+        "keyword": "ProGo",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名 0 筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "鮭魚蛋白",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "水解物這個說法 0 筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "魚蛋白",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "0 筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "鮭魚",
+        "category": "",
+        "resultCount": 2,
+        "matchedName": "鮭魚；鉤吻鮭；大麻哈魚；狗鮭",
+        "restrictionNote": "id 16595：Salmo salar L.、Oncorhynchus keta，傳統供食部位（含精巢、鼻軟骨）。id 16630：Oncorhynchus keta，傳統供食部位、精巢。",
+        "unconfirmedSafety": false,
+        "note": "兩筆都是魚體，不是水解胜肽。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "鮭魚蛋白",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "添加物 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "ProGo",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名在添加物 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "鮭魚",
+        "category": "",
+        "resultCount": 4,
+        "matchedName": "亞硝酸鉀；亞硝酸鈉；硝酸鉀等",
+        "restrictionNote": "命中的是可用於鮭魚卵製品的亞硝酸鹽、硝酸鹽，不是蛋白水解物。",
+        "unconfirmedSafety": false,
+        "note": "魚卵加工用添加物，與這支原料無關。"
+      },
+      {
+        "tab": "history",
+        "keyword": "鮭魚",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "助手更新歷程（2026-11-01 至 2026-11-21）沒有這筆異動。資料時間戳 2026-11-21 06:17。"
+      }
+    ],
+    "officialCrosscheck": {
+      "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+      "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+      "done": false,
+      "notes": "2026-11-22 連線 consumer.fda.gov.tw 在 TLS 讀取時出現 UNEXPECTED_EOF_WHILE_READING，沒有取得官方詳細頁。助手側沒有鮭魚蛋白水解物可核對的詳細頁。鮭魚魚體是 MaterialDetail id 16595。siteTotals 原料 1709、添加物 804。"
+    }
+  },
+  "efficacy": {
+    "claimedBenefits": [
+      "NutraIngredients 2026-09-21：以 ProGo 做的 8 週試驗寫，鮭魚蛋白水解物相對乳清蛋白，血紅素、血糖控制、體組成與全身發炎指標有改善。同一篇沒有寫受試人數。",
+      "Biomedicines 試驗方法：14 人完成（10 女 4 男），BMI 25–35，每日 12 公克 ProGo 或等氮乳清蛋白分離物，56 天。血紅素組間差 +3.82 g/L（95% CI 0.70–6.95，p=0.021），紅血球數 +0.32×10^6/µL（0.19–0.46，p<0.001）。摘要另寫鐵蛋白、毛髮指甲皮膚綜合分數、體脂百分比、BMI、空腹血糖與 HbA1c 有利於 ProGo，瘦體重有保留。這是先導試驗。",
+      "論文寫試驗品蛋白約 99–100%、脂肪約 0.3%、灰分約 2.3%，水解度約 10%，蛋白部分 95% 以上是水溶性胜肽。宸品頁寫蛋白質含量大於 97%。兩數都留下。"
+    ],
+    "suggestedDosage": "這篇試驗是每日 12 公克。打開的原廠與 DKSH 新聞沒有另寫一個每日毫克。",
+    "dosageNote": "12 公克是這篇試驗的每日蛋白量，不是平台上限。平台沒有這支水解物的列名。鮭魚魚體那一筆不能拿來當成水解胜肽已列名。"
+  },
+  "patent": {
+    "status": "unknown",
+    "refs": [],
+    "note": "2026-11-22 以 ProGo、Hofseth、salmon protein hydrolysate 查公開專利，沒有打開可對上這個商品名的專利號。不把製程自述寫成已核准。"
+  },
+  "literature": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "A Pilot Study of Salmon Protein Hydrolysate (ProGo) Supplementation",
+        "url": "https://doi.org/10.3390/biomedicines14081663",
+        "note": "Biomedicines，2026。14 人、每日 12 公克、56 天，對照是等氮乳清蛋白。這次讀的是 PMC 頁上的摘要與方法。"
+      }
+    ],
+    "note": "樣本很小，主要終點做了 Holm–Bonferroni。體脂與血糖是次要分析。"
+  },
+  "evidenceLevels": [
+    "clinical"
+  ],
+  "images": [
+    {
+      "url": "https://hofsethbiocare.com/uploads/images/Product/_1200x630_crop_center-center_82_none/ProGo01.jpg",
+      "localPath": "",
+      "caption": "Hofseth BioCare 網站上的 ProGo 產品圖。",
+      "source": "official_site"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Upcycled salmon protein may improve key biological drivers of healthy aging",
+      "url": "https://www.nutraingredients.com/Article/2026/09/21/upcycled-salmon-protein-may-improve-key-biological-drivers-of-healthy-aging/",
+      "publisher": "NutraIngredients",
+      "channel": "news",
+      "accessed": "2026-11-22",
+      "whatItContributes": "2026-09-21 報導 ProGo 相對乳清蛋白的 8 週方向：發炎、血糖、體組成。"
+    },
+    {
+      "title": "DOI 10.3390/biomedicines14081663",
+      "url": "https://doi.org/10.3390/biomedicines14081663",
+      "publisher": "Biomedicines",
+      "channel": "paper",
+      "accessed": "2026-11-22",
+      "whatItContributes": "14 人、12 公克、56 天，以及血紅素與紅血球的組間差。"
+    },
+    {
+      "title": "DKSH and Hofseth BioCare exclusive distribution agreement",
+      "url": "https://www.dksh.com/global-en/home/media/news/dksh-and-hofseth-biocare-enter-an-exclusive-distribution-agreement-to-promote-sustainable-ingredients-for-health-and-nutrition-across-asia",
+      "publisher": "DKSH",
+      "channel": "other",
+      "accessed": "2026-11-22",
+      "whatItContributes": "2020-12-07 寫台灣在獨家經銷範圍內，ProGo 是蛋白、CollaGo 是膠原胜肽。"
+    },
+    {
+      "title": "食品與飲品原料，Hofseth BioCare",
+      "url": "https://www.dksh.com/tw-zh-Hant/home/performance-materials/food-beverage-ingredients",
+      "publisher": "台灣大昌華嘉",
+      "channel": "other",
+      "accessed": "2026-11-22",
+      "whatItContributes": "台灣頁仍列 Hofseth，但把 ProGo 寫成鮭魚膠原蛋白。"
+    },
+    {
+      "title": "ProGo 鮭魚水解蛋白",
+      "url": "https://www.champion-bio.com/tw/product-detail/hydrolyzed_salmon_protein__6/",
+      "publisher": "宸品股份有限公司",
+      "channel": "other",
+      "accessed": "2026-11-22",
+      "whatItContributes": "台灣頁販售這支水解蛋白，寫蛋白大於 97%，沒有寫代理。"
+    }
+  ],
+  "discovery": {
+    "channel": "news",
+    "scoutDate": "2026-11-22",
+    "notes": "從 NutraIngredients 2026-09-21 的 ProGo 報導進入 Biomedicines 論文、DKSH 2020 年經銷新聞與台灣大昌華嘉頁，再打開宸品與登盛的原料頁。鮭魚魚體沒有拿來當成水解胜肽的列名。膠原蛋白 CollaGo 沒有併進來。"
+  }
+}

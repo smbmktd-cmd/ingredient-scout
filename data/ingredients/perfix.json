@@ -1,0 +1,173 @@
+{
+  "id": "perfix",
+  "example": false,
+  "names": {
+    "commonZh": "柿果實萃取物",
+    "commonEn": "persimmon fruit extract",
+    "trade": "perFix（Euromed 的柿果實萃取商品名）",
+    "scientific": "Diospyros kaki L.f.（果實。平台「柿」的部位是果實含果皮。柿葉、柿霜是另外兩筆，不是這支。）"
+  },
+  "supply": {
+    "supplierName": "Euromed",
+    "supplierCountry": "西班牙",
+    "relationship": "taiwan_distributor",
+    "taiwanPartyName": "創百股份有限公司（自述經銷含 EuroMed 的品牌原料；產品頁列出 perFix）",
+    "relationshipNote": "2026-11-22 以 perFix、Perfix、Euromed、柿子萃取、persimmon extract、Diospyros kaki，搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索。創百優勢頁自述「我們經銷」歐洲 EuroMed 等供應商的專利品牌原料；perFix 產品頁寫高聚合柿子單寧至少 5%、用量 400 mg/day，沒有寫總代理、獨家或原廠授權。原廠柿子頁的聯絡據點是西班牙與美國，沒有點名創百。上海善邑頁自述代理 perFix，公司在上海，不是台灣廠商。查核日 2026-11-22。"
+  },
+  "tfda": {
+    "usable": "listed_food_ingredient",
+    "evidenceNotes": "商品名 perFix 在原料、添加物都是 0 筆。學名 Diospyros kaki 命中柿（id 17220），部位果實（含果皮），備註空白。柿葉（id 16700）與柿霜（id 17280）是另外兩筆，也都不是未確認。這支是果實萃取，對到果實那一筆；列名不是健康食品許可。",
+    "lookupDate": "2026-11-22",
+    "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+    "queries": [
+      {
+        "tab": "ingredient",
+        "keyword": "perFix",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名 0 筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "柿",
+        "category": "",
+        "resultCount": 3,
+        "matchedName": "柿葉；柿；柿霜",
+        "restrictionNote": "id 17220：Diospyros kaki Thunberg，果實（含果皮），備註空白。id 16700：葉。id 17280：柿乾表面的白色粉末。",
+        "unconfirmedSafety": false,
+        "note": "三筆都可供食品使用。這支對果實。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Diospyros",
+        "category": "",
+        "resultCount": 3,
+        "matchedName": "柿葉；柿；柿霜",
+        "restrictionNote": "與「柿」同一組三筆。",
+        "unconfirmedSafety": false,
+        "note": "沒有未確認的柿部位。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "柿",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "添加物 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "persimmon",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "英文在添加物 0 筆。"
+      },
+      {
+        "tab": "history",
+        "keyword": "柿",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "助手更新歷程（2026-11-01 至 2026-11-21）沒有這筆異動。資料時間戳 2026-11-21 06:17。"
+      }
+    ],
+    "officialCrosscheck": {
+      "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+      "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+      "done": true,
+      "notes": "2026-11-22 連線 consumer.fda.gov.tw 在 TLS 讀取時出現 UNEXPECTED_EOF_WHILE_READING，沒有另開官方詳細頁。果實列名來自助手資料，詳細頁網址是 MaterialDetail id 17220。柿葉 id 16700、柿霜 id 17280。siteTotals 原料 1709、添加物 804。"
+    }
+  },
+  "efficacy": {
+    "claimedBenefits": [
+      "Foods 試驗：柿果實萃取 perFix，每日 400 毫克、120 天。整體 36 人安慰劑、35 人萃取；過重族群的主要分析是安慰劑 26 人、萃取 23 人。過重組的體脂肪（公斤與百分比，DEXA 與 BIA）組間 p<0.001，摘要寫瘦體重沒有顯著下降。體重、BMI、腰圍與腹圍組間 p<0.001。血脂與血糖沒有組間差異，TNFα 下降與總抗氧化能力上升有組間差異（p<0.001）。",
+      "Euromed 產品頁寫這是柿果實萃取，縮合單寧以 HPLC 計至少 5%，溶劑是純水的 Pure-Hydro Process。創百頁寫高聚合柿子單寧至少 5%、用量 400 mg/day，並寫「增強代謝力」。代謝這句是創百頁的說法，不是上面那篇摘要的原句。"
+    ],
+    "suggestedDosage": "試驗、Euromed 被引用的研究與創百頁都是每日 400 毫克。",
+    "dosageNote": "400 毫克是這篇試驗與創百頁寫的每日量，不是平台上限。平台對柿果實沒有寫毫克上限。列名不等於體重管理宣稱已核准。"
+  },
+  "patent": {
+    "status": "unknown",
+    "refs": [],
+    "note": "創百頁與原廠頁寫 Pure-Hydro Process 為專利水萃。2026-11-22 以 perFix、Euromed、persimmon、Diospyros kaki 查公開專利，沒有打開可對上這個商品名的專利號。不把「專利」二字寫成專利號。"
+  },
+  "literature": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "Efficacy of a Dietary Supplement Extracted from Persimmon (Diospyros kaki L.f.) in Overweight Healthy Adults",
+        "url": "https://doi.org/10.3390/foods13244072",
+        "note": "Foods，2024，13(24):4072。隨機雙盲，每日 400 毫克、120 天。這次讀的是 PubMed 與期刊頁的摘要。"
+      }
+    ],
+    "note": "主要分析是過重子群。血脂與血糖在這篇摘要裡沒有組間差異。"
+  },
+  "evidenceLevels": [
+    "clinical"
+  ],
+  "images": [
+    {
+      "url": "https://euromedgroup.com/wp-content/uploads/perfix-extract.webp",
+      "localPath": "",
+      "caption": "Euromed perFix 產品頁圖片。",
+      "source": "official_site"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Euromed to present Mediterranean botanical extracts at Vitafoods Asia 2026",
+      "url": "https://fei-online.com/euromed-to-present-mediterranean-botanical-extracts-at-vitafoods-asia-2026/",
+      "publisher": "Food Engineering & Ingredients",
+      "channel": "exhibition",
+      "accessed": "2026-11-22",
+      "whatItContributes": "2026-07-10 寫 Euromed 在 Vitafoods Asia 攤位 H6-K09 展示 perFix，並指向 2024 年 Foods 的體組成試驗。"
+    },
+    {
+      "title": "Persimmon fruit extract perFix",
+      "url": "https://euromedgroup.com/persimmon-fruit-extract/",
+      "publisher": "Euromed",
+      "channel": "supplier_site",
+      "accessed": "2026-11-22",
+      "whatItContributes": "商品名、Diospyros kaki 果實、縮合單寧至少 5%。"
+    },
+    {
+      "title": "DOI 10.3390/foods13244072",
+      "url": "https://doi.org/10.3390/foods13244072",
+      "publisher": "Foods",
+      "channel": "paper",
+      "accessed": "2026-11-22",
+      "whatItContributes": "400 毫克、120 天，以及體脂肪、瘦體重與血脂的差別。"
+    },
+    {
+      "title": "Persimmon extract shows weight management potential",
+      "url": "https://www.nutraingredients.com/Article/2025/02/18/persimmon-extract-may-offer-weight-management-potential/",
+      "publisher": "NutraIngredients",
+      "channel": "news",
+      "accessed": "2026-11-22",
+      "whatItContributes": "2025-02-18 報導同一篇 perFix 試驗，並寫溶劑是超純水。"
+    },
+    {
+      "title": "perFix 歐洲專利柿子萃取物",
+      "url": "https://www.chambio.com/products/persimmon-extract-perfix/",
+      "publisher": "創百股份有限公司",
+      "channel": "other",
+      "accessed": "2026-11-22",
+      "whatItContributes": "台灣頁列出規格與 400 mg/day，沒有寫總代理。"
+    }
+  ],
+  "discovery": {
+    "channel": "exhibition",
+    "scoutDate": "2026-11-22",
+    "notes": "從 2026-07-10 的 Vitafoods Asia 展前記進入 Euromed 的 perFix 頁、Foods 論文與 2025-02-18 新聞，再打開創百產品頁與優勢頁。柿葉與柿霜沒有併成這支果實萃取。上海善邑不是台灣廠商。"
+  }
+}

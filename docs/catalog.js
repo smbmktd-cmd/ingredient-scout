@@ -7,6 +7,984 @@ window.INGREDIENT_CATALOG = {
         "exhibition",
         "industry_report"
       ],
+      "date": "2026-11-22",
+      "example": false,
+      "notes": "正式五筆。主管道：ProGo、Cetoleic 2040 為新聞；Robuvit、perFix 為展覽；360GUT 為產業報導。未收未確認安全性項目：Pomanox（石榴全果含果皮）、Aspurūs／總序天冬、Metaberine／印度小檗、泰國黑薑。海南石櫟未確認，但不是 Robuvit 的歐洲櫟木材。",
+      "picks": [
+        {
+          "discovery": {
+            "channel": "news",
+            "notes": "從 NutraIngredients 2026-09-21 的 ProGo 報導進入 Biomedicines 論文、DKSH 2020 年經銷新聞與台灣大昌華嘉頁，再打開宸品與登盛的原料頁。鮭魚魚體沒有拿來當成水解胜肽的列名。膠原蛋白 CollaGo 沒有併進來。",
+            "scoutDate": "2026-11-22"
+          },
+          "efficacy": {
+            "claimedBenefits": [
+              "NutraIngredients 2026-09-21：以 ProGo 做的 8 週試驗寫，鮭魚蛋白水解物相對乳清蛋白，血紅素、血糖控制、體組成與全身發炎指標有改善。同一篇沒有寫受試人數。",
+              "Biomedicines 試驗方法：14 人完成（10 女 4 男），BMI 25–35，每日 12 公克 ProGo 或等氮乳清蛋白分離物，56 天。血紅素組間差 +3.82 g/L（95% CI 0.70–6.95，p=0.021），紅血球數 +0.32×10^6/µL（0.19–0.46，p\u003c0.001）。摘要另寫鐵蛋白、毛髮指甲皮膚綜合分數、體脂百分比、BMI、空腹血糖與 HbA1c 有利於 ProGo，瘦體重有保留。這是先導試驗。",
+              "論文寫試驗品蛋白約 99–100%、脂肪約 0.3%、灰分約 2.3%，水解度約 10%，蛋白部分 95% 以上是水溶性胜肽。宸品頁寫蛋白質含量大於 97%。兩數都留下。"
+            ],
+            "dosageNote": "12 公克是這篇試驗的每日蛋白量，不是平台上限。平台沒有這支水解物的列名。鮭魚魚體那一筆不能拿來當成水解胜肽已列名。",
+            "suggestedDosage": "這篇試驗是每日 12 公克。打開的原廠與 DKSH 新聞沒有另寫一個每日毫克。"
+          },
+          "evidenceLevels": [
+            "clinical"
+          ],
+          "example": false,
+          "id": "progo",
+          "images": [
+            {
+              "caption": "Hofseth BioCare 網站上的 ProGo 產品圖。",
+              "localPath": "",
+              "source": "official_site",
+              "url": "https://hofsethbiocare.com/uploads/images/Product/_1200x630_crop_center-center_82_none/ProGo01.jpg"
+            }
+          ],
+          "literature": {
+            "note": "樣本很小，主要終點做了 Holm–Bonferroni。體脂與血糖是次要分析。",
+            "refs": [
+              {
+                "note": "Biomedicines，2026。14 人、每日 12 公克、56 天，對照是等氮乳清蛋白。這次讀的是 PMC 頁上的摘要與方法。",
+                "title": "A Pilot Study of Salmon Protein Hydrolysate (ProGo) Supplementation",
+                "url": "https://doi.org/10.3390/biomedicines14081663"
+              }
+            ],
+            "status": "yes"
+          },
+          "names": {
+            "commonEn": "salmon protein hydrolysate",
+            "commonZh": "鮭魚蛋白水解物",
+            "scientific": "Salmo salar（論文寫新鮮挪威鮭魚魚片經酵素水解的胜肽。2020 年 DKSH 新聞把 ProGo 與膠原胜肽 CollaGo 分成兩項。台灣大昌華嘉頁把 ProGo 寫成鮭魚膠原蛋白，與前兩份不一致。）",
+            "trade": "ProGo（Hofseth BioCare 的鮭魚蛋白水解物商品名）"
+          },
+          "patent": {
+            "note": "2026-11-22 以 ProGo、Hofseth、salmon protein hydrolysate 查公開專利，沒有打開可對上這個商品名的專利號。不把製程自述寫成已核准。",
+            "refs": [],
+            "status": "unknown"
+          },
+          "sources": [
+            {
+              "accessed": "2026-11-22",
+              "channel": "news",
+              "publisher": "NutraIngredients",
+              "title": "Upcycled salmon protein may improve key biological drivers of healthy aging",
+              "url": "https://www.nutraingredients.com/Article/2026/09/21/upcycled-salmon-protein-may-improve-key-biological-drivers-of-healthy-aging/",
+              "whatItContributes": "2026-09-21 報導 ProGo 相對乳清蛋白的 8 週方向：發炎、血糖、體組成。"
+            },
+            {
+              "accessed": "2026-11-22",
+              "channel": "paper",
+              "publisher": "Biomedicines",
+              "title": "DOI 10.3390/biomedicines14081663",
+              "url": "https://doi.org/10.3390/biomedicines14081663",
+              "whatItContributes": "14 人、12 公克、56 天，以及血紅素與紅血球的組間差。"
+            },
+            {
+              "accessed": "2026-11-22",
+              "channel": "other",
+              "publisher": "DKSH",
+              "title": "DKSH and Hofseth BioCare exclusive distribution agreement",
+              "url": "https://www.dksh.com/global-en/home/media/news/dksh-and-hofseth-biocare-enter-an-exclusive-distribution-agreement-to-promote-sustainable-ingredients-for-health-and-nutrition-across-asia",
+              "whatItContributes": "2020-12-07 寫台灣在獨家經銷範圍內，ProGo 是蛋白、CollaGo 是膠原胜肽。"
+            },
+            {
+              "accessed": "2026-11-22",
+              "channel": "other",
+              "publisher": "台灣大昌華嘉",
+              "title": "食品與飲品原料，Hofseth BioCare",
+              "url": "https://www.dksh.com/tw-zh-Hant/home/performance-materials/food-beverage-ingredients",
+              "whatItContributes": "台灣頁仍列 Hofseth，但把 ProGo 寫成鮭魚膠原蛋白。"
+            },
+            {
+              "accessed": "2026-11-22",
+              "channel": "other",
+              "publisher": "宸品股份有限公司",
+              "title": "ProGo 鮭魚水解蛋白",
+              "url": "https://www.champion-bio.com/tw/product-detail/hydrolyzed_salmon_protein__6/",
+              "whatItContributes": "台灣頁販售這支水解蛋白，寫蛋白大於 97%，沒有寫代理。"
+            }
+          ],
+          "supply": {
+            "relationship": "taiwan_distributor",
+            "relationshipNote": "2026-11-22 以 ProGo、Hofseth、鮭魚蛋白、鮭魚水解、salmon protein hydrolysate，搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索。DKSH 與 Hofseth 2020-12-07 新聞寫獨家經銷涵蓋台灣等十個亞洲市場，品項含 ProGo，並把 ProGo 寫成運動與耐力用蛋白、CollaGo 才是膠原胜肽。Hofseth 自己的新聞稿同樣列出台灣與 ProGo。台灣大昌華嘉食品原料頁仍把 Hofseth 放在合作夥伴，但中文寫「ProGo 鮭魚膠原蛋白」，與 2020 年新聞的蛋白／膠原分工不同，兩句都留下。宸品產品頁介紹 ProGo 鮭魚水解蛋白與代工，沒有寫代理或獨家。登盛原料總覽表有「水解鮭魚蛋白／ProGo Salmon Protein Hydrolysate」，打開的那一頁沒有代理句。不把宸品或登盛升成原廠證實的代理。查核日 2026-11-22。",
+            "supplierCountry": "挪威",
+            "supplierName": "Hofseth BioCare",
+            "taiwanPartyName": "台灣大昌華嘉（DKSH；2020 年雙方新聞寫含台灣的獨家經銷）；宸品股份有限公司另有產品頁；登盛企業原料表列有品名"
+          },
+          "tfda": {
+            "evidenceNotes": "商品名 ProGo、鮭魚蛋白與魚蛋白在原料、添加物都是 0 筆。「鮭魚」命中的是魚體（id 16595，含 Salmo salar，傳統供食部位），不是這支酵素水解胜肽。添加物裡提到鮭魚的是亞硝酸鹽等用於鮭魚卵製品的列，也不是這個蛋白。查無不是准用。",
+            "lookupDate": "2026-11-22",
+            "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+            "officialCrosscheck": {
+              "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+              "done": false,
+              "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+              "notes": "2026-11-22 連線 consumer.fda.gov.tw 在 TLS 讀取時出現 UNEXPECTED_EOF_WHILE_READING，沒有取得官方詳細頁。助手側沒有鮭魚蛋白水解物可核對的詳細頁。鮭魚魚體是 MaterialDetail id 16595。siteTotals 原料 1709、添加物 804。"
+            },
+            "queries": [
+              {
+                "category": "",
+                "keyword": "ProGo",
+                "matchedName": "",
+                "note": "商品名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "鮭魚蛋白",
+                "matchedName": "",
+                "note": "水解物這個說法 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "魚蛋白",
+                "matchedName": "",
+                "note": "0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "鮭魚",
+                "matchedName": "鮭魚；鉤吻鮭；大麻哈魚；狗鮭",
+                "note": "兩筆都是魚體，不是水解胜肽。",
+                "restrictionNote": "id 16595：Salmo salar L.、Oncorhynchus keta，傳統供食部位（含精巢、鼻軟骨）。id 16630：Oncorhynchus keta，傳統供食部位、精巢。",
+                "resultCount": 2,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "鮭魚蛋白",
+                "matchedName": "",
+                "note": "添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "ProGo",
+                "matchedName": "",
+                "note": "商品名在添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "鮭魚",
+                "matchedName": "亞硝酸鉀；亞硝酸鈉；硝酸鉀等",
+                "note": "魚卵加工用添加物，與這支原料無關。",
+                "restrictionNote": "命中的是可用於鮭魚卵製品的亞硝酸鹽、硝酸鹽，不是蛋白水解物。",
+                "resultCount": 4,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "鮭魚",
+                "matchedName": "",
+                "note": "助手更新歷程（2026-11-01 至 2026-11-21）沒有這筆異動。資料時間戳 2026-11-21 06:17。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "history",
+                "unconfirmedSafety": false
+              }
+            ],
+            "usable": "not_found"
+          }
+        },
+        {
+          "discovery": {
+            "channel": "news",
+            "notes": "從 NutraIngredients 2026-10-09 的代謝科學彙整進入 Epax NovusLipid 頁、British Journal of Nutrition 與挪威專利 NO348700，再對原廠經銷名單、韋鎮、綠茵、會昌與誠鴻。誠鴻的 CETO3 是 Grøntvedt，沒有併成這支。黍鯡沒有拿來當成鯡魚。",
+            "scoutDate": "2026-11-22"
+          },
+          "efficacy": {
+            "claimedBenefits": [
+              "British Journal of Nutrition：80 人納入、75 人納入統計，8 週，每日膠囊合計 4 公克油。鯨蠟烯酸濃縮組是每日 1480 毫克鯨蠟烯酸與 232 毫克 EPA；對照是大豆油加無鯨蠟烯酸的 n-3 濃縮油，每日 258 毫克 EPA。LDL 相對對照組低 7%（P=0.033）。組內中位數是濃縮組 −0.1 mmol/L、對照組 +0.2 mmol/L。",
+              "同一篇寫油由 Epax Norway AS 從北海鯡魚下腳料製成，脂肪酸先做成乙酯、蒸餾後再酯化回三酸甘油酯。論文頁沒有寫商品名 Cetoleic 2040。Epax 2026 新聞標題則把同一篇寫成 Cetoleic 2040。",
+              "原廠 NovusLipid 規格表：Cetoleic 2040 的鯨蠟烯酸下限 400 mg/g、鱈油酸（gondoic）下限 200 mg/g；EPA、DHA 與 omega-3 的下限欄是橫線，沒有數字。頁面另寫這支是把長鏈多元不飽和脂肪酸含 omega-3 降到最低。"
+            ],
+            "dosageNote": "1480 毫克是這篇試驗裡的鯨蠟烯酸量，不是平台上限。魚油列名的上限是每日 EPA 加 DHA 合計 2 公克（一般食品）。規格表沒有印出 Cetoleic 2040 的 EPA、DHA 下限，不能用這張表計算是否低於 2 公克。",
+            "suggestedDosage": "打開的人體試驗是每日 4 公克油，其中鯨蠟烯酸 1480 毫克、EPA 232 毫克。原廠規格表沒有寫每日公克。"
+          },
+          "evidenceLevels": [
+            "clinical"
+          ],
+          "example": false,
+          "id": "epax-cetoleic",
+          "images": [
+            {
+              "caption": "Epax NovusLipid 產品頁圖片，頁內含 Cetoleic 2040。",
+              "localPath": "",
+              "source": "official_site",
+              "url": "https://cdn.prod.website-files.com/68cd2a13efc709aeb70cf641/68e4e884c466d1dd585b3ecd_novuslipid.avif"
+            }
+          ],
+          "literature": {
+            "note": "7% 是相對對照組，不是濃縮組自己從基線下降 7 個百分點。對照組也有 EPA。",
+            "refs": [
+              {
+                "note": "British Journal of Nutrition，2026-05-06 上線。8 週、75 人納入分析、每日 4 公克油。這次讀的是期刊頁的摘要與介入段落。",
+                "title": "Supplementation with a cetoleic acid concentrate decreased the serum LDL-cholesterol concentration",
+                "url": "https://doi.org/10.1017/S0007114526107375"
+              }
+            ],
+            "status": "yes"
+          },
+          "names": {
+            "commonEn": "cetoleic acid concentrate",
+            "commonZh": "鯨蠟烯酸濃縮魚油",
+            "scientific": "不適用單一魚種學名。論文寫油來自北海鯡魚下腳料，由 Epax Norway AS 製成。原廠產品頁寫北大西洋魚種，沒有在規格表再寫鯡魚。平台「黍鯡」是 Sprattus sprattus，不是這支。",
+            "trade": "Cetoleic 2040（Epax NovusLipid 的長鏈單元不飽和脂肪酸商品名）"
+          },
+          "patent": {
+            "note": "有 Epax 名下的鯨蠟烯酸組成物專利。請求項的 EPA 下限與規格表空白的 EPA 欄並存，不把專利請求項改寫成商品規格。",
+            "refs": [
+              {
+                "note": "申請人與權利人 EPAX NORWAY AS。挪威登記頁寫 2025-05-05 Granted，專利號 348700。請求項寫鯨蠟烯酸至少 16 wt%，一實施例至少 39 wt%，並寫 EPA 至少 3 wt%、DHA 最多 4 wt%。這次沒有看到原廠規格表把 348700 印在 Cetoleic 2040 下面。讀取日 2026-11-22。",
+                "title": "NO348700 Cetoleic acid composition",
+                "url": "https://services.patentstyret.no/search-details/patent/20220910-348700"
+              }
+            ],
+            "status": "yes"
+          },
+          "sources": [
+            {
+              "accessed": "2026-11-22",
+              "channel": "news",
+              "publisher": "NutraIngredients",
+              "title": "Catching up with metabolic health supplement science",
+              "url": "https://www.nutraingredients.com/Article/2026/10/09/catching-up-with-metabolic-health-supplement-science/",
+              "whatItContributes": "2026-10-09 彙整寫 Epax 的 omega-9／omega-11、每日 4 公克、8 週 LDL 降低 7%，油來自鯡魚。"
+            },
+            {
+              "accessed": "2026-11-22",
+              "channel": "supplier_site",
+              "publisher": "Epax",
+              "title": "EPAX Cetoleic 2040",
+              "url": "https://www.epax.com/products/epax-novuslipid",
+              "whatItContributes": "商品名、鯨蠟烯酸 400 mg/g 與鱈油酸 200 mg/g 下限，以及 EPA／DHA 欄為橫線。"
+            },
+            {
+              "accessed": "2026-11-22",
+              "channel": "paper",
+              "publisher": "British Journal of Nutrition",
+              "title": "DOI 10.1017/S0007114526107375",
+              "url": "https://doi.org/10.1017/S0007114526107375",
+              "whatItContributes": "1480 毫克鯨蠟烯酸、232 毫克 EPA、Epax Norway AS 與北海鯡魚下腳料。"
+            },
+            {
+              "accessed": "2026-11-22",
+              "channel": "patent",
+              "publisher": "Norwegian Industrial Property Office",
+              "title": "NO348700",
+              "url": "https://services.patentstyret.no/search-details/patent/20220910-348700",
+              "whatItContributes": "Epax 的鯨蠟烯酸組成物專利與請求項裡的濃度。"
+            },
+            {
+              "accessed": "2026-11-22",
+              "channel": "exhibition",
+              "publisher": "展會名錄",
+              "title": "Epax 魚油，韋鎮實業",
+              "url": "https://www.chanchao.com.tw/healthcos/visitorProductDetail.asp?no=214207",
+              "whatItContributes": "韋鎮自述為 Epax Omega-3 的台灣授權經銷商之一，頁內沒有 Cetoleic 2040。"
+            },
+            {
+              "accessed": "2026-11-22",
+              "channel": "other",
+              "publisher": "誠鴻生技",
+              "title": "Epax 高濃度魚油",
+              "url": "https://guarante.com.tw/product/norwegian/epaxfishoil/",
+              "whatItContributes": "誠鴻自述供應 Epax 高濃度魚油，頁內規格是 rTG 與 omega-3 90% 以上，沒有 Cetoleic 2040。"
+            }
+          ],
+          "supply": {
+            "relationship": "unknown",
+            "relationshipNote": "2026-11-22 以 Cetoleic、Cetoleic 2040、Epax、鯨蠟烯酸、cetoleic acid、鯡魚油，搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索，並打開原廠聯絡頁的經銷名單。原廠名單有日本 Morimura、韓國 Sungwoo、中國 Novosana、泰國 Jebsen & Jessen、越南 Brenntag，沒有台灣公司。韋鎮在 2026 亞洲生技保健展名錄寫自己是 Epax Omega-3 產品的台灣授權經銷商之一，頁內講的是濃縮 omega-3，沒有 Cetoleic 2040。綠茵頁在網址路徑含 agent，標題是 Epax Highly Concentrated Fish Oil，內文沒有 Cetoleic，也沒有「總代理」句。會昌頁是 Epax 魚油介紹，同樣沒有這個商品名。誠鴻頁自述代理 Epax 高濃度魚油，同一站的規格寫 rTG、omega-3 90% 以上，沒有 Cetoleic 2040；同站 CETO3 寫生產商是 Grøntvedt，不是 Epax。查核日 2026-11-22。同日再以「Cetoleic 2040 台灣」獨立複查，仍沒有寫明這個商品名的台灣廠商頁。",
+            "supplierCountry": "挪威",
+            "supplierName": "Epax Norway AS（Pelagia）",
+            "taiwanPartyName": "韋鎮實業自述為 Epax Omega-3 台灣授權經銷商之一；誠鴻生技自述代理 Epax 高濃度魚油；綠茵生技、會昌實業另有 Epax 魚油頁。打開的頁面都沒有寫 Cetoleic 2040"
+          },
+          "tfda": {
+            "evidenceNotes": "商品名 Cetoleic、cetoleic 與 Clupea 在原料、添加物都是 0 筆。「鯡」只命中黍鯡（Sprattus sprattus，id 16641），不是論文裡的鯡魚。魚油（id 16601）有列名：來源須為傳統可供食用的魚類，一般食品每日 EPA 與 DHA 合計 2 公克以下。這不是 Cetoleic 2040 這個規格的單獨准駁。",
+            "lookupDate": "2026-11-22",
+            "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+            "officialCrosscheck": {
+              "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+              "done": true,
+              "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+              "notes": "2026-11-22 連線 consumer.fda.gov.tw 在 TLS 讀取時出現 UNEXPECTED_EOF_WHILE_READING，沒有另開官方詳細頁。魚油列名與限制來自助手資料，詳細頁網址是 MaterialDetail id 16601；黍鯡是 id 16641。siteTotals 原料 1709、添加物 804。"
+            },
+            "queries": [
+              {
+                "category": "",
+                "keyword": "Cetoleic",
+                "matchedName": "",
+                "note": "商品名與成分英文 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "鯨蠟烯酸",
+                "matchedName": "",
+                "note": "中文成分名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Clupea",
+                "matchedName": "",
+                "note": "鯡魚屬名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "鯡",
+                "matchedName": "黍鯡",
+                "note": "不是北海鯡魚。",
+                "restrictionNote": "外文名 European Sprat，學名 Sprattus sprattus。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "魚油",
+                "matchedName": "魚油",
+                "note": "對到的是魚油通則，不是這個商品名。",
+                "restrictionNote": "id 16601。來源為傳統可供食用之魚類。一般食品每日 EPA 與 DHA 合計 2 公克以下；特定疾病配方食品為 5 公克以下。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "魚油",
+                "matchedName": "",
+                "note": "添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Cetoleic",
+                "matchedName": "",
+                "note": "商品名在添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "魚油",
+                "matchedName": "",
+                "note": "助手更新歷程（2026-11-01 至 2026-11-21）沒有這筆異動。資料時間戳 2026-11-21 06:17。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "history",
+                "unconfirmedSafety": false
+              }
+            ],
+            "usable": "listed_food_ingredient"
+          }
+        },
+        {
+          "discovery": {
+            "channel": "exhibition",
+            "notes": "從 NutraIngredients 2026-11-17 的 Fi Europe 展前記進入 Robuvit 官網、兩篇 PubMed 登記與 US9060999B2，再打開 DKSH 產品頁與英凡特的碧容健授權頁。海南石櫟與松樹皮沒有併成這支木材萃取。",
+            "scoutDate": "2026-11-22"
+          },
+          "efficacy": {
+            "claimedBenefits": [
+              "NutraIngredients 2026-11-17 的 Fi Europe 預告：Horphag 攤位（30K48）把 Robuvit 寫成法國橡木萃取，方向是精力、活力、疲勞管理與恢復。",
+              "PubMed 24231834：登記觀察，Robuvit 每日 200 毫克、至少 6 個月，搭配同一套慢性疲勞管理計畫。納入使用 Robuvit 的 48 人、只做管理計畫的 43 人。摘要寫 3 與 6 個月時多數症狀與情緒分數較對照改善，沒有觀察到副作用。這不是隨機雙盲試驗的寫法。",
+              "PubMed 25394351：另一份登記，38 人每日 300 毫克、4 週，對照 42 人。摘要寫疲勞問卷與氧化壓力指標在補充組改善較多。同樣是登記，不是這次讀到的隨機雙盲設計。"
+            ],
+            "dosageNote": "200 與 300 毫克是登記研究的補充量，100–400 毫克是專利說明書的較佳範圍。平台對木材的寫法是香辛調味、適量，沒有毫克上限。列名不等於這些毫克已可當補充品使用。",
+            "suggestedDosage": "打開的兩份人體登記分別是每日 200 毫克至少 6 個月，以及每日 300 毫克 4 週。US9060999B2 說明書把較佳範圍寫成每日 100–400 毫克。"
+          },
+          "evidenceLevels": [
+            "clinical"
+          ],
+          "example": false,
+          "id": "robuvit",
+          "images": [
+            {
+              "caption": "Robuvit 官網的粉末照片。",
+              "localPath": "",
+              "source": "official_site",
+              "url": "https://www.robuvit.com/fileadmin/_processed_/8/4/csm_Robuvit_-_Powder_007db56d3a.jpg"
+            }
+          ],
+          "literature": {
+            "note": "兩篇都是登記觀察，不是這次讀到的隨機雙盲試驗。疲勞問卷改善不能寫成疾病療效。",
+            "refs": [
+              {
+                "note": "Panminerva Medica。每日 200 毫克、至少 6 個月的登記。這次讀的是 PubMed 摘要。",
+                "title": "Improved management of primary chronic fatigue syndrome with French oak wood extract (Robuvit)",
+                "url": "https://pubmed.ncbi.nlm.nih.gov/24231834/"
+              },
+              {
+                "note": "Journal of Neurosurgical Sciences。每日 300 毫克、4 週的登記。這次讀的是 PubMed 摘要。",
+                "title": "Robuvit supplementation in subjects with chronic fatigue syndrome and increased oxidative stress",
+                "url": "https://pubmed.ncbi.nlm.nih.gov/25394351/"
+              }
+            ],
+            "status": "yes"
+          },
+          "names": {
+            "commonEn": "French oak wood extract",
+            "commonZh": "歐洲櫟木材萃取物",
+            "scientific": "Quercus robur L.（平台中文名含歐洲櫟、歐洲橡，部位木材。不是碧容健的 Pinus pinaster，也不是未確認的海南石櫟。）",
+            "trade": "Robuvit（Horphag Research 的法國橡木萃取商品名）"
+          },
+          "patent": {
+            "note": "有已核准的美國專利。這次沒有另對歐洲專利家族。",
+            "refs": [
+              {
+                "note": "Google Patents 頁寫原權利人 HORPHAG RESEARCH IP (QR) Ltd，現權利人 Horphag Research Ip Ltd。請求項含 Quercus robur 萃取，鞣花單寧以乾萃取物計高於 10%。讀取日 2026-11-22。",
+                "title": "US9060999B2 Ellagitannins rich extracts composition",
+                "url": "https://patents.google.com/patent/US9060999B2"
+              }
+            ],
+            "status": "yes"
+          },
+          "sources": [
+            {
+              "accessed": "2026-11-22",
+              "channel": "exhibition",
+              "publisher": "NutraIngredients",
+              "title": "Supplement industry must-sees at Fi Europe 2026",
+              "url": "https://www.nutraingredients.com/Article/2026/11/17/supplement-industry-must-sees-at-fi-europe-2026/",
+              "whatItContributes": "2026-11-17 展前記 Horphag 攤位的 Robuvit，方向是精力、活力與疲勞。"
+            },
+            {
+              "accessed": "2026-11-22",
+              "channel": "supplier_site",
+              "publisher": "Horphag Research",
+              "title": "Robuvit",
+              "url": "https://www.robuvit.com/home",
+              "whatItContributes": "商品名、法國橡木萃取與水溶性粉末。"
+            },
+            {
+              "accessed": "2026-11-22",
+              "channel": "paper",
+              "publisher": "PubMed",
+              "title": "PubMed 24231834",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/24231834/",
+              "whatItContributes": "每日 200 毫克、至少 6 個月的疲勞登記。"
+            },
+            {
+              "accessed": "2026-11-22",
+              "channel": "patent",
+              "publisher": "Google Patents",
+              "title": "US9060999B2",
+              "url": "https://patents.google.com/patent/US9060999B2",
+              "whatItContributes": "Horphag 的橡木鞣花單寧萃取專利。"
+            },
+            {
+              "accessed": "2026-11-22",
+              "channel": "other",
+              "publisher": "DKSH",
+              "title": "Robuvit, DKSH",
+              "url": "https://www.dkshdiscover.com/en/promo/fbi-my-robuvit",
+              "whatItContributes": "可供應市場列表含 Taiwan，沒有台灣公司名稱。"
+            }
+          ],
+          "supply": {
+            "relationship": "unknown",
+            "relationshipNote": "2026-11-22 以 Robuvit、Robuvit®、Horphag、法國橡木、歐洲櫟、Quercus robur，搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索。DKSH 的 Robuvit 頁（網址含馬來西亞代碼，頁首客訴地址在印尼）把 Markets of Availability 寫成 Japan、Malaysia、Spain、Portugal、Thailand、France、Taiwan，沒有台灣公司名稱，也沒有獨家。英凡特授權頁只寫 Pycnogenol／碧容健，證書沒有 Robuvit；同公司不等於這支橡木的代理。台灣商標 ROBUVIT 權人是瑞士 Horphag，代理人是商標事務所，不是原料經銷。Robuvit 官網成品名單有歐洲、日本、香港、馬來西亞等地的品牌，沒有台灣公司。查核日 2026-11-22。同日再以「Robuvit 台灣 代理」獨立複查，仍沒有寫明台灣代理的公司產品頁。",
+            "supplierCountry": "瑞士",
+            "supplierName": "Horphag Research",
+            "taiwanPartyName": "大昌華嘉（DKSH）產品頁把 Taiwan 列為可供應市場，沒有寫台灣公司名稱"
+          },
+          "tfda": {
+            "evidenceNotes": "商品名 Robuvit、橡木與法國橡木在原料、添加物都是 0 筆。學名 Quercus robur 命中夏櫟／歐洲櫟（id 17257），部位木材，備註是只作香辛調味、適量使用。這不是未確認安全性。研究用的 200 或 300 毫克不能當成平台允許的補充品上限。",
+            "lookupDate": "2026-11-22",
+            "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+            "officialCrosscheck": {
+              "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+              "done": true,
+              "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+              "notes": "2026-11-22 連線 consumer.fda.gov.tw 在 TLS 讀取時出現 UNEXPECTED_EOF_WHILE_READING，沒有另開官方詳細頁。木材調味限制來自助手資料，詳細頁網址是 MaterialDetail id 17257。海南石櫟是 id 16211，不是這支。siteTotals 原料 1709、添加物 804。"
+            },
+            "queries": [
+              {
+                "category": "",
+                "keyword": "Robuvit",
+                "matchedName": "",
+                "note": "商品名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "橡木",
+                "matchedName": "",
+                "note": "這個中文 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Quercus",
+                "matchedName": "夏櫟；歐洲櫟；歐洲橡；英國櫟；英國橡",
+                "note": "學名對到木材調味這一筆。",
+                "restrictionNote": "Quercus robur L.。部位木材（WOOD）。可作為賦予食品特殊香味或風味，僅以達香辛調味目的，適量使用為宜。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "櫟",
+                "matchedName": "夏櫟；歐洲櫟；海南石櫟",
+                "note": "兩筆裡，未確認的是海南石櫟，屬名不同。Quercus robur 那筆本身不是未確認。",
+                "restrictionNote": "id 17257 是 Quercus robur 木材，可供食品使用但限調味。id 16211 海南石櫟 Lithocarpus litseifolius 是未確認，學名不同。",
+                "resultCount": 2,
+                "tab": "ingredient",
+                "unconfirmedSafety": true
+              },
+              {
+                "category": "",
+                "keyword": "橡木",
+                "matchedName": "",
+                "note": "添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Quercus",
+                "matchedName": "",
+                "note": "學名在添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "櫟",
+                "matchedName": "",
+                "note": "助手更新歷程（2026-11-01 至 2026-11-21）沒有這筆異動。資料時間戳 2026-11-21 06:17。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "history",
+                "unconfirmedSafety": false
+              }
+            ],
+            "usable": "listed_food_ingredient"
+          }
+        },
+        {
+          "discovery": {
+            "channel": "exhibition",
+            "notes": "從 2026-07-10 的 Vitafoods Asia 展前記進入 Euromed 的 perFix 頁、Foods 論文與 2025-02-18 新聞，再打開創百產品頁與優勢頁。柿葉與柿霜沒有併成這支果實萃取。上海善邑不是台灣廠商。",
+            "scoutDate": "2026-11-22"
+          },
+          "efficacy": {
+            "claimedBenefits": [
+              "Foods 試驗：柿果實萃取 perFix，每日 400 毫克、120 天。整體 36 人安慰劑、35 人萃取；過重族群的主要分析是安慰劑 26 人、萃取 23 人。過重組的體脂肪（公斤與百分比，DEXA 與 BIA）組間 p\u003c0.001，摘要寫瘦體重沒有顯著下降。體重、BMI、腰圍與腹圍組間 p\u003c0.001。血脂與血糖沒有組間差異，TNFα 下降與總抗氧化能力上升有組間差異（p\u003c0.001）。",
+              "Euromed 產品頁寫這是柿果實萃取，縮合單寧以 HPLC 計至少 5%，溶劑是純水的 Pure-Hydro Process。創百頁寫高聚合柿子單寧至少 5%、用量 400 mg/day，並寫「增強代謝力」。代謝這句是創百頁的說法，不是上面那篇摘要的原句。"
+            ],
+            "dosageNote": "400 毫克是這篇試驗與創百頁寫的每日量，不是平台上限。平台對柿果實沒有寫毫克上限。列名不等於體重管理宣稱已核准。",
+            "suggestedDosage": "試驗、Euromed 被引用的研究與創百頁都是每日 400 毫克。"
+          },
+          "evidenceLevels": [
+            "clinical"
+          ],
+          "example": false,
+          "id": "perfix",
+          "images": [
+            {
+              "caption": "Euromed perFix 產品頁圖片。",
+              "localPath": "",
+              "source": "official_site",
+              "url": "https://euromedgroup.com/wp-content/uploads/perfix-extract.webp"
+            }
+          ],
+          "literature": {
+            "note": "主要分析是過重子群。血脂與血糖在這篇摘要裡沒有組間差異。",
+            "refs": [
+              {
+                "note": "Foods，2024，13(24):4072。隨機雙盲，每日 400 毫克、120 天。這次讀的是 PubMed 與期刊頁的摘要。",
+                "title": "Efficacy of a Dietary Supplement Extracted from Persimmon (Diospyros kaki L.f.) in Overweight Healthy Adults",
+                "url": "https://doi.org/10.3390/foods13244072"
+              }
+            ],
+            "status": "yes"
+          },
+          "names": {
+            "commonEn": "persimmon fruit extract",
+            "commonZh": "柿果實萃取物",
+            "scientific": "Diospyros kaki L.f.（果實。平台「柿」的部位是果實含果皮。柿葉、柿霜是另外兩筆，不是這支。）",
+            "trade": "perFix（Euromed 的柿果實萃取商品名）"
+          },
+          "patent": {
+            "note": "創百頁與原廠頁寫 Pure-Hydro Process 為專利水萃。2026-11-22 以 perFix、Euromed、persimmon、Diospyros kaki 查公開專利，沒有打開可對上這個商品名的專利號。不把「專利」二字寫成專利號。",
+            "refs": [],
+            "status": "unknown"
+          },
+          "sources": [
+            {
+              "accessed": "2026-11-22",
+              "channel": "exhibition",
+              "publisher": "Food Engineering & Ingredients",
+              "title": "Euromed to present Mediterranean botanical extracts at Vitafoods Asia 2026",
+              "url": "https://fei-online.com/euromed-to-present-mediterranean-botanical-extracts-at-vitafoods-asia-2026/",
+              "whatItContributes": "2026-07-10 寫 Euromed 在 Vitafoods Asia 攤位 H6-K09 展示 perFix，並指向 2024 年 Foods 的體組成試驗。"
+            },
+            {
+              "accessed": "2026-11-22",
+              "channel": "supplier_site",
+              "publisher": "Euromed",
+              "title": "Persimmon fruit extract perFix",
+              "url": "https://euromedgroup.com/persimmon-fruit-extract/",
+              "whatItContributes": "商品名、Diospyros kaki 果實、縮合單寧至少 5%。"
+            },
+            {
+              "accessed": "2026-11-22",
+              "channel": "paper",
+              "publisher": "Foods",
+              "title": "DOI 10.3390/foods13244072",
+              "url": "https://doi.org/10.3390/foods13244072",
+              "whatItContributes": "400 毫克、120 天，以及體脂肪、瘦體重與血脂的差別。"
+            },
+            {
+              "accessed": "2026-11-22",
+              "channel": "news",
+              "publisher": "NutraIngredients",
+              "title": "Persimmon extract shows weight management potential",
+              "url": "https://www.nutraingredients.com/Article/2025/02/18/persimmon-extract-may-offer-weight-management-potential/",
+              "whatItContributes": "2025-02-18 報導同一篇 perFix 試驗，並寫溶劑是超純水。"
+            },
+            {
+              "accessed": "2026-11-22",
+              "channel": "other",
+              "publisher": "創百股份有限公司",
+              "title": "perFix 歐洲專利柿子萃取物",
+              "url": "https://www.chambio.com/products/persimmon-extract-perfix/",
+              "whatItContributes": "台灣頁列出規格與 400 mg/day，沒有寫總代理。"
+            }
+          ],
+          "supply": {
+            "relationship": "taiwan_distributor",
+            "relationshipNote": "2026-11-22 以 perFix、Perfix、Euromed、柿子萃取、persimmon extract、Diospyros kaki，搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索。創百優勢頁自述「我們經銷」歐洲 EuroMed 等供應商的專利品牌原料；perFix 產品頁寫高聚合柿子單寧至少 5%、用量 400 mg/day，沒有寫總代理、獨家或原廠授權。原廠柿子頁的聯絡據點是西班牙與美國，沒有點名創百。上海善邑頁自述代理 perFix，公司在上海，不是台灣廠商。查核日 2026-11-22。",
+            "supplierCountry": "西班牙",
+            "supplierName": "Euromed",
+            "taiwanPartyName": "創百股份有限公司（自述經銷含 EuroMed 的品牌原料；產品頁列出 perFix）"
+          },
+          "tfda": {
+            "evidenceNotes": "商品名 perFix 在原料、添加物都是 0 筆。學名 Diospyros kaki 命中柿（id 17220），部位果實（含果皮），備註空白。柿葉（id 16700）與柿霜（id 17280）是另外兩筆，也都不是未確認。這支是果實萃取，對到果實那一筆；列名不是健康食品許可。",
+            "lookupDate": "2026-11-22",
+            "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+            "officialCrosscheck": {
+              "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+              "done": true,
+              "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+              "notes": "2026-11-22 連線 consumer.fda.gov.tw 在 TLS 讀取時出現 UNEXPECTED_EOF_WHILE_READING，沒有另開官方詳細頁。果實列名來自助手資料，詳細頁網址是 MaterialDetail id 17220。柿葉 id 16700、柿霜 id 17280。siteTotals 原料 1709、添加物 804。"
+            },
+            "queries": [
+              {
+                "category": "",
+                "keyword": "perFix",
+                "matchedName": "",
+                "note": "商品名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "柿",
+                "matchedName": "柿葉；柿；柿霜",
+                "note": "三筆都可供食品使用。這支對果實。",
+                "restrictionNote": "id 17220：Diospyros kaki Thunberg，果實（含果皮），備註空白。id 16700：葉。id 17280：柿乾表面的白色粉末。",
+                "resultCount": 3,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Diospyros",
+                "matchedName": "柿葉；柿；柿霜",
+                "note": "沒有未確認的柿部位。",
+                "restrictionNote": "與「柿」同一組三筆。",
+                "resultCount": 3,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "柿",
+                "matchedName": "",
+                "note": "添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "persimmon",
+                "matchedName": "",
+                "note": "英文在添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "柿",
+                "matchedName": "",
+                "note": "助手更新歷程（2026-11-01 至 2026-11-21）沒有這筆異動。資料時間戳 2026-11-21 06:17。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "history",
+                "unconfirmedSafety": false
+              }
+            ],
+            "usable": "listed_food_ingredient"
+          }
+        },
+        {
+          "discovery": {
+            "channel": "industry_report",
+            "notes": "從 MicrobiomePost 的 2026 Vitafoods 報告進入 Martin Bauer Nutraceuticals 官網、2022 年先導試驗與法國 Pharmanager 頁，再打開大醫生技、大自然生技的百里香頁。小飛揚草與家畜胸腺沒有併成這支。EFLA633 與 THYMOX 是別的百里香商品。",
+            "scoutDate": "2026-11-22"
+          },
+          "efficacy": {
+            "claimedBenefits": [
+              "MicrobiomePost 2026 年 Vitafoods 報告：360GUT 被寫成野百里香的低劑量多酚益生元，每日定位 600 毫克，用來對照需要公克級的菊糖或果寡糖。同一篇寫已發表先導試驗，以及 171 人有可用資料的多中心確認試驗；稿件當時在審查，結果沒有在這篇報告裡列成已發表數字。",
+              "2022 年先導試驗：40 名過重但沒有腸道疾病診斷的成人，先 4 週每日 600 毫克，再 4 週每日 900 毫克，對照安慰劑。摘要寫腸胃症狀與排便次數有改善方向，Firmicutes／Bacteroidetes 比值在萃取組下降。",
+              "Martin Bauer Nutraceuticals 官網把每日量寫成 600 毫克，並寫成分曾顯示增加 Faecalibacterium 與 Akkermansia。這句是公司頁的說法。打開的 2022 年摘要沒有這兩個屬名。"
+            ],
+            "dosageNote": "600 與 900 毫克是公司頁或那篇先導試驗的每日量，不是平台上限。平台百里香全草沒有寫毫克上限。確認試驗的結果這次沒有當成已發表數字。",
+            "suggestedDosage": "公司頁與 Vitafoods 報告的定位是每日 600 毫克。2022 年試驗是 600 毫克 4 週後再 900 毫克 4 週。"
+          },
+          "evidenceLevels": [
+            "clinical"
+          ],
+          "example": false,
+          "id": "gut-360",
+          "images": [
+            {
+              "caption": "Martin Bauer Nutraceuticals 官網 360GUT 區塊的野百里香圖片，圖上寫 Thymus serpyllum。",
+              "localPath": "",
+              "source": "official_site",
+              "url": "https://www.martin-bauer-nutraceuticals.com/management.file/img/202602035277001169.png"
+            }
+          ],
+          "literature": {
+            "note": "MicrobiomePost 寫確認試驗 171 人有可用資料、稿件審查中。這次沒有打開那份未發表全文，也不把公司頁的菌屬名字寫進這篇先導摘要。",
+            "refs": [
+              {
+                "note": "Food and Nutrition Sciences，2022。40 人，600 毫克再 900 毫克。登記 DRKS00026074。這次讀的是期刊頁的摘要與設計。",
+                "title": "Effects of a Food Supplement with a Wild Thyme (Thymus serpyllum L.) Extract on Gut Health and the Microbiome",
+                "url": "https://doi.org/10.4236/fns.2022.1311065"
+              }
+            ],
+            "status": "yes"
+          },
+          "names": {
+            "commonEn": "wild thyme extract",
+            "commonZh": "野百里香萃取物",
+            "scientific": "Thymus serpyllum L.（商品頁與 2022 年試驗的寫法。平台百里香學名串寫成 Thymus serphyllum L.。部位是全草，不是小飛揚草，也不是家畜胸腺。）",
+            "trade": "360GUT（Martin Bauer Nutraceuticals 的野百里香萃取商品名）"
+          },
+          "patent": {
+            "note": "2026-11-22 以 360GUT、Finzelberg、Thymus serpyllum、wild thyme extract 查公開專利，沒有打開可對上這個商品名的專利號。",
+            "refs": [],
+            "status": "unknown"
+          },
+          "sources": [
+            {
+              "accessed": "2026-11-22",
+              "channel": "industry_report",
+              "publisher": "MicrobiomePost",
+              "title": "Vitafoods report 2026",
+              "url": "https://microbiomepost.com/wp-content/uploads/2026/05/Vitafoods-Report-2026.pdf",
+              "whatItContributes": "360GUT 的 600 毫克定位、已發表先導試驗，以及 171 人確認試驗仍在審查。"
+            },
+            {
+              "accessed": "2026-11-22",
+              "channel": "supplier_site",
+              "publisher": "Martin Bauer Nutraceuticals",
+              "title": "Martin Bauer Nutraceuticals",
+              "url": "https://www.martin-bauer-nutraceuticals.com/home",
+              "whatItContributes": "商品名、Thymus serpyllum、每日 600 毫克，以及公司自己寫的菌屬。"
+            },
+            {
+              "accessed": "2026-11-22",
+              "channel": "paper",
+              "publisher": "Food and Nutrition Sciences",
+              "title": "DOI 10.4236/fns.2022.1311065",
+              "url": "https://doi.org/10.4236/fns.2022.1311065",
+              "whatItContributes": "40 人、600 再 900 毫克，以及腸胃症狀與菌相比值。"
+            },
+            {
+              "accessed": "2026-11-22",
+              "channel": "other",
+              "publisher": "Pharmanager Ingredients",
+              "title": "360 GUT prebiotic",
+              "url": "https://www.pharmanager-ingredients.com/en/ingredients/360-gut-prebotic/",
+              "whatItContributes": "法國經銷頁寫 Finzelberg 開發、產地阿爾巴尼亞，以及同一套 600／900 毫克設計。不是台灣公司。"
+            },
+            {
+              "accessed": "2026-11-22",
+              "channel": "other",
+              "publisher": "大醫生技",
+              "title": "Finzelberg 紅景天",
+              "url": "https://www.greencome.com.tw/Finzelberg",
+              "whatItContributes": "台灣頁寫 Finzelberg 紅景天的原廠授權，沒有 360GUT。"
+            }
+          ],
+          "supply": {
+            "relationship": "unknown",
+            "relationshipNote": "2026-11-22 以 360GUT、360 GUT、360°GUT、Martin Bauer、Finzelberg、野百里香、野生百里香、Thymus serpyllum，搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索。打開 Martin Bauer Nutraceuticals 官網與 Pharmanager 產品頁；後者總部在法國 Angers，不是台灣公司。大醫生技的 Finzelberg 頁只寫紅景天與原廠授權，頁內沒有 360GUT 或百里香。大自然生技的 EFLA633 是另一支百里香萃取，頁內沒有 360GUT。生資 THYMOX 的檢索摘要是義大利百里酚萃取；同日直接開啟該網址得到 HTTP 406，沒有把它當成 360GUT 的代理頁。同日再以「360GUT 台灣 原料」獨立複查，仍沒有寫明這個商品名的台灣廠商頁。查核日 2026-11-22。",
+            "supplierCountry": "義大利（Nutraceuticals 公司頁地址在 Rivalta di Torino。2024 年文章把開發寫成德國 Finzelberg。）",
+            "supplierName": "Martin Bauer Nutraceuticals",
+            "taiwanPartyName": "本次查無台灣關聯廠商"
+          },
+          "tfda": {
+            "evidenceNotes": "商品名 360GUT 與「野百里香」在原料、添加物都是 0 筆。「百里香」命中一筆（id 16816），部位全草，學名串含 Thymus serphyllum L.；商品頁寫 Thymus serpyllum L.，兩個拼法都留下。thyme 另命中小飛揚草，Thymus 另命中牛、羊、豬胸腺，不是這支草。這筆沒有未確認安全性標記。",
+            "lookupDate": "2026-11-22",
+            "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+            "officialCrosscheck": {
+              "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+              "done": true,
+              "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+              "notes": "2026-11-22 連線 consumer.fda.gov.tw 在 TLS 讀取時出現 UNEXPECTED_EOF_WHILE_READING，沒有另開官方詳細頁。百里香全草列名來自助手資料，詳細頁網址是 MaterialDetail id 16816。胸腺是 id 17611。siteTotals 原料 1709、添加物 804。"
+            },
+            "queries": [
+              {
+                "category": "",
+                "keyword": "360GUT",
+                "matchedName": "",
+                "note": "商品名 0 筆。關鍵字「360」會誤中其他含數字的列，不計入這支。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "野百里香",
+                "matchedName": "",
+                "note": "這個中文 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "百里香",
+                "matchedName": "百里香",
+                "note": "全草萃取對到這一筆。拼法是 serphyllum。",
+                "restrictionNote": "id 16816。學名串含 Thymus vulgaris L. 與 Thymus serphyllum L. 等。部位全草。次分類是供茶包、膳食調理包或萃取後作為原料。備註空白。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Thymus",
+                "matchedName": "百里香；牛、羊、豬胸腺",
+                "note": "器官那一筆不是野百里香。",
+                "restrictionNote": "id 17611 是胸腺，外文名也寫 Thymus，不是植物。",
+                "resultCount": 2,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "thyme",
+                "matchedName": "小飛揚草；百里香",
+                "note": "大戟科，不是 Thymus。",
+                "restrictionNote": "小飛揚草學名 Euphorbia thymifolia L.，外文名含 Thymeleaved spurge。",
+                "resultCount": 2,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "百里香",
+                "matchedName": "",
+                "note": "添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "thyme",
+                "matchedName": "",
+                "note": "英文在添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "百里香",
+                "matchedName": "",
+                "note": "助手更新歷程（2026-11-01 至 2026-11-21）沒有這筆異動。資料時間戳 2026-11-21 06:17。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "history",
+                "unconfirmedSafety": false
+              }
+            ],
+            "usable": "listed_food_ingredient"
+          }
+        }
+      ],
+      "targetCount": 5,
+      "title": "2026-11-22 正式日報"
+    },
+    {
+      "channelsCovered": [
+        "news",
+        "exhibition",
+        "industry_report"
+      ],
       "date": "2026-11-21",
       "example": false,
       "notes": "正式五筆。主管道：ReDaxin、TruBeet 為新聞；EpiCor、VitaliG 為展覽；MonaJuventa Nu 為產業報導。未收未確認安全性項目：蟬花（Cordyceps cicadae）、水飛薊、銀杏葉、神經醯胺、肌肽、葡萄糖胺硫酸鹽、富含生育三烯酚之棕櫚油萃取物、糙蘇與韓國當歸（EstroG-100 的成分）、虎乳靈芝。南甜菜樹未確認，但不是 TruBeet 的甜菜根。",
@@ -19015,6 +19993,214 @@ window.INGREDIENT_CATALOG = {
     },
     {
       "discovery": {
+        "channel": "news",
+        "notes": "從 NutraIngredients 2026-10-09 的代謝科學彙整進入 Epax NovusLipid 頁、British Journal of Nutrition 與挪威專利 NO348700，再對原廠經銷名單、韋鎮、綠茵、會昌與誠鴻。誠鴻的 CETO3 是 Grøntvedt，沒有併成這支。黍鯡沒有拿來當成鯡魚。",
+        "scoutDate": "2026-11-22"
+      },
+      "efficacy": {
+        "claimedBenefits": [
+          "British Journal of Nutrition：80 人納入、75 人納入統計，8 週，每日膠囊合計 4 公克油。鯨蠟烯酸濃縮組是每日 1480 毫克鯨蠟烯酸與 232 毫克 EPA；對照是大豆油加無鯨蠟烯酸的 n-3 濃縮油，每日 258 毫克 EPA。LDL 相對對照組低 7%（P=0.033）。組內中位數是濃縮組 −0.1 mmol/L、對照組 +0.2 mmol/L。",
+          "同一篇寫油由 Epax Norway AS 從北海鯡魚下腳料製成，脂肪酸先做成乙酯、蒸餾後再酯化回三酸甘油酯。論文頁沒有寫商品名 Cetoleic 2040。Epax 2026 新聞標題則把同一篇寫成 Cetoleic 2040。",
+          "原廠 NovusLipid 規格表：Cetoleic 2040 的鯨蠟烯酸下限 400 mg/g、鱈油酸（gondoic）下限 200 mg/g；EPA、DHA 與 omega-3 的下限欄是橫線，沒有數字。頁面另寫這支是把長鏈多元不飽和脂肪酸含 omega-3 降到最低。"
+        ],
+        "dosageNote": "1480 毫克是這篇試驗裡的鯨蠟烯酸量，不是平台上限。魚油列名的上限是每日 EPA 加 DHA 合計 2 公克（一般食品）。規格表沒有印出 Cetoleic 2040 的 EPA、DHA 下限，不能用這張表計算是否低於 2 公克。",
+        "suggestedDosage": "打開的人體試驗是每日 4 公克油，其中鯨蠟烯酸 1480 毫克、EPA 232 毫克。原廠規格表沒有寫每日公克。"
+      },
+      "evidenceLevels": [
+        "clinical"
+      ],
+      "example": false,
+      "id": "epax-cetoleic",
+      "images": [
+        {
+          "caption": "Epax NovusLipid 產品頁圖片，頁內含 Cetoleic 2040。",
+          "localPath": "",
+          "source": "official_site",
+          "url": "https://cdn.prod.website-files.com/68cd2a13efc709aeb70cf641/68e4e884c466d1dd585b3ecd_novuslipid.avif"
+        }
+      ],
+      "literature": {
+        "note": "7% 是相對對照組，不是濃縮組自己從基線下降 7 個百分點。對照組也有 EPA。",
+        "refs": [
+          {
+            "note": "British Journal of Nutrition，2026-05-06 上線。8 週、75 人納入分析、每日 4 公克油。這次讀的是期刊頁的摘要與介入段落。",
+            "title": "Supplementation with a cetoleic acid concentrate decreased the serum LDL-cholesterol concentration",
+            "url": "https://doi.org/10.1017/S0007114526107375"
+          }
+        ],
+        "status": "yes"
+      },
+      "names": {
+        "commonEn": "cetoleic acid concentrate",
+        "commonZh": "鯨蠟烯酸濃縮魚油",
+        "scientific": "不適用單一魚種學名。論文寫油來自北海鯡魚下腳料，由 Epax Norway AS 製成。原廠產品頁寫北大西洋魚種，沒有在規格表再寫鯡魚。平台「黍鯡」是 Sprattus sprattus，不是這支。",
+        "trade": "Cetoleic 2040（Epax NovusLipid 的長鏈單元不飽和脂肪酸商品名）"
+      },
+      "patent": {
+        "note": "有 Epax 名下的鯨蠟烯酸組成物專利。請求項的 EPA 下限與規格表空白的 EPA 欄並存，不把專利請求項改寫成商品規格。",
+        "refs": [
+          {
+            "note": "申請人與權利人 EPAX NORWAY AS。挪威登記頁寫 2025-05-05 Granted，專利號 348700。請求項寫鯨蠟烯酸至少 16 wt%，一實施例至少 39 wt%，並寫 EPA 至少 3 wt%、DHA 最多 4 wt%。這次沒有看到原廠規格表把 348700 印在 Cetoleic 2040 下面。讀取日 2026-11-22。",
+            "title": "NO348700 Cetoleic acid composition",
+            "url": "https://services.patentstyret.no/search-details/patent/20220910-348700"
+          }
+        ],
+        "status": "yes"
+      },
+      "sources": [
+        {
+          "accessed": "2026-11-22",
+          "channel": "news",
+          "publisher": "NutraIngredients",
+          "title": "Catching up with metabolic health supplement science",
+          "url": "https://www.nutraingredients.com/Article/2026/10/09/catching-up-with-metabolic-health-supplement-science/",
+          "whatItContributes": "2026-10-09 彙整寫 Epax 的 omega-9／omega-11、每日 4 公克、8 週 LDL 降低 7%，油來自鯡魚。"
+        },
+        {
+          "accessed": "2026-11-22",
+          "channel": "supplier_site",
+          "publisher": "Epax",
+          "title": "EPAX Cetoleic 2040",
+          "url": "https://www.epax.com/products/epax-novuslipid",
+          "whatItContributes": "商品名、鯨蠟烯酸 400 mg/g 與鱈油酸 200 mg/g 下限，以及 EPA／DHA 欄為橫線。"
+        },
+        {
+          "accessed": "2026-11-22",
+          "channel": "paper",
+          "publisher": "British Journal of Nutrition",
+          "title": "DOI 10.1017/S0007114526107375",
+          "url": "https://doi.org/10.1017/S0007114526107375",
+          "whatItContributes": "1480 毫克鯨蠟烯酸、232 毫克 EPA、Epax Norway AS 與北海鯡魚下腳料。"
+        },
+        {
+          "accessed": "2026-11-22",
+          "channel": "patent",
+          "publisher": "Norwegian Industrial Property Office",
+          "title": "NO348700",
+          "url": "https://services.patentstyret.no/search-details/patent/20220910-348700",
+          "whatItContributes": "Epax 的鯨蠟烯酸組成物專利與請求項裡的濃度。"
+        },
+        {
+          "accessed": "2026-11-22",
+          "channel": "exhibition",
+          "publisher": "展會名錄",
+          "title": "Epax 魚油，韋鎮實業",
+          "url": "https://www.chanchao.com.tw/healthcos/visitorProductDetail.asp?no=214207",
+          "whatItContributes": "韋鎮自述為 Epax Omega-3 的台灣授權經銷商之一，頁內沒有 Cetoleic 2040。"
+        },
+        {
+          "accessed": "2026-11-22",
+          "channel": "other",
+          "publisher": "誠鴻生技",
+          "title": "Epax 高濃度魚油",
+          "url": "https://guarante.com.tw/product/norwegian/epaxfishoil/",
+          "whatItContributes": "誠鴻自述供應 Epax 高濃度魚油，頁內規格是 rTG 與 omega-3 90% 以上，沒有 Cetoleic 2040。"
+        }
+      ],
+      "supply": {
+        "relationship": "unknown",
+        "relationshipNote": "2026-11-22 以 Cetoleic、Cetoleic 2040、Epax、鯨蠟烯酸、cetoleic acid、鯡魚油，搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索，並打開原廠聯絡頁的經銷名單。原廠名單有日本 Morimura、韓國 Sungwoo、中國 Novosana、泰國 Jebsen & Jessen、越南 Brenntag，沒有台灣公司。韋鎮在 2026 亞洲生技保健展名錄寫自己是 Epax Omega-3 產品的台灣授權經銷商之一，頁內講的是濃縮 omega-3，沒有 Cetoleic 2040。綠茵頁在網址路徑含 agent，標題是 Epax Highly Concentrated Fish Oil，內文沒有 Cetoleic，也沒有「總代理」句。會昌頁是 Epax 魚油介紹，同樣沒有這個商品名。誠鴻頁自述代理 Epax 高濃度魚油，同一站的規格寫 rTG、omega-3 90% 以上，沒有 Cetoleic 2040；同站 CETO3 寫生產商是 Grøntvedt，不是 Epax。查核日 2026-11-22。同日再以「Cetoleic 2040 台灣」獨立複查，仍沒有寫明這個商品名的台灣廠商頁。",
+        "supplierCountry": "挪威",
+        "supplierName": "Epax Norway AS（Pelagia）",
+        "taiwanPartyName": "韋鎮實業自述為 Epax Omega-3 台灣授權經銷商之一；誠鴻生技自述代理 Epax 高濃度魚油；綠茵生技、會昌實業另有 Epax 魚油頁。打開的頁面都沒有寫 Cetoleic 2040"
+      },
+      "tfda": {
+        "evidenceNotes": "商品名 Cetoleic、cetoleic 與 Clupea 在原料、添加物都是 0 筆。「鯡」只命中黍鯡（Sprattus sprattus，id 16641），不是論文裡的鯡魚。魚油（id 16601）有列名：來源須為傳統可供食用的魚類，一般食品每日 EPA 與 DHA 合計 2 公克以下。這不是 Cetoleic 2040 這個規格的單獨准駁。",
+        "lookupDate": "2026-11-22",
+        "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+        "officialCrosscheck": {
+          "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+          "done": true,
+          "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+          "notes": "2026-11-22 連線 consumer.fda.gov.tw 在 TLS 讀取時出現 UNEXPECTED_EOF_WHILE_READING，沒有另開官方詳細頁。魚油列名與限制來自助手資料，詳細頁網址是 MaterialDetail id 16601；黍鯡是 id 16641。siteTotals 原料 1709、添加物 804。"
+        },
+        "queries": [
+          {
+            "category": "",
+            "keyword": "Cetoleic",
+            "matchedName": "",
+            "note": "商品名與成分英文 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "鯨蠟烯酸",
+            "matchedName": "",
+            "note": "中文成分名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Clupea",
+            "matchedName": "",
+            "note": "鯡魚屬名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "鯡",
+            "matchedName": "黍鯡",
+            "note": "不是北海鯡魚。",
+            "restrictionNote": "外文名 European Sprat，學名 Sprattus sprattus。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "魚油",
+            "matchedName": "魚油",
+            "note": "對到的是魚油通則，不是這個商品名。",
+            "restrictionNote": "id 16601。來源為傳統可供食用之魚類。一般食品每日 EPA 與 DHA 合計 2 公克以下；特定疾病配方食品為 5 公克以下。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "魚油",
+            "matchedName": "",
+            "note": "添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Cetoleic",
+            "matchedName": "",
+            "note": "商品名在添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "魚油",
+            "matchedName": "",
+            "note": "助手更新歷程（2026-11-01 至 2026-11-21）沒有這筆異動。資料時間戳 2026-11-21 06:17。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "history",
+            "unconfirmedSafety": false
+          }
+        ],
+        "usable": "listed_food_ingredient"
+      }
+    },
+    {
+      "discovery": {
         "channel": "exhibition",
         "notes": "從 NutraIngredients 2026-10-14 的 SupplySide Global 展前記進入 Cargill FAQ、GRAS notice 928 與 PubMed 20180695，再打開生資原料頁、展會名錄與 EpiCor 品牌站的台灣成品分類。boulardii 那一筆啤酒酵母沒有併成這個商品。",
         "scoutDate": "2026-11-21"
@@ -20121,6 +21307,200 @@ window.INGREDIENT_CATALOG = {
             "keyword": "苦瓜",
             "matchedName": "",
             "note": "助手更新歷程（2026-11-01 至 2026-11-16）沒有這筆異動。資料時間戳 2026-11-16 06:23。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "history",
+            "unconfirmedSafety": false
+          }
+        ],
+        "usable": "listed_food_ingredient"
+      }
+    },
+    {
+      "discovery": {
+        "channel": "industry_report",
+        "notes": "從 MicrobiomePost 的 2026 Vitafoods 報告進入 Martin Bauer Nutraceuticals 官網、2022 年先導試驗與法國 Pharmanager 頁，再打開大醫生技、大自然生技的百里香頁。小飛揚草與家畜胸腺沒有併成這支。EFLA633 與 THYMOX 是別的百里香商品。",
+        "scoutDate": "2026-11-22"
+      },
+      "efficacy": {
+        "claimedBenefits": [
+          "MicrobiomePost 2026 年 Vitafoods 報告：360GUT 被寫成野百里香的低劑量多酚益生元，每日定位 600 毫克，用來對照需要公克級的菊糖或果寡糖。同一篇寫已發表先導試驗，以及 171 人有可用資料的多中心確認試驗；稿件當時在審查，結果沒有在這篇報告裡列成已發表數字。",
+          "2022 年先導試驗：40 名過重但沒有腸道疾病診斷的成人，先 4 週每日 600 毫克，再 4 週每日 900 毫克，對照安慰劑。摘要寫腸胃症狀與排便次數有改善方向，Firmicutes／Bacteroidetes 比值在萃取組下降。",
+          "Martin Bauer Nutraceuticals 官網把每日量寫成 600 毫克，並寫成分曾顯示增加 Faecalibacterium 與 Akkermansia。這句是公司頁的說法。打開的 2022 年摘要沒有這兩個屬名。"
+        ],
+        "dosageNote": "600 與 900 毫克是公司頁或那篇先導試驗的每日量，不是平台上限。平台百里香全草沒有寫毫克上限。確認試驗的結果這次沒有當成已發表數字。",
+        "suggestedDosage": "公司頁與 Vitafoods 報告的定位是每日 600 毫克。2022 年試驗是 600 毫克 4 週後再 900 毫克 4 週。"
+      },
+      "evidenceLevels": [
+        "clinical"
+      ],
+      "example": false,
+      "id": "gut-360",
+      "images": [
+        {
+          "caption": "Martin Bauer Nutraceuticals 官網 360GUT 區塊的野百里香圖片，圖上寫 Thymus serpyllum。",
+          "localPath": "",
+          "source": "official_site",
+          "url": "https://www.martin-bauer-nutraceuticals.com/management.file/img/202602035277001169.png"
+        }
+      ],
+      "literature": {
+        "note": "MicrobiomePost 寫確認試驗 171 人有可用資料、稿件審查中。這次沒有打開那份未發表全文，也不把公司頁的菌屬名字寫進這篇先導摘要。",
+        "refs": [
+          {
+            "note": "Food and Nutrition Sciences，2022。40 人，600 毫克再 900 毫克。登記 DRKS00026074。這次讀的是期刊頁的摘要與設計。",
+            "title": "Effects of a Food Supplement with a Wild Thyme (Thymus serpyllum L.) Extract on Gut Health and the Microbiome",
+            "url": "https://doi.org/10.4236/fns.2022.1311065"
+          }
+        ],
+        "status": "yes"
+      },
+      "names": {
+        "commonEn": "wild thyme extract",
+        "commonZh": "野百里香萃取物",
+        "scientific": "Thymus serpyllum L.（商品頁與 2022 年試驗的寫法。平台百里香學名串寫成 Thymus serphyllum L.。部位是全草，不是小飛揚草，也不是家畜胸腺。）",
+        "trade": "360GUT（Martin Bauer Nutraceuticals 的野百里香萃取商品名）"
+      },
+      "patent": {
+        "note": "2026-11-22 以 360GUT、Finzelberg、Thymus serpyllum、wild thyme extract 查公開專利，沒有打開可對上這個商品名的專利號。",
+        "refs": [],
+        "status": "unknown"
+      },
+      "sources": [
+        {
+          "accessed": "2026-11-22",
+          "channel": "industry_report",
+          "publisher": "MicrobiomePost",
+          "title": "Vitafoods report 2026",
+          "url": "https://microbiomepost.com/wp-content/uploads/2026/05/Vitafoods-Report-2026.pdf",
+          "whatItContributes": "360GUT 的 600 毫克定位、已發表先導試驗，以及 171 人確認試驗仍在審查。"
+        },
+        {
+          "accessed": "2026-11-22",
+          "channel": "supplier_site",
+          "publisher": "Martin Bauer Nutraceuticals",
+          "title": "Martin Bauer Nutraceuticals",
+          "url": "https://www.martin-bauer-nutraceuticals.com/home",
+          "whatItContributes": "商品名、Thymus serpyllum、每日 600 毫克，以及公司自己寫的菌屬。"
+        },
+        {
+          "accessed": "2026-11-22",
+          "channel": "paper",
+          "publisher": "Food and Nutrition Sciences",
+          "title": "DOI 10.4236/fns.2022.1311065",
+          "url": "https://doi.org/10.4236/fns.2022.1311065",
+          "whatItContributes": "40 人、600 再 900 毫克，以及腸胃症狀與菌相比值。"
+        },
+        {
+          "accessed": "2026-11-22",
+          "channel": "other",
+          "publisher": "Pharmanager Ingredients",
+          "title": "360 GUT prebiotic",
+          "url": "https://www.pharmanager-ingredients.com/en/ingredients/360-gut-prebotic/",
+          "whatItContributes": "法國經銷頁寫 Finzelberg 開發、產地阿爾巴尼亞，以及同一套 600／900 毫克設計。不是台灣公司。"
+        },
+        {
+          "accessed": "2026-11-22",
+          "channel": "other",
+          "publisher": "大醫生技",
+          "title": "Finzelberg 紅景天",
+          "url": "https://www.greencome.com.tw/Finzelberg",
+          "whatItContributes": "台灣頁寫 Finzelberg 紅景天的原廠授權，沒有 360GUT。"
+        }
+      ],
+      "supply": {
+        "relationship": "unknown",
+        "relationshipNote": "2026-11-22 以 360GUT、360 GUT、360°GUT、Martin Bauer、Finzelberg、野百里香、野生百里香、Thymus serpyllum，搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索。打開 Martin Bauer Nutraceuticals 官網與 Pharmanager 產品頁；後者總部在法國 Angers，不是台灣公司。大醫生技的 Finzelberg 頁只寫紅景天與原廠授權，頁內沒有 360GUT 或百里香。大自然生技的 EFLA633 是另一支百里香萃取，頁內沒有 360GUT。生資 THYMOX 的檢索摘要是義大利百里酚萃取；同日直接開啟該網址得到 HTTP 406，沒有把它當成 360GUT 的代理頁。同日再以「360GUT 台灣 原料」獨立複查，仍沒有寫明這個商品名的台灣廠商頁。查核日 2026-11-22。",
+        "supplierCountry": "義大利（Nutraceuticals 公司頁地址在 Rivalta di Torino。2024 年文章把開發寫成德國 Finzelberg。）",
+        "supplierName": "Martin Bauer Nutraceuticals",
+        "taiwanPartyName": "本次查無台灣關聯廠商"
+      },
+      "tfda": {
+        "evidenceNotes": "商品名 360GUT 與「野百里香」在原料、添加物都是 0 筆。「百里香」命中一筆（id 16816），部位全草，學名串含 Thymus serphyllum L.；商品頁寫 Thymus serpyllum L.，兩個拼法都留下。thyme 另命中小飛揚草，Thymus 另命中牛、羊、豬胸腺，不是這支草。這筆沒有未確認安全性標記。",
+        "lookupDate": "2026-11-22",
+        "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+        "officialCrosscheck": {
+          "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+          "done": true,
+          "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+          "notes": "2026-11-22 連線 consumer.fda.gov.tw 在 TLS 讀取時出現 UNEXPECTED_EOF_WHILE_READING，沒有另開官方詳細頁。百里香全草列名來自助手資料，詳細頁網址是 MaterialDetail id 16816。胸腺是 id 17611。siteTotals 原料 1709、添加物 804。"
+        },
+        "queries": [
+          {
+            "category": "",
+            "keyword": "360GUT",
+            "matchedName": "",
+            "note": "商品名 0 筆。關鍵字「360」會誤中其他含數字的列，不計入這支。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "野百里香",
+            "matchedName": "",
+            "note": "這個中文 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "百里香",
+            "matchedName": "百里香",
+            "note": "全草萃取對到這一筆。拼法是 serphyllum。",
+            "restrictionNote": "id 16816。學名串含 Thymus vulgaris L. 與 Thymus serphyllum L. 等。部位全草。次分類是供茶包、膳食調理包或萃取後作為原料。備註空白。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Thymus",
+            "matchedName": "百里香；牛、羊、豬胸腺",
+            "note": "器官那一筆不是野百里香。",
+            "restrictionNote": "id 17611 是胸腺，外文名也寫 Thymus，不是植物。",
+            "resultCount": 2,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "thyme",
+            "matchedName": "小飛揚草；百里香",
+            "note": "大戟科，不是 Thymus。",
+            "restrictionNote": "小飛揚草學名 Euphorbia thymifolia L.，外文名含 Thymeleaved spurge。",
+            "resultCount": 2,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "百里香",
+            "matchedName": "",
+            "note": "添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "thyme",
+            "matchedName": "",
+            "note": "英文在添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "百里香",
+            "matchedName": "",
+            "note": "助手更新歷程（2026-11-01 至 2026-11-21）沒有這筆異動。資料時間戳 2026-11-21 06:17。",
             "restrictionNote": "",
             "resultCount": 0,
             "tab": "history",
@@ -25878,6 +27258,179 @@ window.INGREDIENT_CATALOG = {
     {
       "discovery": {
         "channel": "exhibition",
+        "notes": "從 2026-07-10 的 Vitafoods Asia 展前記進入 Euromed 的 perFix 頁、Foods 論文與 2025-02-18 新聞，再打開創百產品頁與優勢頁。柿葉與柿霜沒有併成這支果實萃取。上海善邑不是台灣廠商。",
+        "scoutDate": "2026-11-22"
+      },
+      "efficacy": {
+        "claimedBenefits": [
+          "Foods 試驗：柿果實萃取 perFix，每日 400 毫克、120 天。整體 36 人安慰劑、35 人萃取；過重族群的主要分析是安慰劑 26 人、萃取 23 人。過重組的體脂肪（公斤與百分比，DEXA 與 BIA）組間 p\u003c0.001，摘要寫瘦體重沒有顯著下降。體重、BMI、腰圍與腹圍組間 p\u003c0.001。血脂與血糖沒有組間差異，TNFα 下降與總抗氧化能力上升有組間差異（p\u003c0.001）。",
+          "Euromed 產品頁寫這是柿果實萃取，縮合單寧以 HPLC 計至少 5%，溶劑是純水的 Pure-Hydro Process。創百頁寫高聚合柿子單寧至少 5%、用量 400 mg/day，並寫「增強代謝力」。代謝這句是創百頁的說法，不是上面那篇摘要的原句。"
+        ],
+        "dosageNote": "400 毫克是這篇試驗與創百頁寫的每日量，不是平台上限。平台對柿果實沒有寫毫克上限。列名不等於體重管理宣稱已核准。",
+        "suggestedDosage": "試驗、Euromed 被引用的研究與創百頁都是每日 400 毫克。"
+      },
+      "evidenceLevels": [
+        "clinical"
+      ],
+      "example": false,
+      "id": "perfix",
+      "images": [
+        {
+          "caption": "Euromed perFix 產品頁圖片。",
+          "localPath": "",
+          "source": "official_site",
+          "url": "https://euromedgroup.com/wp-content/uploads/perfix-extract.webp"
+        }
+      ],
+      "literature": {
+        "note": "主要分析是過重子群。血脂與血糖在這篇摘要裡沒有組間差異。",
+        "refs": [
+          {
+            "note": "Foods，2024，13(24):4072。隨機雙盲，每日 400 毫克、120 天。這次讀的是 PubMed 與期刊頁的摘要。",
+            "title": "Efficacy of a Dietary Supplement Extracted from Persimmon (Diospyros kaki L.f.) in Overweight Healthy Adults",
+            "url": "https://doi.org/10.3390/foods13244072"
+          }
+        ],
+        "status": "yes"
+      },
+      "names": {
+        "commonEn": "persimmon fruit extract",
+        "commonZh": "柿果實萃取物",
+        "scientific": "Diospyros kaki L.f.（果實。平台「柿」的部位是果實含果皮。柿葉、柿霜是另外兩筆，不是這支。）",
+        "trade": "perFix（Euromed 的柿果實萃取商品名）"
+      },
+      "patent": {
+        "note": "創百頁與原廠頁寫 Pure-Hydro Process 為專利水萃。2026-11-22 以 perFix、Euromed、persimmon、Diospyros kaki 查公開專利，沒有打開可對上這個商品名的專利號。不把「專利」二字寫成專利號。",
+        "refs": [],
+        "status": "unknown"
+      },
+      "sources": [
+        {
+          "accessed": "2026-11-22",
+          "channel": "exhibition",
+          "publisher": "Food Engineering & Ingredients",
+          "title": "Euromed to present Mediterranean botanical extracts at Vitafoods Asia 2026",
+          "url": "https://fei-online.com/euromed-to-present-mediterranean-botanical-extracts-at-vitafoods-asia-2026/",
+          "whatItContributes": "2026-07-10 寫 Euromed 在 Vitafoods Asia 攤位 H6-K09 展示 perFix，並指向 2024 年 Foods 的體組成試驗。"
+        },
+        {
+          "accessed": "2026-11-22",
+          "channel": "supplier_site",
+          "publisher": "Euromed",
+          "title": "Persimmon fruit extract perFix",
+          "url": "https://euromedgroup.com/persimmon-fruit-extract/",
+          "whatItContributes": "商品名、Diospyros kaki 果實、縮合單寧至少 5%。"
+        },
+        {
+          "accessed": "2026-11-22",
+          "channel": "paper",
+          "publisher": "Foods",
+          "title": "DOI 10.3390/foods13244072",
+          "url": "https://doi.org/10.3390/foods13244072",
+          "whatItContributes": "400 毫克、120 天，以及體脂肪、瘦體重與血脂的差別。"
+        },
+        {
+          "accessed": "2026-11-22",
+          "channel": "news",
+          "publisher": "NutraIngredients",
+          "title": "Persimmon extract shows weight management potential",
+          "url": "https://www.nutraingredients.com/Article/2025/02/18/persimmon-extract-may-offer-weight-management-potential/",
+          "whatItContributes": "2025-02-18 報導同一篇 perFix 試驗，並寫溶劑是超純水。"
+        },
+        {
+          "accessed": "2026-11-22",
+          "channel": "other",
+          "publisher": "創百股份有限公司",
+          "title": "perFix 歐洲專利柿子萃取物",
+          "url": "https://www.chambio.com/products/persimmon-extract-perfix/",
+          "whatItContributes": "台灣頁列出規格與 400 mg/day，沒有寫總代理。"
+        }
+      ],
+      "supply": {
+        "relationship": "taiwan_distributor",
+        "relationshipNote": "2026-11-22 以 perFix、Perfix、Euromed、柿子萃取、persimmon extract、Diospyros kaki，搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索。創百優勢頁自述「我們經銷」歐洲 EuroMed 等供應商的專利品牌原料；perFix 產品頁寫高聚合柿子單寧至少 5%、用量 400 mg/day，沒有寫總代理、獨家或原廠授權。原廠柿子頁的聯絡據點是西班牙與美國，沒有點名創百。上海善邑頁自述代理 perFix，公司在上海，不是台灣廠商。查核日 2026-11-22。",
+        "supplierCountry": "西班牙",
+        "supplierName": "Euromed",
+        "taiwanPartyName": "創百股份有限公司（自述經銷含 EuroMed 的品牌原料；產品頁列出 perFix）"
+      },
+      "tfda": {
+        "evidenceNotes": "商品名 perFix 在原料、添加物都是 0 筆。學名 Diospyros kaki 命中柿（id 17220），部位果實（含果皮），備註空白。柿葉（id 16700）與柿霜（id 17280）是另外兩筆，也都不是未確認。這支是果實萃取，對到果實那一筆；列名不是健康食品許可。",
+        "lookupDate": "2026-11-22",
+        "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+        "officialCrosscheck": {
+          "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+          "done": true,
+          "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+          "notes": "2026-11-22 連線 consumer.fda.gov.tw 在 TLS 讀取時出現 UNEXPECTED_EOF_WHILE_READING，沒有另開官方詳細頁。果實列名來自助手資料，詳細頁網址是 MaterialDetail id 17220。柿葉 id 16700、柿霜 id 17280。siteTotals 原料 1709、添加物 804。"
+        },
+        "queries": [
+          {
+            "category": "",
+            "keyword": "perFix",
+            "matchedName": "",
+            "note": "商品名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "柿",
+            "matchedName": "柿葉；柿；柿霜",
+            "note": "三筆都可供食品使用。這支對果實。",
+            "restrictionNote": "id 17220：Diospyros kaki Thunberg，果實（含果皮），備註空白。id 16700：葉。id 17280：柿乾表面的白色粉末。",
+            "resultCount": 3,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Diospyros",
+            "matchedName": "柿葉；柿；柿霜",
+            "note": "沒有未確認的柿部位。",
+            "restrictionNote": "與「柿」同一組三筆。",
+            "resultCount": 3,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "柿",
+            "matchedName": "",
+            "note": "添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "persimmon",
+            "matchedName": "",
+            "note": "英文在添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "柿",
+            "matchedName": "",
+            "note": "助手更新歷程（2026-11-01 至 2026-11-21）沒有這筆異動。資料時間戳 2026-11-21 06:17。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "history",
+            "unconfirmedSafety": false
+          }
+        ],
+        "usable": "listed_food_ingredient"
+      }
+    },
+    {
+      "discovery": {
+        "channel": "exhibition",
         "notes": "從 PharmaGABA 的 Vitafoods Asia 2026 攤位稿開始，對官網的發酵製程與效益頁的毫克數，再看統園產品頁。該頁自稱為獨家代理，供應商頁沒有互指。TFDA 的菌種與每日 100 毫克是用助手同一筆原料抄的，沒有把 200 毫克寫成可用劑量。",
         "scoutDate": "2026-11-05"
       },
@@ -26246,6 +27799,200 @@ window.INGREDIENT_CATALOG = {
           }
         ],
         "usable": "listed_food_ingredient"
+      }
+    },
+    {
+      "discovery": {
+        "channel": "news",
+        "notes": "從 NutraIngredients 2026-09-21 的 ProGo 報導進入 Biomedicines 論文、DKSH 2020 年經銷新聞與台灣大昌華嘉頁，再打開宸品與登盛的原料頁。鮭魚魚體沒有拿來當成水解胜肽的列名。膠原蛋白 CollaGo 沒有併進來。",
+        "scoutDate": "2026-11-22"
+      },
+      "efficacy": {
+        "claimedBenefits": [
+          "NutraIngredients 2026-09-21：以 ProGo 做的 8 週試驗寫，鮭魚蛋白水解物相對乳清蛋白，血紅素、血糖控制、體組成與全身發炎指標有改善。同一篇沒有寫受試人數。",
+          "Biomedicines 試驗方法：14 人完成（10 女 4 男），BMI 25–35，每日 12 公克 ProGo 或等氮乳清蛋白分離物，56 天。血紅素組間差 +3.82 g/L（95% CI 0.70–6.95，p=0.021），紅血球數 +0.32×10^6/µL（0.19–0.46，p\u003c0.001）。摘要另寫鐵蛋白、毛髮指甲皮膚綜合分數、體脂百分比、BMI、空腹血糖與 HbA1c 有利於 ProGo，瘦體重有保留。這是先導試驗。",
+          "論文寫試驗品蛋白約 99–100%、脂肪約 0.3%、灰分約 2.3%，水解度約 10%，蛋白部分 95% 以上是水溶性胜肽。宸品頁寫蛋白質含量大於 97%。兩數都留下。"
+        ],
+        "dosageNote": "12 公克是這篇試驗的每日蛋白量，不是平台上限。平台沒有這支水解物的列名。鮭魚魚體那一筆不能拿來當成水解胜肽已列名。",
+        "suggestedDosage": "這篇試驗是每日 12 公克。打開的原廠與 DKSH 新聞沒有另寫一個每日毫克。"
+      },
+      "evidenceLevels": [
+        "clinical"
+      ],
+      "example": false,
+      "id": "progo",
+      "images": [
+        {
+          "caption": "Hofseth BioCare 網站上的 ProGo 產品圖。",
+          "localPath": "",
+          "source": "official_site",
+          "url": "https://hofsethbiocare.com/uploads/images/Product/_1200x630_crop_center-center_82_none/ProGo01.jpg"
+        }
+      ],
+      "literature": {
+        "note": "樣本很小，主要終點做了 Holm–Bonferroni。體脂與血糖是次要分析。",
+        "refs": [
+          {
+            "note": "Biomedicines，2026。14 人、每日 12 公克、56 天，對照是等氮乳清蛋白。這次讀的是 PMC 頁上的摘要與方法。",
+            "title": "A Pilot Study of Salmon Protein Hydrolysate (ProGo) Supplementation",
+            "url": "https://doi.org/10.3390/biomedicines14081663"
+          }
+        ],
+        "status": "yes"
+      },
+      "names": {
+        "commonEn": "salmon protein hydrolysate",
+        "commonZh": "鮭魚蛋白水解物",
+        "scientific": "Salmo salar（論文寫新鮮挪威鮭魚魚片經酵素水解的胜肽。2020 年 DKSH 新聞把 ProGo 與膠原胜肽 CollaGo 分成兩項。台灣大昌華嘉頁把 ProGo 寫成鮭魚膠原蛋白，與前兩份不一致。）",
+        "trade": "ProGo（Hofseth BioCare 的鮭魚蛋白水解物商品名）"
+      },
+      "patent": {
+        "note": "2026-11-22 以 ProGo、Hofseth、salmon protein hydrolysate 查公開專利，沒有打開可對上這個商品名的專利號。不把製程自述寫成已核准。",
+        "refs": [],
+        "status": "unknown"
+      },
+      "sources": [
+        {
+          "accessed": "2026-11-22",
+          "channel": "news",
+          "publisher": "NutraIngredients",
+          "title": "Upcycled salmon protein may improve key biological drivers of healthy aging",
+          "url": "https://www.nutraingredients.com/Article/2026/09/21/upcycled-salmon-protein-may-improve-key-biological-drivers-of-healthy-aging/",
+          "whatItContributes": "2026-09-21 報導 ProGo 相對乳清蛋白的 8 週方向：發炎、血糖、體組成。"
+        },
+        {
+          "accessed": "2026-11-22",
+          "channel": "paper",
+          "publisher": "Biomedicines",
+          "title": "DOI 10.3390/biomedicines14081663",
+          "url": "https://doi.org/10.3390/biomedicines14081663",
+          "whatItContributes": "14 人、12 公克、56 天，以及血紅素與紅血球的組間差。"
+        },
+        {
+          "accessed": "2026-11-22",
+          "channel": "other",
+          "publisher": "DKSH",
+          "title": "DKSH and Hofseth BioCare exclusive distribution agreement",
+          "url": "https://www.dksh.com/global-en/home/media/news/dksh-and-hofseth-biocare-enter-an-exclusive-distribution-agreement-to-promote-sustainable-ingredients-for-health-and-nutrition-across-asia",
+          "whatItContributes": "2020-12-07 寫台灣在獨家經銷範圍內，ProGo 是蛋白、CollaGo 是膠原胜肽。"
+        },
+        {
+          "accessed": "2026-11-22",
+          "channel": "other",
+          "publisher": "台灣大昌華嘉",
+          "title": "食品與飲品原料，Hofseth BioCare",
+          "url": "https://www.dksh.com/tw-zh-Hant/home/performance-materials/food-beverage-ingredients",
+          "whatItContributes": "台灣頁仍列 Hofseth，但把 ProGo 寫成鮭魚膠原蛋白。"
+        },
+        {
+          "accessed": "2026-11-22",
+          "channel": "other",
+          "publisher": "宸品股份有限公司",
+          "title": "ProGo 鮭魚水解蛋白",
+          "url": "https://www.champion-bio.com/tw/product-detail/hydrolyzed_salmon_protein__6/",
+          "whatItContributes": "台灣頁販售這支水解蛋白，寫蛋白大於 97%，沒有寫代理。"
+        }
+      ],
+      "supply": {
+        "relationship": "taiwan_distributor",
+        "relationshipNote": "2026-11-22 以 ProGo、Hofseth、鮭魚蛋白、鮭魚水解、salmon protein hydrolysate，搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索。DKSH 與 Hofseth 2020-12-07 新聞寫獨家經銷涵蓋台灣等十個亞洲市場，品項含 ProGo，並把 ProGo 寫成運動與耐力用蛋白、CollaGo 才是膠原胜肽。Hofseth 自己的新聞稿同樣列出台灣與 ProGo。台灣大昌華嘉食品原料頁仍把 Hofseth 放在合作夥伴，但中文寫「ProGo 鮭魚膠原蛋白」，與 2020 年新聞的蛋白／膠原分工不同，兩句都留下。宸品產品頁介紹 ProGo 鮭魚水解蛋白與代工，沒有寫代理或獨家。登盛原料總覽表有「水解鮭魚蛋白／ProGo Salmon Protein Hydrolysate」，打開的那一頁沒有代理句。不把宸品或登盛升成原廠證實的代理。查核日 2026-11-22。",
+        "supplierCountry": "挪威",
+        "supplierName": "Hofseth BioCare",
+        "taiwanPartyName": "台灣大昌華嘉（DKSH；2020 年雙方新聞寫含台灣的獨家經銷）；宸品股份有限公司另有產品頁；登盛企業原料表列有品名"
+      },
+      "tfda": {
+        "evidenceNotes": "商品名 ProGo、鮭魚蛋白與魚蛋白在原料、添加物都是 0 筆。「鮭魚」命中的是魚體（id 16595，含 Salmo salar，傳統供食部位），不是這支酵素水解胜肽。添加物裡提到鮭魚的是亞硝酸鹽等用於鮭魚卵製品的列，也不是這個蛋白。查無不是准用。",
+        "lookupDate": "2026-11-22",
+        "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+        "officialCrosscheck": {
+          "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+          "done": false,
+          "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+          "notes": "2026-11-22 連線 consumer.fda.gov.tw 在 TLS 讀取時出現 UNEXPECTED_EOF_WHILE_READING，沒有取得官方詳細頁。助手側沒有鮭魚蛋白水解物可核對的詳細頁。鮭魚魚體是 MaterialDetail id 16595。siteTotals 原料 1709、添加物 804。"
+        },
+        "queries": [
+          {
+            "category": "",
+            "keyword": "ProGo",
+            "matchedName": "",
+            "note": "商品名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "鮭魚蛋白",
+            "matchedName": "",
+            "note": "水解物這個說法 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "魚蛋白",
+            "matchedName": "",
+            "note": "0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "鮭魚",
+            "matchedName": "鮭魚；鉤吻鮭；大麻哈魚；狗鮭",
+            "note": "兩筆都是魚體，不是水解胜肽。",
+            "restrictionNote": "id 16595：Salmo salar L.、Oncorhynchus keta，傳統供食部位（含精巢、鼻軟骨）。id 16630：Oncorhynchus keta，傳統供食部位、精巢。",
+            "resultCount": 2,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "鮭魚蛋白",
+            "matchedName": "",
+            "note": "添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "ProGo",
+            "matchedName": "",
+            "note": "商品名在添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "鮭魚",
+            "matchedName": "亞硝酸鉀；亞硝酸鈉；硝酸鉀等",
+            "note": "魚卵加工用添加物，與這支原料無關。",
+            "restrictionNote": "命中的是可用於鮭魚卵製品的亞硝酸鹽、硝酸鹽，不是蛋白水解物。",
+            "resultCount": 4,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "鮭魚",
+            "matchedName": "",
+            "note": "助手更新歷程（2026-11-01 至 2026-11-21）沒有這筆異動。資料時間戳 2026-11-21 06:17。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "history",
+            "unconfirmedSafety": false
+          }
+        ],
+        "usable": "not_found"
       }
     },
     {
@@ -27466,6 +29213,201 @@ window.INGREDIENT_CATALOG = {
           }
         ],
         "usable": "listed_food_additive"
+      }
+    },
+    {
+      "discovery": {
+        "channel": "exhibition",
+        "notes": "從 NutraIngredients 2026-11-17 的 Fi Europe 展前記進入 Robuvit 官網、兩篇 PubMed 登記與 US9060999B2，再打開 DKSH 產品頁與英凡特的碧容健授權頁。海南石櫟與松樹皮沒有併成這支木材萃取。",
+        "scoutDate": "2026-11-22"
+      },
+      "efficacy": {
+        "claimedBenefits": [
+          "NutraIngredients 2026-11-17 的 Fi Europe 預告：Horphag 攤位（30K48）把 Robuvit 寫成法國橡木萃取，方向是精力、活力、疲勞管理與恢復。",
+          "PubMed 24231834：登記觀察，Robuvit 每日 200 毫克、至少 6 個月，搭配同一套慢性疲勞管理計畫。納入使用 Robuvit 的 48 人、只做管理計畫的 43 人。摘要寫 3 與 6 個月時多數症狀與情緒分數較對照改善，沒有觀察到副作用。這不是隨機雙盲試驗的寫法。",
+          "PubMed 25394351：另一份登記，38 人每日 300 毫克、4 週，對照 42 人。摘要寫疲勞問卷與氧化壓力指標在補充組改善較多。同樣是登記，不是這次讀到的隨機雙盲設計。"
+        ],
+        "dosageNote": "200 與 300 毫克是登記研究的補充量，100–400 毫克是專利說明書的較佳範圍。平台對木材的寫法是香辛調味、適量，沒有毫克上限。列名不等於這些毫克已可當補充品使用。",
+        "suggestedDosage": "打開的兩份人體登記分別是每日 200 毫克至少 6 個月，以及每日 300 毫克 4 週。US9060999B2 說明書把較佳範圍寫成每日 100–400 毫克。"
+      },
+      "evidenceLevels": [
+        "clinical"
+      ],
+      "example": false,
+      "id": "robuvit",
+      "images": [
+        {
+          "caption": "Robuvit 官網的粉末照片。",
+          "localPath": "",
+          "source": "official_site",
+          "url": "https://www.robuvit.com/fileadmin/_processed_/8/4/csm_Robuvit_-_Powder_007db56d3a.jpg"
+        }
+      ],
+      "literature": {
+        "note": "兩篇都是登記觀察，不是這次讀到的隨機雙盲試驗。疲勞問卷改善不能寫成疾病療效。",
+        "refs": [
+          {
+            "note": "Panminerva Medica。每日 200 毫克、至少 6 個月的登記。這次讀的是 PubMed 摘要。",
+            "title": "Improved management of primary chronic fatigue syndrome with French oak wood extract (Robuvit)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24231834/"
+          },
+          {
+            "note": "Journal of Neurosurgical Sciences。每日 300 毫克、4 週的登記。這次讀的是 PubMed 摘要。",
+            "title": "Robuvit supplementation in subjects with chronic fatigue syndrome and increased oxidative stress",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25394351/"
+          }
+        ],
+        "status": "yes"
+      },
+      "names": {
+        "commonEn": "French oak wood extract",
+        "commonZh": "歐洲櫟木材萃取物",
+        "scientific": "Quercus robur L.（平台中文名含歐洲櫟、歐洲橡，部位木材。不是碧容健的 Pinus pinaster，也不是未確認的海南石櫟。）",
+        "trade": "Robuvit（Horphag Research 的法國橡木萃取商品名）"
+      },
+      "patent": {
+        "note": "有已核准的美國專利。這次沒有另對歐洲專利家族。",
+        "refs": [
+          {
+            "note": "Google Patents 頁寫原權利人 HORPHAG RESEARCH IP (QR) Ltd，現權利人 Horphag Research Ip Ltd。請求項含 Quercus robur 萃取，鞣花單寧以乾萃取物計高於 10%。讀取日 2026-11-22。",
+            "title": "US9060999B2 Ellagitannins rich extracts composition",
+            "url": "https://patents.google.com/patent/US9060999B2"
+          }
+        ],
+        "status": "yes"
+      },
+      "sources": [
+        {
+          "accessed": "2026-11-22",
+          "channel": "exhibition",
+          "publisher": "NutraIngredients",
+          "title": "Supplement industry must-sees at Fi Europe 2026",
+          "url": "https://www.nutraingredients.com/Article/2026/11/17/supplement-industry-must-sees-at-fi-europe-2026/",
+          "whatItContributes": "2026-11-17 展前記 Horphag 攤位的 Robuvit，方向是精力、活力與疲勞。"
+        },
+        {
+          "accessed": "2026-11-22",
+          "channel": "supplier_site",
+          "publisher": "Horphag Research",
+          "title": "Robuvit",
+          "url": "https://www.robuvit.com/home",
+          "whatItContributes": "商品名、法國橡木萃取與水溶性粉末。"
+        },
+        {
+          "accessed": "2026-11-22",
+          "channel": "paper",
+          "publisher": "PubMed",
+          "title": "PubMed 24231834",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/24231834/",
+          "whatItContributes": "每日 200 毫克、至少 6 個月的疲勞登記。"
+        },
+        {
+          "accessed": "2026-11-22",
+          "channel": "patent",
+          "publisher": "Google Patents",
+          "title": "US9060999B2",
+          "url": "https://patents.google.com/patent/US9060999B2",
+          "whatItContributes": "Horphag 的橡木鞣花單寧萃取專利。"
+        },
+        {
+          "accessed": "2026-11-22",
+          "channel": "other",
+          "publisher": "DKSH",
+          "title": "Robuvit, DKSH",
+          "url": "https://www.dkshdiscover.com/en/promo/fbi-my-robuvit",
+          "whatItContributes": "可供應市場列表含 Taiwan，沒有台灣公司名稱。"
+        }
+      ],
+      "supply": {
+        "relationship": "unknown",
+        "relationshipNote": "2026-11-22 以 Robuvit、Robuvit®、Horphag、法國橡木、歐洲櫟、Quercus robur，搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索。DKSH 的 Robuvit 頁（網址含馬來西亞代碼，頁首客訴地址在印尼）把 Markets of Availability 寫成 Japan、Malaysia、Spain、Portugal、Thailand、France、Taiwan，沒有台灣公司名稱，也沒有獨家。英凡特授權頁只寫 Pycnogenol／碧容健，證書沒有 Robuvit；同公司不等於這支橡木的代理。台灣商標 ROBUVIT 權人是瑞士 Horphag，代理人是商標事務所，不是原料經銷。Robuvit 官網成品名單有歐洲、日本、香港、馬來西亞等地的品牌，沒有台灣公司。查核日 2026-11-22。同日再以「Robuvit 台灣 代理」獨立複查，仍沒有寫明台灣代理的公司產品頁。",
+        "supplierCountry": "瑞士",
+        "supplierName": "Horphag Research",
+        "taiwanPartyName": "大昌華嘉（DKSH）產品頁把 Taiwan 列為可供應市場，沒有寫台灣公司名稱"
+      },
+      "tfda": {
+        "evidenceNotes": "商品名 Robuvit、橡木與法國橡木在原料、添加物都是 0 筆。學名 Quercus robur 命中夏櫟／歐洲櫟（id 17257），部位木材，備註是只作香辛調味、適量使用。這不是未確認安全性。研究用的 200 或 300 毫克不能當成平台允許的補充品上限。",
+        "lookupDate": "2026-11-22",
+        "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+        "officialCrosscheck": {
+          "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+          "done": true,
+          "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+          "notes": "2026-11-22 連線 consumer.fda.gov.tw 在 TLS 讀取時出現 UNEXPECTED_EOF_WHILE_READING，沒有另開官方詳細頁。木材調味限制來自助手資料，詳細頁網址是 MaterialDetail id 17257。海南石櫟是 id 16211，不是這支。siteTotals 原料 1709、添加物 804。"
+        },
+        "queries": [
+          {
+            "category": "",
+            "keyword": "Robuvit",
+            "matchedName": "",
+            "note": "商品名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "橡木",
+            "matchedName": "",
+            "note": "這個中文 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Quercus",
+            "matchedName": "夏櫟；歐洲櫟；歐洲橡；英國櫟；英國橡",
+            "note": "學名對到木材調味這一筆。",
+            "restrictionNote": "Quercus robur L.。部位木材（WOOD）。可作為賦予食品特殊香味或風味，僅以達香辛調味目的，適量使用為宜。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "櫟",
+            "matchedName": "夏櫟；歐洲櫟；海南石櫟",
+            "note": "兩筆裡，未確認的是海南石櫟，屬名不同。Quercus robur 那筆本身不是未確認。",
+            "restrictionNote": "id 17257 是 Quercus robur 木材，可供食品使用但限調味。id 16211 海南石櫟 Lithocarpus litseifolius 是未確認，學名不同。",
+            "resultCount": 2,
+            "tab": "ingredient",
+            "unconfirmedSafety": true
+          },
+          {
+            "category": "",
+            "keyword": "橡木",
+            "matchedName": "",
+            "note": "添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Quercus",
+            "matchedName": "",
+            "note": "學名在添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "櫟",
+            "matchedName": "",
+            "note": "助手更新歷程（2026-11-01 至 2026-11-21）沒有這筆異動。資料時間戳 2026-11-21 06:17。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "history",
+            "unconfirmedSafety": false
+          }
+        ],
+        "usable": "listed_food_ingredient"
       }
     },
     {

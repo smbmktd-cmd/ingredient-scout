@@ -1,0 +1,208 @@
+{
+  "id": "epax-cetoleic",
+  "example": false,
+  "names": {
+    "commonZh": "鯨蠟烯酸濃縮魚油",
+    "commonEn": "cetoleic acid concentrate",
+    "trade": "Cetoleic 2040（Epax NovusLipid 的長鏈單元不飽和脂肪酸商品名）",
+    "scientific": "不適用單一魚種學名。論文寫油來自北海鯡魚下腳料，由 Epax Norway AS 製成。原廠產品頁寫北大西洋魚種，沒有在規格表再寫鯡魚。平台「黍鯡」是 Sprattus sprattus，不是這支。"
+  },
+  "supply": {
+    "supplierName": "Epax Norway AS（Pelagia）",
+    "supplierCountry": "挪威",
+    "relationship": "unknown",
+    "taiwanPartyName": "韋鎮實業自述為 Epax Omega-3 台灣授權經銷商之一；誠鴻生技自述代理 Epax 高濃度魚油；綠茵生技、會昌實業另有 Epax 魚油頁。打開的頁面都沒有寫 Cetoleic 2040",
+    "relationshipNote": "2026-11-22 以 Cetoleic、Cetoleic 2040、Epax、鯨蠟烯酸、cetoleic acid、鯡魚油，搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索，並打開原廠聯絡頁的經銷名單。原廠名單有日本 Morimura、韓國 Sungwoo、中國 Novosana、泰國 Jebsen & Jessen、越南 Brenntag，沒有台灣公司。韋鎮在 2026 亞洲生技保健展名錄寫自己是 Epax Omega-3 產品的台灣授權經銷商之一，頁內講的是濃縮 omega-3，沒有 Cetoleic 2040。綠茵頁在網址路徑含 agent，標題是 Epax Highly Concentrated Fish Oil，內文沒有 Cetoleic，也沒有「總代理」句。會昌頁是 Epax 魚油介紹，同樣沒有這個商品名。誠鴻頁自述代理 Epax 高濃度魚油，同一站的規格寫 rTG、omega-3 90% 以上，沒有 Cetoleic 2040；同站 CETO3 寫生產商是 Grøntvedt，不是 Epax。查核日 2026-11-22。同日再以「Cetoleic 2040 台灣」獨立複查，仍沒有寫明這個商品名的台灣廠商頁。"
+  },
+  "tfda": {
+    "usable": "listed_food_ingredient",
+    "evidenceNotes": "商品名 Cetoleic、cetoleic 與 Clupea 在原料、添加物都是 0 筆。「鯡」只命中黍鯡（Sprattus sprattus，id 16641），不是論文裡的鯡魚。魚油（id 16601）有列名：來源須為傳統可供食用的魚類，一般食品每日 EPA 與 DHA 合計 2 公克以下。這不是 Cetoleic 2040 這個規格的單獨准駁。",
+    "lookupDate": "2026-11-22",
+    "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+    "queries": [
+      {
+        "tab": "ingredient",
+        "keyword": "Cetoleic",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名與成分英文 0 筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "鯨蠟烯酸",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "中文成分名 0 筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Clupea",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "鯡魚屬名 0 筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "鯡",
+        "category": "",
+        "resultCount": 1,
+        "matchedName": "黍鯡",
+        "restrictionNote": "外文名 European Sprat，學名 Sprattus sprattus。",
+        "unconfirmedSafety": false,
+        "note": "不是北海鯡魚。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "魚油",
+        "category": "",
+        "resultCount": 1,
+        "matchedName": "魚油",
+        "restrictionNote": "id 16601。來源為傳統可供食用之魚類。一般食品每日 EPA 與 DHA 合計 2 公克以下；特定疾病配方食品為 5 公克以下。",
+        "unconfirmedSafety": false,
+        "note": "對到的是魚油通則，不是這個商品名。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "魚油",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "添加物 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "Cetoleic",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名在添加物 0 筆。"
+      },
+      {
+        "tab": "history",
+        "keyword": "魚油",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "助手更新歷程（2026-11-01 至 2026-11-21）沒有這筆異動。資料時間戳 2026-11-21 06:17。"
+      }
+    ],
+    "officialCrosscheck": {
+      "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+      "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+      "done": true,
+      "notes": "2026-11-22 連線 consumer.fda.gov.tw 在 TLS 讀取時出現 UNEXPECTED_EOF_WHILE_READING，沒有另開官方詳細頁。魚油列名與限制來自助手資料，詳細頁網址是 MaterialDetail id 16601；黍鯡是 id 16641。siteTotals 原料 1709、添加物 804。"
+    }
+  },
+  "efficacy": {
+    "claimedBenefits": [
+      "British Journal of Nutrition：80 人納入、75 人納入統計，8 週，每日膠囊合計 4 公克油。鯨蠟烯酸濃縮組是每日 1480 毫克鯨蠟烯酸與 232 毫克 EPA；對照是大豆油加無鯨蠟烯酸的 n-3 濃縮油，每日 258 毫克 EPA。LDL 相對對照組低 7%（P=0.033）。組內中位數是濃縮組 −0.1 mmol/L、對照組 +0.2 mmol/L。",
+      "同一篇寫油由 Epax Norway AS 從北海鯡魚下腳料製成，脂肪酸先做成乙酯、蒸餾後再酯化回三酸甘油酯。論文頁沒有寫商品名 Cetoleic 2040。Epax 2026 新聞標題則把同一篇寫成 Cetoleic 2040。",
+      "原廠 NovusLipid 規格表：Cetoleic 2040 的鯨蠟烯酸下限 400 mg/g、鱈油酸（gondoic）下限 200 mg/g；EPA、DHA 與 omega-3 的下限欄是橫線，沒有數字。頁面另寫這支是把長鏈多元不飽和脂肪酸含 omega-3 降到最低。"
+    ],
+    "suggestedDosage": "打開的人體試驗是每日 4 公克油，其中鯨蠟烯酸 1480 毫克、EPA 232 毫克。原廠規格表沒有寫每日公克。",
+    "dosageNote": "1480 毫克是這篇試驗裡的鯨蠟烯酸量，不是平台上限。魚油列名的上限是每日 EPA 加 DHA 合計 2 公克（一般食品）。規格表沒有印出 Cetoleic 2040 的 EPA、DHA 下限，不能用這張表計算是否低於 2 公克。"
+  },
+  "patent": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "NO348700 Cetoleic acid composition",
+        "url": "https://services.patentstyret.no/search-details/patent/20220910-348700",
+        "note": "申請人與權利人 EPAX NORWAY AS。挪威登記頁寫 2025-05-05 Granted，專利號 348700。請求項寫鯨蠟烯酸至少 16 wt%，一實施例至少 39 wt%，並寫 EPA 至少 3 wt%、DHA 最多 4 wt%。這次沒有看到原廠規格表把 348700 印在 Cetoleic 2040 下面。讀取日 2026-11-22。"
+      }
+    ],
+    "note": "有 Epax 名下的鯨蠟烯酸組成物專利。請求項的 EPA 下限與規格表空白的 EPA 欄並存，不把專利請求項改寫成商品規格。"
+  },
+  "literature": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "Supplementation with a cetoleic acid concentrate decreased the serum LDL-cholesterol concentration",
+        "url": "https://doi.org/10.1017/S0007114526107375",
+        "note": "British Journal of Nutrition，2026-05-06 上線。8 週、75 人納入分析、每日 4 公克油。這次讀的是期刊頁的摘要與介入段落。"
+      }
+    ],
+    "note": "7% 是相對對照組，不是濃縮組自己從基線下降 7 個百分點。對照組也有 EPA。"
+  },
+  "evidenceLevels": [
+    "clinical"
+  ],
+  "images": [
+    {
+      "url": "https://cdn.prod.website-files.com/68cd2a13efc709aeb70cf641/68e4e884c466d1dd585b3ecd_novuslipid.avif",
+      "localPath": "",
+      "caption": "Epax NovusLipid 產品頁圖片，頁內含 Cetoleic 2040。",
+      "source": "official_site"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Catching up with metabolic health supplement science",
+      "url": "https://www.nutraingredients.com/Article/2026/10/09/catching-up-with-metabolic-health-supplement-science/",
+      "publisher": "NutraIngredients",
+      "channel": "news",
+      "accessed": "2026-11-22",
+      "whatItContributes": "2026-10-09 彙整寫 Epax 的 omega-9／omega-11、每日 4 公克、8 週 LDL 降低 7%，油來自鯡魚。"
+    },
+    {
+      "title": "EPAX Cetoleic 2040",
+      "url": "https://www.epax.com/products/epax-novuslipid",
+      "publisher": "Epax",
+      "channel": "supplier_site",
+      "accessed": "2026-11-22",
+      "whatItContributes": "商品名、鯨蠟烯酸 400 mg/g 與鱈油酸 200 mg/g 下限，以及 EPA／DHA 欄為橫線。"
+    },
+    {
+      "title": "DOI 10.1017/S0007114526107375",
+      "url": "https://doi.org/10.1017/S0007114526107375",
+      "publisher": "British Journal of Nutrition",
+      "channel": "paper",
+      "accessed": "2026-11-22",
+      "whatItContributes": "1480 毫克鯨蠟烯酸、232 毫克 EPA、Epax Norway AS 與北海鯡魚下腳料。"
+    },
+    {
+      "title": "NO348700",
+      "url": "https://services.patentstyret.no/search-details/patent/20220910-348700",
+      "publisher": "Norwegian Industrial Property Office",
+      "channel": "patent",
+      "accessed": "2026-11-22",
+      "whatItContributes": "Epax 的鯨蠟烯酸組成物專利與請求項裡的濃度。"
+    },
+    {
+      "title": "Epax 魚油，韋鎮實業",
+      "url": "https://www.chanchao.com.tw/healthcos/visitorProductDetail.asp?no=214207",
+      "publisher": "展會名錄",
+      "channel": "exhibition",
+      "accessed": "2026-11-22",
+      "whatItContributes": "韋鎮自述為 Epax Omega-3 的台灣授權經銷商之一，頁內沒有 Cetoleic 2040。"
+    },
+    {
+      "title": "Epax 高濃度魚油",
+      "url": "https://guarante.com.tw/product/norwegian/epaxfishoil/",
+      "publisher": "誠鴻生技",
+      "channel": "other",
+      "accessed": "2026-11-22",
+      "whatItContributes": "誠鴻自述供應 Epax 高濃度魚油，頁內規格是 rTG 與 omega-3 90% 以上，沒有 Cetoleic 2040。"
+    }
+  ],
+  "discovery": {
+    "channel": "news",
+    "scoutDate": "2026-11-22",
+    "notes": "從 NutraIngredients 2026-10-09 的代謝科學彙整進入 Epax NovusLipid 頁、British Journal of Nutrition 與挪威專利 NO348700，再對原廠經銷名單、韋鎮、綠茵、會昌與誠鴻。誠鴻的 CETO3 是 Grøntvedt，沒有併成這支。黍鯡沒有拿來當成鯡魚。"
+  }
+}

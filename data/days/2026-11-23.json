@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-23",
+  "example": false,
+  "title": "2026-11-23 正式日報",
+  "targetCount": 5,
+  "channelsCovered": [
+    "news",
+    "exhibition",
+    "industry_report"
+  ],
+  "notes": "正式五筆。主管道：乳橋蛋白、GutABAlite 為新聞；Sunvasterol、Helm 為展覽；Maritech 裙帶菜褐藻糖膠為產業報導。未收未確認安全性項目：麵包蟲（Nutriearth 維生素 D3 的來源，id 16458）、印度小檗（Novaberin 的成分，id 16080）、麥角硫因（id 17744）、橙皮苷純化物（DiosVein 方向，id 16545）。伏牛花果實有列名，但不是印度小檗。α-醣化橙皮苷有列名，但不是橙皮苷純化物。",
+  "picks": [
+    "lactopontin",
+    "gutabalite",
+    "sunvasterol",
+    "helm",
+    "maritech-undaria"
+  ]
+}

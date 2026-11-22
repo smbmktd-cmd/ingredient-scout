@@ -1,0 +1,200 @@
+{
+  "id": "gutabalite",
+  "example": false,
+  "names": {
+    "commonZh": "短乳桿菌 LBR-6108（產 GABA 益生菌）",
+    "commonEn": "GABA-producing Levilactobacillus brevis",
+    "trade": "HOWARU GutABAlite（IFF 的益生菌商品名；菌株寫 Levilactobacillus brevis LBR-6108）",
+    "scientific": "Levilactobacillus brevis LBR-6108。2021 年 Microbial Cell Factories 寫舊名 Lactobacillus brevis DPC 6108。US12447185 寫寄存編號 NCIMB 41903。平台乳酸菌那一列的學名仍是 Lactobacillus brevis。不是 γ-胺基丁酸這個化合物，也不是 Lactococcus lactis。"
+  },
+  "supply": {
+    "supplierName": "IFF",
+    "supplierCountry": "美國",
+    "relationship": "unknown",
+    "taiwanPartyName": "呈定企業有其他 HOWARU 菌株的目錄頁；打開的那一頁沒有 GutABAlite",
+    "relationshipNote": "2026-11-23 以 GutABAlite、HOWARU、LBR-6108、Lbr-6108、Levilactobacillus brevis、Lactobacillus brevis、短乳桿菌、IFF 益生菌，搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索。打開呈定企業目錄（https://www.chending.com.tw/cn/catalog-detail/probiotics-Howaru/），頁上有 Protect、Feminine、Dophilus、Shape、Calm 等 HOWARU，沒有 GutABAlite、LBR-6108 或 brevis。呈定 2026-05-13 的 IFF 論壇頁例子是 Restore、Protect Adult 與 B420，同樣沒有這支。不把其他菌株的目錄升成這支的代理。同日再以「GutABAlite 台灣」獨立複查，沒有寫明這個商品名的台灣廠商頁。查核日 2026-11-23。"
+  },
+  "tfda": {
+    "usable": "listed_food_ingredient",
+    "evidenceNotes": "商品名 GutABAlite、Levilactobacillus 與短乳桿菌在原料、添加物都是 0 筆。Lactobacillus brevis 命中兩筆：乳酸菌（id 17504，菌體，可供食品原料或加工）以及 γ-胺基丁酸。後者是發酵後純化的 GABA，生產菌寫到這兩個菌名，每日以 GABA 計 100 毫克，不是這支益生菌的劑量。這張卡對的是乳酸菌那一列。",
+    "lookupDate": "2026-11-23",
+    "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+    "queries": [
+      {
+        "tab": "ingredient",
+        "keyword": "GutABAlite",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名 0 筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Levilactobacillus",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "新屬名 0 筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "短乳桿菌",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "這個中文 0 筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Lactobacillus brevis",
+        "category": "",
+        "resultCount": 2,
+        "matchedName": "乳酸菌；γ-胺基丁酸",
+        "restrictionNote": "id 17504：乳酸菌，學名 Lactobacillus brevis，部位菌體，可供為食品原料或食品加工使用。id 17739：γ-胺基丁酸。備註寫原料係將 Lactobacillus hilgardii 或 Lactobacillus brevis 發酵、純化製得，含量不得低於 20%，每日以 GABA 計 100 毫克，並有酒與藥物警語。",
+        "unconfirmedSafety": false,
+        "note": "兩筆都沒有未確認標記。GABA 那一筆是化合物規格，不是這支活菌商品。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "GutABAlite",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名在添加物 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "Lactobacillus brevis",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "學名在添加物 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "短乳桿菌",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "中文在添加物 0 筆。"
+      },
+      {
+        "tab": "history",
+        "keyword": "Lactobacillus brevis",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "助手更新歷程（2026-11-01 至 2026-11-23）沒有這筆異動。資料時間戳 2026-11-23 06:18。"
+      }
+    ],
+    "officialCrosscheck": {
+      "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+      "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+      "done": true,
+      "notes": "2026-11-23 連線 consumer.fda.gov.tw:443 出現 OpenSSL SSL_ERROR_SYSCALL，沒有取得官方詳細頁。開放資料 InfoId 4 的乳酸菌列學名為 Lactobacillus brevis、部位菌體、可供食品使用；γ-胺基丁酸列的備註同樣寫到 Lactobacillus brevis 與每日 100 毫克。與查詢助手一致。乳酸菌詳細頁網址是 MaterialDetail id 17504。"
+    }
+  },
+  "efficacy": {
+    "claimedBenefits": [
+      "IFF 2026-10-26 新聞：公司稱 6 週隨機雙盲安慰劑對照試驗中，GutABAlite 在腸道產生 GABA、短鏈脂肪酸增加，並與較低的每日血糖暴露有關；空腹胰島素約低 18%、HOMA-IR 約低 20%，公司寫的是趨勢。停用後效果減弱。新聞沒有寫受試人數、CFU 或論文出處。",
+      "Nutrition Insight 2026-10-27 轉述同一則公司試驗，同樣沒有期刊名。這次沒有打開 2026 年人體試驗的論文頁。",
+      "Microbial Cell Factories 2021：Lbr-6108 在含味精的培養基中比 Lbr-35 與標準株更早、更多分泌 GABA。這是菌體培養與轉錄體，不是人體試驗。"
+    ],
+    "suggestedDosage": "打開的 IFF 與 Nutrition Insight 新聞沒有寫每日 CFU 或毫克。US12447185 請求項 7 寫每日 1×10^10 CFU/ml。",
+    "dosageNote": "1×10^10 CFU/ml／日是這件專利方法請求項的寫法，不是 IFF 這次新聞的商品標示。平台對 Lactobacillus brevis 菌體沒有寫 CFU 上限。GABA 每日 100 毫克是純化化合物的限制，不能套到這支益生菌。"
+  },
+  "patent": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "US12447185B2 GABA-producing culturable bacteria and use for improving health",
+        "url": "https://patents.google.com/patent/US12447185B2/en",
+        "note": "Google Patents 家族頁寫 Lactobacillus brevis DPC6108、NCIMB 41903。請求項 7 寫每日 1×10^10 CFU/ml。權利人是 University College Cork 與 Teagasc，不是 IFF。讀取日 2026-11-23。"
+      }
+    ],
+    "note": "2021 年論文把 Lbr-6108 寫成舊名 DPC 6108，因此對到這件專利。專利權人不是 IFF。商品名 GutABAlite 沒有出現在專利標題。"
+  },
+  "literature": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "Transcriptomics reveal different metabolic strategies for acid resistance and GABA production in select Levilactobacillus brevis strains",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/34488774/",
+        "note": "Microbial Cell Factories，2021。比較 Lbr-6108 與其他短乳桿菌在培養中的 GABA 分泌與轉錄。作者含 IFF 相關單位。這次讀的是 PubMed 摘要。不是 2026 年那個人體試驗。"
+      }
+    ],
+    "note": "2026 年人體試驗只出現在公司新聞。Nutraceuticals World 2026-10-26 快訊寫這個人體試驗尚未發表，所以沒有把它算進臨床文獻。"
+  },
+  "evidenceLevels": [
+    "in_vitro"
+  ],
+  "images": [
+    {
+      "url": "https://article-cns.cnsmedia.com/articleimgs/resized_rect_newsimages/jpg/639286891561117779hands_holding_intestinal_model_next_to_graphic_image_of_bacteria_rods.jpg",
+      "localPath": "",
+      "caption": "Nutrition Insight 報導配圖，是腸道模型與桿菌圖，不是商品包裝。",
+      "source": "other"
+    }
+  ],
+  "sources": [
+    {
+      "title": "IFF launches GutABAlite for metabolic health via GABA production",
+      "url": "https://www.nutritioninsight.com/news/iff-gutabalite-gaba-probiotic-metabolic-health.html",
+      "publisher": "Nutrition Insight",
+      "channel": "news",
+      "accessed": "2026-11-23",
+      "whatItContributes": "2026-10-27：菌株名、6 週公司試驗的血糖與胰島素說法，以及 SupplySide Global 展出。"
+    },
+    {
+      "title": "IFF Launches HOWARU GutABAlite",
+      "url": "https://www.iff.com/media/news/iff-launches-howaru-gutabalite-a-gaba-producing-probiotic-for-metabolic-health/",
+      "publisher": "IFF",
+      "channel": "supplier_site",
+      "accessed": "2026-11-23",
+      "whatItContributes": "2026-10-26 原廠新聞：商品名、菌株名、試驗方向，以及攤位 6449。這次直接連線得到 HTTP 403，文字依公開轉載與搜尋頁可見的新聞稿。"
+    },
+    {
+      "title": "PubMed 34488774",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34488774/",
+      "publisher": "Microbial Cell Factories",
+      "channel": "paper",
+      "accessed": "2026-11-23",
+      "whatItContributes": "Lbr-6108 與舊名 DPC 6108 的對照，以及培養中的 GABA 分泌。"
+    },
+    {
+      "title": "益生菌 Howaru",
+      "url": "https://www.chending.com.tw/cn/catalog-detail/probiotics-Howaru/",
+      "publisher": "呈定企業",
+      "channel": "other",
+      "accessed": "2026-11-23",
+      "whatItContributes": "台灣頁列有多支 HOWARU，沒有 GutABAlite。"
+    },
+    {
+      "title": "IFF Launches GABA-Producing Probiotic with Metabolic Health Benefits",
+      "url": "https://www.nutraceuticalsworld.com/breaking-news/iff-launches-gaba-producing-probiotic-with-metabolic-health-benefits/",
+      "publisher": "Nutraceuticals World",
+      "channel": "news",
+      "accessed": "2026-11-23",
+      "whatItContributes": "2026-10-26 快訊寫這個人體試驗尚未發表，並轉述 6 週的公司數據。"
+    }
+  ],
+  "discovery": {
+    "channel": "news",
+    "scoutDate": "2026-11-23",
+    "notes": "從 Nutrition Insight 2026-10-27 的上市新聞進入 IFF 新聞稿網址、2021 年培養論文與 US12447185，再打開呈定的 HOWARU 目錄。GABA 化合物列名沒有拿來當成這支益生菌的劑量。PharmaGABA 與 LC-Plasma 是別的原料。"
+  }
+}

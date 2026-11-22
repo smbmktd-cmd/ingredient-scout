@@ -1,0 +1,168 @@
+{
+  "id": "sunvasterol",
+  "example": false,
+  "names": {
+    "commonZh": "葵花植物固醇酯",
+    "commonEn": "sunflower phytosterol esters",
+    "trade": "Sunvasterol EST（Kensing 的葵花植物固醇酯商品名；系列另有游離固醇規格）",
+    "scientific": "不適用單一學名。Kensing 寫原料來自葵花油蒸餾物，主要是 beta-sitosterol、stigmasterol 與 campesterol；EST 再與葵花油脂肪酸做成酯。不是登盛頁的大豆植物固醇或松樹植物固醇，也不是宸品頁的 CardioAid。"
+  },
+  "supply": {
+    "supplierName": "Kensing",
+    "supplierCountry": "美國",
+    "relationship": "unknown",
+    "taiwanPartyName": "登盛企業列大豆與松樹植物固醇；宸品列 CardioAid。打開的頁都沒有 Sunvasterol",
+    "relationshipNote": "2026-11-23 以 Sunvasterol、Sunvasterol EST、Kensing、葵花植物固醇、植物固醇酯、phytosterol，搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索。打開登盛特殊營養成分頁：松樹植物固醇是 Pine Tree Extract (Plant Sterols)，植物固醇是 Soybean Extract Phytosterols，沒有葵花或 Sunvasterol。宸品產品總覽有 CardioAid 酯化植物固醇，頁上沒有 Kensing。北京普泰康清單寫美國 Kensing 的高純度植物甾醇／酯，公司不在台灣。Kensing 產品頁沒有台灣經銷名單。同日再以「Sunvasterol 台灣」獨立複查，沒有寫明這個商品名的台灣廠商頁。不把大豆、松樹或 CardioAid 升成這支的代理。查核日 2026-11-23。"
+  },
+  "tfda": {
+    "usable": "listed_food_ingredient",
+    "evidenceNotes": "商品名 Sunvasterol 在原料、添加物都是 0 筆。「植物固醇」命中兩筆，因為植物固醇酯這五個字含有植物固醇：游離型 id 17333、酯型 id 17334。兩筆都在可供食品使用，學名、部位、備註空白，沒有未確認標記。Sunvasterol EST 是酯，較接近 id 17334。列名沒有寫每日公克。",
+    "lookupDate": "2026-11-23",
+    "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+    "queries": [
+      {
+        "tab": "ingredient",
+        "keyword": "Sunvasterol",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名 0 筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "植物固醇酯",
+        "category": "",
+        "resultCount": 1,
+        "matchedName": "植物固醇酯",
+        "restrictionNote": "id 17334。外文名 Phytosterol esters。次分類為草木本植物類來源製取之原料。學名、部位、備註空白。",
+        "unconfirmedSafety": false,
+        "note": "酯這一筆。EST 規格對這列。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "植物固醇",
+        "category": "",
+        "resultCount": 2,
+        "matchedName": "植物固醇；植物固醇酯",
+        "restrictionNote": "id 17333：植物固醇，外文名 Phytosterol, Phytosterin。id 17334：植物固醇酯。兩筆備註都空白。",
+        "unconfirmedSafety": false,
+        "note": "關鍵字會同時命中酯，因為名稱含這四個字。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "Sunvasterol",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名在添加物 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "植物固醇",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "中文在添加物 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "phytosterol",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "英文在添加物 0 筆。"
+      },
+      {
+        "tab": "history",
+        "keyword": "植物固醇",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "助手更新歷程（2026-11-01 至 2026-11-23）沒有這筆異動。資料時間戳 2026-11-23 06:18。"
+      }
+    ],
+    "officialCrosscheck": {
+      "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+      "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+      "done": true,
+      "notes": "2026-11-23 連線 consumer.fda.gov.tw:443 出現 OpenSSL SSL_ERROR_SYSCALL，沒有取得官方詳細頁。開放資料 InfoId 4：植物固醇（Phytosterol, Phytosterin）與植物固醇酯（Phytosterol esters）都在可供食品使用，學名、部位、備註空白，與查詢助手一致。詳細頁網址是 MaterialDetail id 17333 與 17334。添加物關鍵字 0 筆。"
+    }
+  },
+  "efficacy": {
+    "claimedBenefits": [
+      "Kensing 產品頁：把 Sunvasterol 寫成符合歐盟植物固醇聲稱的葵花來源規格，維持聲稱寫每日至少 0.8 公克，降膽固醇聲稱寫每日 1.5–3 公克；同頁寫 2–3 週可依劑量降低血膽固醇 7–12.5%，並寫有 140 多項臨床。頁上沒有列出這 140 項的論文，也沒有寫哪些試驗用的是 Sunvasterol。",
+      "Kensing 2026 年奶油乳酪原型說明：Sunvasterol EST 占配方 6.7%，每 25 公克一份約含植物固醇 1 公克；公司寫每天兩份對到 1.5–2.4 公克，並把 7–10% 的 LDL 降幅寫成 EFSA 聲稱在 2–3 週的關聯。",
+      "Nutrition Insight 2026-11-06 轉述同一組原型數字，並寫 2025 年取得歐盟新穎食品授權。這不是台灣平台的限量。"
+    ],
+    "suggestedDosage": "Kensing 把歐盟降膽固醇聲稱寫成每日植物固醇 1.5–3 公克。奶油乳酪原型是每 25 公克一份約 1 公克植物固醇。",
+    "dosageNote": "1.5–3 公克是 Kensing 引用的歐盟植物固醇聲稱範圍，不是這次讀到的 Sunvasterol 單獨試驗，也不是平台上的每日上限。平台兩筆備註都是空白。原型的 6.7% 是配方比例。"
+  },
+  "patent": {
+    "status": "unknown",
+    "refs": [],
+    "note": "2026-11-23 以 Sunvasterol、Kensing、sunflower phytosterol 查公開專利頁，沒有對到掛這個商品名的專利號。歐盟新穎食品授權不是專利。"
+  },
+  "literature": {
+    "status": "no",
+    "refs": [],
+    "note": "2026-11-23 以 Sunvasterol 查這次打開的 Kensing 頁與新聞，沒有掛這個商品名的論文。頁上的 140 多項臨床與 7–12.5% 是植物固醇這個成分類的寫法，沒有論文清單，所以不標成這支原料的臨床文獻。"
+  },
+  "evidenceLevels": [],
+  "images": [
+    {
+      "url": "https://kensingsolutions.com/wp-content/uploads/2025/11/1440x600-Banner-Web-Sunvasterol.jpg",
+      "localPath": "",
+      "caption": "Kensing 官網的 Sunvasterol 產品橫幅。",
+      "source": "official_site"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Supplement industry must-sees at Fi Europe 2026",
+      "url": "https://www.nutraingredients.com/Article/2026/11/17/supplement-industry-must-sees-at-fi-europe-2026/",
+      "publisher": "NutraIngredients",
+      "channel": "exhibition",
+      "accessed": "2026-11-23",
+      "whatItContributes": "2026-11-17 展前記者：Kensing 攤位 30H38，乳品應用使用 Sunvasterol EST，並另寫 Vitastrerol S-80。"
+    },
+    {
+      "title": "Fi Europe 2026: Kensing debuts cholesterol-lowering cream cheese with Sunvasterol",
+      "url": "https://www.nutritioninsight.com/news/fi-europe-2026-kensing-sunvasterol-cream-cheese-cholesterol.html",
+      "publisher": "Nutrition Insight",
+      "channel": "news",
+      "accessed": "2026-11-23",
+      "whatItContributes": "2026-11-06：葵花來源、6.7% 配方、每份約 1 公克，以及 2025 年歐盟授權的說法。"
+    },
+    {
+      "title": "Sunvasterol Plant Sterols",
+      "url": "https://kensingsolutions.com/phytosterols-sunvasterol/",
+      "publisher": "Kensing",
+      "channel": "supplier_site",
+      "accessed": "2026-11-23",
+      "whatItContributes": "游離與酯兩種規格、0.8 克與 1.5–3 克的歐盟聲稱寫法，以及總部在美國伊利諾州 Kankakee。"
+    },
+    {
+      "title": "特殊營養成分",
+      "url": "https://www.masterasia.com.tw/content.php?id=5707",
+      "publisher": "登盛企業",
+      "channel": "other",
+      "accessed": "2026-11-23",
+      "whatItContributes": "台灣頁的植物固醇是大豆萃取，松樹植物固醇是另一列，都沒有 Sunvasterol。"
+    }
+  ],
+  "discovery": {
+    "channel": "exhibition",
+    "scoutDate": "2026-11-23",
+    "notes": "從 NutraIngredients 2026-11-17 的 Fi Europe 展商預告進入 Kensing 的 Sunvasterol 頁與 Nutrition Insight 的奶油乳酪原型稿，再打開登盛與宸品的植物固醇頁。大豆、松樹與 CardioAid 沒有併成這個商品名。"
+  }
+}

@@ -1,0 +1,192 @@
+{
+  "id": "lactopontin",
+  "example": false,
+  "names": {
+    "commonZh": "乳橋蛋白（骨橋蛋白）",
+    "commonEn": "lactopontin (milk osteopontin)",
+    "trade": "Lactopontin（Better Dairy 的精準發酵乳橋蛋白商品名；公司亦簡寫 LPN）",
+    "scientific": "不適用植物學名。乳橋蛋白是乳中的骨橋蛋白。Better Dairy 科學頁寫由人類序列、經酵母精準發酵。bioRxiv 預印本寫宿主是 Kluyveromyces lactis。EP4642904A1 的實施例另寫 Pichia pastoris 與大腸桿菌表現人類骨橋蛋白。三處宿主用詞不同，都留下。不是乳鐵蛋白。"
+  },
+  "supply": {
+    "supplierName": "Better Dairy",
+    "supplierCountry": "英國",
+    "relationship": "unknown",
+    "taiwanPartyName": "本次查無台灣關聯廠商",
+    "relationshipNote": "2026-11-23 以 Lactopontin、LPN、osteopontin、OPN、骨橋蛋白、乳橋蛋白、Better Dairy，搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索，並打開 Better Dairy 科學頁與 FAQ。沒有寫明這個商品名的台灣廠商產品頁或代理頁。北京阿拉食品原料的公開清單有骨橋蛋白，公司地址在北京，頁上沒有 Better Dairy，也不是台灣公司。同日再以「乳橋蛋白 台灣 代理」與「Better Dairy 台灣」獨立複查。日商環球訊息的市場報告目錄有 Better Dairy 公司名，那是報告販售頁，沒有代理或經銷句。仍沒有台灣廠商頁。查核日 2026-11-23。"
+  },
+  "tfda": {
+    "usable": "not_found",
+    "evidenceNotes": "商品名 lactopontin、osteopontin 與骨橋蛋白在原料、添加物都是 0 筆。Kluyveromyces lactis 命中的是酵母菌菌體（id 17574），可供食品原料或加工使用，不是這支純化的人類乳橋蛋白。查無不是准用。",
+    "lookupDate": "2026-11-23",
+    "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+    "queries": [
+      {
+        "tab": "ingredient",
+        "keyword": "lactopontin",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名 0 筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "osteopontin",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "英文成分名 0 筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "骨橋蛋白",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "中文名 0 筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Kluyveromyces lactis",
+        "category": "",
+        "resultCount": 1,
+        "matchedName": "酵母菌",
+        "restrictionNote": "id 17574。學名 Kluyveromyces lactis、Saccharomyces lactis。部位菌體。備註：可供為食品原料或食品加工使用。",
+        "unconfirmedSafety": false,
+        "note": "這是酵母菌體，不是純化乳橋蛋白。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "lactopontin",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名在添加物 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "osteopontin",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "英文成分名在添加物 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "骨橋蛋白",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "中文名在添加物 0 筆。"
+      },
+      {
+        "tab": "history",
+        "keyword": "骨橋蛋白",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "助手更新歷程（2026-11-01 至 2026-11-23）沒有這筆異動。資料時間戳 2026-11-23 06:18。"
+      }
+    ],
+    "officialCrosscheck": {
+      "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+      "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+      "done": false,
+      "notes": "2026-11-23 連線 consumer.fda.gov.tw:443 出現 OpenSSL SSL_ERROR_SYSCALL，沒有取得官方詳細頁。另下載開放資料 InfoId 4（1707 筆）：lactopontin、osteopontin、骨橋蛋白 0 筆；Kluyveromyces lactis 對到酵母菌菌體。助手細節時間戳 2026-11-23 06:18，siteTotals 原料 1709、添加物 804。沒有可核對的乳橋蛋白詳細頁。"
+    }
+  },
+  "efficacy": {
+    "claimedBenefits": [
+      "Better Dairy FAQ：乳橋蛋白是乳中的骨橋蛋白；公司寫成人文獻方向包含骨再礦化、組織修復、免疫與發炎調節，並寫這個族群的專門臨床仍在進行。",
+      "FoodNavigator 2026-10-20：自認 GRAS 只涵蓋美國成人營養與補充品的預定用途，不涵蓋嬰兒配方；自認 GRAS 不是 FDA 核准。",
+      "bioRxiv 2026-08-21 預印本：磷酸化的重組人類乳橋蛋白比去磷酸化與未磷酸化形式有較高的鐵結合。這是分析比較，不是人體試驗。作者任職 Better Dairy。"
+    ],
+    "suggestedDosage": "打開的 FAQ、科學頁與 FoodNavigator 沒有寫每日毫克。",
+    "dosageNote": "沒有讀到供應商建議劑量或人體試驗劑量。自認 GRAS 的新聞沒有寫每份毫克。平台沒有這支蛋白的列名。酵母菌體那一列不能當成乳橋蛋白已列名。"
+  },
+  "patent": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "EP4642904A1 Proteins, methods, and systems for subcellular localization of proteins for post-translation modifications",
+        "url": "https://patents.google.com/patent/EP4642904A1/en",
+        "note": "Google Patents 寫申請人 Better Dairy Ltd，2025-11-05 公開，狀態 Pending。說明書把骨橋蛋白列為可磷酸化的乳蛋白例子之一。讀到的實施例是 Pichia pastoris 與大腸桿菌。預印本另寫生產株 BD-LPN60 受這件申請保護。讀取日 2026-11-23。"
+      }
+    ],
+    "note": "這是公開中的歐洲申請，不是已核准專利。申請範圍含多種乳蛋白，不只有乳橋蛋白。"
+  },
+  "literature": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "Post-translational modification fidelity of recombinant human lactopontin expressed in Kluyveromyces lactis",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.05.12.724256v3",
+        "note": "bioRxiv 預印本，2026-08-21 版。比較 K. lactis 重組人類乳橋蛋白與人乳分離的乳橋蛋白，並比較鐵結合。不是期刊、也不是人體試驗。作者聲明任職 Better Dairy。"
+      }
+    ],
+    "note": "FAQ 寫成人臨床仍在進行。這次沒有對到已發表的人體論文。"
+  },
+  "evidenceLevels": [
+    "in_vitro"
+  ],
+  "images": [
+    {
+      "url": "https://betterdairy.com/wp-content/uploads/2025/02/OPN-Molecule-1440x1378.png",
+      "localPath": "",
+      "caption": "Better Dairy 科學頁上的骨橋蛋白分子圖。",
+      "source": "official_site"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Better Dairy self-affirms GRAS status for lactopontin",
+      "url": "https://www.foodnavigator.com/Article/2026/10/20/better-dairy-self-affirms-gras-status-for-lactopontin/",
+      "publisher": "FoodNavigator",
+      "channel": "news",
+      "accessed": "2026-11-23",
+      "whatItContributes": "2026-10-20：倫敦 Better Dairy 的精準發酵乳橋蛋白取得自認 GRAS，目標是美國成人營養與補充品，嬰兒配方另走路徑。"
+    },
+    {
+      "title": "Science",
+      "url": "https://betterdairy.com/science",
+      "publisher": "Better Dairy",
+      "channel": "supplier_site",
+      "accessed": "2026-11-23",
+      "whatItContributes": "公司把乳橋蛋白寫成由酵母發酵、再純化乾燥的粉末，並與牛乳來源的濃度、序列相似度做對照。"
+    },
+    {
+      "title": "FAQ",
+      "url": "https://betterdairy.com/faq",
+      "publisher": "Better Dairy",
+      "channel": "supplier_site",
+      "accessed": "2026-11-23",
+      "whatItContributes": "公司對乳橋蛋白、骨橋蛋白與「人類等效」的定義，以及成人臨床仍在進行的說法。"
+    },
+    {
+      "title": "EP4642904A1",
+      "url": "https://patents.google.com/patent/EP4642904A1/en",
+      "publisher": "Google Patents",
+      "channel": "patent",
+      "accessed": "2026-11-23",
+      "whatItContributes": "磷酸化製程申請，骨橋蛋白是說明書中的乳蛋白例子。"
+    }
+  ],
+  "discovery": {
+    "channel": "news",
+    "scoutDate": "2026-11-23",
+    "notes": "從 FoodNavigator 2026-10-20 的自認 GRAS 新聞進入 Better Dairy 科學頁、FAQ、bioRxiv 預印本與 EP4642904A1。酵母菌體列名沒有拿來當成這支蛋白已列名。乳鐵蛋白是另一支原料。"
+  }
+}

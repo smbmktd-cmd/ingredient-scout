@@ -1,0 +1,191 @@
+{
+  "id": "helm",
+  "example": false,
+  "names": {
+    "commonZh": "駱駝免疫球蛋白結合片段",
+    "commonEn": "camelid IgG binding-protein fragment",
+    "trade": "Helm（Bactolife 的結合蛋白商品名；頁上亦寫 Helm Binding Proteins）",
+    "scientific": "不適用物種學名。官網寫取駱駝科 IgG 裡負責結合的片段，再以真菌精準發酵生產，不是從駱駝取乳。不是牛初乳免疫球蛋白。US12441783 把這類片段寫成單域抗體（VHH）。"
+  },
+  "supply": {
+    "supplierName": "Bactolife",
+    "supplierCountry": "丹麥",
+    "relationship": "unknown",
+    "taiwanPartyName": "本次查無台灣關聯廠商",
+    "relationshipNote": "2026-11-23 以 Helm、Helm Binding Proteins、Bactolife、binding protein、VHH、駱駝免疫球蛋白、駱駝 IgG、結合蛋白，搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索，並打開 helmtrustyourgut.com 與 Bactolife 的結合蛋白頁。沒有寫明這個商品名的台灣廠商產品頁、代理頁或經銷名單。牛初乳免疫球蛋白是平台上的另一筆原料，不是台灣公司。同日再以「Bactolife 台灣」與「Helm 免疫球蛋白 台灣」獨立複查。Japan Times 2026-10-07 寫亞太先在新加坡與香港上市，並接觸日本、韓國與澳洲，沒有寫台灣，也沒有台灣經銷商名字。仍沒有台灣廠商頁。查核日 2026-11-23。"
+  },
+  "tfda": {
+    "usable": "not_found",
+    "evidenceNotes": "商品名 Helm 會命中錫蘭七指蕨與鳳仙花，是英文字串嵌在學名或外文名裡，兩筆都屬未確認，但不是這個蛋白。免疫球蛋白只命中牛初乳免疫球蛋白（id 17626），備註寫由牛初乳製取。結合蛋白、駱駝與 camelid 都是 0 筆。查無不是准用。",
+    "lookupDate": "2026-11-23",
+    "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+    "queries": [
+      {
+        "tab": "ingredient",
+        "keyword": "Helm",
+        "category": "",
+        "resultCount": 2,
+        "matchedName": "錫蘭七指蕨；鳳仙花",
+        "restrictionNote": "id 16174：錫蘭七指蕨，學名 Helminthostachys zeylanica，未確認，不得供為食品原料。id 16192：鳳仙花，外文名含 Policeman's helmet，學名 Impatiens glandulifera，花，未確認。",
+        "unconfirmedSafety": true,
+        "note": "兩筆都是字串誤中。不是 Bactolife 的結合蛋白，不把這兩筆當成這支原料的結論。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "免疫球蛋白",
+        "category": "",
+        "resultCount": 1,
+        "matchedName": "牛初乳免疫球蛋白",
+        "restrictionNote": "id 17626。外文名 Immunoglobulin。備註：由牛初乳所製取。",
+        "unconfirmedSafety": false,
+        "note": "牛初乳來源，不是發酵的駱駝 IgG 片段。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "結合蛋白",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "中文成分名 0 筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "駱駝",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "0 筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "camelid",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "免疫球蛋白",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "添加物 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "Helm",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名在添加物 0 筆。"
+      },
+      {
+        "tab": "history",
+        "keyword": "免疫球蛋白",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "助手更新歷程（2026-11-01 至 2026-11-23）沒有這筆異動。資料時間戳 2026-11-23 06:18。"
+      }
+    ],
+    "officialCrosscheck": {
+      "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+      "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+      "done": false,
+      "notes": "2026-11-23 連線 consumer.fda.gov.tw:443 出現 OpenSSL SSL_ERROR_SYSCALL，沒有取得官方詳細頁。開放資料 InfoId 4 沒有 Helm、結合蛋白或駱駝免疫球蛋白；牛初乳免疫球蛋白的備註是由牛初乳製取。助手沒有這支發酵片段的詳細頁。siteTotals 原料 1709、添加物 804。"
+    }
+  },
+  "efficacy": {
+    "claimedBenefits": [
+      "Helm 官網：結合蛋白被寫成可選擇性結合腸道中部分微生物的不良代謝物，並寫不干擾有益菌；生產方式是精準發酵。頁上沒有寫人體試驗人數或每日毫克。",
+      "SupplySide Supplement Journal 2026-11-20：公司文獻寫這些蛋白結合並中和會影響腸道屏障的代謝物。同篇寫概念有臨床前與動物資料，人體試驗進行中，其中一件與 People Science 看旅行期間的腸道。這次沒有打開那些試驗的論文。"
+    ],
+    "suggestedDosage": "打開的官網與 2026-11-20 展後報導沒有寫每日毫克。",
+    "dosageNote": "沒有讀到可引用的每日劑量。公司社群貼文有一段 150–300 毫克的文字，這次沒有打開貼文原文，不寫進劑量。平台沒有這支蛋白的列名。"
+  },
+  "patent": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "US12441783B2 Pathogen binding proteins",
+        "url": "https://patents.google.com/patent/US12441783B2/en",
+        "note": "Google Patents 寫權利人 Bactolife，2025-10-14 核准。請求項是以連接子接起的單域抗體，可結合病原表面或病原產生的分子。說明書把單域抗體稱為 VHH，並寫最早來自駱駝科重鏈抗體。標題沒有 Helm。讀取日 2026-11-23。"
+      }
+    ],
+    "note": "對到的是 Bactolife 的結合蛋白專利。商品名沒有出現在專利標題。同族另有 WO2020/144164A1。"
+  },
+  "literature": {
+    "status": "unknown",
+    "refs": [],
+    "note": "2026-11-23 展後報導寫有臨床前與動物資料、人體試驗進行中。這次沒有打開可對上 Helm 商品名的論文，所以不把證據等級填上。"
+  },
+  "evidenceLevels": [],
+  "images": [
+    {
+      "url": "https://cdn.prod.website-files.com/6a072e2fb4b9eb952a062dce/6ac898311c0b0d0c5d38eadb_Open%20graph%20preview%20image.png",
+      "localPath": "",
+      "caption": "Helm 官網的分享預覽圖。",
+      "source": "official_site"
+    }
+  ],
+  "sources": [
+    {
+      "title": "7 health optimization category innovations at SupplySide Global",
+      "url": "https://www.supplysidesj.com/supplements/7-health-optimization-category-innovations-at-supplyside-global",
+      "publisher": "SupplySide Supplement Journal",
+      "channel": "exhibition",
+      "accessed": "2026-11-23",
+      "whatItContributes": "2026-11-20：Helm 首次帶到 SupplySide，寫發酵來源的駱駝 IgG 結合片段，以及臨床前、動物與進行中的人體試驗。"
+    },
+    {
+      "title": "Helm Binding Proteins",
+      "url": "https://www.helmtrustyourgut.com/",
+      "publisher": "Helm（Bactolife）",
+      "channel": "supplier_site",
+      "accessed": "2026-11-23",
+      "whatItContributes": "官網對結合對象、精準發酵與劑型的說法。頁尾地址在丹麥哥本哈根。"
+    },
+    {
+      "title": "The Origin",
+      "url": "https://www.helmtrustyourgut.com/origin",
+      "publisher": "Helm（Bactolife）",
+      "channel": "supplier_site",
+      "accessed": "2026-11-23",
+      "whatItContributes": "把原料寫成駱駝科 IgG 的結合片段，並寫現在不以駱駝生產、改由微生物發酵。"
+    },
+    {
+      "title": "US12441783B2",
+      "url": "https://patents.google.com/patent/US12441783B2/en",
+      "publisher": "Google Patents",
+      "channel": "patent",
+      "accessed": "2026-11-23",
+      "whatItContributes": "Bactolife 的 VHH 結合蛋白專利號與核准日。"
+    },
+    {
+      "title": "Building a new approach to gut health, from Denmark to Asia",
+      "url": "https://www.japantimes.co.jp/country-report/2026/10/07/denmark-life-sciences/building-new-approach-gut-health-denmark-asia/",
+      "publisher": "The Japan Times",
+      "channel": "news",
+      "accessed": "2026-11-23",
+      "whatItContributes": "亞太先寫新加坡與香港，並接觸日本、韓國、澳洲。沒有寫台灣經銷商。"
+    }
+  ],
+  "discovery": {
+    "channel": "exhibition",
+    "scoutDate": "2026-11-23",
+    "notes": "從 SupplySide Supplement Journal 2026-11-20 的展場整理進入 Helm 官網、來源頁與 US12441783B2。牛初乳免疫球蛋白與字串誤中的兩株未確認植物沒有併進這張卡。"
+  }
+}

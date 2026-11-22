@@ -6,6 +6,990 @@
         "exhibition",
         "industry_report"
       ],
+      "date": "2026-11-23",
+      "example": false,
+      "notes": "正式五筆。主管道：乳橋蛋白、GutABAlite 為新聞；Sunvasterol、Helm 為展覽；Maritech 裙帶菜褐藻糖膠為產業報導。未收未確認安全性項目：麵包蟲（Nutriearth 維生素 D3 的來源，id 16458）、印度小檗（Novaberin 的成分，id 16080）、麥角硫因（id 17744）、橙皮苷純化物（DiosVein 方向，id 16545）。伏牛花果實有列名，但不是印度小檗。α-醣化橙皮苷有列名，但不是橙皮苷純化物。",
+      "picks": [
+        {
+          "discovery": {
+            "channel": "news",
+            "notes": "從 FoodNavigator 2026-10-20 的自認 GRAS 新聞進入 Better Dairy 科學頁、FAQ、bioRxiv 預印本與 EP4642904A1。酵母菌體列名沒有拿來當成這支蛋白已列名。乳鐵蛋白是另一支原料。",
+            "scoutDate": "2026-11-23"
+          },
+          "efficacy": {
+            "claimedBenefits": [
+              "Better Dairy FAQ：乳橋蛋白是乳中的骨橋蛋白；公司寫成人文獻方向包含骨再礦化、組織修復、免疫與發炎調節，並寫這個族群的專門臨床仍在進行。",
+              "FoodNavigator 2026-10-20：自認 GRAS 只涵蓋美國成人營養與補充品的預定用途，不涵蓋嬰兒配方；自認 GRAS 不是 FDA 核准。",
+              "bioRxiv 2026-08-21 預印本：磷酸化的重組人類乳橋蛋白比去磷酸化與未磷酸化形式有較高的鐵結合。這是分析比較，不是人體試驗。作者任職 Better Dairy。"
+            ],
+            "dosageNote": "沒有讀到供應商建議劑量或人體試驗劑量。自認 GRAS 的新聞沒有寫每份毫克。平台沒有這支蛋白的列名。酵母菌體那一列不能當成乳橋蛋白已列名。",
+            "suggestedDosage": "打開的 FAQ、科學頁與 FoodNavigator 沒有寫每日毫克。"
+          },
+          "evidenceLevels": [
+            "in_vitro"
+          ],
+          "example": false,
+          "id": "lactopontin",
+          "images": [
+            {
+              "caption": "Better Dairy 科學頁上的骨橋蛋白分子圖。",
+              "localPath": "",
+              "source": "official_site",
+              "url": "https://betterdairy.com/wp-content/uploads/2025/02/OPN-Molecule-1440x1378.png"
+            }
+          ],
+          "literature": {
+            "note": "FAQ 寫成人臨床仍在進行。這次沒有對到已發表的人體論文。",
+            "refs": [
+              {
+                "note": "bioRxiv 預印本，2026-08-21 版。比較 K. lactis 重組人類乳橋蛋白與人乳分離的乳橋蛋白，並比較鐵結合。不是期刊、也不是人體試驗。作者聲明任職 Better Dairy。",
+                "title": "Post-translational modification fidelity of recombinant human lactopontin expressed in Kluyveromyces lactis",
+                "url": "https://www.biorxiv.org/content/10.64898/2026.05.12.724256v3"
+              }
+            ],
+            "status": "yes"
+          },
+          "names": {
+            "commonEn": "lactopontin (milk osteopontin)",
+            "commonZh": "乳橋蛋白（骨橋蛋白）",
+            "scientific": "不適用植物學名。乳橋蛋白是乳中的骨橋蛋白。Better Dairy 科學頁寫由人類序列、經酵母精準發酵。bioRxiv 預印本寫宿主是 Kluyveromyces lactis。EP4642904A1 的實施例另寫 Pichia pastoris 與大腸桿菌表現人類骨橋蛋白。三處宿主用詞不同，都留下。不是乳鐵蛋白。",
+            "trade": "Lactopontin（Better Dairy 的精準發酵乳橋蛋白商品名；公司亦簡寫 LPN）"
+          },
+          "patent": {
+            "note": "這是公開中的歐洲申請，不是已核准專利。申請範圍含多種乳蛋白，不只有乳橋蛋白。",
+            "refs": [
+              {
+                "note": "Google Patents 寫申請人 Better Dairy Ltd，2025-11-05 公開，狀態 Pending。說明書把骨橋蛋白列為可磷酸化的乳蛋白例子之一。讀到的實施例是 Pichia pastoris 與大腸桿菌。預印本另寫生產株 BD-LPN60 受這件申請保護。讀取日 2026-11-23。",
+                "title": "EP4642904A1 Proteins, methods, and systems for subcellular localization of proteins for post-translation modifications",
+                "url": "https://patents.google.com/patent/EP4642904A1/en"
+              }
+            ],
+            "status": "yes"
+          },
+          "sources": [
+            {
+              "accessed": "2026-11-23",
+              "channel": "news",
+              "publisher": "FoodNavigator",
+              "title": "Better Dairy self-affirms GRAS status for lactopontin",
+              "url": "https://www.foodnavigator.com/Article/2026/10/20/better-dairy-self-affirms-gras-status-for-lactopontin/",
+              "whatItContributes": "2026-10-20：倫敦 Better Dairy 的精準發酵乳橋蛋白取得自認 GRAS，目標是美國成人營養與補充品，嬰兒配方另走路徑。"
+            },
+            {
+              "accessed": "2026-11-23",
+              "channel": "supplier_site",
+              "publisher": "Better Dairy",
+              "title": "Science",
+              "url": "https://betterdairy.com/science",
+              "whatItContributes": "公司把乳橋蛋白寫成由酵母發酵、再純化乾燥的粉末，並與牛乳來源的濃度、序列相似度做對照。"
+            },
+            {
+              "accessed": "2026-11-23",
+              "channel": "supplier_site",
+              "publisher": "Better Dairy",
+              "title": "FAQ",
+              "url": "https://betterdairy.com/faq",
+              "whatItContributes": "公司對乳橋蛋白、骨橋蛋白與「人類等效」的定義，以及成人臨床仍在進行的說法。"
+            },
+            {
+              "accessed": "2026-11-23",
+              "channel": "patent",
+              "publisher": "Google Patents",
+              "title": "EP4642904A1",
+              "url": "https://patents.google.com/patent/EP4642904A1/en",
+              "whatItContributes": "磷酸化製程申請，骨橋蛋白是說明書中的乳蛋白例子。"
+            }
+          ],
+          "supply": {
+            "relationship": "unknown",
+            "relationshipNote": "2026-11-23 以 Lactopontin、LPN、osteopontin、OPN、骨橋蛋白、乳橋蛋白、Better Dairy，搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索，並打開 Better Dairy 科學頁與 FAQ。沒有寫明這個商品名的台灣廠商產品頁或代理頁。北京阿拉食品原料的公開清單有骨橋蛋白，公司地址在北京，頁上沒有 Better Dairy，也不是台灣公司。同日再以「乳橋蛋白 台灣 代理」與「Better Dairy 台灣」獨立複查。日商環球訊息的市場報告目錄有 Better Dairy 公司名，那是報告販售頁，沒有代理或經銷句。仍沒有台灣廠商頁。查核日 2026-11-23。",
+            "supplierCountry": "英國",
+            "supplierName": "Better Dairy",
+            "taiwanPartyName": "本次查無台灣關聯廠商"
+          },
+          "tfda": {
+            "evidenceNotes": "商品名 lactopontin、osteopontin 與骨橋蛋白在原料、添加物都是 0 筆。Kluyveromyces lactis 命中的是酵母菌菌體（id 17574），可供食品原料或加工使用，不是這支純化的人類乳橋蛋白。查無不是准用。",
+            "lookupDate": "2026-11-23",
+            "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+            "officialCrosscheck": {
+              "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+              "done": false,
+              "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+              "notes": "2026-11-23 連線 consumer.fda.gov.tw:443 出現 OpenSSL SSL_ERROR_SYSCALL，沒有取得官方詳細頁。另下載開放資料 InfoId 4（1707 筆）：lactopontin、osteopontin、骨橋蛋白 0 筆；Kluyveromyces lactis 對到酵母菌菌體。助手細節時間戳 2026-11-23 06:18，siteTotals 原料 1709、添加物 804。沒有可核對的乳橋蛋白詳細頁。"
+            },
+            "queries": [
+              {
+                "category": "",
+                "keyword": "lactopontin",
+                "matchedName": "",
+                "note": "商品名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "osteopontin",
+                "matchedName": "",
+                "note": "英文成分名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "骨橋蛋白",
+                "matchedName": "",
+                "note": "中文名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Kluyveromyces lactis",
+                "matchedName": "酵母菌",
+                "note": "這是酵母菌體，不是純化乳橋蛋白。",
+                "restrictionNote": "id 17574。學名 Kluyveromyces lactis、Saccharomyces lactis。部位菌體。備註：可供為食品原料或食品加工使用。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "lactopontin",
+                "matchedName": "",
+                "note": "商品名在添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "osteopontin",
+                "matchedName": "",
+                "note": "英文成分名在添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "骨橋蛋白",
+                "matchedName": "",
+                "note": "中文名在添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "骨橋蛋白",
+                "matchedName": "",
+                "note": "助手更新歷程（2026-11-01 至 2026-11-23）沒有這筆異動。資料時間戳 2026-11-23 06:18。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "history",
+                "unconfirmedSafety": false
+              }
+            ],
+            "usable": "not_found"
+          }
+        },
+        {
+          "discovery": {
+            "channel": "news",
+            "notes": "從 Nutrition Insight 2026-10-27 的上市新聞進入 IFF 新聞稿網址、2021 年培養論文與 US12447185，再打開呈定的 HOWARU 目錄。GABA 化合物列名沒有拿來當成這支益生菌的劑量。PharmaGABA 與 LC-Plasma 是別的原料。",
+            "scoutDate": "2026-11-23"
+          },
+          "efficacy": {
+            "claimedBenefits": [
+              "IFF 2026-10-26 新聞：公司稱 6 週隨機雙盲安慰劑對照試驗中，GutABAlite 在腸道產生 GABA、短鏈脂肪酸增加，並與較低的每日血糖暴露有關；空腹胰島素約低 18%、HOMA-IR 約低 20%，公司寫的是趨勢。停用後效果減弱。新聞沒有寫受試人數、CFU 或論文出處。",
+              "Nutrition Insight 2026-10-27 轉述同一則公司試驗，同樣沒有期刊名。這次沒有打開 2026 年人體試驗的論文頁。",
+              "Microbial Cell Factories 2021：Lbr-6108 在含味精的培養基中比 Lbr-35 與標準株更早、更多分泌 GABA。這是菌體培養與轉錄體，不是人體試驗。"
+            ],
+            "dosageNote": "1×10^10 CFU/ml／日是這件專利方法請求項的寫法，不是 IFF 這次新聞的商品標示。平台對 Lactobacillus brevis 菌體沒有寫 CFU 上限。GABA 每日 100 毫克是純化化合物的限制，不能套到這支益生菌。",
+            "suggestedDosage": "打開的 IFF 與 Nutrition Insight 新聞沒有寫每日 CFU 或毫克。US12447185 請求項 7 寫每日 1×10^10 CFU/ml。"
+          },
+          "evidenceLevels": [
+            "in_vitro"
+          ],
+          "example": false,
+          "id": "gutabalite",
+          "images": [
+            {
+              "caption": "Nutrition Insight 報導配圖，是腸道模型與桿菌圖，不是商品包裝。",
+              "localPath": "",
+              "source": "other",
+              "url": "https://article-cns.cnsmedia.com/articleimgs/resized_rect_newsimages/jpg/639286891561117779hands_holding_intestinal_model_next_to_graphic_image_of_bacteria_rods.jpg"
+            }
+          ],
+          "literature": {
+            "note": "2026 年人體試驗只出現在公司新聞。Nutraceuticals World 2026-10-26 快訊寫這個人體試驗尚未發表，所以沒有把它算進臨床文獻。",
+            "refs": [
+              {
+                "note": "Microbial Cell Factories，2021。比較 Lbr-6108 與其他短乳桿菌在培養中的 GABA 分泌與轉錄。作者含 IFF 相關單位。這次讀的是 PubMed 摘要。不是 2026 年那個人體試驗。",
+                "title": "Transcriptomics reveal different metabolic strategies for acid resistance and GABA production in select Levilactobacillus brevis strains",
+                "url": "https://pubmed.ncbi.nlm.nih.gov/34488774/"
+              }
+            ],
+            "status": "yes"
+          },
+          "names": {
+            "commonEn": "GABA-producing Levilactobacillus brevis",
+            "commonZh": "短乳桿菌 LBR-6108（產 GABA 益生菌）",
+            "scientific": "Levilactobacillus brevis LBR-6108。2021 年 Microbial Cell Factories 寫舊名 Lactobacillus brevis DPC 6108。US12447185 寫寄存編號 NCIMB 41903。平台乳酸菌那一列的學名仍是 Lactobacillus brevis。不是 γ-胺基丁酸這個化合物，也不是 Lactococcus lactis。",
+            "trade": "HOWARU GutABAlite（IFF 的益生菌商品名；菌株寫 Levilactobacillus brevis LBR-6108）"
+          },
+          "patent": {
+            "note": "2021 年論文把 Lbr-6108 寫成舊名 DPC 6108，因此對到這件專利。專利權人不是 IFF。商品名 GutABAlite 沒有出現在專利標題。",
+            "refs": [
+              {
+                "note": "Google Patents 家族頁寫 Lactobacillus brevis DPC6108、NCIMB 41903。請求項 7 寫每日 1×10^10 CFU/ml。權利人是 University College Cork 與 Teagasc，不是 IFF。讀取日 2026-11-23。",
+                "title": "US12447185B2 GABA-producing culturable bacteria and use for improving health",
+                "url": "https://patents.google.com/patent/US12447185B2/en"
+              }
+            ],
+            "status": "yes"
+          },
+          "sources": [
+            {
+              "accessed": "2026-11-23",
+              "channel": "news",
+              "publisher": "Nutrition Insight",
+              "title": "IFF launches GutABAlite for metabolic health via GABA production",
+              "url": "https://www.nutritioninsight.com/news/iff-gutabalite-gaba-probiotic-metabolic-health.html",
+              "whatItContributes": "2026-10-27：菌株名、6 週公司試驗的血糖與胰島素說法，以及 SupplySide Global 展出。"
+            },
+            {
+              "accessed": "2026-11-23",
+              "channel": "supplier_site",
+              "publisher": "IFF",
+              "title": "IFF Launches HOWARU GutABAlite",
+              "url": "https://www.iff.com/media/news/iff-launches-howaru-gutabalite-a-gaba-producing-probiotic-for-metabolic-health/",
+              "whatItContributes": "2026-10-26 原廠新聞：商品名、菌株名、試驗方向，以及攤位 6449。這次直接連線得到 HTTP 403，文字依公開轉載與搜尋頁可見的新聞稿。"
+            },
+            {
+              "accessed": "2026-11-23",
+              "channel": "paper",
+              "publisher": "Microbial Cell Factories",
+              "title": "PubMed 34488774",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/34488774/",
+              "whatItContributes": "Lbr-6108 與舊名 DPC 6108 的對照，以及培養中的 GABA 分泌。"
+            },
+            {
+              "accessed": "2026-11-23",
+              "channel": "other",
+              "publisher": "呈定企業",
+              "title": "益生菌 Howaru",
+              "url": "https://www.chending.com.tw/cn/catalog-detail/probiotics-Howaru/",
+              "whatItContributes": "台灣頁列有多支 HOWARU，沒有 GutABAlite。"
+            },
+            {
+              "accessed": "2026-11-23",
+              "channel": "news",
+              "publisher": "Nutraceuticals World",
+              "title": "IFF Launches GABA-Producing Probiotic with Metabolic Health Benefits",
+              "url": "https://www.nutraceuticalsworld.com/breaking-news/iff-launches-gaba-producing-probiotic-with-metabolic-health-benefits/",
+              "whatItContributes": "2026-10-26 快訊寫這個人體試驗尚未發表，並轉述 6 週的公司數據。"
+            }
+          ],
+          "supply": {
+            "relationship": "unknown",
+            "relationshipNote": "2026-11-23 以 GutABAlite、HOWARU、LBR-6108、Lbr-6108、Levilactobacillus brevis、Lactobacillus brevis、短乳桿菌、IFF 益生菌，搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索。打開呈定企業目錄（https://www.chending.com.tw/cn/catalog-detail/probiotics-Howaru/），頁上有 Protect、Feminine、Dophilus、Shape、Calm 等 HOWARU，沒有 GutABAlite、LBR-6108 或 brevis。呈定 2026-05-13 的 IFF 論壇頁例子是 Restore、Protect Adult 與 B420，同樣沒有這支。不把其他菌株的目錄升成這支的代理。同日再以「GutABAlite 台灣」獨立複查，沒有寫明這個商品名的台灣廠商頁。查核日 2026-11-23。",
+            "supplierCountry": "美國",
+            "supplierName": "IFF",
+            "taiwanPartyName": "呈定企業有其他 HOWARU 菌株的目錄頁；打開的那一頁沒有 GutABAlite"
+          },
+          "tfda": {
+            "evidenceNotes": "商品名 GutABAlite、Levilactobacillus 與短乳桿菌在原料、添加物都是 0 筆。Lactobacillus brevis 命中兩筆：乳酸菌（id 17504，菌體，可供食品原料或加工）以及 γ-胺基丁酸。後者是發酵後純化的 GABA，生產菌寫到這兩個菌名，每日以 GABA 計 100 毫克，不是這支益生菌的劑量。這張卡對的是乳酸菌那一列。",
+            "lookupDate": "2026-11-23",
+            "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+            "officialCrosscheck": {
+              "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+              "done": true,
+              "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+              "notes": "2026-11-23 連線 consumer.fda.gov.tw:443 出現 OpenSSL SSL_ERROR_SYSCALL，沒有取得官方詳細頁。開放資料 InfoId 4 的乳酸菌列學名為 Lactobacillus brevis、部位菌體、可供食品使用；γ-胺基丁酸列的備註同樣寫到 Lactobacillus brevis 與每日 100 毫克。與查詢助手一致。乳酸菌詳細頁網址是 MaterialDetail id 17504。"
+            },
+            "queries": [
+              {
+                "category": "",
+                "keyword": "GutABAlite",
+                "matchedName": "",
+                "note": "商品名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Levilactobacillus",
+                "matchedName": "",
+                "note": "新屬名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "短乳桿菌",
+                "matchedName": "",
+                "note": "這個中文 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Lactobacillus brevis",
+                "matchedName": "乳酸菌；γ-胺基丁酸",
+                "note": "兩筆都沒有未確認標記。GABA 那一筆是化合物規格，不是這支活菌商品。",
+                "restrictionNote": "id 17504：乳酸菌，學名 Lactobacillus brevis，部位菌體，可供為食品原料或食品加工使用。id 17739：γ-胺基丁酸。備註寫原料係將 Lactobacillus hilgardii 或 Lactobacillus brevis 發酵、純化製得，含量不得低於 20%，每日以 GABA 計 100 毫克，並有酒與藥物警語。",
+                "resultCount": 2,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "GutABAlite",
+                "matchedName": "",
+                "note": "商品名在添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Lactobacillus brevis",
+                "matchedName": "",
+                "note": "學名在添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "短乳桿菌",
+                "matchedName": "",
+                "note": "中文在添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Lactobacillus brevis",
+                "matchedName": "",
+                "note": "助手更新歷程（2026-11-01 至 2026-11-23）沒有這筆異動。資料時間戳 2026-11-23 06:18。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "history",
+                "unconfirmedSafety": false
+              }
+            ],
+            "usable": "listed_food_ingredient"
+          }
+        },
+        {
+          "discovery": {
+            "channel": "exhibition",
+            "notes": "從 NutraIngredients 2026-11-17 的 Fi Europe 展商預告進入 Kensing 的 Sunvasterol 頁與 Nutrition Insight 的奶油乳酪原型稿，再打開登盛與宸品的植物固醇頁。大豆、松樹與 CardioAid 沒有併成這個商品名。",
+            "scoutDate": "2026-11-23"
+          },
+          "efficacy": {
+            "claimedBenefits": [
+              "Kensing 產品頁：把 Sunvasterol 寫成符合歐盟植物固醇聲稱的葵花來源規格，維持聲稱寫每日至少 0.8 公克，降膽固醇聲稱寫每日 1.5–3 公克；同頁寫 2–3 週可依劑量降低血膽固醇 7–12.5%，並寫有 140 多項臨床。頁上沒有列出這 140 項的論文，也沒有寫哪些試驗用的是 Sunvasterol。",
+              "Kensing 2026 年奶油乳酪原型說明：Sunvasterol EST 占配方 6.7%，每 25 公克一份約含植物固醇 1 公克；公司寫每天兩份對到 1.5–2.4 公克，並把 7–10% 的 LDL 降幅寫成 EFSA 聲稱在 2–3 週的關聯。",
+              "Nutrition Insight 2026-11-06 轉述同一組原型數字，並寫 2025 年取得歐盟新穎食品授權。這不是台灣平台的限量。"
+            ],
+            "dosageNote": "1.5–3 公克是 Kensing 引用的歐盟植物固醇聲稱範圍，不是這次讀到的 Sunvasterol 單獨試驗，也不是平台上的每日上限。平台兩筆備註都是空白。原型的 6.7% 是配方比例。",
+            "suggestedDosage": "Kensing 把歐盟降膽固醇聲稱寫成每日植物固醇 1.5–3 公克。奶油乳酪原型是每 25 公克一份約 1 公克植物固醇。"
+          },
+          "evidenceLevels": [],
+          "example": false,
+          "id": "sunvasterol",
+          "images": [
+            {
+              "caption": "Kensing 官網的 Sunvasterol 產品橫幅。",
+              "localPath": "",
+              "source": "official_site",
+              "url": "https://kensingsolutions.com/wp-content/uploads/2025/11/1440x600-Banner-Web-Sunvasterol.jpg"
+            }
+          ],
+          "literature": {
+            "note": "2026-11-23 以 Sunvasterol 查這次打開的 Kensing 頁與新聞，沒有掛這個商品名的論文。頁上的 140 多項臨床與 7–12.5% 是植物固醇這個成分類的寫法，沒有論文清單，所以不標成這支原料的臨床文獻。",
+            "refs": [],
+            "status": "no"
+          },
+          "names": {
+            "commonEn": "sunflower phytosterol esters",
+            "commonZh": "葵花植物固醇酯",
+            "scientific": "不適用單一學名。Kensing 寫原料來自葵花油蒸餾物，主要是 beta-sitosterol、stigmasterol 與 campesterol；EST 再與葵花油脂肪酸做成酯。不是登盛頁的大豆植物固醇或松樹植物固醇，也不是宸品頁的 CardioAid。",
+            "trade": "Sunvasterol EST（Kensing 的葵花植物固醇酯商品名；系列另有游離固醇規格）"
+          },
+          "patent": {
+            "note": "2026-11-23 以 Sunvasterol、Kensing、sunflower phytosterol 查公開專利頁，沒有對到掛這個商品名的專利號。歐盟新穎食品授權不是專利。",
+            "refs": [],
+            "status": "unknown"
+          },
+          "sources": [
+            {
+              "accessed": "2026-11-23",
+              "channel": "exhibition",
+              "publisher": "NutraIngredients",
+              "title": "Supplement industry must-sees at Fi Europe 2026",
+              "url": "https://www.nutraingredients.com/Article/2026/11/17/supplement-industry-must-sees-at-fi-europe-2026/",
+              "whatItContributes": "2026-11-17 展前記者：Kensing 攤位 30H38，乳品應用使用 Sunvasterol EST，並另寫 Vitastrerol S-80。"
+            },
+            {
+              "accessed": "2026-11-23",
+              "channel": "news",
+              "publisher": "Nutrition Insight",
+              "title": "Fi Europe 2026: Kensing debuts cholesterol-lowering cream cheese with Sunvasterol",
+              "url": "https://www.nutritioninsight.com/news/fi-europe-2026-kensing-sunvasterol-cream-cheese-cholesterol.html",
+              "whatItContributes": "2026-11-06：葵花來源、6.7% 配方、每份約 1 公克，以及 2025 年歐盟授權的說法。"
+            },
+            {
+              "accessed": "2026-11-23",
+              "channel": "supplier_site",
+              "publisher": "Kensing",
+              "title": "Sunvasterol Plant Sterols",
+              "url": "https://kensingsolutions.com/phytosterols-sunvasterol/",
+              "whatItContributes": "游離與酯兩種規格、0.8 克與 1.5–3 克的歐盟聲稱寫法，以及總部在美國伊利諾州 Kankakee。"
+            },
+            {
+              "accessed": "2026-11-23",
+              "channel": "other",
+              "publisher": "登盛企業",
+              "title": "特殊營養成分",
+              "url": "https://www.masterasia.com.tw/content.php?id=5707",
+              "whatItContributes": "台灣頁的植物固醇是大豆萃取，松樹植物固醇是另一列，都沒有 Sunvasterol。"
+            }
+          ],
+          "supply": {
+            "relationship": "unknown",
+            "relationshipNote": "2026-11-23 以 Sunvasterol、Sunvasterol EST、Kensing、葵花植物固醇、植物固醇酯、phytosterol，搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索。打開登盛特殊營養成分頁：松樹植物固醇是 Pine Tree Extract (Plant Sterols)，植物固醇是 Soybean Extract Phytosterols，沒有葵花或 Sunvasterol。宸品產品總覽有 CardioAid 酯化植物固醇，頁上沒有 Kensing。北京普泰康清單寫美國 Kensing 的高純度植物甾醇／酯，公司不在台灣。Kensing 產品頁沒有台灣經銷名單。同日再以「Sunvasterol 台灣」獨立複查，沒有寫明這個商品名的台灣廠商頁。不把大豆、松樹或 CardioAid 升成這支的代理。查核日 2026-11-23。",
+            "supplierCountry": "美國",
+            "supplierName": "Kensing",
+            "taiwanPartyName": "登盛企業列大豆與松樹植物固醇；宸品列 CardioAid。打開的頁都沒有 Sunvasterol"
+          },
+          "tfda": {
+            "evidenceNotes": "商品名 Sunvasterol 在原料、添加物都是 0 筆。「植物固醇」命中兩筆，因為植物固醇酯這五個字含有植物固醇：游離型 id 17333、酯型 id 17334。兩筆都在可供食品使用，學名、部位、備註空白，沒有未確認標記。Sunvasterol EST 是酯，較接近 id 17334。列名沒有寫每日公克。",
+            "lookupDate": "2026-11-23",
+            "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+            "officialCrosscheck": {
+              "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+              "done": true,
+              "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+              "notes": "2026-11-23 連線 consumer.fda.gov.tw:443 出現 OpenSSL SSL_ERROR_SYSCALL，沒有取得官方詳細頁。開放資料 InfoId 4：植物固醇（Phytosterol, Phytosterin）與植物固醇酯（Phytosterol esters）都在可供食品使用，學名、部位、備註空白，與查詢助手一致。詳細頁網址是 MaterialDetail id 17333 與 17334。添加物關鍵字 0 筆。"
+            },
+            "queries": [
+              {
+                "category": "",
+                "keyword": "Sunvasterol",
+                "matchedName": "",
+                "note": "商品名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "植物固醇酯",
+                "matchedName": "植物固醇酯",
+                "note": "酯這一筆。EST 規格對這列。",
+                "restrictionNote": "id 17334。外文名 Phytosterol esters。次分類為草木本植物類來源製取之原料。學名、部位、備註空白。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "植物固醇",
+                "matchedName": "植物固醇；植物固醇酯",
+                "note": "關鍵字會同時命中酯，因為名稱含這四個字。",
+                "restrictionNote": "id 17333：植物固醇，外文名 Phytosterol, Phytosterin。id 17334：植物固醇酯。兩筆備註都空白。",
+                "resultCount": 2,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Sunvasterol",
+                "matchedName": "",
+                "note": "商品名在添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "植物固醇",
+                "matchedName": "",
+                "note": "中文在添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "phytosterol",
+                "matchedName": "",
+                "note": "英文在添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "植物固醇",
+                "matchedName": "",
+                "note": "助手更新歷程（2026-11-01 至 2026-11-23）沒有這筆異動。資料時間戳 2026-11-23 06:18。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "history",
+                "unconfirmedSafety": false
+              }
+            ],
+            "usable": "listed_food_ingredient"
+          }
+        },
+        {
+          "discovery": {
+            "channel": "exhibition",
+            "notes": "從 SupplySide Supplement Journal 2026-11-20 的展場整理進入 Helm 官網、來源頁與 US12441783B2。牛初乳免疫球蛋白與字串誤中的兩株未確認植物沒有併進這張卡。",
+            "scoutDate": "2026-11-23"
+          },
+          "efficacy": {
+            "claimedBenefits": [
+              "Helm 官網：結合蛋白被寫成可選擇性結合腸道中部分微生物的不良代謝物，並寫不干擾有益菌；生產方式是精準發酵。頁上沒有寫人體試驗人數或每日毫克。",
+              "SupplySide Supplement Journal 2026-11-20：公司文獻寫這些蛋白結合並中和會影響腸道屏障的代謝物。同篇寫概念有臨床前與動物資料，人體試驗進行中，其中一件與 People Science 看旅行期間的腸道。這次沒有打開那些試驗的論文。"
+            ],
+            "dosageNote": "沒有讀到可引用的每日劑量。公司社群貼文有一段 150–300 毫克的文字，這次沒有打開貼文原文，不寫進劑量。平台沒有這支蛋白的列名。",
+            "suggestedDosage": "打開的官網與 2026-11-20 展後報導沒有寫每日毫克。"
+          },
+          "evidenceLevels": [],
+          "example": false,
+          "id": "helm",
+          "images": [
+            {
+              "caption": "Helm 官網的分享預覽圖。",
+              "localPath": "",
+              "source": "official_site",
+              "url": "https://cdn.prod.website-files.com/6a072e2fb4b9eb952a062dce/6ac898311c0b0d0c5d38eadb_Open%20graph%20preview%20image.png"
+            }
+          ],
+          "literature": {
+            "note": "2026-11-23 展後報導寫有臨床前與動物資料、人體試驗進行中。這次沒有打開可對上 Helm 商品名的論文，所以不把證據等級填上。",
+            "refs": [],
+            "status": "unknown"
+          },
+          "names": {
+            "commonEn": "camelid IgG binding-protein fragment",
+            "commonZh": "駱駝免疫球蛋白結合片段",
+            "scientific": "不適用物種學名。官網寫取駱駝科 IgG 裡負責結合的片段，再以真菌精準發酵生產，不是從駱駝取乳。不是牛初乳免疫球蛋白。US12441783 把這類片段寫成單域抗體（VHH）。",
+            "trade": "Helm（Bactolife 的結合蛋白商品名；頁上亦寫 Helm Binding Proteins）"
+          },
+          "patent": {
+            "note": "對到的是 Bactolife 的結合蛋白專利。商品名沒有出現在專利標題。同族另有 WO2020/144164A1。",
+            "refs": [
+              {
+                "note": "Google Patents 寫權利人 Bactolife，2025-10-14 核准。請求項是以連接子接起的單域抗體，可結合病原表面或病原產生的分子。說明書把單域抗體稱為 VHH，並寫最早來自駱駝科重鏈抗體。標題沒有 Helm。讀取日 2026-11-23。",
+                "title": "US12441783B2 Pathogen binding proteins",
+                "url": "https://patents.google.com/patent/US12441783B2/en"
+              }
+            ],
+            "status": "yes"
+          },
+          "sources": [
+            {
+              "accessed": "2026-11-23",
+              "channel": "exhibition",
+              "publisher": "SupplySide Supplement Journal",
+              "title": "7 health optimization category innovations at SupplySide Global",
+              "url": "https://www.supplysidesj.com/supplements/7-health-optimization-category-innovations-at-supplyside-global",
+              "whatItContributes": "2026-11-20：Helm 首次帶到 SupplySide，寫發酵來源的駱駝 IgG 結合片段，以及臨床前、動物與進行中的人體試驗。"
+            },
+            {
+              "accessed": "2026-11-23",
+              "channel": "supplier_site",
+              "publisher": "Helm（Bactolife）",
+              "title": "Helm Binding Proteins",
+              "url": "https://www.helmtrustyourgut.com/",
+              "whatItContributes": "官網對結合對象、精準發酵與劑型的說法。頁尾地址在丹麥哥本哈根。"
+            },
+            {
+              "accessed": "2026-11-23",
+              "channel": "supplier_site",
+              "publisher": "Helm（Bactolife）",
+              "title": "The Origin",
+              "url": "https://www.helmtrustyourgut.com/origin",
+              "whatItContributes": "把原料寫成駱駝科 IgG 的結合片段，並寫現在不以駱駝生產、改由微生物發酵。"
+            },
+            {
+              "accessed": "2026-11-23",
+              "channel": "patent",
+              "publisher": "Google Patents",
+              "title": "US12441783B2",
+              "url": "https://patents.google.com/patent/US12441783B2/en",
+              "whatItContributes": "Bactolife 的 VHH 結合蛋白專利號與核准日。"
+            },
+            {
+              "accessed": "2026-11-23",
+              "channel": "news",
+              "publisher": "The Japan Times",
+              "title": "Building a new approach to gut health, from Denmark to Asia",
+              "url": "https://www.japantimes.co.jp/country-report/2026/10/07/denmark-life-sciences/building-new-approach-gut-health-denmark-asia/",
+              "whatItContributes": "亞太先寫新加坡與香港，並接觸日本、韓國、澳洲。沒有寫台灣經銷商。"
+            }
+          ],
+          "supply": {
+            "relationship": "unknown",
+            "relationshipNote": "2026-11-23 以 Helm、Helm Binding Proteins、Bactolife、binding protein、VHH、駱駝免疫球蛋白、駱駝 IgG、結合蛋白，搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索，並打開 helmtrustyourgut.com 與 Bactolife 的結合蛋白頁。沒有寫明這個商品名的台灣廠商產品頁、代理頁或經銷名單。牛初乳免疫球蛋白是平台上的另一筆原料，不是台灣公司。同日再以「Bactolife 台灣」與「Helm 免疫球蛋白 台灣」獨立複查。Japan Times 2026-10-07 寫亞太先在新加坡與香港上市，並接觸日本、韓國與澳洲，沒有寫台灣，也沒有台灣經銷商名字。仍沒有台灣廠商頁。查核日 2026-11-23。",
+            "supplierCountry": "丹麥",
+            "supplierName": "Bactolife",
+            "taiwanPartyName": "本次查無台灣關聯廠商"
+          },
+          "tfda": {
+            "evidenceNotes": "商品名 Helm 會命中錫蘭七指蕨與鳳仙花，是英文字串嵌在學名或外文名裡，兩筆都屬未確認，但不是這個蛋白。免疫球蛋白只命中牛初乳免疫球蛋白（id 17626），備註寫由牛初乳製取。結合蛋白、駱駝與 camelid 都是 0 筆。查無不是准用。",
+            "lookupDate": "2026-11-23",
+            "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+            "officialCrosscheck": {
+              "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+              "done": false,
+              "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+              "notes": "2026-11-23 連線 consumer.fda.gov.tw:443 出現 OpenSSL SSL_ERROR_SYSCALL，沒有取得官方詳細頁。開放資料 InfoId 4 沒有 Helm、結合蛋白或駱駝免疫球蛋白；牛初乳免疫球蛋白的備註是由牛初乳製取。助手沒有這支發酵片段的詳細頁。siteTotals 原料 1709、添加物 804。"
+            },
+            "queries": [
+              {
+                "category": "",
+                "keyword": "Helm",
+                "matchedName": "錫蘭七指蕨；鳳仙花",
+                "note": "兩筆都是字串誤中。不是 Bactolife 的結合蛋白，不把這兩筆當成這支原料的結論。",
+                "restrictionNote": "id 16174：錫蘭七指蕨，學名 Helminthostachys zeylanica，未確認，不得供為食品原料。id 16192：鳳仙花，外文名含 Policeman's helmet，學名 Impatiens glandulifera，花，未確認。",
+                "resultCount": 2,
+                "tab": "ingredient",
+                "unconfirmedSafety": true
+              },
+              {
+                "category": "",
+                "keyword": "免疫球蛋白",
+                "matchedName": "牛初乳免疫球蛋白",
+                "note": "牛初乳來源，不是發酵的駱駝 IgG 片段。",
+                "restrictionNote": "id 17626。外文名 Immunoglobulin。備註：由牛初乳所製取。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "結合蛋白",
+                "matchedName": "",
+                "note": "中文成分名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "駱駝",
+                "matchedName": "",
+                "note": "0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "camelid",
+                "matchedName": "",
+                "note": "0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "免疫球蛋白",
+                "matchedName": "",
+                "note": "添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Helm",
+                "matchedName": "",
+                "note": "商品名在添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "免疫球蛋白",
+                "matchedName": "",
+                "note": "助手更新歷程（2026-11-01 至 2026-11-23）沒有這筆異動。資料時間戳 2026-11-23 06:18。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "history",
+                "unconfirmedSafety": false
+              }
+            ],
+            "usable": "not_found"
+          }
+        },
+        {
+          "discovery": {
+            "channel": "industry_report",
+            "notes": "從 Future Market Insights 2026-11-18 更新的褐藻糖膠市場頁點名的 Marinova 進入 Maritech Undaria 產品頁、GRN 565 與 PMC5950942，再打開翰新、宸品與登盛。墨角藻規格與 Mozuku 沒有併進這張卡。InSea2 的多酚也不是這支。",
+            "scoutDate": "2026-11-23"
+          },
+          "efficacy": {
+            "claimedBenefits": [
+              "Maritech 產品頁：把這支 Undaria 萃取寫成高純度、有機認證的褐藻糖膠，應用方向列腸道與消化、免疫、男性攝護與泌尿、健康老化。頁上沒有寫每日毫克，參考文獻寫需另索取。",
+              "Marinova GRAS 新聞：公司寫 Undaria 與 Fucus 兩支 Maritech 的通知型 GRAS 得到 FDA no questions，並寫安全性評估到每日 250 毫克。這句同時涵蓋兩個藻種。",
+              "GRN 565 本文：Undaria 濃縮物打算用於烘焙、湯、點心、仿乳品與調味，每份最多 30 毫克；Marinova 把終身每日攝取寫到 250 毫克。不含嬰兒配方。2024-12-30 的補件把運動飲料也寫到每份 30 毫克，FDA 於補件回覆 no questions。",
+              "Integrative Cancer Therapies 的人體研究：20 名使用 letrozole 或 tamoxifen 的乳癌病人，Maritech Undaria 萃取每日 1000 毫克（每次 500 毫克、一日兩次）共 3 週。藥物谷濃度沒有顯著變化。這是交互作用觀察，不是功效試驗，而且高於 GRAS 通知裡的 250 毫克。"
+            ],
+            "dosageNote": "30 毫克／份與 250 毫克／日是美國 GRAS 通知的用途與攝取估計，不是台灣平台的上限，也不是功效劑量。1000 毫克是那篇 20 人研究的劑量。平台裙帶菜備註空白，沒有褐藻糖膠的單獨限量。",
+            "suggestedDosage": "GRN 565 的預定用途是特定食品每份最多 30 毫克，公司把每日攝取寫到 250 毫克。上述藥物交互作用研究用的是每日 1000 毫克。"
+          },
+          "evidenceLevels": [
+            "clinical"
+          ],
+          "example": false,
+          "id": "maritech-undaria",
+          "images": [
+            {
+              "caption": "Maritech 網站上的 Undaria pinnatifida 萃取產品圖。",
+              "localPath": "",
+              "source": "official_site",
+              "url": "https://maritechfucoidan.com.au/assets/cover_maritech_undaria_pinnatifida_extract.jpg"
+            }
+          ],
+          "literature": {
+            "note": "這篇看的是藥物谷濃度，不是腸道或免疫終點。產品頁的應用方向沒有附這次讀到的論文。",
+            "refs": [
+              {
+                "note": "Integrative Cancer Therapies。20 人、Maritech 萃取每日 1000 毫克、3 週。標準化褐藻糖膠約 88.9%。作者之一任職 Marinova。這次讀的是 PMC 頁。",
+                "title": "The Effect of Undaria pinnatifida Fucoidan on the Pharmacokinetics of Letrozole and Tamoxifen in Patients With Breast Cancer",
+                "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5950942/"
+              }
+            ],
+            "status": "yes"
+          },
+          "names": {
+            "commonEn": "wakame fucoidan",
+            "commonZh": "裙帶菜褐藻糖膠",
+            "scientific": "Undaria pinnatifida（Harvey）Suringar。Maritech 產品頁寫野生裙帶菜，俗名 wakame 或 mekabu，手採自巴塔哥尼亞。不是墨角藻 Fucus vesiculosus，也不是登盛頁的 Mozuku。InSea2 是褐藻與墨角藻的多酚，不是這支。",
+            "trade": "Maritech Undaria pinnatifida extract（Marinova 的裙帶菜褐藻糖膠商品名）"
+          },
+          "patent": {
+            "note": "另有 US7056520B2，請求項是 Undaria 半乳褐藻糖硫酸酯用於病毒感染，那是治療專利，不寫進功效。翰新頁寫的 Maritech 萃取技術沒有在這次對到同一號。",
+            "refs": [
+              {
+                "note": "權利人 Marinova Pty Ltd，2018-12-11 核准。請求項是降低海藻萃取物熱原的方法，目標分子可以包含褐藻糖膠。不是保健功效請求項。讀取日 2026-11-23。",
+                "title": "US10149874B2 Methods for depyrogenating a seaweed extract",
+                "url": "https://patents.google.com/patent/US10149874B2/en"
+              }
+            ],
+            "status": "yes"
+          },
+          "sources": [
+            {
+              "accessed": "2026-11-23",
+              "channel": "industry_report",
+              "publisher": "Future Market Insights",
+              "title": "Fucoidan Extract Market",
+              "url": "https://www.futuremarketinsights.com/reports/fucoidan-extract-market",
+              "whatItContributes": "2026-11-18 更新的市場頁把 Marinova 列在主要公司，並在 2026 年 2 月的條目寫到 Maritech 有機褐藻糖膠。"
+            },
+            {
+              "accessed": "2026-11-23",
+              "channel": "supplier_site",
+              "publisher": "Marinova",
+              "title": "Maritech Undaria pinnatifida extract",
+              "url": "https://maritechfucoidan.com.au/maritech-undaria-pinnatifida-extract/",
+              "whatItContributes": "藻種、產地、有機與應用方向。頁上沒有每日毫克。"
+            },
+            {
+              "accessed": "2026-11-23",
+              "channel": "other",
+              "publisher": "U.S. FDA",
+              "title": "GRN 565",
+              "url": "https://www.fda.gov/media/190472/download?attachment=",
+              "whatItContributes": "Undaria 褐藻糖膠濃縮物每份 30 毫克、每日攝取寫到 250 毫克，商品名 Maritech。"
+            },
+            {
+              "accessed": "2026-11-23",
+              "channel": "paper",
+              "publisher": "Integrative Cancer Therapies",
+              "title": "PMC5950942",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5950942/",
+              "whatItContributes": "20 人、每日 1000 毫克、3 週的藥物濃度觀察。"
+            },
+            {
+              "accessed": "2026-11-23",
+              "channel": "other",
+              "publisher": "翰新國際",
+              "title": "Marinova",
+              "url": "https://www.hycell.com.tw/Marinova.html",
+              "whatItContributes": "台灣頁自述經銷 Marinova，並寫到 Maritech 萃取。"
+            },
+            {
+              "accessed": "2026-11-23",
+              "channel": "other",
+              "publisher": "宸品",
+              "title": "有機褐藻醣膠",
+              "url": "https://www.champion-bio.com/tw/product-detail/organic_fucoidan__1/",
+              "whatItContributes": "台灣頁販售 Marinova 褐藻醣膠，來源同時寫墨角藻與裙帶菜，沒有寫代理。"
+            }
+          ],
+          "supply": {
+            "relationship": "taiwan_distributor",
+            "relationshipNote": "2026-11-23 以 Maritech、Marinova、褐藻糖膠、褐藻醣膠、fucoidan、裙帶菜、Undaria、wakame，搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索。翰新頁標題寫「Marinova 翰新國際有限公司 代理經銷」，內文把 Marinova 放在「經銷品牌」，並寫 Maritech 專利萃取；頁尾「代理經銷」是全站字樣。這是該公司自述，這次沒有打開 Marinova 官網裡列出台灣公司的經銷名單，也不把它寫成原廠證實或獨家。宸品產品頁寫有機褐藻醣膠，來源同時列墨角藻與裙帶菜，並寫 OEM、ODM，沒有「代理」二字，也沒有寫 Maritech。登盛特殊營養頁的褐藻醣膠是 Mozuku Extract，不是這支。同日再以「Maritech 台灣」複查，新的頁面沒有超出上述兩家。查核日 2026-11-23。",
+            "supplierCountry": "澳洲",
+            "supplierName": "Marinova",
+            "taiwanPartyName": "翰新國際有限公司自述經銷 Marinova；宸品股份有限公司另有 Marinova 褐藻醣膠產品頁"
+          },
+          "tfda": {
+            "evidenceNotes": "商品名 Maritech、褐藻糖膠與 fucoidan 在原料、添加物都是 0 筆。裙帶菜命中兩筆（id 17676、17702），學名都是 Undaria pinnatifida，部位藻體，備註空白，分類是藻類及其來源製取之原料，沒有未確認標記。這不是褐藻糖膠的單獨規格，也不是墨角藻多酚。",
+            "lookupDate": "2026-11-23",
+            "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+            "officialCrosscheck": {
+              "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+              "done": true,
+              "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+              "notes": "2026-11-23 連線 consumer.fda.gov.tw:443 出現 OpenSSL SSL_ERROR_SYSCALL，沒有取得官方詳細頁。開放資料 InfoId 4 的兩筆裙帶菜與助手一致：學名 Undaria pinnatifida、部位藻體、備註空白、可供食品使用。詳細頁網址是 MaterialDetail id 17676 與 17702。fucoidan 在這份開放資料 0 筆。"
+            },
+            "queries": [
+              {
+                "category": "",
+                "keyword": "Maritech",
+                "matchedName": "",
+                "note": "商品名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "褐藻糖膠",
+                "matchedName": "",
+                "note": "這個中文 0 筆。褐藻醣膠同樣 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "fucoidan",
+                "matchedName": "",
+                "note": "英文成分名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "裙帶菜",
+                "matchedName": "裙帶菜；裙帶菜",
+                "note": "兩筆都是藻體。沒有單獨的褐藻糖膠列。",
+                "restrictionNote": "id 17676：外文名 Wakame，學名 Undaria pinnatifida（Harvey）Suringar，部位藻體，備註空白。id 17702：學名 Undaria pinnatifida，部位藻體，備註空白。",
+                "resultCount": 2,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Undaria",
+                "matchedName": "裙帶菜；裙帶菜",
+                "note": "學名對到的仍是藻體。",
+                "restrictionNote": "與裙帶菜相同的 id 17676、17702。",
+                "resultCount": 2,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "褐藻糖膠",
+                "matchedName": "",
+                "note": "添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "fucoidan",
+                "matchedName": "",
+                "note": "英文在添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "裙帶菜",
+                "matchedName": "",
+                "note": "藻名在添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "裙帶菜",
+                "matchedName": "",
+                "note": "助手更新歷程（2026-11-01 至 2026-11-23）沒有這筆異動。資料時間戳 2026-11-23 06:18。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "history",
+                "unconfirmedSafety": false
+              }
+            ],
+            "usable": "listed_food_ingredient"
+          }
+        }
+      ],
+      "targetCount": 5,
+      "title": "2026-11-23 正式日報"
+    },
+    {
+      "channelsCovered": [
+        "news",
+        "exhibition",
+        "industry_report"
+      ],
       "date": "2026-11-22",
       "example": false,
       "notes": "正式五筆。主管道：ProGo、Cetoleic 2040 為新聞；Robuvit、perFix 為展覽；360GUT 為產業報導。未收未確認安全性項目：Pomanox（石榴全果含果皮）、Aspurūs／總序天冬、Metaberine／印度小檗、泰國黑薑。海南石櫟未確認，但不是 Robuvit 的歐洲櫟木材。",
@@ -21511,6 +22495,397 @@
     },
     {
       "discovery": {
+        "channel": "news",
+        "notes": "從 Nutrition Insight 2026-10-27 的上市新聞進入 IFF 新聞稿網址、2021 年培養論文與 US12447185，再打開呈定的 HOWARU 目錄。GABA 化合物列名沒有拿來當成這支益生菌的劑量。PharmaGABA 與 LC-Plasma 是別的原料。",
+        "scoutDate": "2026-11-23"
+      },
+      "efficacy": {
+        "claimedBenefits": [
+          "IFF 2026-10-26 新聞：公司稱 6 週隨機雙盲安慰劑對照試驗中，GutABAlite 在腸道產生 GABA、短鏈脂肪酸增加，並與較低的每日血糖暴露有關；空腹胰島素約低 18%、HOMA-IR 約低 20%，公司寫的是趨勢。停用後效果減弱。新聞沒有寫受試人數、CFU 或論文出處。",
+          "Nutrition Insight 2026-10-27 轉述同一則公司試驗，同樣沒有期刊名。這次沒有打開 2026 年人體試驗的論文頁。",
+          "Microbial Cell Factories 2021：Lbr-6108 在含味精的培養基中比 Lbr-35 與標準株更早、更多分泌 GABA。這是菌體培養與轉錄體，不是人體試驗。"
+        ],
+        "dosageNote": "1×10^10 CFU/ml／日是這件專利方法請求項的寫法，不是 IFF 這次新聞的商品標示。平台對 Lactobacillus brevis 菌體沒有寫 CFU 上限。GABA 每日 100 毫克是純化化合物的限制，不能套到這支益生菌。",
+        "suggestedDosage": "打開的 IFF 與 Nutrition Insight 新聞沒有寫每日 CFU 或毫克。US12447185 請求項 7 寫每日 1×10^10 CFU/ml。"
+      },
+      "evidenceLevels": [
+        "in_vitro"
+      ],
+      "example": false,
+      "id": "gutabalite",
+      "images": [
+        {
+          "caption": "Nutrition Insight 報導配圖，是腸道模型與桿菌圖，不是商品包裝。",
+          "localPath": "",
+          "source": "other",
+          "url": "https://article-cns.cnsmedia.com/articleimgs/resized_rect_newsimages/jpg/639286891561117779hands_holding_intestinal_model_next_to_graphic_image_of_bacteria_rods.jpg"
+        }
+      ],
+      "literature": {
+        "note": "2026 年人體試驗只出現在公司新聞。Nutraceuticals World 2026-10-26 快訊寫這個人體試驗尚未發表，所以沒有把它算進臨床文獻。",
+        "refs": [
+          {
+            "note": "Microbial Cell Factories，2021。比較 Lbr-6108 與其他短乳桿菌在培養中的 GABA 分泌與轉錄。作者含 IFF 相關單位。這次讀的是 PubMed 摘要。不是 2026 年那個人體試驗。",
+            "title": "Transcriptomics reveal different metabolic strategies for acid resistance and GABA production in select Levilactobacillus brevis strains",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34488774/"
+          }
+        ],
+        "status": "yes"
+      },
+      "names": {
+        "commonEn": "GABA-producing Levilactobacillus brevis",
+        "commonZh": "短乳桿菌 LBR-6108（產 GABA 益生菌）",
+        "scientific": "Levilactobacillus brevis LBR-6108。2021 年 Microbial Cell Factories 寫舊名 Lactobacillus brevis DPC 6108。US12447185 寫寄存編號 NCIMB 41903。平台乳酸菌那一列的學名仍是 Lactobacillus brevis。不是 γ-胺基丁酸這個化合物，也不是 Lactococcus lactis。",
+        "trade": "HOWARU GutABAlite（IFF 的益生菌商品名；菌株寫 Levilactobacillus brevis LBR-6108）"
+      },
+      "patent": {
+        "note": "2021 年論文把 Lbr-6108 寫成舊名 DPC 6108，因此對到這件專利。專利權人不是 IFF。商品名 GutABAlite 沒有出現在專利標題。",
+        "refs": [
+          {
+            "note": "Google Patents 家族頁寫 Lactobacillus brevis DPC6108、NCIMB 41903。請求項 7 寫每日 1×10^10 CFU/ml。權利人是 University College Cork 與 Teagasc，不是 IFF。讀取日 2026-11-23。",
+            "title": "US12447185B2 GABA-producing culturable bacteria and use for improving health",
+            "url": "https://patents.google.com/patent/US12447185B2/en"
+          }
+        ],
+        "status": "yes"
+      },
+      "sources": [
+        {
+          "accessed": "2026-11-23",
+          "channel": "news",
+          "publisher": "Nutrition Insight",
+          "title": "IFF launches GutABAlite for metabolic health via GABA production",
+          "url": "https://www.nutritioninsight.com/news/iff-gutabalite-gaba-probiotic-metabolic-health.html",
+          "whatItContributes": "2026-10-27：菌株名、6 週公司試驗的血糖與胰島素說法，以及 SupplySide Global 展出。"
+        },
+        {
+          "accessed": "2026-11-23",
+          "channel": "supplier_site",
+          "publisher": "IFF",
+          "title": "IFF Launches HOWARU GutABAlite",
+          "url": "https://www.iff.com/media/news/iff-launches-howaru-gutabalite-a-gaba-producing-probiotic-for-metabolic-health/",
+          "whatItContributes": "2026-10-26 原廠新聞：商品名、菌株名、試驗方向，以及攤位 6449。這次直接連線得到 HTTP 403，文字依公開轉載與搜尋頁可見的新聞稿。"
+        },
+        {
+          "accessed": "2026-11-23",
+          "channel": "paper",
+          "publisher": "Microbial Cell Factories",
+          "title": "PubMed 34488774",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34488774/",
+          "whatItContributes": "Lbr-6108 與舊名 DPC 6108 的對照，以及培養中的 GABA 分泌。"
+        },
+        {
+          "accessed": "2026-11-23",
+          "channel": "other",
+          "publisher": "呈定企業",
+          "title": "益生菌 Howaru",
+          "url": "https://www.chending.com.tw/cn/catalog-detail/probiotics-Howaru/",
+          "whatItContributes": "台灣頁列有多支 HOWARU，沒有 GutABAlite。"
+        },
+        {
+          "accessed": "2026-11-23",
+          "channel": "news",
+          "publisher": "Nutraceuticals World",
+          "title": "IFF Launches GABA-Producing Probiotic with Metabolic Health Benefits",
+          "url": "https://www.nutraceuticalsworld.com/breaking-news/iff-launches-gaba-producing-probiotic-with-metabolic-health-benefits/",
+          "whatItContributes": "2026-10-26 快訊寫這個人體試驗尚未發表，並轉述 6 週的公司數據。"
+        }
+      ],
+      "supply": {
+        "relationship": "unknown",
+        "relationshipNote": "2026-11-23 以 GutABAlite、HOWARU、LBR-6108、Lbr-6108、Levilactobacillus brevis、Lactobacillus brevis、短乳桿菌、IFF 益生菌，搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索。打開呈定企業目錄（https://www.chending.com.tw/cn/catalog-detail/probiotics-Howaru/），頁上有 Protect、Feminine、Dophilus、Shape、Calm 等 HOWARU，沒有 GutABAlite、LBR-6108 或 brevis。呈定 2026-05-13 的 IFF 論壇頁例子是 Restore、Protect Adult 與 B420，同樣沒有這支。不把其他菌株的目錄升成這支的代理。同日再以「GutABAlite 台灣」獨立複查，沒有寫明這個商品名的台灣廠商頁。查核日 2026-11-23。",
+        "supplierCountry": "美國",
+        "supplierName": "IFF",
+        "taiwanPartyName": "呈定企業有其他 HOWARU 菌株的目錄頁；打開的那一頁沒有 GutABAlite"
+      },
+      "tfda": {
+        "evidenceNotes": "商品名 GutABAlite、Levilactobacillus 與短乳桿菌在原料、添加物都是 0 筆。Lactobacillus brevis 命中兩筆：乳酸菌（id 17504，菌體，可供食品原料或加工）以及 γ-胺基丁酸。後者是發酵後純化的 GABA，生產菌寫到這兩個菌名，每日以 GABA 計 100 毫克，不是這支益生菌的劑量。這張卡對的是乳酸菌那一列。",
+        "lookupDate": "2026-11-23",
+        "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+        "officialCrosscheck": {
+          "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+          "done": true,
+          "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+          "notes": "2026-11-23 連線 consumer.fda.gov.tw:443 出現 OpenSSL SSL_ERROR_SYSCALL，沒有取得官方詳細頁。開放資料 InfoId 4 的乳酸菌列學名為 Lactobacillus brevis、部位菌體、可供食品使用；γ-胺基丁酸列的備註同樣寫到 Lactobacillus brevis 與每日 100 毫克。與查詢助手一致。乳酸菌詳細頁網址是 MaterialDetail id 17504。"
+        },
+        "queries": [
+          {
+            "category": "",
+            "keyword": "GutABAlite",
+            "matchedName": "",
+            "note": "商品名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Levilactobacillus",
+            "matchedName": "",
+            "note": "新屬名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "短乳桿菌",
+            "matchedName": "",
+            "note": "這個中文 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Lactobacillus brevis",
+            "matchedName": "乳酸菌；γ-胺基丁酸",
+            "note": "兩筆都沒有未確認標記。GABA 那一筆是化合物規格，不是這支活菌商品。",
+            "restrictionNote": "id 17504：乳酸菌，學名 Lactobacillus brevis，部位菌體，可供為食品原料或食品加工使用。id 17739：γ-胺基丁酸。備註寫原料係將 Lactobacillus hilgardii 或 Lactobacillus brevis 發酵、純化製得，含量不得低於 20%，每日以 GABA 計 100 毫克，並有酒與藥物警語。",
+            "resultCount": 2,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "GutABAlite",
+            "matchedName": "",
+            "note": "商品名在添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Lactobacillus brevis",
+            "matchedName": "",
+            "note": "學名在添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "短乳桿菌",
+            "matchedName": "",
+            "note": "中文在添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Lactobacillus brevis",
+            "matchedName": "",
+            "note": "助手更新歷程（2026-11-01 至 2026-11-23）沒有這筆異動。資料時間戳 2026-11-23 06:18。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "history",
+            "unconfirmedSafety": false
+          }
+        ],
+        "usable": "listed_food_ingredient"
+      }
+    },
+    {
+      "discovery": {
+        "channel": "exhibition",
+        "notes": "從 SupplySide Supplement Journal 2026-11-20 的展場整理進入 Helm 官網、來源頁與 US12441783B2。牛初乳免疫球蛋白與字串誤中的兩株未確認植物沒有併進這張卡。",
+        "scoutDate": "2026-11-23"
+      },
+      "efficacy": {
+        "claimedBenefits": [
+          "Helm 官網：結合蛋白被寫成可選擇性結合腸道中部分微生物的不良代謝物，並寫不干擾有益菌；生產方式是精準發酵。頁上沒有寫人體試驗人數或每日毫克。",
+          "SupplySide Supplement Journal 2026-11-20：公司文獻寫這些蛋白結合並中和會影響腸道屏障的代謝物。同篇寫概念有臨床前與動物資料，人體試驗進行中，其中一件與 People Science 看旅行期間的腸道。這次沒有打開那些試驗的論文。"
+        ],
+        "dosageNote": "沒有讀到可引用的每日劑量。公司社群貼文有一段 150–300 毫克的文字，這次沒有打開貼文原文，不寫進劑量。平台沒有這支蛋白的列名。",
+        "suggestedDosage": "打開的官網與 2026-11-20 展後報導沒有寫每日毫克。"
+      },
+      "evidenceLevels": [],
+      "example": false,
+      "id": "helm",
+      "images": [
+        {
+          "caption": "Helm 官網的分享預覽圖。",
+          "localPath": "",
+          "source": "official_site",
+          "url": "https://cdn.prod.website-files.com/6a072e2fb4b9eb952a062dce/6ac898311c0b0d0c5d38eadb_Open%20graph%20preview%20image.png"
+        }
+      ],
+      "literature": {
+        "note": "2026-11-23 展後報導寫有臨床前與動物資料、人體試驗進行中。這次沒有打開可對上 Helm 商品名的論文，所以不把證據等級填上。",
+        "refs": [],
+        "status": "unknown"
+      },
+      "names": {
+        "commonEn": "camelid IgG binding-protein fragment",
+        "commonZh": "駱駝免疫球蛋白結合片段",
+        "scientific": "不適用物種學名。官網寫取駱駝科 IgG 裡負責結合的片段，再以真菌精準發酵生產，不是從駱駝取乳。不是牛初乳免疫球蛋白。US12441783 把這類片段寫成單域抗體（VHH）。",
+        "trade": "Helm（Bactolife 的結合蛋白商品名；頁上亦寫 Helm Binding Proteins）"
+      },
+      "patent": {
+        "note": "對到的是 Bactolife 的結合蛋白專利。商品名沒有出現在專利標題。同族另有 WO2020/144164A1。",
+        "refs": [
+          {
+            "note": "Google Patents 寫權利人 Bactolife，2025-10-14 核准。請求項是以連接子接起的單域抗體，可結合病原表面或病原產生的分子。說明書把單域抗體稱為 VHH，並寫最早來自駱駝科重鏈抗體。標題沒有 Helm。讀取日 2026-11-23。",
+            "title": "US12441783B2 Pathogen binding proteins",
+            "url": "https://patents.google.com/patent/US12441783B2/en"
+          }
+        ],
+        "status": "yes"
+      },
+      "sources": [
+        {
+          "accessed": "2026-11-23",
+          "channel": "exhibition",
+          "publisher": "SupplySide Supplement Journal",
+          "title": "7 health optimization category innovations at SupplySide Global",
+          "url": "https://www.supplysidesj.com/supplements/7-health-optimization-category-innovations-at-supplyside-global",
+          "whatItContributes": "2026-11-20：Helm 首次帶到 SupplySide，寫發酵來源的駱駝 IgG 結合片段，以及臨床前、動物與進行中的人體試驗。"
+        },
+        {
+          "accessed": "2026-11-23",
+          "channel": "supplier_site",
+          "publisher": "Helm（Bactolife）",
+          "title": "Helm Binding Proteins",
+          "url": "https://www.helmtrustyourgut.com/",
+          "whatItContributes": "官網對結合對象、精準發酵與劑型的說法。頁尾地址在丹麥哥本哈根。"
+        },
+        {
+          "accessed": "2026-11-23",
+          "channel": "supplier_site",
+          "publisher": "Helm（Bactolife）",
+          "title": "The Origin",
+          "url": "https://www.helmtrustyourgut.com/origin",
+          "whatItContributes": "把原料寫成駱駝科 IgG 的結合片段，並寫現在不以駱駝生產、改由微生物發酵。"
+        },
+        {
+          "accessed": "2026-11-23",
+          "channel": "patent",
+          "publisher": "Google Patents",
+          "title": "US12441783B2",
+          "url": "https://patents.google.com/patent/US12441783B2/en",
+          "whatItContributes": "Bactolife 的 VHH 結合蛋白專利號與核准日。"
+        },
+        {
+          "accessed": "2026-11-23",
+          "channel": "news",
+          "publisher": "The Japan Times",
+          "title": "Building a new approach to gut health, from Denmark to Asia",
+          "url": "https://www.japantimes.co.jp/country-report/2026/10/07/denmark-life-sciences/building-new-approach-gut-health-denmark-asia/",
+          "whatItContributes": "亞太先寫新加坡與香港，並接觸日本、韓國、澳洲。沒有寫台灣經銷商。"
+        }
+      ],
+      "supply": {
+        "relationship": "unknown",
+        "relationshipNote": "2026-11-23 以 Helm、Helm Binding Proteins、Bactolife、binding protein、VHH、駱駝免疫球蛋白、駱駝 IgG、結合蛋白，搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索，並打開 helmtrustyourgut.com 與 Bactolife 的結合蛋白頁。沒有寫明這個商品名的台灣廠商產品頁、代理頁或經銷名單。牛初乳免疫球蛋白是平台上的另一筆原料，不是台灣公司。同日再以「Bactolife 台灣」與「Helm 免疫球蛋白 台灣」獨立複查。Japan Times 2026-10-07 寫亞太先在新加坡與香港上市，並接觸日本、韓國與澳洲，沒有寫台灣，也沒有台灣經銷商名字。仍沒有台灣廠商頁。查核日 2026-11-23。",
+        "supplierCountry": "丹麥",
+        "supplierName": "Bactolife",
+        "taiwanPartyName": "本次查無台灣關聯廠商"
+      },
+      "tfda": {
+        "evidenceNotes": "商品名 Helm 會命中錫蘭七指蕨與鳳仙花，是英文字串嵌在學名或外文名裡，兩筆都屬未確認，但不是這個蛋白。免疫球蛋白只命中牛初乳免疫球蛋白（id 17626），備註寫由牛初乳製取。結合蛋白、駱駝與 camelid 都是 0 筆。查無不是准用。",
+        "lookupDate": "2026-11-23",
+        "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+        "officialCrosscheck": {
+          "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+          "done": false,
+          "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+          "notes": "2026-11-23 連線 consumer.fda.gov.tw:443 出現 OpenSSL SSL_ERROR_SYSCALL，沒有取得官方詳細頁。開放資料 InfoId 4 沒有 Helm、結合蛋白或駱駝免疫球蛋白；牛初乳免疫球蛋白的備註是由牛初乳製取。助手沒有這支發酵片段的詳細頁。siteTotals 原料 1709、添加物 804。"
+        },
+        "queries": [
+          {
+            "category": "",
+            "keyword": "Helm",
+            "matchedName": "錫蘭七指蕨；鳳仙花",
+            "note": "兩筆都是字串誤中。不是 Bactolife 的結合蛋白，不把這兩筆當成這支原料的結論。",
+            "restrictionNote": "id 16174：錫蘭七指蕨，學名 Helminthostachys zeylanica，未確認，不得供為食品原料。id 16192：鳳仙花，外文名含 Policeman's helmet，學名 Impatiens glandulifera，花，未確認。",
+            "resultCount": 2,
+            "tab": "ingredient",
+            "unconfirmedSafety": true
+          },
+          {
+            "category": "",
+            "keyword": "免疫球蛋白",
+            "matchedName": "牛初乳免疫球蛋白",
+            "note": "牛初乳來源，不是發酵的駱駝 IgG 片段。",
+            "restrictionNote": "id 17626。外文名 Immunoglobulin。備註：由牛初乳所製取。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "結合蛋白",
+            "matchedName": "",
+            "note": "中文成分名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "駱駝",
+            "matchedName": "",
+            "note": "0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "camelid",
+            "matchedName": "",
+            "note": "0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "免疫球蛋白",
+            "matchedName": "",
+            "note": "添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Helm",
+            "matchedName": "",
+            "note": "商品名在添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "免疫球蛋白",
+            "matchedName": "",
+            "note": "助手更新歷程（2026-11-01 至 2026-11-23）沒有這筆異動。資料時間戳 2026-11-23 06:18。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "history",
+            "unconfirmedSafety": false
+          }
+        ],
+        "usable": "not_found"
+      }
+    },
+    {
+      "discovery": {
         "channel": "exhibition",
         "notes": "從 Vitafoods Asia 2026 展前名錄的 Natural Remedies 攤位進入 Holixer，再對原廠頁、2022 年論文與 WO2023203401A1。台灣關聯以 Holixer、樂舒寧、聖羅勒搭配代理、經銷；官網當天打不開，改開 Wayback 2025-02-09 的麥司克頁。",
         "scoutDate": "2026-11-14"
@@ -22743,6 +24118,198 @@
     {
       "discovery": {
         "channel": "news",
+        "notes": "從 FoodNavigator 2026-10-20 的自認 GRAS 新聞進入 Better Dairy 科學頁、FAQ、bioRxiv 預印本與 EP4642904A1。酵母菌體列名沒有拿來當成這支蛋白已列名。乳鐵蛋白是另一支原料。",
+        "scoutDate": "2026-11-23"
+      },
+      "efficacy": {
+        "claimedBenefits": [
+          "Better Dairy FAQ：乳橋蛋白是乳中的骨橋蛋白；公司寫成人文獻方向包含骨再礦化、組織修復、免疫與發炎調節，並寫這個族群的專門臨床仍在進行。",
+          "FoodNavigator 2026-10-20：自認 GRAS 只涵蓋美國成人營養與補充品的預定用途，不涵蓋嬰兒配方；自認 GRAS 不是 FDA 核准。",
+          "bioRxiv 2026-08-21 預印本：磷酸化的重組人類乳橋蛋白比去磷酸化與未磷酸化形式有較高的鐵結合。這是分析比較，不是人體試驗。作者任職 Better Dairy。"
+        ],
+        "dosageNote": "沒有讀到供應商建議劑量或人體試驗劑量。自認 GRAS 的新聞沒有寫每份毫克。平台沒有這支蛋白的列名。酵母菌體那一列不能當成乳橋蛋白已列名。",
+        "suggestedDosage": "打開的 FAQ、科學頁與 FoodNavigator 沒有寫每日毫克。"
+      },
+      "evidenceLevels": [
+        "in_vitro"
+      ],
+      "example": false,
+      "id": "lactopontin",
+      "images": [
+        {
+          "caption": "Better Dairy 科學頁上的骨橋蛋白分子圖。",
+          "localPath": "",
+          "source": "official_site",
+          "url": "https://betterdairy.com/wp-content/uploads/2025/02/OPN-Molecule-1440x1378.png"
+        }
+      ],
+      "literature": {
+        "note": "FAQ 寫成人臨床仍在進行。這次沒有對到已發表的人體論文。",
+        "refs": [
+          {
+            "note": "bioRxiv 預印本，2026-08-21 版。比較 K. lactis 重組人類乳橋蛋白與人乳分離的乳橋蛋白，並比較鐵結合。不是期刊、也不是人體試驗。作者聲明任職 Better Dairy。",
+            "title": "Post-translational modification fidelity of recombinant human lactopontin expressed in Kluyveromyces lactis",
+            "url": "https://www.biorxiv.org/content/10.64898/2026.05.12.724256v3"
+          }
+        ],
+        "status": "yes"
+      },
+      "names": {
+        "commonEn": "lactopontin (milk osteopontin)",
+        "commonZh": "乳橋蛋白（骨橋蛋白）",
+        "scientific": "不適用植物學名。乳橋蛋白是乳中的骨橋蛋白。Better Dairy 科學頁寫由人類序列、經酵母精準發酵。bioRxiv 預印本寫宿主是 Kluyveromyces lactis。EP4642904A1 的實施例另寫 Pichia pastoris 與大腸桿菌表現人類骨橋蛋白。三處宿主用詞不同，都留下。不是乳鐵蛋白。",
+        "trade": "Lactopontin（Better Dairy 的精準發酵乳橋蛋白商品名；公司亦簡寫 LPN）"
+      },
+      "patent": {
+        "note": "這是公開中的歐洲申請，不是已核准專利。申請範圍含多種乳蛋白，不只有乳橋蛋白。",
+        "refs": [
+          {
+            "note": "Google Patents 寫申請人 Better Dairy Ltd，2025-11-05 公開，狀態 Pending。說明書把骨橋蛋白列為可磷酸化的乳蛋白例子之一。讀到的實施例是 Pichia pastoris 與大腸桿菌。預印本另寫生產株 BD-LPN60 受這件申請保護。讀取日 2026-11-23。",
+            "title": "EP4642904A1 Proteins, methods, and systems for subcellular localization of proteins for post-translation modifications",
+            "url": "https://patents.google.com/patent/EP4642904A1/en"
+          }
+        ],
+        "status": "yes"
+      },
+      "sources": [
+        {
+          "accessed": "2026-11-23",
+          "channel": "news",
+          "publisher": "FoodNavigator",
+          "title": "Better Dairy self-affirms GRAS status for lactopontin",
+          "url": "https://www.foodnavigator.com/Article/2026/10/20/better-dairy-self-affirms-gras-status-for-lactopontin/",
+          "whatItContributes": "2026-10-20：倫敦 Better Dairy 的精準發酵乳橋蛋白取得自認 GRAS，目標是美國成人營養與補充品，嬰兒配方另走路徑。"
+        },
+        {
+          "accessed": "2026-11-23",
+          "channel": "supplier_site",
+          "publisher": "Better Dairy",
+          "title": "Science",
+          "url": "https://betterdairy.com/science",
+          "whatItContributes": "公司把乳橋蛋白寫成由酵母發酵、再純化乾燥的粉末，並與牛乳來源的濃度、序列相似度做對照。"
+        },
+        {
+          "accessed": "2026-11-23",
+          "channel": "supplier_site",
+          "publisher": "Better Dairy",
+          "title": "FAQ",
+          "url": "https://betterdairy.com/faq",
+          "whatItContributes": "公司對乳橋蛋白、骨橋蛋白與「人類等效」的定義，以及成人臨床仍在進行的說法。"
+        },
+        {
+          "accessed": "2026-11-23",
+          "channel": "patent",
+          "publisher": "Google Patents",
+          "title": "EP4642904A1",
+          "url": "https://patents.google.com/patent/EP4642904A1/en",
+          "whatItContributes": "磷酸化製程申請，骨橋蛋白是說明書中的乳蛋白例子。"
+        }
+      ],
+      "supply": {
+        "relationship": "unknown",
+        "relationshipNote": "2026-11-23 以 Lactopontin、LPN、osteopontin、OPN、骨橋蛋白、乳橋蛋白、Better Dairy，搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索，並打開 Better Dairy 科學頁與 FAQ。沒有寫明這個商品名的台灣廠商產品頁或代理頁。北京阿拉食品原料的公開清單有骨橋蛋白，公司地址在北京，頁上沒有 Better Dairy，也不是台灣公司。同日再以「乳橋蛋白 台灣 代理」與「Better Dairy 台灣」獨立複查。日商環球訊息的市場報告目錄有 Better Dairy 公司名，那是報告販售頁，沒有代理或經銷句。仍沒有台灣廠商頁。查核日 2026-11-23。",
+        "supplierCountry": "英國",
+        "supplierName": "Better Dairy",
+        "taiwanPartyName": "本次查無台灣關聯廠商"
+      },
+      "tfda": {
+        "evidenceNotes": "商品名 lactopontin、osteopontin 與骨橋蛋白在原料、添加物都是 0 筆。Kluyveromyces lactis 命中的是酵母菌菌體（id 17574），可供食品原料或加工使用，不是這支純化的人類乳橋蛋白。查無不是准用。",
+        "lookupDate": "2026-11-23",
+        "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+        "officialCrosscheck": {
+          "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+          "done": false,
+          "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+          "notes": "2026-11-23 連線 consumer.fda.gov.tw:443 出現 OpenSSL SSL_ERROR_SYSCALL，沒有取得官方詳細頁。另下載開放資料 InfoId 4（1707 筆）：lactopontin、osteopontin、骨橋蛋白 0 筆；Kluyveromyces lactis 對到酵母菌菌體。助手細節時間戳 2026-11-23 06:18，siteTotals 原料 1709、添加物 804。沒有可核對的乳橋蛋白詳細頁。"
+        },
+        "queries": [
+          {
+            "category": "",
+            "keyword": "lactopontin",
+            "matchedName": "",
+            "note": "商品名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "osteopontin",
+            "matchedName": "",
+            "note": "英文成分名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "骨橋蛋白",
+            "matchedName": "",
+            "note": "中文名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Kluyveromyces lactis",
+            "matchedName": "酵母菌",
+            "note": "這是酵母菌體，不是純化乳橋蛋白。",
+            "restrictionNote": "id 17574。學名 Kluyveromyces lactis、Saccharomyces lactis。部位菌體。備註：可供為食品原料或食品加工使用。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "lactopontin",
+            "matchedName": "",
+            "note": "商品名在添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "osteopontin",
+            "matchedName": "",
+            "note": "英文成分名在添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "骨橋蛋白",
+            "matchedName": "",
+            "note": "中文名在添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "骨橋蛋白",
+            "matchedName": "",
+            "note": "助手更新歷程（2026-11-01 至 2026-11-23）沒有這筆異動。資料時間戳 2026-11-23 06:18。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "history",
+            "unconfirmedSafety": false
+          }
+        ],
+        "usable": "not_found"
+      }
+    },
+    {
+      "discovery": {
+        "channel": "news",
         "notes": "從 NutraIngredients 2026-07-29 Kirin 新聞進入，再對 LC-Plasma 繁中製造商頁、Kirin 2025 台灣上市新聞稿與日本專利、PubMed 統合分析。台灣關聯以「LC-Plasma／IMMUSE／乳酸乳球菌 Plasma／協和發酵」搭配台灣、代理、經銷交叉搜尋，打開正豐產品頁；台灣麒麟與澳佳寶只記成品。TFDA 對 Lactococcus lactis subsp. lactis。",
         "scoutDate": "2026-11-11"
       },
@@ -23949,6 +25516,225 @@
           }
         ],
         "usable": "not_found"
+      }
+    },
+    {
+      "discovery": {
+        "channel": "industry_report",
+        "notes": "從 Future Market Insights 2026-11-18 更新的褐藻糖膠市場頁點名的 Marinova 進入 Maritech Undaria 產品頁、GRN 565 與 PMC5950942，再打開翰新、宸品與登盛。墨角藻規格與 Mozuku 沒有併進這張卡。InSea2 的多酚也不是這支。",
+        "scoutDate": "2026-11-23"
+      },
+      "efficacy": {
+        "claimedBenefits": [
+          "Maritech 產品頁：把這支 Undaria 萃取寫成高純度、有機認證的褐藻糖膠，應用方向列腸道與消化、免疫、男性攝護與泌尿、健康老化。頁上沒有寫每日毫克，參考文獻寫需另索取。",
+          "Marinova GRAS 新聞：公司寫 Undaria 與 Fucus 兩支 Maritech 的通知型 GRAS 得到 FDA no questions，並寫安全性評估到每日 250 毫克。這句同時涵蓋兩個藻種。",
+          "GRN 565 本文：Undaria 濃縮物打算用於烘焙、湯、點心、仿乳品與調味，每份最多 30 毫克；Marinova 把終身每日攝取寫到 250 毫克。不含嬰兒配方。2024-12-30 的補件把運動飲料也寫到每份 30 毫克，FDA 於補件回覆 no questions。",
+          "Integrative Cancer Therapies 的人體研究：20 名使用 letrozole 或 tamoxifen 的乳癌病人，Maritech Undaria 萃取每日 1000 毫克（每次 500 毫克、一日兩次）共 3 週。藥物谷濃度沒有顯著變化。這是交互作用觀察，不是功效試驗，而且高於 GRAS 通知裡的 250 毫克。"
+        ],
+        "dosageNote": "30 毫克／份與 250 毫克／日是美國 GRAS 通知的用途與攝取估計，不是台灣平台的上限，也不是功效劑量。1000 毫克是那篇 20 人研究的劑量。平台裙帶菜備註空白，沒有褐藻糖膠的單獨限量。",
+        "suggestedDosage": "GRN 565 的預定用途是特定食品每份最多 30 毫克，公司把每日攝取寫到 250 毫克。上述藥物交互作用研究用的是每日 1000 毫克。"
+      },
+      "evidenceLevels": [
+        "clinical"
+      ],
+      "example": false,
+      "id": "maritech-undaria",
+      "images": [
+        {
+          "caption": "Maritech 網站上的 Undaria pinnatifida 萃取產品圖。",
+          "localPath": "",
+          "source": "official_site",
+          "url": "https://maritechfucoidan.com.au/assets/cover_maritech_undaria_pinnatifida_extract.jpg"
+        }
+      ],
+      "literature": {
+        "note": "這篇看的是藥物谷濃度，不是腸道或免疫終點。產品頁的應用方向沒有附這次讀到的論文。",
+        "refs": [
+          {
+            "note": "Integrative Cancer Therapies。20 人、Maritech 萃取每日 1000 毫克、3 週。標準化褐藻糖膠約 88.9%。作者之一任職 Marinova。這次讀的是 PMC 頁。",
+            "title": "The Effect of Undaria pinnatifida Fucoidan on the Pharmacokinetics of Letrozole and Tamoxifen in Patients With Breast Cancer",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5950942/"
+          }
+        ],
+        "status": "yes"
+      },
+      "names": {
+        "commonEn": "wakame fucoidan",
+        "commonZh": "裙帶菜褐藻糖膠",
+        "scientific": "Undaria pinnatifida（Harvey）Suringar。Maritech 產品頁寫野生裙帶菜，俗名 wakame 或 mekabu，手採自巴塔哥尼亞。不是墨角藻 Fucus vesiculosus，也不是登盛頁的 Mozuku。InSea2 是褐藻與墨角藻的多酚，不是這支。",
+        "trade": "Maritech Undaria pinnatifida extract（Marinova 的裙帶菜褐藻糖膠商品名）"
+      },
+      "patent": {
+        "note": "另有 US7056520B2，請求項是 Undaria 半乳褐藻糖硫酸酯用於病毒感染，那是治療專利，不寫進功效。翰新頁寫的 Maritech 萃取技術沒有在這次對到同一號。",
+        "refs": [
+          {
+            "note": "權利人 Marinova Pty Ltd，2018-12-11 核准。請求項是降低海藻萃取物熱原的方法，目標分子可以包含褐藻糖膠。不是保健功效請求項。讀取日 2026-11-23。",
+            "title": "US10149874B2 Methods for depyrogenating a seaweed extract",
+            "url": "https://patents.google.com/patent/US10149874B2/en"
+          }
+        ],
+        "status": "yes"
+      },
+      "sources": [
+        {
+          "accessed": "2026-11-23",
+          "channel": "industry_report",
+          "publisher": "Future Market Insights",
+          "title": "Fucoidan Extract Market",
+          "url": "https://www.futuremarketinsights.com/reports/fucoidan-extract-market",
+          "whatItContributes": "2026-11-18 更新的市場頁把 Marinova 列在主要公司，並在 2026 年 2 月的條目寫到 Maritech 有機褐藻糖膠。"
+        },
+        {
+          "accessed": "2026-11-23",
+          "channel": "supplier_site",
+          "publisher": "Marinova",
+          "title": "Maritech Undaria pinnatifida extract",
+          "url": "https://maritechfucoidan.com.au/maritech-undaria-pinnatifida-extract/",
+          "whatItContributes": "藻種、產地、有機與應用方向。頁上沒有每日毫克。"
+        },
+        {
+          "accessed": "2026-11-23",
+          "channel": "other",
+          "publisher": "U.S. FDA",
+          "title": "GRN 565",
+          "url": "https://www.fda.gov/media/190472/download?attachment=",
+          "whatItContributes": "Undaria 褐藻糖膠濃縮物每份 30 毫克、每日攝取寫到 250 毫克，商品名 Maritech。"
+        },
+        {
+          "accessed": "2026-11-23",
+          "channel": "paper",
+          "publisher": "Integrative Cancer Therapies",
+          "title": "PMC5950942",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5950942/",
+          "whatItContributes": "20 人、每日 1000 毫克、3 週的藥物濃度觀察。"
+        },
+        {
+          "accessed": "2026-11-23",
+          "channel": "other",
+          "publisher": "翰新國際",
+          "title": "Marinova",
+          "url": "https://www.hycell.com.tw/Marinova.html",
+          "whatItContributes": "台灣頁自述經銷 Marinova，並寫到 Maritech 萃取。"
+        },
+        {
+          "accessed": "2026-11-23",
+          "channel": "other",
+          "publisher": "宸品",
+          "title": "有機褐藻醣膠",
+          "url": "https://www.champion-bio.com/tw/product-detail/organic_fucoidan__1/",
+          "whatItContributes": "台灣頁販售 Marinova 褐藻醣膠，來源同時寫墨角藻與裙帶菜，沒有寫代理。"
+        }
+      ],
+      "supply": {
+        "relationship": "taiwan_distributor",
+        "relationshipNote": "2026-11-23 以 Maritech、Marinova、褐藻糖膠、褐藻醣膠、fucoidan、裙帶菜、Undaria、wakame，搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索。翰新頁標題寫「Marinova 翰新國際有限公司 代理經銷」，內文把 Marinova 放在「經銷品牌」，並寫 Maritech 專利萃取；頁尾「代理經銷」是全站字樣。這是該公司自述，這次沒有打開 Marinova 官網裡列出台灣公司的經銷名單，也不把它寫成原廠證實或獨家。宸品產品頁寫有機褐藻醣膠，來源同時列墨角藻與裙帶菜，並寫 OEM、ODM，沒有「代理」二字，也沒有寫 Maritech。登盛特殊營養頁的褐藻醣膠是 Mozuku Extract，不是這支。同日再以「Maritech 台灣」複查，新的頁面沒有超出上述兩家。查核日 2026-11-23。",
+        "supplierCountry": "澳洲",
+        "supplierName": "Marinova",
+        "taiwanPartyName": "翰新國際有限公司自述經銷 Marinova；宸品股份有限公司另有 Marinova 褐藻醣膠產品頁"
+      },
+      "tfda": {
+        "evidenceNotes": "商品名 Maritech、褐藻糖膠與 fucoidan 在原料、添加物都是 0 筆。裙帶菜命中兩筆（id 17676、17702），學名都是 Undaria pinnatifida，部位藻體，備註空白，分類是藻類及其來源製取之原料，沒有未確認標記。這不是褐藻糖膠的單獨規格，也不是墨角藻多酚。",
+        "lookupDate": "2026-11-23",
+        "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+        "officialCrosscheck": {
+          "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+          "done": true,
+          "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+          "notes": "2026-11-23 連線 consumer.fda.gov.tw:443 出現 OpenSSL SSL_ERROR_SYSCALL，沒有取得官方詳細頁。開放資料 InfoId 4 的兩筆裙帶菜與助手一致：學名 Undaria pinnatifida、部位藻體、備註空白、可供食品使用。詳細頁網址是 MaterialDetail id 17676 與 17702。fucoidan 在這份開放資料 0 筆。"
+        },
+        "queries": [
+          {
+            "category": "",
+            "keyword": "Maritech",
+            "matchedName": "",
+            "note": "商品名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "褐藻糖膠",
+            "matchedName": "",
+            "note": "這個中文 0 筆。褐藻醣膠同樣 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "fucoidan",
+            "matchedName": "",
+            "note": "英文成分名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "裙帶菜",
+            "matchedName": "裙帶菜；裙帶菜",
+            "note": "兩筆都是藻體。沒有單獨的褐藻糖膠列。",
+            "restrictionNote": "id 17676：外文名 Wakame，學名 Undaria pinnatifida（Harvey）Suringar，部位藻體，備註空白。id 17702：學名 Undaria pinnatifida，部位藻體，備註空白。",
+            "resultCount": 2,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Undaria",
+            "matchedName": "裙帶菜；裙帶菜",
+            "note": "學名對到的仍是藻體。",
+            "restrictionNote": "與裙帶菜相同的 id 17676、17702。",
+            "resultCount": 2,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "褐藻糖膠",
+            "matchedName": "",
+            "note": "添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "fucoidan",
+            "matchedName": "",
+            "note": "英文在添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "裙帶菜",
+            "matchedName": "",
+            "note": "藻名在添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "裙帶菜",
+            "matchedName": "",
+            "note": "助手更新歷程（2026-11-01 至 2026-11-23）沒有這筆異動。資料時間戳 2026-11-23 06:18。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "history",
+            "unconfirmedSafety": false
+          }
+        ],
+        "usable": "listed_food_ingredient"
       }
     },
     {
@@ -30294,6 +32080,174 @@
           }
         ],
         "usable": "listed_food_additive"
+      }
+    },
+    {
+      "discovery": {
+        "channel": "exhibition",
+        "notes": "從 NutraIngredients 2026-11-17 的 Fi Europe 展商預告進入 Kensing 的 Sunvasterol 頁與 Nutrition Insight 的奶油乳酪原型稿，再打開登盛與宸品的植物固醇頁。大豆、松樹與 CardioAid 沒有併成這個商品名。",
+        "scoutDate": "2026-11-23"
+      },
+      "efficacy": {
+        "claimedBenefits": [
+          "Kensing 產品頁：把 Sunvasterol 寫成符合歐盟植物固醇聲稱的葵花來源規格，維持聲稱寫每日至少 0.8 公克，降膽固醇聲稱寫每日 1.5–3 公克；同頁寫 2–3 週可依劑量降低血膽固醇 7–12.5%，並寫有 140 多項臨床。頁上沒有列出這 140 項的論文，也沒有寫哪些試驗用的是 Sunvasterol。",
+          "Kensing 2026 年奶油乳酪原型說明：Sunvasterol EST 占配方 6.7%，每 25 公克一份約含植物固醇 1 公克；公司寫每天兩份對到 1.5–2.4 公克，並把 7–10% 的 LDL 降幅寫成 EFSA 聲稱在 2–3 週的關聯。",
+          "Nutrition Insight 2026-11-06 轉述同一組原型數字，並寫 2025 年取得歐盟新穎食品授權。這不是台灣平台的限量。"
+        ],
+        "dosageNote": "1.5–3 公克是 Kensing 引用的歐盟植物固醇聲稱範圍，不是這次讀到的 Sunvasterol 單獨試驗，也不是平台上的每日上限。平台兩筆備註都是空白。原型的 6.7% 是配方比例。",
+        "suggestedDosage": "Kensing 把歐盟降膽固醇聲稱寫成每日植物固醇 1.5–3 公克。奶油乳酪原型是每 25 公克一份約 1 公克植物固醇。"
+      },
+      "evidenceLevels": [],
+      "example": false,
+      "id": "sunvasterol",
+      "images": [
+        {
+          "caption": "Kensing 官網的 Sunvasterol 產品橫幅。",
+          "localPath": "",
+          "source": "official_site",
+          "url": "https://kensingsolutions.com/wp-content/uploads/2025/11/1440x600-Banner-Web-Sunvasterol.jpg"
+        }
+      ],
+      "literature": {
+        "note": "2026-11-23 以 Sunvasterol 查這次打開的 Kensing 頁與新聞，沒有掛這個商品名的論文。頁上的 140 多項臨床與 7–12.5% 是植物固醇這個成分類的寫法，沒有論文清單，所以不標成這支原料的臨床文獻。",
+        "refs": [],
+        "status": "no"
+      },
+      "names": {
+        "commonEn": "sunflower phytosterol esters",
+        "commonZh": "葵花植物固醇酯",
+        "scientific": "不適用單一學名。Kensing 寫原料來自葵花油蒸餾物，主要是 beta-sitosterol、stigmasterol 與 campesterol；EST 再與葵花油脂肪酸做成酯。不是登盛頁的大豆植物固醇或松樹植物固醇，也不是宸品頁的 CardioAid。",
+        "trade": "Sunvasterol EST（Kensing 的葵花植物固醇酯商品名；系列另有游離固醇規格）"
+      },
+      "patent": {
+        "note": "2026-11-23 以 Sunvasterol、Kensing、sunflower phytosterol 查公開專利頁，沒有對到掛這個商品名的專利號。歐盟新穎食品授權不是專利。",
+        "refs": [],
+        "status": "unknown"
+      },
+      "sources": [
+        {
+          "accessed": "2026-11-23",
+          "channel": "exhibition",
+          "publisher": "NutraIngredients",
+          "title": "Supplement industry must-sees at Fi Europe 2026",
+          "url": "https://www.nutraingredients.com/Article/2026/11/17/supplement-industry-must-sees-at-fi-europe-2026/",
+          "whatItContributes": "2026-11-17 展前記者：Kensing 攤位 30H38，乳品應用使用 Sunvasterol EST，並另寫 Vitastrerol S-80。"
+        },
+        {
+          "accessed": "2026-11-23",
+          "channel": "news",
+          "publisher": "Nutrition Insight",
+          "title": "Fi Europe 2026: Kensing debuts cholesterol-lowering cream cheese with Sunvasterol",
+          "url": "https://www.nutritioninsight.com/news/fi-europe-2026-kensing-sunvasterol-cream-cheese-cholesterol.html",
+          "whatItContributes": "2026-11-06：葵花來源、6.7% 配方、每份約 1 公克，以及 2025 年歐盟授權的說法。"
+        },
+        {
+          "accessed": "2026-11-23",
+          "channel": "supplier_site",
+          "publisher": "Kensing",
+          "title": "Sunvasterol Plant Sterols",
+          "url": "https://kensingsolutions.com/phytosterols-sunvasterol/",
+          "whatItContributes": "游離與酯兩種規格、0.8 克與 1.5–3 克的歐盟聲稱寫法，以及總部在美國伊利諾州 Kankakee。"
+        },
+        {
+          "accessed": "2026-11-23",
+          "channel": "other",
+          "publisher": "登盛企業",
+          "title": "特殊營養成分",
+          "url": "https://www.masterasia.com.tw/content.php?id=5707",
+          "whatItContributes": "台灣頁的植物固醇是大豆萃取，松樹植物固醇是另一列，都沒有 Sunvasterol。"
+        }
+      ],
+      "supply": {
+        "relationship": "unknown",
+        "relationshipNote": "2026-11-23 以 Sunvasterol、Sunvasterol EST、Kensing、葵花植物固醇、植物固醇酯、phytosterol，搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索。打開登盛特殊營養成分頁：松樹植物固醇是 Pine Tree Extract (Plant Sterols)，植物固醇是 Soybean Extract Phytosterols，沒有葵花或 Sunvasterol。宸品產品總覽有 CardioAid 酯化植物固醇，頁上沒有 Kensing。北京普泰康清單寫美國 Kensing 的高純度植物甾醇／酯，公司不在台灣。Kensing 產品頁沒有台灣經銷名單。同日再以「Sunvasterol 台灣」獨立複查，沒有寫明這個商品名的台灣廠商頁。不把大豆、松樹或 CardioAid 升成這支的代理。查核日 2026-11-23。",
+        "supplierCountry": "美國",
+        "supplierName": "Kensing",
+        "taiwanPartyName": "登盛企業列大豆與松樹植物固醇；宸品列 CardioAid。打開的頁都沒有 Sunvasterol"
+      },
+      "tfda": {
+        "evidenceNotes": "商品名 Sunvasterol 在原料、添加物都是 0 筆。「植物固醇」命中兩筆，因為植物固醇酯這五個字含有植物固醇：游離型 id 17333、酯型 id 17334。兩筆都在可供食品使用，學名、部位、備註空白，沒有未確認標記。Sunvasterol EST 是酯，較接近 id 17334。列名沒有寫每日公克。",
+        "lookupDate": "2026-11-23",
+        "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+        "officialCrosscheck": {
+          "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+          "done": true,
+          "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+          "notes": "2026-11-23 連線 consumer.fda.gov.tw:443 出現 OpenSSL SSL_ERROR_SYSCALL，沒有取得官方詳細頁。開放資料 InfoId 4：植物固醇（Phytosterol, Phytosterin）與植物固醇酯（Phytosterol esters）都在可供食品使用，學名、部位、備註空白，與查詢助手一致。詳細頁網址是 MaterialDetail id 17333 與 17334。添加物關鍵字 0 筆。"
+        },
+        "queries": [
+          {
+            "category": "",
+            "keyword": "Sunvasterol",
+            "matchedName": "",
+            "note": "商品名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "植物固醇酯",
+            "matchedName": "植物固醇酯",
+            "note": "酯這一筆。EST 規格對這列。",
+            "restrictionNote": "id 17334。外文名 Phytosterol esters。次分類為草木本植物類來源製取之原料。學名、部位、備註空白。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "植物固醇",
+            "matchedName": "植物固醇；植物固醇酯",
+            "note": "關鍵字會同時命中酯，因為名稱含這四個字。",
+            "restrictionNote": "id 17333：植物固醇，外文名 Phytosterol, Phytosterin。id 17334：植物固醇酯。兩筆備註都空白。",
+            "resultCount": 2,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Sunvasterol",
+            "matchedName": "",
+            "note": "商品名在添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "植物固醇",
+            "matchedName": "",
+            "note": "中文在添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "phytosterol",
+            "matchedName": "",
+            "note": "英文在添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "植物固醇",
+            "matchedName": "",
+            "note": "助手更新歷程（2026-11-01 至 2026-11-23）沒有這筆異動。資料時間戳 2026-11-23 06:18。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "history",
+            "unconfirmedSafety": false
+          }
+        ],
+        "usable": "listed_food_ingredient"
       }
     },
     {

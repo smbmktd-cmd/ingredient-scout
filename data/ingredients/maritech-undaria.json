@@ -1,0 +1,219 @@
+{
+  "id": "maritech-undaria",
+  "example": false,
+  "names": {
+    "commonZh": "裙帶菜褐藻糖膠",
+    "commonEn": "wakame fucoidan",
+    "trade": "Maritech Undaria pinnatifida extract（Marinova 的裙帶菜褐藻糖膠商品名）",
+    "scientific": "Undaria pinnatifida（Harvey）Suringar。Maritech 產品頁寫野生裙帶菜，俗名 wakame 或 mekabu，手採自巴塔哥尼亞。不是墨角藻 Fucus vesiculosus，也不是登盛頁的 Mozuku。InSea2 是褐藻與墨角藻的多酚，不是這支。"
+  },
+  "supply": {
+    "supplierName": "Marinova",
+    "supplierCountry": "澳洲",
+    "relationship": "taiwan_distributor",
+    "taiwanPartyName": "翰新國際有限公司自述經銷 Marinova；宸品股份有限公司另有 Marinova 褐藻醣膠產品頁",
+    "relationshipNote": "2026-11-23 以 Maritech、Marinova、褐藻糖膠、褐藻醣膠、fucoidan、裙帶菜、Undaria、wakame，搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索。翰新頁標題寫「Marinova 翰新國際有限公司 代理經銷」，內文把 Marinova 放在「經銷品牌」，並寫 Maritech 專利萃取；頁尾「代理經銷」是全站字樣。這是該公司自述，這次沒有打開 Marinova 官網裡列出台灣公司的經銷名單，也不把它寫成原廠證實或獨家。宸品產品頁寫有機褐藻醣膠，來源同時列墨角藻與裙帶菜，並寫 OEM、ODM，沒有「代理」二字，也沒有寫 Maritech。登盛特殊營養頁的褐藻醣膠是 Mozuku Extract，不是這支。同日再以「Maritech 台灣」複查，新的頁面沒有超出上述兩家。查核日 2026-11-23。"
+  },
+  "tfda": {
+    "usable": "listed_food_ingredient",
+    "evidenceNotes": "商品名 Maritech、褐藻糖膠與 fucoidan 在原料、添加物都是 0 筆。裙帶菜命中兩筆（id 17676、17702），學名都是 Undaria pinnatifida，部位藻體，備註空白，分類是藻類及其來源製取之原料，沒有未確認標記。這不是褐藻糖膠的單獨規格，也不是墨角藻多酚。",
+    "lookupDate": "2026-11-23",
+    "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+    "queries": [
+      {
+        "tab": "ingredient",
+        "keyword": "Maritech",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名 0 筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "褐藻糖膠",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "這個中文 0 筆。褐藻醣膠同樣 0 筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "fucoidan",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "英文成分名 0 筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "裙帶菜",
+        "category": "",
+        "resultCount": 2,
+        "matchedName": "裙帶菜；裙帶菜",
+        "restrictionNote": "id 17676：外文名 Wakame，學名 Undaria pinnatifida（Harvey）Suringar，部位藻體，備註空白。id 17702：學名 Undaria pinnatifida，部位藻體，備註空白。",
+        "unconfirmedSafety": false,
+        "note": "兩筆都是藻體。沒有單獨的褐藻糖膠列。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Undaria",
+        "category": "",
+        "resultCount": 2,
+        "matchedName": "裙帶菜；裙帶菜",
+        "restrictionNote": "與裙帶菜相同的 id 17676、17702。",
+        "unconfirmedSafety": false,
+        "note": "學名對到的仍是藻體。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "褐藻糖膠",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "添加物 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "fucoidan",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "英文在添加物 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "裙帶菜",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "藻名在添加物 0 筆。"
+      },
+      {
+        "tab": "history",
+        "keyword": "裙帶菜",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "助手更新歷程（2026-11-01 至 2026-11-23）沒有這筆異動。資料時間戳 2026-11-23 06:18。"
+      }
+    ],
+    "officialCrosscheck": {
+      "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+      "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+      "done": true,
+      "notes": "2026-11-23 連線 consumer.fda.gov.tw:443 出現 OpenSSL SSL_ERROR_SYSCALL，沒有取得官方詳細頁。開放資料 InfoId 4 的兩筆裙帶菜與助手一致：學名 Undaria pinnatifida、部位藻體、備註空白、可供食品使用。詳細頁網址是 MaterialDetail id 17676 與 17702。fucoidan 在這份開放資料 0 筆。"
+    }
+  },
+  "efficacy": {
+    "claimedBenefits": [
+      "Maritech 產品頁：把這支 Undaria 萃取寫成高純度、有機認證的褐藻糖膠，應用方向列腸道與消化、免疫、男性攝護與泌尿、健康老化。頁上沒有寫每日毫克，參考文獻寫需另索取。",
+      "Marinova GRAS 新聞：公司寫 Undaria 與 Fucus 兩支 Maritech 的通知型 GRAS 得到 FDA no questions，並寫安全性評估到每日 250 毫克。這句同時涵蓋兩個藻種。",
+      "GRN 565 本文：Undaria 濃縮物打算用於烘焙、湯、點心、仿乳品與調味，每份最多 30 毫克；Marinova 把終身每日攝取寫到 250 毫克。不含嬰兒配方。2024-12-30 的補件把運動飲料也寫到每份 30 毫克，FDA 於補件回覆 no questions。",
+      "Integrative Cancer Therapies 的人體研究：20 名使用 letrozole 或 tamoxifen 的乳癌病人，Maritech Undaria 萃取每日 1000 毫克（每次 500 毫克、一日兩次）共 3 週。藥物谷濃度沒有顯著變化。這是交互作用觀察，不是功效試驗，而且高於 GRAS 通知裡的 250 毫克。"
+    ],
+    "suggestedDosage": "GRN 565 的預定用途是特定食品每份最多 30 毫克，公司把每日攝取寫到 250 毫克。上述藥物交互作用研究用的是每日 1000 毫克。",
+    "dosageNote": "30 毫克／份與 250 毫克／日是美國 GRAS 通知的用途與攝取估計，不是台灣平台的上限，也不是功效劑量。1000 毫克是那篇 20 人研究的劑量。平台裙帶菜備註空白，沒有褐藻糖膠的單獨限量。"
+  },
+  "patent": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "US10149874B2 Methods for depyrogenating a seaweed extract",
+        "url": "https://patents.google.com/patent/US10149874B2/en",
+        "note": "權利人 Marinova Pty Ltd，2018-12-11 核准。請求項是降低海藻萃取物熱原的方法，目標分子可以包含褐藻糖膠。不是保健功效請求項。讀取日 2026-11-23。"
+      }
+    ],
+    "note": "另有 US7056520B2，請求項是 Undaria 半乳褐藻糖硫酸酯用於病毒感染，那是治療專利，不寫進功效。翰新頁寫的 Maritech 萃取技術沒有在這次對到同一號。"
+  },
+  "literature": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "The Effect of Undaria pinnatifida Fucoidan on the Pharmacokinetics of Letrozole and Tamoxifen in Patients With Breast Cancer",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5950942/",
+        "note": "Integrative Cancer Therapies。20 人、Maritech 萃取每日 1000 毫克、3 週。標準化褐藻糖膠約 88.9%。作者之一任職 Marinova。這次讀的是 PMC 頁。"
+      }
+    ],
+    "note": "這篇看的是藥物谷濃度，不是腸道或免疫終點。產品頁的應用方向沒有附這次讀到的論文。"
+  },
+  "evidenceLevels": [
+    "clinical"
+  ],
+  "images": [
+    {
+      "url": "https://maritechfucoidan.com.au/assets/cover_maritech_undaria_pinnatifida_extract.jpg",
+      "localPath": "",
+      "caption": "Maritech 網站上的 Undaria pinnatifida 萃取產品圖。",
+      "source": "official_site"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Fucoidan Extract Market",
+      "url": "https://www.futuremarketinsights.com/reports/fucoidan-extract-market",
+      "publisher": "Future Market Insights",
+      "channel": "industry_report",
+      "accessed": "2026-11-23",
+      "whatItContributes": "2026-11-18 更新的市場頁把 Marinova 列在主要公司，並在 2026 年 2 月的條目寫到 Maritech 有機褐藻糖膠。"
+    },
+    {
+      "title": "Maritech Undaria pinnatifida extract",
+      "url": "https://maritechfucoidan.com.au/maritech-undaria-pinnatifida-extract/",
+      "publisher": "Marinova",
+      "channel": "supplier_site",
+      "accessed": "2026-11-23",
+      "whatItContributes": "藻種、產地、有機與應用方向。頁上沒有每日毫克。"
+    },
+    {
+      "title": "GRN 565",
+      "url": "https://www.fda.gov/media/190472/download?attachment=",
+      "publisher": "U.S. FDA",
+      "channel": "other",
+      "accessed": "2026-11-23",
+      "whatItContributes": "Undaria 褐藻糖膠濃縮物每份 30 毫克、每日攝取寫到 250 毫克，商品名 Maritech。"
+    },
+    {
+      "title": "PMC5950942",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5950942/",
+      "publisher": "Integrative Cancer Therapies",
+      "channel": "paper",
+      "accessed": "2026-11-23",
+      "whatItContributes": "20 人、每日 1000 毫克、3 週的藥物濃度觀察。"
+    },
+    {
+      "title": "Marinova",
+      "url": "https://www.hycell.com.tw/Marinova.html",
+      "publisher": "翰新國際",
+      "channel": "other",
+      "accessed": "2026-11-23",
+      "whatItContributes": "台灣頁自述經銷 Marinova，並寫到 Maritech 萃取。"
+    },
+    {
+      "title": "有機褐藻醣膠",
+      "url": "https://www.champion-bio.com/tw/product-detail/organic_fucoidan__1/",
+      "publisher": "宸品",
+      "channel": "other",
+      "accessed": "2026-11-23",
+      "whatItContributes": "台灣頁販售 Marinova 褐藻醣膠，來源同時寫墨角藻與裙帶菜，沒有寫代理。"
+    }
+  ],
+  "discovery": {
+    "channel": "industry_report",
+    "scoutDate": "2026-11-23",
+    "notes": "從 Future Market Insights 2026-11-18 更新的褐藻糖膠市場頁點名的 Marinova 進入 Maritech Undaria 產品頁、GRN 565 與 PMC5950942，再打開翰新、宸品與登盛。墨角藻規格與 Mozuku 沒有併進這張卡。InSea2 的多酚也不是這支。"
+  }
+}

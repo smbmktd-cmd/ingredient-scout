@@ -1,0 +1,168 @@
+{
+  "id": "acerowell",
+  "example": false,
+  "names": {
+    "commonZh": "西印度櫻桃（針葉櫻桃）果粉",
+    "commonEn": "acerola (West Indian cherry) powder",
+    "trade": "Acerowell（Symrise／diana food 的西印度櫻桃商品名）",
+    "scientific": "Malpighia emarginata DC.。平台同時列 Malpighia glabra L. 與 Malpighia punicifolia L.。Acerowell 是果實來源、同時標準化維生素 C 與多酚的粉末，不是合成抗壞血酸。"
+  },
+  "supply": {
+    "supplierName": "Symrise（diana food）",
+    "supplierCountry": "德國",
+    "relationship": "unknown",
+    "taiwanPartyName": "仕琦股份有限公司列 Diana Food 西印度櫻桃粉；台灣荃新股份有限公司列未具名原廠的萃取",
+    "relationshipNote": "2026-11-24 以 Acerowell、Acerola、西印度櫻桃、針葉櫻桃、Malpighia、Diana Food、Symrise，搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索，並打開仕琦與荃新的產品頁。仕琦頁寫「法國 Diana Food」的西印度櫻桃粉，成分是濃縮汁與麥芽糊精，並寫無回添合成維生素 C；頁上沒有 Acerowell。網站標語是「代理銷售」，這頁沒有寫總代理。荃新頁寫巴西產、學名 Malpighia glabra、維生素 C 17% 與 36%，沒有寫 Diana Food 或 Acerowell。同化合物的其他規格不是這個商品名的代理。Diana 官網把 Acerowell 寫成自家健齡規格，另有 17% 至 34% 的櫻桃方案。商標申請人 DIANA FOOD 地址在法國，Symrise 聯絡地址在德國 Holzminden。同日再以「Acerowell 台灣」獨立複查，沒有寫明這個商品名的台灣廠商頁。查核日 2026-11-24。"
+  },
+  "tfda": {
+    "usable": "listed_food_ingredient",
+    "evidenceNotes": "西印度櫻桃、針葉櫻桃、acerola 與 Malpighia 都命中同一筆果實（id 16953），可供直接食用，備註空白，沒有未確認標記。商品名 Acerowell 是 0 筆。添加物關鍵字 acerola 也是 0 筆；「維生素 C」另有抗壞血酸規格，不是這顆果實。",
+    "lookupDate": "2026-11-24",
+    "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+    "queries": [
+      {
+        "tab": "ingredient",
+        "keyword": "Acerowell",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名 0 筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "西印度櫻桃",
+        "category": "",
+        "resultCount": 1,
+        "matchedName": "西印度櫻桃；針葉櫻桃",
+        "restrictionNote": "id 16953。次分類為草木本植物類(2)可供直接食用。外文名 West Indian Cherry, Barbados Cerry, Acerola Cherry。學名 Malpighia glabra L., Malpighia punicifolia L., Malpighia emarginata DC.。部位果實。備註空白。",
+        "unconfirmedSafety": false,
+        "note": "果實這一筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Malpighia",
+        "category": "",
+        "resultCount": 1,
+        "matchedName": "西印度櫻桃；針葉櫻桃",
+        "restrictionNote": "同一筆 id 16953。",
+        "unconfirmedSafety": false,
+        "note": "學名命中同一列。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "acerola",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "英文果名在添加物 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "西印度櫻桃",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "中文在添加物 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "維生素C",
+        "category": "",
+        "resultCount": 7,
+        "matchedName": "抗壞血酸及其鹽類、酯類",
+        "restrictionNote": "營養添加劑抗壞血酸（id 176）寫膠囊、錠狀且標示每日食用量者，每日維生素 C 總量不得高於 1000 mg。另有抗氧化劑 L-抗壞血酸等列。沒有一列寫西印度櫻桃。",
+        "unconfirmedSafety": false,
+        "note": "這是抗壞血酸規格，不是 Acerowell。"
+      },
+      {
+        "tab": "history",
+        "keyword": "西印度櫻桃",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "助手更新歷程（2026-11-01 至 2026-11-23）沒有這筆異動。資料時間戳 2026-11-23 06:18。"
+      }
+    ],
+    "officialCrosscheck": {
+      "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+      "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+      "done": true,
+      "notes": "2026-11-24 連線 consumer.fda.gov.tw:443 出現 OpenSSL SSL_ERROR_SYSCALL，沒有取得官方詳細頁。查詢助手細節時間戳 2026-11-23 06:18，siteTotals 原料 1709、添加物 804。id 16953 的詳細欄位與上述限制一致，詳細頁網址是 MaterialDetail id 16953。添加物的 acerola 關鍵字 0 筆。"
+    }
+  },
+  "efficacy": {
+    "claimedBenefits": [
+      "diana food 的 Acerowell 頁：寫成同時標準化天然維生素 C 與多酚的肌膚原料；規格是 17% 維生素 C 配 1.5% 多酚，以及 34% 維生素 C 配 2% 多酚。頁上寫有體外與臨床，並寫適當劑量可對應肌膚光澤、透亮度與玻璃光感。頁上沒有寫出試驗論文。",
+      "Symrise 2026-10-21 新聞稿與 Nutrition Insight 2026-10-23：108 名 45–60 歲女性、每日 600 mg、12 週，公司稱肌膚光澤與透亮度顯著優於安慰劑，超過 80% 的人自述亮度、氣色或質地有改善。",
+      "ClinicalTrials.gov NCT07229131：同一贊助單位 Diana SAS 的登記寫實際收案 108 人，手臂有每日 600 mg 與 1200 mg。這次看到的年齡欄是 30–60 歲，和新聞稿的 45–60 歲不同，兩處都留下。"
+    ],
+    "suggestedDosage": "公司新聞把有效劑量寫成每日 600 mg、12 週。登記頁另外有每日 1200 mg 的手臂。",
+    "dosageNote": "600 mg 是 Symrise 新聞對這次試驗的寫法，沒有寫用的是 17% 還是 34% 規格，所以不能換算成維生素 C 毫克。平台果實列的備註是空白。添加物抗壞血酸每日 1000 mg 是另一個品項，不是這顆果實的上限。"
+  },
+  "patent": {
+    "status": "unknown",
+    "refs": [],
+    "note": "2026-11-24 產品頁只寫 patent filed，沒有對到掛 Acerowell 的專利公開號。US10149491B2 是 Diana Food 用針葉櫻桃粉穩定天然色素，說明書不是這支肌膚原料。USPTO 序號 79445341 是 ACEROWELL 商標申請，不是專利。"
+  },
+  "literature": {
+    "status": "no",
+    "refs": [],
+    "note": "2026-11-24 以 Acerowell 查打開的產品頁、新聞與 NCT07229131。有試驗登記與公司結果，沒有掛這個商品名的期刊論文，所以不標臨床文獻。"
+  },
+  "evidenceLevels": [],
+  "images": [
+    {
+      "url": "https://www.diana-food.com/fileadmin/diana_food/2_Marketing/4_Our_natural_ingredients/3_Fruit_ingredients/1_Acerola/Diana_Food_Acerowell_Head_1400x550.jpg",
+      "localPath": "",
+      "caption": "diana food 官網 Acerowell 頁首橫幅，是人物情境，不是原料包裝。",
+      "source": "official_site"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Symrise to debut clinical evidence for acerola beauty ingredient at SupplySide Global",
+      "url": "https://www.nutritioninsight.com/news/symrise-acerowell-acerola-skin-radiance-supplyside-global.html",
+      "publisher": "Nutrition Insight",
+      "channel": "news",
+      "accessed": "2026-11-24",
+      "whatItContributes": "2026-10-23：商品名、108 人、每日 600 mg、12 週，以及公司對光澤與透亮度的說法。"
+    },
+    {
+      "title": "Acerowell",
+      "url": "https://www.diana-food.com/acerowelltm/",
+      "publisher": "diana food（Symrise）",
+      "channel": "supplier_site",
+      "accessed": "2026-11-24",
+      "whatItContributes": "兩種維生素 C／多酚規格、巴西溯源，以及 patent filed 的說法。"
+    },
+    {
+      "title": "NCT07229131",
+      "url": "https://clinicaltrials.gov/study/NCT07229131",
+      "publisher": "ClinicalTrials.gov",
+      "channel": "other",
+      "accessed": "2026-11-24",
+      "whatItContributes": "Diana SAS 登記的雙盲試驗，600 mg 與 1200 mg 兩組，實際收案 108 人。這不是期刊論文。"
+    },
+    {
+      "title": "西印度櫻桃粉 Acerola",
+      "url": "https://www.skyrich.com.tw/product.php?act=view&no=22",
+      "publisher": "仕琦股份有限公司",
+      "channel": "other",
+      "accessed": "2026-11-24",
+      "whatItContributes": "台灣頁寫法國 Diana Food 的櫻桃粉，沒有 Acerowell。"
+    }
+  ],
+  "discovery": {
+    "channel": "news",
+    "scoutDate": "2026-11-24",
+    "notes": "從 Nutrition Insight 2026-10-23 的 SupplySide 臨床預告進入 diana food 產品頁、NCT07229131，再打開仕琦與荃新的西印度櫻桃頁。抗壞血酸添加物沒有拿來當成這顆果實的限量。合成維生素 C 是另一個品項。"
+  }
+}

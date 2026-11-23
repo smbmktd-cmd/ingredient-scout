@@ -6,6 +6,951 @@
         "exhibition",
         "industry_report"
       ],
+      "date": "2026-11-24",
+      "example": false,
+      "notes": "正式五筆。主管道：Acerowell、Thryvia 為新聞；Bimuno 為展覽；Esflorin1、CP2305 為產業報導。未收未確認安全性項目：心葉青牛膽（AuraFen 的成分，id 16363）、阿勃勒果實與葉（CaFi 的來源，id 16685）。酪酸菌是 Clostridium butyricum，不是 Thryvia 的 Clostridium tyrobutyricum。Lactobacillus paragasseri 不是 CP2305。",
+      "picks": [
+        {
+          "discovery": {
+            "channel": "news",
+            "notes": "從 Nutrition Insight 2026-10-23 的 SupplySide 臨床預告進入 diana food 產品頁、NCT07229131，再打開仕琦與荃新的西印度櫻桃頁。抗壞血酸添加物沒有拿來當成這顆果實的限量。合成維生素 C 是另一個品項。",
+            "scoutDate": "2026-11-24"
+          },
+          "efficacy": {
+            "claimedBenefits": [
+              "diana food 的 Acerowell 頁：寫成同時標準化天然維生素 C 與多酚的肌膚原料；規格是 17% 維生素 C 配 1.5% 多酚，以及 34% 維生素 C 配 2% 多酚。頁上寫有體外與臨床，並寫適當劑量可對應肌膚光澤、透亮度與玻璃光感。頁上沒有寫出試驗論文。",
+              "Symrise 2026-10-21 新聞稿與 Nutrition Insight 2026-10-23：108 名 45–60 歲女性、每日 600 mg、12 週，公司稱肌膚光澤與透亮度顯著優於安慰劑，超過 80% 的人自述亮度、氣色或質地有改善。",
+              "ClinicalTrials.gov NCT07229131：同一贊助單位 Diana SAS 的登記寫實際收案 108 人，手臂有每日 600 mg 與 1200 mg。這次看到的年齡欄是 30–60 歲，和新聞稿的 45–60 歲不同，兩處都留下。"
+            ],
+            "dosageNote": "600 mg 是 Symrise 新聞對這次試驗的寫法，沒有寫用的是 17% 還是 34% 規格，所以不能換算成維生素 C 毫克。平台果實列的備註是空白。添加物抗壞血酸每日 1000 mg 是另一個品項，不是這顆果實的上限。",
+            "suggestedDosage": "公司新聞把有效劑量寫成每日 600 mg、12 週。登記頁另外有每日 1200 mg 的手臂。"
+          },
+          "evidenceLevels": [],
+          "example": false,
+          "id": "acerowell",
+          "images": [
+            {
+              "caption": "diana food 官網 Acerowell 頁首橫幅，是人物情境，不是原料包裝。",
+              "localPath": "",
+              "source": "official_site",
+              "url": "https://www.diana-food.com/fileadmin/diana_food/2_Marketing/4_Our_natural_ingredients/3_Fruit_ingredients/1_Acerola/Diana_Food_Acerowell_Head_1400x550.jpg"
+            }
+          ],
+          "literature": {
+            "note": "2026-11-24 以 Acerowell 查打開的產品頁、新聞與 NCT07229131。有試驗登記與公司結果，沒有掛這個商品名的期刊論文，所以不標臨床文獻。",
+            "refs": [],
+            "status": "no"
+          },
+          "names": {
+            "commonEn": "acerola (West Indian cherry) powder",
+            "commonZh": "西印度櫻桃（針葉櫻桃）果粉",
+            "scientific": "Malpighia emarginata DC.。平台同時列 Malpighia glabra L. 與 Malpighia punicifolia L.。Acerowell 是果實來源、同時標準化維生素 C 與多酚的粉末，不是合成抗壞血酸。",
+            "trade": "Acerowell（Symrise／diana food 的西印度櫻桃商品名）"
+          },
+          "patent": {
+            "note": "2026-11-24 產品頁只寫 patent filed，沒有對到掛 Acerowell 的專利公開號。US10149491B2 是 Diana Food 用針葉櫻桃粉穩定天然色素，說明書不是這支肌膚原料。USPTO 序號 79445341 是 ACEROWELL 商標申請，不是專利。",
+            "refs": [],
+            "status": "unknown"
+          },
+          "sources": [
+            {
+              "accessed": "2026-11-24",
+              "channel": "news",
+              "publisher": "Nutrition Insight",
+              "title": "Symrise to debut clinical evidence for acerola beauty ingredient at SupplySide Global",
+              "url": "https://www.nutritioninsight.com/news/symrise-acerowell-acerola-skin-radiance-supplyside-global.html",
+              "whatItContributes": "2026-10-23：商品名、108 人、每日 600 mg、12 週，以及公司對光澤與透亮度的說法。"
+            },
+            {
+              "accessed": "2026-11-24",
+              "channel": "supplier_site",
+              "publisher": "diana food（Symrise）",
+              "title": "Acerowell",
+              "url": "https://www.diana-food.com/acerowelltm/",
+              "whatItContributes": "兩種維生素 C／多酚規格、巴西溯源，以及 patent filed 的說法。"
+            },
+            {
+              "accessed": "2026-11-24",
+              "channel": "other",
+              "publisher": "ClinicalTrials.gov",
+              "title": "NCT07229131",
+              "url": "https://clinicaltrials.gov/study/NCT07229131",
+              "whatItContributes": "Diana SAS 登記的雙盲試驗，600 mg 與 1200 mg 兩組，實際收案 108 人。這不是期刊論文。"
+            },
+            {
+              "accessed": "2026-11-24",
+              "channel": "other",
+              "publisher": "仕琦股份有限公司",
+              "title": "西印度櫻桃粉 Acerola",
+              "url": "https://www.skyrich.com.tw/product.php?act=view&no=22",
+              "whatItContributes": "台灣頁寫法國 Diana Food 的櫻桃粉，沒有 Acerowell。"
+            }
+          ],
+          "supply": {
+            "relationship": "unknown",
+            "relationshipNote": "2026-11-24 以 Acerowell、Acerola、西印度櫻桃、針葉櫻桃、Malpighia、Diana Food、Symrise，搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索，並打開仕琦與荃新的產品頁。仕琦頁寫「法國 Diana Food」的西印度櫻桃粉，成分是濃縮汁與麥芽糊精，並寫無回添合成維生素 C；頁上沒有 Acerowell。網站標語是「代理銷售」，這頁沒有寫總代理。荃新頁寫巴西產、學名 Malpighia glabra、維生素 C 17% 與 36%，沒有寫 Diana Food 或 Acerowell。同化合物的其他規格不是這個商品名的代理。Diana 官網把 Acerowell 寫成自家健齡規格，另有 17% 至 34% 的櫻桃方案。商標申請人 DIANA FOOD 地址在法國，Symrise 聯絡地址在德國 Holzminden。同日再以「Acerowell 台灣」獨立複查，沒有寫明這個商品名的台灣廠商頁。查核日 2026-11-24。",
+            "supplierCountry": "德國",
+            "supplierName": "Symrise（diana food）",
+            "taiwanPartyName": "仕琦股份有限公司列 Diana Food 西印度櫻桃粉；台灣荃新股份有限公司列未具名原廠的萃取"
+          },
+          "tfda": {
+            "evidenceNotes": "西印度櫻桃、針葉櫻桃、acerola 與 Malpighia 都命中同一筆果實（id 16953），可供直接食用，備註空白，沒有未確認標記。商品名 Acerowell 是 0 筆。添加物關鍵字 acerola 也是 0 筆；「維生素 C」另有抗壞血酸規格，不是這顆果實。",
+            "lookupDate": "2026-11-24",
+            "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+            "officialCrosscheck": {
+              "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+              "done": true,
+              "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+              "notes": "2026-11-24 連線 consumer.fda.gov.tw:443 出現 OpenSSL SSL_ERROR_SYSCALL，沒有取得官方詳細頁。查詢助手細節時間戳 2026-11-23 06:18，siteTotals 原料 1709、添加物 804。id 16953 的詳細欄位與上述限制一致，詳細頁網址是 MaterialDetail id 16953。添加物的 acerola 關鍵字 0 筆。"
+            },
+            "queries": [
+              {
+                "category": "",
+                "keyword": "Acerowell",
+                "matchedName": "",
+                "note": "商品名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "西印度櫻桃",
+                "matchedName": "西印度櫻桃；針葉櫻桃",
+                "note": "果實這一筆。",
+                "restrictionNote": "id 16953。次分類為草木本植物類(2)可供直接食用。外文名 West Indian Cherry, Barbados Cerry, Acerola Cherry。學名 Malpighia glabra L., Malpighia punicifolia L., Malpighia emarginata DC.。部位果實。備註空白。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Malpighia",
+                "matchedName": "西印度櫻桃；針葉櫻桃",
+                "note": "學名命中同一列。",
+                "restrictionNote": "同一筆 id 16953。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "acerola",
+                "matchedName": "",
+                "note": "英文果名在添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "西印度櫻桃",
+                "matchedName": "",
+                "note": "中文在添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "維生素C",
+                "matchedName": "抗壞血酸及其鹽類、酯類",
+                "note": "這是抗壞血酸規格，不是 Acerowell。",
+                "restrictionNote": "營養添加劑抗壞血酸（id 176）寫膠囊、錠狀且標示每日食用量者，每日維生素 C 總量不得高於 1000 mg。另有抗氧化劑 L-抗壞血酸等列。沒有一列寫西印度櫻桃。",
+                "resultCount": 7,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "西印度櫻桃",
+                "matchedName": "",
+                "note": "助手更新歷程（2026-11-01 至 2026-11-23）沒有這筆異動。資料時間戳 2026-11-23 06:18。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "history",
+                "unconfirmedSafety": false
+              }
+            ],
+            "usable": "listed_food_ingredient"
+          }
+        },
+        {
+          "discovery": {
+            "channel": "news",
+            "notes": "從 Nutrition Insight 2026-10-26 的 SupplySide 調查稿進入 Superbrewed 官網、2026-08-19 上市稿，以及 US20240034983A1。酪酸菌 Clostridium butyricum 沒有併成這個種。",
+            "scoutDate": "2026-11-24"
+          },
+          "efficacy": {
+            "claimedBenefits": [
+              "Superbrewed 官網：Thryvia 是熱殺死、不具活性的 Clostridium tyrobutyricum ASM#19，定位免疫與消化；公司寫第三方臨床前試驗會活化 TLR2、TLR5 與 NOD2。頁上的消化數字來自開放式感受調查，公司同時寫這不是臨床療效。",
+              "Nutrition Insight 2026-10-26：Citruslabs 的四週感受調查用每日 200 mg；37 人中 33 人（89%）自述消化分數有數字上的改善。公司寫這不是用來建立因果，隨機安慰劑對照試驗還在啟動。",
+              "PR Newswire 2026-08-19：典型添加量約每份 200 mg。公司寫 FDA 對 GRN 1129 發了 no questions letter。這次沒有另開 GRN 1129 全文。"
+            ],
+            "dosageNote": "200 mg 是供應商的添加量與那次開放式調查的用量，不是已發表人體試驗的劑量，也不是平台限量。平台沒有這個種的列名。酪酸菌那一列不能套用。",
+            "suggestedDosage": "公司與 2026-10-26 新聞把用量寫成約每日或每份 200 mg。"
+          },
+          "evidenceLevels": [],
+          "example": false,
+          "id": "thryvia",
+          "images": [
+            {
+              "caption": "Superbrewed 官網 Thryvia 頁的劑型照片。瓶身小字有難辨認之處，不把圖上句子當成功效。",
+              "localPath": "assets/thryvia-formats.jpg",
+              "source": "official_site",
+              "url": "https://www.superbrewedfood.com/thryvia"
+            }
+          ],
+          "literature": {
+            "note": "2026-11-24 以 Thryvia、ASM19 與 Clostridium tyrobutyricum 查打開的公司頁與新聞，臨床前與人體感受都是公司轉述，沒有打開到期刊論文。不把感受調查算成臨床文獻。",
+            "refs": [],
+            "status": "unknown"
+          },
+          "names": {
+            "commonEn": "heat-killed Clostridium tyrobutyricum ASM19",
+            "commonZh": "酪丁酸梭菌 ASM19（熱殺死後生元）",
+            "scientific": "Clostridium tyrobutyricum strain ASM19。官網亦寫 ASM#19。不是平台上的酪酸菌 Clostridium butyricum。",
+            "trade": "Thryvia（Superbrewed Food 的後生元商品名）"
+          },
+          "patent": {
+            "note": "有一件核准專利與一件仍公開的申請。申請的標題是飼料用途。商品名 Thryvia 沒有出現在這兩件的標題。",
+            "refs": [
+              {
+                "note": "Google Patents 寫申請人 Superbrewed Food Inc。說明書出現 ASM #19，並寫該株 spo0A 的變異。摘要把用途寫成飼料原料。讀取日 2026-11-24。",
+                "title": "US20240034983A1 Asporogenous bacteria and uses thereof as a feed ingredient",
+                "url": "https://patents.google.com/patent/US20240034983A1/en"
+              },
+              {
+                "note": "2024-03-05 核准，權利人 Superbrewed Food Inc。請求項是死菌細胞做成的高蛋白食物成分，說明書把 Clostridium tyrobutyricum 列為例子。沒有看到 Thryvia 或 ASM19 出現在請求項。",
+                "title": "US11918019B2 Food components having high protein content",
+                "url": "https://patents.google.com/patent/US11918019B2/en"
+              }
+            ],
+            "status": "yes"
+          },
+          "sources": [
+            {
+              "accessed": "2026-11-24",
+              "channel": "news",
+              "publisher": "Nutrition Insight",
+              "title": "Superbrewed Food targets digestive health with Thryvia postbiotic at SupplySide Global 2026",
+              "url": "https://www.nutritioninsight.com/news/superbrewed-food-thryvia-postbiotic-consumer-study-digestion.html",
+              "whatItContributes": "2026-10-26：每日 200 mg、四週感受調查的 89%，以及試驗尚未建立因果。"
+            },
+            {
+              "accessed": "2026-11-24",
+              "channel": "supplier_site",
+              "publisher": "Superbrewed Food",
+              "title": "Thryvia",
+              "url": "https://www.superbrewedfood.com/thryvia",
+              "whatItContributes": "菌株 ASM#19、熱殺死、GRN 1129 的公司說法，以及感受調查不是臨床療效。"
+            },
+            {
+              "accessed": "2026-11-24",
+              "channel": "news",
+              "publisher": "PR Newswire",
+              "title": "Superbrewed Food Launches Thryvia",
+              "url": "https://www.prnewswire.com/news-releases/superbrewed-food-launches-thryvia-the-first-shelf-stable-protein-derived-postbiotic-for-digestive-and-immune-health-formulations-302855271.html",
+              "whatItContributes": "2026-08-19：公司在美國 New Castle、Döhler 製造、每份約 200 mg。"
+            },
+            {
+              "accessed": "2026-11-24",
+              "channel": "patent",
+              "publisher": "Google Patents",
+              "title": "US20240034983A1",
+              "url": "https://patents.google.com/patent/US20240034983A1/en",
+              "whatItContributes": "申請書寫到 ASM #19。摘要用途是飼料原料。"
+            }
+          ],
+          "supply": {
+            "relationship": "unknown",
+            "relationshipNote": "2026-11-24 以 Thryvia、Superbrewed、Clostridium tyrobutyricum、ASM19、ASM #19、酪丁酸梭菌，搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索。打開 Superbrewed 的 Thryvia 頁，台灣只出現在聯絡表單的國家下拉，沒有經銷名單。PR Newswire 2026-08-19 寫公司在美國德拉瓦州 New Castle，製造夥伴是 Döhler，沒有台灣公司。同日再以「Thryvia 經銷」「Superbrewed Food 台灣公司」與「酪丁酸 原料 台灣」獨立複查，只看到中文產業轉載，沒有台灣廠商產品頁或代理頁。查核日 2026-11-24。",
+            "supplierCountry": "美國",
+            "supplierName": "Superbrewed Food",
+            "taiwanPartyName": "本次查無台灣關聯廠商"
+          },
+          "tfda": {
+            "evidenceNotes": "Thryvia、tyrobutyricum 與 ASM19 在原料、添加物都是 0 筆。酪酸菌（id 17501）的學名是 Clostridium butyricum，菌體可供食品使用，不是這個種。查無不是准用，也不是禁用。",
+            "lookupDate": "2026-11-24",
+            "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+            "officialCrosscheck": {
+              "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+              "done": false,
+              "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+              "notes": "2026-11-24 連線 consumer.fda.gov.tw:443 出現 OpenSSL SSL_ERROR_SYSCALL，沒有取得官方詳細頁。查詢助手對 Thryvia 與 tyrobutyricum 是 0 筆；酪酸菌列的學名是 Clostridium butyricum。沒有可核對的 tyrobutyricum 詳細頁。"
+            },
+            "queries": [
+              {
+                "category": "",
+                "keyword": "Thryvia",
+                "matchedName": "",
+                "note": "商品名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "tyrobutyricum",
+                "matchedName": "",
+                "note": "種名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "酪酸菌",
+                "matchedName": "酪酸菌",
+                "note": "這是另一個種。",
+                "restrictionNote": "id 17501。學名 Clostridium butyricum。部位菌體。備註：可供為食品原料或食品加工使用。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Thryvia",
+                "matchedName": "",
+                "note": "商品名在添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "tyrobutyricum",
+                "matchedName": "",
+                "note": "種名在添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "酪酸菌",
+                "matchedName": "",
+                "note": "中文在添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "tyrobutyricum",
+                "matchedName": "",
+                "note": "助手更新歷程（2026-11-01 至 2026-11-23）沒有這筆異動。資料時間戳 2026-11-23 06:18。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "history",
+                "unconfirmedSafety": false
+              }
+            ],
+            "usable": "not_found"
+          }
+        },
+        {
+          "discovery": {
+            "channel": "exhibition",
+            "notes": "從 Nutrition Insight 2026-10-16 的 SupplySide 預告進入 Clasado FAQ、US7883874B2 與兩篇 PubMed 摘要，再打開仕琦、生資，以及 Clasado 點名泰國與中國夥伴的頁。蔗果三糖與菊糖是別的原料。",
+            "scoutDate": "2026-11-24"
+          },
+          "efficacy": {
+            "claimedBenefits": [
+              "Clasado FAQ：公司把臨床有效日量寫成腸道益生元效果每日 GOS 自 1.37 公克起，免疫與認知自 2.75 公克起，並寫公開研究中雙歧桿菌的變化在 7 天出現。同頁寫有 130 篇以上文獻、25 項以上臨床，這次沒有逐篇核對。",
+              "American Journal of Clinical Nutrition 2008（PMID 18996881）：44 名健康老年人、B-GOS 每日 5.5 公克、10 週交叉。摘要寫雙歧桿菌增加，吞噬作用、NK 細胞活性與 IL-10 上升，IL-6、IL-1β 與 TNF-α 下降；總膽固醇與 HDL 沒有變化。",
+              "Journal of Nutrition 2013（PMID 23303873）：45 名有代謝症候群風險因子的過重成人、12 週交叉。摘要寫 B-GOS（Bi2muno）增加糞便雙歧桿菌，並寫胰島素、總膽固醇與三酸甘油酯下降。登記 NCT01004120 把 Bimuno 寫成每日 5.5 公克；論文摘要這次沒有重寫公克數。"
+            ],
+            "dosageNote": "1.37 與 2.75 公克是供應商 FAQ 對「臨床有效」的下限寫法。5.5 公克是上述人體試驗的用量。平台 id 17405 備註空白，沒有每日公克。生資頁的 ≧80% 是該公司目錄，Clasado FAQ 這次沒有寫這個百分比。",
+            "suggestedDosage": "Clasado FAQ 寫每日 GOS 自 1.37 公克（腸道）或 2.75 公克（免疫與認知）起。2008 年論文與 NCT01004120 用的是每日 5.5 公克。"
+          },
+          "evidenceLevels": [
+            "clinical"
+          ],
+          "example": false,
+          "id": "bimuno-gos",
+          "images": [
+            {
+              "caption": "Clasado 的 Bimuno GOS 頁橫幅，是粉末與錠劑情境，包裝上沒有看到商品名。",
+              "localPath": "",
+              "source": "official_site",
+              "url": "https://clasado.com/wp-content/uploads/2025/10/Website-banner.png"
+            }
+          ],
+          "literature": {
+            "note": "兩篇都是人體交叉試驗。FAQ 的 130 篇沒有逐一核對。",
+            "refs": [
+              {
+                "note": "American Journal of Clinical Nutrition，2008。44 名老年人，B-GOS 每日 5.5 公克、10 週交叉。這次讀的是 PubMed 摘要。",
+                "title": "Modulation of the fecal microflora profile and immune function by a novel trans-galactooligosaccharide mixture (B-GOS) in healthy elderly volunteers",
+                "url": "https://pubmed.ncbi.nlm.nih.gov/18996881/"
+              },
+              {
+                "note": "Journal of Nutrition，2013。45 名過重成人，12 週交叉。摘要寫 Bi2muno（B-GOS）。登記 NCT01004120 寫每日 5.5 公克。",
+                "title": "A mixture of trans-galactooligosaccharides reduces markers of metabolic syndrome and modulates the fecal microbiota and immune function of overweight adults",
+                "url": "https://pubmed.ncbi.nlm.nih.gov/23303873/"
+              }
+            ],
+            "status": "yes"
+          },
+          "names": {
+            "commonEn": "galactooligosaccharides (GOS)",
+            "commonZh": "半乳寡糖",
+            "scientific": "不適用單一植物學名。US7883874B2 寫由 Bifidobacterium bifidum NCIMB 41171 的半乳糖苷酶把乳糖轉成半乳寡糖混合物。不是蔗果三糖，也不是菊糖。",
+            "trade": "Bimuno GOS（Clasado Biosciences 的半乳寡糖商品名；論文亦寫 B-GOS、Bi2muno）"
+          },
+          "patent": {
+            "note": "這是已核准的美國專利。仕琦頁寫全球 6 項專利、超過 60 個專利號，這次只核對到上面這一號。",
+            "refs": [
+              {
+                "note": "2011-02-08 核准。權利人寫 Clasado。請求項含 Bifidobacterium bifidum NCIMB 41171，以及由它的半乳糖苷酶做出的半乳寡糖組成。讀取日 2026-11-24。",
+                "title": "US7883874B2 Galactooligosaccharide composition and the preparation thereof",
+                "url": "https://patents.google.com/patent/US7883874B2/en"
+              }
+            ],
+            "status": "yes"
+          },
+          "sources": [
+            {
+              "accessed": "2026-11-24",
+              "channel": "exhibition",
+              "publisher": "Nutrition Insight",
+              "title": "SupplySide Global 2026: Clasado Biosciences and Probi unpack the next phase of gut health",
+              "url": "https://www.nutritioninsight.com/news/clasado-probi-biotics-gut-health-supplyside-global.html",
+              "whatItContributes": "2026-10-16 展前稿：Clasado 在 SupplySide Global 主打 Bimuno GOS。"
+            },
+            {
+              "accessed": "2026-11-24",
+              "channel": "supplier_site",
+              "publisher": "Clasado Biosciences",
+              "title": "FAQs",
+              "url": "https://clasado.com/bimuno-gos/bimuno-gos-science/faqs/",
+              "whatItContributes": "1.37 公克與 2.75 公克的公司寫法，以及乳源、不適合純素的說明。"
+            },
+            {
+              "accessed": "2026-11-24",
+              "channel": "paper",
+              "publisher": "American Journal of Clinical Nutrition",
+              "title": "PubMed 18996881",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18996881/",
+              "whatItContributes": "老年人、每日 5.5 公克、10 週的菌相與免疫摘要。"
+            },
+            {
+              "accessed": "2026-11-24",
+              "channel": "other",
+              "publisher": "仕琦股份有限公司",
+              "title": "半乳寡醣 Bimuno",
+              "url": "https://www.skyrich.com.tw/product.php?act=view&no=20",
+              "whatItContributes": "台灣頁自述英國 Clasado 授權銷售 Bimuno。"
+            },
+            {
+              "accessed": "2026-11-24",
+              "channel": "other",
+              "publisher": "生資有限公司",
+              "title": "半乳寡糖 Bimuno",
+              "url": "https://www.nutrisense.com.tw/ingredients/prebiotic-bimuno-gos/",
+              "whatItContributes": "台灣目錄頁。產地波蘭與 ≧80% 是這頁的寫法。"
+            }
+          ],
+          "supply": {
+            "relationship": "taiwan_distributor",
+            "relationshipNote": "2026-11-24 以 Bimuno、B-GOS、Clasado、半乳寡糖、galactooligosaccharide，搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索，並打開仕琦、生資與 Clasado 的頁。仕琦產品頁寫「英國 Clasado Biosciences」，並寫「英國Clasado大廠授權」；全站標語是「代理銷售」。這是仕琦自述，頁上沒有寫獨家。生資有限公司的原料頁把 Bimuno 放進目錄，寫產地波蘭、半乳寡糖≧80%，沒有寫代理或經銷。Clasado 2026-08-04 的 Vitafoods Asia 頁點名的夥伴是泰國 3C Group；2024 年中國經銷新聞點名的是 Prochin／Alliance Nutrition Group。這兩頁都沒有仕琦或生資。產地與授權維持各頁原句，不合併成原廠證實。查核日 2026-11-24。",
+            "supplierCountry": "英國",
+            "supplierName": "Clasado Biosciences",
+            "taiwanPartyName": "仕琦股份有限公司（自述授權）；生資有限公司（目錄販售）"
+          },
+          "tfda": {
+            "evidenceNotes": "半乳寡糖與 galactooligosaccharide 命中同一筆（id 17405），在可供食品使用，學名、部位、備註都空白，沒有未確認標記。商品名 Bimuno 在原料與添加物都是 0 筆。列名沒有寫每日公克。",
+            "lookupDate": "2026-11-24",
+            "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+            "officialCrosscheck": {
+              "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+              "done": true,
+              "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+              "notes": "2026-11-24 連線 consumer.fda.gov.tw:443 出現 OpenSSL SSL_ERROR_SYSCALL，沒有取得官方詳細頁。查詢助手 id 17405 的欄位如上，詳細頁網址是 MaterialDetail id 17405。添加物關鍵字 0 筆。"
+            },
+            "queries": [
+              {
+                "category": "",
+                "keyword": "Bimuno",
+                "matchedName": "",
+                "note": "商品名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "半乳寡糖",
+                "matchedName": "半乳寡糖；半乳寡醣",
+                "note": "成分名這一筆。次分類用字是平台原文。",
+                "restrictionNote": "id 17405。外文名 Galactooligosaccharides (GOS)。次分類為草木本植物類來源製取之原料。學名、部位、備註空白。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "galactooligosaccharide",
+                "matchedName": "半乳寡糖；半乳寡醣",
+                "note": "英文命中同一列。",
+                "restrictionNote": "同一筆 id 17405。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Bimuno",
+                "matchedName": "",
+                "note": "商品名在添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "半乳寡糖",
+                "matchedName": "",
+                "note": "中文在添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "galactooligosaccharide",
+                "matchedName": "",
+                "note": "英文在添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "半乳寡糖",
+                "matchedName": "",
+                "note": "助手更新歷程（2026-11-01 至 2026-11-23）沒有這筆異動。資料時間戳 2026-11-23 06:18。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "history",
+                "unconfirmedSafety": false
+              }
+            ],
+            "usable": "listed_food_ingredient"
+          }
+        },
+        {
+          "discovery": {
+            "channel": "industry_report",
+            "notes": "從 NutraIngredients 2026-10-27 的 Esflorin1 專題進入 2024 年 Gut Microbes 論文、ADM 新聞與 WO2009080862A1，再打開和聚的展會頁。CECT 8145 是另一支菌株。",
+            "scoutDate": "2026-11-24"
+          },
+          "efficacy": {
+            "claimedBenefits": [
+              "Gut Microbes 2024（PMID 38630015）：200 名 IBS-D 成人、84 天、三組。活菌 ES1 為每日 1×10^9 CFU；熱處理 HT-ES1 為每日 2.5×10^9 細胞（該文寫批次 5×10^10 細胞／公克時約 50 mg）。兩組第 84 天 IBS-SSS 相對基線的下降都大於安慰劑（ES1 −173.70 對安慰劑 −60.44；HT-ES1 −177.60 對同一安慰劑數字），文中寫 p \u003c 0.0001。研究由 ADM 出資，作者中有 ADM 員工。",
+              "NutraIngredients 2026-10-27 專題與 2026-11-04 的 Esflorin1 白皮書頁：把 Esflorin1 定義成 Bifidobacterium longum CECT 7347，並寫活菌與熱處理兩種規格。專題重點是上面這篇 IBS-D 試驗。",
+              "ADM 2024-05-02 新聞：寫這支菌株依 CSIC 授權使用。專利頁另見 WO 2009/080862。"
+            ],
+            "dosageNote": "這是該篇 IBS-D 試驗的膠囊劑量，不是平台限量。平台對 Bifidobacterium longum 菌體沒有寫 CFU。50 mg 只在該文所寫的後生元批次濃度下成立。",
+            "suggestedDosage": "2024 年論文的每日劑量是活菌 1×10^9 CFU，或熱處理菌 2.5×10^9 細胞。"
+          },
+          "evidenceLevels": [
+            "clinical"
+          ],
+          "example": false,
+          "id": "esflorin1",
+          "images": [
+            {
+              "caption": "NutraIngredients 的 Esflorin1 專題主圖，是廚房情境，不是菌株包裝。",
+              "localPath": "",
+              "source": "other",
+              "url": "https://cloudfront-eu-central-1.images.arcpublishing.com/williamreed/A5FUO7KH2NHEZPF7RHQUCEIIL4.jpg"
+            }
+          ],
+          "literature": {
+            "note": "這篇是人體試驗。乳糜瀉兒童的較早試驗沒有放進這張卡的文獻清單。",
+            "refs": [
+              {
+                "note": "Gut Microbes，2024。200 名 IBS-D 成人、84 天。活菌與熱處理各一組。這次讀的是 PMC 全文中的摘要與介入段落。",
+                "title": "A randomized double-blind, placebo-controlled trial to evaluate the safety and efficacy of live Bifidobacterium longum CECT 7347 (ES1) and heat-treated Bifidobacterium longum CECT 7347 (HT-ES1) in participants with diarrhea-predominant irritable bowel syndrome",
+                "url": "https://pubmed.ncbi.nlm.nih.gov/38630015/"
+              }
+            ],
+            "status": "yes"
+          },
+          "names": {
+            "commonEn": "Bifidobacterium longum CECT 7347",
+            "commonZh": "長雙歧桿菌 CECT 7347",
+            "scientific": "Bifidobacterium longum CECT 7347。ADM 2024-05-02 新聞寫 Bifidobacterium longum subsp. longum CECT 7347（ES1）。不是動物雙歧桿菌 CECT 8145。",
+            "trade": "Esflorin1（ADM 的商品名；同一菌株亦寫 ES1。活菌與熱處理後生元 HT-ES1 是兩種規格）"
+          },
+          "patent": {
+            "note": "專利權人不是 ADM。商品名 Esflorin1 是後來的商業名稱，沒有出現在這件 2009 年公開的標題。",
+            "refs": [
+              {
+                "note": "Google Patents 頁內文出現 Bifidobacterium longum 與 7347。申請人欄這次看到 Consejo。ADM 新聞寫 ES1 依 CSIC 授權使用。讀取日 2026-11-24。",
+                "title": "WO2009080862A1 Bifidobacterium longum",
+                "url": "https://patents.google.com/patent/WO2009080862A1/en"
+              }
+            ],
+            "status": "yes"
+          },
+          "sources": [
+            {
+              "accessed": "2026-11-24",
+              "channel": "industry_report",
+              "publisher": "NutraIngredients",
+              "title": "ADM explores probiotic and postbiotic opportunities with Esflorin1",
+              "url": "https://www.nutraingredients.com/News/Promotional-features/adm-explores-probiotic-and-postbiotic-opportunities-with-esflorin1/",
+              "whatItContributes": "2026-10-27 專題：商品名 Esflorin1、菌株 CECT 7347，以及 200 人 IBS-D 試驗的位置。"
+            },
+            {
+              "accessed": "2026-11-24",
+              "channel": "industry_report",
+              "publisher": "NutraIngredients",
+              "title": "Explore Esflorin1 Digestive Health Science",
+              "url": "https://www.nutraingredients.com/Product-innovations/explore-esflorin1-digestive-health-science/",
+              "whatItContributes": "2026-11-04：ADM 把 Esflorin1 寫成活菌與熱處理兩種規格。"
+            },
+            {
+              "accessed": "2026-11-24",
+              "channel": "paper",
+              "publisher": "Gut Microbes",
+              "title": "PubMed 38630015",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38630015/",
+              "whatItContributes": "每日 CFU、熱處理細胞數，以及 IBS-SSS 的組間差。"
+            },
+            {
+              "accessed": "2026-11-24",
+              "channel": "supplier_site",
+              "publisher": "ADM",
+              "title": "Gut Microbes Publishes ADM's New Clinical Study",
+              "url": "https://www.adm.com/en-us/news/news-releases/2024/5/gut-microbes-publishes-adms-new-clinical-study-showing-significant-improvements-in-ibs-sss-scores-and-quality-of-life-on-adults-with-ibs/",
+              "whatItContributes": "2024-05-02：菌株全名、CSIC 授權，以及 1 billion CFU 與 2.5 billion cells 的公司摘要。"
+            },
+            {
+              "accessed": "2026-11-24",
+              "channel": "exhibition",
+              "publisher": "亞洲美容保養．生技保健大展",
+              "title": "益生菌系列",
+              "url": "https://www.chanchao.com.tw/healthcos/visitorProductDetail.asp?no=211428",
+              "whatItContributes": "和聚攤位頁列出 HT CECT-7347，沒有 Esflorin1。"
+            }
+          ],
+          "supply": {
+            "relationship": "unknown",
+            "relationshipNote": "2026-11-24 以 Esflorin1、Esflorin、ES1、CECT 7347、CECT7347、Bifidobacterium longum、長雙歧桿菌、ADM 益生菌，搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索。2026 展會頁（no=179724）這次開啟顯示查無此產品。改開 2027 亞洲美容保養生技保健大展頁（no=211428）：廠商名稱是和聚國際生醫材料有限公司，內文在 ADM 段落下列出複方中的長雙歧桿菌 CECT7347，以及「HT CECT-7347」熱滅活菌株。頁上沒有 Esflorin1，也沒有寫代理或獨家。和聚關於我們頁寫公司代理進口原料，沒有點名這支菌株。ADM 這次打開的新聞沒有點名和聚。同菌株編號不等於已寫明 Esflorin1 的代理。查核日 2026-11-24。",
+            "supplierCountry": "美國",
+            "supplierName": "ADM",
+            "taiwanPartyName": "和聚國際生醫材料有限公司的展會頁列出 CECT 7347；頁上沒有 Esflorin1"
+          },
+          "tfda": {
+            "evidenceNotes": "商品名 Esflorin1、ES1 與 CECT 7347 在原料、添加物都是 0 筆。Bifidobacterium longum 命中乳酸菌（id 17500），學名就是這個種，部位菌體，可供食品原料或加工使用，沒有未確認標記。列名沒有寫菌株編號或 CFU。",
+            "lookupDate": "2026-11-24",
+            "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+            "officialCrosscheck": {
+              "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+              "done": true,
+              "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+              "notes": "2026-11-24 連線 consumer.fda.gov.tw:443 出現 OpenSSL SSL_ERROR_SYSCALL，沒有取得官方詳細頁。查詢助手 id 17500 學名為 Bifidobacterium longum、部位菌體、可供食品使用。詳細頁網址是 MaterialDetail id 17500。添加物關鍵字 0 筆。"
+            },
+            "queries": [
+              {
+                "category": "",
+                "keyword": "Esflorin1",
+                "matchedName": "",
+                "note": "商品名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "CECT 7347",
+                "matchedName": "",
+                "note": "菌株編號 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Bifidobacterium longum",
+                "matchedName": "乳酸菌",
+                "note": "種名這一筆。沒有寫 CECT 7347。",
+                "restrictionNote": "id 17500。外文名 Lactic acid bacteria。學名 Bifidobacterium longum。部位菌體。備註：可供為食品原料或食品加工使用。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Esflorin1",
+                "matchedName": "",
+                "note": "商品名在添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Bifidobacterium longum",
+                "matchedName": "",
+                "note": "學名在添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "長雙歧",
+                "matchedName": "",
+                "note": "中文在添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Bifidobacterium longum",
+                "matchedName": "",
+                "note": "助手更新歷程（2026-11-01 至 2026-11-23）沒有這筆異動。資料時間戳 2026-11-23 06:18。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "history",
+                "unconfirmedSafety": false
+              }
+            ],
+            "usable": "listed_food_ingredient"
+          }
+        },
+        {
+          "discovery": {
+            "channel": "industry_report",
+            "notes": "從 NutraIngredients 2026-11-23 的 CP2305 專題進入 Frontiers in Nutrition、朝日產品頁與 2025-02-25 供貨新聞，再打開台灣可爾必思健康商店的頁首。Lactobacillus paragasseri 沒有併進這一株。",
+            "scoutDate": "2026-11-24"
+          },
+          "efficacy": {
+            "claimedBenefits": [
+              "Frontiers in Nutrition 2026：28 名 20–44 歲健康成人、交叉、單次兩錠共 1×10^10 個熱處理 CP2305。相對於安慰劑，α 波功率、RMSSD、心理壓力 VAS 與 POMS2 緊張—焦慮的變化較大。同一篇的 RIN14B 細胞試驗寫胞外血清素較高。作者任職 Asahi 相關實驗室。這是單次劑量，不是長期療效。",
+              "US20220257676A1 的實施例：一錠約 50 億個熱處理細胞、每日兩錠，58 名有月經週期的健康女性、吃六個連續週期。這是專利說明書裡的試驗寫法。",
+              "ADM 與 Asahi 2025-02-25 新聞：寫這支後生元有八項人體試驗，並由 ADM 向北美、歐洲與亞洲食品廠供貨。這次沒有逐一打開那八篇。"
+            ],
+            "dosageNote": "1×10^10 是單次交叉試驗的錠劑含量。每日兩錠是專利說明書的例子，不是平台限量。平台對 Lactobacillus gasseri 菌體沒有寫細胞數。成品頁這次打開的 HTML 沒有寫出每份毫克。",
+            "suggestedDosage": "2026 年論文的單次劑量是 1×10^10 個熱處理細胞。專利實施例是每日兩錠、每錠約 50 億個。"
+          },
+          "evidenceLevels": [
+            "cell",
+            "clinical"
+          ],
+          "example": false,
+          "id": "cp2305",
+          "images": [
+            {
+              "caption": "Asahi Group Foods 英文產品頁上的 CP2305 Postbiotics 標誌。",
+              "localPath": "",
+              "source": "official_site",
+              "url": "https://www.asahi-gf.co.jp/en/health-biotics-peptides-business/cp2305/img/cp2305-logo.png"
+            }
+          ],
+          "literature": {
+            "note": "2025 年新聞寫有八項人體試驗。這張卡只核對到上面這一篇的全文頁，沒有把未打開的七篇算進來。",
+            "refs": [
+              {
+                "note": "Frontiers in Nutrition，2026。28 人、單次 1×10^10 個熱處理細胞，並含 RIN14B 細胞的血清素測定。作者任職 Asahi Quality and Innovations。",
+                "title": "Effects of heat-treated Lactobacillus gasseri CP2305 on brain oscillatory activity and mental stress in healthy adults",
+                "url": "https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2026.1796729/full"
+              }
+            ],
+            "status": "yes"
+          },
+          "names": {
+            "commonEn": "heat-treated Lactobacillus gasseri CP2305",
+            "commonZh": "格氏乳桿菌 CP2305（熱處理後生元）",
+            "scientific": "Lactobacillus gasseri CP2305，寄存編號 FERM BP-11331。US20220257676A1 這樣寫。平台另有 Lactobacillus paragasseri（id 16447），是另一個學名。",
+            "trade": "CP2305（Asahi Group Foods 的菌株商品名；台灣成品頁寫 C-23 加氏乳酸桿菌、可欣可雅）"
+          },
+          "patent": {
+            "note": "這件是申請公開，不是已核准證書。權利人含朝日與德島大學。",
+            "refs": [
+              {
+                "note": "申請人 Asahi Group Holdings 與 Tokushima University。說明書寫 Lactobacillus gasseri CP2305、FERM BP-11331，以及熱處理錠的每日兩錠例子。讀取日 2026-11-24。這是公開申請。",
+                "title": "US20220257676A1 Agent for regulating female hormone secretion and agent for alleviating unpleasant symptoms",
+                "url": "https://patents.google.com/patent/US20220257676A1/en"
+              }
+            ],
+            "status": "yes"
+          },
+          "sources": [
+            {
+              "accessed": "2026-11-24",
+              "channel": "industry_report",
+              "publisher": "NutraIngredients",
+              "title": "Postbiotic L. gasseri CP2305 for stress, mood, sleep, women’s health",
+              "url": "https://www.nutraingredients.com/News/Promotional-features/postbiotic-l-gasseri-cp2305-for-stress-mood-sleep-womens-health/",
+              "whatItContributes": "2026-11-23 專題：ADM 把 CP2305 放進後生元組合，並指向壓力、情緒、睡眠與女性健康。"
+            },
+            {
+              "accessed": "2026-11-24",
+              "channel": "industry_report",
+              "publisher": "NutraIngredients",
+              "title": "Can postbiotics help support sleep, stress, and mood through the gut-brain axis?",
+              "url": "https://www.nutraingredients.com/News/Promotional-features/can-postbiotics-help-support-sleep-stress-and-mood-through-the-gut-brain-axis/",
+              "whatItContributes": "同一系列專題：60 分鐘內腦波與壓力反應的公司轉述，出處指向 Frontiers in Nutrition。"
+            },
+            {
+              "accessed": "2026-11-24",
+              "channel": "paper",
+              "publisher": "Frontiers in Nutrition",
+              "title": "Frontiers in Nutrition 2026",
+              "url": "https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2026.1796729/full",
+              "whatItContributes": "單次 1×10^10 細胞的交叉試驗，以及細胞試驗。"
+            },
+            {
+              "accessed": "2026-11-24",
+              "channel": "supplier_site",
+              "publisher": "Asahi Group Foods",
+              "title": "CP2305",
+              "url": "https://www.asahi-gf.co.jp/en/health-biotics-peptides-business/cp2305/",
+              "whatItContributes": "原廠英文頁與 CP2305 Postbiotics 標誌。熱處理後仍主張機能是這頁的方向。"
+            },
+            {
+              "accessed": "2026-11-24",
+              "channel": "news",
+              "publisher": "Asahi Group Holdings",
+              "title": "Asahi Group Foods signs supply agreement with ADM Wild Valencia",
+              "url": "https://www.asahigroup-holdings.com/en/newsroom/detail/20250225-0201.html",
+              "whatItContributes": "2025-02-25：菌株屬於朝日，ADM Wild Valencia 負責日本以外的供貨，範圍寫北美、歐洲與亞洲。"
+            },
+            {
+              "accessed": "2026-11-24",
+              "channel": "other",
+              "publisher": "可爾必思健康網路商店",
+              "title": "可爾必思健康網路商店",
+              "url": "https://www.calpiswellness.com.tw/user_data/c23.php",
+              "whatItContributes": "台灣頁標題自述朝日官方直營，並把 C-23 寫成成品。這次 HTML 沒有展開每份毫克。"
+            }
+          ],
+          "supply": {
+            "relationship": "unknown",
+            "relationshipNote": "2026-11-24 以 CP2305、C-23、C23、可欣可雅、Lactobacillus gasseri、格氏乳桿菌、加氏乳酸桿菌、Asahi、朝日，搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索。打開 calpiswellness.com.tw：標題寫「可爾必思健康網路商店｜日本朝日集團官方直營・專利L-92與C-23乳酸菌」，說明文字把 C-23 乳酸菌寫成日本原裝進口的成品。這是成品販售頁的自述，不是原料代理契約，也沒有寫獨家。Asahi 與 ADM 2025-02-25 新聞寫由 ADM Wild Valencia 向北美、歐洲與亞洲的食品廠供貨，沒有點名台灣原料商。同日再以「CP2305 原料 台灣 經銷」複查，沒有寫明原料代理的公司頁。查核日 2026-11-24。",
+            "supplierCountry": "日本",
+            "supplierName": "Asahi Group Foods",
+            "taiwanPartyName": "可爾必思健康網路商店販售 C-23 成品；頁首自述為日本朝日集團官方直營"
+          },
+          "tfda": {
+            "evidenceNotes": "商品名 CP2305 與 C-23 在原料、添加物都是 0 筆。Lactobacillus gasseri 命中乳酸菌（id 17512），部位菌體，可供食品原料或加工使用。關鍵字 gasseri 另命中 Lactobacillus paragasseri（id 16447），那是另一個學名。這張卡對的是 id 17512。",
+            "lookupDate": "2026-11-24",
+            "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+            "officialCrosscheck": {
+              "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+              "done": true,
+              "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+              "notes": "2026-11-24 連線 consumer.fda.gov.tw:443 出現 OpenSSL SSL_ERROR_SYSCALL，沒有取得官方詳細頁。查詢助手 id 17512 學名為 Lactobacillus gasseri、id 16447 學名為 Lactobacillus paragasseri，兩筆部位都是菌體。這張卡的詳細頁網址是 MaterialDetail id 17512。添加物關鍵字 0 筆。"
+            },
+            "queries": [
+              {
+                "category": "",
+                "keyword": "CP2305",
+                "matchedName": "",
+                "note": "菌株商品名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Lactobacillus gasseri",
+                "matchedName": "乳酸菌",
+                "note": "這個學名的一筆。沒有寫 CP2305。",
+                "restrictionNote": "id 17512。外文名 Lactic acid bacteria。學名 Lactobacillus gasseri。部位菌體。備註：可供為食品原料或食品加工使用。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "gasseri",
+                "matchedName": "乳酸菌",
+                "note": "paragasseri 含有 gasseri 這串字母，但是另一個學名。",
+                "restrictionNote": "id 17512：Lactobacillus gasseri。id 16447：Lactobacillus paragasseri。兩筆都是菌體，備註都寫可供為食品原料或食品加工使用。",
+                "resultCount": 2,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "CP2305",
+                "matchedName": "",
+                "note": "商品名在添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Lactobacillus gasseri",
+                "matchedName": "",
+                "note": "學名在添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "gasseri",
+                "matchedName": "",
+                "note": "字母在添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "gasseri",
+                "matchedName": "",
+                "note": "助手更新歷程（2026-11-01 至 2026-11-23）沒有這筆異動。資料時間戳 2026-11-23 06:18。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "history",
+                "unconfirmedSafety": false
+              }
+            ],
+            "usable": "listed_food_ingredient"
+          }
+        }
+      ],
+      "targetCount": 5,
+      "title": "2026-11-24 正式日報"
+    },
+    {
+      "channelsCovered": [
+        "news",
+        "exhibition",
+        "industry_report"
+      ],
       "date": "2026-11-23",
       "example": false,
       "notes": "正式五筆。主管道：乳橋蛋白、GutABAlite 為新聞；Sunvasterol、Helm 為展覽；Maritech 裙帶菜褐藻糖膠為產業報導。未收未確認安全性項目：麵包蟲（Nutriearth 維生素 D3 的來源，id 16458）、印度小檗（Novaberin 的成分，id 16080）、麥角硫因（id 17744）、橙皮苷純化物（DiosVein 方向，id 16545）。伏牛花果實有列名，但不是印度小檗。α-醣化橙皮苷有列名，但不是橙皮苷純化物。",
@@ -17402,6 +18347,174 @@
     {
       "discovery": {
         "channel": "news",
+        "notes": "從 Nutrition Insight 2026-10-23 的 SupplySide 臨床預告進入 diana food 產品頁、NCT07229131，再打開仕琦與荃新的西印度櫻桃頁。抗壞血酸添加物沒有拿來當成這顆果實的限量。合成維生素 C 是另一個品項。",
+        "scoutDate": "2026-11-24"
+      },
+      "efficacy": {
+        "claimedBenefits": [
+          "diana food 的 Acerowell 頁：寫成同時標準化天然維生素 C 與多酚的肌膚原料；規格是 17% 維生素 C 配 1.5% 多酚，以及 34% 維生素 C 配 2% 多酚。頁上寫有體外與臨床，並寫適當劑量可對應肌膚光澤、透亮度與玻璃光感。頁上沒有寫出試驗論文。",
+          "Symrise 2026-10-21 新聞稿與 Nutrition Insight 2026-10-23：108 名 45–60 歲女性、每日 600 mg、12 週，公司稱肌膚光澤與透亮度顯著優於安慰劑，超過 80% 的人自述亮度、氣色或質地有改善。",
+          "ClinicalTrials.gov NCT07229131：同一贊助單位 Diana SAS 的登記寫實際收案 108 人，手臂有每日 600 mg 與 1200 mg。這次看到的年齡欄是 30–60 歲，和新聞稿的 45–60 歲不同，兩處都留下。"
+        ],
+        "dosageNote": "600 mg 是 Symrise 新聞對這次試驗的寫法，沒有寫用的是 17% 還是 34% 規格，所以不能換算成維生素 C 毫克。平台果實列的備註是空白。添加物抗壞血酸每日 1000 mg 是另一個品項，不是這顆果實的上限。",
+        "suggestedDosage": "公司新聞把有效劑量寫成每日 600 mg、12 週。登記頁另外有每日 1200 mg 的手臂。"
+      },
+      "evidenceLevels": [],
+      "example": false,
+      "id": "acerowell",
+      "images": [
+        {
+          "caption": "diana food 官網 Acerowell 頁首橫幅，是人物情境，不是原料包裝。",
+          "localPath": "",
+          "source": "official_site",
+          "url": "https://www.diana-food.com/fileadmin/diana_food/2_Marketing/4_Our_natural_ingredients/3_Fruit_ingredients/1_Acerola/Diana_Food_Acerowell_Head_1400x550.jpg"
+        }
+      ],
+      "literature": {
+        "note": "2026-11-24 以 Acerowell 查打開的產品頁、新聞與 NCT07229131。有試驗登記與公司結果，沒有掛這個商品名的期刊論文，所以不標臨床文獻。",
+        "refs": [],
+        "status": "no"
+      },
+      "names": {
+        "commonEn": "acerola (West Indian cherry) powder",
+        "commonZh": "西印度櫻桃（針葉櫻桃）果粉",
+        "scientific": "Malpighia emarginata DC.。平台同時列 Malpighia glabra L. 與 Malpighia punicifolia L.。Acerowell 是果實來源、同時標準化維生素 C 與多酚的粉末，不是合成抗壞血酸。",
+        "trade": "Acerowell（Symrise／diana food 的西印度櫻桃商品名）"
+      },
+      "patent": {
+        "note": "2026-11-24 產品頁只寫 patent filed，沒有對到掛 Acerowell 的專利公開號。US10149491B2 是 Diana Food 用針葉櫻桃粉穩定天然色素，說明書不是這支肌膚原料。USPTO 序號 79445341 是 ACEROWELL 商標申請，不是專利。",
+        "refs": [],
+        "status": "unknown"
+      },
+      "sources": [
+        {
+          "accessed": "2026-11-24",
+          "channel": "news",
+          "publisher": "Nutrition Insight",
+          "title": "Symrise to debut clinical evidence for acerola beauty ingredient at SupplySide Global",
+          "url": "https://www.nutritioninsight.com/news/symrise-acerowell-acerola-skin-radiance-supplyside-global.html",
+          "whatItContributes": "2026-10-23：商品名、108 人、每日 600 mg、12 週，以及公司對光澤與透亮度的說法。"
+        },
+        {
+          "accessed": "2026-11-24",
+          "channel": "supplier_site",
+          "publisher": "diana food（Symrise）",
+          "title": "Acerowell",
+          "url": "https://www.diana-food.com/acerowelltm/",
+          "whatItContributes": "兩種維生素 C／多酚規格、巴西溯源，以及 patent filed 的說法。"
+        },
+        {
+          "accessed": "2026-11-24",
+          "channel": "other",
+          "publisher": "ClinicalTrials.gov",
+          "title": "NCT07229131",
+          "url": "https://clinicaltrials.gov/study/NCT07229131",
+          "whatItContributes": "Diana SAS 登記的雙盲試驗，600 mg 與 1200 mg 兩組，實際收案 108 人。這不是期刊論文。"
+        },
+        {
+          "accessed": "2026-11-24",
+          "channel": "other",
+          "publisher": "仕琦股份有限公司",
+          "title": "西印度櫻桃粉 Acerola",
+          "url": "https://www.skyrich.com.tw/product.php?act=view&no=22",
+          "whatItContributes": "台灣頁寫法國 Diana Food 的櫻桃粉，沒有 Acerowell。"
+        }
+      ],
+      "supply": {
+        "relationship": "unknown",
+        "relationshipNote": "2026-11-24 以 Acerowell、Acerola、西印度櫻桃、針葉櫻桃、Malpighia、Diana Food、Symrise，搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索，並打開仕琦與荃新的產品頁。仕琦頁寫「法國 Diana Food」的西印度櫻桃粉，成分是濃縮汁與麥芽糊精，並寫無回添合成維生素 C；頁上沒有 Acerowell。網站標語是「代理銷售」，這頁沒有寫總代理。荃新頁寫巴西產、學名 Malpighia glabra、維生素 C 17% 與 36%，沒有寫 Diana Food 或 Acerowell。同化合物的其他規格不是這個商品名的代理。Diana 官網把 Acerowell 寫成自家健齡規格，另有 17% 至 34% 的櫻桃方案。商標申請人 DIANA FOOD 地址在法國，Symrise 聯絡地址在德國 Holzminden。同日再以「Acerowell 台灣」獨立複查，沒有寫明這個商品名的台灣廠商頁。查核日 2026-11-24。",
+        "supplierCountry": "德國",
+        "supplierName": "Symrise（diana food）",
+        "taiwanPartyName": "仕琦股份有限公司列 Diana Food 西印度櫻桃粉；台灣荃新股份有限公司列未具名原廠的萃取"
+      },
+      "tfda": {
+        "evidenceNotes": "西印度櫻桃、針葉櫻桃、acerola 與 Malpighia 都命中同一筆果實（id 16953），可供直接食用，備註空白，沒有未確認標記。商品名 Acerowell 是 0 筆。添加物關鍵字 acerola 也是 0 筆；「維生素 C」另有抗壞血酸規格，不是這顆果實。",
+        "lookupDate": "2026-11-24",
+        "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+        "officialCrosscheck": {
+          "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+          "done": true,
+          "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+          "notes": "2026-11-24 連線 consumer.fda.gov.tw:443 出現 OpenSSL SSL_ERROR_SYSCALL，沒有取得官方詳細頁。查詢助手細節時間戳 2026-11-23 06:18，siteTotals 原料 1709、添加物 804。id 16953 的詳細欄位與上述限制一致，詳細頁網址是 MaterialDetail id 16953。添加物的 acerola 關鍵字 0 筆。"
+        },
+        "queries": [
+          {
+            "category": "",
+            "keyword": "Acerowell",
+            "matchedName": "",
+            "note": "商品名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "西印度櫻桃",
+            "matchedName": "西印度櫻桃；針葉櫻桃",
+            "note": "果實這一筆。",
+            "restrictionNote": "id 16953。次分類為草木本植物類(2)可供直接食用。外文名 West Indian Cherry, Barbados Cerry, Acerola Cherry。學名 Malpighia glabra L., Malpighia punicifolia L., Malpighia emarginata DC.。部位果實。備註空白。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Malpighia",
+            "matchedName": "西印度櫻桃；針葉櫻桃",
+            "note": "學名命中同一列。",
+            "restrictionNote": "同一筆 id 16953。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "acerola",
+            "matchedName": "",
+            "note": "英文果名在添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "西印度櫻桃",
+            "matchedName": "",
+            "note": "中文在添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "維生素C",
+            "matchedName": "抗壞血酸及其鹽類、酯類",
+            "note": "這是抗壞血酸規格，不是 Acerowell。",
+            "restrictionNote": "營養添加劑抗壞血酸（id 176）寫膠囊、錠狀且標示每日食用量者，每日維生素 C 總量不得高於 1000 mg。另有抗氧化劑 L-抗壞血酸等列。沒有一列寫西印度櫻桃。",
+            "resultCount": 7,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "西印度櫻桃",
+            "matchedName": "",
+            "note": "助手更新歷程（2026-11-01 至 2026-11-23）沒有這筆異動。資料時間戳 2026-11-23 06:18。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "history",
+            "unconfirmedSafety": false
+          }
+        ],
+        "usable": "listed_food_ingredient"
+      }
+    },
+    {
+      "discovery": {
+        "channel": "news",
         "notes": "從 NutraIngredients 2026-06 的 Affron 新聞進入，打開 PMC 全文與 PR Newswire 新聞稿，再對 Pharmactive 官網、Google Patents 與綠茵生技代理頁。",
         "scoutDate": "2026-11-09"
       },
@@ -19055,6 +20168,201 @@
     {
       "discovery": {
         "channel": "exhibition",
+        "notes": "從 Nutrition Insight 2026-10-16 的 SupplySide 預告進入 Clasado FAQ、US7883874B2 與兩篇 PubMed 摘要，再打開仕琦、生資，以及 Clasado 點名泰國與中國夥伴的頁。蔗果三糖與菊糖是別的原料。",
+        "scoutDate": "2026-11-24"
+      },
+      "efficacy": {
+        "claimedBenefits": [
+          "Clasado FAQ：公司把臨床有效日量寫成腸道益生元效果每日 GOS 自 1.37 公克起，免疫與認知自 2.75 公克起，並寫公開研究中雙歧桿菌的變化在 7 天出現。同頁寫有 130 篇以上文獻、25 項以上臨床，這次沒有逐篇核對。",
+          "American Journal of Clinical Nutrition 2008（PMID 18996881）：44 名健康老年人、B-GOS 每日 5.5 公克、10 週交叉。摘要寫雙歧桿菌增加，吞噬作用、NK 細胞活性與 IL-10 上升，IL-6、IL-1β 與 TNF-α 下降；總膽固醇與 HDL 沒有變化。",
+          "Journal of Nutrition 2013（PMID 23303873）：45 名有代謝症候群風險因子的過重成人、12 週交叉。摘要寫 B-GOS（Bi2muno）增加糞便雙歧桿菌，並寫胰島素、總膽固醇與三酸甘油酯下降。登記 NCT01004120 把 Bimuno 寫成每日 5.5 公克；論文摘要這次沒有重寫公克數。"
+        ],
+        "dosageNote": "1.37 與 2.75 公克是供應商 FAQ 對「臨床有效」的下限寫法。5.5 公克是上述人體試驗的用量。平台 id 17405 備註空白，沒有每日公克。生資頁的 ≧80% 是該公司目錄，Clasado FAQ 這次沒有寫這個百分比。",
+        "suggestedDosage": "Clasado FAQ 寫每日 GOS 自 1.37 公克（腸道）或 2.75 公克（免疫與認知）起。2008 年論文與 NCT01004120 用的是每日 5.5 公克。"
+      },
+      "evidenceLevels": [
+        "clinical"
+      ],
+      "example": false,
+      "id": "bimuno-gos",
+      "images": [
+        {
+          "caption": "Clasado 的 Bimuno GOS 頁橫幅，是粉末與錠劑情境，包裝上沒有看到商品名。",
+          "localPath": "",
+          "source": "official_site",
+          "url": "https://clasado.com/wp-content/uploads/2025/10/Website-banner.png"
+        }
+      ],
+      "literature": {
+        "note": "兩篇都是人體交叉試驗。FAQ 的 130 篇沒有逐一核對。",
+        "refs": [
+          {
+            "note": "American Journal of Clinical Nutrition，2008。44 名老年人，B-GOS 每日 5.5 公克、10 週交叉。這次讀的是 PubMed 摘要。",
+            "title": "Modulation of the fecal microflora profile and immune function by a novel trans-galactooligosaccharide mixture (B-GOS) in healthy elderly volunteers",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18996881/"
+          },
+          {
+            "note": "Journal of Nutrition，2013。45 名過重成人，12 週交叉。摘要寫 Bi2muno（B-GOS）。登記 NCT01004120 寫每日 5.5 公克。",
+            "title": "A mixture of trans-galactooligosaccharides reduces markers of metabolic syndrome and modulates the fecal microbiota and immune function of overweight adults",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23303873/"
+          }
+        ],
+        "status": "yes"
+      },
+      "names": {
+        "commonEn": "galactooligosaccharides (GOS)",
+        "commonZh": "半乳寡糖",
+        "scientific": "不適用單一植物學名。US7883874B2 寫由 Bifidobacterium bifidum NCIMB 41171 的半乳糖苷酶把乳糖轉成半乳寡糖混合物。不是蔗果三糖，也不是菊糖。",
+        "trade": "Bimuno GOS（Clasado Biosciences 的半乳寡糖商品名；論文亦寫 B-GOS、Bi2muno）"
+      },
+      "patent": {
+        "note": "這是已核准的美國專利。仕琦頁寫全球 6 項專利、超過 60 個專利號，這次只核對到上面這一號。",
+        "refs": [
+          {
+            "note": "2011-02-08 核准。權利人寫 Clasado。請求項含 Bifidobacterium bifidum NCIMB 41171，以及由它的半乳糖苷酶做出的半乳寡糖組成。讀取日 2026-11-24。",
+            "title": "US7883874B2 Galactooligosaccharide composition and the preparation thereof",
+            "url": "https://patents.google.com/patent/US7883874B2/en"
+          }
+        ],
+        "status": "yes"
+      },
+      "sources": [
+        {
+          "accessed": "2026-11-24",
+          "channel": "exhibition",
+          "publisher": "Nutrition Insight",
+          "title": "SupplySide Global 2026: Clasado Biosciences and Probi unpack the next phase of gut health",
+          "url": "https://www.nutritioninsight.com/news/clasado-probi-biotics-gut-health-supplyside-global.html",
+          "whatItContributes": "2026-10-16 展前稿：Clasado 在 SupplySide Global 主打 Bimuno GOS。"
+        },
+        {
+          "accessed": "2026-11-24",
+          "channel": "supplier_site",
+          "publisher": "Clasado Biosciences",
+          "title": "FAQs",
+          "url": "https://clasado.com/bimuno-gos/bimuno-gos-science/faqs/",
+          "whatItContributes": "1.37 公克與 2.75 公克的公司寫法，以及乳源、不適合純素的說明。"
+        },
+        {
+          "accessed": "2026-11-24",
+          "channel": "paper",
+          "publisher": "American Journal of Clinical Nutrition",
+          "title": "PubMed 18996881",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/18996881/",
+          "whatItContributes": "老年人、每日 5.5 公克、10 週的菌相與免疫摘要。"
+        },
+        {
+          "accessed": "2026-11-24",
+          "channel": "other",
+          "publisher": "仕琦股份有限公司",
+          "title": "半乳寡醣 Bimuno",
+          "url": "https://www.skyrich.com.tw/product.php?act=view&no=20",
+          "whatItContributes": "台灣頁自述英國 Clasado 授權銷售 Bimuno。"
+        },
+        {
+          "accessed": "2026-11-24",
+          "channel": "other",
+          "publisher": "生資有限公司",
+          "title": "半乳寡糖 Bimuno",
+          "url": "https://www.nutrisense.com.tw/ingredients/prebiotic-bimuno-gos/",
+          "whatItContributes": "台灣目錄頁。產地波蘭與 ≧80% 是這頁的寫法。"
+        }
+      ],
+      "supply": {
+        "relationship": "taiwan_distributor",
+        "relationshipNote": "2026-11-24 以 Bimuno、B-GOS、Clasado、半乳寡糖、galactooligosaccharide，搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索，並打開仕琦、生資與 Clasado 的頁。仕琦產品頁寫「英國 Clasado Biosciences」，並寫「英國Clasado大廠授權」；全站標語是「代理銷售」。這是仕琦自述，頁上沒有寫獨家。生資有限公司的原料頁把 Bimuno 放進目錄，寫產地波蘭、半乳寡糖≧80%，沒有寫代理或經銷。Clasado 2026-08-04 的 Vitafoods Asia 頁點名的夥伴是泰國 3C Group；2024 年中國經銷新聞點名的是 Prochin／Alliance Nutrition Group。這兩頁都沒有仕琦或生資。產地與授權維持各頁原句，不合併成原廠證實。查核日 2026-11-24。",
+        "supplierCountry": "英國",
+        "supplierName": "Clasado Biosciences",
+        "taiwanPartyName": "仕琦股份有限公司（自述授權）；生資有限公司（目錄販售）"
+      },
+      "tfda": {
+        "evidenceNotes": "半乳寡糖與 galactooligosaccharide 命中同一筆（id 17405），在可供食品使用，學名、部位、備註都空白，沒有未確認標記。商品名 Bimuno 在原料與添加物都是 0 筆。列名沒有寫每日公克。",
+        "lookupDate": "2026-11-24",
+        "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+        "officialCrosscheck": {
+          "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+          "done": true,
+          "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+          "notes": "2026-11-24 連線 consumer.fda.gov.tw:443 出現 OpenSSL SSL_ERROR_SYSCALL，沒有取得官方詳細頁。查詢助手 id 17405 的欄位如上，詳細頁網址是 MaterialDetail id 17405。添加物關鍵字 0 筆。"
+        },
+        "queries": [
+          {
+            "category": "",
+            "keyword": "Bimuno",
+            "matchedName": "",
+            "note": "商品名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "半乳寡糖",
+            "matchedName": "半乳寡糖；半乳寡醣",
+            "note": "成分名這一筆。次分類用字是平台原文。",
+            "restrictionNote": "id 17405。外文名 Galactooligosaccharides (GOS)。次分類為草木本植物類來源製取之原料。學名、部位、備註空白。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "galactooligosaccharide",
+            "matchedName": "半乳寡糖；半乳寡醣",
+            "note": "英文命中同一列。",
+            "restrictionNote": "同一筆 id 17405。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Bimuno",
+            "matchedName": "",
+            "note": "商品名在添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "半乳寡糖",
+            "matchedName": "",
+            "note": "中文在添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "galactooligosaccharide",
+            "matchedName": "",
+            "note": "英文在添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "半乳寡糖",
+            "matchedName": "",
+            "note": "助手更新歷程（2026-11-01 至 2026-11-23）沒有這筆異動。資料時間戳 2026-11-23 06:18。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "history",
+            "unconfirmedSafety": false
+          }
+        ],
+        "usable": "listed_food_ingredient"
+      }
+    },
+    {
+      "discovery": {
+        "channel": "exhibition",
         "notes": "從 SupplySide Global 2025 的 Sabinsa 展前與展後稿看到 BioPerine，用展商名錄核對攤位 5765，再對 Sabinsa 產品頁、專利頁與和聚目錄。胡椒莖的未確認列名已分開，不把莖當成這個原料。",
         "scoutDate": "2026-11-08"
       },
@@ -20458,6 +21766,205 @@
     },
     {
       "discovery": {
+        "channel": "industry_report",
+        "notes": "從 NutraIngredients 2026-11-23 的 CP2305 專題進入 Frontiers in Nutrition、朝日產品頁與 2025-02-25 供貨新聞，再打開台灣可爾必思健康商店的頁首。Lactobacillus paragasseri 沒有併進這一株。",
+        "scoutDate": "2026-11-24"
+      },
+      "efficacy": {
+        "claimedBenefits": [
+          "Frontiers in Nutrition 2026：28 名 20–44 歲健康成人、交叉、單次兩錠共 1×10^10 個熱處理 CP2305。相對於安慰劑，α 波功率、RMSSD、心理壓力 VAS 與 POMS2 緊張—焦慮的變化較大。同一篇的 RIN14B 細胞試驗寫胞外血清素較高。作者任職 Asahi 相關實驗室。這是單次劑量，不是長期療效。",
+          "US20220257676A1 的實施例：一錠約 50 億個熱處理細胞、每日兩錠，58 名有月經週期的健康女性、吃六個連續週期。這是專利說明書裡的試驗寫法。",
+          "ADM 與 Asahi 2025-02-25 新聞：寫這支後生元有八項人體試驗，並由 ADM 向北美、歐洲與亞洲食品廠供貨。這次沒有逐一打開那八篇。"
+        ],
+        "dosageNote": "1×10^10 是單次交叉試驗的錠劑含量。每日兩錠是專利說明書的例子，不是平台限量。平台對 Lactobacillus gasseri 菌體沒有寫細胞數。成品頁這次打開的 HTML 沒有寫出每份毫克。",
+        "suggestedDosage": "2026 年論文的單次劑量是 1×10^10 個熱處理細胞。專利實施例是每日兩錠、每錠約 50 億個。"
+      },
+      "evidenceLevels": [
+        "cell",
+        "clinical"
+      ],
+      "example": false,
+      "id": "cp2305",
+      "images": [
+        {
+          "caption": "Asahi Group Foods 英文產品頁上的 CP2305 Postbiotics 標誌。",
+          "localPath": "",
+          "source": "official_site",
+          "url": "https://www.asahi-gf.co.jp/en/health-biotics-peptides-business/cp2305/img/cp2305-logo.png"
+        }
+      ],
+      "literature": {
+        "note": "2025 年新聞寫有八項人體試驗。這張卡只核對到上面這一篇的全文頁，沒有把未打開的七篇算進來。",
+        "refs": [
+          {
+            "note": "Frontiers in Nutrition，2026。28 人、單次 1×10^10 個熱處理細胞，並含 RIN14B 細胞的血清素測定。作者任職 Asahi Quality and Innovations。",
+            "title": "Effects of heat-treated Lactobacillus gasseri CP2305 on brain oscillatory activity and mental stress in healthy adults",
+            "url": "https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2026.1796729/full"
+          }
+        ],
+        "status": "yes"
+      },
+      "names": {
+        "commonEn": "heat-treated Lactobacillus gasseri CP2305",
+        "commonZh": "格氏乳桿菌 CP2305（熱處理後生元）",
+        "scientific": "Lactobacillus gasseri CP2305，寄存編號 FERM BP-11331。US20220257676A1 這樣寫。平台另有 Lactobacillus paragasseri（id 16447），是另一個學名。",
+        "trade": "CP2305（Asahi Group Foods 的菌株商品名；台灣成品頁寫 C-23 加氏乳酸桿菌、可欣可雅）"
+      },
+      "patent": {
+        "note": "這件是申請公開，不是已核准證書。權利人含朝日與德島大學。",
+        "refs": [
+          {
+            "note": "申請人 Asahi Group Holdings 與 Tokushima University。說明書寫 Lactobacillus gasseri CP2305、FERM BP-11331，以及熱處理錠的每日兩錠例子。讀取日 2026-11-24。這是公開申請。",
+            "title": "US20220257676A1 Agent for regulating female hormone secretion and agent for alleviating unpleasant symptoms",
+            "url": "https://patents.google.com/patent/US20220257676A1/en"
+          }
+        ],
+        "status": "yes"
+      },
+      "sources": [
+        {
+          "accessed": "2026-11-24",
+          "channel": "industry_report",
+          "publisher": "NutraIngredients",
+          "title": "Postbiotic L. gasseri CP2305 for stress, mood, sleep, women’s health",
+          "url": "https://www.nutraingredients.com/News/Promotional-features/postbiotic-l-gasseri-cp2305-for-stress-mood-sleep-womens-health/",
+          "whatItContributes": "2026-11-23 專題：ADM 把 CP2305 放進後生元組合，並指向壓力、情緒、睡眠與女性健康。"
+        },
+        {
+          "accessed": "2026-11-24",
+          "channel": "industry_report",
+          "publisher": "NutraIngredients",
+          "title": "Can postbiotics help support sleep, stress, and mood through the gut-brain axis?",
+          "url": "https://www.nutraingredients.com/News/Promotional-features/can-postbiotics-help-support-sleep-stress-and-mood-through-the-gut-brain-axis/",
+          "whatItContributes": "同一系列專題：60 分鐘內腦波與壓力反應的公司轉述，出處指向 Frontiers in Nutrition。"
+        },
+        {
+          "accessed": "2026-11-24",
+          "channel": "paper",
+          "publisher": "Frontiers in Nutrition",
+          "title": "Frontiers in Nutrition 2026",
+          "url": "https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2026.1796729/full",
+          "whatItContributes": "單次 1×10^10 細胞的交叉試驗，以及細胞試驗。"
+        },
+        {
+          "accessed": "2026-11-24",
+          "channel": "supplier_site",
+          "publisher": "Asahi Group Foods",
+          "title": "CP2305",
+          "url": "https://www.asahi-gf.co.jp/en/health-biotics-peptides-business/cp2305/",
+          "whatItContributes": "原廠英文頁與 CP2305 Postbiotics 標誌。熱處理後仍主張機能是這頁的方向。"
+        },
+        {
+          "accessed": "2026-11-24",
+          "channel": "news",
+          "publisher": "Asahi Group Holdings",
+          "title": "Asahi Group Foods signs supply agreement with ADM Wild Valencia",
+          "url": "https://www.asahigroup-holdings.com/en/newsroom/detail/20250225-0201.html",
+          "whatItContributes": "2025-02-25：菌株屬於朝日，ADM Wild Valencia 負責日本以外的供貨，範圍寫北美、歐洲與亞洲。"
+        },
+        {
+          "accessed": "2026-11-24",
+          "channel": "other",
+          "publisher": "可爾必思健康網路商店",
+          "title": "可爾必思健康網路商店",
+          "url": "https://www.calpiswellness.com.tw/user_data/c23.php",
+          "whatItContributes": "台灣頁標題自述朝日官方直營，並把 C-23 寫成成品。這次 HTML 沒有展開每份毫克。"
+        }
+      ],
+      "supply": {
+        "relationship": "unknown",
+        "relationshipNote": "2026-11-24 以 CP2305、C-23、C23、可欣可雅、Lactobacillus gasseri、格氏乳桿菌、加氏乳酸桿菌、Asahi、朝日，搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索。打開 calpiswellness.com.tw：標題寫「可爾必思健康網路商店｜日本朝日集團官方直營・專利L-92與C-23乳酸菌」，說明文字把 C-23 乳酸菌寫成日本原裝進口的成品。這是成品販售頁的自述，不是原料代理契約，也沒有寫獨家。Asahi 與 ADM 2025-02-25 新聞寫由 ADM Wild Valencia 向北美、歐洲與亞洲的食品廠供貨，沒有點名台灣原料商。同日再以「CP2305 原料 台灣 經銷」複查，沒有寫明原料代理的公司頁。查核日 2026-11-24。",
+        "supplierCountry": "日本",
+        "supplierName": "Asahi Group Foods",
+        "taiwanPartyName": "可爾必思健康網路商店販售 C-23 成品；頁首自述為日本朝日集團官方直營"
+      },
+      "tfda": {
+        "evidenceNotes": "商品名 CP2305 與 C-23 在原料、添加物都是 0 筆。Lactobacillus gasseri 命中乳酸菌（id 17512），部位菌體，可供食品原料或加工使用。關鍵字 gasseri 另命中 Lactobacillus paragasseri（id 16447），那是另一個學名。這張卡對的是 id 17512。",
+        "lookupDate": "2026-11-24",
+        "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+        "officialCrosscheck": {
+          "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+          "done": true,
+          "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+          "notes": "2026-11-24 連線 consumer.fda.gov.tw:443 出現 OpenSSL SSL_ERROR_SYSCALL，沒有取得官方詳細頁。查詢助手 id 17512 學名為 Lactobacillus gasseri、id 16447 學名為 Lactobacillus paragasseri，兩筆部位都是菌體。這張卡的詳細頁網址是 MaterialDetail id 17512。添加物關鍵字 0 筆。"
+        },
+        "queries": [
+          {
+            "category": "",
+            "keyword": "CP2305",
+            "matchedName": "",
+            "note": "菌株商品名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Lactobacillus gasseri",
+            "matchedName": "乳酸菌",
+            "note": "這個學名的一筆。沒有寫 CP2305。",
+            "restrictionNote": "id 17512。外文名 Lactic acid bacteria。學名 Lactobacillus gasseri。部位菌體。備註：可供為食品原料或食品加工使用。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "gasseri",
+            "matchedName": "乳酸菌",
+            "note": "paragasseri 含有 gasseri 這串字母，但是另一個學名。",
+            "restrictionNote": "id 17512：Lactobacillus gasseri。id 16447：Lactobacillus paragasseri。兩筆都是菌體，備註都寫可供為食品原料或食品加工使用。",
+            "resultCount": 2,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "CP2305",
+            "matchedName": "",
+            "note": "商品名在添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Lactobacillus gasseri",
+            "matchedName": "",
+            "note": "學名在添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "gasseri",
+            "matchedName": "",
+            "note": "字母在添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "gasseri",
+            "matchedName": "",
+            "note": "助手更新歷程（2026-11-01 至 2026-11-23）沒有這筆異動。資料時間戳 2026-11-23 06:18。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "history",
+            "unconfirmedSafety": false
+          }
+        ],
+        "usable": "listed_food_ingredient"
+      }
+    },
+    {
+      "discovery": {
         "channel": "news",
         "notes": "從 Nutraceuticals World 2026-02-09 的 50:1 新聞進入，再對 Fruit d'Or 的規格頁、系列頁與 FDA 2020 年函。台灣關聯用商品名與蔓越莓搭配代理、經銷，並打開荃新頁；沒有看到這個商品名。",
         "scoutDate": "2026-11-14"
@@ -21362,6 +22869,196 @@
           }
         ],
         "usable": "needs_review"
+      }
+    },
+    {
+      "discovery": {
+        "channel": "industry_report",
+        "notes": "從 NutraIngredients 2026-10-27 的 Esflorin1 專題進入 2024 年 Gut Microbes 論文、ADM 新聞與 WO2009080862A1，再打開和聚的展會頁。CECT 8145 是另一支菌株。",
+        "scoutDate": "2026-11-24"
+      },
+      "efficacy": {
+        "claimedBenefits": [
+          "Gut Microbes 2024（PMID 38630015）：200 名 IBS-D 成人、84 天、三組。活菌 ES1 為每日 1×10^9 CFU；熱處理 HT-ES1 為每日 2.5×10^9 細胞（該文寫批次 5×10^10 細胞／公克時約 50 mg）。兩組第 84 天 IBS-SSS 相對基線的下降都大於安慰劑（ES1 −173.70 對安慰劑 −60.44；HT-ES1 −177.60 對同一安慰劑數字），文中寫 p \u003c 0.0001。研究由 ADM 出資，作者中有 ADM 員工。",
+          "NutraIngredients 2026-10-27 專題與 2026-11-04 的 Esflorin1 白皮書頁：把 Esflorin1 定義成 Bifidobacterium longum CECT 7347，並寫活菌與熱處理兩種規格。專題重點是上面這篇 IBS-D 試驗。",
+          "ADM 2024-05-02 新聞：寫這支菌株依 CSIC 授權使用。專利頁另見 WO 2009/080862。"
+        ],
+        "dosageNote": "這是該篇 IBS-D 試驗的膠囊劑量，不是平台限量。平台對 Bifidobacterium longum 菌體沒有寫 CFU。50 mg 只在該文所寫的後生元批次濃度下成立。",
+        "suggestedDosage": "2024 年論文的每日劑量是活菌 1×10^9 CFU，或熱處理菌 2.5×10^9 細胞。"
+      },
+      "evidenceLevels": [
+        "clinical"
+      ],
+      "example": false,
+      "id": "esflorin1",
+      "images": [
+        {
+          "caption": "NutraIngredients 的 Esflorin1 專題主圖，是廚房情境，不是菌株包裝。",
+          "localPath": "",
+          "source": "other",
+          "url": "https://cloudfront-eu-central-1.images.arcpublishing.com/williamreed/A5FUO7KH2NHEZPF7RHQUCEIIL4.jpg"
+        }
+      ],
+      "literature": {
+        "note": "這篇是人體試驗。乳糜瀉兒童的較早試驗沒有放進這張卡的文獻清單。",
+        "refs": [
+          {
+            "note": "Gut Microbes，2024。200 名 IBS-D 成人、84 天。活菌與熱處理各一組。這次讀的是 PMC 全文中的摘要與介入段落。",
+            "title": "A randomized double-blind, placebo-controlled trial to evaluate the safety and efficacy of live Bifidobacterium longum CECT 7347 (ES1) and heat-treated Bifidobacterium longum CECT 7347 (HT-ES1) in participants with diarrhea-predominant irritable bowel syndrome",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38630015/"
+          }
+        ],
+        "status": "yes"
+      },
+      "names": {
+        "commonEn": "Bifidobacterium longum CECT 7347",
+        "commonZh": "長雙歧桿菌 CECT 7347",
+        "scientific": "Bifidobacterium longum CECT 7347。ADM 2024-05-02 新聞寫 Bifidobacterium longum subsp. longum CECT 7347（ES1）。不是動物雙歧桿菌 CECT 8145。",
+        "trade": "Esflorin1（ADM 的商品名；同一菌株亦寫 ES1。活菌與熱處理後生元 HT-ES1 是兩種規格）"
+      },
+      "patent": {
+        "note": "專利權人不是 ADM。商品名 Esflorin1 是後來的商業名稱，沒有出現在這件 2009 年公開的標題。",
+        "refs": [
+          {
+            "note": "Google Patents 頁內文出現 Bifidobacterium longum 與 7347。申請人欄這次看到 Consejo。ADM 新聞寫 ES1 依 CSIC 授權使用。讀取日 2026-11-24。",
+            "title": "WO2009080862A1 Bifidobacterium longum",
+            "url": "https://patents.google.com/patent/WO2009080862A1/en"
+          }
+        ],
+        "status": "yes"
+      },
+      "sources": [
+        {
+          "accessed": "2026-11-24",
+          "channel": "industry_report",
+          "publisher": "NutraIngredients",
+          "title": "ADM explores probiotic and postbiotic opportunities with Esflorin1",
+          "url": "https://www.nutraingredients.com/News/Promotional-features/adm-explores-probiotic-and-postbiotic-opportunities-with-esflorin1/",
+          "whatItContributes": "2026-10-27 專題：商品名 Esflorin1、菌株 CECT 7347，以及 200 人 IBS-D 試驗的位置。"
+        },
+        {
+          "accessed": "2026-11-24",
+          "channel": "industry_report",
+          "publisher": "NutraIngredients",
+          "title": "Explore Esflorin1 Digestive Health Science",
+          "url": "https://www.nutraingredients.com/Product-innovations/explore-esflorin1-digestive-health-science/",
+          "whatItContributes": "2026-11-04：ADM 把 Esflorin1 寫成活菌與熱處理兩種規格。"
+        },
+        {
+          "accessed": "2026-11-24",
+          "channel": "paper",
+          "publisher": "Gut Microbes",
+          "title": "PubMed 38630015",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38630015/",
+          "whatItContributes": "每日 CFU、熱處理細胞數，以及 IBS-SSS 的組間差。"
+        },
+        {
+          "accessed": "2026-11-24",
+          "channel": "supplier_site",
+          "publisher": "ADM",
+          "title": "Gut Microbes Publishes ADM's New Clinical Study",
+          "url": "https://www.adm.com/en-us/news/news-releases/2024/5/gut-microbes-publishes-adms-new-clinical-study-showing-significant-improvements-in-ibs-sss-scores-and-quality-of-life-on-adults-with-ibs/",
+          "whatItContributes": "2024-05-02：菌株全名、CSIC 授權，以及 1 billion CFU 與 2.5 billion cells 的公司摘要。"
+        },
+        {
+          "accessed": "2026-11-24",
+          "channel": "exhibition",
+          "publisher": "亞洲美容保養．生技保健大展",
+          "title": "益生菌系列",
+          "url": "https://www.chanchao.com.tw/healthcos/visitorProductDetail.asp?no=211428",
+          "whatItContributes": "和聚攤位頁列出 HT CECT-7347，沒有 Esflorin1。"
+        }
+      ],
+      "supply": {
+        "relationship": "unknown",
+        "relationshipNote": "2026-11-24 以 Esflorin1、Esflorin、ES1、CECT 7347、CECT7347、Bifidobacterium longum、長雙歧桿菌、ADM 益生菌，搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索。2026 展會頁（no=179724）這次開啟顯示查無此產品。改開 2027 亞洲美容保養生技保健大展頁（no=211428）：廠商名稱是和聚國際生醫材料有限公司，內文在 ADM 段落下列出複方中的長雙歧桿菌 CECT7347，以及「HT CECT-7347」熱滅活菌株。頁上沒有 Esflorin1，也沒有寫代理或獨家。和聚關於我們頁寫公司代理進口原料，沒有點名這支菌株。ADM 這次打開的新聞沒有點名和聚。同菌株編號不等於已寫明 Esflorin1 的代理。查核日 2026-11-24。",
+        "supplierCountry": "美國",
+        "supplierName": "ADM",
+        "taiwanPartyName": "和聚國際生醫材料有限公司的展會頁列出 CECT 7347；頁上沒有 Esflorin1"
+      },
+      "tfda": {
+        "evidenceNotes": "商品名 Esflorin1、ES1 與 CECT 7347 在原料、添加物都是 0 筆。Bifidobacterium longum 命中乳酸菌（id 17500），學名就是這個種，部位菌體，可供食品原料或加工使用，沒有未確認標記。列名沒有寫菌株編號或 CFU。",
+        "lookupDate": "2026-11-24",
+        "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+        "officialCrosscheck": {
+          "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+          "done": true,
+          "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+          "notes": "2026-11-24 連線 consumer.fda.gov.tw:443 出現 OpenSSL SSL_ERROR_SYSCALL，沒有取得官方詳細頁。查詢助手 id 17500 學名為 Bifidobacterium longum、部位菌體、可供食品使用。詳細頁網址是 MaterialDetail id 17500。添加物關鍵字 0 筆。"
+        },
+        "queries": [
+          {
+            "category": "",
+            "keyword": "Esflorin1",
+            "matchedName": "",
+            "note": "商品名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "CECT 7347",
+            "matchedName": "",
+            "note": "菌株編號 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Bifidobacterium longum",
+            "matchedName": "乳酸菌",
+            "note": "種名這一筆。沒有寫 CECT 7347。",
+            "restrictionNote": "id 17500。外文名 Lactic acid bacteria。學名 Bifidobacterium longum。部位菌體。備註：可供為食品原料或食品加工使用。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Esflorin1",
+            "matchedName": "",
+            "note": "商品名在添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Bifidobacterium longum",
+            "matchedName": "",
+            "note": "學名在添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "長雙歧",
+            "matchedName": "",
+            "note": "中文在添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Bifidobacterium longum",
+            "matchedName": "",
+            "note": "助手更新歷程（2026-11-01 至 2026-11-23）沒有這筆異動。資料時間戳 2026-11-23 06:18。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "history",
+            "unconfirmedSafety": false
+          }
+        ],
+        "usable": "listed_food_ingredient"
       }
     },
     {
@@ -32808,6 +34505,185 @@
           }
         ],
         "usable": "listed_food_ingredient"
+      }
+    },
+    {
+      "discovery": {
+        "channel": "news",
+        "notes": "從 Nutrition Insight 2026-10-26 的 SupplySide 調查稿進入 Superbrewed 官網、2026-08-19 上市稿，以及 US20240034983A1。酪酸菌 Clostridium butyricum 沒有併成這個種。",
+        "scoutDate": "2026-11-24"
+      },
+      "efficacy": {
+        "claimedBenefits": [
+          "Superbrewed 官網：Thryvia 是熱殺死、不具活性的 Clostridium tyrobutyricum ASM#19，定位免疫與消化；公司寫第三方臨床前試驗會活化 TLR2、TLR5 與 NOD2。頁上的消化數字來自開放式感受調查，公司同時寫這不是臨床療效。",
+          "Nutrition Insight 2026-10-26：Citruslabs 的四週感受調查用每日 200 mg；37 人中 33 人（89%）自述消化分數有數字上的改善。公司寫這不是用來建立因果，隨機安慰劑對照試驗還在啟動。",
+          "PR Newswire 2026-08-19：典型添加量約每份 200 mg。公司寫 FDA 對 GRN 1129 發了 no questions letter。這次沒有另開 GRN 1129 全文。"
+        ],
+        "dosageNote": "200 mg 是供應商的添加量與那次開放式調查的用量，不是已發表人體試驗的劑量，也不是平台限量。平台沒有這個種的列名。酪酸菌那一列不能套用。",
+        "suggestedDosage": "公司與 2026-10-26 新聞把用量寫成約每日或每份 200 mg。"
+      },
+      "evidenceLevels": [],
+      "example": false,
+      "id": "thryvia",
+      "images": [
+        {
+          "caption": "Superbrewed 官網 Thryvia 頁的劑型照片。瓶身小字有難辨認之處，不把圖上句子當成功效。",
+          "localPath": "assets/thryvia-formats.jpg",
+          "source": "official_site",
+          "url": "https://www.superbrewedfood.com/thryvia"
+        }
+      ],
+      "literature": {
+        "note": "2026-11-24 以 Thryvia、ASM19 與 Clostridium tyrobutyricum 查打開的公司頁與新聞，臨床前與人體感受都是公司轉述，沒有打開到期刊論文。不把感受調查算成臨床文獻。",
+        "refs": [],
+        "status": "unknown"
+      },
+      "names": {
+        "commonEn": "heat-killed Clostridium tyrobutyricum ASM19",
+        "commonZh": "酪丁酸梭菌 ASM19（熱殺死後生元）",
+        "scientific": "Clostridium tyrobutyricum strain ASM19。官網亦寫 ASM#19。不是平台上的酪酸菌 Clostridium butyricum。",
+        "trade": "Thryvia（Superbrewed Food 的後生元商品名）"
+      },
+      "patent": {
+        "note": "有一件核准專利與一件仍公開的申請。申請的標題是飼料用途。商品名 Thryvia 沒有出現在這兩件的標題。",
+        "refs": [
+          {
+            "note": "Google Patents 寫申請人 Superbrewed Food Inc。說明書出現 ASM #19，並寫該株 spo0A 的變異。摘要把用途寫成飼料原料。讀取日 2026-11-24。",
+            "title": "US20240034983A1 Asporogenous bacteria and uses thereof as a feed ingredient",
+            "url": "https://patents.google.com/patent/US20240034983A1/en"
+          },
+          {
+            "note": "2024-03-05 核准，權利人 Superbrewed Food Inc。請求項是死菌細胞做成的高蛋白食物成分，說明書把 Clostridium tyrobutyricum 列為例子。沒有看到 Thryvia 或 ASM19 出現在請求項。",
+            "title": "US11918019B2 Food components having high protein content",
+            "url": "https://patents.google.com/patent/US11918019B2/en"
+          }
+        ],
+        "status": "yes"
+      },
+      "sources": [
+        {
+          "accessed": "2026-11-24",
+          "channel": "news",
+          "publisher": "Nutrition Insight",
+          "title": "Superbrewed Food targets digestive health with Thryvia postbiotic at SupplySide Global 2026",
+          "url": "https://www.nutritioninsight.com/news/superbrewed-food-thryvia-postbiotic-consumer-study-digestion.html",
+          "whatItContributes": "2026-10-26：每日 200 mg、四週感受調查的 89%，以及試驗尚未建立因果。"
+        },
+        {
+          "accessed": "2026-11-24",
+          "channel": "supplier_site",
+          "publisher": "Superbrewed Food",
+          "title": "Thryvia",
+          "url": "https://www.superbrewedfood.com/thryvia",
+          "whatItContributes": "菌株 ASM#19、熱殺死、GRN 1129 的公司說法，以及感受調查不是臨床療效。"
+        },
+        {
+          "accessed": "2026-11-24",
+          "channel": "news",
+          "publisher": "PR Newswire",
+          "title": "Superbrewed Food Launches Thryvia",
+          "url": "https://www.prnewswire.com/news-releases/superbrewed-food-launches-thryvia-the-first-shelf-stable-protein-derived-postbiotic-for-digestive-and-immune-health-formulations-302855271.html",
+          "whatItContributes": "2026-08-19：公司在美國 New Castle、Döhler 製造、每份約 200 mg。"
+        },
+        {
+          "accessed": "2026-11-24",
+          "channel": "patent",
+          "publisher": "Google Patents",
+          "title": "US20240034983A1",
+          "url": "https://patents.google.com/patent/US20240034983A1/en",
+          "whatItContributes": "申請書寫到 ASM #19。摘要用途是飼料原料。"
+        }
+      ],
+      "supply": {
+        "relationship": "unknown",
+        "relationshipNote": "2026-11-24 以 Thryvia、Superbrewed、Clostridium tyrobutyricum、ASM19、ASM #19、酪丁酸梭菌，搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索。打開 Superbrewed 的 Thryvia 頁，台灣只出現在聯絡表單的國家下拉，沒有經銷名單。PR Newswire 2026-08-19 寫公司在美國德拉瓦州 New Castle，製造夥伴是 Döhler，沒有台灣公司。同日再以「Thryvia 經銷」「Superbrewed Food 台灣公司」與「酪丁酸 原料 台灣」獨立複查，只看到中文產業轉載，沒有台灣廠商產品頁或代理頁。查核日 2026-11-24。",
+        "supplierCountry": "美國",
+        "supplierName": "Superbrewed Food",
+        "taiwanPartyName": "本次查無台灣關聯廠商"
+      },
+      "tfda": {
+        "evidenceNotes": "Thryvia、tyrobutyricum 與 ASM19 在原料、添加物都是 0 筆。酪酸菌（id 17501）的學名是 Clostridium butyricum，菌體可供食品使用，不是這個種。查無不是准用，也不是禁用。",
+        "lookupDate": "2026-11-24",
+        "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+        "officialCrosscheck": {
+          "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+          "done": false,
+          "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+          "notes": "2026-11-24 連線 consumer.fda.gov.tw:443 出現 OpenSSL SSL_ERROR_SYSCALL，沒有取得官方詳細頁。查詢助手對 Thryvia 與 tyrobutyricum 是 0 筆；酪酸菌列的學名是 Clostridium butyricum。沒有可核對的 tyrobutyricum 詳細頁。"
+        },
+        "queries": [
+          {
+            "category": "",
+            "keyword": "Thryvia",
+            "matchedName": "",
+            "note": "商品名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "tyrobutyricum",
+            "matchedName": "",
+            "note": "種名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "酪酸菌",
+            "matchedName": "酪酸菌",
+            "note": "這是另一個種。",
+            "restrictionNote": "id 17501。學名 Clostridium butyricum。部位菌體。備註：可供為食品原料或食品加工使用。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Thryvia",
+            "matchedName": "",
+            "note": "商品名在添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "tyrobutyricum",
+            "matchedName": "",
+            "note": "種名在添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "酪酸菌",
+            "matchedName": "",
+            "note": "中文在添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "tyrobutyricum",
+            "matchedName": "",
+            "note": "助手更新歷程（2026-11-01 至 2026-11-23）沒有這筆異動。資料時間戳 2026-11-23 06:18。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "history",
+            "unconfirmedSafety": false
+          }
+        ],
+        "usable": "not_found"
       }
     },
     {

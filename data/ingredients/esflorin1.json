@@ -1,0 +1,190 @@
+{
+  "id": "esflorin1",
+  "example": false,
+  "names": {
+    "commonZh": "長雙歧桿菌 CECT 7347",
+    "commonEn": "Bifidobacterium longum CECT 7347",
+    "trade": "Esflorin1（ADM 的商品名；同一菌株亦寫 ES1。活菌與熱處理後生元 HT-ES1 是兩種規格）",
+    "scientific": "Bifidobacterium longum CECT 7347。ADM 2024-05-02 新聞寫 Bifidobacterium longum subsp. longum CECT 7347（ES1）。不是動物雙歧桿菌 CECT 8145。"
+  },
+  "supply": {
+    "supplierName": "ADM",
+    "supplierCountry": "美國",
+    "relationship": "unknown",
+    "taiwanPartyName": "和聚國際生醫材料有限公司的展會頁列出 CECT 7347；頁上沒有 Esflorin1",
+    "relationshipNote": "2026-11-24 以 Esflorin1、Esflorin、ES1、CECT 7347、CECT7347、Bifidobacterium longum、長雙歧桿菌、ADM 益生菌，搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索。2026 展會頁（no=179724）這次開啟顯示查無此產品。改開 2027 亞洲美容保養生技保健大展頁（no=211428）：廠商名稱是和聚國際生醫材料有限公司，內文在 ADM 段落下列出複方中的長雙歧桿菌 CECT7347，以及「HT CECT-7347」熱滅活菌株。頁上沒有 Esflorin1，也沒有寫代理或獨家。和聚關於我們頁寫公司代理進口原料，沒有點名這支菌株。ADM 這次打開的新聞沒有點名和聚。同菌株編號不等於已寫明 Esflorin1 的代理。查核日 2026-11-24。"
+  },
+  "tfda": {
+    "usable": "listed_food_ingredient",
+    "evidenceNotes": "商品名 Esflorin1、ES1 與 CECT 7347 在原料、添加物都是 0 筆。Bifidobacterium longum 命中乳酸菌（id 17500），學名就是這個種，部位菌體，可供食品原料或加工使用，沒有未確認標記。列名沒有寫菌株編號或 CFU。",
+    "lookupDate": "2026-11-24",
+    "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+    "queries": [
+      {
+        "tab": "ingredient",
+        "keyword": "Esflorin1",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名 0 筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "CECT 7347",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "菌株編號 0 筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Bifidobacterium longum",
+        "category": "",
+        "resultCount": 1,
+        "matchedName": "乳酸菌",
+        "restrictionNote": "id 17500。外文名 Lactic acid bacteria。學名 Bifidobacterium longum。部位菌體。備註：可供為食品原料或食品加工使用。",
+        "unconfirmedSafety": false,
+        "note": "種名這一筆。沒有寫 CECT 7347。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "Esflorin1",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名在添加物 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "Bifidobacterium longum",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "學名在添加物 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "長雙歧",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "中文在添加物 0 筆。"
+      },
+      {
+        "tab": "history",
+        "keyword": "Bifidobacterium longum",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "助手更新歷程（2026-11-01 至 2026-11-23）沒有這筆異動。資料時間戳 2026-11-23 06:18。"
+      }
+    ],
+    "officialCrosscheck": {
+      "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+      "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+      "done": true,
+      "notes": "2026-11-24 連線 consumer.fda.gov.tw:443 出現 OpenSSL SSL_ERROR_SYSCALL，沒有取得官方詳細頁。查詢助手 id 17500 學名為 Bifidobacterium longum、部位菌體、可供食品使用。詳細頁網址是 MaterialDetail id 17500。添加物關鍵字 0 筆。"
+    }
+  },
+  "efficacy": {
+    "claimedBenefits": [
+      "Gut Microbes 2024（PMID 38630015）：200 名 IBS-D 成人、84 天、三組。活菌 ES1 為每日 1×10^9 CFU；熱處理 HT-ES1 為每日 2.5×10^9 細胞（該文寫批次 5×10^10 細胞／公克時約 50 mg）。兩組第 84 天 IBS-SSS 相對基線的下降都大於安慰劑（ES1 −173.70 對安慰劑 −60.44；HT-ES1 −177.60 對同一安慰劑數字），文中寫 p < 0.0001。研究由 ADM 出資，作者中有 ADM 員工。",
+      "NutraIngredients 2026-10-27 專題與 2026-11-04 的 Esflorin1 白皮書頁：把 Esflorin1 定義成 Bifidobacterium longum CECT 7347，並寫活菌與熱處理兩種規格。專題重點是上面這篇 IBS-D 試驗。",
+      "ADM 2024-05-02 新聞：寫這支菌株依 CSIC 授權使用。專利頁另見 WO 2009/080862。"
+    ],
+    "suggestedDosage": "2024 年論文的每日劑量是活菌 1×10^9 CFU，或熱處理菌 2.5×10^9 細胞。",
+    "dosageNote": "這是該篇 IBS-D 試驗的膠囊劑量，不是平台限量。平台對 Bifidobacterium longum 菌體沒有寫 CFU。50 mg 只在該文所寫的後生元批次濃度下成立。"
+  },
+  "patent": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "WO2009080862A1 Bifidobacterium longum",
+        "url": "https://patents.google.com/patent/WO2009080862A1/en",
+        "note": "Google Patents 頁內文出現 Bifidobacterium longum 與 7347。申請人欄這次看到 Consejo。ADM 新聞寫 ES1 依 CSIC 授權使用。讀取日 2026-11-24。"
+      }
+    ],
+    "note": "專利權人不是 ADM。商品名 Esflorin1 是後來的商業名稱，沒有出現在這件 2009 年公開的標題。"
+  },
+  "literature": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "A randomized double-blind, placebo-controlled trial to evaluate the safety and efficacy of live Bifidobacterium longum CECT 7347 (ES1) and heat-treated Bifidobacterium longum CECT 7347 (HT-ES1) in participants with diarrhea-predominant irritable bowel syndrome",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/38630015/",
+        "note": "Gut Microbes，2024。200 名 IBS-D 成人、84 天。活菌與熱處理各一組。這次讀的是 PMC 全文中的摘要與介入段落。"
+      }
+    ],
+    "note": "這篇是人體試驗。乳糜瀉兒童的較早試驗沒有放進這張卡的文獻清單。"
+  },
+  "evidenceLevels": [
+    "clinical"
+  ],
+  "images": [
+    {
+      "url": "https://cloudfront-eu-central-1.images.arcpublishing.com/williamreed/A5FUO7KH2NHEZPF7RHQUCEIIL4.jpg",
+      "localPath": "",
+      "caption": "NutraIngredients 的 Esflorin1 專題主圖，是廚房情境，不是菌株包裝。",
+      "source": "other"
+    }
+  ],
+  "sources": [
+    {
+      "title": "ADM explores probiotic and postbiotic opportunities with Esflorin1",
+      "url": "https://www.nutraingredients.com/News/Promotional-features/adm-explores-probiotic-and-postbiotic-opportunities-with-esflorin1/",
+      "publisher": "NutraIngredients",
+      "channel": "industry_report",
+      "accessed": "2026-11-24",
+      "whatItContributes": "2026-10-27 專題：商品名 Esflorin1、菌株 CECT 7347，以及 200 人 IBS-D 試驗的位置。"
+    },
+    {
+      "title": "Explore Esflorin1 Digestive Health Science",
+      "url": "https://www.nutraingredients.com/Product-innovations/explore-esflorin1-digestive-health-science/",
+      "publisher": "NutraIngredients",
+      "channel": "industry_report",
+      "accessed": "2026-11-24",
+      "whatItContributes": "2026-11-04：ADM 把 Esflorin1 寫成活菌與熱處理兩種規格。"
+    },
+    {
+      "title": "PubMed 38630015",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38630015/",
+      "publisher": "Gut Microbes",
+      "channel": "paper",
+      "accessed": "2026-11-24",
+      "whatItContributes": "每日 CFU、熱處理細胞數，以及 IBS-SSS 的組間差。"
+    },
+    {
+      "title": "Gut Microbes Publishes ADM's New Clinical Study",
+      "url": "https://www.adm.com/en-us/news/news-releases/2024/5/gut-microbes-publishes-adms-new-clinical-study-showing-significant-improvements-in-ibs-sss-scores-and-quality-of-life-on-adults-with-ibs/",
+      "publisher": "ADM",
+      "channel": "supplier_site",
+      "accessed": "2026-11-24",
+      "whatItContributes": "2024-05-02：菌株全名、CSIC 授權，以及 1 billion CFU 與 2.5 billion cells 的公司摘要。"
+    },
+    {
+      "title": "益生菌系列",
+      "url": "https://www.chanchao.com.tw/healthcos/visitorProductDetail.asp?no=211428",
+      "publisher": "亞洲美容保養．生技保健大展",
+      "channel": "exhibition",
+      "accessed": "2026-11-24",
+      "whatItContributes": "和聚攤位頁列出 HT CECT-7347，沒有 Esflorin1。"
+    }
+  ],
+  "discovery": {
+    "channel": "industry_report",
+    "scoutDate": "2026-11-24",
+    "notes": "從 NutraIngredients 2026-10-27 的 Esflorin1 專題進入 2024 年 Gut Microbes 論文、ADM 新聞與 WO2009080862A1，再打開和聚的展會頁。CECT 8145 是另一支菌株。"
+  }
+}

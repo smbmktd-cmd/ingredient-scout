@@ -1,0 +1,195 @@
+{
+  "id": "bimuno-gos",
+  "example": false,
+  "names": {
+    "commonZh": "半乳寡糖",
+    "commonEn": "galactooligosaccharides (GOS)",
+    "trade": "Bimuno GOS（Clasado Biosciences 的半乳寡糖商品名；論文亦寫 B-GOS、Bi2muno）",
+    "scientific": "不適用單一植物學名。US7883874B2 寫由 Bifidobacterium bifidum NCIMB 41171 的半乳糖苷酶把乳糖轉成半乳寡糖混合物。不是蔗果三糖，也不是菊糖。"
+  },
+  "supply": {
+    "supplierName": "Clasado Biosciences",
+    "supplierCountry": "英國",
+    "relationship": "taiwan_distributor",
+    "taiwanPartyName": "仕琦股份有限公司（自述授權）；生資有限公司（目錄販售）",
+    "relationshipNote": "2026-11-24 以 Bimuno、B-GOS、Clasado、半乳寡糖、galactooligosaccharide，搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索，並打開仕琦、生資與 Clasado 的頁。仕琦產品頁寫「英國 Clasado Biosciences」，並寫「英國Clasado大廠授權」；全站標語是「代理銷售」。這是仕琦自述，頁上沒有寫獨家。生資有限公司的原料頁把 Bimuno 放進目錄，寫產地波蘭、半乳寡糖≧80%，沒有寫代理或經銷。Clasado 2026-08-04 的 Vitafoods Asia 頁點名的夥伴是泰國 3C Group；2024 年中國經銷新聞點名的是 Prochin／Alliance Nutrition Group。這兩頁都沒有仕琦或生資。產地與授權維持各頁原句，不合併成原廠證實。查核日 2026-11-24。"
+  },
+  "tfda": {
+    "usable": "listed_food_ingredient",
+    "evidenceNotes": "半乳寡糖與 galactooligosaccharide 命中同一筆（id 17405），在可供食品使用，學名、部位、備註都空白，沒有未確認標記。商品名 Bimuno 在原料與添加物都是 0 筆。列名沒有寫每日公克。",
+    "lookupDate": "2026-11-24",
+    "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+    "queries": [
+      {
+        "tab": "ingredient",
+        "keyword": "Bimuno",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名 0 筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "半乳寡糖",
+        "category": "",
+        "resultCount": 1,
+        "matchedName": "半乳寡糖；半乳寡醣",
+        "restrictionNote": "id 17405。外文名 Galactooligosaccharides (GOS)。次分類為草木本植物類來源製取之原料。學名、部位、備註空白。",
+        "unconfirmedSafety": false,
+        "note": "成分名這一筆。次分類用字是平台原文。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "galactooligosaccharide",
+        "category": "",
+        "resultCount": 1,
+        "matchedName": "半乳寡糖；半乳寡醣",
+        "restrictionNote": "同一筆 id 17405。",
+        "unconfirmedSafety": false,
+        "note": "英文命中同一列。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "Bimuno",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名在添加物 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "半乳寡糖",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "中文在添加物 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "galactooligosaccharide",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "英文在添加物 0 筆。"
+      },
+      {
+        "tab": "history",
+        "keyword": "半乳寡糖",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "助手更新歷程（2026-11-01 至 2026-11-23）沒有這筆異動。資料時間戳 2026-11-23 06:18。"
+      }
+    ],
+    "officialCrosscheck": {
+      "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+      "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+      "done": true,
+      "notes": "2026-11-24 連線 consumer.fda.gov.tw:443 出現 OpenSSL SSL_ERROR_SYSCALL，沒有取得官方詳細頁。查詢助手 id 17405 的欄位如上，詳細頁網址是 MaterialDetail id 17405。添加物關鍵字 0 筆。"
+    }
+  },
+  "efficacy": {
+    "claimedBenefits": [
+      "Clasado FAQ：公司把臨床有效日量寫成腸道益生元效果每日 GOS 自 1.37 公克起，免疫與認知自 2.75 公克起，並寫公開研究中雙歧桿菌的變化在 7 天出現。同頁寫有 130 篇以上文獻、25 項以上臨床，這次沒有逐篇核對。",
+      "American Journal of Clinical Nutrition 2008（PMID 18996881）：44 名健康老年人、B-GOS 每日 5.5 公克、10 週交叉。摘要寫雙歧桿菌增加，吞噬作用、NK 細胞活性與 IL-10 上升，IL-6、IL-1β 與 TNF-α 下降；總膽固醇與 HDL 沒有變化。",
+      "Journal of Nutrition 2013（PMID 23303873）：45 名有代謝症候群風險因子的過重成人、12 週交叉。摘要寫 B-GOS（Bi2muno）增加糞便雙歧桿菌，並寫胰島素、總膽固醇與三酸甘油酯下降。登記 NCT01004120 把 Bimuno 寫成每日 5.5 公克；論文摘要這次沒有重寫公克數。"
+    ],
+    "suggestedDosage": "Clasado FAQ 寫每日 GOS 自 1.37 公克（腸道）或 2.75 公克（免疫與認知）起。2008 年論文與 NCT01004120 用的是每日 5.5 公克。",
+    "dosageNote": "1.37 與 2.75 公克是供應商 FAQ 對「臨床有效」的下限寫法。5.5 公克是上述人體試驗的用量。平台 id 17405 備註空白，沒有每日公克。生資頁的 ≧80% 是該公司目錄，Clasado FAQ 這次沒有寫這個百分比。"
+  },
+  "patent": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "US7883874B2 Galactooligosaccharide composition and the preparation thereof",
+        "url": "https://patents.google.com/patent/US7883874B2/en",
+        "note": "2011-02-08 核准。權利人寫 Clasado。請求項含 Bifidobacterium bifidum NCIMB 41171，以及由它的半乳糖苷酶做出的半乳寡糖組成。讀取日 2026-11-24。"
+      }
+    ],
+    "note": "這是已核准的美國專利。仕琦頁寫全球 6 項專利、超過 60 個專利號，這次只核對到上面這一號。"
+  },
+  "literature": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "Modulation of the fecal microflora profile and immune function by a novel trans-galactooligosaccharide mixture (B-GOS) in healthy elderly volunteers",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/18996881/",
+        "note": "American Journal of Clinical Nutrition，2008。44 名老年人，B-GOS 每日 5.5 公克、10 週交叉。這次讀的是 PubMed 摘要。"
+      },
+      {
+        "title": "A mixture of trans-galactooligosaccharides reduces markers of metabolic syndrome and modulates the fecal microbiota and immune function of overweight adults",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/23303873/",
+        "note": "Journal of Nutrition，2013。45 名過重成人，12 週交叉。摘要寫 Bi2muno（B-GOS）。登記 NCT01004120 寫每日 5.5 公克。"
+      }
+    ],
+    "note": "兩篇都是人體交叉試驗。FAQ 的 130 篇沒有逐一核對。"
+  },
+  "evidenceLevels": [
+    "clinical"
+  ],
+  "images": [
+    {
+      "url": "https://clasado.com/wp-content/uploads/2025/10/Website-banner.png",
+      "localPath": "",
+      "caption": "Clasado 的 Bimuno GOS 頁橫幅，是粉末與錠劑情境，包裝上沒有看到商品名。",
+      "source": "official_site"
+    }
+  ],
+  "sources": [
+    {
+      "title": "SupplySide Global 2026: Clasado Biosciences and Probi unpack the next phase of gut health",
+      "url": "https://www.nutritioninsight.com/news/clasado-probi-biotics-gut-health-supplyside-global.html",
+      "publisher": "Nutrition Insight",
+      "channel": "exhibition",
+      "accessed": "2026-11-24",
+      "whatItContributes": "2026-10-16 展前稿：Clasado 在 SupplySide Global 主打 Bimuno GOS。"
+    },
+    {
+      "title": "FAQs",
+      "url": "https://clasado.com/bimuno-gos/bimuno-gos-science/faqs/",
+      "publisher": "Clasado Biosciences",
+      "channel": "supplier_site",
+      "accessed": "2026-11-24",
+      "whatItContributes": "1.37 公克與 2.75 公克的公司寫法，以及乳源、不適合純素的說明。"
+    },
+    {
+      "title": "PubMed 18996881",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18996881/",
+      "publisher": "American Journal of Clinical Nutrition",
+      "channel": "paper",
+      "accessed": "2026-11-24",
+      "whatItContributes": "老年人、每日 5.5 公克、10 週的菌相與免疫摘要。"
+    },
+    {
+      "title": "半乳寡醣 Bimuno",
+      "url": "https://www.skyrich.com.tw/product.php?act=view&no=20",
+      "publisher": "仕琦股份有限公司",
+      "channel": "other",
+      "accessed": "2026-11-24",
+      "whatItContributes": "台灣頁自述英國 Clasado 授權銷售 Bimuno。"
+    },
+    {
+      "title": "半乳寡糖 Bimuno",
+      "url": "https://www.nutrisense.com.tw/ingredients/prebiotic-bimuno-gos/",
+      "publisher": "生資有限公司",
+      "channel": "other",
+      "accessed": "2026-11-24",
+      "whatItContributes": "台灣目錄頁。產地波蘭與 ≧80% 是這頁的寫法。"
+    }
+  ],
+  "discovery": {
+    "channel": "exhibition",
+    "scoutDate": "2026-11-24",
+    "notes": "從 Nutrition Insight 2026-10-16 的 SupplySide 預告進入 Clasado FAQ、US7883874B2 與兩篇 PubMed 摘要，再打開仕琦、生資，以及 Clasado 點名泰國與中國夥伴的頁。蔗果三糖與菊糖是別的原料。"
+  }
+}

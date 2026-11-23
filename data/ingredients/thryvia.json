@@ -1,0 +1,179 @@
+{
+  "id": "thryvia",
+  "example": false,
+  "names": {
+    "commonZh": "酪丁酸梭菌 ASM19（熱殺死後生元）",
+    "commonEn": "heat-killed Clostridium tyrobutyricum ASM19",
+    "trade": "Thryvia（Superbrewed Food 的後生元商品名）",
+    "scientific": "Clostridium tyrobutyricum strain ASM19。官網亦寫 ASM#19。不是平台上的酪酸菌 Clostridium butyricum。"
+  },
+  "supply": {
+    "supplierName": "Superbrewed Food",
+    "supplierCountry": "美國",
+    "relationship": "unknown",
+    "taiwanPartyName": "本次查無台灣關聯廠商",
+    "relationshipNote": "2026-11-24 以 Thryvia、Superbrewed、Clostridium tyrobutyricum、ASM19、ASM #19、酪丁酸梭菌，搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索。打開 Superbrewed 的 Thryvia 頁，台灣只出現在聯絡表單的國家下拉，沒有經銷名單。PR Newswire 2026-08-19 寫公司在美國德拉瓦州 New Castle，製造夥伴是 Döhler，沒有台灣公司。同日再以「Thryvia 經銷」「Superbrewed Food 台灣公司」與「酪丁酸 原料 台灣」獨立複查，只看到中文產業轉載，沒有台灣廠商產品頁或代理頁。查核日 2026-11-24。"
+  },
+  "tfda": {
+    "usable": "not_found",
+    "evidenceNotes": "Thryvia、tyrobutyricum 與 ASM19 在原料、添加物都是 0 筆。酪酸菌（id 17501）的學名是 Clostridium butyricum，菌體可供食品使用，不是這個種。查無不是准用，也不是禁用。",
+    "lookupDate": "2026-11-24",
+    "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+    "queries": [
+      {
+        "tab": "ingredient",
+        "keyword": "Thryvia",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名 0 筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "tyrobutyricum",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "種名 0 筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "酪酸菌",
+        "category": "",
+        "resultCount": 1,
+        "matchedName": "酪酸菌",
+        "restrictionNote": "id 17501。學名 Clostridium butyricum。部位菌體。備註：可供為食品原料或食品加工使用。",
+        "unconfirmedSafety": false,
+        "note": "這是另一個種。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "Thryvia",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名在添加物 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "tyrobutyricum",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "種名在添加物 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "酪酸菌",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "中文在添加物 0 筆。"
+      },
+      {
+        "tab": "history",
+        "keyword": "tyrobutyricum",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "助手更新歷程（2026-11-01 至 2026-11-23）沒有這筆異動。資料時間戳 2026-11-23 06:18。"
+      }
+    ],
+    "officialCrosscheck": {
+      "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+      "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+      "done": false,
+      "notes": "2026-11-24 連線 consumer.fda.gov.tw:443 出現 OpenSSL SSL_ERROR_SYSCALL，沒有取得官方詳細頁。查詢助手對 Thryvia 與 tyrobutyricum 是 0 筆；酪酸菌列的學名是 Clostridium butyricum。沒有可核對的 tyrobutyricum 詳細頁。"
+    }
+  },
+  "efficacy": {
+    "claimedBenefits": [
+      "Superbrewed 官網：Thryvia 是熱殺死、不具活性的 Clostridium tyrobutyricum ASM#19，定位免疫與消化；公司寫第三方臨床前試驗會活化 TLR2、TLR5 與 NOD2。頁上的消化數字來自開放式感受調查，公司同時寫這不是臨床療效。",
+      "Nutrition Insight 2026-10-26：Citruslabs 的四週感受調查用每日 200 mg；37 人中 33 人（89%）自述消化分數有數字上的改善。公司寫這不是用來建立因果，隨機安慰劑對照試驗還在啟動。",
+      "PR Newswire 2026-08-19：典型添加量約每份 200 mg。公司寫 FDA 對 GRN 1129 發了 no questions letter。這次沒有另開 GRN 1129 全文。"
+    ],
+    "suggestedDosage": "公司與 2026-10-26 新聞把用量寫成約每日或每份 200 mg。",
+    "dosageNote": "200 mg 是供應商的添加量與那次開放式調查的用量，不是已發表人體試驗的劑量，也不是平台限量。平台沒有這個種的列名。酪酸菌那一列不能套用。"
+  },
+  "patent": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "US20240034983A1 Asporogenous bacteria and uses thereof as a feed ingredient",
+        "url": "https://patents.google.com/patent/US20240034983A1/en",
+        "note": "Google Patents 寫申請人 Superbrewed Food Inc。說明書出現 ASM #19，並寫該株 spo0A 的變異。摘要把用途寫成飼料原料。讀取日 2026-11-24。"
+      },
+      {
+        "title": "US11918019B2 Food components having high protein content",
+        "url": "https://patents.google.com/patent/US11918019B2/en",
+        "note": "2024-03-05 核准，權利人 Superbrewed Food Inc。請求項是死菌細胞做成的高蛋白食物成分，說明書把 Clostridium tyrobutyricum 列為例子。沒有看到 Thryvia 或 ASM19 出現在請求項。"
+      }
+    ],
+    "note": "有一件核准專利與一件仍公開的申請。申請的標題是飼料用途。商品名 Thryvia 沒有出現在這兩件的標題。"
+  },
+  "literature": {
+    "status": "unknown",
+    "refs": [],
+    "note": "2026-11-24 以 Thryvia、ASM19 與 Clostridium tyrobutyricum 查打開的公司頁與新聞，臨床前與人體感受都是公司轉述，沒有打開到期刊論文。不把感受調查算成臨床文獻。"
+  },
+  "evidenceLevels": [],
+  "images": [
+    {
+      "url": "https://www.superbrewedfood.com/thryvia",
+      "localPath": "assets/thryvia-formats.jpg",
+      "caption": "Superbrewed 官網 Thryvia 頁的劑型照片。瓶身小字有難辨認之處，不把圖上句子當成功效。",
+      "source": "official_site"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Superbrewed Food targets digestive health with Thryvia postbiotic at SupplySide Global 2026",
+      "url": "https://www.nutritioninsight.com/news/superbrewed-food-thryvia-postbiotic-consumer-study-digestion.html",
+      "publisher": "Nutrition Insight",
+      "channel": "news",
+      "accessed": "2026-11-24",
+      "whatItContributes": "2026-10-26：每日 200 mg、四週感受調查的 89%，以及試驗尚未建立因果。"
+    },
+    {
+      "title": "Thryvia",
+      "url": "https://www.superbrewedfood.com/thryvia",
+      "publisher": "Superbrewed Food",
+      "channel": "supplier_site",
+      "accessed": "2026-11-24",
+      "whatItContributes": "菌株 ASM#19、熱殺死、GRN 1129 的公司說法，以及感受調查不是臨床療效。"
+    },
+    {
+      "title": "Superbrewed Food Launches Thryvia",
+      "url": "https://www.prnewswire.com/news-releases/superbrewed-food-launches-thryvia-the-first-shelf-stable-protein-derived-postbiotic-for-digestive-and-immune-health-formulations-302855271.html",
+      "publisher": "PR Newswire",
+      "channel": "news",
+      "accessed": "2026-11-24",
+      "whatItContributes": "2026-08-19：公司在美國 New Castle、Döhler 製造、每份約 200 mg。"
+    },
+    {
+      "title": "US20240034983A1",
+      "url": "https://patents.google.com/patent/US20240034983A1/en",
+      "publisher": "Google Patents",
+      "channel": "patent",
+      "accessed": "2026-11-24",
+      "whatItContributes": "申請書寫到 ASM #19。摘要用途是飼料原料。"
+    }
+  ],
+  "discovery": {
+    "channel": "news",
+    "scoutDate": "2026-11-24",
+    "notes": "從 Nutrition Insight 2026-10-26 的 SupplySide 調查稿進入 Superbrewed 官網、2026-08-19 上市稿，以及 US20240034983A1。酪酸菌 Clostridium butyricum 沒有併成這個種。"
+  }
+}

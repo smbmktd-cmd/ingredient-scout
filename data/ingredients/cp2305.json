@@ -1,0 +1,199 @@
+{
+  "id": "cp2305",
+  "example": false,
+  "names": {
+    "commonZh": "格氏乳桿菌 CP2305（熱處理後生元）",
+    "commonEn": "heat-treated Lactobacillus gasseri CP2305",
+    "trade": "CP2305（Asahi Group Foods 的菌株商品名；台灣成品頁寫 C-23 加氏乳酸桿菌、可欣可雅）",
+    "scientific": "Lactobacillus gasseri CP2305，寄存編號 FERM BP-11331。US20220257676A1 這樣寫。平台另有 Lactobacillus paragasseri（id 16447），是另一個學名。"
+  },
+  "supply": {
+    "supplierName": "Asahi Group Foods",
+    "supplierCountry": "日本",
+    "relationship": "unknown",
+    "taiwanPartyName": "可爾必思健康網路商店販售 C-23 成品；頁首自述為日本朝日集團官方直營",
+    "relationshipNote": "2026-11-24 以 CP2305、C-23、C23、可欣可雅、Lactobacillus gasseri、格氏乳桿菌、加氏乳酸桿菌、Asahi、朝日，搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索。打開 calpiswellness.com.tw：標題寫「可爾必思健康網路商店｜日本朝日集團官方直營・專利L-92與C-23乳酸菌」，說明文字把 C-23 乳酸菌寫成日本原裝進口的成品。這是成品販售頁的自述，不是原料代理契約，也沒有寫獨家。Asahi 與 ADM 2025-02-25 新聞寫由 ADM Wild Valencia 向北美、歐洲與亞洲的食品廠供貨，沒有點名台灣原料商。同日再以「CP2305 原料 台灣 經銷」複查，沒有寫明原料代理的公司頁。查核日 2026-11-24。"
+  },
+  "tfda": {
+    "usable": "listed_food_ingredient",
+    "evidenceNotes": "商品名 CP2305 與 C-23 在原料、添加物都是 0 筆。Lactobacillus gasseri 命中乳酸菌（id 17512），部位菌體，可供食品原料或加工使用。關鍵字 gasseri 另命中 Lactobacillus paragasseri（id 16447），那是另一個學名。這張卡對的是 id 17512。",
+    "lookupDate": "2026-11-24",
+    "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+    "queries": [
+      {
+        "tab": "ingredient",
+        "keyword": "CP2305",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "菌株商品名 0 筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Lactobacillus gasseri",
+        "category": "",
+        "resultCount": 1,
+        "matchedName": "乳酸菌",
+        "restrictionNote": "id 17512。外文名 Lactic acid bacteria。學名 Lactobacillus gasseri。部位菌體。備註：可供為食品原料或食品加工使用。",
+        "unconfirmedSafety": false,
+        "note": "這個學名的一筆。沒有寫 CP2305。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "gasseri",
+        "category": "",
+        "resultCount": 2,
+        "matchedName": "乳酸菌",
+        "restrictionNote": "id 17512：Lactobacillus gasseri。id 16447：Lactobacillus paragasseri。兩筆都是菌體，備註都寫可供為食品原料或食品加工使用。",
+        "unconfirmedSafety": false,
+        "note": "paragasseri 含有 gasseri 這串字母，但是另一個學名。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "CP2305",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名在添加物 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "Lactobacillus gasseri",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "學名在添加物 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "gasseri",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "字母在添加物 0 筆。"
+      },
+      {
+        "tab": "history",
+        "keyword": "gasseri",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "助手更新歷程（2026-11-01 至 2026-11-23）沒有這筆異動。資料時間戳 2026-11-23 06:18。"
+      }
+    ],
+    "officialCrosscheck": {
+      "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+      "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+      "done": true,
+      "notes": "2026-11-24 連線 consumer.fda.gov.tw:443 出現 OpenSSL SSL_ERROR_SYSCALL，沒有取得官方詳細頁。查詢助手 id 17512 學名為 Lactobacillus gasseri、id 16447 學名為 Lactobacillus paragasseri，兩筆部位都是菌體。這張卡的詳細頁網址是 MaterialDetail id 17512。添加物關鍵字 0 筆。"
+    }
+  },
+  "efficacy": {
+    "claimedBenefits": [
+      "Frontiers in Nutrition 2026：28 名 20–44 歲健康成人、交叉、單次兩錠共 1×10^10 個熱處理 CP2305。相對於安慰劑，α 波功率、RMSSD、心理壓力 VAS 與 POMS2 緊張—焦慮的變化較大。同一篇的 RIN14B 細胞試驗寫胞外血清素較高。作者任職 Asahi 相關實驗室。這是單次劑量，不是長期療效。",
+      "US20220257676A1 的實施例：一錠約 50 億個熱處理細胞、每日兩錠，58 名有月經週期的健康女性、吃六個連續週期。這是專利說明書裡的試驗寫法。",
+      "ADM 與 Asahi 2025-02-25 新聞：寫這支後生元有八項人體試驗，並由 ADM 向北美、歐洲與亞洲食品廠供貨。這次沒有逐一打開那八篇。"
+    ],
+    "suggestedDosage": "2026 年論文的單次劑量是 1×10^10 個熱處理細胞。專利實施例是每日兩錠、每錠約 50 億個。",
+    "dosageNote": "1×10^10 是單次交叉試驗的錠劑含量。每日兩錠是專利說明書的例子，不是平台限量。平台對 Lactobacillus gasseri 菌體沒有寫細胞數。成品頁這次打開的 HTML 沒有寫出每份毫克。"
+  },
+  "patent": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "US20220257676A1 Agent for regulating female hormone secretion and agent for alleviating unpleasant symptoms",
+        "url": "https://patents.google.com/patent/US20220257676A1/en",
+        "note": "申請人 Asahi Group Holdings 與 Tokushima University。說明書寫 Lactobacillus gasseri CP2305、FERM BP-11331，以及熱處理錠的每日兩錠例子。讀取日 2026-11-24。這是公開申請。"
+      }
+    ],
+    "note": "這件是申請公開，不是已核准證書。權利人含朝日與德島大學。"
+  },
+  "literature": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "Effects of heat-treated Lactobacillus gasseri CP2305 on brain oscillatory activity and mental stress in healthy adults",
+        "url": "https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2026.1796729/full",
+        "note": "Frontiers in Nutrition，2026。28 人、單次 1×10^10 個熱處理細胞，並含 RIN14B 細胞的血清素測定。作者任職 Asahi Quality and Innovations。"
+      }
+    ],
+    "note": "2025 年新聞寫有八項人體試驗。這張卡只核對到上面這一篇的全文頁，沒有把未打開的七篇算進來。"
+  },
+  "evidenceLevels": [
+    "cell",
+    "clinical"
+  ],
+  "images": [
+    {
+      "url": "https://www.asahi-gf.co.jp/en/health-biotics-peptides-business/cp2305/img/cp2305-logo.png",
+      "localPath": "",
+      "caption": "Asahi Group Foods 英文產品頁上的 CP2305 Postbiotics 標誌。",
+      "source": "official_site"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Postbiotic L. gasseri CP2305 for stress, mood, sleep, women’s health",
+      "url": "https://www.nutraingredients.com/News/Promotional-features/postbiotic-l-gasseri-cp2305-for-stress-mood-sleep-womens-health/",
+      "publisher": "NutraIngredients",
+      "channel": "industry_report",
+      "accessed": "2026-11-24",
+      "whatItContributes": "2026-11-23 專題：ADM 把 CP2305 放進後生元組合，並指向壓力、情緒、睡眠與女性健康。"
+    },
+    {
+      "title": "Can postbiotics help support sleep, stress, and mood through the gut-brain axis?",
+      "url": "https://www.nutraingredients.com/News/Promotional-features/can-postbiotics-help-support-sleep-stress-and-mood-through-the-gut-brain-axis/",
+      "publisher": "NutraIngredients",
+      "channel": "industry_report",
+      "accessed": "2026-11-24",
+      "whatItContributes": "同一系列專題：60 分鐘內腦波與壓力反應的公司轉述，出處指向 Frontiers in Nutrition。"
+    },
+    {
+      "title": "Frontiers in Nutrition 2026",
+      "url": "https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2026.1796729/full",
+      "publisher": "Frontiers in Nutrition",
+      "channel": "paper",
+      "accessed": "2026-11-24",
+      "whatItContributes": "單次 1×10^10 細胞的交叉試驗，以及細胞試驗。"
+    },
+    {
+      "title": "CP2305",
+      "url": "https://www.asahi-gf.co.jp/en/health-biotics-peptides-business/cp2305/",
+      "publisher": "Asahi Group Foods",
+      "channel": "supplier_site",
+      "accessed": "2026-11-24",
+      "whatItContributes": "原廠英文頁與 CP2305 Postbiotics 標誌。熱處理後仍主張機能是這頁的方向。"
+    },
+    {
+      "title": "Asahi Group Foods signs supply agreement with ADM Wild Valencia",
+      "url": "https://www.asahigroup-holdings.com/en/newsroom/detail/20250225-0201.html",
+      "publisher": "Asahi Group Holdings",
+      "channel": "news",
+      "accessed": "2026-11-24",
+      "whatItContributes": "2025-02-25：菌株屬於朝日，ADM Wild Valencia 負責日本以外的供貨，範圍寫北美、歐洲與亞洲。"
+    },
+    {
+      "title": "可爾必思健康網路商店",
+      "url": "https://www.calpiswellness.com.tw/user_data/c23.php",
+      "publisher": "可爾必思健康網路商店",
+      "channel": "other",
+      "accessed": "2026-11-24",
+      "whatItContributes": "台灣頁標題自述朝日官方直營，並把 C-23 寫成成品。這次 HTML 沒有展開每份毫克。"
+    }
+  ],
+  "discovery": {
+    "channel": "industry_report",
+    "scoutDate": "2026-11-24",
+    "notes": "從 NutraIngredients 2026-11-23 的 CP2305 專題進入 Frontiers in Nutrition、朝日產品頁與 2025-02-25 供貨新聞，再打開台灣可爾必思健康商店的頁首。Lactobacillus paragasseri 沒有併進這一株。"
+  }
+}

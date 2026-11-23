@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-24",
+  "example": false,
+  "title": "2026-11-24 正式日報",
+  "targetCount": 5,
+  "channelsCovered": [
+    "news",
+    "exhibition",
+    "industry_report"
+  ],
+  "notes": "正式五筆。主管道：Acerowell、Thryvia 為新聞；Bimuno 為展覽；Esflorin1、CP2305 為產業報導。未收未確認安全性項目：心葉青牛膽（AuraFen 的成分，id 16363）、阿勃勒果實與葉（CaFi 的來源，id 16685）。酪酸菌是 Clostridium butyricum，不是 Thryvia 的 Clostridium tyrobutyricum。Lactobacillus paragasseri 不是 CP2305。",
+  "picks": [
+    "acerowell",
+    "thryvia",
+    "bimuno-gos",
+    "esflorin1",
+    "cp2305"
+  ]
+}

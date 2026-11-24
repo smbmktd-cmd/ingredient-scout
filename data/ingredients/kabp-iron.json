@@ -1,0 +1,197 @@
+{
+  "id": "kabp-iron",
+  "example": false,
+  "names": {
+    "commonZh": "乳酸乳球菌乳脂亞種 H-61（熱處理後生元）",
+    "commonEn": "heat-treated Lactococcus lactis subsp. cremoris H-61",
+    "trade": "KABP Iron（Kaneka Probiotics 的商品名；AB-BIOTICS 頁寫 Gyntima Iron）",
+    "scientific": "Lactococcus lactis subsp. cremoris H-61。Kaneka 頁亦寫 H61。不是 id 17540 的 Lactococcus lactis subsp. lactis，也不是已收錄的 LC-Plasma（JCM 5805）。"
+  },
+  "supply": {
+    "supplierName": "Kaneka Probiotics（AB-BIOTICS 頁用 Gyntima Iron）",
+    "supplierCountry": "日本（歐洲據點與製造頁在西班牙 AB-BIOTICS；北美據點在美國）",
+    "relationship": "unknown",
+    "taiwanPartyName": "利統股份有限公司（目錄販售 N.C. 的 H-61，不是 KABP Iron）；綠茵生技（H61 頁，供應方待確認）",
+    "relationshipNote": "2026-11-25 以 KABP Iron、KABP、Gyntima Iron、H61、H-61、Lactococcus cremoris、乳酸乳球菌，搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索，並打開利統、綠茵、Kaneka 與 AB-BIOTICS 的頁。利統頁把 H-61 放在 N.C. CORPORATION 底下，寫 NARO 與 N.C. 共同開發、每日 15 mg、每公克 6,700 億，訴求是保濕，沒有 KABP、Kaneka 或鐵，也沒有寫總代理。綠茵頁寫日本食研所開發、製藥公司監製，路徑含 agent，可見文字沒有供應商名稱，也沒有 KABP。TOA Biopharma 英文頁寫 NARO 分離 H61，並寫授權 TOA 在自家工廠製造與銷售。Kaneka 與 AB-BIOTICS 則用 KABP Iron、Gyntima Iron 銷售同一株的熱處理物。N.C.、TOA 與 Kaneka／AB-BIOTICS 三組說法不同，都留下，不併成獨家。同株不是 KABP Iron 的代理。同日再以「KABP Iron 台灣」獨立複查，沒有點名這個商品名的台灣頁。查核日 2026-11-25。"
+  },
+  "tfda": {
+    "usable": "listed_food_ingredient",
+    "evidenceNotes": "KABP、H61 與 H-61 在原料、添加物都是 0 筆。Lactococcus lactis subsp. cremoris 命中乳酸菌（id 17539），學名含這個亞種，部位菌體，可供食品原料或加工使用，沒有未確認標記，也沒有寫 H-61 或熱殺死。cremoris 另有 Lactobacillus cremoris（id 17508）與 Leuconostoc mesenteroides subsp. cremoris（id 17542）；id 17540 的 Lactococcus lactis subsp. lactis 是另一個亞種。添加物的 cremoris、KABP 與 Lactococcus 都是 0 筆。",
+    "lookupDate": "2026-11-25",
+    "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+    "queries": [
+      {
+        "tab": "ingredient",
+        "keyword": "KABP",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名 0 筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "H61",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "菌株編號 0 筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "H-61",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "帶連字號的編號 0 筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Lactococcus lactis subsp. cremoris",
+        "category": "",
+        "resultCount": 1,
+        "matchedName": "乳酸菌",
+        "restrictionNote": "id 17539。學名 Lactococcus lactis subsp. cremoris, Lactococcus cremoris, Streptococcus lactis subsp. cremoris。部位菌體。備註：可供為食品原料或食品加工使用。",
+        "unconfirmedSafety": false,
+        "note": "這個亞種的那一筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "cremoris",
+        "category": "",
+        "resultCount": 3,
+        "matchedName": "乳酸菌",
+        "restrictionNote": "id 17508 學名 Lactobacillus cremoris。id 17539 是本筆。id 17542 學名 Leuconostoc mesenteroides subsp. cremoris。三筆備註都是可供食品原料或加工使用。",
+        "unconfirmedSafety": false,
+        "note": "三筆不是同一個學名。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "KABP",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名在添加物 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "cremoris",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "亞種名在添加物 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "Lactococcus",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "屬名在添加物 0 筆。"
+      },
+      {
+        "tab": "history",
+        "keyword": "cremoris",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "助手更新歷程（2026-11-01 至 2026-11-24）沒有這組字的異動。資料時間戳 2026-11-24 06:17。"
+      }
+    ],
+    "officialCrosscheck": {
+      "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+      "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+      "done": true,
+      "notes": "2026-11-25 連線 consumer.fda.gov.tw 出現 SSL UNEXPECTED_EOF_WHILE_READING，沒有取得官方詳細頁。查詢助手細節時間戳 2026-11-24 06:17，siteTotals 原料 1709、添加物 804。id 17539 的詳細欄位與上述備註一致，詳細頁網址是 MaterialDetail id 17539。添加物的 cremoris 是 0 筆。"
+    }
+  },
+  "efficacy": {
+    "claimedBenefits": [
+      "SupplySide Supplement Journal 2026-11-20：Kaneka 在 SupplySide Global 推出後生元 KABP Iron，寫成熱處理的 Lactococcus lactis subsp. cremoris H-61。文中說 2022 年 Nutrients 的試驗裡，健康年輕女性補充四週後鐵蛋白與血清鐵上升。文章沒有寫毫克。",
+      "Kaneka 女性健康頁：KABP Iron 寫每份 3 億個細胞，菌株 L. lactis subsp. cremoris H61，定位維持已在正常範圍的鐵與鐵吸收。同站 PDF 把這一株寫在 KABP Gyntima Iron 底下，也是每劑 3 億個細胞，並寫 6 項人體臨床。這次沒有逐篇核對那 6 項。",
+      "AB-BIOTICS 女性健康頁與 2026 產品手冊：名稱寫 Gyntima Iron，劑量寫 60 mg／劑，同樣是 L. lactis subsp. cremoris H-61 的熱處理後生元。手冊引用的第一篇就是下面這篇 Nutrients。60 mg 與 3 億個細胞是兩種單位，頁上沒有換算。",
+      "Nutrients 2022（DOI 10.3390/nu14153144）：年輕日本女性、每日 60 mg 熱殺死 H61 或安慰劑、四週。錠劑由 Toa Biopharma 提供，每錠 30 mg。完成分析的是 29 人。摘要寫血清鐵、轉鐵蛋白飽和度與鐵蛋白在 H61 組上升、安慰劑組不變。結果段同時寫介入前 H61 組的血清鐵與飽和度已經高於安慰劑組。膳食鐵攝取沒有因為介入而增加。"
+    ],
+    "suggestedDosage": "AB-BIOTICS 與 2022 年試驗寫 60 mg。Kaneka 頁與 PDF 寫每份或每劑 3 億個細胞。利統頁對 N.C. 的 H-61 另寫每日 15 mg。三個數字都留下。",
+    "dosageNote": "60 mg 是 AB-BIOTICS 頁與 Toa 提供的試驗錠。3 億個細胞是 Kaneka 頁的寫法，沒有換成毫克。15 mg 是利統對另一家原料的寫法，不是 KABP Iron。平台 id 17539 沒有毫克或菌數。"
+  },
+  "patent": {
+    "status": "unknown",
+    "refs": [],
+    "note": "2026-11-25 以 KABP Iron、H-61、Lactococcus cremoris 查打開的 Kaneka、AB-BIOTICS 與 TOA 頁，沒有對到掛 KABP Iron 的專利號。利統頁寫日本特許第 4604207 號、TW1640315B 與 JP5935155，這次沒有打開說明書，不把這些號碼算成已核對。沒有查完就不能寫成無專利。"
+  },
+  "literature": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "Heat-Killed Lactococcus lactis subsp. cremoris H61 Altered the Iron Status of Young Women",
+        "url": "https://www.mdpi.com/2072-6643/14/15/3144",
+        "note": "Nutrients，2022-07-30。DOI 10.3390/nu14153144。每日 60 mg、四週、分析 29 人。試驗錠由 Toa Biopharma 提供，論文沒有寫 KABP Iron 或 Gyntima Iron。介入前兩組血清鐵已經有差異。"
+      }
+    ],
+    "note": "這篇是人體隨機對照，對象是熱殺死 H61，不是已經標成 KABP Iron 的原料批。Kaneka 寫的 6 項臨床沒有逐篇打開。皮膚與小鼠那幾篇只在 AB-BIOTICS 手冊的引用列看到，不另標等級。"
+  },
+  "evidenceLevels": [
+    "clinical"
+  ],
+  "images": [
+    {
+      "url": "https://kanekaprobiotics.com/wp-content/uploads/womens-health-image.webp",
+      "localPath": "",
+      "caption": "Kaneka Probiotics 女性健康頁的主圖。這次沒有把它讀成 KABP Iron 的包裝。",
+      "source": "official_site"
+    }
+  ],
+  "sources": [
+    {
+      "title": "7 health optimization category innovations at SupplySide Global",
+      "url": "https://www.supplysidesj.com/supplements/7-health-optimization-category-innovations-at-supplyside-global",
+      "publisher": "SupplySide Supplement Journal",
+      "channel": "industry_report",
+      "accessed": "2026-11-25",
+      "whatItContributes": "2026-11-20：Kaneka 在 SupplySide Global 推出 KABP Iron，以及文章對 2022 年 Nutrients 鐵指標的轉述。"
+    },
+    {
+      "title": "Probiotics for Vaginal, Urogenital & Menopausal Wellness",
+      "url": "https://kanekaprobiotics.com/wellness-areas/womens-health/",
+      "publisher": "Kaneka Probiotics",
+      "channel": "supplier_site",
+      "accessed": "2026-11-25",
+      "whatItContributes": "KABP Iron、H61，以及每份 3 億個細胞。頁上同時列日本、美國與西班牙據點。"
+    },
+    {
+      "title": "Gyntima Iron",
+      "url": "https://www.ab-biotics.com/therapeutic-areas/womens-health/",
+      "publisher": "AB-BIOTICS",
+      "channel": "supplier_site",
+      "accessed": "2026-11-25",
+      "whatItContributes": "同一株寫成 Gyntima Iron、60 mg／劑，製造據點在西班牙。"
+    },
+    {
+      "title": "仙杜瑞拉乳酸菌 Lactococcus cremoris H-61",
+      "url": "https://www.lytone.com/functional-food-catalog/H61",
+      "publisher": "利統股份有限公司",
+      "channel": "other",
+      "accessed": "2026-11-25",
+      "whatItContributes": "台灣目錄販售 N.C. 的 H-61，每日 15 mg，沒有 KABP Iron。"
+    }
+  ],
+  "discovery": {
+    "channel": "industry_report",
+    "scoutDate": "2026-11-25",
+    "notes": "從 SupplySide Supplement Journal 2026-11-20 的展後觀察進入 Kaneka 女性健康頁、AB-BIOTICS 的 Gyntima Iron 頁與 2022 年 Nutrients，再打開利統與綠茵的 H61 頁。subsp. lactis 與 LC-Plasma 沒有併成這一株。60 mg、3 億個細胞與利統的 15 mg 同時留下。"
+  }
+}

@@ -1,0 +1,178 @@
+{
+  "id": "nordpea",
+  "example": false,
+  "names": {
+    "commonZh": "豌豆分離蛋白",
+    "commonEn": "pea protein isolate",
+    "trade": "NordPea（Lantmännen 的豌豆蛋白商品名；與 Ingredion 合作）",
+    "scientific": "Pisum sativum（豌豆種子做成的分離蛋白。官方產品頁這次沒有再寫拉丁學名。不是蠶豆 Vicia faba。）"
+  },
+  "supply": {
+    "supplierName": "Lantmännen Biorefineries",
+    "supplierCountry": "瑞典",
+    "relationship": "unknown",
+    "taiwanPartyName": "本次查無台灣關聯廠商",
+    "relationshipNote": "2026-11-25 以 NordPea、Lantmännen、Lantmannen、Ingredion、宜瑞安、豌豆蛋白、豌豆分離蛋白、Pisum sativum，搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索。Lantmännen 產品頁與 Fi Europe 展品頁沒有台灣公司。欣宏生化科技的 Ingredion 頁列的是澱粉，不是 NordPea。宜瑞安 SDS 上的台灣電話屬於另一支豌豆蛋白 VITESSENCE Pulse 1803，不是 NordPea 的經銷頁。同日再以「NordPea 台灣」「NordPea Taiwan」獨立複查，沒有台灣廠商產品頁或代理頁。查核日 2026-11-25。"
+  },
+  "tfda": {
+    "usable": "listed_food_ingredient",
+    "evidenceNotes": "NordPea 與 pea protein 在原料是 0 筆，添加物的豌豆與 Pisum 也是 0 筆。豌豆與 Pisum sativum 命中同一筆（id 17167），次分類可供直接食用，部位種子，備註空白，沒有未確認標記。列名是豌豆種子，沒有分離蛋白規格，也沒有蛋白百分比。",
+    "lookupDate": "2026-11-25",
+    "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+    "queries": [
+      {
+        "tab": "ingredient",
+        "keyword": "NordPea",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名 0 筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "豌豆",
+        "category": "",
+        "resultCount": 1,
+        "matchedName": "豌豆",
+        "restrictionNote": "id 17167。次分類為草、木本植物類(2)可供直接食用。外文名 Pea。學名 Pisum sativum。部位種子。備註空白。",
+        "unconfirmedSafety": false,
+        "note": "種子這一筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Pisum sativum",
+        "category": "",
+        "resultCount": 1,
+        "matchedName": "豌豆",
+        "restrictionNote": "同一筆 id 17167。",
+        "unconfirmedSafety": false,
+        "note": "學名命中同一列。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "pea protein",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "分離蛋白這組英文 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "豌豆",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "中文在添加物 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "Pisum",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "學名在添加物 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "NordPea",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名在添加物 0 筆。"
+      },
+      {
+        "tab": "history",
+        "keyword": "豌豆",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "助手更新歷程（2026-11-01 至 2026-11-24）沒有這組字的異動。資料時間戳 2026-11-24 06:17。"
+      }
+    ],
+    "officialCrosscheck": {
+      "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+      "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+      "done": true,
+      "notes": "2026-11-25 連線 consumer.fda.gov.tw 出現 SSL UNEXPECTED_EOF_WHILE_READING，沒有取得官方詳細頁。查詢助手細節時間戳 2026-11-24 06:17，siteTotals 原料 1709、添加物 804。id 17167 的詳細欄位與上述一致，詳細頁網址是 MaterialDetail id 17167。添加物的豌豆是 0 筆。"
+    }
+  },
+  "efficacy": {
+    "claimedBenefits": [
+      "Lantmännen 產品頁：NordPea 是中性風味的豌豆蛋白，寫高蛋白、無主要過敏原、無麩質，可分散，黏度用來做口感。應用寫即溶、即飲與乳品類似物。同頁寫仍在最終測試，數據還是初步的，商業供應寫 2027 年第 2 季。這頁沒有寫蛋白百分比，也沒有健康功效試驗。",
+      "Lantmännen 2026-11-05 新聞稿：與 Ingredion 合作，在瑞典 Lidköping 新廠生產，廠的豌豆與蠶豆處理能力寫約每年 4 萬公噸。正式發表寫在 Fi Europe 2026，攤位 30J62，並進 New Product Zone。新聞稿用 launched，沒有重複產品頁的 2027 年第 2 季。",
+      "Fi Global Insights 2026-10-29：寫第一支 NordPea 分離蛋白為 85% 蛋白、無過敏原、無麩質，商業供應寫 2027 年第 2 季。85% 只出現在這篇，產品頁這次打開的內文沒有這個數字。"
+    ],
+    "suggestedDosage": "這次打開的產品頁、新聞稿與展品頁都沒有寫每日公克或臨床劑量。",
+    "dosageNote": "沒有供應商建議的保健劑量，也沒有看到 NordPea 的人體試驗劑量。平台豌豆種子的備註是空白，不能換成分離蛋白的上限。85% 是 2026-10-29 那篇對蛋白含量的寫法，不是劑量。"
+  },
+  "patent": {
+    "status": "unknown",
+    "refs": [],
+    "note": "2026-11-25 以 NordPea、Lantmännen pea protein isolate 查打開的產品頁、新聞稿與展品頁，沒有對到掛這個商品名的專利公開號。沒有查完就不能寫成無專利。"
+  },
+  "literature": {
+    "status": "unknown",
+    "refs": [],
+    "note": "2026-11-25 以 NordPea 查打開的產品頁與新聞，沒有看到期刊論文。產品頁寫數據仍是初步的。不把口感描述算成文獻。"
+  },
+  "evidenceLevels": [],
+  "images": [
+    {
+      "url": "https://www.lantmannenbiorefineries.se/siteassets/5.-food-ingredients/ingredienser/vaxtbaserat-protein/nordpea-pea-protein/nordpea-characteristics.jpg?width=600&rmode=min",
+      "localPath": "",
+      "caption": "Lantmännen 官網 NordPea 頁的特性圖，替代文字是 NordPea Characteristics。",
+      "source": "official_site"
+    }
+  ],
+  "sources": [
+    {
+      "title": "NordPea - Pea Protein Isolate",
+      "url": "https://visitor.figlobal.com/event/fi-europe2026/product/UHJvZHVjdF8xNTM2MzIy",
+      "publisher": "Fi Europe 2026 展品頁",
+      "channel": "exhibition",
+      "accessed": "2026-11-25",
+      "whatItContributes": "展品名、Lantmännen Biorefineries、攤位 30J62，以及中性風味、即飲與乳品類似物。"
+    },
+    {
+      "title": "NordPea Pea Protein",
+      "url": "https://www.lantmannenbiorefineries.com/food-ingredients/products/plant-based-protein/nord-pea/",
+      "publisher": "Lantmännen Biorefineries",
+      "channel": "supplier_site",
+      "accessed": "2026-11-25",
+      "whatItContributes": "高蛋白、無主要過敏原、無麩質，以及數據仍初步、商業供應寫 2027 年第 2 季。"
+    },
+    {
+      "title": "Lantmännen launches NordPea to meet demand for sustainable plant protein",
+      "url": "https://lantmannen.prezly.com/lantmannen-launches-nordpea-to-meet-demand-for-sustainable-plant-protein",
+      "publisher": "Lantmännen",
+      "channel": "news",
+      "accessed": "2026-11-25",
+      "whatItContributes": "2026-11-05：與 Ingredion 合作、Lidköping 新廠，以及 Fi Europe 攤位 30J62。"
+    },
+    {
+      "title": "Meet NordPea – a new standard in pea protein",
+      "url": "https://insights.figlobal.com/plant-based/meet-nordpea-a-new-standard-in-pea-protein",
+      "publisher": "Fi Global Insights",
+      "channel": "industry_report",
+      "accessed": "2026-11-25",
+      "whatItContributes": "2026-10-29：85% 蛋白只在這篇看到，並再次寫 2027 年第 2 季。"
+    }
+  ],
+  "discovery": {
+    "channel": "exhibition",
+    "scoutDate": "2026-11-25",
+    "notes": "從 Fi Europe 2026 展品頁進入 Lantmännen 產品頁、2026-11-05 新聞稿與 2026-10-29 的 Fi Global Insights。產品頁的 2027 年第 2 季與新聞稿的 launched 同時留下。85% 沒有寫進產品頁這次看到的內文。VITESSENCE Pulse 1803 與欣宏的澱粉頁沒有併成 NordPea 的台灣經銷。"
+  }
+}

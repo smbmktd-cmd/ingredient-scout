@@ -1,0 +1,195 @@
+{
+  "id": "lp299v",
+  "example": false,
+  "names": {
+    "commonZh": "植物乳植桿菌 299v",
+    "commonEn": "Lactiplantibacillus plantarum 299v",
+    "trade": "LP299V（Probi 的菌株商品名；舊稱 Lactobacillus plantarum 299v）",
+    "scientific": "Lactiplantibacillus plantarum 299v，寄存編號 DSM 9843。2021 年 Beneficial Microbes 綜述這樣寫，並寫舊名 Lactobacillus plantarum 299v。不是 Lactobacillus paraplantarum。"
+  },
+  "supply": {
+    "supplierName": "Probi（Symrise 旗下；總部在瑞典 Lund）",
+    "supplierCountry": "瑞典",
+    "relationship": "taiwan_distributor",
+    "taiwanPartyName": "盛美股份有限公司（產品頁自述供應這支菌株；未寫總代理）",
+    "relationshipNote": "2026-11-25 以 LP299V、LP299v、299v、Probi、Lactiplantibacillus plantarum、植物乳桿菌，搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索，並打開盛美產品頁與 probi.com.tw。盛美頁寫瑞典 Probi AB 出品、產地美國、每日 1.0×10^10 CFU，沒有寫代理、總代理或獨家。probi.com.tw 的聯絡區塊是瑞典 Lund、新加坡與美國 Redmond，沒有點名盛美。同日再以「LP299V 台灣 總代理」獨立複查，沒有打開到原廠經銷名單。盛美的供應是該公司產品頁的自述，產地美國與總部在瑞典的寫法同時留下。查核日 2026-11-25。"
+  },
+  "tfda": {
+    "usable": "listed_food_ingredient",
+    "evidenceNotes": "LP299V 與 299v 在原料、添加物都是 0 筆。Lactiplantibacillus plantarum 命中乳酸菌（id 17518），學名含這個種，部位菌體，可供食品原料或加工使用，沒有未確認標記，也沒有寫菌株編號或 CFU。關鍵字 Lactobacillus plantarum 是 3 筆：id 17518、亞種那筆 id 17603，以及字串含 plantarum 的 Lactobacillus paraplantarum（id 17552）。添加物的 plantarum 與乳酸菌都是 0 筆。",
+    "lookupDate": "2026-11-25",
+    "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+    "queries": [
+      {
+        "tab": "ingredient",
+        "keyword": "LP299V",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名 0 筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "299v",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "菌株編號 0 筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Lactiplantibacillus plantarum",
+        "category": "",
+        "resultCount": 1,
+        "matchedName": "乳酸菌",
+        "restrictionNote": "id 17518。學名 Lactobacillus plantarum, Lactiplantibacillus plantarum。部位菌體。備註：可供為食品原料或食品加工使用。",
+        "unconfirmedSafety": false,
+        "note": "現用學名這一筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Lactobacillus plantarum",
+        "category": "",
+        "resultCount": 3,
+        "matchedName": "乳酸菌",
+        "restrictionNote": "id 17518 含 Lactobacillus plantarum 與 Lactiplantibacillus plantarum。id 17603 學名 Lactobacillus plantarum subsp. Plantarum。id 17552 學名 Lactobacillus paraplantarum，因為字串含 plantarum 被算進來。三筆備註都是可供食品原料或加工使用。",
+        "unconfirmedSafety": false,
+        "note": "第三筆是另一個種名。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "LP299V",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名在添加物 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "plantarum",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "種名在添加物 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "乳酸菌",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "中文在添加物 0 筆。"
+      },
+      {
+        "tab": "history",
+        "keyword": "plantarum",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "助手更新歷程（2026-11-01 至 2026-11-24）沒有這組字的異動。資料時間戳 2026-11-24 06:17。"
+      }
+    ],
+    "officialCrosscheck": {
+      "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+      "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+      "done": true,
+      "notes": "2026-11-25 連線 consumer.fda.gov.tw 出現 SSL UNEXPECTED_EOF_WHILE_READING，沒有取得官方詳細頁。查詢助手細節時間戳 2026-11-24 06:17，siteTotals 原料 1709、添加物 804。id 17518 的詳細欄位與上述備註一致，詳細頁網址是 MaterialDetail id 17518。添加物的 plantarum 是 0 筆。"
+    }
+  },
+  "efficacy": {
+    "claimedBenefits": [
+      "NutraIngredients 2026-11-24：Probi 的 LP299V 用在日本 Nomura Dairy 與 Kunugi 的 My Flora 鬆餅，每片 100 億 CFU；泰國 BioActive+ 的 TRIBIOTIC PRO 以它為主要益生菌，一日一包。報導寫這支菌株有 35 年以上研究、超過 90 項人體臨床。文中的日本成人試驗寫每日至少 100 億 CFU、八週，較易腹瀉者的排便次數低於安慰劑，論文寫在 2025 年 Japanese Journal of Medical and Pharmaceutical Sciences。這次沒有打開那篇原文。",
+      "Probi 英文菌株頁：菌株由隆德大學 Bengt Jeppsson 從健康人體腸黏膜分離。頁上寫 85 項以上人體臨床、300 篇以上科學出版、35 年以上研究，並寫可黏附腸上皮的甘露糖受體、通過消化道後仍可測得。這頁沒有寫出每日 CFU。",
+      "probi.com.tw 的菌株頁寫 200 篇以上科學出版、超過 65 項臨床。盛美頁寫超過 200 篇科學文獻、超過 80 項臨床，以及每日 1.0×10^10 CFU。三處篇數不一致，都留下。",
+      "2021 年 Beneficial Microbes 綜述（截至 2020-06-30）：超過 170 篇出版、其中 60 篇以上是人體臨床，主要寫胃腸，包含腸躁症的脹氣與腹痛，以及鐵吸收與鐵狀態。綜述寫菌株安全、不帶抗生素抗性，冷凍乾燥後室溫穩定。"
+    ],
+    "suggestedDosage": "盛美頁寫每日 1.0×10^10 CFU。2026-11-24 新聞裡的鬆餅與日本試驗寫至少 100 億 CFU，數量級相同。Probi 這次打開的英文菌株頁沒有寫 CFU。",
+    "dosageNote": "1.0×10^10 CFU 是盛美產品頁的建議食用量，也是新聞對那次飲料試驗與鬆餅的寫法。平台 id 17518 沒有 CFU 或菌株編號。US9687513B2 請求項的活菌範圍是約 1×10^6 到 1×10^14 CFU，那是專利請求項，不是這次的供應商建議。"
+  },
+  "patent": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "US9687513B2 Methods of treating anemia and increasing the absorption of non-heme iron by administration of lactobacillus plantarum",
+        "url": "https://patents.google.com/patent/US9687513B2/en",
+        "note": "2017-06-27 核准，權利人 Probi AB。請求項列 Lactobacillus plantarum 299v，DSM 9843，以及 299、HEAL 9、HEAL 19、HEAL 99。用途寫貧血治療與非血基質鐵，活菌量約 1×10^6 到 1×10^14 CFU。讀取日 2026-11-25。"
+      }
+    ],
+    "note": "這件核准專利的請求項是鐵與貧血。Probi 菌株頁另寫菌株受專利保護，沒有在那頁給出編號。綜述也寫有多國專利，這次只核對到上面這一件的全文頁。"
+  },
+  "literature": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "Lactiplantibacillus plantarum 299v (LP299V): three decades of research",
+        "url": "https://doi.org/10.3920/bm2020.0191",
+        "note": "Beneficial Microbes，2021-08-09，綜述。作者含 Probi。統計到 2020-06-30：170 篇以上出版、60 篇以上人體臨床。基因組登錄號 NZ_LEAV01000004。證據等級含體外、動物與人體。"
+      }
+    ],
+    "note": "綜述本身涵蓋三個等級。2025 年日本期刊那篇只在新聞看到篇名與方向，沒有打開原文，不另列成已讀文獻。"
+  },
+  "evidenceLevels": [
+    "in_vitro",
+    "animal",
+    "clinical"
+  ],
+  "images": [
+    {
+      "url": "https://www.probi.com/media/1waglvj2/probi-ikoner_manufacturing-probiotic-powder.png",
+      "localPath": "",
+      "caption": "Probi 官網 LP299V 頁的益生菌粉末製造圖示，不是這支菌株的包裝照片。",
+      "source": "official_site"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Probi’s LP299V finds new formats and markets in Asia",
+      "url": "https://www.nutraingredients.com/Article/2026/11/24/probis-probiotic-strain-expands-footprint-in-application-format-and-market/",
+      "publisher": "NutraIngredients",
+      "channel": "news",
+      "accessed": "2026-11-25",
+      "whatItContributes": "2026-11-24：日本鬆餅每片 100 億 CFU、泰國複方粉，以及報導所寫的臨床篇數。"
+    },
+    {
+      "title": "LP299V Probiotic Strain",
+      "url": "https://www.probi.com/probiotics/strains/lp299v-probiotic-strain/",
+      "publisher": "Probi",
+      "channel": "supplier_site",
+      "accessed": "2026-11-25",
+      "whatItContributes": "分離來源、85 項以上人體臨床與 300 篇以上出版的公司寫法。這頁沒有每日 CFU。"
+    },
+    {
+      "title": "植物乳桿菌 LP299V",
+      "url": "https://www.shinemate.com.tw/zh-tw/healthcare.php?id=29",
+      "publisher": "盛美股份有限公司",
+      "channel": "other",
+      "accessed": "2026-11-25",
+      "whatItContributes": "台灣頁寫瑞典 Probi AB、產地美國，以及每日 1.0×10^10 CFU。沒有寫總代理。"
+    },
+    {
+      "title": "US9687513B2",
+      "url": "https://patents.google.com/patent/US9687513B2/en",
+      "publisher": "Google Patents",
+      "channel": "patent",
+      "accessed": "2026-11-25",
+      "whatItContributes": "權利人 Probi AB，請求項含 299v 與 DSM 9843。"
+    }
+  ],
+  "discovery": {
+    "channel": "news",
+    "scoutDate": "2026-11-25",
+    "notes": "從 NutraIngredients 2026-11-24 的亞洲應用稿進入 Probi 英文菌株頁、2021 年綜述與 US9687513B2，再打開盛美產品頁與 probi.com.tw。paraplantarum 沒有併成這支菌株。盛美寫的產地美國與 Probi 總部在瑞典同時留下。"
+  }
+}

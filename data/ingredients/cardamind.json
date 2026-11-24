@@ -1,0 +1,198 @@
+{
+  "id": "cardamind",
+  "example": false,
+  "names": {
+    "commonZh": "黑豆蔻（大印度荳蔻）果實水萃",
+    "commonEn": "black cardamom fruit extract",
+    "trade": "CardaMind（Akay Bioactives 的黑豆蔻果實萃取商品名；試驗代碼 MA2-24）",
+    "scientific": "Amomum subulatum Roxb.（果實的水萃取。平台中文名是大印度荳蔻、尼泊爾荳蔻，外文名 Black Cardamom。不是小豆蔻 Elettaria cardamomum，也不是草果 Amomum tsao-ko。）"
+  },
+  "supply": {
+    "supplierName": "Akay Bioactives（Akay Natural Ingredients）",
+    "supplierCountry": "印度",
+    "relationship": "unknown",
+    "taiwanPartyName": "Rainbow Aroma（同種精油販售，頁寫非食品）；Charoma 夏綠蒂芳療（同種精油販售）",
+    "relationshipNote": "2026-11-25 以 CardaMind、Akay、Akay Bioactives、黑豆蔻、大印度荳蔻、尼泊爾荳蔻、Amomum subulatum、Black Cardamom，搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索，並打開 Akay 聯絡頁、Rainbow Aroma 與 Charoma 的產品頁。Akay 聯絡頁列美國、法國、德國、中國上海、印度、丹麥與義大利，沒有台灣據點或經銷名單。Rainbow Aroma 頁寫學名 Amomum subulatum、尼泊爾、果實蒸氣蒸餾，並寫非食品、藥品或醫療用途。Charoma 頁寫學名 Amomum subalatum（該頁拼法）、種子蒸餾精油、高雄鹽埕展示店，供調配與教學，沒有 CardaMind。同日再以「CardaMind 台灣」「Akay 台灣 代理」獨立複查，沒有這個商品名的原料代理頁。精油販售不是這個水萃的代理。查核日 2026-11-25。"
+  },
+  "tfda": {
+    "usable": "listed_food_ingredient",
+    "evidenceNotes": "CardaMind 是 0 筆。Amomum subulatum、Black Cardamom、大印度荳蔻與尼泊爾荳蔻都命中同一筆（id 17228），次分類是香辛調味，部位種子與果實，備註寫僅以達香辛調味目的、適量使用，沒有未確認標記。cardamom 另有小豆蔻（id 16918）與草果（id 17229）；添加物的 CardaMind、Amomum 與豆蔻都是 0 筆。香辛調味列名不是每日 250 mg 萃取的用量許可。",
+    "lookupDate": "2026-11-25",
+    "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+    "queries": [
+      {
+        "tab": "ingredient",
+        "keyword": "CardaMind",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名 0 筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Amomum subulatum",
+        "category": "",
+        "resultCount": 1,
+        "matchedName": "大印度荳蔻；尼泊爾荳蔻",
+        "restrictionNote": "id 17228。次分類為草、木本植物類(3)供香辛調味使用。外文名 Black Cardamom。學名 Amomum subulatum。部位種子、果實。備註：可作為賦予食品特殊香味或風味，惟該等品項僅以達香辛調味目的，適量使用為宜。",
+        "unconfirmedSafety": false,
+        "note": "學名這一筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "大印度荳蔻",
+        "category": "",
+        "resultCount": 1,
+        "matchedName": "大印度荳蔻；尼泊爾荳蔻",
+        "restrictionNote": "同一筆 id 17228。",
+        "unconfirmedSafety": false,
+        "note": "中文名命中同一列。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "cardamom",
+        "category": "",
+        "resultCount": 3,
+        "matchedName": "小豆蔻；豆蔻／大印度荳蔻；尼泊爾荳蔻／草果；草荳蔻",
+        "restrictionNote": "id 16918 小豆蔻學名 Elettaria cardamomum、Amomum cardamomum L.，可供直接食用。id 17228 是本筆。id 17229 草果學名 Amomum tsao-ko、Lanxangia tsaoko，也是香辛調味。",
+        "unconfirmedSafety": false,
+        "note": "三筆不是同一個種。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "CardaMind",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名在添加物 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "Amomum",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "屬名在添加物 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "豆蔻",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "中文在添加物 0 筆。"
+      },
+      {
+        "tab": "history",
+        "keyword": "Amomum subulatum",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "助手更新歷程（2026-11-01 至 2026-11-24）沒有這組字的異動。資料時間戳 2026-11-24 06:17。"
+      }
+    ],
+    "officialCrosscheck": {
+      "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+      "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+      "done": true,
+      "notes": "2026-11-25 連線 consumer.fda.gov.tw 出現 SSL UNEXPECTED_EOF_WHILE_READING，沒有取得官方詳細頁。查詢助手細節時間戳 2026-11-24 06:17，siteTotals 原料 1709、添加物 804。id 17228 的詳細欄位與上述限制一致，詳細頁網址是 MaterialDetail id 17228。添加物的 Amomum 與豆蔻是 0 筆。"
+    }
+  },
+  "efficacy": {
+    "claimedBenefits": [
+      "Akay 產品頁：CardaMind 是栽培黑豆蔻果實的水萃，定位無咖啡因的精神能量、專注與反應；頁上寫低劑量每日一次 250 mg，並寫單獨使用的認知表現可到約 3 小時，與咖啡因併用可到約 5 小時，反應時間效益寫到 8 小時。頁上引用 Thomas 等人 2026 年 Frontiers in Neuroscience。",
+      "Nutrition Insight 2026-11-03：Akay 的 Liz Clarke 說急性使用與精神能量、專注、認知處理有關；14 天重複使用的隨機雙盲、安慰劑與活性對照結果刊在 Frontiers in Neuroscience。她說單獨約 3 小時，加咖啡因到 5 小時，有些情況到 8 小時。",
+      "Frontiers in Neuroscience 2026-04-08（DOI 10.3389/fnins.2026.1786880）：96 名 35–65 歲成人，MA2-24 每日 250 mg，對安慰劑的顯著差異主要在服後 3 小時內；與 200 mg 咖啡因併用時，較後面的 5–8 小時較明顯。登記號 CTRI/2024/09/074472。",
+      "同一組作者 2026-09-29 的 14 天試驗（DOI 10.3389/fnins.2026.1879347）：四組各 24 人、14 天，MA2-24 仍是 250 mg。摘要寫單獨使用的顯著改善多在服後 1–3 小時，與咖啡因併用則在較後面的 5–8 小時、尤其第 14 天。致謝寫這支萃取 patent pending，並註冊為 CardaMind。4 月那篇致謝寫 patented。兩處用詞都留下。"
+    ],
+    "suggestedDosage": "產品頁與兩篇試驗都寫每日 250 mg 一次。試驗的併用組另有 200 mg 咖啡因，那不是 CardaMind 本身的劑量。",
+    "dosageNote": "250 mg 是供應商頁與這兩篇人體試驗的用量。平台 id 17228 的備註是香辛調味、適量使用，沒有寫毫克。列名不能換成這支萃取的每日 250 mg。"
+  },
+  "patent": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "WO/2026/093920 CARDAMOM EXTRACT, COMPOSITION AND A PROCESS FOR ITS PREPARATION",
+        "url": "https://ip-coster.com/cn/PCTCostCalculation?id=PCT%2FIB2025%2F060984",
+        "note": "書目頁寫申請人 AKAY NATURAL INGREDIENTS PRIVATE LIMITED，國際申請 PCT/IB2025/060984，申請日 2025-10-28，公開日 2026-05-07。摘要寫豆蔻萃取含多酚、類黃酮、揮發油與 cineol，並寫與咖啡因併用。這頁沒有出現 CardaMind 或 MA2-24。這是公開，不是核准證書。讀取日 2026-11-25。"
+      }
+    ],
+    "note": "有一件公開中的 PCT。4 月論文寫 patented，9 月論文寫 patent pending。公開頁沒有把商品名寫進標題。"
+  },
+  "literature": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "A full-spectrum aqueous extract of black cardamom (Amomum subulatum) improves focus/alertness and executive function",
+        "url": "https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2026.1786880/full",
+        "note": "Frontiers in Neuroscience，2026-04-08。DOI 10.3389/fnins.2026.1786880。96 人、250 mg、急性時點。Akay 出資。致謝寫 patented，並註冊為 CardaMind。"
+      },
+      {
+        "title": "Influence of a full-spectrum aqueous extract of black cardamom fruits on focus/alertness and executive function: a 14-day study",
+        "url": "https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2026.1879347/full",
+        "note": "Frontiers in Neuroscience，2026-09-29。DOI 10.3389/fnins.2026.1879347。14 天、250 mg。致謝寫 patent pending，並註冊為 CardaMind。"
+      }
+    ],
+    "note": "兩篇都是人體隨機對照。產品頁的 20.45%、28% 等百分比沒有再對回論文表格，不另寫成已核對的效應量。"
+  },
+  "evidenceLevels": [
+    "clinical"
+  ],
+  "images": [
+    {
+      "url": "https://akaybioactives.com/wp-content/uploads/BlackCardamom.jpeg",
+      "localPath": "",
+      "caption": "Akay 官網 CardaMind 頁上、替代文字為 CardaMind 的黑豆蔻圖片。",
+      "source": "official_site"
+    }
+  ],
+  "sources": [
+    {
+      "title": "SupplySide Global 2026: Healthy aging drives GLP-1, gut & menopause launches",
+      "url": "https://www.nutritioninsight.com/news/supplyside-global-2026-healthy-aging-glp-1-menopause.html",
+      "publisher": "Nutrition Insight",
+      "channel": "news",
+      "accessed": "2026-11-25",
+      "whatItContributes": "2026-11-03：CardaMind 在 SupplySide Global 2026 被 Akay 拿來談無咖啡因認知，以及 14 天試驗刊在 Frontiers。"
+    },
+    {
+      "title": "CardaMind",
+      "url": "https://akaybioactives.com/product/cardamind/",
+      "publisher": "Akay Bioactives",
+      "channel": "supplier_site",
+      "accessed": "2026-11-25",
+      "whatItContributes": "學名、水萃、每日 250 mg，以及單獨與併用咖啡因的時間窗說法。"
+    },
+    {
+      "title": "Frontiers in Neuroscience 2026, 20:1786880",
+      "url": "https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2026.1786880/full",
+      "publisher": "Frontiers",
+      "channel": "paper",
+      "accessed": "2026-11-25",
+      "whatItContributes": "急性試驗的人數、劑量、時點，以及 CTRI/2024/09/074472。"
+    },
+    {
+      "title": "WO/2026/093920 bibliographic record",
+      "url": "https://ip-coster.com/cn/PCTCostCalculation?id=PCT%2FIB2025%2F060984",
+      "publisher": "IP-Coster（轉載公開書目）",
+      "channel": "patent",
+      "accessed": "2026-11-25",
+      "whatItContributes": "申請人、公開日與摘要。這頁沒有商品名。"
+    }
+  ],
+  "discovery": {
+    "channel": "news",
+    "scoutDate": "2026-11-25",
+    "notes": "從 Nutrition Insight 2026-11-03 的 SupplySide 報導進入 Akay 產品頁、兩篇 Frontiers 論文與 WO/2026/093920 書目，再打開 Rainbow Aroma 與 Charoma 的同種精油頁。小豆蔻與草果沒有併進這一筆。香辛調味的限制留在證據註記。"
+  }
+}

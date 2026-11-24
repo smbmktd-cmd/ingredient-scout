@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-25",
+  "example": false,
+  "title": "2026-11-25 正式日報",
+  "targetCount": 5,
+  "channelsCovered": [
+    "news",
+    "exhibition",
+    "industry_report"
+  ],
+  "notes": "正式五筆。主管道：CardaMind、LP299V 為新聞；NordPea、DAOgest 為展覽；KABP Iron 為產業報導。未收未確認安全性項目：總序天冬（Aspurūs 的來源，id 16069）、印度小檗（Novaberin 的成分，id 16080）、鋸棕櫚（VeriPalmetto 的來源，id 16336）。大印度荳蔻列在香辛調味，不是未確認分類。小豆蔻是 Elettaria cardamomum，不是 Amomum subulatum。乳酸菌 subsp. lactis（id 17540）不是 H-61 的 subsp. cremoris。腎上腺三筆不是豬腎二胺氧化酶。",
+  "picks": [
+    "cardamind",
+    "lp299v",
+    "nordpea",
+    "daogest",
+    "kabp-iron"
+  ]
+}

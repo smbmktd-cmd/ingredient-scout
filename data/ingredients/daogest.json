@@ -1,0 +1,196 @@
+{
+  "id": "daogest",
+  "example": false,
+  "names": {
+    "commonZh": "二胺氧化酶（豬腎蛋白萃取）",
+    "commonEn": "diamine oxidase (porcine kidney protein extract)",
+    "trade": "DAOgest（Bioiberica 的二胺氧化酶商品名）",
+    "scientific": "不適用植物學名。酵素是二胺氧化酶（diamine oxidase，亦稱 histaminase）。Bioiberica 寫來源是豬腎。歐盟新穎食品申請摘要寫豬腎經去脂、脫水、乾燥、磨粉後的蛋白萃取，內含天然二胺氧化酶。"
+  },
+  "supply": {
+    "supplierName": "Bioiberica",
+    "supplierCountry": "西班牙",
+    "relationship": "unknown",
+    "taiwanPartyName": "創百股份有限公司（自述經銷名單含 Bioiberica，未點名 DAOgest）",
+    "relationshipNote": "2026-11-25 以 DAOgest、Bioiberica、diamine oxidase、二胺氧化酶、DAO enzyme、組織胺酶，搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索，並打開創百核心優勢頁。該頁寫「我們經銷」，歐洲名單含 Bioiberica，沒有 DAOgest 產品頁；站內再搜 DAOgest 與二胺氧化酶沒有產品頁。這是創百自述，不是 Bioiberica 官網的經銷名單，也不升成獨家代理。iHerb 台灣站的 Seeking Health 成品標示含 DAOgest 豬腎萃取 4.2 mg，那是跨境成品，不是台灣原料廠商。Bioiberica 產品頁沒有台灣夥伴。同日再以「DAOgest 台灣」獨立複查，沒有點名這個商品名的代理頁。查核日 2026-11-25。"
+  },
+  "tfda": {
+    "usable": "not_found",
+    "evidenceNotes": "DAOgest、diamine oxidase 與二胺氧化酶在原料、添加物都是 0 筆，沒有未確認標記。原料關鍵字豬腎命中 3 筆，中文是腎上腺、腎皮質與腎基質，外文名是 Adrenal，部位寫腎上腺，不是豬的腎臟。添加物關鍵字酵素命中酵素製劑（id 782），限制是食品製造或加工必須時使用，不是這支口服二胺氧化酶。查無不是准用，也不是禁用。",
+    "lookupDate": "2026-11-25",
+    "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+    "queries": [
+      {
+        "tab": "ingredient",
+        "keyword": "DAOgest",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名 0 筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "diamine oxidase",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "酵素英文 0 筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "二胺氧化酶",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "中文酵素名 0 筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "豬腎",
+        "category": "",
+        "resultCount": 3,
+        "matchedName": "牛、羊、豬腎上腺／牛、羊、豬腎皮質／牛、羊、豬腎基質",
+        "restrictionNote": "id 17633 外文名 Adrenal glands，部位腎上腺直接乾燥製成。id 17634 外文名 Adrenal cortex，部位腎上腺皮質直接乾燥製成。id 17635 外文名 Adrenal substance，部位腎上腺基質直接乾燥製成。三筆備註都空白。中文「豬腎」是「豬腎上腺」的字串命中。",
+        "unconfirmedSafety": false,
+        "note": "這三筆是腎上腺，不是豬腎臟，也不是二胺氧化酶。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "DAOgest",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名在添加物 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "diamine oxidase",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "酵素英文在添加物 0 筆。單獨的 diamine 會命中 EDTA 的英文，那不是這支酵素，所以這列用兩個詞。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "二胺氧化酶",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "中文在添加物 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "酵素",
+        "category": "",
+        "resultCount": 1,
+        "matchedName": "酵素製劑",
+        "restrictionNote": "id 782。類別(十七) 其他。外文名 Enzyme Product。使用食品範圍及限量：本品可於各類食品中視實際需要適量使用。使用限制：限於食品製造或加工必須時使用。",
+        "unconfirmedSafety": false,
+        "note": "這是加工用酵素製劑，不是 DAOgest。"
+      },
+      {
+        "tab": "history",
+        "keyword": "diamine oxidase",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "助手更新歷程（2026-11-01 至 2026-11-24）沒有這組字的異動。資料時間戳 2026-11-24 06:17。"
+      }
+    ],
+    "officialCrosscheck": {
+      "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+      "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+      "done": false,
+      "notes": "2026-11-25 連線 consumer.fda.gov.tw 出現 SSL UNEXPECTED_EOF_WHILE_READING，沒有取得官方詳細頁。查詢助手對 DAOgest、diamine oxidase 與二胺氧化酶是 0 筆。腎上腺三筆與酵素製劑不是這支口服酵素，沒有可核對的 DAOgest 詳細頁。"
+    }
+  },
+  "efficacy": {
+    "claimedBenefits": [
+      "Bioiberica 產品頁：DAOgest 是豬腎來源的二胺氧化酶，寫每份每日 4.2 mg，用來分解食物中的組織胺，並寫組織胺不耐與 DAO 不足有關。頁上把流鼻水、打噴嚏等寫成組織胺敏感的表現。頁尾另有未經主管機關評估、不用來診斷治療的句子。",
+      "Bioiberica 2023-05-26：寫歐盟執委會給了新穎食品地位，劑量仍寫 4.2 mg／份。歐盟申請摘要寫製程是豬腎去脂、脫水、乾燥、磨粉，規格差異主要在外觀，且申請不改已核准的使用條件與最大量。這次沒有打開歐盟清單原文。",
+      "Bioiberica 科學摘要引用 Galvez-Martin 等人，Clinical Nutrition ESPEN 58:512，2023：體外以 4.2 mg 對組織胺，15 mg/L 時組織胺下降 27.07%，30 mg/L 時下降 10.4%；外翻腸囊沒有測到腸段吸收。另一組寫加上 10 mg 維生素 C 後，下降幅度再增加。這是會議摘要等級的體外資料，不是人體試驗。"
+    ],
+    "suggestedDosage": "Bioiberica 產品頁、2023 年新聞與 Fi Europe 展前記者稿都寫 4.2 mg／份／日。iHerb 上 Seeking Health 的標示也是每粒 DAOgest 4.2 mg，並寫二胺氧化酶活性 30,000 HDU。",
+    "dosageNote": "4.2 mg 是供應商建議與那份成品標示。30,000 HDU 只在 Seeking Health 的標示看到，Bioiberica 這次打開的產品頁沒有寫 HDU。平台沒有這支酵素的限量。酵素製劑那一列是加工用，不能套到口服粒。"
+  },
+  "patent": {
+    "status": "unknown",
+    "refs": [],
+    "note": "2026-11-25 以 DAOgest、Bioiberica diamine oxidase 查打開的產品頁與新穎食品摘要，沒有看到 Bioiberica 名下的專利號。另有 ES2388166A1 與 EP2686006B1，申請人是 Dr Healthcare，不是 Bioiberica，不把這兩件算成 DAOgest 的專利。沒有查完就不能寫成無專利。"
+  },
+  "literature": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "In vitro characterization, evaluation of enzymatic activity and capacity of intestinal absorption of DAOgest",
+        "url": "https://www.bioiberica.com/sites/default/files/content/file/2025/07/24/1/DAOgest%20Scientific%20Summary%20_DIGITAL%202025.pdf",
+        "note": "Bioiberica 科學摘要轉述 Galvez-Martin 等人，Clinical Nutrition ESPEN 58:512，2023。這次讀到的是供應商摘要，不是 ESPEN 摘要全文。內容是體外降解與外翻腸囊，沒有人體療效數字。"
+      }
+    ],
+    "note": "有體外資料。產品頁的症狀句子沒有對到這次打開的人體論文，所以不標臨床。"
+  },
+  "evidenceLevels": [
+    "in_vitro"
+  ],
+  "images": [
+    {
+      "url": "https://www.bioiberica.com/sites/default/files/styles/destacada_366x335/public/content/image/2026/11/12/1/image.png.webp",
+      "localPath": "",
+      "caption": "Bioiberica 官網 DAOgest 頁的產品資料單示意圖，替代文字寫 Product information sheet mock-up。",
+      "source": "official_site"
+    }
+  ],
+  "sources": [
+    {
+      "title": "DAOgest",
+      "url": "https://visitor.figlobal.com/event/fi-europe2026/product/UHJvZHVjdF8xNTY1Njc1",
+      "publisher": "Fi Europe 2026 展品頁",
+      "channel": "exhibition",
+      "accessed": "2026-11-25",
+      "whatItContributes": "展品名，以及分解膳食組織胺、連結到 Bioiberica 產品頁。"
+    },
+    {
+      "title": "DAOgest",
+      "url": "https://www.bioiberica.com/en/products/human-health/daogest",
+      "publisher": "Bioiberica",
+      "channel": "supplier_site",
+      "accessed": "2026-11-25",
+      "whatItContributes": "豬腎來源、每份每日 4.2 mg，以及公司對組織胺不耐的說法。"
+    },
+    {
+      "title": "Bioiberica makes Fi Europe debut",
+      "url": "https://nutraceuticalbusinessreview.com/bioiberica-makes-fi-europe-debut-by-showcasing-science",
+      "publisher": "Nutraceutical Business Review",
+      "channel": "exhibition",
+      "accessed": "2026-11-25",
+      "whatItContributes": "2026-11-04：Fi Europe 攤位 51C69，DAOgest 寫 4.2 mg／份。"
+    },
+    {
+      "title": "Protein extract from pig kidneys, summary of the application",
+      "url": "https://food.ec.europa.eu/document/download/70a79216-d46a-41aa-b4b9-0ee1fbf2b6bf_en?filename=novel-food_sum_ongoing-app_2021-0722.pdf",
+      "publisher": "European Commission",
+      "channel": "other",
+      "accessed": "2026-11-25",
+      "whatItContributes": "申請人 BIOIBERICA, S.A.U.，地址在西班牙 Palafolls，以及去脂乾燥的製程描述。這份是申請摘要，不是核准公報全文。"
+    }
+  ],
+  "discovery": {
+    "channel": "exhibition",
+    "scoutDate": "2026-11-25",
+    "notes": "從 Fi Europe 2026 的 DAOgest 展品頁進入 Bioiberica 產品頁、2023 年新穎食品新聞與歐盟申請摘要，再打開創百的供應商名單頁。腎上腺三筆與加工用酵素製劑沒有併成這支酵素。Dr Healthcare 的 DAO 專利沒有算成 Bioiberica 的專利。"
+  }
+}

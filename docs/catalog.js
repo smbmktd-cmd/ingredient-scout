@@ -7,6 +7,984 @@ window.INGREDIENT_CATALOG = {
         "exhibition",
         "industry_report"
       ],
+      "date": "2026-11-25",
+      "example": false,
+      "notes": "正式五筆。主管道：CardaMind、LP299V 為新聞；NordPea、DAOgest 為展覽；KABP Iron 為產業報導。未收未確認安全性項目：總序天冬（Aspurūs 的來源，id 16069）、印度小檗（Novaberin 的成分，id 16080）、鋸棕櫚（VeriPalmetto 的來源，id 16336）。大印度荳蔻列在香辛調味，不是未確認分類。小豆蔻是 Elettaria cardamomum，不是 Amomum subulatum。乳酸菌 subsp. lactis（id 17540）不是 H-61 的 subsp. cremoris。腎上腺三筆不是豬腎二胺氧化酶。",
+      "picks": [
+        {
+          "discovery": {
+            "channel": "news",
+            "notes": "從 Nutrition Insight 2026-11-03 的 SupplySide 報導進入 Akay 產品頁、兩篇 Frontiers 論文與 WO/2026/093920 書目，再打開 Rainbow Aroma 與 Charoma 的同種精油頁。小豆蔻與草果沒有併進這一筆。香辛調味的限制留在證據註記。",
+            "scoutDate": "2026-11-25"
+          },
+          "efficacy": {
+            "claimedBenefits": [
+              "Akay 產品頁：CardaMind 是栽培黑豆蔻果實的水萃，定位無咖啡因的精神能量、專注與反應；頁上寫低劑量每日一次 250 mg，並寫單獨使用的認知表現可到約 3 小時，與咖啡因併用可到約 5 小時，反應時間效益寫到 8 小時。頁上引用 Thomas 等人 2026 年 Frontiers in Neuroscience。",
+              "Nutrition Insight 2026-11-03：Akay 的 Liz Clarke 說急性使用與精神能量、專注、認知處理有關；14 天重複使用的隨機雙盲、安慰劑與活性對照結果刊在 Frontiers in Neuroscience。她說單獨約 3 小時，加咖啡因到 5 小時，有些情況到 8 小時。",
+              "Frontiers in Neuroscience 2026-04-08（DOI 10.3389/fnins.2026.1786880）：96 名 35–65 歲成人，MA2-24 每日 250 mg，對安慰劑的顯著差異主要在服後 3 小時內；與 200 mg 咖啡因併用時，較後面的 5–8 小時較明顯。登記號 CTRI/2024/09/074472。",
+              "同一組作者 2026-09-29 的 14 天試驗（DOI 10.3389/fnins.2026.1879347）：四組各 24 人、14 天，MA2-24 仍是 250 mg。摘要寫單獨使用的顯著改善多在服後 1–3 小時，與咖啡因併用則在較後面的 5–8 小時、尤其第 14 天。致謝寫這支萃取 patent pending，並註冊為 CardaMind。4 月那篇致謝寫 patented。兩處用詞都留下。"
+            ],
+            "dosageNote": "250 mg 是供應商頁與這兩篇人體試驗的用量。平台 id 17228 的備註是香辛調味、適量使用，沒有寫毫克。列名不能換成這支萃取的每日 250 mg。",
+            "suggestedDosage": "產品頁與兩篇試驗都寫每日 250 mg 一次。試驗的併用組另有 200 mg 咖啡因，那不是 CardaMind 本身的劑量。"
+          },
+          "evidenceLevels": [
+            "clinical"
+          ],
+          "example": false,
+          "id": "cardamind",
+          "images": [
+            {
+              "caption": "Akay 官網 CardaMind 頁上、替代文字為 CardaMind 的黑豆蔻圖片。",
+              "localPath": "",
+              "source": "official_site",
+              "url": "https://akaybioactives.com/wp-content/uploads/BlackCardamom.jpeg"
+            }
+          ],
+          "literature": {
+            "note": "兩篇都是人體隨機對照。產品頁的 20.45%、28% 等百分比沒有再對回論文表格，不另寫成已核對的效應量。",
+            "refs": [
+              {
+                "note": "Frontiers in Neuroscience，2026-04-08。DOI 10.3389/fnins.2026.1786880。96 人、250 mg、急性時點。Akay 出資。致謝寫 patented，並註冊為 CardaMind。",
+                "title": "A full-spectrum aqueous extract of black cardamom (Amomum subulatum) improves focus/alertness and executive function",
+                "url": "https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2026.1786880/full"
+              },
+              {
+                "note": "Frontiers in Neuroscience，2026-09-29。DOI 10.3389/fnins.2026.1879347。14 天、250 mg。致謝寫 patent pending，並註冊為 CardaMind。",
+                "title": "Influence of a full-spectrum aqueous extract of black cardamom fruits on focus/alertness and executive function: a 14-day study",
+                "url": "https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2026.1879347/full"
+              }
+            ],
+            "status": "yes"
+          },
+          "names": {
+            "commonEn": "black cardamom fruit extract",
+            "commonZh": "黑豆蔻（大印度荳蔻）果實水萃",
+            "scientific": "Amomum subulatum Roxb.（果實的水萃取。平台中文名是大印度荳蔻、尼泊爾荳蔻，外文名 Black Cardamom。不是小豆蔻 Elettaria cardamomum，也不是草果 Amomum tsao-ko。）",
+            "trade": "CardaMind（Akay Bioactives 的黑豆蔻果實萃取商品名；試驗代碼 MA2-24）"
+          },
+          "patent": {
+            "note": "有一件公開中的 PCT。4 月論文寫 patented，9 月論文寫 patent pending。公開頁沒有把商品名寫進標題。",
+            "refs": [
+              {
+                "note": "書目頁寫申請人 AKAY NATURAL INGREDIENTS PRIVATE LIMITED，國際申請 PCT/IB2025/060984，申請日 2025-10-28，公開日 2026-05-07。摘要寫豆蔻萃取含多酚、類黃酮、揮發油與 cineol，並寫與咖啡因併用。這頁沒有出現 CardaMind 或 MA2-24。這是公開，不是核准證書。讀取日 2026-11-25。",
+                "title": "WO/2026/093920 CARDAMOM EXTRACT, COMPOSITION AND A PROCESS FOR ITS PREPARATION",
+                "url": "https://ip-coster.com/cn/PCTCostCalculation?id=PCT%2FIB2025%2F060984"
+              }
+            ],
+            "status": "yes"
+          },
+          "sources": [
+            {
+              "accessed": "2026-11-25",
+              "channel": "news",
+              "publisher": "Nutrition Insight",
+              "title": "SupplySide Global 2026: Healthy aging drives GLP-1, gut & menopause launches",
+              "url": "https://www.nutritioninsight.com/news/supplyside-global-2026-healthy-aging-glp-1-menopause.html",
+              "whatItContributes": "2026-11-03：CardaMind 在 SupplySide Global 2026 被 Akay 拿來談無咖啡因認知，以及 14 天試驗刊在 Frontiers。"
+            },
+            {
+              "accessed": "2026-11-25",
+              "channel": "supplier_site",
+              "publisher": "Akay Bioactives",
+              "title": "CardaMind",
+              "url": "https://akaybioactives.com/product/cardamind/",
+              "whatItContributes": "學名、水萃、每日 250 mg，以及單獨與併用咖啡因的時間窗說法。"
+            },
+            {
+              "accessed": "2026-11-25",
+              "channel": "paper",
+              "publisher": "Frontiers",
+              "title": "Frontiers in Neuroscience 2026, 20:1786880",
+              "url": "https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2026.1786880/full",
+              "whatItContributes": "急性試驗的人數、劑量、時點，以及 CTRI/2024/09/074472。"
+            },
+            {
+              "accessed": "2026-11-25",
+              "channel": "patent",
+              "publisher": "IP-Coster（轉載公開書目）",
+              "title": "WO/2026/093920 bibliographic record",
+              "url": "https://ip-coster.com/cn/PCTCostCalculation?id=PCT%2FIB2025%2F060984",
+              "whatItContributes": "申請人、公開日與摘要。這頁沒有商品名。"
+            }
+          ],
+          "supply": {
+            "relationship": "unknown",
+            "relationshipNote": "2026-11-25 以 CardaMind、Akay、Akay Bioactives、黑豆蔻、大印度荳蔻、尼泊爾荳蔻、Amomum subulatum、Black Cardamom，搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索，並打開 Akay 聯絡頁、Rainbow Aroma 與 Charoma 的產品頁。Akay 聯絡頁列美國、法國、德國、中國上海、印度、丹麥與義大利，沒有台灣據點或經銷名單。Rainbow Aroma 頁寫學名 Amomum subulatum、尼泊爾、果實蒸氣蒸餾，並寫非食品、藥品或醫療用途。Charoma 頁寫學名 Amomum subalatum（該頁拼法）、種子蒸餾精油、高雄鹽埕展示店，供調配與教學，沒有 CardaMind。同日再以「CardaMind 台灣」「Akay 台灣 代理」獨立複查，沒有這個商品名的原料代理頁。精油販售不是這個水萃的代理。查核日 2026-11-25。",
+            "supplierCountry": "印度",
+            "supplierName": "Akay Bioactives（Akay Natural Ingredients）",
+            "taiwanPartyName": "Rainbow Aroma（同種精油販售，頁寫非食品）；Charoma 夏綠蒂芳療（同種精油販售）"
+          },
+          "tfda": {
+            "evidenceNotes": "CardaMind 是 0 筆。Amomum subulatum、Black Cardamom、大印度荳蔻與尼泊爾荳蔻都命中同一筆（id 17228），次分類是香辛調味，部位種子與果實，備註寫僅以達香辛調味目的、適量使用，沒有未確認標記。cardamom 另有小豆蔻（id 16918）與草果（id 17229）；添加物的 CardaMind、Amomum 與豆蔻都是 0 筆。香辛調味列名不是每日 250 mg 萃取的用量許可。",
+            "lookupDate": "2026-11-25",
+            "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+            "officialCrosscheck": {
+              "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+              "done": true,
+              "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+              "notes": "2026-11-25 連線 consumer.fda.gov.tw 出現 SSL UNEXPECTED_EOF_WHILE_READING，沒有取得官方詳細頁。查詢助手細節時間戳 2026-11-24 06:17，siteTotals 原料 1709、添加物 804。id 17228 的詳細欄位與上述限制一致，詳細頁網址是 MaterialDetail id 17228。添加物的 Amomum 與豆蔻是 0 筆。"
+            },
+            "queries": [
+              {
+                "category": "",
+                "keyword": "CardaMind",
+                "matchedName": "",
+                "note": "商品名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Amomum subulatum",
+                "matchedName": "大印度荳蔻；尼泊爾荳蔻",
+                "note": "學名這一筆。",
+                "restrictionNote": "id 17228。次分類為草、木本植物類(3)供香辛調味使用。外文名 Black Cardamom。學名 Amomum subulatum。部位種子、果實。備註：可作為賦予食品特殊香味或風味，惟該等品項僅以達香辛調味目的，適量使用為宜。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "大印度荳蔻",
+                "matchedName": "大印度荳蔻；尼泊爾荳蔻",
+                "note": "中文名命中同一列。",
+                "restrictionNote": "同一筆 id 17228。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "cardamom",
+                "matchedName": "小豆蔻；豆蔻／大印度荳蔻；尼泊爾荳蔻／草果；草荳蔻",
+                "note": "三筆不是同一個種。",
+                "restrictionNote": "id 16918 小豆蔻學名 Elettaria cardamomum、Amomum cardamomum L.，可供直接食用。id 17228 是本筆。id 17229 草果學名 Amomum tsao-ko、Lanxangia tsaoko，也是香辛調味。",
+                "resultCount": 3,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "CardaMind",
+                "matchedName": "",
+                "note": "商品名在添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Amomum",
+                "matchedName": "",
+                "note": "屬名在添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "豆蔻",
+                "matchedName": "",
+                "note": "中文在添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Amomum subulatum",
+                "matchedName": "",
+                "note": "助手更新歷程（2026-11-01 至 2026-11-24）沒有這組字的異動。資料時間戳 2026-11-24 06:17。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "history",
+                "unconfirmedSafety": false
+              }
+            ],
+            "usable": "listed_food_ingredient"
+          }
+        },
+        {
+          "discovery": {
+            "channel": "news",
+            "notes": "從 NutraIngredients 2026-11-24 的亞洲應用稿進入 Probi 英文菌株頁、2021 年綜述與 US9687513B2，再打開盛美產品頁與 probi.com.tw。paraplantarum 沒有併成這支菌株。盛美寫的產地美國與 Probi 總部在瑞典同時留下。",
+            "scoutDate": "2026-11-25"
+          },
+          "efficacy": {
+            "claimedBenefits": [
+              "NutraIngredients 2026-11-24：Probi 的 LP299V 用在日本 Nomura Dairy 與 Kunugi 的 My Flora 鬆餅，每片 100 億 CFU；泰國 BioActive+ 的 TRIBIOTIC PRO 以它為主要益生菌，一日一包。報導寫這支菌株有 35 年以上研究、超過 90 項人體臨床。文中的日本成人試驗寫每日至少 100 億 CFU、八週，較易腹瀉者的排便次數低於安慰劑，論文寫在 2025 年 Japanese Journal of Medical and Pharmaceutical Sciences。這次沒有打開那篇原文。",
+              "Probi 英文菌株頁：菌株由隆德大學 Bengt Jeppsson 從健康人體腸黏膜分離。頁上寫 85 項以上人體臨床、300 篇以上科學出版、35 年以上研究，並寫可黏附腸上皮的甘露糖受體、通過消化道後仍可測得。這頁沒有寫出每日 CFU。",
+              "probi.com.tw 的菌株頁寫 200 篇以上科學出版、超過 65 項臨床。盛美頁寫超過 200 篇科學文獻、超過 80 項臨床，以及每日 1.0×10^10 CFU。三處篇數不一致，都留下。",
+              "2021 年 Beneficial Microbes 綜述（截至 2020-06-30）：超過 170 篇出版、其中 60 篇以上是人體臨床，主要寫胃腸，包含腸躁症的脹氣與腹痛，以及鐵吸收與鐵狀態。綜述寫菌株安全、不帶抗生素抗性，冷凍乾燥後室溫穩定。"
+            ],
+            "dosageNote": "1.0×10^10 CFU 是盛美產品頁的建議食用量，也是新聞對那次飲料試驗與鬆餅的寫法。平台 id 17518 沒有 CFU 或菌株編號。US9687513B2 請求項的活菌範圍是約 1×10^6 到 1×10^14 CFU，那是專利請求項，不是這次的供應商建議。",
+            "suggestedDosage": "盛美頁寫每日 1.0×10^10 CFU。2026-11-24 新聞裡的鬆餅與日本試驗寫至少 100 億 CFU，數量級相同。Probi 這次打開的英文菌株頁沒有寫 CFU。"
+          },
+          "evidenceLevels": [
+            "in_vitro",
+            "animal",
+            "clinical"
+          ],
+          "example": false,
+          "id": "lp299v",
+          "images": [
+            {
+              "caption": "Probi 官網 LP299V 頁的益生菌粉末製造圖示，不是這支菌株的包裝照片。",
+              "localPath": "",
+              "source": "official_site",
+              "url": "https://www.probi.com/media/1waglvj2/probi-ikoner_manufacturing-probiotic-powder.png"
+            }
+          ],
+          "literature": {
+            "note": "綜述本身涵蓋三個等級。2025 年日本期刊那篇只在新聞看到篇名與方向，沒有打開原文，不另列成已讀文獻。",
+            "refs": [
+              {
+                "note": "Beneficial Microbes，2021-08-09，綜述。作者含 Probi。統計到 2020-06-30：170 篇以上出版、60 篇以上人體臨床。基因組登錄號 NZ_LEAV01000004。證據等級含體外、動物與人體。",
+                "title": "Lactiplantibacillus plantarum 299v (LP299V): three decades of research",
+                "url": "https://doi.org/10.3920/bm2020.0191"
+              }
+            ],
+            "status": "yes"
+          },
+          "names": {
+            "commonEn": "Lactiplantibacillus plantarum 299v",
+            "commonZh": "植物乳植桿菌 299v",
+            "scientific": "Lactiplantibacillus plantarum 299v，寄存編號 DSM 9843。2021 年 Beneficial Microbes 綜述這樣寫，並寫舊名 Lactobacillus plantarum 299v。不是 Lactobacillus paraplantarum。",
+            "trade": "LP299V（Probi 的菌株商品名；舊稱 Lactobacillus plantarum 299v）"
+          },
+          "patent": {
+            "note": "這件核准專利的請求項是鐵與貧血。Probi 菌株頁另寫菌株受專利保護，沒有在那頁給出編號。綜述也寫有多國專利，這次只核對到上面這一件的全文頁。",
+            "refs": [
+              {
+                "note": "2017-06-27 核准，權利人 Probi AB。請求項列 Lactobacillus plantarum 299v，DSM 9843，以及 299、HEAL 9、HEAL 19、HEAL 99。用途寫貧血治療與非血基質鐵，活菌量約 1×10^6 到 1×10^14 CFU。讀取日 2026-11-25。",
+                "title": "US9687513B2 Methods of treating anemia and increasing the absorption of non-heme iron by administration of lactobacillus plantarum",
+                "url": "https://patents.google.com/patent/US9687513B2/en"
+              }
+            ],
+            "status": "yes"
+          },
+          "sources": [
+            {
+              "accessed": "2026-11-25",
+              "channel": "news",
+              "publisher": "NutraIngredients",
+              "title": "Probi’s LP299V finds new formats and markets in Asia",
+              "url": "https://www.nutraingredients.com/Article/2026/11/24/probis-probiotic-strain-expands-footprint-in-application-format-and-market/",
+              "whatItContributes": "2026-11-24：日本鬆餅每片 100 億 CFU、泰國複方粉，以及報導所寫的臨床篇數。"
+            },
+            {
+              "accessed": "2026-11-25",
+              "channel": "supplier_site",
+              "publisher": "Probi",
+              "title": "LP299V Probiotic Strain",
+              "url": "https://www.probi.com/probiotics/strains/lp299v-probiotic-strain/",
+              "whatItContributes": "分離來源、85 項以上人體臨床與 300 篇以上出版的公司寫法。這頁沒有每日 CFU。"
+            },
+            {
+              "accessed": "2026-11-25",
+              "channel": "other",
+              "publisher": "盛美股份有限公司",
+              "title": "植物乳桿菌 LP299V",
+              "url": "https://www.shinemate.com.tw/zh-tw/healthcare.php?id=29",
+              "whatItContributes": "台灣頁寫瑞典 Probi AB、產地美國，以及每日 1.0×10^10 CFU。沒有寫總代理。"
+            },
+            {
+              "accessed": "2026-11-25",
+              "channel": "patent",
+              "publisher": "Google Patents",
+              "title": "US9687513B2",
+              "url": "https://patents.google.com/patent/US9687513B2/en",
+              "whatItContributes": "權利人 Probi AB，請求項含 299v 與 DSM 9843。"
+            }
+          ],
+          "supply": {
+            "relationship": "taiwan_distributor",
+            "relationshipNote": "2026-11-25 以 LP299V、LP299v、299v、Probi、Lactiplantibacillus plantarum、植物乳桿菌，搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索，並打開盛美產品頁與 probi.com.tw。盛美頁寫瑞典 Probi AB 出品、產地美國、每日 1.0×10^10 CFU，沒有寫代理、總代理或獨家。probi.com.tw 的聯絡區塊是瑞典 Lund、新加坡與美國 Redmond，沒有點名盛美。同日再以「LP299V 台灣 總代理」獨立複查，沒有打開到原廠經銷名單。盛美的供應是該公司產品頁的自述，產地美國與總部在瑞典的寫法同時留下。查核日 2026-11-25。",
+            "supplierCountry": "瑞典",
+            "supplierName": "Probi（Symrise 旗下；總部在瑞典 Lund）",
+            "taiwanPartyName": "盛美股份有限公司（產品頁自述供應這支菌株；未寫總代理）"
+          },
+          "tfda": {
+            "evidenceNotes": "LP299V 與 299v 在原料、添加物都是 0 筆。Lactiplantibacillus plantarum 命中乳酸菌（id 17518），學名含這個種，部位菌體，可供食品原料或加工使用，沒有未確認標記，也沒有寫菌株編號或 CFU。關鍵字 Lactobacillus plantarum 是 3 筆：id 17518、亞種那筆 id 17603，以及字串含 plantarum 的 Lactobacillus paraplantarum（id 17552）。添加物的 plantarum 與乳酸菌都是 0 筆。",
+            "lookupDate": "2026-11-25",
+            "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+            "officialCrosscheck": {
+              "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+              "done": true,
+              "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+              "notes": "2026-11-25 連線 consumer.fda.gov.tw 出現 SSL UNEXPECTED_EOF_WHILE_READING，沒有取得官方詳細頁。查詢助手細節時間戳 2026-11-24 06:17，siteTotals 原料 1709、添加物 804。id 17518 的詳細欄位與上述備註一致，詳細頁網址是 MaterialDetail id 17518。添加物的 plantarum 是 0 筆。"
+            },
+            "queries": [
+              {
+                "category": "",
+                "keyword": "LP299V",
+                "matchedName": "",
+                "note": "商品名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "299v",
+                "matchedName": "",
+                "note": "菌株編號 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Lactiplantibacillus plantarum",
+                "matchedName": "乳酸菌",
+                "note": "現用學名這一筆。",
+                "restrictionNote": "id 17518。學名 Lactobacillus plantarum, Lactiplantibacillus plantarum。部位菌體。備註：可供為食品原料或食品加工使用。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Lactobacillus plantarum",
+                "matchedName": "乳酸菌",
+                "note": "第三筆是另一個種名。",
+                "restrictionNote": "id 17518 含 Lactobacillus plantarum 與 Lactiplantibacillus plantarum。id 17603 學名 Lactobacillus plantarum subsp. Plantarum。id 17552 學名 Lactobacillus paraplantarum，因為字串含 plantarum 被算進來。三筆備註都是可供食品原料或加工使用。",
+                "resultCount": 3,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "LP299V",
+                "matchedName": "",
+                "note": "商品名在添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "plantarum",
+                "matchedName": "",
+                "note": "種名在添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "乳酸菌",
+                "matchedName": "",
+                "note": "中文在添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "plantarum",
+                "matchedName": "",
+                "note": "助手更新歷程（2026-11-01 至 2026-11-24）沒有這組字的異動。資料時間戳 2026-11-24 06:17。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "history",
+                "unconfirmedSafety": false
+              }
+            ],
+            "usable": "listed_food_ingredient"
+          }
+        },
+        {
+          "discovery": {
+            "channel": "exhibition",
+            "notes": "從 Fi Europe 2026 展品頁進入 Lantmännen 產品頁、2026-11-05 新聞稿與 2026-10-29 的 Fi Global Insights。產品頁的 2027 年第 2 季與新聞稿的 launched 同時留下。85% 沒有寫進產品頁這次看到的內文。VITESSENCE Pulse 1803 與欣宏的澱粉頁沒有併成 NordPea 的台灣經銷。",
+            "scoutDate": "2026-11-25"
+          },
+          "efficacy": {
+            "claimedBenefits": [
+              "Lantmännen 產品頁：NordPea 是中性風味的豌豆蛋白，寫高蛋白、無主要過敏原、無麩質，可分散，黏度用來做口感。應用寫即溶、即飲與乳品類似物。同頁寫仍在最終測試，數據還是初步的，商業供應寫 2027 年第 2 季。這頁沒有寫蛋白百分比，也沒有健康功效試驗。",
+              "Lantmännen 2026-11-05 新聞稿：與 Ingredion 合作，在瑞典 Lidköping 新廠生產，廠的豌豆與蠶豆處理能力寫約每年 4 萬公噸。正式發表寫在 Fi Europe 2026，攤位 30J62，並進 New Product Zone。新聞稿用 launched，沒有重複產品頁的 2027 年第 2 季。",
+              "Fi Global Insights 2026-10-29：寫第一支 NordPea 分離蛋白為 85% 蛋白、無過敏原、無麩質，商業供應寫 2027 年第 2 季。85% 只出現在這篇，產品頁這次打開的內文沒有這個數字。"
+            ],
+            "dosageNote": "沒有供應商建議的保健劑量，也沒有看到 NordPea 的人體試驗劑量。平台豌豆種子的備註是空白，不能換成分離蛋白的上限。85% 是 2026-10-29 那篇對蛋白含量的寫法，不是劑量。",
+            "suggestedDosage": "這次打開的產品頁、新聞稿與展品頁都沒有寫每日公克或臨床劑量。"
+          },
+          "evidenceLevels": [],
+          "example": false,
+          "id": "nordpea",
+          "images": [
+            {
+              "caption": "Lantmännen 官網 NordPea 頁的特性圖，替代文字是 NordPea Characteristics。",
+              "localPath": "",
+              "source": "official_site",
+              "url": "https://www.lantmannenbiorefineries.se/siteassets/5.-food-ingredients/ingredienser/vaxtbaserat-protein/nordpea-pea-protein/nordpea-characteristics.jpg?width=600&rmode=min"
+            }
+          ],
+          "literature": {
+            "note": "2026-11-25 以 NordPea 查打開的產品頁與新聞，沒有看到期刊論文。產品頁寫數據仍是初步的。不把口感描述算成文獻。",
+            "refs": [],
+            "status": "unknown"
+          },
+          "names": {
+            "commonEn": "pea protein isolate",
+            "commonZh": "豌豆分離蛋白",
+            "scientific": "Pisum sativum（豌豆種子做成的分離蛋白。官方產品頁這次沒有再寫拉丁學名。不是蠶豆 Vicia faba。）",
+            "trade": "NordPea（Lantmännen 的豌豆蛋白商品名；與 Ingredion 合作）"
+          },
+          "patent": {
+            "note": "2026-11-25 以 NordPea、Lantmännen pea protein isolate 查打開的產品頁、新聞稿與展品頁，沒有對到掛這個商品名的專利公開號。沒有查完就不能寫成無專利。",
+            "refs": [],
+            "status": "unknown"
+          },
+          "sources": [
+            {
+              "accessed": "2026-11-25",
+              "channel": "exhibition",
+              "publisher": "Fi Europe 2026 展品頁",
+              "title": "NordPea - Pea Protein Isolate",
+              "url": "https://visitor.figlobal.com/event/fi-europe2026/product/UHJvZHVjdF8xNTM2MzIy",
+              "whatItContributes": "展品名、Lantmännen Biorefineries、攤位 30J62，以及中性風味、即飲與乳品類似物。"
+            },
+            {
+              "accessed": "2026-11-25",
+              "channel": "supplier_site",
+              "publisher": "Lantmännen Biorefineries",
+              "title": "NordPea Pea Protein",
+              "url": "https://www.lantmannenbiorefineries.com/food-ingredients/products/plant-based-protein/nord-pea/",
+              "whatItContributes": "高蛋白、無主要過敏原、無麩質，以及數據仍初步、商業供應寫 2027 年第 2 季。"
+            },
+            {
+              "accessed": "2026-11-25",
+              "channel": "news",
+              "publisher": "Lantmännen",
+              "title": "Lantmännen launches NordPea to meet demand for sustainable plant protein",
+              "url": "https://lantmannen.prezly.com/lantmannen-launches-nordpea-to-meet-demand-for-sustainable-plant-protein",
+              "whatItContributes": "2026-11-05：與 Ingredion 合作、Lidköping 新廠，以及 Fi Europe 攤位 30J62。"
+            },
+            {
+              "accessed": "2026-11-25",
+              "channel": "industry_report",
+              "publisher": "Fi Global Insights",
+              "title": "Meet NordPea – a new standard in pea protein",
+              "url": "https://insights.figlobal.com/plant-based/meet-nordpea-a-new-standard-in-pea-protein",
+              "whatItContributes": "2026-10-29：85% 蛋白只在這篇看到，並再次寫 2027 年第 2 季。"
+            }
+          ],
+          "supply": {
+            "relationship": "unknown",
+            "relationshipNote": "2026-11-25 以 NordPea、Lantmännen、Lantmannen、Ingredion、宜瑞安、豌豆蛋白、豌豆分離蛋白、Pisum sativum，搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索。Lantmännen 產品頁與 Fi Europe 展品頁沒有台灣公司。欣宏生化科技的 Ingredion 頁列的是澱粉，不是 NordPea。宜瑞安 SDS 上的台灣電話屬於另一支豌豆蛋白 VITESSENCE Pulse 1803，不是 NordPea 的經銷頁。同日再以「NordPea 台灣」「NordPea Taiwan」獨立複查，沒有台灣廠商產品頁或代理頁。查核日 2026-11-25。",
+            "supplierCountry": "瑞典",
+            "supplierName": "Lantmännen Biorefineries",
+            "taiwanPartyName": "本次查無台灣關聯廠商"
+          },
+          "tfda": {
+            "evidenceNotes": "NordPea 與 pea protein 在原料是 0 筆，添加物的豌豆與 Pisum 也是 0 筆。豌豆與 Pisum sativum 命中同一筆（id 17167），次分類可供直接食用，部位種子，備註空白，沒有未確認標記。列名是豌豆種子，沒有分離蛋白規格，也沒有蛋白百分比。",
+            "lookupDate": "2026-11-25",
+            "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+            "officialCrosscheck": {
+              "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+              "done": true,
+              "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+              "notes": "2026-11-25 連線 consumer.fda.gov.tw 出現 SSL UNEXPECTED_EOF_WHILE_READING，沒有取得官方詳細頁。查詢助手細節時間戳 2026-11-24 06:17，siteTotals 原料 1709、添加物 804。id 17167 的詳細欄位與上述一致，詳細頁網址是 MaterialDetail id 17167。添加物的豌豆是 0 筆。"
+            },
+            "queries": [
+              {
+                "category": "",
+                "keyword": "NordPea",
+                "matchedName": "",
+                "note": "商品名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "豌豆",
+                "matchedName": "豌豆",
+                "note": "種子這一筆。",
+                "restrictionNote": "id 17167。次分類為草、木本植物類(2)可供直接食用。外文名 Pea。學名 Pisum sativum。部位種子。備註空白。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Pisum sativum",
+                "matchedName": "豌豆",
+                "note": "學名命中同一列。",
+                "restrictionNote": "同一筆 id 17167。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "pea protein",
+                "matchedName": "",
+                "note": "分離蛋白這組英文 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "豌豆",
+                "matchedName": "",
+                "note": "中文在添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Pisum",
+                "matchedName": "",
+                "note": "學名在添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "NordPea",
+                "matchedName": "",
+                "note": "商品名在添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "豌豆",
+                "matchedName": "",
+                "note": "助手更新歷程（2026-11-01 至 2026-11-24）沒有這組字的異動。資料時間戳 2026-11-24 06:17。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "history",
+                "unconfirmedSafety": false
+              }
+            ],
+            "usable": "listed_food_ingredient"
+          }
+        },
+        {
+          "discovery": {
+            "channel": "exhibition",
+            "notes": "從 Fi Europe 2026 的 DAOgest 展品頁進入 Bioiberica 產品頁、2023 年新穎食品新聞與歐盟申請摘要，再打開創百的供應商名單頁。腎上腺三筆與加工用酵素製劑沒有併成這支酵素。Dr Healthcare 的 DAO 專利沒有算成 Bioiberica 的專利。",
+            "scoutDate": "2026-11-25"
+          },
+          "efficacy": {
+            "claimedBenefits": [
+              "Bioiberica 產品頁：DAOgest 是豬腎來源的二胺氧化酶，寫每份每日 4.2 mg，用來分解食物中的組織胺，並寫組織胺不耐與 DAO 不足有關。頁上把流鼻水、打噴嚏等寫成組織胺敏感的表現。頁尾另有未經主管機關評估、不用來診斷治療的句子。",
+              "Bioiberica 2023-05-26：寫歐盟執委會給了新穎食品地位，劑量仍寫 4.2 mg／份。歐盟申請摘要寫製程是豬腎去脂、脫水、乾燥、磨粉，規格差異主要在外觀，且申請不改已核准的使用條件與最大量。這次沒有打開歐盟清單原文。",
+              "Bioiberica 科學摘要引用 Galvez-Martin 等人，Clinical Nutrition ESPEN 58:512，2023：體外以 4.2 mg 對組織胺，15 mg/L 時組織胺下降 27.07%，30 mg/L 時下降 10.4%；外翻腸囊沒有測到腸段吸收。另一組寫加上 10 mg 維生素 C 後，下降幅度再增加。這是會議摘要等級的體外資料，不是人體試驗。"
+            ],
+            "dosageNote": "4.2 mg 是供應商建議與那份成品標示。30,000 HDU 只在 Seeking Health 的標示看到，Bioiberica 這次打開的產品頁沒有寫 HDU。平台沒有這支酵素的限量。酵素製劑那一列是加工用，不能套到口服粒。",
+            "suggestedDosage": "Bioiberica 產品頁、2023 年新聞與 Fi Europe 展前記者稿都寫 4.2 mg／份／日。iHerb 上 Seeking Health 的標示也是每粒 DAOgest 4.2 mg，並寫二胺氧化酶活性 30,000 HDU。"
+          },
+          "evidenceLevels": [
+            "in_vitro"
+          ],
+          "example": false,
+          "id": "daogest",
+          "images": [
+            {
+              "caption": "Bioiberica 官網 DAOgest 頁的產品資料單示意圖，替代文字寫 Product information sheet mock-up。",
+              "localPath": "",
+              "source": "official_site",
+              "url": "https://www.bioiberica.com/sites/default/files/styles/destacada_366x335/public/content/image/2026/11/12/1/image.png.webp"
+            }
+          ],
+          "literature": {
+            "note": "有體外資料。產品頁的症狀句子沒有對到這次打開的人體論文，所以不標臨床。",
+            "refs": [
+              {
+                "note": "Bioiberica 科學摘要轉述 Galvez-Martin 等人，Clinical Nutrition ESPEN 58:512，2023。這次讀到的是供應商摘要，不是 ESPEN 摘要全文。內容是體外降解與外翻腸囊，沒有人體療效數字。",
+                "title": "In vitro characterization, evaluation of enzymatic activity and capacity of intestinal absorption of DAOgest",
+                "url": "https://www.bioiberica.com/sites/default/files/content/file/2025/07/24/1/DAOgest%20Scientific%20Summary%20_DIGITAL%202025.pdf"
+              }
+            ],
+            "status": "yes"
+          },
+          "names": {
+            "commonEn": "diamine oxidase (porcine kidney protein extract)",
+            "commonZh": "二胺氧化酶（豬腎蛋白萃取）",
+            "scientific": "不適用植物學名。酵素是二胺氧化酶（diamine oxidase，亦稱 histaminase）。Bioiberica 寫來源是豬腎。歐盟新穎食品申請摘要寫豬腎經去脂、脫水、乾燥、磨粉後的蛋白萃取，內含天然二胺氧化酶。",
+            "trade": "DAOgest（Bioiberica 的二胺氧化酶商品名）"
+          },
+          "patent": {
+            "note": "2026-11-25 以 DAOgest、Bioiberica diamine oxidase 查打開的產品頁與新穎食品摘要，沒有看到 Bioiberica 名下的專利號。另有 ES2388166A1 與 EP2686006B1，申請人是 Dr Healthcare，不是 Bioiberica，不把這兩件算成 DAOgest 的專利。沒有查完就不能寫成無專利。",
+            "refs": [],
+            "status": "unknown"
+          },
+          "sources": [
+            {
+              "accessed": "2026-11-25",
+              "channel": "exhibition",
+              "publisher": "Fi Europe 2026 展品頁",
+              "title": "DAOgest",
+              "url": "https://visitor.figlobal.com/event/fi-europe2026/product/UHJvZHVjdF8xNTY1Njc1",
+              "whatItContributes": "展品名，以及分解膳食組織胺、連結到 Bioiberica 產品頁。"
+            },
+            {
+              "accessed": "2026-11-25",
+              "channel": "supplier_site",
+              "publisher": "Bioiberica",
+              "title": "DAOgest",
+              "url": "https://www.bioiberica.com/en/products/human-health/daogest",
+              "whatItContributes": "豬腎來源、每份每日 4.2 mg，以及公司對組織胺不耐的說法。"
+            },
+            {
+              "accessed": "2026-11-25",
+              "channel": "exhibition",
+              "publisher": "Nutraceutical Business Review",
+              "title": "Bioiberica makes Fi Europe debut",
+              "url": "https://nutraceuticalbusinessreview.com/bioiberica-makes-fi-europe-debut-by-showcasing-science",
+              "whatItContributes": "2026-11-04：Fi Europe 攤位 51C69，DAOgest 寫 4.2 mg／份。"
+            },
+            {
+              "accessed": "2026-11-25",
+              "channel": "other",
+              "publisher": "European Commission",
+              "title": "Protein extract from pig kidneys, summary of the application",
+              "url": "https://food.ec.europa.eu/document/download/70a79216-d46a-41aa-b4b9-0ee1fbf2b6bf_en?filename=novel-food_sum_ongoing-app_2021-0722.pdf",
+              "whatItContributes": "申請人 BIOIBERICA, S.A.U.，地址在西班牙 Palafolls，以及去脂乾燥的製程描述。這份是申請摘要，不是核准公報全文。"
+            }
+          ],
+          "supply": {
+            "relationship": "unknown",
+            "relationshipNote": "2026-11-25 以 DAOgest、Bioiberica、diamine oxidase、二胺氧化酶、DAO enzyme、組織胺酶，搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索，並打開創百核心優勢頁。該頁寫「我們經銷」，歐洲名單含 Bioiberica，沒有 DAOgest 產品頁；站內再搜 DAOgest 與二胺氧化酶沒有產品頁。這是創百自述，不是 Bioiberica 官網的經銷名單，也不升成獨家代理。iHerb 台灣站的 Seeking Health 成品標示含 DAOgest 豬腎萃取 4.2 mg，那是跨境成品，不是台灣原料廠商。Bioiberica 產品頁沒有台灣夥伴。同日再以「DAOgest 台灣」獨立複查，沒有點名這個商品名的代理頁。查核日 2026-11-25。",
+            "supplierCountry": "西班牙",
+            "supplierName": "Bioiberica",
+            "taiwanPartyName": "創百股份有限公司（自述經銷名單含 Bioiberica，未點名 DAOgest）"
+          },
+          "tfda": {
+            "evidenceNotes": "DAOgest、diamine oxidase 與二胺氧化酶在原料、添加物都是 0 筆，沒有未確認標記。原料關鍵字豬腎命中 3 筆，中文是腎上腺、腎皮質與腎基質，外文名是 Adrenal，部位寫腎上腺，不是豬的腎臟。添加物關鍵字酵素命中酵素製劑（id 782），限制是食品製造或加工必須時使用，不是這支口服二胺氧化酶。查無不是准用，也不是禁用。",
+            "lookupDate": "2026-11-25",
+            "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+            "officialCrosscheck": {
+              "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+              "done": false,
+              "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+              "notes": "2026-11-25 連線 consumer.fda.gov.tw 出現 SSL UNEXPECTED_EOF_WHILE_READING，沒有取得官方詳細頁。查詢助手對 DAOgest、diamine oxidase 與二胺氧化酶是 0 筆。腎上腺三筆與酵素製劑不是這支口服酵素，沒有可核對的 DAOgest 詳細頁。"
+            },
+            "queries": [
+              {
+                "category": "",
+                "keyword": "DAOgest",
+                "matchedName": "",
+                "note": "商品名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "diamine oxidase",
+                "matchedName": "",
+                "note": "酵素英文 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "二胺氧化酶",
+                "matchedName": "",
+                "note": "中文酵素名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "豬腎",
+                "matchedName": "牛、羊、豬腎上腺／牛、羊、豬腎皮質／牛、羊、豬腎基質",
+                "note": "這三筆是腎上腺，不是豬腎臟，也不是二胺氧化酶。",
+                "restrictionNote": "id 17633 外文名 Adrenal glands，部位腎上腺直接乾燥製成。id 17634 外文名 Adrenal cortex，部位腎上腺皮質直接乾燥製成。id 17635 外文名 Adrenal substance，部位腎上腺基質直接乾燥製成。三筆備註都空白。中文「豬腎」是「豬腎上腺」的字串命中。",
+                "resultCount": 3,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "DAOgest",
+                "matchedName": "",
+                "note": "商品名在添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "diamine oxidase",
+                "matchedName": "",
+                "note": "酵素英文在添加物 0 筆。單獨的 diamine 會命中 EDTA 的英文，那不是這支酵素，所以這列用兩個詞。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "二胺氧化酶",
+                "matchedName": "",
+                "note": "中文在添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "酵素",
+                "matchedName": "酵素製劑",
+                "note": "這是加工用酵素製劑，不是 DAOgest。",
+                "restrictionNote": "id 782。類別(十七) 其他。外文名 Enzyme Product。使用食品範圍及限量：本品可於各類食品中視實際需要適量使用。使用限制：限於食品製造或加工必須時使用。",
+                "resultCount": 1,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "diamine oxidase",
+                "matchedName": "",
+                "note": "助手更新歷程（2026-11-01 至 2026-11-24）沒有這組字的異動。資料時間戳 2026-11-24 06:17。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "history",
+                "unconfirmedSafety": false
+              }
+            ],
+            "usable": "not_found"
+          }
+        },
+        {
+          "discovery": {
+            "channel": "industry_report",
+            "notes": "從 SupplySide Supplement Journal 2026-11-20 的展後觀察進入 Kaneka 女性健康頁、AB-BIOTICS 的 Gyntima Iron 頁與 2022 年 Nutrients，再打開利統與綠茵的 H61 頁。subsp. lactis 與 LC-Plasma 沒有併成這一株。60 mg、3 億個細胞與利統的 15 mg 同時留下。",
+            "scoutDate": "2026-11-25"
+          },
+          "efficacy": {
+            "claimedBenefits": [
+              "SupplySide Supplement Journal 2026-11-20：Kaneka 在 SupplySide Global 推出後生元 KABP Iron，寫成熱處理的 Lactococcus lactis subsp. cremoris H-61。文中說 2022 年 Nutrients 的試驗裡，健康年輕女性補充四週後鐵蛋白與血清鐵上升。文章沒有寫毫克。",
+              "Kaneka 女性健康頁：KABP Iron 寫每份 3 億個細胞，菌株 L. lactis subsp. cremoris H61，定位維持已在正常範圍的鐵與鐵吸收。同站 PDF 把這一株寫在 KABP Gyntima Iron 底下，也是每劑 3 億個細胞，並寫 6 項人體臨床。這次沒有逐篇核對那 6 項。",
+              "AB-BIOTICS 女性健康頁與 2026 產品手冊：名稱寫 Gyntima Iron，劑量寫 60 mg／劑，同樣是 L. lactis subsp. cremoris H-61 的熱處理後生元。手冊引用的第一篇就是下面這篇 Nutrients。60 mg 與 3 億個細胞是兩種單位，頁上沒有換算。",
+              "Nutrients 2022（DOI 10.3390/nu14153144）：年輕日本女性、每日 60 mg 熱殺死 H61 或安慰劑、四週。錠劑由 Toa Biopharma 提供，每錠 30 mg。完成分析的是 29 人。摘要寫血清鐵、轉鐵蛋白飽和度與鐵蛋白在 H61 組上升、安慰劑組不變。結果段同時寫介入前 H61 組的血清鐵與飽和度已經高於安慰劑組。膳食鐵攝取沒有因為介入而增加。"
+            ],
+            "dosageNote": "60 mg 是 AB-BIOTICS 頁與 Toa 提供的試驗錠。3 億個細胞是 Kaneka 頁的寫法，沒有換成毫克。15 mg 是利統對另一家原料的寫法，不是 KABP Iron。平台 id 17539 沒有毫克或菌數。",
+            "suggestedDosage": "AB-BIOTICS 與 2022 年試驗寫 60 mg。Kaneka 頁與 PDF 寫每份或每劑 3 億個細胞。利統頁對 N.C. 的 H-61 另寫每日 15 mg。三個數字都留下。"
+          },
+          "evidenceLevels": [
+            "clinical"
+          ],
+          "example": false,
+          "id": "kabp-iron",
+          "images": [
+            {
+              "caption": "Kaneka Probiotics 女性健康頁的主圖。這次沒有把它讀成 KABP Iron 的包裝。",
+              "localPath": "",
+              "source": "official_site",
+              "url": "https://kanekaprobiotics.com/wp-content/uploads/womens-health-image.webp"
+            }
+          ],
+          "literature": {
+            "note": "這篇是人體隨機對照，對象是熱殺死 H61，不是已經標成 KABP Iron 的原料批。Kaneka 寫的 6 項臨床沒有逐篇打開。皮膚與小鼠那幾篇只在 AB-BIOTICS 手冊的引用列看到，不另標等級。",
+            "refs": [
+              {
+                "note": "Nutrients，2022-07-30。DOI 10.3390/nu14153144。每日 60 mg、四週、分析 29 人。試驗錠由 Toa Biopharma 提供，論文沒有寫 KABP Iron 或 Gyntima Iron。介入前兩組血清鐵已經有差異。",
+                "title": "Heat-Killed Lactococcus lactis subsp. cremoris H61 Altered the Iron Status of Young Women",
+                "url": "https://www.mdpi.com/2072-6643/14/15/3144"
+              }
+            ],
+            "status": "yes"
+          },
+          "names": {
+            "commonEn": "heat-treated Lactococcus lactis subsp. cremoris H-61",
+            "commonZh": "乳酸乳球菌乳脂亞種 H-61（熱處理後生元）",
+            "scientific": "Lactococcus lactis subsp. cremoris H-61。Kaneka 頁亦寫 H61。不是 id 17540 的 Lactococcus lactis subsp. lactis，也不是已收錄的 LC-Plasma（JCM 5805）。",
+            "trade": "KABP Iron（Kaneka Probiotics 的商品名；AB-BIOTICS 頁寫 Gyntima Iron）"
+          },
+          "patent": {
+            "note": "2026-11-25 以 KABP Iron、H-61、Lactococcus cremoris 查打開的 Kaneka、AB-BIOTICS 與 TOA 頁，沒有對到掛 KABP Iron 的專利號。利統頁寫日本特許第 4604207 號、TW1640315B 與 JP5935155，這次沒有打開說明書，不把這些號碼算成已核對。沒有查完就不能寫成無專利。",
+            "refs": [],
+            "status": "unknown"
+          },
+          "sources": [
+            {
+              "accessed": "2026-11-25",
+              "channel": "industry_report",
+              "publisher": "SupplySide Supplement Journal",
+              "title": "7 health optimization category innovations at SupplySide Global",
+              "url": "https://www.supplysidesj.com/supplements/7-health-optimization-category-innovations-at-supplyside-global",
+              "whatItContributes": "2026-11-20：Kaneka 在 SupplySide Global 推出 KABP Iron，以及文章對 2022 年 Nutrients 鐵指標的轉述。"
+            },
+            {
+              "accessed": "2026-11-25",
+              "channel": "supplier_site",
+              "publisher": "Kaneka Probiotics",
+              "title": "Probiotics for Vaginal, Urogenital & Menopausal Wellness",
+              "url": "https://kanekaprobiotics.com/wellness-areas/womens-health/",
+              "whatItContributes": "KABP Iron、H61，以及每份 3 億個細胞。頁上同時列日本、美國與西班牙據點。"
+            },
+            {
+              "accessed": "2026-11-25",
+              "channel": "supplier_site",
+              "publisher": "AB-BIOTICS",
+              "title": "Gyntima Iron",
+              "url": "https://www.ab-biotics.com/therapeutic-areas/womens-health/",
+              "whatItContributes": "同一株寫成 Gyntima Iron、60 mg／劑，製造據點在西班牙。"
+            },
+            {
+              "accessed": "2026-11-25",
+              "channel": "other",
+              "publisher": "利統股份有限公司",
+              "title": "仙杜瑞拉乳酸菌 Lactococcus cremoris H-61",
+              "url": "https://www.lytone.com/functional-food-catalog/H61",
+              "whatItContributes": "台灣目錄販售 N.C. 的 H-61，每日 15 mg，沒有 KABP Iron。"
+            }
+          ],
+          "supply": {
+            "relationship": "unknown",
+            "relationshipNote": "2026-11-25 以 KABP Iron、KABP、Gyntima Iron、H61、H-61、Lactococcus cremoris、乳酸乳球菌，搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索，並打開利統、綠茵、Kaneka 與 AB-BIOTICS 的頁。利統頁把 H-61 放在 N.C. CORPORATION 底下，寫 NARO 與 N.C. 共同開發、每日 15 mg、每公克 6,700 億，訴求是保濕，沒有 KABP、Kaneka 或鐵，也沒有寫總代理。綠茵頁寫日本食研所開發、製藥公司監製，路徑含 agent，可見文字沒有供應商名稱，也沒有 KABP。TOA Biopharma 英文頁寫 NARO 分離 H61，並寫授權 TOA 在自家工廠製造與銷售。Kaneka 與 AB-BIOTICS 則用 KABP Iron、Gyntima Iron 銷售同一株的熱處理物。N.C.、TOA 與 Kaneka／AB-BIOTICS 三組說法不同，都留下，不併成獨家。同株不是 KABP Iron 的代理。同日再以「KABP Iron 台灣」獨立複查，沒有點名這個商品名的台灣頁。查核日 2026-11-25。",
+            "supplierCountry": "日本（歐洲據點與製造頁在西班牙 AB-BIOTICS；北美據點在美國）",
+            "supplierName": "Kaneka Probiotics（AB-BIOTICS 頁用 Gyntima Iron）",
+            "taiwanPartyName": "利統股份有限公司（目錄販售 N.C. 的 H-61，不是 KABP Iron）；綠茵生技（H61 頁，供應方待確認）"
+          },
+          "tfda": {
+            "evidenceNotes": "KABP、H61 與 H-61 在原料、添加物都是 0 筆。Lactococcus lactis subsp. cremoris 命中乳酸菌（id 17539），學名含這個亞種，部位菌體，可供食品原料或加工使用，沒有未確認標記，也沒有寫 H-61 或熱殺死。cremoris 另有 Lactobacillus cremoris（id 17508）與 Leuconostoc mesenteroides subsp. cremoris（id 17542）；id 17540 的 Lactococcus lactis subsp. lactis 是另一個亞種。添加物的 cremoris、KABP 與 Lactococcus 都是 0 筆。",
+            "lookupDate": "2026-11-25",
+            "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+            "officialCrosscheck": {
+              "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+              "done": true,
+              "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+              "notes": "2026-11-25 連線 consumer.fda.gov.tw 出現 SSL UNEXPECTED_EOF_WHILE_READING，沒有取得官方詳細頁。查詢助手細節時間戳 2026-11-24 06:17，siteTotals 原料 1709、添加物 804。id 17539 的詳細欄位與上述備註一致，詳細頁網址是 MaterialDetail id 17539。添加物的 cremoris 是 0 筆。"
+            },
+            "queries": [
+              {
+                "category": "",
+                "keyword": "KABP",
+                "matchedName": "",
+                "note": "商品名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "H61",
+                "matchedName": "",
+                "note": "菌株編號 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "H-61",
+                "matchedName": "",
+                "note": "帶連字號的編號 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Lactococcus lactis subsp. cremoris",
+                "matchedName": "乳酸菌",
+                "note": "這個亞種的那一筆。",
+                "restrictionNote": "id 17539。學名 Lactococcus lactis subsp. cremoris, Lactococcus cremoris, Streptococcus lactis subsp. cremoris。部位菌體。備註：可供為食品原料或食品加工使用。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "cremoris",
+                "matchedName": "乳酸菌",
+                "note": "三筆不是同一個學名。",
+                "restrictionNote": "id 17508 學名 Lactobacillus cremoris。id 17539 是本筆。id 17542 學名 Leuconostoc mesenteroides subsp. cremoris。三筆備註都是可供食品原料或加工使用。",
+                "resultCount": 3,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "KABP",
+                "matchedName": "",
+                "note": "商品名在添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "cremoris",
+                "matchedName": "",
+                "note": "亞種名在添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Lactococcus",
+                "matchedName": "",
+                "note": "屬名在添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "cremoris",
+                "matchedName": "",
+                "note": "助手更新歷程（2026-11-01 至 2026-11-24）沒有這組字的異動。資料時間戳 2026-11-24 06:17。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "history",
+                "unconfirmedSafety": false
+              }
+            ],
+            "usable": "listed_food_ingredient"
+          }
+        }
+      ],
+      "targetCount": 5,
+      "title": "2026-11-25 正式日報"
+    },
+    {
+      "channelsCovered": [
+        "news",
+        "exhibition",
+        "industry_report"
+      ],
       "date": "2026-11-24",
       "example": false,
       "notes": "正式五筆。主管道：Acerowell、Thryvia 為新聞；Bimuno 為展覽；Esflorin1、CP2305 為產業報導。未收未確認安全性項目：心葉青牛膽（AuraFen 的成分，id 16363）、阿勃勒果實與葉（CaFi 的來源，id 16685）。酪酸菌是 Clostridium butyricum，不是 Thryvia 的 Clostridium tyrobutyricum。Lactobacillus paragasseri 不是 CP2305。",
@@ -20866,6 +21844,204 @@ window.INGREDIENT_CATALOG = {
     },
     {
       "discovery": {
+        "channel": "news",
+        "notes": "從 Nutrition Insight 2026-11-03 的 SupplySide 報導進入 Akay 產品頁、兩篇 Frontiers 論文與 WO/2026/093920 書目，再打開 Rainbow Aroma 與 Charoma 的同種精油頁。小豆蔻與草果沒有併進這一筆。香辛調味的限制留在證據註記。",
+        "scoutDate": "2026-11-25"
+      },
+      "efficacy": {
+        "claimedBenefits": [
+          "Akay 產品頁：CardaMind 是栽培黑豆蔻果實的水萃，定位無咖啡因的精神能量、專注與反應；頁上寫低劑量每日一次 250 mg，並寫單獨使用的認知表現可到約 3 小時，與咖啡因併用可到約 5 小時，反應時間效益寫到 8 小時。頁上引用 Thomas 等人 2026 年 Frontiers in Neuroscience。",
+          "Nutrition Insight 2026-11-03：Akay 的 Liz Clarke 說急性使用與精神能量、專注、認知處理有關；14 天重複使用的隨機雙盲、安慰劑與活性對照結果刊在 Frontiers in Neuroscience。她說單獨約 3 小時，加咖啡因到 5 小時，有些情況到 8 小時。",
+          "Frontiers in Neuroscience 2026-04-08（DOI 10.3389/fnins.2026.1786880）：96 名 35–65 歲成人，MA2-24 每日 250 mg，對安慰劑的顯著差異主要在服後 3 小時內；與 200 mg 咖啡因併用時，較後面的 5–8 小時較明顯。登記號 CTRI/2024/09/074472。",
+          "同一組作者 2026-09-29 的 14 天試驗（DOI 10.3389/fnins.2026.1879347）：四組各 24 人、14 天，MA2-24 仍是 250 mg。摘要寫單獨使用的顯著改善多在服後 1–3 小時，與咖啡因併用則在較後面的 5–8 小時、尤其第 14 天。致謝寫這支萃取 patent pending，並註冊為 CardaMind。4 月那篇致謝寫 patented。兩處用詞都留下。"
+        ],
+        "dosageNote": "250 mg 是供應商頁與這兩篇人體試驗的用量。平台 id 17228 的備註是香辛調味、適量使用，沒有寫毫克。列名不能換成這支萃取的每日 250 mg。",
+        "suggestedDosage": "產品頁與兩篇試驗都寫每日 250 mg 一次。試驗的併用組另有 200 mg 咖啡因，那不是 CardaMind 本身的劑量。"
+      },
+      "evidenceLevels": [
+        "clinical"
+      ],
+      "example": false,
+      "id": "cardamind",
+      "images": [
+        {
+          "caption": "Akay 官網 CardaMind 頁上、替代文字為 CardaMind 的黑豆蔻圖片。",
+          "localPath": "",
+          "source": "official_site",
+          "url": "https://akaybioactives.com/wp-content/uploads/BlackCardamom.jpeg"
+        }
+      ],
+      "literature": {
+        "note": "兩篇都是人體隨機對照。產品頁的 20.45%、28% 等百分比沒有再對回論文表格，不另寫成已核對的效應量。",
+        "refs": [
+          {
+            "note": "Frontiers in Neuroscience，2026-04-08。DOI 10.3389/fnins.2026.1786880。96 人、250 mg、急性時點。Akay 出資。致謝寫 patented，並註冊為 CardaMind。",
+            "title": "A full-spectrum aqueous extract of black cardamom (Amomum subulatum) improves focus/alertness and executive function",
+            "url": "https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2026.1786880/full"
+          },
+          {
+            "note": "Frontiers in Neuroscience，2026-09-29。DOI 10.3389/fnins.2026.1879347。14 天、250 mg。致謝寫 patent pending，並註冊為 CardaMind。",
+            "title": "Influence of a full-spectrum aqueous extract of black cardamom fruits on focus/alertness and executive function: a 14-day study",
+            "url": "https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2026.1879347/full"
+          }
+        ],
+        "status": "yes"
+      },
+      "names": {
+        "commonEn": "black cardamom fruit extract",
+        "commonZh": "黑豆蔻（大印度荳蔻）果實水萃",
+        "scientific": "Amomum subulatum Roxb.（果實的水萃取。平台中文名是大印度荳蔻、尼泊爾荳蔻，外文名 Black Cardamom。不是小豆蔻 Elettaria cardamomum，也不是草果 Amomum tsao-ko。）",
+        "trade": "CardaMind（Akay Bioactives 的黑豆蔻果實萃取商品名；試驗代碼 MA2-24）"
+      },
+      "patent": {
+        "note": "有一件公開中的 PCT。4 月論文寫 patented，9 月論文寫 patent pending。公開頁沒有把商品名寫進標題。",
+        "refs": [
+          {
+            "note": "書目頁寫申請人 AKAY NATURAL INGREDIENTS PRIVATE LIMITED，國際申請 PCT/IB2025/060984，申請日 2025-10-28，公開日 2026-05-07。摘要寫豆蔻萃取含多酚、類黃酮、揮發油與 cineol，並寫與咖啡因併用。這頁沒有出現 CardaMind 或 MA2-24。這是公開，不是核准證書。讀取日 2026-11-25。",
+            "title": "WO/2026/093920 CARDAMOM EXTRACT, COMPOSITION AND A PROCESS FOR ITS PREPARATION",
+            "url": "https://ip-coster.com/cn/PCTCostCalculation?id=PCT%2FIB2025%2F060984"
+          }
+        ],
+        "status": "yes"
+      },
+      "sources": [
+        {
+          "accessed": "2026-11-25",
+          "channel": "news",
+          "publisher": "Nutrition Insight",
+          "title": "SupplySide Global 2026: Healthy aging drives GLP-1, gut & menopause launches",
+          "url": "https://www.nutritioninsight.com/news/supplyside-global-2026-healthy-aging-glp-1-menopause.html",
+          "whatItContributes": "2026-11-03：CardaMind 在 SupplySide Global 2026 被 Akay 拿來談無咖啡因認知，以及 14 天試驗刊在 Frontiers。"
+        },
+        {
+          "accessed": "2026-11-25",
+          "channel": "supplier_site",
+          "publisher": "Akay Bioactives",
+          "title": "CardaMind",
+          "url": "https://akaybioactives.com/product/cardamind/",
+          "whatItContributes": "學名、水萃、每日 250 mg，以及單獨與併用咖啡因的時間窗說法。"
+        },
+        {
+          "accessed": "2026-11-25",
+          "channel": "paper",
+          "publisher": "Frontiers",
+          "title": "Frontiers in Neuroscience 2026, 20:1786880",
+          "url": "https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2026.1786880/full",
+          "whatItContributes": "急性試驗的人數、劑量、時點，以及 CTRI/2024/09/074472。"
+        },
+        {
+          "accessed": "2026-11-25",
+          "channel": "patent",
+          "publisher": "IP-Coster（轉載公開書目）",
+          "title": "WO/2026/093920 bibliographic record",
+          "url": "https://ip-coster.com/cn/PCTCostCalculation?id=PCT%2FIB2025%2F060984",
+          "whatItContributes": "申請人、公開日與摘要。這頁沒有商品名。"
+        }
+      ],
+      "supply": {
+        "relationship": "unknown",
+        "relationshipNote": "2026-11-25 以 CardaMind、Akay、Akay Bioactives、黑豆蔻、大印度荳蔻、尼泊爾荳蔻、Amomum subulatum、Black Cardamom，搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索，並打開 Akay 聯絡頁、Rainbow Aroma 與 Charoma 的產品頁。Akay 聯絡頁列美國、法國、德國、中國上海、印度、丹麥與義大利，沒有台灣據點或經銷名單。Rainbow Aroma 頁寫學名 Amomum subulatum、尼泊爾、果實蒸氣蒸餾，並寫非食品、藥品或醫療用途。Charoma 頁寫學名 Amomum subalatum（該頁拼法）、種子蒸餾精油、高雄鹽埕展示店，供調配與教學，沒有 CardaMind。同日再以「CardaMind 台灣」「Akay 台灣 代理」獨立複查，沒有這個商品名的原料代理頁。精油販售不是這個水萃的代理。查核日 2026-11-25。",
+        "supplierCountry": "印度",
+        "supplierName": "Akay Bioactives（Akay Natural Ingredients）",
+        "taiwanPartyName": "Rainbow Aroma（同種精油販售，頁寫非食品）；Charoma 夏綠蒂芳療（同種精油販售）"
+      },
+      "tfda": {
+        "evidenceNotes": "CardaMind 是 0 筆。Amomum subulatum、Black Cardamom、大印度荳蔻與尼泊爾荳蔻都命中同一筆（id 17228），次分類是香辛調味，部位種子與果實，備註寫僅以達香辛調味目的、適量使用，沒有未確認標記。cardamom 另有小豆蔻（id 16918）與草果（id 17229）；添加物的 CardaMind、Amomum 與豆蔻都是 0 筆。香辛調味列名不是每日 250 mg 萃取的用量許可。",
+        "lookupDate": "2026-11-25",
+        "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+        "officialCrosscheck": {
+          "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+          "done": true,
+          "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+          "notes": "2026-11-25 連線 consumer.fda.gov.tw 出現 SSL UNEXPECTED_EOF_WHILE_READING，沒有取得官方詳細頁。查詢助手細節時間戳 2026-11-24 06:17，siteTotals 原料 1709、添加物 804。id 17228 的詳細欄位與上述限制一致，詳細頁網址是 MaterialDetail id 17228。添加物的 Amomum 與豆蔻是 0 筆。"
+        },
+        "queries": [
+          {
+            "category": "",
+            "keyword": "CardaMind",
+            "matchedName": "",
+            "note": "商品名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Amomum subulatum",
+            "matchedName": "大印度荳蔻；尼泊爾荳蔻",
+            "note": "學名這一筆。",
+            "restrictionNote": "id 17228。次分類為草、木本植物類(3)供香辛調味使用。外文名 Black Cardamom。學名 Amomum subulatum。部位種子、果實。備註：可作為賦予食品特殊香味或風味，惟該等品項僅以達香辛調味目的，適量使用為宜。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "大印度荳蔻",
+            "matchedName": "大印度荳蔻；尼泊爾荳蔻",
+            "note": "中文名命中同一列。",
+            "restrictionNote": "同一筆 id 17228。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "cardamom",
+            "matchedName": "小豆蔻；豆蔻／大印度荳蔻；尼泊爾荳蔻／草果；草荳蔻",
+            "note": "三筆不是同一個種。",
+            "restrictionNote": "id 16918 小豆蔻學名 Elettaria cardamomum、Amomum cardamomum L.，可供直接食用。id 17228 是本筆。id 17229 草果學名 Amomum tsao-ko、Lanxangia tsaoko，也是香辛調味。",
+            "resultCount": 3,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "CardaMind",
+            "matchedName": "",
+            "note": "商品名在添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Amomum",
+            "matchedName": "",
+            "note": "屬名在添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "豆蔻",
+            "matchedName": "",
+            "note": "中文在添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Amomum subulatum",
+            "matchedName": "",
+            "note": "助手更新歷程（2026-11-01 至 2026-11-24）沒有這組字的異動。資料時間戳 2026-11-24 06:17。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "history",
+            "unconfirmedSafety": false
+          }
+        ],
+        "usable": "listed_food_ingredient"
+      }
+    },
+    {
+      "discovery": {
         "channel": "industry_report",
         "notes": "從 Nutrition Insight 2023-03-16 的運動營養報導進入，該篇點名 Carnipure。再對 Lonza 產品頁。台灣關聯打開婿展的品牌授權頁與樂沛力成品頁；瀧晶只有批發頁線索，官網沒打開，維持待確認。",
         "scoutDate": "2026-11-15"
@@ -22292,6 +23468,202 @@ window.INGREDIENT_CATALOG = {
           }
         ],
         "usable": "listed_food_ingredient"
+      }
+    },
+    {
+      "discovery": {
+        "channel": "exhibition",
+        "notes": "從 Fi Europe 2026 的 DAOgest 展品頁進入 Bioiberica 產品頁、2023 年新穎食品新聞與歐盟申請摘要，再打開創百的供應商名單頁。腎上腺三筆與加工用酵素製劑沒有併成這支酵素。Dr Healthcare 的 DAO 專利沒有算成 Bioiberica 的專利。",
+        "scoutDate": "2026-11-25"
+      },
+      "efficacy": {
+        "claimedBenefits": [
+          "Bioiberica 產品頁：DAOgest 是豬腎來源的二胺氧化酶，寫每份每日 4.2 mg，用來分解食物中的組織胺，並寫組織胺不耐與 DAO 不足有關。頁上把流鼻水、打噴嚏等寫成組織胺敏感的表現。頁尾另有未經主管機關評估、不用來診斷治療的句子。",
+          "Bioiberica 2023-05-26：寫歐盟執委會給了新穎食品地位，劑量仍寫 4.2 mg／份。歐盟申請摘要寫製程是豬腎去脂、脫水、乾燥、磨粉，規格差異主要在外觀，且申請不改已核准的使用條件與最大量。這次沒有打開歐盟清單原文。",
+          "Bioiberica 科學摘要引用 Galvez-Martin 等人，Clinical Nutrition ESPEN 58:512，2023：體外以 4.2 mg 對組織胺，15 mg/L 時組織胺下降 27.07%，30 mg/L 時下降 10.4%；外翻腸囊沒有測到腸段吸收。另一組寫加上 10 mg 維生素 C 後，下降幅度再增加。這是會議摘要等級的體外資料，不是人體試驗。"
+        ],
+        "dosageNote": "4.2 mg 是供應商建議與那份成品標示。30,000 HDU 只在 Seeking Health 的標示看到，Bioiberica 這次打開的產品頁沒有寫 HDU。平台沒有這支酵素的限量。酵素製劑那一列是加工用，不能套到口服粒。",
+        "suggestedDosage": "Bioiberica 產品頁、2023 年新聞與 Fi Europe 展前記者稿都寫 4.2 mg／份／日。iHerb 上 Seeking Health 的標示也是每粒 DAOgest 4.2 mg，並寫二胺氧化酶活性 30,000 HDU。"
+      },
+      "evidenceLevels": [
+        "in_vitro"
+      ],
+      "example": false,
+      "id": "daogest",
+      "images": [
+        {
+          "caption": "Bioiberica 官網 DAOgest 頁的產品資料單示意圖，替代文字寫 Product information sheet mock-up。",
+          "localPath": "",
+          "source": "official_site",
+          "url": "https://www.bioiberica.com/sites/default/files/styles/destacada_366x335/public/content/image/2026/11/12/1/image.png.webp"
+        }
+      ],
+      "literature": {
+        "note": "有體外資料。產品頁的症狀句子沒有對到這次打開的人體論文，所以不標臨床。",
+        "refs": [
+          {
+            "note": "Bioiberica 科學摘要轉述 Galvez-Martin 等人，Clinical Nutrition ESPEN 58:512，2023。這次讀到的是供應商摘要，不是 ESPEN 摘要全文。內容是體外降解與外翻腸囊，沒有人體療效數字。",
+            "title": "In vitro characterization, evaluation of enzymatic activity and capacity of intestinal absorption of DAOgest",
+            "url": "https://www.bioiberica.com/sites/default/files/content/file/2025/07/24/1/DAOgest%20Scientific%20Summary%20_DIGITAL%202025.pdf"
+          }
+        ],
+        "status": "yes"
+      },
+      "names": {
+        "commonEn": "diamine oxidase (porcine kidney protein extract)",
+        "commonZh": "二胺氧化酶（豬腎蛋白萃取）",
+        "scientific": "不適用植物學名。酵素是二胺氧化酶（diamine oxidase，亦稱 histaminase）。Bioiberica 寫來源是豬腎。歐盟新穎食品申請摘要寫豬腎經去脂、脫水、乾燥、磨粉後的蛋白萃取，內含天然二胺氧化酶。",
+        "trade": "DAOgest（Bioiberica 的二胺氧化酶商品名）"
+      },
+      "patent": {
+        "note": "2026-11-25 以 DAOgest、Bioiberica diamine oxidase 查打開的產品頁與新穎食品摘要，沒有看到 Bioiberica 名下的專利號。另有 ES2388166A1 與 EP2686006B1，申請人是 Dr Healthcare，不是 Bioiberica，不把這兩件算成 DAOgest 的專利。沒有查完就不能寫成無專利。",
+        "refs": [],
+        "status": "unknown"
+      },
+      "sources": [
+        {
+          "accessed": "2026-11-25",
+          "channel": "exhibition",
+          "publisher": "Fi Europe 2026 展品頁",
+          "title": "DAOgest",
+          "url": "https://visitor.figlobal.com/event/fi-europe2026/product/UHJvZHVjdF8xNTY1Njc1",
+          "whatItContributes": "展品名，以及分解膳食組織胺、連結到 Bioiberica 產品頁。"
+        },
+        {
+          "accessed": "2026-11-25",
+          "channel": "supplier_site",
+          "publisher": "Bioiberica",
+          "title": "DAOgest",
+          "url": "https://www.bioiberica.com/en/products/human-health/daogest",
+          "whatItContributes": "豬腎來源、每份每日 4.2 mg，以及公司對組織胺不耐的說法。"
+        },
+        {
+          "accessed": "2026-11-25",
+          "channel": "exhibition",
+          "publisher": "Nutraceutical Business Review",
+          "title": "Bioiberica makes Fi Europe debut",
+          "url": "https://nutraceuticalbusinessreview.com/bioiberica-makes-fi-europe-debut-by-showcasing-science",
+          "whatItContributes": "2026-11-04：Fi Europe 攤位 51C69，DAOgest 寫 4.2 mg／份。"
+        },
+        {
+          "accessed": "2026-11-25",
+          "channel": "other",
+          "publisher": "European Commission",
+          "title": "Protein extract from pig kidneys, summary of the application",
+          "url": "https://food.ec.europa.eu/document/download/70a79216-d46a-41aa-b4b9-0ee1fbf2b6bf_en?filename=novel-food_sum_ongoing-app_2021-0722.pdf",
+          "whatItContributes": "申請人 BIOIBERICA, S.A.U.，地址在西班牙 Palafolls，以及去脂乾燥的製程描述。這份是申請摘要，不是核准公報全文。"
+        }
+      ],
+      "supply": {
+        "relationship": "unknown",
+        "relationshipNote": "2026-11-25 以 DAOgest、Bioiberica、diamine oxidase、二胺氧化酶、DAO enzyme、組織胺酶，搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索，並打開創百核心優勢頁。該頁寫「我們經銷」，歐洲名單含 Bioiberica，沒有 DAOgest 產品頁；站內再搜 DAOgest 與二胺氧化酶沒有產品頁。這是創百自述，不是 Bioiberica 官網的經銷名單，也不升成獨家代理。iHerb 台灣站的 Seeking Health 成品標示含 DAOgest 豬腎萃取 4.2 mg，那是跨境成品，不是台灣原料廠商。Bioiberica 產品頁沒有台灣夥伴。同日再以「DAOgest 台灣」獨立複查，沒有點名這個商品名的代理頁。查核日 2026-11-25。",
+        "supplierCountry": "西班牙",
+        "supplierName": "Bioiberica",
+        "taiwanPartyName": "創百股份有限公司（自述經銷名單含 Bioiberica，未點名 DAOgest）"
+      },
+      "tfda": {
+        "evidenceNotes": "DAOgest、diamine oxidase 與二胺氧化酶在原料、添加物都是 0 筆，沒有未確認標記。原料關鍵字豬腎命中 3 筆，中文是腎上腺、腎皮質與腎基質，外文名是 Adrenal，部位寫腎上腺，不是豬的腎臟。添加物關鍵字酵素命中酵素製劑（id 782），限制是食品製造或加工必須時使用，不是這支口服二胺氧化酶。查無不是准用，也不是禁用。",
+        "lookupDate": "2026-11-25",
+        "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+        "officialCrosscheck": {
+          "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+          "done": false,
+          "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+          "notes": "2026-11-25 連線 consumer.fda.gov.tw 出現 SSL UNEXPECTED_EOF_WHILE_READING，沒有取得官方詳細頁。查詢助手對 DAOgest、diamine oxidase 與二胺氧化酶是 0 筆。腎上腺三筆與酵素製劑不是這支口服酵素，沒有可核對的 DAOgest 詳細頁。"
+        },
+        "queries": [
+          {
+            "category": "",
+            "keyword": "DAOgest",
+            "matchedName": "",
+            "note": "商品名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "diamine oxidase",
+            "matchedName": "",
+            "note": "酵素英文 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "二胺氧化酶",
+            "matchedName": "",
+            "note": "中文酵素名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "豬腎",
+            "matchedName": "牛、羊、豬腎上腺／牛、羊、豬腎皮質／牛、羊、豬腎基質",
+            "note": "這三筆是腎上腺，不是豬腎臟，也不是二胺氧化酶。",
+            "restrictionNote": "id 17633 外文名 Adrenal glands，部位腎上腺直接乾燥製成。id 17634 外文名 Adrenal cortex，部位腎上腺皮質直接乾燥製成。id 17635 外文名 Adrenal substance，部位腎上腺基質直接乾燥製成。三筆備註都空白。中文「豬腎」是「豬腎上腺」的字串命中。",
+            "resultCount": 3,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "DAOgest",
+            "matchedName": "",
+            "note": "商品名在添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "diamine oxidase",
+            "matchedName": "",
+            "note": "酵素英文在添加物 0 筆。單獨的 diamine 會命中 EDTA 的英文，那不是這支酵素，所以這列用兩個詞。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "二胺氧化酶",
+            "matchedName": "",
+            "note": "中文在添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "酵素",
+            "matchedName": "酵素製劑",
+            "note": "這是加工用酵素製劑，不是 DAOgest。",
+            "restrictionNote": "id 782。類別(十七) 其他。外文名 Enzyme Product。使用食品範圍及限量：本品可於各類食品中視實際需要適量使用。使用限制：限於食品製造或加工必須時使用。",
+            "resultCount": 1,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "diamine oxidase",
+            "matchedName": "",
+            "note": "助手更新歷程（2026-11-01 至 2026-11-24）沒有這組字的異動。資料時間戳 2026-11-24 06:17。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "history",
+            "unconfirmedSafety": false
+          }
+        ],
+        "usable": "not_found"
       }
     },
     {
@@ -25491,6 +26863,203 @@ window.INGREDIENT_CATALOG = {
     },
     {
       "discovery": {
+        "channel": "industry_report",
+        "notes": "從 SupplySide Supplement Journal 2026-11-20 的展後觀察進入 Kaneka 女性健康頁、AB-BIOTICS 的 Gyntima Iron 頁與 2022 年 Nutrients，再打開利統與綠茵的 H61 頁。subsp. lactis 與 LC-Plasma 沒有併成這一株。60 mg、3 億個細胞與利統的 15 mg 同時留下。",
+        "scoutDate": "2026-11-25"
+      },
+      "efficacy": {
+        "claimedBenefits": [
+          "SupplySide Supplement Journal 2026-11-20：Kaneka 在 SupplySide Global 推出後生元 KABP Iron，寫成熱處理的 Lactococcus lactis subsp. cremoris H-61。文中說 2022 年 Nutrients 的試驗裡，健康年輕女性補充四週後鐵蛋白與血清鐵上升。文章沒有寫毫克。",
+          "Kaneka 女性健康頁：KABP Iron 寫每份 3 億個細胞，菌株 L. lactis subsp. cremoris H61，定位維持已在正常範圍的鐵與鐵吸收。同站 PDF 把這一株寫在 KABP Gyntima Iron 底下，也是每劑 3 億個細胞，並寫 6 項人體臨床。這次沒有逐篇核對那 6 項。",
+          "AB-BIOTICS 女性健康頁與 2026 產品手冊：名稱寫 Gyntima Iron，劑量寫 60 mg／劑，同樣是 L. lactis subsp. cremoris H-61 的熱處理後生元。手冊引用的第一篇就是下面這篇 Nutrients。60 mg 與 3 億個細胞是兩種單位，頁上沒有換算。",
+          "Nutrients 2022（DOI 10.3390/nu14153144）：年輕日本女性、每日 60 mg 熱殺死 H61 或安慰劑、四週。錠劑由 Toa Biopharma 提供，每錠 30 mg。完成分析的是 29 人。摘要寫血清鐵、轉鐵蛋白飽和度與鐵蛋白在 H61 組上升、安慰劑組不變。結果段同時寫介入前 H61 組的血清鐵與飽和度已經高於安慰劑組。膳食鐵攝取沒有因為介入而增加。"
+        ],
+        "dosageNote": "60 mg 是 AB-BIOTICS 頁與 Toa 提供的試驗錠。3 億個細胞是 Kaneka 頁的寫法，沒有換成毫克。15 mg 是利統對另一家原料的寫法，不是 KABP Iron。平台 id 17539 沒有毫克或菌數。",
+        "suggestedDosage": "AB-BIOTICS 與 2022 年試驗寫 60 mg。Kaneka 頁與 PDF 寫每份或每劑 3 億個細胞。利統頁對 N.C. 的 H-61 另寫每日 15 mg。三個數字都留下。"
+      },
+      "evidenceLevels": [
+        "clinical"
+      ],
+      "example": false,
+      "id": "kabp-iron",
+      "images": [
+        {
+          "caption": "Kaneka Probiotics 女性健康頁的主圖。這次沒有把它讀成 KABP Iron 的包裝。",
+          "localPath": "",
+          "source": "official_site",
+          "url": "https://kanekaprobiotics.com/wp-content/uploads/womens-health-image.webp"
+        }
+      ],
+      "literature": {
+        "note": "這篇是人體隨機對照，對象是熱殺死 H61，不是已經標成 KABP Iron 的原料批。Kaneka 寫的 6 項臨床沒有逐篇打開。皮膚與小鼠那幾篇只在 AB-BIOTICS 手冊的引用列看到，不另標等級。",
+        "refs": [
+          {
+            "note": "Nutrients，2022-07-30。DOI 10.3390/nu14153144。每日 60 mg、四週、分析 29 人。試驗錠由 Toa Biopharma 提供，論文沒有寫 KABP Iron 或 Gyntima Iron。介入前兩組血清鐵已經有差異。",
+            "title": "Heat-Killed Lactococcus lactis subsp. cremoris H61 Altered the Iron Status of Young Women",
+            "url": "https://www.mdpi.com/2072-6643/14/15/3144"
+          }
+        ],
+        "status": "yes"
+      },
+      "names": {
+        "commonEn": "heat-treated Lactococcus lactis subsp. cremoris H-61",
+        "commonZh": "乳酸乳球菌乳脂亞種 H-61（熱處理後生元）",
+        "scientific": "Lactococcus lactis subsp. cremoris H-61。Kaneka 頁亦寫 H61。不是 id 17540 的 Lactococcus lactis subsp. lactis，也不是已收錄的 LC-Plasma（JCM 5805）。",
+        "trade": "KABP Iron（Kaneka Probiotics 的商品名；AB-BIOTICS 頁寫 Gyntima Iron）"
+      },
+      "patent": {
+        "note": "2026-11-25 以 KABP Iron、H-61、Lactococcus cremoris 查打開的 Kaneka、AB-BIOTICS 與 TOA 頁，沒有對到掛 KABP Iron 的專利號。利統頁寫日本特許第 4604207 號、TW1640315B 與 JP5935155，這次沒有打開說明書，不把這些號碼算成已核對。沒有查完就不能寫成無專利。",
+        "refs": [],
+        "status": "unknown"
+      },
+      "sources": [
+        {
+          "accessed": "2026-11-25",
+          "channel": "industry_report",
+          "publisher": "SupplySide Supplement Journal",
+          "title": "7 health optimization category innovations at SupplySide Global",
+          "url": "https://www.supplysidesj.com/supplements/7-health-optimization-category-innovations-at-supplyside-global",
+          "whatItContributes": "2026-11-20：Kaneka 在 SupplySide Global 推出 KABP Iron，以及文章對 2022 年 Nutrients 鐵指標的轉述。"
+        },
+        {
+          "accessed": "2026-11-25",
+          "channel": "supplier_site",
+          "publisher": "Kaneka Probiotics",
+          "title": "Probiotics for Vaginal, Urogenital & Menopausal Wellness",
+          "url": "https://kanekaprobiotics.com/wellness-areas/womens-health/",
+          "whatItContributes": "KABP Iron、H61，以及每份 3 億個細胞。頁上同時列日本、美國與西班牙據點。"
+        },
+        {
+          "accessed": "2026-11-25",
+          "channel": "supplier_site",
+          "publisher": "AB-BIOTICS",
+          "title": "Gyntima Iron",
+          "url": "https://www.ab-biotics.com/therapeutic-areas/womens-health/",
+          "whatItContributes": "同一株寫成 Gyntima Iron、60 mg／劑，製造據點在西班牙。"
+        },
+        {
+          "accessed": "2026-11-25",
+          "channel": "other",
+          "publisher": "利統股份有限公司",
+          "title": "仙杜瑞拉乳酸菌 Lactococcus cremoris H-61",
+          "url": "https://www.lytone.com/functional-food-catalog/H61",
+          "whatItContributes": "台灣目錄販售 N.C. 的 H-61，每日 15 mg，沒有 KABP Iron。"
+        }
+      ],
+      "supply": {
+        "relationship": "unknown",
+        "relationshipNote": "2026-11-25 以 KABP Iron、KABP、Gyntima Iron、H61、H-61、Lactococcus cremoris、乳酸乳球菌，搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索，並打開利統、綠茵、Kaneka 與 AB-BIOTICS 的頁。利統頁把 H-61 放在 N.C. CORPORATION 底下，寫 NARO 與 N.C. 共同開發、每日 15 mg、每公克 6,700 億，訴求是保濕，沒有 KABP、Kaneka 或鐵，也沒有寫總代理。綠茵頁寫日本食研所開發、製藥公司監製，路徑含 agent，可見文字沒有供應商名稱，也沒有 KABP。TOA Biopharma 英文頁寫 NARO 分離 H61，並寫授權 TOA 在自家工廠製造與銷售。Kaneka 與 AB-BIOTICS 則用 KABP Iron、Gyntima Iron 銷售同一株的熱處理物。N.C.、TOA 與 Kaneka／AB-BIOTICS 三組說法不同，都留下，不併成獨家。同株不是 KABP Iron 的代理。同日再以「KABP Iron 台灣」獨立複查，沒有點名這個商品名的台灣頁。查核日 2026-11-25。",
+        "supplierCountry": "日本（歐洲據點與製造頁在西班牙 AB-BIOTICS；北美據點在美國）",
+        "supplierName": "Kaneka Probiotics（AB-BIOTICS 頁用 Gyntima Iron）",
+        "taiwanPartyName": "利統股份有限公司（目錄販售 N.C. 的 H-61，不是 KABP Iron）；綠茵生技（H61 頁，供應方待確認）"
+      },
+      "tfda": {
+        "evidenceNotes": "KABP、H61 與 H-61 在原料、添加物都是 0 筆。Lactococcus lactis subsp. cremoris 命中乳酸菌（id 17539），學名含這個亞種，部位菌體，可供食品原料或加工使用，沒有未確認標記，也沒有寫 H-61 或熱殺死。cremoris 另有 Lactobacillus cremoris（id 17508）與 Leuconostoc mesenteroides subsp. cremoris（id 17542）；id 17540 的 Lactococcus lactis subsp. lactis 是另一個亞種。添加物的 cremoris、KABP 與 Lactococcus 都是 0 筆。",
+        "lookupDate": "2026-11-25",
+        "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+        "officialCrosscheck": {
+          "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+          "done": true,
+          "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+          "notes": "2026-11-25 連線 consumer.fda.gov.tw 出現 SSL UNEXPECTED_EOF_WHILE_READING，沒有取得官方詳細頁。查詢助手細節時間戳 2026-11-24 06:17，siteTotals 原料 1709、添加物 804。id 17539 的詳細欄位與上述備註一致，詳細頁網址是 MaterialDetail id 17539。添加物的 cremoris 是 0 筆。"
+        },
+        "queries": [
+          {
+            "category": "",
+            "keyword": "KABP",
+            "matchedName": "",
+            "note": "商品名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "H61",
+            "matchedName": "",
+            "note": "菌株編號 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "H-61",
+            "matchedName": "",
+            "note": "帶連字號的編號 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Lactococcus lactis subsp. cremoris",
+            "matchedName": "乳酸菌",
+            "note": "這個亞種的那一筆。",
+            "restrictionNote": "id 17539。學名 Lactococcus lactis subsp. cremoris, Lactococcus cremoris, Streptococcus lactis subsp. cremoris。部位菌體。備註：可供為食品原料或食品加工使用。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "cremoris",
+            "matchedName": "乳酸菌",
+            "note": "三筆不是同一個學名。",
+            "restrictionNote": "id 17508 學名 Lactobacillus cremoris。id 17539 是本筆。id 17542 學名 Leuconostoc mesenteroides subsp. cremoris。三筆備註都是可供食品原料或加工使用。",
+            "resultCount": 3,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "KABP",
+            "matchedName": "",
+            "note": "商品名在添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "cremoris",
+            "matchedName": "",
+            "note": "亞種名在添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Lactococcus",
+            "matchedName": "",
+            "note": "屬名在添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "cremoris",
+            "matchedName": "",
+            "note": "助手更新歷程（2026-11-01 至 2026-11-24）沒有這組字的異動。資料時間戳 2026-11-24 06:17。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "history",
+            "unconfirmedSafety": false
+          }
+        ],
+        "usable": "listed_food_ingredient"
+      }
+    },
+    {
+      "discovery": {
         "channel": "exhibition",
         "notes": "從 Vitafoods Asia 2026 展前名錄的 Kaneka H6-F25 進入，對歐洲官網與 PMC 的 Kaneka QH 試驗，再對東翔與登盛的台灣頁。SupplySide 2025 名錄只核到 Kaneka North America 攤位。",
         "scoutDate": "2026-11-08"
@@ -26883,6 +28452,201 @@ window.INGREDIENT_CATALOG = {
           }
         ],
         "usable": "not_found"
+      }
+    },
+    {
+      "discovery": {
+        "channel": "news",
+        "notes": "從 NutraIngredients 2026-11-24 的亞洲應用稿進入 Probi 英文菌株頁、2021 年綜述與 US9687513B2，再打開盛美產品頁與 probi.com.tw。paraplantarum 沒有併成這支菌株。盛美寫的產地美國與 Probi 總部在瑞典同時留下。",
+        "scoutDate": "2026-11-25"
+      },
+      "efficacy": {
+        "claimedBenefits": [
+          "NutraIngredients 2026-11-24：Probi 的 LP299V 用在日本 Nomura Dairy 與 Kunugi 的 My Flora 鬆餅，每片 100 億 CFU；泰國 BioActive+ 的 TRIBIOTIC PRO 以它為主要益生菌，一日一包。報導寫這支菌株有 35 年以上研究、超過 90 項人體臨床。文中的日本成人試驗寫每日至少 100 億 CFU、八週，較易腹瀉者的排便次數低於安慰劑，論文寫在 2025 年 Japanese Journal of Medical and Pharmaceutical Sciences。這次沒有打開那篇原文。",
+          "Probi 英文菌株頁：菌株由隆德大學 Bengt Jeppsson 從健康人體腸黏膜分離。頁上寫 85 項以上人體臨床、300 篇以上科學出版、35 年以上研究，並寫可黏附腸上皮的甘露糖受體、通過消化道後仍可測得。這頁沒有寫出每日 CFU。",
+          "probi.com.tw 的菌株頁寫 200 篇以上科學出版、超過 65 項臨床。盛美頁寫超過 200 篇科學文獻、超過 80 項臨床，以及每日 1.0×10^10 CFU。三處篇數不一致，都留下。",
+          "2021 年 Beneficial Microbes 綜述（截至 2020-06-30）：超過 170 篇出版、其中 60 篇以上是人體臨床，主要寫胃腸，包含腸躁症的脹氣與腹痛，以及鐵吸收與鐵狀態。綜述寫菌株安全、不帶抗生素抗性，冷凍乾燥後室溫穩定。"
+        ],
+        "dosageNote": "1.0×10^10 CFU 是盛美產品頁的建議食用量，也是新聞對那次飲料試驗與鬆餅的寫法。平台 id 17518 沒有 CFU 或菌株編號。US9687513B2 請求項的活菌範圍是約 1×10^6 到 1×10^14 CFU，那是專利請求項，不是這次的供應商建議。",
+        "suggestedDosage": "盛美頁寫每日 1.0×10^10 CFU。2026-11-24 新聞裡的鬆餅與日本試驗寫至少 100 億 CFU，數量級相同。Probi 這次打開的英文菌株頁沒有寫 CFU。"
+      },
+      "evidenceLevels": [
+        "in_vitro",
+        "animal",
+        "clinical"
+      ],
+      "example": false,
+      "id": "lp299v",
+      "images": [
+        {
+          "caption": "Probi 官網 LP299V 頁的益生菌粉末製造圖示，不是這支菌株的包裝照片。",
+          "localPath": "",
+          "source": "official_site",
+          "url": "https://www.probi.com/media/1waglvj2/probi-ikoner_manufacturing-probiotic-powder.png"
+        }
+      ],
+      "literature": {
+        "note": "綜述本身涵蓋三個等級。2025 年日本期刊那篇只在新聞看到篇名與方向，沒有打開原文，不另列成已讀文獻。",
+        "refs": [
+          {
+            "note": "Beneficial Microbes，2021-08-09，綜述。作者含 Probi。統計到 2020-06-30：170 篇以上出版、60 篇以上人體臨床。基因組登錄號 NZ_LEAV01000004。證據等級含體外、動物與人體。",
+            "title": "Lactiplantibacillus plantarum 299v (LP299V): three decades of research",
+            "url": "https://doi.org/10.3920/bm2020.0191"
+          }
+        ],
+        "status": "yes"
+      },
+      "names": {
+        "commonEn": "Lactiplantibacillus plantarum 299v",
+        "commonZh": "植物乳植桿菌 299v",
+        "scientific": "Lactiplantibacillus plantarum 299v，寄存編號 DSM 9843。2021 年 Beneficial Microbes 綜述這樣寫，並寫舊名 Lactobacillus plantarum 299v。不是 Lactobacillus paraplantarum。",
+        "trade": "LP299V（Probi 的菌株商品名；舊稱 Lactobacillus plantarum 299v）"
+      },
+      "patent": {
+        "note": "這件核准專利的請求項是鐵與貧血。Probi 菌株頁另寫菌株受專利保護，沒有在那頁給出編號。綜述也寫有多國專利，這次只核對到上面這一件的全文頁。",
+        "refs": [
+          {
+            "note": "2017-06-27 核准，權利人 Probi AB。請求項列 Lactobacillus plantarum 299v，DSM 9843，以及 299、HEAL 9、HEAL 19、HEAL 99。用途寫貧血治療與非血基質鐵，活菌量約 1×10^6 到 1×10^14 CFU。讀取日 2026-11-25。",
+            "title": "US9687513B2 Methods of treating anemia and increasing the absorption of non-heme iron by administration of lactobacillus plantarum",
+            "url": "https://patents.google.com/patent/US9687513B2/en"
+          }
+        ],
+        "status": "yes"
+      },
+      "sources": [
+        {
+          "accessed": "2026-11-25",
+          "channel": "news",
+          "publisher": "NutraIngredients",
+          "title": "Probi’s LP299V finds new formats and markets in Asia",
+          "url": "https://www.nutraingredients.com/Article/2026/11/24/probis-probiotic-strain-expands-footprint-in-application-format-and-market/",
+          "whatItContributes": "2026-11-24：日本鬆餅每片 100 億 CFU、泰國複方粉，以及報導所寫的臨床篇數。"
+        },
+        {
+          "accessed": "2026-11-25",
+          "channel": "supplier_site",
+          "publisher": "Probi",
+          "title": "LP299V Probiotic Strain",
+          "url": "https://www.probi.com/probiotics/strains/lp299v-probiotic-strain/",
+          "whatItContributes": "分離來源、85 項以上人體臨床與 300 篇以上出版的公司寫法。這頁沒有每日 CFU。"
+        },
+        {
+          "accessed": "2026-11-25",
+          "channel": "other",
+          "publisher": "盛美股份有限公司",
+          "title": "植物乳桿菌 LP299V",
+          "url": "https://www.shinemate.com.tw/zh-tw/healthcare.php?id=29",
+          "whatItContributes": "台灣頁寫瑞典 Probi AB、產地美國，以及每日 1.0×10^10 CFU。沒有寫總代理。"
+        },
+        {
+          "accessed": "2026-11-25",
+          "channel": "patent",
+          "publisher": "Google Patents",
+          "title": "US9687513B2",
+          "url": "https://patents.google.com/patent/US9687513B2/en",
+          "whatItContributes": "權利人 Probi AB，請求項含 299v 與 DSM 9843。"
+        }
+      ],
+      "supply": {
+        "relationship": "taiwan_distributor",
+        "relationshipNote": "2026-11-25 以 LP299V、LP299v、299v、Probi、Lactiplantibacillus plantarum、植物乳桿菌，搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索，並打開盛美產品頁與 probi.com.tw。盛美頁寫瑞典 Probi AB 出品、產地美國、每日 1.0×10^10 CFU，沒有寫代理、總代理或獨家。probi.com.tw 的聯絡區塊是瑞典 Lund、新加坡與美國 Redmond，沒有點名盛美。同日再以「LP299V 台灣 總代理」獨立複查，沒有打開到原廠經銷名單。盛美的供應是該公司產品頁的自述，產地美國與總部在瑞典的寫法同時留下。查核日 2026-11-25。",
+        "supplierCountry": "瑞典",
+        "supplierName": "Probi（Symrise 旗下；總部在瑞典 Lund）",
+        "taiwanPartyName": "盛美股份有限公司（產品頁自述供應這支菌株；未寫總代理）"
+      },
+      "tfda": {
+        "evidenceNotes": "LP299V 與 299v 在原料、添加物都是 0 筆。Lactiplantibacillus plantarum 命中乳酸菌（id 17518），學名含這個種，部位菌體，可供食品原料或加工使用，沒有未確認標記，也沒有寫菌株編號或 CFU。關鍵字 Lactobacillus plantarum 是 3 筆：id 17518、亞種那筆 id 17603，以及字串含 plantarum 的 Lactobacillus paraplantarum（id 17552）。添加物的 plantarum 與乳酸菌都是 0 筆。",
+        "lookupDate": "2026-11-25",
+        "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+        "officialCrosscheck": {
+          "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+          "done": true,
+          "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+          "notes": "2026-11-25 連線 consumer.fda.gov.tw 出現 SSL UNEXPECTED_EOF_WHILE_READING，沒有取得官方詳細頁。查詢助手細節時間戳 2026-11-24 06:17，siteTotals 原料 1709、添加物 804。id 17518 的詳細欄位與上述備註一致，詳細頁網址是 MaterialDetail id 17518。添加物的 plantarum 是 0 筆。"
+        },
+        "queries": [
+          {
+            "category": "",
+            "keyword": "LP299V",
+            "matchedName": "",
+            "note": "商品名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "299v",
+            "matchedName": "",
+            "note": "菌株編號 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Lactiplantibacillus plantarum",
+            "matchedName": "乳酸菌",
+            "note": "現用學名這一筆。",
+            "restrictionNote": "id 17518。學名 Lactobacillus plantarum, Lactiplantibacillus plantarum。部位菌體。備註：可供為食品原料或食品加工使用。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Lactobacillus plantarum",
+            "matchedName": "乳酸菌",
+            "note": "第三筆是另一個種名。",
+            "restrictionNote": "id 17518 含 Lactobacillus plantarum 與 Lactiplantibacillus plantarum。id 17603 學名 Lactobacillus plantarum subsp. Plantarum。id 17552 學名 Lactobacillus paraplantarum，因為字串含 plantarum 被算進來。三筆備註都是可供食品原料或加工使用。",
+            "resultCount": 3,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "LP299V",
+            "matchedName": "",
+            "note": "商品名在添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "plantarum",
+            "matchedName": "",
+            "note": "種名在添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "乳酸菌",
+            "matchedName": "",
+            "note": "中文在添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "plantarum",
+            "matchedName": "",
+            "note": "助手更新歷程（2026-11-01 至 2026-11-24）沒有這組字的異動。資料時間戳 2026-11-24 06:17。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "history",
+            "unconfirmedSafety": false
+          }
+        ],
+        "usable": "listed_food_ingredient"
       }
     },
     {
@@ -29364,6 +31128,184 @@ window.INGREDIENT_CATALOG = {
             "keyword": "Nextida",
             "matchedName": "",
             "note": "更新歷程未見此商品名。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "history",
+            "unconfirmedSafety": false
+          }
+        ],
+        "usable": "listed_food_ingredient"
+      }
+    },
+    {
+      "discovery": {
+        "channel": "exhibition",
+        "notes": "從 Fi Europe 2026 展品頁進入 Lantmännen 產品頁、2026-11-05 新聞稿與 2026-10-29 的 Fi Global Insights。產品頁的 2027 年第 2 季與新聞稿的 launched 同時留下。85% 沒有寫進產品頁這次看到的內文。VITESSENCE Pulse 1803 與欣宏的澱粉頁沒有併成 NordPea 的台灣經銷。",
+        "scoutDate": "2026-11-25"
+      },
+      "efficacy": {
+        "claimedBenefits": [
+          "Lantmännen 產品頁：NordPea 是中性風味的豌豆蛋白，寫高蛋白、無主要過敏原、無麩質，可分散，黏度用來做口感。應用寫即溶、即飲與乳品類似物。同頁寫仍在最終測試，數據還是初步的，商業供應寫 2027 年第 2 季。這頁沒有寫蛋白百分比，也沒有健康功效試驗。",
+          "Lantmännen 2026-11-05 新聞稿：與 Ingredion 合作，在瑞典 Lidköping 新廠生產，廠的豌豆與蠶豆處理能力寫約每年 4 萬公噸。正式發表寫在 Fi Europe 2026，攤位 30J62，並進 New Product Zone。新聞稿用 launched，沒有重複產品頁的 2027 年第 2 季。",
+          "Fi Global Insights 2026-10-29：寫第一支 NordPea 分離蛋白為 85% 蛋白、無過敏原、無麩質，商業供應寫 2027 年第 2 季。85% 只出現在這篇，產品頁這次打開的內文沒有這個數字。"
+        ],
+        "dosageNote": "沒有供應商建議的保健劑量，也沒有看到 NordPea 的人體試驗劑量。平台豌豆種子的備註是空白，不能換成分離蛋白的上限。85% 是 2026-10-29 那篇對蛋白含量的寫法，不是劑量。",
+        "suggestedDosage": "這次打開的產品頁、新聞稿與展品頁都沒有寫每日公克或臨床劑量。"
+      },
+      "evidenceLevels": [],
+      "example": false,
+      "id": "nordpea",
+      "images": [
+        {
+          "caption": "Lantmännen 官網 NordPea 頁的特性圖，替代文字是 NordPea Characteristics。",
+          "localPath": "",
+          "source": "official_site",
+          "url": "https://www.lantmannenbiorefineries.se/siteassets/5.-food-ingredients/ingredienser/vaxtbaserat-protein/nordpea-pea-protein/nordpea-characteristics.jpg?width=600&rmode=min"
+        }
+      ],
+      "literature": {
+        "note": "2026-11-25 以 NordPea 查打開的產品頁與新聞，沒有看到期刊論文。產品頁寫數據仍是初步的。不把口感描述算成文獻。",
+        "refs": [],
+        "status": "unknown"
+      },
+      "names": {
+        "commonEn": "pea protein isolate",
+        "commonZh": "豌豆分離蛋白",
+        "scientific": "Pisum sativum（豌豆種子做成的分離蛋白。官方產品頁這次沒有再寫拉丁學名。不是蠶豆 Vicia faba。）",
+        "trade": "NordPea（Lantmännen 的豌豆蛋白商品名；與 Ingredion 合作）"
+      },
+      "patent": {
+        "note": "2026-11-25 以 NordPea、Lantmännen pea protein isolate 查打開的產品頁、新聞稿與展品頁，沒有對到掛這個商品名的專利公開號。沒有查完就不能寫成無專利。",
+        "refs": [],
+        "status": "unknown"
+      },
+      "sources": [
+        {
+          "accessed": "2026-11-25",
+          "channel": "exhibition",
+          "publisher": "Fi Europe 2026 展品頁",
+          "title": "NordPea - Pea Protein Isolate",
+          "url": "https://visitor.figlobal.com/event/fi-europe2026/product/UHJvZHVjdF8xNTM2MzIy",
+          "whatItContributes": "展品名、Lantmännen Biorefineries、攤位 30J62，以及中性風味、即飲與乳品類似物。"
+        },
+        {
+          "accessed": "2026-11-25",
+          "channel": "supplier_site",
+          "publisher": "Lantmännen Biorefineries",
+          "title": "NordPea Pea Protein",
+          "url": "https://www.lantmannenbiorefineries.com/food-ingredients/products/plant-based-protein/nord-pea/",
+          "whatItContributes": "高蛋白、無主要過敏原、無麩質，以及數據仍初步、商業供應寫 2027 年第 2 季。"
+        },
+        {
+          "accessed": "2026-11-25",
+          "channel": "news",
+          "publisher": "Lantmännen",
+          "title": "Lantmännen launches NordPea to meet demand for sustainable plant protein",
+          "url": "https://lantmannen.prezly.com/lantmannen-launches-nordpea-to-meet-demand-for-sustainable-plant-protein",
+          "whatItContributes": "2026-11-05：與 Ingredion 合作、Lidköping 新廠，以及 Fi Europe 攤位 30J62。"
+        },
+        {
+          "accessed": "2026-11-25",
+          "channel": "industry_report",
+          "publisher": "Fi Global Insights",
+          "title": "Meet NordPea – a new standard in pea protein",
+          "url": "https://insights.figlobal.com/plant-based/meet-nordpea-a-new-standard-in-pea-protein",
+          "whatItContributes": "2026-10-29：85% 蛋白只在這篇看到，並再次寫 2027 年第 2 季。"
+        }
+      ],
+      "supply": {
+        "relationship": "unknown",
+        "relationshipNote": "2026-11-25 以 NordPea、Lantmännen、Lantmannen、Ingredion、宜瑞安、豌豆蛋白、豌豆分離蛋白、Pisum sativum，搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索。Lantmännen 產品頁與 Fi Europe 展品頁沒有台灣公司。欣宏生化科技的 Ingredion 頁列的是澱粉，不是 NordPea。宜瑞安 SDS 上的台灣電話屬於另一支豌豆蛋白 VITESSENCE Pulse 1803，不是 NordPea 的經銷頁。同日再以「NordPea 台灣」「NordPea Taiwan」獨立複查，沒有台灣廠商產品頁或代理頁。查核日 2026-11-25。",
+        "supplierCountry": "瑞典",
+        "supplierName": "Lantmännen Biorefineries",
+        "taiwanPartyName": "本次查無台灣關聯廠商"
+      },
+      "tfda": {
+        "evidenceNotes": "NordPea 與 pea protein 在原料是 0 筆，添加物的豌豆與 Pisum 也是 0 筆。豌豆與 Pisum sativum 命中同一筆（id 17167），次分類可供直接食用，部位種子，備註空白，沒有未確認標記。列名是豌豆種子，沒有分離蛋白規格，也沒有蛋白百分比。",
+        "lookupDate": "2026-11-25",
+        "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+        "officialCrosscheck": {
+          "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+          "done": true,
+          "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+          "notes": "2026-11-25 連線 consumer.fda.gov.tw 出現 SSL UNEXPECTED_EOF_WHILE_READING，沒有取得官方詳細頁。查詢助手細節時間戳 2026-11-24 06:17，siteTotals 原料 1709、添加物 804。id 17167 的詳細欄位與上述一致，詳細頁網址是 MaterialDetail id 17167。添加物的豌豆是 0 筆。"
+        },
+        "queries": [
+          {
+            "category": "",
+            "keyword": "NordPea",
+            "matchedName": "",
+            "note": "商品名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "豌豆",
+            "matchedName": "豌豆",
+            "note": "種子這一筆。",
+            "restrictionNote": "id 17167。次分類為草、木本植物類(2)可供直接食用。外文名 Pea。學名 Pisum sativum。部位種子。備註空白。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Pisum sativum",
+            "matchedName": "豌豆",
+            "note": "學名命中同一列。",
+            "restrictionNote": "同一筆 id 17167。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "pea protein",
+            "matchedName": "",
+            "note": "分離蛋白這組英文 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "豌豆",
+            "matchedName": "",
+            "note": "中文在添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Pisum",
+            "matchedName": "",
+            "note": "學名在添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "NordPea",
+            "matchedName": "",
+            "note": "商品名在添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "豌豆",
+            "matchedName": "",
+            "note": "助手更新歷程（2026-11-01 至 2026-11-24）沒有這組字的異動。資料時間戳 2026-11-24 06:17。",
             "restrictionNote": "",
             "resultCount": 0,
             "tab": "history",

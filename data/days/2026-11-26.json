@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-26",
+  "example": false,
+  "title": "2026-11-26 正式日報",
+  "targetCount": 5,
+  "channelsCovered": [
+    "news",
+    "exhibition",
+    "industry_report"
+  ],
+  "notes": "正式五筆。主管道：sweelin、Nutri Whey Isolate Clear PA 為新聞；Melostacio Gold、BC99 為展覽；CornFit 為產業報導。未收未確認安全性項目：蘋果薄荷（MintyBright Nu 的植物，Mentha suaveolens，id 16226）、嗜粘蛋白阿克曼菌（AKKBG-001 的菌，Akkermansia muciniphila，id 16441）。玉米苞葉與葉（id 16384）不是玉米鬚花柱。Pentadiplandra brazzeana 不是 sweelin 的莫內林。",
+  "picks": [
+    "sweelin",
+    "nutri-whey-clear-pa",
+    "melostacio-gold",
+    "bc99",
+    "cornfit"
+  ]
+}

@@ -1,0 +1,205 @@
+{
+  "id": "bc99",
+  "example": false,
+  "names": {
+    "commonZh": "凝結魏茨曼氏菌 BC99",
+    "commonEn": "Weizmannia coagulans BC99",
+    "trade": "BC99（微康益生菌／Wecare Probiotics 的菌株商品名；頁上亦寫 WecLac）",
+    "scientific": "Weizmannia coagulans BC99。公司中文頁寫原名凝結芽孢桿菌，保藏編號 CGMCC No.21801。平台乳酸菌這一筆的學名是 Bacillus coagulans、Lactobacillus sporogenes，沒有寫 Weizmannia，也沒有寫 BC99。"
+  },
+  "supply": {
+    "supplierName": "Wecare Probiotics（微康益生菌）",
+    "supplierCountry": "中國",
+    "relationship": "unknown",
+    "taiwanPartyName": "本次查無台灣關聯廠商",
+    "relationshipNote": "2026-11-26 以 BC99、Weizmannia、Wecare、微康、凝結魏茨曼氏菌、凝結芽孢桿菌 BC99，搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索，並打開微康中文產品頁、Fi Europe 決選稿，以及香港交易所申請版本裡搜到的「台灣」一句。那一句是地理定義，把台灣排除在該文件所稱的中國之外，沒有台灣經銷商名字。西班牙 Baïa Food 的肌酸成品寫每份含 BC99，店頁配送範圍是歐洲、英國與美國，不是台灣代理。同日再以「BC99 台灣 經銷」獨立複查，沒有台灣公司的產品頁。查核日 2026-11-26。"
+  },
+  "tfda": {
+    "usable": "listed_food_ingredient",
+    "evidenceNotes": "BC99 與 Weizmannia 在原料、添加物都是 0 筆。Bacillus coagulans 命中乳酸菌（id 17493），學名寫 Bacillus coagulans、Lactobacillus sporogenes，部位菌體，備註可供為食品原料或食品加工使用，沒有未確認標記，也沒有寫 BC99 或菌數。凝結這個中文在原料與添加物都是 0 筆。舊學名列名不是這支菌株的每日菌數許可。",
+    "lookupDate": "2026-11-26",
+    "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+    "queries": [
+      {
+        "tab": "ingredient",
+        "keyword": "BC99",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "菌株商品名 0 筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Weizmannia",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "新屬名 0 筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Bacillus coagulans",
+        "category": "",
+        "resultCount": 1,
+        "matchedName": "乳酸菌",
+        "restrictionNote": "id 17493。次分類為微生物及其來源製取之原料。外文名 Lactic acid bacteria。學名 Bacillus coagulans, Lactobacillus sporogenes。部位菌體。備註：可供為食品原料或食品加工使用。",
+        "unconfirmedSafety": false,
+        "note": "舊學名在乳酸菌這一筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "凝結",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "中文 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "BC99",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名在添加物 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "coagulans",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "種小名在添加物 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "凝結",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "中文在添加物 0 筆。"
+      },
+      {
+        "tab": "history",
+        "keyword": "coagulans",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "助手更新歷程（2026-11-01 至 2026-11-25）沒有 coagulans 或 Weizmannia。資料時間戳 2026-11-25 06:15。"
+      }
+    ],
+    "officialCrosscheck": {
+      "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+      "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+      "done": true,
+      "notes": "2026-11-26 連線 consumer.fda.gov.tw 出現 SSL_ERROR_SYSCALL，沒有取得官方詳細頁。查詢助手細節時間戳 2026-11-25 06:15。id 17493 的學名與備註如上。BC99 與 Weizmannia 沒有單獨一列。"
+    }
+  },
+  "efficacy": {
+    "claimedBenefits": [
+      "微康中文產品頁：BC99 寫耐熱、耐酸、耐膽鹽，並寫緩解便秘、調節菌群。同頁的乾熱測試寫 120°C、15 分鐘存活率 96%，150°C、15 分鐘 91%。這是公司頁的測試，不是論文摘要。",
+      "Frontiers in Nutrition 2024（DOI 10.3389/fnut.2024.1395083）：成人慢性便秘，BC99 每日 20 億 CFU、4 週。完全自發排便每週至少 3 次的比例，BC99 組 34/50（68.0%），安慰劑 19/51（37.3%）。登記號 ChiCTR2200065493。菌粉由 Wecare 提供。",
+      "Foods 2025（DOI 10.3390/foods14040654）：另一篇便秘試驗寫每日 1 g（20 億 CFU）、8 週，對照是麥芽糊精。摘要方向是便秘症狀。"
+    ],
+    "suggestedDosage": "兩篇便秘試驗都是每日 20 億 CFU。一篇是 4 週，一篇寫每日 1 g 菌粉、8 週。產品頁沒有另寫每日食用量。",
+    "dosageNote": "20 億 CFU 是這兩篇論文的用量，不是平台上的限量。id 17493 沒有寫菌株編號或 CFU。"
+  },
+  "patent": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "CN113875988A 一種凝結芽孢桿菌 BC99 飲料及其製備方法",
+        "url": "https://patents.google.com/patent/CN113875988A/en",
+        "note": "申請人 WeCare Probiotics Co Ltd。Google Patents 頁的法律狀態是 Pending。申請號 CN202111110868.3A，公開日 2022-01-04。內文寫保藏編號 CGMCC No.21801。這是飲料製法，標題不是菌株專利證書。讀取日 2026-11-26。"
+      }
+    ],
+    "note": "有一件公開中的飲料申請。產品頁把 BC99 寫成專利菌株，但打開的那一頁沒有證書號碼。不把 Pending 寫成已核准。"
+  },
+  "literature": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "Weizmannia coagulans BC99 in the treatment of chronic constipation in adults",
+        "url": "https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2024.1395083/full",
+        "note": "Frontiers in Nutrition，2024。DOI 10.3389/fnut.2024.1395083。每日 20 億 CFU、4 週。ChiCTR2200065493。"
+      },
+      {
+        "title": "Weizmannia coagulans BC99 Relieves Constipation Symptoms",
+        "url": "https://doi.org/10.3390/foods14040654",
+        "note": "Foods，2025。每日 1 g（20 億 CFU）、8 週。"
+      }
+    ],
+    "note": "這兩篇是人體隨機對照，對象都是便秘。產品頁的耐熱百分比沒有再對回這兩篇論文。"
+  },
+  "evidenceLevels": [
+    "clinical"
+  ],
+  "images": [
+    {
+      "url": "http://weclac.wecare-bio.com/index/images/bc99_01.jpg",
+      "localPath": "",
+      "caption": "微康 WecLac 的 BC99 中文產品頁圖片。",
+      "source": "official_site"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Fi Europe 2026 reveals Innovation Awards finalists",
+      "url": "https://fei-online.com/fi-europe-2026-reveals-innovation-awards-finalists/",
+      "publisher": "Food Engineering & Ingredients",
+      "channel": "exhibition",
+      "accessed": "2026-11-26",
+      "whatItContributes": "2026-11-03：Health Innovation Award 決選名單有 Wecare Probiotics 的 Weizmannia (Bacillus) coagulans BC99。頒獎在 11 月 17 日法蘭克福。"
+    },
+    {
+      "title": "凝結魏茨曼氏菌 BC99",
+      "url": "http://weclac.wecare-bio.com/bc",
+      "publisher": "微康 WecLac",
+      "channel": "supplier_site",
+      "accessed": "2026-11-26",
+      "whatItContributes": "中文品名、耐熱測試的百分比、包裝 1 kg 或 5 kg。沒有每日 CFU。"
+    },
+    {
+      "title": "Frontiers in Nutrition 2024, 1395083",
+      "url": "https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2024.1395083/full",
+      "publisher": "Frontiers",
+      "channel": "paper",
+      "accessed": "2026-11-26",
+      "whatItContributes": "4 週便秘試驗的劑量與完全自發排便比例。"
+    },
+    {
+      "title": "CN113875988A",
+      "url": "https://patents.google.com/patent/CN113875988A/en",
+      "publisher": "Google Patents",
+      "channel": "patent",
+      "accessed": "2026-11-26",
+      "whatItContributes": "申請人、保藏編號，以及頁上的 Pending。"
+    },
+    {
+      "title": "Baïa Food 目錄說明",
+      "url": "https://baiafood.com/llms.txt",
+      "publisher": "Baïa Food（西班牙）",
+      "channel": "other",
+      "accessed": "2026-11-26",
+      "whatItContributes": "肌酸成品寫每份含 BC99 60 億 CFU。配送範圍寫歐洲、英國與美國。不是台灣代理。"
+    }
+  ],
+  "discovery": {
+    "channel": "exhibition",
+    "scoutDate": "2026-11-26",
+    "notes": "從 Fi Europe 2026 創新獎決選稿進入微康中文產品頁、兩篇便秘論文與 CN113875988A。平台只有 Bacillus coagulans 的乳酸菌列，沒有 BC99。嗜黏蛋白阿克曼菌是另一筆未確認項目，沒有併進來。"
+  }
+}

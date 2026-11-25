@@ -1,0 +1,184 @@
+{
+  "id": "cornfit",
+  "example": false,
+  "names": {
+    "commonZh": "玉米鬚萃取物",
+    "commonEn": "corn silk extract",
+    "trade": "CornFit（Botanic Healthcare 的玉米鬚萃取商品名；頁上亦寫 Cornfit）",
+    "scientific": "Zea mays L.（花柱，玉米鬚。韋鎮頁寫 Stigma。不是同種的苞葉或葉；那一筆在未確認分類。）"
+  },
+  "supply": {
+    "supplierName": "Botanic Healthcare",
+    "supplierCountry": "印度",
+    "relationship": "taiwan_distributor",
+    "taiwanPartyName": "韋鎮實業有限公司（目錄販售）",
+    "relationshipNote": "2026-11-26 以 CornFit、Cornfit、玉米鬚萃取、corn silk extract、Botanic Healthcare、Zea mays stigma，搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索，並打開韋鎮產品頁、分類頁與公司介紹。產品頁寫原廠印度、學名 Zea mays L.、部位 Stigma（花柱），特性含 Maysin，並寫印度專利認證。介紹頁寫該公司是保健食品與化妝品原料的進出口貿易商，沒有寫 Botanic 的總代理，也沒有原廠經銷名單。這是目錄販售，不是原廠證實的獨家代理。展昭 2027 產品頁的參展商是 Botanic 自己，頁尾台北地址是主辦單位。同日再以「CornFit 台灣」複查，仍是這一頁。查核日 2026-11-26。"
+  },
+  "tfda": {
+    "usable": "listed_food_ingredient",
+    "evidenceNotes": "CornFit 是 0 筆。玉米鬚與 corn silk 命中同一筆（id 17032），次分類可供直接食用，學名 Zea mays L.，部位花柱，備註空白，沒有未確認標記。Zea mays 另有玉米穗軸、玉米油、玉米蛋白，以及未確認的苞葉與葉（id 16384）。添加物的玉米鬚與 corn silk 是 0 筆。花柱列名不是萃取物的每日毫克許可。",
+    "lookupDate": "2026-11-26",
+    "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+    "queries": [
+      {
+        "tab": "ingredient",
+        "keyword": "CornFit",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名 0 筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "玉米鬚",
+        "category": "",
+        "resultCount": 1,
+        "matchedName": "玉米鬚",
+        "restrictionNote": "id 17032。大分類可供食品使用之原料。次分類為草、木本植物類(2)可供直接食用。外文名 Corn silk。學名 Zea mays L.。部位花柱。備註空白。",
+        "unconfirmedSafety": false,
+        "note": "中文名這一筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "corn silk",
+        "category": "",
+        "resultCount": 1,
+        "matchedName": "玉米鬚",
+        "restrictionNote": "同一筆 id 17032。",
+        "unconfirmedSafety": false,
+        "note": "外文名命中同一列。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Zea mays",
+        "category": "",
+        "resultCount": 5,
+        "matchedName": "玉米／玉米鬚／玉米油／玉米蛋白／玉米（苞葉、葉）",
+        "restrictionNote": "id 16849 玉米，部位芯（穗軸）。id 17032 是本筆，花柱，不是未確認。id 17299 玉米油。id 17355 玉米蛋白。id 16384 玉米，部位苞葉（殼）、葉，未確認安全性，不得供為食品原料。",
+        "unconfirmedSafety": true,
+        "note": "五筆裡有一筆未確認，所以這個關鍵字標 true。CornFit 對的是花柱 id 17032，不是苞葉與葉。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "玉米鬚",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "中文在添加物 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "corn silk",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "英文在添加物 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "Zea",
+        "category": "",
+        "resultCount": 1,
+        "matchedName": "合成玉米黃素",
+        "restrictionNote": "id 295。類別是營養添加劑。外文名 Synthetic Zeaxanthin。這是玉米黃素，不是玉米鬚。關鍵字 Zea 落在名稱裡。",
+        "unconfirmedSafety": false,
+        "note": "不是這支萃取。"
+      },
+      {
+        "tab": "history",
+        "keyword": "玉米鬚",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "助手更新歷程（2026-11-01 至 2026-11-25）沒有玉米鬚。資料時間戳 2026-11-25 06:15。"
+      }
+    ],
+    "officialCrosscheck": {
+      "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+      "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+      "done": true,
+      "notes": "2026-11-26 連線 consumer.fda.gov.tw 出現 SSL_ERROR_SYSCALL，沒有取得官方詳細頁。查詢助手細節時間戳 2026-11-25 06:15。id 17032 部位是花柱。id 16384 的未確認部位是苞葉與葉，沒有併進可用結論。"
+    }
+  },
+  "efficacy": {
+    "claimedBenefits": [
+      "Food Ingredients First 2026-10-19：CornFit 是玉米鬚萃取，用玉米加工剩下的部位，寫給代謝與體重管理的配方，劑型包括膠囊、錠劑、粉末與液體萃取。這是獎項預告的介紹，沒有效應量。",
+      "Botanic 產品頁：寫專利、標準化，成分方向是類黃酮、多酚與多醣，並寫有體外與活體資料。頁上沒有篇名、劑量或人數。",
+      "Ingredients Network 產品頁的規格行寫尿囊素 0.1%、類黃酮 NLT 2%、多酚 NLT 3.5%、多醣 NLT 25%。這是目錄規格，不是試驗結果。"
+    ],
+    "suggestedDosage": "產品頁、獎項稿與韋鎮頁都沒有寫每日毫克。",
+    "dosageNote": "沒有這次讀到的供應商建議劑量，也沒有打開到已發表的人體試驗劑量。花柱列名沒有毫克上限。"
+  },
+  "patent": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "A Composition Of A Sweet Corn Silk Extract For Medicinal Use And A Method Thereof",
+        "url": "https://www.quickcompany.in/patents/a-composition-of-a-sweet-corn-silk-extract-for-medicinal-use-and-a-method-thereof",
+        "note": "申請人 BOTANIC HEALTHCARE PVT LTD。該頁寫 Status Granted、Legal Status Inforce、Grant Date 2024-01-15，申請日 2023-06-19。專利號碼那一欄是空白，所以這裡不補號碼。請求項寫甜玉米鬚萃取含 maysin 0.25–0.50%、鉀 2.0–3.0%、總多酚 7.5–9.0%、維生素 C 1.0–2.0%。讀取日 2026-11-26。"
+      }
+    ],
+    "note": "有一份頁面標成已核准的印度紀錄，但號碼欄是空的。韋鎮頁只寫印度專利認證，沒有號碼。目錄上的多酚 3.5% 與請求項的 7.5–9.0% 不同，都留下。"
+  },
+  "literature": {
+    "status": "unknown",
+    "refs": [],
+    "note": "公司頁寫有體外與活體資料，韋鎮頁寫有國際期刊，兩頁都沒有篇名或連結。這次沒有打開到論文，不把目錄規格當成臨床結果。"
+  },
+  "evidenceLevels": [],
+  "images": [
+    {
+      "url": "https://www.botanichealthcare.net/default/assets/img/botanic/Corn-Silk-1.jpg",
+      "localPath": "",
+      "caption": "Botanic Healthcare 官網 CornFit 頁上的玉米鬚圖片。",
+      "source": "official_site"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Fi Europe 2026 awards shortlist spotlights protein, foodtech and sustainability",
+      "url": "https://www.foodingredientsfirst.com/news/fi-europe-2026-awards-finalists.html",
+      "publisher": "Food Ingredients First",
+      "channel": "industry_report",
+      "accessed": "2026-11-26",
+      "whatItContributes": "2026-10-19：CornFit 入圍 Health Innovation Award，介紹是玉米鬚萃取、代謝與體重管理。沒有效應量。"
+    },
+    {
+      "title": "Cornfit",
+      "url": "https://www.botanichealthcare.net/cornfit/",
+      "publisher": "Botanic Healthcare",
+      "channel": "supplier_site",
+      "accessed": "2026-11-26",
+      "whatItContributes": "學名 Zea mays、玉米鬚、類黃酮與多酚的公司說法。沒有毫克。"
+    },
+    {
+      "title": "印度玉米鬚萃取組成紀錄",
+      "url": "https://www.quickcompany.in/patents/a-composition-of-a-sweet-corn-silk-extract-for-medicinal-use-and-a-method-thereof",
+      "publisher": "QuickCompany（印度專利書目）",
+      "channel": "patent",
+      "accessed": "2026-11-26",
+      "whatItContributes": "申請人、核准日期欄，以及 maysin 與多酚的請求項範圍。號碼欄空白。"
+    },
+    {
+      "title": "Cornfit 專利玉米鬚萃取物",
+      "url": "https://www.phfcorp.com.tw/page/product/show.aspx?num=224",
+      "publisher": "韋鎮實業",
+      "channel": "other",
+      "accessed": "2026-11-26",
+      "whatItContributes": "台灣目錄：原廠印度、花柱、含 Maysin。沒有寫總代理。"
+    }
+  ],
+  "discovery": {
+    "channel": "industry_report",
+    "scoutDate": "2026-11-26",
+    "notes": "從 Food Ingredients First 2026-10-19 的 Fi Europe 獎項預告進入官網、印度專利書目與韋鎮產品頁。苞葉與葉的未確認列沒有併進花柱這一筆。公司頁說的活體資料這次沒有對到論文。"
+  }
+}

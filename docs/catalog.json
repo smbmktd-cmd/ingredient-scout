@@ -6,6 +6,983 @@
         "exhibition",
         "industry_report"
       ],
+      "date": "2026-11-26",
+      "example": false,
+      "notes": "正式五筆。主管道：sweelin、Nutri Whey Isolate Clear PA 為新聞；Melostacio Gold、BC99 為展覽；CornFit 為產業報導。未收未確認安全性項目：蘋果薄荷（MintyBright Nu 的植物，Mentha suaveolens，id 16226）、嗜粘蛋白阿克曼菌（AKKBG-001 的菌，Akkermansia muciniphila，id 16441）。玉米苞葉與葉（id 16384）不是玉米鬚花柱。Pentadiplandra brazzeana 不是 sweelin 的莫內林。",
+      "picks": [
+        {
+          "discovery": {
+            "channel": "news",
+            "notes": "從 NutraIngredients 2026-11-23 的訪談進入公司 2026-02-09 新聞、PubMed 42208445 與 US11945844B2。Pentadiplandra 那一列沒有併進這一筆。2026-02-09 頁的執行長是 Amir Guttman，2026-11-23 頁是 Doug Brown。",
+            "scoutDate": "2026-11-26"
+          },
+          "efficacy": {
+            "claimedBenefits": [
+              "Amai 2026-02-09 新聞頁：sweelin 是精準發酵的甜蛋白，用來減糖；該頁寫甜度約為糖的 3,000 倍（重量比），並寫可減糖最多 70%。這是公司說法。",
+              "NutraIngredients 2026-11-23：執行長 Doug Brown 說多數應用的甜度約為糖的 3,000 倍，95°C、10 分鐘以內的加熱可以用。同頁轉述 Food Chemistry 試驗：對健康成人的血糖、胰島素與 GLP-1 沒有升高，0.051 g sweelin 對 0.225 g 的 Reb-M。",
+              "PubMed 上的 Food Chemistry 摘要（DOI 10.1016/j.foodchem.2026.149790）：19 人交叉試驗，甜度對到 75 g 右旋糖。sweelin 後的血糖與胰島素低於右旋糖，與甜菊沒有差別，摘要寫不升高血糖、胰島素或 GLP-1。登記號 NCT06520293。試驗由 Amai 出資。"
+            ],
+            "dosageNote": "0.051 g 是這篇試驗的單次劑量，不是產品頁上的每日食用量，也不是法規上限。公司稿的 3,000 倍與 70% 減糖是甜度與配方說法。",
+            "suggestedDosage": "沒有看到固定的每日毫克。論文的單次飲料是 0.051 g sweelin，甜度對到 75 g 右旋糖，對照是 0.225 g Reb-M。"
+          },
+          "evidenceLevels": [
+            "clinical"
+          ],
+          "example": false,
+          "id": "sweelin",
+          "images": [
+            {
+              "caption": "Amai 2026-02-09 新聞頁的圖片。檔名是 istockphoto，不是包裝實拍。",
+              "localPath": "",
+              "source": "official_site",
+              "url": "https://amaiproteins.com/wp-content/uploads/2026/02/istockphoto-1250459233-612x612-1-e1770789732588.jpg"
+            }
+          ],
+          "literature": {
+            "note": "這篇是人體交叉試驗。公司稿寫的 70% 減糖沒有出現在這篇摘要。",
+            "refs": [
+              {
+                "note": "Food Chemistry，2026-08-15，520:149790。DOI 10.1016/j.foodchem.2026.149790。19 人、單次 0.051 g。NCT06520293。作者單位含 Amai Proteins。",
+                "title": "sweelin, a novel sweet protein, does not affect blood glucose and insulin levels",
+                "url": "https://pubmed.ncbi.nlm.nih.gov/42208445/"
+              }
+            ],
+            "status": "yes"
+          },
+          "names": {
+            "commonEn": "sweet protein (redesigned monellin)",
+            "commonZh": "甜蛋白（莫內林改造）",
+            "scientific": "不適用單一上市植物原料。公司 2026-02-09 稿寫以奇遇莓（serendipity berry）的莫內林（monellin）為基礎、經精準發酵做成的甜蛋白，甜度約為糖的 3,000 倍（重量比）。Food Chemistry 論文寫 93 個胺基酸、10.9 kDa。奇遇莓的植物是 Dioscoreophyllum cumminsii。不是平台上的神奇果 Synsepalum dulcificum，也不是未確認分類的 Pentadiplandra brazzeana。",
+            "trade": "sweelin（Amai Proteins 的甜蛋白商品名；公司英文稿寫美國可標 Serendipity Berry Sweet Protein）"
+          },
+          "patent": {
+            "note": "有 Amai 的改造甜蛋白專利。公開頁沒有把商品名寫進標題。公司稿寫有專利組合，沒有在新聞頁列出號碼。",
+            "refs": [
+              {
+                "note": "權利人 Amai Proteins Ltd。Google Patents 頁寫 2024-04-02 核准。摘要是改造甜味蛋白，參考蛋白可以包含 monellin。頁面標題沒有 sweelin。讀取日 2026-11-26。",
+                "title": "US11945844B2 Taste and flavor-modifier proteins",
+                "url": "https://patents.google.com/patent/US11945844B2/en"
+              },
+              {
+                "note": "同一權利人。該頁寫 2026-05-12 核准為 US12624069B2。摘要是改造的 MNEI 蛋白。標題沒有 sweelin。讀取日 2026-11-26。",
+                "title": "US20240076326A1 Flavor modifying proteins（頁上另寫已核准 US12624069B2）",
+                "url": "https://patents.google.com/patent/US20240076326A1/en"
+              }
+            ],
+            "status": "yes"
+          },
+          "sources": [
+            {
+              "accessed": "2026-11-26",
+              "channel": "news",
+              "publisher": "NutraIngredients",
+              "title": "Amai Proteins CEO: Sweet proteins are having a moment right now",
+              "url": "https://www.nutraingredients.com/Article/2026/11/23/amai-proteins-ceo-sweet-proteins-are-having-a-moment-right-now/",
+              "whatItContributes": "2026-11-23：甜度、95°C 的加熱說法，以及 0.051 g 對 0.225 g Reb-M 的試驗轉述。這頁的執行長是 Doug Brown。"
+            },
+            {
+              "accessed": "2026-11-26",
+              "channel": "supplier_site",
+              "publisher": "Amai Proteins",
+              "title": "sweelin is now FDA GRAS Approved",
+              "url": "https://amaiproteins.com/news/amai-proteins-receives-fda-no-questions-letter-for-sweelin-sweet-protein/",
+              "whatItContributes": "2026-02-09，雷霍沃特：莫內林、精準發酵、約 3,000 倍甜度。這頁的執行長是 Amir Guttman。兩頁職稱不同，都留下。"
+            },
+            {
+              "accessed": "2026-11-26",
+              "channel": "paper",
+              "publisher": "PubMed／Food Chemistry",
+              "title": "PubMed 42208445",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/42208445/",
+              "whatItContributes": "人數、劑量、血糖與胰島素的比較方向，以及 NCT06520293。"
+            },
+            {
+              "accessed": "2026-11-26",
+              "channel": "patent",
+              "publisher": "Google Patents",
+              "title": "US11945844B2",
+              "url": "https://patents.google.com/patent/US11945844B2/en",
+              "whatItContributes": "權利人與核准日。標題沒有商品名。"
+            },
+            {
+              "accessed": "2026-11-26",
+              "channel": "other",
+              "publisher": "以色列駐台北經濟貿易辦事處",
+              "title": "TradeIL Taiwan：以色列減糖公司徵求合作",
+              "url": "https://www.linkedin.com/posts/israel-ec_%E6%AD%A3%E5%9C%A8%E5%B0%8B%E6%89%BE%E4%B8%8B%E4%B8%80%E5%80%8B%E9%A3%9F%E5%93%81%E7%A7%91%E6%8A%80%E5%89%B5%E6%96%B0%E6%88%96%E6%8A%95%E8%B3%87%E6%A9%9F%E6%9C%83%E4%BB%A5%E8%89%B2%E5%88%97%E6%B8%9B%E7%B3%96%E7%A7%91%E6%8A%80%E6%AD%A3%E7%82%BA%E9%A3%9F%E5%93%81%E7%94%A2%E6%A5%AD%E6%B3%A8%E5%85%A5%E6%96%B0%E7%9A%84%E8%A7%A3%E6%B1%BA%E6%96%B9%E6%A1%88-activity-7505516794070269953-5gb4",
+              "whatItContributes": "把 Amai 列在減糖公司名單，寫部分公司正在找本地代理。沒有點名已簽約的台灣原料商。貼文把來源寫成神秘果，括號是 serendipity berry。"
+            }
+          ],
+          "supply": {
+            "relationship": "unknown",
+            "relationshipNote": "2026-11-26 以 sweelin、Amai、Amai Proteins、monellin、莫內林、甜蛋白、serendipity berry、Dioscoreophyllum，搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索，並打開公司新聞頁與 NutraIngredients 訪談。以色列駐台北經濟貿易辦事處的貼文把 Amai 列在減糖公司名單，並寫「部分正在尋找本地代理」，沒有寫已經簽約的台灣公司，辦事處本身不是原料商。同日再以「sweelin 代理 台灣」獨立複查，沒有台灣公司的產品頁。查核日 2026-11-26。",
+            "supplierCountry": "以色列",
+            "supplierName": "Amai Proteins",
+            "taiwanPartyName": "本次查無台灣關聯廠商"
+          },
+          "tfda": {
+            "evidenceNotes": "sweelin、monellin、Dioscoreophyllum、serendipity 與甜蛋白在原料和添加物都是 0 筆。Pentadiplandra brazzeana 是未確認分類，那是另一種甜蛋白植物，不是莫內林。這次查無不是准用，也不是禁用。",
+            "lookupDate": "2026-11-26",
+            "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+            "officialCrosscheck": {
+              "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+              "done": true,
+              "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+              "notes": "2026-11-26 連線 consumer.fda.gov.tw 出現 SSL_ERROR_SYSCALL，沒有取得官方詳細頁。查詢助手細節時間戳 2026-11-25 06:15，siteTotals 原料 1709、添加物 804。上述 0 筆與 Pentadiplandra 那一列都以助手資料為準。"
+            },
+            "queries": [
+              {
+                "category": "",
+                "keyword": "sweelin",
+                "matchedName": "",
+                "note": "商品名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "monellin",
+                "matchedName": "",
+                "note": "莫內林 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Dioscoreophyllum",
+                "matchedName": "",
+                "note": "奇遇莓屬名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Pentadiplandra",
+                "matchedName": "（中文名稱空白）",
+                "note": "另一種植物，用來對開，不把 sweelin 收成這一筆。",
+                "restrictionNote": "學名 Pentadiplandra brazzeana。大分類與次分類都是未確認安全性尚不得使用之原料。這不是莫內林。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": true
+              },
+              {
+                "category": "",
+                "keyword": "sweelin",
+                "matchedName": "",
+                "note": "商品名在添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "monellin",
+                "matchedName": "",
+                "note": "莫內林在添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "甜蛋白",
+                "matchedName": "",
+                "note": "中文在添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "monellin",
+                "matchedName": "",
+                "note": "助手更新歷程（2026-11-01 至 2026-11-25）沒有 monellin 或 sweelin。資料時間戳 2026-11-25 06:15。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "history",
+                "unconfirmedSafety": false
+              }
+            ],
+            "usable": "not_found"
+          }
+        },
+        {
+          "discovery": {
+            "channel": "news",
+            "notes": "從 Nutrition Insight 2026-11-17 的 Fi Europe 報導進入公司 2026-10-26 新聞稿、分離乳清目錄，再打開和聚的 ProHeat 頁與關於我們頁。帶 PA 的新品沒有併進沒有 PA 的 92.5% 規格，也沒有併進 ProHeat。",
+            "scoutDate": "2026-11-26"
+          },
+          "efficacy": {
+            "claimedBenefits": [
+              "Nutrition Insight 2026-11-17：Floor van der Horst 說 Nutri Whey Isolate Clear PA 是預酸化的乳清分離蛋白，給清爽的蛋白飲料用，並說有完整胺基酸、清澈、體感輕、味道中性、耐熱。Re-vibe 概念把它和半乳寡糖放在一起。",
+              "FrieslandCampina Ingredients 2026-10-26 新聞稿：同樣寫預酸化、清澈、味道中性與耐熱，並寫 Re-vibe 入圍 Fi Europe Health Innovation Award。攤位是 31G38。",
+              "同站分離乳清目錄有一筆叫 Nutri Whey Isolate Clear、沒有 PA，寫蛋白質 92.5%（乾基，N×6.38）、乳糖 0.8%。新聞稿沒有把這個百分比寫到帶 PA 的新品上，兩筆名稱不要併成同一規格。"
+            ],
+            "dosageNote": "沒有這支規格的供應商建議劑量，也沒有法規毫克。同篇新聞裡的 20 g 蛋白샷、6% 優格與 35% 蛋白棒，寫的是 Nutri Whey ProHeat 或其他蛋白組合，不是 Clear PA。",
+            "suggestedDosage": "這次打開的新聞與 2026-10-26 新聞稿沒有寫 Isolate Clear PA 的每日克數或每份添加量。"
+          },
+          "evidenceLevels": [],
+          "example": false,
+          "id": "nutri-whey-clear-pa",
+          "images": [
+            {
+              "caption": "FrieslandCampina Ingredients 2026-10-26 Fi Europe 新聞稿頁的攤位示意。",
+              "localPath": "",
+              "source": "official_site",
+              "url": "https://www.frieslandcampinaingredients.com/wp-content/uploads/2026/10/Stand-impression.png"
+            }
+          ],
+          "literature": {
+            "note": "沒有找到以 Isolate Clear PA 為材料的論文。不把一般乳清蛋白文獻算成這支規格的證據。",
+            "refs": [],
+            "status": "unknown"
+          },
+          "names": {
+            "commonEn": "pre-acidified whey protein isolate",
+            "commonZh": "預酸化乳清分離蛋白",
+            "scientific": "不適用植物學名。成分是牛乳的乳清蛋白。平台中文名是牛乳清蛋白（包括其分解物），外文名 Whey protein。另有一筆就叫乳清。",
+            "trade": "Nutri Whey Isolate Clear PA（FrieslandCampina Ingredients 的商品名。同站分離乳清目錄另有 Nutri Whey Isolate Clear，沒有 PA。兩個名稱都留下。）"
+          },
+          "patent": {
+            "note": "2026-11-26 沒有打開到標題含 Nutri Whey Isolate Clear PA 的專利頁。和聚的 ProHeat 頁把專利欄寫成「無」，那是另一個規格，不拿來當這一筆的結論。",
+            "refs": [],
+            "status": "unknown"
+          },
+          "sources": [
+            {
+              "accessed": "2026-11-26",
+              "channel": "news",
+              "publisher": "Nutrition Insight",
+              "title": "Fi Europe 2026: FrieslandCampina Ingredients debuts clear whey isolate in protein soda",
+              "url": "https://www.nutritioninsight.com/news/fi-europe-2026-frieslandcampina-ingredients-clear-protein.html",
+              "whatItContributes": "2026-11-17：預酸化、清澈蛋白汽水概念，以及同場其他概念用的是 ProHeat。"
+            },
+            {
+              "accessed": "2026-11-26",
+              "channel": "supplier_site",
+              "publisher": "FrieslandCampina Ingredients",
+              "title": "Fi Europe 2026: FrieslandCampina Ingredients showcases new possibilities for protein",
+              "url": "https://www.frieslandcampinaingredients.com/insight/fi-europe-2026/",
+              "whatItContributes": "2026-10-26：攤位 31G38、預酸化分離乳清的公司說法。總部在阿默斯福特。"
+            },
+            {
+              "accessed": "2026-11-26",
+              "channel": "supplier_site",
+              "publisher": "FrieslandCampina Ingredients",
+              "title": "Whey protein concentrate and isolate ingredients",
+              "url": "https://www.frieslandcampinaingredients.com/ingredient-group/whey-protein-isolates-and-concentrates/",
+              "whatItContributes": "目錄上的 Nutri Whey Isolate Clear 寫 92.5% 蛋白。名稱沒有 PA。"
+            },
+            {
+              "accessed": "2026-11-26",
+              "channel": "other",
+              "publisher": "和聚國際生醫材料",
+              "title": "Nutri Whey ProHeat",
+              "url": "https://www.hg-bio.com.tw/en/products/proheat-en/",
+              "whatItContributes": "台灣頁販售同品牌的 ProHeat，廠牌寫 FrieslandCampina。不是 Clear PA。"
+            }
+          ],
+          "supply": {
+            "relationship": "unknown",
+            "relationshipNote": "2026-11-26 以 Nutri Whey、Isolate Clear PA、Clear PA、FrieslandCampina、菲仕蘭、乳清分離蛋白，搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索，並打開和聚的蛋白分類頁、ProHeat 產品頁與關於我們頁。關於我們寫「生物科技原料的代理」，「嚴選代理原料」區塊有一張替代文字為「DMV菲仕蘭」的標誌。這是該公司頁面的呈現，不是菲仕蘭官網的經銷名單。ProHeat 頁把廠牌寫成 FrieslandCampina、蛋白質 ≥80%。分類頁沒有 Isolate Clear PA。同品牌其他規格不是這支預酸化分離乳清的代理證明。同日再以「Isolate Clear PA 台灣」複查，沒有這支規格的產品頁。查核日 2026-11-26。",
+            "supplierCountry": "荷蘭",
+            "supplierName": "FrieslandCampina Ingredients",
+            "taiwanPartyName": "和聚國際生醫材料有限公司（目錄有同品牌的 Nutri Whey Hydro 與 ProHeat；未見 Isolate Clear PA）"
+          },
+          "tfda": {
+            "evidenceNotes": "Nutri Whey 與 Clear PA 是 0 筆。乳清蛋白、牛乳清蛋白與 whey protein 都命中牛乳清蛋白（id 17622），備註只寫由牛乳所製取，沒有未確認標記，也沒有寫分離、預酸化或克數。乳清另有 id 17650。添加物的 whey 與乳清蛋白是 0 筆；關鍵字「乳清」在添加物命中的是過氧化苯甲醯，範圍寫可用於乳清加工，不是乳清蛋白本身。",
+            "lookupDate": "2026-11-26",
+            "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+            "officialCrosscheck": {
+              "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+              "done": true,
+              "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+              "notes": "2026-11-26 連線 consumer.fda.gov.tw 出現 SSL_ERROR_SYSCALL，沒有取得官方詳細頁。查詢助手細節時間戳 2026-11-25 06:15。id 17622 與 id 17650 的欄位如上。添加物 id 62 的命中是漂白劑，不是這支蛋白。"
+            },
+            "queries": [
+              {
+                "category": "",
+                "keyword": "Nutri Whey",
+                "matchedName": "",
+                "note": "商品名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "whey protein",
+                "matchedName": "牛乳清蛋白（包括其分解物）",
+                "note": "外文名這一筆。",
+                "restrictionNote": "id 17622。次分類為禽、畜類及其來源製取之原料。外文名 Whey protein。備註：由牛乳所製取。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "乳清",
+                "matchedName": "牛乳清蛋白（包括其分解物）／乳清",
+                "note": "兩筆都不是未確認分類。",
+                "restrictionNote": "id 17622 同上。id 17650 中文名乳清，外文名 Whey，部位欄寫由牛乳製取，備註空白。",
+                "resultCount": 2,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "whey",
+                "matchedName": "",
+                "note": "英文在添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "乳清蛋白",
+                "matchedName": "",
+                "note": "乳清蛋白在添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "乳清",
+                "matchedName": "過氧化苯甲醯",
+                "note": "關鍵字落在加工用劑的範圍文字。",
+                "restrictionNote": "id 62。類別是漂白劑。使用範圍寫本品可於乳清之加工過程中視實際需要適量使用。這不是乳清蛋白。",
+                "resultCount": 1,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "乳清",
+                "matchedName": "",
+                "note": "助手更新歷程（2026-11-01 至 2026-11-25）沒有乳清。資料時間戳 2026-11-25 06:15。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "history",
+                "unconfirmedSafety": false
+              }
+            ],
+            "usable": "listed_food_ingredient"
+          }
+        },
+        {
+          "discovery": {
+            "channel": "exhibition",
+            "notes": "從 Botanic 的 Fi Europe 攤位貼文進入官網、CPHI、Pharmacognosy Research 與印度申請 202441042534。韋鎮分類頁沒有這個商品名。展昭攤位頁這次沒打開，不把搜尋摘要寫成代理。",
+            "scoutDate": "2026-11-26"
+          },
+          "efficacy": {
+            "claimedBenefits": [
+              "Botanic 產品頁：Melostacio 來自 Pistacia vera 果仁，寫標準化天然褪黑激素，並寫有助睡眠。同頁寫 in-vivo 會縮短入睡時間、延長睡眠，但沒有寫動物種類或劑量。",
+              "CPHI 產品頁：Melostacio-GOLD 是開心果萃取，寫含天然褪黑激素與單寧，並寫 patented、clinically validated。",
+              "Pharmacognosy Research（DOI 10.5530/pres.20260043）：40 名成人、兩組，Melostacio Gold 每日 100 mg、28 天。雅典失眠量表在研究組從 16.95±1.96 降到 11.80±1.54；第 4 次訪視對安慰劑是 11.80±1.54 對 13.80±2.09（p\u003c0.0014）。登記號 CTRI/2025/02/079862。作者單位是 Botanic Healthcare。",
+              "西班牙 Farmacias VIVO 的 Baïa Food 成品成分表寫開心果種子萃取（Pistacia vera L.，種子）、3% 植物褪黑激素、括號 Melostacio。這是成品標示，不是原料的每日劑量，也不是台灣通路。"
+            ],
+            "dosageNote": "100 mg 是這篇試驗的用量，不是產品頁印的每日食用量，也不是平台限量。平台沒有這一筆。",
+            "suggestedDosage": "試驗是每日 100 mg 一粒，最好晚餐後，共 28 天。產品頁與 CPHI 沒有寫毫克。"
+          },
+          "evidenceLevels": [
+            "clinical"
+          ],
+          "example": false,
+          "id": "melostacio-gold",
+          "images": [
+            {
+              "caption": "Botanic Healthcare 官網 Melostacio 頁上的圖片。",
+              "localPath": "",
+              "source": "official_site",
+              "url": "https://www.botanichealthcare.net/default/assets/img/botanic/melostacio.jpeg"
+            }
+          ],
+          "literature": {
+            "note": "這篇是人體隨機對照。產品頁的 in-vivo 沒有寫物種，不另標成動物試驗。",
+            "refs": [
+              {
+                "note": "Pharmacognosy Research，18(1):97–104。DOI 10.5530/pres.20260043。40 人、100 mg、28 天。CTRI/2025/02/079862。",
+                "title": "A Clinical Evaluation of the Safety and Efficacy of Melostacio Gold (Pistachio Extract)",
+                "url": "https://www.phcog.net/journals/pr/18/1/97"
+              }
+            ],
+            "status": "yes"
+          },
+          "names": {
+            "commonEn": "pistachio kernel extract (natural melatonin)",
+            "commonZh": "開心果仁萃取（含天然褪黑激素）",
+            "scientific": "Pistacia vera（果仁。試驗寫 P. vera 萃取。印度申請 202441042534 寫從種仁萃取褪黑激素與單寧。不是葉。）",
+            "trade": "Melostacio Gold（Botanic Healthcare 的商品名。官網產品頁寫 Melostacio；CPHI、公司貼文與試驗寫 Melostacio Gold 或 Melostacio-GOLD。兩種寫法都留下。）"
+          },
+          "patent": {
+            "note": "CPHI 與公司 Fi Europe 貼文寫 patented。上面這份申請紀錄的狀態是等待審查，不是核准證書。兩種說法都留下。",
+            "refs": [
+              {
+                "note": "申請人 BOTANIC HEALTHCARE PVT. LTD.。該頁寫申請日 2024-05-31，狀態 Application Awaiting Examination，公開號 39/2025。請求項寫從開心果種仁萃取褪黑激素與單寧，其中一項把膏體寫成褪黑激素 3%、單寧 10%。這是申請請求項，不是商品規格。讀取日 2026-11-26。",
+                "title": "印度申請 202441042534 Method For Extracting Melatonin And Tannins From Pistacia Vera",
+                "url": "https://www.quickcompany.in/patents/202441042534-1f32"
+              }
+            ],
+            "status": "yes"
+          },
+          "sources": [
+            {
+              "accessed": "2026-11-26",
+              "channel": "exhibition",
+              "publisher": "Botanic Healthcare（LinkedIn）",
+              "title": "Botanic Healthcare：Eight days to Fi Europe 2026",
+              "url": "https://www.linkedin.com/posts/botanichealthcare_41g72-fieurope2026-botanichealthcare-activity-7525490269014609920-UUAk",
+              "whatItContributes": "公司貼文：2026-11-17 至 19 日法蘭克福 Fi Europe，攤位 41G72，展出 Melostacio-GOLD。這是原廠自己的貼文。"
+            },
+            {
+              "accessed": "2026-11-26",
+              "channel": "supplier_site",
+              "publisher": "Botanic Healthcare",
+              "title": "Melostacio",
+              "url": "https://www.botanichealthcare.net/melostacio/",
+              "whatItContributes": "學名、果仁、天然褪黑激素。頁首地址在海德拉巴。沒有毫克。"
+            },
+            {
+              "accessed": "2026-11-26",
+              "channel": "supplier_site",
+              "publisher": "CPHI Online",
+              "title": "Melostacio Gold on CPHI Online",
+              "url": "https://www.cphi-online.com/product/melostacio-gold/",
+              "whatItContributes": "Gold 這個寫法、褪黑激素與單寧，以及 patented 的公司說法。"
+            },
+            {
+              "accessed": "2026-11-26",
+              "channel": "paper",
+              "publisher": "Pharmacognosy Research",
+              "title": "Pharmacognosy Research 18(1):97",
+              "url": "https://www.phcog.net/journals/pr/18/1/97",
+              "whatItContributes": "100 mg、28 天、40 人，以及雅典失眠量表的數字。"
+            },
+            {
+              "accessed": "2026-11-26",
+              "channel": "other",
+              "publisher": "Farmacias VIVO（西班牙）",
+              "title": "Baia Food Prebiotic Dreamer",
+              "url": "https://farmaciasvivo.com/baia-food-prebiotic-dreamer-533938",
+              "whatItContributes": "成品成分表寫開心果種子萃取、3% 植物褪黑激素、Melostacio。藥局在馬德里。不是台灣代理。"
+            }
+          ],
+          "supply": {
+            "relationship": "unknown",
+            "relationshipNote": "2026-11-26 以 Melostacio、Melostacio Gold、Melostacio-GOLD、Botanic Healthcare、開心果萃取、pistachio extract、Pistacia vera，搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索。打開韋鎮實業的商品分類頁，上面有 Cornfit，沒有 Melostacio。展昭 2026 攤位網址打開後被導回名錄首頁；公司 LinkedIn 貼文寫 Fi Europe 攤位 41G72 展出 Melostacio-GOLD，那是原廠自己的貼文，不是台灣代理頁。西班牙 Baïa Food 成品標示使用 Melostacio，店頁配送寫歐洲、英國與美國，不是台灣代理。攤位全文沒核完，不寫查無。同日再以「Melostacio 台灣」複查，沒有台灣公司的產品頁。查核日 2026-11-26。",
+            "supplierCountry": "印度",
+            "supplierName": "Botanic Healthcare",
+            "taiwanPartyName": "待確認"
+          },
+          "tfda": {
+            "evidenceNotes": "Melostacio、Pistacia、開心果、pistachio 與阿月渾子在原料和添加物都是 0 筆。平台沒有這筆，不是准用，也不是禁用。這次的關鍵字沒有對到另一個已列名的果仁。",
+            "lookupDate": "2026-11-26",
+            "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+            "officialCrosscheck": {
+              "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+              "done": true,
+              "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+              "notes": "2026-11-26 連線 consumer.fda.gov.tw 出現 SSL_ERROR_SYSCALL，沒有取得官方詳細頁。查詢助手細節時間戳 2026-11-25 06:15，上述關鍵字在原料與添加物都是 0 筆。"
+            },
+            "queries": [
+              {
+                "category": "",
+                "keyword": "Melostacio",
+                "matchedName": "",
+                "note": "商品名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Pistacia",
+                "matchedName": "",
+                "note": "學名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "開心果",
+                "matchedName": "",
+                "note": "中文俗名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "阿月渾子",
+                "matchedName": "",
+                "note": "別名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Pistacia",
+                "matchedName": "",
+                "note": "學名在添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "開心果",
+                "matchedName": "",
+                "note": "中文在添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Melostacio",
+                "matchedName": "",
+                "note": "商品名在添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Pistacia",
+                "matchedName": "",
+                "note": "助手更新歷程（2026-11-01 至 2026-11-25）沒有 Pistacia 或開心果。資料時間戳 2026-11-25 06:15。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "history",
+                "unconfirmedSafety": false
+              }
+            ],
+            "usable": "not_found"
+          }
+        },
+        {
+          "discovery": {
+            "channel": "exhibition",
+            "notes": "從 Fi Europe 2026 創新獎決選稿進入微康中文產品頁、兩篇便秘論文與 CN113875988A。平台只有 Bacillus coagulans 的乳酸菌列，沒有 BC99。嗜黏蛋白阿克曼菌是另一筆未確認項目，沒有併進來。",
+            "scoutDate": "2026-11-26"
+          },
+          "efficacy": {
+            "claimedBenefits": [
+              "微康中文產品頁：BC99 寫耐熱、耐酸、耐膽鹽，並寫緩解便秘、調節菌群。同頁的乾熱測試寫 120°C、15 分鐘存活率 96%，150°C、15 分鐘 91%。這是公司頁的測試，不是論文摘要。",
+              "Frontiers in Nutrition 2024（DOI 10.3389/fnut.2024.1395083）：成人慢性便秘，BC99 每日 20 億 CFU、4 週。完全自發排便每週至少 3 次的比例，BC99 組 34/50（68.0%），安慰劑 19/51（37.3%）。登記號 ChiCTR2200065493。菌粉由 Wecare 提供。",
+              "Foods 2025（DOI 10.3390/foods14040654）：另一篇便秘試驗寫每日 1 g（20 億 CFU）、8 週，對照是麥芽糊精。摘要方向是便秘症狀。"
+            ],
+            "dosageNote": "20 億 CFU 是這兩篇論文的用量，不是平台上的限量。id 17493 沒有寫菌株編號或 CFU。",
+            "suggestedDosage": "兩篇便秘試驗都是每日 20 億 CFU。一篇是 4 週，一篇寫每日 1 g 菌粉、8 週。產品頁沒有另寫每日食用量。"
+          },
+          "evidenceLevels": [
+            "clinical"
+          ],
+          "example": false,
+          "id": "bc99",
+          "images": [
+            {
+              "caption": "微康 WecLac 的 BC99 中文產品頁圖片。",
+              "localPath": "",
+              "source": "official_site",
+              "url": "http://weclac.wecare-bio.com/index/images/bc99_01.jpg"
+            }
+          ],
+          "literature": {
+            "note": "這兩篇是人體隨機對照，對象都是便秘。產品頁的耐熱百分比沒有再對回這兩篇論文。",
+            "refs": [
+              {
+                "note": "Frontiers in Nutrition，2024。DOI 10.3389/fnut.2024.1395083。每日 20 億 CFU、4 週。ChiCTR2200065493。",
+                "title": "Weizmannia coagulans BC99 in the treatment of chronic constipation in adults",
+                "url": "https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2024.1395083/full"
+              },
+              {
+                "note": "Foods，2025。每日 1 g（20 億 CFU）、8 週。",
+                "title": "Weizmannia coagulans BC99 Relieves Constipation Symptoms",
+                "url": "https://doi.org/10.3390/foods14040654"
+              }
+            ],
+            "status": "yes"
+          },
+          "names": {
+            "commonEn": "Weizmannia coagulans BC99",
+            "commonZh": "凝結魏茨曼氏菌 BC99",
+            "scientific": "Weizmannia coagulans BC99。公司中文頁寫原名凝結芽孢桿菌，保藏編號 CGMCC No.21801。平台乳酸菌這一筆的學名是 Bacillus coagulans、Lactobacillus sporogenes，沒有寫 Weizmannia，也沒有寫 BC99。",
+            "trade": "BC99（微康益生菌／Wecare Probiotics 的菌株商品名；頁上亦寫 WecLac）"
+          },
+          "patent": {
+            "note": "有一件公開中的飲料申請。產品頁把 BC99 寫成專利菌株，但打開的那一頁沒有證書號碼。不把 Pending 寫成已核准。",
+            "refs": [
+              {
+                "note": "申請人 WeCare Probiotics Co Ltd。Google Patents 頁的法律狀態是 Pending。申請號 CN202111110868.3A，公開日 2022-01-04。內文寫保藏編號 CGMCC No.21801。這是飲料製法，標題不是菌株專利證書。讀取日 2026-11-26。",
+                "title": "CN113875988A 一種凝結芽孢桿菌 BC99 飲料及其製備方法",
+                "url": "https://patents.google.com/patent/CN113875988A/en"
+              }
+            ],
+            "status": "yes"
+          },
+          "sources": [
+            {
+              "accessed": "2026-11-26",
+              "channel": "exhibition",
+              "publisher": "Food Engineering & Ingredients",
+              "title": "Fi Europe 2026 reveals Innovation Awards finalists",
+              "url": "https://fei-online.com/fi-europe-2026-reveals-innovation-awards-finalists/",
+              "whatItContributes": "2026-11-03：Health Innovation Award 決選名單有 Wecare Probiotics 的 Weizmannia (Bacillus) coagulans BC99。頒獎在 11 月 17 日法蘭克福。"
+            },
+            {
+              "accessed": "2026-11-26",
+              "channel": "supplier_site",
+              "publisher": "微康 WecLac",
+              "title": "凝結魏茨曼氏菌 BC99",
+              "url": "http://weclac.wecare-bio.com/bc",
+              "whatItContributes": "中文品名、耐熱測試的百分比、包裝 1 kg 或 5 kg。沒有每日 CFU。"
+            },
+            {
+              "accessed": "2026-11-26",
+              "channel": "paper",
+              "publisher": "Frontiers",
+              "title": "Frontiers in Nutrition 2024, 1395083",
+              "url": "https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2024.1395083/full",
+              "whatItContributes": "4 週便秘試驗的劑量與完全自發排便比例。"
+            },
+            {
+              "accessed": "2026-11-26",
+              "channel": "patent",
+              "publisher": "Google Patents",
+              "title": "CN113875988A",
+              "url": "https://patents.google.com/patent/CN113875988A/en",
+              "whatItContributes": "申請人、保藏編號，以及頁上的 Pending。"
+            },
+            {
+              "accessed": "2026-11-26",
+              "channel": "other",
+              "publisher": "Baïa Food（西班牙）",
+              "title": "Baïa Food 目錄說明",
+              "url": "https://baiafood.com/llms.txt",
+              "whatItContributes": "肌酸成品寫每份含 BC99 60 億 CFU。配送範圍寫歐洲、英國與美國。不是台灣代理。"
+            }
+          ],
+          "supply": {
+            "relationship": "unknown",
+            "relationshipNote": "2026-11-26 以 BC99、Weizmannia、Wecare、微康、凝結魏茨曼氏菌、凝結芽孢桿菌 BC99，搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索，並打開微康中文產品頁、Fi Europe 決選稿，以及香港交易所申請版本裡搜到的「台灣」一句。那一句是地理定義，把台灣排除在該文件所稱的中國之外，沒有台灣經銷商名字。西班牙 Baïa Food 的肌酸成品寫每份含 BC99，店頁配送範圍是歐洲、英國與美國，不是台灣代理。同日再以「BC99 台灣 經銷」獨立複查，沒有台灣公司的產品頁。查核日 2026-11-26。",
+            "supplierCountry": "中國",
+            "supplierName": "Wecare Probiotics（微康益生菌）",
+            "taiwanPartyName": "本次查無台灣關聯廠商"
+          },
+          "tfda": {
+            "evidenceNotes": "BC99 與 Weizmannia 在原料、添加物都是 0 筆。Bacillus coagulans 命中乳酸菌（id 17493），學名寫 Bacillus coagulans、Lactobacillus sporogenes，部位菌體，備註可供為食品原料或食品加工使用，沒有未確認標記，也沒有寫 BC99 或菌數。凝結這個中文在原料與添加物都是 0 筆。舊學名列名不是這支菌株的每日菌數許可。",
+            "lookupDate": "2026-11-26",
+            "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+            "officialCrosscheck": {
+              "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+              "done": true,
+              "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+              "notes": "2026-11-26 連線 consumer.fda.gov.tw 出現 SSL_ERROR_SYSCALL，沒有取得官方詳細頁。查詢助手細節時間戳 2026-11-25 06:15。id 17493 的學名與備註如上。BC99 與 Weizmannia 沒有單獨一列。"
+            },
+            "queries": [
+              {
+                "category": "",
+                "keyword": "BC99",
+                "matchedName": "",
+                "note": "菌株商品名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Weizmannia",
+                "matchedName": "",
+                "note": "新屬名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Bacillus coagulans",
+                "matchedName": "乳酸菌",
+                "note": "舊學名在乳酸菌這一筆。",
+                "restrictionNote": "id 17493。次分類為微生物及其來源製取之原料。外文名 Lactic acid bacteria。學名 Bacillus coagulans, Lactobacillus sporogenes。部位菌體。備註：可供為食品原料或食品加工使用。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "凝結",
+                "matchedName": "",
+                "note": "中文 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "BC99",
+                "matchedName": "",
+                "note": "商品名在添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "coagulans",
+                "matchedName": "",
+                "note": "種小名在添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "凝結",
+                "matchedName": "",
+                "note": "中文在添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "coagulans",
+                "matchedName": "",
+                "note": "助手更新歷程（2026-11-01 至 2026-11-25）沒有 coagulans 或 Weizmannia。資料時間戳 2026-11-25 06:15。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "history",
+                "unconfirmedSafety": false
+              }
+            ],
+            "usable": "listed_food_ingredient"
+          }
+        },
+        {
+          "discovery": {
+            "channel": "industry_report",
+            "notes": "從 Food Ingredients First 2026-10-19 的 Fi Europe 獎項預告進入官網、印度專利書目與韋鎮產品頁。苞葉與葉的未確認列沒有併進花柱這一筆。公司頁說的活體資料這次沒有對到論文。",
+            "scoutDate": "2026-11-26"
+          },
+          "efficacy": {
+            "claimedBenefits": [
+              "Food Ingredients First 2026-10-19：CornFit 是玉米鬚萃取，用玉米加工剩下的部位，寫給代謝與體重管理的配方，劑型包括膠囊、錠劑、粉末與液體萃取。這是獎項預告的介紹，沒有效應量。",
+              "Botanic 產品頁：寫專利、標準化，成分方向是類黃酮、多酚與多醣，並寫有體外與活體資料。頁上沒有篇名、劑量或人數。",
+              "Ingredients Network 產品頁的規格行寫尿囊素 0.1%、類黃酮 NLT 2%、多酚 NLT 3.5%、多醣 NLT 25%。這是目錄規格，不是試驗結果。"
+            ],
+            "dosageNote": "沒有這次讀到的供應商建議劑量，也沒有打開到已發表的人體試驗劑量。花柱列名沒有毫克上限。",
+            "suggestedDosage": "產品頁、獎項稿與韋鎮頁都沒有寫每日毫克。"
+          },
+          "evidenceLevels": [],
+          "example": false,
+          "id": "cornfit",
+          "images": [
+            {
+              "caption": "Botanic Healthcare 官網 CornFit 頁上的玉米鬚圖片。",
+              "localPath": "",
+              "source": "official_site",
+              "url": "https://www.botanichealthcare.net/default/assets/img/botanic/Corn-Silk-1.jpg"
+            }
+          ],
+          "literature": {
+            "note": "公司頁寫有體外與活體資料，韋鎮頁寫有國際期刊，兩頁都沒有篇名或連結。這次沒有打開到論文，不把目錄規格當成臨床結果。",
+            "refs": [],
+            "status": "unknown"
+          },
+          "names": {
+            "commonEn": "corn silk extract",
+            "commonZh": "玉米鬚萃取物",
+            "scientific": "Zea mays L.（花柱，玉米鬚。韋鎮頁寫 Stigma。不是同種的苞葉或葉；那一筆在未確認分類。）",
+            "trade": "CornFit（Botanic Healthcare 的玉米鬚萃取商品名；頁上亦寫 Cornfit）"
+          },
+          "patent": {
+            "note": "有一份頁面標成已核准的印度紀錄，但號碼欄是空的。韋鎮頁只寫印度專利認證，沒有號碼。目錄上的多酚 3.5% 與請求項的 7.5–9.0% 不同，都留下。",
+            "refs": [
+              {
+                "note": "申請人 BOTANIC HEALTHCARE PVT LTD。該頁寫 Status Granted、Legal Status Inforce、Grant Date 2024-01-15，申請日 2023-06-19。專利號碼那一欄是空白，所以這裡不補號碼。請求項寫甜玉米鬚萃取含 maysin 0.25–0.50%、鉀 2.0–3.0%、總多酚 7.5–9.0%、維生素 C 1.0–2.0%。讀取日 2026-11-26。",
+                "title": "A Composition Of A Sweet Corn Silk Extract For Medicinal Use And A Method Thereof",
+                "url": "https://www.quickcompany.in/patents/a-composition-of-a-sweet-corn-silk-extract-for-medicinal-use-and-a-method-thereof"
+              }
+            ],
+            "status": "yes"
+          },
+          "sources": [
+            {
+              "accessed": "2026-11-26",
+              "channel": "industry_report",
+              "publisher": "Food Ingredients First",
+              "title": "Fi Europe 2026 awards shortlist spotlights protein, foodtech and sustainability",
+              "url": "https://www.foodingredientsfirst.com/news/fi-europe-2026-awards-finalists.html",
+              "whatItContributes": "2026-10-19：CornFit 入圍 Health Innovation Award，介紹是玉米鬚萃取、代謝與體重管理。沒有效應量。"
+            },
+            {
+              "accessed": "2026-11-26",
+              "channel": "supplier_site",
+              "publisher": "Botanic Healthcare",
+              "title": "Cornfit",
+              "url": "https://www.botanichealthcare.net/cornfit/",
+              "whatItContributes": "學名 Zea mays、玉米鬚、類黃酮與多酚的公司說法。沒有毫克。"
+            },
+            {
+              "accessed": "2026-11-26",
+              "channel": "patent",
+              "publisher": "QuickCompany（印度專利書目）",
+              "title": "印度玉米鬚萃取組成紀錄",
+              "url": "https://www.quickcompany.in/patents/a-composition-of-a-sweet-corn-silk-extract-for-medicinal-use-and-a-method-thereof",
+              "whatItContributes": "申請人、核准日期欄，以及 maysin 與多酚的請求項範圍。號碼欄空白。"
+            },
+            {
+              "accessed": "2026-11-26",
+              "channel": "other",
+              "publisher": "韋鎮實業",
+              "title": "Cornfit 專利玉米鬚萃取物",
+              "url": "https://www.phfcorp.com.tw/page/product/show.aspx?num=224",
+              "whatItContributes": "台灣目錄：原廠印度、花柱、含 Maysin。沒有寫總代理。"
+            }
+          ],
+          "supply": {
+            "relationship": "taiwan_distributor",
+            "relationshipNote": "2026-11-26 以 CornFit、Cornfit、玉米鬚萃取、corn silk extract、Botanic Healthcare、Zea mays stigma，搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索，並打開韋鎮產品頁、分類頁與公司介紹。產品頁寫原廠印度、學名 Zea mays L.、部位 Stigma（花柱），特性含 Maysin，並寫印度專利認證。介紹頁寫該公司是保健食品與化妝品原料的進出口貿易商，沒有寫 Botanic 的總代理，也沒有原廠經銷名單。這是目錄販售，不是原廠證實的獨家代理。展昭 2027 產品頁的參展商是 Botanic 自己，頁尾台北地址是主辦單位。同日再以「CornFit 台灣」複查，仍是這一頁。查核日 2026-11-26。",
+            "supplierCountry": "印度",
+            "supplierName": "Botanic Healthcare",
+            "taiwanPartyName": "韋鎮實業有限公司（目錄販售）"
+          },
+          "tfda": {
+            "evidenceNotes": "CornFit 是 0 筆。玉米鬚與 corn silk 命中同一筆（id 17032），次分類可供直接食用，學名 Zea mays L.，部位花柱，備註空白，沒有未確認標記。Zea mays 另有玉米穗軸、玉米油、玉米蛋白，以及未確認的苞葉與葉（id 16384）。添加物的玉米鬚與 corn silk 是 0 筆。花柱列名不是萃取物的每日毫克許可。",
+            "lookupDate": "2026-11-26",
+            "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+            "officialCrosscheck": {
+              "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+              "done": true,
+              "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+              "notes": "2026-11-26 連線 consumer.fda.gov.tw 出現 SSL_ERROR_SYSCALL，沒有取得官方詳細頁。查詢助手細節時間戳 2026-11-25 06:15。id 17032 部位是花柱。id 16384 的未確認部位是苞葉與葉，沒有併進可用結論。"
+            },
+            "queries": [
+              {
+                "category": "",
+                "keyword": "CornFit",
+                "matchedName": "",
+                "note": "商品名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "玉米鬚",
+                "matchedName": "玉米鬚",
+                "note": "中文名這一筆。",
+                "restrictionNote": "id 17032。大分類可供食品使用之原料。次分類為草、木本植物類(2)可供直接食用。外文名 Corn silk。學名 Zea mays L.。部位花柱。備註空白。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "corn silk",
+                "matchedName": "玉米鬚",
+                "note": "外文名命中同一列。",
+                "restrictionNote": "同一筆 id 17032。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Zea mays",
+                "matchedName": "玉米／玉米鬚／玉米油／玉米蛋白／玉米（苞葉、葉）",
+                "note": "五筆裡有一筆未確認，所以這個關鍵字標 true。CornFit 對的是花柱 id 17032，不是苞葉與葉。",
+                "restrictionNote": "id 16849 玉米，部位芯（穗軸）。id 17032 是本筆，花柱，不是未確認。id 17299 玉米油。id 17355 玉米蛋白。id 16384 玉米，部位苞葉（殼）、葉，未確認安全性，不得供為食品原料。",
+                "resultCount": 5,
+                "tab": "ingredient",
+                "unconfirmedSafety": true
+              },
+              {
+                "category": "",
+                "keyword": "玉米鬚",
+                "matchedName": "",
+                "note": "中文在添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "corn silk",
+                "matchedName": "",
+                "note": "英文在添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Zea",
+                "matchedName": "合成玉米黃素",
+                "note": "不是這支萃取。",
+                "restrictionNote": "id 295。類別是營養添加劑。外文名 Synthetic Zeaxanthin。這是玉米黃素，不是玉米鬚。關鍵字 Zea 落在名稱裡。",
+                "resultCount": 1,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "玉米鬚",
+                "matchedName": "",
+                "note": "助手更新歷程（2026-11-01 至 2026-11-25）沒有玉米鬚。資料時間戳 2026-11-25 06:15。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "history",
+                "unconfirmedSafety": false
+              }
+            ],
+            "usable": "listed_food_ingredient"
+          }
+        }
+      ],
+      "targetCount": 5,
+      "title": "2026-11-26 正式日報"
+    },
+    {
+      "channelsCovered": [
+        "news",
+        "exhibition",
+        "industry_report"
+      ],
       "date": "2026-11-25",
       "example": false,
       "notes": "正式五筆。主管道：CardaMind、LP299V 為新聞；NordPea、DAOgest 為展覽；KABP Iron 為產業報導。未收未確認安全性項目：總序天冬（Aspurūs 的來源，id 16069）、印度小檗（Novaberin 的成分，id 16080）、鋸棕櫚（VeriPalmetto 的來源，id 16336）。大印度荳蔻列在香辛調味，不是未確認分類。小豆蔻是 Elettaria cardamomum，不是 Amomum subulatum。乳酸菌 subsp. lactis（id 17540）不是 H-61 的 subsp. cremoris。腎上腺三筆不是豬腎二胺氧化酶。",
@@ -20971,6 +21948,211 @@
     {
       "discovery": {
         "channel": "exhibition",
+        "notes": "從 Fi Europe 2026 創新獎決選稿進入微康中文產品頁、兩篇便秘論文與 CN113875988A。平台只有 Bacillus coagulans 的乳酸菌列，沒有 BC99。嗜黏蛋白阿克曼菌是另一筆未確認項目，沒有併進來。",
+        "scoutDate": "2026-11-26"
+      },
+      "efficacy": {
+        "claimedBenefits": [
+          "微康中文產品頁：BC99 寫耐熱、耐酸、耐膽鹽，並寫緩解便秘、調節菌群。同頁的乾熱測試寫 120°C、15 分鐘存活率 96%，150°C、15 分鐘 91%。這是公司頁的測試，不是論文摘要。",
+          "Frontiers in Nutrition 2024（DOI 10.3389/fnut.2024.1395083）：成人慢性便秘，BC99 每日 20 億 CFU、4 週。完全自發排便每週至少 3 次的比例，BC99 組 34/50（68.0%），安慰劑 19/51（37.3%）。登記號 ChiCTR2200065493。菌粉由 Wecare 提供。",
+          "Foods 2025（DOI 10.3390/foods14040654）：另一篇便秘試驗寫每日 1 g（20 億 CFU）、8 週，對照是麥芽糊精。摘要方向是便秘症狀。"
+        ],
+        "dosageNote": "20 億 CFU 是這兩篇論文的用量，不是平台上的限量。id 17493 沒有寫菌株編號或 CFU。",
+        "suggestedDosage": "兩篇便秘試驗都是每日 20 億 CFU。一篇是 4 週，一篇寫每日 1 g 菌粉、8 週。產品頁沒有另寫每日食用量。"
+      },
+      "evidenceLevels": [
+        "clinical"
+      ],
+      "example": false,
+      "id": "bc99",
+      "images": [
+        {
+          "caption": "微康 WecLac 的 BC99 中文產品頁圖片。",
+          "localPath": "",
+          "source": "official_site",
+          "url": "http://weclac.wecare-bio.com/index/images/bc99_01.jpg"
+        }
+      ],
+      "literature": {
+        "note": "這兩篇是人體隨機對照，對象都是便秘。產品頁的耐熱百分比沒有再對回這兩篇論文。",
+        "refs": [
+          {
+            "note": "Frontiers in Nutrition，2024。DOI 10.3389/fnut.2024.1395083。每日 20 億 CFU、4 週。ChiCTR2200065493。",
+            "title": "Weizmannia coagulans BC99 in the treatment of chronic constipation in adults",
+            "url": "https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2024.1395083/full"
+          },
+          {
+            "note": "Foods，2025。每日 1 g（20 億 CFU）、8 週。",
+            "title": "Weizmannia coagulans BC99 Relieves Constipation Symptoms",
+            "url": "https://doi.org/10.3390/foods14040654"
+          }
+        ],
+        "status": "yes"
+      },
+      "names": {
+        "commonEn": "Weizmannia coagulans BC99",
+        "commonZh": "凝結魏茨曼氏菌 BC99",
+        "scientific": "Weizmannia coagulans BC99。公司中文頁寫原名凝結芽孢桿菌，保藏編號 CGMCC No.21801。平台乳酸菌這一筆的學名是 Bacillus coagulans、Lactobacillus sporogenes，沒有寫 Weizmannia，也沒有寫 BC99。",
+        "trade": "BC99（微康益生菌／Wecare Probiotics 的菌株商品名；頁上亦寫 WecLac）"
+      },
+      "patent": {
+        "note": "有一件公開中的飲料申請。產品頁把 BC99 寫成專利菌株，但打開的那一頁沒有證書號碼。不把 Pending 寫成已核准。",
+        "refs": [
+          {
+            "note": "申請人 WeCare Probiotics Co Ltd。Google Patents 頁的法律狀態是 Pending。申請號 CN202111110868.3A，公開日 2022-01-04。內文寫保藏編號 CGMCC No.21801。這是飲料製法，標題不是菌株專利證書。讀取日 2026-11-26。",
+            "title": "CN113875988A 一種凝結芽孢桿菌 BC99 飲料及其製備方法",
+            "url": "https://patents.google.com/patent/CN113875988A/en"
+          }
+        ],
+        "status": "yes"
+      },
+      "sources": [
+        {
+          "accessed": "2026-11-26",
+          "channel": "exhibition",
+          "publisher": "Food Engineering & Ingredients",
+          "title": "Fi Europe 2026 reveals Innovation Awards finalists",
+          "url": "https://fei-online.com/fi-europe-2026-reveals-innovation-awards-finalists/",
+          "whatItContributes": "2026-11-03：Health Innovation Award 決選名單有 Wecare Probiotics 的 Weizmannia (Bacillus) coagulans BC99。頒獎在 11 月 17 日法蘭克福。"
+        },
+        {
+          "accessed": "2026-11-26",
+          "channel": "supplier_site",
+          "publisher": "微康 WecLac",
+          "title": "凝結魏茨曼氏菌 BC99",
+          "url": "http://weclac.wecare-bio.com/bc",
+          "whatItContributes": "中文品名、耐熱測試的百分比、包裝 1 kg 或 5 kg。沒有每日 CFU。"
+        },
+        {
+          "accessed": "2026-11-26",
+          "channel": "paper",
+          "publisher": "Frontiers",
+          "title": "Frontiers in Nutrition 2024, 1395083",
+          "url": "https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2024.1395083/full",
+          "whatItContributes": "4 週便秘試驗的劑量與完全自發排便比例。"
+        },
+        {
+          "accessed": "2026-11-26",
+          "channel": "patent",
+          "publisher": "Google Patents",
+          "title": "CN113875988A",
+          "url": "https://patents.google.com/patent/CN113875988A/en",
+          "whatItContributes": "申請人、保藏編號，以及頁上的 Pending。"
+        },
+        {
+          "accessed": "2026-11-26",
+          "channel": "other",
+          "publisher": "Baïa Food（西班牙）",
+          "title": "Baïa Food 目錄說明",
+          "url": "https://baiafood.com/llms.txt",
+          "whatItContributes": "肌酸成品寫每份含 BC99 60 億 CFU。配送範圍寫歐洲、英國與美國。不是台灣代理。"
+        }
+      ],
+      "supply": {
+        "relationship": "unknown",
+        "relationshipNote": "2026-11-26 以 BC99、Weizmannia、Wecare、微康、凝結魏茨曼氏菌、凝結芽孢桿菌 BC99，搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索，並打開微康中文產品頁、Fi Europe 決選稿，以及香港交易所申請版本裡搜到的「台灣」一句。那一句是地理定義，把台灣排除在該文件所稱的中國之外，沒有台灣經銷商名字。西班牙 Baïa Food 的肌酸成品寫每份含 BC99，店頁配送範圍是歐洲、英國與美國，不是台灣代理。同日再以「BC99 台灣 經銷」獨立複查，沒有台灣公司的產品頁。查核日 2026-11-26。",
+        "supplierCountry": "中國",
+        "supplierName": "Wecare Probiotics（微康益生菌）",
+        "taiwanPartyName": "本次查無台灣關聯廠商"
+      },
+      "tfda": {
+        "evidenceNotes": "BC99 與 Weizmannia 在原料、添加物都是 0 筆。Bacillus coagulans 命中乳酸菌（id 17493），學名寫 Bacillus coagulans、Lactobacillus sporogenes，部位菌體，備註可供為食品原料或食品加工使用，沒有未確認標記，也沒有寫 BC99 或菌數。凝結這個中文在原料與添加物都是 0 筆。舊學名列名不是這支菌株的每日菌數許可。",
+        "lookupDate": "2026-11-26",
+        "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+        "officialCrosscheck": {
+          "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+          "done": true,
+          "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+          "notes": "2026-11-26 連線 consumer.fda.gov.tw 出現 SSL_ERROR_SYSCALL，沒有取得官方詳細頁。查詢助手細節時間戳 2026-11-25 06:15。id 17493 的學名與備註如上。BC99 與 Weizmannia 沒有單獨一列。"
+        },
+        "queries": [
+          {
+            "category": "",
+            "keyword": "BC99",
+            "matchedName": "",
+            "note": "菌株商品名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Weizmannia",
+            "matchedName": "",
+            "note": "新屬名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Bacillus coagulans",
+            "matchedName": "乳酸菌",
+            "note": "舊學名在乳酸菌這一筆。",
+            "restrictionNote": "id 17493。次分類為微生物及其來源製取之原料。外文名 Lactic acid bacteria。學名 Bacillus coagulans, Lactobacillus sporogenes。部位菌體。備註：可供為食品原料或食品加工使用。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "凝結",
+            "matchedName": "",
+            "note": "中文 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "BC99",
+            "matchedName": "",
+            "note": "商品名在添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "coagulans",
+            "matchedName": "",
+            "note": "種小名在添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "凝結",
+            "matchedName": "",
+            "note": "中文在添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "coagulans",
+            "matchedName": "",
+            "note": "助手更新歷程（2026-11-01 至 2026-11-25）沒有 coagulans 或 Weizmannia。資料時間戳 2026-11-25 06:15。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "history",
+            "unconfirmedSafety": false
+          }
+        ],
+        "usable": "listed_food_ingredient"
+      }
+    },
+    {
+      "discovery": {
+        "channel": "exhibition",
         "notes": "從 2026 亞洲美容保養生技保健大展的和聚香檸檬頁進入，再對 Bionap 產品頁、和聚產品頁與 Foods 2024。專利欄兩處不一致，都留下。",
         "scoutDate": "2026-11-15"
       },
@@ -22938,6 +24120,190 @@
           }
         ],
         "usable": "not_found"
+      }
+    },
+    {
+      "discovery": {
+        "channel": "industry_report",
+        "notes": "從 Food Ingredients First 2026-10-19 的 Fi Europe 獎項預告進入官網、印度專利書目與韋鎮產品頁。苞葉與葉的未確認列沒有併進花柱這一筆。公司頁說的活體資料這次沒有對到論文。",
+        "scoutDate": "2026-11-26"
+      },
+      "efficacy": {
+        "claimedBenefits": [
+          "Food Ingredients First 2026-10-19：CornFit 是玉米鬚萃取，用玉米加工剩下的部位，寫給代謝與體重管理的配方，劑型包括膠囊、錠劑、粉末與液體萃取。這是獎項預告的介紹，沒有效應量。",
+          "Botanic 產品頁：寫專利、標準化，成分方向是類黃酮、多酚與多醣，並寫有體外與活體資料。頁上沒有篇名、劑量或人數。",
+          "Ingredients Network 產品頁的規格行寫尿囊素 0.1%、類黃酮 NLT 2%、多酚 NLT 3.5%、多醣 NLT 25%。這是目錄規格，不是試驗結果。"
+        ],
+        "dosageNote": "沒有這次讀到的供應商建議劑量，也沒有打開到已發表的人體試驗劑量。花柱列名沒有毫克上限。",
+        "suggestedDosage": "產品頁、獎項稿與韋鎮頁都沒有寫每日毫克。"
+      },
+      "evidenceLevels": [],
+      "example": false,
+      "id": "cornfit",
+      "images": [
+        {
+          "caption": "Botanic Healthcare 官網 CornFit 頁上的玉米鬚圖片。",
+          "localPath": "",
+          "source": "official_site",
+          "url": "https://www.botanichealthcare.net/default/assets/img/botanic/Corn-Silk-1.jpg"
+        }
+      ],
+      "literature": {
+        "note": "公司頁寫有體外與活體資料，韋鎮頁寫有國際期刊，兩頁都沒有篇名或連結。這次沒有打開到論文，不把目錄規格當成臨床結果。",
+        "refs": [],
+        "status": "unknown"
+      },
+      "names": {
+        "commonEn": "corn silk extract",
+        "commonZh": "玉米鬚萃取物",
+        "scientific": "Zea mays L.（花柱，玉米鬚。韋鎮頁寫 Stigma。不是同種的苞葉或葉；那一筆在未確認分類。）",
+        "trade": "CornFit（Botanic Healthcare 的玉米鬚萃取商品名；頁上亦寫 Cornfit）"
+      },
+      "patent": {
+        "note": "有一份頁面標成已核准的印度紀錄，但號碼欄是空的。韋鎮頁只寫印度專利認證，沒有號碼。目錄上的多酚 3.5% 與請求項的 7.5–9.0% 不同，都留下。",
+        "refs": [
+          {
+            "note": "申請人 BOTANIC HEALTHCARE PVT LTD。該頁寫 Status Granted、Legal Status Inforce、Grant Date 2024-01-15，申請日 2023-06-19。專利號碼那一欄是空白，所以這裡不補號碼。請求項寫甜玉米鬚萃取含 maysin 0.25–0.50%、鉀 2.0–3.0%、總多酚 7.5–9.0%、維生素 C 1.0–2.0%。讀取日 2026-11-26。",
+            "title": "A Composition Of A Sweet Corn Silk Extract For Medicinal Use And A Method Thereof",
+            "url": "https://www.quickcompany.in/patents/a-composition-of-a-sweet-corn-silk-extract-for-medicinal-use-and-a-method-thereof"
+          }
+        ],
+        "status": "yes"
+      },
+      "sources": [
+        {
+          "accessed": "2026-11-26",
+          "channel": "industry_report",
+          "publisher": "Food Ingredients First",
+          "title": "Fi Europe 2026 awards shortlist spotlights protein, foodtech and sustainability",
+          "url": "https://www.foodingredientsfirst.com/news/fi-europe-2026-awards-finalists.html",
+          "whatItContributes": "2026-10-19：CornFit 入圍 Health Innovation Award，介紹是玉米鬚萃取、代謝與體重管理。沒有效應量。"
+        },
+        {
+          "accessed": "2026-11-26",
+          "channel": "supplier_site",
+          "publisher": "Botanic Healthcare",
+          "title": "Cornfit",
+          "url": "https://www.botanichealthcare.net/cornfit/",
+          "whatItContributes": "學名 Zea mays、玉米鬚、類黃酮與多酚的公司說法。沒有毫克。"
+        },
+        {
+          "accessed": "2026-11-26",
+          "channel": "patent",
+          "publisher": "QuickCompany（印度專利書目）",
+          "title": "印度玉米鬚萃取組成紀錄",
+          "url": "https://www.quickcompany.in/patents/a-composition-of-a-sweet-corn-silk-extract-for-medicinal-use-and-a-method-thereof",
+          "whatItContributes": "申請人、核准日期欄，以及 maysin 與多酚的請求項範圍。號碼欄空白。"
+        },
+        {
+          "accessed": "2026-11-26",
+          "channel": "other",
+          "publisher": "韋鎮實業",
+          "title": "Cornfit 專利玉米鬚萃取物",
+          "url": "https://www.phfcorp.com.tw/page/product/show.aspx?num=224",
+          "whatItContributes": "台灣目錄：原廠印度、花柱、含 Maysin。沒有寫總代理。"
+        }
+      ],
+      "supply": {
+        "relationship": "taiwan_distributor",
+        "relationshipNote": "2026-11-26 以 CornFit、Cornfit、玉米鬚萃取、corn silk extract、Botanic Healthcare、Zea mays stigma，搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索，並打開韋鎮產品頁、分類頁與公司介紹。產品頁寫原廠印度、學名 Zea mays L.、部位 Stigma（花柱），特性含 Maysin，並寫印度專利認證。介紹頁寫該公司是保健食品與化妝品原料的進出口貿易商，沒有寫 Botanic 的總代理，也沒有原廠經銷名單。這是目錄販售，不是原廠證實的獨家代理。展昭 2027 產品頁的參展商是 Botanic 自己，頁尾台北地址是主辦單位。同日再以「CornFit 台灣」複查，仍是這一頁。查核日 2026-11-26。",
+        "supplierCountry": "印度",
+        "supplierName": "Botanic Healthcare",
+        "taiwanPartyName": "韋鎮實業有限公司（目錄販售）"
+      },
+      "tfda": {
+        "evidenceNotes": "CornFit 是 0 筆。玉米鬚與 corn silk 命中同一筆（id 17032），次分類可供直接食用，學名 Zea mays L.，部位花柱，備註空白，沒有未確認標記。Zea mays 另有玉米穗軸、玉米油、玉米蛋白，以及未確認的苞葉與葉（id 16384）。添加物的玉米鬚與 corn silk 是 0 筆。花柱列名不是萃取物的每日毫克許可。",
+        "lookupDate": "2026-11-26",
+        "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+        "officialCrosscheck": {
+          "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+          "done": true,
+          "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+          "notes": "2026-11-26 連線 consumer.fda.gov.tw 出現 SSL_ERROR_SYSCALL，沒有取得官方詳細頁。查詢助手細節時間戳 2026-11-25 06:15。id 17032 部位是花柱。id 16384 的未確認部位是苞葉與葉，沒有併進可用結論。"
+        },
+        "queries": [
+          {
+            "category": "",
+            "keyword": "CornFit",
+            "matchedName": "",
+            "note": "商品名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "玉米鬚",
+            "matchedName": "玉米鬚",
+            "note": "中文名這一筆。",
+            "restrictionNote": "id 17032。大分類可供食品使用之原料。次分類為草、木本植物類(2)可供直接食用。外文名 Corn silk。學名 Zea mays L.。部位花柱。備註空白。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "corn silk",
+            "matchedName": "玉米鬚",
+            "note": "外文名命中同一列。",
+            "restrictionNote": "同一筆 id 17032。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Zea mays",
+            "matchedName": "玉米／玉米鬚／玉米油／玉米蛋白／玉米（苞葉、葉）",
+            "note": "五筆裡有一筆未確認，所以這個關鍵字標 true。CornFit 對的是花柱 id 17032，不是苞葉與葉。",
+            "restrictionNote": "id 16849 玉米，部位芯（穗軸）。id 17032 是本筆，花柱，不是未確認。id 17299 玉米油。id 17355 玉米蛋白。id 16384 玉米，部位苞葉（殼）、葉，未確認安全性，不得供為食品原料。",
+            "resultCount": 5,
+            "tab": "ingredient",
+            "unconfirmedSafety": true
+          },
+          {
+            "category": "",
+            "keyword": "玉米鬚",
+            "matchedName": "",
+            "note": "中文在添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "corn silk",
+            "matchedName": "",
+            "note": "英文在添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Zea",
+            "matchedName": "合成玉米黃素",
+            "note": "不是這支萃取。",
+            "restrictionNote": "id 295。類別是營養添加劑。外文名 Synthetic Zeaxanthin。這是玉米黃素，不是玉米鬚。關鍵字 Zea 落在名稱裡。",
+            "resultCount": 1,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "玉米鬚",
+            "matchedName": "",
+            "note": "助手更新歷程（2026-11-01 至 2026-11-25）沒有玉米鬚。資料時間戳 2026-11-25 06:15。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "history",
+            "unconfirmedSafety": false
+          }
+        ],
+        "usable": "listed_food_ingredient"
       }
     },
     {
@@ -29556,6 +30922,207 @@
     },
     {
       "discovery": {
+        "channel": "exhibition",
+        "notes": "從 Botanic 的 Fi Europe 攤位貼文進入官網、CPHI、Pharmacognosy Research 與印度申請 202441042534。韋鎮分類頁沒有這個商品名。展昭攤位頁這次沒打開，不把搜尋摘要寫成代理。",
+        "scoutDate": "2026-11-26"
+      },
+      "efficacy": {
+        "claimedBenefits": [
+          "Botanic 產品頁：Melostacio 來自 Pistacia vera 果仁，寫標準化天然褪黑激素，並寫有助睡眠。同頁寫 in-vivo 會縮短入睡時間、延長睡眠，但沒有寫動物種類或劑量。",
+          "CPHI 產品頁：Melostacio-GOLD 是開心果萃取，寫含天然褪黑激素與單寧，並寫 patented、clinically validated。",
+          "Pharmacognosy Research（DOI 10.5530/pres.20260043）：40 名成人、兩組，Melostacio Gold 每日 100 mg、28 天。雅典失眠量表在研究組從 16.95±1.96 降到 11.80±1.54；第 4 次訪視對安慰劑是 11.80±1.54 對 13.80±2.09（p\u003c0.0014）。登記號 CTRI/2025/02/079862。作者單位是 Botanic Healthcare。",
+          "西班牙 Farmacias VIVO 的 Baïa Food 成品成分表寫開心果種子萃取（Pistacia vera L.，種子）、3% 植物褪黑激素、括號 Melostacio。這是成品標示，不是原料的每日劑量，也不是台灣通路。"
+        ],
+        "dosageNote": "100 mg 是這篇試驗的用量，不是產品頁印的每日食用量，也不是平台限量。平台沒有這一筆。",
+        "suggestedDosage": "試驗是每日 100 mg 一粒，最好晚餐後，共 28 天。產品頁與 CPHI 沒有寫毫克。"
+      },
+      "evidenceLevels": [
+        "clinical"
+      ],
+      "example": false,
+      "id": "melostacio-gold",
+      "images": [
+        {
+          "caption": "Botanic Healthcare 官網 Melostacio 頁上的圖片。",
+          "localPath": "",
+          "source": "official_site",
+          "url": "https://www.botanichealthcare.net/default/assets/img/botanic/melostacio.jpeg"
+        }
+      ],
+      "literature": {
+        "note": "這篇是人體隨機對照。產品頁的 in-vivo 沒有寫物種，不另標成動物試驗。",
+        "refs": [
+          {
+            "note": "Pharmacognosy Research，18(1):97–104。DOI 10.5530/pres.20260043。40 人、100 mg、28 天。CTRI/2025/02/079862。",
+            "title": "A Clinical Evaluation of the Safety and Efficacy of Melostacio Gold (Pistachio Extract)",
+            "url": "https://www.phcog.net/journals/pr/18/1/97"
+          }
+        ],
+        "status": "yes"
+      },
+      "names": {
+        "commonEn": "pistachio kernel extract (natural melatonin)",
+        "commonZh": "開心果仁萃取（含天然褪黑激素）",
+        "scientific": "Pistacia vera（果仁。試驗寫 P. vera 萃取。印度申請 202441042534 寫從種仁萃取褪黑激素與單寧。不是葉。）",
+        "trade": "Melostacio Gold（Botanic Healthcare 的商品名。官網產品頁寫 Melostacio；CPHI、公司貼文與試驗寫 Melostacio Gold 或 Melostacio-GOLD。兩種寫法都留下。）"
+      },
+      "patent": {
+        "note": "CPHI 與公司 Fi Europe 貼文寫 patented。上面這份申請紀錄的狀態是等待審查，不是核准證書。兩種說法都留下。",
+        "refs": [
+          {
+            "note": "申請人 BOTANIC HEALTHCARE PVT. LTD.。該頁寫申請日 2024-05-31，狀態 Application Awaiting Examination，公開號 39/2025。請求項寫從開心果種仁萃取褪黑激素與單寧，其中一項把膏體寫成褪黑激素 3%、單寧 10%。這是申請請求項，不是商品規格。讀取日 2026-11-26。",
+            "title": "印度申請 202441042534 Method For Extracting Melatonin And Tannins From Pistacia Vera",
+            "url": "https://www.quickcompany.in/patents/202441042534-1f32"
+          }
+        ],
+        "status": "yes"
+      },
+      "sources": [
+        {
+          "accessed": "2026-11-26",
+          "channel": "exhibition",
+          "publisher": "Botanic Healthcare（LinkedIn）",
+          "title": "Botanic Healthcare：Eight days to Fi Europe 2026",
+          "url": "https://www.linkedin.com/posts/botanichealthcare_41g72-fieurope2026-botanichealthcare-activity-7525490269014609920-UUAk",
+          "whatItContributes": "公司貼文：2026-11-17 至 19 日法蘭克福 Fi Europe，攤位 41G72，展出 Melostacio-GOLD。這是原廠自己的貼文。"
+        },
+        {
+          "accessed": "2026-11-26",
+          "channel": "supplier_site",
+          "publisher": "Botanic Healthcare",
+          "title": "Melostacio",
+          "url": "https://www.botanichealthcare.net/melostacio/",
+          "whatItContributes": "學名、果仁、天然褪黑激素。頁首地址在海德拉巴。沒有毫克。"
+        },
+        {
+          "accessed": "2026-11-26",
+          "channel": "supplier_site",
+          "publisher": "CPHI Online",
+          "title": "Melostacio Gold on CPHI Online",
+          "url": "https://www.cphi-online.com/product/melostacio-gold/",
+          "whatItContributes": "Gold 這個寫法、褪黑激素與單寧，以及 patented 的公司說法。"
+        },
+        {
+          "accessed": "2026-11-26",
+          "channel": "paper",
+          "publisher": "Pharmacognosy Research",
+          "title": "Pharmacognosy Research 18(1):97",
+          "url": "https://www.phcog.net/journals/pr/18/1/97",
+          "whatItContributes": "100 mg、28 天、40 人，以及雅典失眠量表的數字。"
+        },
+        {
+          "accessed": "2026-11-26",
+          "channel": "other",
+          "publisher": "Farmacias VIVO（西班牙）",
+          "title": "Baia Food Prebiotic Dreamer",
+          "url": "https://farmaciasvivo.com/baia-food-prebiotic-dreamer-533938",
+          "whatItContributes": "成品成分表寫開心果種子萃取、3% 植物褪黑激素、Melostacio。藥局在馬德里。不是台灣代理。"
+        }
+      ],
+      "supply": {
+        "relationship": "unknown",
+        "relationshipNote": "2026-11-26 以 Melostacio、Melostacio Gold、Melostacio-GOLD、Botanic Healthcare、開心果萃取、pistachio extract、Pistacia vera，搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索。打開韋鎮實業的商品分類頁，上面有 Cornfit，沒有 Melostacio。展昭 2026 攤位網址打開後被導回名錄首頁；公司 LinkedIn 貼文寫 Fi Europe 攤位 41G72 展出 Melostacio-GOLD，那是原廠自己的貼文，不是台灣代理頁。西班牙 Baïa Food 成品標示使用 Melostacio，店頁配送寫歐洲、英國與美國，不是台灣代理。攤位全文沒核完，不寫查無。同日再以「Melostacio 台灣」複查，沒有台灣公司的產品頁。查核日 2026-11-26。",
+        "supplierCountry": "印度",
+        "supplierName": "Botanic Healthcare",
+        "taiwanPartyName": "待確認"
+      },
+      "tfda": {
+        "evidenceNotes": "Melostacio、Pistacia、開心果、pistachio 與阿月渾子在原料和添加物都是 0 筆。平台沒有這筆，不是准用，也不是禁用。這次的關鍵字沒有對到另一個已列名的果仁。",
+        "lookupDate": "2026-11-26",
+        "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+        "officialCrosscheck": {
+          "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+          "done": true,
+          "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+          "notes": "2026-11-26 連線 consumer.fda.gov.tw 出現 SSL_ERROR_SYSCALL，沒有取得官方詳細頁。查詢助手細節時間戳 2026-11-25 06:15，上述關鍵字在原料與添加物都是 0 筆。"
+        },
+        "queries": [
+          {
+            "category": "",
+            "keyword": "Melostacio",
+            "matchedName": "",
+            "note": "商品名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Pistacia",
+            "matchedName": "",
+            "note": "學名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "開心果",
+            "matchedName": "",
+            "note": "中文俗名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "阿月渾子",
+            "matchedName": "",
+            "note": "別名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Pistacia",
+            "matchedName": "",
+            "note": "學名在添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "開心果",
+            "matchedName": "",
+            "note": "中文在添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Melostacio",
+            "matchedName": "",
+            "note": "商品名在添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Pistacia",
+            "matchedName": "",
+            "note": "助手更新歷程（2026-11-01 至 2026-11-25）沒有 Pistacia 或開心果。資料時間戳 2026-11-25 06:15。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "history",
+            "unconfirmedSafety": false
+          }
+        ],
+        "usable": "not_found"
+      }
+    },
+    {
+      "discovery": {
         "channel": "news",
         "notes": "從 NutraIngredients 2026-11-19 的體重管理成品盤點看到 Metabolaid，再對 Monteloeder 產品頁、2024 年 Applied Sciences 與荃新兩頁。原廠 2019 研討會頁只寫台灣夥伴，與荃新現頁的「獨家」並陳，沒有改成原廠獨家。",
         "scoutDate": "2026-11-20"
@@ -31305,6 +32872,174 @@
             "keyword": "豌豆",
             "matchedName": "",
             "note": "助手更新歷程（2026-11-01 至 2026-11-24）沒有這組字的異動。資料時間戳 2026-11-24 06:17。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "history",
+            "unconfirmedSafety": false
+          }
+        ],
+        "usable": "listed_food_ingredient"
+      }
+    },
+    {
+      "discovery": {
+        "channel": "news",
+        "notes": "從 Nutrition Insight 2026-11-17 的 Fi Europe 報導進入公司 2026-10-26 新聞稿、分離乳清目錄，再打開和聚的 ProHeat 頁與關於我們頁。帶 PA 的新品沒有併進沒有 PA 的 92.5% 規格，也沒有併進 ProHeat。",
+        "scoutDate": "2026-11-26"
+      },
+      "efficacy": {
+        "claimedBenefits": [
+          "Nutrition Insight 2026-11-17：Floor van der Horst 說 Nutri Whey Isolate Clear PA 是預酸化的乳清分離蛋白，給清爽的蛋白飲料用，並說有完整胺基酸、清澈、體感輕、味道中性、耐熱。Re-vibe 概念把它和半乳寡糖放在一起。",
+          "FrieslandCampina Ingredients 2026-10-26 新聞稿：同樣寫預酸化、清澈、味道中性與耐熱，並寫 Re-vibe 入圍 Fi Europe Health Innovation Award。攤位是 31G38。",
+          "同站分離乳清目錄有一筆叫 Nutri Whey Isolate Clear、沒有 PA，寫蛋白質 92.5%（乾基，N×6.38）、乳糖 0.8%。新聞稿沒有把這個百分比寫到帶 PA 的新品上，兩筆名稱不要併成同一規格。"
+        ],
+        "dosageNote": "沒有這支規格的供應商建議劑量，也沒有法規毫克。同篇新聞裡的 20 g 蛋白샷、6% 優格與 35% 蛋白棒，寫的是 Nutri Whey ProHeat 或其他蛋白組合，不是 Clear PA。",
+        "suggestedDosage": "這次打開的新聞與 2026-10-26 新聞稿沒有寫 Isolate Clear PA 的每日克數或每份添加量。"
+      },
+      "evidenceLevels": [],
+      "example": false,
+      "id": "nutri-whey-clear-pa",
+      "images": [
+        {
+          "caption": "FrieslandCampina Ingredients 2026-10-26 Fi Europe 新聞稿頁的攤位示意。",
+          "localPath": "",
+          "source": "official_site",
+          "url": "https://www.frieslandcampinaingredients.com/wp-content/uploads/2026/10/Stand-impression.png"
+        }
+      ],
+      "literature": {
+        "note": "沒有找到以 Isolate Clear PA 為材料的論文。不把一般乳清蛋白文獻算成這支規格的證據。",
+        "refs": [],
+        "status": "unknown"
+      },
+      "names": {
+        "commonEn": "pre-acidified whey protein isolate",
+        "commonZh": "預酸化乳清分離蛋白",
+        "scientific": "不適用植物學名。成分是牛乳的乳清蛋白。平台中文名是牛乳清蛋白（包括其分解物），外文名 Whey protein。另有一筆就叫乳清。",
+        "trade": "Nutri Whey Isolate Clear PA（FrieslandCampina Ingredients 的商品名。同站分離乳清目錄另有 Nutri Whey Isolate Clear，沒有 PA。兩個名稱都留下。）"
+      },
+      "patent": {
+        "note": "2026-11-26 沒有打開到標題含 Nutri Whey Isolate Clear PA 的專利頁。和聚的 ProHeat 頁把專利欄寫成「無」，那是另一個規格，不拿來當這一筆的結論。",
+        "refs": [],
+        "status": "unknown"
+      },
+      "sources": [
+        {
+          "accessed": "2026-11-26",
+          "channel": "news",
+          "publisher": "Nutrition Insight",
+          "title": "Fi Europe 2026: FrieslandCampina Ingredients debuts clear whey isolate in protein soda",
+          "url": "https://www.nutritioninsight.com/news/fi-europe-2026-frieslandcampina-ingredients-clear-protein.html",
+          "whatItContributes": "2026-11-17：預酸化、清澈蛋白汽水概念，以及同場其他概念用的是 ProHeat。"
+        },
+        {
+          "accessed": "2026-11-26",
+          "channel": "supplier_site",
+          "publisher": "FrieslandCampina Ingredients",
+          "title": "Fi Europe 2026: FrieslandCampina Ingredients showcases new possibilities for protein",
+          "url": "https://www.frieslandcampinaingredients.com/insight/fi-europe-2026/",
+          "whatItContributes": "2026-10-26：攤位 31G38、預酸化分離乳清的公司說法。總部在阿默斯福特。"
+        },
+        {
+          "accessed": "2026-11-26",
+          "channel": "supplier_site",
+          "publisher": "FrieslandCampina Ingredients",
+          "title": "Whey protein concentrate and isolate ingredients",
+          "url": "https://www.frieslandcampinaingredients.com/ingredient-group/whey-protein-isolates-and-concentrates/",
+          "whatItContributes": "目錄上的 Nutri Whey Isolate Clear 寫 92.5% 蛋白。名稱沒有 PA。"
+        },
+        {
+          "accessed": "2026-11-26",
+          "channel": "other",
+          "publisher": "和聚國際生醫材料",
+          "title": "Nutri Whey ProHeat",
+          "url": "https://www.hg-bio.com.tw/en/products/proheat-en/",
+          "whatItContributes": "台灣頁販售同品牌的 ProHeat，廠牌寫 FrieslandCampina。不是 Clear PA。"
+        }
+      ],
+      "supply": {
+        "relationship": "unknown",
+        "relationshipNote": "2026-11-26 以 Nutri Whey、Isolate Clear PA、Clear PA、FrieslandCampina、菲仕蘭、乳清分離蛋白，搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索，並打開和聚的蛋白分類頁、ProHeat 產品頁與關於我們頁。關於我們寫「生物科技原料的代理」，「嚴選代理原料」區塊有一張替代文字為「DMV菲仕蘭」的標誌。這是該公司頁面的呈現，不是菲仕蘭官網的經銷名單。ProHeat 頁把廠牌寫成 FrieslandCampina、蛋白質 ≥80%。分類頁沒有 Isolate Clear PA。同品牌其他規格不是這支預酸化分離乳清的代理證明。同日再以「Isolate Clear PA 台灣」複查，沒有這支規格的產品頁。查核日 2026-11-26。",
+        "supplierCountry": "荷蘭",
+        "supplierName": "FrieslandCampina Ingredients",
+        "taiwanPartyName": "和聚國際生醫材料有限公司（目錄有同品牌的 Nutri Whey Hydro 與 ProHeat；未見 Isolate Clear PA）"
+      },
+      "tfda": {
+        "evidenceNotes": "Nutri Whey 與 Clear PA 是 0 筆。乳清蛋白、牛乳清蛋白與 whey protein 都命中牛乳清蛋白（id 17622），備註只寫由牛乳所製取，沒有未確認標記，也沒有寫分離、預酸化或克數。乳清另有 id 17650。添加物的 whey 與乳清蛋白是 0 筆；關鍵字「乳清」在添加物命中的是過氧化苯甲醯，範圍寫可用於乳清加工，不是乳清蛋白本身。",
+        "lookupDate": "2026-11-26",
+        "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+        "officialCrosscheck": {
+          "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+          "done": true,
+          "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+          "notes": "2026-11-26 連線 consumer.fda.gov.tw 出現 SSL_ERROR_SYSCALL，沒有取得官方詳細頁。查詢助手細節時間戳 2026-11-25 06:15。id 17622 與 id 17650 的欄位如上。添加物 id 62 的命中是漂白劑，不是這支蛋白。"
+        },
+        "queries": [
+          {
+            "category": "",
+            "keyword": "Nutri Whey",
+            "matchedName": "",
+            "note": "商品名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "whey protein",
+            "matchedName": "牛乳清蛋白（包括其分解物）",
+            "note": "外文名這一筆。",
+            "restrictionNote": "id 17622。次分類為禽、畜類及其來源製取之原料。外文名 Whey protein。備註：由牛乳所製取。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "乳清",
+            "matchedName": "牛乳清蛋白（包括其分解物）／乳清",
+            "note": "兩筆都不是未確認分類。",
+            "restrictionNote": "id 17622 同上。id 17650 中文名乳清，外文名 Whey，部位欄寫由牛乳製取，備註空白。",
+            "resultCount": 2,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "whey",
+            "matchedName": "",
+            "note": "英文在添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "乳清蛋白",
+            "matchedName": "",
+            "note": "乳清蛋白在添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "乳清",
+            "matchedName": "過氧化苯甲醯",
+            "note": "關鍵字落在加工用劑的範圍文字。",
+            "restrictionNote": "id 62。類別是漂白劑。使用範圍寫本品可於乳清之加工過程中視實際需要適量使用。這不是乳清蛋白。",
+            "resultCount": 1,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "乳清",
+            "matchedName": "",
+            "note": "助手更新歷程（2026-11-01 至 2026-11-25）沒有乳清。資料時間戳 2026-11-25 06:15。",
             "restrictionNote": "",
             "resultCount": 0,
             "tab": "history",
@@ -36083,6 +37818,211 @@
           }
         ],
         "usable": "listed_food_ingredient"
+      }
+    },
+    {
+      "discovery": {
+        "channel": "news",
+        "notes": "從 NutraIngredients 2026-11-23 的訪談進入公司 2026-02-09 新聞、PubMed 42208445 與 US11945844B2。Pentadiplandra 那一列沒有併進這一筆。2026-02-09 頁的執行長是 Amir Guttman，2026-11-23 頁是 Doug Brown。",
+        "scoutDate": "2026-11-26"
+      },
+      "efficacy": {
+        "claimedBenefits": [
+          "Amai 2026-02-09 新聞頁：sweelin 是精準發酵的甜蛋白，用來減糖；該頁寫甜度約為糖的 3,000 倍（重量比），並寫可減糖最多 70%。這是公司說法。",
+          "NutraIngredients 2026-11-23：執行長 Doug Brown 說多數應用的甜度約為糖的 3,000 倍，95°C、10 分鐘以內的加熱可以用。同頁轉述 Food Chemistry 試驗：對健康成人的血糖、胰島素與 GLP-1 沒有升高，0.051 g sweelin 對 0.225 g 的 Reb-M。",
+          "PubMed 上的 Food Chemistry 摘要（DOI 10.1016/j.foodchem.2026.149790）：19 人交叉試驗，甜度對到 75 g 右旋糖。sweelin 後的血糖與胰島素低於右旋糖，與甜菊沒有差別，摘要寫不升高血糖、胰島素或 GLP-1。登記號 NCT06520293。試驗由 Amai 出資。"
+        ],
+        "dosageNote": "0.051 g 是這篇試驗的單次劑量，不是產品頁上的每日食用量，也不是法規上限。公司稿的 3,000 倍與 70% 減糖是甜度與配方說法。",
+        "suggestedDosage": "沒有看到固定的每日毫克。論文的單次飲料是 0.051 g sweelin，甜度對到 75 g 右旋糖，對照是 0.225 g Reb-M。"
+      },
+      "evidenceLevels": [
+        "clinical"
+      ],
+      "example": false,
+      "id": "sweelin",
+      "images": [
+        {
+          "caption": "Amai 2026-02-09 新聞頁的圖片。檔名是 istockphoto，不是包裝實拍。",
+          "localPath": "",
+          "source": "official_site",
+          "url": "https://amaiproteins.com/wp-content/uploads/2026/02/istockphoto-1250459233-612x612-1-e1770789732588.jpg"
+        }
+      ],
+      "literature": {
+        "note": "這篇是人體交叉試驗。公司稿寫的 70% 減糖沒有出現在這篇摘要。",
+        "refs": [
+          {
+            "note": "Food Chemistry，2026-08-15，520:149790。DOI 10.1016/j.foodchem.2026.149790。19 人、單次 0.051 g。NCT06520293。作者單位含 Amai Proteins。",
+            "title": "sweelin, a novel sweet protein, does not affect blood glucose and insulin levels",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/42208445/"
+          }
+        ],
+        "status": "yes"
+      },
+      "names": {
+        "commonEn": "sweet protein (redesigned monellin)",
+        "commonZh": "甜蛋白（莫內林改造）",
+        "scientific": "不適用單一上市植物原料。公司 2026-02-09 稿寫以奇遇莓（serendipity berry）的莫內林（monellin）為基礎、經精準發酵做成的甜蛋白，甜度約為糖的 3,000 倍（重量比）。Food Chemistry 論文寫 93 個胺基酸、10.9 kDa。奇遇莓的植物是 Dioscoreophyllum cumminsii。不是平台上的神奇果 Synsepalum dulcificum，也不是未確認分類的 Pentadiplandra brazzeana。",
+        "trade": "sweelin（Amai Proteins 的甜蛋白商品名；公司英文稿寫美國可標 Serendipity Berry Sweet Protein）"
+      },
+      "patent": {
+        "note": "有 Amai 的改造甜蛋白專利。公開頁沒有把商品名寫進標題。公司稿寫有專利組合，沒有在新聞頁列出號碼。",
+        "refs": [
+          {
+            "note": "權利人 Amai Proteins Ltd。Google Patents 頁寫 2024-04-02 核准。摘要是改造甜味蛋白，參考蛋白可以包含 monellin。頁面標題沒有 sweelin。讀取日 2026-11-26。",
+            "title": "US11945844B2 Taste and flavor-modifier proteins",
+            "url": "https://patents.google.com/patent/US11945844B2/en"
+          },
+          {
+            "note": "同一權利人。該頁寫 2026-05-12 核准為 US12624069B2。摘要是改造的 MNEI 蛋白。標題沒有 sweelin。讀取日 2026-11-26。",
+            "title": "US20240076326A1 Flavor modifying proteins（頁上另寫已核准 US12624069B2）",
+            "url": "https://patents.google.com/patent/US20240076326A1/en"
+          }
+        ],
+        "status": "yes"
+      },
+      "sources": [
+        {
+          "accessed": "2026-11-26",
+          "channel": "news",
+          "publisher": "NutraIngredients",
+          "title": "Amai Proteins CEO: Sweet proteins are having a moment right now",
+          "url": "https://www.nutraingredients.com/Article/2026/11/23/amai-proteins-ceo-sweet-proteins-are-having-a-moment-right-now/",
+          "whatItContributes": "2026-11-23：甜度、95°C 的加熱說法，以及 0.051 g 對 0.225 g Reb-M 的試驗轉述。這頁的執行長是 Doug Brown。"
+        },
+        {
+          "accessed": "2026-11-26",
+          "channel": "supplier_site",
+          "publisher": "Amai Proteins",
+          "title": "sweelin is now FDA GRAS Approved",
+          "url": "https://amaiproteins.com/news/amai-proteins-receives-fda-no-questions-letter-for-sweelin-sweet-protein/",
+          "whatItContributes": "2026-02-09，雷霍沃特：莫內林、精準發酵、約 3,000 倍甜度。這頁的執行長是 Amir Guttman。兩頁職稱不同，都留下。"
+        },
+        {
+          "accessed": "2026-11-26",
+          "channel": "paper",
+          "publisher": "PubMed／Food Chemistry",
+          "title": "PubMed 42208445",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42208445/",
+          "whatItContributes": "人數、劑量、血糖與胰島素的比較方向，以及 NCT06520293。"
+        },
+        {
+          "accessed": "2026-11-26",
+          "channel": "patent",
+          "publisher": "Google Patents",
+          "title": "US11945844B2",
+          "url": "https://patents.google.com/patent/US11945844B2/en",
+          "whatItContributes": "權利人與核准日。標題沒有商品名。"
+        },
+        {
+          "accessed": "2026-11-26",
+          "channel": "other",
+          "publisher": "以色列駐台北經濟貿易辦事處",
+          "title": "TradeIL Taiwan：以色列減糖公司徵求合作",
+          "url": "https://www.linkedin.com/posts/israel-ec_%E6%AD%A3%E5%9C%A8%E5%B0%8B%E6%89%BE%E4%B8%8B%E4%B8%80%E5%80%8B%E9%A3%9F%E5%93%81%E7%A7%91%E6%8A%80%E5%89%B5%E6%96%B0%E6%88%96%E6%8A%95%E8%B3%87%E6%A9%9F%E6%9C%83%E4%BB%A5%E8%89%B2%E5%88%97%E6%B8%9B%E7%B3%96%E7%A7%91%E6%8A%80%E6%AD%A3%E7%82%BA%E9%A3%9F%E5%93%81%E7%94%A2%E6%A5%AD%E6%B3%A8%E5%85%A5%E6%96%B0%E7%9A%84%E8%A7%A3%E6%B1%BA%E6%96%B9%E6%A1%88-activity-7505516794070269953-5gb4",
+          "whatItContributes": "把 Amai 列在減糖公司名單，寫部分公司正在找本地代理。沒有點名已簽約的台灣原料商。貼文把來源寫成神秘果，括號是 serendipity berry。"
+        }
+      ],
+      "supply": {
+        "relationship": "unknown",
+        "relationshipNote": "2026-11-26 以 sweelin、Amai、Amai Proteins、monellin、莫內林、甜蛋白、serendipity berry、Dioscoreophyllum，搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索，並打開公司新聞頁與 NutraIngredients 訪談。以色列駐台北經濟貿易辦事處的貼文把 Amai 列在減糖公司名單，並寫「部分正在尋找本地代理」，沒有寫已經簽約的台灣公司，辦事處本身不是原料商。同日再以「sweelin 代理 台灣」獨立複查，沒有台灣公司的產品頁。查核日 2026-11-26。",
+        "supplierCountry": "以色列",
+        "supplierName": "Amai Proteins",
+        "taiwanPartyName": "本次查無台灣關聯廠商"
+      },
+      "tfda": {
+        "evidenceNotes": "sweelin、monellin、Dioscoreophyllum、serendipity 與甜蛋白在原料和添加物都是 0 筆。Pentadiplandra brazzeana 是未確認分類，那是另一種甜蛋白植物，不是莫內林。這次查無不是准用，也不是禁用。",
+        "lookupDate": "2026-11-26",
+        "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+        "officialCrosscheck": {
+          "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+          "done": true,
+          "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+          "notes": "2026-11-26 連線 consumer.fda.gov.tw 出現 SSL_ERROR_SYSCALL，沒有取得官方詳細頁。查詢助手細節時間戳 2026-11-25 06:15，siteTotals 原料 1709、添加物 804。上述 0 筆與 Pentadiplandra 那一列都以助手資料為準。"
+        },
+        "queries": [
+          {
+            "category": "",
+            "keyword": "sweelin",
+            "matchedName": "",
+            "note": "商品名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "monellin",
+            "matchedName": "",
+            "note": "莫內林 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Dioscoreophyllum",
+            "matchedName": "",
+            "note": "奇遇莓屬名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Pentadiplandra",
+            "matchedName": "（中文名稱空白）",
+            "note": "另一種植物，用來對開，不把 sweelin 收成這一筆。",
+            "restrictionNote": "學名 Pentadiplandra brazzeana。大分類與次分類都是未確認安全性尚不得使用之原料。這不是莫內林。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": true
+          },
+          {
+            "category": "",
+            "keyword": "sweelin",
+            "matchedName": "",
+            "note": "商品名在添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "monellin",
+            "matchedName": "",
+            "note": "莫內林在添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "甜蛋白",
+            "matchedName": "",
+            "note": "中文在添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "monellin",
+            "matchedName": "",
+            "note": "助手更新歷程（2026-11-01 至 2026-11-25）沒有 monellin 或 sweelin。資料時間戳 2026-11-25 06:15。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "history",
+            "unconfirmedSafety": false
+          }
+        ],
+        "usable": "not_found"
       }
     },
     {

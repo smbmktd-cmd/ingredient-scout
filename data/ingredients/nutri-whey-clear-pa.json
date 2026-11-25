@@ -1,0 +1,168 @@
+{
+  "id": "nutri-whey-clear-pa",
+  "example": false,
+  "names": {
+    "commonZh": "預酸化乳清分離蛋白",
+    "commonEn": "pre-acidified whey protein isolate",
+    "trade": "Nutri Whey Isolate Clear PA（FrieslandCampina Ingredients 的商品名。同站分離乳清目錄另有 Nutri Whey Isolate Clear，沒有 PA。兩個名稱都留下。）",
+    "scientific": "不適用植物學名。成分是牛乳的乳清蛋白。平台中文名是牛乳清蛋白（包括其分解物），外文名 Whey protein。另有一筆就叫乳清。"
+  },
+  "supply": {
+    "supplierName": "FrieslandCampina Ingredients",
+    "supplierCountry": "荷蘭",
+    "relationship": "unknown",
+    "taiwanPartyName": "和聚國際生醫材料有限公司（目錄有同品牌的 Nutri Whey Hydro 與 ProHeat；未見 Isolate Clear PA）",
+    "relationshipNote": "2026-11-26 以 Nutri Whey、Isolate Clear PA、Clear PA、FrieslandCampina、菲仕蘭、乳清分離蛋白，搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索，並打開和聚的蛋白分類頁、ProHeat 產品頁與關於我們頁。關於我們寫「生物科技原料的代理」，「嚴選代理原料」區塊有一張替代文字為「DMV菲仕蘭」的標誌。這是該公司頁面的呈現，不是菲仕蘭官網的經銷名單。ProHeat 頁把廠牌寫成 FrieslandCampina、蛋白質 ≥80%。分類頁沒有 Isolate Clear PA。同品牌其他規格不是這支預酸化分離乳清的代理證明。同日再以「Isolate Clear PA 台灣」複查，沒有這支規格的產品頁。查核日 2026-11-26。"
+  },
+  "tfda": {
+    "usable": "listed_food_ingredient",
+    "evidenceNotes": "Nutri Whey 與 Clear PA 是 0 筆。乳清蛋白、牛乳清蛋白與 whey protein 都命中牛乳清蛋白（id 17622），備註只寫由牛乳所製取，沒有未確認標記，也沒有寫分離、預酸化或克數。乳清另有 id 17650。添加物的 whey 與乳清蛋白是 0 筆；關鍵字「乳清」在添加物命中的是過氧化苯甲醯，範圍寫可用於乳清加工，不是乳清蛋白本身。",
+    "lookupDate": "2026-11-26",
+    "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+    "queries": [
+      {
+        "tab": "ingredient",
+        "keyword": "Nutri Whey",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名 0 筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "whey protein",
+        "category": "",
+        "resultCount": 1,
+        "matchedName": "牛乳清蛋白（包括其分解物）",
+        "restrictionNote": "id 17622。次分類為禽、畜類及其來源製取之原料。外文名 Whey protein。備註：由牛乳所製取。",
+        "unconfirmedSafety": false,
+        "note": "外文名這一筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "乳清",
+        "category": "",
+        "resultCount": 2,
+        "matchedName": "牛乳清蛋白（包括其分解物）／乳清",
+        "restrictionNote": "id 17622 同上。id 17650 中文名乳清，外文名 Whey，部位欄寫由牛乳製取，備註空白。",
+        "unconfirmedSafety": false,
+        "note": "兩筆都不是未確認分類。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "whey",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "英文在添加物 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "乳清蛋白",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "乳清蛋白在添加物 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "乳清",
+        "category": "",
+        "resultCount": 1,
+        "matchedName": "過氧化苯甲醯",
+        "restrictionNote": "id 62。類別是漂白劑。使用範圍寫本品可於乳清之加工過程中視實際需要適量使用。這不是乳清蛋白。",
+        "unconfirmedSafety": false,
+        "note": "關鍵字落在加工用劑的範圍文字。"
+      },
+      {
+        "tab": "history",
+        "keyword": "乳清",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "助手更新歷程（2026-11-01 至 2026-11-25）沒有乳清。資料時間戳 2026-11-25 06:15。"
+      }
+    ],
+    "officialCrosscheck": {
+      "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+      "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+      "done": true,
+      "notes": "2026-11-26 連線 consumer.fda.gov.tw 出現 SSL_ERROR_SYSCALL，沒有取得官方詳細頁。查詢助手細節時間戳 2026-11-25 06:15。id 17622 與 id 17650 的欄位如上。添加物 id 62 的命中是漂白劑，不是這支蛋白。"
+    }
+  },
+  "efficacy": {
+    "claimedBenefits": [
+      "Nutrition Insight 2026-11-17：Floor van der Horst 說 Nutri Whey Isolate Clear PA 是預酸化的乳清分離蛋白，給清爽的蛋白飲料用，並說有完整胺基酸、清澈、體感輕、味道中性、耐熱。Re-vibe 概念把它和半乳寡糖放在一起。",
+      "FrieslandCampina Ingredients 2026-10-26 新聞稿：同樣寫預酸化、清澈、味道中性與耐熱，並寫 Re-vibe 入圍 Fi Europe Health Innovation Award。攤位是 31G38。",
+      "同站分離乳清目錄有一筆叫 Nutri Whey Isolate Clear、沒有 PA，寫蛋白質 92.5%（乾基，N×6.38）、乳糖 0.8%。新聞稿沒有把這個百分比寫到帶 PA 的新品上，兩筆名稱不要併成同一規格。"
+    ],
+    "suggestedDosage": "這次打開的新聞與 2026-10-26 新聞稿沒有寫 Isolate Clear PA 的每日克數或每份添加量。",
+    "dosageNote": "沒有這支規格的供應商建議劑量，也沒有法規毫克。同篇新聞裡的 20 g 蛋白샷、6% 優格與 35% 蛋白棒，寫的是 Nutri Whey ProHeat 或其他蛋白組合，不是 Clear PA。"
+  },
+  "patent": {
+    "status": "unknown",
+    "refs": [],
+    "note": "2026-11-26 沒有打開到標題含 Nutri Whey Isolate Clear PA 的專利頁。和聚的 ProHeat 頁把專利欄寫成「無」，那是另一個規格，不拿來當這一筆的結論。"
+  },
+  "literature": {
+    "status": "unknown",
+    "refs": [],
+    "note": "沒有找到以 Isolate Clear PA 為材料的論文。不把一般乳清蛋白文獻算成這支規格的證據。"
+  },
+  "evidenceLevels": [],
+  "images": [
+    {
+      "url": "https://www.frieslandcampinaingredients.com/wp-content/uploads/2026/10/Stand-impression.png",
+      "localPath": "",
+      "caption": "FrieslandCampina Ingredients 2026-10-26 Fi Europe 新聞稿頁的攤位示意。",
+      "source": "official_site"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Fi Europe 2026: FrieslandCampina Ingredients debuts clear whey isolate in protein soda",
+      "url": "https://www.nutritioninsight.com/news/fi-europe-2026-frieslandcampina-ingredients-clear-protein.html",
+      "publisher": "Nutrition Insight",
+      "channel": "news",
+      "accessed": "2026-11-26",
+      "whatItContributes": "2026-11-17：預酸化、清澈蛋白汽水概念，以及同場其他概念用的是 ProHeat。"
+    },
+    {
+      "title": "Fi Europe 2026: FrieslandCampina Ingredients showcases new possibilities for protein",
+      "url": "https://www.frieslandcampinaingredients.com/insight/fi-europe-2026/",
+      "publisher": "FrieslandCampina Ingredients",
+      "channel": "supplier_site",
+      "accessed": "2026-11-26",
+      "whatItContributes": "2026-10-26：攤位 31G38、預酸化分離乳清的公司說法。總部在阿默斯福特。"
+    },
+    {
+      "title": "Whey protein concentrate and isolate ingredients",
+      "url": "https://www.frieslandcampinaingredients.com/ingredient-group/whey-protein-isolates-and-concentrates/",
+      "publisher": "FrieslandCampina Ingredients",
+      "channel": "supplier_site",
+      "accessed": "2026-11-26",
+      "whatItContributes": "目錄上的 Nutri Whey Isolate Clear 寫 92.5% 蛋白。名稱沒有 PA。"
+    },
+    {
+      "title": "Nutri Whey ProHeat",
+      "url": "https://www.hg-bio.com.tw/en/products/proheat-en/",
+      "publisher": "和聚國際生醫材料",
+      "channel": "other",
+      "accessed": "2026-11-26",
+      "whatItContributes": "台灣頁販售同品牌的 ProHeat，廠牌寫 FrieslandCampina。不是 Clear PA。"
+    }
+  ],
+  "discovery": {
+    "channel": "news",
+    "scoutDate": "2026-11-26",
+    "notes": "從 Nutrition Insight 2026-11-17 的 Fi Europe 報導進入公司 2026-10-26 新聞稿、分離乳清目錄，再打開和聚的 ProHeat 頁與關於我們頁。帶 PA 的新品沒有併進沒有 PA 的 92.5% 規格，也沒有併進 ProHeat。"
+  }
+}

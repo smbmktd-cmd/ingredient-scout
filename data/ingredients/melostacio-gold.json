@@ -1,0 +1,201 @@
+{
+  "id": "melostacio-gold",
+  "example": false,
+  "names": {
+    "commonZh": "開心果仁萃取（含天然褪黑激素）",
+    "commonEn": "pistachio kernel extract (natural melatonin)",
+    "trade": "Melostacio Gold（Botanic Healthcare 的商品名。官網產品頁寫 Melostacio；CPHI、公司貼文與試驗寫 Melostacio Gold 或 Melostacio-GOLD。兩種寫法都留下。）",
+    "scientific": "Pistacia vera（果仁。試驗寫 P. vera 萃取。印度申請 202441042534 寫從種仁萃取褪黑激素與單寧。不是葉。）"
+  },
+  "supply": {
+    "supplierName": "Botanic Healthcare",
+    "supplierCountry": "印度",
+    "relationship": "unknown",
+    "taiwanPartyName": "待確認",
+    "relationshipNote": "2026-11-26 以 Melostacio、Melostacio Gold、Melostacio-GOLD、Botanic Healthcare、開心果萃取、pistachio extract、Pistacia vera，搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索。打開韋鎮實業的商品分類頁，上面有 Cornfit，沒有 Melostacio。展昭 2026 攤位網址打開後被導回名錄首頁；公司 LinkedIn 貼文寫 Fi Europe 攤位 41G72 展出 Melostacio-GOLD，那是原廠自己的貼文，不是台灣代理頁。西班牙 Baïa Food 成品標示使用 Melostacio，店頁配送寫歐洲、英國與美國，不是台灣代理。攤位全文沒核完，不寫查無。同日再以「Melostacio 台灣」複查，沒有台灣公司的產品頁。查核日 2026-11-26。"
+  },
+  "tfda": {
+    "usable": "not_found",
+    "evidenceNotes": "Melostacio、Pistacia、開心果、pistachio 與阿月渾子在原料和添加物都是 0 筆。平台沒有這筆，不是准用，也不是禁用。這次的關鍵字沒有對到另一個已列名的果仁。",
+    "lookupDate": "2026-11-26",
+    "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+    "queries": [
+      {
+        "tab": "ingredient",
+        "keyword": "Melostacio",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名 0 筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Pistacia",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "學名 0 筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "開心果",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "中文俗名 0 筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "阿月渾子",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "別名 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "Pistacia",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "學名在添加物 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "開心果",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "中文在添加物 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "Melostacio",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名在添加物 0 筆。"
+      },
+      {
+        "tab": "history",
+        "keyword": "Pistacia",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "助手更新歷程（2026-11-01 至 2026-11-25）沒有 Pistacia 或開心果。資料時間戳 2026-11-25 06:15。"
+      }
+    ],
+    "officialCrosscheck": {
+      "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+      "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+      "done": true,
+      "notes": "2026-11-26 連線 consumer.fda.gov.tw 出現 SSL_ERROR_SYSCALL，沒有取得官方詳細頁。查詢助手細節時間戳 2026-11-25 06:15，上述關鍵字在原料與添加物都是 0 筆。"
+    }
+  },
+  "efficacy": {
+    "claimedBenefits": [
+      "Botanic 產品頁：Melostacio 來自 Pistacia vera 果仁，寫標準化天然褪黑激素，並寫有助睡眠。同頁寫 in-vivo 會縮短入睡時間、延長睡眠，但沒有寫動物種類或劑量。",
+      "CPHI 產品頁：Melostacio-GOLD 是開心果萃取，寫含天然褪黑激素與單寧，並寫 patented、clinically validated。",
+      "Pharmacognosy Research（DOI 10.5530/pres.20260043）：40 名成人、兩組，Melostacio Gold 每日 100 mg、28 天。雅典失眠量表在研究組從 16.95±1.96 降到 11.80±1.54；第 4 次訪視對安慰劑是 11.80±1.54 對 13.80±2.09（p<0.0014）。登記號 CTRI/2025/02/079862。作者單位是 Botanic Healthcare。",
+      "西班牙 Farmacias VIVO 的 Baïa Food 成品成分表寫開心果種子萃取（Pistacia vera L.，種子）、3% 植物褪黑激素、括號 Melostacio。這是成品標示，不是原料的每日劑量，也不是台灣通路。"
+    ],
+    "suggestedDosage": "試驗是每日 100 mg 一粒，最好晚餐後，共 28 天。產品頁與 CPHI 沒有寫毫克。",
+    "dosageNote": "100 mg 是這篇試驗的用量，不是產品頁印的每日食用量，也不是平台限量。平台沒有這一筆。"
+  },
+  "patent": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "印度申請 202441042534 Method For Extracting Melatonin And Tannins From Pistacia Vera",
+        "url": "https://www.quickcompany.in/patents/202441042534-1f32",
+        "note": "申請人 BOTANIC HEALTHCARE PVT. LTD.。該頁寫申請日 2024-05-31，狀態 Application Awaiting Examination，公開號 39/2025。請求項寫從開心果種仁萃取褪黑激素與單寧，其中一項把膏體寫成褪黑激素 3%、單寧 10%。這是申請請求項，不是商品規格。讀取日 2026-11-26。"
+      }
+    ],
+    "note": "CPHI 與公司 Fi Europe 貼文寫 patented。上面這份申請紀錄的狀態是等待審查，不是核准證書。兩種說法都留下。"
+  },
+  "literature": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "A Clinical Evaluation of the Safety and Efficacy of Melostacio Gold (Pistachio Extract)",
+        "url": "https://www.phcog.net/journals/pr/18/1/97",
+        "note": "Pharmacognosy Research，18(1):97–104。DOI 10.5530/pres.20260043。40 人、100 mg、28 天。CTRI/2025/02/079862。"
+      }
+    ],
+    "note": "這篇是人體隨機對照。產品頁的 in-vivo 沒有寫物種，不另標成動物試驗。"
+  },
+  "evidenceLevels": [
+    "clinical"
+  ],
+  "images": [
+    {
+      "url": "https://www.botanichealthcare.net/default/assets/img/botanic/melostacio.jpeg",
+      "localPath": "",
+      "caption": "Botanic Healthcare 官網 Melostacio 頁上的圖片。",
+      "source": "official_site"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Botanic Healthcare：Eight days to Fi Europe 2026",
+      "url": "https://www.linkedin.com/posts/botanichealthcare_41g72-fieurope2026-botanichealthcare-activity-7525490269014609920-UUAk",
+      "publisher": "Botanic Healthcare（LinkedIn）",
+      "channel": "exhibition",
+      "accessed": "2026-11-26",
+      "whatItContributes": "公司貼文：2026-11-17 至 19 日法蘭克福 Fi Europe，攤位 41G72，展出 Melostacio-GOLD。這是原廠自己的貼文。"
+    },
+    {
+      "title": "Melostacio",
+      "url": "https://www.botanichealthcare.net/melostacio/",
+      "publisher": "Botanic Healthcare",
+      "channel": "supplier_site",
+      "accessed": "2026-11-26",
+      "whatItContributes": "學名、果仁、天然褪黑激素。頁首地址在海德拉巴。沒有毫克。"
+    },
+    {
+      "title": "Melostacio Gold on CPHI Online",
+      "url": "https://www.cphi-online.com/product/melostacio-gold/",
+      "publisher": "CPHI Online",
+      "channel": "supplier_site",
+      "accessed": "2026-11-26",
+      "whatItContributes": "Gold 這個寫法、褪黑激素與單寧，以及 patented 的公司說法。"
+    },
+    {
+      "title": "Pharmacognosy Research 18(1):97",
+      "url": "https://www.phcog.net/journals/pr/18/1/97",
+      "publisher": "Pharmacognosy Research",
+      "channel": "paper",
+      "accessed": "2026-11-26",
+      "whatItContributes": "100 mg、28 天、40 人，以及雅典失眠量表的數字。"
+    },
+    {
+      "title": "Baia Food Prebiotic Dreamer",
+      "url": "https://farmaciasvivo.com/baia-food-prebiotic-dreamer-533938",
+      "publisher": "Farmacias VIVO（西班牙）",
+      "channel": "other",
+      "accessed": "2026-11-26",
+      "whatItContributes": "成品成分表寫開心果種子萃取、3% 植物褪黑激素、Melostacio。藥局在馬德里。不是台灣代理。"
+    }
+  ],
+  "discovery": {
+    "channel": "exhibition",
+    "scoutDate": "2026-11-26",
+    "notes": "從 Botanic 的 Fi Europe 攤位貼文進入官網、CPHI、Pharmacognosy Research 與印度申請 202441042534。韋鎮分類頁沒有這個商品名。展昭攤位頁這次沒打開，不把搜尋摘要寫成代理。"
+  }
+}

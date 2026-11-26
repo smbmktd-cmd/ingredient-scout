@@ -1,0 +1,174 @@
+{
+  "id": "collavant-n2",
+  "example": false,
+  "names": {
+    "commonZh": "未變性二型膠原蛋白（雞胸骨軟骨）",
+    "commonEn": "native (undenatured) type II collagen",
+    "trade": "Collavant n2（Bioiberica 的未變性二型膠原蛋白商品名；頁上亦寫 Collavant® n2）",
+    "scientific": "不適用植物學名。Bioiberica 產品頁寫來源是雞胸骨，在歐洲製造。日本龍泉堂頁寫雞胸骨軟骨，並寫未變性二型膠原蛋白至少 6%。不是已收錄的水解膠原蛋白胜肽（Naticol、Nextida GC）。"
+  },
+  "supply": {
+    "supplierName": "Bioiberica",
+    "supplierCountry": "西班牙",
+    "relationship": "taiwan_agent",
+    "taiwanPartyName": "創百股份有限公司（參展介紹自述代理；不是原廠頁，也不是獨家）",
+    "relationshipNote": "2026-11-27 以 Collavant、Collavant n2、Bioiberica、未變性二型膠原蛋白、native type II collagen、雞胸骨，搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索，並打開創百在展昭 2027 美容保養生技展的參展介紹、Bioiberica 產品頁與日本龍泉堂頁。參展介紹寫「代理國際品牌原料」，名單點名 Collavant n2。這是創百自述，Bioiberica 產品頁沒有台灣夥伴，不升成獨家。登盛原料總覽有「非變性II型膠原蛋白」（英文 Native Chicken Collagen Type II），同一頁另有 UC-II，兩列都沒有寫 Collavant 或 Bioiberica。同化合物的目錄列不是這個商品名的代理。龍泉堂頁寫該公司是日本獨家經銷，不是台灣公司。同日再以「Collavant 台灣」複查，仍是創百這一頁。查核日 2026-11-27。"
+  },
+  "tfda": {
+    "usable": "listed_food_ingredient",
+    "evidenceNotes": "Collavant、雞軟骨、未變性與 type II 在原料和添加物都是 0 筆。膠原蛋白有兩筆：id 17624 是家禽、畜類的傳統供食用部位，id 16591 是海、水產動物，兩筆備註都空白。這一支若對得上，是家禽那一筆，不是海水產。列名沒有寫雞胸骨、未變性結構或 40 毫克。",
+    "lookupDate": "2026-11-27",
+    "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+    "queries": [
+      {
+        "tab": "ingredient",
+        "keyword": "Collavant",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名 0 筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "膠原蛋白",
+        "category": "",
+        "resultCount": 2,
+        "matchedName": "膠原蛋白",
+        "restrictionNote": "id 17624。大分類可供食品使用之原料。次分類為禽、畜類及其來源製取之原料。部位：由家禽、畜類之傳統供食用部位製取。備註空白。另一筆 id 16591 是海、水產動物的傳統供食用部位，不是雞。",
+        "unconfirmedSafety": false,
+        "note": "兩筆都沒有未確認標記。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "雞軟骨",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "部位用詞 0 筆。未變性也是 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "膠原蛋白",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "中文在添加物 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "collagen",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "英文在添加物 0 筆。"
+      },
+      {
+        "tab": "history",
+        "keyword": "膠原蛋白",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "助手更新歷程（2026-11-01 至 2026-11-26）沒有膠原蛋白或 Collavant。資料時間戳 2026-11-26 06:15。"
+      }
+    ],
+    "officialCrosscheck": {
+      "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+      "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+      "done": true,
+      "notes": "2026-11-27 連線 consumer.fda.gov.tw 的 id 17624 詳細頁出現 SSL_ERROR_SYSCALL，沒有取得官方詳細頁。查詢助手細節時間戳 2026-11-26 06:15，siteTotals 原料 1709、添加物 804。id 17624 的部位句以助手資料為準。"
+    }
+  },
+  "efficacy": {
+    "claimedBenefits": [
+      "Bioiberica 產品頁：Collavant n2 是雞胸骨來源的未變性二型膠原蛋白，寫每日 40 mg，並寫以口服耐受（oral tolerance）維持關節。這是公司說法。頁上引用的三篇文獻這次沒有逐篇打開。",
+      "Nutrition Journal 這篇隨機雙盲試驗（NCT05282992）：74 名活動後關節不適的健康成人，每日 40 mg 或安慰劑，180 天。摘要寫兩組的 KOOS 在第 180 天都有改善；疼痛、症狀與生活品質的較早改善出現在膠原組。較輕症狀的子群在第 180 天的疼痛與生活品質，組間有差異。材料由 Bioiberica 提供。",
+      "日本龍泉堂頁寫未變性二型膠原蛋白至少 6%，40 mg 對到至少 2.4 mg。Bioiberica 這次打開的產品頁沒有寫 6%。兩處都留下。"
+    ],
+    "suggestedDosage": "Bioiberica 產品頁、Fi Europe 展前記者稿與上述試驗都寫每日 40 mg。試驗寫空腹、早餐前 30 分鐘一粒。",
+    "dosageNote": "40 mg 是供應商建議，也是這篇試驗的每日劑量，不是平台上的法規上限。平台的膠原蛋白列名沒有毫克。6% 與 2.4 mg 只出現在龍泉堂頁。"
+  },
+  "patent": {
+    "status": "unknown",
+    "refs": [],
+    "note": "2026-11-27 以 Collavant、Bioiberica undenatured type II collagen 查專利。US11793217B1 的權利人是 Lonza Greenwood，不是 Bioiberica。US7763594B2 是 Bioiberica 的玻尿酸與硫酸皮膚素組成物，請求項不是未變性二型膠原蛋白。公司材料寫有數十件專利，沒有在這次打開的頁面列出 Collavant 的號碼。沒有對到號碼，不寫成無。"
+  },
+  "literature": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "Efficacy and tolerability of native (undenatured) type II collagen supplementation for joint health in healthy volunteers",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13077837/",
+        "note": "Nutrition Journal。74 人、每日 40 mg、180 天。NCT05282992。材料寫 Collavant n2，由 Bioiberica SAU 提供。摘要沒有寫達到全部主要終點都優於安慰劑。"
+      }
+    ],
+    "note": "這篇是人體隨機雙盲試驗。Bioiberica 員工 2023 年的 Nutrients 綜述（PMID 36986062）是敘述回顧，不是這一支的新試驗，沒有併進證據等級。"
+  },
+  "evidenceLevels": [
+    "clinical"
+  ],
+  "images": [
+    {
+      "url": "https://www.bioiberica.com/sites/default/files/styles/open_graph_image/public/content/image/2025/06/03/1/Collavant%20n2%20hero%20picture%20HR%20%281%29%20copia_1.jpg",
+      "localPath": "",
+      "caption": "Bioiberica 官網 Collavant n2 頁的主圖。",
+      "source": "official_site"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Bioiberica makes Fi Europe debut",
+      "url": "https://nutraceuticalbusinessreview.com/bioiberica-makes-fi-europe-debut-by-showcasing-science",
+      "publisher": "Nutraceutical Business Review",
+      "channel": "exhibition",
+      "accessed": "2026-11-27",
+      "whatItContributes": "Fi Europe 2026 攤位 51C69，Collavant n2 寫 40 mg／日，並與 Mobilee、Dermial、DAOgest 並列。DAOgest 已另日收錄，不是這一筆。"
+    },
+    {
+      "title": "Collavant n2",
+      "url": "https://www.bioiberica.com/en/products/human-health/collavant-n2",
+      "publisher": "Bioiberica",
+      "channel": "supplier_site",
+      "accessed": "2026-11-27",
+      "whatItContributes": "雞胸骨、歐洲製造、每日 40 mg，以及口服耐受的公司說法。總部在巴塞隆納。"
+    },
+    {
+      "title": "PMC13077837",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13077837/",
+      "publisher": "Nutrition Journal",
+      "channel": "paper",
+      "accessed": "2026-11-27",
+      "whatItContributes": "人數、180 天、40 mg，以及 KOOS 改善出現的時間。不是治愈結論。"
+    },
+    {
+      "title": "創百參展介紹",
+      "url": "https://www.chanchao.com.tw/healthcos/visitorExhibitorDetail.asp?comNo=218786&sno=212478",
+      "publisher": "展昭／創百股份有限公司",
+      "channel": "exhibition",
+      "accessed": "2026-11-27",
+      "whatItContributes": "參展介紹自述代理 Collavant n2。沒有寫獨家。頁尾地址是主辦單位。"
+    },
+    {
+      "title": "Collavant n2（龍泉堂）",
+      "url": "https://ryusendo.co.jp/en/raw/collavant-n2/",
+      "publisher": "龍泉堂",
+      "channel": "other",
+      "accessed": "2026-11-27",
+      "whatItContributes": "日本經銷頁的 6% 與 2.4 mg。該公司寫日本獨家，不是台灣。"
+    }
+  ],
+  "discovery": {
+    "channel": "exhibition",
+    "scoutDate": "2026-11-27",
+    "notes": "從 Nutraceutical Business Review 的 Fi Europe 2026 展前記者稿進入 Bioiberica 產品頁、PMC13077837 與創百參展介紹。水解膠原蛋白胜肽與 UC-II 沒有併進這個商品名。US11793217B1 的權利人不是 Bioiberica，沒有算成這支的專利。"
+  }
+}

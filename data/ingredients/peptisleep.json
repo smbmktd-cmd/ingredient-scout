@@ -1,0 +1,198 @@
+{
+  "id": "peptisleep",
+  "example": false,
+  "names": {
+    "commonZh": "糙米蛋白水解物（睡眠取向胜肽）",
+    "commonEn": "brown rice protein hydrolysate",
+    "trade": "PeptiSleep（Nuritas 的糙米胜肽商品名）",
+    "scientific": "Oryza sativa（糙米蛋白分離物再酵素水解。不是稻殼，也不是已收錄的蠶豆胜肽 PeptiStrong。利統頁的英文寫 Brown Rice Protein Hydrolysate。）"
+  },
+  "supply": {
+    "supplierName": "Nuritas",
+    "supplierCountry": "愛爾蘭",
+    "relationship": "taiwan_distributor",
+    "taiwanPartyName": "利統股份有限公司（原料品牌頁列出 PeptiSleep；未寫總代理或獨家）",
+    "relationshipNote": "2026-11-27 以 PeptiSleep、Nuritas、糙米睡眠胜肽、brown rice peptide、米蛋白胜肽、Oryza sativa hydrolysate，搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索，並打開利統的 Nuritas 品牌頁、公司關於頁、登盛原料總覽與德曼植物萃取頁。利統頁把 PeptiSleep 列在原料品牌下，寫「專利糙米睡眠胜肽」。關於頁把代理、經銷與自有原料寫在一起，沒有把 Nuritas 單獨寫成獨家。這是利統頁面，不是 Nuritas 官網的夥伴名單。登盛有「米蛋白」與「糙米蛋白」兩列，德曼有米蛋白 80%，兩頁都沒有 PeptiSleep 或 Nuritas。同化合物的目錄列不是這個商品名的經銷。同日再以「PeptiSleep 台灣」複查，仍是利統這一頁。查核日 2026-11-27。"
+  },
+  "tfda": {
+    "usable": "not_found",
+    "evidenceNotes": "PeptiSleep 與 rice protein 在原料和添加物都是 0 筆。米蛋白這個詞命中的是玉米蛋白。Oryza sativa 有穀芽、米糠、米糠油，以及未確認的稻殼（id 16247，部位稻殼）。稻殼不是糙米蛋白水解物，沒有把這一筆收成未確認。這次查無不是准用。",
+    "lookupDate": "2026-11-27",
+    "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+    "queries": [
+      {
+        "tab": "ingredient",
+        "keyword": "PeptiSleep",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名 0 筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "米蛋白",
+        "category": "",
+        "resultCount": 1,
+        "matchedName": "玉米蛋白",
+        "restrictionNote": "id 17355。學名 Zea mays L.。這是玉米蛋白，不是米。",
+        "unconfirmedSafety": false,
+        "note": "關鍵字落在「玉米蛋白」裡。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Oryza sativa",
+        "category": "",
+        "resultCount": 4,
+        "matchedName": "穀芽／米糠／米糠油／稻殼",
+        "restrictionNote": "id 16850 穀芽，部位果實，可供直接食用。id 17339 米糠。id 17340 米糠油。id 16247 稻殼，未確認安全性，部位稻殼，備註寫非傳統性食品原料。",
+        "unconfirmedSafety": true,
+        "note": "四筆裡稻殼是未確認，所以這個關鍵字標 true。PeptiSleep 不是稻殼。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "rice protein",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "英文 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "米蛋白",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "中文在添加物 0 筆。米糠蠟是另一列，不是水解物。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "rice protein",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "英文在添加物 0 筆。"
+      },
+      {
+        "tab": "history",
+        "keyword": "PeptiSleep",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "助手更新歷程（2026-11-01 至 2026-11-26）沒有 PeptiSleep 或米蛋白水解物。資料時間戳 2026-11-26 06:15。"
+      }
+    ],
+    "officialCrosscheck": {
+      "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+      "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+      "done": true,
+      "notes": "2026-11-27 連線 consumer.fda.gov.tw 出現 SSL_ERROR_SYSCALL，沒有取得官方詳細頁。查詢助手細節時間戳 2026-11-26 06:15。稻殼 id 16247 的未確認沒有併進可用結論。上述 0 筆以助手資料為準。"
+    }
+  },
+  "efficacy": {
+    "claimedBenefits": [
+      "Nuritas 產品頁：250 mg 糙米胜肽，睡前約 30 分鐘，寫有助入睡、深睡與 REM，並寫降低皮質醇。這是公司頁的句子。同頁的使用者短評不是試驗。",
+      "Sleep Medicine: X 的先導試驗（PMC13463274）：26 名自述睡眠不佳的成人，250 mg 或安慰劑，睡前 60 分鐘，56 天。摘要寫 Leeds 問卷的入睡（p = 0.050）與睡眠品質（p = 0.036）有名義上的差異，情緒總分 p = 0.050。作者寫這是單盲、探索性，沒有做多重比較校正。",
+      "Nuritas 2026-08-11 新聞把睡眠品質那一項寫成睡眠維持，並把情緒 p 值寫成 0.029。論文摘要是 0.050。兩處都留下。2025-06-30 的宣傳稿另寫心率變異 32%、深睡 17%、總睡眠多 40 分鐘，這些百分比沒有出現在論文摘要。"
+    ],
+    "suggestedDosage": "產品頁寫 250 mg，睡前約 30 分鐘。論文寫 250 mg，睡前 60 分鐘。論文另提到所屬的較大安全性研究用到每日 1000 mg，那篇尚未發表。",
+    "dosageNote": "250 mg 同時是供應商建議與這篇先導試驗的每日劑量，不是法規上限。30 分鐘與 60 分鐘不一致。1000 mg 不是這篇功效分析的劑量。"
+  },
+  "patent": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "AU2024402215A1 Sleep promoting peptides and the use thereof",
+        "url": "https://patents.google.com/patent/AU2024402215A1/en",
+        "note": "申請人 Nuritas Limited。Google Patents 標題是睡眠胜肽，優先權日 2023-12-20，公開日欄見該頁。同日家族的 WO2025133254A2 標題是 ACE 抑制胜肽，不是這一案。韓文公開 KR1020260124192A 寫胜肽來自糙米 Oryza sativa，公開日 2026-08-14，狀態是申請。標題沒有 PeptiSleep。讀取日 2026-11-27。"
+      }
+    ],
+    "note": "有 Nuritas 的睡眠胜肽申請。公開頁沒有把商品名寫進標題。利統頁寫「專利」，沒有號碼。"
+  },
+  "literature": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "Effects of PeptiSleep on sleep modification and biometrics in adults with sleep impairment",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13463274/",
+        "note": "Sleep Medicine: X。DOI 10.1016/j.sleepx.2026.100198。26 人、250 mg、56 天。細胞實驗在文中標成尚未發表，不另算成這一筆的體外證據。"
+      }
+    ],
+    "note": "這篇是人體先導試驗，不是確認性試驗。宣傳稿的 32%、17% 與 40 分鐘沒有寫進摘要。"
+  },
+  "evidenceLevels": [
+    "clinical"
+  ],
+  "images": [
+    {
+      "url": "https://www.nuritas.com/wp-content/uploads/2026/03/PeptiSleep_CMYK_White@3x.png",
+      "localPath": "",
+      "caption": "Nuritas 官網 PeptiSleep 頁的標誌圖，不是粉末照片。",
+      "source": "official_site"
+    }
+  ],
+  "sources": [
+    {
+      "title": "September NPD launchpad: Beauty, peptides, and convenient formats",
+      "url": "https://www.nutraingredients.com/Article/2026/09/28/september-npd-launchpad-beauty-peptides-and-convenient-formats/",
+      "publisher": "NutraIngredients",
+      "channel": "news",
+      "accessed": "2026-11-27",
+      "whatItContributes": "2026-09-28：英國成品 Sleep Pro 使用 250 mg PeptiSleep，並寫來源是糙米蛋白。沒有 p 值。"
+    },
+    {
+      "title": "PeptiSleep",
+      "url": "https://www.nuritas.com/products/peptisleep/",
+      "publisher": "Nuritas",
+      "channel": "supplier_site",
+      "accessed": "2026-11-27",
+      "whatItContributes": "250 mg、睡前約 30 分鐘，以及皮質醇的公司說法。"
+    },
+    {
+      "title": "PMC13463274",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13463274/",
+      "publisher": "Sleep Medicine: X",
+      "channel": "paper",
+      "accessed": "2026-11-27",
+      "whatItContributes": "26 人、250 mg、睡前 60 分鐘、56 天，以及名義上的 p 值與單盲限制。"
+    },
+    {
+      "title": "AU2024402215A1",
+      "url": "https://patents.google.com/patent/AU2024402215A1/en",
+      "publisher": "Google Patents",
+      "channel": "patent",
+      "accessed": "2026-11-27",
+      "whatItContributes": "申請人與標題。標題沒有商品名。"
+    },
+    {
+      "title": "Nuritas 原料品牌",
+      "url": "https://www.lytone.com/functional-food/1/Nuritas",
+      "publisher": "利統股份有限公司",
+      "channel": "other",
+      "accessed": "2026-11-27",
+      "whatItContributes": "台灣頁列出 PeptiSleep 專利糙米睡眠胜肽。沒有寫總代理。"
+    },
+    {
+      "title": "Nuritas 的論文新聞",
+      "url": "https://www.nuritas.com/nuritas-published-peer-reviewed-peptisleep-sleep-study-in-sleep-medicine-x/",
+      "publisher": "Nuritas",
+      "channel": "news",
+      "accessed": "2026-11-27",
+      "whatItContributes": "2026-08-11：公司把情緒 p 值寫成 0.029，與論文摘要的 0.050 不同。"
+    }
+  ],
+  "discovery": {
+    "channel": "news",
+    "scoutDate": "2026-11-27",
+    "notes": "從 NutraIngredients 2026-09-28 的新品巡禮進入 Nuritas 產品頁、PMC13463274 與 AU2024402215A1。稻殼的未確認列沒有併進水解物。登盛與德曼的米蛋白沒有寫成 PeptiSleep 的經銷。ACE 抑制胜肽那一件 WO 沒有算成這支。"
+  }
+}

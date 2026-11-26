@@ -1,0 +1,195 @@
+{
+  "id": "urex",
+  "example": false,
+  "names": {
+    "commonZh": "鼠李糖乳桿菌 GR-1 與羅伊氏乳桿菌 RC-14",
+    "commonEn": "Lacticaseibacillus rhamnosus GR-1 and Limosilactobacillus reuteri RC-14",
+    "trade": "UREX（Chr. Hansen／Novonesis 的兩株組合商品名；頁上亦寫 Urex）",
+    "scientific": "Lacticaseibacillus rhamnosus GR-1（頁上亦寫 L. rhamnosus GR-1，寄存編號 DSM 33426；舊專利寫 ATCC 55826）與 Limosilactobacillus reuteri RC-14（頁上寫 L. reuteri RC-14；US6479051 的請求項把同一 ATCC 55845 寫成 L. acidophilus RC-14）。兩處菌名不一致，都留下。不是植物乳植桿菌 299v。"
+  },
+  "supply": {
+    "supplierName": "Chr. Hansen（Novonesis 集團）",
+    "supplierCountry": "丹麥",
+    "relationship": "unknown",
+    "taiwanPartyName": "漢昇生物科技（官網販售含 GR-1 與 RC-14 的膠囊；未寫原料代理）",
+    "relationshipNote": "2026-11-27 以 UREX、Urex、GR-1、RC-14、鼠李糖乳桿菌、羅伊氏乳桿菌、Chr. Hansen、Novonesis，搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索，並打開漢昇產品頁與 Novonesis 的 UREX 頁。漢昇頁成分寫兩株的商標名，販售優芮珂絲與樂伊妥膠囊，每顆 227 mg，沒有寫原料總代理。藥局商品頁另寫負責廠商為漢昇生物科技股份有限公司，公司自己的頁標題沒有「股份有限公司」，兩種寫法都留下。這是成品販售。Novonesis 頁寫商標屬於 Chr. Hansen A/S、Novonesis 集團，沒有台灣經銷名單。yes123 的公司簡介寫想成為代理商，那是徵才頁的經營理念，不是這一支的契約。同日再以「UREX 台灣 代理」複查，仍是這些成品頁。查核日 2026-11-27。"
+  },
+  "tfda": {
+    "usable": "listed_food_ingredient",
+    "evidenceNotes": "UREX、GR-1、鼠李糖乳桿菌與羅伊氏在原料和添加物都是 0 筆。rhamnosus 命中兩筆乳酸菌（id 17507、17520），學名含 Lactobacillus rhamnosus 與 Lacticaseibacillus rhamnosus。reuteri 命中 id 17519，學名 Lactobacillus reuteri。三筆備註都是可供為食品原料或食品加工使用。菌株編號與陰道健康宣稱不在這三列。",
+    "lookupDate": "2026-11-27",
+    "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+    "queries": [
+      {
+        "tab": "ingredient",
+        "keyword": "UREX",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名 0 筆。GR-1 也是 0 筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "rhamnosus",
+        "category": "",
+        "resultCount": 2,
+        "matchedName": "乳酸菌",
+        "restrictionNote": "id 17507。學名 Lactobacillus rhamnosus, Lactobacillus casei subsp. Rhamnosus, Lacticaseibacillus rhamnosus。部位菌體。備註：可供為食品原料或食品加工使用。id 17520 學名只有 Lactobacillus rhamnosus，備註相同。",
+        "unconfirmedSafety": false,
+        "note": "兩筆都沒有未確認標記，也都沒有寫 GR-1。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "reuteri",
+        "category": "",
+        "resultCount": 1,
+        "matchedName": "乳酸菌",
+        "restrictionNote": "id 17519。學名 Lactobacillus reuteri。部位菌體。備註：可供為食品原料或食品加工使用。",
+        "unconfirmedSafety": false,
+        "note": "沒有寫 RC-14。中文「羅伊氏」是 0 筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "鼠李糖乳桿菌",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "這個中文 0 筆。菌名在學名欄的拉丁文。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "rhamnosus",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "添加物 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "reuteri",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "添加物 0 筆。"
+      },
+      {
+        "tab": "history",
+        "keyword": "rhamnosus",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "助手更新歷程（2026-11-01 至 2026-11-26）沒有 rhamnosus、reuteri 或 UREX。資料時間戳 2026-11-26 06:15。"
+      }
+    ],
+    "officialCrosscheck": {
+      "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+      "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+      "done": true,
+      "notes": "2026-11-27 連線 consumer.fda.gov.tw 的 id 17507 詳細頁出現 SSL_ERROR_SYSCALL，沒有取得官方詳細頁。查詢助手細節時間戳 2026-11-26 06:15。三筆乳酸菌的備註以助手資料為準。"
+    }
+  },
+  "efficacy": {
+    "claimedBenefits": [
+      "Novonesis 的 UREX 頁：兩株組合，寫 GR-1 於 1980 年自分離、RC-14 於 1985 年自分離，並寫有助於偶發的泌尿不適、陰道菌相與酵母。這是供應商對試驗的整理，頁上沒有 CFU。",
+      "PubMed 12628548：64 名健康女性，口服 GR-1 與當時寫成 L. fermentum RC-14 的膠囊或安慰劑，60 天。摘要寫乳桿菌組有較多陰道乳桿菌，酵母與大腸菌群較少。摘要沒有寫商品名 UREX，也沒有寫每粒 CFU。",
+      "PubMed 16697231：125 名細菌性陰道病患者，口服 metronidazole 7 天，並隨機加上每株 1×10^9 CFU、一天兩次、30 天，或安慰劑。第 30 天回診者中，抗生素加益生菌組 88% 達到該文的治愈定義，安慰劑組 40%。這是治療試驗，不是健康人的每日保養劑量。"
+    ],
+    "suggestedDosage": "Novonesis 這次打開的頁面沒有寫 CFU 或毫克。漢昇頁寫每顆膠囊 227 mg，吃法是顆數：前 5 晚 2 顆，其後 30 晚 1 顆，之後每 3 天 1 顆。16697231 的試驗是每株 1×10^9 CFU、一天兩次。",
+    "dosageNote": "227 mg 是台灣成品頁的膠囊重，不是活菌數。1×10^9 是那篇細菌性陰道病試驗的每株劑量，同時使用抗生素，不是供應商頁上的每日建議，也不是平台上限。"
+  },
+  "patent": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "US6479051B1 Oral administration of lactobacillus for the treatment and prevention of urogenital infection",
+        "url": "https://patents.google.com/patent/US6479051B1/en",
+        "note": "受讓人 Urex Biotex, Inc.。請求項含 L. rhamnosus GR-1（ATCC 55826），並把 ATCC 55845 寫成 L. acidophilus RC-14。現行供應商頁把 RC-14 寫成 L. reuteri。標題沒有 UREX。讀取日 2026-11-27。"
+      }
+    ],
+    "note": "有涵蓋這兩株寄存號的舊專利。商品名沒有出現在標題。Novonesis 頁沒有列出專利號。"
+  },
+  "literature": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "Oral use of Lactobacillus rhamnosus GR-1 and L. fermentum RC-14 significantly alters vaginal flora",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/12628548/",
+        "note": "FEMS Immunology & Medical Microbiology。64 名健康女性、口服 60 天。RC-14 在篇名仍寫 L. fermentum。PMID 12628548。"
+      },
+      {
+        "title": "Augmentation of antimicrobial metronidazole therapy of bacterial vaginosis with oral probiotic Lactobacillus rhamnosus GR-1 and Lactobacillus reuteri RC-14",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/16697231/",
+        "note": "Microbes and Infection。每株 1×10^9、一天兩次、30 天，並用 metronidazole。PMID 16697231。"
+      }
+    ],
+    "note": "兩篇都是人體試驗。一篇的對象是健康女性，一篇是細菌性陰道病並併用抗生素。摘要都沒有寫商品名 UREX。"
+  },
+  "evidenceLevels": [
+    "clinical"
+  ],
+  "images": [
+    {
+      "url": "https://www.novonesis.com/_next/static/media/tall-box.7c29c117.png",
+      "localPath": "",
+      "caption": "Novonesis 的 UREX 頁示意盒圖。頁面寫包裝僅供示意，不一定是實際包裝。",
+      "source": "official_site"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Fall Launch Pad: Muscle, metabolic health and functional energy",
+      "url": "https://www.nutraingredients.com/Article/2026/10/26/fall-launch-pad-muscle-metabolic-health-and-functional-energy/",
+      "publisher": "NutraIngredients",
+      "channel": "news",
+      "accessed": "2026-11-27",
+      "whatItContributes": "2026-10-26：Medicine Mama 的 VMAGIC 使用 UREX，菌株寫 Lactobacillus rhamnosus GR-1 與 Lactobacillus reuteri RC-14。沒有 CFU。"
+    },
+    {
+      "title": "UREX",
+      "url": "https://www.chr-hansen.com/en/human-health-and-probiotics/our-probiotic-strains/urex",
+      "publisher": "Chr. Hansen／Novonesis",
+      "channel": "supplier_site",
+      "accessed": "2026-11-27",
+      "whatItContributes": "兩株、DSM 33426、商標屬於 Chr. Hansen A/S 與 Novonesis 集團。沒有 CFU，也沒有台灣名單。"
+    },
+    {
+      "title": "PubMed 16697231",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16697231/",
+      "publisher": "PubMed",
+      "channel": "paper",
+      "accessed": "2026-11-27",
+      "whatItContributes": "每株 1×10^9、一天兩次，以及與 metronidazole 併用的治愈比例。"
+    },
+    {
+      "title": "US6479051B1",
+      "url": "https://patents.google.com/patent/US6479051B1/en",
+      "publisher": "Google Patents",
+      "channel": "patent",
+      "accessed": "2026-11-27",
+      "whatItContributes": "ATCC 55826 與 ATCC 55845。請求項的 RC-14 菌名與現行頁不同。"
+    },
+    {
+      "title": "漢昇的 GR-1／RC-14 膠囊",
+      "url": "https://www.trifactorbiotech.com/product/gr1rc14/",
+      "publisher": "漢昇生物科技",
+      "channel": "other",
+      "accessed": "2026-11-27",
+      "whatItContributes": "台灣成品頁：兩株商標名、每顆 227 mg、顆數吃法。沒有寫原料代理。"
+    }
+  ],
+  "discovery": {
+    "channel": "news",
+    "scoutDate": "2026-11-27",
+    "notes": "從 NutraIngredients 2026-10-26 的秋季新品巡禮進入 Novonesis 的 UREX 頁、PMID 16697231 與漢昇產品頁。US6479051 的菌名寫法與現行頁不同，兩處都留下。成品負責廠商沒有升成原料總代理。"
+  }
+}

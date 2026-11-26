@@ -1,0 +1,168 @@
+{
+  "id": "xia-protein",
+  "example": false,
+  "names": {
+    "commonZh": "奇亞籽蛋白粉（去脂微磨）",
+    "commonEn": "defatted chia protein concentrate",
+    "trade": "XIA Protein（Benexia 的奇亞蛋白商品名；技術頁亦寫 chia protein concentrate，粒徑小於 125 μm）",
+    "scientific": "Salvia hispanica L.（種子做成的去脂蛋白濃縮粉。不是已收錄的藥用鼠尾草 Salvia officinalis，也不是同頁纖維規格 XIA Fiber／Xia Powder 435。）"
+  },
+  "supply": {
+    "supplierName": "Benexia",
+    "supplierCountry": "智利",
+    "relationship": "unknown",
+    "taiwanPartyName": "待確認",
+    "relationshipNote": "2026-11-27 以 XIA Protein、Xia Seed Protein、Benexia、奇亞蛋白、奇亞籽蛋白、Salvia hispanica，搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索，並打開 Benexia 聯絡頁的經銷名單、產品頁、新樂康首頁與登盛原料總覽。經銷名單的亞洲是印度 Scope 與東南亞的 DPO，沒有台灣；頁寫名單以外的市場由智利總部接洽。新樂康首頁與登盛總覽沒有 Benexia 或 XIA Protein。肯寶、金德恩、祥榮是奇亞籽成品，不是這支蛋白粉。Sheer Superfood 的奇亞籽蛋白頁寫供應地在中國陝西西安，沒有寫 Benexia。展昭搜尋結果曾出現 BIOTRUE CO., LTD. 展出 Benexia Xia Powder 435，特性寫 56% 膳食纖維，那是纖維規格；稍後直接開啟同一網址只剩空白，沒有核到公司中文登記名，也不把纖維粉升成 XIA Protein 的代理。缺的是打得開的 BIOTRUE 產品頁。同日再以「XIA Protein 台灣」複查，仍沒有蛋白規格的產品頁。查核日 2026-11-27。"
+  },
+  "tfda": {
+    "usable": "listed_food_ingredient",
+    "evidenceNotes": "XIA Protein、奇亞與奇亞籽在原料和添加物都是 0 筆。鼠尾草種子（id 17044）學名 Salvia hispanica L.、部位種子，次分類可供直接食用，備註要求標示對花生等核果過敏者應小心食用。另一筆鼠尾草（id 17007）是 Salvia columbariae。去脂蛋白粉沒有單獨列名，種子列名不是 43% 蛋白規格的許可。",
+    "lookupDate": "2026-11-27",
+    "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+    "queries": [
+      {
+        "tab": "ingredient",
+        "keyword": "XIA Protein",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名 0 筆。單獨的 XIA 會命中酵母菌與念珠藤，不是這個字串。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "奇亞籽",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "奇亞、奇亞籽都是 0 筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Salvia hispanica",
+        "category": "",
+        "resultCount": 1,
+        "matchedName": "鼠尾草種子",
+        "restrictionNote": "id 17044。大分類可供食品使用之原料。次分類為草、木本植物類(2)可供直接食用。外文名 chia seed。學名 Salvia hispanica L.。部位種子。備註：應標示「對花生等核果過敏者應小心食用」。",
+        "unconfirmedSafety": false,
+        "note": "外文 chia seed 命中同一筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "鼠尾草",
+        "category": "",
+        "resultCount": 9,
+        "matchedName": "鼠尾草種子等",
+        "restrictionNote": "id 17044 是本筆。id 17007 是 Salvia columbariae 的種子，中文也寫鼠尾草。id 16799 是 Salvia officinalis 全草。另有白鼠尾草、墨西哥鼠尾草、日本紫花鼠尾草、西班牙鼠尾草在未確認分類。",
+        "unconfirmedSafety": true,
+        "note": "這個關鍵字裡有未確認的其他鼠尾草，所以標 true。XIA Protein 對的是 id 17044，不是那些未確認列。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "奇亞",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "中文在添加物 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "chia",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "英文在添加物 0 筆。"
+      },
+      {
+        "tab": "history",
+        "keyword": "鼠尾草種子",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "助手更新歷程（2026-11-01 至 2026-11-26）沒有鼠尾草種子或 XIA Protein。資料時間戳 2026-11-26 06:15。"
+      }
+    ],
+    "officialCrosscheck": {
+      "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+      "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+      "done": true,
+      "notes": "2026-11-27 連線 consumer.fda.gov.tw 的 id 17044 詳細頁出現 SSL_ERROR_SYSCALL，沒有取得官方詳細頁。查詢助手細節時間戳 2026-11-26 06:15。警語以助手裡 id 17044 的備註為準。"
+    }
+  },
+  "efficacy": {
+    "claimedBenefits": [
+      "Benexia 產品頁：XIA Protein 是去脂、微磨的奇亞蛋白濃縮粉，粒徑小於 125 μm，寫蛋白 43%、膳食纖維 28%、omega-3 ALA 9%，並寫 PDCAAS 0.95、消化率 91.9%。這是規格與配方說法，不是試驗結果。",
+      "同一頁寫可作為唯一蛋白來源時，應用裡每份蛋白可到約 10 g；粉體複配約從 10% 起，約 15% 是實務上限。這是配方區間。",
+      "NutraIngredients 2026-11-17 的 Fi Europe 預告只寫 XIA Protein 提供植物蛋白，沒有寫百分比或人數。"
+    ],
+    "suggestedDosage": "產品頁沒有每日毫克。配方句是每份蛋白約 10 g，或粉體裡約 10% 到 15%。",
+    "dosageNote": "10 g 與 10%–15% 是供應商的配方說明，不是這次讀到的人體試驗劑量，也不是平台上的上限。種子列名只有過敏警語，沒有毫克。"
+  },
+  "patent": {
+    "status": "unknown",
+    "refs": [],
+    "note": "2026-11-27 以 XIA Protein、Benexia chia protein 查專利，沒有對到標題含這個商品名的公開號。歐盟對部分去脂奇亞粉的新穎食品授權不是專利。沒有查完，不寫成無。"
+  },
+  "literature": {
+    "status": "unknown",
+    "refs": [],
+    "note": "產品頁的 43%、PDCAAS 0.95 與消化率沒有附論文連結。這次沒有打開到以 XIA Protein 為材料的人體試驗，不把規格表當成臨床結果。"
+  },
+  "evidenceLevels": [],
+  "images": [
+    {
+      "url": "https://www.benexia.com/_astro/xia-protein-hero.DbfF_zeR_GzfkS.webp",
+      "localPath": "",
+      "caption": "Benexia 官網 XIA Protein 頁的主圖。",
+      "source": "official_site"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Supplement industry must-sees at Fi Europe 2026",
+      "url": "https://www.nutraingredients.com/Article/2026/11/17/supplement-industry-must-sees-at-fi-europe-2026/",
+      "publisher": "NutraIngredients",
+      "channel": "exhibition",
+      "accessed": "2026-11-27",
+      "whatItContributes": "2026-11-17：Benexia 攤位 31L46，展出 XIA Fiber、XIA Protein、XIA Oil 與 ALA Powder 40。沒有百分比。"
+    },
+    {
+      "title": "XIA Protein",
+      "url": "https://www.benexia.com/en/ingredients/xia-protein/",
+      "publisher": "Benexia",
+      "channel": "supplier_site",
+      "accessed": "2026-11-27",
+      "whatItContributes": "去脂微磨、小於 125 μm、43% 蛋白、28% 纖維、9% ALA、PDCAAS 0.95，以及 10 g／10%–15% 的配方句。"
+    },
+    {
+      "title": "Benexia 聯絡頁的經銷名單",
+      "url": "https://www.benexia.com/en/contact/",
+      "publisher": "Benexia",
+      "channel": "supplier_site",
+      "accessed": "2026-11-27",
+      "whatItContributes": "亞洲名單是印度與東南亞，沒有台灣。總部在聖地牙哥 Vitacura。"
+    },
+    {
+      "title": "PEKTOS 的 Benexia 奇亞蛋白頁",
+      "url": "https://www.pektos.ch/products-services/benexia-natural-xia-fiber-and-protein/",
+      "publisher": "PEKTOS",
+      "channel": "other",
+      "accessed": "2026-11-27",
+      "whatItContributes": "瑞士與奧地利的區域經銷，品項寫 Xia Seed Protein 125 W LM。不是台灣公司。"
+    }
+  ],
+  "discovery": {
+    "channel": "exhibition",
+    "scoutDate": "2026-11-27",
+    "notes": "從 NutraIngredients 2026-11-17 的 Fi Europe 預告進入 Benexia 產品頁與經銷名單。XIA Fiber（435、56% 纖維）與整粒奇亞籽沒有併進這一支蛋白粉。展昭上 BIOTRUE 的纖維粉頁稍後打不開，台灣關聯維持待確認。"
+  }
+}

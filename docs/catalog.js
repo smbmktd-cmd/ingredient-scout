@@ -7,6 +7,937 @@ window.INGREDIENT_CATALOG = {
         "exhibition",
         "industry_report"
       ],
+      "date": "2026-11-27",
+      "example": false,
+      "notes": "正式五筆。主管道：PeptiSleep、UREX 為新聞；Collavant n2、XIA Protein 為展覽；BioVivo 西洋參萃取為產業報導。未收未確認安全性項目：槐樹花與果實（Quercefit 的來源，Sophora japonica，id 16519）、鋸棕櫚果實（VeriPalmetto，Serenoa repens，id 16336）、總序天冬（Fenavari 含的 Asparagus racemosus，id 16069）。水解膠原蛋白胜肽不是未變性二型膠原。Salvia officinalis 不是奇亞籽。稻殼不是糙米蛋白水解物。人參的果實、莖、籽不是西洋參根。",
+      "picks": [
+        {
+          "discovery": {
+            "channel": "news",
+            "notes": "從 NutraIngredients 2026-09-28 的新品巡禮進入 Nuritas 產品頁、PMC13463274 與 AU2024402215A1。稻殼的未確認列沒有併進水解物。登盛與德曼的米蛋白沒有寫成 PeptiSleep 的經銷。ACE 抑制胜肽那一件 WO 沒有算成這支。",
+            "scoutDate": "2026-11-27"
+          },
+          "efficacy": {
+            "claimedBenefits": [
+              "Nuritas 產品頁：250 mg 糙米胜肽，睡前約 30 分鐘，寫有助入睡、深睡與 REM，並寫降低皮質醇。這是公司頁的句子。同頁的使用者短評不是試驗。",
+              "Sleep Medicine: X 的先導試驗（PMC13463274）：26 名自述睡眠不佳的成人，250 mg 或安慰劑，睡前 60 分鐘，56 天。摘要寫 Leeds 問卷的入睡（p = 0.050）與睡眠品質（p = 0.036）有名義上的差異，情緒總分 p = 0.050。作者寫這是單盲、探索性，沒有做多重比較校正。",
+              "Nuritas 2026-08-11 新聞把睡眠品質那一項寫成睡眠維持，並把情緒 p 值寫成 0.029。論文摘要是 0.050。兩處都留下。2025-06-30 的宣傳稿另寫心率變異 32%、深睡 17%、總睡眠多 40 分鐘，這些百分比沒有出現在論文摘要。"
+            ],
+            "dosageNote": "250 mg 同時是供應商建議與這篇先導試驗的每日劑量，不是法規上限。30 分鐘與 60 分鐘不一致。1000 mg 不是這篇功效分析的劑量。",
+            "suggestedDosage": "產品頁寫 250 mg，睡前約 30 分鐘。論文寫 250 mg，睡前 60 分鐘。論文另提到所屬的較大安全性研究用到每日 1000 mg，那篇尚未發表。"
+          },
+          "evidenceLevels": [
+            "clinical"
+          ],
+          "example": false,
+          "id": "peptisleep",
+          "images": [
+            {
+              "caption": "Nuritas 官網 PeptiSleep 頁的標誌圖，不是粉末照片。",
+              "localPath": "",
+              "source": "official_site",
+              "url": "https://www.nuritas.com/wp-content/uploads/2026/03/PeptiSleep_CMYK_White@3x.png"
+            }
+          ],
+          "literature": {
+            "note": "這篇是人體先導試驗，不是確認性試驗。宣傳稿的 32%、17% 與 40 分鐘沒有寫進摘要。",
+            "refs": [
+              {
+                "note": "Sleep Medicine: X。DOI 10.1016/j.sleepx.2026.100198。26 人、250 mg、56 天。細胞實驗在文中標成尚未發表，不另算成這一筆的體外證據。",
+                "title": "Effects of PeptiSleep on sleep modification and biometrics in adults with sleep impairment",
+                "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13463274/"
+              }
+            ],
+            "status": "yes"
+          },
+          "names": {
+            "commonEn": "brown rice protein hydrolysate",
+            "commonZh": "糙米蛋白水解物（睡眠取向胜肽）",
+            "scientific": "Oryza sativa（糙米蛋白分離物再酵素水解。不是稻殼，也不是已收錄的蠶豆胜肽 PeptiStrong。利統頁的英文寫 Brown Rice Protein Hydrolysate。）",
+            "trade": "PeptiSleep（Nuritas 的糙米胜肽商品名）"
+          },
+          "patent": {
+            "note": "有 Nuritas 的睡眠胜肽申請。公開頁沒有把商品名寫進標題。利統頁寫「專利」，沒有號碼。",
+            "refs": [
+              {
+                "note": "申請人 Nuritas Limited。Google Patents 標題是睡眠胜肽，優先權日 2023-12-20，公開日欄見該頁。同日家族的 WO2025133254A2 標題是 ACE 抑制胜肽，不是這一案。韓文公開 KR1020260124192A 寫胜肽來自糙米 Oryza sativa，公開日 2026-08-14，狀態是申請。標題沒有 PeptiSleep。讀取日 2026-11-27。",
+                "title": "AU2024402215A1 Sleep promoting peptides and the use thereof",
+                "url": "https://patents.google.com/patent/AU2024402215A1/en"
+              }
+            ],
+            "status": "yes"
+          },
+          "sources": [
+            {
+              "accessed": "2026-11-27",
+              "channel": "news",
+              "publisher": "NutraIngredients",
+              "title": "September NPD launchpad: Beauty, peptides, and convenient formats",
+              "url": "https://www.nutraingredients.com/Article/2026/09/28/september-npd-launchpad-beauty-peptides-and-convenient-formats/",
+              "whatItContributes": "2026-09-28：英國成品 Sleep Pro 使用 250 mg PeptiSleep，並寫來源是糙米蛋白。沒有 p 值。"
+            },
+            {
+              "accessed": "2026-11-27",
+              "channel": "supplier_site",
+              "publisher": "Nuritas",
+              "title": "PeptiSleep",
+              "url": "https://www.nuritas.com/products/peptisleep/",
+              "whatItContributes": "250 mg、睡前約 30 分鐘，以及皮質醇的公司說法。"
+            },
+            {
+              "accessed": "2026-11-27",
+              "channel": "paper",
+              "publisher": "Sleep Medicine: X",
+              "title": "PMC13463274",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13463274/",
+              "whatItContributes": "26 人、250 mg、睡前 60 分鐘、56 天，以及名義上的 p 值與單盲限制。"
+            },
+            {
+              "accessed": "2026-11-27",
+              "channel": "patent",
+              "publisher": "Google Patents",
+              "title": "AU2024402215A1",
+              "url": "https://patents.google.com/patent/AU2024402215A1/en",
+              "whatItContributes": "申請人與標題。標題沒有商品名。"
+            },
+            {
+              "accessed": "2026-11-27",
+              "channel": "other",
+              "publisher": "利統股份有限公司",
+              "title": "Nuritas 原料品牌",
+              "url": "https://www.lytone.com/functional-food/1/Nuritas",
+              "whatItContributes": "台灣頁列出 PeptiSleep 專利糙米睡眠胜肽。沒有寫總代理。"
+            },
+            {
+              "accessed": "2026-11-27",
+              "channel": "news",
+              "publisher": "Nuritas",
+              "title": "Nuritas 的論文新聞",
+              "url": "https://www.nuritas.com/nuritas-published-peer-reviewed-peptisleep-sleep-study-in-sleep-medicine-x/",
+              "whatItContributes": "2026-08-11：公司把情緒 p 值寫成 0.029，與論文摘要的 0.050 不同。"
+            }
+          ],
+          "supply": {
+            "relationship": "taiwan_distributor",
+            "relationshipNote": "2026-11-27 以 PeptiSleep、Nuritas、糙米睡眠胜肽、brown rice peptide、米蛋白胜肽、Oryza sativa hydrolysate，搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索，並打開利統的 Nuritas 品牌頁、公司關於頁、登盛原料總覽與德曼植物萃取頁。利統頁把 PeptiSleep 列在原料品牌下，寫「專利糙米睡眠胜肽」。關於頁把代理、經銷與自有原料寫在一起，沒有把 Nuritas 單獨寫成獨家。這是利統頁面，不是 Nuritas 官網的夥伴名單。登盛有「米蛋白」與「糙米蛋白」兩列，德曼有米蛋白 80%，兩頁都沒有 PeptiSleep 或 Nuritas。同化合物的目錄列不是這個商品名的經銷。同日再以「PeptiSleep 台灣」複查，仍是利統這一頁。查核日 2026-11-27。",
+            "supplierCountry": "愛爾蘭",
+            "supplierName": "Nuritas",
+            "taiwanPartyName": "利統股份有限公司（原料品牌頁列出 PeptiSleep；未寫總代理或獨家）"
+          },
+          "tfda": {
+            "evidenceNotes": "PeptiSleep 與 rice protein 在原料和添加物都是 0 筆。米蛋白這個詞命中的是玉米蛋白。Oryza sativa 有穀芽、米糠、米糠油，以及未確認的稻殼（id 16247，部位稻殼）。稻殼不是糙米蛋白水解物，沒有把這一筆收成未確認。這次查無不是准用。",
+            "lookupDate": "2026-11-27",
+            "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+            "officialCrosscheck": {
+              "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+              "done": true,
+              "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+              "notes": "2026-11-27 連線 consumer.fda.gov.tw 出現 SSL_ERROR_SYSCALL，沒有取得官方詳細頁。查詢助手細節時間戳 2026-11-26 06:15。稻殼 id 16247 的未確認沒有併進可用結論。上述 0 筆以助手資料為準。"
+            },
+            "queries": [
+              {
+                "category": "",
+                "keyword": "PeptiSleep",
+                "matchedName": "",
+                "note": "商品名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "米蛋白",
+                "matchedName": "玉米蛋白",
+                "note": "關鍵字落在「玉米蛋白」裡。",
+                "restrictionNote": "id 17355。學名 Zea mays L.。這是玉米蛋白，不是米。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Oryza sativa",
+                "matchedName": "穀芽／米糠／米糠油／稻殼",
+                "note": "四筆裡稻殼是未確認，所以這個關鍵字標 true。PeptiSleep 不是稻殼。",
+                "restrictionNote": "id 16850 穀芽，部位果實，可供直接食用。id 17339 米糠。id 17340 米糠油。id 16247 稻殼，未確認安全性，部位稻殼，備註寫非傳統性食品原料。",
+                "resultCount": 4,
+                "tab": "ingredient",
+                "unconfirmedSafety": true
+              },
+              {
+                "category": "",
+                "keyword": "rice protein",
+                "matchedName": "",
+                "note": "英文 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "米蛋白",
+                "matchedName": "",
+                "note": "中文在添加物 0 筆。米糠蠟是另一列，不是水解物。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "rice protein",
+                "matchedName": "",
+                "note": "英文在添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "PeptiSleep",
+                "matchedName": "",
+                "note": "助手更新歷程（2026-11-01 至 2026-11-26）沒有 PeptiSleep 或米蛋白水解物。資料時間戳 2026-11-26 06:15。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "history",
+                "unconfirmedSafety": false
+              }
+            ],
+            "usable": "not_found"
+          }
+        },
+        {
+          "discovery": {
+            "channel": "news",
+            "notes": "從 NutraIngredients 2026-10-26 的秋季新品巡禮進入 Novonesis 的 UREX 頁、PMID 16697231 與漢昇產品頁。US6479051 的菌名寫法與現行頁不同，兩處都留下。成品負責廠商沒有升成原料總代理。",
+            "scoutDate": "2026-11-27"
+          },
+          "efficacy": {
+            "claimedBenefits": [
+              "Novonesis 的 UREX 頁：兩株組合，寫 GR-1 於 1980 年自分離、RC-14 於 1985 年自分離，並寫有助於偶發的泌尿不適、陰道菌相與酵母。這是供應商對試驗的整理，頁上沒有 CFU。",
+              "PubMed 12628548：64 名健康女性，口服 GR-1 與當時寫成 L. fermentum RC-14 的膠囊或安慰劑，60 天。摘要寫乳桿菌組有較多陰道乳桿菌，酵母與大腸菌群較少。摘要沒有寫商品名 UREX，也沒有寫每粒 CFU。",
+              "PubMed 16697231：125 名細菌性陰道病患者，口服 metronidazole 7 天，並隨機加上每株 1×10^9 CFU、一天兩次、30 天，或安慰劑。第 30 天回診者中，抗生素加益生菌組 88% 達到該文的治愈定義，安慰劑組 40%。這是治療試驗，不是健康人的每日保養劑量。"
+            ],
+            "dosageNote": "227 mg 是台灣成品頁的膠囊重，不是活菌數。1×10^9 是那篇細菌性陰道病試驗的每株劑量，同時使用抗生素，不是供應商頁上的每日建議，也不是平台上限。",
+            "suggestedDosage": "Novonesis 這次打開的頁面沒有寫 CFU 或毫克。漢昇頁寫每顆膠囊 227 mg，吃法是顆數：前 5 晚 2 顆，其後 30 晚 1 顆，之後每 3 天 1 顆。16697231 的試驗是每株 1×10^9 CFU、一天兩次。"
+          },
+          "evidenceLevels": [
+            "clinical"
+          ],
+          "example": false,
+          "id": "urex",
+          "images": [
+            {
+              "caption": "Novonesis 的 UREX 頁示意盒圖。頁面寫包裝僅供示意，不一定是實際包裝。",
+              "localPath": "",
+              "source": "official_site",
+              "url": "https://www.novonesis.com/_next/static/media/tall-box.7c29c117.png"
+            }
+          ],
+          "literature": {
+            "note": "兩篇都是人體試驗。一篇的對象是健康女性，一篇是細菌性陰道病並併用抗生素。摘要都沒有寫商品名 UREX。",
+            "refs": [
+              {
+                "note": "FEMS Immunology & Medical Microbiology。64 名健康女性、口服 60 天。RC-14 在篇名仍寫 L. fermentum。PMID 12628548。",
+                "title": "Oral use of Lactobacillus rhamnosus GR-1 and L. fermentum RC-14 significantly alters vaginal flora",
+                "url": "https://pubmed.ncbi.nlm.nih.gov/12628548/"
+              },
+              {
+                "note": "Microbes and Infection。每株 1×10^9、一天兩次、30 天，並用 metronidazole。PMID 16697231。",
+                "title": "Augmentation of antimicrobial metronidazole therapy of bacterial vaginosis with oral probiotic Lactobacillus rhamnosus GR-1 and Lactobacillus reuteri RC-14",
+                "url": "https://pubmed.ncbi.nlm.nih.gov/16697231/"
+              }
+            ],
+            "status": "yes"
+          },
+          "names": {
+            "commonEn": "Lacticaseibacillus rhamnosus GR-1 and Limosilactobacillus reuteri RC-14",
+            "commonZh": "鼠李糖乳桿菌 GR-1 與羅伊氏乳桿菌 RC-14",
+            "scientific": "Lacticaseibacillus rhamnosus GR-1（頁上亦寫 L. rhamnosus GR-1，寄存編號 DSM 33426；舊專利寫 ATCC 55826）與 Limosilactobacillus reuteri RC-14（頁上寫 L. reuteri RC-14；US6479051 的請求項把同一 ATCC 55845 寫成 L. acidophilus RC-14）。兩處菌名不一致，都留下。不是植物乳植桿菌 299v。",
+            "trade": "UREX（Chr. Hansen／Novonesis 的兩株組合商品名；頁上亦寫 Urex）"
+          },
+          "patent": {
+            "note": "有涵蓋這兩株寄存號的舊專利。商品名沒有出現在標題。Novonesis 頁沒有列出專利號。",
+            "refs": [
+              {
+                "note": "受讓人 Urex Biotex, Inc.。請求項含 L. rhamnosus GR-1（ATCC 55826），並把 ATCC 55845 寫成 L. acidophilus RC-14。現行供應商頁把 RC-14 寫成 L. reuteri。標題沒有 UREX。讀取日 2026-11-27。",
+                "title": "US6479051B1 Oral administration of lactobacillus for the treatment and prevention of urogenital infection",
+                "url": "https://patents.google.com/patent/US6479051B1/en"
+              }
+            ],
+            "status": "yes"
+          },
+          "sources": [
+            {
+              "accessed": "2026-11-27",
+              "channel": "news",
+              "publisher": "NutraIngredients",
+              "title": "Fall Launch Pad: Muscle, metabolic health and functional energy",
+              "url": "https://www.nutraingredients.com/Article/2026/10/26/fall-launch-pad-muscle-metabolic-health-and-functional-energy/",
+              "whatItContributes": "2026-10-26：Medicine Mama 的 VMAGIC 使用 UREX，菌株寫 Lactobacillus rhamnosus GR-1 與 Lactobacillus reuteri RC-14。沒有 CFU。"
+            },
+            {
+              "accessed": "2026-11-27",
+              "channel": "supplier_site",
+              "publisher": "Chr. Hansen／Novonesis",
+              "title": "UREX",
+              "url": "https://www.chr-hansen.com/en/human-health-and-probiotics/our-probiotic-strains/urex",
+              "whatItContributes": "兩株、DSM 33426、商標屬於 Chr. Hansen A/S 與 Novonesis 集團。沒有 CFU，也沒有台灣名單。"
+            },
+            {
+              "accessed": "2026-11-27",
+              "channel": "paper",
+              "publisher": "PubMed",
+              "title": "PubMed 16697231",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/16697231/",
+              "whatItContributes": "每株 1×10^9、一天兩次，以及與 metronidazole 併用的治愈比例。"
+            },
+            {
+              "accessed": "2026-11-27",
+              "channel": "patent",
+              "publisher": "Google Patents",
+              "title": "US6479051B1",
+              "url": "https://patents.google.com/patent/US6479051B1/en",
+              "whatItContributes": "ATCC 55826 與 ATCC 55845。請求項的 RC-14 菌名與現行頁不同。"
+            },
+            {
+              "accessed": "2026-11-27",
+              "channel": "other",
+              "publisher": "漢昇生物科技",
+              "title": "漢昇的 GR-1／RC-14 膠囊",
+              "url": "https://www.trifactorbiotech.com/product/gr1rc14/",
+              "whatItContributes": "台灣成品頁：兩株商標名、每顆 227 mg、顆數吃法。沒有寫原料代理。"
+            }
+          ],
+          "supply": {
+            "relationship": "unknown",
+            "relationshipNote": "2026-11-27 以 UREX、Urex、GR-1、RC-14、鼠李糖乳桿菌、羅伊氏乳桿菌、Chr. Hansen、Novonesis，搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索，並打開漢昇產品頁與 Novonesis 的 UREX 頁。漢昇頁成分寫兩株的商標名，販售優芮珂絲與樂伊妥膠囊，每顆 227 mg，沒有寫原料總代理。藥局商品頁另寫負責廠商為漢昇生物科技股份有限公司，公司自己的頁標題沒有「股份有限公司」，兩種寫法都留下。這是成品販售。Novonesis 頁寫商標屬於 Chr. Hansen A/S、Novonesis 集團，沒有台灣經銷名單。yes123 的公司簡介寫想成為代理商，那是徵才頁的經營理念，不是這一支的契約。同日再以「UREX 台灣 代理」複查，仍是這些成品頁。查核日 2026-11-27。",
+            "supplierCountry": "丹麥",
+            "supplierName": "Chr. Hansen（Novonesis 集團）",
+            "taiwanPartyName": "漢昇生物科技（官網販售含 GR-1 與 RC-14 的膠囊；未寫原料代理）"
+          },
+          "tfda": {
+            "evidenceNotes": "UREX、GR-1、鼠李糖乳桿菌與羅伊氏在原料和添加物都是 0 筆。rhamnosus 命中兩筆乳酸菌（id 17507、17520），學名含 Lactobacillus rhamnosus 與 Lacticaseibacillus rhamnosus。reuteri 命中 id 17519，學名 Lactobacillus reuteri。三筆備註都是可供為食品原料或食品加工使用。菌株編號與陰道健康宣稱不在這三列。",
+            "lookupDate": "2026-11-27",
+            "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+            "officialCrosscheck": {
+              "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+              "done": true,
+              "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+              "notes": "2026-11-27 連線 consumer.fda.gov.tw 的 id 17507 詳細頁出現 SSL_ERROR_SYSCALL，沒有取得官方詳細頁。查詢助手細節時間戳 2026-11-26 06:15。三筆乳酸菌的備註以助手資料為準。"
+            },
+            "queries": [
+              {
+                "category": "",
+                "keyword": "UREX",
+                "matchedName": "",
+                "note": "商品名 0 筆。GR-1 也是 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "rhamnosus",
+                "matchedName": "乳酸菌",
+                "note": "兩筆都沒有未確認標記，也都沒有寫 GR-1。",
+                "restrictionNote": "id 17507。學名 Lactobacillus rhamnosus, Lactobacillus casei subsp. Rhamnosus, Lacticaseibacillus rhamnosus。部位菌體。備註：可供為食品原料或食品加工使用。id 17520 學名只有 Lactobacillus rhamnosus，備註相同。",
+                "resultCount": 2,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "reuteri",
+                "matchedName": "乳酸菌",
+                "note": "沒有寫 RC-14。中文「羅伊氏」是 0 筆。",
+                "restrictionNote": "id 17519。學名 Lactobacillus reuteri。部位菌體。備註：可供為食品原料或食品加工使用。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "鼠李糖乳桿菌",
+                "matchedName": "",
+                "note": "這個中文 0 筆。菌名在學名欄的拉丁文。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "rhamnosus",
+                "matchedName": "",
+                "note": "添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "reuteri",
+                "matchedName": "",
+                "note": "添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "rhamnosus",
+                "matchedName": "",
+                "note": "助手更新歷程（2026-11-01 至 2026-11-26）沒有 rhamnosus、reuteri 或 UREX。資料時間戳 2026-11-26 06:15。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "history",
+                "unconfirmedSafety": false
+              }
+            ],
+            "usable": "listed_food_ingredient"
+          }
+        },
+        {
+          "discovery": {
+            "channel": "exhibition",
+            "notes": "從 Nutraceutical Business Review 的 Fi Europe 2026 展前記者稿進入 Bioiberica 產品頁、PMC13077837 與創百參展介紹。水解膠原蛋白胜肽與 UC-II 沒有併進這個商品名。US11793217B1 的權利人不是 Bioiberica，沒有算成這支的專利。",
+            "scoutDate": "2026-11-27"
+          },
+          "efficacy": {
+            "claimedBenefits": [
+              "Bioiberica 產品頁：Collavant n2 是雞胸骨來源的未變性二型膠原蛋白，寫每日 40 mg，並寫以口服耐受（oral tolerance）維持關節。這是公司說法。頁上引用的三篇文獻這次沒有逐篇打開。",
+              "Nutrition Journal 這篇隨機雙盲試驗（NCT05282992）：74 名活動後關節不適的健康成人，每日 40 mg 或安慰劑，180 天。摘要寫兩組的 KOOS 在第 180 天都有改善；疼痛、症狀與生活品質的較早改善出現在膠原組。較輕症狀的子群在第 180 天的疼痛與生活品質，組間有差異。材料由 Bioiberica 提供。",
+              "日本龍泉堂頁寫未變性二型膠原蛋白至少 6%，40 mg 對到至少 2.4 mg。Bioiberica 這次打開的產品頁沒有寫 6%。兩處都留下。"
+            ],
+            "dosageNote": "40 mg 是供應商建議，也是這篇試驗的每日劑量，不是平台上的法規上限。平台的膠原蛋白列名沒有毫克。6% 與 2.4 mg 只出現在龍泉堂頁。",
+            "suggestedDosage": "Bioiberica 產品頁、Fi Europe 展前記者稿與上述試驗都寫每日 40 mg。試驗寫空腹、早餐前 30 分鐘一粒。"
+          },
+          "evidenceLevels": [
+            "clinical"
+          ],
+          "example": false,
+          "id": "collavant-n2",
+          "images": [
+            {
+              "caption": "Bioiberica 官網 Collavant n2 頁的主圖。",
+              "localPath": "",
+              "source": "official_site",
+              "url": "https://www.bioiberica.com/sites/default/files/styles/open_graph_image/public/content/image/2025/06/03/1/Collavant%20n2%20hero%20picture%20HR%20%281%29%20copia_1.jpg"
+            }
+          ],
+          "literature": {
+            "note": "這篇是人體隨機雙盲試驗。Bioiberica 員工 2023 年的 Nutrients 綜述（PMID 36986062）是敘述回顧，不是這一支的新試驗，沒有併進證據等級。",
+            "refs": [
+              {
+                "note": "Nutrition Journal。74 人、每日 40 mg、180 天。NCT05282992。材料寫 Collavant n2，由 Bioiberica SAU 提供。摘要沒有寫達到全部主要終點都優於安慰劑。",
+                "title": "Efficacy and tolerability of native (undenatured) type II collagen supplementation for joint health in healthy volunteers",
+                "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13077837/"
+              }
+            ],
+            "status": "yes"
+          },
+          "names": {
+            "commonEn": "native (undenatured) type II collagen",
+            "commonZh": "未變性二型膠原蛋白（雞胸骨軟骨）",
+            "scientific": "不適用植物學名。Bioiberica 產品頁寫來源是雞胸骨，在歐洲製造。日本龍泉堂頁寫雞胸骨軟骨，並寫未變性二型膠原蛋白至少 6%。不是已收錄的水解膠原蛋白胜肽（Naticol、Nextida GC）。",
+            "trade": "Collavant n2（Bioiberica 的未變性二型膠原蛋白商品名；頁上亦寫 Collavant® n2）"
+          },
+          "patent": {
+            "note": "2026-11-27 以 Collavant、Bioiberica undenatured type II collagen 查專利。US11793217B1 的權利人是 Lonza Greenwood，不是 Bioiberica。US7763594B2 是 Bioiberica 的玻尿酸與硫酸皮膚素組成物，請求項不是未變性二型膠原蛋白。公司材料寫有數十件專利，沒有在這次打開的頁面列出 Collavant 的號碼。沒有對到號碼，不寫成無。",
+            "refs": [],
+            "status": "unknown"
+          },
+          "sources": [
+            {
+              "accessed": "2026-11-27",
+              "channel": "exhibition",
+              "publisher": "Nutraceutical Business Review",
+              "title": "Bioiberica makes Fi Europe debut",
+              "url": "https://nutraceuticalbusinessreview.com/bioiberica-makes-fi-europe-debut-by-showcasing-science",
+              "whatItContributes": "Fi Europe 2026 攤位 51C69，Collavant n2 寫 40 mg／日，並與 Mobilee、Dermial、DAOgest 並列。DAOgest 已另日收錄，不是這一筆。"
+            },
+            {
+              "accessed": "2026-11-27",
+              "channel": "supplier_site",
+              "publisher": "Bioiberica",
+              "title": "Collavant n2",
+              "url": "https://www.bioiberica.com/en/products/human-health/collavant-n2",
+              "whatItContributes": "雞胸骨、歐洲製造、每日 40 mg，以及口服耐受的公司說法。總部在巴塞隆納。"
+            },
+            {
+              "accessed": "2026-11-27",
+              "channel": "paper",
+              "publisher": "Nutrition Journal",
+              "title": "PMC13077837",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13077837/",
+              "whatItContributes": "人數、180 天、40 mg，以及 KOOS 改善出現的時間。不是治愈結論。"
+            },
+            {
+              "accessed": "2026-11-27",
+              "channel": "exhibition",
+              "publisher": "展昭／創百股份有限公司",
+              "title": "創百參展介紹",
+              "url": "https://www.chanchao.com.tw/healthcos/visitorExhibitorDetail.asp?comNo=218786&sno=212478",
+              "whatItContributes": "參展介紹自述代理 Collavant n2。沒有寫獨家。頁尾地址是主辦單位。"
+            },
+            {
+              "accessed": "2026-11-27",
+              "channel": "other",
+              "publisher": "龍泉堂",
+              "title": "Collavant n2（龍泉堂）",
+              "url": "https://ryusendo.co.jp/en/raw/collavant-n2/",
+              "whatItContributes": "日本經銷頁的 6% 與 2.4 mg。該公司寫日本獨家，不是台灣。"
+            }
+          ],
+          "supply": {
+            "relationship": "taiwan_agent",
+            "relationshipNote": "2026-11-27 以 Collavant、Collavant n2、Bioiberica、未變性二型膠原蛋白、native type II collagen、雞胸骨，搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索，並打開創百在展昭 2027 美容保養生技展的參展介紹、Bioiberica 產品頁與日本龍泉堂頁。參展介紹寫「代理國際品牌原料」，名單點名 Collavant n2。這是創百自述，Bioiberica 產品頁沒有台灣夥伴，不升成獨家。登盛原料總覽有「非變性II型膠原蛋白」（英文 Native Chicken Collagen Type II），同一頁另有 UC-II，兩列都沒有寫 Collavant 或 Bioiberica。同化合物的目錄列不是這個商品名的代理。龍泉堂頁寫該公司是日本獨家經銷，不是台灣公司。同日再以「Collavant 台灣」複查，仍是創百這一頁。查核日 2026-11-27。",
+            "supplierCountry": "西班牙",
+            "supplierName": "Bioiberica",
+            "taiwanPartyName": "創百股份有限公司（參展介紹自述代理；不是原廠頁，也不是獨家）"
+          },
+          "tfda": {
+            "evidenceNotes": "Collavant、雞軟骨、未變性與 type II 在原料和添加物都是 0 筆。膠原蛋白有兩筆：id 17624 是家禽、畜類的傳統供食用部位，id 16591 是海、水產動物，兩筆備註都空白。這一支若對得上，是家禽那一筆，不是海水產。列名沒有寫雞胸骨、未變性結構或 40 毫克。",
+            "lookupDate": "2026-11-27",
+            "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+            "officialCrosscheck": {
+              "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+              "done": true,
+              "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+              "notes": "2026-11-27 連線 consumer.fda.gov.tw 的 id 17624 詳細頁出現 SSL_ERROR_SYSCALL，沒有取得官方詳細頁。查詢助手細節時間戳 2026-11-26 06:15，siteTotals 原料 1709、添加物 804。id 17624 的部位句以助手資料為準。"
+            },
+            "queries": [
+              {
+                "category": "",
+                "keyword": "Collavant",
+                "matchedName": "",
+                "note": "商品名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "膠原蛋白",
+                "matchedName": "膠原蛋白",
+                "note": "兩筆都沒有未確認標記。",
+                "restrictionNote": "id 17624。大分類可供食品使用之原料。次分類為禽、畜類及其來源製取之原料。部位：由家禽、畜類之傳統供食用部位製取。備註空白。另一筆 id 16591 是海、水產動物的傳統供食用部位，不是雞。",
+                "resultCount": 2,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "雞軟骨",
+                "matchedName": "",
+                "note": "部位用詞 0 筆。未變性也是 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "膠原蛋白",
+                "matchedName": "",
+                "note": "中文在添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "collagen",
+                "matchedName": "",
+                "note": "英文在添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "膠原蛋白",
+                "matchedName": "",
+                "note": "助手更新歷程（2026-11-01 至 2026-11-26）沒有膠原蛋白或 Collavant。資料時間戳 2026-11-26 06:15。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "history",
+                "unconfirmedSafety": false
+              }
+            ],
+            "usable": "listed_food_ingredient"
+          }
+        },
+        {
+          "discovery": {
+            "channel": "exhibition",
+            "notes": "從 NutraIngredients 2026-11-17 的 Fi Europe 預告進入 Benexia 產品頁與經銷名單。XIA Fiber（435、56% 纖維）與整粒奇亞籽沒有併進這一支蛋白粉。展昭上 BIOTRUE 的纖維粉頁稍後打不開，台灣關聯維持待確認。",
+            "scoutDate": "2026-11-27"
+          },
+          "efficacy": {
+            "claimedBenefits": [
+              "Benexia 產品頁：XIA Protein 是去脂、微磨的奇亞蛋白濃縮粉，粒徑小於 125 μm，寫蛋白 43%、膳食纖維 28%、omega-3 ALA 9%，並寫 PDCAAS 0.95、消化率 91.9%。這是規格與配方說法，不是試驗結果。",
+              "同一頁寫可作為唯一蛋白來源時，應用裡每份蛋白可到約 10 g；粉體複配約從 10% 起，約 15% 是實務上限。這是配方區間。",
+              "NutraIngredients 2026-11-17 的 Fi Europe 預告只寫 XIA Protein 提供植物蛋白，沒有寫百分比或人數。"
+            ],
+            "dosageNote": "10 g 與 10%–15% 是供應商的配方說明，不是這次讀到的人體試驗劑量，也不是平台上的上限。種子列名只有過敏警語，沒有毫克。",
+            "suggestedDosage": "產品頁沒有每日毫克。配方句是每份蛋白約 10 g，或粉體裡約 10% 到 15%。"
+          },
+          "evidenceLevels": [],
+          "example": false,
+          "id": "xia-protein",
+          "images": [
+            {
+              "caption": "Benexia 官網 XIA Protein 頁的主圖。",
+              "localPath": "",
+              "source": "official_site",
+              "url": "https://www.benexia.com/_astro/xia-protein-hero.DbfF_zeR_GzfkS.webp"
+            }
+          ],
+          "literature": {
+            "note": "產品頁的 43%、PDCAAS 0.95 與消化率沒有附論文連結。這次沒有打開到以 XIA Protein 為材料的人體試驗，不把規格表當成臨床結果。",
+            "refs": [],
+            "status": "unknown"
+          },
+          "names": {
+            "commonEn": "defatted chia protein concentrate",
+            "commonZh": "奇亞籽蛋白粉（去脂微磨）",
+            "scientific": "Salvia hispanica L.（種子做成的去脂蛋白濃縮粉。不是已收錄的藥用鼠尾草 Salvia officinalis，也不是同頁纖維規格 XIA Fiber／Xia Powder 435。）",
+            "trade": "XIA Protein（Benexia 的奇亞蛋白商品名；技術頁亦寫 chia protein concentrate，粒徑小於 125 μm）"
+          },
+          "patent": {
+            "note": "2026-11-27 以 XIA Protein、Benexia chia protein 查專利，沒有對到標題含這個商品名的公開號。歐盟對部分去脂奇亞粉的新穎食品授權不是專利。沒有查完，不寫成無。",
+            "refs": [],
+            "status": "unknown"
+          },
+          "sources": [
+            {
+              "accessed": "2026-11-27",
+              "channel": "exhibition",
+              "publisher": "NutraIngredients",
+              "title": "Supplement industry must-sees at Fi Europe 2026",
+              "url": "https://www.nutraingredients.com/Article/2026/11/17/supplement-industry-must-sees-at-fi-europe-2026/",
+              "whatItContributes": "2026-11-17：Benexia 攤位 31L46，展出 XIA Fiber、XIA Protein、XIA Oil 與 ALA Powder 40。沒有百分比。"
+            },
+            {
+              "accessed": "2026-11-27",
+              "channel": "supplier_site",
+              "publisher": "Benexia",
+              "title": "XIA Protein",
+              "url": "https://www.benexia.com/en/ingredients/xia-protein/",
+              "whatItContributes": "去脂微磨、小於 125 μm、43% 蛋白、28% 纖維、9% ALA、PDCAAS 0.95，以及 10 g／10%–15% 的配方句。"
+            },
+            {
+              "accessed": "2026-11-27",
+              "channel": "supplier_site",
+              "publisher": "Benexia",
+              "title": "Benexia 聯絡頁的經銷名單",
+              "url": "https://www.benexia.com/en/contact/",
+              "whatItContributes": "亞洲名單是印度與東南亞，沒有台灣。總部在聖地牙哥 Vitacura。"
+            },
+            {
+              "accessed": "2026-11-27",
+              "channel": "other",
+              "publisher": "PEKTOS",
+              "title": "PEKTOS 的 Benexia 奇亞蛋白頁",
+              "url": "https://www.pektos.ch/products-services/benexia-natural-xia-fiber-and-protein/",
+              "whatItContributes": "瑞士與奧地利的區域經銷，品項寫 Xia Seed Protein 125 W LM。不是台灣公司。"
+            }
+          ],
+          "supply": {
+            "relationship": "unknown",
+            "relationshipNote": "2026-11-27 以 XIA Protein、Xia Seed Protein、Benexia、奇亞蛋白、奇亞籽蛋白、Salvia hispanica，搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索，並打開 Benexia 聯絡頁的經銷名單、產品頁、新樂康首頁與登盛原料總覽。經銷名單的亞洲是印度 Scope 與東南亞的 DPO，沒有台灣；頁寫名單以外的市場由智利總部接洽。新樂康首頁與登盛總覽沒有 Benexia 或 XIA Protein。肯寶、金德恩、祥榮是奇亞籽成品，不是這支蛋白粉。Sheer Superfood 的奇亞籽蛋白頁寫供應地在中國陝西西安，沒有寫 Benexia。展昭搜尋結果曾出現 BIOTRUE CO., LTD. 展出 Benexia Xia Powder 435，特性寫 56% 膳食纖維，那是纖維規格；稍後直接開啟同一網址只剩空白，沒有核到公司中文登記名，也不把纖維粉升成 XIA Protein 的代理。缺的是打得開的 BIOTRUE 產品頁。同日再以「XIA Protein 台灣」複查，仍沒有蛋白規格的產品頁。查核日 2026-11-27。",
+            "supplierCountry": "智利",
+            "supplierName": "Benexia",
+            "taiwanPartyName": "待確認"
+          },
+          "tfda": {
+            "evidenceNotes": "XIA Protein、奇亞與奇亞籽在原料和添加物都是 0 筆。鼠尾草種子（id 17044）學名 Salvia hispanica L.、部位種子，次分類可供直接食用，備註要求標示對花生等核果過敏者應小心食用。另一筆鼠尾草（id 17007）是 Salvia columbariae。去脂蛋白粉沒有單獨列名，種子列名不是 43% 蛋白規格的許可。",
+            "lookupDate": "2026-11-27",
+            "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+            "officialCrosscheck": {
+              "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+              "done": true,
+              "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+              "notes": "2026-11-27 連線 consumer.fda.gov.tw 的 id 17044 詳細頁出現 SSL_ERROR_SYSCALL，沒有取得官方詳細頁。查詢助手細節時間戳 2026-11-26 06:15。警語以助手裡 id 17044 的備註為準。"
+            },
+            "queries": [
+              {
+                "category": "",
+                "keyword": "XIA Protein",
+                "matchedName": "",
+                "note": "商品名 0 筆。單獨的 XIA 會命中酵母菌與念珠藤，不是這個字串。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "奇亞籽",
+                "matchedName": "",
+                "note": "奇亞、奇亞籽都是 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Salvia hispanica",
+                "matchedName": "鼠尾草種子",
+                "note": "外文 chia seed 命中同一筆。",
+                "restrictionNote": "id 17044。大分類可供食品使用之原料。次分類為草、木本植物類(2)可供直接食用。外文名 chia seed。學名 Salvia hispanica L.。部位種子。備註：應標示「對花生等核果過敏者應小心食用」。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "鼠尾草",
+                "matchedName": "鼠尾草種子等",
+                "note": "這個關鍵字裡有未確認的其他鼠尾草，所以標 true。XIA Protein 對的是 id 17044，不是那些未確認列。",
+                "restrictionNote": "id 17044 是本筆。id 17007 是 Salvia columbariae 的種子，中文也寫鼠尾草。id 16799 是 Salvia officinalis 全草。另有白鼠尾草、墨西哥鼠尾草、日本紫花鼠尾草、西班牙鼠尾草在未確認分類。",
+                "resultCount": 9,
+                "tab": "ingredient",
+                "unconfirmedSafety": true
+              },
+              {
+                "category": "",
+                "keyword": "奇亞",
+                "matchedName": "",
+                "note": "中文在添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "chia",
+                "matchedName": "",
+                "note": "英文在添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "鼠尾草種子",
+                "matchedName": "",
+                "note": "助手更新歷程（2026-11-01 至 2026-11-26）沒有鼠尾草種子或 XIA Protein。資料時間戳 2026-11-26 06:15。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "history",
+                "unconfirmedSafety": false
+              }
+            ],
+            "usable": "listed_food_ingredient"
+          }
+        },
+        {
+          "discovery": {
+            "channel": "industry_report",
+            "notes": "從 WholeFoods Magazine 2026-09-25 的原料巡禮進入 BioVivo 產品頁與 2026-10-06 日本上市稿，再對 PubMed 20676609。Cereboost 與 Givaudan 的萃取沒有併成這個原廠。人參果實、莖、籽的未確認列沒有併進根這一筆。",
+            "scoutDate": "2026-11-27"
+          },
+          "efficacy": {
+            "claimedBenefits": [
+              "WholeFoods Magazine 2026-09-25 的原料巡禮：BioVivo 的西洋參來自威斯康辛馬拉松郡的根，做成水溶性萃取，並寫人參皂苷與免疫、內分泌有關。這是供應商提供給雜誌的句子，沒有毫克或人數。",
+              "BioVivo 2026-10-06 的日本上市稿：萃取標準化為 Rb1、Re、Rg1 合計至少 7%，其中 Rb1 至少 5%；製程是五年根，水與乙醇萃取後噴霧乾燥。稿寫用於壓力、疲勞、免疫與認知，這是公司對 Rb1 的說法。",
+              "PubMed 20676609：32 名健康年輕人的交叉試驗，材料是 Cereboost（Naturex 的西洋參萃取，標準化人參皂苷約 10.65% 或 11.65%，摘要與內文兩處不一致），單次 100、200 或 400 mg。摘要寫工作記憶有改善，血糖沒有變化。這不是 BioVivo 的萃取。"
+            ],
+            "dosageNote": "100–400 mg 是另一家萃取的單次試驗劑量，不能套成 BioVivo 的建議量，也不是平台上限。平台只寫不得單一原料使用。",
+            "suggestedDosage": "BioVivo 這次打開的產品頁、WholeFoods 段落與日本上市稿都沒有寫每日毫克。Cereboost 試驗的單次劑量是 100、200 或 400 mg。"
+          },
+          "evidenceLevels": [
+            "clinical"
+          ],
+          "example": false,
+          "id": "biovivo-ginseng",
+          "images": [
+            {
+              "caption": "BioVivo Science 官網西洋參產品頁的圖片。",
+              "localPath": "",
+              "source": "official_site",
+              "url": "https://biovivoscience.com/wp-content/uploads/2025/05/american-ginseng_3NEW.png"
+            }
+          ],
+          "literature": {
+            "note": "有西洋參萃取的人體交叉試驗，材料不是 BioVivo。WholeFoods 2026-06-01 寫 BioVivo 正在做壓力、認知與安全性的生物標記研究，那是進行中的公司說法，這次沒有對到論文。",
+            "refs": [
+              {
+                "note": "Psychopharmacology，2010。32 人、Cereboost、單次 100／200／400 mg。PMID 20676609。摘要沒有寫 BioVivo。",
+                "title": "Effects of American ginseng (Panax quinquefolius) on neurocognitive function",
+                "url": "https://pubmed.ncbi.nlm.nih.gov/20676609/"
+              }
+            ],
+            "status": "yes"
+          },
+          "names": {
+            "commonEn": "American ginseng root extract",
+            "commonZh": "西洋參根萃取",
+            "scientific": "Panax quinquefolius（亦寫 Panax quinquefolium。BioVivo 寫美國栽種的根，威斯康辛為主。不是亞洲人參 Panax ginseng，也不是未確認分類裡人參的果實、莖、籽。）",
+            "trade": "無獨立商品名。BioVivo Science 以水溶性西洋參萃取供應，頁上沒有另取品牌名。"
+          },
+          "patent": {
+            "note": "2026-11-27 以 BioVivo Science、American ginseng Jeffersonville 查專利，沒有對到這家公司名下的公開號。綠茵頁寫 Givaudan 那支西洋蔘萃取有美國專利，那不是 BioVivo。沒有查完，不寫成無。",
+            "refs": [],
+            "status": "unknown"
+          },
+          "sources": [
+            {
+              "accessed": "2026-11-27",
+              "channel": "industry_report",
+              "publisher": "WholeFoods Magazine",
+              "title": "65+ Innovative and In-Demand Ingredients",
+              "url": "https://www.wholefoodsmagazine.com/articles/18138-65-innovative-and-in-demand-ingredients",
+              "whatItContributes": "2026-09-25：供應商巡禮裡的西洋參段，寫威斯康辛根與水溶性萃取。沒有毫克。"
+            },
+            {
+              "accessed": "2026-11-27",
+              "channel": "supplier_site",
+              "publisher": "BioVivo Science",
+              "title": "American Ginseng",
+              "url": "https://biovivoscience.com/ingredients/american-ginseng/",
+              "whatItContributes": "學名 Panax quinquefolius，人參皂苷 Rg1、Re、Rb1，以及水溶萃取、標準萃取、直粉三種型態。沒有毫克。"
+            },
+            {
+              "accessed": "2026-11-27",
+              "channel": "news",
+              "publisher": "BioVivo Science",
+              "title": "BioVivo 的日本上市稿",
+              "url": "https://biovivoscience.com/standardized-to-more-than-5-rb1-organically-grown-american-ginseng-makes-its-japan-market-debut/",
+              "whatItContributes": "2026-10-06：合計至少 7%（Rb1、Re、Rg1），Rb1 至少 5%，水與乙醇萃取。供應地寫越南、韓國、美國與日本，沒有台灣。"
+            },
+            {
+              "accessed": "2026-11-27",
+              "channel": "paper",
+              "publisher": "PubMed／Psychopharmacology",
+              "title": "PubMed 20676609",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/20676609/",
+              "whatItContributes": "Cereboost 的人數與單次劑量。不是 BioVivo。"
+            },
+            {
+              "accessed": "2026-11-27",
+              "channel": "other",
+              "publisher": "綠茵生技",
+              "title": "綠茵的西洋蔘萃取",
+              "url": "https://www.greenynbio.com/product/agent/",
+              "whatItContributes": "台灣目錄寫原廠 Givaudan。不是 BioVivo。"
+            },
+            {
+              "accessed": "2026-11-27",
+              "channel": "other",
+              "publisher": "登盛企業",
+              "title": "登盛原料總覽",
+              "url": "https://www.masterasia.com.tw/content.php?id=5687",
+              "whatItContributes": "有一列西洋參萃取物，沒有寫原廠或 BioVivo。"
+            }
+          ],
+          "supply": {
+            "relationship": "unknown",
+            "relationshipNote": "2026-11-27 以 BioVivo、BioVivo Science、西洋參萃取、粉光參、花旗參、Panax quinquefolius、American ginseng extract，搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索，並打開綠茵代理頁、登盛原料總覽、怡得機能原料頁、德曼植物萃取頁與 BioVivo 日本上市稿。四家台灣頁都沒有寫 BioVivo。綠茵寫原廠是 Givaudan。怡得規格是乾燥磨粉，不是水溶萃取。德曼寫人參皂苷 7%，沒有寫 Rb1、Re、Rg1 的拆分，不能當成 BioVivo 2026-10-06 稿的合計 7%。同植物不等於這個原廠的代理。BioVivo 稿寫供應越南、韓國、日本與美國，沒有寫台灣公司。同日再以「BioVivo 台灣」複查，命中的是中國儀器商佰奥维欧，不是這家植物萃取廠。查核日 2026-11-27。",
+            "supplierCountry": "美國",
+            "supplierName": "BioVivo Science",
+            "taiwanPartyName": "綠茵生技（目錄寫 Givaudan 的西洋蔘萃取）；登盛企業（原料表有西洋參萃取物，未寫原廠）；怡得國際（乾燥磨粉）；美商德曼生技台灣分公司（目錄寫西洋蔘萃取、人參皂苷 7%）"
+          },
+          "tfda": {
+            "evidenceNotes": "BioVivo 是 0 筆。西洋參、粉光參與 Panax quinquefolius 命中同一筆（id 16975），部位根，次分類可供直接食用，備註是不得單一原料使用。人參根是 Panax ginseng；果實、莖、籽那筆在未確認分類，不是西洋參根。添加物沒有西洋參。根的列名沒有寫水溶萃取或皂苷百分比。",
+            "lookupDate": "2026-11-27",
+            "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+            "officialCrosscheck": {
+              "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+              "done": true,
+              "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+              "notes": "2026-11-27 連線 consumer.fda.gov.tw 的 id 16975 詳細頁出現 SSL_ERROR_SYSCALL，沒有取得官方詳細頁。查詢助手細節時間戳 2026-11-26 06:15。「不得單一原料使用」以助手備註為準。"
+            },
+            "queries": [
+              {
+                "category": "",
+                "keyword": "BioVivo",
+                "matchedName": "",
+                "note": "公司名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "西洋參",
+                "matchedName": "西洋參；粉光參；花旗參",
+                "note": "粉光參與 Panax quinquefolius 命中同一筆。",
+                "restrictionNote": "id 16975。大分類可供食品使用之原料。次分類為草、木本植物類(2)可供直接食用。外文名 American ginseng。學名 Panax quinquefolium L., Panax quinquefolius。部位根。備註：不得單一原料使用。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "人參",
+                "matchedName": "西洋參；人參；人參花與葉等",
+                "note": "這個關鍵字裡有未確認列，所以標 true。BioVivo 對的是西洋參根 id 16975。",
+                "restrictionNote": "id 16975 是本筆。id 16974 人參根是 Panax ginseng，備註也寫不得單一原料使用。id 16250 人參的部位是果實、莖、籽，未確認安全性，不得供為食品原料。id 16241 刺人參是另一屬。",
+                "resultCount": 7,
+                "tab": "ingredient",
+                "unconfirmedSafety": true
+              },
+              {
+                "category": "",
+                "keyword": "西洋參",
+                "matchedName": "",
+                "note": "中文在添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "ginseng",
+                "matchedName": "",
+                "note": "英文在添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "西洋參",
+                "matchedName": "",
+                "note": "助手更新歷程（2026-11-01 至 2026-11-26）沒有西洋參。資料時間戳 2026-11-26 06:15。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "history",
+                "unconfirmedSafety": false
+              }
+            ],
+            "usable": "listed_food_ingredient"
+          }
+        }
+      ],
+      "targetCount": 5,
+      "title": "2026-11-27 正式日報"
+    },
+    {
+      "channelsCovered": [
+        "news",
+        "exhibition",
+        "industry_report"
+      ],
       "date": "2026-11-26",
       "example": false,
       "notes": "正式五筆。主管道：sweelin、Nutri Whey Isolate Clear PA 為新聞；Melostacio Gold、BC99 為展覽；CornFit 為產業報導。未收未確認安全性項目：蘋果薄荷（MintyBright Nu 的植物，Mentha suaveolens，id 16226）、嗜粘蛋白阿克曼菌（AKKBG-001 的菌，Akkermansia muciniphila，id 16441）。玉米苞葉與葉（id 16384）不是玉米鬚花柱。Pentadiplandra brazzeana 不是 sweelin 的莫內林。",
@@ -22692,6 +23623,188 @@ window.INGREDIENT_CATALOG = {
     },
     {
       "discovery": {
+        "channel": "industry_report",
+        "notes": "從 WholeFoods Magazine 2026-09-25 的原料巡禮進入 BioVivo 產品頁與 2026-10-06 日本上市稿，再對 PubMed 20676609。Cereboost 與 Givaudan 的萃取沒有併成這個原廠。人參果實、莖、籽的未確認列沒有併進根這一筆。",
+        "scoutDate": "2026-11-27"
+      },
+      "efficacy": {
+        "claimedBenefits": [
+          "WholeFoods Magazine 2026-09-25 的原料巡禮：BioVivo 的西洋參來自威斯康辛馬拉松郡的根，做成水溶性萃取，並寫人參皂苷與免疫、內分泌有關。這是供應商提供給雜誌的句子，沒有毫克或人數。",
+          "BioVivo 2026-10-06 的日本上市稿：萃取標準化為 Rb1、Re、Rg1 合計至少 7%，其中 Rb1 至少 5%；製程是五年根，水與乙醇萃取後噴霧乾燥。稿寫用於壓力、疲勞、免疫與認知，這是公司對 Rb1 的說法。",
+          "PubMed 20676609：32 名健康年輕人的交叉試驗，材料是 Cereboost（Naturex 的西洋參萃取，標準化人參皂苷約 10.65% 或 11.65%，摘要與內文兩處不一致），單次 100、200 或 400 mg。摘要寫工作記憶有改善，血糖沒有變化。這不是 BioVivo 的萃取。"
+        ],
+        "dosageNote": "100–400 mg 是另一家萃取的單次試驗劑量，不能套成 BioVivo 的建議量，也不是平台上限。平台只寫不得單一原料使用。",
+        "suggestedDosage": "BioVivo 這次打開的產品頁、WholeFoods 段落與日本上市稿都沒有寫每日毫克。Cereboost 試驗的單次劑量是 100、200 或 400 mg。"
+      },
+      "evidenceLevels": [
+        "clinical"
+      ],
+      "example": false,
+      "id": "biovivo-ginseng",
+      "images": [
+        {
+          "caption": "BioVivo Science 官網西洋參產品頁的圖片。",
+          "localPath": "",
+          "source": "official_site",
+          "url": "https://biovivoscience.com/wp-content/uploads/2025/05/american-ginseng_3NEW.png"
+        }
+      ],
+      "literature": {
+        "note": "有西洋參萃取的人體交叉試驗，材料不是 BioVivo。WholeFoods 2026-06-01 寫 BioVivo 正在做壓力、認知與安全性的生物標記研究，那是進行中的公司說法，這次沒有對到論文。",
+        "refs": [
+          {
+            "note": "Psychopharmacology，2010。32 人、Cereboost、單次 100／200／400 mg。PMID 20676609。摘要沒有寫 BioVivo。",
+            "title": "Effects of American ginseng (Panax quinquefolius) on neurocognitive function",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20676609/"
+          }
+        ],
+        "status": "yes"
+      },
+      "names": {
+        "commonEn": "American ginseng root extract",
+        "commonZh": "西洋參根萃取",
+        "scientific": "Panax quinquefolius（亦寫 Panax quinquefolium。BioVivo 寫美國栽種的根，威斯康辛為主。不是亞洲人參 Panax ginseng，也不是未確認分類裡人參的果實、莖、籽。）",
+        "trade": "無獨立商品名。BioVivo Science 以水溶性西洋參萃取供應，頁上沒有另取品牌名。"
+      },
+      "patent": {
+        "note": "2026-11-27 以 BioVivo Science、American ginseng Jeffersonville 查專利，沒有對到這家公司名下的公開號。綠茵頁寫 Givaudan 那支西洋蔘萃取有美國專利，那不是 BioVivo。沒有查完，不寫成無。",
+        "refs": [],
+        "status": "unknown"
+      },
+      "sources": [
+        {
+          "accessed": "2026-11-27",
+          "channel": "industry_report",
+          "publisher": "WholeFoods Magazine",
+          "title": "65+ Innovative and In-Demand Ingredients",
+          "url": "https://www.wholefoodsmagazine.com/articles/18138-65-innovative-and-in-demand-ingredients",
+          "whatItContributes": "2026-09-25：供應商巡禮裡的西洋參段，寫威斯康辛根與水溶性萃取。沒有毫克。"
+        },
+        {
+          "accessed": "2026-11-27",
+          "channel": "supplier_site",
+          "publisher": "BioVivo Science",
+          "title": "American Ginseng",
+          "url": "https://biovivoscience.com/ingredients/american-ginseng/",
+          "whatItContributes": "學名 Panax quinquefolius，人參皂苷 Rg1、Re、Rb1，以及水溶萃取、標準萃取、直粉三種型態。沒有毫克。"
+        },
+        {
+          "accessed": "2026-11-27",
+          "channel": "news",
+          "publisher": "BioVivo Science",
+          "title": "BioVivo 的日本上市稿",
+          "url": "https://biovivoscience.com/standardized-to-more-than-5-rb1-organically-grown-american-ginseng-makes-its-japan-market-debut/",
+          "whatItContributes": "2026-10-06：合計至少 7%（Rb1、Re、Rg1），Rb1 至少 5%，水與乙醇萃取。供應地寫越南、韓國、美國與日本，沒有台灣。"
+        },
+        {
+          "accessed": "2026-11-27",
+          "channel": "paper",
+          "publisher": "PubMed／Psychopharmacology",
+          "title": "PubMed 20676609",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/20676609/",
+          "whatItContributes": "Cereboost 的人數與單次劑量。不是 BioVivo。"
+        },
+        {
+          "accessed": "2026-11-27",
+          "channel": "other",
+          "publisher": "綠茵生技",
+          "title": "綠茵的西洋蔘萃取",
+          "url": "https://www.greenynbio.com/product/agent/",
+          "whatItContributes": "台灣目錄寫原廠 Givaudan。不是 BioVivo。"
+        },
+        {
+          "accessed": "2026-11-27",
+          "channel": "other",
+          "publisher": "登盛企業",
+          "title": "登盛原料總覽",
+          "url": "https://www.masterasia.com.tw/content.php?id=5687",
+          "whatItContributes": "有一列西洋參萃取物，沒有寫原廠或 BioVivo。"
+        }
+      ],
+      "supply": {
+        "relationship": "unknown",
+        "relationshipNote": "2026-11-27 以 BioVivo、BioVivo Science、西洋參萃取、粉光參、花旗參、Panax quinquefolius、American ginseng extract，搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索，並打開綠茵代理頁、登盛原料總覽、怡得機能原料頁、德曼植物萃取頁與 BioVivo 日本上市稿。四家台灣頁都沒有寫 BioVivo。綠茵寫原廠是 Givaudan。怡得規格是乾燥磨粉，不是水溶萃取。德曼寫人參皂苷 7%，沒有寫 Rb1、Re、Rg1 的拆分，不能當成 BioVivo 2026-10-06 稿的合計 7%。同植物不等於這個原廠的代理。BioVivo 稿寫供應越南、韓國、日本與美國，沒有寫台灣公司。同日再以「BioVivo 台灣」複查，命中的是中國儀器商佰奥维欧，不是這家植物萃取廠。查核日 2026-11-27。",
+        "supplierCountry": "美國",
+        "supplierName": "BioVivo Science",
+        "taiwanPartyName": "綠茵生技（目錄寫 Givaudan 的西洋蔘萃取）；登盛企業（原料表有西洋參萃取物，未寫原廠）；怡得國際（乾燥磨粉）；美商德曼生技台灣分公司（目錄寫西洋蔘萃取、人參皂苷 7%）"
+      },
+      "tfda": {
+        "evidenceNotes": "BioVivo 是 0 筆。西洋參、粉光參與 Panax quinquefolius 命中同一筆（id 16975），部位根，次分類可供直接食用，備註是不得單一原料使用。人參根是 Panax ginseng；果實、莖、籽那筆在未確認分類，不是西洋參根。添加物沒有西洋參。根的列名沒有寫水溶萃取或皂苷百分比。",
+        "lookupDate": "2026-11-27",
+        "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+        "officialCrosscheck": {
+          "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+          "done": true,
+          "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+          "notes": "2026-11-27 連線 consumer.fda.gov.tw 的 id 16975 詳細頁出現 SSL_ERROR_SYSCALL，沒有取得官方詳細頁。查詢助手細節時間戳 2026-11-26 06:15。「不得單一原料使用」以助手備註為準。"
+        },
+        "queries": [
+          {
+            "category": "",
+            "keyword": "BioVivo",
+            "matchedName": "",
+            "note": "公司名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "西洋參",
+            "matchedName": "西洋參；粉光參；花旗參",
+            "note": "粉光參與 Panax quinquefolius 命中同一筆。",
+            "restrictionNote": "id 16975。大分類可供食品使用之原料。次分類為草、木本植物類(2)可供直接食用。外文名 American ginseng。學名 Panax quinquefolium L., Panax quinquefolius。部位根。備註：不得單一原料使用。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "人參",
+            "matchedName": "西洋參；人參；人參花與葉等",
+            "note": "這個關鍵字裡有未確認列，所以標 true。BioVivo 對的是西洋參根 id 16975。",
+            "restrictionNote": "id 16975 是本筆。id 16974 人參根是 Panax ginseng，備註也寫不得單一原料使用。id 16250 人參的部位是果實、莖、籽，未確認安全性，不得供為食品原料。id 16241 刺人參是另一屬。",
+            "resultCount": 7,
+            "tab": "ingredient",
+            "unconfirmedSafety": true
+          },
+          {
+            "category": "",
+            "keyword": "西洋參",
+            "matchedName": "",
+            "note": "中文在添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "ginseng",
+            "matchedName": "",
+            "note": "英文在添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "西洋參",
+            "matchedName": "",
+            "note": "助手更新歷程（2026-11-01 至 2026-11-26）沒有西洋參。資料時間戳 2026-11-26 06:15。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "history",
+            "unconfirmedSafety": false
+          }
+        ],
+        "usable": "listed_food_ingredient"
+      }
+    },
+    {
+      "discovery": {
         "channel": "exhibition",
         "notes": "從 SupplySide Global 2026 的 Verdure 攤位 5724 名單看到 Calzbone，再對 vs-corp.com 的劑量與 US20050048141A1。台灣頁上的 CISSUS／CQR-300、和司特與若亞方舟是別的四棱白粉藤商品，沒有併進這個牌子。專利申請已放棄，這點寫在劑量註記，避免卡片上的「有」被讀成仍有效。",
         "scoutDate": "2026-11-20"
@@ -24121,6 +25234,180 @@ window.INGREDIENT_CATALOG = {
           }
         ],
         "usable": "not_found"
+      }
+    },
+    {
+      "discovery": {
+        "channel": "exhibition",
+        "notes": "從 Nutraceutical Business Review 的 Fi Europe 2026 展前記者稿進入 Bioiberica 產品頁、PMC13077837 與創百參展介紹。水解膠原蛋白胜肽與 UC-II 沒有併進這個商品名。US11793217B1 的權利人不是 Bioiberica，沒有算成這支的專利。",
+        "scoutDate": "2026-11-27"
+      },
+      "efficacy": {
+        "claimedBenefits": [
+          "Bioiberica 產品頁：Collavant n2 是雞胸骨來源的未變性二型膠原蛋白，寫每日 40 mg，並寫以口服耐受（oral tolerance）維持關節。這是公司說法。頁上引用的三篇文獻這次沒有逐篇打開。",
+          "Nutrition Journal 這篇隨機雙盲試驗（NCT05282992）：74 名活動後關節不適的健康成人，每日 40 mg 或安慰劑，180 天。摘要寫兩組的 KOOS 在第 180 天都有改善；疼痛、症狀與生活品質的較早改善出現在膠原組。較輕症狀的子群在第 180 天的疼痛與生活品質，組間有差異。材料由 Bioiberica 提供。",
+          "日本龍泉堂頁寫未變性二型膠原蛋白至少 6%，40 mg 對到至少 2.4 mg。Bioiberica 這次打開的產品頁沒有寫 6%。兩處都留下。"
+        ],
+        "dosageNote": "40 mg 是供應商建議，也是這篇試驗的每日劑量，不是平台上的法規上限。平台的膠原蛋白列名沒有毫克。6% 與 2.4 mg 只出現在龍泉堂頁。",
+        "suggestedDosage": "Bioiberica 產品頁、Fi Europe 展前記者稿與上述試驗都寫每日 40 mg。試驗寫空腹、早餐前 30 分鐘一粒。"
+      },
+      "evidenceLevels": [
+        "clinical"
+      ],
+      "example": false,
+      "id": "collavant-n2",
+      "images": [
+        {
+          "caption": "Bioiberica 官網 Collavant n2 頁的主圖。",
+          "localPath": "",
+          "source": "official_site",
+          "url": "https://www.bioiberica.com/sites/default/files/styles/open_graph_image/public/content/image/2025/06/03/1/Collavant%20n2%20hero%20picture%20HR%20%281%29%20copia_1.jpg"
+        }
+      ],
+      "literature": {
+        "note": "這篇是人體隨機雙盲試驗。Bioiberica 員工 2023 年的 Nutrients 綜述（PMID 36986062）是敘述回顧，不是這一支的新試驗，沒有併進證據等級。",
+        "refs": [
+          {
+            "note": "Nutrition Journal。74 人、每日 40 mg、180 天。NCT05282992。材料寫 Collavant n2，由 Bioiberica SAU 提供。摘要沒有寫達到全部主要終點都優於安慰劑。",
+            "title": "Efficacy and tolerability of native (undenatured) type II collagen supplementation for joint health in healthy volunteers",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13077837/"
+          }
+        ],
+        "status": "yes"
+      },
+      "names": {
+        "commonEn": "native (undenatured) type II collagen",
+        "commonZh": "未變性二型膠原蛋白（雞胸骨軟骨）",
+        "scientific": "不適用植物學名。Bioiberica 產品頁寫來源是雞胸骨，在歐洲製造。日本龍泉堂頁寫雞胸骨軟骨，並寫未變性二型膠原蛋白至少 6%。不是已收錄的水解膠原蛋白胜肽（Naticol、Nextida GC）。",
+        "trade": "Collavant n2（Bioiberica 的未變性二型膠原蛋白商品名；頁上亦寫 Collavant® n2）"
+      },
+      "patent": {
+        "note": "2026-11-27 以 Collavant、Bioiberica undenatured type II collagen 查專利。US11793217B1 的權利人是 Lonza Greenwood，不是 Bioiberica。US7763594B2 是 Bioiberica 的玻尿酸與硫酸皮膚素組成物，請求項不是未變性二型膠原蛋白。公司材料寫有數十件專利，沒有在這次打開的頁面列出 Collavant 的號碼。沒有對到號碼，不寫成無。",
+        "refs": [],
+        "status": "unknown"
+      },
+      "sources": [
+        {
+          "accessed": "2026-11-27",
+          "channel": "exhibition",
+          "publisher": "Nutraceutical Business Review",
+          "title": "Bioiberica makes Fi Europe debut",
+          "url": "https://nutraceuticalbusinessreview.com/bioiberica-makes-fi-europe-debut-by-showcasing-science",
+          "whatItContributes": "Fi Europe 2026 攤位 51C69，Collavant n2 寫 40 mg／日，並與 Mobilee、Dermial、DAOgest 並列。DAOgest 已另日收錄，不是這一筆。"
+        },
+        {
+          "accessed": "2026-11-27",
+          "channel": "supplier_site",
+          "publisher": "Bioiberica",
+          "title": "Collavant n2",
+          "url": "https://www.bioiberica.com/en/products/human-health/collavant-n2",
+          "whatItContributes": "雞胸骨、歐洲製造、每日 40 mg，以及口服耐受的公司說法。總部在巴塞隆納。"
+        },
+        {
+          "accessed": "2026-11-27",
+          "channel": "paper",
+          "publisher": "Nutrition Journal",
+          "title": "PMC13077837",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13077837/",
+          "whatItContributes": "人數、180 天、40 mg，以及 KOOS 改善出現的時間。不是治愈結論。"
+        },
+        {
+          "accessed": "2026-11-27",
+          "channel": "exhibition",
+          "publisher": "展昭／創百股份有限公司",
+          "title": "創百參展介紹",
+          "url": "https://www.chanchao.com.tw/healthcos/visitorExhibitorDetail.asp?comNo=218786&sno=212478",
+          "whatItContributes": "參展介紹自述代理 Collavant n2。沒有寫獨家。頁尾地址是主辦單位。"
+        },
+        {
+          "accessed": "2026-11-27",
+          "channel": "other",
+          "publisher": "龍泉堂",
+          "title": "Collavant n2（龍泉堂）",
+          "url": "https://ryusendo.co.jp/en/raw/collavant-n2/",
+          "whatItContributes": "日本經銷頁的 6% 與 2.4 mg。該公司寫日本獨家，不是台灣。"
+        }
+      ],
+      "supply": {
+        "relationship": "taiwan_agent",
+        "relationshipNote": "2026-11-27 以 Collavant、Collavant n2、Bioiberica、未變性二型膠原蛋白、native type II collagen、雞胸骨，搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索，並打開創百在展昭 2027 美容保養生技展的參展介紹、Bioiberica 產品頁與日本龍泉堂頁。參展介紹寫「代理國際品牌原料」，名單點名 Collavant n2。這是創百自述，Bioiberica 產品頁沒有台灣夥伴，不升成獨家。登盛原料總覽有「非變性II型膠原蛋白」（英文 Native Chicken Collagen Type II），同一頁另有 UC-II，兩列都沒有寫 Collavant 或 Bioiberica。同化合物的目錄列不是這個商品名的代理。龍泉堂頁寫該公司是日本獨家經銷，不是台灣公司。同日再以「Collavant 台灣」複查，仍是創百這一頁。查核日 2026-11-27。",
+        "supplierCountry": "西班牙",
+        "supplierName": "Bioiberica",
+        "taiwanPartyName": "創百股份有限公司（參展介紹自述代理；不是原廠頁，也不是獨家）"
+      },
+      "tfda": {
+        "evidenceNotes": "Collavant、雞軟骨、未變性與 type II 在原料和添加物都是 0 筆。膠原蛋白有兩筆：id 17624 是家禽、畜類的傳統供食用部位，id 16591 是海、水產動物，兩筆備註都空白。這一支若對得上，是家禽那一筆，不是海水產。列名沒有寫雞胸骨、未變性結構或 40 毫克。",
+        "lookupDate": "2026-11-27",
+        "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+        "officialCrosscheck": {
+          "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+          "done": true,
+          "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+          "notes": "2026-11-27 連線 consumer.fda.gov.tw 的 id 17624 詳細頁出現 SSL_ERROR_SYSCALL，沒有取得官方詳細頁。查詢助手細節時間戳 2026-11-26 06:15，siteTotals 原料 1709、添加物 804。id 17624 的部位句以助手資料為準。"
+        },
+        "queries": [
+          {
+            "category": "",
+            "keyword": "Collavant",
+            "matchedName": "",
+            "note": "商品名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "膠原蛋白",
+            "matchedName": "膠原蛋白",
+            "note": "兩筆都沒有未確認標記。",
+            "restrictionNote": "id 17624。大分類可供食品使用之原料。次分類為禽、畜類及其來源製取之原料。部位：由家禽、畜類之傳統供食用部位製取。備註空白。另一筆 id 16591 是海、水產動物的傳統供食用部位，不是雞。",
+            "resultCount": 2,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "雞軟骨",
+            "matchedName": "",
+            "note": "部位用詞 0 筆。未變性也是 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "膠原蛋白",
+            "matchedName": "",
+            "note": "中文在添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "collagen",
+            "matchedName": "",
+            "note": "英文在添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "膠原蛋白",
+            "matchedName": "",
+            "note": "助手更新歷程（2026-11-01 至 2026-11-26）沒有膠原蛋白或 Collavant。資料時間戳 2026-11-26 06:15。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "history",
+            "unconfirmedSafety": false
+          }
+        ],
+        "usable": "listed_food_ingredient"
       }
     },
     {
@@ -34245,6 +35532,204 @@ window.INGREDIENT_CATALOG = {
     },
     {
       "discovery": {
+        "channel": "news",
+        "notes": "從 NutraIngredients 2026-09-28 的新品巡禮進入 Nuritas 產品頁、PMC13463274 與 AU2024402215A1。稻殼的未確認列沒有併進水解物。登盛與德曼的米蛋白沒有寫成 PeptiSleep 的經銷。ACE 抑制胜肽那一件 WO 沒有算成這支。",
+        "scoutDate": "2026-11-27"
+      },
+      "efficacy": {
+        "claimedBenefits": [
+          "Nuritas 產品頁：250 mg 糙米胜肽，睡前約 30 分鐘，寫有助入睡、深睡與 REM，並寫降低皮質醇。這是公司頁的句子。同頁的使用者短評不是試驗。",
+          "Sleep Medicine: X 的先導試驗（PMC13463274）：26 名自述睡眠不佳的成人，250 mg 或安慰劑，睡前 60 分鐘，56 天。摘要寫 Leeds 問卷的入睡（p = 0.050）與睡眠品質（p = 0.036）有名義上的差異，情緒總分 p = 0.050。作者寫這是單盲、探索性，沒有做多重比較校正。",
+          "Nuritas 2026-08-11 新聞把睡眠品質那一項寫成睡眠維持，並把情緒 p 值寫成 0.029。論文摘要是 0.050。兩處都留下。2025-06-30 的宣傳稿另寫心率變異 32%、深睡 17%、總睡眠多 40 分鐘，這些百分比沒有出現在論文摘要。"
+        ],
+        "dosageNote": "250 mg 同時是供應商建議與這篇先導試驗的每日劑量，不是法規上限。30 分鐘與 60 分鐘不一致。1000 mg 不是這篇功效分析的劑量。",
+        "suggestedDosage": "產品頁寫 250 mg，睡前約 30 分鐘。論文寫 250 mg，睡前 60 分鐘。論文另提到所屬的較大安全性研究用到每日 1000 mg，那篇尚未發表。"
+      },
+      "evidenceLevels": [
+        "clinical"
+      ],
+      "example": false,
+      "id": "peptisleep",
+      "images": [
+        {
+          "caption": "Nuritas 官網 PeptiSleep 頁的標誌圖，不是粉末照片。",
+          "localPath": "",
+          "source": "official_site",
+          "url": "https://www.nuritas.com/wp-content/uploads/2026/03/PeptiSleep_CMYK_White@3x.png"
+        }
+      ],
+      "literature": {
+        "note": "這篇是人體先導試驗，不是確認性試驗。宣傳稿的 32%、17% 與 40 分鐘沒有寫進摘要。",
+        "refs": [
+          {
+            "note": "Sleep Medicine: X。DOI 10.1016/j.sleepx.2026.100198。26 人、250 mg、56 天。細胞實驗在文中標成尚未發表，不另算成這一筆的體外證據。",
+            "title": "Effects of PeptiSleep on sleep modification and biometrics in adults with sleep impairment",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13463274/"
+          }
+        ],
+        "status": "yes"
+      },
+      "names": {
+        "commonEn": "brown rice protein hydrolysate",
+        "commonZh": "糙米蛋白水解物（睡眠取向胜肽）",
+        "scientific": "Oryza sativa（糙米蛋白分離物再酵素水解。不是稻殼，也不是已收錄的蠶豆胜肽 PeptiStrong。利統頁的英文寫 Brown Rice Protein Hydrolysate。）",
+        "trade": "PeptiSleep（Nuritas 的糙米胜肽商品名）"
+      },
+      "patent": {
+        "note": "有 Nuritas 的睡眠胜肽申請。公開頁沒有把商品名寫進標題。利統頁寫「專利」，沒有號碼。",
+        "refs": [
+          {
+            "note": "申請人 Nuritas Limited。Google Patents 標題是睡眠胜肽，優先權日 2023-12-20，公開日欄見該頁。同日家族的 WO2025133254A2 標題是 ACE 抑制胜肽，不是這一案。韓文公開 KR1020260124192A 寫胜肽來自糙米 Oryza sativa，公開日 2026-08-14，狀態是申請。標題沒有 PeptiSleep。讀取日 2026-11-27。",
+            "title": "AU2024402215A1 Sleep promoting peptides and the use thereof",
+            "url": "https://patents.google.com/patent/AU2024402215A1/en"
+          }
+        ],
+        "status": "yes"
+      },
+      "sources": [
+        {
+          "accessed": "2026-11-27",
+          "channel": "news",
+          "publisher": "NutraIngredients",
+          "title": "September NPD launchpad: Beauty, peptides, and convenient formats",
+          "url": "https://www.nutraingredients.com/Article/2026/09/28/september-npd-launchpad-beauty-peptides-and-convenient-formats/",
+          "whatItContributes": "2026-09-28：英國成品 Sleep Pro 使用 250 mg PeptiSleep，並寫來源是糙米蛋白。沒有 p 值。"
+        },
+        {
+          "accessed": "2026-11-27",
+          "channel": "supplier_site",
+          "publisher": "Nuritas",
+          "title": "PeptiSleep",
+          "url": "https://www.nuritas.com/products/peptisleep/",
+          "whatItContributes": "250 mg、睡前約 30 分鐘，以及皮質醇的公司說法。"
+        },
+        {
+          "accessed": "2026-11-27",
+          "channel": "paper",
+          "publisher": "Sleep Medicine: X",
+          "title": "PMC13463274",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13463274/",
+          "whatItContributes": "26 人、250 mg、睡前 60 分鐘、56 天，以及名義上的 p 值與單盲限制。"
+        },
+        {
+          "accessed": "2026-11-27",
+          "channel": "patent",
+          "publisher": "Google Patents",
+          "title": "AU2024402215A1",
+          "url": "https://patents.google.com/patent/AU2024402215A1/en",
+          "whatItContributes": "申請人與標題。標題沒有商品名。"
+        },
+        {
+          "accessed": "2026-11-27",
+          "channel": "other",
+          "publisher": "利統股份有限公司",
+          "title": "Nuritas 原料品牌",
+          "url": "https://www.lytone.com/functional-food/1/Nuritas",
+          "whatItContributes": "台灣頁列出 PeptiSleep 專利糙米睡眠胜肽。沒有寫總代理。"
+        },
+        {
+          "accessed": "2026-11-27",
+          "channel": "news",
+          "publisher": "Nuritas",
+          "title": "Nuritas 的論文新聞",
+          "url": "https://www.nuritas.com/nuritas-published-peer-reviewed-peptisleep-sleep-study-in-sleep-medicine-x/",
+          "whatItContributes": "2026-08-11：公司把情緒 p 值寫成 0.029，與論文摘要的 0.050 不同。"
+        }
+      ],
+      "supply": {
+        "relationship": "taiwan_distributor",
+        "relationshipNote": "2026-11-27 以 PeptiSleep、Nuritas、糙米睡眠胜肽、brown rice peptide、米蛋白胜肽、Oryza sativa hydrolysate，搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索，並打開利統的 Nuritas 品牌頁、公司關於頁、登盛原料總覽與德曼植物萃取頁。利統頁把 PeptiSleep 列在原料品牌下，寫「專利糙米睡眠胜肽」。關於頁把代理、經銷與自有原料寫在一起，沒有把 Nuritas 單獨寫成獨家。這是利統頁面，不是 Nuritas 官網的夥伴名單。登盛有「米蛋白」與「糙米蛋白」兩列，德曼有米蛋白 80%，兩頁都沒有 PeptiSleep 或 Nuritas。同化合物的目錄列不是這個商品名的經銷。同日再以「PeptiSleep 台灣」複查，仍是利統這一頁。查核日 2026-11-27。",
+        "supplierCountry": "愛爾蘭",
+        "supplierName": "Nuritas",
+        "taiwanPartyName": "利統股份有限公司（原料品牌頁列出 PeptiSleep；未寫總代理或獨家）"
+      },
+      "tfda": {
+        "evidenceNotes": "PeptiSleep 與 rice protein 在原料和添加物都是 0 筆。米蛋白這個詞命中的是玉米蛋白。Oryza sativa 有穀芽、米糠、米糠油，以及未確認的稻殼（id 16247，部位稻殼）。稻殼不是糙米蛋白水解物，沒有把這一筆收成未確認。這次查無不是准用。",
+        "lookupDate": "2026-11-27",
+        "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+        "officialCrosscheck": {
+          "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+          "done": true,
+          "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+          "notes": "2026-11-27 連線 consumer.fda.gov.tw 出現 SSL_ERROR_SYSCALL，沒有取得官方詳細頁。查詢助手細節時間戳 2026-11-26 06:15。稻殼 id 16247 的未確認沒有併進可用結論。上述 0 筆以助手資料為準。"
+        },
+        "queries": [
+          {
+            "category": "",
+            "keyword": "PeptiSleep",
+            "matchedName": "",
+            "note": "商品名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "米蛋白",
+            "matchedName": "玉米蛋白",
+            "note": "關鍵字落在「玉米蛋白」裡。",
+            "restrictionNote": "id 17355。學名 Zea mays L.。這是玉米蛋白，不是米。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Oryza sativa",
+            "matchedName": "穀芽／米糠／米糠油／稻殼",
+            "note": "四筆裡稻殼是未確認，所以這個關鍵字標 true。PeptiSleep 不是稻殼。",
+            "restrictionNote": "id 16850 穀芽，部位果實，可供直接食用。id 17339 米糠。id 17340 米糠油。id 16247 稻殼，未確認安全性，部位稻殼，備註寫非傳統性食品原料。",
+            "resultCount": 4,
+            "tab": "ingredient",
+            "unconfirmedSafety": true
+          },
+          {
+            "category": "",
+            "keyword": "rice protein",
+            "matchedName": "",
+            "note": "英文 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "米蛋白",
+            "matchedName": "",
+            "note": "中文在添加物 0 筆。米糠蠟是另一列，不是水解物。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "rice protein",
+            "matchedName": "",
+            "note": "英文在添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "PeptiSleep",
+            "matchedName": "",
+            "note": "助手更新歷程（2026-11-01 至 2026-11-26）沒有 PeptiSleep 或米蛋白水解物。資料時間戳 2026-11-26 06:15。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "history",
+            "unconfirmedSafety": false
+          }
+        ],
+        "usable": "not_found"
+      }
+    },
+    {
+      "discovery": {
         "channel": "exhibition",
         "notes": "從 Nutraceuticals World 2026-10-21 與 NutraIngredients 10 月 14 日的 SupplySide 預告進入，再對 Nuritas 產品頁、PMID 37277162 與 11 月 6 日 Gundry 成品新聞。台灣關聯打開利統的 Nuritas 頁，確認只有 PeptiSleep。",
         "scoutDate": "2026-11-13"
@@ -39515,6 +41000,201 @@ window.INGREDIENT_CATALOG = {
     {
       "discovery": {
         "channel": "news",
+        "notes": "從 NutraIngredients 2026-10-26 的秋季新品巡禮進入 Novonesis 的 UREX 頁、PMID 16697231 與漢昇產品頁。US6479051 的菌名寫法與現行頁不同，兩處都留下。成品負責廠商沒有升成原料總代理。",
+        "scoutDate": "2026-11-27"
+      },
+      "efficacy": {
+        "claimedBenefits": [
+          "Novonesis 的 UREX 頁：兩株組合，寫 GR-1 於 1980 年自分離、RC-14 於 1985 年自分離，並寫有助於偶發的泌尿不適、陰道菌相與酵母。這是供應商對試驗的整理，頁上沒有 CFU。",
+          "PubMed 12628548：64 名健康女性，口服 GR-1 與當時寫成 L. fermentum RC-14 的膠囊或安慰劑，60 天。摘要寫乳桿菌組有較多陰道乳桿菌，酵母與大腸菌群較少。摘要沒有寫商品名 UREX，也沒有寫每粒 CFU。",
+          "PubMed 16697231：125 名細菌性陰道病患者，口服 metronidazole 7 天，並隨機加上每株 1×10^9 CFU、一天兩次、30 天，或安慰劑。第 30 天回診者中，抗生素加益生菌組 88% 達到該文的治愈定義，安慰劑組 40%。這是治療試驗，不是健康人的每日保養劑量。"
+        ],
+        "dosageNote": "227 mg 是台灣成品頁的膠囊重，不是活菌數。1×10^9 是那篇細菌性陰道病試驗的每株劑量，同時使用抗生素，不是供應商頁上的每日建議，也不是平台上限。",
+        "suggestedDosage": "Novonesis 這次打開的頁面沒有寫 CFU 或毫克。漢昇頁寫每顆膠囊 227 mg，吃法是顆數：前 5 晚 2 顆，其後 30 晚 1 顆，之後每 3 天 1 顆。16697231 的試驗是每株 1×10^9 CFU、一天兩次。"
+      },
+      "evidenceLevels": [
+        "clinical"
+      ],
+      "example": false,
+      "id": "urex",
+      "images": [
+        {
+          "caption": "Novonesis 的 UREX 頁示意盒圖。頁面寫包裝僅供示意，不一定是實際包裝。",
+          "localPath": "",
+          "source": "official_site",
+          "url": "https://www.novonesis.com/_next/static/media/tall-box.7c29c117.png"
+        }
+      ],
+      "literature": {
+        "note": "兩篇都是人體試驗。一篇的對象是健康女性，一篇是細菌性陰道病並併用抗生素。摘要都沒有寫商品名 UREX。",
+        "refs": [
+          {
+            "note": "FEMS Immunology & Medical Microbiology。64 名健康女性、口服 60 天。RC-14 在篇名仍寫 L. fermentum。PMID 12628548。",
+            "title": "Oral use of Lactobacillus rhamnosus GR-1 and L. fermentum RC-14 significantly alters vaginal flora",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12628548/"
+          },
+          {
+            "note": "Microbes and Infection。每株 1×10^9、一天兩次、30 天，並用 metronidazole。PMID 16697231。",
+            "title": "Augmentation of antimicrobial metronidazole therapy of bacterial vaginosis with oral probiotic Lactobacillus rhamnosus GR-1 and Lactobacillus reuteri RC-14",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16697231/"
+          }
+        ],
+        "status": "yes"
+      },
+      "names": {
+        "commonEn": "Lacticaseibacillus rhamnosus GR-1 and Limosilactobacillus reuteri RC-14",
+        "commonZh": "鼠李糖乳桿菌 GR-1 與羅伊氏乳桿菌 RC-14",
+        "scientific": "Lacticaseibacillus rhamnosus GR-1（頁上亦寫 L. rhamnosus GR-1，寄存編號 DSM 33426；舊專利寫 ATCC 55826）與 Limosilactobacillus reuteri RC-14（頁上寫 L. reuteri RC-14；US6479051 的請求項把同一 ATCC 55845 寫成 L. acidophilus RC-14）。兩處菌名不一致，都留下。不是植物乳植桿菌 299v。",
+        "trade": "UREX（Chr. Hansen／Novonesis 的兩株組合商品名；頁上亦寫 Urex）"
+      },
+      "patent": {
+        "note": "有涵蓋這兩株寄存號的舊專利。商品名沒有出現在標題。Novonesis 頁沒有列出專利號。",
+        "refs": [
+          {
+            "note": "受讓人 Urex Biotex, Inc.。請求項含 L. rhamnosus GR-1（ATCC 55826），並把 ATCC 55845 寫成 L. acidophilus RC-14。現行供應商頁把 RC-14 寫成 L. reuteri。標題沒有 UREX。讀取日 2026-11-27。",
+            "title": "US6479051B1 Oral administration of lactobacillus for the treatment and prevention of urogenital infection",
+            "url": "https://patents.google.com/patent/US6479051B1/en"
+          }
+        ],
+        "status": "yes"
+      },
+      "sources": [
+        {
+          "accessed": "2026-11-27",
+          "channel": "news",
+          "publisher": "NutraIngredients",
+          "title": "Fall Launch Pad: Muscle, metabolic health and functional energy",
+          "url": "https://www.nutraingredients.com/Article/2026/10/26/fall-launch-pad-muscle-metabolic-health-and-functional-energy/",
+          "whatItContributes": "2026-10-26：Medicine Mama 的 VMAGIC 使用 UREX，菌株寫 Lactobacillus rhamnosus GR-1 與 Lactobacillus reuteri RC-14。沒有 CFU。"
+        },
+        {
+          "accessed": "2026-11-27",
+          "channel": "supplier_site",
+          "publisher": "Chr. Hansen／Novonesis",
+          "title": "UREX",
+          "url": "https://www.chr-hansen.com/en/human-health-and-probiotics/our-probiotic-strains/urex",
+          "whatItContributes": "兩株、DSM 33426、商標屬於 Chr. Hansen A/S 與 Novonesis 集團。沒有 CFU，也沒有台灣名單。"
+        },
+        {
+          "accessed": "2026-11-27",
+          "channel": "paper",
+          "publisher": "PubMed",
+          "title": "PubMed 16697231",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/16697231/",
+          "whatItContributes": "每株 1×10^9、一天兩次，以及與 metronidazole 併用的治愈比例。"
+        },
+        {
+          "accessed": "2026-11-27",
+          "channel": "patent",
+          "publisher": "Google Patents",
+          "title": "US6479051B1",
+          "url": "https://patents.google.com/patent/US6479051B1/en",
+          "whatItContributes": "ATCC 55826 與 ATCC 55845。請求項的 RC-14 菌名與現行頁不同。"
+        },
+        {
+          "accessed": "2026-11-27",
+          "channel": "other",
+          "publisher": "漢昇生物科技",
+          "title": "漢昇的 GR-1／RC-14 膠囊",
+          "url": "https://www.trifactorbiotech.com/product/gr1rc14/",
+          "whatItContributes": "台灣成品頁：兩株商標名、每顆 227 mg、顆數吃法。沒有寫原料代理。"
+        }
+      ],
+      "supply": {
+        "relationship": "unknown",
+        "relationshipNote": "2026-11-27 以 UREX、Urex、GR-1、RC-14、鼠李糖乳桿菌、羅伊氏乳桿菌、Chr. Hansen、Novonesis，搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索，並打開漢昇產品頁與 Novonesis 的 UREX 頁。漢昇頁成分寫兩株的商標名，販售優芮珂絲與樂伊妥膠囊，每顆 227 mg，沒有寫原料總代理。藥局商品頁另寫負責廠商為漢昇生物科技股份有限公司，公司自己的頁標題沒有「股份有限公司」，兩種寫法都留下。這是成品販售。Novonesis 頁寫商標屬於 Chr. Hansen A/S、Novonesis 集團，沒有台灣經銷名單。yes123 的公司簡介寫想成為代理商，那是徵才頁的經營理念，不是這一支的契約。同日再以「UREX 台灣 代理」複查，仍是這些成品頁。查核日 2026-11-27。",
+        "supplierCountry": "丹麥",
+        "supplierName": "Chr. Hansen（Novonesis 集團）",
+        "taiwanPartyName": "漢昇生物科技（官網販售含 GR-1 與 RC-14 的膠囊；未寫原料代理）"
+      },
+      "tfda": {
+        "evidenceNotes": "UREX、GR-1、鼠李糖乳桿菌與羅伊氏在原料和添加物都是 0 筆。rhamnosus 命中兩筆乳酸菌（id 17507、17520），學名含 Lactobacillus rhamnosus 與 Lacticaseibacillus rhamnosus。reuteri 命中 id 17519，學名 Lactobacillus reuteri。三筆備註都是可供為食品原料或食品加工使用。菌株編號與陰道健康宣稱不在這三列。",
+        "lookupDate": "2026-11-27",
+        "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+        "officialCrosscheck": {
+          "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+          "done": true,
+          "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+          "notes": "2026-11-27 連線 consumer.fda.gov.tw 的 id 17507 詳細頁出現 SSL_ERROR_SYSCALL，沒有取得官方詳細頁。查詢助手細節時間戳 2026-11-26 06:15。三筆乳酸菌的備註以助手資料為準。"
+        },
+        "queries": [
+          {
+            "category": "",
+            "keyword": "UREX",
+            "matchedName": "",
+            "note": "商品名 0 筆。GR-1 也是 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "rhamnosus",
+            "matchedName": "乳酸菌",
+            "note": "兩筆都沒有未確認標記，也都沒有寫 GR-1。",
+            "restrictionNote": "id 17507。學名 Lactobacillus rhamnosus, Lactobacillus casei subsp. Rhamnosus, Lacticaseibacillus rhamnosus。部位菌體。備註：可供為食品原料或食品加工使用。id 17520 學名只有 Lactobacillus rhamnosus，備註相同。",
+            "resultCount": 2,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "reuteri",
+            "matchedName": "乳酸菌",
+            "note": "沒有寫 RC-14。中文「羅伊氏」是 0 筆。",
+            "restrictionNote": "id 17519。學名 Lactobacillus reuteri。部位菌體。備註：可供為食品原料或食品加工使用。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "鼠李糖乳桿菌",
+            "matchedName": "",
+            "note": "這個中文 0 筆。菌名在學名欄的拉丁文。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "rhamnosus",
+            "matchedName": "",
+            "note": "添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "reuteri",
+            "matchedName": "",
+            "note": "添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "rhamnosus",
+            "matchedName": "",
+            "note": "助手更新歷程（2026-11-01 至 2026-11-26）沒有 rhamnosus、reuteri 或 UREX。資料時間戳 2026-11-26 06:15。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "history",
+            "unconfirmedSafety": false
+          }
+        ],
+        "usable": "listed_food_ingredient"
+      }
+    },
+    {
+      "discovery": {
+        "channel": "news",
         "notes": "從 NutraIngredients 2026-09-14 的 VERBALIEF 產品說明進入，再對 Bionap 產品頁、SupplySide Global 2026 產品頁與 ISRCTN19477801。台灣關聯另開來裕的 PHENBIOX 葉用頁，以及和聚的 Bionap 目錄；後者只有 Bergavit。",
         "scoutDate": "2026-11-15"
       },
@@ -40280,6 +41960,174 @@ window.INGREDIENT_CATALOG = {
             "keyword": "β-聚葡萄糖",
             "matchedName": "",
             "note": "助手更新歷程（11/01–11/09）沒有這筆異動。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "history",
+            "unconfirmedSafety": false
+          }
+        ],
+        "usable": "listed_food_ingredient"
+      }
+    },
+    {
+      "discovery": {
+        "channel": "exhibition",
+        "notes": "從 NutraIngredients 2026-11-17 的 Fi Europe 預告進入 Benexia 產品頁與經銷名單。XIA Fiber（435、56% 纖維）與整粒奇亞籽沒有併進這一支蛋白粉。展昭上 BIOTRUE 的纖維粉頁稍後打不開，台灣關聯維持待確認。",
+        "scoutDate": "2026-11-27"
+      },
+      "efficacy": {
+        "claimedBenefits": [
+          "Benexia 產品頁：XIA Protein 是去脂、微磨的奇亞蛋白濃縮粉，粒徑小於 125 μm，寫蛋白 43%、膳食纖維 28%、omega-3 ALA 9%，並寫 PDCAAS 0.95、消化率 91.9%。這是規格與配方說法，不是試驗結果。",
+          "同一頁寫可作為唯一蛋白來源時，應用裡每份蛋白可到約 10 g；粉體複配約從 10% 起，約 15% 是實務上限。這是配方區間。",
+          "NutraIngredients 2026-11-17 的 Fi Europe 預告只寫 XIA Protein 提供植物蛋白，沒有寫百分比或人數。"
+        ],
+        "dosageNote": "10 g 與 10%–15% 是供應商的配方說明，不是這次讀到的人體試驗劑量，也不是平台上的上限。種子列名只有過敏警語，沒有毫克。",
+        "suggestedDosage": "產品頁沒有每日毫克。配方句是每份蛋白約 10 g，或粉體裡約 10% 到 15%。"
+      },
+      "evidenceLevels": [],
+      "example": false,
+      "id": "xia-protein",
+      "images": [
+        {
+          "caption": "Benexia 官網 XIA Protein 頁的主圖。",
+          "localPath": "",
+          "source": "official_site",
+          "url": "https://www.benexia.com/_astro/xia-protein-hero.DbfF_zeR_GzfkS.webp"
+        }
+      ],
+      "literature": {
+        "note": "產品頁的 43%、PDCAAS 0.95 與消化率沒有附論文連結。這次沒有打開到以 XIA Protein 為材料的人體試驗，不把規格表當成臨床結果。",
+        "refs": [],
+        "status": "unknown"
+      },
+      "names": {
+        "commonEn": "defatted chia protein concentrate",
+        "commonZh": "奇亞籽蛋白粉（去脂微磨）",
+        "scientific": "Salvia hispanica L.（種子做成的去脂蛋白濃縮粉。不是已收錄的藥用鼠尾草 Salvia officinalis，也不是同頁纖維規格 XIA Fiber／Xia Powder 435。）",
+        "trade": "XIA Protein（Benexia 的奇亞蛋白商品名；技術頁亦寫 chia protein concentrate，粒徑小於 125 μm）"
+      },
+      "patent": {
+        "note": "2026-11-27 以 XIA Protein、Benexia chia protein 查專利，沒有對到標題含這個商品名的公開號。歐盟對部分去脂奇亞粉的新穎食品授權不是專利。沒有查完，不寫成無。",
+        "refs": [],
+        "status": "unknown"
+      },
+      "sources": [
+        {
+          "accessed": "2026-11-27",
+          "channel": "exhibition",
+          "publisher": "NutraIngredients",
+          "title": "Supplement industry must-sees at Fi Europe 2026",
+          "url": "https://www.nutraingredients.com/Article/2026/11/17/supplement-industry-must-sees-at-fi-europe-2026/",
+          "whatItContributes": "2026-11-17：Benexia 攤位 31L46，展出 XIA Fiber、XIA Protein、XIA Oil 與 ALA Powder 40。沒有百分比。"
+        },
+        {
+          "accessed": "2026-11-27",
+          "channel": "supplier_site",
+          "publisher": "Benexia",
+          "title": "XIA Protein",
+          "url": "https://www.benexia.com/en/ingredients/xia-protein/",
+          "whatItContributes": "去脂微磨、小於 125 μm、43% 蛋白、28% 纖維、9% ALA、PDCAAS 0.95，以及 10 g／10%–15% 的配方句。"
+        },
+        {
+          "accessed": "2026-11-27",
+          "channel": "supplier_site",
+          "publisher": "Benexia",
+          "title": "Benexia 聯絡頁的經銷名單",
+          "url": "https://www.benexia.com/en/contact/",
+          "whatItContributes": "亞洲名單是印度與東南亞，沒有台灣。總部在聖地牙哥 Vitacura。"
+        },
+        {
+          "accessed": "2026-11-27",
+          "channel": "other",
+          "publisher": "PEKTOS",
+          "title": "PEKTOS 的 Benexia 奇亞蛋白頁",
+          "url": "https://www.pektos.ch/products-services/benexia-natural-xia-fiber-and-protein/",
+          "whatItContributes": "瑞士與奧地利的區域經銷，品項寫 Xia Seed Protein 125 W LM。不是台灣公司。"
+        }
+      ],
+      "supply": {
+        "relationship": "unknown",
+        "relationshipNote": "2026-11-27 以 XIA Protein、Xia Seed Protein、Benexia、奇亞蛋白、奇亞籽蛋白、Salvia hispanica，搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索，並打開 Benexia 聯絡頁的經銷名單、產品頁、新樂康首頁與登盛原料總覽。經銷名單的亞洲是印度 Scope 與東南亞的 DPO，沒有台灣；頁寫名單以外的市場由智利總部接洽。新樂康首頁與登盛總覽沒有 Benexia 或 XIA Protein。肯寶、金德恩、祥榮是奇亞籽成品，不是這支蛋白粉。Sheer Superfood 的奇亞籽蛋白頁寫供應地在中國陝西西安，沒有寫 Benexia。展昭搜尋結果曾出現 BIOTRUE CO., LTD. 展出 Benexia Xia Powder 435，特性寫 56% 膳食纖維，那是纖維規格；稍後直接開啟同一網址只剩空白，沒有核到公司中文登記名，也不把纖維粉升成 XIA Protein 的代理。缺的是打得開的 BIOTRUE 產品頁。同日再以「XIA Protein 台灣」複查，仍沒有蛋白規格的產品頁。查核日 2026-11-27。",
+        "supplierCountry": "智利",
+        "supplierName": "Benexia",
+        "taiwanPartyName": "待確認"
+      },
+      "tfda": {
+        "evidenceNotes": "XIA Protein、奇亞與奇亞籽在原料和添加物都是 0 筆。鼠尾草種子（id 17044）學名 Salvia hispanica L.、部位種子，次分類可供直接食用，備註要求標示對花生等核果過敏者應小心食用。另一筆鼠尾草（id 17007）是 Salvia columbariae。去脂蛋白粉沒有單獨列名，種子列名不是 43% 蛋白規格的許可。",
+        "lookupDate": "2026-11-27",
+        "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+        "officialCrosscheck": {
+          "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+          "done": true,
+          "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+          "notes": "2026-11-27 連線 consumer.fda.gov.tw 的 id 17044 詳細頁出現 SSL_ERROR_SYSCALL，沒有取得官方詳細頁。查詢助手細節時間戳 2026-11-26 06:15。警語以助手裡 id 17044 的備註為準。"
+        },
+        "queries": [
+          {
+            "category": "",
+            "keyword": "XIA Protein",
+            "matchedName": "",
+            "note": "商品名 0 筆。單獨的 XIA 會命中酵母菌與念珠藤，不是這個字串。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "奇亞籽",
+            "matchedName": "",
+            "note": "奇亞、奇亞籽都是 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Salvia hispanica",
+            "matchedName": "鼠尾草種子",
+            "note": "外文 chia seed 命中同一筆。",
+            "restrictionNote": "id 17044。大分類可供食品使用之原料。次分類為草、木本植物類(2)可供直接食用。外文名 chia seed。學名 Salvia hispanica L.。部位種子。備註：應標示「對花生等核果過敏者應小心食用」。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "鼠尾草",
+            "matchedName": "鼠尾草種子等",
+            "note": "這個關鍵字裡有未確認的其他鼠尾草，所以標 true。XIA Protein 對的是 id 17044，不是那些未確認列。",
+            "restrictionNote": "id 17044 是本筆。id 17007 是 Salvia columbariae 的種子，中文也寫鼠尾草。id 16799 是 Salvia officinalis 全草。另有白鼠尾草、墨西哥鼠尾草、日本紫花鼠尾草、西班牙鼠尾草在未確認分類。",
+            "resultCount": 9,
+            "tab": "ingredient",
+            "unconfirmedSafety": true
+          },
+          {
+            "category": "",
+            "keyword": "奇亞",
+            "matchedName": "",
+            "note": "中文在添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "chia",
+            "matchedName": "",
+            "note": "英文在添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "鼠尾草種子",
+            "matchedName": "",
+            "note": "助手更新歷程（2026-11-01 至 2026-11-26）沒有鼠尾草種子或 XIA Protein。資料時間戳 2026-11-26 06:15。",
             "restrictionNote": "",
             "resultCount": 0,
             "tab": "history",

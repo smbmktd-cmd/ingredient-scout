@@ -1,0 +1,182 @@
+{
+  "id": "biovivo-ginseng",
+  "example": false,
+  "names": {
+    "commonZh": "西洋參根萃取",
+    "commonEn": "American ginseng root extract",
+    "trade": "無獨立商品名。BioVivo Science 以水溶性西洋參萃取供應，頁上沒有另取品牌名。",
+    "scientific": "Panax quinquefolius（亦寫 Panax quinquefolium。BioVivo 寫美國栽種的根，威斯康辛為主。不是亞洲人參 Panax ginseng，也不是未確認分類裡人參的果實、莖、籽。）"
+  },
+  "supply": {
+    "supplierName": "BioVivo Science",
+    "supplierCountry": "美國",
+    "relationship": "unknown",
+    "taiwanPartyName": "綠茵生技（目錄寫 Givaudan 的西洋蔘萃取）；登盛企業（原料表有西洋參萃取物，未寫原廠）；怡得國際（乾燥磨粉）；美商德曼生技台灣分公司（目錄寫西洋蔘萃取、人參皂苷 7%）",
+    "relationshipNote": "2026-11-27 以 BioVivo、BioVivo Science、西洋參萃取、粉光參、花旗參、Panax quinquefolius、American ginseng extract，搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索，並打開綠茵代理頁、登盛原料總覽、怡得機能原料頁、德曼植物萃取頁與 BioVivo 日本上市稿。四家台灣頁都沒有寫 BioVivo。綠茵寫原廠是 Givaudan。怡得規格是乾燥磨粉，不是水溶萃取。德曼寫人參皂苷 7%，沒有寫 Rb1、Re、Rg1 的拆分，不能當成 BioVivo 2026-10-06 稿的合計 7%。同植物不等於這個原廠的代理。BioVivo 稿寫供應越南、韓國、日本與美國，沒有寫台灣公司。同日再以「BioVivo 台灣」複查，命中的是中國儀器商佰奥维欧，不是這家植物萃取廠。查核日 2026-11-27。"
+  },
+  "tfda": {
+    "usable": "listed_food_ingredient",
+    "evidenceNotes": "BioVivo 是 0 筆。西洋參、粉光參與 Panax quinquefolius 命中同一筆（id 16975），部位根，次分類可供直接食用，備註是不得單一原料使用。人參根是 Panax ginseng；果實、莖、籽那筆在未確認分類，不是西洋參根。添加物沒有西洋參。根的列名沒有寫水溶萃取或皂苷百分比。",
+    "lookupDate": "2026-11-27",
+    "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+    "queries": [
+      {
+        "tab": "ingredient",
+        "keyword": "BioVivo",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "公司名 0 筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "西洋參",
+        "category": "",
+        "resultCount": 1,
+        "matchedName": "西洋參；粉光參；花旗參",
+        "restrictionNote": "id 16975。大分類可供食品使用之原料。次分類為草、木本植物類(2)可供直接食用。外文名 American ginseng。學名 Panax quinquefolium L., Panax quinquefolius。部位根。備註：不得單一原料使用。",
+        "unconfirmedSafety": false,
+        "note": "粉光參與 Panax quinquefolius 命中同一筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "人參",
+        "category": "",
+        "resultCount": 7,
+        "matchedName": "西洋參；人參；人參花與葉等",
+        "restrictionNote": "id 16975 是本筆。id 16974 人參根是 Panax ginseng，備註也寫不得單一原料使用。id 16250 人參的部位是果實、莖、籽，未確認安全性，不得供為食品原料。id 16241 刺人參是另一屬。",
+        "unconfirmedSafety": true,
+        "note": "這個關鍵字裡有未確認列，所以標 true。BioVivo 對的是西洋參根 id 16975。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "西洋參",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "中文在添加物 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "ginseng",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "英文在添加物 0 筆。"
+      },
+      {
+        "tab": "history",
+        "keyword": "西洋參",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "助手更新歷程（2026-11-01 至 2026-11-26）沒有西洋參。資料時間戳 2026-11-26 06:15。"
+      }
+    ],
+    "officialCrosscheck": {
+      "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+      "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+      "done": true,
+      "notes": "2026-11-27 連線 consumer.fda.gov.tw 的 id 16975 詳細頁出現 SSL_ERROR_SYSCALL，沒有取得官方詳細頁。查詢助手細節時間戳 2026-11-26 06:15。「不得單一原料使用」以助手備註為準。"
+    }
+  },
+  "efficacy": {
+    "claimedBenefits": [
+      "WholeFoods Magazine 2026-09-25 的原料巡禮：BioVivo 的西洋參來自威斯康辛馬拉松郡的根，做成水溶性萃取，並寫人參皂苷與免疫、內分泌有關。這是供應商提供給雜誌的句子，沒有毫克或人數。",
+      "BioVivo 2026-10-06 的日本上市稿：萃取標準化為 Rb1、Re、Rg1 合計至少 7%，其中 Rb1 至少 5%；製程是五年根，水與乙醇萃取後噴霧乾燥。稿寫用於壓力、疲勞、免疫與認知，這是公司對 Rb1 的說法。",
+      "PubMed 20676609：32 名健康年輕人的交叉試驗，材料是 Cereboost（Naturex 的西洋參萃取，標準化人參皂苷約 10.65% 或 11.65%，摘要與內文兩處不一致），單次 100、200 或 400 mg。摘要寫工作記憶有改善，血糖沒有變化。這不是 BioVivo 的萃取。"
+    ],
+    "suggestedDosage": "BioVivo 這次打開的產品頁、WholeFoods 段落與日本上市稿都沒有寫每日毫克。Cereboost 試驗的單次劑量是 100、200 或 400 mg。",
+    "dosageNote": "100–400 mg 是另一家萃取的單次試驗劑量，不能套成 BioVivo 的建議量，也不是平台上限。平台只寫不得單一原料使用。"
+  },
+  "patent": {
+    "status": "unknown",
+    "refs": [],
+    "note": "2026-11-27 以 BioVivo Science、American ginseng Jeffersonville 查專利，沒有對到這家公司名下的公開號。綠茵頁寫 Givaudan 那支西洋蔘萃取有美國專利，那不是 BioVivo。沒有查完，不寫成無。"
+  },
+  "literature": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "Effects of American ginseng (Panax quinquefolius) on neurocognitive function",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/20676609/",
+        "note": "Psychopharmacology，2010。32 人、Cereboost、單次 100／200／400 mg。PMID 20676609。摘要沒有寫 BioVivo。"
+      }
+    ],
+    "note": "有西洋參萃取的人體交叉試驗，材料不是 BioVivo。WholeFoods 2026-06-01 寫 BioVivo 正在做壓力、認知與安全性的生物標記研究，那是進行中的公司說法，這次沒有對到論文。"
+  },
+  "evidenceLevels": [
+    "clinical"
+  ],
+  "images": [
+    {
+      "url": "https://biovivoscience.com/wp-content/uploads/2025/05/american-ginseng_3NEW.png",
+      "localPath": "",
+      "caption": "BioVivo Science 官網西洋參產品頁的圖片。",
+      "source": "official_site"
+    }
+  ],
+  "sources": [
+    {
+      "title": "65+ Innovative and In-Demand Ingredients",
+      "url": "https://www.wholefoodsmagazine.com/articles/18138-65-innovative-and-in-demand-ingredients",
+      "publisher": "WholeFoods Magazine",
+      "channel": "industry_report",
+      "accessed": "2026-11-27",
+      "whatItContributes": "2026-09-25：供應商巡禮裡的西洋參段，寫威斯康辛根與水溶性萃取。沒有毫克。"
+    },
+    {
+      "title": "American Ginseng",
+      "url": "https://biovivoscience.com/ingredients/american-ginseng/",
+      "publisher": "BioVivo Science",
+      "channel": "supplier_site",
+      "accessed": "2026-11-27",
+      "whatItContributes": "學名 Panax quinquefolius，人參皂苷 Rg1、Re、Rb1，以及水溶萃取、標準萃取、直粉三種型態。沒有毫克。"
+    },
+    {
+      "title": "BioVivo 的日本上市稿",
+      "url": "https://biovivoscience.com/standardized-to-more-than-5-rb1-organically-grown-american-ginseng-makes-its-japan-market-debut/",
+      "publisher": "BioVivo Science",
+      "channel": "news",
+      "accessed": "2026-11-27",
+      "whatItContributes": "2026-10-06：合計至少 7%（Rb1、Re、Rg1），Rb1 至少 5%，水與乙醇萃取。供應地寫越南、韓國、美國與日本，沒有台灣。"
+    },
+    {
+      "title": "PubMed 20676609",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20676609/",
+      "publisher": "PubMed／Psychopharmacology",
+      "channel": "paper",
+      "accessed": "2026-11-27",
+      "whatItContributes": "Cereboost 的人數與單次劑量。不是 BioVivo。"
+    },
+    {
+      "title": "綠茵的西洋蔘萃取",
+      "url": "https://www.greenynbio.com/product/agent/",
+      "publisher": "綠茵生技",
+      "channel": "other",
+      "accessed": "2026-11-27",
+      "whatItContributes": "台灣目錄寫原廠 Givaudan。不是 BioVivo。"
+    },
+    {
+      "title": "登盛原料總覽",
+      "url": "https://www.masterasia.com.tw/content.php?id=5687",
+      "publisher": "登盛企業",
+      "channel": "other",
+      "accessed": "2026-11-27",
+      "whatItContributes": "有一列西洋參萃取物，沒有寫原廠或 BioVivo。"
+    }
+  ],
+  "discovery": {
+    "channel": "industry_report",
+    "scoutDate": "2026-11-27",
+    "notes": "從 WholeFoods Magazine 2026-09-25 的原料巡禮進入 BioVivo 產品頁與 2026-10-06 日本上市稿，再對 PubMed 20676609。Cereboost 與 Givaudan 的萃取沒有併成這個原廠。人參果實、莖、籽的未確認列沒有併進根這一筆。"
+  }
+}

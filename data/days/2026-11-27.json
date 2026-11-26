@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-27",
+  "example": false,
+  "title": "2026-11-27 正式日報",
+  "targetCount": 5,
+  "channelsCovered": [
+    "news",
+    "exhibition",
+    "industry_report"
+  ],
+  "notes": "正式五筆。主管道：PeptiSleep、UREX 為新聞；Collavant n2、XIA Protein 為展覽；BioVivo 西洋參萃取為產業報導。未收未確認安全性項目：槐樹花與果實（Quercefit 的來源，Sophora japonica，id 16519）、鋸棕櫚果實（VeriPalmetto，Serenoa repens，id 16336）、總序天冬（Fenavari 含的 Asparagus racemosus，id 16069）。水解膠原蛋白胜肽不是未變性二型膠原。Salvia officinalis 不是奇亞籽。稻殼不是糙米蛋白水解物。人參的果實、莖、籽不是西洋參根。",
+  "picks": [
+    "peptisleep",
+    "urex",
+    "collavant-n2",
+    "xia-protein",
+    "biovivo-ginseng"
+  ]
+}

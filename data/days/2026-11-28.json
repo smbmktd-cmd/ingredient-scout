@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-28",
+  "example": false,
+  "title": "2026-11-28 正式日報",
+  "targetCount": 5,
+  "channelsCovered": [
+    "news",
+    "exhibition",
+    "industry_report"
+  ],
+  "notes": "正式五筆。主管道：Eriomin、Zooca Calanus Oil 為新聞；LX03、INGOOD CLEAR 為展覽；GLYCARE 2FL/DFL 為產業報導。未收未確認安全性項目：芒果葉（Zynamite S 的部位，Mangifera indica，id 16220）、麥角硫因純化物（id 17744）、吡咯喹啉醌二鈉鹽（id 17743）、嗜粘蛋白阿克曼菌（id 16441）、心葉青牛膽（id 16363）、神經醯胺純化物（id 16538）。香檸檬不是檸檬。山扁豆不是小扁豆。單獨的 2′-岩藻糖基乳糖不是 2FL/DFL 混合物。DSM 33407 的專利頁沒有寫 LX03。",
+  "picks": [
+    "eriomin",
+    "lx03",
+    "zooca-calanus",
+    "ingood-clear",
+    "glycare-2fl-dfl"
+  ]
+}

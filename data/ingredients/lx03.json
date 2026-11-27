@@ -1,0 +1,170 @@
+{
+  "id": "lx03",
+  "example": false,
+  "names": {
+    "commonZh": "微小克里斯滕森氏菌 LX03",
+    "commonEn": "Christensenella minuta LX03",
+    "trade": "LX03（Verb Biotics 的菌株商品名）",
+    "scientific": "Christensenella minuta。2026-10-20 新聞稿寫菌株來自健康人體，非基改，並寫自評 GRAS。US20240318130A1 另寫寄存編號 DSM 33407，該頁沒有出現 LX03，不能把兩個編號當成同一株。"
+  },
+  "supply": {
+    "supplierName": "Verb Biotics",
+    "supplierCountry": "美國",
+    "relationship": "unknown",
+    "taiwanPartyName": "本次查無台灣關聯廠商",
+    "relationshipNote": "2026-11-28 以 LX03、Verb Biotics、Christensenella、Christensenella minuta、Ysopia，搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索。打開的 Verb 產品頁、2026-10-20 新聞稿與 SupplySide 預告沒有台灣公司。綠茵生技代理頁這次讀到的段落是磷蝦油，沒有 LX03 或 Christensenella。同日再以「LX03 台灣」「Christensenella 台灣 益生菌」獨立複查，沒有台灣廠商的產品頁或代理頁。查核日 2026-11-28。"
+  },
+  "tfda": {
+    "usable": "not_found",
+    "evidenceNotes": "LX03 與 Christensenella 在原料和添加物都是 0 筆。乳酸菌那一列的學名串沒有這個屬。查無不是准用，也不是禁用。更新歷程到 2026-11-27 沒有這兩個詞。",
+    "lookupDate": "2026-11-28",
+    "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+    "queries": [
+      {
+        "tab": "ingredient",
+        "keyword": "LX03",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名 0 筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Christensenella",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "屬名 0 筆。沒有落在未確認分類。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "LX03",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名在添加物 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "Christensenella",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "屬名在添加物 0 筆。"
+      },
+      {
+        "tab": "history",
+        "keyword": "Christensenella",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "助手更新歷程（2026-11-01 至 2026-11-27）沒有 LX03 或 Christensenella。資料時間戳 2026-11-27 06:21。"
+      }
+    ],
+    "officialCrosscheck": {
+      "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+      "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+      "done": true,
+      "notes": "2026-11-28 連線 consumer.fda.gov.tw 出現 SSL_ERROR_SYSCALL，沒有取得官方詳細頁。查詢助手細節時間戳 2026-11-27 06:21。上述 0 筆以助手資料為準。"
+    }
+  },
+  "efficacy": {
+    "claimedBenefits": [
+      "SupplySide Supplement Journal 2026-10-15：LX03 是新上市的 Christensenella minuta，會產生膽鹽水解酶，把結合型膽鹽拆成游離酸，並寫影響腸與肝之間的代謝。這是展前預告的句子，沒有人數或 p 值。",
+      "Verb 產品頁：建議每日 10 億 AFU，用於代謝與健康老化的粉、膠囊與條包。頁寫這株的膽鹽水解酶會改寫腸與肝之間的訊號。同頁的常見問答沒有列出已發表的 LX03 人體試驗。",
+      "Verb 2026 年訪談頁：公司說細胞與動物看過這個機制，六人先導試驗才剛開始，結果預期 2027 年初，其後才做正式臨床。這是公司對尚未發表資料的說法。"
+    ],
+    "suggestedDosage": "產品頁與 2026-10-20 新聞稿都寫每日 10 億 AFU（active fluorescent units）。",
+    "dosageNote": "10 億 AFU 是供應商建議的每日活菌計數，不是法規上限，也還沒有對到已發表的人體試驗劑量。AFU 是螢光計數，不是 CFU。"
+  },
+  "patent": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "US20240318130A1 Bacterial strain belonging to the genus christensenella, and compositions",
+        "url": "https://patents.google.com/patent/US20240318130A1/en",
+        "note": "申請人欄為 Verb Biotics LLC，由 Ysopia 移轉。摘要寫 Christensenella minuta，寄存編號 DSM 33407。公開頁標題與摘要沒有 LX03。狀態是申請。讀取日 2026-11-28。"
+      }
+    ],
+    "note": "2026-10-20 新聞稿寫公司持有 29 件已核准、涵蓋其 C. minuta 菌株的專利，稿內沒有號碼。DSM 33407 這一件不能直接寫成 LX03 的專利。"
+  },
+  "literature": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "Identifying a Novel Bile Salt Hydrolase from the Keystone Gut Bacterium Christensenella minuta",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/34207623/",
+        "note": "Microorganisms，2021。PMID 34207623。標題是鑑定這個菌種的膽鹽水解酶。Verb 產品頁把這篇放在機制參考。論文發表早於 LX03 商品名，摘要沒有寫 LX03。"
+      }
+    ],
+    "note": "有這個菌種的膽鹽水解酶論文，不是 LX03 的人體試驗。公司說的細胞、動物與六人先導都還沒有對到公開論文。"
+  },
+  "evidenceLevels": [
+    "in_vitro"
+  ],
+  "images": [
+    {
+      "url": "https://verbbiotics.com/wp-content/uploads/2026/09/R3_LX03-BileSaltGutLiver-Illustration.png",
+      "localPath": "",
+      "caption": "Verb 官網 LX03 頁的腸與肝示意圖，不是菌粉照片。",
+      "source": "official_site"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ingredient innovations to watch: A SupplySide Global preview",
+      "url": "https://www.supplysidesj.com/supplements/ingredient-innovations-to-watch-a-supplyside-global-preview",
+      "publisher": "SupplySide Supplement Journal",
+      "channel": "exhibition",
+      "accessed": "2026-11-28",
+      "whatItContributes": "2026-10-15：SupplySide Global 預告把 LX03 列為新上市的 Christensenella minuta，並寫膽鹽水解酶。"
+    },
+    {
+      "title": "Christensenella minuta, LX03",
+      "url": "https://verbbiotics.com/verb-biotics-lx03-christensenella-minuta/",
+      "publisher": "Verb Biotics",
+      "channel": "supplier_site",
+      "accessed": "2026-11-28",
+      "whatItContributes": "每日 10 億 AFU、粉與膠囊，以及菌株來自 Ysopia 菌庫的公司說法。"
+    },
+    {
+      "title": "Verb Biotics launches LX03",
+      "url": "https://insider.fitt.co/press-release/verb-biotics-launches-lx03-a-commercial-christensenella-minuta-strain-for-metabolic-health/",
+      "publisher": "Verb Biotics（經 Fitt Insider 刊出的新聞稿）",
+      "channel": "news",
+      "accessed": "2026-11-28",
+      "whatItContributes": "2026-10-20：Boulder 發稿、自評 GRAS、29 件專利的公司說法，以及 10 億 AFU。"
+    },
+    {
+      "title": "PMID 34207623",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34207623/",
+      "publisher": "Microorganisms",
+      "channel": "paper",
+      "accessed": "2026-11-28",
+      "whatItContributes": "2021 年菌種膽鹽水解酶論文。沒有 LX03。"
+    },
+    {
+      "title": "US20240318130A1",
+      "url": "https://patents.google.com/patent/US20240318130A1/en",
+      "publisher": "Google Patents",
+      "channel": "patent",
+      "accessed": "2026-11-28",
+      "whatItContributes": "Verb 名下的 Christensenella 菌株申請，寄存編號 DSM 33407。標題沒有 LX03。"
+    }
+  ],
+  "discovery": {
+    "channel": "exhibition",
+    "scoutDate": "2026-11-28",
+    "notes": "從 SupplySide Global 2026 的展前預告進入 Verb 產品頁、2026-10-20 新聞稿、PMID 34207623 與 US20240318130A1。嗜黏蛋白阿克曼菌在同一則預告裡，那一筆是未確認分類，沒有收進來。DSM 33407 沒有寫成 LX03 的寄存號。"
+  }
+}

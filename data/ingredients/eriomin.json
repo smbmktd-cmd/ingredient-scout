@@ -1,0 +1,205 @@
+{
+  "id": "eriomin",
+  "example": false,
+  "names": {
+    "commonZh": "檸檬果實類黃酮萃取物（聖草次苷）",
+    "commonEn": "lemon fruit flavonoid extract (eriocitrin)",
+    "trade": "Eriomin（Ingredients by Nature 的檸檬類黃酮商品名）",
+    "scientific": "Citrus limon（官網寫只從成熟果實萃取。2019 年論文寫複方約 70% eriocitrin、5% hesperidin、4% naringin、1% didymin。不是香檸檬 Citrus bergamia。）"
+  },
+  "supply": {
+    "supplierName": "Ingredients by Nature",
+    "supplierCountry": "美國",
+    "relationship": "taiwan_distributor",
+    "taiwanPartyName": "韋鎮實業有限公司（目錄列出 Eriomin；未寫總代理或獨家）",
+    "relationshipNote": "2026-11-28 以 Eriomin、Ingredients by Nature、檸檬類黃酮、eriocitrin、聖草次苷、Citrus limon，搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索，並打開韋鎮首頁、商品分類頁與亞洲生技展系列的攤商產品頁。韋鎮分類頁標題是「Eriomin® 專利檸檬萃取物」，首頁把它放在最新商品。關於頁寫公司做天然保健食品素材的進出口，沒有把 Eriomin 單獨寫成獨家。展會頁的廠商名稱是韋鎮，產品分類寫原料／萃取物。這些是韋鎮與展會頁，不是 Ingredients by Nature 官網的夥伴名單。同日再以「Eriomin 台灣」複查，仍是這幾頁。查核日 2026-11-28。"
+  },
+  "tfda": {
+    "usable": "listed_food_ingredient",
+    "evidenceNotes": "Eriomin 與 eriocitrin 在原料和添加物都是 0 筆。Citrus limon 命中檸檬（id 17109），可供直接食用，部位果實（含果皮），備註空白，不是未確認分類。關鍵字「檸檬」另有 14 筆，其中檸檬香桃、檸檬酸鍶、台灣香檬的欄位出現未確認字樣，那些不是這顆果實。添加物的「檸檬」25 筆是檸檬酸鹽，不是果實。果實列名不是這個萃取劑量的核准。",
+    "lookupDate": "2026-11-28",
+    "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+    "queries": [
+      {
+        "tab": "ingredient",
+        "keyword": "Eriomin",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名 0 筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Citrus limon",
+        "category": "",
+        "resultCount": 1,
+        "matchedName": "檸檬",
+        "restrictionNote": "id 17109。次分類為草、木本植物類(2)可供直接食用。外文名 Lemon。部位果實(含果皮)。備註空白。",
+        "unconfirmedSafety": false,
+        "note": "這一筆是果實，不是類黃酮規格。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "檸檬",
+        "category": "",
+        "resultCount": 14,
+        "matchedName": "檸檬（另含其他以檸檬為名的列）",
+        "restrictionNote": "14 筆裡有 id 17109 的檸檬果實。同一次搜尋也落到檸檬馬鞭草、檸檬草、香檸檬等。檸檬香桃、檸檬酸鍶、台灣香檬的欄位出現「未確認安全性」。",
+        "unconfirmedSafety": true,
+        "note": "因為這組裡有未確認列，所以這個關鍵字標 true。Eriomin 對到的是 id 17109，不是那些列。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "eriocitrin",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "聖草次苷英文 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "Eriomin",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名在添加物 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "Citrus limon",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "學名在添加物 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "檸檬",
+        "category": "",
+        "resultCount": 25,
+        "matchedName": "檸檬酸及其鹽類等",
+        "restrictionNote": "看到的是檸檬酸、檸檬酸鈉、檸檬酸鈣、檸檬油醛等。不是檸檬果實。",
+        "unconfirmedSafety": false,
+        "note": "中文落在檸檬酸相關添加物。"
+      },
+      {
+        "tab": "history",
+        "keyword": "Eriomin",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "助手更新歷程（2026-11-01 至 2026-11-27）沒有 Eriomin、eriocitrin 或檸檬果實這幾個詞。資料時間戳 2026-11-27 06:21。"
+      }
+    ],
+    "officialCrosscheck": {
+      "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+      "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+      "done": true,
+      "notes": "2026-11-28 連線 consumer.fda.gov.tw 的檸檬詳細頁（id 17109）出現 SSL_ERROR_SYSCALL，沒有取得官方 HTML。查詢助手細節時間戳 2026-11-27 06:21，欄位含該官方詳細頁網址。未確認列沒有併進 id 17109。"
+    }
+  },
+  "efficacy": {
+    "claimedBenefits": [
+      "NutraIngredients 2026-11-19：Lemme 的 GLP-1 Production Support 膠囊把 Eriomin 寫成主要成分，並寫它是有專利的檸檬複方、臨床上用來支持身體自己的 GLP-1。這是報導轉述品牌的句子。",
+      "Eriomin 官網：只從成熟果實萃取，主成分是 eriocitrin。頁上寫三篇隨機雙盲安慰劑試驗以 200 mg/日，GLP-1 相對安慰劑平均增加 17.5%，其中一篇最高 22%。這是公司頁的彙總。",
+      "Phytotherapy Research（PMC6618084）：103 名糖尿病前期成人，200、400 或 800 mg，12 週。摘要寫三個劑量都讓血糖約降 5%、胰島素阻抗約降 7%，並寫 24% 的人從糖尿病前期回到正常血糖。作者寫這是短期試驗。"
+    ],
+    "suggestedDosage": "官網與 2022、2023 年試驗常用 200 mg/日。2019 年試驗同時用 200、400、800 mg/日。專利 US10596185B2 的請求項寫每日 100–200 mg eriocitrin。",
+    "dosageNote": "200 mg 是供應商頁和多篇試驗的複方每日劑量，不是平台上限。平台檸檬果實沒有毫克上限。專利請求項寫的是 eriocitrin 的毫克，不是整顆複方的毫克。2019 年論文寫複方約含 70% eriocitrin。"
+  },
+  "patent": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "US10596185B2 Flavonoid compositions and uses thereof",
+        "url": "https://patents.google.com/patent/US10596185B2/en",
+        "note": "說明書把 ERIOMIN 寫成可含 eriocitrin 的組成。請求項 1 是每日 100–200 mg eriocitrin 以降血糖。權利人欄見該頁。讀取日 2026-11-28。"
+      },
+      {
+        "title": "US11197880B2 Use of eriocitrin compositions for increasing GLP-1 levels",
+        "url": "https://patents.google.com/patent/US11197880B2/en",
+        "note": "受讓人 Ingredients By Nature LLC。說明書寫 Eriomin 含檸檬等柑橘的 eriocitrin 與 hesperidin，並寫分析組成為 70% eriocitrin、5% hesperidin、4% naringin、1% didymin。請求項是用 eriocitrin 提高 GLP-1。讀取日 2026-11-28。"
+      }
+    ],
+    "note": "兩件都寫到 Eriomin 或 eriocitrin。韋鎮頁寫「美國、世界專利」，沒有號碼。"
+  },
+  "literature": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "Effectiveness of Eriomin in managing hyperglycemia and reversal of prediabetes condition",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6618084/",
+        "note": "Phytotherapy Research。DOI 10.1002/ptr.6386。103 人，200／400／800 mg，12 週。材料由 Ingredients by Nature 提供。"
+      }
+    ],
+    "note": "這篇是人體隨機雙盲試驗。官網另列 2022 年 Journal of Medicinal Food 與 2023 年 Food Science & Nutrition，這次以 2019 年這篇的摘要數字為準，沒有把三篇的百分比併成同一張表。"
+  },
+  "evidenceLevels": [
+    "clinical"
+  ],
+  "images": [
+    {
+      "url": "https://www.eriomin.com/header_lemons.jpg",
+      "localPath": "",
+      "caption": "Eriomin 官網首頁的檸檬照片，不是萃取粉末。",
+      "source": "official_site"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Weight-loss companion supplements target satiety, spikes and side effects",
+      "url": "https://www.nutraingredients.com/Article/2026/11/19/weight-loss-companion-supplements-target-satiety-spikes-and-side-effects/",
+      "publisher": "NutraIngredients",
+      "channel": "news",
+      "accessed": "2026-11-28",
+      "whatItContributes": "2026-11-19：Lemme 膠囊把 Eriomin 寫成主要成分，並轉述 GLP-1 的品牌說法。沒有寫毫克。"
+    },
+    {
+      "title": "Eriomin",
+      "url": "https://www.eriomin.com/",
+      "publisher": "Ingredients by Nature",
+      "channel": "supplier_site",
+      "accessed": "2026-11-28",
+      "whatItContributes": "成熟果實、eriocitrin，以及 200 mg 與 17.5% 的公司彙總。"
+    },
+    {
+      "title": "PMC6618084",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6618084/",
+      "publisher": "Phytotherapy Research",
+      "channel": "paper",
+      "accessed": "2026-11-28",
+      "whatItContributes": "103 人、三個劑量、12 週，以及摘要裡的血糖與 24% 回正常。"
+    },
+    {
+      "title": "US11197880B2",
+      "url": "https://patents.google.com/patent/US11197880B2/en",
+      "publisher": "Google Patents",
+      "channel": "patent",
+      "accessed": "2026-11-28",
+      "whatItContributes": "受讓人與 70% eriocitrin 的組成句子。"
+    },
+    {
+      "title": "Eriomin 專利檸檬萃取物",
+      "url": "https://www.phfcorp.com.tw/page/product/p02.aspx?kind=78",
+      "publisher": "韋鎮實業有限公司",
+      "channel": "other",
+      "accessed": "2026-11-28",
+      "whatItContributes": "台灣目錄列出這個商品名。沒有寫總代理。"
+    }
+  ],
+  "discovery": {
+    "channel": "news",
+    "scoutDate": "2026-11-28",
+    "notes": "從 NutraIngredients 2026-11-19 的體重管理新品巡禮進入 Eriomin 官網、PMC6618084 與 US11197880B2。香檸檬是另一筆。關鍵字「檸檬」裡的未確認列沒有併進 id 17109。韋鎮目錄沒有寫成原廠證實的獨家代理。"
+  }
+}

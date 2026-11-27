@@ -7,6 +7,987 @@ window.INGREDIENT_CATALOG = {
         "exhibition",
         "industry_report"
       ],
+      "date": "2026-11-28",
+      "example": false,
+      "notes": "正式五筆。主管道：Eriomin、Zooca Calanus Oil 為新聞；LX03、INGOOD CLEAR 為展覽；GLYCARE 2FL/DFL 為產業報導。未收未確認安全性項目：芒果葉（Zynamite S 的部位，Mangifera indica，id 16220）、麥角硫因純化物（id 17744）、吡咯喹啉醌二鈉鹽（id 17743）、嗜粘蛋白阿克曼菌（id 16441）、心葉青牛膽（id 16363）、神經醯胺純化物（id 16538）。香檸檬不是檸檬。山扁豆不是小扁豆。單獨的 2′-岩藻糖基乳糖不是 2FL/DFL 混合物。DSM 33407 的專利頁沒有寫 LX03。",
+      "picks": [
+        {
+          "discovery": {
+            "channel": "news",
+            "notes": "從 NutraIngredients 2026-11-19 的體重管理新品巡禮進入 Eriomin 官網、PMC6618084 與 US11197880B2。香檸檬是另一筆。關鍵字「檸檬」裡的未確認列沒有併進 id 17109。韋鎮目錄沒有寫成原廠證實的獨家代理。",
+            "scoutDate": "2026-11-28"
+          },
+          "efficacy": {
+            "claimedBenefits": [
+              "NutraIngredients 2026-11-19：Lemme 的 GLP-1 Production Support 膠囊把 Eriomin 寫成主要成分，並寫它是有專利的檸檬複方、臨床上用來支持身體自己的 GLP-1。這是報導轉述品牌的句子。",
+              "Eriomin 官網：只從成熟果實萃取，主成分是 eriocitrin。頁上寫三篇隨機雙盲安慰劑試驗以 200 mg/日，GLP-1 相對安慰劑平均增加 17.5%，其中一篇最高 22%。這是公司頁的彙總。",
+              "Phytotherapy Research（PMC6618084）：103 名糖尿病前期成人，200、400 或 800 mg，12 週。摘要寫三個劑量都讓血糖約降 5%、胰島素阻抗約降 7%，並寫 24% 的人從糖尿病前期回到正常血糖。作者寫這是短期試驗。"
+            ],
+            "dosageNote": "200 mg 是供應商頁和多篇試驗的複方每日劑量，不是平台上限。平台檸檬果實沒有毫克上限。專利請求項寫的是 eriocitrin 的毫克，不是整顆複方的毫克。2019 年論文寫複方約含 70% eriocitrin。",
+            "suggestedDosage": "官網與 2022、2023 年試驗常用 200 mg/日。2019 年試驗同時用 200、400、800 mg/日。專利 US10596185B2 的請求項寫每日 100–200 mg eriocitrin。"
+          },
+          "evidenceLevels": [
+            "clinical"
+          ],
+          "example": false,
+          "id": "eriomin",
+          "images": [
+            {
+              "caption": "Eriomin 官網首頁的檸檬照片，不是萃取粉末。",
+              "localPath": "",
+              "source": "official_site",
+              "url": "https://www.eriomin.com/header_lemons.jpg"
+            }
+          ],
+          "literature": {
+            "note": "這篇是人體隨機雙盲試驗。官網另列 2022 年 Journal of Medicinal Food 與 2023 年 Food Science & Nutrition，這次以 2019 年這篇的摘要數字為準，沒有把三篇的百分比併成同一張表。",
+            "refs": [
+              {
+                "note": "Phytotherapy Research。DOI 10.1002/ptr.6386。103 人，200／400／800 mg，12 週。材料由 Ingredients by Nature 提供。",
+                "title": "Effectiveness of Eriomin in managing hyperglycemia and reversal of prediabetes condition",
+                "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6618084/"
+              }
+            ],
+            "status": "yes"
+          },
+          "names": {
+            "commonEn": "lemon fruit flavonoid extract (eriocitrin)",
+            "commonZh": "檸檬果實類黃酮萃取物（聖草次苷）",
+            "scientific": "Citrus limon（官網寫只從成熟果實萃取。2019 年論文寫複方約 70% eriocitrin、5% hesperidin、4% naringin、1% didymin。不是香檸檬 Citrus bergamia。）",
+            "trade": "Eriomin（Ingredients by Nature 的檸檬類黃酮商品名）"
+          },
+          "patent": {
+            "note": "兩件都寫到 Eriomin 或 eriocitrin。韋鎮頁寫「美國、世界專利」，沒有號碼。",
+            "refs": [
+              {
+                "note": "說明書把 ERIOMIN 寫成可含 eriocitrin 的組成。請求項 1 是每日 100–200 mg eriocitrin 以降血糖。權利人欄見該頁。讀取日 2026-11-28。",
+                "title": "US10596185B2 Flavonoid compositions and uses thereof",
+                "url": "https://patents.google.com/patent/US10596185B2/en"
+              },
+              {
+                "note": "受讓人 Ingredients By Nature LLC。說明書寫 Eriomin 含檸檬等柑橘的 eriocitrin 與 hesperidin，並寫分析組成為 70% eriocitrin、5% hesperidin、4% naringin、1% didymin。請求項是用 eriocitrin 提高 GLP-1。讀取日 2026-11-28。",
+                "title": "US11197880B2 Use of eriocitrin compositions for increasing GLP-1 levels",
+                "url": "https://patents.google.com/patent/US11197880B2/en"
+              }
+            ],
+            "status": "yes"
+          },
+          "sources": [
+            {
+              "accessed": "2026-11-28",
+              "channel": "news",
+              "publisher": "NutraIngredients",
+              "title": "Weight-loss companion supplements target satiety, spikes and side effects",
+              "url": "https://www.nutraingredients.com/Article/2026/11/19/weight-loss-companion-supplements-target-satiety-spikes-and-side-effects/",
+              "whatItContributes": "2026-11-19：Lemme 膠囊把 Eriomin 寫成主要成分，並轉述 GLP-1 的品牌說法。沒有寫毫克。"
+            },
+            {
+              "accessed": "2026-11-28",
+              "channel": "supplier_site",
+              "publisher": "Ingredients by Nature",
+              "title": "Eriomin",
+              "url": "https://www.eriomin.com/",
+              "whatItContributes": "成熟果實、eriocitrin，以及 200 mg 與 17.5% 的公司彙總。"
+            },
+            {
+              "accessed": "2026-11-28",
+              "channel": "paper",
+              "publisher": "Phytotherapy Research",
+              "title": "PMC6618084",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6618084/",
+              "whatItContributes": "103 人、三個劑量、12 週，以及摘要裡的血糖與 24% 回正常。"
+            },
+            {
+              "accessed": "2026-11-28",
+              "channel": "patent",
+              "publisher": "Google Patents",
+              "title": "US11197880B2",
+              "url": "https://patents.google.com/patent/US11197880B2/en",
+              "whatItContributes": "受讓人與 70% eriocitrin 的組成句子。"
+            },
+            {
+              "accessed": "2026-11-28",
+              "channel": "other",
+              "publisher": "韋鎮實業有限公司",
+              "title": "Eriomin 專利檸檬萃取物",
+              "url": "https://www.phfcorp.com.tw/page/product/p02.aspx?kind=78",
+              "whatItContributes": "台灣目錄列出這個商品名。沒有寫總代理。"
+            }
+          ],
+          "supply": {
+            "relationship": "taiwan_distributor",
+            "relationshipNote": "2026-11-28 以 Eriomin、Ingredients by Nature、檸檬類黃酮、eriocitrin、聖草次苷、Citrus limon，搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索，並打開韋鎮首頁、商品分類頁與亞洲生技展系列的攤商產品頁。韋鎮分類頁標題是「Eriomin® 專利檸檬萃取物」，首頁把它放在最新商品。關於頁寫公司做天然保健食品素材的進出口，沒有把 Eriomin 單獨寫成獨家。展會頁的廠商名稱是韋鎮，產品分類寫原料／萃取物。這些是韋鎮與展會頁，不是 Ingredients by Nature 官網的夥伴名單。同日再以「Eriomin 台灣」複查，仍是這幾頁。查核日 2026-11-28。",
+            "supplierCountry": "美國",
+            "supplierName": "Ingredients by Nature",
+            "taiwanPartyName": "韋鎮實業有限公司（目錄列出 Eriomin；未寫總代理或獨家）"
+          },
+          "tfda": {
+            "evidenceNotes": "Eriomin 與 eriocitrin 在原料和添加物都是 0 筆。Citrus limon 命中檸檬（id 17109），可供直接食用，部位果實（含果皮），備註空白，不是未確認分類。關鍵字「檸檬」另有 14 筆，其中檸檬香桃、檸檬酸鍶、台灣香檬的欄位出現未確認字樣，那些不是這顆果實。添加物的「檸檬」25 筆是檸檬酸鹽，不是果實。果實列名不是這個萃取劑量的核准。",
+            "lookupDate": "2026-11-28",
+            "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+            "officialCrosscheck": {
+              "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+              "done": true,
+              "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+              "notes": "2026-11-28 連線 consumer.fda.gov.tw 的檸檬詳細頁（id 17109）出現 SSL_ERROR_SYSCALL，沒有取得官方 HTML。查詢助手細節時間戳 2026-11-27 06:21，欄位含該官方詳細頁網址。未確認列沒有併進 id 17109。"
+            },
+            "queries": [
+              {
+                "category": "",
+                "keyword": "Eriomin",
+                "matchedName": "",
+                "note": "商品名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Citrus limon",
+                "matchedName": "檸檬",
+                "note": "這一筆是果實，不是類黃酮規格。",
+                "restrictionNote": "id 17109。次分類為草、木本植物類(2)可供直接食用。外文名 Lemon。部位果實(含果皮)。備註空白。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "檸檬",
+                "matchedName": "檸檬（另含其他以檸檬為名的列）",
+                "note": "因為這組裡有未確認列，所以這個關鍵字標 true。Eriomin 對到的是 id 17109，不是那些列。",
+                "restrictionNote": "14 筆裡有 id 17109 的檸檬果實。同一次搜尋也落到檸檬馬鞭草、檸檬草、香檸檬等。檸檬香桃、檸檬酸鍶、台灣香檬的欄位出現「未確認安全性」。",
+                "resultCount": 14,
+                "tab": "ingredient",
+                "unconfirmedSafety": true
+              },
+              {
+                "category": "",
+                "keyword": "eriocitrin",
+                "matchedName": "",
+                "note": "聖草次苷英文 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Eriomin",
+                "matchedName": "",
+                "note": "商品名在添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Citrus limon",
+                "matchedName": "",
+                "note": "學名在添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "檸檬",
+                "matchedName": "檸檬酸及其鹽類等",
+                "note": "中文落在檸檬酸相關添加物。",
+                "restrictionNote": "看到的是檸檬酸、檸檬酸鈉、檸檬酸鈣、檸檬油醛等。不是檸檬果實。",
+                "resultCount": 25,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Eriomin",
+                "matchedName": "",
+                "note": "助手更新歷程（2026-11-01 至 2026-11-27）沒有 Eriomin、eriocitrin 或檸檬果實這幾個詞。資料時間戳 2026-11-27 06:21。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "history",
+                "unconfirmedSafety": false
+              }
+            ],
+            "usable": "listed_food_ingredient"
+          }
+        },
+        {
+          "discovery": {
+            "channel": "exhibition",
+            "notes": "從 SupplySide Global 2026 的展前預告進入 Verb 產品頁、2026-10-20 新聞稿、PMID 34207623 與 US20240318130A1。嗜黏蛋白阿克曼菌在同一則預告裡，那一筆是未確認分類，沒有收進來。DSM 33407 沒有寫成 LX03 的寄存號。",
+            "scoutDate": "2026-11-28"
+          },
+          "efficacy": {
+            "claimedBenefits": [
+              "SupplySide Supplement Journal 2026-10-15：LX03 是新上市的 Christensenella minuta，會產生膽鹽水解酶，把結合型膽鹽拆成游離酸，並寫影響腸與肝之間的代謝。這是展前預告的句子，沒有人數或 p 值。",
+              "Verb 產品頁：建議每日 10 億 AFU，用於代謝與健康老化的粉、膠囊與條包。頁寫這株的膽鹽水解酶會改寫腸與肝之間的訊號。同頁的常見問答沒有列出已發表的 LX03 人體試驗。",
+              "Verb 2026 年訪談頁：公司說細胞與動物看過這個機制，六人先導試驗才剛開始，結果預期 2027 年初，其後才做正式臨床。這是公司對尚未發表資料的說法。"
+            ],
+            "dosageNote": "10 億 AFU 是供應商建議的每日活菌計數，不是法規上限，也還沒有對到已發表的人體試驗劑量。AFU 是螢光計數，不是 CFU。",
+            "suggestedDosage": "產品頁與 2026-10-20 新聞稿都寫每日 10 億 AFU（active fluorescent units）。"
+          },
+          "evidenceLevels": [
+            "in_vitro"
+          ],
+          "example": false,
+          "id": "lx03",
+          "images": [
+            {
+              "caption": "Verb 官網 LX03 頁的腸與肝示意圖，不是菌粉照片。",
+              "localPath": "",
+              "source": "official_site",
+              "url": "https://verbbiotics.com/wp-content/uploads/2026/09/R3_LX03-BileSaltGutLiver-Illustration.png"
+            }
+          ],
+          "literature": {
+            "note": "有這個菌種的膽鹽水解酶論文，不是 LX03 的人體試驗。公司說的細胞、動物與六人先導都還沒有對到公開論文。",
+            "refs": [
+              {
+                "note": "Microorganisms，2021。PMID 34207623。標題是鑑定這個菌種的膽鹽水解酶。Verb 產品頁把這篇放在機制參考。論文發表早於 LX03 商品名，摘要沒有寫 LX03。",
+                "title": "Identifying a Novel Bile Salt Hydrolase from the Keystone Gut Bacterium Christensenella minuta",
+                "url": "https://pubmed.ncbi.nlm.nih.gov/34207623/"
+              }
+            ],
+            "status": "yes"
+          },
+          "names": {
+            "commonEn": "Christensenella minuta LX03",
+            "commonZh": "微小克里斯滕森氏菌 LX03",
+            "scientific": "Christensenella minuta。2026-10-20 新聞稿寫菌株來自健康人體，非基改，並寫自評 GRAS。US20240318130A1 另寫寄存編號 DSM 33407，該頁沒有出現 LX03，不能把兩個編號當成同一株。",
+            "trade": "LX03（Verb Biotics 的菌株商品名）"
+          },
+          "patent": {
+            "note": "2026-10-20 新聞稿寫公司持有 29 件已核准、涵蓋其 C. minuta 菌株的專利，稿內沒有號碼。DSM 33407 這一件不能直接寫成 LX03 的專利。",
+            "refs": [
+              {
+                "note": "申請人欄為 Verb Biotics LLC，由 Ysopia 移轉。摘要寫 Christensenella minuta，寄存編號 DSM 33407。公開頁標題與摘要沒有 LX03。狀態是申請。讀取日 2026-11-28。",
+                "title": "US20240318130A1 Bacterial strain belonging to the genus christensenella, and compositions",
+                "url": "https://patents.google.com/patent/US20240318130A1/en"
+              }
+            ],
+            "status": "yes"
+          },
+          "sources": [
+            {
+              "accessed": "2026-11-28",
+              "channel": "exhibition",
+              "publisher": "SupplySide Supplement Journal",
+              "title": "Ingredient innovations to watch: A SupplySide Global preview",
+              "url": "https://www.supplysidesj.com/supplements/ingredient-innovations-to-watch-a-supplyside-global-preview",
+              "whatItContributes": "2026-10-15：SupplySide Global 預告把 LX03 列為新上市的 Christensenella minuta，並寫膽鹽水解酶。"
+            },
+            {
+              "accessed": "2026-11-28",
+              "channel": "supplier_site",
+              "publisher": "Verb Biotics",
+              "title": "Christensenella minuta, LX03",
+              "url": "https://verbbiotics.com/verb-biotics-lx03-christensenella-minuta/",
+              "whatItContributes": "每日 10 億 AFU、粉與膠囊，以及菌株來自 Ysopia 菌庫的公司說法。"
+            },
+            {
+              "accessed": "2026-11-28",
+              "channel": "news",
+              "publisher": "Verb Biotics（經 Fitt Insider 刊出的新聞稿）",
+              "title": "Verb Biotics launches LX03",
+              "url": "https://insider.fitt.co/press-release/verb-biotics-launches-lx03-a-commercial-christensenella-minuta-strain-for-metabolic-health/",
+              "whatItContributes": "2026-10-20：Boulder 發稿、自評 GRAS、29 件專利的公司說法，以及 10 億 AFU。"
+            },
+            {
+              "accessed": "2026-11-28",
+              "channel": "paper",
+              "publisher": "Microorganisms",
+              "title": "PMID 34207623",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/34207623/",
+              "whatItContributes": "2021 年菌種膽鹽水解酶論文。沒有 LX03。"
+            },
+            {
+              "accessed": "2026-11-28",
+              "channel": "patent",
+              "publisher": "Google Patents",
+              "title": "US20240318130A1",
+              "url": "https://patents.google.com/patent/US20240318130A1/en",
+              "whatItContributes": "Verb 名下的 Christensenella 菌株申請，寄存編號 DSM 33407。標題沒有 LX03。"
+            }
+          ],
+          "supply": {
+            "relationship": "unknown",
+            "relationshipNote": "2026-11-28 以 LX03、Verb Biotics、Christensenella、Christensenella minuta、Ysopia，搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索。打開的 Verb 產品頁、2026-10-20 新聞稿與 SupplySide 預告沒有台灣公司。綠茵生技代理頁這次讀到的段落是磷蝦油，沒有 LX03 或 Christensenella。同日再以「LX03 台灣」「Christensenella 台灣 益生菌」獨立複查，沒有台灣廠商的產品頁或代理頁。查核日 2026-11-28。",
+            "supplierCountry": "美國",
+            "supplierName": "Verb Biotics",
+            "taiwanPartyName": "本次查無台灣關聯廠商"
+          },
+          "tfda": {
+            "evidenceNotes": "LX03 與 Christensenella 在原料和添加物都是 0 筆。乳酸菌那一列的學名串沒有這個屬。查無不是准用，也不是禁用。更新歷程到 2026-11-27 沒有這兩個詞。",
+            "lookupDate": "2026-11-28",
+            "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+            "officialCrosscheck": {
+              "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+              "done": true,
+              "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+              "notes": "2026-11-28 連線 consumer.fda.gov.tw 出現 SSL_ERROR_SYSCALL，沒有取得官方詳細頁。查詢助手細節時間戳 2026-11-27 06:21。上述 0 筆以助手資料為準。"
+            },
+            "queries": [
+              {
+                "category": "",
+                "keyword": "LX03",
+                "matchedName": "",
+                "note": "商品名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Christensenella",
+                "matchedName": "",
+                "note": "屬名 0 筆。沒有落在未確認分類。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "LX03",
+                "matchedName": "",
+                "note": "商品名在添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Christensenella",
+                "matchedName": "",
+                "note": "屬名在添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Christensenella",
+                "matchedName": "",
+                "note": "助手更新歷程（2026-11-01 至 2026-11-27）沒有 LX03 或 Christensenella。資料時間戳 2026-11-27 06:21。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "history",
+                "unconfirmedSafety": false
+              }
+            ],
+            "usable": "not_found"
+          }
+        },
+        {
+          "discovery": {
+            "channel": "news",
+            "notes": "從 NutraIngredients 2026-09-11 的 ZOΩ3GO 軟膠囊新聞進入 Zooca 產品頁、Marine Drugs 2025 與 2024-10 的兩則若羽臣合作稿。軟膠囊裡的鯷魚油不是這支。福布斯與原廠稿對「總代／跨境獨家」用詞不同，沒有併成同一句。鯨蠟烯酸濃縮魚油與磷蝦油都不是這個物種。",
+            "scoutDate": "2026-11-28"
+          },
+          "efficacy": {
+            "claimedBenefits": [
+              "Zooca 產品頁：油來自 Calanus finmarchicus，主要是液態蠟，並寫含海洋 policosanol、SDA、EPA、DHA 與蝦紅素。頁上的肌肉、體組成與抗發炎是公司句子，沒有人數。",
+              "Marine Drugs 2025（DOI 10.3390/md23040139）：266 名肥胖且有胰島素阻抗的人，12 週，分 2 g/日、4 g/日、2 g/日加生活調整、石蠟油安慰劑。摘要寫 HOMA 的變化受起始值影響（交互作用 p = 0.011）；事後分析裡，2 g 加生活調整的估計差是 −0.19（p = 0.021），輕度阻抗者用 4 g 的估計差是 −0.76（p = 0.043）。",
+              "Lehvoss 2026-10 產品頁：另寫一項 43 名成人、2 g/日、12–16 週的隨機雙盲試驗，用來談血糖與胰島素敏感度。這和 266 人那篇不是同一項。歐盟新穎食品修正 2025/1513 的上限，頁上寫一般 14 歲以上每日 3.1 g，且蝦紅素低於 7.75 mg/日。"
+            ],
+            "dosageNote": "1–2 g 是經銷頁說的常見補充劑量。2 g 與 4 g 是 2025 年試驗的每日劑量。3.1 g 是該頁所引的歐盟新穎食品上限，不是台灣平台的限量。平台這次沒有這一筆。",
+            "suggestedDosage": "Lehvoss 頁寫常見是每日 1–2 g（兩到四顆 500 mg）。論文把 2 g/日寫成既往常用量，並另外測了 4 g/日。同頁寫歐盟上限 3.1 g/日（14 歲以上）。"
+          },
+          "evidenceLevels": [
+            "clinical"
+          ],
+          "example": false,
+          "id": "zooca-calanus",
+          "images": [
+            {
+              "caption": "Zooca 官網脂質產品頁的圖片。",
+              "localPath": "",
+              "source": "official_site",
+              "url": "https://zooca.eu/wp-content/uploads/2021/09/Zooca_Lipids-500.jpg"
+            }
+          ],
+          "literature": {
+            "note": "這篇是人體隨機雙盲試驗，主要終點受起始 HOMA 影響。43 人那項只出現在經銷頁，這次沒有另對到論文，不併進證據等級。",
+            "refs": [
+              {
+                "note": "Marine Drugs，2025。DOI 10.3390/md23040139。266 人、2 g 或 4 g、12 週。材料寫 Zooca Lipids，Tromsø。表 4 寫每 100 g 油含 EPA 6.9 g、DHA 6.4 g、蝦紅素 0.1 g。",
+                "title": "Calanus Oil and Lifestyle Interventions Improve Glucose Homeostasis in Obese Subjects with Insulin Resistance",
+                "url": "https://www.mdpi.com/1660-3397/23/4/139"
+              }
+            ],
+            "status": "yes"
+          },
+          "names": {
+            "commonEn": "Calanus finmarchicus oil (wax esters)",
+            "commonZh": "飛馬哲水蚤油（蠟酯）",
+            "scientific": "Calanus finmarchicus（北大西洋的橈足類，原廠稿寫挪威北部沿岸特別多。油的主要脂質是蠟酯。不是磷蝦 Euphausia superba，也不是鯡魚濃縮的鯨蠟烯酸油，更不是雨生紅球藻的蝦紅素原料。）",
+            "trade": "Zooca Calanus Oil（Calanus AS 的商品名；亦寫 Zooca Lipids）"
+          },
+          "patent": {
+            "note": "2026-11-28 以 Zooca、Calanus AS、Calanus finmarchicus、wax ester 查公開專利，沒有對到標題寫這個商品名、申請人為 Calanus AS 的公告號。不把沒查完寫成無。",
+            "refs": [],
+            "status": "unknown"
+          },
+          "sources": [
+            {
+              "accessed": "2026-11-28",
+              "channel": "news",
+              "publisher": "NutraIngredients",
+              "title": "Lehvoss and Zooca combine calanus oil with Golden Omega to launch ZOΩ3GO Softgels",
+              "url": "https://www.nutraingredients.com/Article/2026/09/11/lehvoss-and-zooca-combine-calanus-oil-with-golden-omega-to-launch-zo3go-softgels/",
+              "whatItContributes": "2026-09-11：成品軟膠囊把 Zooca 的 Calanus finmarchicus 油和鯷魚魚油放在一起。蠟酯與魚油三酸甘油酯是兩種脂質。"
+            },
+            {
+              "accessed": "2026-11-28",
+              "channel": "supplier_site",
+              "publisher": "Zooca（Calanus AS）",
+              "title": "Zooca Calanus Oil",
+              "url": "https://zooca.eu/zooca-lipids/",
+              "whatItContributes": "物種、蠟酯、policosanol、SDA／EPA／DHA 與蝦紅素的公司說法。"
+            },
+            {
+              "accessed": "2026-11-28",
+              "channel": "paper",
+              "publisher": "Marine Drugs",
+              "title": "Marine Drugs 2025",
+              "url": "https://www.mdpi.com/1660-3397/23/4/139",
+              "whatItContributes": "266 人、2 g 與 4 g、12 週，以及摘要裡的 p 值與組成表。"
+            },
+            {
+              "accessed": "2026-11-28",
+              "channel": "news",
+              "publisher": "Zooca（Calanus AS）",
+              "title": "Zooca and RYC strategic cooperation",
+              "url": "https://www.mynewsdesk.com/no/calanus-as/pressreleases/zooca-r-calanus-as-and-ryc-announce-strategic-cooperation-to-bring-zooca-r-calanus-r-oil-to-the-chinese-market-3351660",
+              "whatItContributes": "2024-10-30：原廠稿寫若羽臣的跨境獨家範圍含台灣，並寫蠟酯 91.5%。"
+            },
+            {
+              "accessed": "2026-11-28",
+              "channel": "news",
+              "publisher": "福布斯中國",
+              "title": "若羽臣與 Zooca Calanus 達成合作",
+              "url": "https://www.forbeschina.com/investment/68970",
+              "whatItContributes": "2024-10-29：寫大中華區品牌總代與紅寶石油原料總經銷。該段沒有寫「台灣」。"
+            },
+            {
+              "accessed": "2026-11-28",
+              "channel": "other",
+              "publisher": "LEHVOSS Nutrition",
+              "title": "Zooca Calanus Oil product profile",
+              "url": "https://www.lehvoss-nutrition.com/images/news/8th_October_2026/Zooca_PPS_NA_Oct2026_2.pdf",
+              "whatItContributes": "常見 1–2 g、43 人試驗的經銷頁說法，以及歐盟 3.1 g/日上限。"
+            }
+          ],
+          "supply": {
+            "relationship": "unknown",
+            "relationshipNote": "2026-11-28 以 Zooca、Calanus Oil、Calanus finmarchicus、哲水蚤、飛馬哲，搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索，並打開 Zooca 2024-10-30 新聞稿、福布斯中國 2024-10-29 報導與 Lehvoss 產品頁。Zooca 稿寫若羽臣是中國大陸、香港、澳門與台灣跨境電商平台的獨家經銷。福布斯中文寫若羽臣是大中華區品牌總代，以及紅寶石油原料的總經銷，該段沒有再寫「台灣」二字。兩處用詞不同，都留下。若羽臣不是這次查到的台灣登記公司。沒有看到台灣公司自己的原料產品頁。查核日 2026-11-28。",
+            "supplierCountry": "挪威",
+            "supplierName": "Zooca（Calanus AS）",
+            "taiwanPartyName": "若羽臣（Ruoyuchen；中國公司。稿上的範圍寫到台灣）"
+          },
+          "tfda": {
+            "evidenceNotes": "Zooca、Calanus、飛馬哲在原料和添加物都是 0 筆。平台上的魚油、磷蝦油、藻油 DHA 與雨生紅球藻蝦紅素不是這支蠟酯油。查無不是准用，也不是禁用。更新歷程到 2026-11-27 沒有這些詞。",
+            "lookupDate": "2026-11-28",
+            "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+            "officialCrosscheck": {
+              "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+              "done": true,
+              "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+              "notes": "2026-11-28 連線 consumer.fda.gov.tw 出現 SSL_ERROR_SYSCALL，沒有取得官方詳細頁。查詢助手細節時間戳 2026-11-27 06:21。上述 0 筆以助手資料為準。"
+            },
+            "queries": [
+              {
+                "category": "",
+                "keyword": "Zooca",
+                "matchedName": "",
+                "note": "商品名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Calanus",
+                "matchedName": "",
+                "note": "學名屬名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "飛馬哲",
+                "matchedName": "",
+                "note": "中文 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Calanus",
+                "matchedName": "",
+                "note": "學名在添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Zooca",
+                "matchedName": "",
+                "note": "商品名在添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Calanus",
+                "matchedName": "",
+                "note": "助手更新歷程（2026-11-01 至 2026-11-27）沒有 Zooca、Calanus 或飛馬哲。資料時間戳 2026-11-27 06:21。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "history",
+                "unconfirmedSafety": false
+              }
+            ],
+            "usable": "not_found"
+          }
+        },
+        {
+          "discovery": {
+            "channel": "exhibition",
+            "notes": "從 Food Ingredients First 2026-11-25 的 Fi Europe 展後報導進入 Les Echos、Ingredients Network 與 NutraIngredients 特稿。isolate 與水解物、鉀鎂與鉀鈉鋅都留下。盛美的澳洲扁豆蛋白沒有寫成這支的經銷。山扁豆的未確認列沒有併進小扁豆。",
+            "scoutDate": "2026-11-28"
+          },
+          "efficacy": {
+            "claimedBenefits": [
+              "Food Ingredients First 2026-11-25：Fi Europe 現場推出透明扁豆蛋白，報導寫蛋白高於 70%，並寫概念飲料每 500 mL 有 20 g 蛋白。同篇有一處用 isolate。礦物質寫鉀與鎂，而且說概念飲沒有另加電解質。",
+              "NutraIngredients 的產品特稿（2026-10-02，標為宣傳內容）：寫法國非基改扁豆的水解物，蛋白高於 70%，溶於酸性飲料，礦物質寫鉀、鈉與鋅。",
+              "Les Echos 2026-11-16 與 Agra 2026-09-30：兩篇都寫法國扁豆蛋白水解物，蛋白高於 70%，用來做透明、低黏度的蛋白飲料。沒有寫臨床人數。"
+            ],
+            "dosageNote": "20 g 是報導裡的成品蛋白量，不是供應商的每日建議，也不是平台上限。平台只列小扁豆種子，沒有蛋白百分比。",
+            "suggestedDosage": "這次打開的頁面沒有寫每日毫克。展場概念是每 500 mL 飲料 20 g 蛋白，不是原料的建議食用量。"
+          },
+          "evidenceLevels": [],
+          "example": false,
+          "id": "ingood-clear",
+          "images": [
+            {
+              "caption": "Ingood by Olga 官網的標誌，不是 INGOOD CLEAR 的粉末照片。",
+              "localPath": "",
+              "source": "official_site",
+              "url": "https://ingoodbyolga.com/wp-content/uploads/2023/04/cropped-ing-270x270.png"
+            }
+          ],
+          "literature": {
+            "note": "展會與新聞寫的是溶解、黏度與蛋白含量。這次沒有對到這支水解物的同儕論文，不把功能句子寫成臨床，也不把尚未查完寫成無。",
+            "refs": [],
+            "status": "unknown"
+          },
+          "names": {
+            "commonEn": "lentil protein hydrolysate",
+            "commonZh": "扁豆蛋白水解物（透明飲料用）",
+            "scientific": "Lens culinaris（法國非基改扁豆的種子做成水解物。Les Echos 與 Agra 寫水解物、蛋白高於 70%。Food Ingredients First 有一處寫 isolate。不是豌豆，也不是蠶豆。白扁豆 Dolichos lablab 與未確認的山扁豆是另外的列。）",
+            "trade": "INGOOD CLEAR（Ingood by Olga 的商品名；亦寫 Ingood Clear）"
+          },
+          "patent": {
+            "note": "2026-11-28 以 INGOOD CLEAR、Ingood by Olga、lentil protein hydrolysate 查公開專利，沒有對到標題寫這個商品名的公告號。不把沒查完寫成無。",
+            "refs": [],
+            "status": "unknown"
+          },
+          "sources": [
+            {
+              "accessed": "2026-11-28",
+              "channel": "exhibition",
+              "publisher": "Food Ingredients First",
+              "title": "Fi Europe 2026 review: Whey scarcity accelerates shift toward alternative proteins",
+              "url": "https://www.foodingredientsfirst.com/news/fi-europe-2026-whey-prices-accelerate-alternative-proteins.html",
+              "whatItContributes": "2026-11-25：Fi Europe 現場的透明扁豆蛋白、20 g／500 mL，以及鉀、鎂與 isolate 的用詞。"
+            },
+            {
+              "accessed": "2026-11-28",
+              "channel": "news",
+              "publisher": "Les Echos",
+              "title": "Olga mise sur la lentille pour verdir les boissons des sportifs",
+              "url": "https://www.lesechos.fr/pme-regions/bretagne/olga-mise-sur-la-lentille-pour-verdir-les-boissons-des-sportifs-2262830",
+              "whatItContributes": "2026-11-16：法國扁豆蛋白水解物，蛋白高於 70%，商品名 Ingood Clear。"
+            },
+            {
+              "accessed": "2026-11-28",
+              "channel": "supplier_site",
+              "publisher": "Ingredients Network",
+              "title": "Ingood Clear",
+              "url": "https://www.ingredientsnetwork.com/ingoodclear-prod1329314.html",
+              "whatItContributes": "水解物、蛋白高於 70%、法國非基改扁豆，以及公司地址 Noyal-sur-Vilaine。"
+            },
+            {
+              "accessed": "2026-11-28",
+              "channel": "industry_report",
+              "publisher": "NutraIngredients",
+              "title": "INGOOD CLEAR product innovation",
+              "url": "https://www.nutraingredients.com/Product-innovations/ingoodclear-a-french-lentil-protein-hydrolysate-rich-in-protein-and-naturally-occurring-minerals/",
+              "whatItContributes": "宣傳特稿：水解物，礦物質寫鉀、鈉、鋅。與展後報導的鉀、鎂不同。"
+            },
+            {
+              "accessed": "2026-11-28",
+              "channel": "other",
+              "publisher": "Food Ingredients First",
+              "title": "Ingood by Olga supplier profile",
+              "url": "https://www.foodingredientsfirst.com/supplier-profiles/ingood-by-olga.html",
+              "whatItContributes": "供應商頁把 INGOOD CLEAR 列在健康原料，和 Lengood、Sulfodyne 分開。"
+            }
+          ],
+          "supply": {
+            "relationship": "unknown",
+            "relationshipNote": "2026-11-28 以 INGOOD CLEAR、Ingood Clear、Ingood by Olga、Olga、扁豆蛋白水解、lentil protein hydrolysate、Lens culinaris，搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索，並打開 Ingredients Network 產品頁、Food Ingredients First 的供應商頁與展後報導。原廠頁與展會報導沒有台灣公司。盛美股份有限公司的頁面賣的是 Australian Plant Proteins 的黃扁豆與紅扁豆蛋白粉，頁上沒有 INGOOD 或 Olga。同化合物的另一家蛋白粉不是這個商品名的經銷。同日再以「Ingood 台灣」「INGOOD CLEAR Taiwan」獨立複查，沒有台灣廠商的產品頁或代理頁。查核日 2026-11-28。",
+            "supplierCountry": "法國",
+            "supplierName": "Ingood by Olga",
+            "taiwanPartyName": "本次查無台灣關聯廠商"
+          },
+          "tfda": {
+            "evidenceNotes": "INGOOD 在原料和添加物都是 0 筆。小扁豆與 Lens culinaris 命中同一筆（id 16946），可供直接食用，部位種子，備註空白。關鍵字「扁豆」另有白扁豆，以及未確認的山扁豆，那兩列不是小扁豆。列名沒有水解物或蛋白百分比，不是這個規格的核准。",
+            "lookupDate": "2026-11-28",
+            "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+            "officialCrosscheck": {
+              "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+              "done": true,
+              "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+              "notes": "2026-11-28 連線 consumer.fda.gov.tw 的小扁豆詳細頁（id 16946）出現 SSL_ERROR_SYSCALL，沒有取得官方 HTML。查詢助手細節時間戳 2026-11-27 06:21，欄位含該官方詳細頁網址。山扁豆的未確認沒有併進 id 16946。"
+            },
+            "queries": [
+              {
+                "category": "",
+                "keyword": "INGOOD",
+                "matchedName": "",
+                "note": "商品名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "小扁豆",
+                "matchedName": "小扁豆；金麥豌；臭生豆",
+                "note": "種子這一筆。沒有水解物規格。",
+                "restrictionNote": "id 16946。次分類為草、木本植物類(2)可供直接食用。外文名 Lentil。學名 Lens esculenta Moench, Lens culinaris。部位種子。備註空白。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Lens culinaris",
+                "matchedName": "小扁豆；金麥豌；臭生豆",
+                "note": "學名命中同一列。",
+                "restrictionNote": "同一筆 id 16946。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "扁豆",
+                "matchedName": "小扁豆；另有白扁豆與山扁豆",
+                "note": "因為山扁豆是未確認，所以這個關鍵字標 true。INGOOD CLEAR 對到的是小扁豆種子。",
+                "restrictionNote": "白扁豆是 Dolichos lablab，部位有葉與種子。山扁豆在未確認分類。小扁豆是 id 16946。",
+                "resultCount": 4,
+                "tab": "ingredient",
+                "unconfirmedSafety": true
+              },
+              {
+                "category": "",
+                "keyword": "小扁豆",
+                "matchedName": "",
+                "note": "中文在添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "Lens",
+                "matchedName": "",
+                "note": "學名在添加物 0 筆。海葡萄的學名含 lentillifera，那是另一個詞，這次用 Lens 沒有命中。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "INGOOD",
+                "matchedName": "",
+                "note": "商品名在添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "小扁豆",
+                "matchedName": "",
+                "note": "助手更新歷程（2026-11-01 至 2026-11-27）沒有小扁豆或 INGOOD。資料時間戳 2026-11-27 06:21。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "history",
+                "unconfirmedSafety": false
+              }
+            ],
+            "usable": "listed_food_ingredient"
+          }
+        },
+        {
+          "discovery": {
+            "channel": "industry_report",
+            "notes": "從 ZMUni 2026 年 6 月法規月報的台灣 2'-FL/DFL 公告，對到食藥署 1151300977、助手 id 17747、加拿大衛生部把 MAP1001d 列在 Glycom 的表，以及 dsm-firmenich 的 GLYCARE 2FL/DFL 產品頁。單獨 2′-FL（id 17558）沒有併進混合物。創百自述的是 2FL 授權經銷，沒有升格成混合物的原廠獨家。",
+            "scoutDate": "2026-11-28"
+          },
+          "efficacy": {
+            "claimedBenefits": [
+              "dsm-firmenich 產品頁：2'FL 在母乳中約 2 g/L，並寫臨床研究描述 2'FL 對嬰兒健康有正向支持。DFL 的句子寫的是臨床前：可能減少病原菌黏附，並選擇性支持雙歧桿菌。頁上同時寫「will be available」與「is available commercially」。",
+              "2026-03-05 公司新聞：馬來西亞與泰國核准 2FL/DFL（GLYCARE 2FL/DFL 8001）用於嬰兒配方、較大嬰兒配方與兒童配方奶粉。該稿沒有寫台灣，也沒有寫人數。",
+              "產品頁引用的 Coppa 2006 與 Cravioto 1991 是細胞黏附試驗，Yu 2013 是嬰兒菌群培養。這些不是混合物的人體試驗。"
+            ],
+            "dosageNote": "1.6 g/L 與 1.2 g/L 是台灣公告的食品限量，不是保健食品的每日膠囊劑量。歐盟補充品那一句來自 2019 年報導，這次的商品頁沒有對應毫克。單獨 2′-FL（id 17558）的限量都是 1.2 g/L，不能套用混合物的 1.6 g/L。",
+            "suggestedDosage": "台灣公告：嬰兒與較大嬰兒配方 1.6 g/L，專供七歲以下兒童的乳粉或類似產品 1.2 g/L，以即食或沖調後計算。2019-12-02 NutraIngredients 對歐盟新穎食品的報導另寫嬰兒配方 1.6 g/L、較大嬰兒與幼兒食品 1.2 g/L，並寫補充品可用於不含嬰兒的一般族群。商品頁沒有寫成人每日毫克。"
+          },
+          "evidenceLevels": [
+            "cell"
+          ],
+          "example": false,
+          "id": "glycare-2fl-dfl",
+          "images": [
+            {
+              "caption": "dsm-firmenich 官網 GLYCARE 2FL/DFL 產品頁的頁面縮圖，不是粉末近照。",
+              "localPath": "",
+              "source": "official_site",
+              "url": "https://www.dsm-firmenich.com/en/businesses/health-nutrition-care/products/hmos/hmos-for-early-life/glycare-2fl-dfl.thumb.800.480.png"
+            }
+          ],
+          "literature": {
+            "note": "產品頁列出的是細胞與菌群培養。頁上「2'FL 的臨床研究」沒有給出這支混合物的試驗人數。證據等級只標細胞。",
+            "refs": [
+              {
+                "note": "Pediatric Research，2006。產品頁把它列為 DFL 相關的細胞黏附文獻。這次沒有讀完全文，不把它寫成混合物的臨床。",
+                "title": "Human milk oligosaccharides inhibit the adhesion to Caco-2 cells of diarrheal pathogens",
+                "url": "https://doi.org/10.1203/01.pdr.0000200805.45593.17"
+              }
+            ],
+            "status": "yes"
+          },
+          "names": {
+            "commonEn": "2'-fucosyllactose and difucosyllactose mixture",
+            "commonZh": "2′-岩藻糖基乳糖與雙岩藻糖基乳糖混合物",
+            "scientific": "不適用植物學名。寡糖混合物。加拿大衛生部 2022-07-22 的新穎食品表把大腸桿菌 K-12（DH1）MDO MAP1001d 產的 2′-FL 列在 Glycom A/S。台灣 2026-06-24 公告的混合物也寫這個菌株。不是半乳寡糖，也不是蔗果三糖。單獨的 2′-岩藻糖基乳糖是平台上的另一筆。",
+            "trade": "GLYCARE 2FL/DFL（dsm-firmenich 的商品名；2026-03-05 新聞稿另寫規格 8001）"
+          },
+          "patent": {
+            "note": "有 Glycom 的 DFL 結晶專利。沒有把商品名寫進專利標題。",
+            "refs": [
+              {
+                "note": "受讓人 Glycom A/S。請求項是結晶雙岩藻糖基乳糖，並寫可作為 2′-FL 製程的副產物。標題沒有 GLYCARE。讀取日 2026-11-28。",
+                "title": "US10500221B2 Crystalline difucosyllactose",
+                "url": "https://patents.google.com/patent/US10500221B2/en"
+              }
+            ],
+            "status": "yes"
+          },
+          "sources": [
+            {
+              "accessed": "2026-11-28",
+              "channel": "industry_report",
+              "publisher": "ZMUni Compliance Centre",
+              "title": "Monthly Update: China and Global Food Regulatory Highlights, June 2026",
+              "url": "https://www.zmuni.com/en/news/monthlyupdatechinaglobalfoodregulatoryhighlightsjune2026/",
+              "whatItContributes": "2026-06 法規月報：台灣 2026-06-24 以衛授食字第1151300977號訂定 MAP1001d 所產 2'-FL/DFL 混合物的使用限制。"
+            },
+            {
+              "accessed": "2026-11-28",
+              "channel": "supplier_site",
+              "publisher": "dsm-firmenich",
+              "title": "GLYCARE 2FL/DFL",
+              "url": "https://www.dsm-firmenich.com/en/businesses/health-nutrition-care/products/hmos/hmos-for-early-life/glycare-2fl-dfl.html",
+              "whatItContributes": "商品名、母乳中 2'FL 約 2 g/L，以及 DFL 的臨床前句子。頁上同時有即將上市與已經商業化兩種說法。"
+            },
+            {
+              "accessed": "2026-11-28",
+              "channel": "news",
+              "publisher": "dsm-firmenich",
+              "title": "dsm-firmenich strengthens HMO offering in Asia",
+              "url": "https://www.dsm-firmenich.com/en/businesses/health-nutrition-care/news/press-releases/2026-03-05-dsm-firmenich-strengthens-hmo-offering-in-asia-with-new-regulatory-approvals.html",
+              "whatItContributes": "2026-03-05：馬來西亞與泰國核准 GLYCARE 2FL/DFL 8001。稿內沒有台灣。"
+            },
+            {
+              "accessed": "2026-11-28",
+              "channel": "other",
+              "publisher": "衛生福利部食品藥物管理署",
+              "title": "台灣食藥署公告 1151300977",
+              "url": "https://www.fda.gov.tw/TC/newsContent.aspx?id=31579",
+              "whatItContributes": "公告標題與 2026-06-24 的日期。詳細限量以助手收錄的公告正文為準，因為詳細頁當日打不開。"
+            },
+            {
+              "accessed": "2026-11-28",
+              "channel": "patent",
+              "publisher": "Google Patents",
+              "title": "US10500221B2",
+              "url": "https://patents.google.com/patent/US10500221B2/en",
+              "whatItContributes": "Glycom 的結晶 DFL。標題沒有商品名。"
+            },
+            {
+              "accessed": "2026-11-28",
+              "channel": "other",
+              "publisher": "創百股份有限公司",
+              "title": "Glycare 2FL",
+              "url": "https://www.chambio.com/products/hmo-glycare/",
+              "whatItContributes": "台灣頁寫 Glycare 2FL 與 MAP1001d。標題不是 2FL/DFL 混合物。"
+            },
+            {
+              "accessed": "2026-11-28",
+              "channel": "other",
+              "publisher": "創百股份有限公司",
+              "title": "創百聯絡頁",
+              "url": "https://www.hmos.com.tw/Contact%20us.html",
+              "whatItContributes": "頁面自述為 dsm-firmenich 授權經銷商。這是公司自述。"
+            },
+            {
+              "accessed": "2026-11-28",
+              "channel": "other",
+              "publisher": "仁友興業股份有限公司",
+              "title": "GLYCARE HMOs",
+              "url": "https://www.jimroyal-trade.com/nutritional-items-zh/glycare-hmos/",
+              "whatItContributes": "台灣頁列出 GLYCARE HMOs 家族。沒有寫代理，也沒有寫 2FL/DFL。"
+            }
+          ],
+          "supply": {
+            "relationship": "taiwan_distributor",
+            "relationshipNote": "2026-11-28 以 GLYCARE、Glycom、2FL/DFL、2'-岩藻糖基乳糖、雙岩藻糖基乳糖、母乳寡糖、HMO、dsm-firmenich、帝斯曼，搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索，並打開創百產品頁、創百 hmos.com.tw 聯絡頁、仁友的 GLYCARE 頁，以及 dsm-firmenich 產品頁。創百聯絡頁自述「dsm-firmenich帝斯曼-芬美意營養品公司授權經銷商」。創百產品頁標題是 Glycare 2FL，製程句子寫 MAP1001d，連結的官方詳細頁 id 是 7582；這次助手的單獨 2′-FL 是 id 17558、混合物是 id 17747。首頁把 GRN 546、650、815 寫在 Glycare 2FL 那一句；GRN 815 的標題是 2'-FL/DFL 混合物。仁友頁只寫 GLYCARE HMOs 家族與嬰兒配方，沒有寫經銷，也沒有寫 2FL/DFL。兩頁都是公司自己的網站，不是 dsm-firmenich 官網的夥伴名單。沒有把 2FL 的自述授權升格成混合物的原廠獨家。查核日 2026-11-28。",
+            "supplierCountry": "瑞士",
+            "supplierName": "dsm-firmenich（商品源自丹麥 Glycom）",
+            "taiwanPartyName": "創百股份有限公司（自述為 dsm-firmenich 授權經銷；打開的產品頁寫 Glycare 2FL，不是 2FL/DFL）。仁友興業股份有限公司另有 GLYCARE HMOs 家族頁，沒有寫代理。"
+          },
+          "tfda": {
+            "evidenceNotes": "GLYCARE 在原料和添加物是 0 筆。混合物（id 17747）有列，菌株寫大腸桿菌 K-12 DH1 MDO MAP1001d，限嬰兒與較大嬰兒配方，以及專供七歲以下兒童的乳粉或類似產品。配方限量 1.6 g/L，兒童乳粉 1.2 g/L，並要標示基因改造微生物的生產來源。單獨的 2′-岩藻糖基乳糖是 id 17558，用途相同但限量都是 1.2 g/L，不是這個混合物。不是未確認分類。",
+            "lookupDate": "2026-11-28",
+            "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+            "officialCrosscheck": {
+              "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+              "done": true,
+              "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+              "notes": "2026-11-28 連線 consumer.fda.gov.tw 的混合物詳細頁（id 17747）出現 SSL_ERROR_SYSCALL，沒有取得官方 HTML。查詢助手細節時間戳 2026-11-27 06:21，備註已收錄衛授食字第1151300977號全文要點。公告頁網址 https://www.fda.gov.tw/TC/newsContent.aspx?id=31579 的標題與日期同為 2026-06-24。"
+            },
+            "queries": [
+              {
+                "category": "",
+                "keyword": "GLYCARE",
+                "matchedName": "",
+                "note": "商品名 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "雙岩藻",
+                "matchedName": "2ʹ-岩藻糖基乳糖與雙岩藻糖基乳糖混合物",
+                "note": "這一筆是混合物。",
+                "restrictionNote": "id 17747。衛授食字第1151300977號，2026-06-24 生效。菌株 K-12 DH1 MDO MAP1001d。限嬰兒與較大嬰兒配方食品及專供七歲以下兒童之乳粉或類似產品。配方 1.6 g/L，兒童乳粉 1.2 g/L。須標示基因改造微生物生產來源，終產品得免標。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "difucosyllactose",
+                "matchedName": "2ʹ-岩藻糖基乳糖與雙岩藻糖基乳糖混合物",
+                "note": "英文命中混合物。",
+                "restrictionNote": "同一筆 id 17747。",
+                "resultCount": 1,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "岩藻糖基乳糖",
+                "matchedName": "2′-岩藻糖基乳糖；以及與雙岩藻糖基乳糖的混合物",
+                "note": "兩筆都不是未確認分類。規格不同。",
+                "restrictionNote": "id 17558 是單獨 2′-FL，含 BL21 (DE3) #1540、MAP1001d、K-12 MG1655 INB000846 三種生產規定，限量都是 1.2 g/L。id 17747 是混合物。",
+                "resultCount": 2,
+                "tab": "ingredient",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "岩藻糖基乳糖",
+                "matchedName": "",
+                "note": "中文在添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "GLYCARE",
+                "matchedName": "",
+                "note": "商品名在添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "difucosyllactose",
+                "matchedName": "",
+                "note": "英文在添加物 0 筆。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "additive",
+                "unconfirmedSafety": false
+              },
+              {
+                "category": "",
+                "keyword": "岩藻糖",
+                "matchedName": "",
+                "note": "助手更新歷程（2026-11-01 至 2026-11-27）的新增與變更文字沒有岩藻糖或 GLYCARE。資料時間戳 2026-11-27 06:21。混合物列已在這份資料裡。",
+                "restrictionNote": "",
+                "resultCount": 0,
+                "tab": "history",
+                "unconfirmedSafety": false
+              }
+            ],
+            "usable": "listed_food_ingredient"
+          }
+        }
+      ],
+      "targetCount": 5,
+      "title": "2026-11-28 正式日報"
+    },
+    {
+      "channelsCovered": [
+        "news",
+        "exhibition",
+        "industry_report"
+      ],
       "date": "2026-11-27",
       "example": false,
       "notes": "正式五筆。主管道：PeptiSleep、UREX 為新聞；Collavant n2、XIA Protein 為展覽；BioVivo 西洋參萃取為產業報導。未收未確認安全性項目：槐樹花與果實（Quercefit 的來源，Sophora japonica，id 16519）、鋸棕櫚果實（VeriPalmetto，Serenoa repens，id 16336）、總序天冬（Fenavari 含的 Asparagus racemosus，id 16069）。水解膠原蛋白胜肽不是未變性二型膠原。Salvia officinalis 不是奇亞籽。稻殼不是糙米蛋白水解物。人參的果實、莖、籽不是西洋參根。",
@@ -26899,6 +27880,211 @@ window.INGREDIENT_CATALOG = {
     },
     {
       "discovery": {
+        "channel": "news",
+        "notes": "從 NutraIngredients 2026-11-19 的體重管理新品巡禮進入 Eriomin 官網、PMC6618084 與 US11197880B2。香檸檬是另一筆。關鍵字「檸檬」裡的未確認列沒有併進 id 17109。韋鎮目錄沒有寫成原廠證實的獨家代理。",
+        "scoutDate": "2026-11-28"
+      },
+      "efficacy": {
+        "claimedBenefits": [
+          "NutraIngredients 2026-11-19：Lemme 的 GLP-1 Production Support 膠囊把 Eriomin 寫成主要成分，並寫它是有專利的檸檬複方、臨床上用來支持身體自己的 GLP-1。這是報導轉述品牌的句子。",
+          "Eriomin 官網：只從成熟果實萃取，主成分是 eriocitrin。頁上寫三篇隨機雙盲安慰劑試驗以 200 mg/日，GLP-1 相對安慰劑平均增加 17.5%，其中一篇最高 22%。這是公司頁的彙總。",
+          "Phytotherapy Research（PMC6618084）：103 名糖尿病前期成人，200、400 或 800 mg，12 週。摘要寫三個劑量都讓血糖約降 5%、胰島素阻抗約降 7%，並寫 24% 的人從糖尿病前期回到正常血糖。作者寫這是短期試驗。"
+        ],
+        "dosageNote": "200 mg 是供應商頁和多篇試驗的複方每日劑量，不是平台上限。平台檸檬果實沒有毫克上限。專利請求項寫的是 eriocitrin 的毫克，不是整顆複方的毫克。2019 年論文寫複方約含 70% eriocitrin。",
+        "suggestedDosage": "官網與 2022、2023 年試驗常用 200 mg/日。2019 年試驗同時用 200、400、800 mg/日。專利 US10596185B2 的請求項寫每日 100–200 mg eriocitrin。"
+      },
+      "evidenceLevels": [
+        "clinical"
+      ],
+      "example": false,
+      "id": "eriomin",
+      "images": [
+        {
+          "caption": "Eriomin 官網首頁的檸檬照片，不是萃取粉末。",
+          "localPath": "",
+          "source": "official_site",
+          "url": "https://www.eriomin.com/header_lemons.jpg"
+        }
+      ],
+      "literature": {
+        "note": "這篇是人體隨機雙盲試驗。官網另列 2022 年 Journal of Medicinal Food 與 2023 年 Food Science & Nutrition，這次以 2019 年這篇的摘要數字為準，沒有把三篇的百分比併成同一張表。",
+        "refs": [
+          {
+            "note": "Phytotherapy Research。DOI 10.1002/ptr.6386。103 人，200／400／800 mg，12 週。材料由 Ingredients by Nature 提供。",
+            "title": "Effectiveness of Eriomin in managing hyperglycemia and reversal of prediabetes condition",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6618084/"
+          }
+        ],
+        "status": "yes"
+      },
+      "names": {
+        "commonEn": "lemon fruit flavonoid extract (eriocitrin)",
+        "commonZh": "檸檬果實類黃酮萃取物（聖草次苷）",
+        "scientific": "Citrus limon（官網寫只從成熟果實萃取。2019 年論文寫複方約 70% eriocitrin、5% hesperidin、4% naringin、1% didymin。不是香檸檬 Citrus bergamia。）",
+        "trade": "Eriomin（Ingredients by Nature 的檸檬類黃酮商品名）"
+      },
+      "patent": {
+        "note": "兩件都寫到 Eriomin 或 eriocitrin。韋鎮頁寫「美國、世界專利」，沒有號碼。",
+        "refs": [
+          {
+            "note": "說明書把 ERIOMIN 寫成可含 eriocitrin 的組成。請求項 1 是每日 100–200 mg eriocitrin 以降血糖。權利人欄見該頁。讀取日 2026-11-28。",
+            "title": "US10596185B2 Flavonoid compositions and uses thereof",
+            "url": "https://patents.google.com/patent/US10596185B2/en"
+          },
+          {
+            "note": "受讓人 Ingredients By Nature LLC。說明書寫 Eriomin 含檸檬等柑橘的 eriocitrin 與 hesperidin，並寫分析組成為 70% eriocitrin、5% hesperidin、4% naringin、1% didymin。請求項是用 eriocitrin 提高 GLP-1。讀取日 2026-11-28。",
+            "title": "US11197880B2 Use of eriocitrin compositions for increasing GLP-1 levels",
+            "url": "https://patents.google.com/patent/US11197880B2/en"
+          }
+        ],
+        "status": "yes"
+      },
+      "sources": [
+        {
+          "accessed": "2026-11-28",
+          "channel": "news",
+          "publisher": "NutraIngredients",
+          "title": "Weight-loss companion supplements target satiety, spikes and side effects",
+          "url": "https://www.nutraingredients.com/Article/2026/11/19/weight-loss-companion-supplements-target-satiety-spikes-and-side-effects/",
+          "whatItContributes": "2026-11-19：Lemme 膠囊把 Eriomin 寫成主要成分，並轉述 GLP-1 的品牌說法。沒有寫毫克。"
+        },
+        {
+          "accessed": "2026-11-28",
+          "channel": "supplier_site",
+          "publisher": "Ingredients by Nature",
+          "title": "Eriomin",
+          "url": "https://www.eriomin.com/",
+          "whatItContributes": "成熟果實、eriocitrin，以及 200 mg 與 17.5% 的公司彙總。"
+        },
+        {
+          "accessed": "2026-11-28",
+          "channel": "paper",
+          "publisher": "Phytotherapy Research",
+          "title": "PMC6618084",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6618084/",
+          "whatItContributes": "103 人、三個劑量、12 週，以及摘要裡的血糖與 24% 回正常。"
+        },
+        {
+          "accessed": "2026-11-28",
+          "channel": "patent",
+          "publisher": "Google Patents",
+          "title": "US11197880B2",
+          "url": "https://patents.google.com/patent/US11197880B2/en",
+          "whatItContributes": "受讓人與 70% eriocitrin 的組成句子。"
+        },
+        {
+          "accessed": "2026-11-28",
+          "channel": "other",
+          "publisher": "韋鎮實業有限公司",
+          "title": "Eriomin 專利檸檬萃取物",
+          "url": "https://www.phfcorp.com.tw/page/product/p02.aspx?kind=78",
+          "whatItContributes": "台灣目錄列出這個商品名。沒有寫總代理。"
+        }
+      ],
+      "supply": {
+        "relationship": "taiwan_distributor",
+        "relationshipNote": "2026-11-28 以 Eriomin、Ingredients by Nature、檸檬類黃酮、eriocitrin、聖草次苷、Citrus limon，搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索，並打開韋鎮首頁、商品分類頁與亞洲生技展系列的攤商產品頁。韋鎮分類頁標題是「Eriomin® 專利檸檬萃取物」，首頁把它放在最新商品。關於頁寫公司做天然保健食品素材的進出口，沒有把 Eriomin 單獨寫成獨家。展會頁的廠商名稱是韋鎮，產品分類寫原料／萃取物。這些是韋鎮與展會頁，不是 Ingredients by Nature 官網的夥伴名單。同日再以「Eriomin 台灣」複查，仍是這幾頁。查核日 2026-11-28。",
+        "supplierCountry": "美國",
+        "supplierName": "Ingredients by Nature",
+        "taiwanPartyName": "韋鎮實業有限公司（目錄列出 Eriomin；未寫總代理或獨家）"
+      },
+      "tfda": {
+        "evidenceNotes": "Eriomin 與 eriocitrin 在原料和添加物都是 0 筆。Citrus limon 命中檸檬（id 17109），可供直接食用，部位果實（含果皮），備註空白，不是未確認分類。關鍵字「檸檬」另有 14 筆，其中檸檬香桃、檸檬酸鍶、台灣香檬的欄位出現未確認字樣，那些不是這顆果實。添加物的「檸檬」25 筆是檸檬酸鹽，不是果實。果實列名不是這個萃取劑量的核准。",
+        "lookupDate": "2026-11-28",
+        "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+        "officialCrosscheck": {
+          "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+          "done": true,
+          "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+          "notes": "2026-11-28 連線 consumer.fda.gov.tw 的檸檬詳細頁（id 17109）出現 SSL_ERROR_SYSCALL，沒有取得官方 HTML。查詢助手細節時間戳 2026-11-27 06:21，欄位含該官方詳細頁網址。未確認列沒有併進 id 17109。"
+        },
+        "queries": [
+          {
+            "category": "",
+            "keyword": "Eriomin",
+            "matchedName": "",
+            "note": "商品名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Citrus limon",
+            "matchedName": "檸檬",
+            "note": "這一筆是果實，不是類黃酮規格。",
+            "restrictionNote": "id 17109。次分類為草、木本植物類(2)可供直接食用。外文名 Lemon。部位果實(含果皮)。備註空白。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "檸檬",
+            "matchedName": "檸檬（另含其他以檸檬為名的列）",
+            "note": "因為這組裡有未確認列，所以這個關鍵字標 true。Eriomin 對到的是 id 17109，不是那些列。",
+            "restrictionNote": "14 筆裡有 id 17109 的檸檬果實。同一次搜尋也落到檸檬馬鞭草、檸檬草、香檸檬等。檸檬香桃、檸檬酸鍶、台灣香檬的欄位出現「未確認安全性」。",
+            "resultCount": 14,
+            "tab": "ingredient",
+            "unconfirmedSafety": true
+          },
+          {
+            "category": "",
+            "keyword": "eriocitrin",
+            "matchedName": "",
+            "note": "聖草次苷英文 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Eriomin",
+            "matchedName": "",
+            "note": "商品名在添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Citrus limon",
+            "matchedName": "",
+            "note": "學名在添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "檸檬",
+            "matchedName": "檸檬酸及其鹽類等",
+            "note": "中文落在檸檬酸相關添加物。",
+            "restrictionNote": "看到的是檸檬酸、檸檬酸鈉、檸檬酸鈣、檸檬油醛等。不是檸檬果實。",
+            "resultCount": 25,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Eriomin",
+            "matchedName": "",
+            "note": "助手更新歷程（2026-11-01 至 2026-11-27）沒有 Eriomin、eriocitrin 或檸檬果實這幾個詞。資料時間戳 2026-11-27 06:21。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "history",
+            "unconfirmedSafety": false
+          }
+        ],
+        "usable": "listed_food_ingredient"
+      }
+    },
+    {
+      "discovery": {
         "channel": "industry_report",
         "notes": "從 NutraIngredients 2026-10-27 的 Esflorin1 專題進入 2024 年 Gut Microbes 論文、ADM 新聞與 WO2009080862A1，再打開和聚的展會頁。CECT 8145 是另一支菌株。",
         "scoutDate": "2026-11-24"
@@ -27825,6 +29011,230 @@ window.INGREDIENT_CATALOG = {
             "keyword": "猴頭菇",
             "matchedName": "",
             "note": "助手更新歷程（11/01–11/10）沒有這筆異動。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "history",
+            "unconfirmedSafety": false
+          }
+        ],
+        "usable": "listed_food_ingredient"
+      }
+    },
+    {
+      "discovery": {
+        "channel": "industry_report",
+        "notes": "從 ZMUni 2026 年 6 月法規月報的台灣 2'-FL/DFL 公告，對到食藥署 1151300977、助手 id 17747、加拿大衛生部把 MAP1001d 列在 Glycom 的表，以及 dsm-firmenich 的 GLYCARE 2FL/DFL 產品頁。單獨 2′-FL（id 17558）沒有併進混合物。創百自述的是 2FL 授權經銷，沒有升格成混合物的原廠獨家。",
+        "scoutDate": "2026-11-28"
+      },
+      "efficacy": {
+        "claimedBenefits": [
+          "dsm-firmenich 產品頁：2'FL 在母乳中約 2 g/L，並寫臨床研究描述 2'FL 對嬰兒健康有正向支持。DFL 的句子寫的是臨床前：可能減少病原菌黏附，並選擇性支持雙歧桿菌。頁上同時寫「will be available」與「is available commercially」。",
+          "2026-03-05 公司新聞：馬來西亞與泰國核准 2FL/DFL（GLYCARE 2FL/DFL 8001）用於嬰兒配方、較大嬰兒配方與兒童配方奶粉。該稿沒有寫台灣，也沒有寫人數。",
+          "產品頁引用的 Coppa 2006 與 Cravioto 1991 是細胞黏附試驗，Yu 2013 是嬰兒菌群培養。這些不是混合物的人體試驗。"
+        ],
+        "dosageNote": "1.6 g/L 與 1.2 g/L 是台灣公告的食品限量，不是保健食品的每日膠囊劑量。歐盟補充品那一句來自 2019 年報導，這次的商品頁沒有對應毫克。單獨 2′-FL（id 17558）的限量都是 1.2 g/L，不能套用混合物的 1.6 g/L。",
+        "suggestedDosage": "台灣公告：嬰兒與較大嬰兒配方 1.6 g/L，專供七歲以下兒童的乳粉或類似產品 1.2 g/L，以即食或沖調後計算。2019-12-02 NutraIngredients 對歐盟新穎食品的報導另寫嬰兒配方 1.6 g/L、較大嬰兒與幼兒食品 1.2 g/L，並寫補充品可用於不含嬰兒的一般族群。商品頁沒有寫成人每日毫克。"
+      },
+      "evidenceLevels": [
+        "cell"
+      ],
+      "example": false,
+      "id": "glycare-2fl-dfl",
+      "images": [
+        {
+          "caption": "dsm-firmenich 官網 GLYCARE 2FL/DFL 產品頁的頁面縮圖，不是粉末近照。",
+          "localPath": "",
+          "source": "official_site",
+          "url": "https://www.dsm-firmenich.com/en/businesses/health-nutrition-care/products/hmos/hmos-for-early-life/glycare-2fl-dfl.thumb.800.480.png"
+        }
+      ],
+      "literature": {
+        "note": "產品頁列出的是細胞與菌群培養。頁上「2'FL 的臨床研究」沒有給出這支混合物的試驗人數。證據等級只標細胞。",
+        "refs": [
+          {
+            "note": "Pediatric Research，2006。產品頁把它列為 DFL 相關的細胞黏附文獻。這次沒有讀完全文，不把它寫成混合物的臨床。",
+            "title": "Human milk oligosaccharides inhibit the adhesion to Caco-2 cells of diarrheal pathogens",
+            "url": "https://doi.org/10.1203/01.pdr.0000200805.45593.17"
+          }
+        ],
+        "status": "yes"
+      },
+      "names": {
+        "commonEn": "2'-fucosyllactose and difucosyllactose mixture",
+        "commonZh": "2′-岩藻糖基乳糖與雙岩藻糖基乳糖混合物",
+        "scientific": "不適用植物學名。寡糖混合物。加拿大衛生部 2022-07-22 的新穎食品表把大腸桿菌 K-12（DH1）MDO MAP1001d 產的 2′-FL 列在 Glycom A/S。台灣 2026-06-24 公告的混合物也寫這個菌株。不是半乳寡糖，也不是蔗果三糖。單獨的 2′-岩藻糖基乳糖是平台上的另一筆。",
+        "trade": "GLYCARE 2FL/DFL（dsm-firmenich 的商品名；2026-03-05 新聞稿另寫規格 8001）"
+      },
+      "patent": {
+        "note": "有 Glycom 的 DFL 結晶專利。沒有把商品名寫進專利標題。",
+        "refs": [
+          {
+            "note": "受讓人 Glycom A/S。請求項是結晶雙岩藻糖基乳糖，並寫可作為 2′-FL 製程的副產物。標題沒有 GLYCARE。讀取日 2026-11-28。",
+            "title": "US10500221B2 Crystalline difucosyllactose",
+            "url": "https://patents.google.com/patent/US10500221B2/en"
+          }
+        ],
+        "status": "yes"
+      },
+      "sources": [
+        {
+          "accessed": "2026-11-28",
+          "channel": "industry_report",
+          "publisher": "ZMUni Compliance Centre",
+          "title": "Monthly Update: China and Global Food Regulatory Highlights, June 2026",
+          "url": "https://www.zmuni.com/en/news/monthlyupdatechinaglobalfoodregulatoryhighlightsjune2026/",
+          "whatItContributes": "2026-06 法規月報：台灣 2026-06-24 以衛授食字第1151300977號訂定 MAP1001d 所產 2'-FL/DFL 混合物的使用限制。"
+        },
+        {
+          "accessed": "2026-11-28",
+          "channel": "supplier_site",
+          "publisher": "dsm-firmenich",
+          "title": "GLYCARE 2FL/DFL",
+          "url": "https://www.dsm-firmenich.com/en/businesses/health-nutrition-care/products/hmos/hmos-for-early-life/glycare-2fl-dfl.html",
+          "whatItContributes": "商品名、母乳中 2'FL 約 2 g/L，以及 DFL 的臨床前句子。頁上同時有即將上市與已經商業化兩種說法。"
+        },
+        {
+          "accessed": "2026-11-28",
+          "channel": "news",
+          "publisher": "dsm-firmenich",
+          "title": "dsm-firmenich strengthens HMO offering in Asia",
+          "url": "https://www.dsm-firmenich.com/en/businesses/health-nutrition-care/news/press-releases/2026-03-05-dsm-firmenich-strengthens-hmo-offering-in-asia-with-new-regulatory-approvals.html",
+          "whatItContributes": "2026-03-05：馬來西亞與泰國核准 GLYCARE 2FL/DFL 8001。稿內沒有台灣。"
+        },
+        {
+          "accessed": "2026-11-28",
+          "channel": "other",
+          "publisher": "衛生福利部食品藥物管理署",
+          "title": "台灣食藥署公告 1151300977",
+          "url": "https://www.fda.gov.tw/TC/newsContent.aspx?id=31579",
+          "whatItContributes": "公告標題與 2026-06-24 的日期。詳細限量以助手收錄的公告正文為準，因為詳細頁當日打不開。"
+        },
+        {
+          "accessed": "2026-11-28",
+          "channel": "patent",
+          "publisher": "Google Patents",
+          "title": "US10500221B2",
+          "url": "https://patents.google.com/patent/US10500221B2/en",
+          "whatItContributes": "Glycom 的結晶 DFL。標題沒有商品名。"
+        },
+        {
+          "accessed": "2026-11-28",
+          "channel": "other",
+          "publisher": "創百股份有限公司",
+          "title": "Glycare 2FL",
+          "url": "https://www.chambio.com/products/hmo-glycare/",
+          "whatItContributes": "台灣頁寫 Glycare 2FL 與 MAP1001d。標題不是 2FL/DFL 混合物。"
+        },
+        {
+          "accessed": "2026-11-28",
+          "channel": "other",
+          "publisher": "創百股份有限公司",
+          "title": "創百聯絡頁",
+          "url": "https://www.hmos.com.tw/Contact%20us.html",
+          "whatItContributes": "頁面自述為 dsm-firmenich 授權經銷商。這是公司自述。"
+        },
+        {
+          "accessed": "2026-11-28",
+          "channel": "other",
+          "publisher": "仁友興業股份有限公司",
+          "title": "GLYCARE HMOs",
+          "url": "https://www.jimroyal-trade.com/nutritional-items-zh/glycare-hmos/",
+          "whatItContributes": "台灣頁列出 GLYCARE HMOs 家族。沒有寫代理，也沒有寫 2FL/DFL。"
+        }
+      ],
+      "supply": {
+        "relationship": "taiwan_distributor",
+        "relationshipNote": "2026-11-28 以 GLYCARE、Glycom、2FL/DFL、2'-岩藻糖基乳糖、雙岩藻糖基乳糖、母乳寡糖、HMO、dsm-firmenich、帝斯曼，搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索，並打開創百產品頁、創百 hmos.com.tw 聯絡頁、仁友的 GLYCARE 頁，以及 dsm-firmenich 產品頁。創百聯絡頁自述「dsm-firmenich帝斯曼-芬美意營養品公司授權經銷商」。創百產品頁標題是 Glycare 2FL，製程句子寫 MAP1001d，連結的官方詳細頁 id 是 7582；這次助手的單獨 2′-FL 是 id 17558、混合物是 id 17747。首頁把 GRN 546、650、815 寫在 Glycare 2FL 那一句；GRN 815 的標題是 2'-FL/DFL 混合物。仁友頁只寫 GLYCARE HMOs 家族與嬰兒配方，沒有寫經銷，也沒有寫 2FL/DFL。兩頁都是公司自己的網站，不是 dsm-firmenich 官網的夥伴名單。沒有把 2FL 的自述授權升格成混合物的原廠獨家。查核日 2026-11-28。",
+        "supplierCountry": "瑞士",
+        "supplierName": "dsm-firmenich（商品源自丹麥 Glycom）",
+        "taiwanPartyName": "創百股份有限公司（自述為 dsm-firmenich 授權經銷；打開的產品頁寫 Glycare 2FL，不是 2FL/DFL）。仁友興業股份有限公司另有 GLYCARE HMOs 家族頁，沒有寫代理。"
+      },
+      "tfda": {
+        "evidenceNotes": "GLYCARE 在原料和添加物是 0 筆。混合物（id 17747）有列，菌株寫大腸桿菌 K-12 DH1 MDO MAP1001d，限嬰兒與較大嬰兒配方，以及專供七歲以下兒童的乳粉或類似產品。配方限量 1.6 g/L，兒童乳粉 1.2 g/L，並要標示基因改造微生物的生產來源。單獨的 2′-岩藻糖基乳糖是 id 17558，用途相同但限量都是 1.2 g/L，不是這個混合物。不是未確認分類。",
+        "lookupDate": "2026-11-28",
+        "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+        "officialCrosscheck": {
+          "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+          "done": true,
+          "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+          "notes": "2026-11-28 連線 consumer.fda.gov.tw 的混合物詳細頁（id 17747）出現 SSL_ERROR_SYSCALL，沒有取得官方 HTML。查詢助手細節時間戳 2026-11-27 06:21，備註已收錄衛授食字第1151300977號全文要點。公告頁網址 https://www.fda.gov.tw/TC/newsContent.aspx?id=31579 的標題與日期同為 2026-06-24。"
+        },
+        "queries": [
+          {
+            "category": "",
+            "keyword": "GLYCARE",
+            "matchedName": "",
+            "note": "商品名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "雙岩藻",
+            "matchedName": "2ʹ-岩藻糖基乳糖與雙岩藻糖基乳糖混合物",
+            "note": "這一筆是混合物。",
+            "restrictionNote": "id 17747。衛授食字第1151300977號，2026-06-24 生效。菌株 K-12 DH1 MDO MAP1001d。限嬰兒與較大嬰兒配方食品及專供七歲以下兒童之乳粉或類似產品。配方 1.6 g/L，兒童乳粉 1.2 g/L。須標示基因改造微生物生產來源，終產品得免標。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "difucosyllactose",
+            "matchedName": "2ʹ-岩藻糖基乳糖與雙岩藻糖基乳糖混合物",
+            "note": "英文命中混合物。",
+            "restrictionNote": "同一筆 id 17747。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "岩藻糖基乳糖",
+            "matchedName": "2′-岩藻糖基乳糖；以及與雙岩藻糖基乳糖的混合物",
+            "note": "兩筆都不是未確認分類。規格不同。",
+            "restrictionNote": "id 17558 是單獨 2′-FL，含 BL21 (DE3) #1540、MAP1001d、K-12 MG1655 INB000846 三種生產規定，限量都是 1.2 g/L。id 17747 是混合物。",
+            "resultCount": 2,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "岩藻糖基乳糖",
+            "matchedName": "",
+            "note": "中文在添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "GLYCARE",
+            "matchedName": "",
+            "note": "商品名在添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "difucosyllactose",
+            "matchedName": "",
+            "note": "英文在添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "岩藻糖",
+            "matchedName": "",
+            "note": "助手更新歷程（2026-11-01 至 2026-11-27）的新增與變更文字沒有岩藻糖或 GLYCARE。資料時間戳 2026-11-27 06:21。混合物列已在這份資料裡。",
             "restrictionNote": "",
             "resultCount": 0,
             "tab": "history",
@@ -29149,6 +30559,192 @@ window.INGREDIENT_CATALOG = {
             "keyword": "羥基酪醇",
             "matchedName": "",
             "note": "助手更新歷程 2026-11-01 至 2026-11-05 未見此關鍵字的新增或修改。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "history",
+            "unconfirmedSafety": false
+          }
+        ],
+        "usable": "listed_food_ingredient"
+      }
+    },
+    {
+      "discovery": {
+        "channel": "exhibition",
+        "notes": "從 Food Ingredients First 2026-11-25 的 Fi Europe 展後報導進入 Les Echos、Ingredients Network 與 NutraIngredients 特稿。isolate 與水解物、鉀鎂與鉀鈉鋅都留下。盛美的澳洲扁豆蛋白沒有寫成這支的經銷。山扁豆的未確認列沒有併進小扁豆。",
+        "scoutDate": "2026-11-28"
+      },
+      "efficacy": {
+        "claimedBenefits": [
+          "Food Ingredients First 2026-11-25：Fi Europe 現場推出透明扁豆蛋白，報導寫蛋白高於 70%，並寫概念飲料每 500 mL 有 20 g 蛋白。同篇有一處用 isolate。礦物質寫鉀與鎂，而且說概念飲沒有另加電解質。",
+          "NutraIngredients 的產品特稿（2026-10-02，標為宣傳內容）：寫法國非基改扁豆的水解物，蛋白高於 70%，溶於酸性飲料，礦物質寫鉀、鈉與鋅。",
+          "Les Echos 2026-11-16 與 Agra 2026-09-30：兩篇都寫法國扁豆蛋白水解物，蛋白高於 70%，用來做透明、低黏度的蛋白飲料。沒有寫臨床人數。"
+        ],
+        "dosageNote": "20 g 是報導裡的成品蛋白量，不是供應商的每日建議，也不是平台上限。平台只列小扁豆種子，沒有蛋白百分比。",
+        "suggestedDosage": "這次打開的頁面沒有寫每日毫克。展場概念是每 500 mL 飲料 20 g 蛋白，不是原料的建議食用量。"
+      },
+      "evidenceLevels": [],
+      "example": false,
+      "id": "ingood-clear",
+      "images": [
+        {
+          "caption": "Ingood by Olga 官網的標誌，不是 INGOOD CLEAR 的粉末照片。",
+          "localPath": "",
+          "source": "official_site",
+          "url": "https://ingoodbyolga.com/wp-content/uploads/2023/04/cropped-ing-270x270.png"
+        }
+      ],
+      "literature": {
+        "note": "展會與新聞寫的是溶解、黏度與蛋白含量。這次沒有對到這支水解物的同儕論文，不把功能句子寫成臨床，也不把尚未查完寫成無。",
+        "refs": [],
+        "status": "unknown"
+      },
+      "names": {
+        "commonEn": "lentil protein hydrolysate",
+        "commonZh": "扁豆蛋白水解物（透明飲料用）",
+        "scientific": "Lens culinaris（法國非基改扁豆的種子做成水解物。Les Echos 與 Agra 寫水解物、蛋白高於 70%。Food Ingredients First 有一處寫 isolate。不是豌豆，也不是蠶豆。白扁豆 Dolichos lablab 與未確認的山扁豆是另外的列。）",
+        "trade": "INGOOD CLEAR（Ingood by Olga 的商品名；亦寫 Ingood Clear）"
+      },
+      "patent": {
+        "note": "2026-11-28 以 INGOOD CLEAR、Ingood by Olga、lentil protein hydrolysate 查公開專利，沒有對到標題寫這個商品名的公告號。不把沒查完寫成無。",
+        "refs": [],
+        "status": "unknown"
+      },
+      "sources": [
+        {
+          "accessed": "2026-11-28",
+          "channel": "exhibition",
+          "publisher": "Food Ingredients First",
+          "title": "Fi Europe 2026 review: Whey scarcity accelerates shift toward alternative proteins",
+          "url": "https://www.foodingredientsfirst.com/news/fi-europe-2026-whey-prices-accelerate-alternative-proteins.html",
+          "whatItContributes": "2026-11-25：Fi Europe 現場的透明扁豆蛋白、20 g／500 mL，以及鉀、鎂與 isolate 的用詞。"
+        },
+        {
+          "accessed": "2026-11-28",
+          "channel": "news",
+          "publisher": "Les Echos",
+          "title": "Olga mise sur la lentille pour verdir les boissons des sportifs",
+          "url": "https://www.lesechos.fr/pme-regions/bretagne/olga-mise-sur-la-lentille-pour-verdir-les-boissons-des-sportifs-2262830",
+          "whatItContributes": "2026-11-16：法國扁豆蛋白水解物，蛋白高於 70%，商品名 Ingood Clear。"
+        },
+        {
+          "accessed": "2026-11-28",
+          "channel": "supplier_site",
+          "publisher": "Ingredients Network",
+          "title": "Ingood Clear",
+          "url": "https://www.ingredientsnetwork.com/ingoodclear-prod1329314.html",
+          "whatItContributes": "水解物、蛋白高於 70%、法國非基改扁豆，以及公司地址 Noyal-sur-Vilaine。"
+        },
+        {
+          "accessed": "2026-11-28",
+          "channel": "industry_report",
+          "publisher": "NutraIngredients",
+          "title": "INGOOD CLEAR product innovation",
+          "url": "https://www.nutraingredients.com/Product-innovations/ingoodclear-a-french-lentil-protein-hydrolysate-rich-in-protein-and-naturally-occurring-minerals/",
+          "whatItContributes": "宣傳特稿：水解物，礦物質寫鉀、鈉、鋅。與展後報導的鉀、鎂不同。"
+        },
+        {
+          "accessed": "2026-11-28",
+          "channel": "other",
+          "publisher": "Food Ingredients First",
+          "title": "Ingood by Olga supplier profile",
+          "url": "https://www.foodingredientsfirst.com/supplier-profiles/ingood-by-olga.html",
+          "whatItContributes": "供應商頁把 INGOOD CLEAR 列在健康原料，和 Lengood、Sulfodyne 分開。"
+        }
+      ],
+      "supply": {
+        "relationship": "unknown",
+        "relationshipNote": "2026-11-28 以 INGOOD CLEAR、Ingood Clear、Ingood by Olga、Olga、扁豆蛋白水解、lentil protein hydrolysate、Lens culinaris，搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索，並打開 Ingredients Network 產品頁、Food Ingredients First 的供應商頁與展後報導。原廠頁與展會報導沒有台灣公司。盛美股份有限公司的頁面賣的是 Australian Plant Proteins 的黃扁豆與紅扁豆蛋白粉，頁上沒有 INGOOD 或 Olga。同化合物的另一家蛋白粉不是這個商品名的經銷。同日再以「Ingood 台灣」「INGOOD CLEAR Taiwan」獨立複查，沒有台灣廠商的產品頁或代理頁。查核日 2026-11-28。",
+        "supplierCountry": "法國",
+        "supplierName": "Ingood by Olga",
+        "taiwanPartyName": "本次查無台灣關聯廠商"
+      },
+      "tfda": {
+        "evidenceNotes": "INGOOD 在原料和添加物都是 0 筆。小扁豆與 Lens culinaris 命中同一筆（id 16946），可供直接食用，部位種子，備註空白。關鍵字「扁豆」另有白扁豆，以及未確認的山扁豆，那兩列不是小扁豆。列名沒有水解物或蛋白百分比，不是這個規格的核准。",
+        "lookupDate": "2026-11-28",
+        "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+        "officialCrosscheck": {
+          "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+          "done": true,
+          "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+          "notes": "2026-11-28 連線 consumer.fda.gov.tw 的小扁豆詳細頁（id 16946）出現 SSL_ERROR_SYSCALL，沒有取得官方 HTML。查詢助手細節時間戳 2026-11-27 06:21，欄位含該官方詳細頁網址。山扁豆的未確認沒有併進 id 16946。"
+        },
+        "queries": [
+          {
+            "category": "",
+            "keyword": "INGOOD",
+            "matchedName": "",
+            "note": "商品名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "小扁豆",
+            "matchedName": "小扁豆；金麥豌；臭生豆",
+            "note": "種子這一筆。沒有水解物規格。",
+            "restrictionNote": "id 16946。次分類為草、木本植物類(2)可供直接食用。外文名 Lentil。學名 Lens esculenta Moench, Lens culinaris。部位種子。備註空白。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Lens culinaris",
+            "matchedName": "小扁豆；金麥豌；臭生豆",
+            "note": "學名命中同一列。",
+            "restrictionNote": "同一筆 id 16946。",
+            "resultCount": 1,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "扁豆",
+            "matchedName": "小扁豆；另有白扁豆與山扁豆",
+            "note": "因為山扁豆是未確認，所以這個關鍵字標 true。INGOOD CLEAR 對到的是小扁豆種子。",
+            "restrictionNote": "白扁豆是 Dolichos lablab，部位有葉與種子。山扁豆在未確認分類。小扁豆是 id 16946。",
+            "resultCount": 4,
+            "tab": "ingredient",
+            "unconfirmedSafety": true
+          },
+          {
+            "category": "",
+            "keyword": "小扁豆",
+            "matchedName": "",
+            "note": "中文在添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Lens",
+            "matchedName": "",
+            "note": "學名在添加物 0 筆。海葡萄的學名含 lentillifera，那是另一個詞，這次用 Lens 沒有命中。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "INGOOD",
+            "matchedName": "",
+            "note": "商品名在添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "小扁豆",
+            "matchedName": "",
+            "note": "助手更新歷程（2026-11-01 至 2026-11-27）沒有小扁豆或 INGOOD。資料時間戳 2026-11-27 06:21。",
             "restrictionNote": "",
             "resultCount": 0,
             "tab": "history",
@@ -31458,6 +33054,176 @@ window.INGREDIENT_CATALOG = {
           }
         ],
         "usable": "listed_food_ingredient"
+      }
+    },
+    {
+      "discovery": {
+        "channel": "exhibition",
+        "notes": "從 SupplySide Global 2026 的展前預告進入 Verb 產品頁、2026-10-20 新聞稿、PMID 34207623 與 US20240318130A1。嗜黏蛋白阿克曼菌在同一則預告裡，那一筆是未確認分類，沒有收進來。DSM 33407 沒有寫成 LX03 的寄存號。",
+        "scoutDate": "2026-11-28"
+      },
+      "efficacy": {
+        "claimedBenefits": [
+          "SupplySide Supplement Journal 2026-10-15：LX03 是新上市的 Christensenella minuta，會產生膽鹽水解酶，把結合型膽鹽拆成游離酸，並寫影響腸與肝之間的代謝。這是展前預告的句子，沒有人數或 p 值。",
+          "Verb 產品頁：建議每日 10 億 AFU，用於代謝與健康老化的粉、膠囊與條包。頁寫這株的膽鹽水解酶會改寫腸與肝之間的訊號。同頁的常見問答沒有列出已發表的 LX03 人體試驗。",
+          "Verb 2026 年訪談頁：公司說細胞與動物看過這個機制，六人先導試驗才剛開始，結果預期 2027 年初，其後才做正式臨床。這是公司對尚未發表資料的說法。"
+        ],
+        "dosageNote": "10 億 AFU 是供應商建議的每日活菌計數，不是法規上限，也還沒有對到已發表的人體試驗劑量。AFU 是螢光計數，不是 CFU。",
+        "suggestedDosage": "產品頁與 2026-10-20 新聞稿都寫每日 10 億 AFU（active fluorescent units）。"
+      },
+      "evidenceLevels": [
+        "in_vitro"
+      ],
+      "example": false,
+      "id": "lx03",
+      "images": [
+        {
+          "caption": "Verb 官網 LX03 頁的腸與肝示意圖，不是菌粉照片。",
+          "localPath": "",
+          "source": "official_site",
+          "url": "https://verbbiotics.com/wp-content/uploads/2026/09/R3_LX03-BileSaltGutLiver-Illustration.png"
+        }
+      ],
+      "literature": {
+        "note": "有這個菌種的膽鹽水解酶論文，不是 LX03 的人體試驗。公司說的細胞、動物與六人先導都還沒有對到公開論文。",
+        "refs": [
+          {
+            "note": "Microorganisms，2021。PMID 34207623。標題是鑑定這個菌種的膽鹽水解酶。Verb 產品頁把這篇放在機制參考。論文發表早於 LX03 商品名，摘要沒有寫 LX03。",
+            "title": "Identifying a Novel Bile Salt Hydrolase from the Keystone Gut Bacterium Christensenella minuta",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34207623/"
+          }
+        ],
+        "status": "yes"
+      },
+      "names": {
+        "commonEn": "Christensenella minuta LX03",
+        "commonZh": "微小克里斯滕森氏菌 LX03",
+        "scientific": "Christensenella minuta。2026-10-20 新聞稿寫菌株來自健康人體，非基改，並寫自評 GRAS。US20240318130A1 另寫寄存編號 DSM 33407，該頁沒有出現 LX03，不能把兩個編號當成同一株。",
+        "trade": "LX03（Verb Biotics 的菌株商品名）"
+      },
+      "patent": {
+        "note": "2026-10-20 新聞稿寫公司持有 29 件已核准、涵蓋其 C. minuta 菌株的專利，稿內沒有號碼。DSM 33407 這一件不能直接寫成 LX03 的專利。",
+        "refs": [
+          {
+            "note": "申請人欄為 Verb Biotics LLC，由 Ysopia 移轉。摘要寫 Christensenella minuta，寄存編號 DSM 33407。公開頁標題與摘要沒有 LX03。狀態是申請。讀取日 2026-11-28。",
+            "title": "US20240318130A1 Bacterial strain belonging to the genus christensenella, and compositions",
+            "url": "https://patents.google.com/patent/US20240318130A1/en"
+          }
+        ],
+        "status": "yes"
+      },
+      "sources": [
+        {
+          "accessed": "2026-11-28",
+          "channel": "exhibition",
+          "publisher": "SupplySide Supplement Journal",
+          "title": "Ingredient innovations to watch: A SupplySide Global preview",
+          "url": "https://www.supplysidesj.com/supplements/ingredient-innovations-to-watch-a-supplyside-global-preview",
+          "whatItContributes": "2026-10-15：SupplySide Global 預告把 LX03 列為新上市的 Christensenella minuta，並寫膽鹽水解酶。"
+        },
+        {
+          "accessed": "2026-11-28",
+          "channel": "supplier_site",
+          "publisher": "Verb Biotics",
+          "title": "Christensenella minuta, LX03",
+          "url": "https://verbbiotics.com/verb-biotics-lx03-christensenella-minuta/",
+          "whatItContributes": "每日 10 億 AFU、粉與膠囊，以及菌株來自 Ysopia 菌庫的公司說法。"
+        },
+        {
+          "accessed": "2026-11-28",
+          "channel": "news",
+          "publisher": "Verb Biotics（經 Fitt Insider 刊出的新聞稿）",
+          "title": "Verb Biotics launches LX03",
+          "url": "https://insider.fitt.co/press-release/verb-biotics-launches-lx03-a-commercial-christensenella-minuta-strain-for-metabolic-health/",
+          "whatItContributes": "2026-10-20：Boulder 發稿、自評 GRAS、29 件專利的公司說法，以及 10 億 AFU。"
+        },
+        {
+          "accessed": "2026-11-28",
+          "channel": "paper",
+          "publisher": "Microorganisms",
+          "title": "PMID 34207623",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34207623/",
+          "whatItContributes": "2021 年菌種膽鹽水解酶論文。沒有 LX03。"
+        },
+        {
+          "accessed": "2026-11-28",
+          "channel": "patent",
+          "publisher": "Google Patents",
+          "title": "US20240318130A1",
+          "url": "https://patents.google.com/patent/US20240318130A1/en",
+          "whatItContributes": "Verb 名下的 Christensenella 菌株申請，寄存編號 DSM 33407。標題沒有 LX03。"
+        }
+      ],
+      "supply": {
+        "relationship": "unknown",
+        "relationshipNote": "2026-11-28 以 LX03、Verb Biotics、Christensenella、Christensenella minuta、Ysopia，搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索。打開的 Verb 產品頁、2026-10-20 新聞稿與 SupplySide 預告沒有台灣公司。綠茵生技代理頁這次讀到的段落是磷蝦油，沒有 LX03 或 Christensenella。同日再以「LX03 台灣」「Christensenella 台灣 益生菌」獨立複查，沒有台灣廠商的產品頁或代理頁。查核日 2026-11-28。",
+        "supplierCountry": "美國",
+        "supplierName": "Verb Biotics",
+        "taiwanPartyName": "本次查無台灣關聯廠商"
+      },
+      "tfda": {
+        "evidenceNotes": "LX03 與 Christensenella 在原料和添加物都是 0 筆。乳酸菌那一列的學名串沒有這個屬。查無不是准用，也不是禁用。更新歷程到 2026-11-27 沒有這兩個詞。",
+        "lookupDate": "2026-11-28",
+        "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+        "officialCrosscheck": {
+          "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+          "done": true,
+          "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+          "notes": "2026-11-28 連線 consumer.fda.gov.tw 出現 SSL_ERROR_SYSCALL，沒有取得官方詳細頁。查詢助手細節時間戳 2026-11-27 06:21。上述 0 筆以助手資料為準。"
+        },
+        "queries": [
+          {
+            "category": "",
+            "keyword": "LX03",
+            "matchedName": "",
+            "note": "商品名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Christensenella",
+            "matchedName": "",
+            "note": "屬名 0 筆。沒有落在未確認分類。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "LX03",
+            "matchedName": "",
+            "note": "商品名在添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Christensenella",
+            "matchedName": "",
+            "note": "屬名在添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Christensenella",
+            "matchedName": "",
+            "note": "助手更新歷程（2026-11-01 至 2026-11-27）沒有 LX03 或 Christensenella。資料時間戳 2026-11-27 06:21。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "history",
+            "unconfirmedSafety": false
+          }
+        ],
+        "usable": "not_found"
       }
     },
     {
@@ -42135,6 +43901,188 @@ window.INGREDIENT_CATALOG = {
           }
         ],
         "usable": "listed_food_ingredient"
+      }
+    },
+    {
+      "discovery": {
+        "channel": "news",
+        "notes": "從 NutraIngredients 2026-09-11 的 ZOΩ3GO 軟膠囊新聞進入 Zooca 產品頁、Marine Drugs 2025 與 2024-10 的兩則若羽臣合作稿。軟膠囊裡的鯷魚油不是這支。福布斯與原廠稿對「總代／跨境獨家」用詞不同，沒有併成同一句。鯨蠟烯酸濃縮魚油與磷蝦油都不是這個物種。",
+        "scoutDate": "2026-11-28"
+      },
+      "efficacy": {
+        "claimedBenefits": [
+          "Zooca 產品頁：油來自 Calanus finmarchicus，主要是液態蠟，並寫含海洋 policosanol、SDA、EPA、DHA 與蝦紅素。頁上的肌肉、體組成與抗發炎是公司句子，沒有人數。",
+          "Marine Drugs 2025（DOI 10.3390/md23040139）：266 名肥胖且有胰島素阻抗的人，12 週，分 2 g/日、4 g/日、2 g/日加生活調整、石蠟油安慰劑。摘要寫 HOMA 的變化受起始值影響（交互作用 p = 0.011）；事後分析裡，2 g 加生活調整的估計差是 −0.19（p = 0.021），輕度阻抗者用 4 g 的估計差是 −0.76（p = 0.043）。",
+          "Lehvoss 2026-10 產品頁：另寫一項 43 名成人、2 g/日、12–16 週的隨機雙盲試驗，用來談血糖與胰島素敏感度。這和 266 人那篇不是同一項。歐盟新穎食品修正 2025/1513 的上限，頁上寫一般 14 歲以上每日 3.1 g，且蝦紅素低於 7.75 mg/日。"
+        ],
+        "dosageNote": "1–2 g 是經銷頁說的常見補充劑量。2 g 與 4 g 是 2025 年試驗的每日劑量。3.1 g 是該頁所引的歐盟新穎食品上限，不是台灣平台的限量。平台這次沒有這一筆。",
+        "suggestedDosage": "Lehvoss 頁寫常見是每日 1–2 g（兩到四顆 500 mg）。論文把 2 g/日寫成既往常用量，並另外測了 4 g/日。同頁寫歐盟上限 3.1 g/日（14 歲以上）。"
+      },
+      "evidenceLevels": [
+        "clinical"
+      ],
+      "example": false,
+      "id": "zooca-calanus",
+      "images": [
+        {
+          "caption": "Zooca 官網脂質產品頁的圖片。",
+          "localPath": "",
+          "source": "official_site",
+          "url": "https://zooca.eu/wp-content/uploads/2021/09/Zooca_Lipids-500.jpg"
+        }
+      ],
+      "literature": {
+        "note": "這篇是人體隨機雙盲試驗，主要終點受起始 HOMA 影響。43 人那項只出現在經銷頁，這次沒有另對到論文，不併進證據等級。",
+        "refs": [
+          {
+            "note": "Marine Drugs，2025。DOI 10.3390/md23040139。266 人、2 g 或 4 g、12 週。材料寫 Zooca Lipids，Tromsø。表 4 寫每 100 g 油含 EPA 6.9 g、DHA 6.4 g、蝦紅素 0.1 g。",
+            "title": "Calanus Oil and Lifestyle Interventions Improve Glucose Homeostasis in Obese Subjects with Insulin Resistance",
+            "url": "https://www.mdpi.com/1660-3397/23/4/139"
+          }
+        ],
+        "status": "yes"
+      },
+      "names": {
+        "commonEn": "Calanus finmarchicus oil (wax esters)",
+        "commonZh": "飛馬哲水蚤油（蠟酯）",
+        "scientific": "Calanus finmarchicus（北大西洋的橈足類，原廠稿寫挪威北部沿岸特別多。油的主要脂質是蠟酯。不是磷蝦 Euphausia superba，也不是鯡魚濃縮的鯨蠟烯酸油，更不是雨生紅球藻的蝦紅素原料。）",
+        "trade": "Zooca Calanus Oil（Calanus AS 的商品名；亦寫 Zooca Lipids）"
+      },
+      "patent": {
+        "note": "2026-11-28 以 Zooca、Calanus AS、Calanus finmarchicus、wax ester 查公開專利，沒有對到標題寫這個商品名、申請人為 Calanus AS 的公告號。不把沒查完寫成無。",
+        "refs": [],
+        "status": "unknown"
+      },
+      "sources": [
+        {
+          "accessed": "2026-11-28",
+          "channel": "news",
+          "publisher": "NutraIngredients",
+          "title": "Lehvoss and Zooca combine calanus oil with Golden Omega to launch ZOΩ3GO Softgels",
+          "url": "https://www.nutraingredients.com/Article/2026/09/11/lehvoss-and-zooca-combine-calanus-oil-with-golden-omega-to-launch-zo3go-softgels/",
+          "whatItContributes": "2026-09-11：成品軟膠囊把 Zooca 的 Calanus finmarchicus 油和鯷魚魚油放在一起。蠟酯與魚油三酸甘油酯是兩種脂質。"
+        },
+        {
+          "accessed": "2026-11-28",
+          "channel": "supplier_site",
+          "publisher": "Zooca（Calanus AS）",
+          "title": "Zooca Calanus Oil",
+          "url": "https://zooca.eu/zooca-lipids/",
+          "whatItContributes": "物種、蠟酯、policosanol、SDA／EPA／DHA 與蝦紅素的公司說法。"
+        },
+        {
+          "accessed": "2026-11-28",
+          "channel": "paper",
+          "publisher": "Marine Drugs",
+          "title": "Marine Drugs 2025",
+          "url": "https://www.mdpi.com/1660-3397/23/4/139",
+          "whatItContributes": "266 人、2 g 與 4 g、12 週，以及摘要裡的 p 值與組成表。"
+        },
+        {
+          "accessed": "2026-11-28",
+          "channel": "news",
+          "publisher": "Zooca（Calanus AS）",
+          "title": "Zooca and RYC strategic cooperation",
+          "url": "https://www.mynewsdesk.com/no/calanus-as/pressreleases/zooca-r-calanus-as-and-ryc-announce-strategic-cooperation-to-bring-zooca-r-calanus-r-oil-to-the-chinese-market-3351660",
+          "whatItContributes": "2024-10-30：原廠稿寫若羽臣的跨境獨家範圍含台灣，並寫蠟酯 91.5%。"
+        },
+        {
+          "accessed": "2026-11-28",
+          "channel": "news",
+          "publisher": "福布斯中國",
+          "title": "若羽臣與 Zooca Calanus 達成合作",
+          "url": "https://www.forbeschina.com/investment/68970",
+          "whatItContributes": "2024-10-29：寫大中華區品牌總代與紅寶石油原料總經銷。該段沒有寫「台灣」。"
+        },
+        {
+          "accessed": "2026-11-28",
+          "channel": "other",
+          "publisher": "LEHVOSS Nutrition",
+          "title": "Zooca Calanus Oil product profile",
+          "url": "https://www.lehvoss-nutrition.com/images/news/8th_October_2026/Zooca_PPS_NA_Oct2026_2.pdf",
+          "whatItContributes": "常見 1–2 g、43 人試驗的經銷頁說法，以及歐盟 3.1 g/日上限。"
+        }
+      ],
+      "supply": {
+        "relationship": "unknown",
+        "relationshipNote": "2026-11-28 以 Zooca、Calanus Oil、Calanus finmarchicus、哲水蚤、飛馬哲，搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索，並打開 Zooca 2024-10-30 新聞稿、福布斯中國 2024-10-29 報導與 Lehvoss 產品頁。Zooca 稿寫若羽臣是中國大陸、香港、澳門與台灣跨境電商平台的獨家經銷。福布斯中文寫若羽臣是大中華區品牌總代，以及紅寶石油原料的總經銷，該段沒有再寫「台灣」二字。兩處用詞不同，都留下。若羽臣不是這次查到的台灣登記公司。沒有看到台灣公司自己的原料產品頁。查核日 2026-11-28。",
+        "supplierCountry": "挪威",
+        "supplierName": "Zooca（Calanus AS）",
+        "taiwanPartyName": "若羽臣（Ruoyuchen；中國公司。稿上的範圍寫到台灣）"
+      },
+      "tfda": {
+        "evidenceNotes": "Zooca、Calanus、飛馬哲在原料和添加物都是 0 筆。平台上的魚油、磷蝦油、藻油 DHA 與雨生紅球藻蝦紅素不是這支蠟酯油。查無不是准用，也不是禁用。更新歷程到 2026-11-27 沒有這些詞。",
+        "lookupDate": "2026-11-28",
+        "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+        "officialCrosscheck": {
+          "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+          "done": true,
+          "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+          "notes": "2026-11-28 連線 consumer.fda.gov.tw 出現 SSL_ERROR_SYSCALL，沒有取得官方詳細頁。查詢助手細節時間戳 2026-11-27 06:21。上述 0 筆以助手資料為準。"
+        },
+        "queries": [
+          {
+            "category": "",
+            "keyword": "Zooca",
+            "matchedName": "",
+            "note": "商品名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Calanus",
+            "matchedName": "",
+            "note": "學名屬名 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "飛馬哲",
+            "matchedName": "",
+            "note": "中文 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "ingredient",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Calanus",
+            "matchedName": "",
+            "note": "學名在添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Zooca",
+            "matchedName": "",
+            "note": "商品名在添加物 0 筆。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "additive",
+            "unconfirmedSafety": false
+          },
+          {
+            "category": "",
+            "keyword": "Calanus",
+            "matchedName": "",
+            "note": "助手更新歷程（2026-11-01 至 2026-11-27）沒有 Zooca、Calanus 或飛馬哲。資料時間戳 2026-11-27 06:21。",
+            "restrictionNote": "",
+            "resultCount": 0,
+            "tab": "history",
+            "unconfirmedSafety": false
+          }
+        ],
+        "usable": "not_found"
       }
     }
   ],

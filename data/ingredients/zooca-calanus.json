@@ -1,0 +1,182 @@
+{
+  "id": "zooca-calanus",
+  "example": false,
+  "names": {
+    "commonZh": "飛馬哲水蚤油（蠟酯）",
+    "commonEn": "Calanus finmarchicus oil (wax esters)",
+    "trade": "Zooca Calanus Oil（Calanus AS 的商品名；亦寫 Zooca Lipids）",
+    "scientific": "Calanus finmarchicus（北大西洋的橈足類，原廠稿寫挪威北部沿岸特別多。油的主要脂質是蠟酯。不是磷蝦 Euphausia superba，也不是鯡魚濃縮的鯨蠟烯酸油，更不是雨生紅球藻的蝦紅素原料。）"
+  },
+  "supply": {
+    "supplierName": "Zooca（Calanus AS）",
+    "supplierCountry": "挪威",
+    "relationship": "unknown",
+    "taiwanPartyName": "若羽臣（Ruoyuchen；中國公司。稿上的範圍寫到台灣）",
+    "relationshipNote": "2026-11-28 以 Zooca、Calanus Oil、Calanus finmarchicus、哲水蚤、飛馬哲，搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索，並打開 Zooca 2024-10-30 新聞稿、福布斯中國 2024-10-29 報導與 Lehvoss 產品頁。Zooca 稿寫若羽臣是中國大陸、香港、澳門與台灣跨境電商平台的獨家經銷。福布斯中文寫若羽臣是大中華區品牌總代，以及紅寶石油原料的總經銷，該段沒有再寫「台灣」二字。兩處用詞不同，都留下。若羽臣不是這次查到的台灣登記公司。沒有看到台灣公司自己的原料產品頁。查核日 2026-11-28。"
+  },
+  "tfda": {
+    "usable": "not_found",
+    "evidenceNotes": "Zooca、Calanus、飛馬哲在原料和添加物都是 0 筆。平台上的魚油、磷蝦油、藻油 DHA 與雨生紅球藻蝦紅素不是這支蠟酯油。查無不是准用，也不是禁用。更新歷程到 2026-11-27 沒有這些詞。",
+    "lookupDate": "2026-11-28",
+    "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+    "queries": [
+      {
+        "tab": "ingredient",
+        "keyword": "Zooca",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名 0 筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Calanus",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "學名屬名 0 筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "飛馬哲",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "中文 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "Calanus",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "學名在添加物 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "Zooca",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名在添加物 0 筆。"
+      },
+      {
+        "tab": "history",
+        "keyword": "Calanus",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "助手更新歷程（2026-11-01 至 2026-11-27）沒有 Zooca、Calanus 或飛馬哲。資料時間戳 2026-11-27 06:21。"
+      }
+    ],
+    "officialCrosscheck": {
+      "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+      "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+      "done": true,
+      "notes": "2026-11-28 連線 consumer.fda.gov.tw 出現 SSL_ERROR_SYSCALL，沒有取得官方詳細頁。查詢助手細節時間戳 2026-11-27 06:21。上述 0 筆以助手資料為準。"
+    }
+  },
+  "efficacy": {
+    "claimedBenefits": [
+      "Zooca 產品頁：油來自 Calanus finmarchicus，主要是液態蠟，並寫含海洋 policosanol、SDA、EPA、DHA 與蝦紅素。頁上的肌肉、體組成與抗發炎是公司句子，沒有人數。",
+      "Marine Drugs 2025（DOI 10.3390/md23040139）：266 名肥胖且有胰島素阻抗的人，12 週，分 2 g/日、4 g/日、2 g/日加生活調整、石蠟油安慰劑。摘要寫 HOMA 的變化受起始值影響（交互作用 p = 0.011）；事後分析裡，2 g 加生活調整的估計差是 −0.19（p = 0.021），輕度阻抗者用 4 g 的估計差是 −0.76（p = 0.043）。",
+      "Lehvoss 2026-10 產品頁：另寫一項 43 名成人、2 g/日、12–16 週的隨機雙盲試驗，用來談血糖與胰島素敏感度。這和 266 人那篇不是同一項。歐盟新穎食品修正 2025/1513 的上限，頁上寫一般 14 歲以上每日 3.1 g，且蝦紅素低於 7.75 mg/日。"
+    ],
+    "suggestedDosage": "Lehvoss 頁寫常見是每日 1–2 g（兩到四顆 500 mg）。論文把 2 g/日寫成既往常用量，並另外測了 4 g/日。同頁寫歐盟上限 3.1 g/日（14 歲以上）。",
+    "dosageNote": "1–2 g 是經銷頁說的常見補充劑量。2 g 與 4 g 是 2025 年試驗的每日劑量。3.1 g 是該頁所引的歐盟新穎食品上限，不是台灣平台的限量。平台這次沒有這一筆。"
+  },
+  "patent": {
+    "status": "unknown",
+    "refs": [],
+    "note": "2026-11-28 以 Zooca、Calanus AS、Calanus finmarchicus、wax ester 查公開專利，沒有對到標題寫這個商品名、申請人為 Calanus AS 的公告號。不把沒查完寫成無。"
+  },
+  "literature": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "Calanus Oil and Lifestyle Interventions Improve Glucose Homeostasis in Obese Subjects with Insulin Resistance",
+        "url": "https://www.mdpi.com/1660-3397/23/4/139",
+        "note": "Marine Drugs，2025。DOI 10.3390/md23040139。266 人、2 g 或 4 g、12 週。材料寫 Zooca Lipids，Tromsø。表 4 寫每 100 g 油含 EPA 6.9 g、DHA 6.4 g、蝦紅素 0.1 g。"
+      }
+    ],
+    "note": "這篇是人體隨機雙盲試驗，主要終點受起始 HOMA 影響。43 人那項只出現在經銷頁，這次沒有另對到論文，不併進證據等級。"
+  },
+  "evidenceLevels": [
+    "clinical"
+  ],
+  "images": [
+    {
+      "url": "https://zooca.eu/wp-content/uploads/2021/09/Zooca_Lipids-500.jpg",
+      "localPath": "",
+      "caption": "Zooca 官網脂質產品頁的圖片。",
+      "source": "official_site"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Lehvoss and Zooca combine calanus oil with Golden Omega to launch ZOΩ3GO Softgels",
+      "url": "https://www.nutraingredients.com/Article/2026/09/11/lehvoss-and-zooca-combine-calanus-oil-with-golden-omega-to-launch-zo3go-softgels/",
+      "publisher": "NutraIngredients",
+      "channel": "news",
+      "accessed": "2026-11-28",
+      "whatItContributes": "2026-09-11：成品軟膠囊把 Zooca 的 Calanus finmarchicus 油和鯷魚魚油放在一起。蠟酯與魚油三酸甘油酯是兩種脂質。"
+    },
+    {
+      "title": "Zooca Calanus Oil",
+      "url": "https://zooca.eu/zooca-lipids/",
+      "publisher": "Zooca（Calanus AS）",
+      "channel": "supplier_site",
+      "accessed": "2026-11-28",
+      "whatItContributes": "物種、蠟酯、policosanol、SDA／EPA／DHA 與蝦紅素的公司說法。"
+    },
+    {
+      "title": "Marine Drugs 2025",
+      "url": "https://www.mdpi.com/1660-3397/23/4/139",
+      "publisher": "Marine Drugs",
+      "channel": "paper",
+      "accessed": "2026-11-28",
+      "whatItContributes": "266 人、2 g 與 4 g、12 週，以及摘要裡的 p 值與組成表。"
+    },
+    {
+      "title": "Zooca and RYC strategic cooperation",
+      "url": "https://www.mynewsdesk.com/no/calanus-as/pressreleases/zooca-r-calanus-as-and-ryc-announce-strategic-cooperation-to-bring-zooca-r-calanus-r-oil-to-the-chinese-market-3351660",
+      "publisher": "Zooca（Calanus AS）",
+      "channel": "news",
+      "accessed": "2026-11-28",
+      "whatItContributes": "2024-10-30：原廠稿寫若羽臣的跨境獨家範圍含台灣，並寫蠟酯 91.5%。"
+    },
+    {
+      "title": "若羽臣與 Zooca Calanus 達成合作",
+      "url": "https://www.forbeschina.com/investment/68970",
+      "publisher": "福布斯中國",
+      "channel": "news",
+      "accessed": "2026-11-28",
+      "whatItContributes": "2024-10-29：寫大中華區品牌總代與紅寶石油原料總經銷。該段沒有寫「台灣」。"
+    },
+    {
+      "title": "Zooca Calanus Oil product profile",
+      "url": "https://www.lehvoss-nutrition.com/images/news/8th_October_2026/Zooca_PPS_NA_Oct2026_2.pdf",
+      "publisher": "LEHVOSS Nutrition",
+      "channel": "other",
+      "accessed": "2026-11-28",
+      "whatItContributes": "常見 1–2 g、43 人試驗的經銷頁說法，以及歐盟 3.1 g/日上限。"
+    }
+  ],
+  "discovery": {
+    "channel": "news",
+    "scoutDate": "2026-11-28",
+    "notes": "從 NutraIngredients 2026-09-11 的 ZOΩ3GO 軟膠囊新聞進入 Zooca 產品頁、Marine Drugs 2025 與 2024-10 的兩則若羽臣合作稿。軟膠囊裡的鯷魚油不是這支。福布斯與原廠稿對「總代／跨境獨家」用詞不同，沒有併成同一句。鯨蠟烯酸濃縮魚油與磷蝦油都不是這個物種。"
+  }
+}

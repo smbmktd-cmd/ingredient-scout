@@ -1,0 +1,186 @@
+{
+  "id": "ingood-clear",
+  "example": false,
+  "names": {
+    "commonZh": "扁豆蛋白水解物（透明飲料用）",
+    "commonEn": "lentil protein hydrolysate",
+    "trade": "INGOOD CLEAR（Ingood by Olga 的商品名；亦寫 Ingood Clear）",
+    "scientific": "Lens culinaris（法國非基改扁豆的種子做成水解物。Les Echos 與 Agra 寫水解物、蛋白高於 70%。Food Ingredients First 有一處寫 isolate。不是豌豆，也不是蠶豆。白扁豆 Dolichos lablab 與未確認的山扁豆是另外的列。）"
+  },
+  "supply": {
+    "supplierName": "Ingood by Olga",
+    "supplierCountry": "法國",
+    "relationship": "unknown",
+    "taiwanPartyName": "本次查無台灣關聯廠商",
+    "relationshipNote": "2026-11-28 以 INGOOD CLEAR、Ingood Clear、Ingood by Olga、Olga、扁豆蛋白水解、lentil protein hydrolysate、Lens culinaris，搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索，並打開 Ingredients Network 產品頁、Food Ingredients First 的供應商頁與展後報導。原廠頁與展會報導沒有台灣公司。盛美股份有限公司的頁面賣的是 Australian Plant Proteins 的黃扁豆與紅扁豆蛋白粉，頁上沒有 INGOOD 或 Olga。同化合物的另一家蛋白粉不是這個商品名的經銷。同日再以「Ingood 台灣」「INGOOD CLEAR Taiwan」獨立複查，沒有台灣廠商的產品頁或代理頁。查核日 2026-11-28。"
+  },
+  "tfda": {
+    "usable": "listed_food_ingredient",
+    "evidenceNotes": "INGOOD 在原料和添加物都是 0 筆。小扁豆與 Lens culinaris 命中同一筆（id 16946），可供直接食用，部位種子，備註空白。關鍵字「扁豆」另有白扁豆，以及未確認的山扁豆，那兩列不是小扁豆。列名沒有水解物或蛋白百分比，不是這個規格的核准。",
+    "lookupDate": "2026-11-28",
+    "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+    "queries": [
+      {
+        "tab": "ingredient",
+        "keyword": "INGOOD",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名 0 筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "小扁豆",
+        "category": "",
+        "resultCount": 1,
+        "matchedName": "小扁豆；金麥豌；臭生豆",
+        "restrictionNote": "id 16946。次分類為草、木本植物類(2)可供直接食用。外文名 Lentil。學名 Lens esculenta Moench, Lens culinaris。部位種子。備註空白。",
+        "unconfirmedSafety": false,
+        "note": "種子這一筆。沒有水解物規格。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "Lens culinaris",
+        "category": "",
+        "resultCount": 1,
+        "matchedName": "小扁豆；金麥豌；臭生豆",
+        "restrictionNote": "同一筆 id 16946。",
+        "unconfirmedSafety": false,
+        "note": "學名命中同一列。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "扁豆",
+        "category": "",
+        "resultCount": 4,
+        "matchedName": "小扁豆；另有白扁豆與山扁豆",
+        "restrictionNote": "白扁豆是 Dolichos lablab，部位有葉與種子。山扁豆在未確認分類。小扁豆是 id 16946。",
+        "unconfirmedSafety": true,
+        "note": "因為山扁豆是未確認，所以這個關鍵字標 true。INGOOD CLEAR 對到的是小扁豆種子。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "小扁豆",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "中文在添加物 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "Lens",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "學名在添加物 0 筆。海葡萄的學名含 lentillifera，那是另一個詞，這次用 Lens 沒有命中。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "INGOOD",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名在添加物 0 筆。"
+      },
+      {
+        "tab": "history",
+        "keyword": "小扁豆",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "助手更新歷程（2026-11-01 至 2026-11-27）沒有小扁豆或 INGOOD。資料時間戳 2026-11-27 06:21。"
+      }
+    ],
+    "officialCrosscheck": {
+      "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+      "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+      "done": true,
+      "notes": "2026-11-28 連線 consumer.fda.gov.tw 的小扁豆詳細頁（id 16946）出現 SSL_ERROR_SYSCALL，沒有取得官方 HTML。查詢助手細節時間戳 2026-11-27 06:21，欄位含該官方詳細頁網址。山扁豆的未確認沒有併進 id 16946。"
+    }
+  },
+  "efficacy": {
+    "claimedBenefits": [
+      "Food Ingredients First 2026-11-25：Fi Europe 現場推出透明扁豆蛋白，報導寫蛋白高於 70%，並寫概念飲料每 500 mL 有 20 g 蛋白。同篇有一處用 isolate。礦物質寫鉀與鎂，而且說概念飲沒有另加電解質。",
+      "NutraIngredients 的產品特稿（2026-10-02，標為宣傳內容）：寫法國非基改扁豆的水解物，蛋白高於 70%，溶於酸性飲料，礦物質寫鉀、鈉與鋅。",
+      "Les Echos 2026-11-16 與 Agra 2026-09-30：兩篇都寫法國扁豆蛋白水解物，蛋白高於 70%，用來做透明、低黏度的蛋白飲料。沒有寫臨床人數。"
+    ],
+    "suggestedDosage": "這次打開的頁面沒有寫每日毫克。展場概念是每 500 mL 飲料 20 g 蛋白，不是原料的建議食用量。",
+    "dosageNote": "20 g 是報導裡的成品蛋白量，不是供應商的每日建議，也不是平台上限。平台只列小扁豆種子，沒有蛋白百分比。"
+  },
+  "patent": {
+    "status": "unknown",
+    "refs": [],
+    "note": "2026-11-28 以 INGOOD CLEAR、Ingood by Olga、lentil protein hydrolysate 查公開專利，沒有對到標題寫這個商品名的公告號。不把沒查完寫成無。"
+  },
+  "literature": {
+    "status": "unknown",
+    "refs": [],
+    "note": "展會與新聞寫的是溶解、黏度與蛋白含量。這次沒有對到這支水解物的同儕論文，不把功能句子寫成臨床，也不把尚未查完寫成無。"
+  },
+  "evidenceLevels": [],
+  "images": [
+    {
+      "url": "https://ingoodbyolga.com/wp-content/uploads/2023/04/cropped-ing-270x270.png",
+      "localPath": "",
+      "caption": "Ingood by Olga 官網的標誌，不是 INGOOD CLEAR 的粉末照片。",
+      "source": "official_site"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Fi Europe 2026 review: Whey scarcity accelerates shift toward alternative proteins",
+      "url": "https://www.foodingredientsfirst.com/news/fi-europe-2026-whey-prices-accelerate-alternative-proteins.html",
+      "publisher": "Food Ingredients First",
+      "channel": "exhibition",
+      "accessed": "2026-11-28",
+      "whatItContributes": "2026-11-25：Fi Europe 現場的透明扁豆蛋白、20 g／500 mL，以及鉀、鎂與 isolate 的用詞。"
+    },
+    {
+      "title": "Olga mise sur la lentille pour verdir les boissons des sportifs",
+      "url": "https://www.lesechos.fr/pme-regions/bretagne/olga-mise-sur-la-lentille-pour-verdir-les-boissons-des-sportifs-2262830",
+      "publisher": "Les Echos",
+      "channel": "news",
+      "accessed": "2026-11-28",
+      "whatItContributes": "2026-11-16：法國扁豆蛋白水解物，蛋白高於 70%，商品名 Ingood Clear。"
+    },
+    {
+      "title": "Ingood Clear",
+      "url": "https://www.ingredientsnetwork.com/ingoodclear-prod1329314.html",
+      "publisher": "Ingredients Network",
+      "channel": "supplier_site",
+      "accessed": "2026-11-28",
+      "whatItContributes": "水解物、蛋白高於 70%、法國非基改扁豆，以及公司地址 Noyal-sur-Vilaine。"
+    },
+    {
+      "title": "INGOOD CLEAR product innovation",
+      "url": "https://www.nutraingredients.com/Product-innovations/ingoodclear-a-french-lentil-protein-hydrolysate-rich-in-protein-and-naturally-occurring-minerals/",
+      "publisher": "NutraIngredients",
+      "channel": "industry_report",
+      "accessed": "2026-11-28",
+      "whatItContributes": "宣傳特稿：水解物，礦物質寫鉀、鈉、鋅。與展後報導的鉀、鎂不同。"
+    },
+    {
+      "title": "Ingood by Olga supplier profile",
+      "url": "https://www.foodingredientsfirst.com/supplier-profiles/ingood-by-olga.html",
+      "publisher": "Food Ingredients First",
+      "channel": "other",
+      "accessed": "2026-11-28",
+      "whatItContributes": "供應商頁把 INGOOD CLEAR 列在健康原料，和 Lengood、Sulfodyne 分開。"
+    }
+  ],
+  "discovery": {
+    "channel": "exhibition",
+    "scoutDate": "2026-11-28",
+    "notes": "從 Food Ingredients First 2026-11-25 的 Fi Europe 展後報導進入 Les Echos、Ingredients Network 與 NutraIngredients 特稿。isolate 與水解物、鉀鎂與鉀鈉鋅都留下。盛美的澳洲扁豆蛋白沒有寫成這支的經銷。山扁豆的未確認列沒有併進小扁豆。"
+  }
+}

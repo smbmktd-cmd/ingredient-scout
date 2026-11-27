@@ -1,0 +1,224 @@
+{
+  "id": "glycare-2fl-dfl",
+  "example": false,
+  "names": {
+    "commonZh": "2′-岩藻糖基乳糖與雙岩藻糖基乳糖混合物",
+    "commonEn": "2'-fucosyllactose and difucosyllactose mixture",
+    "trade": "GLYCARE 2FL/DFL（dsm-firmenich 的商品名；2026-03-05 新聞稿另寫規格 8001）",
+    "scientific": "不適用植物學名。寡糖混合物。加拿大衛生部 2022-07-22 的新穎食品表把大腸桿菌 K-12（DH1）MDO MAP1001d 產的 2′-FL 列在 Glycom A/S。台灣 2026-06-24 公告的混合物也寫這個菌株。不是半乳寡糖，也不是蔗果三糖。單獨的 2′-岩藻糖基乳糖是平台上的另一筆。"
+  },
+  "supply": {
+    "supplierName": "dsm-firmenich（商品源自丹麥 Glycom）",
+    "supplierCountry": "瑞士",
+    "relationship": "taiwan_distributor",
+    "taiwanPartyName": "創百股份有限公司（自述為 dsm-firmenich 授權經銷；打開的產品頁寫 Glycare 2FL，不是 2FL/DFL）。仁友興業股份有限公司另有 GLYCARE HMOs 家族頁，沒有寫代理。",
+    "relationshipNote": "2026-11-28 以 GLYCARE、Glycom、2FL/DFL、2'-岩藻糖基乳糖、雙岩藻糖基乳糖、母乳寡糖、HMO、dsm-firmenich、帝斯曼，搭配台灣、臺灣、Taiwan、代理、總代理、經銷、供應商檢索，並打開創百產品頁、創百 hmos.com.tw 聯絡頁、仁友的 GLYCARE 頁，以及 dsm-firmenich 產品頁。創百聯絡頁自述「dsm-firmenich帝斯曼-芬美意營養品公司授權經銷商」。創百產品頁標題是 Glycare 2FL，製程句子寫 MAP1001d，連結的官方詳細頁 id 是 7582；這次助手的單獨 2′-FL 是 id 17558、混合物是 id 17747。首頁把 GRN 546、650、815 寫在 Glycare 2FL 那一句；GRN 815 的標題是 2'-FL/DFL 混合物。仁友頁只寫 GLYCARE HMOs 家族與嬰兒配方，沒有寫經銷，也沒有寫 2FL/DFL。兩頁都是公司自己的網站，不是 dsm-firmenich 官網的夥伴名單。沒有把 2FL 的自述授權升格成混合物的原廠獨家。查核日 2026-11-28。"
+  },
+  "tfda": {
+    "usable": "listed_food_ingredient",
+    "evidenceNotes": "GLYCARE 在原料和添加物是 0 筆。混合物（id 17747）有列，菌株寫大腸桿菌 K-12 DH1 MDO MAP1001d，限嬰兒與較大嬰兒配方，以及專供七歲以下兒童的乳粉或類似產品。配方限量 1.6 g/L，兒童乳粉 1.2 g/L，並要標示基因改造微生物的生產來源。單獨的 2′-岩藻糖基乳糖是 id 17558，用途相同但限量都是 1.2 g/L，不是這個混合物。不是未確認分類。",
+    "lookupDate": "2026-11-28",
+    "lookupToolUrl": "https://yoyosu890524-byte.github.io/tfda-lookup/",
+    "queries": [
+      {
+        "tab": "ingredient",
+        "keyword": "GLYCARE",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名 0 筆。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "雙岩藻",
+        "category": "",
+        "resultCount": 1,
+        "matchedName": "2ʹ-岩藻糖基乳糖與雙岩藻糖基乳糖混合物",
+        "restrictionNote": "id 17747。衛授食字第1151300977號，2026-06-24 生效。菌株 K-12 DH1 MDO MAP1001d。限嬰兒與較大嬰兒配方食品及專供七歲以下兒童之乳粉或類似產品。配方 1.6 g/L，兒童乳粉 1.2 g/L。須標示基因改造微生物生產來源，終產品得免標。",
+        "unconfirmedSafety": false,
+        "note": "這一筆是混合物。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "difucosyllactose",
+        "category": "",
+        "resultCount": 1,
+        "matchedName": "2ʹ-岩藻糖基乳糖與雙岩藻糖基乳糖混合物",
+        "restrictionNote": "同一筆 id 17747。",
+        "unconfirmedSafety": false,
+        "note": "英文命中混合物。"
+      },
+      {
+        "tab": "ingredient",
+        "keyword": "岩藻糖基乳糖",
+        "category": "",
+        "resultCount": 2,
+        "matchedName": "2′-岩藻糖基乳糖；以及與雙岩藻糖基乳糖的混合物",
+        "restrictionNote": "id 17558 是單獨 2′-FL，含 BL21 (DE3) #1540、MAP1001d、K-12 MG1655 INB000846 三種生產規定，限量都是 1.2 g/L。id 17747 是混合物。",
+        "unconfirmedSafety": false,
+        "note": "兩筆都不是未確認分類。規格不同。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "岩藻糖基乳糖",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "中文在添加物 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "GLYCARE",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "商品名在添加物 0 筆。"
+      },
+      {
+        "tab": "additive",
+        "keyword": "difucosyllactose",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "英文在添加物 0 筆。"
+      },
+      {
+        "tab": "history",
+        "keyword": "岩藻糖",
+        "category": "",
+        "resultCount": 0,
+        "matchedName": "",
+        "restrictionNote": "",
+        "unconfirmedSafety": false,
+        "note": "助手更新歷程（2026-11-01 至 2026-11-27）的新增與變更文字沒有岩藻糖或 GLYCARE。資料時間戳 2026-11-27 06:21。混合物列已在這份資料裡。"
+      }
+    ],
+    "officialCrosscheck": {
+      "ingredientPlatformUrl": "https://consumer.fda.gov.tw/Food/Material.aspx?nodeID=160",
+      "additiveListUrl": "https://consumer.fda.gov.tw/Law/FoodAdditivesList.aspx?nodeID=521",
+      "done": true,
+      "notes": "2026-11-28 連線 consumer.fda.gov.tw 的混合物詳細頁（id 17747）出現 SSL_ERROR_SYSCALL，沒有取得官方 HTML。查詢助手細節時間戳 2026-11-27 06:21，備註已收錄衛授食字第1151300977號全文要點。公告頁網址 https://www.fda.gov.tw/TC/newsContent.aspx?id=31579 的標題與日期同為 2026-06-24。"
+    }
+  },
+  "efficacy": {
+    "claimedBenefits": [
+      "dsm-firmenich 產品頁：2'FL 在母乳中約 2 g/L，並寫臨床研究描述 2'FL 對嬰兒健康有正向支持。DFL 的句子寫的是臨床前：可能減少病原菌黏附，並選擇性支持雙歧桿菌。頁上同時寫「will be available」與「is available commercially」。",
+      "2026-03-05 公司新聞：馬來西亞與泰國核准 2FL/DFL（GLYCARE 2FL/DFL 8001）用於嬰兒配方、較大嬰兒配方與兒童配方奶粉。該稿沒有寫台灣，也沒有寫人數。",
+      "產品頁引用的 Coppa 2006 與 Cravioto 1991 是細胞黏附試驗，Yu 2013 是嬰兒菌群培養。這些不是混合物的人體試驗。"
+    ],
+    "suggestedDosage": "台灣公告：嬰兒與較大嬰兒配方 1.6 g/L，專供七歲以下兒童的乳粉或類似產品 1.2 g/L，以即食或沖調後計算。2019-12-02 NutraIngredients 對歐盟新穎食品的報導另寫嬰兒配方 1.6 g/L、較大嬰兒與幼兒食品 1.2 g/L，並寫補充品可用於不含嬰兒的一般族群。商品頁沒有寫成人每日毫克。",
+    "dosageNote": "1.6 g/L 與 1.2 g/L 是台灣公告的食品限量，不是保健食品的每日膠囊劑量。歐盟補充品那一句來自 2019 年報導，這次的商品頁沒有對應毫克。單獨 2′-FL（id 17558）的限量都是 1.2 g/L，不能套用混合物的 1.6 g/L。"
+  },
+  "patent": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "US10500221B2 Crystalline difucosyllactose",
+        "url": "https://patents.google.com/patent/US10500221B2/en",
+        "note": "受讓人 Glycom A/S。請求項是結晶雙岩藻糖基乳糖，並寫可作為 2′-FL 製程的副產物。標題沒有 GLYCARE。讀取日 2026-11-28。"
+      }
+    ],
+    "note": "有 Glycom 的 DFL 結晶專利。沒有把商品名寫進專利標題。"
+  },
+  "literature": {
+    "status": "yes",
+    "refs": [
+      {
+        "title": "Human milk oligosaccharides inhibit the adhesion to Caco-2 cells of diarrheal pathogens",
+        "url": "https://doi.org/10.1203/01.pdr.0000200805.45593.17",
+        "note": "Pediatric Research，2006。產品頁把它列為 DFL 相關的細胞黏附文獻。這次沒有讀完全文，不把它寫成混合物的臨床。"
+      }
+    ],
+    "note": "產品頁列出的是細胞與菌群培養。頁上「2'FL 的臨床研究」沒有給出這支混合物的試驗人數。證據等級只標細胞。"
+  },
+  "evidenceLevels": [
+    "cell"
+  ],
+  "images": [
+    {
+      "url": "https://www.dsm-firmenich.com/en/businesses/health-nutrition-care/products/hmos/hmos-for-early-life/glycare-2fl-dfl.thumb.800.480.png",
+      "localPath": "",
+      "caption": "dsm-firmenich 官網 GLYCARE 2FL/DFL 產品頁的頁面縮圖，不是粉末近照。",
+      "source": "official_site"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Monthly Update: China and Global Food Regulatory Highlights, June 2026",
+      "url": "https://www.zmuni.com/en/news/monthlyupdatechinaglobalfoodregulatoryhighlightsjune2026/",
+      "publisher": "ZMUni Compliance Centre",
+      "channel": "industry_report",
+      "accessed": "2026-11-28",
+      "whatItContributes": "2026-06 法規月報：台灣 2026-06-24 以衛授食字第1151300977號訂定 MAP1001d 所產 2'-FL/DFL 混合物的使用限制。"
+    },
+    {
+      "title": "GLYCARE 2FL/DFL",
+      "url": "https://www.dsm-firmenich.com/en/businesses/health-nutrition-care/products/hmos/hmos-for-early-life/glycare-2fl-dfl.html",
+      "publisher": "dsm-firmenich",
+      "channel": "supplier_site",
+      "accessed": "2026-11-28",
+      "whatItContributes": "商品名、母乳中 2'FL 約 2 g/L，以及 DFL 的臨床前句子。頁上同時有即將上市與已經商業化兩種說法。"
+    },
+    {
+      "title": "dsm-firmenich strengthens HMO offering in Asia",
+      "url": "https://www.dsm-firmenich.com/en/businesses/health-nutrition-care/news/press-releases/2026-03-05-dsm-firmenich-strengthens-hmo-offering-in-asia-with-new-regulatory-approvals.html",
+      "publisher": "dsm-firmenich",
+      "channel": "news",
+      "accessed": "2026-11-28",
+      "whatItContributes": "2026-03-05：馬來西亞與泰國核准 GLYCARE 2FL/DFL 8001。稿內沒有台灣。"
+    },
+    {
+      "title": "台灣食藥署公告 1151300977",
+      "url": "https://www.fda.gov.tw/TC/newsContent.aspx?id=31579",
+      "publisher": "衛生福利部食品藥物管理署",
+      "channel": "other",
+      "accessed": "2026-11-28",
+      "whatItContributes": "公告標題與 2026-06-24 的日期。詳細限量以助手收錄的公告正文為準，因為詳細頁當日打不開。"
+    },
+    {
+      "title": "US10500221B2",
+      "url": "https://patents.google.com/patent/US10500221B2/en",
+      "publisher": "Google Patents",
+      "channel": "patent",
+      "accessed": "2026-11-28",
+      "whatItContributes": "Glycom 的結晶 DFL。標題沒有商品名。"
+    },
+    {
+      "title": "Glycare 2FL",
+      "url": "https://www.chambio.com/products/hmo-glycare/",
+      "publisher": "創百股份有限公司",
+      "channel": "other",
+      "accessed": "2026-11-28",
+      "whatItContributes": "台灣頁寫 Glycare 2FL 與 MAP1001d。標題不是 2FL/DFL 混合物。"
+    },
+    {
+      "title": "創百聯絡頁",
+      "url": "https://www.hmos.com.tw/Contact%20us.html",
+      "publisher": "創百股份有限公司",
+      "channel": "other",
+      "accessed": "2026-11-28",
+      "whatItContributes": "頁面自述為 dsm-firmenich 授權經銷商。這是公司自述。"
+    },
+    {
+      "title": "GLYCARE HMOs",
+      "url": "https://www.jimroyal-trade.com/nutritional-items-zh/glycare-hmos/",
+      "publisher": "仁友興業股份有限公司",
+      "channel": "other",
+      "accessed": "2026-11-28",
+      "whatItContributes": "台灣頁列出 GLYCARE HMOs 家族。沒有寫代理，也沒有寫 2FL/DFL。"
+    }
+  ],
+  "discovery": {
+    "channel": "industry_report",
+    "scoutDate": "2026-11-28",
+    "notes": "從 ZMUni 2026 年 6 月法規月報的台灣 2'-FL/DFL 公告，對到食藥署 1151300977、助手 id 17747、加拿大衛生部把 MAP1001d 列在 Glycom 的表，以及 dsm-firmenich 的 GLYCARE 2FL/DFL 產品頁。單獨 2′-FL（id 17558）沒有併進混合物。創百自述的是 2FL 授權經銷，沒有升格成混合物的原廠獨家。"
+  }
+}
